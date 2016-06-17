@@ -11,10 +11,14 @@
   ],
   "scripts": {
     "lint": "tslint \"src/**/*.ts\" -e \"src/typings/**\"",
-    "build": "rm -rf dist && tsc",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc",
     "test-spec": "blue-tape \"test/**/*.spec.js\" | tap-spec",
     "test-cov": "istanbul cover --print none node_modules/blue-tape/bin/blue-tape.js -- \"test/**/*.spec.js\" | tap-spec",
-    "test": "npm run lint && npm run build && npm run test-cov",
+    "pretest": "npm run lint && npm run build",
+    "test": "npm run test-cov",
+    "populate": "node scripts/fixtures.js && node scripts/scrape.js && node scripts/extract.js",
     "prepublish": "typings install && npm run build"
   },
   "repository": {
