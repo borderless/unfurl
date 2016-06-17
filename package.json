@@ -1,6 +1,6 @@
 {
   "name": "scrappy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Extract rich metadata from URLs",
   "main": "dist/index.js",
   "files": [
