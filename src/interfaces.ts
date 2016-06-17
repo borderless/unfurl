@@ -47,7 +47,7 @@ export interface HtmlMeta {
   language?: string
   canonical?: string
   date?: string // Date
-  [key: string]: string
+  [key: string]: string | void
 }
 
 export interface TwitterMeta {
@@ -73,7 +73,7 @@ export interface TwitterMeta {
   'app:name:googleplay'?: string
   'app:id:googleplay'?: string
   'app:url:googleplay'?: string
-  [key: string]: string
+  [key: string]: string | void
 }
 
 export interface DublinCoreMeta {
@@ -81,7 +81,7 @@ export interface DublinCoreMeta {
   date?: string // Date
   'date.issued'?: string // Date
   'date.modified'?: string // Date
-  [key: string]: string
+  [key: string]: string | void
 }
 
 export interface SailthruMeta {
@@ -95,7 +95,7 @@ export interface SailthruMeta {
   'image.thumb'?: string
   location?: string // "lat,long"
   price?: string // number
-  [key: string]: string
+  [key: string]: string | void
 }
 
 export interface RdfaMeta {
@@ -133,7 +133,7 @@ export interface AppLinksMeta {
   'al:windows_universal:app_name'?: string
   'al:web:url'?: string
   'al:web:should_fallback'?: string
-  [key: string]: string
+  [key: string]: string | void
 }
 
 export interface Rule {
