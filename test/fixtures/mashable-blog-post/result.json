@@ -1,0 +1,112 @@
+{
+  "type": "html",
+  "contentUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3",
+  "contentSize": 11934,
+  "encodingFormat": "html",
+  "meta": {
+    "jsonLd": {
+      "@context": "http://schema.org",
+      "headline": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
+      "url": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
+      "image": "http://i.amz.mshcdn.com/jlBR8lMx_mY6SkU-qq3tvtupPu8=/1200x627/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg",
+      "keywords": [
+        "entertainment",
+        "watercooler",
+        "funny",
+        "conversations",
+        "lists",
+        "tv",
+        "jon-snow",
+        "game-of-thrones"
+      ],
+      "@type": "Article",
+      "dateCreated": "2016-06-17T15:35:08Z",
+      "datePublished": "2016-06-17T15:35:08Z",
+      "articleSection": "watercooler",
+      "creator": "Andrea Romano",
+      "author": "Andrea Romano",
+      "mainEntityOfPage": "True",
+      "metadata": {
+        "page": 1,
+        "omnitureData": {
+          "channel": "watercooler",
+          "content_type": "article",
+          "v_buy": null,
+          "v_buy_i": null,
+          "h_pub": 1.5,
+          "h_buy": null,
+          "h_pub_buy": null,
+          "v_cur": 1.3,
+          "v_max": 74.7,
+          "v_cur_i": 1,
+          "v_max_i": 74,
+          "events": "event51,event61,event62,event63,event64",
+          "top_channel": "watercooler",
+          "content_source_type": "Internal",
+          "content_source_name": "Internal",
+          "author_name": "Andrea Romano",
+          "age": "0",
+          "pub_day": 17,
+          "pub_month": 6,
+          "pub_year": 2016,
+          "pub_date": "06/17/2016",
+          "sourced_from": "Internal",
+          "isPostView": true,
+          "post_lead_type": "Alt Image Lead",
+          "topics": "Conversations,Entertainment,funny,Game of Thrones,jon snow,Lists,Television,Watercooler",
+          "campaign": null,
+          "display_mode": null,
+          "viral_video_type": null,
+          "b_flag": false
+        },
+        "postId": null
+      }
+    },
+    "html": {
+      "title": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
+      "canonical": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
+      "description": "We all have a lot of hopes, dreams and feelings about this week's penultimate episode of Game of Thrones.",
+      "keywords": "entertainment, watercooler, funny, conversations, lists, tv, jon-snow, game-of-thrones",
+      "date": "2016-06-17 15:35:08 UTC",
+      "author": "Andrea Romano"
+    },
+    "twitter": {
+      "title": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
+      "description": "Let us count the ways we hope Ramsey will die.",
+      "image": "http://i.amz.mshcdn.com/aFAKqhtHbY6dvAbbeFO9opnh6Ug=/640x360/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg",
+      "site": "@mashable",
+      "via": "mashable",
+      "url": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
+      "creator": "@mashable",
+      "card": "photo",
+      "image:width": "640",
+      "image:height": "360"
+    },
+    "sailthru": {
+      "author": "Andrea Romano",
+      "image.thumb": "http://i.amz.mshcdn.com/t887bC7ssyJ2yjWtl10oaKcvFFg=/115x115/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg",
+      "image.full": "http://i.amz.mshcdn.com/GGEZkfVeWBipBUZk8fhZHcca6eU=/950x534/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg",
+      "lead_image": "http://i.amz.mshcdn.com/Kemr0tZc2omvXwBAq04F_IpFKT4=/600x338/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg",
+      "secondary_image": "http://i.amz.mshcdn.com/m-rYyYcunGucMIOamlaoc00BX8Q=/288x162/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg",
+      "exclude_homepage": "false",
+      "exclude_uk": "false",
+      "exclude_australia": "false",
+      "exclude_india": "false"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns/fb#app_id": "122071082108",
+        "http://ogp.me/ns/fb#page_id": "18807449704",
+        "http://ogp.me/ns#url": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
+        "http://ogp.me/ns#title": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
+        "http://ogp.me/ns#type": "article",
+        "http://ogp.me/ns#site_name": "Mashable",
+        "http://ogp.me/ns#description": "Let us count the ways we hope Ramsey will die.",
+        "http://ogp.me/ns#image": "http://i.amz.mshcdn.com/cFOA7JH0zHa6T2ik7Ssm9YcLcx0=/1200x630/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg",
+        "http://ogp.me/ns#article:published_time": "2016-06-17T15:35:08Z",
+        "http://ogp.me/ns#article:modified_time": "2016-06-17T15:36:00Z",
+        "http://ogp.me/ns#article:publisher": "https://www.facebook.com/mashable"
+      }
+    }
+  }
+}

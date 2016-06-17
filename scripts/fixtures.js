@@ -49,6 +49,22 @@ var FIXTURES = [
   {
     name: 'imgur-image',
     url: 'https://i.imgur.com/mvUPRyV.png'
+  },
+  {
+    name: 'segment-blog-post',
+    url: 'https://segment.com/blog/the-segment-aws-stack/'
+  },
+  {
+    name: 'mashable-blog-post',
+    url: 'http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3'
+  },
+  {
+    name: 'techcrunch-homepage',
+    url: 'https://techcrunch.com/'
+  },
+  {
+    name: 'techcrunch-blog-post',
+    url: 'https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/'
   }
 ]
 

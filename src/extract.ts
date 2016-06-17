@@ -123,6 +123,7 @@ export const extracts: Extracts = {
         type: 'summary',
         imageUrl: getMetaImageUrl(meta),
         contentUrl: getMetaUrl(meta),
+        contentSize: result.contentSize,
         originalUrl: result.contentUrl,
         encodingFormat: result.encodingFormat,
         headline: getMetaHeadline(meta),
@@ -186,6 +187,7 @@ function getMetaUrl (meta: ResultMeta) {
  */
 function getMetaAuthor (meta: ResultMeta) {
   return getMetaString(meta, ['html', 'author']) ||
+    getMetaString(meta, ['sailthru', 'author']) ||
     getMetaString(meta, ['rdfa', '', 'http://ogp.me/ns/article#author']) ||
     getMetaString(meta, ['rdfa', '', 'https://creativecommons.org/ns#attributionName'])
 }

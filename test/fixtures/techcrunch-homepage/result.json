@@ -1,0 +1,153 @@
+{
+  "type": "html",
+  "contentUrl": "https://techcrunch.com/",
+  "encodingFormat": "html",
+  "uploadDate": "2016-06-17T17:36:12.000Z",
+  "meta": {
+    "jsonLd": {
+      "@context": "http://schema.org",
+      "@type": "ItemList",
+      "url": "https://techcrunch.com/",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://techcrunch.com/2016/06/17/apple-ordered-to-stop-selling-two-iphone-models-in-china/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://techcrunch.com/2016/06/16/boom-face-shot/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://techcrunch.com/2016/06/16/review-exolens-zeiss-iphone-lenses-turns-your-phone-into-a-full-fledged-camera/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "url": "https://techcrunch.com/2016/06/16/11-of-the-coolest-video-game-trailers-from-e3/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "url": "https://techcrunch.com/2016/06/17/devolver-digital-co-founder-mike-wilson-on-becoming-the-sub-pop-for-games/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "url": "https://techcrunch.com/2016/06/17/favor-shutters-service-in-five-big-cities-focuses-on-second-tier-markets/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "url": "https://techcrunch.com/2016/06/17/tablo-launches-its-live-tv-and-dvr-app-for-apple-tv/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "url": "https://techcrunch.com/2016/06/17/talking-kleiner-3-0-with-eric-feng-its-new-head-of-consumer-investing/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "url": "https://techcrunch.com/2016/06/17/dominos-backs-out-of-free-pizza-promotion-with-t-mobile-due-to-higher-than-expected-demand/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "url": "https://techcrunch.com/2016/06/17/the-evolution-of-the-mobile-payment/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "url": "https://techcrunch.com/2016/06/17/apple-ordered-to-stop-selling-two-iphone-models-in-china/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "url": "https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "url": "https://techcrunch.com/2016/06/17/reminder-get-your-applications-in-for-our-berlin-meet-up-pitch-off/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "url": "https://techcrunch.com/2016/06/17/shimon-peres-to-speak-at-the-techcrunch-tel-aviv-meetup-and-pitch-off/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "url": "https://techcrunch.com/2016/06/17/he-wrote-about-clickbait-but-what-happened-next-will-stun-you/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "url": "https://techcrunch.com/2016/06/17/indias-cleartax-raises-12m-to-expand-into-new-financial-services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "url": "https://techcrunch.com/2016/06/17/pinmeto/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "url": "https://techcrunch.com/2016/06/16/crunch-report-magic-leap-brings-star-wars-to-life/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "url": "https://techcrunch.com/2016/06/16/why-most-of-londons-tech-sector-believes-brexit-will-prove-a-disaster/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "url": "https://techcrunch.com/2016/06/16/gravitational-waves-have-been-detected-for-the-second-time-in-history/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "url": "https://techcrunch.com/2016/06/16/peer-to-peer-dress-rental-startup-curtsy-lets-you-rent-the-wardrobes-of-fashionistas-near-you/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "url": "https://techcrunch.com/2016/06/16/liftoff-dynamic-ads/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "url": "https://techcrunch.com/2016/06/16/airbnb-launches-campaign-to-ease-registration-requirements-for-sf-hosts/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "url": "https://techcrunch.com/2016/06/16/boom-face-shot/"
+        }
+      ]
+    },
+    "html": {
+      "title": "TechCrunch - The latest technology news and information on startups",
+      "author": "Devin Coldewey",
+      "description": "TechCrunch is a leading technology media property, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news."
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns/fb#app_id": "187288694643718",
+        "http://ogp.me/ns/fb#admins": "543710097,771265067,1661021707,1550970059,663677613,1178144075,726995222,506404657,4700188",
+        "http://ogp.me/ns#site_name": "TechCrunch",
+        "http://ogp.me/ns#site": "social.techcrunch.com",
+        "http://ogp.me/ns#title": "TechCrunch",
+        "http://ogp.me/ns#description": "TechCrunch is a leading technology media property, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news.",
+        "http://ogp.me/ns#image": "https://tctechcrunch2011.files.wordpress.com/2016/06/devolver-logo.jpg?w=764&h=400&crop=1",
+        "http://ogp.me/ns#url": "http://social.techcrunch.com/",
+        "http://ogp.me/ns#type": "website"
+      }
+    }
+  }
+}

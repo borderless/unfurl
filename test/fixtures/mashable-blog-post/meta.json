@@ -1,0 +1,24 @@
+{
+  "url": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3",
+  "headers": {
+    "accept-ranges": "bytes",
+    "content-type": "text/html; charset=utf-8",
+    "server": "nginx/1.8.1",
+    "status": "200 OK",
+    "x-akamai-mashable-country": "US",
+    "x-cache-hits": "1",
+    "x-cacheable": "Yes",
+    "x-request-id": "0ee9a5a6ed94fa63b7119264af642ec0",
+    "x-runtime": "0.091591",
+    "x-served-by": "web3-vir",
+    "x-ua-compatible": "IE=edge,chrome=1,IE=Edge,chrome=1",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "cache-control": "public, private, must-revalidate, max-age=329",
+    "date": "Fri, 17 Jun 2016 17:38:59 GMT",
+    "content-length": "11934",
+    "connection": "close"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

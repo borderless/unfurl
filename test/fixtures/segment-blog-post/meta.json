@@ -1,0 +1,19 @@
+{
+  "url": "https://segment.com/blog/the-segment-aws-stack/",
+  "headers": {
+    "cache-control": "max-age=3600",
+    "content-encoding": "gzip",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Fri, 17 Jun 2016 17:38:59 GMT",
+    "expires": "Fri, 17 Jun 2016 18:38:59 GMT",
+    "last-modified": "Wed, 15 Jun 2016 20:34:25 GMT",
+    "server": "nginx",
+    "strict-transport-security": "max-age=31536000",
+    "vary": "Accept-Encoding",
+    "x-frame-options": "DENY",
+    "content-length": "10215",
+    "connection": "Close"
+  },
+  "status": 200,
+  "statusText": "OK"
+}
