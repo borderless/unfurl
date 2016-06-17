@@ -69,6 +69,10 @@ var FIXTURES = [
   {
     name: 'open-graph-protocol',
     url: 'http://ogp.me/'
+  },
+  {
+    name: 'learn-standard-ml-guide',
+    url: 'https://learnxinyminutes.com/docs/standard-ml/'
   }
 ]
 

@@ -1,0 +1,15 @@
+{
+  "url": "https://learnxinyminutes.com/docs/standard-ml/",
+  "headers": {
+    "server": "nginx/1.10.0",
+    "date": "Fri, 17 Jun 2016 20:54:46 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "last-modified": "Wed, 23 Mar 2016 22:03:58 GMT",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "etag": "W/\"56f312ce-eb7c\"",
+    "content-encoding": "gzip"
+  },
+  "status": 200,
+  "statusText": "OK"
+}
