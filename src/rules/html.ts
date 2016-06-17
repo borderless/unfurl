@@ -197,7 +197,7 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
           const key = normalizeRdfProperty(propertyAttr, last(rdfaVocabs), last(rdfaPrefixes))
 
           // Semantic RDFa tags.
-          if (RDFA_VALUE_MAP.hasOwnProperty(tagName)) {
+          if (!value && RDFA_VALUE_MAP.hasOwnProperty(tagName)) {
             value = normalize(RDFA_VALUE_MAP[tagName](url, attributes))
           }
 
@@ -215,7 +215,12 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
 
         // Set the RDFa type.
         if (typeofAttr) {
-          setRdfaValue(rdfa, last(rdfaResources), 'rdf:type', typeofAttr)
+          setRdfaValue(
+            rdfa,
+            last(rdfaResources),
+            'rdf:type',
+            normalizeRdfProperty(typeofAttr, last(rdfaVocabs), last(rdfaPrefixes))
+          )
           return
         }
 
