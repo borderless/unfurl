@@ -65,6 +65,10 @@ var FIXTURES = [
   {
     name: 'techcrunch-blog-post',
     url: 'https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/'
+  },
+  {
+    name: 'open-graph-protocol',
+    url: 'http://ogp.me/'
   }
 ]
 

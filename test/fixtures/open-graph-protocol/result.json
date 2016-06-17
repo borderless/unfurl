@@ -1,0 +1,24 @@
+{
+  "type": "html",
+  "contentUrl": "http://ogp.me/",
+  "encodingFormat": "html",
+  "meta": {
+    "html": {
+      "title": "The Open Graph protocol",
+      "description": "The Open Graph protocol enables any web page to become a rich object in a social graph."
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#title": "Open Graph protocol",
+        "http://ogp.me/ns#type": "website",
+        "http://ogp.me/ns#url": "http://ogp.me/",
+        "http://ogp.me/ns#image": "http://ogp.me/logo.png",
+        "http://ogp.me/ns#image:type": "image/png",
+        "http://ogp.me/ns#image:width": "300",
+        "http://ogp.me/ns#image:height": "300",
+        "http://ogp.me/ns#description": "The Open Graph protocol enables any web page to become a rich object in a social graph.",
+        "http://ogp.me/ns/fb#app_id": "115190258555800"
+      }
+    }
+  }
+}
