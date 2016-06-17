@@ -15,6 +15,8 @@ npm install scrappy --save
 
 ## Usage
 
+Starting from `extractFromUrl`, **scrappy** creates a HTTP request (`scrapeUrl`) and streams the response into the scraper (`scrapeStream`). The scraper extracts metadata based on various specifications and standards, including HTML, RDFa, JSON-LD, Microdata, Open Graph and OEmbed. With all the relevant metadata, it uses `extract` to select the appropriate snippet. If you need snippets in a different format, you can create your own extraction method which accepts the scraped metadata.
+
 ```ts
 import { scrapeUrl, scrapeStream, extract, extractFromUrl } from 'scrappy'
 
