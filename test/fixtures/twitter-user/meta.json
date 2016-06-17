@@ -1,0 +1,32 @@
+{
+  "url": "https://twitter.com/blakeembrey",
+  "headers": {
+    "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "content-length": "36026",
+    "content-type": "text/html;charset=utf-8",
+    "date": "Thu, 16 Jun 2016 19:59:49 GMT",
+    "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+    "last-modified": "Thu, 16 Jun 2016 19:59:49 GMT",
+    "pragma": "no-cache",
+    "server": "tsa_a",
+    "set-cookie": [
+      "fm=0; Expires=Thu, 16 Jun 2016 19:59:39 GMT; Path=/; Domain=.twitter.com; Secure; HTTPOnly",
+      "_twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCJ5YzFpVAToMY3NyZl9p%250AZCIlOTNlNTI1ZmFiNWMzZTQ1M2I4OWE3ZjZkMjdmODZkNTk6B2lkIiVmZjdj%250AZmExYTIwY2EzZWM0ODQyYjMyNjcwMGQ0OGVmYw%253D%253D--01fcbe3b6a42a9ba5ea9a22e8581936ff76eb7ff; Path=/; Domain=.twitter.com; Secure; HTTPOnly",
+      "guest_id=v1%3A146610718940467458; Domain=.twitter.com; Path=/; Expires=Sat, 16-Jun-2018 19:59:49 UTC"
+    ],
+    "status": "200 OK",
+    "strict-transport-security": "max-age=631138519",
+    "x-connection-hash": "325d03c5c1482bc9606c0b4cdd789416",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-response-time": "226",
+    "x-transaction": "3bec50a86898aa6d",
+    "x-twitter-response-tags": "BouncerCompliant",
+    "x-ua-compatible": "IE=edge,chrome=1",
+    "x-xss-protection": "1; mode=block"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

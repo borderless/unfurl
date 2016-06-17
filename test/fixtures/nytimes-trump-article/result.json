@@ -1,0 +1,61 @@
+{
+  "type": "html",
+  "contentUrl": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection&_r=0",
+  "encodingFormat": "html",
+  "meta": {
+    "html": {
+      "title": "Decoding Donald Trump - The New York Times",
+      "canonical": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+      "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
+      "author": "Andrew Rosenthal",
+      "keywords": "Orlando Fla Shooting (2016),Trump Donald J,Clinton Hillary Rodham,Muslims and Islam,Discrimination,Homosexuality and Bisexuality,Gun Control"
+    },
+    "twitter": {
+      "app:name:googleplay": "NYTimes",
+      "app:id:googleplay": "com.nytimes.android",
+      "app:url:googleplay": "nytimes://reader/id/100000004471911",
+      "url": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+      "title": "Decoding Donald Trump",
+      "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
+      "image:alt": "Donald Trump as seen through a television camera eyepiece, at an event Monday.",
+      "image": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-thumbLarge.jpg"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns/article#collection": "https://static01.nyt.com/services/json/sectionfronts/opinion/index.jsonp",
+        "http://ogp.me/ns#url": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+        "http://ogp.me/ns#type": "article",
+        "http://ogp.me/ns#title": "Decoding Donald Trump",
+        "http://ogp.me/ns#description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
+        "http://ogp.me/ns/article#published": "2016-06-15",
+        "http://ogp.me/ns/article#section": "Opinion",
+        "http://ogp.me/ns/article#section-taxonomy-id": "AD8090D7-4137-4D71-84C8-70DA3BD89778",
+        "http://ogp.me/ns/article#section_url": "http://www.nytimes.com/pages/opinion/index.html",
+        "http://ogp.me/ns/fb#app_id": "9869919170",
+        "http://ogp.me/ns#image": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-facebookJumbo.jpg",
+        "http://ogp.me/ns/article#author": "http://topics.nytimes.com/top/reference/timestopics/people/r/andrew_rosenthal/index.html",
+        "http://ogp.me/ns/article#tag": [
+          "Orlando, Fla, Shooting (2016)",
+          "Trump, Donald J",
+          "Clinton, Hillary Rodham",
+          "Muslims and Islam",
+          "Discrimination",
+          "Homosexuality and Bisexuality",
+          "Gun Control"
+        ],
+        "http://ogp.me/ns/article#modified": "2016-06-15"
+      }
+    },
+    "applinks": {
+      "android:url": "nytimes://reader/id/100000004471911",
+      "android:package": "com.nytimes.android",
+      "android:app_name": "NYTimes",
+      "iphone:url": "nytimes://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+      "iphone:app_store_id": "284862083",
+      "iphone:app_name": "NYTimes",
+      "ipad:url": "nytimes://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+      "ipad:app_store_id": "357066198",
+      "ipad:app_name": "NYTimes"
+    }
+  }
+}

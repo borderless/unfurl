@@ -1,0 +1,33 @@
+{
+  "url": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt",
+  "headers": {
+    "date": "Thu, 16 Jun 2016 19:59:49 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "set-cookie": [
+      "__cfduid=d160dcd74b0f4d4a24f7d8f98d05748d51466107189; expires=Fri, 16-Jun-17 19:59:49 GMT; path=/; domain=.medium.com; HttpOnly",
+      "uid=lo_4163353bb9c0; path=/; expires=Fri, 16 Jun 2017 19:59:49 GMT; domain=.medium.com; secure; httponly",
+      "sid=1:Yk/qD1KUONT7WZ/OOUo4k4JRwxEZFi2au2gV7qgG5ubKNTsHfb7cxDonrjEiwOH/; path=/; expires=Fri, 16 Jun 2017 19:59:49 GMT; domain=.medium.com; secure; httponly"
+    ],
+    "content-security-policy": "default-src 'self'; connect-src https://localhost https://*.instapaper.com https://*.stripe.com https://getpocket.com https://medium.com:443 https://*.medium.com:443 https://*.medium.com https://medium.com https://*.medium.com https://*.algolia.net https://cdn-static-1.medium.com https://dnqgz544uhbo8.cloudfront.net 'self'; font-src data: https://*.amazonaws.com https://*.medium.com https://*.gstatic.com https://dnqgz544uhbo8.cloudfront.net https://use.typekit.net https://cdn-static-1.medium.com 'self'; frame-src chromenull: https: webviewprogressproxy: medium: 'self'; img-src blob: data: https: 'self'; media-src https://*.cdn.vine.co https://d1fcbxp97j4nb2.cloudfront.net https://d262ilb51hltx0.cloudfront.net https://medium2.global.ssl.fastly.net https://*.medium.com https://gomiro.medium.com https://miro.medium.com https://pbs.twimg.com 'self'; object-src 'self'; script-src 'unsafe-eval' 'unsafe-inline' about: https: 'self'; style-src 'unsafe-inline' data: https: 'self'; report-uri https://csp.medium.com",
+    "x-frame-options": "sameorigin",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "x-ua-compatible": "IE=edge, Chrome=1",
+    "x-powered-by": "Kale",
+    "x-obvious-tid": "1466107189647:5085ea25980e",
+    "x-obvious-info": "22302-5c5a6e0,7ea65ee",
+    "link": "<https://medium.com/humans.txt>; rel=\"humans\"",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "expires": "Thu, 09 Sep 1999 09:09:09 GMT",
+    "pragma": "no-cache",
+    "tk": "T",
+    "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+    "server": "cloudflare-nginx",
+    "cf-ray": "2b40d82dc27620ae-LAX",
+    "content-encoding": "gzip"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

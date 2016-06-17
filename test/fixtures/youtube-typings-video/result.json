@@ -1,0 +1,75 @@
+{
+  "type": "html",
+  "contentUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+  "encodingFormat": "html",
+  "meta": {
+    "html": {
+      "title": "15. Typings with Blake Embrey - YouTube",
+      "canonical": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+      "keywords": "#hangoutsonair, Hangouts On Air, #hoa"
+    },
+    "twitter": {
+      "card": "player",
+      "site": "@youtube",
+      "url": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+      "title": "15. Typings with Blake Embrey",
+      "image": "https://i.ytimg.com/vi/ZynZdGqxT7Q/maxresdefault.jpg",
+      "app:name:iphone": "YouTube",
+      "app:id:iphone": "544007664",
+      "app:name:ipad": "YouTube",
+      "app:id:ipad": "544007664",
+      "app:url:iphone": "vnd.youtube://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks",
+      "app:url:ipad": "vnd.youtube://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks",
+      "app:name:googleplay": "YouTube",
+      "app:id:googleplay": "com.google.android.youtube",
+      "app:url:googleplay": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+      "player": "https://www.youtube.com/embed/ZynZdGqxT7Q",
+      "player:width": "1280",
+      "player:height": "720"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#site_name": "YouTube",
+        "http://ogp.me/ns#url": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+        "http://ogp.me/ns#title": "15. Typings with Blake Embrey",
+        "http://ogp.me/ns#image": "https://i.ytimg.com/vi/ZynZdGqxT7Q/maxresdefault.jpg",
+        "http://ogp.me/ns#type": "video",
+        "http://ogp.me/ns#video:url": [
+          "https://www.youtube.com/embed/ZynZdGqxT7Q",
+          "http://www.youtube.com/v/ZynZdGqxT7Q?version=3&autohide=1"
+        ],
+        "http://ogp.me/ns#video:secure_url": [
+          "https://www.youtube.com/embed/ZynZdGqxT7Q",
+          "https://www.youtube.com/v/ZynZdGqxT7Q?version=3&autohide=1"
+        ],
+        "http://ogp.me/ns#video:type": [
+          "text/html",
+          "application/x-shockwave-flash"
+        ],
+        "http://ogp.me/ns#video:width": [
+          "1280",
+          "1280"
+        ],
+        "http://ogp.me/ns#video:height": [
+          "720",
+          "720"
+        ],
+        "http://ogp.me/ns#video:tag": [
+          "#hangoutsonair",
+          "Hangouts On Air",
+          "#hoa"
+        ],
+        "http://ogp.me/ns/fb#app_id": "87741124305"
+      }
+    },
+    "applinks": {
+      "ios:app_store_id": "544007664",
+      "ios:app_name": "YouTube",
+      "ios:url": "vnd.youtube://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks",
+      "android:url": "vnd.youtube://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks",
+      "android:app_name": "YouTube",
+      "android:package": "com.google.android.youtube",
+      "web:url": "https://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks"
+    }
+  }
+}

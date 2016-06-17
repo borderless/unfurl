@@ -1,0 +1,31 @@
+{
+  "type": "video",
+  "imageUrl": "https://i.ytimg.com/vi/ZynZdGqxT7Q/maxresdefault.jpg",
+  "contentUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+  "originalUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+  "encodingFormat": "html",
+  "headline": "15. Typings with Blake Embrey",
+  "siteName": "YouTube",
+  "tags": [
+    "#hangoutsonair",
+    "Hangouts On Air",
+    "#hoa"
+  ],
+  "apps": {
+    "iphone": {
+      "id": "544007664",
+      "name": "YouTube",
+      "url": "vnd.youtube://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks"
+    },
+    "ipad": {
+      "id": "544007664",
+      "name": "YouTube",
+      "url": "vnd.youtube://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks"
+    },
+    "android": {
+      "id": "com.google.android.youtube",
+      "name": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ZynZdGqxT7Q"
+    }
+  }
+}

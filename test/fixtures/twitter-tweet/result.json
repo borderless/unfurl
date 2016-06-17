@@ -1,0 +1,24 @@
+{
+  "type": "html",
+  "contentUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
+  "contentSize": 26413,
+  "encodingFormat": "html",
+  "uploadDate": "2016-06-16T19:59:49.000Z",
+  "meta": {
+    "html": {
+      "title": "TypeScript on Twitter: \".d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4\"",
+      "canonical": "https://twitter.com/typescriptlang/status/743113612407889920"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#type": "article",
+        "http://ogp.me/ns#url": "https://twitter.com/typescriptlang/status/743113612407889920",
+        "http://ogp.me/ns#title": "TypeScript on Twitter",
+        "http://ogp.me/ns#image": "https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg",
+        "http://ogp.me/ns#description": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”",
+        "http://ogp.me/ns#site_name": "Twitter",
+        "http://ogp.me/ns/fb#app_id": "2231777543"
+      }
+    }
+  }
+}

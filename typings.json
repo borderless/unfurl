@@ -1,0 +1,20 @@
+{
+  "resolution": {
+    "main": "src/typings"
+  },
+  "devDependencies": {
+    "blue-tape": "registry:npm/blue-tape#0.2.0+20160614064951"
+  },
+  "globalDependencies": {
+    "node": "registry:env/node#6.0.0+20160610031852"
+  },
+  "dependencies": {
+    "arrify": "registry:npm/arrify#1.0.0+20160508201941",
+    "content-type": "registry:npm/content-type#1.0.0+20160616192126",
+    "debug": "registry:npm/debug#2.0.0+20160511151334",
+    "get-value": "registry:npm/get-value#2.0.0+20160604003143",
+    "htmlparser2": "registry:npm/htmlparser2#3.9.0+20160616165259",
+    "popsicle": "npm:popsicle",
+    "xtend": "registry:npm/xtend#4.0.0+20160211003958"
+  }
+}

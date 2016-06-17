@@ -1,0 +1,62 @@
+{
+  "type": "html",
+  "contentUrl": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt",
+  "encodingFormat": "html",
+  "meta": {
+    "jsonLd": {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "image": {
+        "@type": "ImageObject",
+        "width": 1360,
+        "height": 2000,
+        "url": "https://cdn-images-1.medium.com/max/1360/1*QOMaDLcO8rExD0ctBV3BWg.png"
+      },
+      "datePublished": "2015-11-24T21:33:25.196Z",
+      "dateModified": "2016-04-08T05:59:26.776Z",
+      "headline": "Everything you ever wanted to know about unfurling but were afraid to ask /or/ How to make your…",
+      "name": "Everything you ever wanted to know about unfurling but were afraid to ask /or/ How to make your…"
+    },
+    "html": {
+      "title": "Everything you ever wanted to know about unfurling but were afraid to ask /or/ How to make your… — Slack Platform Blog — Medium",
+      "canonical": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254",
+      "description": "Let’s start with the most obvious question first. This is what an “unfurl” is:",
+      "author": "Matt Haughey"
+    },
+    "twitter": {
+      "description": "Let’s start with the most obvious question first. This is what an “unfurl” is:",
+      "site": "@Medium",
+      "image:src": "https://cdn-images-1.medium.com/max/1200/1*QOMaDLcO8rExD0ctBV3BWg.png",
+      "card": "summary_large_image",
+      "creator": "@mathowie",
+      "app:name:iphone": "Medium",
+      "app:id:iphone": "828256236",
+      "app:url:iphone": "medium://p/e64b4bb9254"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#site_name": "Medium",
+        "http://ogp.me/ns#title": "Everything you ever wanted to know about unfurling but were afraid to ask /or/ How to make your… — Slack Platform Blog",
+        "http://ogp.me/ns#url": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254",
+        "http://ogp.me/ns#image": "https://cdn-images-1.medium.com/max/1200/1*QOMaDLcO8rExD0ctBV3BWg.png",
+        "http://ogp.me/ns/fb#app_id": "542599432471018",
+        "http://ogp.me/ns#description": "Let’s start with the most obvious question first. This is what an “unfurl” is:",
+        "http://ogp.me/ns#type": "article",
+        "http://ogp.me/ns/article#publisher": "https://www.facebook.com/medium",
+        "http://ogp.me/ns/article#author": "https://medium.com/@mathowie",
+        "http://ogp.me/ns/fb#smart_publish:robots": "noauto",
+        "http://ogp.me/ns/article#published_time": "2015-11-24T21:33:25.196Z",
+        "https://creativecommons.org/ns#attributionName": "https://medium.com/@mathowie"
+      }
+    },
+    "applinks": {
+      "ios:app_name": "Medium",
+      "ios:app_store_id": "828256236",
+      "android:package": "com.medium.reader",
+      "android:app_name": "Medium",
+      "ios:url": "medium://p/e64b4bb9254",
+      "android:url": "medium://p/e64b4bb9254",
+      "web:url": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254"
+    }
+  }
+}
