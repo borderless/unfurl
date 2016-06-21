@@ -218,7 +218,7 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
           setRdfaValue(
             rdfa,
             last(rdfaResources),
-            'rdf:type',
+            normalizeRdfProperty('rdf:type', last(rdfaVocabs), last(rdfaPrefixes)),
             normalizeRdfProperty(typeofAttr, last(rdfaVocabs), last(rdfaPrefixes))
           )
           return

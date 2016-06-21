@@ -129,6 +129,10 @@ var FIXTURES = [
   {
     name: 'droplr-link',
     url: 'http://d.pr/a/q3z9'
+  },
+  {
+    name: 'itunes-app',
+    url: 'https://itunes.apple.com/us/app/espn-sportscenter/id317469184?mt=8'
   }
 ]
 

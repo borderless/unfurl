@@ -1,0 +1,37 @@
+{
+  "url": "https://itunes.apple.com/us/app/espn-sportscenter/id317469184?mt=8",
+  "headers": {
+    "x-apple-jingle-correlation-key": "UYYOQ2KJ5U57KGHOQMNGEZLEAA",
+    "x-apple-request-uuid": "a630e869-49ed-3bf5-18ee-831a62656400",
+    "x-apple-translated-wo-url": "/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=317469184&cc=us&urlDesc=/espn-sportscenter",
+    "apple-tk": "false",
+    "content-type": "text/html; charset=UTF-8",
+    "x-apple-aka-ttl": "Generated Tue Jun 21 15:14:40 PDT 2016, Expires Tue Jun 21 15:15:40 PDT 2016, TTL 60s",
+    "x-webobjects-loadaverage": "0",
+    "last-modified": "Tue, 21 Jun 2016 22:14:40 GMT",
+    "apple-seq": "0",
+    "access-control-allow-origin": "*",
+    "apple-originating-system": "MZStore",
+    "content-encoding": "gzip",
+    "strict-transport-security": "max-age=31536000",
+    "x-frame-options": "SAMEORIGIN",
+    "x-apple-orig-url": "https://itunes.apple.com/us/app/espn-sportscenter/id317469184?mt=8",
+    "x-apple-application-site": "ST11",
+    "apple-timing-app": "92 ms",
+    "x-apple-application-instance": "2125004",
+    "content-length": "18624",
+    "server": "ATS/4.1.0",
+    "x-apple-ats-cache-key": "/17.173.38.162/80/us/app/espn-sportscenter/id317469184/iDevice/https?mt=8",
+    "cache-control": "no-transform, max-age=57",
+    "date": "Tue, 21 Jun 2016 22:14:40 GMT",
+    "connection": "close",
+    "vary": [
+      "Accept-Encoding",
+      "X-Apple-Store-Front",
+      "Accept-Encoding"
+    ],
+    "x-apple-partner": "origin.0"
+  },
+  "status": 200,
+  "statusText": "OK"
+}
