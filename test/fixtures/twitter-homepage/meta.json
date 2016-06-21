@@ -1,0 +1,32 @@
+{
+  "url": "https://twitter.com/",
+  "headers": {
+    "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "content-length": "31058",
+    "content-type": "text/html;charset=utf-8",
+    "date": "Tue, 21 Jun 2016 03:16:53 GMT",
+    "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+    "last-modified": "Tue, 21 Jun 2016 03:16:53 GMT",
+    "pragma": "no-cache",
+    "server": "tsa_a",
+    "set-cookie": [
+      "fm=0; Expires=Tue, 21 Jun 2016 03:16:43 GMT; Path=/; Domain=.twitter.com; Secure; HTTPOnly",
+      "_twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCOLs9XBVAToMY3NyZl9p%250AZCIlOWFjMjI0MTVlYjBkYzNjYjBjOTFlYjNlN2ZlNTdkZTc6B2lkIiUxMmM3%250AYmIyYWE0NWNiZTU5YjcxMDM5MmE1M2RhNGRlNg%253D%253D--7306d6d79b1b56616d2a7c5c5a3e9e2b78aeb23d; Path=/; Domain=.twitter.com; Secure; HTTPOnly",
+      "guest_id=v1%3A146647901308971095; Domain=.twitter.com; Path=/; Expires=Thu, 21-Jun-2018 03:16:53 UTC"
+    ],
+    "status": "200 OK",
+    "strict-transport-security": "max-age=631138519",
+    "x-connection-hash": "c826000e00450120dcb21769e0c59f60",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-response-time": "215",
+    "x-transaction": "2af08db4372dee37",
+    "x-twitter-response-tags": "BouncerCompliant",
+    "x-ua-compatible": "IE=edge,chrome=1",
+    "x-xss-protection": "1; mode=block"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

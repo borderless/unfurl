@@ -5,7 +5,7 @@
 <!--[if (lt IE 8)]> <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 section-campaign-stops format-medium tone-opinion app-article page-theme-standard has-comments type-size-small has-large-lede" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
 <head>
     <title>Decoding Donald Trump - The New York Times</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-943.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <link rel="shortcut icon" href="https://static01.nyt.com/favicon.ico" />
 <link rel="apple-touch-icon-precomposed" sizes="144×144" href="https://static01.nyt.com/images/icons/ios-ipad-144x144.png" />
@@ -121,12 +121,12 @@
 <link rel="alternate" type="application/json+oembed" href="https://www.nytimes.com/svc/oembed/json/?url=http%3A%2F%2Fwww.nytimes.com%2F2016%2F06%2F15%2Fopinion%2Fcampaign-stops%2Fdecoding-donald-trump.html" title="Decoding Donald Trump" />
     
                 <!--[if (gt IE 9)|!(IE)]> <!-->
-        <link rel="stylesheet" type="text/css" media="screen" href="https://a1.nyt.com/assets/article/20160615-095749/css/article/story/styles.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="https://a1.nyt.com/assets/article/20160616-163745/css/article/story/styles.css" />
     <!--<![endif]-->
     <!--[if lte IE 9]>
-        <link rel="stylesheet" type="text/css" media="screen" href="https://a1.nyt.com/assets/article/20160615-095749/css/article/story/styles-ie.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="https://a1.nyt.com/assets/article/20160616-163745/css/article/story/styles-ie.css" />
     <![endif]-->
-<link rel="stylesheet" type="text/css" media="print" href="https://a1.nyt.com/assets/article/20160615-095749/css/article/story/styles-print.css" />
+<link rel="stylesheet" type="text/css" media="print" href="https://a1.nyt.com/assets/article/20160616-163745/css/article/story/styles-print.css" />
                 <script id="page-config-data" type="text/json">
 {"pageconfig":{"ledeMediaSize":"large","keywords":["Op-Ed Columnist","andrew-rosenthal","article-medium","has-embedded-interactive"],"collections":{"columns":["andrew-rosenthal"],"sections":["opinion","politics","campaign-stops"],"newsevents":["2016-orlando-shooting"]}}}</script>
 <script id="display_overrides">
@@ -171,7 +171,7 @@
     })();
 </script>
 	<script type="text/json" id="trending-link-json">
-			{"url":"http:\/\/www.nytimes.com\/2016\/06\/15\/opinion\/campaign-stops\/decoding-donald-trump.html","trending_type":"most_emailed_1","rank":8,"data_type":"article","labels":[]}	</script>
+	</script>
 
 <script id="abtestconfig" type="application/json">
 [
@@ -321,64 +321,6 @@
         "isEnabled": false
     },
     {
-        "testId": "0085",
-        "throttle": "0",
-        "allocation": "0",
-        "variants": "1",
-        "applications": [
-            "article",
-            "collection",
-            "slideshow",
-            "trending"
-        ],
-        "testName": "subscriberWhitelist",
-        "isEnabled": false
-    },
-    {
-        "testId": "0086",
-        "throttle": "0",
-        "allocation": "0",
-        "variants": "2",
-        "applications": [
-            "article",
-            "collection",
-            "slideshow",
-            "trending"
-        ],
-        "testName": "nonsubscriberWhitelist",
-        "isEnabled": false
-    },
-    {
-        "testId": "0087",
-        "throttle": "0",
-        "variants": "2",
-        "allocation": "0",
-        "applications": [
-            "article",
-            "collection",
-            "interactive",
-            "slideshow",
-            "trending"
-        ],
-        "testName": "subscriberWhitelistTwo",
-        "isEnabled": false
-    },
-    {
-        "testId": "0088",
-        "throttle": "0",
-        "variants": "4",
-        "allocation": "0",
-        "applications": [
-            "article",
-            "collection",
-            "interactive",
-            "slideshow",
-            "trending"
-        ],
-        "testName": "nonsubscriberWhitelistTwo",
-        "isEnabled": false
-    },
-    {
         "testId": "0089",
         "throttle": "0.02",
         "allocation": "0.5",
@@ -399,30 +341,13 @@
         ],
         "testName": "newsletterPersonalization",
         "isEnabled": false
-    },
-    {
-        "testId": "0094",
-        "throttle": "1",
-        "variants": "1",
-        "allocation": "1",
-        "applications": [
-            "article",
-            "homepage",
-            "collection",
-            "interactive",
-            "slideshow",
-            "trending",
-            "newsletters"
-        ],
-        "testName": "freeTrialOfferV3",
-        "isEnabled": true
     }
 ]
 </script>
 
 <!--  begin abra  -->
 
-<script>/* nyt-a: f845ffef4971d4bfc6e40ba6c7b4e459 */var NYTD=NYTD||{};NYTD.Abra=function(t,n,e){"use strict";function o(e,o){var u=n[e]||{};u[1]?r("ab-expose",e,u[0],o):o&&t.setTimeout(function(){o(null)},0)}function u(t){var e=n[t]||{};return e[0]||null}function r(n,e,o,u){f+="subject="+n+"&test="+encodeURIComponent(e)+"&variant="+encodeURIComponent(o||0)+"&instant=1&skipAugment=true\n",u&&p.push(u),c||(c=t.setTimeout(a,0))}function a(){var n=new t.XMLHttpRequest,o=p;n.withCredentials=!0,n.open("POST",e),n.onreadystatechange=function(){var t,e;if(4==n.readyState)for(t=200==n.status?null:new Error(n.statusText);e=o.shift();)e(t)},n.send(f),f="",p=[],c=null}var s,i,c,l=[],f="",p=[];for(s in n)i=n[s],i[0]&&l.push(s+"="+i[0]),i[1]&&r("ab-alloc",s,i[0]);return l.length&&t.document.documentElement.setAttribute("data-nyt-ab",l.join(" ")),u.reportExposure=o,u}(this,{"www-article-sample":["2a",1],"EC_SampleTest":["variantB"]},"//et.nytimes.com");</script>
+<script>/* nyt-a: d55ba8d5d75e3ee8381d9bd66e312bdb */var NYTD=NYTD||{};NYTD.Abra=function(t,n,e){"use strict";function o(e,o){var u=n[e]||{};u[1]?r("ab-expose",e,u[0],o):o&&t.setTimeout(function(){o(null)},0)}function u(t){var e=n[t]||{};return e[0]||null}function r(n,e,o,u){f+="subject="+n+"&test="+encodeURIComponent(e)+"&variant="+encodeURIComponent(o||0)+"&instant=1&skipAugment=true\n",u&&p.push(u),c||(c=t.setTimeout(a,0))}function a(){var n=new t.XMLHttpRequest,o=p;n.withCredentials=!0,n.open("POST",e),n.onreadystatechange=function(){var t,e;if(4==n.readyState)for(t=200==n.status?null:new Error(n.statusText);e=o.shift();)e(t)},n.send(f),f="",p=[],c=null}var s,i,c,l=[],f="",p=[];for(s in n)i=n[s],i[0]&&l.push(s+"="+i[0]),i[1]&&r("ab-alloc",s,i[0]);return l.length&&t.document.documentElement.setAttribute("data-nyt-ab",l.join(" ")),u.reportExposure=o,u}(this,{"www-article-sample":["2a",1],"EC_SampleTest":["variantA"]},"//et.nytimes.com");</script>
 
 <!--  end abra  -->
 
@@ -442,10 +367,10 @@ var require = {
     baseUrl: 'https://a1.nyt.com/assets/',
     waitSeconds: 20,
     paths: {
-        'foundation': 'article/20160615-095749/js/foundation',
-        'shared': 'article/20160615-095749/js/shared',
-        'article': 'article/20160615-095749/js/article',
-        'application': 'article/20160615-095749/js/article/story',
+        'foundation': 'article/20160616-163745/js/foundation',
+        'shared': 'article/20160616-163745/js/shared',
+        'article': 'article/20160616-163745/js/article',
+        'application': 'article/20160616-163745/js/article/story',
         'videoFactory': 'https://static01.nyt.com/js2/build/video/2.0/videofactoryrequire',
         'videoPlaylist': 'https://static01.nyt.com/js2/build/video/players/extended/2.0/appRequire',
         'auth/mtr': 'https://static01.nyt.com/js/mtr',
@@ -460,13 +385,13 @@ var require = {
 };
 </script>
 <!--[if (gte IE 9)|!(IE)]> <!-->
-<script data-main="foundation/main" src="https://a1.nyt.com/assets/article/20160615-095749/js/foundation/lib/framework.js"></script>
+<script data-main="foundation/main" src="https://a1.nyt.com/assets/article/20160616-163745/js/foundation/lib/framework.js"></script>
 <!--<![endif]-->
 <!--[if lt IE 9]>
 <script>
     require.map['*']['foundation/main'] = 'foundation/legacy_main';
 </script>
-<script data-main="foundation/legacy_main" src="https://a1.nyt.com/assets/article/20160615-095749/js/foundation/lib/framework.js"></script>
+<script data-main="foundation/legacy_main" src="https://a1.nyt.com/assets/article/20160616-163745/js/foundation/lib/framework.js"></script>
 <![endif]-->
 <script>
 window.magnum.processFlags(["limitFabrikSave","moreFollowSuggestions","unfollowComments","scoopTool","videoVHSCover","videoVHSShareTools","videoVHSLive","videoVHSNewControls","videoVHSEmbeddedOnly","allTheEmphases","freeTrial","dedupeWhatsNext","trendingPageLinks","sprinklePaidPost","headerBidder","largeLedeXXL","standardizeWhatsNextCollection","onlyLayoutA","simple","simpleExtendedByline","collectionsWhatsNext","shareToolsUnderHeadline","mobileMediaViewer","whitelistInterstitial","storyPrint","podcastInLede","MovieTickets","requestTragedyAd","MoreInSubsectionFix","seriesIssueMarginalia","serverSideCollectionUrls","multipleBylines","minimalAds","adDisclaimer","bleedtransitions","fabrikWebsocketsOnly"]);
@@ -476,7 +401,7 @@ require(['foundation/main'], function () {
     require(['auth/mtr', 'auth/growl']);
 });
 </script>
-<script src="https://a1.nyt.com/assets/article/20160615-095749/js/article/common/layout.js"></script></head>
+<script src="https://a1.nyt.com/assets/article/20160616-163745/js/article/common/layout.js"></script></head>
 <body>
     
     <style>
@@ -553,7 +478,7 @@ require(['foundation/main'], function () {
                     <span class="visually-hidden">The New York Times</span>
                 </a>
             </h2>
-            <script>window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/article/20160615-095749/images/foundation/logos/', 'opinion', 'masthead-theme-standard', 'standard', 'branding-heading-link', 'article');</script>
+            <script>window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/article/20160616-163745/images/foundation/logos/', 'opinion', 'masthead-theme-standard', 'standard', 'branding-heading-link', 'article');</script>
         </div><!-- close branding -->
                 <div class="story-meta">
             <h6 class="kicker"><span class="kicker-label"><a href="http://www.nytimes.com/section/opinion/campaign-stops">The Opinion Pages</a></span><span class="pipe">|</span>Decoding Donald Trump</h6>
@@ -828,51 +753,52 @@ require(['foundation/main'], function() {
         </header>
         <ul>
                         <li><article class="story theme-summary">
-    <a class="story-link" href="http://www.nytimes.com/2016/06/17/us/in-orlando-a-son-of-a-muslim-immigrant-rushed-to-heal-pain-caused-by-another.html?rref=collection%2Fnewseventcollection%2FOrlando Shooting">
+    <a class="story-link" href="http://www.nytimes.com/2016/06/21/us/orlando-shooting-america.html?rref=collection%2Fnewseventcollection%2FOrlando Shooting">
         <h2 class="headline">
             <span class="headline-text">
-                                In Orlando, a Son of a Muslim Immigrant Rushed to Heal Pain Caused by Another            </span>
-            <time class="dateline" datetime="2016-06-16">JUN 16</time>
+                                Realizing It’s a Small, Terrifying World After All            </span>
+            <time class="dateline" datetime="2016-06-20">JUN 20</time>
         </h2>
     </a>
 </article>
 </li>
                         <li><article class="story theme-summary">
-    <a class="story-link" href="http://www.nytimes.com/2016/06/17/us/politics/congress-gun-control-orlando.html?rref=collection%2Fnewseventcollection%2FOrlando Shooting">
+    <a class="story-link" href="http://www.nytimes.com/2016/06/26/travel/lgbt-gay-travel.html?rref=collection%2Fnewseventcollection%2FOrlando Shooting">
         <h2 class="headline">
             <span class="headline-text">
-                                Why the Orlando Shooting Is Unlikely to Lead to Major New Gun Laws            </span>
-            <time class="dateline" datetime="2016-06-16">JUN 16</time>
+                                Gay Travelers on Where to Go From Here            </span>
+            <time class="dateline" datetime="2016-06-20">JUN 20</time>
         </h2>
     </a>
 </article>
 </li>
                         <li><article class="story theme-summary">
-    <a class="story-link" href="http://www.nytimes.com/2016/06/17/us/utah-republican-is-unlikely-star-at-lgbt-vigil-for-orlando.html?rref=collection%2Fnewseventcollection%2FOrlando Shooting">
+    <a class="story-link" href="http://www.nytimes.com/video/us/100000004482424/orlando-angels-block-westboro-church.html?rref=collection%2Fnewseventcollection%2FOrlando Shooting">
         <h2 class="headline">
             <span class="headline-text">
-                                Utah Republican Is Unlikely Star at L.G.B.T. Vigil for Orlando            </span>
-            <time class="dateline" datetime="2016-06-16">JUN 16</time>
+                                    <i class="icon sprite-icon video-icon"></i>
+                                Orlando ‘Angels’ Block Westboro Church            </span>
+            <time class="dateline" datetime="2016-06-20">JUN 20</time>
         </h2>
     </a>
 </article>
 </li>
                         <li><article class="story theme-summary">
-    <a class="story-link" href="http://www.nytimes.com/2016/06/17/us/politics/donald-trump-shooting-reaction.html?rref=collection%2Fnewseventcollection%2FOrlando Shooting">
+    <a class="story-link" href="http://www.nytimes.com/slideshow/2016/06/20/us/orlandos-grief-etched-in-ink.html?rref=collection%2Fnewseventcollection%2FOrlando Shooting">
         <h2 class="headline">
             <span class="headline-text">
-                                Donald Trump’s Speeches Fire Up His Base, but May Cost Him            </span>
-            <time class="dateline" datetime="2016-06-16">JUN 16</time>
+                                Orlando’s Grief, Etched in Ink            </span>
+            <time class="dateline" datetime="2016-06-20">JUN 20</time>
         </h2>
     </a>
 </article>
 </li>
                         <li><article class="story theme-summary">
-    <a class="story-link" href="http://www.nytimes.com/2016/06/16/magazine/i-used-an-assault-rifle-in-the-army-i-dont-think-civilians-should-own-them.html?rref=collection%2Fnewseventcollection%2FOrlando Shooting">
+    <a class="story-link" href="http://www.nytimes.com/2016/06/21/us/politics/donald-trump-nra-guns-orlando.html?rref=collection%2Fnewseventcollection%2FOrlando Shooting">
         <h2 class="headline">
             <span class="headline-text">
-                                I Used an Assault Rifle in the Army. I Don’t Think Civilians Should Own Them.            </span>
-            <time class="dateline" datetime="2016-06-16">JUN 16</time>
+                                Donald Trump Tweaks Language on Guns, Alcohol and Public Places            </span>
+            <time class="dateline" datetime="2016-06-20">JUN 20</time>
         </h2>
     </a>
 </article>
@@ -1143,7 +1069,7 @@ require(['foundation/main'], function() {
                 <span class="visually-hidden">The New York Times</span>
             </a>
         </h2>
-        <script>window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/article/20160615-095749/images/foundation/logos/', '', '', 'standard', 'site-index-branding-link', '');</script>
+        <script>window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/article/20160616-163745/images/foundation/logos/', '', '', 'standard', 'site-index-branding-link', '');</script>
     </header>
 
     <nav id="site-index-navigation" class="site-index-navigation" role="navigation">
@@ -1633,5 +1559,5 @@ require(['foundation/main'], function () {
 <div id="prop2" class="ad prop2-ad hidden"></div>
 <div id="Anchor" class="ad anchor-ad hidden"></div>
 <div id="ADX_CLIENTSIDE" class="ad adx-clientside-ad hidden"></div>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b5bcf2eba4","applicationID":"4491457","transactionName":"YwFXZhRYVhAEVUZcX1pLYEAPFlkTFRhCXUA=","queueTime":0,"applicationTime":314,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b5bcf2eba4","applicationID":"4491457","transactionName":"YwFXZhRYVhAEVUZcX1pLYEAPFlkTFRhCXUA=","queueTime":0,"applicationTime":366,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

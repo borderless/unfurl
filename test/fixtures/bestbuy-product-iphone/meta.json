@@ -1,0 +1,27 @@
+{
+  "url": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
+  "headers": {
+    "content-type": "text/html;charset=UTF-8",
+    "set-cookie": [
+      "bby_cbc_lb=p-browse-w; expires=Tue, 21-Jun-2016 03:26:53 GMT; path=/; domain=.bestbuy.com",
+      "testBucket=17; expires=Sun, 29 Jan 2017 05:59:59 GMT; path=/; domain=.bestbuy.com;",
+      "customerZipCode=95101|N; expires=Wed, 22 Jun 2016 03:16:53 GMT; path=/; domain=.bestbuy.com;",
+      "ltc=%20; expires=Tue, 21 Jun 2016 03:26:53 GMT; path=/; domain=.bestbuy.com;",
+      "akaau=1466479613~id=f9a5feb653f0ff75b09822fb5ebe90d4; domain=.bestbuy.com; path=/",
+      "bby_rdp=l; expires=Wed, 22-Jun-2016 03:16:53 GMT; path=/; domain=.bestbuy.com"
+    ],
+    "x-bby-instance-id": "e9e7db7c45",
+    "x-employment": "If you are reading this, consider a job at BestBuy.com http://www.bestbuy-jobs.com/bestbuy/group/corporate/",
+    "vary": "Accept-Encoding",
+    "x-frame-options": "SAMEORIGIN",
+    "content-encoding": "gzip",
+    "expires": "Tue, 21 Jun 2016 03:16:53 GMT",
+    "pragma": "no-cache",
+    "date": "Tue, 21 Jun 2016 03:16:53 GMT",
+    "content-length": "26089",
+    "connection": "close",
+    "cache-control": "no-store"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

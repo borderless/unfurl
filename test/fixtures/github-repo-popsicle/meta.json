@@ -2,7 +2,7 @@
   "url": "https://github.com/blakeembrey/popsicle",
   "headers": {
     "server": "GitHub.com",
-    "date": "Thu, 16 Jun 2016 19:59:49 GMT",
+    "date": "Tue, 21 Jun 2016 03:16:53 GMT",
     "content-type": "text/html; charset=utf-8",
     "transfer-encoding": "chunked",
     "connection": "close",
@@ -14,21 +14,21 @@
     ],
     "x-ua-compatible": "IE=Edge,chrome=1",
     "set-cookie": [
-      "_octo=GH1.1.1011224669.1466107189; domain=.github.com; path=/; expires=Sat, 16 Jun 2018 19:59:49 -0000",
-      "logged_in=no; domain=.github.com; path=/; expires=Mon, 16 Jun 2036 19:59:49 -0000; secure; HttpOnly",
-      "_gh_sess=eyJzZXNzaW9uX2lkIjoiN2ZmZWFlNmI5YWViYWFiNGY4Y2U2NWVhMjQ2N2JkNWUiLCJzcHlfcmVwbyI6ImJsYWtlZW1icmV5L3BvcHNpY2xlIiwic3B5X3JlcG9fYXQiOjE0NjYxMDcxODksIl9jc3JmX3Rva2VuIjoiTVNnMUlBTXBxdXUrdnFhbjVSNG9XU21LZ3lzMGovKy9aWXFsY0x5SDRNWT0iLCJmbGFzaCI6eyJkaXNjYXJkIjpbImFuYWx5dGljc19sb2NhdGlvbiJdLCJmbGFzaGVzIjp7ImFuYWx5dGljc19sb2NhdGlvbiI6Ii88dXNlci1uYW1lPi88cmVwby1uYW1lPiJ9fX0%3D--65621f2e316f5532124c8914565676bc90e0de9b; path=/; secure; HttpOnly"
+      "_octo=GH1.1.19875813.1466479013; domain=.github.com; path=/; expires=Thu, 21 Jun 2018 03:16:53 -0000",
+      "logged_in=no; domain=.github.com; path=/; expires=Sat, 21 Jun 2036 03:16:53 -0000; secure; HttpOnly",
+      "_gh_sess=eyJzZXNzaW9uX2lkIjoiZGI2ZjMwOGZiMjk1OTM3YTc4YzE2YTZiYmNkNzIxOWYiLCJzcHlfcmVwbyI6ImJsYWtlZW1icmV5L3BvcHNpY2xlIiwic3B5X3JlcG9fYXQiOjE0NjY0NzkwMTMsIl9jc3JmX3Rva2VuIjoiWG5DQmxFNWpVNHhsZUxsZWRrYVJjUUZaYmkwSjBBUTV4cGc3MzZrV0x0RT0iLCJmbGFzaCI6eyJkaXNjYXJkIjpbImFuYWx5dGljc19sb2NhdGlvbiJdLCJmbGFzaGVzIjp7ImFuYWx5dGljc19sb2NhdGlvbiI6Ii88dXNlci1uYW1lPi88cmVwby1uYW1lPiJ9fX0%3D--2fd1ff0b503cb3ee0d59141c37b2395da9c3f310; path=/; secure; HttpOnly"
     ],
-    "x-request-id": "24fac76b7a7ccb04cd7d8659dfc1fd1c",
-    "x-runtime": "0.092710",
+    "x-request-id": "96a1be112c87b500954523f619eb7879",
+    "x-runtime": "0.061067",
     "content-security-policy": "default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src render.githubusercontent.com; connect-src 'self' uploads.github.com status.github.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com wss://live.github.com; font-src assets-cdn.github.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: assets-cdn.github.com identicons.github.com www.google-analytics.com collector.githubapp.com *.gravatar.com *.wp.com *.githubusercontent.com; media-src 'none'; object-src assets-cdn.github.com; plugin-types application/x-shockwave-flash; script-src assets-cdn.github.com; style-src 'unsafe-inline' assets-cdn.github.com",
     "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
     "public-key-pins": "max-age=5184000; pin-sha256=\"WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=\"; pin-sha256=\"RRM1dGqnDFsCJXBTHky16vi1obOlCgFFn/yOhI/y+ho=\"; pin-sha256=\"k2v657xBsOVe1PQRwOsHsw3bsGT2VzIqz5K+59sNQws=\"; pin-sha256=\"K87oWBWM9UZfyddvDfoxL+8lpNyoUB2ptGtn0fv6G2Q=\"; pin-sha256=\"IQBnNBEiFuhj+8x6X8XLgh01V9Ic5/V3IRQLNFFc7v4=\"; pin-sha256=\"iie1VXtL7HzAMF+/PVPR9xzT80kQxdZeJ+zduCB3uj0=\"; pin-sha256=\"LvRiGEjRqfzurezaWuj8Wie2gyHMrW5Q06LspMnox7A=\"; includeSubDomains",
     "x-content-type-options": "nosniff",
     "x-frame-options": "deny",
     "x-xss-protection": "1; mode=block",
-    "x-served-by": "ef97014f01ea59c1ef337fe51a4d0331",
+    "x-served-by": "75d72dcf27484631bfac6100aeeba60c",
     "content-encoding": "gzip",
-    "x-github-request-id": "C60BDA26:4348:1D88F8F:57630535"
+    "x-github-request-id": "C60BC7FE:3B22:A4DD612:5768B1A5"
   },
   "status": 200,
   "statusText": "OK"

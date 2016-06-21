@@ -1,18 +1,18 @@
 {
-  "url": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection&_r=0",
+  "url": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection",
   "headers": {
     "server": "Apache",
     "x-app-name": "article",
     "cache-control": "no-cache",
     "content-type": "text/html; charset=utf-8",
-    "date": "Thu, 16 Jun 2016 19:59:49 GMT",
+    "date": "Tue, 21 Jun 2016 03:16:53 GMT",
     "age": "0",
     "x-api-version": "5-5",
     "x-cache": "miss",
     "x-pagetype": "article",
     "connection": "close",
     "x-frame-options": "DENY",
-    "set-cookie": "nyt-a=f845ffef4971d4bfc6e40ba6c7b4e459;path=/;domain=.nytimes.com;expires=Fri, 16 Jun 2017 19:59:49 UTC",
+    "set-cookie": "nyt-a=d55ba8d5d75e3ee8381d9bd66e312bdb;path=/;domain=.nytimes.com;expires=Wed, 21 Jun 2017 03:16:53 UTC",
     "content-encoding": "gzip",
     "transfer-encoding": "chunked"
   },

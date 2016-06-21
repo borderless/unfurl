@@ -1,6 +1,8 @@
 {
   "type": "video",
-  "imageUrl": "https://i.ytimg.com/vi/ZynZdGqxT7Q/maxresdefault.jpg",
+  "image": {
+    "url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/maxresdefault.jpg"
+  },
   "contentUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
   "originalUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
   "encodingFormat": "html",
@@ -11,6 +13,9 @@
     "Hangouts On Air",
     "#hoa"
   ],
+  "twitter": {
+    "siteHandle": "youtube"
+  },
   "apps": {
     "iphone": {
       "id": "544007664",

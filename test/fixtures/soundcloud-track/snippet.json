@@ -1,0 +1,42 @@
+{
+  "type": "video",
+  "image": {
+    "url": "https://i1.sndcdn.com/artworks-000139618215-ubm1i6-t500x500.jpg"
+  },
+  "contentUrl": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
+  "originalUrl": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
+  "encodingFormat": "html",
+  "headline": "Desiigner- \"Panda\" (Prod. By: Menace)",
+  "caption": "It's the OFFICIAL track that you have all been waiting. This is PANDA!!",
+  "siteName": "SoundCloud",
+  "tags": [
+    "record",
+    "sounds",
+    "share",
+    "sound",
+    "audio",
+    "tracks",
+    "music",
+    "soundcloud"
+  ],
+  "twitter": {
+    "siteHandle": "SoundCloud"
+  },
+  "apps": {
+    "iphone": {
+      "id": "336353151",
+      "name": "SoundCloud",
+      "url": "soundcloud://sounds:237603952"
+    },
+    "ipad": {
+      "id": "336353151",
+      "name": "SoundCloud",
+      "url": "soundcloud://sounds:237603952"
+    },
+    "android": {
+      "id": "com.soundcloud.android",
+      "name": "SoundCloud",
+      "url": "soundcloud://sounds:237603952"
+    }
+  }
+}

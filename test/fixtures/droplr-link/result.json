@@ -1,0 +1,33 @@
+{
+  "type": "html",
+  "contentUrl": "http://d.pr/a/q3z9",
+  "contentSize": 4273,
+  "encodingFormat": "html",
+  "meta": {
+    "html": {
+      "title": "table.jpeg • Droplr",
+      "description": "Easy cloud file sharing for Mac, Windows, and iOS.",
+      "author": "Droplr"
+    },
+    "twitter": {
+      "card": "photo",
+      "site": "@droplr",
+      "image": "http://d.pr/i/q3z9.png",
+      "image:width": "1280",
+      "image:height": "1280",
+      "app:name:iphone": "Droplr App",
+      "app:id:iphone": "500264329",
+      "app:name:ipad": "Droplr App",
+      "app:id:ipad": "500264329"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#title": "table.jpeg",
+        "http://ogp.me/ns#url": "http://d.pr/i/q3z9",
+        "http://ogp.me/ns/fb#app_id": "312044788856550",
+        "http://ogp.me/ns#description": "Shared with Droplr",
+        "http://ogp.me/ns#image": "http://d.pr/i/q3z9.png"
+      }
+    }
+  }
+}

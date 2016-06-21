@@ -1,0 +1,32 @@
+{
+  "type": "html",
+  "contentUrl": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
+  "contentSize": 26089,
+  "encodingFormat": "html",
+  "meta": {
+    "html": {
+      "title": "Apple iPhone 6s 64GB Gray MKRY2LL/A - Best Buy",
+      "keywords": "APPLE, IPHONE 6S",
+      "description": "iPhone 6s 64GB, Read customer reviews and buy online at Best Buy.",
+      "canonical": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "site": "@BestBuy",
+      "creator": "@BestBuy",
+      "title": "Apple - iPhone 6s 64GB - Space Gray (Verizon Wireless)",
+      "description": "iPhone 6s 64GB, Read customer reviews and buy online at Best Buy.",
+      "image": "http://pisces.bbystatic.com//image2/BestBuy_US/images/products/4447/4447801_sa.jpg;maxHeight=210;maxWidth=210"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#title": "Apple - iPhone 6s 64GB - Space Gray (Verizon Wireless)",
+        "http://ogp.me/ns#type": "product",
+        "http://ogp.me/ns#url": "/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
+        "http://ogp.me/ns#image": "http://pisces.bbystatic.com//image2/BestBuy_US/images/products/4447/4447801_sa.jpg;maxHeight=210;maxWidth=210",
+        "http://ogp.me/ns#site_name": "Best Buy",
+        "http://ogp.me/ns#description": "iPhone 6s 64GB, Read customer reviews and buy online at Best Buy."
+      }
+    }
+  }
+}

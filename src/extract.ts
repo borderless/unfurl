@@ -1,15 +1,16 @@
 import arrify = require('arrify')
 import extend = require('xtend')
 import Promise = require('any-promise')
+import { resolve } from 'url'
 import { scrapeUrl } from './scrape'
 import { Result, ResultMeta, ImageResult, VideoResult, BaseResult } from './interfaces'
 
-export type ExtractType = 'video' | 'image' | 'summary'
+export type ExtractType = 'video' | 'image' | 'article' | 'summary'
 
 /**
  * Extract rich snippets from the scraping result.
  */
-export function extract (result: Result, priority: ExtractType[] = ['video', 'image', 'summary']): Snippet {
+export function extract (result: Result, priority: ExtractType[] = ['video', 'image', 'article', 'summary']): Snippet {
   if (result == null) {
     return
   }
@@ -40,22 +41,54 @@ export interface SnippetAppLink {
   url: string
 }
 
+export interface SnippetLocale {
+  primary?: string
+  alternate?: string[]
+}
+
+export interface SnippetImage {
+  url?: string
+  alt?: string
+  width?: number
+  height?: number
+}
+
+export interface SnippetTwitter {
+  siteId?: string
+  siteHandle?: string
+  creatorId?: string
+  creatorHandle?: string
+}
+
+export interface SnippetApps {
+  iphone?: SnippetAppLink
+  ipad?: SnippetAppLink
+  android?: SnippetAppLink
+  windows?: SnippetAppLink
+  windowsPhone?: SnippetAppLink
+}
+
 export interface BaseSnippet extends BaseResult {
-  imageUrl?: string
+  image?: SnippetImage
   originalUrl?: string
+  determiner?: string
   headline?: string
   caption?: string
   tags?: string[]
   author?: string
   publisher?: string
   siteName?: string
-  apps?: {
-    iphone?: SnippetAppLink
-    ipad?: SnippetAppLink
-    android?: SnippetAppLink
-    windows?: SnippetAppLink
-    windowsPhone?: SnippetAppLink
-  }
+  ttl?: number
+  locale?: SnippetLocale
+  twitter?: SnippetTwitter
+  apps?: SnippetApps
+}
+
+export interface ArticleSnippet extends BaseResult {
+  type: 'article'
+  dateModified?: Date
+  datePublished?: Date
+  dateExpires?: Date
 }
 
 export interface VideoSnippet extends BaseSnippet {
@@ -70,7 +103,7 @@ export interface SummarySnippet extends BaseSnippet {
   type: 'summary'
 }
 
-export type Snippet = VideoSnippet | ImageSnippet | SummarySnippet
+export type Snippet = VideoSnippet | ImageSnippet | SummarySnippet | ArticleSnippet
 
 export interface Extracts {
   video (result: Result): VideoSnippet
@@ -89,10 +122,24 @@ export const extracts: Extracts = {
 
     if (type === 'html') {
       if (
-        getMetaString(meta, ['twitter', 'card']) === 'photo'
+        getString(meta, ['twitter', 'card']) === 'photo'
       ) {
         return extend(extracts.summary(result), {
           type: 'image' as 'image'
+        })
+      }
+    }
+  },
+  article (result): ArticleSnippet {
+    const { type, meta } = result
+
+    if (type === 'html') {
+      if (getString(meta, ['rdfa', '', 'http://ogp.me/ns#type']) === 'article') {
+        return extend(extracts.summary(result), {
+          type: 'article' as 'article',
+          datePublished: getDate(meta, ['rdfa', '', 'http://ogp.me/ns/article#published_time']),
+          dateExpires: getDate(meta, ['rdfa', '', 'http://ogp.me/ns/article#expiration_time']),
+          dateModified: getDate(meta, ['rdfa', '', 'http://ogp.me/ns/article#modified_time'])
         })
       }
     }
@@ -106,8 +153,8 @@ export const extracts: Extracts = {
 
     if (type === 'html') {
       if (
-        getMetaString(meta, ['twitter', 'card']) === 'player' ||
-        getMetaString(meta, ['rdfa', '', 'http://ogp.me/ns#type']) === 'video'
+        getString(meta, ['twitter', 'card']) === 'player' ||
+        getString(meta, ['rdfa', '', 'http://ogp.me/ns#type']) === 'video'
       ) {
         return extend(extracts.summary(result), {
           type: 'video' as 'video'
@@ -116,22 +163,26 @@ export const extracts: Extracts = {
     }
   },
   summary (result): SummarySnippet {
-    const { type, meta } = result
+    const { type, contentUrl, meta } = result
 
     if (type === 'html') {
       return {
         type: 'summary',
-        imageUrl: getMetaImageUrl(meta),
-        contentUrl: getMetaUrl(meta),
+        image: getMetaImage(meta, contentUrl),
+        contentUrl: getMetaUrl(meta, contentUrl),
         contentSize: result.contentSize,
         originalUrl: result.contentUrl,
         encodingFormat: result.encodingFormat,
+        determiner: getMetaDeterminer(meta),
         headline: getMetaHeadline(meta),
         caption: getMetaCaption(meta),
         siteName: getMetaSiteName(meta),
         author: getMetaAuthor(meta),
         publisher: getMetaPublisher(meta),
+        ttl: getMetaTtl(meta),
         tags: getMetaTags(meta),
+        locale: getMetaLocale(meta),
+        twitter: getMetaTwitter(meta),
         apps: getMetaApps(meta)
       }
     }
@@ -158,7 +209,7 @@ function get <T> (obj: any, path: string[]): T {
 /**
  * Return a value as a string.
  */
-function getMetaString (meta: ResultMeta, path: string[]): string {
+function getString (meta: ResultMeta, path: string[]): string {
   const value = get<any>(meta, path)
 
   if (Array.isArray(value)) {
@@ -173,30 +224,70 @@ function getMetaString (meta: ResultMeta, path: string[]): string {
 }
 
 /**
+ * Return an array of values.
+ */
+function getArray (meta: ResultMeta, path: string[]): string[] {
+  const value = get<any>(meta, path)
+
+  return value ? arrify(value) : undefined
+}
+
+/**
+ * Return a value as a number.
+ */
+function getNumber (meta: ResultMeta, path: string[]): number {
+  const value = Number(getString(meta, path))
+
+  return isNaN(value) ? undefined : value
+}
+
+/**
+ * Return a value in date format.
+ */
+function getDate (meta: ResultMeta, path: string[]): Date {
+  const value = new Date(getString(meta, path))
+
+  return isNaN(value.getTime()) ? undefined : value
+}
+
+/**
+ * Get URL from the meta object.
+ */
+function getUrl (meta: ResultMeta, path: string[], baseUrl: string): string {
+  const value = getString(meta, path)
+
+  if (value) {
+    return resolve(baseUrl, value)
+  }
+
+  return value
+}
+
+/**
  * Get the canonical URL from the metadata.
  */
-function getMetaUrl (meta: ResultMeta) {
-  return getMetaString(meta, ['twitter', 'url']) ||
-    getMetaString(meta, ['rdfa', '', 'http://ogp.me/ns#url']) ||
-    getMetaString(meta, ['html', 'canonical']) ||
-    getMetaString(meta, ['applinks', 'web:url'])
+function getMetaUrl (meta: ResultMeta, baseUrl: string) {
+  return getUrl(meta, ['twitter', 'url'], baseUrl) ||
+    getUrl(meta, ['rdfa', '', 'http://ogp.me/ns#url'], baseUrl) ||
+    getUrl(meta, ['html', 'canonical'], baseUrl) ||
+    getUrl(meta, ['applinks', 'web:url'], baseUrl)
 }
 
 /**
  * Get the metadata author.
  */
 function getMetaAuthor (meta: ResultMeta) {
-  return getMetaString(meta, ['html', 'author']) ||
-    getMetaString(meta, ['sailthru', 'author']) ||
-    getMetaString(meta, ['rdfa', '', 'http://ogp.me/ns/article#author']) ||
-    getMetaString(meta, ['rdfa', '', 'https://creativecommons.org/ns#attributionName'])
+  return getString(meta, ['html', 'author']) ||
+    getString(meta, ['sailthru', 'author']) ||
+    getString(meta, ['rdfa', '', 'http://ogp.me/ns/article#author']) ||
+    getString(meta, ['rdfa', '', 'https://creativecommons.org/ns#attributionName'])
 }
 
 /**
  * Get tags from metadata.
  */
 function getMetaTags (meta: ResultMeta): string[] {
-  const htmlKeywords = getMetaString(meta, ['html', 'keywords'])
+  const htmlKeywords = getString(meta, ['html', 'keywords'])
 
   if (htmlKeywords) {
     return htmlKeywords.split(/ *, */)
@@ -213,53 +304,68 @@ function getMetaTags (meta: ResultMeta): string[] {
  * Get the publisher from metadata.
  */
 function getMetaPublisher (meta: ResultMeta) {
-  return getMetaString(meta, ['rdfa', '', 'http://ogp.me/ns/article#publisher'])
+  return getString(meta, ['rdfa', '', 'http://ogp.me/ns/article#publisher'])
 }
 
 /**
  * Get the name of the site.
  */
 function getMetaSiteName (meta: ResultMeta) {
-  return getMetaString(meta, ['rdfa', '', 'http://ogp.me/ns#site_name']) ||
-    getMetaString(meta, ['twitter', 'app:name:iphone']) ||
-    getMetaString(meta, ['twitter', 'app:name:ipad']) ||
-    getMetaString(meta, ['twitter', 'app:name:googleplay']) ||
-    getMetaString(meta, ['applinks', 'ios:app_name']) ||
-    getMetaString(meta, ['applinks', 'ipad:app_name']) ||
-    getMetaString(meta, ['applinks', 'iphone:app_name']) ||
-    getMetaString(meta, ['twitter', 'android:app_name'])
+  return getString(meta, ['rdfa', '', 'http://ogp.me/ns#site_name']) ||
+    getString(meta, ['twitter', 'app:name:iphone']) ||
+    getString(meta, ['twitter', 'app:name:ipad']) ||
+    getString(meta, ['twitter', 'app:name:googleplay']) ||
+    getString(meta, ['applinks', 'ios:app_name']) ||
+    getString(meta, ['applinks', 'ipad:app_name']) ||
+    getString(meta, ['applinks', 'iphone:app_name']) ||
+    getString(meta, ['twitter', 'android:app_name'])
 }
 
 /**
  * Get the headline from the site.
  */
 function getMetaHeadline (meta: ResultMeta) {
-  return getMetaString(meta, ['twitter', 'title']) ||
-    getMetaString(meta, ['rdfa', '', 'http://ogp.me/ns#title']) ||
-    getMetaString(meta, ['html', 'title'])
+  return getString(meta, ['twitter', 'title']) ||
+    getString(meta, ['rdfa', '', 'http://ogp.me/ns#title']) ||
+    getString(meta, ['html', 'title'])
 }
 
 /**
  * Get the caption from the site.
  */
 function getMetaCaption (meta: ResultMeta) {
-  return getMetaString(meta, ['twitter', 'description']) ||
-    getMetaString(meta, ['rdfa', '', 'http://ogp.me/ns#description']) ||
-    getMetaString(meta, ['html', 'description'])
+  return getString(meta, ['twitter', 'description']) ||
+    getString(meta, ['rdfa', '', 'http://ogp.me/ns#description']) ||
+    getString(meta, ['html', 'description'])
 }
 
 /**
  * Get the meta image url.
  */
-function getMetaImageUrl (meta: ResultMeta) {
-  return getMetaString(meta, ['twitter', 'image']) ||
-    getMetaString(meta, ['rdfa', '', 'http://ogp.me/ns#image'])
+function getMetaImage (meta: ResultMeta, baseUrl: string): SnippetImage {
+  const ogpImage = getUrl(meta, ['rdfa', '', 'http://ogp.me/ns#image'], baseUrl)
+  const twitterImage = getUrl(meta, ['twitter', 'image'], baseUrl)
+
+  if (twitterImage) {
+    return {
+      url: twitterImage,
+      alt: getString(meta, ['twitter', 'image:alt']),
+      width: getNumber(meta, ['twitter', 'image:width']),
+      height: getNumber(meta, ['twitter', 'image:height'])
+    }
+  }
+
+  if (ogpImage) {
+    return {
+      url: ogpImage
+    }
+  }
 }
 
 /**
  * Get apps metadata.
  */
-function getMetaApps (meta: ResultMeta) {
+function getMetaApps (meta: ResultMeta): SnippetApps {
   return {
     iphone: getMetaIphoneApp(meta),
     ipad: getMetaIpadApp(meta),
@@ -273,9 +379,9 @@ function getMetaApps (meta: ResultMeta) {
  * Extract iPad app information from metadata.
  */
 function getMetaIpadApp (meta: ResultMeta): SnippetAppLink {
-  const twitterIpadUrl = getMetaString(meta, ['twitter', 'app:url:ipad'])
-  const twitterIpadId = getMetaString(meta, ['twitter', 'app:id:ipad'])
-  const twitterIpadName = getMetaString(meta, ['twitter', 'app:name:ipad'])
+  const twitterIpadUrl = getString(meta, ['twitter', 'app:url:ipad'])
+  const twitterIpadId = getString(meta, ['twitter', 'app:id:ipad'])
+  const twitterIpadName = getString(meta, ['twitter', 'app:name:ipad'])
 
   if (twitterIpadId && twitterIpadName && twitterIpadUrl) {
     return {
@@ -285,9 +391,9 @@ function getMetaIpadApp (meta: ResultMeta): SnippetAppLink {
     }
   }
 
-  const applinksIpadUrl = getMetaString(meta, ['applinks', 'ipad:url'])
-  const applinksIpadId = getMetaString(meta, ['applinks', 'ipad:app_store_id'])
-  const applinksIpadName = getMetaString(meta, ['applinks', 'ipad:app_name'])
+  const applinksIpadUrl = getString(meta, ['applinks', 'ipad:url'])
+  const applinksIpadId = getString(meta, ['applinks', 'ipad:app_store_id'])
+  const applinksIpadName = getString(meta, ['applinks', 'ipad:app_name'])
 
   if (applinksIpadId && applinksIpadName && applinksIpadUrl) {
     return {
@@ -304,9 +410,9 @@ function getMetaIpadApp (meta: ResultMeta): SnippetAppLink {
  * Extract iPhone app information from metadata.
  */
 function getMetaIphoneApp (meta: ResultMeta): SnippetAppLink {
-  const twitterIphoneUrl = getMetaString(meta, ['twitter', 'app:url:iphone'])
-  const twitterIphoneId = getMetaString(meta, ['twitter', 'app:id:iphone'])
-  const twitterIphoneName = getMetaString(meta, ['twitter', 'app:name:iphone'])
+  const twitterIphoneUrl = getString(meta, ['twitter', 'app:url:iphone'])
+  const twitterIphoneId = getString(meta, ['twitter', 'app:id:iphone'])
+  const twitterIphoneName = getString(meta, ['twitter', 'app:name:iphone'])
 
   if (twitterIphoneId && twitterIphoneName && twitterIphoneUrl) {
     return {
@@ -316,9 +422,9 @@ function getMetaIphoneApp (meta: ResultMeta): SnippetAppLink {
     }
   }
 
-  const applinksIphoneUrl = getMetaString(meta, ['applinks', 'iphone:url'])
-  const applinksIphoneId = getMetaString(meta, ['applinks', 'iphone:app_store_id'])
-  const applinksIphoneName = getMetaString(meta, ['applinks', 'iphone:app_name'])
+  const applinksIphoneUrl = getString(meta, ['applinks', 'iphone:url'])
+  const applinksIphoneId = getString(meta, ['applinks', 'iphone:app_store_id'])
+  const applinksIphoneName = getString(meta, ['applinks', 'iphone:app_name'])
 
   if (applinksIphoneId && applinksIphoneName && applinksIphoneUrl) {
     return {
@@ -335,9 +441,9 @@ function getMetaIphoneApp (meta: ResultMeta): SnippetAppLink {
  * Extract the iOS app metadata.
  */
 function getMetaIosApp (meta: ResultMeta): SnippetAppLink {
-  const applinksUrl = getMetaString(meta, ['applinks', 'ios:url'])
-  const applinksId = getMetaString(meta, ['applinks', 'ios:app_store_id'])
-  const applinksName = getMetaString(meta, ['applinks', 'ios:app_name'])
+  const applinksUrl = getString(meta, ['applinks', 'ios:url'])
+  const applinksId = getString(meta, ['applinks', 'ios:app_store_id'])
+  const applinksName = getString(meta, ['applinks', 'ios:app_name'])
 
   if (applinksId && applinksName && applinksUrl) {
     return {
@@ -352,9 +458,9 @@ function getMetaIosApp (meta: ResultMeta): SnippetAppLink {
  * Extract Android app metadata.
  */
 function getMetaAndroidApp (meta: ResultMeta): SnippetAppLink {
-  const twitterAndroidUrl = getMetaString(meta, ['twitter', 'app:url:googleplay'])
-  const twitterAndroidId = getMetaString(meta, ['twitter', 'app:id:googleplay'])
-  const twitterAndroidName = getMetaString(meta, ['twitter', 'app:name:googleplay'])
+  const twitterAndroidUrl = getString(meta, ['twitter', 'app:url:googleplay'])
+  const twitterAndroidId = getString(meta, ['twitter', 'app:id:googleplay'])
+  const twitterAndroidName = getString(meta, ['twitter', 'app:name:googleplay'])
 
   if (twitterAndroidId && twitterAndroidName && twitterAndroidUrl) {
     return {
@@ -364,9 +470,9 @@ function getMetaAndroidApp (meta: ResultMeta): SnippetAppLink {
     }
   }
 
-  const applinksAndroidUrl = getMetaString(meta, ['applinks', 'android:url'])
-  const applinksAndroidId = getMetaString(meta, ['applinks', 'android:package'])
-  const applinksAndroidName = getMetaString(meta, ['applinks', 'android:app_name'])
+  const applinksAndroidUrl = getString(meta, ['applinks', 'android:url'])
+  const applinksAndroidId = getString(meta, ['applinks', 'android:package'])
+  const applinksAndroidName = getString(meta, ['applinks', 'android:app_name'])
 
   if (applinksAndroidId && applinksAndroidName && applinksAndroidUrl) {
     return {
@@ -381,9 +487,9 @@ function getMetaAndroidApp (meta: ResultMeta): SnippetAppLink {
  * Extract Windows Phone app metadata.
  */
 function getMetaWindowsPhoneApp (meta: ResultMeta): SnippetAppLink {
-  const applinksWindowsPhoneUrl = getMetaString(meta, ['applinks', 'windows_phone:url'])
-  const applinksWindowsPhoneId = getMetaString(meta, ['applinks', 'windows_phone:app_id'])
-  const applinksWindowsPhoneName = getMetaString(meta, ['applinks', 'windows_phone:app_name'])
+  const applinksWindowsPhoneUrl = getString(meta, ['applinks', 'windows_phone:url'])
+  const applinksWindowsPhoneId = getString(meta, ['applinks', 'windows_phone:app_id'])
+  const applinksWindowsPhoneName = getString(meta, ['applinks', 'windows_phone:app_name'])
 
   if (applinksWindowsPhoneId && applinksWindowsPhoneName && applinksWindowsPhoneUrl) {
     return {
@@ -400,9 +506,9 @@ function getMetaWindowsPhoneApp (meta: ResultMeta): SnippetAppLink {
  * Extract Windows app metadata.
  */
 function getMetaWindowsApp (meta: ResultMeta): SnippetAppLink {
-  const applinksWindowsUrl = getMetaString(meta, ['applinks', 'windows:url'])
-  const applinksWindowsId = getMetaString(meta, ['applinks', 'windows:app_id'])
-  const applinksWindowsName = getMetaString(meta, ['applinks', 'windows:app_name'])
+  const applinksWindowsUrl = getString(meta, ['applinks', 'windows:url'])
+  const applinksWindowsId = getString(meta, ['applinks', 'windows:app_id'])
+  const applinksWindowsName = getString(meta, ['applinks', 'windows:app_name'])
 
   if (applinksWindowsId && applinksWindowsName && applinksWindowsUrl) {
     return {
@@ -419,9 +525,9 @@ function getMetaWindowsApp (meta: ResultMeta): SnippetAppLink {
  * Extract Windows Universal app metadata.
  */
 function getMetaWindowsUniversalApp (meta: ResultMeta): SnippetAppLink {
-  const applinksWindowsUniversalUrl = getMetaString(meta, ['applinks', 'windows_universal:url'])
-  const applinksWindowsUniversalId = getMetaString(meta, ['applinks', 'windows_universal:app_id'])
-  const applinksWindowsUniversalName = getMetaString(meta, ['applinks', 'windows_universal:app_name'])
+  const applinksWindowsUniversalUrl = getString(meta, ['applinks', 'windows_universal:url'])
+  const applinksWindowsUniversalId = getString(meta, ['applinks', 'windows_universal:app_id'])
+  const applinksWindowsUniversalName = getString(meta, ['applinks', 'windows_universal:app_name'])
 
   if (applinksWindowsUniversalId && applinksWindowsUniversalName && applinksWindowsUniversalUrl) {
     return {
@@ -430,4 +536,58 @@ function getMetaWindowsUniversalApp (meta: ResultMeta): SnippetAppLink {
       url: applinksWindowsUniversalUrl
     }
   }
+}
+
+/**
+ * Get locale data.
+ */
+function getMetaLocale (meta: ResultMeta): SnippetLocale {
+  const primary = getString(meta, ['rdfa', '', 'http://ogp.me/ns#locale'])
+  const alternate = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#locale:alternate'])
+
+  if (primary || alternate) {
+    return { primary, alternate }
+  }
+}
+
+/**
+ * Get twitter data.
+ */
+function getMetaTwitter (meta: ResultMeta): SnippetTwitter {
+  const creatorId = getString(meta, ['twitter', 'creator:id'])
+  const creatorHandle = getTwitterHandle(meta, ['twitter', 'creator'])
+  const siteId = getString(meta, ['twitter', 'site:id'])
+  const siteHandle = getTwitterHandle(meta, ['twitter', 'site'])
+
+  if (siteId || siteHandle || creatorId || creatorHandle) {
+    return {
+      siteId,
+      siteHandle,
+      creatorId,
+      creatorHandle
+    }
+  }
+}
+
+function getTwitterHandle (meta: ResultMeta, path: string[]) {
+  const value = getString(meta, path)
+
+  if (value) {
+    // Normalize twitter handles.
+    return value.replace(/^@/, '')
+  }
+}
+
+/**
+ * Get the TTL of the page.
+ */
+function getMetaTtl (meta: ResultMeta): number {
+  return getNumber(meta, ['rdfa', '', 'http://ogp.me/ns#ttl'])
+}
+
+/**
+ * Get the object determiner.
+ */
+function getMetaDeterminer (meta: ResultMeta): string {
+  return getString(meta, ['rdfa', '', 'http://ogp.me/ns#determiner'])
 }

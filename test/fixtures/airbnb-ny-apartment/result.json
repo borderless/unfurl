@@ -1,12 +1,13 @@
 {
   "type": "html",
   "contentUrl": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
+  "contentSize": 82015,
   "encodingFormat": "html",
   "meta": {
     "html": {
       "title": "Bright, Chelsea Studio - Apartments for Rent in New York",
       "canonical": "https://www.airbnb.com/rooms/2250401",
-      "description": "Entire home/apt for $235. A cute boutique studio located on arguably the best street in Chelsea. A block from the Highline, endless Galleries and Restaurants, the wonderful ..."
+      "description": "Entire home/apt for $220. A cute boutique studio located on arguably the best street in Chelsea. A block from the Highline, endless Galleries and Restaurants, the wonderful ..."
     },
     "twitter": {
       "widgets:csp": "on",

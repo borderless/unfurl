@@ -17,6 +17,6 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
     contentUrl: url,
     contentSize: headers['content-length'] ? Number(headers['content-length']) : undefined,
     encodingFormat: String(headers['content-type']).substr(6),
-    uploadDate: headers['last-modified'] ? new Date(headers['last-modified'] as string) : undefined
+    dateModified: headers['last-modified'] ? new Date(headers['last-modified'] as string) : undefined
   }
 }

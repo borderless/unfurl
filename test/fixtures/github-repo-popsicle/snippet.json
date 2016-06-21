@@ -1,11 +1,16 @@
 {
   "type": "summary",
-  "imageUrl": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
+  "image": {
+    "url": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400"
+  },
   "contentUrl": "https://github.com/blakeembrey/popsicle",
   "originalUrl": "https://github.com/blakeembrey/popsicle",
   "encodingFormat": "html",
   "headline": "blakeembrey/popsicle",
   "caption": "popsicle - Simple HTTP requests for node and the browser",
   "siteName": "GitHub",
+  "twitter": {
+    "siteHandle": "github"
+  },
   "apps": {}
 }

@@ -1,0 +1,25 @@
+{
+  "type": "summary",
+  "image": {
+    "url": "http://d2c87l0yth4zbw.global.ssl.fastly.net/i/_global/open-graph-default.png"
+  },
+  "contentUrl": "https://www.spotify.com/us/",
+  "contentSize": 21510,
+  "originalUrl": "https://www.spotify.com/",
+  "encodingFormat": "html",
+  "headline": "Music for everyone.",
+  "caption": "Spotify is all the music you’ll ever need.",
+  "tags": [
+    "Spotify",
+    "music",
+    "online",
+    "listen",
+    "streaming",
+    "play",
+    "digital",
+    "album",
+    "artist",
+    "playlist"
+  ],
+  "apps": {}
+}

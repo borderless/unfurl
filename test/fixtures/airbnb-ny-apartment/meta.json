@@ -5,28 +5,25 @@
     "content-type": "text/html; charset=utf-8",
     "vary": "Accept-Encoding",
     "status": "200 OK",
-    "content-security-policy": "default-src 'self' https:; connect-src 'self' https: ws://localhost.airbnb.com:8888 *.mapbox.com *.inspectlet.com wss://ws.inspectlet.com http:; font-src 'self' https:; frame-src * *.google.com; img-src 'self' https: *.mapbox.com *.inspectlet.com *.gstatic.com http: data:; media-src 'self' https: blob:; object-src 'self' https:; script-src 'sha256-8Kp4YIWqA8yhCJaTWnmB7Wv7OjnXnX661ygwccVuDRw=' 'self' https: 'unsafe-eval' 'unsafe-inline' *.mapbox.com *.inspectlet.com *.google.com *.gstatic.com http:; style-src 'self' https: 'unsafe-inline' *.mapbox.com http:; report-uri /tracking/csp?action=show&controller=rooms&req_uuid=bdd2c5eb-f9b8-4fc6-b116-6ffd6dc8667a&version=d51f798af0d06fd43dd8d21fab71a8fd144fc61a;",
+    "content-security-policy": "default-src 'self' https:; connect-src 'self' https: ws://localhost.airbnb.com:8888 *.mapbox.com *.inspectlet.com wss://ws.inspectlet.com http:; font-src 'self' https:; frame-src * *.google.com; img-src 'self' https: *.mapbox.com *.inspectlet.com *.gstatic.com http: data:; media-src 'self' https: blob:; object-src 'self' https:; script-src 'sha256-8Kp4YIWqA8yhCJaTWnmB7Wv7OjnXnX661ygwccVuDRw=' 'self' https: 'unsafe-eval' 'unsafe-inline' *.mapbox.com *.inspectlet.com *.google.com *.gstatic.com http:; style-src 'self' https: 'unsafe-inline' *.mapbox.com http:; report-uri /tracking/csp?action=show&controller=rooms&req_uuid=d3965758-0ff4-46a3-bd6f-b931e76452df&version=43a438ba626ed8c91fe74f927c5c06c5239fc932;",
     "x-content-type-options": "nosniff",
     "x-xss-protection": "1; mode=block",
     "x-frame-options": "SAMEORIGIN",
-    "etag": "W/\"54c8bcf374859dab6fab41dc36ad3b4b\"",
+    "etag": "W/\"db2e9686a2eacabef17ddc1fc7f528d8\"",
     "cache-control": "max-age=0, private, must-revalidate",
     "x-ua-compatible": "IE=Edge,chrome=1",
     "content-encoding": "gzip",
     "strict-transport-security": "max-age=10886400; includeSubdomains",
     "x-server-name": "www.airbnb.com",
-    "date": "Thu, 16 Jun 2016 19:59:50 GMT",
-    "transfer-encoding": "chunked",
-    "connection": [
-      "close",
-      "Transfer-Encoding"
-    ],
+    "content-length": "82015",
+    "date": "Tue, 21 Jun 2016 03:16:55 GMT",
+    "connection": "close",
     "set-cookie": [
-      "bev=1466107189_kNfDOw6%2FwSLvJ0fa; domain=.airbnb.com; path=/; expires=Sat, 16-Jun-2018 19:59:49 GMT; secure",
-      "_csrf_token=V4%24.airbnb.com%24Ub0-qkRgd0I%24QvwGn0MwzLgCXUYNTmEceFgkHOtZePgX1_Ta_BHOqH4%3D; domain=.airbnb.com; path=/; secure",
-      "_user_attributes=%7B%22curr%22%3A%22USD%22%2C%22guest_exchange%22%3A1.0%2C%22device_profiling_session_id%22%3A%221466107190--bbb5a3d9969c1edbf90c3143%22%7D; domain=.airbnb.com; path=/; secure",
+      "bev=1466479014_CmJXcVJr09PSqRs3; domain=.airbnb.com; path=/; expires=Thu, 21-Jun-2018 03:16:54 GMT; secure",
+      "_csrf_token=V4%24.airbnb.com%24EpSF1HxCNR0%24xqvIGjT9Am-q1JlYgOsPVFBX1QZH3Z5m6xV6FgZJd1k%3D; domain=.airbnb.com; path=/; secure",
+      "_user_attributes=%7B%22curr%22%3A%22USD%22%2C%22guest_exchange%22%3A1.0%2C%22device_profiling_session_id%22%3A%221466479015--8ea4360c4ec0c1843ccd2d24%22%7D; domain=.airbnb.com; path=/; secure",
       "flags=268439552; domain=.airbnb.com; path=/; secure",
-      "mdr_browser=desktop; expires=Thu, 16-Jun-2016 21:59:50 GMT; path=/; domain=.airbnb.com"
+      "mdr_browser=desktop; expires=Tue, 21-Jun-2016 05:16:55 GMT; path=/; domain=.airbnb.com"
     ],
     "akamai-country": "US"
   },

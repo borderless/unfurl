@@ -31,9 +31,14 @@ export function scrapeUrl (url: string): Promise<Result> {
  * Scrape metadata from a stream (with headers/URL).
  */
 export function scrapeStream (url: string, headers: Headers, stream: Readable, abort?: AbortFn): Promise<Result> {
+  abort = abort || (() => stream.resume())
+
   for (const rule of rules) {
     if (rule.supported(url, headers)) {
-      return Promise.resolve(rule.handle(url, headers, stream, abort || (() => stream.resume())))
+      return Promise.resolve(rule.handle(url, headers, stream, abort))
     }
   }
+
+  // Abort on unhandled requests.
+  abort()
 }

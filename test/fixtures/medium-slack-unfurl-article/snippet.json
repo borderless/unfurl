@@ -1,6 +1,8 @@
 {
-  "type": "summary",
-  "imageUrl": "https://cdn-images-1.medium.com/max/1200/1*QOMaDLcO8rExD0ctBV3BWg.png",
+  "type": "article",
+  "image": {
+    "url": "https://d262ilb51hltx0.cloudfront.net/max/1200/1*QOMaDLcO8rExD0ctBV3BWg.png"
+  },
   "contentUrl": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254",
   "originalUrl": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt",
   "encodingFormat": "html",
@@ -9,6 +11,10 @@
   "siteName": "Medium",
   "author": "Matt Haughey",
   "publisher": "https://www.facebook.com/medium",
+  "twitter": {
+    "siteHandle": "Medium",
+    "creatorHandle": "mathowie"
+  },
   "apps": {
     "iphone": {
       "id": "828256236",
@@ -25,5 +31,6 @@
       "name": "Medium",
       "url": "medium://p/e64b4bb9254"
     }
-  }
+  },
+  "datePublished": "2015-11-24T21:33:25.196Z"
 }

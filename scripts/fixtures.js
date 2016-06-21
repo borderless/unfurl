@@ -73,6 +73,62 @@ var FIXTURES = [
   {
     name: 'learn-standard-ml-guide',
     url: 'https://learnxinyminutes.com/docs/standard-ml/'
+  },
+  {
+    name: 'soundcloud-track',
+    url: 'https://soundcloud.com/lifeofdesiigner/desiigner-panda'
+  },
+  {
+    name: 'twitter-docs-player',
+    url: 'https://dev.twitter.com/cards/types/player'
+  },
+  {
+    name: 'github-homepage',
+    url: 'https://github.com/'
+  },
+  {
+    name: 'facebook-homepage',
+    url: 'https://www.facebook.com/'
+  },
+  {
+    name: 'twitter-homepage',
+    url: 'https://twitter.com/'
+  },
+  {
+    name: 'reddit-homepage',
+    url: 'http://www.reddit.com/'
+  },
+  {
+    name: 'reddit-comments',
+    url: 'https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/'
+  },
+  {
+    name: 'new-com-au-article',
+    url: 'http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123'
+  },
+  {
+    name: 'spotify-homepage',
+    url: 'https://www.spotify.com/'
+  },
+  {
+    name: 'bestbuy-product-iphone',
+    url: 'http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801'
+  },
+  {
+    name: 'amazon-smile-product-book',
+    url: 'https://smile.amazon.com/gp/product/1937785734/ref=s9_qpp_gw_d99_g14_i5_r?ie=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-1&pf_rd_r=92JG667YC8526036ANPR&pf_rd_t=36701&pf_rd_p=6aad23bd-3035-4a40-b691-0eefb1a18396&pf_rd_i=desktop'
+  },
+  {
+    name: 'imdb-inception',
+    url: 'http://www.imdb.com/title/tt1375666/'
+  },
+  {
+    name: 'droplr-blog-post',
+    url: 'https://droplr.com/droplr-addition-google-chrome-extension'
+  },
+  {
+    name: 'droplr-link',
+    url: 'http://d.pr/a/q3z9'
   }
 ]
 
@@ -95,7 +151,7 @@ Promise.all(FIXTURES.map(function (fixture) {
             console.log('Writing "' + fixture.name + '"...')
 
             const meta = {
-              url: res.url,
+              url: fixture.url,
               headers: res.headers,
               status: res.status,
               statusText: res.statusText

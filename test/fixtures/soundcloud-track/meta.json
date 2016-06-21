@@ -1,0 +1,17 @@
+{
+  "url": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
+  "headers": {
+    "content-encoding": "gzip",
+    "cache-control": "private, max-age=0",
+    "content-type": "text/html",
+    "date": "Tue, 21 Jun 2016 03:16:53 GMT",
+    "server": "am/2",
+    "set-cookie": "sc_anonymous_id=966723-781822-199072-987257; path=/; expires=Fri, 19 Jun 2026 03:16:53 GMT; domain=.soundcloud.com",
+    "via": "sssr",
+    "x-frame-options": "SAMEORIGIN",
+    "transfer-encoding": "chunked",
+    "connection": "close"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

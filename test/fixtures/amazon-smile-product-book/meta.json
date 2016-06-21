@@ -1,0 +1,27 @@
+{
+  "url": "https://smile.amazon.com/gp/product/1937785734/ref=s9_qpp_gw_d99_g14_i5_r?ie=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-1&pf_rd_r=92JG667YC8526036ANPR&pf_rd_t=36701&pf_rd_p=6aad23bd-3035-4a40-b691-0eefb1a18396&pf_rd_i=desktop",
+  "headers": {
+    "server": "Server",
+    "date": "Tue, 21 Jun 2016 03:16:53 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "x-amz-id-1": "Y14ZMDMF6M6NAE00X09X",
+    "p3p": "policyref=\"https://www.amazon.com/w3c/p3p.xml\",CP=\"CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC \"",
+    "cache-control": "no-cache, no-transform",
+    "x-frame-options": "SAMEORIGIN",
+    "expires": "-1",
+    "x-ua-compatible": "IE=edge",
+    "vary": "Accept-Encoding,User-Agent",
+    "content-encoding": "gzip",
+    "set-cookie": [
+      "x-wl-uid=1WKBCqwLVA+YYLAN1dG6Ca0Tzb71U/ECAqBNRG1bQQYzJreHoRsQC4KrTdMGh65Om8QUSndLRCko=; path=/; domain=.amazon.com; expires=Tue, 01-Jan-2036 08:00:01 GMT",
+      "ubid-main=184-1870110-0550426; path=/; domain=.amazon.com; expires=Tue, 01-Jan-2036 08:00:01 GMT",
+      "session-id-time=2082787201l; path=/; domain=.amazon.com; expires=Tue, 01-Jan-2036 08:00:01 GMT",
+      "session-id=188-7205753-6474961; path=/; domain=.amazon.com; expires=Tue, 01-Jan-2036 08:00:01 GMT"
+    ]
+  },
+  "status": 200,
+  "statusText": "OK"
+}

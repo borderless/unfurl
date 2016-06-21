@@ -1,0 +1,27 @@
+{
+  "url": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+  "headers": {
+    "date": "Tue, 21 Jun 2016 03:16:54 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "content-length": "76064",
+    "connection": "close",
+    "set-cookie": [
+      "__cfduid=dcf3584feb91abc9b7e1a42ff9cc848601466479013; expires=Wed, 21-Jun-17 03:16:53 GMT; path=/; domain=.reddit.com; HttpOnly",
+      "loid=Dv2WUxpM4R49MSPniE; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 21-Jun-2018 03:16:54 GMT; secure",
+      "loidcreated=2016-06-21T03%3A16%3A53.714Z; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 21-Jun-2018 03:16:54 GMT; secure"
+    ],
+    "x-ua-compatible": "IE=edge",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "vary": "accept-encoding",
+    "content-encoding": "gzip",
+    "cache-control": "max-age=0, must-revalidate",
+    "x-moose": "majestic",
+    "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+    "server": "cloudflare-nginx",
+    "cf-ray": "2b644de7a8591ebf-SJC"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

@@ -1,9 +1,15 @@
 {
   "type": "summary",
+  "image": {
+    "url": "https://resizing.flixster.com/mKuAYTcDvCqaG4CEyHXsyRObRMg=/300x300/v1.bTsxMTE2NjcyNTtqOzE3MDk0OzEyMDA7ODAwOzEyMDA"
+  },
   "contentUrl": "https://www.rottentomatoes.com/m/inception/",
   "originalUrl": "https://www.rottentomatoes.com/m/inception/",
   "encodingFormat": "html",
   "headline": "Inception",
   "caption": "Visionary filmmaker Christopher Nolan (Memento, The Dark Knight) writes and directs this psychological sci-fi action film about a thief who possesses the power to enter into the dreams of others. Dom Cobb (Leonardo DiCaprio) doesn't steal things, he steals ideas. By projecting himself deep into the subconscious of his targets, he can glean information that even the best computer hackers can't get to. In the world of corporate espionage, Cobb is the ultimate weapon. But even weapons have their weakness, and when Cobb loses everything, he's forced to embark on one final mission in a desperate quest for redemption. This time, Cobb won't be harvesting an idea, but sowing one. Should he and his team of specialists succeed, they will have discovered a new frontier in the art of psychic espionage. They've planned everything to perfection, and they have all the tools to get the job done. Their mission is complicated, however, by the sudden appearance of a malevolent foe that seems to know exactly what they're up to, and precisely how to stop them. ~ Jason Buchanan, Rovi",
+  "twitter": {
+    "siteHandle": "rottentomatoes"
+  },
   "apps": {}
 }

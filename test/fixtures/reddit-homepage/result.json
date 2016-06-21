@@ -1,0 +1,14 @@
+{
+  "type": "html",
+  "contentUrl": "http://www.reddit.com/",
+  "contentSize": 24667,
+  "encodingFormat": "html",
+  "meta": {
+    "html": {
+      "title": "reddit: the front page of the internet",
+      "keywords": "reddit, reddit.com, vote, comment, submit",
+      "description": "reddit: the front page of the internet",
+      "canonical": "https://www.reddit.com/"
+    }
+  }
+}

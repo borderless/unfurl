@@ -1,8 +1,10 @@
 {
-  "type": "summary",
-  "imageUrl": "https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg",
+  "type": "article",
+  "image": {
+    "url": "https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg"
+  },
   "contentUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
-  "contentSize": 26413,
+  "contentSize": 26686,
   "originalUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
   "encodingFormat": "html",
   "headline": "TypeScript on Twitter",

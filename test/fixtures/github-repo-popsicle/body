@@ -7,16 +7,16 @@
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
     <meta charset='utf-8'>
 
-    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-5fa9151252f4560e323d564c56b7bbcdd2cb3c9c1b91b2ba2a4f32442817566f.css" media="all" rel="stylesheet" />
-    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-33507d791bd4d413ce1297417af2b07f34e737a8c55b97e1c8c43ebacfb2e756.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-355fc5f5dc43030d495ea75b6bc8366695646a7566c13dd6ba2c2d358e1b5383.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-7fae2d802a203f722465a757a5c1ecdb285d355fdcda038c10a2d20722dcf959.css" media="all" rel="stylesheet" />
     
     
-    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-0996ced1a40a04be84d932b2c830830a2c87259cfb5c41c90ca7fee0c5979e9d.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-429acc2fc05149afec2a05196b3100560f117f753931d0afca46da6e1eeafe39.css" media="all" rel="stylesheet" />
     
 
-    <link as="script" href="https://assets-cdn.github.com/assets/frameworks-45978dabe6b620382c9a054b42f8022cf7004f86569071405c7912fbda94bcfa.js" rel="preload" />
+    <link as="script" href="https://assets-cdn.github.com/assets/frameworks-2c3259528b202168baf656f0e3ba468a9659f5f2546da7089d7e1ab7971083c7.js" rel="preload" />
     
-    <link as="script" href="https://assets-cdn.github.com/assets/github-ac69249f0da64bc12a9a03f5ebecbabeaa6ded556c2d48a7ebec1c87ba8cac37.js" rel="preload" />
+    <link as="script" href="https://assets-cdn.github.com/assets/github-6a45976ea2ea8847cc8d3e3721c60cab926c7a0009228bbdfec59108bab84f58.js" rel="preload" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
@@ -55,7 +55,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="C60BDA26:4348:1D88F8F:57630535" name="octolytics-dimension-request_id" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="C60BC7FE:3B22:A4DD612:5768B1A5" name="octolytics-dimension-request_id" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -68,16 +68,16 @@
     <meta name="user-login" content="">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="ZDk2MjA5ZWEyOGZmZDAwNjg3YjNhYzNmOWI4YTAyMDNlMTVjZmQzNzI0ZTk3YmYwNzI5MmY0MmZkMWYyYTAwZHx7InJlbW90ZV9hZGRyZXNzIjoiMTk4LjExLjIxOC4zOCIsInJlcXVlc3RfaWQiOiJDNjBCREEyNjo0MzQ4OjFEODhGOEY6NTc2MzA1MzUiLCJ0aW1lc3RhbXAiOjE0NjYxMDcxODl9">
+      <meta name="js-proxy-site-detection-payload" content="YzE1MDc5OTY1YzM1NTRjMjVkMmU5OGIwMGFkMTRhNWQ5ZThlYzNmNDk0ZTE1OTQ0Mzk2OWJhYTM2ZDI3ODhjNnx7InJlbW90ZV9hZGRyZXNzIjoiMTk4LjExLjE5OS4yNTQiLCJyZXF1ZXN0X2lkIjoiQzYwQkM3RkU6M0IyMjpBNERENjEyOjU3NjhCMUE1IiwidGltZXN0YW1wIjoxNDY2NDc5MDEzfQ==">
 
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
       <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
 
-    <meta name="html-safe-nonce" content="408db72b0157289cbbe4f4ec298be1562cc568da">
-    <meta content="cc833107fcb2cbbbd692c810be1e15c5f8d806dc" name="form-nonce" />
+    <meta name="html-safe-nonce" content="96f42257d9e1d1e5831e33bd54bd8aac0f0ff174">
+    <meta content="345f4e3b8fee1891f5a5d99b58b3ca2d8a8398e6" name="form-nonce" />
 
-    <meta http-equiv="x-pjax-version" content="3d97d7801d88ce619fde50d4b230dd77">
+    <meta http-equiv="x-pjax-version" content="3ea363ad02897f3e0a72f7f635565cd6">
     
 
       
@@ -197,7 +197,7 @@
   </a>
 
     <a class="social-count js-social-count" href="/blakeembrey/popsicle/stargazers">
-      103
+      105
     </a>
 
   </li>
@@ -292,7 +292,7 @@
         <a data-pjax href="/blakeembrey/popsicle/commits/master">
             <svg aria-hidden="true" class="octicon octicon-history" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"></path></svg>
             <span class="num text-emphasized">
-              221
+              223
             </span>
             commits
         </a>
@@ -311,22 +311,20 @@
         <a data-pjax href="/blakeembrey/popsicle/releases">
           <svg aria-hidden="true" class="octicon octicon-tag" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"></path></svg>
           <span class="num text-emphasized">
-            63
+            64
           </span>
           releases
         </a>
       </li>
 
       <li>
-          <a href="/blakeembrey/popsicle/graphs/contributors">
-  <svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M4.75 4.95C5.3 5.59 6.09 6 7 6c.91 0 1.7-.41 2.25-1.05A1.993 1.993 0 0 0 13 4c0-1.11-.89-2-2-2-.41 0-.77.13-1.08.33A3.01 3.01 0 0 0 7 0C5.58 0 4.39 1 4.08 2.33 3.77 2.13 3.41 2 3 2c-1.11 0-2 .89-2 2a1.993 1.993 0 0 0 3.75.95zm5.2-1.52c.2-.38.59-.64 1.05-.64.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2-.65 0-1.17-.53-1.19-1.17.06-.19.11-.39.14-.59zM7 .98c1.11 0 2.02.91 2.02 2.02 0 1.11-.91 2.02-2.02 2.02-1.11 0-2.02-.91-2.02-2.02C4.98 1.89 5.89.98 7 .98zM3 5.2c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.45 0 .84.27 1.05.64.03.2.08.41.14.59C4.17 4.67 3.66 5.2 3 5.2zM13 6H1c-.55 0-1 .45-1 1v3c0 .55.45 1 1 1v2c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h1v3c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-3h1v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-2c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1zM3 13H2v-3H1V7h2v6zm7-2H9V9H8v6H6V9H5v2H4V7h6v4zm3-1h-1v3h-1V7h2v3z"></path></svg>
-    <span class="num text-emphasized">
-      6
-    </span>
-    contributors
-</a>
-
-      </li>
+          <include-fragment src="/blakeembrey/popsicle/contributors_size">
+            <a href="/blakeembrey/popsicle/graphs/contributors">
+              <svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M4.75 4.95C5.3 5.59 6.09 6 7 6c.91 0 1.7-.41 2.25-1.05A1.993 1.993 0 0 0 13 4c0-1.11-.89-2-2-2-.41 0-.77.13-1.08.33A3.01 3.01 0 0 0 7 0C5.58 0 4.39 1 4.08 2.33 3.77 2.13 3.41 2 3 2c-1.11 0-2 .89-2 2a1.993 1.993 0 0 0 3.75.95zm5.2-1.52c.2-.38.59-.64 1.05-.64.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2-.65 0-1.17-.53-1.19-1.17.06-.19.11-.39.14-.59zM7 .98c1.11 0 2.02.91 2.02 2.02 0 1.11-.91 2.02-2.02 2.02-1.11 0-2.02-.91-2.02-2.02C4.98 1.89 5.89.98 7 .98zM3 5.2c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.45 0 .84.27 1.05.64.03.2.08.41.14.59C4.17 4.67 3.66 5.2 3 5.2zM13 6H1c-.55 0-1 .45-1 1v3c0 .55.45 1 1 1v2c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h1v3c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-3h1v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-2c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1zM3 13H2v-3H1V7h2v6zm7-2H9V9H8v6H6V9H5v2H4V7h6v4zm3-1h-1v3h-1V7h2v3z"></path></svg>
+              <span class="num text-emphasized"></span>
+              Fetching contributors
+            </a>
+</include-fragment>      </li>
     </ul>
 
       <div class="repository-lang-stats">
@@ -496,6 +494,16 @@
         <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
 
 
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/blakeembrey/popsicle/tree/v6.2.1"
+              data-name="v6.2.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v6.2.1">
+                v6.2.1
+              </span>
+            </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
               href="/blakeembrey/popsicle/tree/v6.2.0"
               data-name="v6.2.0"
@@ -1152,10 +1160,10 @@
   <div class="commit-tease js-details-container">
     <span class="right">
       Latest commit
-      <a class="commit-tease-sha" href="/blakeembrey/popsicle/commit/ae4c2faa853589811e93974a77e5363c7bbb631d" data-pjax>
-        ae4c2fa
+      <a class="commit-tease-sha" href="/blakeembrey/popsicle/commit/4e9c0d77d9a7d655f0767a94beaa9e3ea70ac4e0" data-pjax>
+        4e9c0d7
       </a>
-      <span itemprop="dateModified"><relative-time datetime="2016-06-16T15:27:56Z">Jun 16, 2016</relative-time></span>
+      <span itemprop="dateModified"><relative-time datetime="2016-06-20T18:28:50Z">Jun 20, 2016</relative-time></span>
     </span>
 
 
@@ -1164,7 +1172,7 @@
       <a href="/blakeembrey" class="user-mention" rel="author">blakeembrey</a>
     </span>
 
-        <a href="/blakeembrey/popsicle/commit/ae4c2faa853589811e93974a77e5363c7bbb631d" class="message" data-pjax="true" title="Add section on helpful utilities">Add section on helpful utilities</a>
+        <a href="/blakeembrey/popsicle/commit/4e9c0d77d9a7d655f0767a94beaa9e3ea70ac4e0" class="message" data-pjax="true" title="v6.2.1">v6.2.1</a>
     </span>
 
   </div>
@@ -1172,7 +1180,7 @@
 
 <div class="file-wrap">
 
-  <a href="/blakeembrey/popsicle/tree/ae4c2faa853589811e93974a77e5363c7bbb631d" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/blakeembrey/popsicle/tree/4e9c0d77d9a7d655f0767a94beaa9e3ea70ac4e0" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
   <table class="files js-navigation-container js-active-navigation-container" data-pjax>
 
@@ -1358,19 +1366,15 @@
             <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
           </td>
           <td class="content">
-            <span class="css-truncate css-truncate-target"><a href="/blakeembrey/popsicle/blob/master/package.json" class="js-navigation-open" id="b9cfc7f2cdf78a7f4b91a753d10865a2-e3da84f2da3ef459aced81b6116b1b0b7c890165" title="package.json">package.json</a></span>
+            <span class="css-truncate css-truncate-target"><a href="/blakeembrey/popsicle/blob/master/package.json" class="js-navigation-open" id="b9cfc7f2cdf78a7f4b91a753d10865a2-b44460eff932e620587fc08e75e1e6597d309178" title="package.json">package.json</a></span>
           </td>
           <td class="message">
             <span class="css-truncate css-truncate-target">
-                  <a href="/blakeembrey/popsicle/commit/6a0fc43f776c2221a3e5fa29fe016b9508d959e4" class="message" data-pjax="true" title="chore(package): update typings to version 1.0.2 (#53)
-
-https://greenkeeper.io/">chore(package): update typings to version 1.0.2 (</a><a href="https://github.com/blakeembrey/popsicle/pull/53" class="issue-link js-issue-link" data-url="https://github.com/blakeembrey/popsicle/issues/53" data-id="155102813" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#53</a><a href="/blakeembrey/popsicle/commit/6a0fc43f776c2221a3e5fa29fe016b9508d959e4" class="message" data-pjax="true" title="chore(package): update typings to version 1.0.2 (#53)
-
-https://greenkeeper.io/">)</a>
+                  <a href="/blakeembrey/popsicle/commit/4e9c0d77d9a7d655f0767a94beaa9e3ea70ac4e0" class="message" data-pjax="true" title="v6.2.1">v6.2.1</a>
             </span>
           </td>
           <td class="age">
-            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-05-16T21:00:42Z">May 16, 2016</time-ago></span>
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-06-20T18:28:50Z">Jun 20, 2016</time-ago></span>
           </td>
         </tr>
         <tr class="js-navigation-item">
@@ -1379,19 +1383,15 @@ https://greenkeeper.io/">)</a>
             <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
           </td>
           <td class="content">
-            <span class="css-truncate css-truncate-target"><a href="/blakeembrey/popsicle/blob/master/tsconfig.json" class="js-navigation-open" id="e5e546dd2eb0351f813d63d1b39dbc48-26fd2f3c1a882cfed24421a9377caa09aa9cecc0" title="tsconfig.json">tsconfig.json</a></span>
+            <span class="css-truncate css-truncate-target"><a href="/blakeembrey/popsicle/blob/master/tsconfig.json" class="js-navigation-open" id="e5e546dd2eb0351f813d63d1b39dbc48-30140119521341031f5eccde99e0cbef9b49d8ea" title="tsconfig.json">tsconfig.json</a></span>
           </td>
           <td class="message">
             <span class="css-truncate css-truncate-target">
-                  <a href="/blakeembrey/popsicle/commit/6a0fc43f776c2221a3e5fa29fe016b9508d959e4" class="message" data-pjax="true" title="chore(package): update typings to version 1.0.2 (#53)
-
-https://greenkeeper.io/">chore(package): update typings to version 1.0.2 (</a><a href="https://github.com/blakeembrey/popsicle/pull/53" class="issue-link js-issue-link" data-url="https://github.com/blakeembrey/popsicle/issues/53" data-id="155102813" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#53</a><a href="/blakeembrey/popsicle/commit/6a0fc43f776c2221a3e5fa29fe016b9508d959e4" class="message" data-pjax="true" title="chore(package): update typings to version 1.0.2 (#53)
-
-https://greenkeeper.io/">)</a>
+                  <a href="/blakeembrey/popsicle/commit/8aa055c8ca91a1e9f9dddf23603fc7de4020fb94" class="message" data-pjax="true" title="Inline package sources">Inline package sources</a>
             </span>
           </td>
           <td class="age">
-            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-05-16T21:00:42Z">May 16, 2016</time-ago></span>
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-06-20T18:28:46Z">Jun 20, 2016</time-ago></span>
           </td>
         </tr>
         <tr class="js-navigation-item">
@@ -1428,12 +1428,12 @@ https://greenkeeper.io/">)</a>
       README.md
     </h3>
 
-      <article class="markdown-body entry-content" itemprop="text"><h1><a id="" class="anchor" href="#" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://camo2.githubusercontent.com/cef5f3430dc9f831f3effb5873fcaeeb55ef6b7f/68747470733a2f2f63646e2e7261776769742e636f6d2f626c616b65656d627265792f706f707369636c652f6d61737465722f6c6f676f2e737667" target="_blank"><img src="https://camo2.githubusercontent.com/cef5f3430dc9f831f3effb5873fcaeeb55ef6b7f/68747470733a2f2f63646e2e7261776769742e636f6d2f626c616b65656d627265792f706f707369636c652f6d61737465722f6c6f676f2e737667" alt="Popsicle" data-canonical-src="https://cdn.rawgit.com/blakeembrey/popsicle/master/logo.svg" style="max-width:100%;"></a></h1>
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="" class="anchor" href="#" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://camo.githubusercontent.com/cef5f3430dc9f831f3effb5873fcaeeb55ef6b7f/68747470733a2f2f63646e2e7261776769742e636f6d2f626c616b65656d627265792f706f707369636c652f6d61737465722f6c6f676f2e737667" target="_blank"><img src="https://camo.githubusercontent.com/cef5f3430dc9f831f3effb5873fcaeeb55ef6b7f/68747470733a2f2f63646e2e7261776769742e636f6d2f626c616b65656d627265792f706f707369636c652f6d61737465722f6c6f676f2e737667" alt="Popsicle" data-canonical-src="https://cdn.rawgit.com/blakeembrey/popsicle/master/logo.svg" style="max-width:100%;"></a></h1>
 
-<p><a href="https://npmjs.org/package/popsicle"><img src="https://camo2.githubusercontent.com/1fd6b1e2125bf89ad68cecc59d7c186db899bcfc/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f706f707369636c652e7376673f7374796c653d666c6174" alt="NPM version" data-canonical-src="https://img.shields.io/npm/v/popsicle.svg?style=flat" style="max-width:100%;"></a>
-<a href="https://npmjs.org/package/popsicle"><img src="https://camo2.githubusercontent.com/a4bf78f2f9bf0c0dc4982c85da4af063adecccf6/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f646d2f706f707369636c652e7376673f7374796c653d666c6174" alt="NPM downloads" data-canonical-src="https://img.shields.io/npm/dm/popsicle.svg?style=flat" style="max-width:100%;"></a>
-<a href="https://travis-ci.org/blakeembrey/popsicle"><img src="https://camo2.githubusercontent.com/03e6691901d08dde4c92ed1a2b1e9a4f4b4e5005/68747470733a2f2f696d672e736869656c64732e696f2f7472617669732f626c616b65656d627265792f706f707369636c652e7376673f7374796c653d666c6174" alt="Build status" data-canonical-src="https://img.shields.io/travis/blakeembrey/popsicle.svg?style=flat" style="max-width:100%;"></a>
-<a href="https://coveralls.io/r/blakeembrey/popsicle?branch=master"><img src="https://camo2.githubusercontent.com/87886bc94ab6a25a2f2f8f9ea89d927c596210df/68747470733a2f2f696d672e736869656c64732e696f2f636f766572616c6c732f626c616b65656d627265792f706f707369636c652e7376673f7374796c653d666c6174" alt="Test coverage" data-canonical-src="https://img.shields.io/coveralls/blakeembrey/popsicle.svg?style=flat" style="max-width:100%;"></a></p>
+<p><a href="https://npmjs.org/package/popsicle"><img src="https://camo.githubusercontent.com/1fd6b1e2125bf89ad68cecc59d7c186db899bcfc/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f706f707369636c652e7376673f7374796c653d666c6174" alt="NPM version" data-canonical-src="https://img.shields.io/npm/v/popsicle.svg?style=flat" style="max-width:100%;"></a>
+<a href="https://npmjs.org/package/popsicle"><img src="https://camo.githubusercontent.com/a4bf78f2f9bf0c0dc4982c85da4af063adecccf6/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f646d2f706f707369636c652e7376673f7374796c653d666c6174" alt="NPM downloads" data-canonical-src="https://img.shields.io/npm/dm/popsicle.svg?style=flat" style="max-width:100%;"></a>
+<a href="https://travis-ci.org/blakeembrey/popsicle"><img src="https://camo.githubusercontent.com/03e6691901d08dde4c92ed1a2b1e9a4f4b4e5005/68747470733a2f2f696d672e736869656c64732e696f2f7472617669732f626c616b65656d627265792f706f707369636c652e7376673f7374796c653d666c6174" alt="Build status" data-canonical-src="https://img.shields.io/travis/blakeembrey/popsicle.svg?style=flat" style="max-width:100%;"></a>
+<a href="https://coveralls.io/r/blakeembrey/popsicle?branch=master"><img src="https://camo.githubusercontent.com/87886bc94ab6a25a2f2f8f9ea89d927c596210df/68747470733a2f2f696d672e736869656c64732e696f2f636f766572616c6c732f626c616b65656d627265792f706f707369636c652e7376673f7374796c653d666c6174" alt="Test coverage" data-canonical-src="https://img.shields.io/coveralls/blakeembrey/popsicle.svg?style=flat" style="max-width:100%;"></a></p>
 
 <blockquote>
 <p><strong>Popsicle</strong> is the easiest way to make HTTP requests - offering a consistent, intuitive and light-weight API that works on node and the browser.</p>
@@ -1814,7 +1814,7 @@ https://greenkeeper.io/">)</a>
 
 
   </div>
-  <div class="modal-backdrop"></div>
+  <div class="modal-backdrop js-touch-events"></div>
 </div>
 
 
@@ -1839,7 +1839,7 @@ https://greenkeeper.io/">)</a>
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.09510s from github-fe138-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.06098s from github-fe153-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
@@ -1863,8 +1863,8 @@ https://greenkeeper.io/">)</a>
 
 
       <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/compat-7db58f8b7b91111107fac755dd8b178fe7db0f209ced51fc339c446ad3f8da2b.js"></script>
-      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-45978dabe6b620382c9a054b42f8022cf7004f86569071405c7912fbda94bcfa.js"></script>
-      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-ac69249f0da64bc12a9a03f5ebecbabeaa6ded556c2d48a7ebec1c87ba8cac37.js"></script>
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-2c3259528b202168baf656f0e3ba468a9659f5f2546da7089d7e1ab7971083c7.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-6a45976ea2ea8847cc8d3e3721c60cab926c7a0009228bbdfec59108bab84f58.js"></script>
       
       
       

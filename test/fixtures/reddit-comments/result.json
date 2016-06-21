@@ -1,0 +1,28 @@
+{
+  "type": "html",
+  "contentUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+  "contentSize": 76064,
+  "encodingFormat": "html",
+  "meta": {
+    "html": {
+      "title": "'UK man' tried to kill Trump: court papers : news",
+      "keywords": "reddit, reddit.com, vote, comment, submit",
+      "description": "reddit: the front page of the internet",
+      "canonical": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/"
+    },
+    "twitter": {
+      "site": "reddit",
+      "card": "summary",
+      "title": "'UK man' tried to kill Trump: court papers • /r/news"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#image": "https://www.redditstatic.com/icon.png",
+        "http://ogp.me/ns#ttl": "600",
+        "http://ogp.me/ns#site_name": "reddit",
+        "http://ogp.me/ns#description": "4205 points and 2509 comments so far on reddit",
+        "http://ogp.me/ns#title": "'UK man' tried to kill Trump: court papers • /r/news"
+      }
+    }
+  }
+}

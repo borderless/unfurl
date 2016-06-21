@@ -21,7 +21,7 @@ export interface BaseResult {
   contentUrl: string
   contentSize?: number
   encodingFormat?: string
-  uploadDate?: Date
+  dateModified?: Date
   meta?: ResultMeta
 }
 

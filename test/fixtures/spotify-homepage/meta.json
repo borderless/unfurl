@@ -1,0 +1,36 @@
+{
+  "url": "https://www.spotify.com/",
+  "headers": {
+    "server": "nginx",
+    "date": "Tue, 21 Jun 2016 03:16:53 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "content-length": "21510",
+    "connection": "close",
+    "vary": "Referer,X-Forwarded-Proto,Accept-Encoding",
+    "set-cookie": [
+      "spsess=9be1658770e8eca5d6a6692340d90fa3f7442e28; path=/; secure; HttpOnly",
+      "spsess=9be1658770e8eca5d6a6692340d90fa3f7442e28; path=/; secure; HttpOnly",
+      "sp_ab=%7B%22remove_webplayer_links%22%3A%22control%22%7D; expires=Thu, 21-Jul-2016 03:16:53 GMT; Max-Age=2592000; path=/; secure",
+      "device_view=full; expires=Thu, 21-Jul-2016 00:00:00 GMT; Max-Age=2580187; path=/; httponly",
+      "spot=%7B%22t%22%3A1466479013%2C%22m%22%3A%22us%22%2C%22p%22%3Anull%7D; expires=Tue, 18-Feb-2020 03:16:53 GMT; Max-Age=115516800; path=/; domain=spotify.com",
+      "sp_t=6356fc822105db178a642bb2c5c5cfa2; expires=Thu, 21-Jun-2018 03:16:53 GMT; Max-Age=63072000; path=/; domain=.spotify.com; secure",
+      "sp_new=1; expires=Wed, 22-Jun-2016 03:16:53 GMT; Max-Age=86400; path=/; domain=.spotify.com; secure"
+    ],
+    "x-cache": "HIT from sjc1-www-a9.sjc1.spotify.net",
+    "cache-control": "no-cache",
+    "content-encoding": "gzip",
+    "x-content-type-options": [
+      "nosniff",
+      "nosniff"
+    ],
+    "strict-transport-security": [
+      "max-age=31536000",
+      "max-age=31536000;"
+    ],
+    "x-join-the-band": "https://www.spotify.com/jobs/",
+    "content-security-policy": "frame-ancestors 'self' *.spotify.com https://*.spotify.net https://*.optimizely.com  https://*.optimizelyedit.com",
+    "x-content-security-policy": "frame-ancestors 'self' *.spotify.com https://*.spotify.net https://*.optimizely.com https://*.optimizelyedit.com"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

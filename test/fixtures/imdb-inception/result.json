@@ -1,0 +1,24 @@
+{
+  "type": "html",
+  "contentUrl": "http://www.imdb.com/title/tt1375666/",
+  "encodingFormat": "html",
+  "meta": {
+    "html": {
+      "title": "Inception (2010) - IMDb",
+      "canonical": "http://www.imdb.com/title/tt1375666/",
+      "description": "Directed by Christopher Nolan. With Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Ken Watanabe. A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
+      "keywords": "Reviews, Showtimes, DVDs, Photos, Message Boards, User Ratings, Synopsis, Trailers, Credits"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#url": "http://www.imdb.com/title/tt1375666/",
+        "http://ogp.me/ns#image": "http://ia.media-imdb.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+        "http://ogp.me/ns#type": "video.movie",
+        "http://ogp.me/ns/fb#app_id": "115109575169727",
+        "http://ogp.me/ns#title": "Inception (2010)",
+        "http://ogp.me/ns#site_name": "IMDb",
+        "http://ogp.me/ns#description": "Directed by Christopher Nolan. With Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Ken Watanabe. A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO."
+      }
+    }
+  }
+}

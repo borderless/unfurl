@@ -1,6 +1,8 @@
 {
   "type": "summary",
-  "imageUrl": "https://tctechcrunch2011.files.wordpress.com/2016/06/devolver-logo.jpg?w=764&h=400&crop=1",
+  "image": {
+    "url": "https://tctechcrunch2011.files.wordpress.com/2016/01/science-biology-disease.jpg?w=764&h=400&crop=1"
+  },
   "contentUrl": "http://social.techcrunch.com/",
   "originalUrl": "https://techcrunch.com/",
   "encodingFormat": "html",

@@ -1,0 +1,20 @@
+{
+  "type": "image",
+  "image": {
+    "url": "http://d.pr/i/q3z9.png",
+    "width": 1280,
+    "height": 1280
+  },
+  "contentUrl": "http://d.pr/i/q3z9",
+  "contentSize": 4273,
+  "originalUrl": "http://d.pr/a/q3z9",
+  "encodingFormat": "html",
+  "headline": "table.jpeg",
+  "caption": "Shared with Droplr",
+  "siteName": "Droplr App",
+  "author": "Droplr",
+  "twitter": {
+    "siteHandle": "droplr"
+  },
+  "apps": {}
+}
