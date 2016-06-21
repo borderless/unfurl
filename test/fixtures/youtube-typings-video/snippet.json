@@ -3,6 +3,27 @@
   "image": {
     "url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/maxresdefault.jpg"
   },
+  "video": [
+    {
+      "url": "https://www.youtube.com/embed/ZynZdGqxT7Q",
+      "secureUrl": "https://www.youtube.com/embed/ZynZdGqxT7Q",
+      "type": "text/html",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "url": "http://www.youtube.com/v/ZynZdGqxT7Q?version=3&autohide=1",
+      "secureUrl": "https://www.youtube.com/v/ZynZdGqxT7Q?version=3&autohide=1",
+      "type": "application/x-shockwave-flash",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "player": {
+    "url": "https://www.youtube.com/embed/ZynZdGqxT7Q",
+    "width": 1280,
+    "height": 720
+  },
   "contentUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
   "originalUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
   "encodingFormat": "html",

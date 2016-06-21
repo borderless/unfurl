@@ -47,11 +47,34 @@ export interface SnippetLocale {
 }
 
 export interface SnippetImage {
-  url?: string
+  url: string
+  secureUrl?: string
   alt?: string
   type?: string
   width?: number
   height?: number
+}
+
+export interface SnippetPlayer {
+  url: string
+  width: number
+  height: number
+  streamUrl?: string
+  streamContentType?: string
+}
+
+export interface SnippetVideo {
+  url: string
+  secureUrl?: string
+  type?: string
+  width?: number
+  height?: number
+}
+
+export interface SnippetAudio {
+  url: string
+  secureUrl?: string
+  type?: string
 }
 
 export interface SnippetTwitter {
@@ -71,6 +94,9 @@ export interface SnippetApps {
 
 export interface BaseSnippet extends BaseResult {
   image?: SnippetImage | SnippetImage[]
+  video?: SnippetVideo | SnippetVideo[]
+  audio?: SnippetAudio | SnippetAudio[]
+  player?: SnippetPlayer
   originalUrl?: string
   determiner?: string
   headline?: string
@@ -175,6 +201,9 @@ export const extracts: Extracts = {
         type: 'summary',
         subtype: getMetaSubType(meta, 'summary'),
         image: getMetaImage(meta, contentUrl),
+        video: getMetaVideo(meta, contentUrl),
+        audio: getMetaAudio(meta, contentUrl),
+        player: getMetaPlayer(meta, contentUrl),
         contentUrl: getMetaUrl(meta, contentUrl),
         contentSize: result.contentSize,
         originalUrl: result.contentUrl,
@@ -371,7 +400,8 @@ function getMetaCaption (meta: ResultMeta) {
  * Get the meta image url.
  */
 function getMetaImage (meta: ResultMeta, baseUrl: string): SnippetImage | SnippetImage[] {
-  const ogpImages = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image'])
+  const ogpImages = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image']) ||
+    getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:url'])
   const twitterImages = getArray(meta, ['twitter', 'image'])
   const images: SnippetImage[] = []
 
@@ -386,10 +416,18 @@ function getMetaImage (meta: ResultMeta, baseUrl: string): SnippetImage | Snippe
     images.push(newImage)
   }
 
-  function addImages (urls: string[], types: string[], alts: string[], widths: string[], heights: string[]) {
+  function addImages (
+    urls: string[],
+    secureUrls: string[],
+    types: string[],
+    alts: string[],
+    widths: string[],
+    heights: string[]
+  ) {
     for (let i = 0; i < urls.length; i++) {
       addImage({
         url: urls[i],
+        secureUrl: secureUrls ? secureUrls[i] : undefined,
         type: types ? types[i] : undefined,
         alt: alts ? alts[i] : undefined,
         width: widths ? toNumber(widths[i]) : undefined,
@@ -402,8 +440,9 @@ function getMetaImage (meta: ResultMeta, baseUrl: string): SnippetImage | Snippe
     const ogpTypes = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:type'])
     const ogpWidths = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:width'])
     const ogpHeights = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:height'])
+    const ogpSecureUrls = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:secure_url'])
 
-    addImages(ogpImages, ogpTypes, null, ogpWidths, ogpHeights)
+    addImages(ogpImages, ogpSecureUrls, ogpTypes, null, ogpWidths, ogpHeights)
   }
 
   if (twitterImages) {
@@ -411,10 +450,98 @@ function getMetaImage (meta: ResultMeta, baseUrl: string): SnippetImage | Snippe
     const twitterWidths = getArray(meta, ['twitter', 'image:width'])
     const twitterHeights = getArray(meta, ['twitter', 'image:height'])
 
-    addImages(twitterImages, null, twitterAlts, twitterWidths, twitterHeights)
+    addImages(twitterImages, null, null, twitterAlts, twitterWidths, twitterHeights)
   }
 
   return images.length > 1 ? images : images[0]
+}
+
+/**
+ * Get the meta audio information.
+ */
+function getMetaAudio (meta: ResultMeta, baseUrl: string): SnippetAudio | SnippetAudio[] {
+  const ogpAudios = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#audio']) ||
+    getArray(meta, ['rdfa', '', 'http://ogp.me/ns#audio:url'])
+  const audios: SnippetAudio[] = []
+
+  function addAudio (newAudio: SnippetAudio) {
+    for (const audio of audios) {
+      if (audio.url === newAudio.url) {
+        setProps(audio, newAudio)
+        return
+      }
+    }
+
+    audios.push(newAudio)
+  }
+
+  function addAudios (urls: string[], secureUrls: string[], types: string[]) {
+    for (let i = 0; i < urls.length; i++) {
+      addAudio({
+        url: urls[i],
+        secureUrl: secureUrls ? secureUrls[i] : undefined,
+        type: types ? types[i] : undefined
+      })
+    }
+  }
+
+  if (ogpAudios) {
+    const ogpTypes = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#audio:type'])
+    const ogpSecureUrls = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#audio:secure_url'])
+
+    addAudios(ogpAudios, ogpSecureUrls, ogpTypes)
+  }
+
+  return audios.length > 1 ? audios : audios[0]
+}
+
+/**
+ * Get the meta image url.
+ */
+function getMetaVideo (meta: ResultMeta, baseUrl: string): SnippetVideo | SnippetVideo[] {
+  const ogpVideos = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video']) ||
+    getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video:url'])
+  const videos: SnippetVideo[] = []
+
+  function addVideo (newVideo: SnippetVideo) {
+    for (const video of videos) {
+      if (video.url === newVideo.url) {
+        setProps(video, newVideo)
+        return
+      }
+    }
+
+    videos.push(newVideo)
+  }
+
+  function addVideos (
+    urls: string[],
+    secureUrls: string[],
+    types: string[],
+    widths: string[],
+    heights: string[]
+  ) {
+    for (let i = 0; i < urls.length; i++) {
+      addVideo({
+        url: urls[i],
+        secureUrl: secureUrls ? secureUrls[i] : undefined,
+        type: types ? types[i] : undefined,
+        width: widths ? toNumber(widths[i]) : undefined,
+        height: heights ? toNumber(heights[i]) : undefined
+      })
+    }
+  }
+
+  if (ogpVideos) {
+    const ogpTypes = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video:type'])
+    const ogpWidths = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video:width'])
+    const ogpHeights = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video:height'])
+    const ogpSecureUrls = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video:secure_url'])
+
+    addVideos(ogpVideos, ogpSecureUrls, ogpTypes, ogpWidths, ogpHeights)
+  }
+
+  return videos.length > 1 ? videos : videos[0]
 }
 
 /**
@@ -656,6 +783,33 @@ function getMetaSubType (meta: ResultMeta, type: string): string {
 
     if (twitterCard === 'summary_large_image') {
       return 'image'
+    }
+  }
+}
+
+/**
+ * Retrieve a URL for embedding an interactive widget.
+ */
+function getMetaPlayer (meta: ResultMeta, baseUrl: string): SnippetPlayer {
+  const isPlayer = getString(meta, ['twitter', 'card']) === 'player'
+
+  if (!isPlayer) {
+    return
+  }
+
+  const url = getString(meta, ['twitter', 'player'])
+  const width = getNumber(meta, ['twitter', 'player:width'])
+  const height = getNumber(meta, ['twitter', 'player:height'])
+  const streamUrl = getString(meta, ['twitter', 'player:stream'])
+  const streamContentType = getString(meta, ['twitter', 'player:stream:content_type'])
+
+  if (url && width && height) {
+    return {
+      url,
+      width,
+      height,
+      streamUrl,
+      streamContentType
     }
   }
 }
