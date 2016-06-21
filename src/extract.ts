@@ -143,20 +143,10 @@ export interface Extracts {
 
 export const extracts: Extracts = {
   image (result): ImageSnippet {
-    const { type, meta } = result
+    const { type } = result
 
     if (type === 'image') {
       return result as ImageResult
-    }
-
-    if (type === 'html') {
-      if (
-        getString(meta, ['twitter', 'card']) === 'photo'
-      ) {
-        return extend(extracts.summary(result), {
-          type: 'image' as 'image'
-        })
-      }
     }
   },
   article (result): ArticleSnippet {
@@ -402,7 +392,7 @@ function getMetaCaption (meta: ResultMeta) {
 function getMetaImage (meta: ResultMeta, baseUrl: string): SnippetImage | SnippetImage[] {
   const ogpImages = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image']) ||
     getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:url'])
-  const twitterImages = getArray(meta, ['twitter', 'image'])
+  const twitterImages = getArray(meta, ['twitter', 'image']) || getArray(meta, ['twitter', 'image0'])
   const images: SnippetImage[] = []
 
   function addImage (newImage: SnippetImage) {
@@ -781,7 +771,11 @@ function getMetaSubType (meta: ResultMeta, type: string): string {
   if (type === 'summary') {
     const twitterCard = getString(meta, ['twitter', 'card'])
 
-    if (twitterCard === 'summary_large_image') {
+    if (
+      twitterCard === 'summary_large_image' ||
+      twitterCard === 'photo' ||
+      twitterCard === 'gallery'
+    ) {
       return 'image'
     }
   }

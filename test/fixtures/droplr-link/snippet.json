@@ -1,5 +1,6 @@
 {
-  "type": "image",
+  "type": "summary",
+  "subtype": "image",
   "image": {
     "url": "http://d.pr/i/q3z9.png",
     "width": 1280,

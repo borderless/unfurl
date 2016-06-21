@@ -1,5 +1,6 @@
 {
-  "type": "image",
+  "type": "summary",
+  "subtype": "image",
   "image": {
     "url": "https://a1.muscache.com/im/pictures/43670185/606e6e19_original.jpg?aki_policy=x_large"
   },
