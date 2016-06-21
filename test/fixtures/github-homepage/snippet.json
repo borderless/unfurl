@@ -1,8 +1,26 @@
 {
   "type": "summary",
-  "image": {
-    "url": "https://assets-cdn.github.com/images/modules/open_graph/github-logo.png"
-  },
+  "subtype": "image",
+  "image": [
+    {
+      "url": "https://assets-cdn.github.com/images/modules/open_graph/github-logo.png",
+      "type": "image/png",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "url": "https://assets-cdn.github.com/images/modules/open_graph/github-mark.png",
+      "type": "image/png",
+      "width": 1200,
+      "height": 620
+    },
+    {
+      "url": "https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png",
+      "type": "image/png",
+      "width": 1200,
+      "height": 620
+    }
+  ],
   "contentUrl": "https://github.com/",
   "originalUrl": "https://github.com/",
   "encodingFormat": "html",

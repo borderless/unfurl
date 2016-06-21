@@ -1,7 +1,9 @@
 {
-  "type": "video",
+  "type": "summary",
   "image": {
-    "url": "https://i1.sndcdn.com/artworks-000139618215-ubm1i6-t500x500.jpg"
+    "url": "https://i1.sndcdn.com/artworks-000139618215-ubm1i6-t500x500.jpg",
+    "width": 500,
+    "height": 500
   },
   "contentUrl": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
   "originalUrl": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",

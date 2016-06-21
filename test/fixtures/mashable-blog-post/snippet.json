@@ -1,10 +1,15 @@
 {
   "type": "image",
-  "image": {
-    "url": "http://i.amz.mshcdn.com/aFAKqhtHbY6dvAbbeFO9opnh6Ug=/640x360/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg",
-    "width": 640,
-    "height": 360
-  },
+  "image": [
+    {
+      "url": "http://i.amz.mshcdn.com/cFOA7JH0zHa6T2ik7Ssm9YcLcx0=/1200x630/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg"
+    },
+    {
+      "url": "http://i.amz.mshcdn.com/aFAKqhtHbY6dvAbbeFO9opnh6Ug=/640x360/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg",
+      "width": 640,
+      "height": 360
+    }
+  ],
   "contentUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
   "contentSize": 12180,
   "originalUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3",

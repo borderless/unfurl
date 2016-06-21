@@ -1,7 +1,10 @@
 {
   "type": "summary",
   "image": {
-    "url": "http://ogp.me/logo.png"
+    "url": "http://ogp.me/logo.png",
+    "type": "image/png",
+    "width": 300,
+    "height": 300
   },
   "contentUrl": "http://ogp.me/",
   "originalUrl": "http://ogp.me/",

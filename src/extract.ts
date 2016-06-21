@@ -49,6 +49,7 @@ export interface SnippetLocale {
 export interface SnippetImage {
   url?: string
   alt?: string
+  type?: string
   width?: number
   height?: number
 }
@@ -69,7 +70,7 @@ export interface SnippetApps {
 }
 
 export interface BaseSnippet extends BaseResult {
-  image?: SnippetImage
+  image?: SnippetImage | SnippetImage[]
   originalUrl?: string
   determiner?: string
   headline?: string
@@ -86,6 +87,7 @@ export interface BaseSnippet extends BaseResult {
 
 export interface ArticleSnippet extends BaseResult {
   type: 'article'
+  section?: string
   dateModified?: Date
   datePublished?: Date
   dateExpires?: Date
@@ -101,6 +103,7 @@ export interface ImageSnippet extends BaseSnippet {
 
 export interface SummarySnippet extends BaseSnippet {
   type: 'summary'
+  subtype?: 'image' | string
 }
 
 export type Snippet = VideoSnippet | ImageSnippet | SummarySnippet | ArticleSnippet
@@ -134,9 +137,12 @@ export const extracts: Extracts = {
     const { type, meta } = result
 
     if (type === 'html') {
-      if (getString(meta, ['rdfa', '', 'http://ogp.me/ns#type']) === 'article') {
+      if (
+        getString(meta, ['rdfa', '', 'http://ogp.me/ns#type']) === 'article'
+      ) {
         return extend(extracts.summary(result), {
           type: 'article' as 'article',
+          section: getString(meta, ['rdfa', '', 'http://ogp.me/ns/article#section']),
           datePublished: getDate(meta, ['rdfa', '', 'http://ogp.me/ns/article#published_time']),
           dateExpires: getDate(meta, ['rdfa', '', 'http://ogp.me/ns/article#expiration_time']),
           dateModified: getDate(meta, ['rdfa', '', 'http://ogp.me/ns/article#modified_time'])
@@ -153,7 +159,6 @@ export const extracts: Extracts = {
 
     if (type === 'html') {
       if (
-        getString(meta, ['twitter', 'card']) === 'player' ||
         getString(meta, ['rdfa', '', 'http://ogp.me/ns#type']) === 'video'
       ) {
         return extend(extracts.summary(result), {
@@ -168,6 +173,7 @@ export const extracts: Extracts = {
     if (type === 'html') {
       return {
         type: 'summary',
+        subtype: getMetaSubType(meta, 'summary'),
         image: getMetaImage(meta, contentUrl),
         contentUrl: getMetaUrl(meta, contentUrl),
         contentSize: result.contentSize,
@@ -189,10 +195,12 @@ export const extracts: Extracts = {
   }
 }
 
+type Path = Array<string | number | symbol>
+
 /**
  * Select a value from an object.
  */
-function get <T> (obj: any, path: string[]): T {
+function get <T> (obj: any, path: Path): T {
   let res = obj
 
   for (const key of path) {
@@ -209,7 +217,7 @@ function get <T> (obj: any, path: string[]): T {
 /**
  * Return a value as a string.
  */
-function getString (meta: ResultMeta, path: string[]): string {
+function getString (meta: ResultMeta, path: Path): string {
   const value = get<any>(meta, path)
 
   if (Array.isArray(value)) {
@@ -226,25 +234,32 @@ function getString (meta: ResultMeta, path: string[]): string {
 /**
  * Return an array of values.
  */
-function getArray (meta: ResultMeta, path: string[]): string[] {
+function getArray (meta: ResultMeta, path: Path): string[] {
   const value = get<any>(meta, path)
 
   return value ? arrify(value) : undefined
 }
 
 /**
+ * Convert a string to valid number.
+ */
+function toNumber (value: string): number {
+  const num = Number(value)
+
+  return isFinite(num) ? num : undefined
+}
+
+/**
  * Return a value as a number.
  */
-function getNumber (meta: ResultMeta, path: string[]): number {
-  const value = Number(getString(meta, path))
-
-  return isNaN(value) ? undefined : value
+function getNumber (meta: ResultMeta, path: Path): number {
+  return toNumber(getString(meta, path))
 }
 
 /**
  * Return a value in date format.
  */
-function getDate (meta: ResultMeta, path: string[]): Date {
+function getDate (meta: ResultMeta, path: Path): Date {
   const value = new Date(getString(meta, path))
 
   return isNaN(value.getTime()) ? undefined : value
@@ -253,7 +268,7 @@ function getDate (meta: ResultMeta, path: string[]): Date {
 /**
  * Get URL from the meta object.
  */
-function getUrl (meta: ResultMeta, path: string[], baseUrl: string): string {
+function getUrl (meta: ResultMeta, path: Path, baseUrl: string): string {
   const value = getString(meta, path)
 
   if (value) {
@@ -261,6 +276,19 @@ function getUrl (meta: ResultMeta, path: string[], baseUrl: string): string {
   }
 
   return value
+}
+
+/**
+ * Set defined properties from one object to the other.
+ */
+function setProps (obj: any, data: any) {
+  for (const key of Object.keys(data)) {
+    if (data[key] != null) {
+      obj[key] = data[key]
+    }
+  }
+
+  return obj
 }
 
 /**
@@ -342,24 +370,51 @@ function getMetaCaption (meta: ResultMeta) {
 /**
  * Get the meta image url.
  */
-function getMetaImage (meta: ResultMeta, baseUrl: string): SnippetImage {
-  const ogpImage = getUrl(meta, ['rdfa', '', 'http://ogp.me/ns#image'], baseUrl)
-  const twitterImage = getUrl(meta, ['twitter', 'image'], baseUrl)
+function getMetaImage (meta: ResultMeta, baseUrl: string): SnippetImage | SnippetImage[] {
+  const ogpImages = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image'])
+  const twitterImages = getArray(meta, ['twitter', 'image'])
+  const images: SnippetImage[] = []
 
-  if (twitterImage) {
-    return {
-      url: twitterImage,
-      alt: getString(meta, ['twitter', 'image:alt']),
-      width: getNumber(meta, ['twitter', 'image:width']),
-      height: getNumber(meta, ['twitter', 'image:height'])
+  function addImage (newImage: SnippetImage) {
+    for (const image of images) {
+      if (image.url === newImage.url) {
+        setProps(image, newImage)
+        return
+      }
+    }
+
+    images.push(newImage)
+  }
+
+  function addImages (urls: string[], types: string[], alts: string[], widths: string[], heights: string[]) {
+    for (let i = 0; i < urls.length; i++) {
+      addImage({
+        url: urls[i],
+        type: types ? types[i] : undefined,
+        alt: alts ? alts[i] : undefined,
+        width: widths ? toNumber(widths[i]) : undefined,
+        height: heights ? toNumber(heights[i]) : undefined
+      })
     }
   }
 
-  if (ogpImage) {
-    return {
-      url: ogpImage
-    }
+  if (ogpImages) {
+    const ogpTypes = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:type'])
+    const ogpWidths = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:width'])
+    const ogpHeights = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:height'])
+
+    addImages(ogpImages, ogpTypes, null, ogpWidths, ogpHeights)
   }
+
+  if (twitterImages) {
+    const twitterAlts = getArray(meta, ['twitter', 'image:alt'])
+    const twitterWidths = getArray(meta, ['twitter', 'image:width'])
+    const twitterHeights = getArray(meta, ['twitter', 'image:height'])
+
+    addImages(twitterImages, null, twitterAlts, twitterWidths, twitterHeights)
+  }
+
+  return images.length > 1 ? images : images[0]
 }
 
 /**
@@ -569,7 +624,7 @@ function getMetaTwitter (meta: ResultMeta): SnippetTwitter {
   }
 }
 
-function getTwitterHandle (meta: ResultMeta, path: string[]) {
+function getTwitterHandle (meta: ResultMeta, path: Path) {
   const value = getString(meta, path)
 
   if (value) {
@@ -590,4 +645,17 @@ function getMetaTtl (meta: ResultMeta): number {
  */
 function getMetaDeterminer (meta: ResultMeta): string {
   return getString(meta, ['rdfa', '', 'http://ogp.me/ns#determiner'])
+}
+
+/**
+ * Get the sub-type of metadata.
+ */
+function getMetaSubType (meta: ResultMeta, type: string): string {
+  if (type === 'summary') {
+    const twitterCard = getString(meta, ['twitter', 'card'])
+
+    if (twitterCard === 'summary_large_image') {
+      return 'image'
+    }
+  }
 }

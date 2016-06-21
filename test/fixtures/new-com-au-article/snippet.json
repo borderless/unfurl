@@ -1,5 +1,6 @@
 {
   "type": "article",
+  "subtype": "image",
   "image": {
     "url": "http://cdn.newsapi.com.au/image/v1/45b128a7685ed306dad1082371109bb3"
   },

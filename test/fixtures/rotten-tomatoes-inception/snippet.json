@@ -1,8 +1,15 @@
 {
   "type": "summary",
-  "image": {
-    "url": "https://resizing.flixster.com/mKuAYTcDvCqaG4CEyHXsyRObRMg=/300x300/v1.bTsxMTE2NjcyNTtqOzE3MDk0OzEyMDA7ODAwOzEyMDA"
-  },
+  "image": [
+    {
+      "url": "https://resizing.flixster.com/Z7udO6XJExz1YmaeY4F9Zg6_Ag4=/740x290/v1.bjs4MjU3NTE7ajsxNzAxOTsxMjAwOzUzMzk7MzU1OQ",
+      "width": 740,
+      "height": 290
+    },
+    {
+      "url": "https://resizing.flixster.com/mKuAYTcDvCqaG4CEyHXsyRObRMg=/300x300/v1.bTsxMTE2NjcyNTtqOzE3MDk0OzEyMDA7ODAwOzEyMDA"
+    }
+  ],
   "contentUrl": "https://www.rottentomatoes.com/m/inception/",
   "originalUrl": "https://www.rottentomatoes.com/m/inception/",
   "encodingFormat": "html",
