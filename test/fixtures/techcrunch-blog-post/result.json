@@ -47,8 +47,6 @@
     },
     "rdfa": {
       "": {
-        "http://ogp.me/ns/fb#app_id": "187288694643718",
-        "http://ogp.me/ns/fb#admins": "543710097,771265067,1661021707,1550970059,663677613,1178144075,726995222,506404657,4700188",
         "http://ogp.me/ns/article#publisher": "https://www.facebook.com/techcrunch",
         "http://ogp.me/ns#site_name": "TechCrunch",
         "http://ogp.me/ns#site": "social.techcrunch.com",

@@ -30,7 +30,6 @@
     },
     "rdfa": {
       "": {
-        "http://ogp.me/ns/fb#app_id": "19507961798",
         "http://ogp.me/ns#site_name": "SoundCloud",
         "http://ogp.me/ns#type": "music.song",
         "http://ogp.me/ns#url": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",

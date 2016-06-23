@@ -68,7 +68,6 @@ VOCAB_PREFIXES.v = 'http://rdf.data-vocabulary.org/#'
 VOCAB_PREFIXES.vcard = 'http://www.w3.org/2006/vcard/ns#'
 VOCAB_PREFIXES.schema = 'http://schema.org/'
 // http://ogp.me/
-VOCAB_PREFIXES.fb = 'http://ogp.me/ns/fb#'
 VOCAB_PREFIXES.music = 'http://ogp.me/ns/music#'
 VOCAB_PREFIXES.video = 'http://ogp.me/ns/video#'
 VOCAB_PREFIXES.article = 'http://ogp.me/ns/article#'

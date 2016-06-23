@@ -31,7 +31,6 @@
         "http://ogp.me/ns/article#section": "Opinion",
         "http://ogp.me/ns/article#section-taxonomy-id": "AD8090D7-4137-4D71-84C8-70DA3BD89778",
         "http://ogp.me/ns/article#section_url": "http://www.nytimes.com/pages/opinion/index.html",
-        "http://ogp.me/ns/fb#app_id": "9869919170",
         "http://ogp.me/ns#image": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-facebookJumbo.jpg",
         "http://ogp.me/ns/article#author": "http://topics.nytimes.com/top/reference/timestopics/people/r/andrew_rosenthal/index.html",
         "http://ogp.me/ns/article#tag": [

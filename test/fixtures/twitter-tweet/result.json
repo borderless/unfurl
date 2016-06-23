@@ -16,8 +16,7 @@
         "http://ogp.me/ns#title": "TypeScript on Twitter",
         "http://ogp.me/ns#image": "https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg",
         "http://ogp.me/ns#description": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”",
-        "http://ogp.me/ns#site_name": "Twitter",
-        "http://ogp.me/ns/fb#app_id": "2231777543"
+        "http://ogp.me/ns#site_name": "Twitter"
       }
     }
   }

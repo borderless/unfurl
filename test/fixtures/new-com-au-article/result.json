@@ -23,9 +23,7 @@
         "http://ogp.me/ns#type": "article",
         "http://ogp.me/ns#url": "http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123",
         "http://ogp.me/ns#site_name": "NewsComAu",
-        "http://ogp.me/ns#description": "A British man accused of trying to take a police officer's gun and kill Donald Trump during a rally in Las Vegas will not be released on bail.",
-        "http://ogp.me/ns/fb#app_id": "113758722003364",
-        "http://ogp.me/ns/fb#admins": "1533025129,653135158,737988273"
+        "http://ogp.me/ns#description": "A British man accused of trying to take a police officer's gun and kill Donald Trump during a rally in Las Vegas will not be released on bail."
       }
     }
   }

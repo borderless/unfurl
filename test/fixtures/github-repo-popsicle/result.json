@@ -17,7 +17,6 @@
     },
     "rdfa": {
       "": {
-        "http://ogp.me/ns/fb#app_id": "1401488693436528",
         "http://ogp.me/ns#image": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
         "http://ogp.me/ns#site_name": "GitHub",
         "http://ogp.me/ns#type": "object",

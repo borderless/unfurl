@@ -28,7 +28,6 @@
     },
     "rdfa": {
       "": {
-        "http://ogp.me/ns/fb#app_id": "138566025676",
         "http://ogp.me/ns#site_name": "Airbnb",
         "http://ogp.me/ns#title": "Bright, Chelsea Studio - Apartments for Rent in New York",
         "http://ogp.me/ns#type": "airbedandbreakfast:listing",

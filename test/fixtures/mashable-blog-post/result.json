@@ -95,8 +95,6 @@
     },
     "rdfa": {
       "": {
-        "http://ogp.me/ns/fb#app_id": "122071082108",
-        "http://ogp.me/ns/fb#page_id": "18807449704",
         "http://ogp.me/ns#url": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
         "http://ogp.me/ns#title": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
         "http://ogp.me/ns#type": "article",

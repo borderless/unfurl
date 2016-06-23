@@ -21,7 +21,6 @@
     },
     "rdfa": {
       "": {
-        "http://ogp.me/ns/fb#app_id": "1401488693436528",
         "http://ogp.me/ns#url": "https://github.com",
         "http://ogp.me/ns#site_name": "GitHub",
         "http://ogp.me/ns#title": "Build software better, together",

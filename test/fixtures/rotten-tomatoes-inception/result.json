@@ -658,7 +658,6 @@
     },
     "rdfa": {
       "": {
-        "http://ogp.me/ns/fb#app_id": "326803741017",
         "http://ogp.me/ns#title": "Inception",
         "http://ogp.me/ns#type": "video.movie",
         "http://ogp.me/ns#image": "https://resizing.flixster.com/Z7udO6XJExz1YmaeY4F9Zg6_Ag4=/740x290/v1.bjs4MjU3NTE7ajsxNzAxOTsxMjAwOzUzMzk7MzU1OQ",
