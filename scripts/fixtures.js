@@ -133,6 +133,10 @@ var FIXTURES = [
   {
     name: 'itunes-app',
     url: 'https://itunes.apple.com/us/app/espn-sportscenter/id317469184?mt=8'
+  },
+  {
+    name: 'instagram-photo',
+    url: 'https://www.instagram.com/p/BG0m4IDGaqk/'
   }
 ]
 
