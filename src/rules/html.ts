@@ -29,6 +29,7 @@ interface RdfaValueMap {
 const RDFA_PREFIXES = Object.create(null)
 
 // Set up some default prefixes for webpages.
+RDFA_PREFIXES._ = ''
 RDFA_PREFIXES.og = 'http://ogp.me/ns#'
 RDFA_PREFIXES.fb = 'http://ogp.me/ns/fb#'
 RDFA_PREFIXES.music = 'http://ogp.me/ns/music#'
