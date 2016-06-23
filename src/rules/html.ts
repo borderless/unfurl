@@ -133,6 +133,7 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
     const rdfaVocabs: string[] = []
     const rdfaResources: string[] = ['']
     const rdfaPrefixes: any[] = [VOCAB_PREFIXES]
+    const microdataIds = Object.create(null)
     const microdataScopes: any[] = []
     const contexts: Context[] = [{ tagName: '', text: '' }]
 
@@ -203,51 +204,71 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
         const typeofAttr = normalize((attributes as any).typeof)
 
         // Microdata attributes.
-        const itemprop = normalize((attributes as any).itemprop)
-        const itemid = normalize((attributes as any).itemid)
-        const itemtype = normalize((attributes as any).itemtype)
+        const idAttr = normalize((attributes as any).id)
+        const itempropAttr = normalize((attributes as any).itemprop)
+        const itemidAttr = normalize((attributes as any).itemid)
+        const itemtypeAttr = normalize((attributes as any).itemtype)
+        const itemrefAttr = normalize((attributes as any).itemref)
 
         // Microdata item.
         if (attributes.hasOwnProperty('itemscope')) {
           const oldScope = last(microdataScopes)
-          const newScope = Object.create(null)
+          const newScope = microdataIds[idAttr] || Object.create(null)
 
-          if (oldScope && itemprop) {
-            setProperty(oldScope, itemprop.split(/ +/g), newScope)
+          // Set child scopes on the root scope.
+          if (oldScope && itempropAttr) {
+            setProperty(oldScope, itempropAttr.split(/ +/g), newScope)
+          }
+
+          // Store `id` references for usage later.
+          if (idAttr) {
+            microdataIds[idAttr] = newScope
           }
 
           microdataScopes.push(newScope)
           context.hasMicrodataScope = true
         }
 
-        if (itemprop) {
+        if (itempropAttr) {
           const scope = last(microdataScopes)
-          const value = getValueMap(url, tagName, attributes)
 
           if (scope) {
-            if (value != null) {
-              setProperty(scope, itemprop.split(/ +/g), value)
+            const props = itempropAttr.split(/ +/g)
+
+            if (itemrefAttr) {
+              // Set microdata id reference when it doesn't already exist.
+              if (microdataIds[itemrefAttr] == null) {
+                microdataIds[itemrefAttr] = Object.create(null)
+              }
+
+              setProperty(scope, props, microdataIds[itemrefAttr])
             } else {
-              context.microdataTextProperty = itemprop
+              const value = getValueMap(url, tagName, attributes)
+
+              if (value != null) {
+                setProperty(scope, props, value)
+              } else {
+                context.microdataTextProperty = itempropAttr
+              }
             }
           }
         }
 
         // Microdata `itemid=""`.
-        if (itemid) {
+        if (itemidAttr) {
           const scope = last(microdataScopes)
 
           if (scope) {
-            setProperty(scope, '@id', itemid)
+            setProperty(scope, '@id', itemidAttr)
           }
         }
 
         // Microdata `itemtype=""`.
-        if (itemtype) {
+        if (itemtypeAttr) {
           const scope = last(microdataScopes)
 
           if (scope) {
-            setProperty(scope, '@type', itemtype)
+            setProperty(scope, '@type', itemtypeAttr)
           }
         }
 
