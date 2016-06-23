@@ -45,6 +45,37 @@
       "android:app_name": "Airbnb",
       "android:package": "com.airbnb.android",
       "web:url": "https://www.airbnb.com/rooms/2250401"
-    }
+    },
+    "microdata": [
+      {
+        "@type": "http://schema.org/Product",
+        "image": "https://a1.muscache.com/im/pictures/43670185/606e6e19_original.jpg?aki_policy=large",
+        "name": "Bright, Chelsea Studio",
+        "aggregateRating": {
+          "@type": "http://schema.org/AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "14"
+        },
+        "offers": {
+          "@type": "http://schema.org/Offer",
+          "priceCurrency": "USD",
+          "price": "220"
+        }
+      },
+      {
+        "@type": "http://schema.org/Organization",
+        "url": "https://www.airbnb.com/",
+        "logo": "https://a2.muscache.com/airbnb/static/logos/belo-200x200-4d851c5b28f61931bf1df28dd15e60ef.png",
+        "sameAs": [
+          "https://www.facebook.com/airbnb",
+          "https://plus.google.com/+airbnb",
+          "https://twitter.com/airbnb",
+          "https://www.linkedin.com/company/airbnb",
+          "https://www.pinterest.com/airbnb/",
+          "https://www.youtube.com/user/Airbnb",
+          "https://instagram.com/airbnb"
+        ]
+      }
+    ]
   }
 }

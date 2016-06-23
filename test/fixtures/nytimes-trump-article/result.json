@@ -55,6 +55,69 @@
       "ipad:url": "nytimes://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
       "ipad:app_store_id": "357066198",
       "ipad:app_name": "NYTimes"
+    },
+    "microdata": {
+      "@id": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+      "@type": "http://schema.org/NewsArticle",
+      "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
+      "genre": "Op-Ed",
+      "identifier": "100000004471911",
+      "usageTerms": [
+        "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+        "http://www.nytimes.com/ref/membercenter/help/agree.html"
+      ],
+      "inLanguage": "en-US",
+      "datePublished": [
+        "2016-06-15",
+        "2016-06-15",
+        "2016-06-14",
+        "2016-06-14",
+        "2016-06-14",
+        "2016-06-15",
+        "2016-06-15",
+        "2016-06-14",
+        "2016-06-14",
+        "2016-06-14",
+        "2016-06-15"
+      ],
+      "articleSection": [
+        "Opinion",
+        "AD8090D7-4137-4D71-84C8-70DA3BD89778"
+      ],
+      "dateModified": "2016-06-15",
+      "thumbnailUrl": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-thumbStandard.jpg",
+      "headline": "Decoding Donald Trump",
+      "associatedMedia": {
+        "@id": [
+          "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-master768.jpg",
+          "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-master768.jpg"
+        ],
+        "@type": "http://schema.org/ImageObject",
+        "url": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-master768.jpg",
+        "height": "512",
+        "width": "768",
+        "copyrightHolder": "Damon Winter/The New York Times"
+      },
+      "copyrightNotice": "http://www.nytimes.com/content/help/rights/copyright/copyright-notice.html",
+      "copyrightYear": "2016",
+      "copyrightHolder": {
+        "@id": "http://www.nytimes.com",
+        "@type": "http://schema.org/Organization",
+        "name": "The New York Times Company",
+        "tickerSymbol": "NYSE NYT"
+      },
+      "provider": {
+        "@id": "http://www.nytimes.com",
+        "@type": "http://schema.org/Organization",
+        "name": "The New York Times Company",
+        "tickerSymbol": "NYSE NYT"
+      },
+      "sourceOrganization": {
+        "@id": "http://www.nytimes.com",
+        "@type": "http://schema.org/Organization",
+        "name": "The New York Times Company",
+        "tickerSymbol": "NYSE NYT"
+      }
     }
   }
 }

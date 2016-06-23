@@ -18,6 +18,229 @@
         "http://ogp.me/ns#site_name": "IMDb",
         "http://ogp.me/ns#description": "Directed by Christopher Nolan. With Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Ken Watanabe. A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO."
       }
+    },
+    "microdata": {
+      "@type": "http://schema.org/Movie",
+      "aggregateRating": {
+        "@type": "http://schema.org/AggregateRating",
+        "ratingValue": "8.8",
+        "bestRating": "10",
+        "ratingCount": "1,447,029",
+        "reviewCount": [
+          "2,795 user",
+          "636 critic"
+        ]
+      },
+      "name": "Inception",
+      "contentRating": [
+        "PG-13",
+        "Rated PG-13 for sequences of violence and action throughout"
+      ],
+      "duration": [
+        "PT148M",
+        "PT148M"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Crime"
+      ],
+      "datePublished": [
+        "2010-07-16",
+        "4 hours ago",
+        "16 June 2016 7:19 AM, -08:00",
+        "15 June 2016 7:34 AM, -08:00"
+      ],
+      "image": [
+        "http://ia.media-imdb.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "http://ia.media-imdb.com/images/M/MV5BMjI2NDI3NTA4M15BMl5BanBnXkFtZTgwMDQ5NjYzMzE@._V1_CR167,0,946,532_AL_UY268_CR84,0,477,268_AL_.jpg",
+        "http://ia.media-imdb.com/images/M/MV5BMTY3Mzg2NjQ0OV5BMl5BanBnXkFtZTgwNzAzMTM0NzE@._UY800_CR360,0,614,460_SY230_SX307_AL_.jpg",
+        "http://ia.media-imdb.com/images/G/01/imdb/images/widget/amazon._CB339202444_.png",
+        "http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB271188368_.png",
+        "http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB271188368_.png",
+        "http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB271188368_.png"
+      ],
+      "trailer": "http://www.imdb.com/video/imdb/vi4219471385?ref_=tt_ov_vi",
+      "description": "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
+      "director": {
+        "@type": "http://schema.org/Person",
+        "url": "http://www.imdb.com/name/nm0634240?ref_=tt_ov_dr",
+        "name": "Christopher Nolan"
+      },
+      "creator": [
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0634240?ref_=tt_ov_wr",
+          "name": "Christopher Nolan"
+        },
+        {
+          "@type": "http://schema.org/Organization",
+          "url": "http://www.imdb.com/company/co0026840?ref_=tt_dt_co",
+          "name": "Warner Bros."
+        },
+        {
+          "@type": "http://schema.org/Organization",
+          "url": "http://www.imdb.com/company/co0159111?ref_=tt_dt_co",
+          "name": "Legendary Pictures"
+        },
+        {
+          "@type": "http://schema.org/Organization",
+          "url": "http://www.imdb.com/company/co0147954?ref_=tt_dt_co",
+          "name": "Syncopy"
+        }
+      ],
+      "actors": [
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0000138?ref_=tt_ov_st_sm",
+          "name": "Leonardo DiCaprio",
+          "actors": ","
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0330687?ref_=tt_ov_st_sm",
+          "name": "Joseph Gordon-Levitt",
+          "actors": ","
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0680983?ref_=tt_ov_st_sm",
+          "name": "Ellen Page"
+        }
+      ],
+      "url": [
+        "http://www.imdb.com/plugins?titleId=tt1375666&ref_=tt_plg_rt",
+        "http://www.imdb.com/plugins?titleId=tt1375666&ref_=tt_plg_rt",
+        "http://www.imdb.com/offsite/?page-action=offsite-facebook&token=BCYvu8bgRNK-L-qfNM1X022NTKkmchf8wQOgJJW6aHfKBKlONgicuBytK_nDPOwSgNYZ3SzuTERX%0D%0A12v8tkaLwnEPZ-tY8zcmzVRc3U4LMwJHFktf7NTZ0_pDeuknBhVpxOnKlLCc2OotBpu-q5jC5Bcp%0D%0AJgxbh1NF7One4hGU6prZLHJ5hg28GBGhXl90jZ-DVwUo4GR1sNB-R7G3yW7XxtS_TYlf-_JpffKW%0D%0AnayfjevkcUo%0D%0A&ref_=tt_pdt_ofs_offsite_0",
+        "http://www.imdb.com/offsite/?page-action=offsite-warnerbros&token=BCYjoQTX-Z8fZ4cWLL65BvxPRQ1dsRnXuusETWulP7sR-Qx7T7t9co5552OffQe100eZHT7SyMKF%0D%0AM7DFZphM3t3sDFVGREUVz4Rxrj8Zwl6RqEVZxqV_rWkDx_b86BbY-Gl5GyoIxABYziLS-kXzFFt1%0D%0Aaruhyn9FZQnPA5Dwd-fNU7E3bkURhdgd4LNvAjOPKBRIkbmrnho4CJv-vWREDF3OijohZ7ev3-h7%0D%0ANHrDmwaq1FQ%0D%0A&ref_=tt_pdt_ofs_offsite_1",
+        "http://www.imdb.com/title/tt1375666/externalsites?ref_=tt_dt_dt#official",
+        "http://www.imdb.com/country/us?ref_=tt_dt_dt",
+        "http://www.imdb.com/country/gb?ref_=tt_dt_dt",
+        "http://www.imdb.com/language/en?ref_=tt_dt_dt",
+        "http://www.imdb.com/language/ja?ref_=tt_dt_dt",
+        "http://www.imdb.com/language/fr?ref_=tt_dt_dt",
+        "http://www.imdb.com/title/tt1375666/releaseinfo?ref_=tt_dt_dt",
+        "http://www.imdb.com/title/tt1375666/releaseinfo?ref_=tt_dt_dt#akas",
+        "http://www.imdb.com/search/title?locations=Bedfordshire,%20England,%20UK&ref_=tt_dt_dt",
+        "http://www.imdb.com/title/tt1375666/locations?ref_=tt_dt_dt",
+        "http://www.imdb.com/title/tt1375666/business?ref_=tt_dt_bus",
+        "http://www.imdb.com/title/tt1375666/companycredits?ref_=tt_dt_co",
+        "http://pro.imdb.com/title/tt1375666/companycredits?rf=cons_tt_cocred_tt&ref_=cons_tt_cocred_tt",
+        "http://pro.imdb.com/signup/index.html?rf=cons_tt_cocred_spl&ref_=cons_tt_cocred_spl",
+        "http://www.imdb.com/search/title?sound_mixes=dolby_digital&ref_=tt_dt_spec",
+        "http://www.imdb.com/search/title?sound_mixes=dts&ref_=tt_dt_spec",
+        "http://www.imdb.com/search/title?sound_mixes=sdds&ref_=tt_dt_spec",
+        "http://www.imdb.com/search/title?colors=color&ref_=tt_dt_spec",
+        "http://www.imdb.com/title/tt1375666/technical?ref_=tt_dt_spec"
+      ],
+      "awards": "Another 143 wins & 198 nominations.",
+      "thumbnailUrl": [
+        "http://www.imdb.com/title/tt1375666/mediaviewer/rm420381440?ref_=tt_pv_md_1",
+        "http://www.imdb.com/title/tt1375666/mediaviewer/rm750748416?ref_=tt_pv_md_2",
+        "http://www.imdb.com/title/tt1375666/mediaviewer/rm453935872?ref_=tt_pv_md_3"
+      ],
+      "actor": [
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0000138/?ref_=tt_cl_t1",
+          "name": "Leonardo DiCaprio"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0330687/?ref_=tt_cl_t2",
+          "name": "Joseph Gordon-Levitt"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0680983/?ref_=tt_cl_t3",
+          "name": "Ellen Page"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0362766/?ref_=tt_cl_t4",
+          "name": "Tom Hardy"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0913822/?ref_=tt_cl_t5",
+          "name": "Ken Watanabe"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm2438307/?ref_=tt_cl_t6",
+          "name": "Dileep Rao"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0614165/?ref_=tt_cl_t7",
+          "name": "Cillian Murphy"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0000297/?ref_=tt_cl_t8",
+          "name": "Tom Berenger"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0182839/?ref_=tt_cl_t9",
+          "name": "Marion Cotillard"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0000592/?ref_=tt_cl_t10",
+          "name": "Pete Postlethwaite"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0000323/?ref_=tt_cl_t11",
+          "name": "Michael Caine"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm0001305/?ref_=tt_cl_t12",
+          "name": "Lukas Haas"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm2581730/?ref_=tt_cl_t13",
+          "name": "Tai-Li Lee"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm3637500/?ref_=tt_cl_t14",
+          "name": "Claire Geare"
+        },
+        {
+          "@type": "http://schema.org/Person",
+          "url": "http://www.imdb.com/name/nm3960408/?ref_=tt_cl_t15",
+          "name": "Magnus Nolan"
+        }
+      ],
+      "keywords": [
+        "dream",
+        "subconscious",
+        "ambiguous ending",
+        "thief",
+        "corporate espionage"
+      ],
+      "audience": {
+        "@type": "http://schema.org/Audience",
+        "url": "http://www.imdb.com/title/tt1375666/parentalguide?ref_=tt_stry_pg",
+        "audience": "»"
+      },
+      "review": {
+        "@type": "http://schema.org/Review",
+        "name": "Sci-fi perfection. A truly mesmerizing film.",
+        "reviewRating": {
+          "@type": "http://schema.org/Rating",
+          "worstRating": "1",
+          "ratingValue": "8",
+          "bestRating": "10"
+        },
+        "author": "dvc5159",
+        "datePublished": "2010-07-15",
+        "reviewBody": "I'm nearly at a loss for words. Just when you thought Christopher Nolan couldn't follow up to \"The Dark Knight\", he does it again, delivering another masterpiece, one with so much power and rich themes that has been lost from the box office for several years. Questioning illusions vs reality usually makes the film weird, but Nolan grips your attention like an iron claw that you just can't help watching and wondering what will happen next. That is a real powerful skill a director has. No wonder Warner Bros. put their trust in him, he is THAT good of a director, and over-hyping a Christopher Nolan film, no matter what the film is about, is always an understatement instead of an overestimate like MANY films before.Not since the eras of Stanley Kubrick, Andrei Tarkovsky and Alfred Hitchcock has there been a more brilliant director than Christopher Nolan. He is, undoubtedly, one of THE most brilliant and gifted Hollywood filmmakers in history. Filmmakers like him come but just once in a lifetime. He has the ability to seduce our eyes, ears and most importantly, mind, and then delivers what he intends to deliver in full blast. Rarely have blockbusters have the gall to deliver such amounts imagination and intelligence at the same time. And yes, it is similar to the excellent anime film \"Paprika\" in the whole \"invading dreams\" plot, but the similarities end there as Nolan brings the film to a whole different level.Visuals and intelligence rarely come together in movies at the same time, it's either all-visuals-no-smarts (\"G.I. Joe\", \"Transformers\") or the exact opposite (\"Doubt\", \"Invictus\"). In this film the excellently directed action sequences combined with immensely groundbreaking and jaw-dropping visual effects are combined smoothly with a heavy dose of intelligence and believability.Although having an ensemble cast and financed by a Hollywood giant studio (Warner Bros), this film is a very personal film for Nolan, he wrote the film as well as directing it, and as you watch the film you get many glimpses of Nolan's perplexing, increasingly imaginative thoughts and dreams in the dialog that he writes and the plot that he sets up. Ideas have never felt more interesting and put to good use than in this film. This film is NOT for the popcorn muncher, rather it is a film for thinkers. Honestly I can't explain the plot for fear of spoiling the movie for you readers. Even the slightest hint will ruin the experience. The viewer will walk out of the cinema feeling dazed, confused and ultimately breathless. It's like a puzzle, both physically and mentally, and you have to pay attention throughout the film for the clues. However Nolan controls the spectacle of the film and is careful not to let it overwhelm the film's humanity, and this is where \"Inception\" shines. It is a very deep film that will have one thinking and asking questions for years to come. That's right, years.Once the film ends, you'll want to watch it again, for there's something new every time. This is a film that requires multiple viewing for someone to truly comprehend the film's ambiguous themes, and will be discussed by many in the future. This is an original film, no adaptation, no sequel/prequel, no remake/reboot, which is extremely refreshing having gone nearly three years of mostly unremarkable visual effects roadshows (\"Avatar\" be damned).Of course, a film is not complete without the actors. Leo DiCaprio delivers an Oscar worthy performance, similar but better than his previous effort \"Shutter Island\". He shows glimpses of a flawed, grim, fragile man, who has knowledge about everything else but yet can't seem to come in grips with himself and his demons. Joseph Gordon-Levitt, Ellen Page, Tom Hardy, Ken Watanabe, Dileep Rao, Cillian Murphy, Tom Berenger, Michael Caine, Marion Cottilard, Pete Postlethwaite, Lukas Haas... Nolan really brings out the best in this unusual yet extremely talented group of supporting actors who make their roles their own.Nolan is of course, a master behind the camera, a real virtuoso when it comes to film. His direction is taut, focused, gripping, and extraordinarily fascinating. The detailed and complex original script is no surprise from Nolan, considering the fact that he turned Batman the superhero into pop-culture art two years ago (\"The Dark Knight\"). The action sequences are unique, exciting and fresh, something absent from the cinema which has since been interested at things popping towards the screen and stuff blowing up every two milliseconds. The visual effects are awesome and imaginative, and best of all they do not bring down the movie's quality one bit, rather it makes the movie more fascinating to watch. The cinematography is absolutely, beautifully shot, so we can see the action and emotion in all their glory. Production design is top notch, with terrific design of sets and locations. Hans Zimmer's complementing music score is simply outstanding, and knowing the man, that's really all I have to say. Together all of these elements combine to deliver a mesmerizing movie experience like no other this year.Christopher Nolan has once again outdone himself. He truly is a gifted filmmaker, arguably the most imaginative in Hollywood today. And \"Inception\" can proudly stand alongside \"Blade Runner\" and \"2001: A Space Odyssey\" as science-fiction masterpieces that push the boundaries for movie making and become a different experience altogether.There are two types of films: the crowd-pleasing blockbuster and the intelligent indie/art film. Nolan has combined two of these tropes together into one exceptionally brilliant package, pulling off that rare, now nearly-extinct Movie Magic that has since been wiped off the planet by sequelitis and reboots. Movie of Summer 2010? Movie of 2010? Heck this is possibly the first masterpiece of the decade! Nolan is a genius and I applaud him for treating his audiences as intelligent people.Missing this film and not getting the film's point is a crime.Overall value: 9/10 (Excellent)"
+      }
     }
   }
 }

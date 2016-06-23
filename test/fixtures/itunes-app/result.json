@@ -31,6 +31,7 @@
         "http://ogp.me/ns#image:height": "630",
         "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
           "http://schema.org/BreadcrumbList",
+          "http://schema.org/ListItem",
           "http://schema.org/Organization"
         ],
         "http://schema.org/name": [
@@ -39,6 +40,46 @@
         ],
         "http://schema.org/position": "1",
         "http://schema.org/telephone": "1-800-692-7753"
+      }
+    },
+    "microdata": {
+      "@type": "http://schema.org/SoftwareApplication",
+      "name": "ESPN - Get scores, news, and watch live sports",
+      "description": "The ESPN App is the #1 Sports App in the market. The app gives you up-to-the-minute scores and the latest news, live video and audio streaming across ESPN’s networks, and loads of video highlights. Sign in and personalize the ESPN App to get alerts about scores and news from all of your favorite teams and leagues! No matter where you go, take ESPN with you to stay connected the moment you need it, from wherever you are.What do you get with ESPN?- Fast access to scores from the MLB, NFL, College Football, NBA, NHL, College Basketball, MLS, and more.- Stories and videos from your favorite teams and leagues up front and center in your favorites feed. Simply pick your favorite leagues and teams to get started.- Not near a TV or want to stream a second game? You now have one tap access to stream live events, up-to-the-minute news, highlights and analysis from the ESPN family of networks.- Take your sports wherever your ears go! Stream live ESPN Radio, over 100 other ESPN podcasts , live play-by-play and more — just tap on the headphones to listen.- Use Handoff to switch between your Apple Watch and your iPhone.ESPN, ESPN2, ESPN3, ESPNU, SEC Network, SEC Network Plus, ESPNews ESPN Deportes and Longhorn Network are now available for live streaming through WatchESPN in the ESPN App. Access to WatchESPN live video is determined by your TV provider and package and, in some instances, your Internet service provider. The providers below currently offer access to WatchESPN live video:* AT&T U-verse* Bright House Networks* Charter* Comcast XFINITY* Cox* DirecTV* DISH* Google Fiber* Midcontinent Communications* Optimum* Time Warner Cable* Verizon FiOS TV* Plus many more providers–-* Due to contractual limitations with certain content, especially play-by-play broadcasts, there are times when the schedule that's on-air won't match the schedule that's online. While we make every effort to update the schedule, occasionally the nature of play-by-play broadcasting limits our ability to accurately present the latest schedule (ie., rain delays, last minute schedule changes). We apologize for any inconvenience this causes. If you have specific schedule questions, please contact the station directly by visiting their website.–-Feedback:- Follow us on Twitter for the latest updates and to provide feedback on the app: twitter.com/ESPN_FanCentral- Use the Feedback form in the app’s Settings menu to let us know how we’re doing.Terms of Use:http://disneytermsofuse.com/Privacy Policy:https://disneyprivacycenter.com/–-Before you download this app, please consider that it includes advertising, some of which may be targeted to your interests. You may choose to control targeted advertising within mobile applications by using your mobile device settings (for example, by re-setting your device’s advertising identifier and/or opting out of interest based ads).Please note: This app features Nielsen’s proprietary measurement software which will allow you to contribute to market research, like Nielsen’s TV Ratings. Please see www.nielsen.com/digitalprivacy for more information. You may also visit Settings in the app to opt out of Nielsen measurement.",
+      "screenshot": [
+        "http://a1.mzstatic.com/us/r30/Purple30/v4/08/3c/12/083c12f7-94fd-61fe-7faa-7e593e1104e3/screen322x572.jpeg",
+        "http://a5.mzstatic.com/us/r30/Purple30/v4/82/9a/2f/829a2f2f-8f9f-53fe-a737-07cc61c1bfa4/screen322x572.jpeg",
+        "http://a4.mzstatic.com/us/r30/Purple20/v4/94/01/b7/9401b705-4732-3456-b11c-62995fd1ff4a/screen322x572.jpeg",
+        "http://a3.mzstatic.com/us/r30/Purple60/v4/fb/49/14/fb491491-dd16-62a2-7c52-24d06615a9f7/screen640x640.jpeg",
+        "http://a2.mzstatic.com/us/r30/Purple60/v4/6d/12/b4/6d12b420-1cc2-7232-24c8-f290c8a7a7b1/screen322x572.jpeg",
+        "http://a1.mzstatic.com/us/r30/Purple20/v4/f5/5b/a5/f55ba542-dd31-ffe3-18d0-38ed4a28368b/screen480x480.jpeg",
+        "http://a5.mzstatic.com/us/r30/Purple30/v4/7b/43/21/7b4321fe-3d45-833f-8470-5a107771d47b/screen480x480.jpeg",
+        "http://a4.mzstatic.com/us/r30/Purple60/v4/53/76/e8/5376e8a2-9216-0423-8b0f-bf4a5e593029/screen480x480.jpeg",
+        "http://a1.mzstatic.com/us/r30/Purple60/v4/e8/0d/86/e80d86b9-0342-28de-cd3f-e1ae906bee85/screen480x480.jpeg",
+        "http://a2.mzstatic.com/us/r30/Purple18/v4/c3/f8/fb/c3f8fbe6-bfa9-ed5c-3d12-5fe299c21ac1/screen480x480.jpeg",
+        "http://a1.mzstatic.com/us/r30/Purple30/v4/0b/71/d2/0b71d2b7-40b5-208f-4acd-fe34c6baed1a/screen390x390.jpeg",
+        "http://a4.mzstatic.com/us/r30/Purple18/v4/87/ac/86/87ac8690-02b6-8a0f-7352-07ebad755af9/screen390x390.jpeg",
+        "http://a2.mzstatic.com/us/r30/Purple60/v4/9b/f4/f2/9bf4f297-82f0-fe42-8c7e-b33525ffa2ad/screen390x390.jpeg",
+        "http://a2.mzstatic.com/us/r30/Purple18/v4/f5/3d/20/f53d208c-cfe7-d381-de0d-e0398a050810/screen390x390.jpeg",
+        "http://a5.mzstatic.com/us/r30/Purple30/v4/0f/73/3b/0f733b05-d169-a00a-2945-071505bf2e94/screen390x390.jpeg"
+      ],
+      "image": "http://a4.mzstatic.com/us/r30/Purple60/v4/b7/39/73/b73973d9-86d9-8261-5951-65eab5a3c4df/icon175x175.jpeg",
+      "offers": {
+        "@type": "http://schema.org/Offer",
+        "price": "0"
+      },
+      "applicationCategory": "Sports",
+      "datePublished": "2009-06-02 07:00:00 Etc/GMT",
+      "softwareVersion": "5.0",
+      "author": {
+        "@type": "http://schema.org/Person",
+        "name": "ESPN Inc."
+      },
+      "operatingSystem": "Requires iOS 9.0 or later. Compatible with iPhone, iPad, and iPod touch.",
+      "aggregateRating": {
+        "@type": "http://schema.org/AggregateRating",
+        "ratingValue": "4.09561",
+        "reviewCount": "638 Ratings"
       }
     }
   }

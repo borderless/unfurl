@@ -27,6 +27,191 @@
         "http://ogp.me/ns#site_name": "Best Buy",
         "http://ogp.me/ns#description": "iPhone 6s 64GB, Read customer reviews and buy online at Best Buy."
       }
+    },
+    "microdata": {
+      "@type": "http://schema.org/Product",
+      "url": "/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
+      "name": [
+        "Apple - iPhone 6s 64GB - Space Gray (Verizon Wireless)",
+        "A 4.7-inch Retina HD display with 3D Touch. 7000 series aluminum and stronger cover glass. An A9 chip with 64-bit desktop-class architecture. All new 12MP iSight camera with Live Photos. Touch ID. Faster LTE and Wi-Fi. Long battery life and iOS 9 and iCloud. All in a smooth, continuous unibody design."
+      ],
+      "brand": {
+        "@type": "http://schema.org/Brand",
+        "name": "Apple"
+      },
+      "model": "MKRY2LL/A",
+      "productID": "4447801",
+      "aggregateRating": {
+        "@type": "http://schema.org/AggregateRating",
+        "worstRating": "1",
+        "bestRating": "5",
+        "ratingValue": "4.8",
+        "reviewCount": "2191"
+      },
+      "description": "A 4.7-inch Retina HD display with 3D Touch. 7000 series aluminum and stronger cover glass. An A9 chip with 64-bit desktop-class architecture. All new 12MP iSight camera with Live Photos. Touch ID. Faster LTE and Wi-Fi. Long battery life and iOS 9 and iCloud. All in a smooth, continuous unibody design.",
+      "offers": {
+        "@type": "http://schema.org/Offer",
+        "priceCurrency": "USD",
+        "price": "$299.99",
+        "seller": {
+          "@type": "http://schema.org/Organization",
+          "name": "BestBuy"
+        },
+        "availability": "InStock",
+        "itemCondition": "NewCondition"
+      },
+      "reviews": [
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "Great phone",
+          "ratingValue": "5",
+          "author": "Rustyjar",
+          "datePublished": "06/19/2016",
+          "description": "Have always had an iPhone since they came out, and this one has convinced me I am still on the right track. Now I will say I am partially biased because everything I have is on the Apple ecosystem, but even without other apple products, I would still get it. Very easy to use, great looking screen and has all the apps I could ever want. Highly pleased!",
+          "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "4",
+            "bestRating": "5"
+          },
+          "name": "This is my second iPhone and it works great.",
+          "ratingValue": "4",
+          "author": "Donn",
+          "datePublished": "06/19/2016",
+          "description": "My second iPhone is reliable intuitive and a great tool.",
+          "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "Perfect iPhone",
+          "ratingValue": "5",
+          "author": "AlChocolate",
+          "datePublished": "06/19/2016",
+          "description": "I didn't want to give up my iPhone 6, but the combination of the better camera and better service with Verizon made me glad I let it go.",
+          "reviews": "Posted by: from: USA on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "Works great!",
+          "ratingValue": "5",
+          "author": "Anna",
+          "datePublished": "06/19/2016",
+          "description": "I always buy iPhones as I'm so used to them and it would be just too much work to switch to droid phone. The phone works great, it's very fast and no glitches so far (I have been using it for a couple of months).",
+          "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "Great iPhone",
+          "ratingValue": "5",
+          "author": "RodolfoRomuntundo",
+          "datePublished": "06/18/2016",
+          "description": "Bought this 'cause of the App Store and I thought I might want some apps. One day while I was playing angry birds my daughter snatched the iPhone from me and called for pizza. Woah! First, I had no clue that the iPhone was also a phone- I don't know how they do that without any wires. But, that's okay i guess because I like pizza. Anyhow, I wish my parents had an app so I could call them too. Why doesn't everyone have apps? Wish I could only rate 4.5 stars because of that.",
+          "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "I love the 3-D touch feature.",
+          "ratingValue": "5",
+          "author": "ESG4",
+          "datePublished": "06/18/2016",
+          "description": "I love the 3-D touch feature and the 4K video. These additions make it worthwhile to upgrade to the 6s.",
+          "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "I love my iPhone 6S",
+          "ratingValue": "5",
+          "author": "ESG4",
+          "datePublished": "06/18/2016",
+          "description": "I love the 3-D touch feature and the 4K video. These additions make it worthwhile to upgrade to the 6S.",
+          "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "Son's phone",
+          "ratingValue": "5",
+          "author": "SBAB",
+          "datePublished": "06/18/2016",
+          "description": "My son really likes this phone. He upgraded for the additional memory. He is an avid I-phone user.",
+          "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "Very Nice upgrade",
+          "ratingValue": "5",
+          "author": "chiHawksFan",
+          "datePublished": "06/18/2016",
+          "description": "Best iPhone so far, 3D touch opens up whole new path",
+          "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "As usual Apple does not disapppoint!",
+          "ratingValue": "5",
+          "author": "Ankur",
+          "datePublished": "06/18/2016",
+          "description": "I love the latest feature of live pics which records a small clip with sound when you take a pic. The live pics feature can be turned off by user to save space or when editing a live pic.",
+          "reviews": "Posted by: from: on"
+        }
+      ]
     }
   }
 }

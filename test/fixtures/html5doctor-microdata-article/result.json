@@ -6,6 +6,19 @@
     "html": {
       "title": "Extending HTML5 — Microdata | HTML5 Doctor",
       "canonical": "http://html5doctor.com/microdata/"
+    },
+    "microdata": {
+      "@type": "http://schema.org/Event",
+      "url": "http://atnd.org/events/5181",
+      "summary": "WDE-ex Vol.11 — Designing for iPad: Our experience so far",
+      "startDate": "2010-07-21T19:00:00+09:00",
+      "endDate": "2010-07-21T20:00:00+09:00",
+      "location": {
+        "@type": "http://schema.org/Organization",
+        "url": "http://www.apple.com/jp/retail/ginza/map/",
+        "name": "Apple Ginza"
+      },
+      "description": "On - at , , will share the lessons they’ve learned while creating three iPad apps and one iPad website."
     }
   }
 }

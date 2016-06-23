@@ -15,6 +15,7 @@ export interface ResultMeta {
   jsonLd?: JsonLdMeta
   rdfa?: RdfaMeta
   applinks?: AppLinksMeta
+  microdata?: MicrodataMeta | MicrodataMeta[]
 }
 
 export interface BaseResult {
@@ -106,6 +107,10 @@ export interface RdfaMeta {
 
 export interface JsonLdMeta {
   [key: string]: any
+}
+
+export interface MicrodataMeta {
+  [key: string]: string | string[] | MicrodataMeta
 }
 
 export interface AppLinksMeta {

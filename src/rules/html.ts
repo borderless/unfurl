@@ -19,14 +19,10 @@ import {
 
 const log = debug('scrappy:html')
 
-interface RdfaValueMap {
-  [tagName: string]: (baseUrl: string, attrs: any) => string
-}
-
 /**
  * Keep track of vocabulary prefixes.
  */
-const VOCAB_PREFIXES = Object.create(null)
+const VOCAB_PREFIXES: any = Object.create(null)
 
 // Set up known, common prefixes.
 VOCAB_PREFIXES._ = ''
@@ -75,10 +71,17 @@ VOCAB_PREFIXES.book = 'http://ogp.me/ns/book#'
 VOCAB_PREFIXES.profile = 'http://ogp.me/ns/profile#'
 VOCAB_PREFIXES.website = 'http://ogp.me/ns/website#'
 
+interface HtmlValueMap {
+  [tagName: string]: (baseUrl: string, attrs: any) => string
+}
+
 /**
  * Grab the correct attribute for RDFa support.
  */
-const RDFA_VALUE_MAP: RdfaValueMap = {
+const HTML_VALUE_MAP: HtmlValueMap = {
+  meta (baseUrl, attrs) {
+    return attrs.content
+  },
   audio (baseUrl, attrs) {
     return attrs.src ? resolve(baseUrl, attrs.src) : undefined
   },
@@ -94,14 +97,14 @@ const RDFA_VALUE_MAP: RdfaValueMap = {
 }
 
 /* tslint:disable */
-RDFA_VALUE_MAP['embed'] = RDFA_VALUE_MAP['audio']
-RDFA_VALUE_MAP['iframe'] = RDFA_VALUE_MAP['audio']
-RDFA_VALUE_MAP['img'] = RDFA_VALUE_MAP['audio']
-RDFA_VALUE_MAP['source'] = RDFA_VALUE_MAP['audio']
-RDFA_VALUE_MAP['track'] = RDFA_VALUE_MAP['audio']
-RDFA_VALUE_MAP['video'] = RDFA_VALUE_MAP['audio']
-RDFA_VALUE_MAP['area'] = RDFA_VALUE_MAP['a']
-RDFA_VALUE_MAP['link'] = RDFA_VALUE_MAP['a']
+HTML_VALUE_MAP['embed'] = HTML_VALUE_MAP['audio']
+HTML_VALUE_MAP['iframe'] = HTML_VALUE_MAP['audio']
+HTML_VALUE_MAP['img'] = HTML_VALUE_MAP['audio']
+HTML_VALUE_MAP['source'] = HTML_VALUE_MAP['audio']
+HTML_VALUE_MAP['track'] = HTML_VALUE_MAP['audio']
+HTML_VALUE_MAP['video'] = HTML_VALUE_MAP['audio']
+HTML_VALUE_MAP['area'] = HTML_VALUE_MAP['a']
+HTML_VALUE_MAP['link'] = HTML_VALUE_MAP['a']
 /* tslint:enable */
 
 /**
@@ -117,10 +120,12 @@ interface Context {
   tagName: string
   text: string
   rdfaTextProperty?: string
+  microdataTextProperty?: string
   hasRdfaResource?: boolean
   hasRdfaVocab?: boolean
   hasRdfaPrefix?: boolean
   isJsonLd?: boolean
+  hasMicrodataScope?: boolean
 }
 
 export function handle (url: string, headers: Headers, stream: Readable, abort: AbortFn): Promise<Result> {
@@ -128,6 +133,7 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
     const rdfaVocabs: string[] = []
     const rdfaResources: string[] = ['']
     const rdfaPrefixes: any[] = [VOCAB_PREFIXES]
+    const microdataScopes: any[] = []
     const contexts: Context[] = [{ tagName: '', text: '' }]
 
     const options: ParserOptions = {
@@ -140,6 +146,7 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
     const dc: DublinCoreMeta = Object.create(null)
     const rdfa: RdfaMeta = Object.create(null)
     const applinks: AppLinksMeta = Object.create(null)
+    const microdata: any[] = []
 
     let oembedJson: string
     let oembedXml: string
@@ -170,12 +177,14 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
 
       if (context.rdfaTextProperty) {
         setRdfaValue(rdfa, last(rdfaResources), context.rdfaTextProperty, normalize(text))
-        return
+      }
+
+      if (context.microdataTextProperty) {
+        setProperty(last(microdataScopes), context.microdataTextProperty.split(/ +/g), normalize(text))
       }
 
       if (tagName === 'title') {
         html.title = normalize(text)
-        return
       }
     }
 
@@ -186,11 +195,61 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
       onopentag (tagName, attributes) {
         const context = contexts[contexts.length - 1]
 
+        // RDFa attributes.
         const propertyAttr = normalize((attributes as any).property)
         const vocabAttr = normalize((attributes as any).vocab)
         const prefixAttr = normalize((attributes as any).prefix)
         const resourceAttr = normalize((attributes as any).resource)
         const typeofAttr = normalize((attributes as any).typeof)
+
+        // Microdata attributes.
+        const itemprop = normalize((attributes as any).itemprop)
+        const itemid = normalize((attributes as any).itemid)
+        const itemtype = normalize((attributes as any).itemtype)
+
+        // Microdata item.
+        if (attributes.hasOwnProperty('itemscope')) {
+          const oldScope = last(microdataScopes)
+          const newScope = Object.create(null)
+
+          if (oldScope && itemprop) {
+            setProperty(oldScope, itemprop.split(/ +/g), newScope)
+          }
+
+          microdataScopes.push(newScope)
+          context.hasMicrodataScope = true
+        }
+
+        if (itemprop) {
+          const scope = last(microdataScopes)
+          const value = getValueMap(url, tagName, attributes)
+
+          if (scope) {
+            if (value != null) {
+              setProperty(scope, itemprop.split(/ +/g), value)
+            } else {
+              context.microdataTextProperty = itemprop
+            }
+          }
+        }
+
+        // Microdata `itemid=""`.
+        if (itemid) {
+          const scope = last(microdataScopes)
+
+          if (scope) {
+            setProperty(scope, '@id', itemid)
+          }
+        }
+
+        // Microdata `itemtype=""`.
+        if (itemtype) {
+          const scope = last(microdataScopes)
+
+          if (scope) {
+            setProperty(scope, '@type', itemtype)
+          }
+        }
 
         // RDFa vocab.
         if (vocabAttr) {
@@ -226,13 +285,8 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
 
         // RDFa property.
         if (propertyAttr) {
-          let value = normalize((attributes as any).content)
           const key = normalizeRdfProperty(propertyAttr, last(rdfaVocabs), last(rdfaPrefixes))
-
-          // Semantic RDFa tags.
-          if (!value && RDFA_VALUE_MAP.hasOwnProperty(tagName)) {
-            value = normalize(RDFA_VALUE_MAP[tagName](url, attributes))
-          }
+          const value = getValueMap(url, tagName, attributes)
 
           // Use only known RDFa keys.
           if (key) {
@@ -241,8 +295,6 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
             } else {
               context.rdfaTextProperty = key
             }
-
-            return
           }
         }
 
@@ -368,6 +420,15 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
         if (context.hasRdfaResource) {
           rdfaResources.pop()
         }
+
+        if (context.hasMicrodataScope) {
+          const scope = microdataScopes.pop()
+
+          // Add to the global microdata scope collector.
+          if (microdataScopes.length === 0) {
+            microdata.push(scope)
+          }
+        }
       },
       onend () {
         if (Object.keys(html).length) {
@@ -394,6 +455,14 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
           result.meta.applinks = applinks
         }
 
+        if (microdata.length) {
+          if (microdata.length === 1) {
+            result.meta.microdata = microdata[0]
+          } else {
+            result.meta.microdata = microdata
+          }
+        }
+
         return resolve(result)
       },
       onerror (err: Error) {
@@ -417,6 +486,31 @@ function normalize (value?: string): string {
 }
 
 /**
+ * Set an object property.
+ */
+function setProperty (obj: any, key: string | string[], value: any) {
+  if (!value) {
+    return
+  }
+
+  if (Array.isArray(key)) {
+    for (const k of key) {
+      setProperty(obj, k, value)
+    }
+  } else {
+    if (obj[key]) {
+      if (Array.isArray(obj[key])) {
+        (obj[key] as string[]).push(value)
+      } else {
+        obj[key] = [obj[key] as string, value]
+      }
+    } else {
+      obj[key] = value
+    }
+  }
+}
+
+/**
  * Set an RDF value in the tree.
  */
 function setRdfaValue (rdfa: RdfaMeta, resource: string, property: string, value: string) {
@@ -427,15 +521,7 @@ function setRdfaValue (rdfa: RdfaMeta, resource: string, property: string, value
 
   rdfa[resource] = rdfa[resource] || Object.create(null)
 
-  if (rdfa[resource][property]) {
-    if (Array.isArray(rdfa[resource][property])) {
-      (rdfa[resource][property] as string[]).push(value)
-    } else {
-      rdfa[resource][property] = [rdfa[resource][property] as string, value]
-    }
-  } else {
-    rdfa[resource][property] = value
-  }
+  setProperty(rdfa[resource], property, value)
 }
 
 /**
@@ -466,4 +552,17 @@ function normalizeRdfProperty (property: string, vocab: string, prefixes: { [key
  */
 function last <T> (arr: T[]): T {
   return arr[arr.length - 1]
+}
+
+/**
+ * Grab the semantic value from HTML.
+ */
+function getValueMap (url: string, tagName: string, attributes: any) {
+  const value = normalize((attributes as any).content)
+
+  if (!value && HTML_VALUE_MAP.hasOwnProperty(tagName)) {
+    return normalize(HTML_VALUE_MAP[tagName](url, attributes))
+  }
+
+  return value
 }

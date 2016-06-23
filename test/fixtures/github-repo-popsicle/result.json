@@ -24,6 +24,15 @@
         "http://ogp.me/ns#url": "https://github.com/blakeembrey/popsicle",
         "http://ogp.me/ns#description": "popsicle - Simple HTTP requests for node and the browser"
       }
+    },
+    "microdata": {
+      "@type": "http://schema.org/SoftwareSourceCode",
+      "about": "Simple HTTP requests for node and the browser",
+      "keywords": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "license": "https://github.com/blakeembrey/popsicle/blob/master/LICENSE"
     }
   }
 }
