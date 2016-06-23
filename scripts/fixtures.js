@@ -141,6 +141,10 @@ var FIXTURES = [
   {
     name: 'wikipedia-article',
     url: 'https://en.wikipedia.org/wiki/TypeScript'
+  },
+  {
+    name: 'mystery-ranch-backpack',
+    url: 'http://www.mysteryranch.com/asap-pack'
   }
 ]
 

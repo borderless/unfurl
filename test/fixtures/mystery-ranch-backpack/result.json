@@ -1,0 +1,88 @@
+{
+  "type": "html",
+  "contentUrl": "http://www.mysteryranch.com/asap-pack",
+  "contentSize": 19105,
+  "encodingFormat": "html",
+  "meta": {
+    "html": {
+      "title": "ASAP Pack | Mystery Ranch Backpacks",
+      "canonical": "http://www.mysteryranch.com/asap-pack",
+      "description": "The ASAP is a lightweight assault pack with our signature 3-Zip design. It's size and versatility make it a perfect every day carry."
+    },
+    "twitter": {
+      "card": "product",
+      "site": "@theMysteryRanch",
+      "creator": "@theMysteryRanch",
+      "title": "ASAP",
+      "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It's size and versatility make it a perfect every day carry.",
+      "image:src": "http://www.mysteryranch.com/Product Images/ASAP_10-multicam-hero-assault-pack.jpg?resizeid=3&resizeh=600&resizew=600",
+      "domain": "http://www.mysteryranch.com",
+      "data1": "$245.00 USD",
+      "label1": "PRICE",
+      "data2": "InStock",
+      "label2": "AVAILABILITY"
+    },
+    "microdata": [
+      {
+        "@type": "http://schema.org/WebPage"
+      },
+      {
+        "@type": "http://schema.org/Product",
+        "url": "/asap-pack",
+        "image": [
+          "http://www.mysteryranch.com/Product%20Images/ASAP_10-multicam-hero-assault-pack.jpg?resizeid=3&resizeh=600&resizew=600",
+          "http://www.mysteryranch.com/Product%20Images/ASAP_11-coyote-heroassault-pack.jpg?resizeid=3&resizeh=600&resizew=600"
+        ],
+        "name": "ASAP",
+        "aggregateRating": {
+          "@type": "http://schema.org/AggregateRating",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingValue": "5"
+        },
+        "offers": {
+          "@type": "http://schema.org/Offer",
+          "priceCurrency": "USD",
+          "price": "$245.00",
+          "availability": "http://schema.org/InStock"
+        },
+        "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It's size and versatility make it a perfect every day carry.",
+        "review": [
+          {
+            "@type": "http://schema.org/Review",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "bestRating": "5",
+              "worstRating": "1",
+              "ratingValue": "5"
+            },
+            "author": "Echo0311",
+            "description": "I've had this pack for over a year now and decided to share my thoughts. First, MR makes the best shoulder straps around. I originally had the camel bac/MR Linchpin pack. Great piece of gear until the zipper crapped out after 8 months of use. Granted, I use these pack daily and don’t babysit my gear, but that’s no excuse for a zipper giving out. CB has diminished in quality and it shows. The MR shoulder straps are what led me to look at their gear. But enough about that. The ASAP is a great little day use pack. I’ve even taken this on some rucks with added weight (40lbs) for 17 miles and it was comfortable enough. The waist strap isn’t really functional but if you were to rig it to a thicker belt, then you could let it sit on the hips more. Again, this pack really isn’t made for that in the first place. What I like most is the molly attachments, I use this pack to train with most of the time but on the weekends that I'm out in the field, I have everything I need attached on the outside. I’m an avid hunter and this makes accessing different items (LRF, greenlight, knife, etc) much easier then opening up and digging around. My current ASAP is covered in blood and smells like sweat. Best little pack I've ever owned. Semper Fi Murph"
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "bestRating": "5",
+              "worstRating": "1",
+              "ratingValue": "5"
+            },
+            "author": "Anthony",
+            "description": "Wow, first of all I never expected much of the attention from everyone everywhere here in Australia since I worn the pack the very first day. People keep asking me where did I get this from, They commenced on how awesome it looks, they even tried it on their back and they offered me to buy my pack at the end of the conversation. I used to be a big friend of 5.11 Rush series backpack years ago but soon got tired of constantly getting hotspot from my back after wearing them for short period of time, with the tier system, It was a real nightmare and I couldn't understand how the design works to improve carrying heavy payload. I decided its time to change and I am sick of the packs by that status. As a result, I spent about two months endlessly conducting my research and I came up two big well known backpack company, MR or Kifaru, and I off to MR as I am in the military, a lot of my mates used MR pack as they are boom proof, drop prove fro the helicopter during filed exercise etc.......... and Kifaru is very comfortable but they are not authorised to used within the Unit and they are not as durably built as MR. Mr got some considerable weight in their packs but that what also make their packs last forever. They are way too comfortable that I can have them on my back right now while typing this review. I have ASAP and I love it, in fact I got addicted to the MR packs and I got my hands on the 3 DAP already,I will be purchasing my next deployment pack which will be the overload!!!!!!!!!!!!!!! So if you want quality, then it will come with the premium price tag and a little be more weight but a lifetime guarantee on craftsmanship as well as god durability. I have no regret about every dollar spent on MR pack, also not to mentioned their customer experience is second to none, Jordan has been more than just helpful on my purchase but he ensures the best outcome for me instead of trying to take the money and run from you. They are not only serious about their business but the people. Thanks Jordan sincerely once again and you know I will be back for sure."
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "bestRating": "5",
+              "worstRating": "1",
+              "ratingValue": "5"
+            },
+            "author": "655321",
+            "description": "I had been waffling about buying this pack for months. When I finally got it I couldn't have been happier. It is rugged, well built, and even better than I anticipated. I have taken this pack everywhere I go, from traveling, field work, and work work and it works all the way around. It has a surprisingly large capacity and the adjustments allow a perfect fit. I can and have worn this pack for days on end and never got that pack fatigue. If I could wear two I would buy another one."
+          }
+        ]
+      }
+    ]
+  }
+}
