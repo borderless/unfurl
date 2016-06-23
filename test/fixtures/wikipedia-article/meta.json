@@ -1,0 +1,34 @@
+{
+  "url": "https://en.wikipedia.org/wiki/TypeScript",
+  "headers": {
+    "date": "Thu, 23 Jun 2016 03:39:32 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "content-length": "26301",
+    "connection": "close",
+    "server": "mw1263.eqiad.wmnet",
+    "x-powered-by": "HHVM/3.12.1",
+    "vary": "Accept-Encoding,Cookie,Authorization",
+    "x-ua-compatible": "IE=Edge",
+    "content-language": "en",
+    "content-encoding": "gzip",
+    "p3p": "CP=\"This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info.\"",
+    "x-content-type-options": "nosniff",
+    "last-modified": "Sun, 19 Jun 2016 03:12:04 GMT",
+    "backend-timing": "D=68397 t=1466516096304154",
+    "x-varnish": "3266883411, 2185533488 2094674254, 2636960235 2580951401, 3380586383 3048564289",
+    "via": "1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "accept-ranges": "bytes",
+    "age": "137077",
+    "x-cache": "cp1068 miss, cp2016 hit/6, cp4009 hit/2, cp4018 hit/36",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "set-cookie": [
+      "WMF-Last-Access=23-Jun-2016;Path=/;HttpOnly;secure;Expires=Mon, 25 Jul 2016 00:00:00 GMT",
+      "GeoIP=US:CA:Sunnyvale:37.37:-122.04:v4; Path=/; secure; Domain=.wikipedia.org"
+    ],
+    "x-analytics": "page_id=8157205;ns=0;https=1;nocookies=1",
+    "x-client-ip": "73.92.99.2",
+    "cache-control": "private, s-maxage=0, max-age=0, must-revalidate"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

@@ -137,6 +137,10 @@ var FIXTURES = [
   {
     name: 'instagram-photo',
     url: 'https://www.instagram.com/p/BG0m4IDGaqk/'
+  },
+  {
+    name: 'wikipedia-article',
+    url: 'https://en.wikipedia.org/wiki/TypeScript'
   }
 ]
 
