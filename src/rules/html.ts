@@ -24,25 +24,57 @@ interface RdfaValueMap {
 }
 
 /**
- * Keep track of RDFa prefixes.
+ * Keep track of vocabulary prefixes.
  */
-const RDFA_PREFIXES = Object.create(null)
+const VOCAB_PREFIXES = Object.create(null)
 
-// Set up some default prefixes for webpages.
-RDFA_PREFIXES._ = ''
-RDFA_PREFIXES.xsd = 'http://www.w3.org/2001/XMLSchema#'
-RDFA_PREFIXES.og = 'http://ogp.me/ns#'
-RDFA_PREFIXES.fb = 'http://ogp.me/ns/fb#'
-RDFA_PREFIXES.music = 'http://ogp.me/ns/music#'
-RDFA_PREFIXES.video = 'http://ogp.me/ns/video#'
-RDFA_PREFIXES.article = 'http://ogp.me/ns/article#'
-RDFA_PREFIXES.book = 'http://ogp.me/ns/book#'
-RDFA_PREFIXES.profile = 'http://ogp.me/ns/profile#'
-RDFA_PREFIXES.website = 'http://ogp.me/ns/website#'
-RDFA_PREFIXES.cc = 'https://creativecommons.org/ns#'
-RDFA_PREFIXES.foaf = 'http://xmlns.com/foaf/0.1/'
-RDFA_PREFIXES.owl = 'http://www.w3.org/2002/07/owl#'
-RDFA_PREFIXES.rdf = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+// Set up known, common prefixes.
+VOCAB_PREFIXES._ = ''
+// https://www.w3.org/2011/rdfa-context/rdfa-1.1.html
+VOCAB_PREFIXES.csvw = 'http://www.w3.org/ns/csvw#'
+VOCAB_PREFIXES.dcat = 'http://www.w3.org/ns/dcat#'
+VOCAB_PREFIXES.qb = 'http://purl.org/linked-data/cube#'
+VOCAB_PREFIXES.grddl = 'http://www.w3.org/2003/g/data-view#'
+VOCAB_PREFIXES.ma = 'http://www.w3.org/ns/ma-ont#'
+VOCAB_PREFIXES.org = 'http://www.w3.org/ns/org#'
+VOCAB_PREFIXES.owl = 'http://www.w3.org/2002/07/owl#'
+VOCAB_PREFIXES.prov = 'http://www.w3.org/ns/prov#'
+VOCAB_PREFIXES.rdf = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+VOCAB_PREFIXES.rdfa = 'http://www.w3.org/ns/rdfa#'
+VOCAB_PREFIXES.rdfs = 'http://www.w3.org/2000/01/rdf-schema#'
+VOCAB_PREFIXES.rif = 'http://www.w3.org/2007/rif#'
+VOCAB_PREFIXES.rr = 'http://www.w3.org/ns/r2rml#'
+VOCAB_PREFIXES.sd = 'http://www.w3.org/ns/sparql-service-description#'
+VOCAB_PREFIXES.skos = 'http://www.w3.org/2004/02/skos/core#'
+VOCAB_PREFIXES.skosxl = 'http://www.w3.org/2008/05/skos-xl#'
+VOCAB_PREFIXES.wdr = 'http://www.w3.org/2007/05/powder#'
+VOCAB_PREFIXES.void = 'http://rdfs.org/ns/void#'
+VOCAB_PREFIXES.wdrs = 'http://www.w3.org/2007/05/powder-s#'
+VOCAB_PREFIXES.xhv = 'http://www.w3.org/1999/xhtml/vocab#'
+VOCAB_PREFIXES.xml = 'http://www.w3.org/XML/1998/namespace'
+VOCAB_PREFIXES.xsd = 'http://www.w3.org/2001/XMLSchema#'
+VOCAB_PREFIXES.cc = 'https://creativecommons.org/ns#'
+VOCAB_PREFIXES.ctag = 'http://commontag.org/ns#'
+VOCAB_PREFIXES.dc = 'http://purl.org/dc/terms/'
+VOCAB_PREFIXES.dcterms = 'http://purl.org/dc/terms/'
+VOCAB_PREFIXES.dc11 = 'http://purl.org/dc/elements/1.1/'
+VOCAB_PREFIXES.foaf = 'http://xmlns.com/foaf/0.1/'
+VOCAB_PREFIXES.gr = 'http://purl.org/goodrelations/v1#'
+VOCAB_PREFIXES.ical = 'http://www.w3.org/2002/12/cal/icaltzd#'
+VOCAB_PREFIXES.og = 'http://ogp.me/ns#'
+VOCAB_PREFIXES.rev = 'http://purl.org/stuff/rev#'
+VOCAB_PREFIXES.sioc = 'http://rdfs.org/sioc/ns#'
+VOCAB_PREFIXES.v = 'http://rdf.data-vocabulary.org/#'
+VOCAB_PREFIXES.vcard = 'http://www.w3.org/2006/vcard/ns#'
+VOCAB_PREFIXES.schema = 'http://schema.org/'
+// http://ogp.me/
+VOCAB_PREFIXES.fb = 'http://ogp.me/ns/fb#'
+VOCAB_PREFIXES.music = 'http://ogp.me/ns/music#'
+VOCAB_PREFIXES.video = 'http://ogp.me/ns/video#'
+VOCAB_PREFIXES.article = 'http://ogp.me/ns/article#'
+VOCAB_PREFIXES.book = 'http://ogp.me/ns/book#'
+VOCAB_PREFIXES.profile = 'http://ogp.me/ns/profile#'
+VOCAB_PREFIXES.website = 'http://ogp.me/ns/website#'
 
 /**
  * Grab the correct attribute for RDFa support.
@@ -96,7 +128,7 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
   return new Promise<Result>((resolve, reject) => {
     const rdfaVocabs: string[] = []
     const rdfaResources: string[] = ['']
-    const rdfaPrefixes: any[] = [RDFA_PREFIXES]
+    const rdfaPrefixes: any[] = [VOCAB_PREFIXES]
     const contexts: Context[] = [{ tagName: '', text: '' }]
 
     const options: ParserOptions = {
