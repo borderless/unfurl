@@ -327,7 +327,6 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
             normalizeRdfProperty('rdf:type', last(rdfaVocabs), last(rdfaPrefixes)),
             normalizeRdfProperty(typeofAttr, last(rdfaVocabs), last(rdfaPrefixes))
           )
-          return
         }
 
         // Handle meta properties (E.g. HTML, Twitter cards, etc).
@@ -335,44 +334,30 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
           const nameAttr = normalize((attributes as any).name)
           const contentAttr = normalize((attributes as any).content)
 
+          // Catch some bad implementations of Twitter metadata.
           if (propertyAttr && contentAttr) {
             if (/^twitter:/.test(propertyAttr)) {
               twitter[propertyAttr.substr(8)] = contentAttr
-              return
-            }
-
-            if (/^al:/.test(propertyAttr)) {
+            } else if (/^al:/.test(propertyAttr)) {
               applinks[propertyAttr.substr(3)] = contentAttr
-              return
             }
           }
 
+          // It's possible someone will do `<meta name="" property="" content="" />`.
           if (nameAttr && contentAttr) {
+            /**
+             * - Twitter
+             * - Dublin Core
+             * - Sailthru
+             * - HTML
+             */
             if (/^twitter:/.test(nameAttr)) {
               twitter[nameAttr.substr(8)] = contentAttr
-              return
-            }
-
-            /**
-             * Dublin Core metadata.
-             */
-            if (/^dc\./i.test(nameAttr)) {
+            } else if (/^dc\./i.test(nameAttr)) {
               dc[nameAttr.substr(3).toLowerCase()] = contentAttr
-              return
-            }
-
-            /**
-             * Sailthru.
-             */
-            if (/^sailthru\./.test(nameAttr)) {
+            } else if (/^sailthru\./.test(nameAttr)) {
               sailthru[nameAttr.substr(9)] = contentAttr
-              return
-            }
-
-            /**
-             * Raw HTML meta tags.
-             */
-            if (
+            } else if (
               nameAttr === 'date' ||
               nameAttr === 'keywords' ||
               nameAttr === 'author' ||
@@ -380,7 +365,6 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
               nameAttr === 'language'
             ) {
               html[nameAttr] = contentAttr
-              return
             }
           }
         }
@@ -394,7 +378,6 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
           if (rel && href) {
             if (rel === 'canonical') {
               html.canonical = href
-              return
             }
 
             if (rel === 'alternate') {
@@ -403,8 +386,6 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
               } else if (type === 'text/xml+oembed') {
                 oembedXml = href
               }
-
-              return
             }
           }
         }
@@ -413,7 +394,6 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
         if (tagName === 'script') {
           if ((attributes as any).type === 'application/ld+json') {
             context.isJsonLd = true
-            return
           }
         }
 
