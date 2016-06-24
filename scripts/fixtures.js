@@ -145,6 +145,10 @@ var FIXTURES = [
   {
     name: 'mystery-ranch-backpack',
     url: 'http://www.mysteryranch.com/asap-pack'
+  },
+  {
+    name: 'adactio-blog-post',
+    url: 'https://adactio.com/journal/9881'
   }
 ]
 
