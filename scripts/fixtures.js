@@ -149,6 +149,10 @@ var FIXTURES = [
   {
     name: 'adactio-blog-post',
     url: 'https://adactio.com/journal/9881'
+  },
+  {
+    name: 'linked-in-profile',
+    url: 'https://www.linkedin.com/in/blakeembrey'
   }
 ]
 

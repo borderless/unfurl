@@ -1,0 +1,18 @@
+{
+  "type": "html",
+  "contentUrl": "https://www.linkedin.com/in/blakeembrey",
+  "contentSize": 11436,
+  "encodingFormat": "html",
+  "meta": {
+    "html": {
+      "title": "Blake Embrey | LinkedIn",
+      "canonical": "https://oo.linkedin.com/in/blakeembrey",
+      "description": "View Blake Embrey’s professional profile on LinkedIn. LinkedIn is the world's largest business network, helping professionals like Blake Embrey discover inside connections to recommended job candidates, industry experts, and business partners."
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#image": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/3/005/048/029/267f5c8.jpg"
+      }
+    }
+  }
+}
