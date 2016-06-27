@@ -153,6 +153,18 @@ var FIXTURES = [
   {
     name: 'linked-in-profile',
     url: 'https://www.linkedin.com/in/blakeembrey'
+  },
+  {
+    name: 'google-maps-location',
+    url: 'https://www.google.com/maps/place/Boba+Guys/@37.7600441,-122.4233333,17z/data=!4m5!3m4!1s0x808f7e3cfdb89265:0x8ae0820c41111f70!8m2!3d37.7600017!4d-122.4211124'
+  },
+  {
+    name: 'foursquare-location',
+    url: 'https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324'
+  },
+  {
+    name: 'yelp-location',
+    url: 'http://www.yelp.com/biz/boba-guys-san-francisco-4'
   }
 ]
 

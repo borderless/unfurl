@@ -1,0 +1,63 @@
+{
+  "type": "summary",
+  "subtype": "image",
+  "image": [
+    {
+      "url": "https://irs2.4sqi.net/img/general/600x600/24228814_aJsekEzXAFZlUtgcPkh7WqDOJcrCjOEYskHQ7EnOZQo.jpg"
+    },
+    {
+      "url": "https://irs3.4sqi.net/img/general/600x600/238171_Pt_kLpeKQSGmKiU2oEPOBRClk2kgyB33cYKnb-d_3ok.jpg"
+    },
+    {
+      "url": "https://irs1.4sqi.net/img/general/600x600/57576_AzT1zl9SvqafcyFizZMb4up9emlaOMK5obd306IswPY.jpg"
+    },
+    {
+      "url": "https://irs2.4sqi.net/img/general/600x600/25065281_DGAEQ1LzEdZG_1hSut7DYKzmtnynhkx4G4MJGEpzW8c.jpg"
+    }
+  ],
+  "contentUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
+  "originalUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
+  "encodingFormat": "html",
+  "headline": "Boba Guys",
+  "caption": "Bubble Tea Shop in San Francisco, CA",
+  "siteName": "Foursquare",
+  "tags": [
+    "Boba Guys",
+    "3491 19th St",
+    "San Francisco",
+    "CA",
+    "boba guys",
+    "boba guys milk tea & snack bar",
+    "boba guys - milk tea & snack bar",
+    "boba guys - milk tea and snack bar",
+    "bubble tea",
+    "Bubble Tea",
+    "Dessert"
+  ],
+  "twitter": {
+    "siteHandle": "foursquare",
+    "creatorHandle": "foursquare"
+  },
+  "apps": {
+    "iphone": {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324"
+    },
+    "ipad": {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324"
+    },
+    "android": {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324"
+    },
+    "windowsPhone": {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324"
+    }
+  }
+}

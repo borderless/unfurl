@@ -1,0 +1,271 @@
+{
+  "type": "html",
+  "contentUrl": "http://www.yelp.com/biz/boba-guys-san-francisco-4",
+  "encodingFormat": "html",
+  "meta": {
+    "html": {
+      "description": "830 reviews of Boba Guys \"As a young professional, caffeine is what gets me through the day, but coffee is too strong and eventually makes me crash. So, my favorite afternoon pick-me-up is tea from Boba Guys. I'm already obsessed with the Lychee…",
+      "keywords": "Yelp,recommendation,San Francisco, bay area, local,business,review,friend,restaurant,dentist,doctor,salon,spa,shopping,store,share,community,massage,sushi,pizza,nails,New York,Los Angeles",
+      "title": "Boba Guys - 911 Photos & 830 Reviews - Coffee & Tea - Mission - San Francisco, CA - Phone Number - Menu - Yelp"
+    },
+    "twitter": {
+      "card": "summary",
+      "site": "@yelp",
+      "domain": "yelp.com",
+      "app:name:iphone": "Yelp",
+      "app:name:ipad": "Yelp",
+      "app:name:googleplay": "Yelp",
+      "app:id:iphone": "id284910350",
+      "app:id:ipad": "id284910350",
+      "app:id:googleplay": "com.yelp.android",
+      "app:url:iphone": "yelp:///biz/18TtLS_JtiS2OH30FLqNrw?utm_campaign=default&utm_source=twitter-card",
+      "app:url:ipad": "yelp:///biz/18TtLS_JtiS2OH30FLqNrw?utm_campaign=default&utm_source=twitter-card",
+      "app:url:googleplay": "intent://yelp.com/biz/18TtLS_JtiS2OH30FLqNrw?utm_source=twitter-card#Intent;scheme=http;package=com.yelp.android;end;"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#description": "Specialties: High-quality bubble milk teas made with next-level quality ingredients like organic milk, homemade syrup, and homemade almond jelly. Home of the original Horchata Boba and Tea Frescas. Established in 2011. We started Boba Guys…",
+        "http://ogp.me/ns#image": "https://s3-media4.fl.yelpcdn.com/bphoto/4pdDcd0Fh6qbNEYlRt9vJg/o.jpg",
+        "http://ogp.me/ns#image:height": "2000",
+        "http://ogp.me/ns#image:width": "1500",
+        "http://ogp.me/ns#site_name": "Yelp",
+        "http://ogp.me/ns#title": "Boba Guys - Mission - San Francisco, CA",
+        "http://ogp.me/ns#type": "yelpyelp:business",
+        "http://ogp.me/ns#url": "http://www.yelp.com/biz/boba-guys-san-francisco-4"
+      }
+    },
+    "applinks": {
+      "ios:app_name": "Yelp",
+      "ios:app_store_id": "284910350",
+      "ios:url": "http://www.yelp.com/biz/boba-guys-san-francisco-4?utm_campaign=biz_details&utm_medium=organic&utm_source=apple"
+    },
+    "microdata": [
+      {
+        "@type": "http://schema.org/WebSite"
+      },
+      {
+        "@type": "http://schema.org/LocalBusiness",
+        "name": "Boba Guys",
+        "aggregateRating": {
+          "@type": "http://schema.org/AggregateRating",
+          "ratingValue": "4.0",
+          "reviewCount": "830"
+        },
+        "priceRange": "$",
+        "address": {
+          "@type": "http://schema.org/PostalAddress",
+          "streetAddress": "3491 19th St",
+          "addressLocality": "San Francisco",
+          "addressRegion": "CA",
+          "postalCode": "94110",
+          "addressCountry": "US",
+          "address": ","
+        },
+        "telephone": "(415) 967-2622",
+        "image": "https://s3-media3.fl.yelpcdn.com/bphoto/uxVMWqD5LlfhnAX6BTDHbw/ls.jpg",
+        "review": [
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Joanna S.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "5.0"
+            },
+            "datePublished": "2016-06-25",
+            "description": "As a young professional, caffeine is what gets me through the day, but coffee is too strong and eventually makes me crash. So, my favorite afternoon pick-me-up is tea from Boba Guys. I'm already obsessed with the Lychee Rose, which I'll have with or without soy milk and with little to no sugar. Of course, Boba Guys have great staples like standard milk tea, Hong Kong style milk tea, and matcha green tea. Tea has countless health benefits, and tastes great. One important note is that I love unsweetened bitter tea. It is super refreshing. If you've never had a milk tea, give it a try. It you are a regular, Boba Guys will give you high quality drinks at a reasonable price!"
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Samantha P.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "4.0"
+            },
+            "datePublished": "2016-06-21",
+            "description": "First off, I'm not a huge milk tea fan. I LOVE BOBA and I love tea, but I don't usually drink it with milk. Boba Guys will be my only exception. You can adjust sweetness level, ice level, and most importantly you can choose what kind of milk you want. You can choose between fresh milk, soy milk, and almond milk. Having soy milk and almond milk definitely helps take away my milk anxieties.As for toppings, they have boba, almond jelly and grass jelly I believe. I only tried the boba. It was super good, tasted like little gummies and super fresh. However, I did notice that they did harden a bit faster than other bobas, but if you drink your drink fast it shouldn't be a problem. Also they have strawberry matcha, as all you Yelpers can see, this item is not shown on the menu.. I wonder if there are any more \"secret\" items? :P"
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Hali M.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "4.0"
+            },
+            "datePublished": "2016-06-20",
+            "description": "Boba is good but line is long! I waited for 20-30 min on a Sunday afternoon. Prices are also comparatively higher, but you can tell that the boba and tea ingredients are quality, so perhaps the prices are justified. I got a 16oz Golden Black Tea with almond jelly, 25% sweet. I personally like my milk tea to have a stronger tea flavor, and Boba Guys lived up to expectations with a fragrant, fresh flavor that was not overwhelmed by the milk. The almond jelly had a nice, subtle sweetness, but the texture was a little harder than I expected. It was a lightly sweet and refreshing drink for a warm, sunny day in the park. Overall my drink ended much quicker than I would have liked; should've paid the extra $1 and sized up!"
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Wendy F.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "3.0"
+            },
+            "datePublished": "2016-06-07",
+            "description": "SO SWEET. Please have more less-sweet decaf drink options!!! This was my first time drinking boba in more than a year and I was a little disappointed.I got the DECAF BLACK (50% sugar) because I wanted something decaffeinated (my body doesn't tolerate caffeine well). At first I was going to pick the HORCHATA, which is the most popular decaf drink on the menu, but I could NOT adjust the sugar level on that one so I went with the decaf black tea, which the girl at the store \"recommended\". Not sure if she really knows the drinks all that well yet. The decaf black was VERY SWEET at 50%. It did not taste anything like a decaf black tea, but more like jasmine tea...I could not tell what was special about this drink or this boba place from drinking this tea. I think this is why there is only one picture of that drink on Yelp right now (which is mine lol).But then I tried my friend's rose tea and iced matcha latte and both were so much better than the stupid decaf black. I feel like I was rigged. The rose tea had a very aromatic, flora scent, while the ice matcha was just beautiful to look at. Anyways, if I liked boba more I would have loved this place. Just sucks that I don't drink caffeinated that often."
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Stella J.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "5.0"
+            },
+            "datePublished": "2016-06-23",
+            "description": "Strawberry matcha latte, that's all you need to get! Absolutely the best drink, perfect combination of sweetness from the strawberry purée and enough matcha flavor where it's not watered down! Oh yeah, add the boba, it's also fresh and delicious! The line also moves surprisingly quick!"
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Grace H.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "5.0"
+            },
+            "datePublished": "2016-05-24",
+            "description": "Although I'm someone who avoids carb-y fillers like boba, I couldn't stay away from the boba at Boba Guys. I was told that their drinks were delicious, and that their boba was soft and chewy. These balls were supple, and released honey-like flavor while being mashed by your teeth. The concoctions are refreshing, with a little adventurous kick (Iced Strawberry Matcha Latte to Horchata to Lavender Black Milk tea etc). Way to incorporate various cultural flavors to create one perfect cup."
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Alexander Y.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "4.0"
+            },
+            "datePublished": "2016-05-31",
+            "description": "Having been to the Union Square location, my friends and I happened to be close enough in the area to the Mission location to make a trek there. Had the Golden Honey Black Milk Tea with boba. My thoughts on the product here match what I said in my other review; the tapioca balls are definitely top notch and that you can tell that the good ingredients are in play. Downside of course is that the boba here is significantly more expensive than your regular boba shop and the line is usually out the freakin door.Boba Guys is good, but it's definitely not good enough to make me make a trek out of my way to come here."
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Mymy N.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "5.0"
+            },
+            "datePublished": "2016-06-11",
+            "description": "I cannot get over the strawberry matcha drink from here. It's the tri-colored drink with a bottom layer of house made strawberry syrup, milk, and matcha green tea. All blended together it was a perfect green milk tea with a hint of strawberry. The sweetness cannot be adjusted on this drink because the syrup provides the sugar but it was not overly sweet at all. Boba was perfectly chewy. I'm dying to go back!"
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Julie F.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "5.0"
+            },
+            "datePublished": "2016-06-26",
+            "description": "Best boba that I've had so far. You know they use quality tea and I love that you can adjust your sweetness. I got 50% sweetness of the original milk tea and it was perfect for me. I came here with 5 friends and was the only one who wanted boba, after they tasted mine they all ended up getting their own boba. definitely worth going to if you're in the area !"
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Megan D.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "3.0"
+            },
+            "datePublished": "2016-06-08",
+            "description": "I've come to this location and the one in Chinatown a few times and I gotta say, it's not really worth the hype for me. I'd give it 3.5 stars if I could.Is Boba Guys delicious? Yes. Are their drinks of higher quality? Yes. Is the actual business pleasant to be in? Sure, as far as a grab-n-go concept like boba are concerned. The branding is pretty cute, with that cheeky little aardvark just doin' his thang in the center of the logo. So why the 3 stars?Something about Boba Guys just doesn't do it for me. I feel like part of my issue is that my drink is gone in three sips...maybe instead of the 16oz size I should be ordering the 20oz? But I also feel like a lot of a 16oz from Boba Guys is mostly ice...Had the Muscat oolong tea with light sweetness, almond milk, and boba today. I liked the flavor of the oolong with the almond milk and the boba had great chewiness and a slight sweetness, which is a great combo. Recently, I had my first oolong milk tea at Little Sweet in the Richmond and while it was a completely different variety than the one served at BG, it set the bar pretty high. This drink, as well as all the other drinks I've gotten from here, are good. But they're a little steep in price for what you end up with, which is delicious, and gone instantly. You want to be able to justify spending $5 on tasty boba but when the experience is so short-lived, and there are sooo many other boba places to try, I feel like it's okay to try this place at least once, just to check it off the list.I will be back, at some point, but eagerly await exploring the other boba options in the bay."
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Nicole W.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "4.0"
+            },
+            "datePublished": "2016-04-10",
+            "description": "Boba Guys ROCKS. Love the aardvark, love the interior, LOVE the Jasmine Milk Tea (at 75% sweetness)! The lines can be heinous but boy is it worth it. The staff is cute and friendly, but the boba is cuter and friendlier. I went with the Jasmine Milk Tea with regular tapioca (bomb) and my boyfriend got the Horchata Milk Tea with regular tapioca which was equally dank. You can really taste the quality with that Strauss milk...This place is awesome!"
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Tiffany O.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "4.0"
+            },
+            "datePublished": "2016-06-09",
+            "description": "Oh man...I wish they would open one of these in SoCal! I'm so glad I made the drive out here despite the traffic and parking because I love some good boba.I got the muscat oolong milk tea with almond jelly (75% sweet). It was a really amazing combination :) And quite different- I've never had muscat (grapes) in milk tea before. They also make their almond jelly and grass jelly in house which makes it extra amazing. I also tried their jasmine milk tea with boba that was pretty yummy. The boba is perfectly soft and chewy. I appreciate that they use high quality teas and milks (organic). The only reason I had to knock it down a star is because I didn't like the regular (black) milk tea very much. It tasted bland and watery to me. But overall, a great boba place. I want to try the whole menu 0_o"
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Derek C.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "5.0"
+            },
+            "datePublished": "2016-04-06",
+            "description": "I've been drooling over pictures that I had seen of Boba Guys milk tea before I had even tried it. Being from Seattle I dreamt of trying it and now that I live in the Bay those dreams came true. This place did not disappoint. The way they make their milk tea is an art. I got a classic milk tea and it was the best milk tea I've had. Not too sweet and also great tea flavor.If you haven't tried this place yet and you're dreaming about it like I was...don't worry...your dream will come true some day too. And it will totally live up to the hype."
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Yinja L.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "5.0"
+            },
+            "datePublished": "2016-05-18",
+            "description": "My new favorite boba spot. I honestly don't know why it took me so long to finally try it out but it's AMAZING. The Matcha Latte is on point, sorry to all my other matcha latte's perhaps I'll take you back another day. I love how they use local and more natural ingredients. Some of their toppings are made in house which is so cool to me. I haven't been to another place that does something like that. Im very picky about the way I like my tea and the Hong Kong style tea was on point. It def had the authentic tea tones and flavor I always look for. The boba is definitely Grade A all the way, just like their service! The person that helped us was super friendly. I will be coming back real soon to get more Grade A boba!!"
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Criselle O.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "3.0"
+            },
+            "datePublished": "2016-06-05",
+            "description": "Tried the lychee green tea, horchata, & classic flavor and all was ok. Yes, just ok (I've had better TBH)"
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Christine H.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "5.0"
+            },
+            "datePublished": "2016-05-02",
+            "description": "Binky and I have heard so many good things about Boba Guys for WAY too long! Finally, this past weekend, Binky and I decided to grab some tacos and boba in the Mission. When we got to the location (very, very small), we were taken aback by how LONG the line was. Binky was a little hesitant to wait ~25 min for boba (we parked in 2 hour parking....). However, the boba fanatic in me persevered and I was able to whine about this \"once in a lifetime\" chance until Binky relented. Boba Guys has SUCH interesting flavors. Binky ordered a HK style MT with boba and I ordered the Indian Chai with boba. WOW, both drinks were SUCH a treat. The tea was wonderfully strong (and very high quality...) and the cream was fresh, thick and delicious -- EVERYTHING we could have ever asked in a boba drink and MORE. The boba in my drink was a tinnnnnnnnnny bit inconsistent (some tapioca balls were harder than others...) but the drink was so delicious (overall) that I hardly cared (big deal for me since I LOVE boba and could eat it on its own.....). Binky and I normally prefer to go to more traditional boba locations. We have tried similar locations (probably Boba Guys knock-offs) in San Jose but have never been too impressed. Boba Guys has changed the game for us -- can't wait to be back!"
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Michelle T.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "5.0"
+            },
+            "datePublished": "2016-05-11",
+            "description": "One of the best boba spots out there! They use Strauss milk in their milk teas and they do not use powder. I got the iced matcha latte in the 24oz cup which was $4.95! It's steep compared to other boba places but trust me, it's worth it! I came in at around 3pm on a weekday and it wasn't too busy. Total wait time was probably 3minutes. I recommend to everyone to get 50% sweetness for any drink because 100% is compared to soda (according to the workers)."
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Kimberly H.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "4.0"
+            },
+            "datePublished": "2016-01-22",
+            "description": "Definitely one of the better boba drink places around. I've tried the strawberry fresca jasmine tea, classic milk tea, jasmine milk tea, and lychee green tea. All were good except for the lychee green tea... there was no lychee flavor and tasted a little weird... Definitely try their milk tea drinks instead. You can adjust the sweetness level as well. Their most popular drinks are the classic milk tea and jasmine milk tea. This place won't disappoint. I also love their homemade almond jelly topping! Add this to your drink! (+50c)"
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Cara R.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "3.0"
+            },
+            "datePublished": "2016-06-18",
+            "description": "So disappointed ... The line keeps growing and the quality keeps going down. One of the things I loved about Boba Guys in the beginning was that they were so concerned with maintaining the quality of their drinks. You pay extra for the freshly made teas which were made in front of you before, but now they either do not steep them long enough or they are pre-made to keep the line moving. Either way, after you wait in such a long line, you expect quality that they just aren't giving anymore. The drinks aren't as good and it's definitely not worth the cost. The only good part is the tapioca balls (they are still awesome). I was a customer since they opened and I'm just sad that it seems growth is compromising their quality."
+          },
+          {
+            "@type": "http://schema.org/Review",
+            "author": "Julia L.",
+            "reviewRating": {
+              "@type": "http://schema.org/Rating",
+              "ratingValue": "4.0"
+            },
+            "datePublished": "2016-06-26",
+            "description": "Would be 5 stars if not for crazy lines! Hojicha milk tea (a relative rarity), half sweet, less ice, with tapioca hit the spot after walking SF Pride. The roasted tea flavor shone through, the Boba was toothsome and made just right, but the line was ~30 min before I had the chance to order! Once your order is in it goes pretty fast, though. Excited to come back and try other teas, just not during peak hours!"
+          }
+        ]
+      }
+    ]
+  }
+}
