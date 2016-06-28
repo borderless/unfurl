@@ -395,7 +395,7 @@ function getMetaImage (meta: ResultMeta, baseUrl: string): SnippetImage | Snippe
   const twitterImages = getArray(meta, ['twitter', 'image']) || getArray(meta, ['twitter', 'image0'])
   const images: SnippetImage[] = []
 
-  function addImage (newImage: SnippetImage) {
+  function addImage (newImage: SnippetImage, append: boolean) {
     for (const image of images) {
       if (image.url === newImage.url) {
         setProps(image, newImage)
@@ -403,7 +403,9 @@ function getMetaImage (meta: ResultMeta, baseUrl: string): SnippetImage | Snippe
       }
     }
 
-    images.push(newImage)
+    if (append) {
+      images.push(newImage)
+    }
   }
 
   function addImages (
@@ -412,17 +414,21 @@ function getMetaImage (meta: ResultMeta, baseUrl: string): SnippetImage | Snippe
     types: string[],
     alts: string[],
     widths: string[],
-    heights: string[]
+    heights: string[],
+    append: boolean
   ) {
     for (let i = 0; i < urls.length; i++) {
-      addImage({
-        url: urls[i],
-        secureUrl: secureUrls ? secureUrls[i] : undefined,
-        type: types ? types[i] : undefined,
-        alt: alts ? alts[i] : undefined,
-        width: widths ? toNumber(widths[i]) : undefined,
-        height: heights ? toNumber(heights[i]) : undefined
-      })
+      addImage(
+        {
+          url: urls[i],
+          secureUrl: secureUrls ? secureUrls[i] : undefined,
+          type: types ? types[i] : undefined,
+          alt: alts ? alts[i] : undefined,
+          width: widths ? toNumber(widths[i]) : undefined,
+          height: heights ? toNumber(heights[i]) : undefined
+        },
+        append
+      )
     }
   }
 
@@ -432,7 +438,7 @@ function getMetaImage (meta: ResultMeta, baseUrl: string): SnippetImage | Snippe
     const ogpHeights = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:height'])
     const ogpSecureUrls = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:secure_url'])
 
-    addImages(ogpImages, ogpSecureUrls, ogpTypes, null, ogpWidths, ogpHeights)
+    addImages(ogpImages, ogpSecureUrls, ogpTypes, null, ogpWidths, ogpHeights, true)
   }
 
   if (twitterImages) {
@@ -440,7 +446,7 @@ function getMetaImage (meta: ResultMeta, baseUrl: string): SnippetImage | Snippe
     const twitterWidths = getArray(meta, ['twitter', 'image:width'])
     const twitterHeights = getArray(meta, ['twitter', 'image:height'])
 
-    addImages(twitterImages, null, null, twitterAlts, twitterWidths, twitterHeights)
+    addImages(twitterImages, null, null, twitterAlts, twitterWidths, twitterHeights, !ogpImages)
   }
 
   return images.length > 1 ? images : images[0]
