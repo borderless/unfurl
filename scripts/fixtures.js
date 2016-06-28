@@ -165,6 +165,10 @@ var FIXTURES = [
   {
     name: 'yelp-location',
     url: 'http://www.yelp.com/biz/boba-guys-san-francisco-4'
+  },
+  {
+    name: 'google-structured-data-docs',
+    url: 'https://developers.google.com/search/docs/guides/intro-structured-data'
   }
 ]
 
