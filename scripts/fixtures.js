@@ -47,6 +47,10 @@ var FIXTURES = [
     url: 'https://twitter.com/typescriptlang/status/743113612407889920'
   },
   {
+    name: 'twitter-rich-tweet',
+    url: 'https://twitter.com/ericclemmons/status/749223563790471169'
+  },
+  {
     name: 'imgur-image',
     url: 'https://i.imgur.com/mvUPRyV.png'
   },

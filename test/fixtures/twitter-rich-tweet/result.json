@@ -1,0 +1,23 @@
+{
+  "type": "html",
+  "contentUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
+  "contentSize": 30279,
+  "encodingFormat": "html",
+  "dateModified": "2016-07-02T20:51:52.000Z",
+  "meta": {
+    "html": {
+      "title": "Eric Clemmons on Twitter: \"🔥 Clean up @github issues with the HTML5 <details> tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx\"",
+      "canonical": "https://twitter.com/ericclemmons/status/749223563790471169"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#type": "article",
+        "http://ogp.me/ns#url": "https://twitter.com/ericclemmons/status/749223563790471169",
+        "http://ogp.me/ns#title": "Eric Clemmons on Twitter",
+        "http://ogp.me/ns#image": "https://pbs.twimg.com/profile_images/617160371216842752/TQ_Bfpkz_400x400.png",
+        "http://ogp.me/ns#description": "“🔥 Clean up @github issues with the HTML5 &lt;details&gt; tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx”",
+        "http://ogp.me/ns#site_name": "Twitter"
+      }
+    }
+  }
+}
