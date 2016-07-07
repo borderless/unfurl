@@ -23,7 +23,7 @@ export function handle (
     originalUrl,
     contentUrl,
     contentSize: headers['content-length'] ? Number(headers['content-length']) : undefined,
-    encodingFormat: String(headers['content-type']).substr(6),
+    encodingFormat: parse(headers['content-type']).type,
     dateModified: headers['last-modified'] ? new Date(headers['last-modified'] as string) : undefined
   }
 }
