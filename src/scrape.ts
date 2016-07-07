@@ -25,8 +25,13 @@ export function scrapeUrl (url: string, options?: Options): Promise<Result> {
 
   return req
     .use(status(200))
-    .then(response => {
-      return scrapeStream(url, response.headers, response.body, () => req.abort(), options)
+    .then(res => {
+      function abort () {
+        res.body.on('error', () => {/* Noop abort. */})
+        req.abort()
+      }
+
+      return scrapeStream(url, res.headers, res.body, abort, options)
     })
 }
 
