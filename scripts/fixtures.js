@@ -107,7 +107,7 @@ var FIXTURES = [
     url: 'https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/'
   },
   {
-    name: 'new-com-au-article',
+    name: 'news-com-au-article',
     url: 'http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123'
   },
   {
@@ -195,7 +195,8 @@ Promise.all(FIXTURES.map(function (fixture) {
             console.log('Writing "' + fixture.name + '"...')
 
             const meta = {
-              url: fixture.url,
+              originalUrl: fixture.url,
+              contentUrl: res.url,
               headers: res.headers,
               status: res.status,
               statusText: res.statusText

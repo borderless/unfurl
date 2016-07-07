@@ -1,14 +1,15 @@
 {
-  "url": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt",
+  "originalUrl": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt",
+  "contentUrl": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt",
   "headers": {
-    "date": "Tue, 21 Jun 2016 03:16:53 GMT",
+    "date": "Thu, 07 Jul 2016 19:33:14 GMT",
     "content-type": "text/html; charset=utf-8",
     "transfer-encoding": "chunked",
     "connection": "close",
     "set-cookie": [
-      "__cfduid=dc45fd825bffbd9e8acfe2bc5551905a01466479013; expires=Wed, 21-Jun-17 03:16:53 GMT; path=/; domain=.medium.com; HttpOnly",
-      "uid=lo_4d82dc2324a6; path=/; expires=Wed, 21 Jun 2017 03:16:53 GMT; domain=.medium.com; secure; httponly",
-      "sid=1:+GVKsq6LYdY/IX67zqCte1qE8ulVqXU8Tz8aMzzd2auyN15rr/ZjgxIiZGOA7esw; path=/; expires=Wed, 21 Jun 2017 03:16:53 GMT; domain=.medium.com; secure; httponly"
+      "__cfduid=dec09d3df02b24ddf0929bfcdc8ba1a961467919993; expires=Fri, 07-Jul-17 19:33:13 GMT; path=/; domain=.medium.com; HttpOnly",
+      "uid=lo_cf2c8b063f5d; path=/; expires=Fri, 07 Jul 2017 19:33:14 GMT; domain=.medium.com; secure; httponly",
+      "sid=1:2Qz0F+zlLJGsLy6pTL8Rsh1nOhn2NpISjYvJ4b/CEsXLs7AgdJGOb9Wj87FCCWBx; path=/; expires=Fri, 07 Jul 2017 19:33:14 GMT; domain=.medium.com; secure; httponly"
     ],
     "content-security-policy": "default-src 'self'; connect-src https://localhost https://*.instapaper.com https://*.stripe.com https://getpocket.com https://medium.com:443 https://*.medium.com:443 https://*.medium.com https://medium.com https://*.medium.com https://*.algolia.net https://cdn-static-1.medium.com https://dnqgz544uhbo8.cloudfront.net 'self'; font-src data: https://*.amazonaws.com https://*.medium.com https://*.gstatic.com https://dnqgz544uhbo8.cloudfront.net https://use.typekit.net https://cdn-static-1.medium.com 'self'; frame-src chromenull: https: webviewprogressproxy: medium: 'self'; img-src blob: data: https: 'self'; media-src https://*.cdn.vine.co https://d1fcbxp97j4nb2.cloudfront.net https://d262ilb51hltx0.cloudfront.net https://medium2.global.ssl.fastly.net https://*.medium.com https://gomiro.medium.com https://miro.medium.com https://pbs.twimg.com 'self'; object-src 'self'; script-src 'unsafe-eval' 'unsafe-inline' about: https: 'self'; style-src 'unsafe-inline' data: https: 'self'; report-uri https://csp.medium.com",
     "x-frame-options": "sameorigin",
@@ -16,8 +17,8 @@
     "x-xss-protection": "1; mode=block",
     "x-ua-compatible": "IE=edge, Chrome=1",
     "x-powered-by": "Kale",
-    "x-obvious-tid": "1466479013377:ff7b1c1ffb66",
-    "x-obvious-info": "22376-3173682,77c1ca5",
+    "x-obvious-tid": "1467919994320:e4124bf5420b",
+    "x-obvious-info": "22731-22406a0,eddb64f",
     "link": "<https://medium.com/humans.txt>; rel=\"humans\"",
     "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
     "expires": "Thu, 09 Sep 1999 09:09:09 GMT",
@@ -25,7 +26,7 @@
     "tk": "T",
     "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
     "server": "cloudflare-nginx",
-    "cf-ray": "2b644de7acce11a7-SJC",
+    "cf-ray": "2bedba1a0c5f1ea1-SJC",
     "content-encoding": "gzip"
   },
   "status": 200,

@@ -1,18 +1,19 @@
 {
-  "url": "https://www.rottentomatoes.com/m/inception/",
+  "originalUrl": "https://www.rottentomatoes.com/m/inception/",
+  "contentUrl": "https://www.rottentomatoes.com/m/inception/",
   "headers": {
     "content-type": "text/html;charset=UTF-8",
     "transfer-encoding": "chunked",
     "connection": "close",
     "cache-control": "max-age=900, public",
     "content-language": "en-US",
-    "date": "Tue, 21 Jun 2016 03:16:53 GMT",
+    "date": "Thu, 07 Jul 2016 19:33:13 GMT",
     "server": "Apache-Coyote/1.1",
     "content-encoding": "gzip",
     "vary": "Accept-Encoding",
     "x-cache": "Miss from cloudfront",
-    "via": "1.1 e76ebf90f4498e87542fa9fde4ca109f.cloudfront.net (CloudFront)",
-    "x-amz-cf-id": "ndkx0iZcRGaTiVuBAtu6wUDV0pwXD5qxtDkgpke5IQqn6E02YFM6tA=="
+    "via": "1.1 0cf1d7257c633ae75623c5e75bf3805e.cloudfront.net (CloudFront)",
+    "x-amz-cf-id": "s2iDthA2XRnyGjtR90Raj1CutIpL1gEwBmMBBiwxIIDMkY5ZrrNHpg=="
   },
   "status": 200,
   "statusText": "OK"

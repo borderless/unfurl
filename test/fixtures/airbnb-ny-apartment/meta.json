@@ -1,29 +1,33 @@
 {
-  "url": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
+  "originalUrl": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
+  "contentUrl": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
   "headers": {
     "server": "nginx/1.7.12",
     "content-type": "text/html; charset=utf-8",
     "vary": "Accept-Encoding",
     "status": "200 OK",
-    "content-security-policy": "default-src 'self' https:; connect-src 'self' https: ws://localhost.airbnb.com:8888 *.mapbox.com *.inspectlet.com wss://ws.inspectlet.com http:; font-src 'self' https:; frame-src * *.google.com; img-src 'self' https: *.mapbox.com *.inspectlet.com *.gstatic.com http: data:; media-src 'self' https: blob:; object-src 'self' https:; script-src 'sha256-8Kp4YIWqA8yhCJaTWnmB7Wv7OjnXnX661ygwccVuDRw=' 'self' https: 'unsafe-eval' 'unsafe-inline' *.mapbox.com *.inspectlet.com *.google.com *.gstatic.com http:; style-src 'self' https: 'unsafe-inline' *.mapbox.com http:; report-uri /tracking/csp?action=show&controller=rooms&req_uuid=d3965758-0ff4-46a3-bd6f-b931e76452df&version=43a438ba626ed8c91fe74f927c5c06c5239fc932;",
+    "content-security-policy": "default-src 'self' https:; connect-src 'self' https: ws://localhost.airbnb.com:8888 *.mapbox.com *.inspectlet.com wss://ws.inspectlet.com http:; font-src 'self' https:; frame-src * *.google.com; img-src 'self' https: *.mapbox.com *.inspectlet.com *.gstatic.com http: data:; media-src 'self' https: blob:; object-src 'self' https:; script-src 'sha256-8Kp4YIWqA8yhCJaTWnmB7Wv7OjnXnX661ygwccVuDRw=' 'self' https: 'unsafe-eval' 'unsafe-inline' *.mapbox.com *.inspectlet.com *.google.com *.gstatic.com http:; style-src 'self' https: 'unsafe-inline' *.mapbox.com http:; report-uri /tracking/csp?action=show&controller=rooms&req_uuid=ab0ef737-cdbd-4aaf-af19-34568cdde15c&version=e71aabe21572c3bff374afab9ccdb906bdda2deb;",
     "x-content-type-options": "nosniff",
     "x-xss-protection": "1; mode=block",
     "x-frame-options": "SAMEORIGIN",
-    "etag": "W/\"db2e9686a2eacabef17ddc1fc7f528d8\"",
+    "etag": "W/\"c014c5bc2656be92c3415d50582c7c30\"",
     "cache-control": "max-age=0, private, must-revalidate",
     "x-ua-compatible": "IE=Edge,chrome=1",
     "content-encoding": "gzip",
     "strict-transport-security": "max-age=10886400; includeSubdomains",
     "x-server-name": "www.airbnb.com",
-    "content-length": "82015",
-    "date": "Tue, 21 Jun 2016 03:16:55 GMT",
-    "connection": "close",
+    "date": "Thu, 07 Jul 2016 19:33:15 GMT",
+    "transfer-encoding": "chunked",
+    "connection": [
+      "close",
+      "Transfer-Encoding"
+    ],
     "set-cookie": [
-      "bev=1466479014_CmJXcVJr09PSqRs3; domain=.airbnb.com; path=/; expires=Thu, 21-Jun-2018 03:16:54 GMT; secure",
-      "_csrf_token=V4%24.airbnb.com%24EpSF1HxCNR0%24xqvIGjT9Am-q1JlYgOsPVFBX1QZH3Z5m6xV6FgZJd1k%3D; domain=.airbnb.com; path=/; secure",
-      "_user_attributes=%7B%22curr%22%3A%22USD%22%2C%22guest_exchange%22%3A1.0%2C%22device_profiling_session_id%22%3A%221466479015--8ea4360c4ec0c1843ccd2d24%22%7D; domain=.airbnb.com; path=/; secure",
-      "flags=268439552; domain=.airbnb.com; path=/; secure",
-      "mdr_browser=desktop; expires=Tue, 21-Jun-2016 05:16:55 GMT; path=/; domain=.airbnb.com"
+      "bev=1467919994_rZQxV11yPsjLInms; domain=.airbnb.com; path=/; expires=Sat, 07-Jul-2018 19:33:14 GMT; secure",
+      "_csrf_token=V4%24.airbnb.com%24H4UwqF-Eo5k%241pCmixMbVTbhY1paRqJD-ZlbWsG140ENCGqsREGyRBk%3D; domain=.airbnb.com; path=/; secure",
+      "_user_attributes=%7B%22curr%22%3A%22USD%22%2C%22guest_exchange%22%3A1.0%2C%22device_profiling_session_id%22%3A%221467919995--0ef2603be007616d046119c6%22%7D; domain=.airbnb.com; path=/; secure",
+      "flags=268435456; domain=.airbnb.com; path=/; secure",
+      "mdr_browser=desktop; expires=Thu, 07-Jul-2016 21:33:15 GMT; path=/; domain=.airbnb.com"
     ],
     "akamai-country": "US"
   },

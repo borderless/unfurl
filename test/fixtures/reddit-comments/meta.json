@@ -1,14 +1,15 @@
 {
-  "url": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+  "originalUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+  "contentUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
   "headers": {
-    "date": "Tue, 21 Jun 2016 03:16:54 GMT",
+    "date": "Thu, 07 Jul 2016 19:33:14 GMT",
     "content-type": "text/html; charset=UTF-8",
-    "content-length": "76064",
+    "content-length": "82126",
     "connection": "close",
     "set-cookie": [
-      "__cfduid=dcf3584feb91abc9b7e1a42ff9cc848601466479013; expires=Wed, 21-Jun-17 03:16:53 GMT; path=/; domain=.reddit.com; HttpOnly",
-      "loid=Dv2WUxpM4R49MSPniE; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 21-Jun-2018 03:16:54 GMT; secure",
-      "loidcreated=2016-06-21T03%3A16%3A53.714Z; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 21-Jun-2018 03:16:54 GMT; secure"
+      "__cfduid=d08d7525ba496ae0fd057590c4507720a1467919993; expires=Fri, 07-Jul-17 19:33:13 GMT; path=/; domain=.reddit.com; HttpOnly",
+      "loid=zGLtQiGycghLT53SeV; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sat, 07-Jul-2018 19:33:14 GMT; secure",
+      "loidcreated=2016-07-07T19%3A33%3A14.036Z; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sat, 07-Jul-2018 19:33:14 GMT; secure"
     ],
     "x-ua-compatible": "IE=edge",
     "x-frame-options": "SAMEORIGIN",
@@ -20,7 +21,7 @@
     "x-moose": "majestic",
     "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
     "server": "cloudflare-nginx",
-    "cf-ray": "2b644de7a8591ebf-SJC"
+    "cf-ray": "2bedba1a18e82894-SJC"
   },
   "status": 200,
   "statusText": "OK"

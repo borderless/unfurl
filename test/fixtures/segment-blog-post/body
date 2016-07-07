@@ -81,42 +81,44 @@ analytics.load("jyumwga")
                  <aside class="Sidebar" content="author">
                   <div class="Sidebar-wrap">
                     <div class="Author">
-                          <figure class="Author-avatar">
-                              <img class="Author-avatarPic" src="https://c19f7be2e84987e7904e-bf41efcb49679c193a4ec0f3210da86f.ssl.cf1.rackcdn.com/photos/40528-1-1.jpg">
-                              <img class="Author-avatarGif" data-aload="https://i.giphy.com/3o6gaWVlTihQHsKMo0.gif">
-                          </figure>
-                          
-                          <section class="Author-details">
-                              <cite>
-                                <a href="/blog/authors/calvin-french-owen/" class="Author-name">
-                                  Calvin French-Owen
-                                </a>
-                              </cite>
-                          
-                              <p class="Author-role">
-                                  Co-Founder at
-                                Segment
-                              </p>
-                          
-                            <section class="Author-social">
-                                <a href="http://twitter.com/calvinfo"
-                                    class="SocialMedia-link"
-                                    rel="author"
-                                    data-icon="twitter">
-                                  calvinfo
-                                </a>
-                          
-                                <div class="twitter-widget">
-                                  <a class="twitter-follow-button SocialMedia-link"
-                                      href="https://twitter.com/calvinfo"
-                                      data-show-screen-name="true"
-                                      data-show-count="false"
-                                      data-lang="en">
-                                      Follow @calvinfo
+                          <div class="Sidebar-Author">
+                            <figure class="Author-avatar">
+                                <img class="Author-avatarPic" src="https://c19f7be2e84987e7904e-bf41efcb49679c193a4ec0f3210da86f.ssl.cf1.rackcdn.com/photos/40528-1-1.jpg">
+                                <img class="Author-avatarGif" data-aload="https://i.giphy.com/3o6gaWVlTihQHsKMo0.gif">
+                            </figure>
+                            
+                            <section class="Author-details">
+                                <cite>
+                                  <a href="/blog/authors/calvin-french-owen/" class="Author-name">
+                                    Calvin French-Owen
                                   </a>
-                                </div>
+                                </cite>
+                            
+                                <p class="Author-role">
+                                    Co-Founder at
+                                  Segment
+                                </p>
+                            
+                              <section class="Author-social">
+                                  <a href="http://twitter.com/calvinfo"
+                                      class="SocialMedia-link"
+                                      rel="author"
+                                      data-icon="twitter">
+                                    calvinfo
+                                  </a>
+                            
+                                  <div class="twitter-widget">
+                                    <a class="twitter-follow-button SocialMedia-link"
+                                        href="https://twitter.com/calvinfo"
+                                        data-show-screen-name="true"
+                                        data-show-count="false"
+                                        data-lang="en">
+                                        Follow @calvinfo
+                                    </a>
+                                  </div>
+                              </section>
                             </section>
-                          </section>
+                          </div>
                       <div class="Sidebar-CTAwrapper Sidebar-CTAwrapper--wideScreen">
                           <a href="/jobs" class="ui-Button u-Space--bottomSmaller" id="jobsCTA" extras="fluid" size="small" modifier="secondary" u-space="bottom:smaller">We’re hiring</a>
                       </div>
@@ -349,6 +351,35 @@ $ terraform apply
               <ul>
                   <li class="Suggested-reading Article-list--item">
                     <div class="content-wrap"><h2 class="Article-title">
+  <a href="/blog/ci-at-segment/" class="Article-title Action-link">
+    Continuous Integration at Segment
+  </a>
+</h2>
+
+<p class="Article-teaser">As part of our push to open up what’s going on internally at Segment – we’d like to share how we run our CI builds. Most of our approaches follow standard practices, but we wanted to share a few tips and tricks we use to speed up our build pipeline.
+</p>
+
+<div class="Author Author--singleLine">
+    <figure class="Author-avatar">
+        <img class="Author-avatarPic" src="https://c19f7be2e84987e7904e-bf41efcb49679c193a4ec0f3210da86f.ssl.cf1.rackcdn.com/photos/40528-1-1.jpg">
+    </figure>
+
+    <div class="Author-details">
+        <cite>
+          <a href="/blog/authors/calvin-french-owen/" class="Author-name">
+            Calvin French-Owen
+          </a>
+        </cite>
+      <time class="Article-date">23 June 2016</time>
+        <a href="/blog/categories/engineering/"
+          <span class="Category uppercase">engineering</span>
+        </a>
+    </div>
+</div>
+</div>
+                  </li>
+                  <li class="Suggested-reading Article-list--item">
+                    <div class="content-wrap"><h2 class="Article-title">
   <a href="/blog/queuefile-reliable-request-batching-android/" class="Article-title Action-link">
     Why We Chose QueueFile for Reliable Request Batching on Android
   </a>
@@ -408,35 +439,6 @@ $ terraform apply
           </a>
         </cite>
       <time class="Article-date">26 May 2016</time>
-        <a href="/blog/categories/engineering/"
-          <span class="Category uppercase">engineering</span>
-        </a>
-    </div>
-</div>
-</div>
-                  </li>
-                  <li class="Suggested-reading Article-list--item">
-                    <div class="content-wrap"><h2 class="Article-title">
-  <a href="/blog/scaling-nsq/" class="Article-title Action-link">
-    Scaling NSQ to 750 Billion Messages
-  </a>
-</h2>
-
-<p class="Article-teaser">Since Segment’s first launch in 2012, we’ve used queues everywhere. Our API queues messages immediately. Our workers communicate by consuming from one queue and then publishing to another. It’s given us a ton of leeway when it comes to dealing with sudden batches of events or ensuring fault tolerance between services.
-</p>
-
-<div class="Author Author--singleLine">
-    <figure class="Author-avatar">
-        <img class="Author-avatarPic" src="https://c19f7be2e84987e7904e-bf41efcb49679c193a4ec0f3210da86f.ssl.cf1.rackcdn.com/photos/40528-1-1.jpg">
-    </figure>
-
-    <div class="Author-details">
-        <cite>
-          <a href="/blog/authors/calvin-french-owen/" class="Author-name">
-            Calvin French-Owen
-          </a>
-        </cite>
-      <time class="Article-date">16 May 2016</time>
         <a href="/blog/categories/engineering/"
           <span class="Category uppercase">engineering</span>
         </a>

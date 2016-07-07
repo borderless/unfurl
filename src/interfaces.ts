@@ -18,7 +18,14 @@ export interface Options {
 
 export interface Rule {
   supported (url: string, headers: Headers): boolean
-  handle (url: string, headers: Headers, stream: Readable, abort: AbortFn, options: Options): Result | Promise<Result>
+  handle (
+    originalUrl: string,
+    responseUrl: string,
+    headers: Headers,
+    stream: Readable,
+    abort: AbortFn,
+    options: Options
+  ): Result | Promise<Result>
 }
 
 /**
@@ -37,6 +44,7 @@ export interface ResultMeta {
 }
 
 export interface BaseResult {
+  originalUrl: string
   contentUrl: string
   contentSize?: number
   encodingFormat?: string
@@ -258,7 +266,6 @@ export interface BaseSnippet extends BaseResult {
   video?: SnippetVideo | SnippetVideo[]
   audio?: SnippetAudio | SnippetAudio[]
   player?: SnippetPlayer
-  originalUrl?: string
   determiner?: string
   headline?: string
   caption?: string

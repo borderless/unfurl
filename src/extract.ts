@@ -120,7 +120,7 @@ export const extracts: Extracts = {
         player: getMetaPlayer(meta, contentUrl),
         contentUrl: getMetaUrl(meta, contentUrl),
         contentSize: result.contentSize,
-        originalUrl: result.contentUrl,
+        originalUrl: result.originalUrl,
         encodingFormat: result.encodingFormat,
         determiner: getMetaDeterminer(meta),
         headline: getMetaHeadline(meta),

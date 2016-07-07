@@ -14,12 +14,12 @@
     
     
   
-  <script id="bouncer_terminate_iframe" nonce="FpjUgtHAs7RaxjCc+DzWGA==">
+  <script id="bouncer_terminate_iframe" nonce="+flYbeBegxuhEPmqvgDo5w==">
     if (window.top != window) {
   window.top.postMessage({'bouncer': true, 'event': 'complete'}, '*');
 }
   </script>
-  <script id="swift_action_queue" nonce="FpjUgtHAs7RaxjCc+DzWGA==">
+  <script id="swift_action_queue" nonce="+flYbeBegxuhEPmqvgDo5w==">
     (function(){function m(a){a||(a=window.event);if(!a)return!1;a.timestamp=(new Date).getTime();!a.target&&a.srcElement&&(a.target=a.srcElement);if(document.documentElement.getAttribute("data-scribe-reduced-action-queue")){var b=a.target;while(b&&b!=document
 .body){if(b.tagName=="A")return;b=b.parentNode}}r("all",s(a));if(!q(a)){r("direct",a);return!0}document.addEventListener||(a=s(a));a.preventDefault=a.stopPropagation=a.stopImmediatePropagation=function(){};if(i){f.push(a);r("captured",a)}else r("ignored",a
 );return!1}function n($){p();for(var a=0,b;b=f[a];a++){var d=$(b.target),e=d.closest("a")[0];if(b.type=="click"&&e){var g=$.data(e,"events"),i=g&&g.click,j=!e.hostname.match(c)||!e.href.match(/#$/);if(!i&&j){window.location=e.href;continue}}d.trigger($.event
@@ -32,24 +32,24 @@ document.getElementById(f);if(g&&v(g))return!1}else for(var i=0,j;j=b.childNodes
 a.getAttribute("contenteditable")=="true"}var a=(new Date).getTime(),b=1e4,c=/^([^\.]+\.)*twitter\.com$/,d=/^key/,e=["click","keydown","keypress","keyup"],f=[],g=null,i=!0,j={captured:[],ignored:[],direct:[],all:[]};for(var k=0,l;l=e[k];k++)document["on"+l
 ]=m;g=setTimeout(function(){i=!1},b);window.swiftActionQueue={buckets:j,flush:n,logActions:o,wasFlushed:!1}})();
   </script>
-  <script id="composition_state" nonce="FpjUgtHAs7RaxjCc+DzWGA==">
+  <script id="composition_state" nonce="+flYbeBegxuhEPmqvgDo5w==">
     (function(){function a(a){a.target.setAttribute("data-in-composition","true")}function b(a){a.target.removeAttribute("data-in-composition")}if(document.addEventListener){document.addEventListener("compositionstart",a,!1);document.addEventListener("compositionend"
 ,b,!1)}})();
   </script>
-  <script id="load_js" nonce="FpjUgtHAs7RaxjCc+DzWGA==">
+  <script id="load_js" nonce="+flYbeBegxuhEPmqvgDo5w==">
     /*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on http://goo.gl/REQGQ by Paul Irish). Licensed MIT */(function(a){var b=function(b,c){"use strict";var d=a.document.getElementsByTagName("script")[0],e=a.document.createElement
 ("script");e.src=b;e.async=!0;d.parentNode.insertBefore(e,d);c&&typeof c=="function"&&(e.onload=c);return e};typeof module!="undefined"?module.exports=b:a.loadJS=b})(typeof global!="undefined"?global:this);
   </script>
 
-    <link rel="stylesheet" href="https://abs.twimg.com/a/1467400962/css/t1/twitter_core.bundle.css">
-  <link rel="stylesheet" href="https://abs.twimg.com/a/1467400962/css/t1/twitter_more_1.bundle.css">
-  <link rel="stylesheet" href="https://abs.twimg.com/a/1467400962/css/t1/twitter_more_2.bundle.css">
+    <link rel="stylesheet" href="https://abs.twimg.com/a/1467868637/css/t1/twitter_core.bundle.css">
+  <link rel="stylesheet" href="https://abs.twimg.com/a/1467868637/css/t1/twitter_more_1.bundle.css">
+  <link rel="stylesheet" href="https://abs.twimg.com/a/1467868637/css/t1/twitter_more_2.bundle.css">
 
     <link rel="dns-prefetch" href="https://pbs.twimg.com">
     <link rel="dns-prefetch" href="https://t.co">
-      <link rel="preload" href="https://abs.twimg.com/c/swift/en/init.29c3a0df2b43f1d37652558c26a6283319888da2.js" as="script">
-      <link rel="preload" href="https://abs.twimg.com/c/swift/en/bundle/timeline.28a7df92e26c58b1f5f328df36ec0bac2d67de99.js" as="script">
-      <link rel="preload" href="https://abs.twimg.com/c/swift/en/bundle/boot.5aa1a5b47008f9e19ffe8f17132457f1cc5231ac.js" as="script">
+      <link rel="preload" href="https://abs.twimg.com/c/swift/en/init.1425172875c93495a3f5e1b7561615e0f9a8919a.js" as="script">
+      <link rel="preload" href="https://abs.twimg.com/c/swift/en/bundle/timeline.8d206ec3ce203bd3200ee97181c2481df4064520.js" as="script">
+      <link rel="preload" href="https://abs.twimg.com/c/swift/en/bundle/boot.fa1152e50a18a595ca09af37fb50abcf57a7beef.js" as="script">
 
       <title>Eric Clemmons on Twitter: &quot;🔥 Clean up @github issues with the HTML5 &lt;details&gt; tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx&quot;</title>
       <meta name="robots" content="NOODP">
@@ -61,7 +61,7 @@ a.getAttribute("contenteditable")=="true"}var a=(new Date).getTime(),b=1e4,c=/^(
 <meta name="msapplication-TileColor" content="#00aced"/>
 
 
-<link rel="mask-icon" sizes="any" href="https://abs.twimg.com/a/1467400962/img/t1/favicon.svg" color="#55acee">
+<link rel="mask-icon" sizes="any" href="https://abs.twimg.com/a/1467868637/img/t1/favicon.svg" color="#55acee">
 
 <link href="//abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
@@ -92,7 +92,7 @@ a.getAttribute("contenteditable")=="true"}var a=(new Date).getTime(),b=1e4,c=/^(
         <meta  property="og:description" content="“🔥 Clean up @github issues with the HTML5 &amp;lt;details&amp;gt; tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx”">
         <meta  property="og:site_name" content="Twitter">
         <meta  property="fb:app_id" content="2231777543">
-      <input type="hidden" id="init-data" class="json-data" value="{&quot;keyboardShortcuts&quot;:[{&quot;name&quot;:&quot;Actions&quot;,&quot;description&quot;:&quot;Shortcuts for common actions.&quot;,&quot;shortcuts&quot;:[{&quot;keys&quot;:[&quot;Enter&quot;],&quot;description&quot;:&quot;Open Tweet details&quot;},{&quot;keys&quot;:[&quot;o&quot;],&quot;description&quot;:&quot;Expand photo&quot;},{&quot;keys&quot;:[&quot;\/&quot;],&quot;description&quot;:&quot;Search&quot;}]},{&quot;name&quot;:&quot;Navigation&quot;,&quot;description&quot;:&quot;Shortcuts for navigating between items in timelines.&quot;,&quot;shortcuts&quot;:[{&quot;keys&quot;:[&quot;?&quot;],&quot;description&quot;:&quot;This menu&quot;},{&quot;keys&quot;:[&quot;j&quot;],&quot;description&quot;:&quot;Next Tweet&quot;},{&quot;keys&quot;:[&quot;k&quot;],&quot;description&quot;:&quot;Previous Tweet&quot;},{&quot;keys&quot;:[&quot;Space&quot;],&quot;description&quot;:&quot;Page down&quot;},{&quot;keys&quot;:[&quot;.&quot;],&quot;description&quot;:&quot;Load new Tweets&quot;}]},{&quot;name&quot;:&quot;Timelines&quot;,&quot;description&quot;:&quot;Shortcuts for navigating to different timelines or pages.&quot;,&quot;shortcuts&quot;:[{&quot;keys&quot;:[&quot;g&quot;,&quot;u&quot;],&quot;description&quot;:&quot;Go to user\u2026&quot;}]}],&quot;jsInitDelay&quot;:0,&quot;hasKenburnEffectOnSingleImage&quot;:false,&quot;composeIgnoreAttachmentText&quot;:false,&quot;baseFoucClass&quot;:&quot;swift-loading&quot;,&quot;bodyFoucClassNames&quot;:&quot;swift-loading&quot;,&quot;macawSwift&quot;:true,&quot;assetsBasePath&quot;:&quot;https:\/\/abs.twimg.com\/a\/1467400962\/&quot;,&quot;assetVersionKey&quot;:&quot;5ff0c9&quot;,&quot;environment&quot;:&quot;production&quot;,&quot;formAuthenticityToken&quot;:&quot;d4e157adbc5cd9db4f257f55510624bb440726ba&quot;,&quot;loggedIn&quot;:false,&quot;softUserLoggedIn&quot;:false,&quot;screenName&quot;:null,&quot;fullName&quot;:null,&quot;userId&quot;:null,&quot;guestId&quot;:&quot;146749271264453067&quot;,&quot;allowAdsPersonalization&quot;:true,&quot;scribeBufferSize&quot;:3,&quot;pageName&quot;:&quot;permalink&quot;,&quot;sectionName&quot;:&quot;permalink&quot;,&quot;scribeParameters&quot;:{},&quot;recaptchaApiUrl&quot;:&quot;https:\/\/www.google.com\/recaptcha\/api\/js\/recaptcha_ajax.js&quot;,&quot;internalReferer&quot;:null,&quot;geoEnabled&quot;:false,&quot;typeaheadData&quot;:{&quot;accounts&quot;:{&quot;enabled&quot;:true,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;limit&quot;:6},&quot;trendLocations&quot;:{&quot;enabled&quot;:true},&quot;dmConversations&quot;:{&quot;enabled&quot;:false},&quot;savedSearches&quot;:{&quot;enabled&quot;:false,&quot;items&quot;:[]},&quot;dmAccounts&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:false,&quot;onlyDMable&quot;:true},&quot;mediaTagAccounts&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:true,&quot;remoteQueriesEnabled&quot;:false,&quot;onlyShowUsersWithCanMediaTag&quot;:false,&quot;currentUserId&quot;:-1},&quot;selectedUsers&quot;:{&quot;enabled&quot;:false},&quot;prefillUsers&quot;:{&quot;enabled&quot;:false},&quot;topics&quot;:{&quot;enabled&quot;:true,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;prefetchLimit&quot;:500,&quot;limit&quot;:4},&quot;concierge&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:false,&quot;prefetchLimit&quot;:500,&quot;limit&quot;:6},&quot;recentSearches&quot;:{&quot;enabled&quot;:false},&quot;hashtags&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;prefetchLimit&quot;:500},&quot;useIndexedDB&quot;:false,&quot;showSearchAccountSocialContext&quot;:false,&quot;showDebugInfo&quot;:false,&quot;useThrottle&quot;:true,&quot;accountsOnTop&quot;:false,&quot;remoteDebounceInterval&quot;:300,&quot;remoteThrottleInterval&quot;:300,&quot;tweetContextEnabled&quot;:false,&quot;fullNameMatchingInCompose&quot;:true,&quot;topicsWithFiltersEnabled&quot;:false},&quot;dm&quot;:{&quot;notifications&quot;:false,&quot;usePushForNotifications&quot;:false,&quot;participant_max&quot;:50,&quot;video_gif_render&quot;:true,&quot;video_gif_upload&quot;:true,&quot;twitter_video_player&quot;:true,&quot;typing_indicators_publish&quot;:false,&quot;poll_options&quot;:{&quot;foreground_poll_interval&quot;:3000,&quot;burst_poll_interval&quot;:3000,&quot;burst_poll_duration&quot;:300000,&quot;max_poll_interval&quot;:60000}},&quot;whitelistedVideoUser&quot;:false,&quot;autoplayDisabled&quot;:false,&quot;pushStatePageLimit&quot;:500000,&quot;routes&quot;:{&quot;profile&quot;:&quot;\/&quot;},&quot;pushState&quot;:true,&quot;viewContainer&quot;:&quot;#page-container&quot;,&quot;dragAndDropPhotoUpload&quot;:true,&quot;href&quot;:&quot;\/ericclemmons\/status\/749223563790471169&quot;,&quot;searchPathWithQuery&quot;:&quot;\/search?q=query&amp;src=typd&quot;,&quot;timelineCardsGallery&quot;:true,&quot;composeAltText&quot;:false,&quot;deciders&quot;:{&quot;bulkUnfollowEnabled&quot;:true,&quot;custom_timeline_curation&quot;:false,&quot;moment_maker_enabled&quot;:false,&quot;disable_profile_popup&quot;:false,&quot;native_notifications&quot;:true,&quot;dm_polling_frequency_in_seconds&quot;:3000,&quot;enable_media_tag_prefetch&quot;:true,&quot;foundMediaTrendingEnabled&quot;:false,&quot;enableMacawNymizerConversionLanding&quot;:false,&quot;hqImageUploads&quot;:false,&quot;largeHeaderImageUpload&quot;:true,&quot;live_pipeline_consume&quot;:false,&quot;mqImageUploads&quot;:false,&quot;partnerIdSyncEnabled&quot;:true,&quot;sruMediaCategory&quot;:true,&quot;photoSruGifLimitMb&quot;:5,&quot;promoted_video_logging_enabled&quot;:true,&quot;pushState&quot;:true,&quot;scribeReducedActionQueue&quot;:true,&quot;smartInfiniteScroll&quot;:false,&quot;useHtml5Webcam&quot;:true,&quot;hideLeadingMentions&quot;:false,&quot;web_perftown_stats&quot;:true,&quot;web_perftown_ttft&quot;:true,&quot;web_sru_stats&quot;:false,&quot;web_upload_direct&quot;:true,&quot;web_upload_video&quot;:true,&quot;web_upload_video_advanced&quot;:false,&quot;upload_video_size&quot;:500,&quot;defaultVideoDuration&quot;:45,&quot;maxVideoDuration&quot;:140,&quot;internationalShippingEnabled&quot;:true,&quot;useV2EndpointsEnabled&quot;:true,&quot;useVmapVariants&quot;:false,&quot;autoplayPreviewPreroll&quot;:true,&quot;moments_lohp_enabled&quot;:true,&quot;momentsExperienceEnabled&quot;:true,&quot;enableNativePush&quot;:false,&quot;installNativePush&quot;:false,&quot;autoSubscribeNativePush&quot;:false,&quot;stickersInteractivity&quot;:true,&quot;stickersInteractivityDuringLoading&quot;:true,&quot;stickersExperience&quot;:true,&quot;dynamic_video_ads_include_long_videos&quot;:true,&quot;push_state_size&quot;:1000,&quot;canBeSoftUser&quot;:false,&quot;isInSoftExperiment&quot;:false},&quot;experiments&quot;:{},&quot;toasts_dm&quot;:false,&quot;toasts_spoonbill&quot;:false,&quot;toasts_timeline&quot;:false,&quot;toasts_dm_poll_scale&quot;:60,&quot;defaultNotificationIcon&quot;:&quot;https:\/\/abs.twimg.com\/a\/1467400962\/img\/t1\/mobile\/wp7_app_icon.png&quot;,&quot;uploadDomain&quot;:&quot;upload.twitter.com&quot;,&quot;promptbirdData&quot;:{&quot;promptbirdEnabled&quot;:false,&quot;immediateTriggers&quot;:[&quot;PullToRefresh&quot;,&quot;Navigate&quot;],&quot;format&quot;:null},&quot;passwordResetAdvancedLoginForm&quot;:true,&quot;skipAutoSignupDialog&quot;:true,&quot;shouldReplaceSignupWithLogin&quot;:false,&quot;hashflagBaseUrl&quot;:&quot;https:\/\/abs.twimg.com\/hashflags\/&quot;,&quot;activeHashflags&quot;:{&quot;المسافر&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;سفرة_الصيف&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;mémoirededory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;whitejersey&quot;:&quot;TDF2016\/WhiteJersey.png&quot;,&quot;bacphysique&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;togetherstronger&quot;:&quot;EurosFootball2016\/Wales.png&quot;,&quot;ger&quot;:&quot;EurosFootball2016\/Germany.png&quot;,&quot;meinestimme&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;রমজান&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;bacst2s&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;اقترعت&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;immerwiederoesterreich&quot;:&quot;EurosFootball2016\/Austria.png&quot;,&quot;一站到底&quot;:&quot;JSBCI\/JSBCI_emoji.png&quot;,&quot;bacpro&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;سافر_الحين_وادفع_بعدين&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;queensyoungleaders&quot;:&quot;Queenat90\/Queenat90.png&quot;,&quot;tdf&quot;:&quot;TDF2016\/TDF.png&quot;,&quot;bacstmg&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;maillotjaunelcl&quot;:&quot;TDF2016\/YellowJersey.png&quot;,&quot;periscope&quot;:&quot;Periscope\/Periscope.png&quot;,&quot;cblol&quot;:&quot;CBLoL\/CBLoL.png&quot;,&quot;jederfuerjeden&quot;:&quot;EurosFootball2016\/Germany.png&quot;,&quot;abfabmovie&quot;:&quot;AbFabMovie\/AbFabMovie.png&quot;,&quot;yoenunvw&quot;:&quot;Volkswagen\/YoEnUnVW.png&quot;,&quot;lovetwitter&quot;:&quot;LoveTwitter\/LoveTwitter.png&quot;,&quot;ifoodnomengão&quot;:&quot;iFoodBrazil\/flamengo.png&quot;,&quot;badisbred&quot;:&quot;AnimalKingdom_Deliver\/BadisBred.png&quot;,&quot;arabianoud&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;عطور_عربية&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;admis&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;cervantes400&quot;:&quot;CervantesEmoji\/cervantes-emoji.png&quot;,&quot;maillotapoiscarrefour&quot;:&quot;TDF2016\/PolkaDotJersey.png&quot;,&quot;hovotato&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;kebersamaanramadhan&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;япроголосовал(а)&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;bukapuasa&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;sienteelsabor&quot;:&quot;CocaCola\/SienteElSabor.png&quot;,&quot;bacfrançais&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;gawa&quot;:&quot;EurosFootball2016\/NorthernIreland.png&quot;,&quot;احساس&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;teamdelta&quot;:&quot;VoiceAU\/TeamDelta.png&quot;,&quot;sahur&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;hun&quot;:&quot;EurosFootball2016\/Hungary.png&quot;,&quot;مضاوي&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;bacsti2d&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;wimbledon&quot;:&quot;Wimbledon2016\/Wimbledon.png&quot;,&quot;yellowjersey&quot;:&quot;TDF2016\/YellowJersey.png&quot;,&quot;buscandoadory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;vivelamannschaft&quot;:&quot;Mercedes\/Mercedes.png&quot;,&quot;maillotapois&quot;:&quot;TDF2016\/PolkaDotJersey.png&quot;,&quot;bacanglais&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;1of11million&quot;:&quot;EurosFootball2016\/Portugal.png&quot;,&quot;jaivoté&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;golive&quot;:&quot;goLIVE2016\/goLIVE.png&quot;,&quot;رمضان_كريم&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;everycharactermatters&quot;:&quot;EveryCharacterMatters\/EveryCharacterMatters.png&quot;,&quot;bachistoiregeographie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;whosstillstanding&quot;:&quot;JSBCI\/JSBCI_emoji.png&quot;,&quot;我已投票&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;euro2016&quot;:&quot;EurosFootball2016\/trophy.png&quot;,&quot;bacsvt&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;twitterstaryarasky&quot;:&quot;TwitterstarYarasky\/TwitterstarYarasky.png&quot;,&quot;thesecretlifeofmypet&quot;:&quot;Universal\/SecretLifeOfPets.png&quot;,&quot;momentodory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;thesecretlifeofpets&quot;:&quot;Universal\/SecretLifeOfPets.png&quot;,&quot;fazerdiferente&quot;:&quot;TIM\/emoji_tim_final_3.png&quot;,&quot;tousenfrance&quot;:&quot;EurosFootball2016\/Belgium.png&quot;,&quot;puasa&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;400cervantes&quot;:&quot;CervantesEmoji\/cervantes-emoji.png&quot;,&quot;bacsthr&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;maillotblanc&quot;:&quot;TDF2016\/WhiteJersey.png&quot;,&quot;jaimonbac&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;isl&quot;:&quot;EurosFootball2016\/Iceland.png&quot;,&quot;bizbittidemedenbitmez&quot;:&quot;EurosFootball2016\/Turkey.png&quot;,&quot;ceskarepre&quot;:&quot;EurosFootball2016\/CzechRepublic.png&quot;,&quot;lemondededory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;sui&quot;:&quot;EurosFootball2016\/Switzerland.png&quot;,&quot;svk&quot;:&quot;EurosFootball2016\/Slovakia.png&quot;,&quot;تطبيق_المسافر_للحجوزات&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;bactmd&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;투표했어요&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;allezlasuisse&quot;:&quot;EurosFootball2016\/Switzerland.png&quot;,&quot;timchef&quot;:&quot;TIMChef\/emoji_masterchef.png&quot;,&quot;rumoaorio&quot;:&quot;100Days\/100Days.png&quot;,&quot;однакоманда&quot;:&quot;EurosFootball2016\/Russia.png&quot;,&quot;nir&quot;:&quot;EurosFootball2016\/NorthernIreland.png&quot;,&quot;aut&quot;:&quot;EurosFootball2016\/Austria.png&quot;,&quot;bachistoire&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;وودي&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;csakegyutt&quot;:&quot;EurosFootball2016\/Hungary.png&quot;,&quot;تطبيق_المسافر&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;tdf2016&quot;:&quot;TDF2016\/TDF.png&quot;,&quot;bacphilo&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacphysiquechimie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;твоязбірна&quot;:&quot;EurosFootball2016\/Ukraine.png&quot;,&quot;eng&quot;:&quot;EurosFootball2016\/England.png&quot;,&quot;chamaolimpica&quot;:&quot;OlympicTorch_Emoji\/OlympicTorch.png&quot;,&quot;presidentduterte&quot;:&quot;PresidentDuterte\/PHVoteDuterte.png&quot;,&quot;ivoted&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;teamronan&quot;:&quot;VoiceAU\/TeamRonan.png&quot;,&quot;rus&quot;:&quot;EurosFootball2016\/Russia.png&quot;,&quot;olympicflame&quot;:&quot;OlympicTorch_Emoji\/OlympicTorch.png&quot;,&quot;iameuro&quot;:&quot;UnibetAustralia\/soccer.png&quot;,&quot;ifoodnomengao&quot;:&quot;iFoodBrazil\/flamengo.png&quot;,&quot;happybirthdayyourmajesty&quot;:&quot;Queenat90\/Queenat90.png&quot;,&quot;alb&quot;:&quot;EurosFootball2016\/Albania.png&quot;,&quot;thequeue&quot;:&quot;Wimbledon2016\/TheQueue.png&quot;,&quot;rou&quot;:&quot;EurosFootball2016\/Romania.png&quot;,&quot;badmoms&quot;:&quot;Universal_BadMoms_Emoji\/BadMoms.png&quot;,&quot;findingdory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;greenjersey&quot;:&quot;TDF2016\/GreenJersey.png&quot;,&quot;صقر&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;bacallemand&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;ramazan&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;polkadotjersey&quot;:&quot;TDF2016\/PolkaDotJersey.png&quot;,&quot;الفارس&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;teamjessiej&quot;:&quot;VoiceAU\/TeamJessieJ.png&quot;,&quot;bumotoako&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;twittersparkle&quot;:&quot;TwitterSparkle\/TwitterSparkle.png&quot;,&quot;justkeepswimming&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;maillotvertskoda&quot;:&quot;TDF2016\/GreenJersey.png&quot;,&quot;ita&quot;:&quot;EurosFootball2016\/Italy.png&quot;,&quot;vivoazzurro&quot;:&quot;EurosFootball2016\/Italy.png&quot;,&quot;resultatsbac&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;ramadan&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;bacitalien&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;لمسة&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;سناب_المسافر_دايما_مسافر&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;maillotblanckrys&quot;:&quot;TDF2016\/WhiteJersey.png&quot;,&quot;origin&quot;:&quot;StateOfOrigin\/Origin.png&quot;,&quot;bacfrancais&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bachotellerie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;thehill&quot;:&quot;Wimbledon2016\/TheHill.png&quot;,&quot;hairomania&quot;:&quot;EurosFootball2016\/Romania.png&quot;,&quot;admise&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;yarasky&quot;:&quot;TwitterstarYarasky\/TwitterstarYarasky.png&quot;,&quot;maillotvert&quot;:&quot;TDF2016\/GreenJersey.png&quot;,&quot;yovote&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;qlder&quot;:&quot;StateOfOrigin\/QLDER.png&quot;,&quot;رسالة&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;energia&quot;:&quot;JBalvinNew\/JBalvinNew.png&quot;,&quot;انا_المسافر&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;rumboario&quot;:&quot;100Days\/100Days.png&quot;,&quot;queenat90&quot;:&quot;Queenat90\/Queenat90.png&quot;,&quot;overdadeirosabor&quot;:&quot;Hellmanns\/emoji_hellmans.png&quot;,&quot;baces&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;رمضان&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;bacmaths&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;سافر_بالتقسيط&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;とと姉ちゃん&quot;:&quot;NHKMorningDrama\/NHKMorningDrama.png&quot;,&quot;yovoté&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;togetherforengland&quot;:&quot;EurosFootball2016\/England.png&quot;,&quot;łączynaspolska&quot;:&quot;EurosFootball2016\/Poland.png&quot;,&quot;bulanpuasa&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;bachôtellerie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacs&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacstav&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;nowyoucan&quot;:&quot;SkyNow\/SKYNowYouCan.png&quot;,&quot;trovadory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;tur&quot;:&quot;EurosFootball2016\/Turkey.png&quot;,&quot;roadtorio&quot;:&quot;100Days\/100Days.png&quot;,&quot;bacses&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacstl&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;wal&quot;:&quot;EurosFootball2016\/Wales.png&quot;,&quot;bacespagnol&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bel&quot;:&quot;EurosFootball2016\/Belgium.png&quot;,&quot;bacstd2a&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;fiersdetrebleus&quot;:&quot;EurosFootball2016\/France.png&quot;,&quot;cze&quot;:&quot;EurosFootball2016\/CzechRepublic.png&quot;,&quot;pol&quot;:&quot;EurosFootball2016\/Poland.png&quot;,&quot;العربية_للعود&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;résultatsbac&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;budiponosan&quot;:&quot;EurosFootball2016\/Croatia.png&quot;,&quot;fandimespolu&quot;:&quot;EurosFootball2016\/Slovakia.png&quot;,&quot;thisbudsforyou&quot;:&quot;Bud_Emoji\/Bud.png&quot;,&quot;icaucused&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;ukr&quot;:&quot;EurosFootball2016\/Ukraine.png&quot;,&quot;رمضان_مبارك&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;esp&quot;:&quot;EurosFootball2016\/Spain.png&quot;,&quot;makethefuture&quot;:&quot;Shell_Emoji\/ShellLightbulb.png&quot;,&quot;cro&quot;:&quot;EurosFootball2016\/Croatia.png&quot;,&quot;irl&quot;:&quot;EurosFootball2016\/ROIreland.png&quot;,&quot;vamosespaña&quot;:&quot;EurosFootball2016\/Spain.png&quot;,&quot;bacl&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;選挙に行こう&quot;:&quot;JapanUpperHouseElection\/JapanUpperHouseElection.png&quot;,&quot;uptheblues&quot;:&quot;StateOfOrigin\/UpTheBlues.png&quot;,&quot;sharkweek&quot;:&quot;SharkWeekEmoji\/SharkWeek_Original.png&quot;,&quot;por&quot;:&quot;EurosFootball2016\/Portugal.png&quot;,&quot;teammadden&quot;:&quot;VoiceAU\/TeamMadden.png&quot;,&quot;swe&quot;:&quot;EurosFootball2016\/Sweden.png&quot;,&quot;bac2016&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;maillotjaune&quot;:&quot;TDF2016\/YellowJersey.png&quot;,&quot;fra&quot;:&quot;EurosFootball2016\/France.png&quot;,&quot;ramadhan&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;coybig&quot;:&quot;EurosFootball2016\/ROIreland.png&quot;},&quot;tweetId&quot;:&quot;749223563790471169&quot;,&quot;profile_id&quot;:14457722,&quot;endpoint&quot;:&quot;\/i\/ericclemmons\/conversation\/749223563790471169&quot;,&quot;overlayCapable&quot;:false,&quot;finagleTraceId&quot;:&quot;006e4feb00152288&quot;,&quot;isThreaded&quot;:true,&quot;inOverlay&quot;:true,&quot;trendsCacheKey&quot;:null,&quot;decider_personalized_trends&quot;:false,&quot;trendsEndpoint&quot;:&quot;\/i\/trends&quot;,&quot;initialState&quot;:{&quot;title&quot;:&quot;Eric Clemmons on Twitter: \&quot;\ud83d\udd25 Clean up @github issues with the HTML5 \u003cdetails\u003e tag \u2013\u00a0https:\/\/t.co\/poNw69GO9s https:\/\/t.co\/QEXZgk4LJx\&quot;&quot;,&quot;section&quot;:null,&quot;module&quot;:&quot;app\/pages\/permalink&quot;,&quot;cache_ttl&quot;:300,&quot;body_class_names&quot;:&quot;three-col logged-out user-style-ericclemmons PermalinkPage&quot;,&quot;doc_class_names&quot;:&quot;route-permalink&quot;,&quot;route_name&quot;:&quot;permalink&quot;,&quot;page_container_class_names&quot;:&quot;AppContent wrapper wrapper-permalink&quot;,&quot;ttft_navigation&quot;:false}}">
+      <input type="hidden" id="init-data" class="json-data" value="{&quot;keyboardShortcuts&quot;:[{&quot;name&quot;:&quot;Actions&quot;,&quot;description&quot;:&quot;Shortcuts for common actions.&quot;,&quot;shortcuts&quot;:[{&quot;keys&quot;:[&quot;Enter&quot;],&quot;description&quot;:&quot;Open Tweet details&quot;},{&quot;keys&quot;:[&quot;o&quot;],&quot;description&quot;:&quot;Expand photo&quot;},{&quot;keys&quot;:[&quot;\/&quot;],&quot;description&quot;:&quot;Search&quot;}]},{&quot;name&quot;:&quot;Navigation&quot;,&quot;description&quot;:&quot;Shortcuts for navigating between items in timelines.&quot;,&quot;shortcuts&quot;:[{&quot;keys&quot;:[&quot;?&quot;],&quot;description&quot;:&quot;This menu&quot;},{&quot;keys&quot;:[&quot;j&quot;],&quot;description&quot;:&quot;Next Tweet&quot;},{&quot;keys&quot;:[&quot;k&quot;],&quot;description&quot;:&quot;Previous Tweet&quot;},{&quot;keys&quot;:[&quot;Space&quot;],&quot;description&quot;:&quot;Page down&quot;},{&quot;keys&quot;:[&quot;.&quot;],&quot;description&quot;:&quot;Load new Tweets&quot;}]},{&quot;name&quot;:&quot;Timelines&quot;,&quot;description&quot;:&quot;Shortcuts for navigating to different timelines or pages.&quot;,&quot;shortcuts&quot;:[{&quot;keys&quot;:[&quot;g&quot;,&quot;u&quot;],&quot;description&quot;:&quot;Go to user\u2026&quot;}]}],&quot;jsInitDelay&quot;:0,&quot;hasKenburnEffectOnSingleImage&quot;:false,&quot;composeIgnoreAttachmentText&quot;:false,&quot;baseFoucClass&quot;:&quot;swift-loading&quot;,&quot;bodyFoucClassNames&quot;:&quot;swift-loading&quot;,&quot;macawSwift&quot;:true,&quot;assetsBasePath&quot;:&quot;https:\/\/abs.twimg.com\/a\/1467868637\/&quot;,&quot;assetVersionKey&quot;:&quot;19ac14&quot;,&quot;environment&quot;:&quot;production&quot;,&quot;formAuthenticityToken&quot;:&quot;d9466969931b6b5c0bef128791eec5cc7011115b&quot;,&quot;loggedIn&quot;:false,&quot;softUserLoggedIn&quot;:false,&quot;screenName&quot;:null,&quot;fullName&quot;:null,&quot;userId&quot;:null,&quot;guestId&quot;:&quot;146791999393370673&quot;,&quot;allowAdsPersonalization&quot;:true,&quot;scribeBufferSize&quot;:3,&quot;pageName&quot;:&quot;permalink&quot;,&quot;sectionName&quot;:&quot;permalink&quot;,&quot;scribeParameters&quot;:{},&quot;recaptchaApiUrl&quot;:&quot;https:\/\/www.google.com\/recaptcha\/api\/js\/recaptcha_ajax.js&quot;,&quot;internalReferer&quot;:null,&quot;geoEnabled&quot;:false,&quot;typeaheadData&quot;:{&quot;accounts&quot;:{&quot;enabled&quot;:true,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;limit&quot;:6},&quot;trendLocations&quot;:{&quot;enabled&quot;:true},&quot;dmConversations&quot;:{&quot;enabled&quot;:false},&quot;savedSearches&quot;:{&quot;enabled&quot;:false,&quot;items&quot;:[]},&quot;dmAccounts&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:false,&quot;onlyDMable&quot;:true},&quot;mediaTagAccounts&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:true,&quot;remoteQueriesEnabled&quot;:false,&quot;onlyShowUsersWithCanMediaTag&quot;:false,&quot;currentUserId&quot;:-1},&quot;selectedUsers&quot;:{&quot;enabled&quot;:false},&quot;prefillUsers&quot;:{&quot;enabled&quot;:false},&quot;topics&quot;:{&quot;enabled&quot;:true,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;prefetchLimit&quot;:500,&quot;limit&quot;:4},&quot;concierge&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:false,&quot;prefetchLimit&quot;:500,&quot;limit&quot;:6},&quot;recentSearches&quot;:{&quot;enabled&quot;:false},&quot;hashtags&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;prefetchLimit&quot;:500},&quot;useIndexedDB&quot;:false,&quot;showSearchAccountSocialContext&quot;:false,&quot;showDebugInfo&quot;:false,&quot;useThrottle&quot;:true,&quot;accountsOnTop&quot;:false,&quot;remoteDebounceInterval&quot;:300,&quot;remoteThrottleInterval&quot;:300,&quot;tweetContextEnabled&quot;:false,&quot;fullNameMatchingInCompose&quot;:true,&quot;topicsWithFiltersEnabled&quot;:false},&quot;dm&quot;:{&quot;notifications&quot;:false,&quot;usePushForNotifications&quot;:false,&quot;participant_max&quot;:50,&quot;video_gif_render&quot;:true,&quot;video_gif_upload&quot;:true,&quot;twitter_video_player&quot;:true,&quot;typing_indicators_publish&quot;:false,&quot;poll_options&quot;:{&quot;foreground_poll_interval&quot;:3000,&quot;burst_poll_interval&quot;:3000,&quot;burst_poll_duration&quot;:300000,&quot;max_poll_interval&quot;:60000}},&quot;whitelistedVideoUser&quot;:false,&quot;autoplayDisabled&quot;:false,&quot;pushStatePageLimit&quot;:500000,&quot;routes&quot;:{&quot;profile&quot;:&quot;\/&quot;},&quot;pushState&quot;:true,&quot;viewContainer&quot;:&quot;#page-container&quot;,&quot;dragAndDropPhotoUpload&quot;:true,&quot;href&quot;:&quot;\/ericclemmons\/status\/749223563790471169&quot;,&quot;searchPathWithQuery&quot;:&quot;\/search?q=query&amp;src=typd&quot;,&quot;timelineCardsGallery&quot;:true,&quot;composeAltText&quot;:false,&quot;deciders&quot;:{&quot;bulkUnfollowEnabled&quot;:true,&quot;custom_timeline_curation&quot;:false,&quot;moment_maker_enabled&quot;:false,&quot;disable_profile_popup&quot;:false,&quot;native_notifications&quot;:true,&quot;dm_polling_frequency_in_seconds&quot;:3000,&quot;enable_media_tag_prefetch&quot;:true,&quot;foundMediaTrendingEnabled&quot;:false,&quot;enableMacawNymizerConversionLanding&quot;:false,&quot;hqImageUploads&quot;:false,&quot;largeHeaderImageUpload&quot;:true,&quot;live_pipeline_consume&quot;:false,&quot;mqImageUploads&quot;:false,&quot;partnerIdSyncEnabled&quot;:true,&quot;sruMediaCategory&quot;:true,&quot;photoSruGifLimitMb&quot;:5,&quot;promoted_video_logging_enabled&quot;:true,&quot;pushState&quot;:true,&quot;scribeReducedActionQueue&quot;:true,&quot;smartInfiniteScroll&quot;:false,&quot;useHtml5Webcam&quot;:true,&quot;hideLeadingMentions&quot;:false,&quot;web_perftown_stats&quot;:true,&quot;web_perftown_ttft&quot;:true,&quot;web_sru_stats&quot;:false,&quot;web_upload_direct&quot;:true,&quot;web_upload_video&quot;:true,&quot;web_upload_video_advanced&quot;:false,&quot;upload_video_size&quot;:500,&quot;defaultVideoDuration&quot;:45,&quot;maxVideoDuration&quot;:140,&quot;internationalShippingEnabled&quot;:true,&quot;useV2EndpointsEnabled&quot;:true,&quot;useVmapVariants&quot;:false,&quot;autoplayPreviewPreroll&quot;:true,&quot;moments_lohp_enabled&quot;:true,&quot;momentsExperienceEnabled&quot;:true,&quot;enableNativePush&quot;:false,&quot;installNativePush&quot;:false,&quot;autoSubscribeNativePush&quot;:false,&quot;stickersInteractivity&quot;:true,&quot;stickersInteractivityDuringLoading&quot;:true,&quot;stickersExperience&quot;:true,&quot;dynamic_video_ads_include_long_videos&quot;:true,&quot;push_state_size&quot;:1000,&quot;canBeSoftUser&quot;:false,&quot;isInSoftExperiment&quot;:false},&quot;experiments&quot;:{},&quot;toasts_dm&quot;:false,&quot;toasts_spoonbill&quot;:false,&quot;toasts_timeline&quot;:false,&quot;toasts_dm_poll_scale&quot;:60,&quot;defaultNotificationIcon&quot;:&quot;https:\/\/abs.twimg.com\/a\/1467868637\/img\/t1\/mobile\/wp7_app_icon.png&quot;,&quot;uploadDomain&quot;:&quot;upload.twitter.com&quot;,&quot;promptbirdData&quot;:{&quot;promptbirdEnabled&quot;:false,&quot;immediateTriggers&quot;:[&quot;PullToRefresh&quot;,&quot;Navigate&quot;],&quot;format&quot;:null},&quot;passwordResetAdvancedLoginForm&quot;:true,&quot;skipAutoSignupDialog&quot;:true,&quot;shouldReplaceSignupWithLogin&quot;:false,&quot;hashflagBaseUrl&quot;:&quot;https:\/\/abs.twimg.com\/hashflags\/&quot;,&quot;activeHashflags&quot;:{&quot;المسافر&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;سفرة_الصيف&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;mémoirededory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;whitejersey&quot;:&quot;TDF2016\/WhiteJersey.png&quot;,&quot;bacphysique&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;togetherstronger&quot;:&quot;EurosFootball2016\/Wales.png&quot;,&quot;ger&quot;:&quot;EurosFootball2016\/Germany.png&quot;,&quot;meinestimme&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;bacst2s&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;اقترعت&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;immerwiederoesterreich&quot;:&quot;EurosFootball2016\/Austria.png&quot;,&quot;一站到底&quot;:&quot;JSBCI\/JSBCI_emoji.png&quot;,&quot;كل_عام_وأنتم_بخير&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;bacpro&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;سافر_الحين_وادفع_بعدين&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;queensyoungleaders&quot;:&quot;Queenat90\/Queenat90.png&quot;,&quot;tdf&quot;:&quot;TDF2016\/TDF.png&quot;,&quot;bacstmg&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;maillotjaunelcl&quot;:&quot;TDF2016\/YellowJersey.png&quot;,&quot;periscope&quot;:&quot;Periscope\/Periscope.png&quot;,&quot;cblol&quot;:&quot;CBLoL\/CBLoL.png&quot;,&quot;bethefastest&quot;:&quot;EmojiVirgin\/EmojiVirgin.png&quot;,&quot;jederfuerjeden&quot;:&quot;EurosFootball2016\/Germany.png&quot;,&quot;abfabmovie&quot;:&quot;AbFabMovie\/AbFabMovie.png&quot;,&quot;yoenunvw&quot;:&quot;Volkswagen\/YoEnUnVW.png&quot;,&quot;lovetwitter&quot;:&quot;LoveTwitter\/LoveTwitter.png&quot;,&quot;ifoodnomengão&quot;:&quot;iFoodBrazil\/flamengo.png&quot;,&quot;badisbred&quot;:&quot;AnimalKingdom_Deliver\/BadisBred.png&quot;,&quot;arabianoud&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;عطور_عربية&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;admis&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;عيد&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;weareamerica&quot;:&quot;AdCouncilEmoji\/AdCouncilEmoji_Original.png&quot;,&quot;cervantes400&quot;:&quot;CervantesEmoji\/cervantes-emoji.png&quot;,&quot;maillotapoiscarrefour&quot;:&quot;TDF2016\/PolkaDotJersey.png&quot;,&quot;hovotato&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;eid&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;seleçãoeuro&quot;:&quot;EuroNoSporTV\/EuroNoSporTV.png&quot;,&quot;япроголосовал(а)&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;sienteelsabor&quot;:&quot;CocaCola\/SienteElSabor.png&quot;,&quot;bacfrançais&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;gawa&quot;:&quot;EurosFootball2016\/NorthernIreland.png&quot;,&quot;احساس&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;teamdelta&quot;:&quot;VoiceAU\/TeamDelta.png&quot;,&quot;hun&quot;:&quot;EurosFootball2016\/Hungary.png&quot;,&quot;مضاوي&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;bacsti2d&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;wimbledon&quot;:&quot;Wimbledon2016\/Wimbledon.png&quot;,&quot;yellowjersey&quot;:&quot;TDF2016\/YellowJersey.png&quot;,&quot;buscandoadory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;vivelamannschaft&quot;:&quot;Mercedes\/Mercedes.png&quot;,&quot;maillotapois&quot;:&quot;TDF2016\/PolkaDotJersey.png&quot;,&quot;bacanglais&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;1of11million&quot;:&quot;EurosFootball2016\/Portugal.png&quot;,&quot;jaivoté&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;ঈদ&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;ঈদ_মোবারক&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;golive&quot;:&quot;goLIVE2016\/goLIVE.png&quot;,&quot;everycharactermatters&quot;:&quot;EveryCharacterMatters\/EveryCharacterMatters.png&quot;,&quot;bachistoiregeographie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;whosstillstanding&quot;:&quot;JSBCI\/JSBCI_emoji.png&quot;,&quot;我已投票&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;euro2016&quot;:&quot;EurosFootball2016\/trophy.png&quot;,&quot;bacsvt&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;twitterstaryarasky&quot;:&quot;TwitterstarYarasky\/TwitterstarYarasky.png&quot;,&quot;thesecretlifeofmypet&quot;:&quot;Universal\/SecretLifeOfPets.png&quot;,&quot;momentodory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;thesecretlifeofpets&quot;:&quot;Universal\/SecretLifeOfPets.png&quot;,&quot;fazerdiferente&quot;:&quot;TIM\/emoji_tim_final_3.png&quot;,&quot;tousenfrance&quot;:&quot;EurosFootball2016\/Belgium.png&quot;,&quot;400cervantes&quot;:&quot;CervantesEmoji\/cervantes-emoji.png&quot;,&quot;bacsthr&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;maillotblanc&quot;:&quot;TDF2016\/WhiteJersey.png&quot;,&quot;jaimonbac&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;isl&quot;:&quot;EurosFootball2016\/Iceland.png&quot;,&quot;bizbittidemedenbitmez&quot;:&quot;EurosFootball2016\/Turkey.png&quot;,&quot;ceskarepre&quot;:&quot;EurosFootball2016\/CzechRepublic.png&quot;,&quot;lemondededory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;sui&quot;:&quot;EurosFootball2016\/Switzerland.png&quot;,&quot;svk&quot;:&quot;EurosFootball2016\/Slovakia.png&quot;,&quot;تطبيق_المسافر_للحجوزات&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;bactmd&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;عيد_مبارك&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;투표했어요&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;euronosportv&quot;:&quot;EuroNoSporTV\/EuroNoSporTV.png&quot;,&quot;allezlasuisse&quot;:&quot;EurosFootball2016\/Switzerland.png&quot;,&quot;timchef&quot;:&quot;TIMChef\/emoji_masterchef.png&quot;,&quot;rumoaorio&quot;:&quot;100Days\/100Days.png&quot;,&quot;однакоманда&quot;:&quot;EurosFootball2016\/Russia.png&quot;,&quot;nir&quot;:&quot;EurosFootball2016\/NorthernIreland.png&quot;,&quot;aut&quot;:&quot;EurosFootball2016\/Austria.png&quot;,&quot;bachistoire&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;عيد_الفطر&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;وودي&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;csakegyutt&quot;:&quot;EurosFootball2016\/Hungary.png&quot;,&quot;تطبيق_المسافر&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;tdf2016&quot;:&quot;TDF2016\/TDF.png&quot;,&quot;aidilfitri&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;bacphilo&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacphysiquechimie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;твоязбірна&quot;:&quot;EurosFootball2016\/Ukraine.png&quot;,&quot;eng&quot;:&quot;EurosFootball2016\/England.png&quot;,&quot;chamaolimpica&quot;:&quot;OlympicTorch_Emoji\/OlympicTorch.png&quot;,&quot;presidentduterte&quot;:&quot;PresidentDuterte\/PHVoteDuterte.png&quot;,&quot;ivoted&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;teamronan&quot;:&quot;VoiceAU\/TeamRonan.png&quot;,&quot;rus&quot;:&quot;EurosFootball2016\/Russia.png&quot;,&quot;olympicflame&quot;:&quot;OlympicTorch_Emoji\/OlympicTorch.png&quot;,&quot;iameuro&quot;:&quot;UnibetAustralia\/soccer.png&quot;,&quot;ifoodnomengao&quot;:&quot;iFoodBrazil\/flamengo.png&quot;,&quot;happybirthdayyourmajesty&quot;:&quot;Queenat90\/Queenat90.png&quot;,&quot;alb&quot;:&quot;EurosFootball2016\/Albania.png&quot;,&quot;thequeue&quot;:&quot;Wimbledon2016\/TheQueue.png&quot;,&quot;rou&quot;:&quot;EurosFootball2016\/Romania.png&quot;,&quot;eidulfitr&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;badmoms&quot;:&quot;Universal_BadMoms_Emoji\/BadMoms.png&quot;,&quot;findingdory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;greenjersey&quot;:&quot;TDF2016\/GreenJersey.png&quot;,&quot;صقر&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;bacallemand&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;polkadotjersey&quot;:&quot;TDF2016\/PolkaDotJersey.png&quot;,&quot;الفارس&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;teamjessiej&quot;:&quot;VoiceAU\/TeamJessieJ.png&quot;,&quot;bumotoako&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;twittersparkle&quot;:&quot;TwitterSparkle\/TwitterSparkle.png&quot;,&quot;justkeepswimming&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;maillotvertskoda&quot;:&quot;TDF2016\/GreenJersey.png&quot;,&quot;ita&quot;:&quot;EurosFootball2016\/Italy.png&quot;,&quot;ramazan_bayramı&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;idulfitri&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;vivoazzurro&quot;:&quot;EurosFootball2016\/Italy.png&quot;,&quot;resultatsbac&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacitalien&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;لمسة&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;سناب_المسافر_دايما_مسافر&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;maillotblanckrys&quot;:&quot;TDF2016\/WhiteJersey.png&quot;,&quot;origin&quot;:&quot;StateOfOrigin\/Origin.png&quot;,&quot;bacfrancais&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bachotellerie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;thehill&quot;:&quot;Wimbledon2016\/TheHill.png&quot;,&quot;hairomania&quot;:&quot;EurosFootball2016\/Romania.png&quot;,&quot;admise&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;yarasky&quot;:&quot;TwitterstarYarasky\/TwitterstarYarasky.png&quot;,&quot;maillotvert&quot;:&quot;TDF2016\/GreenJersey.png&quot;,&quot;yovote&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;qlder&quot;:&quot;StateOfOrigin\/QLDER.png&quot;,&quot;رسالة&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;energia&quot;:&quot;JBalvinNew\/JBalvinNew.png&quot;,&quot;انا_المسافر&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;rumboario&quot;:&quot;100Days\/100Days.png&quot;,&quot;queenat90&quot;:&quot;Queenat90\/Queenat90.png&quot;,&quot;overdadeirosabor&quot;:&quot;Hellmanns\/emoji_hellmans.png&quot;,&quot;baces&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacmaths&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;سافر_بالتقسيط&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;とと姉ちゃん&quot;:&quot;NHKMorningDrama\/NHKMorningDrama.png&quot;,&quot;harirayaaidilfitri&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;yovoté&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;eidmubarak&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;togetherforengland&quot;:&quot;EurosFootball2016\/England.png&quot;,&quot;łączynaspolska&quot;:&quot;EurosFootball2016\/Poland.png&quot;,&quot;bachôtellerie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacs&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacstav&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;nowyoucan&quot;:&quot;SkyNow\/SKYNowYouCan.png&quot;,&quot;trovadory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;tur&quot;:&quot;EurosFootball2016\/Turkey.png&quot;,&quot;roadtorio&quot;:&quot;100Days\/100Days.png&quot;,&quot;bacses&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacstl&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;lebaran&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;wal&quot;:&quot;EurosFootball2016\/Wales.png&quot;,&quot;bacespagnol&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bel&quot;:&quot;EurosFootball2016\/Belgium.png&quot;,&quot;bacstd2a&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;fiersdetrebleus&quot;:&quot;EurosFootball2016\/France.png&quot;,&quot;cze&quot;:&quot;EurosFootball2016\/CzechRepublic.png&quot;,&quot;pol&quot;:&quot;EurosFootball2016\/Poland.png&quot;,&quot;العربية_للعود&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;résultatsbac&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;budiponosan&quot;:&quot;EurosFootball2016\/Croatia.png&quot;,&quot;fandimespolu&quot;:&quot;EurosFootball2016\/Slovakia.png&quot;,&quot;thisbudsforyou&quot;:&quot;Bud_Emoji\/Bud.png&quot;,&quot;icaucused&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;ukr&quot;:&quot;EurosFootball2016\/Ukraine.png&quot;,&quot;esp&quot;:&quot;EurosFootball2016\/Spain.png&quot;,&quot;makethefuture&quot;:&quot;Shell_Emoji\/ShellLightbulb.png&quot;,&quot;cro&quot;:&quot;EurosFootball2016\/Croatia.png&quot;,&quot;irl&quot;:&quot;EurosFootball2016\/ROIreland.png&quot;,&quot;lovehasnolabels&quot;:&quot;AdCouncilEmoji\/AdCouncilEmoji_Original.png&quot;,&quot;vamosespaña&quot;:&quot;EurosFootball2016\/Spain.png&quot;,&quot;bacl&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;選挙に行こう&quot;:&quot;JapanUpperHouseElection\/JapanUpperHouseElection.png&quot;,&quot;uptheblues&quot;:&quot;StateOfOrigin\/UpTheBlues.png&quot;,&quot;sharkweek&quot;:&quot;SharkWeekEmoji\/SharkWeek_Original.png&quot;,&quot;por&quot;:&quot;EurosFootball2016\/Portugal.png&quot;,&quot;teammadden&quot;:&quot;VoiceAU\/TeamMadden.png&quot;,&quot;swe&quot;:&quot;EurosFootball2016\/Sweden.png&quot;,&quot;bac2016&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;maillotjaune&quot;:&quot;TDF2016\/YellowJersey.png&quot;,&quot;fra&quot;:&quot;EurosFootball2016\/France.png&quot;,&quot;coybig&quot;:&quot;EurosFootball2016\/ROIreland.png&quot;},&quot;tweetId&quot;:&quot;749223563790471169&quot;,&quot;profile_id&quot;:14457722,&quot;endpoint&quot;:&quot;\/i\/ericclemmons\/conversation\/749223563790471169&quot;,&quot;overlayCapable&quot;:false,&quot;finagleTraceId&quot;:&quot;00adef3d003fba28&quot;,&quot;isThreaded&quot;:true,&quot;inOverlay&quot;:true,&quot;trendsCacheKey&quot;:null,&quot;decider_personalized_trends&quot;:false,&quot;trendsEndpoint&quot;:&quot;\/i\/trends&quot;,&quot;initialState&quot;:{&quot;title&quot;:&quot;Eric Clemmons on Twitter: \&quot;\ud83d\udd25 Clean up @github issues with the HTML5 \u003cdetails\u003e tag \u2013\u00a0https:\/\/t.co\/poNw69GO9s https:\/\/t.co\/QEXZgk4LJx\&quot;&quot;,&quot;section&quot;:null,&quot;module&quot;:&quot;app\/pages\/permalink&quot;,&quot;cache_ttl&quot;:300,&quot;body_class_names&quot;:&quot;three-col logged-out user-style-ericclemmons PermalinkPage&quot;,&quot;doc_class_names&quot;:&quot;route-permalink&quot;,&quot;route_name&quot;:&quot;permalink&quot;,&quot;page_container_class_names&quot;:&quot;AppContent wrapper wrapper-permalink&quot;,&quot;ttft_navigation&quot;:false}}">
 
   
 
@@ -100,13 +100,13 @@ a.getAttribute("contenteditable")=="true"}var a=(new Date).getTime(),b=1e4,c=/^(
   <input type="hidden" id="swift-module-path" value="https://abs.twimg.com/c/swift/en">
 
   
-    <script src="https://abs.twimg.com/c/swift/en/init.29c3a0df2b43f1d37652558c26a6283319888da2.js" async></script>
+    <script src="https://abs.twimg.com/c/swift/en/init.1425172875c93495a3f5e1b7561615e0f9a8919a.js" async></script>
 
   </head>
   <body class="three-col logged-out user-style-ericclemmons PermalinkPage" 
 data-fouc-class-names="swift-loading"
  dir="ltr">
-      <script id="swift_loading_indicator" nonce="FpjUgtHAs7RaxjCc+DzWGA==">
+      <script id="swift_loading_indicator" nonce="+flYbeBegxuhEPmqvgDo5w==">
         document.body.className=document.body.className+" "+document.body.getAttribute("data-fouc-class-names");
       </script>
 
@@ -320,7 +320,7 @@ data-fouc-class-names="swift-loading"
       <div class="js-front-language">
         <form action="/sessions/change_locale" class="t1-form language" method="POST">
           <input type="hidden" name="lang"> <input type="hidden" name="redirect">
-          <input type="hidden" name="authenticity_token" value="d4e157adbc5cd9db4f257f55510624bb440726ba">
+          <input type="hidden" name="authenticity_token" value="d9466969931b6b5c0bef128791eec5cc7011115b">
         </form>
       </div>
     </li>
@@ -368,9 +368,7 @@ data-fouc-class-names="swift-loading"
 
   <input type="hidden" name="scribe_log">
   <input type="hidden" name="redirect_after_login" value="/ericclemmons/status/749223563790471169">
-  <input type="hidden" value="d4e157adbc5cd9db4f257f55510624bb440726ba" name="authenticity_token">
-      <input type="hidden" name="ui_metrics" autocomplete="off">
-      <script src="/i/js_inst?c_name=ui_metrics" async></script>
+  <input type="hidden" value="d9466969931b6b5c0bef128791eec5cc7011115b" name="authenticity_token">
 </form>
 
               <hr>
@@ -1836,9 +1834,7 @@ s,
 
   <input type="hidden" name="scribe_log">
   <input type="hidden" name="redirect_after_login" value="/ericclemmons/status/749223563790471169">
-  <input type="hidden" value="d4e157adbc5cd9db4f257f55510624bb440726ba" name="authenticity_token">
-      <input type="hidden" name="ui_metrics" autocomplete="off">
-      <script src="/i/js_inst?c_name=ui_metrics" async></script>
+  <input type="hidden" value="d9466969931b6b5c0bef128791eec5cc7011115b" name="authenticity_token">
 </form>
         </div>
       </div>
@@ -2138,6 +2134,10 @@ s,
   <div role="main" class="permalink light-inline-actions  stream-uncapped has-replies original-permalink-page">
     
 <div class="TweetArrows">
+    <a href="/ericclemmons/status/749686722351423488" class="TweetArrow-previous js-nav">
+      <span class="visuallyhidden">Previous Tweet</span>
+      <span class="Icon Icon--caretLeft"></span>
+    </a>
     <a href="/ericclemmons/status/748547306425884673" class="TweetArrow-next js-nav">
       <span class="visuallyhidden">Next Tweet</span>
       <span class="Icon Icon--caretRight"></span>
@@ -2254,7 +2254,7 @@ data-disclosure-type=""
 
             
             <small class="time">
-  <a href="/ericclemmons/status/749223563790471169" class="tweet-timestamp js-permalink js-nav js-tooltip" title="5:49 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467463792" data-time-ms="1467463792000" data-long-form="true" aria-hidden="true">8h</span><span class="u-hiddenVisually" data-aria-label-part="last">8 hours ago</span></a>
+  <a href="/ericclemmons/status/749223563790471169" class="tweet-timestamp js-permalink js-nav js-tooltip" title="5:49 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467463792" data-time-ms="1467463792000" data-long-form="true">Jul 2</span></a>
 </small>
 
           </div>
@@ -2316,53 +2316,53 @@ data-disclosure-type=""
 <ul class="stats" aria-label="Retweeted and favorited by">
     <li class="js-stat-count js-stat-retweets stat-count" aria-hidden="true">
       <a tabindex=0 role="button"
-        data-tweet-stat-count="654" 
-        data-compact-localized-count="654"
+        data-tweet-stat-count="1535" 
+        data-compact-localized-count="1.5K"
         class="request-retweeted-popup"
-        data-activity-popup-title="654 retweets">
+        data-activity-popup-title="1,535 retweets">
           
-          Retweets <strong>654</strong>
+          Retweets <strong>1,535</strong>
       </a>
     </li>
 
     <li class="js-stat-count js-stat-favorites stat-count" aria-hidden="true">
       <a tabindex=0 role="button"
-         data-tweet-stat-count="759" 
-         data-compact-localized-count="759"
+         data-tweet-stat-count="1928" 
+         data-compact-localized-count="1.9K"
          class="request-favorited-popup"
-         data-activity-popup-title="759 likes">
+         data-activity-popup-title="1,928 likes">
           
-          Likes <strong>759</strong>
+          Likes <strong>1,928</strong>
       </a>
     </li>
 
   <li class="avatar-row js-face-pile-container">
-      <a class="js-profile-popup-actionable js-tooltip" href="/charbelrami" data-user-id="2358889099" original-title="Charbel Rami" title="Charbel Rami">
-  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/626145922876108801/dGaHlXne_normal.jpg" alt="Charbel Rami">
+      <a class="js-profile-popup-actionable js-tooltip" href="/josealquicirah" data-user-id="629818445" original-title="José Alquicira" title="José Alquicira">
+  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/599100994690121728/1fdqwCvX_normal.jpg" alt="José Alquicira">
 </a>
-      <a class="js-profile-popup-actionable js-tooltip" href="/p_chambino" data-user-id="306893238" original-title="Pedro Chambino" title="Pedro Chambino">
-  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/459855311541526528/FOp1fi5s_normal.jpeg" alt="Pedro Chambino">
+      <a class="js-profile-popup-actionable js-tooltip" href="/chintsradia" data-user-id="163124571" original-title="Chintan Radia" title="Chintan Radia">
+  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/478072488811712512/lfKxnMrs_normal.jpeg" alt="Chintan Radia">
 </a>
-      <a class="js-profile-popup-actionable js-tooltip" href="/tptee" data-user-id="49495858" original-title="Tyler Thompson" title="Tyler Thompson">
-  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/486695766396661761/gg-v_1lU_normal.png" alt="Tyler Thompson">
+      <a class="js-profile-popup-actionable js-tooltip" href="/hanneyg" data-user-id="15776532" original-title="Hanney Gonna" title="Hanney Gonna">
+  <img class="avatar size24 js-user-profile-link" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_normal.png" alt="Hanney Gonna">
 </a>
-      <a class="js-profile-popup-actionable js-tooltip" href="/tak0303" data-user-id="149875404" original-title="takashi" title="takashi">
-  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/378800000006634009/9d6a211bed401c5eedb09a8fff006e8a_normal.jpeg" alt="takashi">
+      <a class="js-profile-popup-actionable js-tooltip" href="/hartzis" data-user-id="935914832" original-title="Brian Emil Hartz" title="Brian Emil Hartz">
+  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/2825283890/074adb8af10fa8dd7973145aa3e49d72_normal.jpeg" alt="Brian Emil Hartz">
 </a>
-      <a class="js-profile-popup-actionable js-tooltip" href="/lee_jarvis" data-user-id="137640366" original-title="Lee Jarvis" title="Lee Jarvis">
-  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/660029201106518016/L6cKLO5q_normal.jpg" alt="Lee Jarvis">
+      <a class="js-profile-popup-actionable js-tooltip" href="/liammiddlebrook" data-user-id="349449012" original-title="Liam Middlebrook" title="Liam Middlebrook">
+  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/487664173455667200/CAQ7pRGx_normal.jpeg" alt="Liam Middlebrook">
 </a>
-      <a class="js-profile-popup-actionable js-tooltip" href="/Jlndk" data-user-id="768285559" original-title="Jonas L. Nielsen" title="Jonas L. Nielsen">
-  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/651529462752739328/EO1q4tyf_normal.jpg" alt="Jonas L. Nielsen">
+      <a class="js-profile-popup-actionable js-tooltip" href="/cathrobins" data-user-id="156308228" original-title="Dzhodi Taker" title="Dzhodi Taker">
+  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/749652437582094336/Ou9vuiBq_normal.jpg" alt="Dzhodi Taker">
 </a>
-      <a class="js-profile-popup-actionable js-tooltip" href="/ahfarmer" data-user-id="50124456" original-title="Andrew H Farmer" title="Andrew H Farmer">
-  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/378800000647155869/ef273453d44f3c9c24cf3258fb43b991_normal.jpeg" alt="Andrew H Farmer">
+      <a class="js-profile-popup-actionable js-tooltip" href="/Ms_2DamGud87" data-user-id="2186492183" original-title="Megan Timmons" title="Megan Timmons">
+  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/749630955829227520/EHWyC7jF_normal.jpg" alt="Megan Timmons">
 </a>
-      <a class="js-profile-popup-actionable js-tooltip" href="/lifeasecond" data-user-id="183637061" original-title="Artur Parkhisenko" title="Artur Parkhisenko">
-  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/550753354465300480/nZJrUuYT_normal.jpeg" alt="Artur Parkhisenko">
+      <a class="js-profile-popup-actionable js-tooltip" href="/annalouiserob" data-user-id="4010440943" original-title="Anna Roberts" title="Anna Roberts">
+  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/732232437779042305/AnBaolHy_normal.jpg" alt="Anna Roberts">
 </a>
-      <a class="js-profile-popup-actionable js-tooltip" href="/monkeysort" data-user-id="324643061" original-title="Derek" title="Derek">
-  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/1499310937/monkey_small_normal.png" alt="Derek">
+      <a class="js-profile-popup-actionable js-tooltip" href="/halvves" data-user-id="2845330473" original-title="Cody" title="Cody">
+  <img class="avatar size24 js-user-profile-link" src="https://pbs.twimg.com/profile_images/702021077900386304/TbRHSpvl_normal.jpg" alt="Cody">
 </a>
   </li>
 </ul>
@@ -2392,13 +2392,13 @@ data-disclosure-type=""
     <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
     <span class="ProfileTweet-action--retweet u-hiddenVisually">
       
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="654">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>654 retweets</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="1535">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>1,535 retweets</span>
       </span>
     </span>
     <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="759">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>759 likes</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="1928">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>1,928 likes</span>
       </span>
     </span>
   </div>
@@ -2425,7 +2425,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">654</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">1.5K</span>
         </span>
       </div>
   </button><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
@@ -2435,7 +2435,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">654</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">1.5K</span>
         </span>
       </div>
   </button>
@@ -2451,7 +2451,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">759</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">1.9K</span>
         </span>
       </div>
   </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
@@ -2463,7 +2463,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">759</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">1.9K</span>
         </span>
       </div>
   </button>
@@ -2518,7 +2518,7 @@ data-disclosure-type=""
     <div class="tweets-wrapper">
       <div id="descendants" class="ThreadedDescendants">
           <div class="stream-container  "
-    data-max-position="" data-min-position=""
+    data-max-position="" data-min-position="AfDWhQjYZQoAgBYrE_xlCgGAV0sDIGYKAZAUJvPuZQoBENfD_MhlCgAgVNiMJGYKADAVy3aIZwoAEJdAxcllCgDwljj5x2UKARAX34P2ZQoAEFdS28dlCgBgl3_ynmoKAHCUAAejZgo"
     >
 
     <div class="stream">
@@ -2615,7 +2615,7 @@ data-disclosure-type=""
   </a>
 
         <small class="time">
-  <a href="/nekrtemplar/status/749242444143849473" class="tweet-timestamp js-permalink js-nav js-tooltip" title="7:04 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467468293" data-time-ms="1467468293000" data-long-form="true" aria-hidden="true">7h</span><span class="u-hiddenVisually" data-aria-label-part="last">7 hours ago</span></a>
+  <a href="/nekrtemplar/status/749242444143849473" class="tweet-timestamp js-permalink js-nav js-tooltip" title="7:04 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467468293" data-time-ms="1467468293000" data-long-form="true">Jul 2</span></a>
 </small>
 
           
@@ -2625,237 +2625,6 @@ data-disclosure-type=""
       
         <div class="js-tweet-text-container">
   <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/rauchg" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="15540222" ><s>@</s><b>rauchg</b></a> since when <a href="/github" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="13334762" ><s>@</s><b>github</b></a> supports HTML tags in markup?</p>
-</div>
-
-
-
-
-      
-        
-
-      
-      
-
-      
-      <div class="stream-item-footer">
-  
-        <div class="ProfileTweet-actionCountList u-hiddenVisually">
-    
-    <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
-    <span class="ProfileTweet-action--retweet u-hiddenVisually">
-      
-      <span class="ProfileTweet-actionCount" aria-hidden="true" data-tweet-stat-count="0">
-        <span class="ProfileTweet-actionCountForAria" >0 retweets</span>
-      </span>
-    </span>
-    <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount" aria-hidden="true" data-tweet-stat-count="0">
-        <span class="ProfileTweet-actionCountForAria" >0 likes</span>
-      </span>
-    </span>
-  </div>
-
-    <div class="ProfileTweet-actionList js-actions" role="group" aria-label="Tweet actions">
-        <div class="ProfileTweet-action ProfileTweet-action--reply">
-  <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionReply"
-    data-modal="ProfileTweet-reply"
-    type="button">
-    <div class="IconContainer js-tooltip" title="Reply">
-      <span class="Icon Icon--reply"></span>
-      <span class="u-hiddenVisually">Reply</span>
-    </div>
-  </button>
-</div>
-        <div class="ProfileTweet-action ProfileTweet-action--retweet js-toggleState js-toggleRt">
-  <button class="ProfileTweet-actionButton  js-actionButton js-actionRetweet"
-    
-    data-modal="ProfileTweet-retweet"
-    type="button">
-    <div class="IconContainer js-tooltip" title="Retweet">
-      <span class="Icon Icon--retweet"></span>
-      <span class="u-hiddenVisually">Retweet</span>
-    </div>
-      <div class="IconTextContainer">
-        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
-        </span>
-      </div>
-  </button><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
-    <div class="IconContainer js-tooltip" title="Undo retweet">
-      <span class="Icon Icon--retweet"></span>
-      <span class="u-hiddenVisually">Retweeted</span>
-    </div>
-      <div class="IconTextContainer">
-        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
-        </span>
-      </div>
-  </button>
-</div>
-
-      <div class="ProfileTweet-action ProfileTweet-action--favorite js-toggleState">
-  <button class="ProfileTweet-actionButton js-actionButton js-actionFavorite" type="button">
-    <div class="IconContainer js-tooltip" title="Like">
-      <div class="HeartAnimationContainer">
-        <div class="HeartAnimation"></div>
-      </div>
-      <span class="u-hiddenVisually">Like</span>
-    </div>
-      <div class="IconTextContainer">
-        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
-        </span>
-      </div>
-  </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
-    <div class="IconContainer js-tooltip" title="Undo like">
-      <div class="HeartAnimationContainer">
-        <div class="HeartAnimation"></div>
-      </div>
-      <span class="u-hiddenVisually">Liked</span>
-    </div>
-      <div class="IconTextContainer">
-        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
-        </span>
-      </div>
-  </button>
-</div>
-
-      
-
-
-        <div class="ProfileTweet-action ProfileTweet-action--more js-more-ProfileTweet-actions">
-    <div class="dropdown">
-  <button class="ProfileTweet-actionButton u-textUserColorHover dropdown-toggle js-dropdown-toggle" type="button">
-      <div class="IconContainer js-tooltip" title="More">
-        <span class="Icon Icon--dots"></span>
-        <span class="u-hiddenVisually">More</span>
-      </div>
-  </button>
-  <div class="dropdown-menu">
-  <div class="dropdown-caret">
-    <div class="caret-outer"></div>
-    <div class="caret-inner"></div>
-  </div>
-  <ul>
-    
-      <li class="copy-link-to-tweet js-actionCopyLinkToTweet">
-        <button type="button" class="dropdown-link">Copy link to Tweet</button>
-      </li>
-      <li class="embed-link js-actionEmbedTweet" data-nav="embed_tweet">
-        <button type="button" class="dropdown-link">Embed Tweet</button>
-      </li>
-  </ul>
-</div>
-
-</div>
-
-  </div>
-
-    </div>
-
-</div>
-  
-
-
-
-      
-      
-
-    </div>
-  </div>
-
-
-</li>
-
-        </div>
-
-        <div class="ThreadedConversation-tweet ">
-            <li class="js-stream-item stream-item stream-item
-" data-item-id="749242999448612867" id="stream-item-tweet-749242999448612867" data-item-type="tweet">
-    
-
-
-  
-
-  <div class="tweet js-stream-tweet js-actionable-tweet js-profile-popup-actionable
-      
-      
-       descendant permalink-descendant-tweet
-"
-      
-data-tweet-id="749242999448612867"
-data-item-id="749242999448612867"
-data-permalink-path="/ericclemmons/status/749242999448612867"
-
- data-has-parent-tweet="true" 
-
-
-
-
-
-
-  data-screen-name="ericclemmons" data-name="Eric Clemmons" data-user-id="14457722"
-  data-you-follow="false"
-  data-follows-you="false"
-  data-you-block="false"
- data-mentions="nekrtemplar rauchg"
-
-
-
-
-
-
-
-
-data-disclosure-type=""
-
-
-
-
-
-
-
-
-
-
-
-
-
- data-component-context="replies"
-
-
-    >
-
-
-    <div class="context">
-      
-      
-    </div>
-
-    <div class="content">
-      
-
-      
-      <div class="stream-item-header">
-          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/ericclemmons" data-user-id="14457722">
-    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/617160371216842752/TQ_Bfpkz_bigger.png" alt="">
-    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Eric Clemmons</strong>
-    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>ericclemmons</b></span>
-    
-  </a>
-
-        <small class="time">
-  <a href="/ericclemmons/status/749242999448612867" class="tweet-timestamp js-permalink js-nav js-tooltip" title="7:07 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467468425" data-time-ms="1467468425000" data-long-form="true" aria-hidden="true">7h</span><span class="u-hiddenVisually" data-aria-label-part="last">7 hours ago</span></a>
-</small>
-
-          
-          
-      </div>
-
-      
-        <div class="js-tweet-text-container">
-  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/nekrtemplar" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="520709369" ><s>@</s><b>nekrtemplar</b></a> <a href="/rauchg" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="15540222" ><s>@</s><b>rauchg</b></a> IIRC markdown supports normal markup. GitHub strips script and style tags, I think.</p>
 </div>
 
 
@@ -3001,6 +2770,237 @@ data-disclosure-type=""
 
         </div>
 
+        <div class="ThreadedConversation-tweet ">
+            <li class="js-stream-item stream-item stream-item
+" data-item-id="749242999448612867" id="stream-item-tweet-749242999448612867" data-item-type="tweet">
+    
+
+
+  
+
+  <div class="tweet js-stream-tweet js-actionable-tweet js-profile-popup-actionable
+      
+      
+       descendant permalink-descendant-tweet
+"
+      
+data-tweet-id="749242999448612867"
+data-item-id="749242999448612867"
+data-permalink-path="/ericclemmons/status/749242999448612867"
+
+ data-has-parent-tweet="true" 
+
+
+
+
+
+
+  data-screen-name="ericclemmons" data-name="Eric Clemmons" data-user-id="14457722"
+  data-you-follow="false"
+  data-follows-you="false"
+  data-you-block="false"
+ data-mentions="nekrtemplar rauchg"
+
+
+
+
+
+
+
+
+data-disclosure-type=""
+
+
+
+
+
+
+
+
+
+
+
+
+
+ data-component-context="replies"
+
+
+    >
+
+
+    <div class="context">
+      
+      
+    </div>
+
+    <div class="content">
+      
+
+      
+      <div class="stream-item-header">
+          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/ericclemmons" data-user-id="14457722">
+    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/617160371216842752/TQ_Bfpkz_bigger.png" alt="">
+    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Eric Clemmons</strong>
+    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>ericclemmons</b></span>
+    
+  </a>
+
+        <small class="time">
+  <a href="/ericclemmons/status/749242999448612867" class="tweet-timestamp js-permalink js-nav js-tooltip" title="7:07 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467468425" data-time-ms="1467468425000" data-long-form="true">Jul 2</span></a>
+</small>
+
+          
+          
+      </div>
+
+      
+        <div class="js-tweet-text-container">
+  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/nekrtemplar" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="520709369" ><s>@</s><b>nekrtemplar</b></a> <a href="/rauchg" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="15540222" ><s>@</s><b>rauchg</b></a> IIRC markdown supports normal markup. GitHub strips script and style tags, I think.</p>
+</div>
+
+
+
+
+      
+        
+
+      
+      
+
+      
+      <div class="stream-item-footer">
+  
+        <div class="ProfileTweet-actionCountList u-hiddenVisually">
+    
+    <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
+    <span class="ProfileTweet-action--retweet u-hiddenVisually">
+      
+      <span class="ProfileTweet-actionCount" aria-hidden="true" data-tweet-stat-count="0">
+        <span class="ProfileTweet-actionCountForAria" >0 retweets</span>
+      </span>
+    </span>
+    <span class="ProfileTweet-action--favorite u-hiddenVisually">
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="4">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>4 likes</span>
+      </span>
+    </span>
+  </div>
+
+    <div class="ProfileTweet-actionList js-actions" role="group" aria-label="Tweet actions">
+        <div class="ProfileTweet-action ProfileTweet-action--reply">
+  <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionReply"
+    data-modal="ProfileTweet-reply"
+    type="button">
+    <div class="IconContainer js-tooltip" title="Reply">
+      <span class="Icon Icon--reply"></span>
+      <span class="u-hiddenVisually">Reply</span>
+    </div>
+  </button>
+</div>
+        <div class="ProfileTweet-action ProfileTweet-action--retweet js-toggleState js-toggleRt">
+  <button class="ProfileTweet-actionButton  js-actionButton js-actionRetweet"
+    
+    data-modal="ProfileTweet-retweet"
+    type="button">
+    <div class="IconContainer js-tooltip" title="Retweet">
+      <span class="Icon Icon--retweet"></span>
+      <span class="u-hiddenVisually">Retweet</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
+        </span>
+      </div>
+  </button><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
+    <div class="IconContainer js-tooltip" title="Undo retweet">
+      <span class="Icon Icon--retweet"></span>
+      <span class="u-hiddenVisually">Retweeted</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
+        </span>
+      </div>
+  </button>
+</div>
+
+      <div class="ProfileTweet-action ProfileTweet-action--favorite js-toggleState">
+  <button class="ProfileTweet-actionButton js-actionButton js-actionFavorite" type="button">
+    <div class="IconContainer js-tooltip" title="Like">
+      <div class="HeartAnimationContainer">
+        <div class="HeartAnimation"></div>
+      </div>
+      <span class="u-hiddenVisually">Like</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">4</span>
+        </span>
+      </div>
+  </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
+    <div class="IconContainer js-tooltip" title="Undo like">
+      <div class="HeartAnimationContainer">
+        <div class="HeartAnimation"></div>
+      </div>
+      <span class="u-hiddenVisually">Liked</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">4</span>
+        </span>
+      </div>
+  </button>
+</div>
+
+      
+
+
+        <div class="ProfileTweet-action ProfileTweet-action--more js-more-ProfileTweet-actions">
+    <div class="dropdown">
+  <button class="ProfileTweet-actionButton u-textUserColorHover dropdown-toggle js-dropdown-toggle" type="button">
+      <div class="IconContainer js-tooltip" title="More">
+        <span class="Icon Icon--dots"></span>
+        <span class="u-hiddenVisually">More</span>
+      </div>
+  </button>
+  <div class="dropdown-menu">
+  <div class="dropdown-caret">
+    <div class="caret-outer"></div>
+    <div class="caret-inner"></div>
+  </div>
+  <ul>
+    
+      <li class="copy-link-to-tweet js-actionCopyLinkToTweet">
+        <button type="button" class="dropdown-link">Copy link to Tweet</button>
+      </li>
+      <li class="embed-link js-actionEmbedTweet" data-nav="embed_tweet">
+        <button type="button" class="dropdown-link">Embed Tweet</button>
+      </li>
+  </ul>
+</div>
+
+</div>
+
+  </div>
+
+    </div>
+
+</div>
+  
+
+
+
+      
+      
+
+    </div>
+  </div>
+
+
+</li>
+
+        </div>
+
         <div class="ThreadedConversation-tweet last">
             <li class="js-stream-item stream-item stream-item
 " data-item-id="749323606430068736" id="stream-item-tweet-749323606430068736" data-item-type="tweet">
@@ -3077,7 +3077,7 @@ data-disclosure-type=""
   </a>
 
         <small class="time">
-  <a href="/rauchg/status/749323606430068736" class="tweet-timestamp js-permalink js-nav js-tooltip" title="12:27 PM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467487644" data-time-ms="1467487644000" data-long-form="true" aria-hidden="true">1h</span><span class="u-hiddenVisually" data-aria-label-part="last">1 hour ago</span></a>
+  <a href="/rauchg/status/749323606430068736" class="tweet-timestamp js-permalink js-nav js-tooltip" title="12:27 PM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467487644" data-time-ms="1467487644000" data-long-form="true">Jul 2</span></a>
 </small>
 
             <span class="Tweet-geo u-floatRight js-tooltip" title="San Francisco, CA">
@@ -3117,8 +3117,8 @@ data-disclosure-type=""
       </span>
     </span>
     <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="1">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>1 like</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="6">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>6 likes</span>
       </span>
     </span>
   </div>
@@ -3171,7 +3171,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">1</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">6</span>
         </span>
       </div>
   </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
@@ -3183,7 +3183,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">1</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">6</span>
         </span>
       </div>
   </button>
@@ -3320,7 +3320,7 @@ data-disclosure-type=""
   </a>
 
         <small class="time">
-  <a href="/benwatkinsart/status/749282072284528640" class="tweet-timestamp js-permalink js-nav js-tooltip" title="9:42 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467477741" data-time-ms="1467477741000" data-long-form="true" aria-hidden="true">4h</span><span class="u-hiddenVisually" data-aria-label-part="last">4 hours ago</span></a>
+  <a href="/benwatkinsart/status/749282072284528640" class="tweet-timestamp js-permalink js-nav js-tooltip" title="9:42 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467477741" data-time-ms="1467477741000" data-long-form="true">Jul 2</span></a>
 </small>
 
           
@@ -3551,7 +3551,7 @@ data-disclosure-type=""
   </a>
 
         <small class="time">
-  <a href="/ericclemmons/status/749283475669127168" class="tweet-timestamp js-permalink js-nav js-tooltip" title="9:47 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467478076" data-time-ms="1467478076000" data-long-form="true" aria-hidden="true">4h</span><span class="u-hiddenVisually" data-aria-label-part="last">4 hours ago</span></a>
+  <a href="/ericclemmons/status/749283475669127168" class="tweet-timestamp js-permalink js-nav js-tooltip" title="9:47 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467478076" data-time-ms="1467478076000" data-long-form="true">Jul 2</span></a>
 </small>
 
           
@@ -3783,7 +3783,7 @@ data-disclosure-type=""
   </a>
 
         <small class="time">
-  <a href="/benwatkinsart/status/749283833749573633" class="tweet-timestamp js-permalink js-nav js-tooltip" title="9:49 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467478161" data-time-ms="1467478161000" data-long-form="true" aria-hidden="true">4h</span><span class="u-hiddenVisually" data-aria-label-part="last">4 hours ago</span></a>
+  <a href="/benwatkinsart/status/749283833749573633" class="tweet-timestamp js-permalink js-nav js-tooltip" title="9:49 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467478161" data-time-ms="1467478161000" data-long-form="true">Jul 2</span></a>
 </small>
 
           
@@ -3793,6 +3793,243 @@ data-disclosure-type=""
       
         <div class="js-tweet-text-container">
   <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/Real_CSS_Tricks" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="285019665" ><s>@</s><b>Real_CSS_Tricks</b></a> <a href="/github" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="13334762" ><s>@</s><b>github</b></a> it&#39;s a shame they don&#39;t just give up and make chrome the default for Windows</p>
+</div>
+
+
+
+
+      
+        
+
+      
+      
+
+      
+      <div class="stream-item-footer">
+  
+        <div class="ProfileTweet-actionCountList u-hiddenVisually">
+    
+    <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
+    <span class="ProfileTweet-action--retweet u-hiddenVisually">
+      
+      <span class="ProfileTweet-actionCount" aria-hidden="true" data-tweet-stat-count="0">
+        <span class="ProfileTweet-actionCountForAria" >0 retweets</span>
+      </span>
+    </span>
+    <span class="ProfileTweet-action--favorite u-hiddenVisually">
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="2">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>2 likes</span>
+      </span>
+    </span>
+  </div>
+
+    <div class="ProfileTweet-actionList js-actions" role="group" aria-label="Tweet actions">
+        <div class="ProfileTweet-action ProfileTweet-action--reply">
+  <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionReply"
+    data-modal="ProfileTweet-reply"
+    type="button">
+    <div class="IconContainer js-tooltip" title="Reply">
+      <span class="Icon Icon--reply"></span>
+      <span class="u-hiddenVisually">Reply</span>
+    </div>
+  </button>
+</div>
+        <div class="ProfileTweet-action ProfileTweet-action--retweet js-toggleState js-toggleRt">
+  <button class="ProfileTweet-actionButton  js-actionButton js-actionRetweet"
+    
+    data-modal="ProfileTweet-retweet"
+    type="button">
+    <div class="IconContainer js-tooltip" title="Retweet">
+      <span class="Icon Icon--retweet"></span>
+      <span class="u-hiddenVisually">Retweet</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
+        </span>
+      </div>
+  </button><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
+    <div class="IconContainer js-tooltip" title="Undo retweet">
+      <span class="Icon Icon--retweet"></span>
+      <span class="u-hiddenVisually">Retweeted</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
+        </span>
+      </div>
+  </button>
+</div>
+
+      <div class="ProfileTweet-action ProfileTweet-action--favorite js-toggleState">
+  <button class="ProfileTweet-actionButton js-actionButton js-actionFavorite" type="button">
+    <div class="IconContainer js-tooltip" title="Like">
+      <div class="HeartAnimationContainer">
+        <div class="HeartAnimation"></div>
+      </div>
+      <span class="u-hiddenVisually">Like</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">2</span>
+        </span>
+      </div>
+  </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
+    <div class="IconContainer js-tooltip" title="Undo like">
+      <div class="HeartAnimationContainer">
+        <div class="HeartAnimation"></div>
+      </div>
+      <span class="u-hiddenVisually">Liked</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">2</span>
+        </span>
+      </div>
+  </button>
+</div>
+
+      
+
+
+        <div class="ProfileTweet-action ProfileTweet-action--more js-more-ProfileTweet-actions">
+    <div class="dropdown">
+  <button class="ProfileTweet-actionButton u-textUserColorHover dropdown-toggle js-dropdown-toggle" type="button">
+      <div class="IconContainer js-tooltip" title="More">
+        <span class="Icon Icon--dots"></span>
+        <span class="u-hiddenVisually">More</span>
+      </div>
+  </button>
+  <div class="dropdown-menu">
+  <div class="dropdown-caret">
+    <div class="caret-outer"></div>
+    <div class="caret-inner"></div>
+  </div>
+  <ul>
+    
+      <li class="copy-link-to-tweet js-actionCopyLinkToTweet">
+        <button type="button" class="dropdown-link">Copy link to Tweet</button>
+      </li>
+      <li class="embed-link js-actionEmbedTweet" data-nav="embed_tweet">
+        <button type="button" class="dropdown-link">Embed Tweet</button>
+      </li>
+  </ul>
+</div>
+
+</div>
+
+  </div>
+
+    </div>
+
+</div>
+  
+
+
+
+      
+      
+
+    </div>
+  </div>
+
+
+</li>
+
+        </div>
+
+
+  </ol>
+</li>
+
+    <li class="ThreadedConversation">
+  <ol class="stream-items">
+        <div class="ThreadedConversation-tweet ">
+            <li class="js-stream-item stream-item stream-item
+" data-item-id="749321586524782593" id="stream-item-tweet-749321586524782593" data-item-type="tweet">
+    
+
+
+  
+
+  <div class="tweet js-stream-tweet js-actionable-tweet js-profile-popup-actionable
+      
+      
+       descendant permalink-descendant-tweet
+"
+      
+data-tweet-id="749321586524782593"
+data-item-id="749321586524782593"
+data-permalink-path="/jjarmoc/status/749321586524782593"
+
+ data-has-parent-tweet="true" 
+
+
+
+
+
+
+  data-screen-name="jjarmoc" data-name="Jeff Jarmoc" data-user-id="17021413"
+  data-you-follow="false"
+  data-follows-you="false"
+  data-you-block="false"
+ data-mentions="ericclemmons indutny"
+
+
+
+
+
+
+
+
+data-disclosure-type=""
+
+
+
+
+
+
+
+
+
+
+
+
+
+ data-component-context="replies"
+
+
+    >
+
+
+    <div class="context">
+      
+      
+    </div>
+
+    <div class="content">
+      
+
+      
+      <div class="stream-item-header">
+          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/jjarmoc" data-user-id="17021413">
+    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/644920535571263489/4tGhVPsQ_bigger.jpg" alt="">
+    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Jeff Jarmoc</strong>
+    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>jjarmoc</b></span>
+    
+  </a>
+
+        <small class="time">
+  <a href="/jjarmoc/status/749321586524782593" class="tweet-timestamp js-permalink js-nav js-tooltip" title="12:19 PM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467487162" data-time-ms="1467487162000" data-long-form="true">Jul 2</span></a>
+</small>
+
+          
+          
+      </div>
+
+      
+        <div class="js-tweet-text-container">
+  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/indutny" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="92915570" ><s>@</s><b>indutny</b></a> too bad IE/Edge don&#39;t support, and despite claims Firefox shows them always open.  <a href="https://t.co/yQBREnVjt1" rel="nofollow" dir="ltr" data-expanded-url="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details" class="twitter-timeline-link" target="_blank" title="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details" ><span class="tco-ellipsis"></span><span class="invisible">https://</span><span class="js-display-url">developer.mozilla.org/en-US/docs/Web</span><span class="invisible">/HTML/Element/details</span><span class="tco-ellipsis"><span class="invisible">&nbsp;</span>…</span></a></p>
 </div>
 
 
@@ -3938,6 +4175,237 @@ data-disclosure-type=""
 
         </div>
 
+        <div class="ThreadedConversation-tweet last">
+            <li class="js-stream-item stream-item stream-item
+" data-item-id="749639560083017728" id="stream-item-tweet-749639560083017728" data-item-type="tweet">
+    
+
+
+  
+
+  <div class="tweet js-stream-tweet js-actionable-tweet js-profile-popup-actionable
+      
+      
+       descendant permalink-descendant-tweet
+"
+      
+data-tweet-id="749639560083017728"
+data-item-id="749639560083017728"
+data-permalink-path="/kevinmarks/status/749639560083017728"
+
+ data-has-parent-tweet="true" 
+
+
+
+
+
+
+  data-screen-name="kevinmarks" data-name="Kevin Marks" data-user-id="57203"
+  data-you-follow="false"
+  data-follows-you="false"
+  data-you-block="false"
+ data-mentions="jjarmoc ericclemmons indutny"
+
+
+
+
+
+
+
+
+data-disclosure-type=""
+
+
+
+
+
+
+
+
+
+
+
+
+
+ data-component-context="replies"
+
+
+    >
+
+
+    <div class="context">
+      
+      
+    </div>
+
+    <div class="content">
+      
+
+      
+      <div class="stream-item-header">
+          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/kevinmarks" data-user-id="57203">
+    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/553009683087114240/tU5HkXEI_bigger.jpeg" alt="">
+    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Kevin Marks</strong>
+    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>kevinmarks</b></span>
+    
+  </a>
+
+        <small class="time">
+  <a href="/kevinmarks/status/749639560083017728" class="tweet-timestamp js-permalink js-nav js-tooltip" title="9:22 AM - 3 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467562973" data-time-ms="1467562973000" data-long-form="true">Jul 3</span></a>
+</small>
+
+          
+          
+      </div>
+
+      
+        <div class="js-tweet-text-container">
+  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/jjarmoc" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="17021413" ><s>@</s><b>jjarmoc</b></a> <a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/indutny" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="92915570" ><s>@</s><b>indutny</b></a> oddly this makes it a natural responsive tool - mobile browsers collapse it, ie and ff don&#39;t</p>
+</div>
+
+
+
+
+      
+        
+
+      
+      
+
+      
+      <div class="stream-item-footer">
+  
+        <div class="ProfileTweet-actionCountList u-hiddenVisually">
+    
+    <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
+    <span class="ProfileTweet-action--retweet u-hiddenVisually">
+      
+      <span class="ProfileTweet-actionCount" aria-hidden="true" data-tweet-stat-count="0">
+        <span class="ProfileTweet-actionCountForAria" >0 retweets</span>
+      </span>
+    </span>
+    <span class="ProfileTweet-action--favorite u-hiddenVisually">
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="2">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>2 likes</span>
+      </span>
+    </span>
+  </div>
+
+    <div class="ProfileTweet-actionList js-actions" role="group" aria-label="Tweet actions">
+        <div class="ProfileTweet-action ProfileTweet-action--reply">
+  <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionReply"
+    data-modal="ProfileTweet-reply"
+    type="button">
+    <div class="IconContainer js-tooltip" title="Reply">
+      <span class="Icon Icon--reply"></span>
+      <span class="u-hiddenVisually">Reply</span>
+    </div>
+  </button>
+</div>
+        <div class="ProfileTweet-action ProfileTweet-action--retweet js-toggleState js-toggleRt">
+  <button class="ProfileTweet-actionButton  js-actionButton js-actionRetweet"
+    
+    data-modal="ProfileTweet-retweet"
+    type="button">
+    <div class="IconContainer js-tooltip" title="Retweet">
+      <span class="Icon Icon--retweet"></span>
+      <span class="u-hiddenVisually">Retweet</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
+        </span>
+      </div>
+  </button><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
+    <div class="IconContainer js-tooltip" title="Undo retweet">
+      <span class="Icon Icon--retweet"></span>
+      <span class="u-hiddenVisually">Retweeted</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
+        </span>
+      </div>
+  </button>
+</div>
+
+      <div class="ProfileTweet-action ProfileTweet-action--favorite js-toggleState">
+  <button class="ProfileTweet-actionButton js-actionButton js-actionFavorite" type="button">
+    <div class="IconContainer js-tooltip" title="Like">
+      <div class="HeartAnimationContainer">
+        <div class="HeartAnimation"></div>
+      </div>
+      <span class="u-hiddenVisually">Like</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">2</span>
+        </span>
+      </div>
+  </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
+    <div class="IconContainer js-tooltip" title="Undo like">
+      <div class="HeartAnimationContainer">
+        <div class="HeartAnimation"></div>
+      </div>
+      <span class="u-hiddenVisually">Liked</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">2</span>
+        </span>
+      </div>
+  </button>
+</div>
+
+      
+
+
+        <div class="ProfileTweet-action ProfileTweet-action--more js-more-ProfileTweet-actions">
+    <div class="dropdown">
+  <button class="ProfileTweet-actionButton u-textUserColorHover dropdown-toggle js-dropdown-toggle" type="button">
+      <div class="IconContainer js-tooltip" title="More">
+        <span class="Icon Icon--dots"></span>
+        <span class="u-hiddenVisually">More</span>
+      </div>
+  </button>
+  <div class="dropdown-menu">
+  <div class="dropdown-caret">
+    <div class="caret-outer"></div>
+    <div class="caret-inner"></div>
+  </div>
+  <ul>
+    
+      <li class="copy-link-to-tweet js-actionCopyLinkToTweet">
+        <button type="button" class="dropdown-link">Copy link to Tweet</button>
+      </li>
+      <li class="embed-link js-actionEmbedTweet" data-nav="embed_tweet">
+        <button type="button" class="dropdown-link">Embed Tweet</button>
+      </li>
+  </ul>
+</div>
+
+</div>
+
+  </div>
+
+    </div>
+
+</div>
+  
+
+
+
+      
+      
+
+    </div>
+  </div>
+
+
+</li>
+
+        </div>
+
 
   </ol>
 </li>
@@ -4018,7 +4486,7 @@ data-disclosure-type=""
   </a>
 
         <small class="time">
-  <a href="/thejameskyle/status/749267641110401025" class="tweet-timestamp js-permalink js-nav js-tooltip" title="8:45 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467474301" data-time-ms="1467474301000" data-long-form="true" aria-hidden="true">5h</span><span class="u-hiddenVisually" data-aria-label-part="last">5 hours ago</span></a>
+  <a href="/thejameskyle/status/749267641110401025" class="tweet-timestamp js-permalink js-nav js-tooltip" title="8:45 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467474301" data-time-ms="1467474301000" data-long-form="true">Jul 2</span></a>
 </small>
 
             <span class="Tweet-geo u-floatRight js-tooltip" title="San Francisco, CA">
@@ -4198,7 +4666,7 @@ data-disclosure-type=""
       </div>
       <div class="ThreadedConversation--loneTweet">
         <li class="js-stream-item stream-item stream-item
-" data-item-id="749321586524782593" id="stream-item-tweet-749321586524782593" data-item-type="tweet">
+" data-item-id="749225900970020865" id="stream-item-tweet-749225900970020865" data-item-type="tweet">
     
 
 
@@ -4210,9 +4678,9 @@ data-disclosure-type=""
        descendant permalink-descendant-tweet
 "
       
-data-tweet-id="749321586524782593"
-data-item-id="749321586524782593"
-data-permalink-path="/jjarmoc/status/749321586524782593"
+data-tweet-id="749225900970020865"
+data-item-id="749225900970020865"
+data-permalink-path="/YurySoloviov/status/749225900970020865"
 
  data-has-parent-tweet="true" 
 
@@ -4221,11 +4689,11 @@ data-permalink-path="/jjarmoc/status/749321586524782593"
 
 
 
-  data-screen-name="jjarmoc" data-name="Jeff Jarmoc" data-user-id="17021413"
+  data-screen-name="YurySoloviov" data-name="Yury Soloviov" data-user-id="738887839"
   data-you-follow="false"
   data-follows-you="false"
   data-you-block="false"
- data-mentions="ericclemmons indutny"
+ data-mentions="ericclemmons domenic github"
 
 
 
@@ -4264,15 +4732,15 @@ data-disclosure-type=""
 
       
       <div class="stream-item-header">
-          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/jjarmoc" data-user-id="17021413">
-    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/644920535571263489/4tGhVPsQ_bigger.jpg" alt="">
-    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Jeff Jarmoc</strong>
-    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>jjarmoc</b></span>
+          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/YurySoloviov" data-user-id="738887839">
+    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/452503279323594752/Vo-Unnhd_bigger.jpeg" alt="">
+    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Yury Soloviov</strong>
+    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>YurySoloviov</b></span>
     
   </a>
 
         <small class="time">
-  <a href="/jjarmoc/status/749321586524782593" class="tweet-timestamp js-permalink js-nav js-tooltip" title="12:19 PM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467487162" data-time-ms="1467487162000" data-long-form="true" aria-hidden="true">2h</span><span class="u-hiddenVisually" data-aria-label-part="last">2 hours ago</span></a>
+  <a href="/YurySoloviov/status/749225900970020865" class="tweet-timestamp js-permalink js-nav js-tooltip" title="5:59 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467464349" data-time-ms="1467464349000" data-long-form="true">Jul 2</span></a>
 </small>
 
           
@@ -4281,7 +4749,705 @@ data-disclosure-type=""
 
       
         <div class="js-tweet-text-container">
-  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/indutny" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="92915570" ><s>@</s><b>indutny</b></a> too bad IE/Edge don&#39;t support, and despite claims Firefox shows them always open.  <a href="https://t.co/yQBREnVjt1" rel="nofollow" dir="ltr" data-expanded-url="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details" class="twitter-timeline-link" target="_blank" title="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details" ><span class="tco-ellipsis"></span><span class="invisible">https://</span><span class="js-display-url">developer.mozilla.org/en-US/docs/Web</span><span class="invisible">/HTML/Element/details</span><span class="tco-ellipsis"><span class="invisible">&nbsp;</span>…</span></a></p>
+  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/domenic" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="30968081" ><s>@</s><b>domenic</b></a> <a href="/github" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="13334762" ><s>@</s><b>github</b></a> I wish threre was a `spoiler` md tag or something...</p>
+</div>
+
+
+
+
+      
+        
+
+      
+      
+
+      
+      <div class="stream-item-footer">
+  
+        <div class="ProfileTweet-actionCountList u-hiddenVisually">
+    
+    <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
+    <span class="ProfileTweet-action--retweet u-hiddenVisually">
+      
+      <span class="ProfileTweet-actionCount" aria-hidden="true" data-tweet-stat-count="0">
+        <span class="ProfileTweet-actionCountForAria" >0 retweets</span>
+      </span>
+    </span>
+    <span class="ProfileTweet-action--favorite u-hiddenVisually">
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="3">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>3 likes</span>
+      </span>
+    </span>
+  </div>
+
+    <div class="ProfileTweet-actionList js-actions" role="group" aria-label="Tweet actions">
+        <div class="ProfileTweet-action ProfileTweet-action--reply">
+  <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionReply"
+    data-modal="ProfileTweet-reply"
+    type="button">
+    <div class="IconContainer js-tooltip" title="Reply">
+      <span class="Icon Icon--reply"></span>
+      <span class="u-hiddenVisually">Reply</span>
+    </div>
+  </button>
+</div>
+        <div class="ProfileTweet-action ProfileTweet-action--retweet js-toggleState js-toggleRt">
+  <button class="ProfileTweet-actionButton  js-actionButton js-actionRetweet"
+    
+    data-modal="ProfileTweet-retweet"
+    type="button">
+    <div class="IconContainer js-tooltip" title="Retweet">
+      <span class="Icon Icon--retweet"></span>
+      <span class="u-hiddenVisually">Retweet</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
+        </span>
+      </div>
+  </button><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
+    <div class="IconContainer js-tooltip" title="Undo retweet">
+      <span class="Icon Icon--retweet"></span>
+      <span class="u-hiddenVisually">Retweeted</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
+        </span>
+      </div>
+  </button>
+</div>
+
+      <div class="ProfileTweet-action ProfileTweet-action--favorite js-toggleState">
+  <button class="ProfileTweet-actionButton js-actionButton js-actionFavorite" type="button">
+    <div class="IconContainer js-tooltip" title="Like">
+      <div class="HeartAnimationContainer">
+        <div class="HeartAnimation"></div>
+      </div>
+      <span class="u-hiddenVisually">Like</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">3</span>
+        </span>
+      </div>
+  </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
+    <div class="IconContainer js-tooltip" title="Undo like">
+      <div class="HeartAnimationContainer">
+        <div class="HeartAnimation"></div>
+      </div>
+      <span class="u-hiddenVisually">Liked</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">3</span>
+        </span>
+      </div>
+  </button>
+</div>
+
+      
+
+
+        <div class="ProfileTweet-action ProfileTweet-action--more js-more-ProfileTweet-actions">
+    <div class="dropdown">
+  <button class="ProfileTweet-actionButton u-textUserColorHover dropdown-toggle js-dropdown-toggle" type="button">
+      <div class="IconContainer js-tooltip" title="More">
+        <span class="Icon Icon--dots"></span>
+        <span class="u-hiddenVisually">More</span>
+      </div>
+  </button>
+  <div class="dropdown-menu">
+  <div class="dropdown-caret">
+    <div class="caret-outer"></div>
+    <div class="caret-inner"></div>
+  </div>
+  <ul>
+    
+      <li class="copy-link-to-tweet js-actionCopyLinkToTweet">
+        <button type="button" class="dropdown-link">Copy link to Tweet</button>
+      </li>
+      <li class="embed-link js-actionEmbedTweet" data-nav="embed_tweet">
+        <button type="button" class="dropdown-link">Embed Tweet</button>
+      </li>
+  </ul>
+</div>
+
+</div>
+
+  </div>
+
+    </div>
+
+</div>
+  
+
+
+
+      
+      
+
+    </div>
+  </div>
+
+
+</li>
+
+      </div>
+    <li class="ThreadedConversation">
+  <ol class="stream-items">
+        <div class="ThreadedConversation-tweet ">
+            <li class="js-stream-item stream-item stream-item
+" data-item-id="749326575347179520" id="stream-item-tweet-749326575347179520" data-item-type="tweet">
+    
+
+
+  
+
+  <div class="tweet js-stream-tweet js-actionable-tweet js-profile-popup-actionable
+      
+      
+       descendant permalink-descendant-tweet
+"
+      
+data-tweet-id="749326575347179520"
+data-item-id="749326575347179520"
+data-permalink-path="/jacobmischka/status/749326575347179520"
+
+ data-has-parent-tweet="true" 
+
+
+
+
+
+
+  data-screen-name="jacobmischka" data-name="Jacob Mischka" data-user-id="60276477"
+  data-you-follow="false"
+  data-follows-you="false"
+  data-you-block="false"
+ data-mentions="ericclemmons github"
+
+
+
+
+
+
+
+
+data-disclosure-type=""
+
+
+
+
+
+
+
+
+
+
+
+
+
+ data-component-context="replies"
+
+
+    >
+
+
+    <div class="context">
+      
+      
+    </div>
+
+    <div class="content">
+      
+
+      
+      <div class="stream-item-header">
+          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/jacobmischka" data-user-id="60276477">
+    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/669316152946855936/10UB_miL_bigger.jpg" alt="">
+    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Jacob Mischka</strong>
+    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>jacobmischka</b></span>
+    
+  </a>
+
+        <small class="time">
+  <a href="/jacobmischka/status/749326575347179520" class="tweet-timestamp js-permalink js-nav js-tooltip" title="12:39 PM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467488352" data-time-ms="1467488352000" data-long-form="true">Jul 2</span></a>
+</small>
+
+          
+          
+      </div>
+
+      
+        <div class="js-tweet-text-container">
+  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/github" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="13334762" ><s>@</s><b>github</b></a> I honestly didn&#39;t know embedded html worked at all in gfm</p>
+</div>
+
+
+
+
+      
+        
+
+      
+      
+
+      
+      <div class="stream-item-footer">
+  
+        <div class="ProfileTweet-actionCountList u-hiddenVisually">
+    
+    <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
+    <span class="ProfileTweet-action--retweet u-hiddenVisually">
+      
+      <span class="ProfileTweet-actionCount" aria-hidden="true" data-tweet-stat-count="0">
+        <span class="ProfileTweet-actionCountForAria" >0 retweets</span>
+      </span>
+    </span>
+    <span class="ProfileTweet-action--favorite u-hiddenVisually">
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="1">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>1 like</span>
+      </span>
+    </span>
+  </div>
+
+    <div class="ProfileTweet-actionList js-actions" role="group" aria-label="Tweet actions">
+        <div class="ProfileTweet-action ProfileTweet-action--reply">
+  <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionReply"
+    data-modal="ProfileTweet-reply"
+    type="button">
+    <div class="IconContainer js-tooltip" title="Reply">
+      <span class="Icon Icon--reply"></span>
+      <span class="u-hiddenVisually">Reply</span>
+    </div>
+  </button>
+</div>
+        <div class="ProfileTweet-action ProfileTweet-action--retweet js-toggleState js-toggleRt">
+  <button class="ProfileTweet-actionButton  js-actionButton js-actionRetweet"
+    
+    data-modal="ProfileTweet-retweet"
+    type="button">
+    <div class="IconContainer js-tooltip" title="Retweet">
+      <span class="Icon Icon--retweet"></span>
+      <span class="u-hiddenVisually">Retweet</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
+        </span>
+      </div>
+  </button><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
+    <div class="IconContainer js-tooltip" title="Undo retweet">
+      <span class="Icon Icon--retweet"></span>
+      <span class="u-hiddenVisually">Retweeted</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
+        </span>
+      </div>
+  </button>
+</div>
+
+      <div class="ProfileTweet-action ProfileTweet-action--favorite js-toggleState">
+  <button class="ProfileTweet-actionButton js-actionButton js-actionFavorite" type="button">
+    <div class="IconContainer js-tooltip" title="Like">
+      <div class="HeartAnimationContainer">
+        <div class="HeartAnimation"></div>
+      </div>
+      <span class="u-hiddenVisually">Like</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">1</span>
+        </span>
+      </div>
+  </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
+    <div class="IconContainer js-tooltip" title="Undo like">
+      <div class="HeartAnimationContainer">
+        <div class="HeartAnimation"></div>
+      </div>
+      <span class="u-hiddenVisually">Liked</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">1</span>
+        </span>
+      </div>
+  </button>
+</div>
+
+      
+
+
+        <div class="ProfileTweet-action ProfileTweet-action--more js-more-ProfileTweet-actions">
+    <div class="dropdown">
+  <button class="ProfileTweet-actionButton u-textUserColorHover dropdown-toggle js-dropdown-toggle" type="button">
+      <div class="IconContainer js-tooltip" title="More">
+        <span class="Icon Icon--dots"></span>
+        <span class="u-hiddenVisually">More</span>
+      </div>
+  </button>
+  <div class="dropdown-menu">
+  <div class="dropdown-caret">
+    <div class="caret-outer"></div>
+    <div class="caret-inner"></div>
+  </div>
+  <ul>
+    
+      <li class="copy-link-to-tweet js-actionCopyLinkToTweet">
+        <button type="button" class="dropdown-link">Copy link to Tweet</button>
+      </li>
+      <li class="embed-link js-actionEmbedTweet" data-nav="embed_tweet">
+        <button type="button" class="dropdown-link">Embed Tweet</button>
+      </li>
+  </ul>
+</div>
+
+</div>
+
+  </div>
+
+    </div>
+
+</div>
+  
+
+
+
+      
+      
+
+    </div>
+  </div>
+
+
+</li>
+
+        </div>
+
+        <div class="ThreadedConversation-tweet last">
+            <li class="js-stream-item stream-item stream-item
+" data-item-id="749326882907103232" id="stream-item-tweet-749326882907103232" data-item-type="tweet">
+    
+
+
+  
+
+  <div class="tweet js-stream-tweet js-actionable-tweet js-profile-popup-actionable
+      
+      
+       descendant permalink-descendant-tweet
+"
+      
+data-tweet-id="749326882907103232"
+data-item-id="749326882907103232"
+data-permalink-path="/jacobmischka/status/749326882907103232"
+
+ data-has-parent-tweet="true" 
+
+
+
+
+
+
+  data-screen-name="jacobmischka" data-name="Jacob Mischka" data-user-id="60276477"
+  data-you-follow="false"
+  data-follows-you="false"
+  data-you-block="false"
+ data-mentions="ericclemmons github"
+
+
+
+
+
+
+
+
+data-disclosure-type=""
+
+
+
+
+
+
+
+
+
+
+
+
+
+ data-component-context="replies"
+
+
+    >
+
+
+    <div class="context">
+      
+      
+    </div>
+
+    <div class="content">
+      
+
+      
+      <div class="stream-item-header">
+          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/jacobmischka" data-user-id="60276477">
+    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/669316152946855936/10UB_miL_bigger.jpg" alt="">
+    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Jacob Mischka</strong>
+    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>jacobmischka</b></span>
+    
+  </a>
+
+        <small class="time">
+  <a href="/jacobmischka/status/749326882907103232" class="tweet-timestamp js-permalink js-nav js-tooltip" title="12:40 PM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467488425" data-time-ms="1467488425000" data-long-form="true">Jul 2</span></a>
+</small>
+
+          
+          
+      </div>
+
+      
+        <div class="js-tweet-text-container">
+  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/github" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="13334762" ><s>@</s><b>github</b></a> on github i mean, I knew it works in gfm elsewhere</p>
+</div>
+
+
+
+
+      
+        
+
+      
+      
+
+      
+      <div class="stream-item-footer">
+  
+        <div class="ProfileTweet-actionCountList u-hiddenVisually">
+    
+    <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
+    <span class="ProfileTweet-action--retweet u-hiddenVisually">
+      
+      <span class="ProfileTweet-actionCount" aria-hidden="true" data-tweet-stat-count="0">
+        <span class="ProfileTweet-actionCountForAria" >0 retweets</span>
+      </span>
+    </span>
+    <span class="ProfileTweet-action--favorite u-hiddenVisually">
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="1">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>1 like</span>
+      </span>
+    </span>
+  </div>
+
+    <div class="ProfileTweet-actionList js-actions" role="group" aria-label="Tweet actions">
+        <div class="ProfileTweet-action ProfileTweet-action--reply">
+  <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionReply"
+    data-modal="ProfileTweet-reply"
+    type="button">
+    <div class="IconContainer js-tooltip" title="Reply">
+      <span class="Icon Icon--reply"></span>
+      <span class="u-hiddenVisually">Reply</span>
+    </div>
+  </button>
+</div>
+        <div class="ProfileTweet-action ProfileTweet-action--retweet js-toggleState js-toggleRt">
+  <button class="ProfileTweet-actionButton  js-actionButton js-actionRetweet"
+    
+    data-modal="ProfileTweet-retweet"
+    type="button">
+    <div class="IconContainer js-tooltip" title="Retweet">
+      <span class="Icon Icon--retweet"></span>
+      <span class="u-hiddenVisually">Retweet</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
+        </span>
+      </div>
+  </button><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
+    <div class="IconContainer js-tooltip" title="Undo retweet">
+      <span class="Icon Icon--retweet"></span>
+      <span class="u-hiddenVisually">Retweeted</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
+        </span>
+      </div>
+  </button>
+</div>
+
+      <div class="ProfileTweet-action ProfileTweet-action--favorite js-toggleState">
+  <button class="ProfileTweet-actionButton js-actionButton js-actionFavorite" type="button">
+    <div class="IconContainer js-tooltip" title="Like">
+      <div class="HeartAnimationContainer">
+        <div class="HeartAnimation"></div>
+      </div>
+      <span class="u-hiddenVisually">Like</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">1</span>
+        </span>
+      </div>
+  </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
+    <div class="IconContainer js-tooltip" title="Undo like">
+      <div class="HeartAnimationContainer">
+        <div class="HeartAnimation"></div>
+      </div>
+      <span class="u-hiddenVisually">Liked</span>
+    </div>
+      <div class="IconTextContainer">
+        <span class="ProfileTweet-actionCount">
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">1</span>
+        </span>
+      </div>
+  </button>
+</div>
+
+      
+
+
+        <div class="ProfileTweet-action ProfileTweet-action--more js-more-ProfileTweet-actions">
+    <div class="dropdown">
+  <button class="ProfileTweet-actionButton u-textUserColorHover dropdown-toggle js-dropdown-toggle" type="button">
+      <div class="IconContainer js-tooltip" title="More">
+        <span class="Icon Icon--dots"></span>
+        <span class="u-hiddenVisually">More</span>
+      </div>
+  </button>
+  <div class="dropdown-menu">
+  <div class="dropdown-caret">
+    <div class="caret-outer"></div>
+    <div class="caret-inner"></div>
+  </div>
+  <ul>
+    
+      <li class="copy-link-to-tweet js-actionCopyLinkToTweet">
+        <button type="button" class="dropdown-link">Copy link to Tweet</button>
+      </li>
+      <li class="embed-link js-actionEmbedTweet" data-nav="embed_tweet">
+        <button type="button" class="dropdown-link">Embed Tweet</button>
+      </li>
+  </ul>
+</div>
+
+</div>
+
+  </div>
+
+    </div>
+
+</div>
+  
+
+
+
+      
+      
+
+    </div>
+  </div>
+
+
+</li>
+
+        </div>
+
+
+  </ol>
+</li>
+
+      <div class="ThreadedConversation--loneTweet">
+        <li class="js-stream-item stream-item stream-item
+" data-item-id="749717906775158784" id="stream-item-tweet-749717906775158784" data-item-type="tweet">
+    
+
+
+  
+
+  <div class="tweet js-stream-tweet js-actionable-tweet js-profile-popup-actionable
+      
+      
+       descendant permalink-descendant-tweet
+"
+      
+data-tweet-id="749717906775158784"
+data-item-id="749717906775158784"
+data-permalink-path="/gregmcintyre/status/749717906775158784"
+
+ data-has-parent-tweet="true" 
+
+
+
+
+
+
+  data-screen-name="gregmcintyre" data-name="Gregory McIntyre" data-user-id="12572332"
+  data-you-follow="false"
+  data-follows-you="false"
+  data-you-block="false"
+ data-mentions="ericclemmons github GoGoGarrett"
+
+
+
+
+
+
+
+
+data-disclosure-type=""
+
+
+
+
+
+
+
+
+
+
+
+
+
+ data-component-context="replies"
+
+
+    >
+
+
+    <div class="context">
+      
+      
+    </div>
+
+    <div class="content">
+      
+
+      
+      <div class="stream-item-header">
+          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/gregmcintyre" data-user-id="12572332">
+    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/547497822241574912/KhCmWYsx_bigger.jpeg" alt="">
+    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Gregory McIntyre</strong>
+    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>gregmcintyre</b></span>
+    
+  </a>
+
+        <small class="time">
+  <a href="/gregmcintyre/status/749717906775158784" class="tweet-timestamp js-permalink js-nav js-tooltip" title="2:34 PM - 3 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467581652" data-time-ms="1467581652000" data-long-form="true">Jul 3</span></a>
+</small>
+
+          
+          
+      </div>
+
+      
+        <div class="js-tweet-text-container">
+  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/github" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="13334762" ><s>@</s><b>github</b></a> <a href="/GoGoGarrett" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="51353886" ><s>@</s><b>GoGoGarrett</b></a> I thought markdown inside literal html tags was not parsed. Makes marking up your example hard, no?</p>
 </div>
 
 
@@ -4502,7 +5668,7 @@ data-disclosure-type=""
   </a>
 
         <small class="time">
-  <a href="/mxstbr/status/749226762056437760" class="tweet-timestamp js-permalink js-nav js-tooltip" title="6:02 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467464554" data-time-ms="1467464554000" data-long-form="true" aria-hidden="true">8h</span><span class="u-hiddenVisually" data-aria-label-part="last">8 hours ago</span></a>
+  <a href="/mxstbr/status/749226762056437760" class="tweet-timestamp js-permalink js-nav js-tooltip" title="6:02 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467464554" data-time-ms="1467464554000" data-long-form="true">Jul 2</span></a>
 </small>
 
           
@@ -4732,7 +5898,7 @@ data-disclosure-type=""
   </a>
 
         <small class="time">
-  <a href="/xethorn/status/749224786237255680" class="tweet-timestamp js-permalink js-nav js-tooltip" title="5:54 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467464083" data-time-ms="1467464083000" data-long-form="true" aria-hidden="true">8h</span><span class="u-hiddenVisually" data-aria-label-part="last">8 hours ago</span></a>
+  <a href="/xethorn/status/749224786237255680" class="tweet-timestamp js-permalink js-nav js-tooltip" title="5:54 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467464083" data-time-ms="1467464083000" data-long-form="true">Jul 2</span></a>
 </small>
 
           
@@ -4962,7 +6128,7 @@ data-disclosure-type=""
   </a>
 
         <small class="time">
-  <a href="/jimmynotjim/status/749275959271034881" class="tweet-timestamp js-permalink js-nav js-tooltip" title="9:18 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467476284" data-time-ms="1467476284000" data-long-form="true" aria-hidden="true">5h</span><span class="u-hiddenVisually" data-aria-label-part="last">5 hours ago</span></a>
+  <a href="/jimmynotjim/status/749275959271034881" class="tweet-timestamp js-permalink js-nav js-tooltip" title="9:18 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467476284" data-time-ms="1467476284000" data-long-form="true">Jul 2</span></a>
 </small>
 
           
@@ -5192,7 +6358,7 @@ data-disclosure-type=""
   </a>
 
         <small class="time">
-  <a href="/giuseppegurgone/status/749224657820258304" class="tweet-timestamp js-permalink js-nav js-tooltip" title="5:54 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467464053" data-time-ms="1467464053000" data-long-form="true" aria-hidden="true">8h</span><span class="u-hiddenVisually" data-aria-label-part="last">8 hours ago</span></a>
+  <a href="/giuseppegurgone/status/749224657820258304" class="tweet-timestamp js-permalink js-nav js-tooltip" title="5:54 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467464053" data-time-ms="1467464053000" data-long-form="true">Jul 2</span></a>
 </small>
 
           
@@ -5346,472 +6512,11 @@ data-disclosure-type=""
 </li>
 
       </div>
-      <div class="ThreadedConversation--loneTweet">
-        <li class="js-stream-item stream-item stream-item
-" data-item-id="749338934480691201" id="stream-item-tweet-749338934480691201" data-item-type="tweet">
-    
-
-
-  
-
-  <div class="tweet js-stream-tweet js-actionable-tweet js-profile-popup-actionable
-      
-      
-       descendant permalink-descendant-tweet
-"
-      
-data-tweet-id="749338934480691201"
-data-item-id="749338934480691201"
-data-permalink-path="/cescobar_it/status/749338934480691201"
-
- data-has-parent-tweet="true" 
-
-
-
-
-
-
-  data-screen-name="cescobar_it" data-name="carlos escobar" data-user-id="3250266480"
-  data-you-follow="false"
-  data-follows-you="false"
-  data-you-block="false"
- data-mentions="ericclemmons github"
-
-
-
-
-
-
-
-
-data-disclosure-type=""
-
-
-
-
-
-
-
-
-
-
-
-
-
- data-component-context="replies"
-
-
-    >
-
-
-    <div class="context">
-      
-      
-    </div>
-
-    <div class="content">
-      
-
-      
-      <div class="stream-item-header">
-          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/cescobar_it" data-user-id="3250266480">
-    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/614664442249220096/otjxs1Gu_bigger.jpg" alt="">
-    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>carlos escobar</strong>
-    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>cescobar_it</b></span>
-    
-  </a>
-
-        <small class="time">
-  <a href="/cescobar_it/status/749338934480691201" class="tweet-timestamp js-permalink js-nav js-tooltip" title="1:28 PM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467491298" data-time-ms="1467491298000" data-long-form="true" aria-hidden="true">23m</span><span class="u-hiddenVisually" data-aria-label-part="last">23 minutes ago</span></a>
-</small>
-
-          
-          
-      </div>
-
-      
-        <div class="js-tweet-text-container">
-  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/github" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="13334762" ><s>@</s><b>github</b></a> Awsome! THANKS Eric</p>
-</div>
-
-
-
-
-      
-        
-
-      
-      
-
-      
-      <div class="stream-item-footer">
-  
-        <div class="ProfileTweet-actionCountList u-hiddenVisually">
-    
-    <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
-    <span class="ProfileTweet-action--retweet u-hiddenVisually">
-      
-      <span class="ProfileTweet-actionCount" aria-hidden="true" data-tweet-stat-count="0">
-        <span class="ProfileTweet-actionCountForAria" >0 retweets</span>
-      </span>
-    </span>
-    <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount" aria-hidden="true" data-tweet-stat-count="0">
-        <span class="ProfileTweet-actionCountForAria" >0 likes</span>
-      </span>
-    </span>
-  </div>
-
-    <div class="ProfileTweet-actionList js-actions" role="group" aria-label="Tweet actions">
-        <div class="ProfileTweet-action ProfileTweet-action--reply">
-  <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionReply"
-    data-modal="ProfileTweet-reply"
-    type="button">
-    <div class="IconContainer js-tooltip" title="Reply">
-      <span class="Icon Icon--reply"></span>
-      <span class="u-hiddenVisually">Reply</span>
-    </div>
-  </button>
-</div>
-        <div class="ProfileTweet-action ProfileTweet-action--retweet js-toggleState js-toggleRt">
-  <button class="ProfileTweet-actionButton  js-actionButton js-actionRetweet"
-    
-    data-modal="ProfileTweet-retweet"
-    type="button">
-    <div class="IconContainer js-tooltip" title="Retweet">
-      <span class="Icon Icon--retweet"></span>
-      <span class="u-hiddenVisually">Retweet</span>
-    </div>
-      <div class="IconTextContainer">
-        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
-        </span>
-      </div>
-  </button><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
-    <div class="IconContainer js-tooltip" title="Undo retweet">
-      <span class="Icon Icon--retweet"></span>
-      <span class="u-hiddenVisually">Retweeted</span>
-    </div>
-      <div class="IconTextContainer">
-        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
-        </span>
-      </div>
-  </button>
-</div>
-
-      <div class="ProfileTweet-action ProfileTweet-action--favorite js-toggleState">
-  <button class="ProfileTweet-actionButton js-actionButton js-actionFavorite" type="button">
-    <div class="IconContainer js-tooltip" title="Like">
-      <div class="HeartAnimationContainer">
-        <div class="HeartAnimation"></div>
-      </div>
-      <span class="u-hiddenVisually">Like</span>
-    </div>
-      <div class="IconTextContainer">
-        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
-        </span>
-      </div>
-  </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
-    <div class="IconContainer js-tooltip" title="Undo like">
-      <div class="HeartAnimationContainer">
-        <div class="HeartAnimation"></div>
-      </div>
-      <span class="u-hiddenVisually">Liked</span>
-    </div>
-      <div class="IconTextContainer">
-        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
-        </span>
-      </div>
-  </button>
-</div>
-
-      
-
-
-        <div class="ProfileTweet-action ProfileTweet-action--more js-more-ProfileTweet-actions">
-    <div class="dropdown">
-  <button class="ProfileTweet-actionButton u-textUserColorHover dropdown-toggle js-dropdown-toggle" type="button">
-      <div class="IconContainer js-tooltip" title="More">
-        <span class="Icon Icon--dots"></span>
-        <span class="u-hiddenVisually">More</span>
-      </div>
-  </button>
-  <div class="dropdown-menu">
-  <div class="dropdown-caret">
-    <div class="caret-outer"></div>
-    <div class="caret-inner"></div>
-  </div>
-  <ul>
-    
-      <li class="copy-link-to-tweet js-actionCopyLinkToTweet">
-        <button type="button" class="dropdown-link">Copy link to Tweet</button>
-      </li>
-      <li class="embed-link js-actionEmbedTweet" data-nav="embed_tweet">
-        <button type="button" class="dropdown-link">Embed Tweet</button>
-      </li>
-  </ul>
-</div>
-
-</div>
-
-  </div>
-
-    </div>
-
-</div>
-  
-
-
-
-      
-      
-
-    </div>
-  </div>
-
-
-</li>
-
-      </div>
     <li class="ThreadedConversation">
   <ol class="stream-items">
-        <div class="ThreadedConversation-tweet ">
-            <li class="js-stream-item stream-item stream-item
-" data-item-id="749326575347179520" id="stream-item-tweet-749326575347179520" data-item-type="tweet">
-    
-
-
-  
-
-  <div class="tweet js-stream-tweet js-actionable-tweet js-profile-popup-actionable
-      
-      
-       descendant permalink-descendant-tweet
-"
-      
-data-tweet-id="749326575347179520"
-data-item-id="749326575347179520"
-data-permalink-path="/jacobmischka/status/749326575347179520"
-
- data-has-parent-tweet="true" 
-
-
-
-
-
-
-  data-screen-name="jacobmischka" data-name="Jacob Mischka" data-user-id="60276477"
-  data-you-follow="false"
-  data-follows-you="false"
-  data-you-block="false"
- data-mentions="ericclemmons github"
-
-
-
-
-
-
-
-
-data-disclosure-type=""
-
-
-
-
-
-
-
-
-
-
-
-
-
- data-component-context="replies"
-
-
-    >
-
-
-    <div class="context">
-      
-      
-    </div>
-
-    <div class="content">
-      
-
-      
-      <div class="stream-item-header">
-          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/jacobmischka" data-user-id="60276477">
-    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/669316152946855936/10UB_miL_bigger.jpg" alt="">
-    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Jacob Mischka</strong>
-    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>jacobmischka</b></span>
-    
-  </a>
-
-        <small class="time">
-  <a href="/jacobmischka/status/749326575347179520" class="tweet-timestamp js-permalink js-nav js-tooltip" title="12:39 PM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467488352" data-time-ms="1467488352000" data-long-form="true" aria-hidden="true">1h</span><span class="u-hiddenVisually" data-aria-label-part="last">1 hour ago</span></a>
-</small>
-
-          
-          
-      </div>
-
-      
-        <div class="js-tweet-text-container">
-  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/github" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="13334762" ><s>@</s><b>github</b></a> I honestly didn&#39;t know embedded html worked at all in gfm</p>
-</div>
-
-
-
-
-      
-        
-
-      
-      
-
-      
-      <div class="stream-item-footer">
-  
-        <div class="ProfileTweet-actionCountList u-hiddenVisually">
-    
-    <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
-    <span class="ProfileTweet-action--retweet u-hiddenVisually">
-      
-      <span class="ProfileTweet-actionCount" aria-hidden="true" data-tweet-stat-count="0">
-        <span class="ProfileTweet-actionCountForAria" >0 retweets</span>
-      </span>
-    </span>
-    <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount" aria-hidden="true" data-tweet-stat-count="0">
-        <span class="ProfileTweet-actionCountForAria" >0 likes</span>
-      </span>
-    </span>
-  </div>
-
-    <div class="ProfileTweet-actionList js-actions" role="group" aria-label="Tweet actions">
-        <div class="ProfileTweet-action ProfileTweet-action--reply">
-  <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionReply"
-    data-modal="ProfileTweet-reply"
-    type="button">
-    <div class="IconContainer js-tooltip" title="Reply">
-      <span class="Icon Icon--reply"></span>
-      <span class="u-hiddenVisually">Reply</span>
-    </div>
-  </button>
-</div>
-        <div class="ProfileTweet-action ProfileTweet-action--retweet js-toggleState js-toggleRt">
-  <button class="ProfileTweet-actionButton  js-actionButton js-actionRetweet"
-    
-    data-modal="ProfileTweet-retweet"
-    type="button">
-    <div class="IconContainer js-tooltip" title="Retweet">
-      <span class="Icon Icon--retweet"></span>
-      <span class="u-hiddenVisually">Retweet</span>
-    </div>
-      <div class="IconTextContainer">
-        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
-        </span>
-      </div>
-  </button><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
-    <div class="IconContainer js-tooltip" title="Undo retweet">
-      <span class="Icon Icon--retweet"></span>
-      <span class="u-hiddenVisually">Retweeted</span>
-    </div>
-      <div class="IconTextContainer">
-        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
-        </span>
-      </div>
-  </button>
-</div>
-
-      <div class="ProfileTweet-action ProfileTweet-action--favorite js-toggleState">
-  <button class="ProfileTweet-actionButton js-actionButton js-actionFavorite" type="button">
-    <div class="IconContainer js-tooltip" title="Like">
-      <div class="HeartAnimationContainer">
-        <div class="HeartAnimation"></div>
-      </div>
-      <span class="u-hiddenVisually">Like</span>
-    </div>
-      <div class="IconTextContainer">
-        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
-        </span>
-      </div>
-  </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
-    <div class="IconContainer js-tooltip" title="Undo like">
-      <div class="HeartAnimationContainer">
-        <div class="HeartAnimation"></div>
-      </div>
-      <span class="u-hiddenVisually">Liked</span>
-    </div>
-      <div class="IconTextContainer">
-        <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true"></span>
-        </span>
-      </div>
-  </button>
-</div>
-
-      
-
-
-        <div class="ProfileTweet-action ProfileTweet-action--more js-more-ProfileTweet-actions">
-    <div class="dropdown">
-  <button class="ProfileTweet-actionButton u-textUserColorHover dropdown-toggle js-dropdown-toggle" type="button">
-      <div class="IconContainer js-tooltip" title="More">
-        <span class="Icon Icon--dots"></span>
-        <span class="u-hiddenVisually">More</span>
-      </div>
-  </button>
-  <div class="dropdown-menu">
-  <div class="dropdown-caret">
-    <div class="caret-outer"></div>
-    <div class="caret-inner"></div>
-  </div>
-  <ul>
-    
-      <li class="copy-link-to-tweet js-actionCopyLinkToTweet">
-        <button type="button" class="dropdown-link">Copy link to Tweet</button>
-      </li>
-      <li class="embed-link js-actionEmbedTweet" data-nav="embed_tweet">
-        <button type="button" class="dropdown-link">Embed Tweet</button>
-      </li>
-  </ul>
-</div>
-
-</div>
-
-  </div>
-
-    </div>
-
-</div>
-  
-
-
-
-      
-      
-
-    </div>
-  </div>
-
-
-</li>
-
-        </div>
-
         <div class="ThreadedConversation-tweet last">
             <li class="js-stream-item stream-item stream-item
-" data-item-id="749326882907103232" id="stream-item-tweet-749326882907103232" data-item-type="tweet">
+" data-item-id="750587052270510080" id="stream-item-tweet-750587052270510080" data-item-type="tweet">
     
 
 
@@ -5823,9 +6528,9 @@ data-disclosure-type=""
        descendant permalink-descendant-tweet
 "
       
-data-tweet-id="749326882907103232"
-data-item-id="749326882907103232"
-data-permalink-path="/jacobmischka/status/749326882907103232"
+data-tweet-id="750587052270510080"
+data-item-id="750587052270510080"
+data-permalink-path="/goetsu/status/750587052270510080"
 
  data-has-parent-tweet="true" 
 
@@ -5834,11 +6539,11 @@ data-permalink-path="/jacobmischka/status/749326882907103232"
 
 
 
-  data-screen-name="jacobmischka" data-name="Jacob Mischka" data-user-id="60276477"
+  data-screen-name="goetsu" data-name="goetsu" data-user-id="17383851"
   data-you-follow="false"
   data-follows-you="false"
   data-you-block="false"
- data-mentions="ericclemmons github"
+ data-mentions="ericclemmons GaetanBt github"
 
 
 
@@ -5877,15 +6582,15 @@ data-disclosure-type=""
 
       
       <div class="stream-item-header">
-          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/jacobmischka" data-user-id="60276477">
-    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/669316152946855936/10UB_miL_bigger.jpg" alt="">
-    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Jacob Mischka</strong>
-    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>jacobmischka</b></span>
+          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/goetsu" data-user-id="17383851">
+    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/87897267/_6c93e923_bigger.jpg" alt="">
+    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>goetsu</strong>
+    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>goetsu</b></span>
     
   </a>
 
         <small class="time">
-  <a href="/jacobmischka/status/749326882907103232" class="tweet-timestamp js-permalink js-nav js-tooltip" title="12:40 PM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467488425" data-time-ms="1467488425000" data-long-form="true" aria-hidden="true">1h</span><span class="u-hiddenVisually" data-aria-label-part="last">1 hour ago</span></a>
+  <a href="/goetsu/status/750587052270510080" class="tweet-timestamp js-permalink js-nav js-tooltip" title="12:07 AM - 6 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467788873" data-time-ms="1467788873000" data-long-form="true">Jul 6</span></a>
 </small>
 
           
@@ -5894,7 +6599,7 @@ data-disclosure-type=""
 
       
         <div class="js-tweet-text-container">
-  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/github" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="13334762" ><s>@</s><b>github</b></a> on github i mean, I knew it works in gfm elsewhere</p>
+  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/GaetanBt" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="821202372" ><s>@</s><b>GaetanBt</b></a> <a href="/github" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="13334762" ><s>@</s><b>github</b></a> sadly no semantic support for role and state with Screenreader for details and summary</p>
 </div>
 
 
@@ -6041,12 +6746,18 @@ data-disclosure-type=""
         </div>
 
 
+      <li class="ThreadedConversation-showMore" data-element-context="show_more_button" data-expansion-url="/i/threaded_conversation/750587052270510080">
+        <a href="/goetsu/status/750587052270510080" class="show-more-link">
+          Show more
+        </a>
+        <span class="show-more-spinner u-hiddenVisually"></span>
+      </li>
   </ol>
 </li>
 
       <div class="ThreadedConversation--loneTweet">
         <li class="js-stream-item stream-item stream-item
-" data-item-id="749225900970020865" id="stream-item-tweet-749225900970020865" data-item-type="tweet">
+" data-item-id="749465638473592832" id="stream-item-tweet-749465638473592832" data-item-type="tweet">
     
 
 
@@ -6058,9 +6769,9 @@ data-disclosure-type=""
        descendant permalink-descendant-tweet
 "
       
-data-tweet-id="749225900970020865"
-data-item-id="749225900970020865"
-data-permalink-path="/YuriSoloviov/status/749225900970020865"
+data-tweet-id="749465638473592832"
+data-item-id="749465638473592832"
+data-permalink-path="/bothandeach/status/749465638473592832"
 
  data-has-parent-tweet="true" 
 
@@ -6069,11 +6780,11 @@ data-permalink-path="/YuriSoloviov/status/749225900970020865"
 
 
 
-  data-screen-name="YuriSoloviov" data-name="Yuri Soloviov" data-user-id="738887839"
+  data-screen-name="bothandeach" data-name="John-Albert Eadie" data-user-id="81397817"
   data-you-follow="false"
   data-follows-you="false"
   data-you-block="false"
- data-mentions="ericclemmons domenic github"
+ data-mentions="ericclemmons steveluscher github"
 
 
 
@@ -6112,15 +6823,15 @@ data-disclosure-type=""
 
       
       <div class="stream-item-header">
-          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/YuriSoloviov" data-user-id="738887839">
-    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/452503279323594752/Vo-Unnhd_bigger.jpeg" alt="">
-    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Yuri Soloviov</strong>
-    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>YuriSoloviov</b></span>
+          <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/bothandeach" data-user-id="81397817">
+    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/502306472332521472/8VufAh3s_bigger.jpeg" alt="">
+    <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>John-Albert Eadie</strong>
+    <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>bothandeach</b></span>
     
   </a>
 
         <small class="time">
-  <a href="/YuriSoloviov/status/749225900970020865" class="tweet-timestamp js-permalink js-nav js-tooltip" title="5:59 AM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp js-relative-timestamp"  data-time="1467464349" data-time-ms="1467464349000" data-long-form="true" aria-hidden="true">8h</span><span class="u-hiddenVisually" data-aria-label-part="last">8 hours ago</span></a>
+  <a href="/bothandeach/status/749465638473592832" class="tweet-timestamp js-permalink js-nav js-tooltip" title="9:51 PM - 2 Jul 2016" ><span class="_timestamp js-short-timestamp " data-aria-label-part="last" data-time="1467521507" data-time-ms="1467521507000" data-long-form="true">Jul 2</span></a>
 </small>
 
           
@@ -6129,7 +6840,7 @@ data-disclosure-type=""
 
       
         <div class="js-tweet-text-container">
-  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/domenic" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="30968081" ><s>@</s><b>domenic</b></a> <a href="/github" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="13334762" ><s>@</s><b>github</b></a> I wish threre was a `spoiler` md tag or something...</p>
+  <p class="TweetTextSize  js-tweet-text tweet-text" lang="en" data-aria-label-part="0"><a href="/ericclemmons" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="14457722" ><s>@</s><b>ericclemmons</b></a> <a href="/steveluscher" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="2385381" ><s>@</s><b>steveluscher</b></a> <a href="/github" class="twitter-atreply pretty-link js-nav" dir="ltr" data-mentioned-user-id="13334762" ><s>@</s><b>github</b></a> You guys</p>
 </div>
 
 
@@ -6280,7 +6991,7 @@ data-disclosure-type=""
 
         </ol>
         <div class="stream-footer ">
-  <div class='timeline-end has-items '>
+  <div class='timeline-end has-items has-more-items'>
     <div class="stream-end">
   <div class="stream-end-inner">
       <span class="Icon Icon--large Icon--logo"></span>

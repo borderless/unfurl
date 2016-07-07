@@ -31,7 +31,7 @@ export function scrapeUrl (url: string, options?: Options): Promise<Result> {
         req.abort()
       }
 
-      return scrapeStream(url, res.headers, res.body, abort, options)
+      return scrapeStream(url, res.url, res.headers, res.body, abort, options)
     })
 }
 
@@ -39,7 +39,8 @@ export function scrapeUrl (url: string, options?: Options): Promise<Result> {
  * Scrape metadata from a stream (with headers/URL).
  */
 export function scrapeStream (
-  url: string,
+  originalUrl: string,
+  contentUrl: string,
   headers: Headers,
   stream: Readable,
   abort?: AbortFn,
@@ -48,8 +49,8 @@ export function scrapeStream (
   const cancel = abort || (() => stream.resume())
 
   for (const rule of rules) {
-    if (rule.supported(url, headers)) {
-      return Promise.resolve(rule.handle(url, headers, stream, cancel, options || {}))
+    if (rule.supported(contentUrl, headers)) {
+      return Promise.resolve(rule.handle(originalUrl, contentUrl, headers, stream, cancel, options || {}))
     }
   }
 

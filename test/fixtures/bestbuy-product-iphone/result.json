@@ -1,7 +1,8 @@
 {
   "type": "html",
+  "originalUrl": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
   "contentUrl": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
-  "contentSize": 26089,
+  "contentSize": 26104,
   "encodingFormat": "text/html",
   "meta": {
     "html": {
@@ -52,7 +53,7 @@
         "worstRating": "1",
         "bestRating": "5",
         "ratingValue": "4.8",
-        "reviewCount": "2191"
+        "reviewCount": "2324"
       },
       "description": "A 4.7-inch Retina HD display with 3D Touch. 7000 series aluminum and stronger cover glass. An A9 chip with 64-bit desktop-class architecture. All new 12MP iSight camera with Live Photos. Touch ID. Faster LTE and Wi-Fi. Long battery life and iOS 9 and iCloud. All in a smooth, continuous unibody design.",
       "offers": {
@@ -75,12 +76,102 @@
             "ratingValue": "5",
             "bestRating": "5"
           },
+          "name": "great phone overall.",
+          "ratingValue": "5",
+          "author": "Mrcluv1",
+          "datePublished": "07/07/2016",
+          "description": "Purchased this phone for my son as a gift and he loves it. Camera is awesome and easy to use.",
+          "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "Good Phone",
+          "ratingValue": "5",
+          "author": "ant9tim",
+          "datePublished": "07/07/2016",
+          "description": "Easy to use phone, especially for someone upgrading to a smartphone",
+          "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "Its an iPhone - of course it is great",
+          "ratingValue": "5",
+          "author": "lancdec",
+          "datePublished": "07/07/2016",
+          "description": "Having had an iPhone since the 3gs I cannot imagine not having one. The extra memory is a great addition.",
+          "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
           "name": "Great phone",
           "ratingValue": "5",
-          "author": "Rustyjar",
-          "datePublished": "06/19/2016",
-          "description": "Have always had an iPhone since they came out, and this one has convinced me I am still on the right track. Now I will say I am partially biased because everything I have is on the Apple ecosystem, but even without other apple products, I would still get it. Very easy to use, great looking screen and has all the apps I could ever want. Highly pleased!",
+          "author": "Jason",
+          "datePublished": "07/07/2016",
+          "description": "Decided to upgrade my 5s and what a great upgrade. Phone is amazing and had a good price when I bought it. Great phone!",
           "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "Great phone. Value for money.",
+          "ratingValue": "5",
+          "author": "Lovemytech",
+          "datePublished": "07/06/2016",
+          "description": "This is a great phone and I got it on sale which makes it even better. The size is better than the 5SE and it handles well. Much better battery life and the size trumps the other two by far.",
+          "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "Great phone!!",
+          "ratingValue": "5",
+          "author": "Eric36",
+          "datePublished": "07/06/2016",
+          "description": "I was trying to wait for the 7 but couldn't pass up the deal!!",
+          "reviews": "Posted by: from: on"
+        },
+        {
+          "@type": "http://schema.org/Review",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "worstRating": "1",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "name": "Only phone I'll use.",
+          "ratingValue": "5",
+          "author": "driftboy",
+          "datePublished": "07/06/2016",
+          "description": "I really like this phone. The camera is really great!",
+          "reviews": "Posted by: from: brentwood, tn on"
         },
         {
           "@type": "http://schema.org/Review",
@@ -90,11 +181,11 @@
             "ratingValue": "4",
             "bestRating": "5"
           },
-          "name": "This is my second iPhone and it works great.",
+          "name": "Good phone",
           "ratingValue": "4",
-          "author": "Donn",
-          "datePublished": "06/19/2016",
-          "description": "My second iPhone is reliable intuitive and a great tool.",
+          "author": "zamee",
+          "datePublished": "07/05/2016",
+          "description": "I love my new iPhone. There is an app for everything.",
           "reviews": "Posted by: from: on"
         },
         {
@@ -105,26 +196,11 @@
             "ratingValue": "5",
             "bestRating": "5"
           },
-          "name": "Perfect iPhone",
+          "name": "Outstanding Purchase",
           "ratingValue": "5",
-          "author": "AlChocolate",
-          "datePublished": "06/19/2016",
-          "description": "I didn't want to give up my iPhone 6, but the combination of the better camera and better service with Verizon made me glad I let it go.",
-          "reviews": "Posted by: from: USA on"
-        },
-        {
-          "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "Works great!",
-          "ratingValue": "5",
-          "author": "Anna",
-          "datePublished": "06/19/2016",
-          "description": "I always buy iPhones as I'm so used to them and it would be just too much work to switch to droid phone. The phone works great, it's very fast and no glitches so far (I have been using it for a couple of months).",
+          "author": "KeithHenry",
+          "datePublished": "07/05/2016",
+          "description": "I'm very old school, but this phone is the best!! Does it all for me. Was not sure in the start but after a little talking with the sales man and that was it. The help in my store is or was the best!!!",
           "reviews": "Posted by: from: on"
         },
         {
@@ -135,86 +211,11 @@
             "ratingValue": "5",
             "bestRating": "5"
           },
-          "name": "Great iPhone",
+          "name": "The best iPhone & Touch Screen",
           "ratingValue": "5",
-          "author": "RodolfoRomuntundo",
-          "datePublished": "06/18/2016",
-          "description": "Bought this 'cause of the App Store and I thought I might want some apps. One day while I was playing angry birds my daughter snatched the iPhone from me and called for pizza. Woah! First, I had no clue that the iPhone was also a phone- I don't know how they do that without any wires. But, that's okay i guess because I like pizza. Anyhow, I wish my parents had an app so I could call them too. Why doesn't everyone have apps? Wish I could only rate 4.5 stars because of that.",
-          "reviews": "Posted by: from: on"
-        },
-        {
-          "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "I love the 3-D touch feature.",
-          "ratingValue": "5",
-          "author": "ESG4",
-          "datePublished": "06/18/2016",
-          "description": "I love the 3-D touch feature and the 4K video. These additions make it worthwhile to upgrade to the 6s.",
-          "reviews": "Posted by: from: on"
-        },
-        {
-          "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "I love my iPhone 6S",
-          "ratingValue": "5",
-          "author": "ESG4",
-          "datePublished": "06/18/2016",
-          "description": "I love the 3-D touch feature and the 4K video. These additions make it worthwhile to upgrade to the 6S.",
-          "reviews": "Posted by: from: on"
-        },
-        {
-          "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "Son's phone",
-          "ratingValue": "5",
-          "author": "SBAB",
-          "datePublished": "06/18/2016",
-          "description": "My son really likes this phone. He upgraded for the additional memory. He is an avid I-phone user.",
-          "reviews": "Posted by: from: on"
-        },
-        {
-          "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "Very Nice upgrade",
-          "ratingValue": "5",
-          "author": "chiHawksFan",
-          "datePublished": "06/18/2016",
-          "description": "Best iPhone so far, 3D touch opens up whole new path",
-          "reviews": "Posted by: from: on"
-        },
-        {
-          "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "As usual Apple does not disapppoint!",
-          "ratingValue": "5",
-          "author": "Ankur",
-          "datePublished": "06/18/2016",
-          "description": "I love the latest feature of live pics which records a small clip with sound when you take a pic. The live pics feature can be turned off by user to save space or when editing a live pic.",
+          "author": "Silverbuell",
+          "datePublished": "07/05/2016",
+          "description": "Outstanding smartphone with excellent battery life and superb screen. The new touch sensitive screen has enhanced the users ability to view or open apps.",
           "reviews": "Posted by: from: on"
         }
       ]

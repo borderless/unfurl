@@ -1,8 +1,9 @@
 {
-  "url": "https://droplr.com/droplr-addition-google-chrome-extension",
+  "originalUrl": "https://droplr.com/droplr-addition-google-chrome-extension",
+  "contentUrl": "https://droplr.com/droplr-addition-google-chrome-extension",
   "headers": {
     "server": "nginx",
-    "date": "Tue, 21 Jun 2016 04:34:23 GMT",
+    "date": "Thu, 07 Jul 2016 19:33:15 GMT",
     "content-type": "text/html; charset=UTF-8",
     "transfer-encoding": "chunked",
     "connection": "close",
@@ -14,7 +15,7 @@
     "x-cacheable": "SHORT",
     "vary": "Accept-Encoding,Cookie",
     "cache-control": "max-age=600, must-revalidate",
-    "x-cache": "HIT: 1",
+    "x-cache": "MISS",
     "x-pass-why": "",
     "x-cache-group": "normal",
     "x-type": "default",

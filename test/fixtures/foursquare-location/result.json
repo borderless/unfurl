@@ -1,11 +1,12 @@
 {
   "type": "html",
+  "originalUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
   "contentUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
   "encodingFormat": "text/html",
   "meta": {
     "html": {
-      "title": "Boba Guys - Mission District - 126 tips from 3706 visitors",
-      "description": "See 321 photos and 126 tips from 3706 visitors to Boba Guys. \"They use beakers and science so you know it's good.\"",
+      "title": "Boba Guys - Mission District - 126 tips from 3735 visitors",
+      "description": "See 324 photos and 126 tips from 3735 visitors to Boba Guys. \"Jasmine Milk (or soy) with 1/2 almond jelly & 1/2 tapioca balls $5. Not consistent with...\"",
       "keywords": "Boba Guys, 3491 19th St, San Francisco, CA, boba guys,boba guys milk tea & snack bar,boba guys - milk tea & snack bar,boba guys - milk tea and snack bar,bubble tea, Bubble Tea, Dessert",
       "icons": [
         {
@@ -69,9 +70,9 @@
       "priceRange": "$",
       "aggregateRating": {
         "@type": "http://schema.org/AggregateRating",
-        "ratingValue": "8.9",
+        "ratingValue": "8.8",
         "bestRating": "10",
-        "ratingCount": "570"
+        "ratingCount": "576"
       },
       "address": {
         "@type": "http://schema.org/PostalAddress",

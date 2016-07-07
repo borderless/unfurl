@@ -1,17 +1,18 @@
 {
-  "url": "https://segment.com/blog/the-segment-aws-stack/",
+  "originalUrl": "https://segment.com/blog/the-segment-aws-stack/",
+  "contentUrl": "https://segment.com/blog/the-segment-aws-stack/",
   "headers": {
     "cache-control": "max-age=3600",
     "content-encoding": "gzip",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 21 Jun 2016 03:16:53 GMT",
-    "expires": "Tue, 21 Jun 2016 04:16:53 GMT",
-    "last-modified": "Mon, 20 Jun 2016 17:47:10 GMT",
+    "date": "Thu, 07 Jul 2016 19:33:14 GMT",
+    "expires": "Thu, 07 Jul 2016 20:33:14 GMT",
+    "last-modified": "Thu, 30 Jun 2016 17:01:11 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000",
     "vary": "Accept-Encoding",
     "x-frame-options": "DENY",
-    "transfer-encoding": "chunked",
+    "content-length": "10181",
     "connection": "Close"
   },
   "status": 200,

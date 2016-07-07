@@ -1,7 +1,8 @@
 {
   "type": "html",
-  "contentUrl": "http://www.reddit.com/",
-  "contentSize": 24667,
+  "originalUrl": "http://www.reddit.com/",
+  "contentUrl": "https://www.reddit.com/",
+  "contentSize": 27341,
   "encodingFormat": "text/html",
   "meta": {
     "html": {
@@ -11,12 +12,12 @@
       "canonical": "https://www.reddit.com/",
       "icons": [
         {
-          "url": "http://www.redditstatic.com/icon.png",
+          "url": "https://www.redditstatic.com/icon.png",
           "sizes": "256x256",
           "type": "image/png"
         },
         {
-          "url": "http://www.redditstatic.com/favicon.ico",
+          "url": "https://www.redditstatic.com/favicon.ico",
           "type": "image/x-icon"
         }
       ]

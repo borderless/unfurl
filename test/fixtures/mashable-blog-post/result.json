@@ -1,14 +1,14 @@
 {
   "type": "html",
+  "originalUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3",
   "contentUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3",
-  "contentSize": 12180,
+  "contentSize": 12850,
   "encodingFormat": "text/html",
   "meta": {
     "jsonLd": {
       "@context": "http://schema.org",
       "headline": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
       "url": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
-      "image": "http://i.amz.mshcdn.com/jlBR8lMx_mY6SkU-qq3tvtupPu8=/1200x627/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg",
       "keywords": [
         "entertainment",
         "watercooler",
@@ -19,48 +19,31 @@
         "jon-snow",
         "game-of-thrones"
       ],
+      "image": {
+        "@type": "ImageObject",
+        "url": "http://mashable.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2Mjcj/f5e300c9/25e/battleofthebastards.jpg",
+        "width": "1200",
+        "height": "627"
+      },
       "@type": "Article",
+      "mainEntityOfPage": "True",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Mashable",
+        "url": "http://www.mashable.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "http://a.amz.mshcdn.com/assets/mashable-publisher-logo-2f5746f38769a1f07bd9e9a10a73dd46.png",
+          "width": "357",
+          "height": "60"
+        }
+      },
       "dateCreated": "2016-06-17T15:35:08Z",
       "datePublished": "2016-06-17T15:35:08Z",
-      "articleSection": "watercooler",
-      "creator": "Andrea Romano",
       "author": "Andrea Romano",
-      "mainEntityOfPage": "True",
-      "metadata": {
-        "page": 1,
-        "omnitureData": {
-          "channel": "watercooler",
-          "content_type": "article",
-          "v_buy": null,
-          "v_buy_i": null,
-          "h_pub": 72,
-          "h_buy": null,
-          "h_pub_buy": null,
-          "v_cur": 0.6,
-          "v_max": 0.6,
-          "v_cur_i": 0,
-          "v_max_i": 0,
-          "events": "event51,event61",
-          "top_channel": "watercooler",
-          "content_source_type": "Internal",
-          "content_source_name": "Internal",
-          "author_name": "Andrea Romano",
-          "age": "3",
-          "pub_day": 17,
-          "pub_month": 6,
-          "pub_year": 2016,
-          "pub_date": "06/17/2016",
-          "sourced_from": "Internal",
-          "isPostView": true,
-          "post_lead_type": "Alt Image Lead",
-          "topics": "Conversations,Entertainment,funny,Game of Thrones,jon snow,Lists,Television,Watercooler",
-          "campaign": null,
-          "display_mode": null,
-          "viral_video_type": null,
-          "b_flag": false
-        },
-        "postId": null
-      }
+      "creator": "Andrea Romano",
+      "dateModified": "2016-06-30T17:41:09Z",
+      "articleSection": "watercooler"
     },
     "html": {
       "title": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
@@ -102,7 +85,7 @@
       "site": "@mashable",
       "via": "mashable",
       "url": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
-      "creator": "@mashable",
+      "creator": "@AndiesMint",
       "card": "photo",
       "image:width": "640",
       "image:height": "360"
@@ -125,9 +108,9 @@
         "http://ogp.me/ns#type": "article",
         "http://ogp.me/ns#site_name": "Mashable",
         "http://ogp.me/ns#description": "Let us count the ways we hope Ramsey will die.",
-        "http://ogp.me/ns#image": "http://i.amz.mshcdn.com/cFOA7JH0zHa6T2ik7Ssm9YcLcx0=/1200x630/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg",
+        "http://ogp.me/ns#image": "http://a.amz.mshcdn.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2MzAKZQlqcGc/8e6659fa/25e/battleofthebastards.jpg",
         "http://ogp.me/ns#article:published_time": "2016-06-17T15:35:08Z",
-        "http://ogp.me/ns#article:modified_time": "2016-06-17T15:36:00Z",
+        "http://ogp.me/ns#article:modified_time": "2016-06-30T17:41:09Z",
         "http://ogp.me/ns#article:publisher": "https://www.facebook.com/mashable"
       }
     }

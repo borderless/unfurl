@@ -4,15 +4,15 @@
 <meta charset="UTF-8"/>
 <title>TypeScript - Wikipedia, the free encyclopedia</title>
 <script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
-<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"TypeScript","wgTitle":"TypeScript","wgCurRevisionId":723684856,"wgRevisionId":723684856,"wgArticleId":8157205,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing potentially dated statements from 2013","All articles containing potentially dated statements","Official website different in Wikidata and Wikipedia","Scripting languages","Cross-platform software","Object-based programming languages","2012 introductions","JavaScript programming language family","Software using the Apache license","Programming languages created in 2012","Microsoft free software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"TypeScript","wgRelevantArticleId":8157205,"wgRequestId":"V2lCgApAADoAAMMda9wAAABM","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikipedia","wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgWikibaseItemId":"Q978185","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"TypeScript","wgTitle":"TypeScript","wgCurRevisionId":723684856,"wgRevisionId":723684856,"wgArticleId":8157205,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing potentially dated statements from 2013","All articles containing potentially dated statements","Official website different in Wikidata and Wikipedia","Scripting languages","Cross-platform software","Object-based programming languages","2012 introductions","JavaScript programming language family","Software using the Apache license","Programming languages created in 2012","Microsoft free software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"TypeScript","wgRelevantArticleId":8157205,"wgRequestId":"V3zcbApAAEEAAHjVxwQAAAAO","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikipedia","wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgWikibaseItemId":"Q978185","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
 });mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","ext.centralNotice.bannerController","skins.vector.js"]);});</script>
 <link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.nojs%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.raggett%2CsectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
 <meta name="ResourceLoaderDynamicStyles" content=""/>
-<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
 <script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
-<meta name="generator" content="MediaWiki 1.28.0-wmf.6"/>
+<meta name="generator" content="MediaWiki 1.28.0-wmf.8"/>
 <meta name="referrer" content="origin-when-cross-origin"/>
 <link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/TypeScript"/>
 <link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=TypeScript&amp;action=edit"/>
@@ -66,7 +66,7 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 </tr>
 <tr>
 <th scope="row"><a href="/wiki/Software_release_life_cycle" title="Software release life cycle">Stable release</a></th>
-<td>1.8 / January&#160;2016<span class="noprint">; 5&#160;months ago</span><span style="display:none">&#160;(<span class="bday dtstart published updated">2016-01</span>)</span></td>
+<td>1.8 / January&#160;2016<span class="noprint">; 6&#160;months ago</span><span style="display:none">&#160;(<span class="bday dtstart published updated">2016-01</span>)</span></td>
 </tr>
 <tr>
 <th scope="row"><a href="/wiki/Software_license" title="Software license">License</a></th>
@@ -144,7 +144,7 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <p>TypeScript originated from the perceived shortcomings of JavaScript for the development of large-scale applications both at Microsoft and among their external customers.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">[21]</a></sup> Challenges with dealing with complex JavaScript code led to demand for custom tooling to ease developing of components in the language.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup></p>
 <p>TypeScript developers sought a solution that would not break compatibility with the standard and its cross-platform support. Knowing that the current ECMAScript standard proposal promised future support for <a href="/wiki/Class-based_programming" title="Class-based programming">class-based programming</a>, TypeScript was based on that proposal. That led to a JavaScript compiler with a set of syntactical language extensions, a superset based on the proposal, that transforms the extensions into regular JavaScript. In this sense TypeScript is a preview of what to expect of ECMAScript 6. A unique aspect not in the proposal, but added to TypeScript, is optional <a href="/wiki/Static_typing" class="mw-redirect" title="Static typing">static typing</a> that enables static language analysis, which facilitates tooling and IDE support.</p>
 <h3><span class="mw-headline" id="ECMAScript_6_support">ECMAScript 6 support</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=TypeScript&amp;action=edit&amp;section=3" title="Edit section: ECMAScript 6 support">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<div role="note" class="hatnote relarticle mainarticle">Main article: <a href="/wiki/ECMAScript#ECMAScript_Harmony_.286th_Edition.29" title="ECMAScript">ECMAScript § ECMAScript Harmony (6th Edition)</a></div>
+<div role="note" class="hatnote">Main article: <a href="/wiki/ECMAScript#ECMAScript_Harmony_.286th_Edition.29" title="ECMAScript">ECMAScript §&#160;ECMAScript Harmony (6th Edition)</a></div>
 <p>TypeScript adds support for features such as classes, modules and an arrow function syntax as proposed in the upcoming ECMAScript 6 standard.</p>
 <h2><span class="mw-headline" id="Language_features">Language features</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=TypeScript&amp;action=edit&amp;section=4" title="Edit section: Language features">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <p>TypeScript is a language extension that adds features to <a href="/wiki/ECMAScript" title="ECMAScript">ECMAScript</a> 5. Additional features include:</p>
@@ -496,7 +496,7 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <ul>
 <li><a href="/wiki/Npm_(software)" title="Npm (software)">npm</a></li>
 <li><a href="/wiki/NuGet" title="NuGet">NuGet</a></li>
-<li><a href="/wiki/Bower_(software)" title="Bower (software)">Bower</a></li>
+<li><a href="/w/index.php?title=Bower_(software)&amp;action=edit&amp;redlink=1" class="new" title="Bower (software) (page does not exist)">Bower</a></li>
 </ul>
 </div>
 </td>
@@ -1033,37 +1033,37 @@ support</th>
 
 <!-- 
 NewPP limit report
-Parsed by mw1105
-Cached time: 20160621032545
+Parsed by mw1211
+Cached time: 20160706032446
 Cache expiry: 86400
 Dynamic content: true
-CPU time usage: 0.601 seconds
-Real time usage: 0.708 seconds
+CPU time usage: 0.444 seconds
+Real time usage: 0.546 seconds
 Preprocessor visited node count: 2652/1000000
 Preprocessor generated node count: 0/1500000
-Post‐expand include size: 119193/2097152 bytes
+Post‐expand include size: 119157/2097152 bytes
 Template argument size: 1964/2097152 bytes
 Highest expansion depth: 18/40
 Expensive parser function count: 3/500
-Lua time usage: 0.260/10.000 seconds
+Lua time usage: 0.192/10.000 seconds
 Lua memory usage: 4.38 MB/50 MB
 Number of Wikibase entities loaded: 1-->
 
 <!-- 
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  550.105      1 - -total
- 52.68%  289.777      1 - Template:Reflist
- 39.82%  219.036     32 - Template:Cite_web
- 14.34%   78.863      1 - Template:Infobox_programming_language
- 13.36%   73.501      1 - Template:Infobox
-  6.86%   37.742      1 - Template:Redirect
-  5.97%   32.845      3 - Template:Navbox
-  4.21%   23.137      1 - Template:As_of
-  4.08%   22.459      1 - Template:Official_website
-  3.90%   21.445      1 - Template:JavaScript
+100.00%  424.283      1 - -total
+ 51.17%  217.092      1 - Template:Reflist
+ 38.95%  165.238     32 - Template:Cite_web
+ 14.69%   62.316      1 - Template:Infobox_programming_language
+ 13.77%   58.433      1 - Template:Infobox
+  6.93%   29.409      1 - Template:Redirect
+  5.95%   25.251      3 - Template:Navbox
+  4.71%   19.978      1 - Template:Official_website
+  4.67%   19.793      1 - Template:As_of
+  4.14%   17.583      1 - Template:JavaScript
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:8157205-0!*!0!!en!4!* and timestamp 20160621032545 and revision id 723684856
+<!-- Saved in parser cache with key enwiki:pcache:idhash:8157205-0!*!0!!en!4!* and timestamp 20160706032445 and revision id 723684856
  -->
 <noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
 						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=TypeScript&amp;oldid=723684856">https://en.wikipedia.org/w/index.php?title=TypeScript&amp;oldid=723684856</a>"					</div>
@@ -1194,6 +1194,6 @@ additional terms may apply.  By using this site, you agree to the <a href="//wik
 									</ul>
 						<div style="clear:both"></div>
 		</div>
-		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"ext.globalCssJs.site":"ready","ext.globalCssJs.user":"ready","user":"ready"});mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.eventLogging.subscriber","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.wikimediaEvents","ext.navigationTiming","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.interlanguage"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":58,"wgHostname":"mw1263"});});</script>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"ext.globalCssJs.site":"ready","ext.globalCssJs.user":"ready","user":"ready"});mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.eventLogging.subscriber","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.wikimediaEvents","ext.navigationTiming","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.interlanguage"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":80,"wgHostname":"mw1270"});});</script>
 	</body>
 </html>

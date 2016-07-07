@@ -5,13 +5,13 @@
 
 <!DOCTYPE html><html lang="en"
       class="devsite"><head><script>var a=window.devsite||{};window.devsite=a;a.readyCallbacks=[];window.devsite.readyCallbacks=a.readyCallbacks;a.ready=function(b){a.readyCallbacks.push(b)};window.devsite.ready=a.ready;
-</script><meta charset="utf-8"><meta name="xsrf_token" content="WI6cIoiVdigxkGyAE30hUfEHvAy4O1-KTQ_WCCXXLy86MTQ2NzA3NDUzMjE1MDg3MA" /><link rel="canonical" href="https://developers.google.com/search/docs/guides/intro-structured-data"><link rel="alternate"
+</script><meta charset="utf-8"><meta name="xsrf_token" content="p17TvZM4LBqBUMh7KVzIHauGN7f1uNJJxlRpp6lp9KU6MTQ2NzkxOTk5NDAwNzQyMA" /><link rel="canonical" href="https://developers.google.com/search/docs/guides/intro-structured-data"><link rel="alternate"
     
         href="https://developers.google.com/search/docs/guides/intro-structured-data"
     
-        hreflang="en"><link rel="shortcut icon" href="https://developers.google.com/_static/c54aa247ac/images/favicon.png"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="publisher" href="https://plus.google.com/+GoogleDevelopers/"><link rel="stylesheet"
+        hreflang="en"><link rel="shortcut icon" href="https://developers.google.com/_static/045e85fa6f/images/favicon.png"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="publisher" href="https://plus.google.com/+GoogleDevelopers/"><link rel="stylesheet"
       href="//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons"><link rel="stylesheet"
-      href="https://developers.google.com/_static/c54aa247ac/css/devsite-google-blue.css"><link rel="stylesheet" href="https://developers.google.com"><link rel="apple-touch-icon" href="https://developers.google.com/_static/c54aa247ac/images/touch-icon.png"><link rel="search"
+      href="https://developers.google.com/_static/045e85fa6f/css/devsite-google-blue.css"><link rel="stylesheet" href="https://developers.google.com"><link rel="apple-touch-icon" href="https://developers.google.com/_static/045e85fa6f/images/touch-icon.png"><link rel="search"
       type="application/opensearchdescription+xml"
       title="Google Developers"
       href="https://developers.google.com/s/opensearch.xml"><script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><meta property="og:site_name" content="Google Developers"><meta property="og:type" content="website"><meta property="og:url" content="https://developers.google.com/search/docs/guides/intro-structured-data"><meta property="og:locale" content="en"><script>
@@ -675,7 +675,7 @@
   
   
   
-    <p>Except as otherwise noted, the content of this page is licensed under the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>, and code samples are licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. For details, see our <a href="https://developers.google.com/site-policies">Site Policies</a>.</p>
+    <p>Except as otherwise noted, the content of this page is licensed under the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>, and code samples are licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. For details, see our <a href="https://developers.google.com/site-policies">Site Policies</a>. Java is a registered trademark of Oracle and/or its affiliates.</p>
   
 
   
@@ -755,7 +755,7 @@
                  devsite-footer-linkbox-sites"><a href="https://developers.google.com/"
            class="gc-analytics-event devsite-footer-linkbox-logo-link"
            data-category="Site-Wide Custom Events" data-label="Footer Google Developers Link"><img class="devsite-footer-linkbox-logo"
-               src="https://developers.google.com/_static/c54aa247ac/images/redesign-14/logo-color-knockout.svg"></a><ul class="devsite-footer-linkbox-list"><li class="devsite-footer-linkbox-item"><a href="https://developer.android.com/index.html" class="gc-analytics-event"
+               src="https://developers.google.com/_static/045e85fa6f/images/redesign-14/logo-color-knockout.svg"></a><ul class="devsite-footer-linkbox-list"><li class="devsite-footer-linkbox-item"><a href="https://developer.android.com/index.html" class="gc-analytics-event"
                data-category="Site-Wide Custom Events"
                data-label="Footer Android Link">
               
@@ -788,7 +788,7 @@
             </a></li></ul></li></ul></nav></footer><footer class="devsite-utility-footer"><nav class="devsite-utility-footer-nav devsite-nav devsite-full-site-width"><span class="devsite-utility-footer-links"><a href="https://developers.google.com/site-terms/">Terms</a>
       &nbsp; | &nbsp;
       
-      <a href="https://www.google.com/intl/en/privacy/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Privacy Link">Privacy</a></span><form class="devsite-utility-footer-language" id="setlang" action="/i18n/setlang/" method="post"><input type="hidden" name="xsrf_token" value="WI6cIoiVdigxkGyAE30hUfEHvAy4O1-KTQ_WCCXXLy86MTQ2NzA3NDUzMjE1MDg3MA" /><input type="hidden" name="next" value="/search/docs/guides/intro-structured-data" /><select id="footer_language" name="language"><option value="ar"
+      <a href="https://www.google.com/intl/en/privacy/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Privacy Link">Privacy</a></span><form class="devsite-utility-footer-language" id="setlang" action="/i18n/setlang/" method="post"><input type="hidden" name="xsrf_token" value="p17TvZM4LBqBUMh7KVzIHauGN7f1uNJJxlRpp6lp9KU6MTQ2NzkxOTk5NDAwNzQyMA" /><input type="hidden" name="next" value="/search/docs/guides/intro-structured-data" /><select id="footer_language" name="language"><option value="ar"
               >
             العربيّة
           </option><option value="bg"
@@ -947,7 +947,7 @@
         'product_id': '713504',
         'bucket': '',
         'context': '',
-        'version': 'devsite-20160623-r00-rc00.default'
+        'version': 'devsite-20160701-r00-rc01.default'
       },
       document.querySelectorAll('.devsite-feedback-button'),
       'en',
@@ -957,16 +957,16 @@
       document.querySelectorAll('.devsite-feedback-item a:not([href])')
     );
   });
-  </script></div><script async defer src="//www.gstatic.com/feedback/api.js"></script><script src="https://developers.google.com/_static/c54aa247ac/js/jquery_ui-bundle.js"></script><script src="https://developers.google.com/_static2/c54aa247ac/jsi18n/"></script><script src="https://developers.google.com/_static/c54aa247ac/js/script_foot_closure.js"></script><script src="https://developers.google.com/_static/c54aa247ac/js/script_foot.js"></script><script>
+  </script></div><script async defer src="//www.gstatic.com/feedback/api.js"></script><script src="https://developers.google.com/_static/045e85fa6f/js/jquery_ui-bundle.js"></script><script src="https://developers.google.com/_static2/045e85fa6f/jsi18n/"></script><script src="https://developers.google.com/_static/045e85fa6f/js/script_foot_closure.js"></script><script src="https://developers.google.com/_static/045e85fa6f/js/script_foot.js"></script><script>
         (function($) {
           
           devsite.devsite.Init($, 'devsite',
-              '[]', {'ALLOWED_HOSTS': ['.android.com', '.appspot.com', '.google.com', '.googleplex.com'], 'VERSION_HASH': 'c54aa247ac'}, '',
+              '[]', {'ALLOWED_HOSTS': ['.android.com', '.appspot.com', '.google.com', '.googleplex.com'], 'VERSION_HASH': '045e85fa6f'}, '',
               'en', true,
               '',
               true,
               true, // Enable Copenhagen
-              {"51470233c56fc1fde50f00b73c52b216": false, "6749dcb526ce9bde6993550c7d928d24": true, "098dafe57affddc137df300142652cfd": false}, '/search/',
+              {"51470233c56fc1fde50f00b73c52b216": false, "700def1a83e356c06c0925afb05de4b0": false, "6749dcb526ce9bde6993550c7d928d24": true, "098dafe57affddc137df300142652cfd": false}, '/search/',
               'https://developers.google.com/');
         })(jQuery);
 
@@ -986,4 +986,4 @@
           }});
         }
       });
-      </script></div><span id="devsite-request-elapsed" data-request-elapsed="184.849977493"></span></body></html>
+      </script></div><span id="devsite-request-elapsed" data-request-elapsed="207.899808884"></span></body></html>

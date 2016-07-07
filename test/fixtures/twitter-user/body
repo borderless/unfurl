@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="lt-ie10 ie8" lang="en" data-scribe-reduced-action-queue="true"><![endif]-->
-<!--[if IE 9]><html class="lt-ie10 ie9" lang="en" data-scribe-reduced-action-queue="true"><![endif]-->
-<!--[if gt IE 9]><!--><html lang="en" data-scribe-reduced-action-queue="true"><!--<![endif]-->
+<html lang="en" data-scribe-reduced-action-queue="true">
   <head>
     
     
@@ -16,12 +14,12 @@
     
     
   
-  <script id="bouncer_terminate_iframe" nonce="ZpQlML09Q0DcIPYhDNGuQw==">
+  <script id="bouncer_terminate_iframe" nonce="BES9GJA6OuNTUX4nJO3zgQ==">
     if (window.top != window) {
   window.top.postMessage({'bouncer': true, 'event': 'complete'}, '*');
 }
   </script>
-  <script id="swift_action_queue" nonce="ZpQlML09Q0DcIPYhDNGuQw==">
+  <script id="swift_action_queue" nonce="BES9GJA6OuNTUX4nJO3zgQ==">
     (function(){function m(a){a||(a=window.event);if(!a)return!1;a.timestamp=(new Date).getTime();!a.target&&a.srcElement&&(a.target=a.srcElement);if(document.documentElement.getAttribute("data-scribe-reduced-action-queue")){var b=a.target;while(b&&b!=document
 .body){if(b.tagName=="A")return;b=b.parentNode}}r("all",s(a));if(!q(a)){r("direct",a);return!0}document.addEventListener||(a=s(a));a.preventDefault=a.stopPropagation=a.stopImmediatePropagation=function(){};if(i){f.push(a);r("captured",a)}else r("ignored",a
 );return!1}function n($){p();for(var a=0,b;b=f[a];a++){var d=$(b.target),e=d.closest("a")[0];if(b.type=="click"&&e){var g=$.data(e,"events"),i=g&&g.click,j=!e.hostname.match(c)||!e.href.match(/#$/);if(!i&&j){window.location=e.href;continue}}d.trigger($.event
@@ -34,24 +32,24 @@ document.getElementById(f);if(g&&v(g))return!1}else for(var i=0,j;j=b.childNodes
 a.getAttribute("contenteditable")=="true"}var a=(new Date).getTime(),b=1e4,c=/^([^\.]+\.)*twitter\.com$/,d=/^key/,e=["click","keydown","keypress","keyup"],f=[],g=null,i=!0,j={captured:[],ignored:[],direct:[],all:[]};for(var k=0,l;l=e[k];k++)document["on"+l
 ]=m;g=setTimeout(function(){i=!1},b);window.swiftActionQueue={buckets:j,flush:n,logActions:o,wasFlushed:!1}})();
   </script>
-  <script id="composition_state" nonce="ZpQlML09Q0DcIPYhDNGuQw==">
+  <script id="composition_state" nonce="BES9GJA6OuNTUX4nJO3zgQ==">
     (function(){function a(a){a.target.setAttribute("data-in-composition","true")}function b(a){a.target.removeAttribute("data-in-composition")}if(document.addEventListener){document.addEventListener("compositionstart",a,!1);document.addEventListener("compositionend"
 ,b,!1)}})();
   </script>
-  <script id="load_js" nonce="ZpQlML09Q0DcIPYhDNGuQw==">
+  <script id="load_js" nonce="BES9GJA6OuNTUX4nJO3zgQ==">
     /*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on http://goo.gl/REQGQ by Paul Irish). Licensed MIT */(function(a){var b=function(b,c){"use strict";var d=a.document.getElementsByTagName("script")[0],e=a.document.createElement
 ("script");e.src=b;e.async=!0;d.parentNode.insertBefore(e,d);c&&typeof c=="function"&&(e.onload=c);return e};typeof module!="undefined"?module.exports=b:a.loadJS=b})(typeof global!="undefined"?global:this);
   </script>
 
-    <link rel="stylesheet" href="https://abs.twimg.com/a/1466297184/css/t1/twitter_core.bundle.css">
-  <link rel="stylesheet" href="https://abs.twimg.com/a/1466297184/css/t1/twitter_more_1.bundle.css">
-  <link rel="stylesheet" href="https://abs.twimg.com/a/1466297184/css/t1/twitter_more_2.bundle.css">
+    <link rel="stylesheet" href="https://abs.twimg.com/a/1467868637/css/t1/twitter_core.bundle.css">
+  <link rel="stylesheet" href="https://abs.twimg.com/a/1467868637/css/t1/twitter_more_1.bundle.css">
+  <link rel="stylesheet" href="https://abs.twimg.com/a/1467868637/css/t1/twitter_more_2.bundle.css">
 
     <link rel="dns-prefetch" href="https://pbs.twimg.com">
     <link rel="dns-prefetch" href="https://t.co">
-      <link rel="preload" href="https://abs.twimg.com/c/swift/en/init.f27b6c5b065cbc784ad5065ffb5565fc49010ddd.js" as="script">
-      <link rel="preload" href="https://abs.twimg.com/c/swift/en/bundle/timeline.870f8bfdbbfe1de0bc36801847fab1de8e755e85.js" as="script">
-      <link rel="preload" href="https://abs.twimg.com/c/swift/en/bundle/boot.b985b669f617bb600b56ebe5cacb66ed4d0eaf0e.js" as="script">
+      <link rel="preload" href="https://abs.twimg.com/c/swift/en/init.1425172875c93495a3f5e1b7561615e0f9a8919a.js" as="script">
+      <link rel="preload" href="https://abs.twimg.com/c/swift/en/bundle/timeline.8d206ec3ce203bd3200ee97181c2481df4064520.js" as="script">
+      <link rel="preload" href="https://abs.twimg.com/c/swift/en/bundle/boot.fa1152e50a18a595ca09af37fb50abcf57a7beef.js" as="script">
 
       <title>Blake Embrey (@blakeembrey) | Twitter</title>
       <meta name="robots" content="NOODP">
@@ -63,9 +61,9 @@ a.getAttribute("contenteditable")=="true"}var a=(new Date).getTime(),b=1e4,c=/^(
 <meta name="msapplication-TileColor" content="#00aced"/>
 
 
-<link rel="mask-icon" sizes="any" href="https://abs.twimg.com/a/1466297184/img/t1/favicon.svg" color="#55acee">
+<link rel="mask-icon" sizes="any" href="https://abs.twimg.com/a/1467868637/img/t1/favicon.svg" color="#55acee">
 
-  <link href="//abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="//abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
 <link rel="manifest" href="/manifest.json">
 
@@ -87,7 +85,7 @@ a.getAttribute("contenteditable")=="true"}var a=(new Date).getTime(),b=1e4,c=/^(
 
     <link id="async-css-placeholder">
 
-      <input type="hidden" id="init-data" class="json-data" value="{&quot;jsInitDelay&quot;:0,&quot;hasKenburnEffectOnSingleImage&quot;:false,&quot;composeIgnoreAttachmentText&quot;:false,&quot;baseFoucClass&quot;:&quot;swift-loading&quot;,&quot;bodyFoucClassNames&quot;:&quot;swift-loading&quot;,&quot;macawSwift&quot;:true,&quot;assetsBasePath&quot;:&quot;https:\/\/abs.twimg.com\/a\/1466297184\/&quot;,&quot;assetVersionKey&quot;:&quot;c1e599&quot;,&quot;environment&quot;:&quot;production&quot;,&quot;formAuthenticityToken&quot;:&quot;ec3fff53bb5d298117d0e97c4c512725fe0c4e63&quot;,&quot;loggedIn&quot;:false,&quot;softUserLoggedIn&quot;:false,&quot;screenName&quot;:null,&quot;fullName&quot;:null,&quot;userId&quot;:null,&quot;guestId&quot;:&quot;146647901308969340&quot;,&quot;allowAdsPersonalization&quot;:true,&quot;scribeBufferSize&quot;:3,&quot;pageName&quot;:&quot;profile&quot;,&quot;sectionName&quot;:&quot;profile&quot;,&quot;scribeParameters&quot;:{},&quot;recaptchaApiUrl&quot;:&quot;https:\/\/www.google.com\/recaptcha\/api\/js\/recaptcha_ajax.js&quot;,&quot;internalReferer&quot;:null,&quot;geoEnabled&quot;:false,&quot;typeaheadData&quot;:{&quot;accounts&quot;:{&quot;enabled&quot;:true,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;limit&quot;:6},&quot;trendLocations&quot;:{&quot;enabled&quot;:true},&quot;dmConversations&quot;:{&quot;enabled&quot;:false},&quot;savedSearches&quot;:{&quot;enabled&quot;:false,&quot;items&quot;:[]},&quot;dmAccounts&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:false,&quot;onlyDMable&quot;:true},&quot;mediaTagAccounts&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:true,&quot;remoteQueriesEnabled&quot;:false,&quot;onlyShowUsersWithCanMediaTag&quot;:false,&quot;currentUserId&quot;:-1},&quot;selectedUsers&quot;:{&quot;enabled&quot;:false},&quot;prefillUsers&quot;:{&quot;enabled&quot;:false},&quot;topics&quot;:{&quot;enabled&quot;:true,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;prefetchLimit&quot;:500,&quot;limit&quot;:4},&quot;concierge&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:false,&quot;prefetchLimit&quot;:500,&quot;limit&quot;:6},&quot;recentSearches&quot;:{&quot;enabled&quot;:false},&quot;hashtags&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;prefetchLimit&quot;:500},&quot;useIndexedDB&quot;:false,&quot;showSearchAccountSocialContext&quot;:false,&quot;showDebugInfo&quot;:false,&quot;useThrottle&quot;:true,&quot;accountsOnTop&quot;:false,&quot;remoteDebounceInterval&quot;:300,&quot;remoteThrottleInterval&quot;:300,&quot;tweetContextEnabled&quot;:false,&quot;fullNameMatchingInCompose&quot;:true,&quot;topicsWithFiltersEnabled&quot;:false},&quot;dm&quot;:{&quot;notifications&quot;:false,&quot;usePushForNotifications&quot;:false,&quot;participant_max&quot;:50,&quot;video_gif_render&quot;:true,&quot;video_gif_upload&quot;:true,&quot;twitter_video_player&quot;:true,&quot;typing_indicators_publish&quot;:false,&quot;poll_options&quot;:{&quot;foreground_poll_interval&quot;:3000,&quot;burst_poll_interval&quot;:3000,&quot;burst_poll_duration&quot;:300000,&quot;max_poll_interval&quot;:60000}},&quot;whitelistedVideoUser&quot;:false,&quot;autoplayDisabled&quot;:false,&quot;pushStatePageLimit&quot;:500000,&quot;routes&quot;:{&quot;profile&quot;:&quot;\/&quot;},&quot;pushState&quot;:true,&quot;viewContainer&quot;:&quot;#page-container&quot;,&quot;dragAndDropPhotoUpload&quot;:true,&quot;href&quot;:&quot;\/blakeembrey&quot;,&quot;searchPathWithQuery&quot;:&quot;\/search?q=query&amp;src=typd&quot;,&quot;timelineCardsGallery&quot;:true,&quot;composeAltText&quot;:false,&quot;deciders&quot;:{&quot;bulkUnfollowEnabled&quot;:true,&quot;custom_timeline_curation&quot;:false,&quot;moment_maker_enabled&quot;:false,&quot;disable_profile_popup&quot;:false,&quot;native_notifications&quot;:true,&quot;dm_polling_frequency_in_seconds&quot;:3000,&quot;enable_media_tag_prefetch&quot;:true,&quot;foundMediaTrendingEnabled&quot;:false,&quot;enableMacawNymizerConversionLanding&quot;:false,&quot;hqImageUploads&quot;:false,&quot;largeHeaderImageUpload&quot;:true,&quot;live_pipeline_consume&quot;:false,&quot;mqImageUploads&quot;:false,&quot;partnerIdSyncEnabled&quot;:true,&quot;sruMediaCategory&quot;:false,&quot;photoSruGifLimitMb&quot;:5,&quot;promoted_video_logging_enabled&quot;:true,&quot;pushState&quot;:true,&quot;scribeReducedActionQueue&quot;:true,&quot;smartInfiniteScroll&quot;:false,&quot;useHtml5Webcam&quot;:true,&quot;hideLeadingMentions&quot;:false,&quot;web_perftown_stats&quot;:true,&quot;web_perftown_ttft&quot;:true,&quot;web_sru_stats&quot;:false,&quot;web_upload_direct&quot;:true,&quot;web_upload_video&quot;:true,&quot;web_upload_video_advanced&quot;:false,&quot;upload_video_size&quot;:500,&quot;defaultVideoDuration&quot;:20,&quot;maxVideoDuration&quot;:30,&quot;internationalShippingEnabled&quot;:true,&quot;useV2EndpointsEnabled&quot;:true,&quot;useVmapVariants&quot;:false,&quot;autoplayPreviewPreroll&quot;:true,&quot;moments_lohp_enabled&quot;:true,&quot;momentsExperienceEnabled&quot;:true,&quot;enableNativePush&quot;:false,&quot;installNativePush&quot;:false,&quot;autoSubscribeNativePush&quot;:false,&quot;stickersInteractivity&quot;:false,&quot;stickersInteractivityDuringLoading&quot;:false,&quot;stickersExperience&quot;:false,&quot;dynamic_video_ads_include_long_videos&quot;:true,&quot;push_state_size&quot;:1000,&quot;canBeSoftUser&quot;:false,&quot;isInSoftExperiment&quot;:false},&quot;experiments&quot;:{},&quot;toasts_dm&quot;:false,&quot;toasts_spoonbill&quot;:false,&quot;toasts_timeline&quot;:false,&quot;toasts_dm_poll_scale&quot;:60,&quot;defaultNotificationIcon&quot;:&quot;https:\/\/abs.twimg.com\/a\/1466297184\/img\/t1\/mobile\/wp7_app_icon.png&quot;,&quot;uploadDomain&quot;:&quot;upload.twitter.com&quot;,&quot;promptbirdData&quot;:{&quot;promptbirdEnabled&quot;:false,&quot;immediateTriggers&quot;:[&quot;PullToRefresh&quot;,&quot;Navigate&quot;],&quot;format&quot;:&quot;ProfileOther&quot;},&quot;pageContext&quot;:&quot;profile&quot;,&quot;passwordResetAdvancedLoginForm&quot;:true,&quot;skipAutoSignupDialog&quot;:false,&quot;shouldReplaceSignupWithLogin&quot;:false,&quot;hashflagBaseUrl&quot;:&quot;https:\/\/abs.twimg.com\/hashflags\/&quot;,&quot;activeHashflags&quot;:{&quot;mémoirededory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;أف_جيه&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;bacphysique&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;togetherstronger&quot;:&quot;EurosFootball2016\/Wales.png&quot;,&quot;ger&quot;:&quot;EurosFootball2016\/Germany.png&quot;,&quot;meinestimme&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;রমজান&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;bacst2s&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;اقترعت&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;immerwiederoesterreich&quot;:&quot;EurosFootball2016\/Austria.png&quot;,&quot;一站到底&quot;:&quot;JSBCI\/JSBCI_emoji.png&quot;,&quot;copaamerica&quot;:&quot;CopaAmericaCentenario\/CopaAmericaCentenario.png&quot;,&quot;bacpro&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;queensyoungleaders&quot;:&quot;Queenat90\/Queenat90.png&quot;,&quot;bacstmg&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;أوريون&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;periscope&quot;:&quot;Periscope\/Periscope.png&quot;,&quot;cblol&quot;:&quot;CBLoL\/CBLoL.png&quot;,&quot;jederfuerjeden&quot;:&quot;EurosFootball2016\/Germany.png&quot;,&quot;yoenunvw&quot;:&quot;Volkswagen\/YoEnUnVW.png&quot;,&quot;lovetwitter&quot;:&quot;LoveTwitter\/LoveTwitter.png&quot;,&quot;تويوتا_السعودية&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;ifoodnomengão&quot;:&quot;iFoodBrazil\/flamengo.png&quot;,&quot;badisbred&quot;:&quot;AnimalKingdom_Deliver\/BadisBred.png&quot;,&quot;تويوتا&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;vidcon2016&quot;:&quot;vicon2016\/Vicon2016.png&quot;,&quot;ausvotes&quot;:&quot;AusVotes\/AusVotes.png&quot;,&quot;يارس&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;admis&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;ifoodsalva&quot;:&quot;iFood\/emoji_ifood_v2_final.png&quot;,&quot;كامري&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;hakkebakke&quot;:&quot;VodafoneFiles\/FinalEmoji.png&quot;,&quot;gameofthrones&quot;:&quot;GameofThrones\/GameofThrones.png&quot;,&quot;داينا&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;hovotato&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;kebersamaanramadhan&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;япроголосовал(а)&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;bukapuasa&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;sienteelsabor&quot;:&quot;CocaCola\/SienteElSabor.png&quot;,&quot;cflkickoff&quot;:&quot;CFL\/CFL.png&quot;,&quot;راف_فور&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;bacfrançais&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;besuper&quot;:&quot;VodafoneFiles\/FinalEmoji.png&quot;,&quot;gawa&quot;:&quot;EurosFootball2016\/NorthernIreland.png&quot;,&quot;teamdelta&quot;:&quot;VoiceAU\/TeamDelta.png&quot;,&quot;sahur&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;hun&quot;:&quot;EurosFootball2016\/Hungary.png&quot;,&quot;bacsti2d&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;buscandoadory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;vivelamannschaft&quot;:&quot;Mercedes\/Mercedes.png&quot;,&quot;bailando2016&quot;:&quot;showmatch\/showmatch_premiere_emoji.png&quot;,&quot;bacanglais&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;1of11million&quot;:&quot;EurosFootball2016\/Portugal.png&quot;,&quot;jaivoté&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;golive&quot;:&quot;goLIVE2016\/goLIVE.png&quot;,&quot;26j&quot;:&quot;SpainElection\/SpainElection.png&quot;,&quot;رمضان_كريم&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;أفالون&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;veep&quot;:&quot;VEEP\/VEEP.png&quot;,&quot;allin216&quot;:&quot;NBAFinals2016\/ALLin216.png&quot;,&quot;أفانزا&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;bachistoiregeographie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;whosstillstanding&quot;:&quot;JSBCI\/JSBCI_emoji.png&quot;,&quot;bottédenvoilcf&quot;:&quot;CFL\/CFL.png&quot;,&quot;我已投票&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;برادو&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;تويوتا_عبداللطيف_جميل&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;euro2016&quot;:&quot;EurosFootball2016\/trophy.png&quot;,&quot;bacsvt&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;momentodory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;dubnation&quot;:&quot;NBAFinals2016\/DubNation.png&quot;,&quot;فورتشنر&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;lovewins&quot;:&quot;PrideEmoji\/pride_emoji-final.png&quot;,&quot;fazerdiferente&quot;:&quot;TIM\/emoji_tim_final_3.png&quot;,&quot;tousenfrance&quot;:&quot;EurosFootball2016\/Belgium.png&quot;,&quot;puasa&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;كورولا&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;bacsthr&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;vidcon&quot;:&quot;vicon2016\/Vicon2016.png&quot;,&quot;jaimonbac&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;هايلكس&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;estiempode&quot;:&quot;att-emoji2-assets\/attemoji2.png&quot;,&quot;isl&quot;:&quot;EurosFootball2016\/Iceland.png&quot;,&quot;كوستر&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;bizbittidemedenbitmez&quot;:&quot;EurosFootball2016\/Turkey.png&quot;,&quot;ceskarepre&quot;:&quot;EurosFootball2016\/CzechRepublic.png&quot;,&quot;lemondededory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;sui&quot;:&quot;EurosFootball2016\/Switzerland.png&quot;,&quot;ideasparaespaña&quot;:&quot;SpainElection\/SpainElection.png&quot;,&quot;إنوفا&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;svk&quot;:&quot;EurosFootball2016\/Slovakia.png&quot;,&quot;bactmd&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;투표했어요&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;batallaslvm&quot;:&quot;BatallasLVM\/BatallasLVM.png&quot;,&quot;allezlasuisse&quot;:&quot;EurosFootball2016\/Switzerland.png&quot;,&quot;timchef&quot;:&quot;TIMChef\/emoji_masterchef.png&quot;,&quot;rumoaorio&quot;:&quot;100Days\/100Days.png&quot;,&quot;однакоманда&quot;:&quot;EurosFootball2016\/Russia.png&quot;,&quot;nir&quot;:&quot;EurosFootball2016\/NorthernIreland.png&quot;,&quot;aut&quot;:&quot;EurosFootball2016\/Austria.png&quot;,&quot;لاندكروزر&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;योगदिवस&quot;:&quot;Yoga\/Yoga.png&quot;,&quot;bachistoire&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;loveislove&quot;:&quot;PrideEmoji\/pride_emoji-final.png&quot;,&quot;csakegyutt&quot;:&quot;EurosFootball2016\/Hungary.png&quot;,&quot;bacphilo&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacphysiquechimie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;твоязбірна&quot;:&quot;EurosFootball2016\/Ukraine.png&quot;,&quot;eng&quot;:&quot;EurosFootball2016\/England.png&quot;,&quot;تويوتا86&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;chamaolimpica&quot;:&quot;OlympicTorch_Emoji\/OlympicTorch.png&quot;,&quot;españavota&quot;:&quot;SpainElection\/SpainElection.png&quot;,&quot;dq30th&quot;:&quot;SquareEnix\/slime_72x72.png&quot;,&quot;ivoted&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;teamronan&quot;:&quot;VoiceAU\/TeamRonan.png&quot;,&quot;rus&quot;:&quot;EurosFootball2016\/Russia.png&quot;,&quot;yogaday&quot;:&quot;Yoga\/Yoga.png&quot;,&quot;yellowcard&quot;:&quot;CopaEmoji\/copa_emoji.png&quot;,&quot;olympicflame&quot;:&quot;OlympicTorch_Emoji\/OlympicTorch.png&quot;,&quot;iameuro&quot;:&quot;UnibetAustralia\/soccer.png&quot;,&quot;happybirthdayyourmajesty&quot;:&quot;Queenat90\/Queenat90.png&quot;,&quot;alb&quot;:&quot;EurosFootball2016\/Albania.png&quot;,&quot;politimoji&quot;:&quot;SpainElection\/SpainElection.png&quot;,&quot;rou&quot;:&quot;EurosFootball2016\/Romania.png&quot;,&quot;desapega&quot;:&quot;olx\/emoji_olx_final.png&quot;,&quot;findingdory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;uncharted4&quot;:&quot;drake\/Drake.png&quot;,&quot;bacallemand&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;ramazan&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;حزامك_أمانك&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;euref&quot;:&quot;EURef_emoji\/EURef_emoji.png&quot;,&quot;teamjessiej&quot;:&quot;VoiceAU\/TeamJessieJ.png&quot;,&quot;bumotoako&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;بريوس&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;twittersparkle&quot;:&quot;TwitterSparkle\/TwitterSparkle.png&quot;,&quot;justkeepswimming&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;ita&quot;:&quot;EurosFootball2016\/Italy.png&quot;,&quot;vivoazzurro&quot;:&quot;EurosFootball2016\/Italy.png&quot;,&quot;لاندكروزر_70&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;resultatsbac&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;ramadan&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;bacitalien&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;origin&quot;:&quot;StateOfOrigin\/Origin.png&quot;,&quot;bacfrancais&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;هايلوكس&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;بريفيا&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;bachotellerie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;hairomania&quot;:&quot;EurosFootball2016\/Romania.png&quot;,&quot;admise&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;yovote&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;qlder&quot;:&quot;StateOfOrigin\/QLDER.png&quot;,&quot;لاندكروزر_مصندق&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;energia&quot;:&quot;JBalvinNew\/JBalvinNew.png&quot;,&quot;rumboario&quot;:&quot;100Days\/100Days.png&quot;,&quot;queenat90&quot;:&quot;Queenat90\/Queenat90.png&quot;,&quot;vidcon16&quot;:&quot;vicon2016\/Vicon2016.png&quot;,&quot;لاندكروزر_بيك_اب&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;eleccionesgenerales&quot;:&quot;SpainElection\/SpainElection.png&quot;,&quot;fudgestripes&quot;:&quot;keebler\/keebler-fudgestripes.png&quot;,&quot;showmatch2016&quot;:&quot;showmatch\/showmatch_premiere_emoji.png&quot;,&quot;xboxe3&quot;:&quot;XboxE3\/XboxE3.png&quot;,&quot;overdadeirosabor&quot;:&quot;Hellmanns\/emoji_hellmans.png&quot;,&quot;baces&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;canneslions&quot;:&quot;CannesLion\/HASHTAG.png&quot;,&quot;رمضان&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;bacmaths&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;とと姉ちゃん&quot;:&quot;NHKMorningDrama\/NHKMorningDrama.png&quot;,&quot;redcard&quot;:&quot;CopaEmoji\/copa_emoji.png&quot;,&quot;yovoté&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;togetherforengland&quot;:&quot;EurosFootball2016\/England.png&quot;,&quot;łączynaspolska&quot;:&quot;EurosFootball2016\/Poland.png&quot;,&quot;bulanpuasa&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;bachôtellerie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacs&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacstav&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;trovadory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;tur&quot;:&quot;EurosFootball2016\/Turkey.png&quot;,&quot;sentirsecampeón&quot;:&quot;mastercard\/mastercard.png&quot;,&quot;roadtorio&quot;:&quot;100Days\/100Days.png&quot;,&quot;bacses&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacstl&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;wal&quot;:&quot;EurosFootball2016\/Wales.png&quot;,&quot;copacocacola&quot;:&quot;ShareACopa_Final\/ShareACopa.png&quot;,&quot;bacespagnol&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;internationalyogaofday&quot;:&quot;Yoga\/Yoga.png&quot;,&quot;عبداللطيف_جميل&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;bel&quot;:&quot;EurosFootball2016\/Belgium.png&quot;,&quot;bacstd2a&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;fiersdetrebleus&quot;:&quot;EurosFootball2016\/France.png&quot;,&quot;cze&quot;:&quot;EurosFootball2016\/CzechRepublic.png&quot;,&quot;pride2016&quot;:&quot;PrideEmoji\/pride_emoji-final.png&quot;,&quot;pol&quot;:&quot;EurosFootball2016\/Poland.png&quot;,&quot;sentirsecampeon&quot;:&quot;mastercard\/mastercard.png&quot;,&quot;résultatsbac&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;budiponosan&quot;:&quot;EurosFootball2016\/Croatia.png&quot;,&quot;fandimespolu&quot;:&quot;EurosFootball2016\/Slovakia.png&quot;,&quot;thisbudsforyou&quot;:&quot;Bud_Emoji\/Bud.png&quot;,&quot;icaucused&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;ukr&quot;:&quot;EurosFootball2016\/Ukraine.png&quot;,&quot;رمضان_مبارك&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;ca2016&quot;:&quot;CopaAmericaCentenario\/CopaAmericaCentenario.png&quot;,&quot;سيكويا&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;esp&quot;:&quot;EurosFootball2016\/Spain.png&quot;,&quot;cro&quot;:&quot;EurosFootball2016\/Croatia.png&quot;,&quot;تويوتا_أكيد&quot;:&quot;ToyotaALJ-Final_160421\/thumbsup2.png&quot;,&quot;irl&quot;:&quot;EurosFootball2016\/ROIreland.png&quot;,&quot;vamosespaña&quot;:&quot;EurosFootball2016\/Spain.png&quot;,&quot;bacl&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;nbafinals&quot;:&quot;NBAFinals2016\/NBAFinals.png&quot;,&quot;videonow&quot;:&quot;vicon2016\/Vicon2016.png&quot;,&quot;uptheblues&quot;:&quot;StateOfOrigin\/UpTheBlues.png&quot;,&quot;sharkweek&quot;:&quot;SharkWeekEmoji\/SharkWeek_Original.png&quot;,&quot;por&quot;:&quot;EurosFootball2016\/Portugal.png&quot;,&quot;teammadden&quot;:&quot;VoiceAU\/TeamMadden.png&quot;,&quot;bottedenvoilcf&quot;:&quot;CFL\/CFL.png&quot;,&quot;swe&quot;:&quot;EurosFootball2016\/Sweden.png&quot;,&quot;bac2016&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;fra&quot;:&quot;EurosFootball2016\/France.png&quot;,&quot;ramadhan&quot;:&quot;Ramadan_Emoji\/Ramadan_Emoji.png&quot;,&quot;coybig&quot;:&quot;EurosFootball2016\/ROIreland.png&quot;},&quot;profile_user&quot;:{&quot;id&quot;:154068143,&quot;id_str&quot;:&quot;154068143&quot;,&quot;name&quot;:&quot;Blake Embrey&quot;,&quot;screen_name&quot;:&quot;blakeembrey&quot;,&quot;location&quot;:&quot;San Francisco, CA&quot;,&quot;url&quot;:&quot;http:\/\/blakeembrey.me&quot;,&quot;description&quot;:&quot;World Citizen \u2219 Open Source Contributor \u2219 Full-stack Engineer&quot;,&quot;protected&quot;:false,&quot;followers_count&quot;:1525,&quot;friends_count&quot;:264,&quot;listed_count&quot;:37,&quot;created_at&quot;:&quot;Thu Jun 10 08:21:53 +0000 2010&quot;,&quot;favourites_count&quot;:1444,&quot;utc_offset&quot;:36000,&quot;time_zone&quot;:&quot;Brisbane&quot;,&quot;geo_enabled&quot;:true,&quot;verified&quot;:false,&quot;statuses_count&quot;:2626,&quot;lang&quot;:&quot;en&quot;,&quot;contributors_enabled&quot;:false,&quot;is_translator&quot;:false,&quot;is_translation_enabled&quot;:false,&quot;profile_background_color&quot;:&quot;C0DEED&quot;,&quot;profile_background_image_url&quot;:&quot;http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png&quot;,&quot;profile_background_image_url_https&quot;:&quot;https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png&quot;,&quot;profile_background_tile&quot;:false,&quot;profile_image_url&quot;:&quot;http:\/\/pbs.twimg.com\/profile_images\/439951183243771904\/EiIFri6S_normal.jpeg&quot;,&quot;profile_image_url_https&quot;:&quot;https:\/\/pbs.twimg.com\/profile_images\/439951183243771904\/EiIFri6S_normal.jpeg&quot;,&quot;profile_banner_url&quot;:&quot;https:\/\/pbs.twimg.com\/profile_banners\/154068143\/1418337125&quot;,&quot;profile_link_color&quot;:&quot;FF2200&quot;,&quot;profile_sidebar_border_color&quot;:&quot;FFFFFF&quot;,&quot;profile_sidebar_fill_color&quot;:&quot;DDEEF6&quot;,&quot;profile_text_color&quot;:&quot;333333&quot;,&quot;profile_use_background_image&quot;:true,&quot;has_extended_profile&quot;:true,&quot;default_profile&quot;:false,&quot;default_profile_image&quot;:false,&quot;following&quot;:null,&quot;follow_request_sent&quot;:null,&quot;notifications&quot;:null,&quot;ext&quot;:{&quot;vine_profile&quot;:{&quot;r&quot;:{&quot;err&quot;:{&quot;code&quot;:202,&quot;message&quot;:&quot;You are not authorized to request this information.&quot;}},&quot;ttl&quot;:0}}},&quot;profileEditingCSSBundle&quot;:&quot;https:\/\/abs.twimg.com\/a\/1466297184\/css\/t1\/twitter_profile_editing.bundle.css&quot;,&quot;profile_id&quot;:154068143,&quot;business_profile&quot;:false,&quot;business_profile_featured_collections_complete&quot;:false,&quot;cardsGallery&quot;:true,&quot;injectComposedTweets&quot;:false,&quot;inlineProfileEditing&quot;:false,&quot;forceHTML5FileUploader&quot;:false,&quot;isClusterFollowReplenishEnabled&quot;:false,&quot;autoplayEnabled&quot;:true,&quot;trendsCacheKey&quot;:null,&quot;decider_personalized_trends&quot;:false,&quot;trendsEndpoint&quot;:&quot;\/i\/trends&quot;,&quot;wtfOptions&quot;:{&quot;pc&quot;:true,&quot;connections&quot;:true,&quot;limit&quot;:3,&quot;display_location&quot;:&quot;profile-sidebar&quot;,&quot;dismissable&quot;:true,&quot;similar_to_user_id&quot;:154068143},&quot;showSensitiveContent&quot;:false,&quot;autoPlayBalloonsAnimation&quot;:false,&quot;isCurrentUser&quot;:false,&quot;timeline_url&quot;:&quot;\/i\/profiles\/show\/blakeembrey\/timeline\/tweets&quot;,&quot;initialState&quot;:{&quot;title&quot;:&quot;Blake Embrey (@blakeembrey) | Twitter&quot;,&quot;section&quot;:null,&quot;module&quot;:&quot;app\/pages\/profile\/highline_landing&quot;,&quot;cache_ttl&quot;:300,&quot;body_class_names&quot;:&quot;three-col logged-out user-style-blakeembrey enhanced-mini-profile ProfilePage ProfilePage--withBlockedWarning&quot;,&quot;doc_class_names&quot;:&quot;route-profile&quot;,&quot;route_name&quot;:&quot;profile&quot;,&quot;page_container_class_names&quot;:&quot;AppContent&quot;,&quot;ttft_navigation&quot;:false}}">
+      <input type="hidden" id="init-data" class="json-data" value="{&quot;keyboardShortcuts&quot;:[{&quot;name&quot;:&quot;Actions&quot;,&quot;description&quot;:&quot;Shortcuts for common actions.&quot;,&quot;shortcuts&quot;:[{&quot;keys&quot;:[&quot;Enter&quot;],&quot;description&quot;:&quot;Open Tweet details&quot;},{&quot;keys&quot;:[&quot;o&quot;],&quot;description&quot;:&quot;Expand photo&quot;},{&quot;keys&quot;:[&quot;\/&quot;],&quot;description&quot;:&quot;Search&quot;}]},{&quot;name&quot;:&quot;Navigation&quot;,&quot;description&quot;:&quot;Shortcuts for navigating between items in timelines.&quot;,&quot;shortcuts&quot;:[{&quot;keys&quot;:[&quot;?&quot;],&quot;description&quot;:&quot;This menu&quot;},{&quot;keys&quot;:[&quot;j&quot;],&quot;description&quot;:&quot;Next Tweet&quot;},{&quot;keys&quot;:[&quot;k&quot;],&quot;description&quot;:&quot;Previous Tweet&quot;},{&quot;keys&quot;:[&quot;Space&quot;],&quot;description&quot;:&quot;Page down&quot;},{&quot;keys&quot;:[&quot;.&quot;],&quot;description&quot;:&quot;Load new Tweets&quot;}]},{&quot;name&quot;:&quot;Timelines&quot;,&quot;description&quot;:&quot;Shortcuts for navigating to different timelines or pages.&quot;,&quot;shortcuts&quot;:[{&quot;keys&quot;:[&quot;g&quot;,&quot;u&quot;],&quot;description&quot;:&quot;Go to user\u2026&quot;}]}],&quot;jsInitDelay&quot;:0,&quot;hasKenburnEffectOnSingleImage&quot;:false,&quot;composeIgnoreAttachmentText&quot;:false,&quot;baseFoucClass&quot;:&quot;swift-loading&quot;,&quot;bodyFoucClassNames&quot;:&quot;swift-loading&quot;,&quot;macawSwift&quot;:true,&quot;assetsBasePath&quot;:&quot;https:\/\/abs.twimg.com\/a\/1467868637\/&quot;,&quot;assetVersionKey&quot;:&quot;19ac14&quot;,&quot;environment&quot;:&quot;production&quot;,&quot;formAuthenticityToken&quot;:&quot;bbedb3910f1640895f556b2cb47649df04a2e571&quot;,&quot;loggedIn&quot;:false,&quot;softUserLoggedIn&quot;:false,&quot;screenName&quot;:null,&quot;fullName&quot;:null,&quot;userId&quot;:null,&quot;guestId&quot;:&quot;146791999393338230&quot;,&quot;allowAdsPersonalization&quot;:true,&quot;scribeBufferSize&quot;:3,&quot;pageName&quot;:&quot;profile&quot;,&quot;sectionName&quot;:&quot;profile&quot;,&quot;scribeParameters&quot;:{},&quot;recaptchaApiUrl&quot;:&quot;https:\/\/www.google.com\/recaptcha\/api\/js\/recaptcha_ajax.js&quot;,&quot;internalReferer&quot;:null,&quot;geoEnabled&quot;:false,&quot;typeaheadData&quot;:{&quot;accounts&quot;:{&quot;enabled&quot;:true,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;limit&quot;:6},&quot;trendLocations&quot;:{&quot;enabled&quot;:true},&quot;dmConversations&quot;:{&quot;enabled&quot;:false},&quot;savedSearches&quot;:{&quot;enabled&quot;:false,&quot;items&quot;:[]},&quot;dmAccounts&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:false,&quot;onlyDMable&quot;:true},&quot;mediaTagAccounts&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:true,&quot;remoteQueriesEnabled&quot;:false,&quot;onlyShowUsersWithCanMediaTag&quot;:false,&quot;currentUserId&quot;:-1},&quot;selectedUsers&quot;:{&quot;enabled&quot;:false},&quot;prefillUsers&quot;:{&quot;enabled&quot;:false},&quot;topics&quot;:{&quot;enabled&quot;:true,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;prefetchLimit&quot;:500,&quot;limit&quot;:4},&quot;concierge&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:false,&quot;prefetchLimit&quot;:500,&quot;limit&quot;:6},&quot;recentSearches&quot;:{&quot;enabled&quot;:false},&quot;hashtags&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;prefetchLimit&quot;:500},&quot;useIndexedDB&quot;:false,&quot;showSearchAccountSocialContext&quot;:false,&quot;showDebugInfo&quot;:false,&quot;useThrottle&quot;:true,&quot;accountsOnTop&quot;:false,&quot;remoteDebounceInterval&quot;:300,&quot;remoteThrottleInterval&quot;:300,&quot;tweetContextEnabled&quot;:false,&quot;fullNameMatchingInCompose&quot;:true,&quot;topicsWithFiltersEnabled&quot;:false},&quot;dm&quot;:{&quot;notifications&quot;:false,&quot;usePushForNotifications&quot;:false,&quot;participant_max&quot;:50,&quot;video_gif_render&quot;:true,&quot;video_gif_upload&quot;:true,&quot;twitter_video_player&quot;:true,&quot;typing_indicators_publish&quot;:false,&quot;poll_options&quot;:{&quot;foreground_poll_interval&quot;:3000,&quot;burst_poll_interval&quot;:3000,&quot;burst_poll_duration&quot;:300000,&quot;max_poll_interval&quot;:60000}},&quot;whitelistedVideoUser&quot;:false,&quot;autoplayDisabled&quot;:false,&quot;pushStatePageLimit&quot;:500000,&quot;routes&quot;:{&quot;profile&quot;:&quot;\/&quot;},&quot;pushState&quot;:true,&quot;viewContainer&quot;:&quot;#page-container&quot;,&quot;dragAndDropPhotoUpload&quot;:true,&quot;href&quot;:&quot;\/blakeembrey&quot;,&quot;searchPathWithQuery&quot;:&quot;\/search?q=query&amp;src=typd&quot;,&quot;timelineCardsGallery&quot;:true,&quot;composeAltText&quot;:false,&quot;deciders&quot;:{&quot;bulkUnfollowEnabled&quot;:true,&quot;custom_timeline_curation&quot;:false,&quot;moment_maker_enabled&quot;:false,&quot;disable_profile_popup&quot;:false,&quot;native_notifications&quot;:true,&quot;dm_polling_frequency_in_seconds&quot;:3000,&quot;enable_media_tag_prefetch&quot;:true,&quot;foundMediaTrendingEnabled&quot;:false,&quot;enableMacawNymizerConversionLanding&quot;:false,&quot;hqImageUploads&quot;:false,&quot;largeHeaderImageUpload&quot;:true,&quot;live_pipeline_consume&quot;:false,&quot;mqImageUploads&quot;:false,&quot;partnerIdSyncEnabled&quot;:true,&quot;sruMediaCategory&quot;:true,&quot;photoSruGifLimitMb&quot;:5,&quot;promoted_video_logging_enabled&quot;:true,&quot;pushState&quot;:true,&quot;scribeReducedActionQueue&quot;:true,&quot;smartInfiniteScroll&quot;:false,&quot;useHtml5Webcam&quot;:true,&quot;hideLeadingMentions&quot;:false,&quot;web_perftown_stats&quot;:true,&quot;web_perftown_ttft&quot;:true,&quot;web_sru_stats&quot;:false,&quot;web_upload_direct&quot;:true,&quot;web_upload_video&quot;:true,&quot;web_upload_video_advanced&quot;:false,&quot;upload_video_size&quot;:500,&quot;defaultVideoDuration&quot;:45,&quot;maxVideoDuration&quot;:140,&quot;internationalShippingEnabled&quot;:true,&quot;useV2EndpointsEnabled&quot;:true,&quot;useVmapVariants&quot;:false,&quot;autoplayPreviewPreroll&quot;:true,&quot;moments_lohp_enabled&quot;:true,&quot;momentsExperienceEnabled&quot;:true,&quot;enableNativePush&quot;:false,&quot;installNativePush&quot;:false,&quot;autoSubscribeNativePush&quot;:false,&quot;stickersInteractivity&quot;:true,&quot;stickersInteractivityDuringLoading&quot;:true,&quot;stickersExperience&quot;:true,&quot;dynamic_video_ads_include_long_videos&quot;:true,&quot;push_state_size&quot;:1000,&quot;canBeSoftUser&quot;:false,&quot;isInSoftExperiment&quot;:true},&quot;experiments&quot;:{},&quot;toasts_dm&quot;:false,&quot;toasts_spoonbill&quot;:false,&quot;toasts_timeline&quot;:false,&quot;toasts_dm_poll_scale&quot;:60,&quot;defaultNotificationIcon&quot;:&quot;https:\/\/abs.twimg.com\/a\/1467868637\/img\/t1\/mobile\/wp7_app_icon.png&quot;,&quot;uploadDomain&quot;:&quot;upload.twitter.com&quot;,&quot;promptbirdData&quot;:{&quot;promptbirdEnabled&quot;:false,&quot;immediateTriggers&quot;:[&quot;PullToRefresh&quot;,&quot;Navigate&quot;],&quot;format&quot;:&quot;ProfileOther&quot;},&quot;pageContext&quot;:&quot;profile&quot;,&quot;passwordResetAdvancedLoginForm&quot;:true,&quot;skipAutoSignupDialog&quot;:false,&quot;shouldReplaceSignupWithLogin&quot;:false,&quot;hashflagBaseUrl&quot;:&quot;https:\/\/abs.twimg.com\/hashflags\/&quot;,&quot;activeHashflags&quot;:{&quot;المسافر&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;سفرة_الصيف&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;mémoirededory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;whitejersey&quot;:&quot;TDF2016\/WhiteJersey.png&quot;,&quot;bacphysique&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;togetherstronger&quot;:&quot;EurosFootball2016\/Wales.png&quot;,&quot;ger&quot;:&quot;EurosFootball2016\/Germany.png&quot;,&quot;meinestimme&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;bacst2s&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;اقترعت&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;immerwiederoesterreich&quot;:&quot;EurosFootball2016\/Austria.png&quot;,&quot;一站到底&quot;:&quot;JSBCI\/JSBCI_emoji.png&quot;,&quot;كل_عام_وأنتم_بخير&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;bacpro&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;سافر_الحين_وادفع_بعدين&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;queensyoungleaders&quot;:&quot;Queenat90\/Queenat90.png&quot;,&quot;tdf&quot;:&quot;TDF2016\/TDF.png&quot;,&quot;bacstmg&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;maillotjaunelcl&quot;:&quot;TDF2016\/YellowJersey.png&quot;,&quot;periscope&quot;:&quot;Periscope\/Periscope.png&quot;,&quot;cblol&quot;:&quot;CBLoL\/CBLoL.png&quot;,&quot;bethefastest&quot;:&quot;EmojiVirgin\/EmojiVirgin.png&quot;,&quot;jederfuerjeden&quot;:&quot;EurosFootball2016\/Germany.png&quot;,&quot;abfabmovie&quot;:&quot;AbFabMovie\/AbFabMovie.png&quot;,&quot;yoenunvw&quot;:&quot;Volkswagen\/YoEnUnVW.png&quot;,&quot;lovetwitter&quot;:&quot;LoveTwitter\/LoveTwitter.png&quot;,&quot;ifoodnomengão&quot;:&quot;iFoodBrazil\/flamengo.png&quot;,&quot;badisbred&quot;:&quot;AnimalKingdom_Deliver\/BadisBred.png&quot;,&quot;arabianoud&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;عطور_عربية&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;admis&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;عيد&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;weareamerica&quot;:&quot;AdCouncilEmoji\/AdCouncilEmoji_Original.png&quot;,&quot;cervantes400&quot;:&quot;CervantesEmoji\/cervantes-emoji.png&quot;,&quot;maillotapoiscarrefour&quot;:&quot;TDF2016\/PolkaDotJersey.png&quot;,&quot;hovotato&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;eid&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;seleçãoeuro&quot;:&quot;EuroNoSporTV\/EuroNoSporTV.png&quot;,&quot;япроголосовал(а)&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;sienteelsabor&quot;:&quot;CocaCola\/SienteElSabor.png&quot;,&quot;bacfrançais&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;gawa&quot;:&quot;EurosFootball2016\/NorthernIreland.png&quot;,&quot;احساس&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;teamdelta&quot;:&quot;VoiceAU\/TeamDelta.png&quot;,&quot;hun&quot;:&quot;EurosFootball2016\/Hungary.png&quot;,&quot;مضاوي&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;bacsti2d&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;wimbledon&quot;:&quot;Wimbledon2016\/Wimbledon.png&quot;,&quot;yellowjersey&quot;:&quot;TDF2016\/YellowJersey.png&quot;,&quot;buscandoadory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;vivelamannschaft&quot;:&quot;Mercedes\/Mercedes.png&quot;,&quot;maillotapois&quot;:&quot;TDF2016\/PolkaDotJersey.png&quot;,&quot;bacanglais&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;1of11million&quot;:&quot;EurosFootball2016\/Portugal.png&quot;,&quot;jaivoté&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;ঈদ&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;ঈদ_মোবারক&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;golive&quot;:&quot;goLIVE2016\/goLIVE.png&quot;,&quot;everycharactermatters&quot;:&quot;EveryCharacterMatters\/EveryCharacterMatters.png&quot;,&quot;bachistoiregeographie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;whosstillstanding&quot;:&quot;JSBCI\/JSBCI_emoji.png&quot;,&quot;我已投票&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;euro2016&quot;:&quot;EurosFootball2016\/trophy.png&quot;,&quot;bacsvt&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;twitterstaryarasky&quot;:&quot;TwitterstarYarasky\/TwitterstarYarasky.png&quot;,&quot;thesecretlifeofmypet&quot;:&quot;Universal\/SecretLifeOfPets.png&quot;,&quot;momentodory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;thesecretlifeofpets&quot;:&quot;Universal\/SecretLifeOfPets.png&quot;,&quot;fazerdiferente&quot;:&quot;TIM\/emoji_tim_final_3.png&quot;,&quot;tousenfrance&quot;:&quot;EurosFootball2016\/Belgium.png&quot;,&quot;400cervantes&quot;:&quot;CervantesEmoji\/cervantes-emoji.png&quot;,&quot;bacsthr&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;maillotblanc&quot;:&quot;TDF2016\/WhiteJersey.png&quot;,&quot;jaimonbac&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;isl&quot;:&quot;EurosFootball2016\/Iceland.png&quot;,&quot;bizbittidemedenbitmez&quot;:&quot;EurosFootball2016\/Turkey.png&quot;,&quot;ceskarepre&quot;:&quot;EurosFootball2016\/CzechRepublic.png&quot;,&quot;lemondededory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;sui&quot;:&quot;EurosFootball2016\/Switzerland.png&quot;,&quot;svk&quot;:&quot;EurosFootball2016\/Slovakia.png&quot;,&quot;تطبيق_المسافر_للحجوزات&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;bactmd&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;عيد_مبارك&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;투표했어요&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;euronosportv&quot;:&quot;EuroNoSporTV\/EuroNoSporTV.png&quot;,&quot;allezlasuisse&quot;:&quot;EurosFootball2016\/Switzerland.png&quot;,&quot;timchef&quot;:&quot;TIMChef\/emoji_masterchef.png&quot;,&quot;rumoaorio&quot;:&quot;100Days\/100Days.png&quot;,&quot;однакоманда&quot;:&quot;EurosFootball2016\/Russia.png&quot;,&quot;nir&quot;:&quot;EurosFootball2016\/NorthernIreland.png&quot;,&quot;aut&quot;:&quot;EurosFootball2016\/Austria.png&quot;,&quot;bachistoire&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;عيد_الفطر&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;وودي&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;csakegyutt&quot;:&quot;EurosFootball2016\/Hungary.png&quot;,&quot;تطبيق_المسافر&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;tdf2016&quot;:&quot;TDF2016\/TDF.png&quot;,&quot;aidilfitri&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;bacphilo&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacphysiquechimie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;твоязбірна&quot;:&quot;EurosFootball2016\/Ukraine.png&quot;,&quot;eng&quot;:&quot;EurosFootball2016\/England.png&quot;,&quot;chamaolimpica&quot;:&quot;OlympicTorch_Emoji\/OlympicTorch.png&quot;,&quot;presidentduterte&quot;:&quot;PresidentDuterte\/PHVoteDuterte.png&quot;,&quot;ivoted&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;teamronan&quot;:&quot;VoiceAU\/TeamRonan.png&quot;,&quot;rus&quot;:&quot;EurosFootball2016\/Russia.png&quot;,&quot;olympicflame&quot;:&quot;OlympicTorch_Emoji\/OlympicTorch.png&quot;,&quot;iameuro&quot;:&quot;UnibetAustralia\/soccer.png&quot;,&quot;ifoodnomengao&quot;:&quot;iFoodBrazil\/flamengo.png&quot;,&quot;happybirthdayyourmajesty&quot;:&quot;Queenat90\/Queenat90.png&quot;,&quot;alb&quot;:&quot;EurosFootball2016\/Albania.png&quot;,&quot;thequeue&quot;:&quot;Wimbledon2016\/TheQueue.png&quot;,&quot;rou&quot;:&quot;EurosFootball2016\/Romania.png&quot;,&quot;eidulfitr&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;badmoms&quot;:&quot;Universal_BadMoms_Emoji\/BadMoms.png&quot;,&quot;findingdory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;greenjersey&quot;:&quot;TDF2016\/GreenJersey.png&quot;,&quot;صقر&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;bacallemand&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;polkadotjersey&quot;:&quot;TDF2016\/PolkaDotJersey.png&quot;,&quot;الفارس&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;teamjessiej&quot;:&quot;VoiceAU\/TeamJessieJ.png&quot;,&quot;bumotoako&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;twittersparkle&quot;:&quot;TwitterSparkle\/TwitterSparkle.png&quot;,&quot;justkeepswimming&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;maillotvertskoda&quot;:&quot;TDF2016\/GreenJersey.png&quot;,&quot;ita&quot;:&quot;EurosFootball2016\/Italy.png&quot;,&quot;ramazan_bayramı&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;idulfitri&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;vivoazzurro&quot;:&quot;EurosFootball2016\/Italy.png&quot;,&quot;resultatsbac&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacitalien&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;لمسة&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;سناب_المسافر_دايما_مسافر&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;maillotblanckrys&quot;:&quot;TDF2016\/WhiteJersey.png&quot;,&quot;origin&quot;:&quot;StateOfOrigin\/Origin.png&quot;,&quot;bacfrancais&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bachotellerie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;thehill&quot;:&quot;Wimbledon2016\/TheHill.png&quot;,&quot;hairomania&quot;:&quot;EurosFootball2016\/Romania.png&quot;,&quot;admise&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;yarasky&quot;:&quot;TwitterstarYarasky\/TwitterstarYarasky.png&quot;,&quot;maillotvert&quot;:&quot;TDF2016\/GreenJersey.png&quot;,&quot;yovote&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;qlder&quot;:&quot;StateOfOrigin\/QLDER.png&quot;,&quot;رسالة&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;energia&quot;:&quot;JBalvinNew\/JBalvinNew.png&quot;,&quot;انا_المسافر&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;rumboario&quot;:&quot;100Days\/100Days.png&quot;,&quot;queenat90&quot;:&quot;Queenat90\/Queenat90.png&quot;,&quot;overdadeirosabor&quot;:&quot;Hellmanns\/emoji_hellmans.png&quot;,&quot;baces&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacmaths&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;سافر_بالتقسيط&quot;:&quot;AlMosafer\/travel.png&quot;,&quot;とと姉ちゃん&quot;:&quot;NHKMorningDrama\/NHKMorningDrama.png&quot;,&quot;harirayaaidilfitri&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;yovoté&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;eidmubarak&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;togetherforengland&quot;:&quot;EurosFootball2016\/England.png&quot;,&quot;łączynaspolska&quot;:&quot;EurosFootball2016\/Poland.png&quot;,&quot;bachôtellerie&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacs&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacstav&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;nowyoucan&quot;:&quot;SkyNow\/SKYNowYouCan.png&quot;,&quot;trovadory&quot;:&quot;FindingDory\/FindingDory.png&quot;,&quot;tur&quot;:&quot;EurosFootball2016\/Turkey.png&quot;,&quot;roadtorio&quot;:&quot;100Days\/100Days.png&quot;,&quot;bacses&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bacstl&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;lebaran&quot;:&quot;EidAlFit_Emoji\/EidAlFit_Emoji.png&quot;,&quot;wal&quot;:&quot;EurosFootball2016\/Wales.png&quot;,&quot;bacespagnol&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;bel&quot;:&quot;EurosFootball2016\/Belgium.png&quot;,&quot;bacstd2a&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;fiersdetrebleus&quot;:&quot;EurosFootball2016\/France.png&quot;,&quot;cze&quot;:&quot;EurosFootball2016\/CzechRepublic.png&quot;,&quot;pol&quot;:&quot;EurosFootball2016\/Poland.png&quot;,&quot;العربية_للعود&quot;:&quot;ArabianOud\/incense_burner.png&quot;,&quot;résultatsbac&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;budiponosan&quot;:&quot;EurosFootball2016\/Croatia.png&quot;,&quot;fandimespolu&quot;:&quot;EurosFootball2016\/Slovakia.png&quot;,&quot;thisbudsforyou&quot;:&quot;Bud_Emoji\/Bud.png&quot;,&quot;icaucused&quot;:&quot;USElections2016\/ivoted.png&quot;,&quot;ukr&quot;:&quot;EurosFootball2016\/Ukraine.png&quot;,&quot;esp&quot;:&quot;EurosFootball2016\/Spain.png&quot;,&quot;makethefuture&quot;:&quot;Shell_Emoji\/ShellLightbulb.png&quot;,&quot;cro&quot;:&quot;EurosFootball2016\/Croatia.png&quot;,&quot;irl&quot;:&quot;EurosFootball2016\/ROIreland.png&quot;,&quot;lovehasnolabels&quot;:&quot;AdCouncilEmoji\/AdCouncilEmoji_Original.png&quot;,&quot;vamosespaña&quot;:&quot;EurosFootball2016\/Spain.png&quot;,&quot;bacl&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;選挙に行こう&quot;:&quot;JapanUpperHouseElection\/JapanUpperHouseElection.png&quot;,&quot;uptheblues&quot;:&quot;StateOfOrigin\/UpTheBlues.png&quot;,&quot;sharkweek&quot;:&quot;SharkWeekEmoji\/SharkWeek_Original.png&quot;,&quot;por&quot;:&quot;EurosFootball2016\/Portugal.png&quot;,&quot;teammadden&quot;:&quot;VoiceAU\/TeamMadden.png&quot;,&quot;swe&quot;:&quot;EurosFootball2016\/Sweden.png&quot;,&quot;bac2016&quot;:&quot;baccalaureat_emoji\/baccalaureat_emoji.png&quot;,&quot;maillotjaune&quot;:&quot;TDF2016\/YellowJersey.png&quot;,&quot;fra&quot;:&quot;EurosFootball2016\/France.png&quot;,&quot;coybig&quot;:&quot;EurosFootball2016\/ROIreland.png&quot;},&quot;profile_user&quot;:{&quot;id&quot;:154068143,&quot;id_str&quot;:&quot;154068143&quot;,&quot;name&quot;:&quot;Blake Embrey&quot;,&quot;screen_name&quot;:&quot;blakeembrey&quot;,&quot;location&quot;:&quot;San Francisco, CA&quot;,&quot;url&quot;:&quot;http:\/\/blakeembrey.me&quot;,&quot;description&quot;:&quot;World Citizen \u2219 Open Source Contributor \u2219 Full-stack Engineer&quot;,&quot;protected&quot;:false,&quot;followers_count&quot;:1525,&quot;friends_count&quot;:263,&quot;listed_count&quot;:35,&quot;created_at&quot;:&quot;Thu Jun 10 08:21:53 +0000 2010&quot;,&quot;favourites_count&quot;:1450,&quot;utc_offset&quot;:36000,&quot;time_zone&quot;:&quot;Brisbane&quot;,&quot;geo_enabled&quot;:true,&quot;verified&quot;:false,&quot;statuses_count&quot;:2626,&quot;lang&quot;:&quot;en&quot;,&quot;contributors_enabled&quot;:false,&quot;is_translator&quot;:false,&quot;is_translation_enabled&quot;:false,&quot;profile_background_color&quot;:&quot;C0DEED&quot;,&quot;profile_background_image_url&quot;:&quot;http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png&quot;,&quot;profile_background_image_url_https&quot;:&quot;https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png&quot;,&quot;profile_background_tile&quot;:false,&quot;profile_image_url&quot;:&quot;http:\/\/pbs.twimg.com\/profile_images\/439951183243771904\/EiIFri6S_normal.jpeg&quot;,&quot;profile_image_url_https&quot;:&quot;https:\/\/pbs.twimg.com\/profile_images\/439951183243771904\/EiIFri6S_normal.jpeg&quot;,&quot;profile_banner_url&quot;:&quot;https:\/\/pbs.twimg.com\/profile_banners\/154068143\/1418337125&quot;,&quot;profile_link_color&quot;:&quot;FF2200&quot;,&quot;profile_sidebar_border_color&quot;:&quot;FFFFFF&quot;,&quot;profile_sidebar_fill_color&quot;:&quot;DDEEF6&quot;,&quot;profile_text_color&quot;:&quot;333333&quot;,&quot;profile_use_background_image&quot;:true,&quot;has_extended_profile&quot;:true,&quot;default_profile&quot;:false,&quot;default_profile_image&quot;:false,&quot;following&quot;:null,&quot;follow_request_sent&quot;:null,&quot;notifications&quot;:null,&quot;ext&quot;:{&quot;vine_profile&quot;:{&quot;r&quot;:{&quot;err&quot;:{&quot;code&quot;:202,&quot;message&quot;:&quot;You are not authorized to request this information.&quot;}},&quot;ttl&quot;:0}}},&quot;profileEditingCSSBundle&quot;:&quot;https:\/\/abs.twimg.com\/a\/1467868637\/css\/t1\/twitter_profile_editing.bundle.css&quot;,&quot;profile_id&quot;:154068143,&quot;business_profile&quot;:false,&quot;business_profile_featured_collections_complete&quot;:false,&quot;cardsGallery&quot;:true,&quot;injectComposedTweets&quot;:false,&quot;inlineProfileEditing&quot;:false,&quot;isClusterFollowReplenishEnabled&quot;:false,&quot;autoplayEnabled&quot;:true,&quot;trendsCacheKey&quot;:null,&quot;decider_personalized_trends&quot;:false,&quot;trendsEndpoint&quot;:&quot;\/i\/trends&quot;,&quot;wtfOptions&quot;:{&quot;pc&quot;:true,&quot;connections&quot;:true,&quot;limit&quot;:3,&quot;display_location&quot;:&quot;profile-sidebar&quot;,&quot;dismissable&quot;:true,&quot;similar_to_user_id&quot;:154068143},&quot;showSensitiveContent&quot;:false,&quot;autoPlayBalloonsAnimation&quot;:false,&quot;isCurrentUser&quot;:false,&quot;timeline_url&quot;:&quot;\/i\/profiles\/show\/blakeembrey\/timeline\/tweets&quot;,&quot;initialState&quot;:{&quot;title&quot;:&quot;Blake Embrey (@blakeembrey) | Twitter&quot;,&quot;section&quot;:null,&quot;module&quot;:&quot;app\/pages\/profile\/highline_landing&quot;,&quot;cache_ttl&quot;:300,&quot;body_class_names&quot;:&quot;three-col logged-out user-style-blakeembrey enhanced-mini-profile ProfilePage ProfilePage--withBlockedWarning&quot;,&quot;doc_class_names&quot;:&quot;route-profile&quot;,&quot;route_name&quot;:&quot;profile&quot;,&quot;page_container_class_names&quot;:&quot;AppContent&quot;,&quot;ttft_navigation&quot;:false}}">
 
   
 
@@ -95,16 +93,26 @@ a.getAttribute("contenteditable")=="true"}var a=(new Date).getTime(),b=1e4,c=/^(
   <input type="hidden" id="swift-module-path" value="https://abs.twimg.com/c/swift/en">
 
   
-    <script src="https://abs.twimg.com/c/swift/en/init.f27b6c5b065cbc784ad5065ffb5565fc49010ddd.js" async></script>
+    <script src="https://abs.twimg.com/c/swift/en/init.1425172875c93495a3f5e1b7561615e0f9a8919a.js" async></script>
 
   </head>
   <body class="three-col logged-out user-style-blakeembrey enhanced-mini-profile ProfilePage ProfilePage--withBlockedWarning" 
 data-fouc-class-names="swift-loading"
  dir="ltr">
-      <script id="swift_loading_indicator" nonce="ZpQlML09Q0DcIPYhDNGuQw==">
+      <script id="swift_loading_indicator" nonce="BES9GJA6OuNTUX4nJO3zgQ==">
         document.body.className=document.body.className+" "+document.body.getAttribute("data-fouc-class-names");
       </script>
-    <div id="doc" class="route-profile">
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div id="doc" data-at-shortcutkeys="{&quot;Enter&quot;:&quot;Open Tweet details&quot;,&quot;o&quot;:&quot;Expand photo&quot;,&quot;/&quot;:&quot;Search&quot;,&quot;?&quot;:&quot;This menu&quot;,&quot;j&quot;:&quot;Next Tweet&quot;,&quot;k&quot;:&quot;Previous Tweet&quot;,&quot;Space&quot;:&quot;Page down&quot;,&quot;.&quot;:&quot;Load new Tweets&quot;,&quot;gu&quot;:&quot;Go to user\u2026&quot;}" class="route-profile">
         <div class="topbar js-topbar">
 
 
@@ -305,7 +313,7 @@ data-fouc-class-names="swift-loading"
       <div class="js-front-language">
         <form action="/sessions/change_locale" class="t1-form language" method="POST">
           <input type="hidden" name="lang"> <input type="hidden" name="redirect">
-          <input type="hidden" name="authenticity_token" value="ec3fff53bb5d298117d0e97c4c512725fe0c4e63">
+          <input type="hidden" name="authenticity_token" value="bbedb3910f1640895f556b2cb47649df04a2e571">
         </form>
       </div>
     </li>
@@ -353,7 +361,7 @@ data-fouc-class-names="swift-loading"
 
   <input type="hidden" name="scribe_log">
   <input type="hidden" name="redirect_after_login" value="/blakeembrey">
-  <input type="hidden" value="ec3fff53bb5d298117d0e97c4c512725fe0c4e63" name="authenticity_token">
+  <input type="hidden" value="bbedb3910f1640895f556b2cb47649df04a2e571" name="authenticity_token">
 </form>
 
               <hr>
@@ -539,11 +547,6 @@ a,
 .stats a:hover strong,
 .stats a:focus,
 .stats a:focus strong,
-
-.profile-modal-header .fullname a:hover,
-.profile-modal-header .username a:hover,
-.profile-modal-header .fullname a:focus,
-.profile-modal-header .username a:focus,
 
 .find-friends-sources li:hover .source,
 
@@ -918,11 +921,11 @@ s,
             <span class="ProfileNav-value" data-is-compact="false">2,626</span>
           </a>
         </li><li class="ProfileNav-item ProfileNav-item--following">
-        <a class="ProfileNav-stat ProfileNav-stat--link u-borderUserColor u-textCenter js-tooltip js-openSignupDialog js-nonNavigable u-textUserColor" title="264 Following" data-nav="following"
+        <a class="ProfileNav-stat ProfileNav-stat--link u-borderUserColor u-textCenter js-tooltip js-openSignupDialog js-nonNavigable u-textUserColor" title="263 Following" data-nav="following"
             href="/blakeembrey/following"
 >
           <span class="ProfileNav-label">Following</span>
-          <span class="ProfileNav-value" data-is-compact="false">264</span>
+          <span class="ProfileNav-value" data-is-compact="false">263</span>
         </a>
       </li><li class="ProfileNav-item ProfileNav-item--followers">
         <a class="ProfileNav-stat ProfileNav-stat--link u-borderUserColor u-textCenter js-tooltip js-openSignupDialog js-nonNavigable u-textUserColor" title="1,525 Followers" data-nav="followers"
@@ -932,11 +935,11 @@ s,
           <span class="ProfileNav-value" data-is-compact="false">1,525</span>
         </a>
       </li><li class="ProfileNav-item ProfileNav-item--favorites" data-more-item=".ProfileNav-dropdownItem--favorites">
-        <a class="ProfileNav-stat ProfileNav-stat--link u-borderUserColor u-textCenter js-tooltip js-openSignupDialog js-nonNavigable u-textUserColor" title="1,444 Likes" data-nav="favorites"
+        <a class="ProfileNav-stat ProfileNav-stat--link u-borderUserColor u-textCenter js-tooltip js-openSignupDialog js-nonNavigable u-textUserColor" title="1,450 Likes" data-nav="favorites"
             href="/blakeembrey/likes"
 >
           <span class="ProfileNav-label">Likes</span>
-          <span class="ProfileNav-value" data-is-compact="false">1,444</span>
+          <span class="ProfileNav-value" data-is-compact="false">1,450</span>
         </a>
       </li><li class="ProfileNav-item ProfileNav-item--more dropdown is-hidden">        <a class="ProfileNav-stat ProfileNav-stat--link ProfileNav-stat--moreLink js-openSignupDialog js-nonNavigable" href="#more">
           <span class="ProfileNav-label">&nbsp;</span>
@@ -1297,29 +1300,22 @@ data-disclosure-type=""
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    
-      
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
     <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
     <span class="ProfileTweet-action--retweet u-hiddenVisually">
       
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="163">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>163 retweets</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="170">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>170 retweets</span>
       </span>
     </span>
     <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="163">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>163 likes</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="181">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>181 likes</span>
       </span>
     </span>
   </div>
@@ -1346,7 +1342,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">163</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">170</span>
         </span>
       </div>
   </button><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
@@ -1356,7 +1352,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">163</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">170</span>
         </span>
       </div>
   </button>
@@ -1372,7 +1368,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">163</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">181</span>
         </span>
       </div>
   </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
@@ -1384,7 +1380,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">163</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">181</span>
         </span>
       </div>
   </button>
@@ -1436,6 +1432,7 @@ data-disclosure-type=""
 
 
 </li>
+
 
       <li class="js-stream-item stream-item stream-item
 " data-item-id="741283595105402880" id="stream-item-tweet-741283595105402880" data-item-type="tweet">
@@ -1588,43 +1585,22 @@ Can we stop bikeshedding now?
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    <div class="js-tweet-details-fixer tweet-details-fixer">
-
-  <div class="js-machine-translated-tweet-container"></div>
-  <div class="js-tweet-stats-container tweet-stats-container">
-  </div>
-
-  <div class="client-and-actions">
-  <span class="metadata">
-    <span>7:59 AM - 10 Jun 2016</span>
-       &middot; <a class="permalink-link js-permalink js-nav" href="/HenrikJoreteg/status/741283595105402880"  tabindex="-1">Details</a>
-  </span>
-</div>
-
-
-</div>
-
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
     <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
     <span class="ProfileTweet-action--retweet u-hiddenVisually">
       
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="230">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>230 retweets</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="229">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>229 retweets</span>
       </span>
     </span>
     <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="377">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>377 likes</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="380">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>380 likes</span>
       </span>
     </span>
   </div>
@@ -1651,7 +1627,7 @@ Can we stop bikeshedding now?
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">230</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">229</span>
         </span>
       </div>
   </button><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
@@ -1661,7 +1637,7 @@ Can we stop bikeshedding now?
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">230</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">229</span>
         </span>
       </div>
   </button>
@@ -1677,7 +1653,7 @@ Can we stop bikeshedding now?
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">377</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">380</span>
         </span>
       </div>
   </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
@@ -1689,7 +1665,7 @@ Can we stop bikeshedding now?
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">377</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">380</span>
         </span>
       </div>
   </button>
@@ -1741,6 +1717,7 @@ Can we stop bikeshedding now?
 
 
 </li>
+
 
       <li class="js-stream-item stream-item stream-item
 " data-item-id="735885916510638080" id="stream-item-tweet-735885916510638080" data-item-type="tweet">
@@ -1830,7 +1807,7 @@ data-disclosure-type=""
       
       <div class="stream-item-header">
           <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/MattMueller" data-user-id="11965112">
-    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/643917647529119744/veqU1x5T_bigger.png" alt="">
+    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/748570033786228737/zLIAIiFT_bigger.jpg" alt="">
     <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Matthew Mueller</strong>
     <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>MattMueller</b></span>
     
@@ -1879,31 +1856,9 @@ Thanks <a href="/SlackHQ" class="twitter-atreply pretty-link js-nav" dir="ltr" d
 </div>
 
 
-  <div class="expanded-content js-tweet-details-dropdown">
-    
-      <div class="js-tweet-details-fixer tweet-details-fixer">
-
-  <div class="js-machine-translated-tweet-container"></div>
-  <div class="js-tweet-stats-container tweet-stats-container">
-  </div>
-
-  <div class="client-and-actions">
-  <span class="metadata">
-    <span>10:30 AM - 26 May 2016</span>
-       &middot; <a class="permalink-link js-permalink js-nav" href="/MattMueller/status/735885916510638080"  tabindex="-1">Details</a>
-  </span>
-</div>
-
-
-</div>
-
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
@@ -2034,6 +1989,7 @@ Thanks <a href="/SlackHQ" class="twitter-atreply pretty-link js-nav" dir="ltr" d
 
 </li>
 
+
       <li class="js-stream-item stream-item stream-item
 " data-item-id="732437003372007424" id="stream-item-tweet-732437003372007424" data-item-type="tweet">
     
@@ -2147,31 +2103,9 @@ data-disclosure-type=""
 </div>
 
 
-  <div class="expanded-content js-tweet-details-dropdown">
-    
-      <div class="js-tweet-details-fixer tweet-details-fixer">
-
-  <div class="js-machine-translated-tweet-container"></div>
-  <div class="js-tweet-stats-container tweet-stats-container">
-  </div>
-
-  <div class="client-and-actions">
-  <span class="metadata">
-    <span>10:06 PM - 16 May 2016</span>
-       &middot; <a class="permalink-link js-permalink js-nav" href="/blakeembrey/status/732437003372007424"  tabindex="-1">Details</a>
-  </span>
-</div>
-
-
-</div>
-
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
@@ -2183,8 +2117,8 @@ data-disclosure-type=""
       </span>
     </span>
     <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="4">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>4 likes</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="3">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>3 likes</span>
       </span>
     </span>
   </div>
@@ -2237,7 +2171,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">4</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">3</span>
         </span>
       </div>
   </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
@@ -2249,7 +2183,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">4</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">3</span>
         </span>
       </div>
   </button>
@@ -2301,6 +2235,7 @@ data-disclosure-type=""
 
 
 </li>
+
 
       <li class="js-stream-item stream-item stream-item
 " data-item-id="732293405108146176" id="stream-item-tweet-732293405108146176" data-item-type="tweet">
@@ -2417,16 +2352,9 @@ data-disclosure-type=""
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    
-      
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
@@ -2557,6 +2485,7 @@ data-disclosure-type=""
 
 </li>
 
+
       <li class="js-stream-item stream-item stream-item
 " data-item-id="729729835103178752" id="stream-item-tweet-729729835103178752" data-item-type="tweet">
     
@@ -2670,31 +2599,9 @@ data-disclosure-type=""
 </div>
 
 
-  <div class="expanded-content js-tweet-details-dropdown">
-    
-      <div class="js-tweet-details-fixer tweet-details-fixer">
-
-  <div class="js-machine-translated-tweet-container"></div>
-  <div class="js-tweet-stats-container tweet-stats-container">
-  </div>
-
-  <div class="client-and-actions">
-  <span class="metadata">
-    <span>10:48 AM - 9 May 2016</span>
-       &middot; <a class="permalink-link js-permalink js-nav" href="/blakeembrey/status/729729835103178752"  tabindex="-1">Details</a>
-  </span>
-</div>
-
-
-</div>
-
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
@@ -2825,6 +2732,7 @@ data-disclosure-type=""
 
 </li>
 
+
       <li class="js-stream-item stream-item stream-item
 " data-item-id="728985072586526720" id="stream-item-tweet-728985072586526720" data-item-type="tweet">
     
@@ -2940,29 +2848,22 @@ data-disclosure-type=""
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    
-      
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
     <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
     <span class="ProfileTweet-action--retweet u-hiddenVisually">
       
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="166">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>166 retweets</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="167">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>167 retweets</span>
       </span>
     </span>
     <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="295">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>295 likes</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="293">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>293 likes</span>
       </span>
     </span>
   </div>
@@ -2989,7 +2890,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">166</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">167</span>
         </span>
       </div>
   </button><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
@@ -2999,7 +2900,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">166</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">167</span>
         </span>
       </div>
   </button>
@@ -3015,7 +2916,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">295</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">293</span>
         </span>
       </div>
   </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
@@ -3027,7 +2928,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">295</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">293</span>
         </span>
       </div>
   </button>
@@ -3079,6 +2980,7 @@ data-disclosure-type=""
 
 
 </li>
+
 
       <li class="js-stream-item stream-item stream-item
 " data-item-id="727924705521487872" id="stream-item-tweet-727924705521487872" data-item-type="tweet">
@@ -3195,16 +3097,9 @@ data-disclosure-type=""
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    
-      
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
@@ -3334,6 +3229,7 @@ data-disclosure-type=""
 
 
 </li>
+
 
       <li class="js-stream-item stream-item stream-item
 " data-item-id="722954968450260992" id="stream-item-tweet-722954968450260992" data-item-type="tweet">
@@ -3470,31 +3366,9 @@ data-disclosure-type=""
 </div>
 
 
-  <div class="expanded-content js-tweet-details-dropdown">
-    
-      <div class="js-tweet-details-fixer tweet-details-fixer">
-
-  <div class="js-machine-translated-tweet-container"></div>
-  <div class="js-tweet-stats-container tweet-stats-container">
-  </div>
-
-  <div class="client-and-actions">
-  <span class="metadata">
-    <span>6:07 PM - 20 Apr 2016</span>
-       &middot; <a class="permalink-link js-permalink js-nav" href="/basarat/status/722954968450260992"  tabindex="-1">Details</a>
-  </span>
-</div>
-
-
-</div>
-
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
@@ -3506,8 +3380,8 @@ data-disclosure-type=""
       </span>
     </span>
     <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="8">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>8 likes</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="7">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>7 likes</span>
       </span>
     </span>
   </div>
@@ -3560,7 +3434,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">8</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">7</span>
         </span>
       </div>
   </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
@@ -3572,7 +3446,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">8</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">7</span>
         </span>
       </div>
   </button>
@@ -3624,6 +3498,7 @@ data-disclosure-type=""
 
 
 </li>
+
 
       <li class="js-stream-item stream-item stream-item
 " data-item-id="715776039776030723" id="stream-item-tweet-715776039776030723" data-item-type="tweet">
@@ -3726,16 +3601,9 @@ data-disclosure-type=""
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    
-      
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
@@ -3866,6 +3734,7 @@ data-disclosure-type=""
 
 </li>
 
+
       <li class="js-stream-item stream-item stream-item
 " data-item-id="714227272245379072" id="stream-item-tweet-714227272245379072" data-item-type="tweet">
     
@@ -3979,31 +3848,9 @@ data-disclosure-type=""
 </div>
 
 
-  <div class="expanded-content js-tweet-details-dropdown">
-    
-      <div class="js-tweet-details-fixer tweet-details-fixer">
-
-  <div class="js-machine-translated-tweet-container"></div>
-  <div class="js-tweet-stats-container tweet-stats-container">
-  </div>
-
-  <div class="client-and-actions">
-  <span class="metadata">
-    <span>4:07 PM - 27 Mar 2016</span>
-       &middot; <a class="permalink-link js-permalink js-nav" href="/blakeembrey/status/714227272245379072"  tabindex="-1">Details</a>
-  </span>
-</div>
-
-
-</div>
-
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
@@ -4133,6 +3980,7 @@ data-disclosure-type=""
 
 
 </li>
+
 
       <li class="js-stream-item stream-item stream-item
 " data-item-id="709978859005988864" id="stream-item-tweet-709978859005988864" data-item-type="tweet">
@@ -4279,43 +4127,22 @@ data-disclosure-type=""
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    <div class="js-tweet-details-fixer tweet-details-fixer">
-
-  <div class="js-machine-translated-tweet-container"></div>
-  <div class="js-tweet-stats-container tweet-stats-container">
-  </div>
-
-  <div class="client-and-actions">
-  <span class="metadata">
-    <span>10:45 PM - 15 Mar 2016</span>
-       &middot; <a class="permalink-link js-permalink js-nav" href="/AnnaPawlicka/status/709978859005988864"  tabindex="-1">Details</a>
-  </span>
-</div>
-
-
-</div>
-
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
     <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
     <span class="ProfileTweet-action--retweet u-hiddenVisually">
       
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="3645">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>3,645 retweets</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="3639">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>3,639 retweets</span>
       </span>
     </span>
     <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="3923">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>3,923 likes</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="3920">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>3,920 likes</span>
       </span>
     </span>
   </div>
@@ -4432,6 +4259,7 @@ data-disclosure-type=""
 
 
 </li>
+
 
       <li class="js-stream-item stream-item stream-item
 " data-item-id="712988917927051264" id="stream-item-tweet-712988917927051264" data-item-type="tweet">
@@ -4578,30 +4406,9 @@ data-disclosure-type=""
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    <div class="js-tweet-details-fixer tweet-details-fixer">
-
-  <div class="js-machine-translated-tweet-container"></div>
-  <div class="js-tweet-stats-container tweet-stats-container">
-  </div>
-
-  <div class="client-and-actions">
-  <span class="metadata">
-    <span>6:06 AM - 24 Mar 2016</span>
-       &middot; <a class="permalink-link js-permalink js-nav" href="/codylindley/status/712988917927051264"  tabindex="-1">Details</a>
-  </span>
-</div>
-
-
-</div>
-
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
@@ -4732,6 +4539,7 @@ data-disclosure-type=""
 
 </li>
 
+
       <li class="js-stream-item stream-item stream-item
 " data-item-id="712798309266497537" id="stream-item-tweet-712798309266497537" data-item-type="tweet">
     
@@ -4849,16 +4657,9 @@ Today: HackerNews outraged by small modules. <a href="https://t.co/VqBDDGl41I" r
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    
-      
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
@@ -4870,8 +4671,8 @@ Today: HackerNews outraged by small modules. <a href="https://t.co/VqBDDGl41I" r
       </span>
     </span>
     <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="91">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>91 likes</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="92">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>92 likes</span>
       </span>
     </span>
   </div>
@@ -4924,7 +4725,7 @@ Today: HackerNews outraged by small modules. <a href="https://t.co/VqBDDGl41I" r
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">91</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">92</span>
         </span>
       </div>
   </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
@@ -4936,7 +4737,7 @@ Today: HackerNews outraged by small modules. <a href="https://t.co/VqBDDGl41I" r
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">91</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">92</span>
         </span>
       </div>
   </button>
@@ -4988,6 +4789,7 @@ Today: HackerNews outraged by small modules. <a href="https://t.co/VqBDDGl41I" r
 
 
 </li>
+
 
       <li class="js-stream-item stream-item stream-item
 " data-item-id="710487090484662272" id="stream-item-tweet-710487090484662272" data-item-type="tweet">
@@ -5143,43 +4945,22 @@ data-disclosure-type=""
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    <div class="js-tweet-details-fixer tweet-details-fixer">
-
-  <div class="js-machine-translated-tweet-container"></div>
-  <div class="js-tweet-stats-container tweet-stats-container">
-  </div>
-
-  <div class="client-and-actions">
-  <span class="metadata">
-    <span>8:24 AM - 17 Mar 2016</span>
-       &middot; <a class="permalink-link js-permalink js-nav" href="/jenerallyspeaks/status/710487090484662272"  tabindex="-1">Details</a>
-  </span>
-</div>
-
-
-</div>
-
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
     <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
     <span class="ProfileTweet-action--retweet u-hiddenVisually">
       
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="24869">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>24,869 retweets</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="24802">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>24,802 retweets</span>
       </span>
     </span>
     <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="27608">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>27,608 likes</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="27637">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>27,637 likes</span>
       </span>
     </span>
   </div>
@@ -5296,6 +5077,7 @@ data-disclosure-type=""
 
 
 </li>
+
 
       <li class="js-stream-item stream-item stream-item
 " data-item-id="710619494046040065" id="stream-item-tweet-710619494046040065" data-item-type="tweet">
@@ -5428,30 +5210,9 @@ data-disclosure-type=""
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    <div class="js-tweet-details-fixer tweet-details-fixer">
-
-  <div class="js-machine-translated-tweet-container"></div>
-  <div class="js-tweet-stats-container tweet-stats-container">
-  </div>
-
-  <div class="client-and-actions">
-  <span class="metadata">
-    <span>5:11 PM - 17 Mar 2016</span>
-       &middot; <a class="permalink-link js-permalink js-nav" href="/blakeembrey/status/710619494046040065"  tabindex="-1">Details</a>
-  </span>
-</div>
-
-
-</div>
-
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
@@ -5582,6 +5343,7 @@ data-disclosure-type=""
 
 </li>
 
+
       <li class="js-stream-item stream-item stream-item
 " data-item-id="710272740729552896" id="stream-item-tweet-710272740729552896" data-item-type="tweet">
     
@@ -5699,16 +5461,9 @@ FWIW using TypeScript + <a href="/hashtag/ReactJS?src=hash" data-query-source="h
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    
-      
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
@@ -5839,6 +5594,7 @@ FWIW using TypeScript + <a href="/hashtag/ReactJS?src=hash" data-query-source="h
 
 </li>
 
+
       <li class="js-stream-item stream-item stream-item
 " data-item-id="709162846802694145" id="stream-item-tweet-709162846802694145" data-item-type="tweet">
     
@@ -5927,7 +5683,7 @@ data-disclosure-type=""
       
       <div class="stream-item-header">
           <a  class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/ashleymcnamara" data-user-id="14137772">
-    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/738848478260957185/z7AV2SLr_bigger.jpg" alt="">
+    <img class="avatar js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/746461361119461377/znsTpNe5_bigger.jpg" alt="">
     <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part>Ashley McNamara</strong>
     <span>&rlm;</span><span class="username js-action-profile-name" data-aria-label-part><s>@</s><b>ashleymcnamara</b></span>
     
@@ -5984,43 +5740,22 @@ data-disclosure-type=""
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    <div class="js-tweet-details-fixer tweet-details-fixer">
-
-  <div class="js-machine-translated-tweet-container"></div>
-  <div class="js-tweet-stats-container tweet-stats-container">
-  </div>
-
-  <div class="client-and-actions">
-  <span class="metadata">
-    <span>4:42 PM - 13 Mar 2016</span>
-       &middot; <a class="permalink-link js-permalink js-nav" href="/ashleymcnamara/status/709162846802694145"  tabindex="-1">Details</a>
-  </span>
-</div>
-
-
-</div>
-
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
     <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
     <span class="ProfileTweet-action--retweet u-hiddenVisually">
       
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="3362">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>3,362 retweets</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="3355">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>3,355 retweets</span>
       </span>
     </span>
     <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="4433">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>4,433 likes</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="4444">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>4,444 likes</span>
       </span>
     </span>
   </div>
@@ -6137,6 +5872,7 @@ data-disclosure-type=""
 
 
 </li>
+
 
     <li class="js-stream-item stream-item js-no-dedup has-scroll-bump js-has-navigable-stream stream-item no-header-background-module separated-module
  js-no-dedup has-scroll-bump js-has-navigable-stream stream-item no-header-background-module separated-module ScrollBump ScrollBump--recentlyFollowed" data-item-id="1457821748000" id="stream-item-follow_entry-1457821748000" data-item-type="follow_entry" data-component-context="user_scroll_bump">
@@ -6314,6 +6050,7 @@ data-disclosure-type=""
       </li>
   </ul>
 </li>
+
       <li class="js-stream-item stream-item stream-item
 " data-item-id="705798998691426304" id="stream-item-tweet-705798998691426304" data-item-type="tweet">
     
@@ -6467,30 +6204,9 @@ data-disclosure-type=""
 
       
       
-  <div class="expanded-content js-tweet-details-dropdown">
-    <div class="js-tweet-details-fixer tweet-details-fixer">
-
-  <div class="js-machine-translated-tweet-container"></div>
-  <div class="js-tweet-stats-container tweet-stats-container">
-  </div>
-
-  <div class="client-and-actions">
-  <span class="metadata">
-    <span>8:56 AM - 4 Mar 2016</span>
-       &middot; <a class="permalink-link js-permalink js-nav" href="/usuallyawake/status/705798998691426304"  tabindex="-1">Details</a>
-  </span>
-</div>
-
-
-</div>
-
-  </div>
-
 
       
       <div class="stream-item-footer">
-  
-
   
         <div class="ProfileTweet-actionCountList u-hiddenVisually">
     
@@ -6502,8 +6218,8 @@ data-disclosure-type=""
       </span>
     </span>
     <span class="ProfileTweet-action--favorite u-hiddenVisually">
-      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="224">
-        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>224 likes</span>
+      <span class="ProfileTweet-actionCount"  data-tweet-stat-count="223">
+        <span class="ProfileTweet-actionCountForAria" data-aria-label-part>223 likes</span>
       </span>
     </span>
   </div>
@@ -6556,7 +6272,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">224</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">223</span>
         </span>
       </div>
   </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
@@ -6568,7 +6284,7 @@ data-disclosure-type=""
     </div>
       <div class="IconTextContainer">
         <span class="ProfileTweet-actionCount">
-          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">224</span>
+          <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">223</span>
         </span>
       </div>
   </button>
@@ -6620,6 +6336,7 @@ data-disclosure-type=""
 
 
 </li>
+
 
 
 
@@ -7305,7 +7022,7 @@ data-disclosure-type=""
   <div>
     <div class="geo-query-location">
       <input class="GeoSearch-queryInput" type="text" autocomplete="off" placeholder="Search for a neighborhood or city">
-      <span class="icon generic-search"></span>
+      <span class="Icon Icon--search"></span>
     </div>
     <div class="geo-dropdown-status"></div>
     <ul class="GeoSearch-dropdownMenu"></ul>
@@ -7579,7 +7296,7 @@ data-disclosure-type=""
 
   <input type="hidden" name="scribe_log">
   <input type="hidden" name="redirect_after_login" value="/blakeembrey">
-  <input type="hidden" value="ec3fff53bb5d298117d0e97c4c512725fe0c4e63" name="authenticity_token">
+  <input type="hidden" value="bbedb3910f1640895f556b2cb47649df04a2e571" name="authenticity_token">
 </form>
         </div>
       </div>
@@ -7846,6 +7563,7 @@ data-disclosure-type=""
     </div>
   </div>
 </div>
+
 
 
 

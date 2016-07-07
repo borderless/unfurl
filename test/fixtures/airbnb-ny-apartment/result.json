@@ -1,7 +1,7 @@
 {
   "type": "html",
+  "originalUrl": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
   "contentUrl": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
-  "contentSize": 82015,
   "encodingFormat": "text/html",
   "meta": {
     "html": {
@@ -65,7 +65,7 @@
         "aggregateRating": {
           "@type": "http://schema.org/AggregateRating",
           "ratingValue": "5",
-          "reviewCount": "14"
+          "reviewCount": "15"
         },
         "offers": {
           "@type": "http://schema.org/Offer",

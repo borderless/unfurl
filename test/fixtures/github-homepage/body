@@ -6,16 +6,17 @@
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
     <meta charset='utf-8'>
 
-    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-355fc5f5dc43030d495ea75b6bc8366695646a7566c13dd6ba2c2d358e1b5383.css" media="all" rel="stylesheet" />
-    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-7fae2d802a203f722465a757a5c1ecdb285d355fdcda038c10a2d20722dcf959.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-08a7ddd5fb70803ff8390bcae350fe24cca52e8a1266dedb493c666c1d625366.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-b28da47089b34d9dcbec7dbea0300d38d35cb192c333ae7e08c25dbd6d1f5f0b.css" media="all" rel="stylesheet" />
     
     
-    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-429acc2fc05149afec2a05196b3100560f117f753931d0afca46da6e1eeafe39.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-3b27741f2e22b48854ecee715112d86949a7c9e4e502f41739c4578cc65283da.css" media="all" rel="stylesheet" />
+    
     
 
-    <link as="script" href="https://assets-cdn.github.com/assets/frameworks-2c3259528b202168baf656f0e3ba468a9659f5f2546da7089d7e1ab7971083c7.js" rel="preload" />
+    <link as="script" href="https://assets-cdn.github.com/assets/frameworks-149d9338c2665172870825c78fa48fdcca4d431d067cbf5fda7120d9e39cc738.js" rel="preload" />
     
-    <link as="script" href="https://assets-cdn.github.com/assets/github-6a45976ea2ea8847cc8d3e3721c60cab926c7a0009228bbdfec59108bab84f58.js" rel="preload" />
+    <link as="script" href="https://assets-cdn.github.com/assets/github-6d45f8e570048b075fc77ba5e77cde9b3b2311f734a04114e27916e3993debec.js" rel="preload" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
@@ -78,7 +79,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="C60BC7FE:3B23:C2AECE6:5768B1A5" name="octolytics-dimension-request_id" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="C60BC7FE:124E:F92E940:577EAE79" name="octolytics-dimension-request_id" />
 
 
 
@@ -91,27 +92,27 @@
     <meta name="user-login" content="">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="MmVhNWMyMzdiZTIzNzg0ODk0OGJmMGQwYTgyMDNiMTU1Mzc5NWZlNjgyYzFkMmZmZWM1MmVmNmUwNzc1NmU5M3x7InJlbW90ZV9hZGRyZXNzIjoiMTk4LjExLjE5OS4yNTQiLCJyZXF1ZXN0X2lkIjoiQzYwQkM3RkU6M0IyMzpDMkFFQ0U2OjU3NjhCMUE1IiwidGltZXN0YW1wIjoxNDY2NDc5MDEzfQ==">
+      <meta name="js-proxy-site-detection-payload" content="NzAwYTdmYTI2ZmM4NzgyNmQwZjhmNTY5YmRhMzczMTNlMjg2ZWExMTA2YWVlN2U4MWY4ZTI3MTlkYjRmZDYyNHx7InJlbW90ZV9hZGRyZXNzIjoiMTk4LjExLjE5OS4yNTQiLCJyZXF1ZXN0X2lkIjoiQzYwQkM3RkU6MTI0RTpGOTJFOTQwOjU3N0VBRTc5IiwidGltZXN0YW1wIjoxNDY3OTE5OTk0fQ==">
 
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
       <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
 
-    <meta name="html-safe-nonce" content="f29432319a447256f032dc53f2e65d0267406943">
-    <meta content="06fc929183fc01bcd3a78b2d1453f089906126c1" name="form-nonce" />
+    <meta name="html-safe-nonce" content="cb03cf99c22813fa41e6656b559e8938d9cc784d">
+    <meta content="e5d415b9eeb2e56deb1a33c030fb9e9f48a49ee0" name="form-nonce" />
 
-    <meta http-equiv="x-pjax-version" content="3ea363ad02897f3e0a72f7f635565cd6">
+    <meta http-equiv="x-pjax-version" content="0a627b6ef199cdefef805e24a4c71c46">
     
 
         <meta name="viewport" content="width=device-width">
-  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-429acc2fc05149afec2a05196b3100560f117f753931d0afca46da6e1eeafe39.css" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-3b27741f2e22b48854ecee715112d86949a7c9e4e502f41739c4578cc65283da.css" media="all" rel="stylesheet" />
 
 
       <link rel="canonical" href="https://github.com/" data-pjax-transient>
   </head>
 
 
-  <body class="logged-out   env-production   page-responsive min-width-0">
+  <body class="logged-out   env-production   page-responsive sn-grid min-width-0">
     <div id="js-pjax-loader-bar" class="pjax-loader-bar"></div>
     <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
 
@@ -195,7 +196,7 @@
       </div>
       <div class="homepage-hero-signup column">
           <div class="d-none-sm-dn">
-            <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/join" autocomplete="off" class="home-hero-signup js-signup-form" data-form-nonce="06fc929183fc01bcd3a78b2d1453f089906126c1" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="5F5gpPfmC2j0goySi2Xf1+ZIKdfChUvAr7tgtaY9VFGxaEzcGabAqWfw6Bny5GuSbXh5tOpZvVC925xDzlGzTA==" /></div>              <dl class="form">
+            <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/join" autocomplete="off" class="home-hero-signup js-signup-form" data-form-nonce="e5d415b9eeb2e56deb1a33c030fb9e9f48a49ee0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="mU2Qb7/RRcuqnluWFC++dn+Wmh8kZlYUu32utXiaZgmI3FC3QMzkHBe5XBnVUcjqKyYiaxA4hj1MGq5dN6TVWA==" /></div>              <dl class="form">
                 <dd>
                   <label class="form-label sr-only" for="user[login]">Pick a username</label>
                   <input type="text" name="user[login]" class="form-control form-control-lg input-block" placeholder="Pick a username" data-autocheck-url="/signup_check/username" autofocus>
@@ -340,7 +341,7 @@
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.01189s from github-fe121-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.01295s from github-fe128-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
@@ -364,8 +365,8 @@
 
 
       <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/compat-7db58f8b7b91111107fac755dd8b178fe7db0f209ced51fc339c446ad3f8da2b.js"></script>
-      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-2c3259528b202168baf656f0e3ba468a9659f5f2546da7089d7e1ab7971083c7.js"></script>
-      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-6a45976ea2ea8847cc8d3e3721c60cab926c7a0009228bbdfec59108bab84f58.js"></script>
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-149d9338c2665172870825c78fa48fdcca4d431d067cbf5fda7120d9e39cc738.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-6d45f8e570048b075fc77ba5e77cde9b3b2311f734a04114e27916e3993debec.js"></script>
       
       
       

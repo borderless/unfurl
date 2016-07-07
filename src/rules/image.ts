@@ -8,13 +8,20 @@ export function supported (url: string, headers: Headers) {
     false
 }
 
-export function handle (url: string, headers: Headers, stream: Readable, abort: AbortFn): Result {
+export function handle (
+  originalUrl: string,
+  contentUrl: string,
+  headers: Headers,
+  stream: Readable,
+  abort: AbortFn
+): Result {
   // Immediately abort streaming image data.
   abort()
 
   return {
     type: 'image',
-    contentUrl: url,
+    originalUrl,
+    contentUrl,
     contentSize: headers['content-length'] ? Number(headers['content-length']) : undefined,
     encodingFormat: parse(headers['content-type']).type.substr(6),
     dateModified: headers['last-modified'] ? new Date(headers['last-modified'] as string) : undefined

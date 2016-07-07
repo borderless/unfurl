@@ -6961,6 +6961,41 @@ at
 </footer>
 
 </article>
+<article class="p-comment h-entry" id="comment34940">
+
+<h3>
+<a class="p-name u-url" href="https://twitter.com/jbmoelker/status/746322361088155648">
+Jasper Moelker
+</a>
+</h3>
+
+<div class="e-content">
+<p>Limit the &lt;meta&gt;crap in your &lt;head&gt;.
+A critical look: <a href="https://adactio.com/journal/9881">adactio.com/journal/9881</a>
+Essential tags: <a href="https://css-tricks.com/essential-meta-tags-social-media/">css-tricks.com/essential-meta…</a>
+Don&#8217;t forget to test.</p>
+
+</div>
+
+<footer>
+<p class="meta">
+<a href="#comment34940" rel="bookmark">#</a>
+Posted by
+<cite class="h-card p-author">
+<a class="u-url p-name" href="https://twitter.com/jbmoelker/status/746322361088155648">
+Jasper Moelker</a>
+</cite>
+on
+<abbr class="dt-published" title="2016-06-24T13:41:31">
+Friday,
+June 24th, 2016
+at
+1:41pm
+</abbr>
+</p>
+</footer>
+
+</article>
 </section>
 
 </div>

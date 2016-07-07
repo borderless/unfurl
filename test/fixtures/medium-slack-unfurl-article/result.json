@@ -1,5 +1,6 @@
 {
   "type": "html",
+  "originalUrl": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt",
   "contentUrl": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt",
   "encodingFormat": "text/html",
   "meta": {
@@ -10,7 +11,7 @@
         "@type": "ImageObject",
         "width": 1360,
         "height": 2000,
-        "url": "https://d262ilb51hltx0.cloudfront.net/max/1360/1*QOMaDLcO8rExD0ctBV3BWg.png"
+        "url": "https://cdn-images-1.medium.com/max/1360/1*QOMaDLcO8rExD0ctBV3BWg.png"
       },
       "datePublished": "2015-11-24T21:33:25.196Z",
       "dateModified": "2016-04-08T05:59:26.776Z",
@@ -31,7 +32,7 @@
     "twitter": {
       "description": "Let’s start with the most obvious question first. This is what an “unfurl” is:",
       "site": "@Medium",
-      "image:src": "https://d262ilb51hltx0.cloudfront.net/max/1200/1*QOMaDLcO8rExD0ctBV3BWg.png",
+      "image:src": "https://cdn-images-1.medium.com/max/1200/1*QOMaDLcO8rExD0ctBV3BWg.png",
       "card": "summary_large_image",
       "creator": "@mathowie",
       "app:name:iphone": "Medium",
@@ -43,7 +44,7 @@
         "http://ogp.me/ns#site_name": "Medium",
         "http://ogp.me/ns#title": "Everything you ever wanted to know about unfurling but were afraid to ask /or/ How to make your… — Slack Platform Blog",
         "http://ogp.me/ns#url": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254",
-        "http://ogp.me/ns#image": "https://d262ilb51hltx0.cloudfront.net/max/1200/1*QOMaDLcO8rExD0ctBV3BWg.png",
+        "http://ogp.me/ns#image": "https://cdn-images-1.medium.com/max/1200/1*QOMaDLcO8rExD0ctBV3BWg.png",
         "http://ogp.me/ns#description": "Let’s start with the most obvious question first. This is what an “unfurl” is:",
         "http://ogp.me/ns#type": "article",
         "http://ogp.me/ns/article#publisher": "https://www.facebook.com/medium",

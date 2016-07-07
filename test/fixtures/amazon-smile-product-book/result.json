@@ -1,6 +1,7 @@
 {
   "type": "html",
-  "contentUrl": "https://smile.amazon.com/gp/product/1937785734/ref=s9_qpp_gw_d99_g14_i5_r?ie=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-1&pf_rd_r=92JG667YC8526036ANPR&pf_rd_t=36701&pf_rd_p=6aad23bd-3035-4a40-b691-0eefb1a18396&pf_rd_i=desktop",
+  "originalUrl": "https://smile.amazon.com/gp/product/1937785734/ref=s9_qpp_gw_d99_g14_i5_r?ie=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-1&pf_rd_r=92JG667YC8526036ANPR&pf_rd_t=36701&pf_rd_p=6aad23bd-3035-4a40-b691-0eefb1a18396&pf_rd_i=desktop",
+  "contentUrl": "https://www.amazon.com/gp/product/1937785734?ref%5F=s9%5Fqpp%5Fgw%5Fd99%5Fg14%5Fi5%5Fr&redirect=true&fpl=fresh&pf%5Frd%5Fm=ATVPDKIKX0DER&pf%5Frd%5Fs=desktop-1&pf%5Frd%5Fr=92JG667YC8526036ANPR&pf%5Frd%5Ft=36701&pf%5Frd%5Fp=6aad23bd-3035-4a40-b691-0eefb1a18396&pf%5Frd%5Fi=desktop&pldnSite=1",
   "encodingFormat": "text/html",
   "meta": {
     "html": {
@@ -10,7 +11,7 @@
       "title": "Node.js the Right Way: Practical, Server-Side JavaScript That Scales: Jim Wilson: 9781937785734: Amazon.com: Books",
       "icons": [
         {
-          "url": "https://smile.amazon.com/favicon.ico",
+          "url": "https://www.amazon.com/favicon.ico",
           "type": "image/x-icon"
         }
       ]

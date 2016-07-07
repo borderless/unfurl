@@ -1,12 +1,13 @@
 {
-  "url": "https://www.linkedin.com/in/blakeembrey",
+  "originalUrl": "https://www.linkedin.com/in/blakeembrey",
+  "contentUrl": "https://www.linkedin.com/in/blakeembrey",
   "headers": {
     "vary": "Accept-Encoding",
     "server": "Play",
-    "date": "Sat, 25 Jun 2016 06:15:17 GMT",
-    "x-fs-uuid": "0c202ff0f23e5b14003112d4772b0000",
+    "date": "Thu, 07 Jul 2016 19:33:14 GMT",
+    "x-fs-uuid": "e26e390775195f14206be466722b0000",
     "x-page-speed": "1",
-    "content-length": "11436",
+    "content-length": "11115",
     "content-type": "text/html; charset=utf-8",
     "content-encoding": "gzip",
     "x-frame-options": "sameorigin",
@@ -15,16 +16,16 @@
     "x-li-fabric": "PROD-ELA4",
     "strict-transport-security": "max-age=0",
     "set-cookie": [
-      "JSESSIONID=ajax:6757855875318593136; Path=/; Domain=.www.linkedin.com",
-      "bcookie=\"v=2&3ab03419-46cd-40e1-8b7c-6c3eb3969a1e\"; domain=.linkedin.com; Path=/; Expires=Mon, 25-Jun-2018 17:52:49 GMT",
-      "bscookie=\"v=1&2016062506151638e419be-bd52-4889-8bd8-f4fc166c96b6AQGmwMV4V8VT4SC4Xf9mCqiVf09feCRG\"; domain=.www.linkedin.com; Path=/; Secure; Expires=Mon, 25-Jun-2018 17:52:49 GMT; HttpOnly",
-      "lidc=\"b=LGST03:g=92:u=1:i=1466835317:t=1466921717:s=AQHQ2uOu0XuL7P4CkkRbj4xBMPrtxar-\"; Expires=Sun, 26 Jun 2016 06:15:17 GMT; domain=.linkedin.com; Path=/"
+      "JSESSIONID=ajax:2171444543716407493; Path=/; Domain=.www.linkedin.com",
+      "bcookie=\"v=2&4cd8c7a4-3c80-4554-8c52-d3bf8d6d5d86\"; domain=.linkedin.com; Path=/; Expires=Sun, 08-Jul-2018 07:10:46 GMT",
+      "bscookie=\"v=1&20160707193313bff657fc-3579-4ab1-8a50-f43584280e67AQHc2EHhs2SxUlT1C1cj3Vjxf_ywj2pq\"; domain=.www.linkedin.com; Path=/; Secure; Expires=Sun, 08-Jul-2018 07:10:46 GMT; HttpOnly",
+      "lidc=\"b=LGST00:g=94:u=1:i=1467919994:t=1468006394:s=AQHBEScrjJDzDx8g3NyTPowRAQekCgXn\"; Expires=Fri, 08 Jul 2016 19:33:14 GMT; domain=.linkedin.com; Path=/"
     ],
     "pragma": "no-cache",
     "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
     "cache-control": "no-cache, no-store",
     "x-li-pop": "PROD-ELA4",
-    "x-li-uuid": "DCAv8PI+WxQAMRLUdysAAA=="
+    "x-li-uuid": "4m45B3UZXxQga+RmcisAAA=="
   },
   "status": 200,
   "statusText": "OK"

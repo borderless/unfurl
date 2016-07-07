@@ -133,7 +133,8 @@ interface Context {
 }
 
 export function handle (
-  url: string,
+  originalUrl: string,
+  contentUrl: string,
   headers: Headers,
   stream: Readable,
   abort: AbortFn,
@@ -160,7 +161,8 @@ export function handle (
 
     const result: Result = {
       type: 'html',
-      contentUrl: url,
+      originalUrl,
+      contentUrl,
       contentSize: headers['content-length'] ? Number(headers['content-length']) : undefined,
       encodingFormat: 'text/html',
       dateModified: headers['last-modified'] ? new Date(headers['last-modified'] as string) : undefined,
@@ -176,7 +178,7 @@ export function handle (
         try {
           result.meta.jsonLd = JSON.parse(text)
         } catch (e) {
-          log(`Failed to parse JSON-LD: "${url}"`)
+          log(`Failed to parse JSON-LD: "${contentUrl}"`)
         }
 
         return
@@ -269,7 +271,7 @@ export function handle (
 
               setProperty(scope, props, microdataIds[itemrefAttr])
             } else {
-              const value = getValueMap(url, tagName, attributes)
+              const value = getValueMap(contentUrl, tagName, attributes)
 
               if (value != null) {
                 setProperty(scope, props, value)
@@ -313,7 +315,7 @@ export function handle (
           for (let i = 0; i < parts.length; i += 2) {
             // Detect a valid prefix.
             if (!/^[\w\_\-]+:$/.test(parts[i])) {
-              log(`Invalid RDFa prefix: "${parts[i]}" "${url}"`)
+              log(`Invalid RDFa prefix: "${parts[i]}" "${contentUrl}"`)
               continue
             }
 
@@ -333,7 +335,7 @@ export function handle (
         // RDFa property.
         if (propertyAttr) {
           const key = normalizeRdfProperty(propertyAttr, last(rdfaVocabs), last(rdfaPrefixes))
-          const value = getValueMap(url, tagName, attributes)
+          const value = getValueMap(contentUrl, tagName, attributes)
 
           // Use only known RDFa keys.
           if (key) {
@@ -411,15 +413,15 @@ export function handle (
 
               if (rel === 'alternate') {
                 if (type === 'application/json+oembed') {
-                  oembedJson = resolveUrl(url, href)
+                  oembedJson = resolveUrl(contentUrl, href)
                 } else if (type === 'text/xml+oembed') {
-                  oembedXml = resolveUrl(url, href)
+                  oembedXml = resolveUrl(contentUrl, href)
                 }
               }
 
               if (rel === 'icon') {
                 pushHtmlIcon({
-                  url: resolveUrl(url, href),
+                  url: resolveUrl(contentUrl, href),
                   sizes: normalize((attributes as any).sizes),
                   type: normalize((attributes as any).type)
                 })
@@ -437,7 +439,7 @@ export function handle (
 
         // Log skipped RDFa properties that weren't caught by other methods.
         if (propertyAttr) {
-          log(`Skipped RDFa property: "${propertyAttr}" "${url}"`)
+          log(`Skipped RDFa property: "${propertyAttr}" "${contentUrl}"`)
         }
       },
       ontext (value) {
@@ -535,7 +537,7 @@ export function handle (
 
       if (options.fallbackOnFavicon !== false) {
         if (result.meta.html.icons == null) {
-          const faviconUrl = resolveUrl(url, '/favicon.ico')
+          const faviconUrl = resolveUrl(contentUrl, '/favicon.ico')
           const req = get({ url: faviconUrl, use: [/* Stream, don't buffer */] }).use(status(200))
 
           resolve.push(

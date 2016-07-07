@@ -1,32 +1,32 @@
 {
-  "url": "http://www.yelp.com/biz/boba-guys-san-francisco-4",
+  "originalUrl": "http://www.yelp.com/biz/boba-guys-san-francisco-4",
+  "contentUrl": "http://www.yelp.com/biz/boba-guys-san-francisco-4",
   "headers": {
-    "date": "Mon, 27 Jun 2016 19:04:14 GMT",
+    "date": "Thu, 07 Jul 2016 19:33:16 GMT",
     "content-type": "text/html; charset=UTF-8",
     "transfer-encoding": "chunked",
     "connection": "close",
     "set-cookie": [
-      "__cfduid=d4c3e6b90ce0974a95bf7110f173f613c1467054252; expires=Tue, 27-Jun-17 19:04:12 GMT; path=/; domain=.yelp.com; HttpOnly",
-      "yuv=gBexoYyKaGbPfwSmRZLdtholas7b6_lYYblEMV7L6l7Po2aEETsbqfAeQM0CSPiq6hvEBxnoSsXDogdHTcDMGkia71aWslAX; Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 22-Jun-2036 19:04:12 GMT",
-      "bse=1759f4f2d37b9443f0d46c32f006e025; Domain=.yelp.com; Path=/; HttpOnly",
-      "hl=en_US; Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 22-Jun-2036 19:04:13 GMT",
-      "sc=f80cbbc91f; Path=/"
+      "__cfduid=d2e092531d92b879ab8d57d87f82f79501467919993; expires=Fri, 07-Jul-17 19:33:13 GMT; path=/; domain=.yelp.com; HttpOnly",
+      "yuv=COSMkIT0RhrOrGbiYeus7CqTIPMeH0DXb3kZDFNt_pgCy6fSOsYt7wn39L2GoO_x-9ifSmB7Xxd-rRFhoD7ASyVFdPD3qcYo; Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Wed, 02-Jul-2036 19:33:13 GMT",
+      "bse=8bd15991e4720e519e756446c774a165; Domain=.yelp.com; Path=/; HttpOnly",
+      "hl=en_US; Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Wed, 02-Jul-2036 19:33:15 GMT"
     ],
     "vary": [
       "Accept-Encoding",
       "Accept-Encoding,User-Agent"
     ],
+    "cache-control": "private",
+    "x-mode": "ro",
     "x-node": [
       "www_all",
-      "web59-r7-sfo2"
+      "10-64-163-81-uswest1bprod"
     ],
-    "cache-control": "private",
+    "x-proxied": "10-64-16-235-uswest1bprod",
     "x-xss-protection": "1; report=https://www.yelp.com/xss_protection_report",
-    "x-mode": "ro",
-    "x-proxied": "extlb7-r10-sfo2",
     "content-encoding": "gzip",
     "server": "cloudflare-nginx",
-    "cf-ray": "2b9b29d3ab962828-SJC"
+    "cf-ray": "2bedba19830e11e3-SJC"
   },
   "status": 200,
   "statusText": "OK"

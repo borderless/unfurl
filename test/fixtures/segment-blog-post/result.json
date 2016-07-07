@@ -1,8 +1,10 @@
 {
   "type": "html",
+  "originalUrl": "https://segment.com/blog/the-segment-aws-stack/",
   "contentUrl": "https://segment.com/blog/the-segment-aws-stack/",
+  "contentSize": 10181,
   "encodingFormat": "text/html",
-  "dateModified": "2016-06-20T17:47:10.000Z",
+  "dateModified": "2016-06-30T17:01:11.000Z",
   "meta": {
     "html": {
       "title": "The Segment AWS Stack",
