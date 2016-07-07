@@ -3,6 +3,8 @@
   "contentUrl": "http://html5doctor.com/microdata/",
   "originalUrl": "http://html5doctor.com/microdata/",
   "encodingFormat": "html",
-  "headline": "Extending HTML5 — Microdata | HTML5 Doctor",
+  "headline": "Extending HTML5 — Microdata",
+  "siteName": "HTML5 Doctor",
+  "author": "Oli Studholme",
   "apps": {}
 }

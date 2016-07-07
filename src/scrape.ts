@@ -1,14 +1,15 @@
 import Promise = require('any-promise')
-import { request, plugins, jar } from 'popsicle'
+import status = require('popsicle-status')
+import { get, plugins, jar } from 'popsicle'
 import { Readable } from 'stream'
-import { Headers, AbortFn, Result } from './interfaces'
+import { Headers, AbortFn, Result, Options } from './interfaces'
 import rules from './rules'
 
 /**
  * Scrape metadata from a URL.
  */
-export function scrapeUrl (url: string): Promise<Result> {
-  const req = request({
+export function scrapeUrl (url: string, options?: Options): Promise<Result> {
+  const req = get({
     url,
     method: 'get',
     use: [
@@ -22,23 +23,33 @@ export function scrapeUrl (url: string): Promise<Result> {
     }
   })
 
-  return req.then(response => {
-    return scrapeStream(url, response.headers, response.body, () => req.abort())
-  })
+  return req
+    .use(status(200))
+    .then(response => {
+      return scrapeStream(url, response.headers, response.body, () => req.abort(), options)
+    })
 }
 
 /**
  * Scrape metadata from a stream (with headers/URL).
  */
-export function scrapeStream (url: string, headers: Headers, stream: Readable, abort?: AbortFn): Promise<Result> {
-  abort = abort || (() => stream.resume())
+export function scrapeStream (
+  url: string,
+  headers: Headers,
+  stream: Readable,
+  abort?: AbortFn,
+  options?: Options
+): Promise<Result | void> {
+  const cancel = abort || (() => stream.resume())
 
   for (const rule of rules) {
     if (rule.supported(url, headers)) {
-      return Promise.resolve(rule.handle(url, headers, stream, abort))
+      return Promise.resolve(rule.handle(url, headers, stream, cancel, options || {}))
     }
   }
 
-  // Abort on unhandled requests.
-  abort()
+  // Abort unhandled types.
+  cancel()
+
+  return Promise.resolve()
 }

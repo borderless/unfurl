@@ -7,6 +7,10 @@ export interface Headers {
 
 export type AbortFn = () => void
 
+export interface Options {
+  useOEmbed?: boolean
+}
+
 export interface ResultMeta {
   html?: HtmlMeta
   twitter?: TwitterMeta
@@ -16,6 +20,7 @@ export interface ResultMeta {
   rdfa?: RdfaMeta
   applinks?: AppLinksMeta
   microdata?: MicrodataMeta | MicrodataMeta[]
+  oembed?: OEmbedMeta
 }
 
 export interface BaseResult {
@@ -141,7 +146,29 @@ export interface AppLinksMeta {
   [key: string]: string | void
 }
 
+export interface OEmbedMeta {
+  type: string
+  version: '1.0'
+  title?: string
+  author_name?: string
+  author_url?: string
+  provider_name?: string
+  provider_url?: string
+  cache_age?: string | number
+  thumbnail_url?: string
+  thumbnail_width?: string
+  thumbnail_height?: string
+  // `photo`.
+  url?: string
+  // `video`, `rich`.
+  html?: string
+  // `photo`, `video`, `rich`.
+  width?: string
+  height?: string
+  [key: string]: any
+}
+
 export interface Rule {
   supported (url: string, headers: Headers): boolean
-  handle (url: string, headers: Headers, stream: Readable, abort: AbortFn): Result | Promise<Result>
+  handle (url: string, headers: Headers, stream: Readable, abort: AbortFn, options: Options): Result | Promise<Result>
 }

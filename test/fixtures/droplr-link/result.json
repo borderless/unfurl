@@ -27,6 +27,30 @@
         "http://ogp.me/ns#description": "Shared with Droplr",
         "http://ogp.me/ns#image": "http://d.pr/i/q3z9.png"
       }
+    },
+    "oembed": {
+      "code": "q3z9",
+      "created_at": 1381078659508,
+      "title": "table.jpeg",
+      "size": 612640,
+      "privacy": "PUBLIC",
+      "password": "f1vkSyRC",
+      "shortlink": "http://d.pr/i/q3z9",
+      "variant": "image/jpeg",
+      "views": 40,
+      "last_access": 1467854490900,
+      "drop_type": "IMAGE",
+      "version": "1.0",
+      "provider_name": "Droplr",
+      "provider_url": "http://droplr.com/",
+      "cache_age": 315360000,
+      "type": "image",
+      "thumbnail_url": "http://d.pr/i/q3z9/thumbnail",
+      "thumbnail_height": 96,
+      "thumbnail_width": 96,
+      "url": "http://d.pr/i/q3z9+",
+      "width": 1280,
+      "height": 1280
     }
   }
 }

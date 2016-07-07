@@ -10,5 +10,7 @@
   "headline": "TypeScript on Twitter",
   "caption": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”",
   "siteName": "Twitter",
+  "author": "TypeScript",
+  "ttl": 3153600000,
   "apps": {}
 }

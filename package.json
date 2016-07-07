@@ -63,6 +63,7 @@
     "content-type": "^1.0.2",
     "debug": "^2.2.0",
     "htmlparser2": "^3.9.1",
-    "popsicle": "^6.2.0"
+    "popsicle": "^6.2.0",
+    "popsicle-status": "^2.0.0"
   }
 }

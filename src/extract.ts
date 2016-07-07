@@ -3,14 +3,12 @@ import extend = require('xtend')
 import Promise = require('any-promise')
 import { resolve } from 'url'
 import { scrapeUrl } from './scrape'
-import { Result, ResultMeta, ImageResult, VideoResult, BaseResult } from './interfaces'
-
-export type ExtractType = 'video' | 'image' | 'article' | 'summary'
+import { Result, ResultMeta, ImageResult, VideoResult, BaseResult, Options } from './interfaces'
 
 /**
  * Extract rich snippets from the scraping result.
  */
-export function extract (result: Result, priority: ExtractType[] = ['video', 'image', 'article', 'summary']): Snippet {
+export function extract (result: Result, priority = ['video', 'image', 'article', 'summary']): Snippet {
   if (result == null) {
     return
   }
@@ -31,8 +29,8 @@ export function extract (result: Result, priority: ExtractType[] = ['video', 'im
 /**
  * Extract the rich snippet from a URL.
  */
-export function extractFromUrl (url: string, priority?: ExtractType[]): Promise<Snippet> {
-  return scrapeUrl(url).then(res => extract(res, priority))
+export function extractFromUrl (url: string, priority?: string[], options?: Options): Promise<Snippet> {
+  return scrapeUrl(url, options).then(res => extract(res, priority))
 }
 
 export interface SnippetAppLink {
@@ -317,7 +315,8 @@ function getMetaUrl (meta: ResultMeta, baseUrl: string) {
   return getUrl(meta, ['twitter', 'url'], baseUrl) ||
     getUrl(meta, ['rdfa', '', 'http://ogp.me/ns#url'], baseUrl) ||
     getUrl(meta, ['html', 'canonical'], baseUrl) ||
-    getUrl(meta, ['applinks', 'web:url'], baseUrl)
+    getUrl(meta, ['applinks', 'web:url'], baseUrl) ||
+    getUrl(meta, ['oembed', 'url'], baseUrl)
 }
 
 /**
@@ -325,9 +324,10 @@ function getMetaUrl (meta: ResultMeta, baseUrl: string) {
  */
 function getMetaAuthor (meta: ResultMeta) {
   return getString(meta, ['html', 'author']) ||
-    getString(meta, ['sailthru', 'author']) ||
+    getString(meta, ['oembed', 'author_name']) ||
     getString(meta, ['rdfa', '', 'http://ogp.me/ns/article#author']) ||
-    getString(meta, ['rdfa', '', 'https://creativecommons.org/ns#attributionName'])
+    getString(meta, ['rdfa', '', 'https://creativecommons.org/ns#attributionName']) ||
+    getString(meta, ['sailthru', 'author'])
 }
 
 /**
@@ -359,6 +359,7 @@ function getMetaPublisher (meta: ResultMeta) {
  */
 function getMetaSiteName (meta: ResultMeta) {
   return getString(meta, ['rdfa', '', 'http://ogp.me/ns#site_name']) ||
+    getString(meta, ['oembed', 'provider_name']) ||
     getString(meta, ['twitter', 'app:name:iphone']) ||
     getString(meta, ['twitter', 'app:name:ipad']) ||
     getString(meta, ['twitter', 'app:name:googleplay']) ||
@@ -373,6 +374,7 @@ function getMetaSiteName (meta: ResultMeta) {
  */
 function getMetaHeadline (meta: ResultMeta) {
   return getString(meta, ['twitter', 'title']) ||
+    getString(meta, ['oembed', 'title']) ||
     getString(meta, ['rdfa', '', 'http://ogp.me/ns#title']) ||
     getString(meta, ['html', 'title'])
 }
@@ -383,6 +385,7 @@ function getMetaHeadline (meta: ResultMeta) {
 function getMetaCaption (meta: ResultMeta) {
   return getString(meta, ['twitter', 'description']) ||
     getString(meta, ['rdfa', '', 'http://ogp.me/ns#description']) ||
+    getString(meta, ['oembed', 'summary']) ||
     getString(meta, ['html', 'description'])
 }
 
@@ -760,7 +763,8 @@ function getTwitterHandle (meta: ResultMeta, path: Path) {
  * Get the TTL of the page.
  */
 function getMetaTtl (meta: ResultMeta): number {
-  return getNumber(meta, ['rdfa', '', 'http://ogp.me/ns#ttl'])
+  return getNumber(meta, ['rdfa', '', 'http://ogp.me/ns#ttl']) ||
+    getNumber(meta, ['oembed', 'cache_age'])
 }
 
 /**

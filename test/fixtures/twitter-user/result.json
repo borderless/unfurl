@@ -9,6 +9,18 @@
       "title": "Blake Embrey (@blakeembrey) | Twitter",
       "description": "The latest Tweets from Blake Embrey (@blakeembrey). World Citizen ∙ Open Source Contributor ∙ Full-stack Engineer. San Francisco, CA",
       "canonical": "https://twitter.com/blakeembrey"
+    },
+    "oembed": {
+      "url": "https://twitter.com/blakeembrey",
+      "title": "",
+      "html": "<a class=\"twitter-timeline\" href=\"https://twitter.com/blakeembrey\">Tweets by blakeembrey</a>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
+      "width": null,
+      "height": null,
+      "type": "rich",
+      "cache_age": "3153600000",
+      "provider_name": "Twitter",
+      "provider_url": "https://twitter.com",
+      "version": "1.0"
     }
   }
 }

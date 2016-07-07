@@ -1,7 +1,9 @@
 import debug = require('debug')
 import Promise = require('any-promise')
-import { resolve } from 'url'
-import { WritableStream, ParserOptions, Callbacks } from 'htmlparser2'
+import { get } from 'popsicle'
+import status = require('popsicle-status')
+import { resolve as resolveUrl } from 'url'
+import { WritableStream, Callbacks } from 'htmlparser2'
 import { Readable } from 'stream'
 import { parse } from 'content-type'
 
@@ -14,7 +16,8 @@ import {
   SailthruMeta,
   DublinCoreMeta,
   RdfaMeta,
-  AppLinksMeta
+  AppLinksMeta,
+  Options
 } from '../interfaces'
 
 const log = debug('scrappy:html')
@@ -83,13 +86,13 @@ const HTML_VALUE_MAP: HtmlValueMap = {
     return attrs.content
   },
   audio (baseUrl, attrs) {
-    return attrs.src ? resolve(baseUrl, attrs.src) : undefined
+    return attrs.src ? resolveUrl(baseUrl, attrs.src) : undefined
   },
   a (baseUrl, attrs) {
-    return attrs.href ? resolve(baseUrl, attrs.href) : undefined
+    return attrs.href ? resolveUrl(baseUrl, attrs.href) : undefined
   },
   object (baseUrl, attrs) {
-    return attrs.data ? resolve(baseUrl, attrs.data) : undefined
+    return attrs.data ? resolveUrl(baseUrl, attrs.data) : undefined
   },
   time (baseUrl, attrs) {
     return attrs.datetime
@@ -128,7 +131,13 @@ interface Context {
   hasMicrodataScope?: boolean
 }
 
-export function handle (url: string, headers: Headers, stream: Readable, abort: AbortFn): Promise<Result> {
+export function handle (
+  url: string,
+  headers: Headers,
+  stream: Readable,
+  abort: AbortFn,
+  options: Options
+): Promise<Result> {
   return new Promise<Result>((resolve, reject) => {
     const rdfaVocabs: string[] = []
     const rdfaResources: string[] = ['']
@@ -136,10 +145,6 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
     const microdataIds = Object.create(null)
     const microdataScopes: any[] = []
     const contexts: Context[] = [{ tagName: '', text: '' }]
-
-    const options: ParserOptions = {
-      decodeEntities: true
-    }
 
     const html: HtmlMeta = Object.create(null)
     const twitter: TwitterMeta = Object.create(null)
@@ -382,9 +387,9 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
 
             if (rel === 'alternate') {
               if (type === 'application/json+oembed') {
-                oembedJson = href
+                oembedJson = resolveUrl(url, href)
               } else if (type === 'text/xml+oembed') {
-                oembedXml = href
+                oembedXml = resolveUrl(url, href)
               }
             }
           }
@@ -464,6 +469,23 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
           }
         }
 
+        // Attach OEmbed information to entry.
+        if (options.useOEmbed !== false) {
+          if (oembedJson) {
+            return get(oembedJson)
+              .use(status(200))
+              .then(
+                (res) => {
+                  result.meta.oembed = res.body
+                  return resolve(result)
+                },
+                (err) => {
+                  return resolve(result)
+                }
+              )
+          }
+        }
+
         return resolve(result)
       },
       onerror (err: Error) {
@@ -471,7 +493,7 @@ export function handle (url: string, headers: Headers, stream: Readable, abort: 
       }
     }
 
-    stream.pipe(new WritableStream(cbs, options))
+    stream.pipe(new WritableStream(cbs, { decodeEntities: true }))
   })
 }
 
