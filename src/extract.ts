@@ -70,7 +70,7 @@ export const extracts: Extracts = {
     const { type } = result
 
     if (type === 'image') {
-      return result as ImageResult
+      return extend(result as ImageResult, { subtype: 'raw' })
     }
   },
   article (result, options): ArticleSnippet {
@@ -94,7 +94,7 @@ export const extracts: Extracts = {
     const { type, meta } = result
 
     if (type === 'video') {
-      return result as VideoResult
+      return extend(result as VideoResult)
     }
 
     if (type === 'html') {
@@ -704,7 +704,7 @@ function getMetaDeterminer (meta: ResultMeta): string {
 /**
  * Get the sub-type of metadata.
  */
-function getMetaSubType (meta: ResultMeta, type: string): string {
+function getMetaSubType (meta: ResultMeta, type: string): 'image' {
   if (type === 'summary') {
     const twitterCard = getString(meta, ['twitter', 'card'])
 

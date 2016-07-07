@@ -173,6 +173,14 @@ var FIXTURES = [
   {
     name: 'google-structured-data-docs',
     url: 'https://developers.google.com/search/docs/guides/intro-structured-data'
+  },
+  {
+    name: 'flickr-image',
+    url: 'https://www.flickr.com/photos/timdrivas/27999498362/in/explore-2016-07-05/'
+  },
+  {
+    name: 'raw-image',
+    url: 'http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png'
   }
 ]
 

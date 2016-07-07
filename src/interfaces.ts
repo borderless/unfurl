@@ -290,15 +290,17 @@ export interface ArticleSnippet extends BaseResult {
 
 export interface VideoSnippet extends BaseSnippet {
   type: 'video'
+  subtype?: 'raw' | 'image'
 }
 
 export interface ImageSnippet extends BaseSnippet {
   type: 'image'
+  subtype?: 'raw' | 'image'
 }
 
 export interface SummarySnippet extends BaseSnippet {
   type: 'summary'
-  subtype?: 'image' | string
+  subtype?: 'image'
 }
 
 export type Snippet = VideoSnippet | ImageSnippet | SummarySnippet | ArticleSnippet
