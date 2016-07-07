@@ -1,7 +1,7 @@
 {
   "type": "html",
   "contentUrl": "https://droplr.com/droplr-addition-google-chrome-extension",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "meta": {
     "jsonLd": {
       "@context": "http://schema.org",
@@ -11,6 +11,12 @@
     },
     "html": {
       "title": "Droplr addition: Google Chrome Extension! - Droplr",
+      "icons": [
+        {
+          "url": "https://droplr.com/favicon.ico",
+          "type": "image/x-icon"
+        }
+      ],
       "canonical": "https://droplr.com/droplr-addition-google-chrome-extension"
     },
     "twitter": {

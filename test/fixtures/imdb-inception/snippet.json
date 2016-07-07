@@ -5,10 +5,14 @@
   },
   "contentUrl": "http://www.imdb.com/title/tt1375666/",
   "originalUrl": "http://www.imdb.com/title/tt1375666/",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "Inception (2010)",
   "caption": "Directed by Christopher Nolan. With Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Ken Watanabe. A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
   "siteName": "IMDb",
+  "icon": {
+    "url": "http://ia.media-imdb.com/images/G/01/imdb/images/safari-favicon-517611381._CB271202589_.svg",
+    "sizes": "any"
+  },
   "tags": [
     "Reviews",
     "Showtimes",

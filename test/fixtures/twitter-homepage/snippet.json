@@ -3,8 +3,12 @@
   "contentUrl": "https://twitter.com/i/hello",
   "contentSize": 31058,
   "originalUrl": "https://twitter.com/",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "Twitter",
   "caption": "Connect with your friends &#8212; and other fascinating people. Get in-the-moment updates on the things that interest you. And watch events unfold, in real time, from every angle.",
+  "icon": {
+    "url": "https://abs.twimg.com/favicons/favicon.ico",
+    "type": "image/x-icon"
+  },
   "apps": {}
 }

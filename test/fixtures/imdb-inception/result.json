@@ -1,11 +1,25 @@
 {
   "type": "html",
   "contentUrl": "http://www.imdb.com/title/tt1375666/",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "meta": {
     "html": {
       "title": "Inception (2010) - IMDb",
       "canonical": "http://www.imdb.com/title/tt1375666/",
+      "icons": [
+        {
+          "url": "http://ia.media-imdb.com/images/G/01/imdb/images/safari-favicon-517611381._CB271202589_.svg",
+          "sizes": "any"
+        },
+        {
+          "url": "http://ia.media-imdb.com/images/G/01/imdb/images/favicon-2165806970._CB271194260_.ico",
+          "type": "image/ico"
+        },
+        {
+          "url": "http://ia.media-imdb.com/images/G/01/imdb/images/desktop-favicon-2165806970._CB270901283_.ico",
+          "type": "image/x-icon"
+        }
+      ],
       "description": "Directed by Christopher Nolan. With Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Ken Watanabe. A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
       "keywords": "Reviews, Showtimes, DVDs, Photos, Message Boards, User Ratings, Synopsis, Trailers, Credits"
     },

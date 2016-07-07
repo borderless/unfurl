@@ -7,11 +7,16 @@
   "contentUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
   "contentSize": 12180,
   "originalUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
   "caption": "Let us count the ways we hope Ramsey will die.",
   "siteName": "Mashable",
   "author": "Andrea Romano",
+  "icon": {
+    "url": "http://mashable.com/favicon-32x32.png?v=m2Pmw8zNwl",
+    "sizes": "32x32",
+    "type": "image/png"
+  },
   "tags": [
     "entertainment",
     "watercooler",

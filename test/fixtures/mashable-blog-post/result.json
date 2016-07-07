@@ -2,7 +2,7 @@
   "type": "html",
   "contentUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3",
   "contentSize": 12180,
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "meta": {
     "jsonLd": {
       "@context": "http://schema.org",
@@ -64,6 +64,31 @@
     },
     "html": {
       "title": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
+      "icons": [
+        {
+          "url": "http://mashable.com/favicon-32x32.png?v=m2Pmw8zNwl",
+          "sizes": "32x32",
+          "type": "image/png"
+        },
+        {
+          "url": "http://mashable.com/android-chrome-192x192.png?v=m2Pmw8zNwl",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "url": "http://mashable.com/favicon-96x96.png?v=m2Pmw8zNwl",
+          "sizes": "96x96",
+          "type": "image/png"
+        },
+        {
+          "url": "http://mashable.com/favicon-16x16.png?v=m2Pmw8zNwl",
+          "sizes": "16x16",
+          "type": "image/png"
+        },
+        {
+          "url": "http://mashable.com/favicon.ico?v=m2Pmw8zNwl"
+        }
+      ],
       "canonical": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
       "description": "We all have a lot of hopes, dreams and feelings about this week's penultimate episode of Game of Thrones.",
       "keywords": "entertainment, watercooler, funny, conversations, lists, tv, jon-snow, game-of-thrones",

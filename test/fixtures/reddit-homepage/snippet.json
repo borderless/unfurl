@@ -3,9 +3,14 @@
   "contentUrl": "https://www.reddit.com/",
   "contentSize": 24667,
   "originalUrl": "http://www.reddit.com/",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "reddit: the front page of the internet",
   "caption": "reddit: the front page of the internet",
+  "icon": {
+    "url": "http://www.redditstatic.com/icon.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  },
   "tags": [
     "reddit",
     "reddit.com",

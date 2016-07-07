@@ -17,7 +17,8 @@ import {
   DublinCoreMeta,
   RdfaMeta,
   AppLinksMeta,
-  Options
+  Options,
+  HtmlIconMeta
 } from '../interfaces'
 
 const log = debug('scrappy:html')
@@ -138,7 +139,10 @@ export function handle (
   abort: AbortFn,
   options: Options
 ): Promise<Result> {
-  return new Promise<Result>((resolve, reject) => {
+  let oembedJson: string
+  let oembedXml: string
+
+  const result = new Promise<Result>((resolve, reject) => {
     const rdfaVocabs: string[] = []
     const rdfaResources: string[] = ['']
     const rdfaPrefixes: any[] = [VOCAB_PREFIXES]
@@ -153,9 +157,6 @@ export function handle (
     const rdfa: RdfaMeta = Object.create(null)
     const applinks: AppLinksMeta = Object.create(null)
     const microdata: any[] = []
-
-    let oembedJson: string
-    let oembedXml: string
 
     const result: Result = {
       type: 'html',
@@ -192,6 +193,26 @@ export function handle (
       if (tagName === 'title') {
         html.title = normalize(text)
       }
+    }
+
+    function pushHtmlIcon (newIcon: HtmlIconMeta) {
+      html.icons = html.icons || []
+
+      for (const icon of html.icons) {
+        if (icon.url === newIcon.url) {
+          if (icon.type == null) {
+            icon.type = newIcon.type
+          }
+
+          if (icon.sizes == null) {
+            icon.sizes = newIcon.sizes
+          }
+
+          return
+        }
+      }
+
+      html.icons.push(newIcon)
     }
 
     const cbs: Callbacks = {
@@ -369,7 +390,7 @@ export function handle (
               nameAttr === 'description' ||
               nameAttr === 'language'
             ) {
-              html[nameAttr] = contentAttr
+              ;(html as any)[nameAttr] = contentAttr
             }
           }
         }
@@ -381,15 +402,27 @@ export function handle (
           const type = normalize((attributes as any).type)
 
           if (rel && href) {
-            if (rel === 'canonical') {
-              html.canonical = href
-            }
+            const rels = rel.split(/\s+/)
 
-            if (rel === 'alternate') {
-              if (type === 'application/json+oembed') {
-                oembedJson = resolveUrl(url, href)
-              } else if (type === 'text/xml+oembed') {
-                oembedXml = resolveUrl(url, href)
+            for (const rel of rels) {
+              if (rel === 'canonical') {
+                html.canonical = href
+              }
+
+              if (rel === 'alternate') {
+                if (type === 'application/json+oembed') {
+                  oembedJson = resolveUrl(url, href)
+                } else if (type === 'text/xml+oembed') {
+                  oembedXml = resolveUrl(url, href)
+                }
+              }
+
+              if (rel === 'icon') {
+                pushHtmlIcon({
+                  url: resolveUrl(url, href),
+                  sizes: normalize((attributes as any).sizes),
+                  type: normalize((attributes as any).type)
+                })
               }
             }
           }
@@ -469,23 +502,6 @@ export function handle (
           }
         }
 
-        // Attach OEmbed information to entry.
-        if (options.useOEmbed !== false) {
-          if (oembedJson) {
-            return get(oembedJson)
-              .use(status(200))
-              .then(
-                (res) => {
-                  result.meta.oembed = res.body
-                  return resolve(result)
-                },
-                (err) => {
-                  return resolve(result)
-                }
-              )
-          }
-        }
-
         return resolve(result)
       },
       onerror (err: Error) {
@@ -495,6 +511,55 @@ export function handle (
 
     stream.pipe(new WritableStream(cbs, { decodeEntities: true }))
   })
+
+  return result
+    .then(function (result) {
+      const resolve: Array<Promise<any>> = []
+
+      // Attach OEmbed information to entry.
+      if (options.useOEmbed !== false) {
+        if (oembedJson) {
+          const req = get(oembedJson).use(status(200))
+
+          resolve.push(
+            req
+              .then(
+                (res) => {
+                  result.meta.oembed = res.body
+                },
+                () => {/* Noop request errors. */}
+              )
+          )
+        }
+      }
+
+      if (options.fallbackOnFavicon !== false) {
+        if (result.meta.html.icons == null) {
+          const faviconUrl = resolveUrl(url, '/favicon.ico')
+          const req = get({ url: faviconUrl, use: [/* Stream, don't buffer */] }).use(status(200))
+
+          resolve.push(
+            req
+              .then(
+                (res) => {
+                  // Initialize the favicon.
+                  result.meta.html.icons = [{
+                    url: faviconUrl,
+                    type: parse(res.get('content-type')).type
+                  }]
+
+                  // Abort the request stream.
+                  res.body.on('error', () => {/* Noop abort. */})
+                  req.abort()
+                },
+                () => {/* Noop request errors. */}
+              )
+          )
+        }
+      }
+
+      return Promise.all(resolve).then(() => result)
+    })
 }
 
 /**

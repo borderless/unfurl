@@ -1,13 +1,18 @@
 {
   "type": "html",
   "contentUrl": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "meta": {
     "html": {
       "title": "Desiigner- \"Panda\" (Prod. By: Menace) by LifeOfDesiigner | Life Of Desiigner | Free Listening on SoundCloud",
       "keywords": "record, sounds, share, sound, audio, tracks, music, soundcloud",
       "description": "Stream Desiigner- \"Panda\" (Prod. By: Menace) by LifeOfDesiigner from desktop or your mobile device",
-      "canonical": "https://soundcloud.com/lifeofdesiigner/desiigner-panda"
+      "canonical": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
+      "icons": [
+        {
+          "url": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14b.ico"
+        }
+      ]
     },
     "twitter": {
       "site": "SoundCloud",

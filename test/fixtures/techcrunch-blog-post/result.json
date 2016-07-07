@@ -1,7 +1,7 @@
 {
   "type": "html",
   "contentUrl": "https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "dateModified": "2016-06-21T03:16:36.000Z",
   "meta": {
     "jsonLd": {
@@ -24,6 +24,12 @@
     },
     "html": {
       "title": "The Europas Awards 2016 honored the best tech startups in Europe | TechCrunch",
+      "icons": [
+        {
+          "url": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico",
+          "type": "image/x-icon"
+        }
+      ],
       "canonical": "http://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
       "author": "Mike Butcher",
       "description": "This week The Europas Startup Conference and Awards -- the new type of tech event devised in partnership with TechCrunch and myself -- honored The Best Tech.."

@@ -3,10 +3,14 @@
   "contentUrl": "https://twitter.com/blakeembrey",
   "contentSize": 36527,
   "originalUrl": "https://twitter.com/blakeembrey",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "Blake Embrey (@blakeembrey) | Twitter",
   "caption": "The latest Tweets from Blake Embrey (@blakeembrey). World Citizen ∙ Open Source Contributor ∙ Full-stack Engineer. San Francisco, CA",
   "siteName": "Twitter",
   "ttl": 3153600000,
+  "icon": {
+    "url": "https://abs.twimg.com/favicons/favicon.ico",
+    "type": "image/x-icon"
+  },
   "apps": {}
 }

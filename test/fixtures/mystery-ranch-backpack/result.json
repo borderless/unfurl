@@ -2,10 +2,32 @@
   "type": "html",
   "contentUrl": "http://www.mysteryranch.com/asap-pack",
   "contentSize": 19105,
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "meta": {
     "html": {
       "title": "ASAP Pack | Mystery Ranch Backpacks",
+      "icons": [
+        {
+          "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        },
+        {
+          "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        },
+        {
+          "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-16x16.png",
+          "sizes": "16x16",
+          "type": "image/png"
+        }
+      ],
       "canonical": "http://www.mysteryranch.com/asap-pack",
       "description": "The ASAP is a lightweight assault pack with our signature 3-Zip design. It's size and versatility make it a perfect every day carry."
     },

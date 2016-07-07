@@ -1,11 +1,16 @@
 {
   "type": "html",
   "contentUrl": "http://www.yelp.com/biz/boba-guys-san-francisco-4",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "meta": {
     "html": {
       "description": "830 reviews of Boba Guys \"As a young professional, caffeine is what gets me through the day, but coffee is too strong and eventually makes me crash. So, my favorite afternoon pick-me-up is tea from Boba Guys. I'm already obsessed with the Lychee…",
       "keywords": "Yelp,recommendation,San Francisco, bay area, local,business,review,friend,restaurant,dentist,doctor,salon,spa,shopping,store,share,community,massage,sushi,pizza,nails,New York,Los Angeles",
+      "icons": [
+        {
+          "url": "http://s3-media2.fl.yelpcdn.com/assets/srv0/yelp_styleguide/118ff475a341/assets/img/logos/favicon.ico"
+        }
+      ],
       "title": "Boba Guys - 911 Photos & 830 Reviews - Coffee & Tea - Mission - San Francisco, CA - Phone Number - Menu - Yelp"
     },
     "twitter": {

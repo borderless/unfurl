@@ -7,10 +7,14 @@
   "contentUrl": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
   "contentSize": 26089,
   "originalUrl": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "Apple - iPhone 6s 64GB - Space Gray (Verizon Wireless)",
   "caption": "iPhone 6s 64GB, Read customer reviews and buy online at Best Buy.",
   "siteName": "Best Buy",
+  "icon": {
+    "url": "http://www.bestbuy.com/favicon.ico",
+    "type": "image/x-icon"
+  },
   "tags": [
     "APPLE",
     "IPHONE 6S"

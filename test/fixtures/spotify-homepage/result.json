@@ -2,12 +2,17 @@
   "type": "html",
   "contentUrl": "https://www.spotify.com/",
   "contentSize": 21510,
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "meta": {
     "html": {
       "description": "Spotify is a digital music service that gives you access to millions of songs.",
       "keywords": "Spotify, music, online, listen, streaming, play, digital, album, artist, playlist",
       "title": "Music for everyone - Spotify",
+      "icons": [
+        {
+          "url": "https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/_global/favicon.png"
+        }
+      ],
       "canonical": "https://www.spotify.com/"
     },
     "rdfa": {

@@ -3,7 +3,10 @@
   "contentUrl": "https://en.wikipedia.org/wiki/TypeScript",
   "contentSize": 26301,
   "originalUrl": "https://en.wikipedia.org/wiki/TypeScript",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "TypeScript - Wikipedia, the free encyclopedia",
+  "icon": {
+    "url": "https://en.wikipedia.org/static/favicon/wikipedia.ico"
+  },
   "apps": {}
 }

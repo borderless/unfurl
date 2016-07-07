@@ -17,10 +17,14 @@
   ],
   "contentUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
   "originalUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "Boba Guys",
   "caption": "Bubble Tea Shop in San Francisco, CA",
   "siteName": "Foursquare",
+  "icon": {
+    "url": "https://foursquare.com/favicon.ico",
+    "type": "image/x-icon"
+  },
   "tags": [
     "Boba Guys",
     "3491 19th St",

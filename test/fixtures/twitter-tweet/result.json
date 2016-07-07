@@ -2,11 +2,17 @@
   "type": "html",
   "contentUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
   "contentSize": 26686,
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "dateModified": "2016-06-21T03:16:53.000Z",
   "meta": {
     "html": {
       "title": "TypeScript on Twitter: \".d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4\"",
+      "icons": [
+        {
+          "url": "https://abs.twimg.com/favicons/favicon.ico",
+          "type": "image/x-icon"
+        }
+      ],
       "canonical": "https://twitter.com/typescriptlang/status/743113612407889920"
     },
     "rdfa": {

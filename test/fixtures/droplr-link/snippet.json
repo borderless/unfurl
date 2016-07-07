@@ -9,11 +9,16 @@
   "contentUrl": "http://d.pr/i/q3z9",
   "contentSize": 4273,
   "originalUrl": "http://d.pr/a/q3z9",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "table.jpeg",
   "caption": "Shared with Droplr",
   "siteName": "Droplr",
   "author": "Droplr",
+  "icon": {
+    "url": "https://d1zjcuqflbd5k.cloudfront.net/files/acc_138123/JfQ3?Expires=1466483963&Signature=gZuWA3UGXDlSAfHqf-jRVJ-Lb4mpujwfH5p7rG2hjY0Se5IxyiLDsaCqONdUOPOu0raOvwQ6H5crfFK75xO-4f9fnkJOhO4mQ5oI4giLVGGcZ-MkcDUWVTDVwI5mMsXVNLg4culJ7BFr~pl8QIr9H8Q7dBItg8GK1yfz-wYGoDA_&Key-Pair-Id=APKAJTEIOJM3LSMN33SA",
+    "sizes": "80x80",
+    "type": "image/png"
+  },
   "twitter": {
     "siteHandle": "droplr"
   },

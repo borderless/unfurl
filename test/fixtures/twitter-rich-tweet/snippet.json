@@ -6,11 +6,15 @@
   "contentUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
   "contentSize": 30279,
   "originalUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "Eric Clemmons on Twitter",
   "caption": "“🔥 Clean up @github issues with the HTML5 &lt;details&gt; tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx”",
   "siteName": "Twitter",
   "author": "Eric Clemmons",
   "ttl": 3153600000,
+  "icon": {
+    "url": "https://abs.twimg.com/favicons/favicon.ico",
+    "type": "image/x-icon"
+  },
   "apps": {}
 }

@@ -1,10 +1,15 @@
 {
   "type": "html",
   "contentUrl": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "meta": {
     "html": {
       "title": "Decoding Donald Trump - The New York Times",
+      "icons": [
+        {
+          "url": "https://static01.nyt.com/favicon.ico"
+        }
+      ],
       "canonical": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
       "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
       "author": "Andrew Rosenthal",

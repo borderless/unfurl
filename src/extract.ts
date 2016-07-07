@@ -3,21 +3,46 @@ import extend = require('xtend')
 import Promise = require('any-promise')
 import { resolve } from 'url'
 import { scrapeUrl } from './scrape'
-import { Result, ResultMeta, ImageResult, VideoResult, BaseResult, Options } from './interfaces'
+
+import {
+  Result,
+  ResultMeta,
+  ImageResult,
+  VideoResult,
+  VideoSnippet,
+  Snippet,
+  ImageSnippet,
+  ArticleSnippet,
+  SummarySnippet,
+  SnippetImage,
+  SnippetAppLink,
+  SnippetApps,
+  SnippetAudio,
+  SnippetLocale,
+  SnippetPlayer,
+  SnippetVideo,
+  SnippetTwitter,
+  SnippetIcon,
+  Options
+} from './interfaces'
 
 /**
  * Extract rich snippets from the scraping result.
  */
-export function extract (result: Result, priority = ['video', 'image', 'article', 'summary']): Snippet {
+export function extract (
+  result: Result,
+  priority = ['video', 'image', 'article', 'summary'],
+  options: Options = {}
+): Snippet {
   if (result == null) {
     return
   }
 
   for (const type of priority) {
-    const extract = extracts[type]
+    const extract = (extracts as any)[type]
 
     if (extract) {
-      const out = extract(result)
+      const out = extract(result, options)
 
       if (out) {
         return out
@@ -30,131 +55,32 @@ export function extract (result: Result, priority = ['video', 'image', 'article'
  * Extract the rich snippet from a URL.
  */
 export function extractFromUrl (url: string, priority?: string[], options?: Options): Promise<Snippet> {
-  return scrapeUrl(url, options).then(res => extract(res, priority))
+  return scrapeUrl(url, options).then(res => extract(res, priority, options))
 }
-
-export interface SnippetAppLink {
-  id: string
-  name: string
-  url: string
-}
-
-export interface SnippetLocale {
-  primary?: string
-  alternate?: string[]
-}
-
-export interface SnippetImage {
-  url: string
-  secureUrl?: string
-  alt?: string
-  type?: string
-  width?: number
-  height?: number
-}
-
-export interface SnippetPlayer {
-  url: string
-  width: number
-  height: number
-  streamUrl?: string
-  streamContentType?: string
-}
-
-export interface SnippetVideo {
-  url: string
-  secureUrl?: string
-  type?: string
-  width?: number
-  height?: number
-}
-
-export interface SnippetAudio {
-  url: string
-  secureUrl?: string
-  type?: string
-}
-
-export interface SnippetTwitter {
-  siteId?: string
-  siteHandle?: string
-  creatorId?: string
-  creatorHandle?: string
-}
-
-export interface SnippetApps {
-  iphone?: SnippetAppLink
-  ipad?: SnippetAppLink
-  android?: SnippetAppLink
-  windows?: SnippetAppLink
-  windowsPhone?: SnippetAppLink
-}
-
-export interface BaseSnippet extends BaseResult {
-  image?: SnippetImage | SnippetImage[]
-  video?: SnippetVideo | SnippetVideo[]
-  audio?: SnippetAudio | SnippetAudio[]
-  player?: SnippetPlayer
-  originalUrl?: string
-  determiner?: string
-  headline?: string
-  caption?: string
-  tags?: string[]
-  author?: string
-  publisher?: string
-  siteName?: string
-  ttl?: number
-  locale?: SnippetLocale
-  twitter?: SnippetTwitter
-  apps?: SnippetApps
-}
-
-export interface ArticleSnippet extends BaseResult {
-  type: 'article'
-  section?: string
-  dateModified?: Date
-  datePublished?: Date
-  dateExpires?: Date
-}
-
-export interface VideoSnippet extends BaseSnippet {
-  type: 'video'
-}
-
-export interface ImageSnippet extends BaseSnippet {
-  type: 'image'
-}
-
-export interface SummarySnippet extends BaseSnippet {
-  type: 'summary'
-  subtype?: 'image' | string
-}
-
-export type Snippet = VideoSnippet | ImageSnippet | SummarySnippet | ArticleSnippet
 
 export interface Extracts {
-  video (result: Result): VideoSnippet
-  image (result: Result): ImageSnippet
-  summary (result: Result): SummarySnippet
-  [key: string]: (result: Result) => Snippet
+  video (result: Result, options: Options): VideoSnippet
+  image (result: Result, options: Options): ImageSnippet
+  article (result: Result, options: Options): ArticleSnippet
+  summary (result: Result, options: Options): SummarySnippet
 }
 
 export const extracts: Extracts = {
-  image (result): ImageSnippet {
+  image (result, options): ImageSnippet {
     const { type } = result
 
     if (type === 'image') {
       return result as ImageResult
     }
   },
-  article (result): ArticleSnippet {
+  article (result, options): ArticleSnippet {
     const { type, meta } = result
 
     if (type === 'html') {
       if (
         getString(meta, ['rdfa', '', 'http://ogp.me/ns#type']) === 'article'
       ) {
-        return extend(extracts.summary(result), {
+        return extend(extracts.summary(result, options), {
           type: 'article' as 'article',
           section: getString(meta, ['rdfa', '', 'http://ogp.me/ns/article#section']),
           datePublished: getDate(meta, ['rdfa', '', 'http://ogp.me/ns/article#published_time']),
@@ -164,7 +90,7 @@ export const extracts: Extracts = {
       }
     }
   },
-  video (result): VideoSnippet {
+  video (result, options): VideoSnippet {
     const { type, meta } = result
 
     if (type === 'video') {
@@ -175,13 +101,13 @@ export const extracts: Extracts = {
       if (
         getString(meta, ['rdfa', '', 'http://ogp.me/ns#type']) === 'video'
       ) {
-        return extend(extracts.summary(result), {
+        return extend(extracts.summary(result, options), {
           type: 'video' as 'video'
         })
       }
     }
   },
-  summary (result): SummarySnippet {
+  summary (result, options): SummarySnippet {
     const { type, contentUrl, meta } = result
 
     if (type === 'html') {
@@ -203,6 +129,7 @@ export const extracts: Extracts = {
         author: getMetaAuthor(meta),
         publisher: getMetaPublisher(meta),
         ttl: getMetaTtl(meta),
+        icon: getMetaIcon(meta, options),
         tags: getMetaTags(meta),
         locale: getMetaLocale(meta),
         twitter: getMetaTwitter(meta),
@@ -816,4 +743,39 @@ function getMetaPlayer (meta: ResultMeta, baseUrl: string): SnippetPlayer {
       streamContentType
     }
   }
+}
+
+/**
+ * Retrieve the selected snippet icon.
+ */
+function getMetaIcon (meta: ResultMeta, options: Options): SnippetIcon {
+  const preferredSize = Number(options.preferredIconSize) || 32
+  let selectedSize: number
+  let selectedIcon: SnippetIcon
+
+  if (meta.html.icons) {
+    for (const icon of meta.html.icons) {
+      if (selectedSize == null) {
+        selectedIcon = icon
+      }
+
+      if (icon.sizes) {
+        const size = parseInt(icon.sizes, 10) // "32x32".
+
+        if (selectedSize == null) {
+          selectedIcon = icon
+          selectedSize = size
+        } else {
+          if (Math.abs(preferredSize - size) < Math.abs(selectedSize - size)) {
+            selectedIcon = icon
+            selectedSize = size
+          }
+        }
+      } else {
+        selectedIcon = selectedIcon || icon
+      }
+    }
+  }
+
+  return selectedIcon
 }

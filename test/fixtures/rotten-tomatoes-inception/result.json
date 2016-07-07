@@ -1,7 +1,7 @@
 {
   "type": "html",
   "contentUrl": "https://www.rottentomatoes.com/m/inception/",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "meta": {
     "jsonLd": {
       "@context": "http://schema.org",
@@ -646,6 +646,12 @@
       ]
     },
     "html": {
+      "icons": [
+        {
+          "url": "https://staticv2.rottentomatoes.com/static/images/icons/favicon.ico",
+          "type": "image/x-icon"
+        }
+      ],
       "title": "Inception (2010) - Rotten Tomatoes",
       "canonical": "https://www.rottentomatoes.com/m/inception/"
     },

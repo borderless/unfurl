@@ -6,9 +6,12 @@
   "contentUrl": "https://www.spotify.com/us/",
   "contentSize": 21510,
   "originalUrl": "https://www.spotify.com/",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "Music for everyone.",
   "caption": "Spotify is all the music you’ll ever need.",
+  "icon": {
+    "url": "https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/_global/favicon.png"
+  },
   "tags": [
     "Spotify",
     "music",

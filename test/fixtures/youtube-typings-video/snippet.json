@@ -26,10 +26,14 @@
   },
   "contentUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
   "originalUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "15. Typings with Blake Embrey",
   "siteName": "YouTube",
   "author": "readthesource",
+  "icon": {
+    "url": "https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png",
+    "sizes": "32x32"
+  },
   "tags": [
     "#hangoutsonair",
     "Hangouts On Air",

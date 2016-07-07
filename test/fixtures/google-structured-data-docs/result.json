@@ -2,11 +2,16 @@
   "type": "html",
   "contentUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
   "contentSize": 59333,
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "dateModified": "2016-06-22T20:38:53.000Z",
   "meta": {
     "html": {
       "canonical": "https://developers.google.com/search/docs/guides/intro-structured-data",
+      "icons": [
+        {
+          "url": "https://developers.google.com/_static/c54aa247ac/images/favicon.png"
+        }
+      ],
       "title": "Introduction to Structured Data | Search | Google Developers"
     },
     "rdfa": {

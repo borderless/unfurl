@@ -5,10 +5,14 @@
   },
   "contentUrl": "https://github.com/blakeembrey/popsicle",
   "originalUrl": "https://github.com/blakeembrey/popsicle",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "blakeembrey/popsicle",
   "caption": "popsicle - Simple HTTP requests for node and the browser",
   "siteName": "GitHub",
+  "icon": {
+    "url": "https://assets-cdn.github.com/favicon.ico",
+    "type": "image/x-icon"
+  },
   "twitter": {
     "siteHandle": "github"
   },

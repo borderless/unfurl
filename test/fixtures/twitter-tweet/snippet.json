@@ -6,11 +6,15 @@
   "contentUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
   "contentSize": 26686,
   "originalUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "TypeScript on Twitter",
   "caption": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”",
   "siteName": "Twitter",
   "author": "TypeScript",
   "ttl": 3153600000,
+  "icon": {
+    "url": "https://abs.twimg.com/favicons/favicon.ico",
+    "type": "image/x-icon"
+  },
   "apps": {}
 }

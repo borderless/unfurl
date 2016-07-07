@@ -2,10 +2,20 @@
   "type": "html",
   "contentUrl": "https://www.instagram.com/p/BG0m4IDGaqk/",
   "contentSize": 5315,
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "meta": {
     "html": {
       "title": "Instagram",
+      "icons": [
+        {
+          "url": "https://instagramstatic-a.akamaihd.net/h1/images/ico/favicon-192.png/b407fa101800.png",
+          "sizes": "192x192"
+        },
+        {
+          "url": "https://instagramstatic-a.akamaihd.net/h1/images/ico/favicon.ico/dfa85bb1fd63.ico",
+          "type": "image/x-icon"
+        }
+      ],
       "canonical": "https://www.instagram.com/p/BG0m4IDGaqk/",
       "description": "See this Instagram photo by @minaalofficial • 100 likes"
     },

@@ -1,13 +1,19 @@
 {
   "type": "html",
   "contentUrl": "https://segment.com/blog/the-segment-aws-stack/",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "dateModified": "2016-06-20T17:47:10.000Z",
   "meta": {
     "html": {
       "title": "The Segment AWS Stack",
       "author": "Calvin French-Owen",
-      "description": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!"
+      "description": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!",
+      "icons": [
+        {
+          "url": "https://segment.com/favicon.ico",
+          "type": "image/x-icon"
+        }
+      ]
     },
     "twitter": {
       "card": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!",

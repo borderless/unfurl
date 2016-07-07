@@ -6,12 +6,15 @@
   },
   "contentUrl": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254",
   "originalUrl": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "Everything you ever wanted to know about unfurling but were afraid to ask /or/ How to make your… — Slack Platform Blog",
   "caption": "Let’s start with the most obvious question first. This is what an “unfurl” is:",
   "siteName": "Medium",
   "author": "Matt Haughey",
   "publisher": "https://www.facebook.com/medium",
+  "icon": {
+    "url": "https://cdn-static-1.medium.com/_/fp/icons/favicon-medium.TAS6uQ-Y7kcKgi0xjcYHXw.ico"
+  },
   "twitter": {
     "siteHandle": "Medium",
     "creatorHandle": "mathowie"

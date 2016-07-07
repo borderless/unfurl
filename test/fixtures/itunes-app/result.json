@@ -2,14 +2,20 @@
   "type": "html",
   "contentUrl": "https://itunes.apple.com/us/app/espn-sportscenter/id317469184?mt=8",
   "contentSize": 18624,
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "dateModified": "2016-06-21T22:14:40.000Z",
   "meta": {
     "html": {
       "keywords": "ESPN - Get scores, news, and watch live sports, ESPN, Sports, Entertainment, ios apps, app, appstore, app store, iphone, ipad, ipod touch, itouch, itunes",
       "description": "Read reviews, compare customer ratings, see screenshots, and learn more about ESPN - Get scores, news, and watch live sports. Download ESPN - Get scores, news, and watch live sports and enjoy it on your iPhone, iPad, and iPod touch.",
       "canonical": "https://itunes.apple.com/us/app/espn-get-scores-news-watch/id317469184?mt=8",
-      "title": "ESPN - Get scores, news, and watch live sports on the App Store"
+      "title": "ESPN - Get scores, news, and watch live sports on the App Store",
+      "icons": [
+        {
+          "url": "https://itunes.apple.com/favicon.ico",
+          "type": "image/x-icon"
+        }
+      ]
     },
     "twitter": {
       "title": "ESPN - Get scores, news, and watch live sports on the App Store",

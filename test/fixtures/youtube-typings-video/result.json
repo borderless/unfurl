@@ -1,12 +1,34 @@
 {
   "type": "html",
   "contentUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "meta": {
     "html": {
       "title": "15. Typings with Blake Embrey - YouTube",
       "canonical": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
-      "keywords": "#hangoutsonair, Hangouts On Air, #hoa"
+      "keywords": "#hangoutsonair, Hangouts On Air, #hoa",
+      "icons": [
+        {
+          "url": "https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico",
+          "type": "image/x-icon"
+        },
+        {
+          "url": "https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png",
+          "sizes": "32x32"
+        },
+        {
+          "url": "https://s.ytimg.com/yts/img/favicon_48-vfl1s0rGh.png",
+          "sizes": "48x48"
+        },
+        {
+          "url": "https://s.ytimg.com/yts/img/favicon_96-vfldSA3ca.png",
+          "sizes": "96x96"
+        },
+        {
+          "url": "https://s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png",
+          "sizes": "144x144"
+        }
+      ]
     },
     "twitter": {
       "card": "player",
@@ -107,18 +129,18 @@
       "genre": "Entertainment"
     },
     "oembed": {
-      "thumbnail_width": 480,
-      "thumbnail_url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/hqdefault.jpg",
-      "width": 480,
-      "version": "1.0",
-      "author_name": "readthesource",
-      "height": 270,
-      "provider_url": "https://www.youtube.com/",
       "type": "video",
-      "author_url": "https://www.youtube.com/user/readthesource",
-      "thumbnail_height": 360,
-      "provider_name": "YouTube",
+      "thumbnail_url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/hqdefault.jpg",
+      "thumbnail_width": 480,
       "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/ZynZdGqxT7Q?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",
+      "version": "1.0",
+      "width": 480,
+      "author_url": "https://www.youtube.com/user/readthesource",
+      "provider_name": "YouTube",
+      "thumbnail_height": 360,
+      "height": 270,
+      "author_name": "readthesource",
+      "provider_url": "https://www.youtube.com/",
       "title": "15. Typings with Blake Embrey"
     }
   }

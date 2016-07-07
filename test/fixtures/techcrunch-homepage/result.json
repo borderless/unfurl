@@ -1,7 +1,7 @@
 {
   "type": "html",
   "contentUrl": "https://techcrunch.com/",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "dateModified": "2016-06-21T03:15:58.000Z",
   "meta": {
     "jsonLd": {
@@ -133,6 +133,12 @@
     },
     "html": {
       "title": "TechCrunch - The latest technology news and information on startups",
+      "icons": [
+        {
+          "url": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico",
+          "type": "image/x-icon"
+        }
+      ],
       "author": "Devin Coldewey",
       "description": "TechCrunch is a leading technology media property, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news."
     },

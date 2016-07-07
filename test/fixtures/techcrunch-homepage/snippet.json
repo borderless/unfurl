@@ -5,10 +5,14 @@
   },
   "contentUrl": "http://social.techcrunch.com/",
   "originalUrl": "https://techcrunch.com/",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "TechCrunch",
   "caption": "TechCrunch is a leading technology media property, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news.",
   "siteName": "TechCrunch",
   "author": "Devin Coldewey",
+  "icon": {
+    "url": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico",
+    "type": "image/x-icon"
+  },
   "apps": {}
 }

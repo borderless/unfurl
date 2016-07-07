@@ -1,6 +1,9 @@
 import Promise = require('any-promise')
 import { Readable } from 'stream'
 
+/**
+ * Programmatic interfaces.
+ */
 export interface Headers {
   [name: string]: string | string[]
 }
@@ -9,8 +12,18 @@ export type AbortFn = () => void
 
 export interface Options {
   useOEmbed?: boolean
+  fallbackOnFavicon?: boolean
+  preferredIconSize?: number
 }
 
+export interface Rule {
+  supported (url: string, headers: Headers): boolean
+  handle (url: string, headers: Headers, stream: Readable, abort: AbortFn, options: Options): Result | Promise<Result>
+}
+
+/**
+ * Metadata.
+ */
 export interface ResultMeta {
   html?: HtmlMeta
   twitter?: TwitterMeta
@@ -53,7 +66,13 @@ export interface HtmlMeta {
   language?: string
   canonical?: string
   date?: string // Date
-  [key: string]: string | void
+  icons?: HtmlIconMeta[]
+}
+
+export interface HtmlIconMeta {
+  url: string
+  sizes?: string
+  type?: string
 }
 
 export interface TwitterMeta {
@@ -168,7 +187,111 @@ export interface OEmbedMeta {
   [key: string]: any
 }
 
-export interface Rule {
-  supported (url: string, headers: Headers): boolean
-  handle (url: string, headers: Headers, stream: Readable, abort: AbortFn, options: Options): Result | Promise<Result>
+/**
+ * Snippets.
+ */
+export interface SnippetAppLink {
+  id: string
+  name: string
+  url: string
 }
+
+export interface SnippetLocale {
+  primary?: string
+  alternate?: string[]
+}
+
+export interface SnippetImage {
+  url: string
+  secureUrl?: string
+  alt?: string
+  type?: string
+  width?: number
+  height?: number
+}
+
+export interface SnippetPlayer {
+  url: string
+  width: number
+  height: number
+  streamUrl?: string
+  streamContentType?: string
+}
+
+export interface SnippetVideo {
+  url: string
+  secureUrl?: string
+  type?: string
+  width?: number
+  height?: number
+}
+
+export interface SnippetAudio {
+  url: string
+  secureUrl?: string
+  type?: string
+}
+
+export interface SnippetTwitter {
+  siteId?: string
+  siteHandle?: string
+  creatorId?: string
+  creatorHandle?: string
+}
+
+export interface SnippetIcon {
+  url: string
+  type?: string
+  sizes?: string
+}
+
+export interface SnippetApps {
+  iphone?: SnippetAppLink
+  ipad?: SnippetAppLink
+  android?: SnippetAppLink
+  windows?: SnippetAppLink
+  windowsPhone?: SnippetAppLink
+}
+
+export interface BaseSnippet extends BaseResult {
+  image?: SnippetImage | SnippetImage[]
+  video?: SnippetVideo | SnippetVideo[]
+  audio?: SnippetAudio | SnippetAudio[]
+  player?: SnippetPlayer
+  originalUrl?: string
+  determiner?: string
+  headline?: string
+  caption?: string
+  tags?: string[]
+  author?: string
+  publisher?: string
+  siteName?: string
+  ttl?: number
+  icon?: SnippetIcon
+  locale?: SnippetLocale
+  twitter?: SnippetTwitter
+  apps?: SnippetApps
+}
+
+export interface ArticleSnippet extends BaseResult {
+  type: 'article'
+  section?: string
+  dateModified?: Date
+  datePublished?: Date
+  dateExpires?: Date
+}
+
+export interface VideoSnippet extends BaseSnippet {
+  type: 'video'
+}
+
+export interface ImageSnippet extends BaseSnippet {
+  type: 'image'
+}
+
+export interface SummarySnippet extends BaseSnippet {
+  type: 'summary'
+  subtype?: 'image' | string
+}
+
+export type Snippet = VideoSnippet | ImageSnippet | SummarySnippet | ArticleSnippet

@@ -2,13 +2,35 @@
   "type": "html",
   "contentUrl": "https://adactio.com/journal/9881",
   "contentSize": 22630,
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "meta": {
     "html": {
       "title": "Adactio: Journal—Metadata markup",
       "description": "So many standards to choose from.",
       "author": "Jeremy Keith",
-      "canonical": "https://adactio.com/journal/9881"
+      "canonical": "https://adactio.com/journal/9881",
+      "icons": [
+        {
+          "url": "https://adactio.com/favicon-16x16.png",
+          "sizes": "16x16",
+          "type": "image/png"
+        },
+        {
+          "url": "https://adactio.com/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        },
+        {
+          "url": "https://adactio.com/favicon-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        },
+        {
+          "url": "https://adactio.com/apple-touch-icon.png",
+          "sizes": "180x180",
+          "type": "image/png"
+        }
+      ]
     },
     "twitter": {
       "card": "summary",

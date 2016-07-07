@@ -1,11 +1,17 @@
 {
   "type": "html",
   "contentUrl": "http://ogp.me/",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "meta": {
     "html": {
       "title": "The Open Graph protocol",
-      "description": "The Open Graph protocol enables any web page to become a rich object in a social graph."
+      "description": "The Open Graph protocol enables any web page to become a rich object in a social graph.",
+      "icons": [
+        {
+          "url": "http://ogp.me/favicon.ico",
+          "type": "image/x-icon"
+        }
+      ]
     },
     "rdfa": {
       "": {

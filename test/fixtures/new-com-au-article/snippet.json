@@ -7,10 +7,13 @@
   "contentUrl": "http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123",
   "contentSize": 11679,
   "originalUrl": "http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123",
-  "encodingFormat": "html",
+  "encodingFormat": "text/html",
   "headline": "UK man in 'Trump shooting bid' denied bail",
   "caption": "A British man accused of trying to take a police officer's gun and kill Donald Trump during a rally in Las Vegas will not be released on bail.",
   "siteName": "NewsComAu",
+  "icon": {
+    "url": "http://resources.newscdn.com.au/cs/nca/latest/public/img/favicons/favicon.ico"
+  },
   "twitter": {
     "siteHandle": "newscomauHQ"
   },
