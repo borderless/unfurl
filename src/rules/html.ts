@@ -161,7 +161,7 @@ export function handle (
       type: 'html',
       contentUrl: url,
       contentSize: headers['content-length'] ? Number(headers['content-length']) : undefined,
-      encodingFormat: 'html',
+      encodingFormat: 'text/html',
       dateModified: headers['last-modified'] ? new Date(headers['last-modified'] as string) : undefined,
       meta: {}
     }
