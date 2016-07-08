@@ -220,12 +220,13 @@ function setProps (obj: any, data: any) {
 /**
  * Get the canonical URL from the metadata.
  */
-function getMetaUrl (meta: ResultMeta, baseUrl: string) {
-  return getUrl(meta, ['twitter', 'url'], baseUrl) ||
-    getUrl(meta, ['rdfa', '', 'http://ogp.me/ns#url'], baseUrl) ||
-    getUrl(meta, ['html', 'canonical'], baseUrl) ||
-    getUrl(meta, ['applinks', 'web:url'], baseUrl) ||
-    getUrl(meta, ['oembed', 'url'], baseUrl)
+function getMetaUrl (meta: ResultMeta, contentUrl: string) {
+  return getUrl(meta, ['twitter', 'url'], contentUrl) ||
+    getUrl(meta, ['rdfa', '', 'http://ogp.me/ns#url'], contentUrl) ||
+    getUrl(meta, ['html', 'canonical'], contentUrl) ||
+    getUrl(meta, ['applinks', 'web:url'], contentUrl) ||
+    getUrl(meta, ['oembed', 'url'], contentUrl) ||
+    contentUrl
 }
 
 /**

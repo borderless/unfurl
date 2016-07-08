@@ -181,6 +181,10 @@ var FIXTURES = [
   {
     name: 'raw-image',
     url: 'http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png'
+  },
+  {
+    name: 'hackernews',
+    url: 'http://hackerne.ws'
   }
 ]
 

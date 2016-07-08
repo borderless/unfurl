@@ -1,0 +1,16 @@
+{
+  "type": "html",
+  "originalUrl": "http://hackerne.ws",
+  "contentUrl": "https://news.ycombinator.com/",
+  "encodingFormat": "text/html",
+  "meta": {
+    "html": {
+      "icons": [
+        {
+          "url": "https://news.ycombinator.com/favicon.ico"
+        }
+      ],
+      "title": "Hacker News"
+    }
+  }
+}
