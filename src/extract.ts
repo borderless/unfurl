@@ -1,6 +1,7 @@
 import arrify = require('arrify')
 import extend = require('xtend')
 import Promise = require('any-promise')
+import { get, Path } from 'getvalue'
 import { resolve } from 'url'
 import { scrapeUrl } from './scrape'
 
@@ -137,25 +138,6 @@ export const extracts: Extracts = {
       }
     }
   }
-}
-
-type Path = Array<string | number | symbol>
-
-/**
- * Select a value from an object.
- */
-function get <T> (obj: any, path: Path): T {
-  let res = obj
-
-  for (const key of path) {
-    if (!(key in res)) {
-      return
-    }
-
-    res = res[key]
-  }
-
-  return res
 }
 
 /**
