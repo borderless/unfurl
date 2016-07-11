@@ -1,6 +1,6 @@
 import Promise = require('any-promise')
 import status = require('popsicle-status')
-import { get, plugins, jar } from 'popsicle'
+import { get, jar, createTransport } from 'popsicle'
 import { Readable } from 'stream'
 import { Headers, AbortFn, Result, Options } from './interfaces'
 import rules from './rules'
@@ -12,26 +12,18 @@ export function scrapeUrl (url: string, options?: Options): Promise<Result> {
   const req = get({
     url,
     method: 'get',
-    use: [
-      plugins.unzip(),
-      plugins.headers()
-    ],
-    options: {
+    transport: createTransport({
+      type: 'stream',
       // Some websites require the use of cookies for their log-in page, so
       // you don't get stuck in an infinite loop (looking at you, NYTimes.com).
       jar: jar()
-    }
+    })
   })
 
   return req
     .use(status(200))
     .then(res => {
-      function abort () {
-        res.body.on('error', () => {/* Noop abort. */})
-        req.abort()
-      }
-
-      return scrapeStream(url, res.url, res.headers, res.body, abort, options)
+      return scrapeStream(url, res.url, res.headers, res.body, () => req.abort(), options)
     })
 }
 

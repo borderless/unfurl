@@ -1,6 +1,6 @@
 import debug = require('debug')
 import Promise = require('any-promise')
-import { get } from 'popsicle'
+import { get, createTransport } from 'popsicle'
 import status = require('popsicle-status')
 import { resolve as resolveUrl } from 'url'
 import { WritableStream, Callbacks } from 'htmlparser2'
@@ -521,24 +521,31 @@ export function handle (
       // Attach OEmbed information to entry.
       if (options.useOEmbed !== false) {
         if (oembedJson) {
-          const req = get(oembedJson).use(status(200))
+          const req = get({
+            url: oembedJson,
+            transport: createTransport({ type: 'json' })
+          })
+            .use(status(200))
+            .then(
+              (res) => {
+                result.meta.oembed = res.body
+              },
+              () => {/* Noop request/response errors. */}
+            )
 
-          resolve.push(
-            req
-              .then(
-                (res) => {
-                  result.meta.oembed = res.body
-                },
-                () => {/* Noop request errors. */}
-              )
-          )
+          resolve.push(req)
         }
       }
 
       if (options.fallbackOnFavicon !== false) {
         if (result.meta.html.icons == null) {
           const faviconUrl = resolveUrl(contentUrl, '/favicon.ico')
-          const req = get({ url: faviconUrl, use: [/* Stream, don't buffer */] }).use(status(200))
+
+          const req = get({
+            url: faviconUrl,
+            transport: createTransport({ type: 'stream' })
+          })
+            .use(status(200))
 
           resolve.push(
             req
@@ -550,11 +557,10 @@ export function handle (
                     type: parse(res.get('content-type')).type
                   }]
 
-                  // Abort the request stream.
-                  res.body.on('error', () => {/* Noop abort. */})
+                  // Abort immediately response.
                   req.abort()
                 },
-                () => {/* Noop request errors. */}
+                () => {/* Noop request/response errors. */}
               )
           )
         }

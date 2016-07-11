@@ -64,7 +64,7 @@
     "debug": "^2.2.0",
     "getvalue": "^1.0.0",
     "htmlparser2": "^3.9.1",
-    "popsicle": "^6.2.2",
+    "popsicle": "^7.0.1",
     "popsicle-status": "^2.0.0"
   }
 }
