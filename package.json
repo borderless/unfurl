@@ -62,9 +62,9 @@
     "arrify": "^1.0.1",
     "content-type": "^1.0.2",
     "debug": "^2.2.0",
-    "getvalue": "^1.0.0",
+    "getvalue": "^1.1.0",
     "htmlparser2": "^3.9.1",
-    "popsicle": "^7.0.1",
+    "popsicle": "^8.0.0",
     "popsicle-status": "^2.0.0"
   }
 }

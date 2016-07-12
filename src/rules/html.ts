@@ -1,6 +1,6 @@
 import debug = require('debug')
 import Promise = require('any-promise')
-import { get, createTransport } from 'popsicle'
+import { get, createTransport, plugins } from 'popsicle'
 import status = require('popsicle-status')
 import { resolve as resolveUrl } from 'url'
 import { WritableStream, Callbacks } from 'htmlparser2'
@@ -521,10 +521,8 @@ export function handle (
       // Attach OEmbed information to entry.
       if (options.useOEmbed !== false) {
         if (oembedJson) {
-          const req = get({
-            url: oembedJson,
-            transport: createTransport({ type: 'json' })
-          })
+          const req = get(oembedJson)
+            .use(plugins.parse('json'))
             .use(status(200))
             .then(
               (res) => {
