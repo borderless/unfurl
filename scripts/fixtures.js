@@ -185,6 +185,14 @@ var FIXTURES = [
   {
     name: 'hackernews',
     url: 'http://hackerne.ws'
+  },
+  {
+    name: 'youtube-avengers-movie',
+    url: 'https://www.youtube.com/watch?v=W9ZnpIGvZUo'
+  },
+  {
+    name: 'itunes-avengers-movie',
+    url: 'https://itunes.apple.com/us/movie/the-avengers/id533654020'
   }
 ]
 

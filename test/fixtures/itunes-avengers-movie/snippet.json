@@ -1,0 +1,38 @@
+{
+  "type": "summary",
+  "subtype": "image",
+  "image": {
+    "url": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
+    "secureUrl": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
+    "type": "image/jpg",
+    "width": 1200,
+    "height": 630
+  },
+  "contentUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
+  "contentSize": 19466,
+  "originalUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
+  "encodingFormat": "text/html",
+  "headline": "The Avengers on iTunes",
+  "caption": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
+  "siteName": "iTunes",
+  "icon": {
+    "url": "https://itunes.apple.com/favicon.ico",
+    "type": "image/x-icon"
+  },
+  "tags": [
+    "download",
+    "The Avengers",
+    "Action & Adventure",
+    "Joss Whedon",
+    "movies",
+    "film",
+    "rent",
+    "buy",
+    "itunes",
+    "apple tv"
+  ],
+  "twitter": {
+    "siteHandle": "iTunes"
+  },
+  "apps": {}
+}
