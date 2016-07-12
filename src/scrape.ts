@@ -23,7 +23,13 @@ export function scrapeUrl (url: string, options?: Options): Promise<Result> {
   return req
     .use(status(200))
     .then(res => {
-      return scrapeStream(url, res.url, res.headers, res.body, () => req.abort(), options)
+      function abort () {
+        // Ignore streaming errors after aborting.
+        res.body.on('error', (): void => undefined)
+        req.abort()
+      }
+
+      return scrapeStream(url, res.url, res.headers, res.body, abort, options)
     })
 }
 

@@ -545,22 +545,22 @@ export function handle (
           })
             .use(status(200))
 
-          resolve.push(
-            req
-              .then(
-                (res) => {
-                  // Initialize the favicon.
-                  result.meta.html.icons = [{
-                    url: faviconUrl,
-                    type: parse(res.get('content-type')).type
-                  }]
+          const res = req.then(
+            (res) => {
+              // Initialize the favicon.
+              result.meta.html.icons = [{
+                url: faviconUrl,
+                type: parse(res.get('content-type')).type
+              }]
 
-                  // Abort immediately response.
-                  req.abort()
-                },
-                () => {/* Noop request/response errors. */}
-              )
+              // Abort immediately response.
+              res.body.on('error', (): void => undefined)
+              req.abort()
+            },
+            () => {/* Noop request/response errors. */}
           )
+
+          resolve.push(res)
         }
       }
 
