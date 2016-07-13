@@ -1,16 +1,16 @@
 {
-  "contentUrl": "https://itunes.apple.com/us/app/espn-sportscenter/id317469184?mt=8",
-  "originalUrl": "https://itunes.apple.com/us/app/espn-sportscenter/id317469184?mt=8",
+  "contentUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
+  "originalUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
   "encodingFormat": "text/html",
-  "contentSize": 19194,
-  "dateModified": "2016-07-07T19:33:14.000Z",
+  "contentSize": 15262,
+  "dateModified": "2016-07-13T22:49:40.000Z",
   "type": "html",
   "meta": {
     "html": {
-      "keywords": "ESPN - Get scores, news, and watch live sports, ESPN, Sports, Entertainment, ios apps, app, appstore, app store, iphone, ipad, ipod touch, itouch, itunes",
-      "description": "Read reviews, compare customer ratings, see screenshots, and learn more about ESPN - Get scores, news, and watch live sports. Download ESPN - Get scores, news, and watch live sports and enjoy it on your iPhone, iPad, and iPod touch.",
-      "canonical": "https://itunes.apple.com/us/app/espn-get-scores-news-watch/id317469184?mt=8",
-      "title": "ESPN - Get scores, news, and watch live sports on the App Store",
+      "keywords": "Pokémon GO, Niantic, Inc., Games, Health & Fitness, ios apps, app, appstore, app store, iphone, ipad, ipod touch, itouch, itunes",
+      "description": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
+      "canonical": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
+      "title": "Pokémon GO on the App Store",
       "icons": [
         {
           "url": "https://itunes.apple.com/favicon.ico",
@@ -19,20 +19,20 @@
       ]
     },
     "twitter": {
-      "title": "ESPN - Get scores, news, and watch live sports on the App Store",
-      "description": "Read reviews, compare customer ratings, see screenshots, and learn more about ESPN - Get scores, news, and watch live sports. Download ESPN - Get scores, news, and watch live sports and enjoy it on your iPhone, iPad, and iPod touch.",
+      "title": "Pokémon GO on the App Store",
+      "description": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
       "site": "@AppStore",
       "domain": "App Store",
       "card": "summary_large_image",
-      "image": "http://is1.mzstatic.com/image/thumb/Purple60/v4/b7/39/73/b73973d9-86d9-8261-5951-65eab5a3c4df/source/1200x630bf.jpg"
+      "image": "http://is3.mzstatic.com/image/thumb/Purple60/v4/27/9a/bb/279abb2e-ab83-0934-16a3-85d6bd17a9d6/source/1200x630bf.jpg"
     },
     "rdfa": {
       "": {
-        "http://ogp.me/ns#title": "ESPN - Get scores, news, and watch live sports on the App Store",
-        "http://ogp.me/ns#description": "Read reviews, compare customer ratings, see screenshots, and learn more about ESPN - Get scores, news, and watch live sports. Download ESPN - Get scores, news, and watch live sports and enjoy it on your iPhone, iPad, and iPod touch.",
+        "http://ogp.me/ns#title": "Pokémon GO on the App Store",
+        "http://ogp.me/ns#description": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
         "http://ogp.me/ns#site_name": "App Store",
-        "http://ogp.me/ns#image": "http://is1.mzstatic.com/image/thumb/Purple60/v4/b7/39/73/b73973d9-86d9-8261-5951-65eab5a3c4df/source/1200x630bf.jpg",
-        "http://ogp.me/ns#image:secure_url": "http://is1.mzstatic.com/image/thumb/Purple60/v4/b7/39/73/b73973d9-86d9-8261-5951-65eab5a3c4df/source/1200x630bf.jpg",
+        "http://ogp.me/ns#image": "http://is3.mzstatic.com/image/thumb/Purple60/v4/27/9a/bb/279abb2e-ab83-0934-16a3-85d6bd17a9d6/source/1200x630bf.jpg",
+        "http://ogp.me/ns#image:secure_url": "http://is3.mzstatic.com/image/thumb/Purple60/v4/27/9a/bb/279abb2e-ab83-0934-16a3-85d6bd17a9d6/source/1200x630bf.jpg",
         "http://ogp.me/ns#image:type": "image/jpg",
         "http://ogp.me/ns#image:width": "1200",
         "http://ogp.me/ns#image:height": "630",
@@ -46,42 +46,34 @@
     },
     "microdata": {
       "@type": "http://schema.org/SoftwareApplication",
-      "name": "ESPN - Get scores, news, and watch live sports",
-      "description": "The ESPN App is the #1 Sports App in the market. The app gives you up-to-the-minute scores and the latest news, live video and audio streaming across ESPN’s networks, and loads of video highlights. Sign in and personalize the ESPN App to get alerts about scores and news from all of your favorite teams and leagues! No matter where you go, take ESPN with you to stay connected the moment you need it, from wherever you are.What do you get with ESPN?- Fast access to scores from the MLB, NFL, College Football, NBA, NHL, College Basketball, MLS, and more.- Stories and videos from your favorite teams and leagues up front and center in your favorites feed. Simply pick your favorite leagues and teams to get started.- Not near a TV or want to stream a second game? You now have one tap access to stream live events, up-to-the-minute news, highlights and analysis from the ESPN family of networks.- Take your sports wherever your ears go! Stream live ESPN Radio, over 100 other ESPN podcasts , live play-by-play and more — just tap on the headphones to listen.- Use Handoff to switch between your Apple Watch and your iPhone.ESPN, ESPN2, ESPN3, ESPNU, SEC Network, SEC Network Plus, ESPNews ESPN Deportes and Longhorn Network are now available for live streaming through WatchESPN in the ESPN App. Access to WatchESPN live video is determined by your TV provider and package and, in some instances, your Internet service provider. The providers below currently offer access to WatchESPN live video:* AT&T U-verse* Bright House Networks* Charter* Comcast XFINITY* Cox* DirecTV* DISH* Google Fiber* Midcontinent Communications* Optimum* Time Warner Cable* Verizon FiOS TV* Plus many more providers–-* Due to contractual limitations with certain content, especially play-by-play broadcasts, there are times when the schedule that's on-air won't match the schedule that's online. While we make every effort to update the schedule, occasionally the nature of play-by-play broadcasting limits our ability to accurately present the latest schedule (ie., rain delays, last minute schedule changes). We apologize for any inconvenience this causes. If you have specific schedule questions, please contact the station directly by visiting their website.–-Feedback:- Follow us on Twitter for the latest updates and to provide feedback on the app: twitter.com/ESPN_FanCentral- Use the Feedback form in the app’s Settings menu to let us know how we’re doing.Terms of Use:http://disneytermsofuse.com/Privacy Policy:https://disneyprivacycenter.com/–-Before you download this app, please consider that it includes advertising, some of which may be targeted to your interests. You may choose to control targeted advertising within mobile applications by using your mobile device settings (for example, by re-setting your device’s advertising identifier and/or opting out of interest based ads).Please note: This app features Nielsen’s proprietary measurement software which will allow you to contribute to market research, like Nielsen’s TV Ratings. Please see www.nielsen.com/digitalprivacy for more information. You may also visit Settings in the app to opt out of Nielsen measurement.",
+      "name": "Pokémon GO",
+      "description": "Venusaur, Charizard, Blastoise, Pikachu, and many other Pokémon have been discovered on planet Earth! Now’s your chance to discover and capture the Pokémon all around you—so get your shoes on, step outside, and explore the world. You’ll join one of three teams and battle for the prestige and ownership of Gyms with your Pokémon at your side.Pokémon are out there, and you need to find them. As you walk around a neighborhood, your smartphone will vibrate when there’s a Pokémon nearby. Take aim and throw a Poké Ball… You’ll have to stay alert, or it might get away!Search far and wide for Pokémon and itemsCertain Pokémon appear near their native environment—look for Water-type Pokémon by lakes and oceans. Visit PokéStops, found at interesting places like museums, art installations, historical markers, and monuments, to stock up on Poké Balls and helpful items. Catching, hatching, evolving, and moreAs you level up, you’ll be able to catch more-powerful Pokémon to complete your Pokédex. You can add to your collection by hatching Pokémon Eggs based on the distances you walk. Help your Pokémon evolve by catching many of the same kind. Take on Gym battles and defend your GymAs your Charmander evolves to Charmeleon and then Charizard, you can battle together to defeat a Gym and assign your Pokémon to defend it against all comers.It’s time to get moving—your real-life adventures await!Note: - This app is free-to-play and offers in-game purchases. It is optimized for smartphones, not tablets.- It is recommended to play while connected to a network in order to obtain accurate location information.- Compatibility is not guaranteed for devices without GPS capabilities or devices that are connected only to Wi-Fi networks- Compatibility information may be changed at any time.- Information current as of July 6, 2016- Compatible with iPhone® 5/5c/5s/SE/6/6s/6 Plus/6s Plus devices with iOS Version 8 - 9 installed- Not compatible with 5th generation iPod Touch devices or iPhone 4S or earlier iPhone devices.- Please visit www.PokemonGO.com for additional compatibility information.- Compatibility with tablet devices is not guaranteed.- Compatibility is not guaranteed for all devices.",
       "screenshot": [
-        "http://a1.mzstatic.com/us/r30/Purple30/v4/08/3c/12/083c12f7-94fd-61fe-7faa-7e593e1104e3/screen322x572.jpeg",
-        "http://a5.mzstatic.com/us/r30/Purple30/v4/82/9a/2f/829a2f2f-8f9f-53fe-a737-07cc61c1bfa4/screen322x572.jpeg",
-        "http://a4.mzstatic.com/us/r30/Purple20/v4/94/01/b7/9401b705-4732-3456-b11c-62995fd1ff4a/screen322x572.jpeg",
-        "http://a3.mzstatic.com/us/r30/Purple60/v4/fb/49/14/fb491491-dd16-62a2-7c52-24d06615a9f7/screen640x640.jpeg",
-        "http://a2.mzstatic.com/us/r30/Purple60/v4/6d/12/b4/6d12b420-1cc2-7232-24c8-f290c8a7a7b1/screen322x572.jpeg",
-        "http://a1.mzstatic.com/us/r30/Purple20/v4/f5/5b/a5/f55ba542-dd31-ffe3-18d0-38ed4a28368b/screen480x480.jpeg",
-        "http://a5.mzstatic.com/us/r30/Purple30/v4/7b/43/21/7b4321fe-3d45-833f-8470-5a107771d47b/screen480x480.jpeg",
-        "http://a4.mzstatic.com/us/r30/Purple60/v4/53/76/e8/5376e8a2-9216-0423-8b0f-bf4a5e593029/screen480x480.jpeg",
-        "http://a1.mzstatic.com/us/r30/Purple60/v4/e8/0d/86/e80d86b9-0342-28de-cd3f-e1ae906bee85/screen480x480.jpeg",
-        "http://a2.mzstatic.com/us/r30/Purple18/v4/c3/f8/fb/c3f8fbe6-bfa9-ed5c-3d12-5fe299c21ac1/screen480x480.jpeg",
-        "http://a1.mzstatic.com/us/r30/Purple30/v4/0b/71/d2/0b71d2b7-40b5-208f-4acd-fe34c6baed1a/screen390x390.jpeg",
-        "http://a4.mzstatic.com/us/r30/Purple18/v4/87/ac/86/87ac8690-02b6-8a0f-7352-07ebad755af9/screen390x390.jpeg",
-        "http://a2.mzstatic.com/us/r30/Purple60/v4/9b/f4/f2/9bf4f297-82f0-fe42-8c7e-b33525ffa2ad/screen390x390.jpeg",
-        "http://a2.mzstatic.com/us/r30/Purple18/v4/f5/3d/20/f53d208c-cfe7-d381-de0d-e0398a050810/screen390x390.jpeg",
-        "http://a5.mzstatic.com/us/r30/Purple30/v4/0f/73/3b/0f733b05-d169-a00a-2945-071505bf2e94/screen390x390.jpeg"
+        "http://a3.mzstatic.com/us/r30/Purple20/v4/90/87/61/908761f2-9f46-4a88-26e1-e79790eebcfb/screen322x572.jpeg",
+        "http://a2.mzstatic.com/us/r30/Purple20/v4/b0/97/2e/b0972e89-068f-fb49-0f73-25c94f118765/screen322x572.jpeg",
+        "http://a1.mzstatic.com/us/r30/Purple20/v4/9e/5f/33/9e5f3303-8649-e870-51a2-e20650865a28/screen322x572.jpeg",
+        "http://a4.mzstatic.com/us/r30/Purple60/v4/bc/08/db/bc08dbd0-3ccf-70b8-5f8f-3f76cc4b7b31/screen322x572.jpeg",
+        "http://a1.mzstatic.com/us/r30/Purple18/v4/20/b8/51/20b851a8-9c3a-0659-e20d-804c9150ac96/screen322x572.jpeg",
+        "http://a2.mzstatic.com/us/r30/Purple60/v4/a6/d9/e4/a6d9e449-e9ca-dba0-99c8-09bb5d8fa3c3/screen480x480.jpeg",
+        "http://a3.mzstatic.com/us/r30/Purple18/v4/f1/bd/c9/f1bdc989-acb2-b76a-5922-c5d044f2b59c/screen480x480.jpeg"
       ],
-      "image": "http://a5.mzstatic.com/us/r30/Purple60/v4/b7/39/73/b73973d9-86d9-8261-5951-65eab5a3c4df/icon175x175.png",
+      "image": "http://a5.mzstatic.com/us/r30/Purple60/v4/27/9a/bb/279abb2e-ab83-0934-16a3-85d6bd17a9d6/icon175x175.jpeg",
       "offers": {
         "@type": "http://schema.org/Offer",
         "price": "0"
       },
-      "applicationCategory": "Sports",
-      "datePublished": "2009-06-02 07:00:00 Etc/GMT",
-      "softwareVersion": "5.0",
+      "applicationCategory": "Games",
+      "datePublished": "2016-07-07 00:39:49 Etc/GMT",
+      "softwareVersion": "1.0.2",
       "author": {
         "@type": "http://schema.org/Person",
-        "name": "ESPN Inc."
+        "name": "Niantic, Inc."
       },
-      "operatingSystem": "Requires iOS 9.0 or later. Compatible with iPhone, iPad, and iPod touch.",
+      "operatingSystem": "Requires iOS 8.0 or later. Compatible with iPhone, iPad, and iPod touch.",
       "aggregateRating": {
         "@type": "http://schema.org/AggregateRating",
-        "ratingValue": "3.86275",
-        "reviewCount": "714 Ratings"
+        "ratingValue": "3.5737",
+        "reviewCount": "1574 Ratings"
       }
     }
   }

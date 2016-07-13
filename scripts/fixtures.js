@@ -136,7 +136,7 @@ var FIXTURES = [
   },
   {
     name: 'itunes-app',
-    url: 'https://itunes.apple.com/us/app/espn-sportscenter/id317469184?mt=8'
+    url: 'https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8'
   },
   {
     name: 'instagram-photo',
@@ -197,6 +197,18 @@ var FIXTURES = [
   {
     name: 'textrank-pdf-paper',
     url: 'https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf'
+  },
+  {
+    name: 'flickr-image-download',
+    url: 'https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg'
+  },
+  {
+    name: 'flickr-raw-image',
+    url: 'https://www.flickr.com/photos/fabianf_/28229743586/sizes/o/'
+  },
+  {
+    name: 'flickr-image-download-by-iphone',
+    url: 'https://c2.staticflickr.com/4/3930/15428630771_61e9dcf6f4_o.jpg'
   }
 ]
 
@@ -209,9 +221,14 @@ Promise.all(FIXTURES.map(function (fixture) {
 
     return popsicle.request({
       url: fixture.url,
-      options: {
-        jar: popsicle.jar()
-      }
+      headers: {
+        'User-Agent': 'Scrappy-LinkExpanding 1.0 (+https://github.com/blakeembrey/node-scrappy)'
+      },
+      transport: popsicle.createTransport({
+        type: 'buffer',
+        jar: popsicle.jar(),
+        maxBufferSize: 20 * 1000 * 1000
+      })
     })
       .then(function (res) {
         return mkdir(dir)

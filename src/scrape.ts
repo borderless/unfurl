@@ -13,7 +13,9 @@ import rules from './rules'
 export function scrapeUrl (url: string, options?: Options): Promise<Result> {
   const req = get({
     url,
-    method: 'get',
+    headers: {
+      'User-Agent': 'Scrappy-LinkExpanding 1.0 (+https://github.com/blakeembrey/node-scrappy)'
+    },
     transport: createTransport({
       type: 'stream',
       // Some websites require the use of cookies for their log-in page, so

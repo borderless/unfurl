@@ -22,7 +22,7 @@
 <meta name="msvalidate.01" content="5ABD8A078F3356F3A6A8C8643C31FB8F" />
 	<meta property="fb:app_id" content="187288694643718" />
 	<meta property="fb:admins" content="543710097,771265067,1661021707,1550970059,663677613,1178144075,726995222,506404657,4700188" />
-			<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=techcrunch.com&amp;id=24588526&amp;t=1467919732&amp;back=https%3A%2F%2Ftechcrunch.com%2F' type="text/javascript"></script>
+			<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=techcrunch.com&amp;id=24588526&amp;t=1468450051&amp;back=https%3A%2F%2Ftechcrunch.com%2F' type="text/javascript"></script>
 		<script type="text/javascript">
 		/* <![CDATA[ */
 			if ( 'function' === typeof WPRemoteLogin ) {
@@ -78,24 +78,23 @@ var TC_Google_Analytics_Config = {"account":"UA-991406-1","domain":"techcrunch.c
 <meta property="og:site" content="social.techcrunch.com" />
 <meta property="og:title" content="TechCrunch" />
 <meta property="og:description" content="TechCrunch is a leading technology media property, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news." />
-<meta property="og:image" content="https://tctechcrunch2011.files.wordpress.com/2016/07/ff97b5e32f6a48ead938e1c242f5d87d_original.png?w=680&amp;h=400&amp;crop=1" />
+<meta property="og:image" content="https://tctechcrunch2011.files.wordpress.com/2016/07/pokemongo-bulbasaur.jpg?w=764&amp;h=400&amp;crop=1" />
 <meta property="og:url" content="http://social.techcrunch.com/" />
 <meta property="og:type" content="website" />
-<meta class="swiftype" name="author" data-type="string" content="John Biggs" />
+<meta class="swiftype" name="author" data-type="string" content="Lucia Maffei" />
 <meta class="swiftype" name="title" data-type="string" content="TechCrunch" />
 <meta class="swiftype" name="object_type" data-type="string" content="post" />
-<meta class="swiftype" name="url" data-type="enum" content="https://techcrunch.com/2016/07/07/art-mecanique-kickstarts-a-mechanical-watch-with-a-few-high-tech-trimmings/" />
-<meta class="swiftype" name="timestamp" data-type="date" content="2016-07-07 12:27:56" />
-<meta class="swiftype" name="content" data-type="text" content="There is, to be sure, nothing new under the horological sun. However, by putting all of the old pieces together in new ways you end up with a watch that is both interesting and unique. Art Mécanique is a Swiss company that is crowdfunding a watch with a face made of concentric circles. The bottom half of the face is covered by a metal plate and you tell the time by looking at the top of the watch. The watch runs an Horlogerie Schild SA mechanical movement inside a steel case which comes in polished and matte steel or with a black diamond-like carbon coating. The company is raising $100,000 - far too much for a Kickstarter watch project - but if it gets funded you&#039;ll get a mechanical timepieces for about $400. The watches come in multiple styles including a ladies piece embedded with &quot;jewels.&quot; All of them come with easy-off leather straps. The result is a watch that is both novel and traditional. Other watch companies, including Anicorn, have gone the half-face route with mixed&hellip;" />
-<meta class="swiftype" name="excerpt" data-type="text" content="There is, to be sure, nothing new under the horological sun. However, by putting all of the old pieces together in new ways you end up with a watch that is both interesting and unique.
-Art Mécanique is a Swiss company that is crowdfunding a watch with a face made of concentric circles. The bottom half of the face is covered by a metal plate and you tell the time by looking at the top of the&hellip;" />
-<meta class="swiftype" name="image" data-type="enum" content="https://tctechcrunch2011.files.wordpress.com/2016/07/ff97b5e32f6a48ead938e1c242f5d87d_original.png?w=150" />
-<meta class="swiftype" name="category" data-type="string" content="Column" />
-<meta class="swiftype" name="category" data-type="string" content="Gadgets" />
+<meta class="swiftype" name="url" data-type="enum" content="https://techcrunch.com/2016/07/13/pokemon-go-will-soon-get-ads-in-the-form-of-sponsored-locations/" />
+<meta class="swiftype" name="timestamp" data-type="date" content="2016-07-13 14:30:05" />
+<meta class="swiftype" name="content" data-type="text" content="After having become one of the most viral mobile applications of all time, Pokémon Go will soon include advertising, according to its developer. In an interview with the Financial Times, Niantic CEO John Hanke said that “sponsored locations” would provide a new revenue stream, in addition to in-app purchases of power-ups and virtual items. In other words, retailers and companies will be granted the paid opportunity to be featured prominently on the game&#039;s virtual map, in the hope to drive customers inside their facilities. A Niantic spokesperson declined to provide further details about the amount of potential revenue split between ads and in-app purchases. According to the Financial Times, the network of virtual &quot;portals&quot; mapped to on-street locations in Pokémon Go will be similar to the one featured on Ingress, Niantic&#039;s previous game. Brands that paid to create sponsored content in Ingress are pharmacy Duane Reade, café chain Jamba Juice and car-rental service&hellip;" />
+<meta class="swiftype" name="excerpt" data-type="text" content="After having become one of the most viral mobile applications of all time, Pokémon Go will soon include advertising, according to its developer.
+In an interview with the Financial Times, Niantic CEO John Hanke said that &#8220;sponsored locations&#8221; would provide a new revenue stream, in addition to in-app purchases of power-ups and virtual items. In other words, retailers and companies&hellip;" />
+<meta class="swiftype" name="image" data-type="enum" content="https://tctechcrunch2011.files.wordpress.com/2016/07/pokemongo-bulbasaur.jpg?w=150" />
+<meta class="swiftype" name="category" data-type="string" content="Gaming" />
 <meta class="swiftype" name="category" data-type="string" content="TC" />
-<meta class="swiftype" name="tag" data-type="string" content="watches" />
-<meta class="swiftype" name="tag" data-type="string" content="luxury brands" />
-<meta class="swiftype" name="tag" data-type="string" content="Kickstarter" />
+<meta class="swiftype" name="tag" data-type="string" content="pokemon" />
+<meta class="swiftype" name="tag" data-type="string" content="mobile advertising" />
+<meta class="swiftype" name="tag" data-type="string" content="niantic" />
 	<meta name="description" content="TechCrunch is a leading technology media property, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news." />
 	<script type="text/javascript">var ajaxurl = "https://techcrunch.com/wp-admin/admin-ajax.php"</script><meta name="application-name" content="TechCrunch" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Startup and Technology News" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://techcrunch.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/d9ea925a71f82f06a1e6224298f7fe80?s=16" />
 	<style type="text/css">#site-logo { background: url(https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/images/logos/green.png) no-repeat !important; }</style>
@@ -111,7 +110,7 @@ Art Mécanique is a Swiss company that is crowdfunding a watch with a face made 
 	<header class="header header-fixed-mobile cf header-context-null" role="banner">
 
 	<div class="ad-top-mobile">
-		<div id="adsDiv9b9f4716cf" class="mobile-ads-center"></div>
+		<div id="adsDiv46ebd7a07b" class="mobile-ads-center"></div>
 <script>
 /* <![CDATA[ */
 if (ads.isMobile()) {
@@ -126,7 +125,7 @@ if (ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484943', ads.width(), ads.height(), 'f', 'adsDiv9b9f4716cf');
+			window.htmlAdWH('93484943', ads.width(), ads.height(), 'f', 'adsDiv46ebd7a07b');
 		});
 	}(this,this.jQuery));
 }
@@ -196,7 +195,7 @@ if (ads.isMobile()) {
 				<ul class="nav-col">
 					<li class="subnav-title">Channels</li>
 					<ul class="subnav-channel" data-omni-sm-delegate="gbl_mainnav"><li id="menu-item-899745" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899745"><a href="https://techcrunch.com/startups/">Startups</a></li>
-<li id="menu-item-899746" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-899746"><a href="https://techcrunch.com/mobile/">Mobile</a></li>
+<li id="menu-item-899746" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899746"><a href="https://techcrunch.com/mobile/">Mobile</a></li>
 <li id="menu-item-899747" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899747"><a href="https://techcrunch.com/gadgets/">Gadgets</a></li>
 <li id="menu-item-899748" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899748"><a href="https://techcrunch.com/enterprise/">Enterprise</a></li>
 <li id="menu-item-899749" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899749"><a href="https://techcrunch.com/social/">Social</a></li>
@@ -407,7 +406,7 @@ if (ads.isMobile()) {
 </div><!-- /.modal -->
 
 <div class="header-ad">
-	<div id="adsDiv2ae1ecf944" class=""></div>
+	<div id="adsDivfd92854b3e" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -422,7 +421,7 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484945', "LB", "LB", 'f', 'adsDiv2ae1ecf944');
+			window.htmlAdWH('93484945', "LB", "LB", 'f', 'adsDivfd92854b3e');
 		});
 	}(this,this.jQuery));
 }
@@ -436,7 +435,7 @@ if (!ads.isMobile()) {
 										<div class="announcement_left">
 						<a href="https://techcrunch.com/event-info/disrupt-sf-2016/#tickets" data-ga-event="click" data-ga-event-category="Marketing - Internal" data-ga-event-action="Announcement Bar" data-ga-event-label="DisruptSF">
 														<span class="announcement-text">
-							<span class="announcement-headline">Disrupt SF</span>Author And Magic Leap Futurist Neal Stephenson To Speak At Disrupt SF								<span class="announcement-link-text">
+							<span class="announcement-headline">Disrupt SF</span>Jennifer Doudna, Inventor Of Gene Editing Technology CRISPR Cas9, To Speak At Disrupt SF This September								<span class="announcement-link-text">
 																			Save $1000 On Tickets Today																												<span class="icon-caret-right"></span>
 																	</span>
 						</span>
@@ -452,53 +451,53 @@ if (!ads.isMobile()) {
 			<div class="l-main-container">
 				<div class="l-main">
 
-											<!-- loading feature island --><!-- is home, super featured id = 0 --><!-- testing model --><!-- grabbing featured items --><!-- checking for posts: have posts = true --><!-- testing first post = 1349267 -->
+											<!-- loading feature island --><!-- is home, super featured id = 0 --><!-- testing model --><!-- grabbing featured items --><!-- checking for posts: have posts = true --><!-- testing first post = 1352187 -->
 	<!-- Begin: Featured Island -->
 	<div class="island plain-island">
 		<div class="plain-feature block block-inset">
-			<a href="https://techcrunch.com/2016/07/07/ios-10-preview/" data-omni-sm="hp_featureddl">
-									<img class="thumb" data-aspect-ratio="500x369" height="369" width="500" alt="iOS 10: Apple breaks down its walled garden" src="https://tctechcrunch2011.files.wordpress.com/2016/07/ios-10.jpg?w=474&#038;h=350&#038;crop=1&#038;quality=85&#038;strip=all" />				
+			<a href="https://techcrunch.com/gallery/a-look-inside-facebooks-data-center/" data-omni-sm="hp_featureddl">
+									<img class="thumb" data-aspect-ratio="500x369" height="369" width="500" alt="A look inside Facebook&#039;s data center" src="https://tctechcrunch2011.files.wordpress.com/2016/07/fb_data_center_tour-20.jpg?w=474&#038;h=350&#038;crop=1&#038;quality=85&#038;strip=all" />				
 				<div class="block-title">
-					<h2>iOS 10: Apple breaks down its walled garden</h2>
+					<h2>A look inside Facebook's data center</h2>
 
-					<div class="byline">by Romain Dillet</div>
+					<div class="byline">by Frederic Lardinois</div>
 				</div>
 			</a>
 		</div>
 		<ul class="plain-item-list">
-			<!-- outputting post 1347455 -->
+			<!-- outputting post 1352166 -->
 												
 				<li class="plain-item block block-small">
-					<a href="https://techcrunch.com/2016/07/07/how-berlin-can-become-europes-no-1-tech-hub/" data-omni-sm="hp_featureddl">
-													<img class="thumb" data-featured-thumb="1" height="90" width="145" alt="How Berlin can become Europe&#039;s No. 1 tech" src="https://tctechcrunch2011.files.wordpress.com/2016/07/gettyimages-533781661.jpg?w=145&#038;h=90&#038;crop=1&#038;quality=85&#038;strip=all" />						
+					<a href="https://techcrunch.com/2016/07/13/pokemon-go-tops-twitters-daily-users-sees-more-engagement-than-facebook/" data-omni-sm="hp_featureddl">
+													<img class="thumb" data-featured-thumb="1" height="90" width="145" alt="Pokémon Go tops Twitter&#039;s daily users" src="https://tctechcrunch2011.files.wordpress.com/2016/07/gettyimages-546532826.jpg?w=145&#038;h=90&#038;crop=1&#038;quality=85&#038;strip=all" />						
 						<div class="plain-title">
-							<h2 class="h-alt">How Berlin can become Europe's No. 1 tech</h2>
+							<h2 class="h-alt">Pokémon Go tops Twitter's daily users</h2>
 
-							<p class="byline">by Wouter Verhoog</p>
+							<p class="byline">by Sarah Perez</p>
 						</div>
 					</a>
 				</li>
-			<!-- outputting post 1349221 -->
+			<!-- outputting post 1351832 -->
 												
 				<li class="plain-item block block-small">
-					<a href="https://techcrunch.com/2016/07/07/ch-ch-ch-changes-at-microsoft-as-coo-kevin-turner-heading-for-the-exits/" data-omni-sm="hp_featureddl">
-													<img class="thumb" data-featured-thumb="1" height="90" width="145" alt="COO Kevin Turner leaving Microsoft" src="https://tctechcrunch2011.files.wordpress.com/2016/07/gettyimages-527560808.jpg?w=145&#038;h=90&#038;crop=1&#038;quality=85&#038;strip=all" />						
+					<a href="https://techcrunch.com/2016/07/13/facebook-lifts-the-veil-on-its-mobile-device-lab/" data-omni-sm="hp_featureddl">
+													<img class="thumb" data-featured-thumb="1" height="90" width="145" alt="Facebook shows off mobile device testing lab" src="https://tctechcrunch2011.files.wordpress.com/2016/07/fb_data_center-4.jpg?w=145&#038;h=90&#038;crop=1&#038;quality=85&#038;strip=all" />						
 						<div class="plain-title">
-							<h2 class="h-alt">COO Kevin Turner leaving Microsoft</h2>
+							<h2 class="h-alt">Facebook shows off mobile device testing lab</h2>
 
-							<p class="byline">by Ron Miller</p>
+							<p class="byline">by Frederic Lardinois</p>
 						</div>
 					</a>
 				</li>
-			<!-- outputting post 1348363 -->
+			<!-- outputting post 1352168 -->
 												
 				<li class="plain-item block block-small">
-					<a href="https://techcrunch.com/2016/07/06/pokemon-go-an-education/" data-omni-sm="hp_featureddl">
-													<img class="thumb" data-featured-thumb="1" height="90" width="145" alt="Pokémon Go has already taught me so much" src="https://tctechcrunch2011.files.wordpress.com/2016/07/pokemon-go.png?w=145&#038;h=90&#038;crop=1&#038;quality=85&#038;strip=all" />						
+					<a href="https://techcrunch.com/2016/07/13/trace-genomics-launches-a-23andme-for-farms-raises-4-million-to-improve-the-worlds-food-supply/" data-omni-sm="hp_featureddl">
+													<img class="thumb" data-featured-thumb="1" height="90" width="145" alt="Trace Genomics launches a 23andMe for farms" src="https://tctechcrunch2011.files.wordpress.com/2015/05/farms.jpg?w=145&#038;h=90&#038;crop=1&#038;quality=85&#038;strip=all" />						
 						<div class="plain-title">
-							<h2 class="h-alt">Pokémon Go has already taught me so much</h2>
+							<h2 class="h-alt">Trace Genomics launches a 23andMe for farms</h2>
 
-							<p class="byline">by Darrell Etherington</p>
+							<p class="byline">by Lora Kolodny</p>
 						</div>
 					</a>
 				</li>
@@ -518,31 +517,30 @@ if (!ads.isMobile()) {
 					</div>
 					<ul class="river lc-padding" id="river1">
 
-						<li class="river-block crunch-network" id="1349215" data-permalink="https://techcrunch.com/2016/07/07/art-mecanique-kickstarts-a-mechanical-watch-with-a-few-high-tech-trimmings/" data-shortlink="http://tcrn.ch/29tTXAj" data-shareTitle="Art Mécanique kickstarts a mechanical watch with a few high-tech&nbsp;trimmings">
+						<li class="river-block " id="1352370" data-permalink="https://techcrunch.com/2016/07/13/pokemon-go-will-soon-get-ads-in-the-form-of-sponsored-locations/" data-shortlink="http://tcrn.ch/29EGkLR" data-shareTitle="Pokémon Go will soon get ads in the form of sponsored&nbsp;locations">
 	<div class="block block-thumb ">
 				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/gadgets/" title="Gadgets" class="tag"><span>Gadgets</span></a>
+		 							<a href="https://techcrunch.com/gaming/" title="Gaming" class="tag"><span>Gaming</span></a>
 					 					 					 					 		</div>
 				<div class="block-content">
 							<span data-omni-sm-delegate="gbl_river_image,1">
-						<a href="https://techcrunch.com/2016/07/07/art-mecanique-kickstarts-a-mechanical-watch-with-a-few-high-tech-trimmings/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Art Mécanique kickstarts a mechanical watch with a few high-tech&nbsp;trimmings" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/ff97b5e32f6a48ead938e1c242f5d87d_original.png?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+						<a href="https://techcrunch.com/2016/07/13/pokemon-go-will-soon-get-ads-in-the-form-of-sponsored-locations/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Pokémon Go will soon get ads in the form of sponsored&nbsp;locations" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/pokemongo-bulbasaur.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
 				</span>
 			
-							<span class="contributed">Crunch Network</span>
 			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/art-mecanique-kickstarts-a-mechanical-watch-with-a-few-high-tech-trimmings/" data-omni-sm="gbl_river_headline,1">Art Mécanique kickstarts a mechanical watch with a few high-tech&nbsp;trimmings</a></h2>
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/pokemon-go-will-soon-get-ads-in-the-form-of-sponsored-locations/" data-omni-sm="gbl_river_headline,1">Pokémon Go will soon get ads in the form of sponsored&nbsp;locations</a></h2>
 			<div class="byline">
-				<time datetime="2016-07-07 12:27:56" class="timestamp">
-					56 seconds ago				</time>
+				<time datetime="2016-07-13 02:30:05" class="timestamp">
+					1 hour ago				</time>
 				 
-					by <a href="/author/john-biggs/" title="Posts by John Biggs" onclick="s_objectID='river_author';" rel="author">John Biggs</a>							</div>
+					by <a href="/author/lucia-maffei/" title="Posts by Lucia Maffei" onclick="s_objectID='river_author';" rel="author">Lucia Maffei</a>							</div>
 
 			
-			<p class="excerpt">There is, to be sure, nothing new under the horological sun. However, by putting all of the old pieces together in new ways you end up with a watch that is both interesting and unique.
-Art Mécanique is a Swiss company that is crowdfunding a watch with a face made of concentric circles. The bottom half of the face is covered by a metal plate and you tell the time by looking at the top of&hellip; <a href="https://techcrunch.com/2016/07/07/art-mecanique-kickstarts-a-mechanical-watch-with-a-few-high-tech-trimmings/" class="read-more" data-omni-sm="gbl_river_readmore,1">Read&nbsp;More</a></p>
+			<p class="excerpt">After having become one of the most viral mobile applications of all time, Pokémon Go will soon include advertising, according to its developer.
+In an interview with the Financial Times, Niantic CEO John Hanke said that &#8220;sponsored locations&#8221; would provide a new revenue stream, in addition to in-app purchases of power-ups and virtual items. In other words, retailers and&hellip; <a href="https://techcrunch.com/2016/07/13/pokemon-go-will-soon-get-ads-in-the-form-of-sponsored-locations/" class="read-more" data-omni-sm="gbl_river_readmore,1">Read&nbsp;More</a></p>
 						<div class="social-cluster">
 				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/art-mecanique-kickstarts-a-mechanical-watch-with-a-few-high-tech-trimmings/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/art-mecanique-kickstarts-a-mechanical-watch-with-a-few-high-tech-trimmings/"></fb:comments-count></span></a></li>
+												<li><a href="https://techcrunch.com/2016/07/13/pokemon-go-will-soon-get-ads-in-the-form-of-sponsored-locations/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/pokemon-go-will-soon-get-ads-in-the-form-of-sponsored-locations/"></fb:comments-count></span></a></li>
 										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
 					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
 					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
@@ -553,56 +551,62 @@ Art Mécanique is a Swiss company that is crowdfunding a watch with a face made 
 		</div>
 	</div>
 </li>
-<li class="river-block river-block-featured" id="1348376" data-permalink="https://techcrunch.com/2016/07/07/android-full-disk-encryption/" data-shortlink="http://tcrn.ch/29wyOUY" data-shareTitle="Qualcomm says encryption flaw in Android went unpatched for over a&nbsp;year">
-			<a href="https://techcrunch.com/2016/07/07/android-full-disk-encryption/" class="feature-hero" data-omni-sm="gbl_river_image,2"><img data-aspect-ratio="94x53" alt="Qualcomm says encryption flaw in Android went unpatched for over a&nbsp;year" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/android-unlocked.png?w=950&#038;h=530&#038;crop=1" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/1x1.png" width="1" height="1" /></a>
-		<div class="block block-featured">
-		<div class="block-featured-content">
-						 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-			 									<a href="https://techcrunch.com/mobile/" title="Mobile" class="tag"><span>Mobile</span></a>
-							 							 							 							 							 			</div>
-						<div class="block-content">
-				<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/android-full-disk-encryption/" data-omni-sm="gbl_river_headline,2">Qualcomm says encryption flaw in Android went unpatched for over a&nbsp;year</a></h2>
-				<div class="byline">
-					<time datetime="2016-07-07 12:10:17" class="timestamp">18 minutes ago</time> by <a href="/author/kate-conger/" title="Posts by Kate Conger" onclick="s_objectID='river_author';" rel="author">Kate Conger</a>				</div>
-				<p class="excerpt">Cracking encryption is a topic of perpetual fascination. Congress has made several efforts to legislate it. The FBI tried to force Apple to do it. New messaging apps constantly debut with claims about strong encryption, and controversy bubbles when they neglect it. <a href="https://techcrunch.com/2016/07/07/android-full-disk-encryption/" class="read-more" data-omni-sm="gbl_river_readmore,2">Read&nbsp;More</a></p>
-								<div class="social-cluster">
-					<ul class="social-share social-cluster-list">
-													<li><a href="https://techcrunch.com/2016/07/07/android-full-disk-encryption/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/android-full-disk-encryption/"></fb:comments-count></span></a></li>
-												<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
-						<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
-						<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
-						<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="river-block " id="1349350" data-permalink="https://techcrunch.com/2016/07/07/vyclone-hits-the-deadpool/" data-shortlink="http://tcrn.ch/29tNFk5" data-shareTitle="Vyclone hits the&nbsp;deadpool">
+<li class="river-block " id="1352360" data-permalink="https://techcrunch.com/2016/07/13/blockchain-based-banking-backend-vault-os-from-ex-googler-emerges-from-stealth-mode/" data-shortlink="http://tcrn.ch/29YvYLj" data-shareTitle="Blockchain-based banking backend Vault OS from ex-Googler emerges from stealth&nbsp;mode">
 	<div class="block block-thumb ">
 				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/apps/" title="Apps" class="tag"><span>Apps</span></a>
-					 					 					 		</div>
+		 							<a href="https://techcrunch.com/finance-2/" title="Finance" class="tag"><span>Finance</span></a>
+					 					 					 					 					 		</div>
 				<div class="block-content">
-							<span data-omni-sm-delegate="gbl_river_image,3">
-						<a href="https://techcrunch.com/2016/07/07/vyclone-hits-the-deadpool/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Vyclone hits the&nbsp;deadpool" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/smartphone_concert.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+							<span data-omni-sm-delegate="gbl_river_image,2">
+						<a href="https://techcrunch.com/2016/07/13/blockchain-based-banking-backend-vault-os-from-ex-googler-emerges-from-stealth-mode/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Blockchain-based banking backend Vault OS from ex-Googler emerges from stealth&nbsp;mode" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/vaultos_feature.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
 				</span>
 			
 			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/vyclone-hits-the-deadpool/" data-omni-sm="gbl_river_headline,3">Vyclone hits the&nbsp;deadpool</a></h2>
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/blockchain-based-banking-backend-vault-os-from-ex-googler-emerges-from-stealth-mode/" data-omni-sm="gbl_river_headline,2">Blockchain-based banking backend Vault OS from ex-Googler emerges from stealth&nbsp;mode</a></h2>
 			<div class="byline">
-				<time datetime="2016-07-07 11:43:58" class="timestamp">
-					44 minutes ago				</time>
+				<time datetime="2016-07-13 01:15:00" class="timestamp">
+					2 hours ago				</time>
 				 
-					by <a href="/author/lucia-maffei/" title="Posts by Lucia Maffei" onclick="s_objectID='river_author';" rel="author">Lucia Maffei</a>							</div>
+					by <a href="/author/devin-coldewey/" title="Posts by Devin Coldewey" onclick="s_objectID='river_author';" rel="author">Devin Coldewey</a>							</div>
 
 			
-			<p class="excerpt">The end has come for Vyclone, an app that combines videos shot by different participants at the same event. With a message on its website &#8211; and a rather melodramatic introduction &#8211; the company announced today &#8220;with a heavy heart&#8221; that the Vyclone app will be switched off on July 22, 2016.
-
-Launched in 2012, the company aimed to help its users &#8220;make&hellip; <a href="https://techcrunch.com/2016/07/07/vyclone-hits-the-deadpool/" class="read-more" data-omni-sm="gbl_river_readmore,3">Read&nbsp;More</a></p>
+			<p class="excerpt">Despite holding the vast majority of the world&#8217;s wealth (or perhaps because of that), banks aren&#8217;t exactly hotbeds of cutting-edge tech, often relying on decades-old systems for everyday tasks. ThoughtMachine, a company led by ex-Google engineer Paul Taylor, is looking to change that with a modern, fully integrated, blockchain-based banking operating system called Vault OS. <a href="https://techcrunch.com/2016/07/13/blockchain-based-banking-backend-vault-os-from-ex-googler-emerges-from-stealth-mode/" class="read-more" data-omni-sm="gbl_river_readmore,2">Read&nbsp;More</a></p>
 						<div class="social-cluster">
 				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/vyclone-hits-the-deadpool/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/vyclone-hits-the-deadpool/"></fb:comments-count></span></a></li>
+												<li><a href="https://techcrunch.com/2016/07/13/blockchain-based-banking-backend-vault-os-from-ex-googler-emerges-from-stealth-mode/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/blockchain-based-banking-backend-vault-os-from-ex-googler-emerges-from-stealth-mode/"></fb:comments-count></span></a></li>
+										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
+					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
+					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
+					<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
+				</ul>
+			</div>
+			<div id="clear" style="clear:both;"></div>
+		</div>
+	</div>
+</li>
+<li class="river-block " id="1352357" data-permalink="https://techcrunch.com/2016/07/13/non-artificial-intelligence-please/" data-shortlink="http://tcrn.ch/29Ys9G9" data-shareTitle="This AI-powered VC is smarter than your local startup cash&nbsp;dispensary">
+	<div class="block block-thumb ">
+				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
+		 							<a href="https://techcrunch.com/startups/" title="Startups" class="tag"><span>Startups</span></a>
+					 					 					 					 		</div>
+				<div class="block-content">
+							<span data-omni-sm-delegate="gbl_river_image,3">
+						<a href="https://techcrunch.com/2016/07/13/non-artificial-intelligence-please/" class="thumb"><img data-omni-sm="gbl_river_image" alt="This AI-powered VC is smarter than your local startup cash&nbsp;dispensary" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/start-your-pitch-aivc.png?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+				</span>
+			
+			
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/non-artificial-intelligence-please/" data-omni-sm="gbl_river_headline,3">This AI-powered VC is smarter than your local startup cash&nbsp;dispensary</a></h2>
+			<div class="byline">
+				<time datetime="2016-07-13 12:56:37" class="timestamp">
+					2 hours ago				</time>
+				 
+					by <a href="/author/haje-jan-kamps/" title="Posts by Haje Jan Kamps" onclick="s_objectID='river_author';" rel="author">Haje Jan Kamps</a>							</div>
+
+			
+			<p class="excerpt">You don&#8217;t have to sit through a lot of pitches before your will-to-live-o-meter points to &#8220;kill me now.&#8221; Imagine you&#8217;re a VC, sitting through your fifteenth pitch that day &#8212; are you still going to be enthusiastic? Probably not. So what happens if you could instead feed your pitch deck into a chatbot that gives you feedback, suggestions and eventually invests&hellip; <a href="https://techcrunch.com/2016/07/13/non-artificial-intelligence-please/" class="read-more" data-omni-sm="gbl_river_readmore,3">Read&nbsp;More</a></p>
+						<div class="social-cluster">
+				<ul class="social-share social-cluster-list">
+												<li><a href="https://techcrunch.com/2016/07/13/non-artificial-intelligence-please/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/non-artificial-intelligence-please/"></fb:comments-count></span></a></li>
 										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
 					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
 					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
@@ -614,16 +618,16 @@ Launched in 2012, the company aimed to help its users &#8220;make&hellip; <a hre
 	</div>
 </li>
 <div class="river-block-native-ad">
-			<div id="river-native-ad-18b9ebacf0"></div>
+			<div id="river-native-ad-ea26794d2b"></div>
 		<script type='text/javascript'>
 			(function(window){
 				try {
 					window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function() {
 						window.adSetInView('1');
 						if (window.ads.isMobile()) {
-							window.htmlAdWH('93484944', '859', '270', 'text', 'river-native-ad-18b9ebacf0');
+							window.htmlAdWH('93484944', '859', '270', 'text', 'river-native-ad-ea26794d2b');
 						} else {
-							window.htmlAdWH('93484948', '859', '270', 'text', 'river-native-ad-18b9ebacf0');
+							window.htmlAdWH('93484948', '859', '270', 'text', 'river-native-ad-ea26794d2b');
 						}
 						window.adSetInView('0');
 					});
@@ -632,30 +636,31 @@ Launched in 2012, the company aimed to help its users &#8220;make&hellip; <a hre
 				}
 			}(this));
 		</script></div>
-<li class="river-block " id="1349366" data-permalink="https://techcrunch.com/2016/07/07/self-driving-bus-japan/" data-shortlink="http://tcrn.ch/29nS1Gk" data-shareTitle="DeNA brings EasyMile&#8217;s self-driving bus to&nbsp;Japan">
+<li class="river-block " id="1352309" data-permalink="https://techcrunch.com/2016/07/13/endangered-ferrets-are-being-saved-by-drones-that-drop-vaccine-laced-mms/" data-shortlink="http://tcrn.ch/29JJgto" data-shareTitle="Endangered ferrets are being saved by drones that drop vaccine-laced&nbsp;M&amp;Ms">
 	<div class="block block-thumb ">
 				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/artificial-intelligence-2/" title="Artificial Intelligence" class="tag"><span>Artificial Intelligence</span></a>
-					 					 					 		</div>
+		 							<a href="https://techcrunch.com/gadgets/" title="Gadgets" class="tag"><span>Gadgets</span></a>
+					 					 					 					 					 		</div>
 				<div class="block-content">
 							<span data-omni-sm-delegate="gbl_river_image,4">
-						<a href="https://techcrunch.com/2016/07/07/self-driving-bus-japan/" class="thumb"><img data-omni-sm="gbl_river_image" alt="DeNA brings EasyMile&#8217;s self-driving bus to&nbsp;Japan" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/slide-easymile-11-1395x600.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+						<a href="https://techcrunch.com/2016/07/13/endangered-ferrets-are-being-saved-by-drones-that-drop-vaccine-laced-mms/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Endangered ferrets are being saved by drones that drop vaccine-laced&nbsp;M&amp;Ms" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/gettyimages-160529882.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
 				</span>
 			
 			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/self-driving-bus-japan/" data-omni-sm="gbl_river_headline,4">DeNA brings EasyMile&#8217;s self-driving bus to&nbsp;Japan</a></h2>
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/endangered-ferrets-are-being-saved-by-drones-that-drop-vaccine-laced-mms/" data-omni-sm="gbl_river_headline,4">Endangered ferrets are being saved by drones that drop vaccine-laced&nbsp;M&amp;Ms</a></h2>
 			<div class="byline">
-				<time datetime="2016-07-07 11:20:50" class="timestamp">
-					1 hour ago				</time>
+				<time datetime="2016-07-13 12:40:51" class="timestamp">
+					3 hours ago				</time>
 				 
-					by <a href="/author/darrell-etherington/" title="Posts by Darrell Etherington" onclick="s_objectID='river_author';" rel="author">Darrell Etherington</a>							</div>
+					by <a href="/author/fitz-tepper/" title="Posts by Fitz Tepper" onclick="s_objectID='river_author';" rel="author">Fitz Tepper</a>							</div>
 
 			
-			<p class="excerpt">Maybe it&#8217;s just FOMO, but it seems like every internet company wants to be in the car business these days, and Japan&#8217;s DeNA is no exception. The app maker&#8217;s automotive wing had a special event in Tokyo today (via Reuters) to reveal its first self-driving vehicle, a 12-person bus which will begin operating in Japan&#8217;s Chiba prefecture at a shopping center next month.
-DeNA&hellip; <a href="https://techcrunch.com/2016/07/07/self-driving-bus-japan/" class="read-more" data-omni-sm="gbl_river_readmore,4">Read&nbsp;More</a></p>
+			<p class="excerpt">Here&#8217;s your weird but interesting technology story for the day. The U.S. Fish and Wildlife Service (FWS) is using M&amp;M-dispensing drones to save endangered black-footed ferrets in rural Montana.
+The ferret&#8217;s main source of food is prairie dogs, which are being killed by the sylvatic plague, a disease spread by rats and fleas that has existed since the 1800s.
+To date&hellip; <a href="https://techcrunch.com/2016/07/13/endangered-ferrets-are-being-saved-by-drones-that-drop-vaccine-laced-mms/" class="read-more" data-omni-sm="gbl_river_readmore,4">Read&nbsp;More</a></p>
 						<div class="social-cluster">
 				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/self-driving-bus-japan/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/self-driving-bus-japan/"></fb:comments-count></span></a></li>
+												<li><a href="https://techcrunch.com/2016/07/13/endangered-ferrets-are-being-saved-by-drones-that-drop-vaccine-laced-mms/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/endangered-ferrets-are-being-saved-by-drones-that-drop-vaccine-laced-mms/"></fb:comments-count></span></a></li>
 										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
 					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
 					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
@@ -666,40 +671,63 @@ DeNA&hellip; <a href="https://techcrunch.com/2016/07/07/self-driving-bus-japan/"
 		</div>
 	</div>
 </li>
-<li class="river-block" id="1349348">
-	<div class="block block-thumb">
-		<div class="block-content-brief">
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/microsoft-now-helps-businesses-use-the-data-that-powers-bing-predicts/" data-omni-sm="gbl_river_headline,5">Microsoft now helps businesses use the data that powers Bing&nbsp;Predicts</a></h2>
+<li class="river-block " id="1352324" data-permalink="https://techcrunch.com/2016/07/13/farmigo-shuts-down-its-online-farmers-market/" data-shortlink="http://tcrn.ch/29OIdJa" data-shareTitle="Farmigo shuts down its online farmer&#8217;s&nbsp;market">
+	<div class="block block-thumb ">
+				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
+		 							<a href="https://techcrunch.com/ecommerce/" title="eCommerce" class="tag"><span>eCommerce</span></a>
+					 					 					 					 					 		</div>
+				<div class="block-content">
+							<span data-omni-sm-delegate="gbl_river_image,5">
+						<a href="https://techcrunch.com/2016/07/13/farmigo-shuts-down-its-online-farmers-market/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Farmigo shuts down its online farmer&#8217;s&nbsp;market" data-src="https://tctechcrunch2011.files.wordpress.com/2014/12/bib_farmigo_kitchen.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+				</span>
+			
+			
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/farmigo-shuts-down-its-online-farmers-market/" data-omni-sm="gbl_river_headline,5">Farmigo shuts down its online farmer&#8217;s&nbsp;market</a></h2>
 			<div class="byline">
-				<time datetime="2016-07-07 11:00:08" class="timestamp">1 hour ago</time> by <a href="/author/frederic-lardinois/" title="Posts by Frederic Lardinois" onclick="s_objectID='river_author';" rel="author">Frederic Lardinois</a>			</div>
+				<time datetime="2016-07-13 12:34:10" class="timestamp">
+					3 hours ago				</time>
+				 
+					by <a href="/author/sarah-perez/" title="Posts by Sarah Perez" onclick="s_objectID='river_author';" rel="author">Sarah Perez</a>							</div>
+
+			
+			<p class="excerpt">Farmigo, an online farmer&#8217;s market that allowed consumers to shop for locally grown food via the web, then pick up those orders at nearby locations, says it will now be shutting down its delivery service. According to an announcement penned by Farmigo founder and CEO Benzi Ronen on the startup&#8217;s homepage, the company can no longer continue its community delivery operations&hellip; <a href="https://techcrunch.com/2016/07/13/farmigo-shuts-down-its-online-farmers-market/" class="read-more" data-omni-sm="gbl_river_readmore,5">Read&nbsp;More</a></p>
+						<div class="social-cluster">
+				<ul class="social-share social-cluster-list">
+												<li><a href="https://techcrunch.com/2016/07/13/farmigo-shuts-down-its-online-farmers-market/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/farmigo-shuts-down-its-online-farmers-market/"></fb:comments-count></span></a></li>
+										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
+					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
+					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
+					<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
+				</ul>
+			</div>
+			<div id="clear" style="clear:both;"></div>
 		</div>
 	</div>
 </li>
-<li class="river-block " id="1349347" data-permalink="https://techcrunch.com/2016/07/07/drupe-reimagines-the-address-book-with-3-million-in-funding/" data-shortlink="http://tcrn.ch/29nJX8S" data-shareTitle="Drupe reimagines the address book with $3 million in&nbsp;funding">
+<li class="river-block " id="1352344" data-permalink="https://techcrunch.com/2016/07/13/bionic-knee-brace/" data-shortlink="http://tcrn.ch/29OHbN5" data-shareTitle="The Canadian Army is testing out bionic knee&nbsp;braces">
 	<div class="block block-thumb ">
 				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/apps/" title="Apps" class="tag"><span>Apps</span></a>
+		 							<a href="https://techcrunch.com/hardware/" title="Hardware" class="tag"><span>Hardware</span></a>
 					 					 					 					 		</div>
 				<div class="block-content">
 							<span data-omni-sm-delegate="gbl_river_image,6">
-						<a href="https://techcrunch.com/2016/07/07/drupe-reimagines-the-address-book-with-3-million-in-funding/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Drupe reimagines the address book with $3 million in&nbsp;funding" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/drupe04.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+						<a href="https://techcrunch.com/2016/07/13/bionic-knee-brace/" class="thumb"><img data-omni-sm="gbl_river_image" alt="The Canadian Army is testing out bionic knee&nbsp;braces" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/unnamed-11.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
 				</span>
 			
 			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/drupe-reimagines-the-address-book-with-3-million-in-funding/" data-omni-sm="gbl_river_headline,6">Drupe reimagines the address book with $3 million in&nbsp;funding</a></h2>
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/bionic-knee-brace/" data-omni-sm="gbl_river_headline,6">The Canadian Army is testing out bionic knee&nbsp;braces</a></h2>
 			<div class="byline">
-				<time datetime="2016-07-07 10:34:57" class="timestamp">
-					1 hour ago				</time>
+				<time datetime="2016-07-13 12:26:12" class="timestamp">
+					3 hours ago				</time>
 				 
-					by <a href="/author/jordan-crook/" title="Posts by Jordan Crook" onclick="s_objectID='river_author';" rel="author">Jordan Crook</a>							</div>
+					by <a href="/author/brian-heater/" title="Posts by Brian Heater" onclick="s_objectID='river_author';" rel="author">Brian Heater</a>							</div>
 
 			
-			<p class="excerpt">The mobile phone has transformed quite a bit in the last ten years, but the heart of it &#8212; the address book &#8212; hasn&#8217;t changed much.
-Drupe, with brand new funding, is looking to accelerate the evolution of the Phone Book.
-The company today announced $3 million in new funding from Canaan Partners Israel and Sweet Capital, a fund that was spun up by the founders of Candy Crush&hellip; <a href="https://techcrunch.com/2016/07/07/drupe-reimagines-the-address-book-with-3-million-in-funding/" class="read-more" data-omni-sm="gbl_river_readmore,6">Read&nbsp;More</a></p>
+			<p class="excerpt">Halifax-based Spring Loaded Technology announced today that it has delivered the first 60 in of a planned 190 bionic knee braces to the Canadian Army, part of a $1 million (CAD) contract awarded to the company.
+The UpShots are the military grade version of the company&#8217;s assistive wearable, which utilizes liquid spring technology, promising lift output similar to those provided by the&hellip; <a href="https://techcrunch.com/2016/07/13/bionic-knee-brace/" class="read-more" data-omni-sm="gbl_river_readmore,6">Read&nbsp;More</a></p>
 						<div class="social-cluster">
 				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/drupe-reimagines-the-address-book-with-3-million-in-funding/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/drupe-reimagines-the-address-book-with-3-million-in-funding/"></fb:comments-count></span></a></li>
+												<li><a href="https://techcrunch.com/2016/07/13/bionic-knee-brace/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/bionic-knee-brace/"></fb:comments-count></span></a></li>
 										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
 					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
 					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
@@ -710,30 +738,35 @@ The company today announced $3 million in new funding from Canaan Partners Israe
 		</div>
 	</div>
 </li>
-<li class="river-block " id="1348200" data-permalink="https://techcrunch.com/2016/07/07/apple-just-released-the-first-ios-10-beta-to-everyone/" data-shortlink="http://tcrn.ch/29rdJ0a" data-shareTitle="Apple just released the first iOS 10 beta to&nbsp;everyone">
+<li class="river-block " id="1352187" data-permalink="https://techcrunch.com/gallery/a-look-inside-facebooks-data-center/" data-shortlink="http://tcrn.ch/29YnFPK" data-shareTitle="A look inside Facebook&#8217;s data&nbsp;center">
 	<div class="block block-thumb ">
 				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/apps/" title="Apps" class="tag"><span>Apps</span></a>
-					 					 					 					 		</div>
+		 					 					 					 					 					 		</div>
 				<div class="block-content">
 							<span data-omni-sm-delegate="gbl_river_image,7">
-						<a href="https://techcrunch.com/2016/07/07/apple-just-released-the-first-ios-10-beta-to-everyone/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Apple just released the first iOS 10 beta to&nbsp;everyone" data-src="https://tctechcrunch2011.files.wordpress.com/2016/06/0195.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+					<a href="https://techcrunch.com/gallery/a-look-inside-facebooks-data-center/" class="thumb">
+	<div class="feature-gallery">
+		<img data-omni-sm="gbl_river_image" alt="A look inside Facebook&#8217;s data&nbsp;center" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/fb_data_center_tour-20.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" />		<div class="gallery-view-banner" style="display: none;">
+			<span class="icon-gallery-view"><i></i></span>
+			<span class="gallery-view-callout">View Gallery</span>
+		</div>
+	</div>
+</a>
 				</span>
 			
 			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/apple-just-released-the-first-ios-10-beta-to-everyone/" data-omni-sm="gbl_river_headline,7">Apple just released the first iOS 10 beta to&nbsp;everyone</a></h2>
+			<h2 class="post-title"><a href="https://techcrunch.com/gallery/a-look-inside-facebooks-data-center/" data-omni-sm="gbl_river_headline,7">A look inside Facebook&#8217;s data&nbsp;center</a></h2>
 			<div class="byline">
-				<time datetime="2016-07-07 10:18:51" class="timestamp">
-					2 hours ago				</time>
+				<time datetime="2016-07-13 12:25:47" class="timestamp">
+					3 hours ago				</time>
 				 
-					by <a href="/author/romain-dillet/" title="Posts by Romain Dillet" onclick="s_objectID='river_author';" rel="author">Romain Dillet</a>							</div>
+					by <a href="/author/frederic-lardinois/" title="Posts by Frederic Lardinois" onclick="s_objectID='river_author';" rel="author">Frederic Lardinois</a>							</div>
 
 			
-			<p class="excerpt">It&#8217;s here. The first public beta of iOS 10 is now available to download. You can download it, even your neighbor can download it. And the good news is that you won&#8217;t have to pay $99 a year for a developer account. But remember, this is a beta.
-If you can&#8217;t wait to see iOS 10 in action, Apple&#8217;s public beta program is for you. The company wants you to try out its new&hellip; <a href="https://techcrunch.com/2016/07/07/apple-just-released-the-first-ios-10-beta-to-everyone/" class="read-more" data-omni-sm="gbl_river_readmore,7">Read&nbsp;More</a></p>
+			<p class="excerpt">Facebook invited a small group of reporters to its Prineville, OR data center this week. Most companies don&#8217;t even give their own employees access to their data centers (outside of the relatively small group of people it takes to keep the millions of servers inside up and running), but because Facebook open sources most of its server and networking designs, it&#8217;s a bit more open&hellip; <a href="https://techcrunch.com/gallery/a-look-inside-facebooks-data-center/" class="read-more" data-omni-sm="gbl_river_readmore,7">Read&nbsp;More</a></p>
 						<div class="social-cluster">
 				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/apple-just-released-the-first-ios-10-beta-to-everyone/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/apple-just-released-the-first-ios-10-beta-to-everyone/"></fb:comments-count></span></a></li>
+												<li><a href="https://techcrunch.com/gallery/a-look-inside-facebooks-data-center/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/gallery/a-look-inside-facebooks-data-center/"></fb:comments-count></span></a></li>
 										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
 					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
 					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
@@ -769,13 +802,78 @@ If you can&#8217;t wait to see iOS 10 in action, Apple&#8217;s public beta progr
 													<li>
 								<div class="gi">
 									<div class="block-video">
-										<a href="https://techcrunch.com/video/snapchat-memories-update-crunch-report/577d9226869ea940ad3777b0/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
+										<a href="https://techcrunch.com/video/hyperloop-one-founders-lawsuit-crunch-report/57856c94869ea946e40f0a75/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
+											<img alt="Hyperloop One Founders Lawsuit | Crunch Report" data-src="https://img.vidible.tv/prod/2016-07/12/57856c94869ea946e40f0a75_1280x720_U_v1_220_162.jpg" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/220x164.png" width="220" height="164" />											<div class="play-banner">
+												<span class="icon-video-play"></span>
+												<span class="play-callout">Play Video</span>
+											</div>
+										</a>
+										<a href="https://techcrunch.com/video/hyperloop-one-founders-lawsuit-crunch-report/57856c94869ea946e40f0a75/" class="text-btn video-caption">Hyperloop One Founders Lawsuit | Crunch Report</a>
+																			</div>
+								</div>
+							</li>
+													<li>
+								<div class="gi">
+									<div class="block-video">
+										<a href="https://techcrunch.com/video/pokemon-go-what-you-need-to-know/57856b9f44c8a36f9e616335/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
+											<img alt="Pokemon Go what you need to know" data-src="https://img.vidible.tv/prod/2016-07/13/57856b9f44c8a36f9e616335_1280x720_U_v3_220_162.jpg" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/220x164.png" width="220" height="164" />											<div class="play-banner">
+												<span class="icon-video-play"></span>
+												<span class="play-callout">Play Video</span>
+											</div>
+										</a>
+										<a href="https://techcrunch.com/video/pokemon-go-what-you-need-to-know/57856b9f44c8a36f9e616335/" class="text-btn video-caption">Pokemon Go what you need to know</a>
+																			</div>
+								</div>
+							</li>
+													<li>
+								<div class="gi">
+									<div class="block-video">
+										<a href="https://techcrunch.com/video/pokemon-go-mania-crunch-report/57841fc8869ea946e40f076d/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
+											<img alt="Pokémon GO Mania | Crunch Report" data-src="https://img.vidible.tv/prod/2016-07/11/57841fc8869ea946e40f076d_1280x720_U_v1_220_162.jpg" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/220x164.png" width="220" height="164" />											<div class="play-banner">
+												<span class="icon-video-play"></span>
+												<span class="play-callout">Play Video</span>
+											</div>
+										</a>
+										<a href="https://techcrunch.com/video/pokemon-go-mania-crunch-report/57841fc8869ea946e40f076d/" class="text-btn video-caption">Pokémon GO Mania | Crunch Report</a>
+																			</div>
+								</div>
+							</li>
+													<li>
+								<div class="gi">
+									<div class="block-video">
+										<a href="https://techcrunch.com/video/theranos-ceo-gets-banned-crunch-report/57803958869ea9572f647360/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
+											<img alt="Theranos CEO Gets Banned | Crunch Report" data-src="https://img.vidible.tv/prod/2016-07/08/57803958869ea9572f647360_1280x720_U_v1_220_162.jpg" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/220x164.png" width="220" height="164" />											<div class="play-banner">
+												<span class="icon-video-play"></span>
+												<span class="play-callout">Play Video</span>
+											</div>
+										</a>
+										<a href="https://techcrunch.com/video/theranos-ceo-gets-banned-crunch-report/57803958869ea9572f647360/" class="text-btn video-caption">Theranos CEO Gets Banned | Crunch Report</a>
+																			</div>
+								</div>
+							</li>
+													<li>
+								<div class="gi">
+									<div class="block-video">
+										<a href="https://techcrunch.com/video/microsoft-coo-leaving-company-crunch-report/577ee3a8869ea9572f646fa3/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
+											<img alt="Microsoft COO Leaving Company | Crunch Report" data-src="https://img.vidible.tv/prod/2016-07/07/577ee3a8869ea9572f646fa3_1280x720_U_v1_220_162.jpg" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/220x164.png" width="220" height="164" />											<div class="play-banner">
+												<span class="icon-video-play"></span>
+												<span class="play-callout">Play Video</span>
+											</div>
+										</a>
+										<a href="https://techcrunch.com/video/microsoft-coo-leaving-company-crunch-report/577ee3a8869ea9572f646fa3/" class="text-btn video-caption">Microsoft COO Leaving Company | Crunch Report</a>
+																			</div>
+								</div>
+							</li>
+													<li>
+								<div class="gi">
+									<div class="block-video">
+										<a href="https://techcrunch.com/video/snapchat-memories-update-crunch-report-2/577d9226869ea940ad3777b0/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
 											<img alt="Snapchat Memories Update | Crunch Report" data-src="https://img.vidible.tv/prod/2016-07/06/577d9226869ea940ad3777b0_1280x720_U_v1_220_162.jpg" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/220x164.png" width="220" height="164" />											<div class="play-banner">
 												<span class="icon-video-play"></span>
 												<span class="play-callout">Play Video</span>
 											</div>
 										</a>
-										<a href="https://techcrunch.com/video/snapchat-memories-update-crunch-report/577d9226869ea940ad3777b0/" class="text-btn video-caption">Snapchat Memories Update | Crunch Report</a>
+										<a href="https://techcrunch.com/video/snapchat-memories-update-crunch-report-2/577d9226869ea940ad3777b0/" class="text-btn video-caption">Snapchat Memories Update | Crunch Report</a>
 																			</div>
 								</div>
 							</li>
@@ -828,6 +926,19 @@ If you can&#8217;t wait to see iOS 10 in action, Apple&#8217;s public beta progr
 											</div>
 										</a>
 										<a href="https://techcrunch.com/video/blokrok-roll-on-sunscreen-cap-summer-of-doug/577a9ae5869ea923344a66b7/" class="text-btn video-caption">BlokRok Roll-on Sunscreen Cap | Summer of Doug</a>
+																			</div>
+								</div>
+							</li>
+													<li>
+								<div class="gi">
+									<div class="block-video">
+										<a href="https://techcrunch.com/video/mini-robotic-printer-by-zuta-labs/5776fedf869ea923344a6108/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
+											<img alt="Mini robotic printer by Zuta Labs" data-src="https://img.vidible.tv/prod/2016-07/01/5776fedf869ea923344a6108_1280x720_U_v1_220_162.jpg" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/220x164.png" width="220" height="164" />											<div class="play-banner">
+												<span class="icon-video-play"></span>
+												<span class="play-callout">Play Video</span>
+											</div>
+										</a>
+										<a href="https://techcrunch.com/video/mini-robotic-printer-by-zuta-labs/5776fedf869ea923344a6108/" class="text-btn video-caption">Mini robotic printer by Zuta Labs</a>
 																			</div>
 								</div>
 							</li>
@@ -935,84 +1046,6 @@ If you can&#8217;t wait to see iOS 10 in action, Apple&#8217;s public beta progr
 																			</div>
 								</div>
 							</li>
-													<li>
-								<div class="gi">
-									<div class="block-video">
-										<a href="https://techcrunch.com/video/ibm-skylink-connects-drones-to-the-ibm-cloud-in-real-time/57727f125095493da6cdaa7c/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
-											<img alt="IBM Skylink connects drones to the IBM Cloud in real time" data-src="https://img.vidible.tv/prod/2016-06/29/57727f125095493da6cdaa7c_1280x720_U_v1_220_162.jpg" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/220x164.png" width="220" height="164" />											<div class="play-banner">
-												<span class="icon-video-play"></span>
-												<span class="play-callout">Play Video</span>
-											</div>
-										</a>
-										<a href="https://techcrunch.com/video/ibm-skylink-connects-drones-to-the-ibm-cloud-in-real-time/57727f125095493da6cdaa7c/" class="text-btn video-caption">IBM Skylink connects drones to the IBM Cloud in real time</a>
-																			</div>
-								</div>
-							</li>
-													<li>
-								<div class="gi">
-									<div class="block-video">
-										<a href="https://techcrunch.com/video/google-announces-new-educational-tools-crunch-report/5771afcf5095493da6cda7e1/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
-											<img alt="Google Announces New Educational Tools | Crunch Report" data-src="https://img.vidible.tv/prod/2016-06/28/5771afcf5095493da6cda7e1_o_U_v2_220_162.jpg" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/220x164.png" width="220" height="164" />											<div class="play-banner">
-												<span class="icon-video-play"></span>
-												<span class="play-callout">Play Video</span>
-											</div>
-										</a>
-										<a href="https://techcrunch.com/video/google-announces-new-educational-tools-crunch-report/5771afcf5095493da6cda7e1/" class="text-btn video-caption">Google Announces New Educational Tools | Crunch Report</a>
-																			</div>
-								</div>
-							</li>
-													<li>
-								<div class="gi">
-									<div class="block-video">
-										<a href="https://techcrunch.com/video/hover-camera-the-ultimate-selfie-camera/5770ea7576a60522486f1abe/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
-											<img alt="Hover Camera is a drone for selfies" data-src="https://img.vidible.tv/prod/2016-06/27/5770ea7576a60522486f1abe_1280x720_U_v2_220_162.jpg" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/220x164.png" width="220" height="164" />											<div class="play-banner">
-												<span class="icon-video-play"></span>
-												<span class="play-callout">Play Video</span>
-											</div>
-										</a>
-										<a href="https://techcrunch.com/video/hover-camera-the-ultimate-selfie-camera/5770ea7576a60522486f1abe/" class="text-btn video-caption">Hover Camera is a drone for selfies</a>
-																			</div>
-								</div>
-							</li>
-													<li>
-								<div class="gi">
-									<div class="block-video">
-										<a href="https://techcrunch.com/video/cozmo-is-ankis-new-tiny-toy-robot/577039d444c8a3614a76e10c/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
-											<img alt="Cozmo is Anki&#039;s new tiny toy robot" data-src="https://img.vidible.tv/prod/2016-06/26/577039d444c8a3614a76e10c_1280x720_U_v1_220_162.jpg" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/220x164.png" width="220" height="164" />											<div class="play-banner">
-												<span class="icon-video-play"></span>
-												<span class="play-callout">Play Video</span>
-											</div>
-										</a>
-										<a href="https://techcrunch.com/video/cozmo-is-ankis-new-tiny-toy-robot/577039d444c8a3614a76e10c/" class="text-btn video-caption">Cozmo is Anki&#039;s new tiny toy robot</a>
-																			</div>
-								</div>
-							</li>
-													<li>
-								<div class="gi">
-									<div class="block-video">
-										<a href="https://techcrunch.com/video/brexit-hits-financial-markets-crunch-report/576db6715095493da6cda0cb/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
-											<img alt="Brexit Hits Financial Markets | Crunch Report" data-src="https://img.vidible.tv/prod/2016-06/25/576db6715095493da6cda0cb_1280x720_U_v2_220_162.jpg" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/220x164.png" width="220" height="164" />											<div class="play-banner">
-												<span class="icon-video-play"></span>
-												<span class="play-callout">Play Video</span>
-											</div>
-										</a>
-										<a href="https://techcrunch.com/video/brexit-hits-financial-markets-crunch-report/576db6715095493da6cda0cb/" class="text-btn video-caption">Brexit Hits Financial Markets | Crunch Report</a>
-																			</div>
-								</div>
-							</li>
-													<li>
-								<div class="gi">
-									<div class="block-video">
-										<a href="https://techcrunch.com/video/twilio-goes-public-crunch-report/576c6bade4b055311fcf2088/" data-ga-event="click" data-ga-event-category="Video Promo Carousel" data-ga-event-action="click video">
-											<img alt="Twilio Goes Public | Crunch Report" data-src="https://img.vidible.tv/prod/2016-06/25/576c6bade4b055311fcf2088_1280x720_U_v2_220_162.jpg" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/220x164.png" width="220" height="164" />											<div class="play-banner">
-												<span class="icon-video-play"></span>
-												<span class="play-callout">Play Video</span>
-											</div>
-										</a>
-										<a href="https://techcrunch.com/video/twilio-goes-public-crunch-report/576c6bade4b055311fcf2088/" class="text-btn video-caption">Twilio Goes Public | Crunch Report</a>
-																			</div>
-								</div>
-							</li>
 											</ul>
 				</div>
 
@@ -1020,29 +1053,29 @@ If you can&#8217;t wait to see iOS 10 in action, Apple&#8217;s public beta progr
 		</div>
 	</section>
 </div>
-		<li class="river-block " id="1348619" data-permalink="https://techcrunch.com/2016/07/07/zolt-blocks-news-you-hate/" data-shortlink="http://tcrn.ch/29vZd54" data-shareTitle="Zolt launches Shush to further deepen your echo&nbsp;chamber">
+		<li class="river-block " id="1352334" data-permalink="https://techcrunch.com/2016/07/13/sharegrid/" data-shortlink="http://tcrn.ch/29CzANO" data-shareTitle="Getaround for camera gear ShareGrid raises&nbsp;$1M">
 	<div class="block block-thumb ">
 				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/apps/" title="Apps" class="tag"><span>Apps</span></a>
-					 					 					 		</div>
+		 							<a href="https://techcrunch.com/ecommerce/" title="eCommerce" class="tag"><span>eCommerce</span></a>
+					 					 					 					 					 		</div>
 				<div class="block-content">
 							<span data-omni-sm-delegate="gbl_river_image,8">
-						<a href="https://techcrunch.com/2016/07/07/zolt-blocks-news-you-hate/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Zolt launches Shush to further deepen your echo&nbsp;chamber" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/zolt-shush.png?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+						<a href="https://techcrunch.com/2016/07/13/sharegrid/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Getaround for camera gear ShareGrid raises&nbsp;$1M" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/sendgrid-hero-image.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
 				</span>
 			
 			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/zolt-blocks-news-you-hate/" data-omni-sm="gbl_river_headline,8">Zolt launches Shush to further deepen your echo&nbsp;chamber</a></h2>
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/sharegrid/" data-omni-sm="gbl_river_headline,8">Getaround for camera gear ShareGrid raises&nbsp;$1M</a></h2>
 			<div class="byline">
-				<time datetime="2016-07-07 10:01:12" class="timestamp">
-					2 hours ago				</time>
+				<time datetime="2016-07-13 12:11:11" class="timestamp">
+					3 hours ago				</time>
 				 
 					by <a href="/author/haje-jan-kamps/" title="Posts by Haje Jan Kamps" onclick="s_objectID='river_author';" rel="author">Haje Jan Kamps</a>							</div>
 
 			
-			<p class="excerpt">Does your Facebook stream seem to mostly be reflecting your own opinions back to you from your friends? If so, you&#8217;ve seen the Echo Chamber in action. If you&#8217;re using Zolt as your news app, with an easy click its newest feature enables you to block Donald Trump, Hillary Clinton, Kim Kardashian and select other topics that might rub you the wrong way. <a href="https://techcrunch.com/2016/07/07/zolt-blocks-news-you-hate/" class="read-more" data-omni-sm="gbl_river_readmore,8">Read&nbsp;More</a></p>
+			<p class="excerpt">Even if you&#8217;re an active photo or video creative, chances are that your gear will be gathering dust on a shelf at least part of the time. At the same time, other photographers and filmmakers are in need of equipment. If that sounds like a business opportunity, ShareGrid is way ahead of you, raising $1 million from Archer Gray and MHS Capital to grow beyond its test markets and open&hellip; <a href="https://techcrunch.com/2016/07/13/sharegrid/" class="read-more" data-omni-sm="gbl_river_readmore,8">Read&nbsp;More</a></p>
 						<div class="social-cluster">
 				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/zolt-blocks-news-you-hate/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/zolt-blocks-news-you-hate/"></fb:comments-count></span></a></li>
+												<li><a href="https://techcrunch.com/2016/07/13/sharegrid/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/sharegrid/"></fb:comments-count></span></a></li>
 										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
 					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
 					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
@@ -1053,29 +1086,30 @@ If you can&#8217;t wait to see iOS 10 in action, Apple&#8217;s public beta progr
 		</div>
 	</div>
 </li>
-<li class="river-block " id="1348885" data-permalink="https://techcrunch.com/2016/07/07/yahoo-news-finance-weather-bot/" data-shortlink="http://tcrn.ch/29kYIs4" data-shareTitle="Messenger now has virtual monkeys, courtesy of&nbsp;Yahoo">
+<li class="river-block crunch-network" id="1351603" data-permalink="https://techcrunch.com/2016/07/13/the-future-of-car-ownership-that-no-one-is-talking-about/" data-shortlink="http://tcrn.ch/29EZKlW" data-shareTitle="The future of car ownership that no one is talking&nbsp;about">
 	<div class="block block-thumb ">
 				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/social/" title="Social" class="tag"><span>Social</span></a>
-					 					 					 					 					 		</div>
+		 							<a href="https://techcrunch.com/automotive/" title="Automotive" class="tag"><span>Automotive</span></a>
+					 					 					 					 		</div>
 				<div class="block-content">
 							<span data-omni-sm-delegate="gbl_river_image,9">
-						<a href="https://techcrunch.com/2016/07/07/yahoo-news-finance-weather-bot/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Messenger now has virtual monkeys, courtesy of&nbsp;Yahoo" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/yahoo-monkeypet.png?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+						<a href="https://techcrunch.com/2016/07/13/the-future-of-car-ownership-that-no-one-is-talking-about/" class="thumb"><img data-omni-sm="gbl_river_image" alt="The future of car ownership that no one is talking&nbsp;about" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/carsale.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
 				</span>
 			
+							<span class="contributed">Crunch Network</span>
 			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/yahoo-news-finance-weather-bot/" data-omni-sm="gbl_river_headline,9">Messenger now has virtual monkeys, courtesy of&nbsp;Yahoo</a></h2>
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/the-future-of-car-ownership-that-no-one-is-talking-about/" data-omni-sm="gbl_river_headline,9">The future of car ownership that no one is talking&nbsp;about</a></h2>
 			<div class="byline">
-				<time datetime="2016-07-07 10:00:49" class="timestamp">
-					2 hours ago				</time>
+				<time datetime="2016-07-13 12:00:55" class="timestamp">
+					3 hours ago				</time>
 				 
-					by <a href="/author/haje-jan-kamps/" title="Posts by Haje Jan Kamps" onclick="s_objectID='river_author';" rel="author">Haje Jan Kamps</a>							</div>
+					by <a href="/contributor/ned-ryan/" title="Posts by Ned Ryan" onclick="s_objectID='river_author';" rel="author">Ned Ryan</a>							</div>
 
 			
-			<p class="excerpt">What&#8217;s a poor beleaguered brand like Yahoo to do? Use its smart engineers to jump on the hottest trend, of course. Today the company is launching a bot that simulates a pet monkey for Facebook Messenger. Oh, and a few slightly more useful bots, too, like ones that will tell you about the weather, latest news and how your stock portfolio is performing. <a href="https://techcrunch.com/2016/07/07/yahoo-news-finance-weather-bot/" class="read-more" data-omni-sm="gbl_river_readmore,9">Read&nbsp;More</a></p>
+			<p class="excerpt">It has never been more clear that transformational change to one of the world&#8217;s largest industries is just around the corner. Car ownership is supposed to change &#8212; and when it does, it is predicted to be one of the most monumental displacements of wealth the world economy has ever seen. But there are a lot of conflicting opinions out there. What is unequivocal is that there&#8217;s&hellip; <a href="https://techcrunch.com/2016/07/13/the-future-of-car-ownership-that-no-one-is-talking-about/" class="read-more" data-omni-sm="gbl_river_readmore,9">Read&nbsp;More</a></p>
 						<div class="social-cluster">
 				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/yahoo-news-finance-weather-bot/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/yahoo-news-finance-weather-bot/"></fb:comments-count></span></a></li>
+												<li><a href="https://techcrunch.com/2016/07/13/the-future-of-car-ownership-that-no-one-is-talking-about/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/the-future-of-car-ownership-that-no-one-is-talking-about/"></fb:comments-count></span></a></li>
 										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
 					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
 					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
@@ -1086,30 +1120,30 @@ If you can&#8217;t wait to see iOS 10 in action, Apple&#8217;s public beta progr
 		</div>
 	</div>
 </li>
-<li class="river-block " id="1349337" data-permalink="https://techcrunch.com/2016/07/07/amazon-echo-users-can-finally-choose-spotify-or-pandora-as-default-music-service/" data-shortlink="http://tcrn.ch/29xrOsn" data-shareTitle="Amazon Echo users can finally choose Spotify or Pandora as default music&nbsp;service">
+<li class="river-block " id="1352212" data-permalink="https://techcrunch.com/2016/07/13/linux-users-can-now-make-skype-calls-from-the-web-in-chrome/" data-shortlink="http://tcrn.ch/29Jq3bd" data-shareTitle="Linux users can now make Skype calls from the web in&nbsp;Chrome">
 	<div class="block block-thumb ">
 				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/entertainment-2/" title="Entertainment" class="tag"><span>Entertainment</span></a>
-					 					 					 					 					 		</div>
+		 							<a href="https://techcrunch.com/advertising-tech/" title="Advertising Tech" class="tag"><span>Advertising Tech</span></a>
+					 					 					 					 		</div>
 				<div class="block-content">
 							<span data-omni-sm-delegate="gbl_river_image,10">
-						<a href="https://techcrunch.com/2016/07/07/amazon-echo-users-can-finally-choose-spotify-or-pandora-as-default-music-service/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Amazon Echo users can finally choose Spotify or Pandora as default music&nbsp;service" data-src="https://tctechcrunch2011.files.wordpress.com/2015/06/amazon-echo.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+						<a href="https://techcrunch.com/2016/07/13/linux-users-can-now-make-skype-calls-from-the-web-in-chrome/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Linux users can now make Skype calls from the web in&nbsp;Chrome" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/skypeforlinuxalpha.png?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
 				</span>
 			
 			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/amazon-echo-users-can-finally-choose-spotify-or-pandora-as-default-music-service/" data-omni-sm="gbl_river_headline,10">Amazon Echo users can finally choose Spotify or Pandora as default music&nbsp;service</a></h2>
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/linux-users-can-now-make-skype-calls-from-the-web-in-chrome/" data-omni-sm="gbl_river_headline,10">Linux users can now make Skype calls from the web in&nbsp;Chrome</a></h2>
 			<div class="byline">
-				<time datetime="2016-07-07 09:37:21" class="timestamp">
-					2 hours ago				</time>
+				<time datetime="2016-07-13 10:32:07" class="timestamp">
+					5 hours ago				</time>
 				 
-					by <a href="/author/jordan-crook/" title="Posts by Jordan Crook" onclick="s_objectID='river_author';" rel="author">Jordan Crook</a>							</div>
+					by <a href="/author/lucia-maffei/" title="Posts by Lucia Maffei" onclick="s_objectID='river_author';" rel="author">Lucia Maffei</a>							</div>
 
 			
-			<p class="excerpt">I love my Amazon Echo. And alongside checking the weather, I mostly use the voice-powered smart speaker to play music.
-That said, I&#8217;m not much of an Amazon Prime music user. I don&#8217;t know anyone who really is. And still, the device has defaulted to Amazon Prime Music with every single request, forcing broad requests like &#8220;Play the Beatles&#8221; or super specific requests for&hellip; <a href="https://techcrunch.com/2016/07/07/amazon-echo-users-can-finally-choose-spotify-or-pandora-as-default-music-service/" class="read-more" data-omni-sm="gbl_river_readmore,10">Read&nbsp;More</a></p>
+			<p class="excerpt">The Skype team today announced that anyone using a Chromebook or Chrome on Linux can visit web.skype.com to make one-to-one and group voice calls on top of the messaging features they get today.
+The Alpha version of Skype based on WebRTC inherits the same features as the Alpha version of the Skype for Linux client. Thanks to ORTC, users were able to make free voice and video calls on&hellip; <a href="https://techcrunch.com/2016/07/13/linux-users-can-now-make-skype-calls-from-the-web-in-chrome/" class="read-more" data-omni-sm="gbl_river_readmore,10">Read&nbsp;More</a></p>
 						<div class="social-cluster">
 				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/amazon-echo-users-can-finally-choose-spotify-or-pandora-as-default-music-service/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/amazon-echo-users-can-finally-choose-spotify-or-pandora-as-default-music-service/"></fb:comments-count></span></a></li>
+												<li><a href="https://techcrunch.com/2016/07/13/linux-users-can-now-make-skype-calls-from-the-web-in-chrome/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/linux-users-can-now-make-skype-calls-from-the-web-in-chrome/"></fb:comments-count></span></a></li>
 										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
 					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
 					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
@@ -1136,7 +1170,7 @@ That said, I&#8217;m not much of an Amazon Prime music user. I don&#8217;t know 
 			Advertisement		</a>
 	</small>
 	<!-- Begin: Right Rail Advertisement -->
-		<div id="adsDiv75b8baae5d" class=""></div>
+		<div id="adsDiv08006757d7" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -1151,7 +1185,7 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484946', "RR", "RR", 'f', 'adsDiv75b8baae5d');
+			window.htmlAdWH('93484946', "RR", "RR", 'f', 'adsDiv08006757d7');
 		});
 	}(this,this.jQuery));
 }
@@ -1160,7 +1194,7 @@ if (!ads.isMobile()) {
 </div>
 
 <div class="section">
-	<div id="adsDiv88d9b08b3c" class="mobile-ads-center"></div>
+	<div id="adsDivb628539dd3" class="mobile-ads-center"></div>
 <script>
 /* <![CDATA[ */
 if (ads.isMobile()) {
@@ -1176,7 +1210,7 @@ if (ads.isMobile()) {
 				}
 			}
 			window.adSetInView('1');
-			window.htmlAdWH('93484973', "mm", "mm", 'f', 'adsDiv88d9b08b3c');
+			window.htmlAdWH('93484973', "mm", "mm", 'f', 'adsDivb628539dd3');
 		});
 	}(this,this.jQuery));
 }
@@ -1199,11 +1233,11 @@ if (ads.isMobile()) {
 
 <div class="collapse-body newsletter-body">
 	<div class="newsletter newsletter-side-bar-newsletters">
-		<form method="post" class="inline-form form-newsletters" action="" data-nonce="3a8c9074a4">
+		<form method="post" class="inline-form form-newsletters" action="" data-nonce="3587289696">
 			<div class="checkboxes cf">
 				<fieldset class="custom-checkbox">
-					<input type="checkbox" name="crunchdaily" id="tc-daily-577ead74971d29.37326584">
-					<label for="tc-daily-577ead74971d29.37326584">
+					<input type="checkbox" name="crunchdaily" id="tc-daily-5786c503c9c281.39764855">
+					<label for="tc-daily-5786c503c9c281.39764855">
 						<span class="custom-checkbox-fake"></span>
 						<strong>TechCrunch Daily</strong>
 						<span class="desc">Our top headlines</span>
@@ -1211,8 +1245,8 @@ if (ads.isMobile()) {
 					</label>
 				</fieldset>
 				<fieldset class="custom-checkbox">
-					<input type="checkbox" name="crunchweekly" id="tc-week-in-review-577ead74971d29.37326584">
-					<label for="tc-week-in-review-577ead74971d29.37326584">
+					<input type="checkbox" name="crunchweekly" id="tc-week-in-review-5786c503c9c281.39764855">
+					<label for="tc-week-in-review-5786c503c9c281.39764855">
 						<span class="custom-checkbox-fake"></span>
 						<strong>TC Week-in-Review</strong>
 						<span class="desc">Top stories of the week</span>
@@ -1220,8 +1254,8 @@ if (ads.isMobile()) {
 					</label>
 				</fieldset>
 				<fieldset class="custom-checkbox">
-					<input type="checkbox" name="crunchbase" id="tc-crunchbase-daily-577ead74971d29.37326584">
-					<label for="tc-crunchbase-daily-577ead74971d29.37326584">
+					<input type="checkbox" name="crunchbase" id="tc-crunchbase-daily-5786c503c9c281.39764855">
+					<label for="tc-crunchbase-daily-5786c503c9c281.39764855">
 						<span class="custom-checkbox-fake"></span>
 						<strong>CrunchBase Daily</strong>
 						<span class="desc">The latest startup funding announcements</span>
@@ -1230,8 +1264,8 @@ if (ads.isMobile()) {
 				</fieldset>
 				<div class="extras hidden">
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="europe" id="tc-europe-577ead74971d29.37326584">
-						<label for="tc-europe-577ead74971d29.37326584">
+						<input type="checkbox" name="europe" id="tc-europe-5786c503c9c281.39764855">
+						<label for="tc-europe-5786c503c9c281.39764855">
 							<span class="custom-checkbox-fake"></span>
 							<strong>TC Europe</strong>
 							<span class="desc">The top European tech stories</span>
@@ -1239,8 +1273,8 @@ if (ads.isMobile()) {
 						</label>
 					</fieldset>
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="gadgets" id="tc-gadgets-577ead74971d29.37326584">
-						<label for="tc-gadgets-577ead74971d29.37326584">
+						<input type="checkbox" name="gadgets" id="tc-gadgets-5786c503c9c281.39764855">
+						<label for="tc-gadgets-5786c503c9c281.39764855">
 							<span class="custom-checkbox-fake"></span>
 							<strong>TC Gadgets</strong>
 							<span class="desc">Top stories about gadgets</span>
@@ -1248,8 +1282,8 @@ if (ads.isMobile()) {
 						</label>
 					</fieldset>
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="mobile-apps" id="tc-mobile-apps-577ead74971d29.37326584">
-						<label for="tc-mobile-apps-577ead74971d29.37326584">
+						<input type="checkbox" name="mobile-apps" id="tc-mobile-apps-5786c503c9c281.39764855">
+						<label for="tc-mobile-apps-5786c503c9c281.39764855">
 							<span class="custom-checkbox-fake"></span>
 							<strong>TC Mobile & Apps</strong>
 							<span class="desc">Top stories about apps</span>
@@ -1257,8 +1291,8 @@ if (ads.isMobile()) {
 						</label>
 					</fieldset>
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="startups" id="tc-startups-577ead74971d29.37326584">
-						<label for="tc-startups-577ead74971d29.37326584">
+						<input type="checkbox" name="startups" id="tc-startups-5786c503c9c281.39764855">
+						<label for="tc-startups-5786c503c9c281.39764855">
 							<span class="custom-checkbox-fake"></span>
 							<strong>TC Startups</strong>
 							<span class="desc">Top stories about startups</span>
@@ -1266,8 +1300,8 @@ if (ads.isMobile()) {
 						</label>
 					</fieldset>
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="social-media" id="tc-social-media-577ead74971d29.37326584">
-						<label for="tc-social-media-577ead74971d29.37326584">
+						<input type="checkbox" name="social-media" id="tc-social-media-5786c503c9c281.39764855">
+						<label for="tc-social-media-5786c503c9c281.39764855">
 							<span class="custom-checkbox-fake"></span>
 							<strong>TC Social Media</strong>
 							<span class="desc">Top stories about social</span>
@@ -1275,8 +1309,8 @@ if (ads.isMobile()) {
 						</label>
 					</fieldset>
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="asia" id="tc-asia-577ead74971d29.37326584">
-						<label for="tc-asia-577ead74971d29.37326584">
+						<input type="checkbox" name="asia" id="tc-asia-5786c503c9c281.39764855">
+						<label for="tc-asia-5786c503c9c281.39764855">
 							<span class="custom-checkbox-fake"></span>
 							<strong>TC Asia</strong>
 							<span class="desc">The top Asian tech stories</span>
@@ -1284,8 +1318,8 @@ if (ads.isMobile()) {
 						</label>
 					</fieldset>
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="crunchnetwork" id="tc-crunchnetwork-577ead74971d29.37326584">
-						<label for="tc-crunchnetwork-577ead74971d29.37326584">
+						<input type="checkbox" name="crunchnetwork" id="tc-crunchnetwork-5786c503c9c281.39764855">
+						<label for="tc-crunchnetwork-5786c503c9c281.39764855">
 							<span class="custom-checkbox-fake"></span>
 							<strong>Crunch Network</strong>
 							<span class="desc">The best from our contributors</span>
@@ -1306,17 +1340,17 @@ if (ads.isMobile()) {
 		</form>
 	</div>
 </div>					</div>
-					<section class="aside section video-aside crunchreport collapse collapse-adjacent" data-video-id="577d9226869ea940ad3777b0">
+					<section class="aside section video-aside crunchreport collapse collapse-adjacent" data-video-id="57856c94869ea946e40f0a75">
 	<h2 class="collapse-title section-title">
 		Latest <span>Crunch Report</span>	</h2>
 	<div class="collapse-body cf">
 		<ul class="vid-list cf">
 			<li class="block vid-feature" data-lightbox-omniture="crunchreport">
 				<div class="block block-inset">
-	<a href="https://techcrunch.com/video/snapchat-memories-update-crunch-report/577d9226869ea940ad3777b0/?ncid=rightrail_cr">
-		<img src="https://img.vidible.tv/prod/2016-07/06/577d9226869ea940ad3777b0_1280x720_U_v1_300_170.jpg" alt="Snapchat Memories Update | Crunch Report" data-lightbox-url="https://techcrunch.com/video/snapchat-memories-update-crunch-report/577d9226869ea940ad3777b0/lightbox">
+	<a href="https://techcrunch.com/video/hyperloop-one-founders-lawsuit-crunch-report/57856c94869ea946e40f0a75/?ncid=rightrail_cr">
+		<img src="https://img.vidible.tv/prod/2016-07/12/57856c94869ea946e40f0a75_1280x720_U_v1_300_170.jpg" alt="Hyperloop One Founders Lawsuit | Crunch Report" data-lightbox-url="https://techcrunch.com/video/hyperloop-one-founders-lawsuit-crunch-report/57856c94869ea946e40f0a75/lightbox">
 				<div class="block-title">
-			<h3>Snapchat Memories Update | Crunch Report</h3>			
+			<h3>Hyperloop One Founders Lawsuit | Crunch Report</h3>			
 		</div>
 			</a>
 </div>
@@ -1330,7 +1364,7 @@ if (ads.isMobile()) {
 		<a href="https://techcrunch.com/advertise/" title="Advertise on TechCrunch">
 			Advertisement		</a>
 	</small>
-	<div id="adsDivc1ccdcdf49" class=""></div>
+	<div id="adsDiva3039dff70" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -1345,12 +1379,12 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484949', "250", "125", 'f', 'adsDivc1ccdcdf49');
+			window.htmlAdWH('93484949', "250", "125", 'f', 'adsDiva3039dff70');
 		});
 	}(this,this.jQuery));
 }
 /* ]]> */
-</script><div id="adsDiv2f1aa0cac2" class=""></div>
+</script><div id="adsDiv8d996080a4" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -1365,12 +1399,12 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484950', "250", "125", 'f', 'adsDiv2f1aa0cac2');
+			window.htmlAdWH('93484950', "250", "125", 'f', 'adsDiv8d996080a4');
 		});
 	}(this,this.jQuery));
 }
 /* ]]> */
-</script><div id="adsDivccfa713916" class=""></div>
+</script><div id="adsDivd3e3b7d136" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -1385,7 +1419,7 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484951', "250", "125", 'f', 'adsDivccfa713916');
+			window.htmlAdWH('93484951', "250", "125", 'f', 'adsDivd3e3b7d136');
 		});
 	}(this,this.jQuery));
 }
@@ -1443,224 +1477,22 @@ if (!ads.isMobile()) {
 
 					<ul class="river" id="river2">
 
-						<li class="river-block " id="1349311" data-permalink="https://techcrunch.com/2016/07/07/google-starts-experimenting-with-quantum-secure-connections-in-chrome/" data-shortlink="http://tcrn.ch/29Cs0Ie" data-shareTitle="Google starts experimenting with quantum-secure connections in&nbsp;Chrome">
-	<div class="block block-thumb ">
-				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/security-2/" title="Security" class="tag"><span>Security</span></a>
-					 					 					 					 					 		</div>
-				<div class="block-content">
-							<span data-omni-sm-delegate="gbl_river_image,11">
-						<a href="https://techcrunch.com/2016/07/07/google-starts-experimenting-with-quantum-secure-connections-in-chrome/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Google starts experimenting with quantum-secure connections in&nbsp;Chrome" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/d_wave_486-smaller.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
-				</span>
-			
-			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/google-starts-experimenting-with-quantum-secure-connections-in-chrome/" data-omni-sm="gbl_river_headline,11">Google starts experimenting with quantum-secure connections in&nbsp;Chrome</a></h2>
-			<div class="byline">
-				<time datetime="2016-07-07 09:27:24" class="timestamp">
-					3 hours ago				</time>
-				 
-					by <a href="/author/frederic-lardinois/" title="Posts by Frederic Lardinois" onclick="s_objectID='river_author';" rel="author">Frederic Lardinois</a>							</div>
-
-			
-			<p class="excerpt">If quantum computing ever lives up to its promise (and that&#8217;s still a big &#8216;if&#8217; at this stage), somebody could use this technology to retroactively break any communications that were encrypted with today&#8217;s standard encryption algorithms. To guard against this, Google today announced that it will now start experimenting using post-quantum algorithms to encrypt the&hellip; <a href="https://techcrunch.com/2016/07/07/google-starts-experimenting-with-quantum-secure-connections-in-chrome/" class="read-more" data-omni-sm="gbl_river_readmore,11">Read&nbsp;More</a></p>
-						<div class="social-cluster">
-				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/google-starts-experimenting-with-quantum-secure-connections-in-chrome/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/google-starts-experimenting-with-quantum-secure-connections-in-chrome/"></fb:comments-count></span></a></li>
-										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
-					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
-					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
-					<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
-				</ul>
-			</div>
-			<div id="clear" style="clear:both;"></div>
-		</div>
-	</div>
-</li>
-<li class="river-block " id="1348918" data-permalink="https://techcrunch.com/2016/07/07/bumble-is-going-to-help-you-find-your-next-job-with-bumblebizz/" data-shortlink="http://tcrn.ch/29vILBR" data-shareTitle="Bumble is going to help you find your next job with&nbsp;BumbleBizz">
-	<div class="block block-thumb ">
-				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/apps/" title="Apps" class="tag"><span>Apps</span></a>
-					 					 					 					 					 		</div>
-				<div class="block-content">
-							<span data-omni-sm-delegate="gbl_river_image,12">
-						<a href="https://techcrunch.com/2016/07/07/bumble-is-going-to-help-you-find-your-next-job-with-bumblebizz/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Bumble is going to help you find your next job with&nbsp;BumbleBizz" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/unnamed-2.png?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
-				</span>
-			
-			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/bumble-is-going-to-help-you-find-your-next-job-with-bumblebizz/" data-omni-sm="gbl_river_headline,12">Bumble is going to help you find your next job with&nbsp;BumbleBizz</a></h2>
-			<div class="byline">
-				<time datetime="2016-07-07 09:00:24" class="timestamp">
-					3 hours ago				</time>
-				 
-					by <a href="/author/fitz-tepper/" title="Posts by Fitz Tepper" onclick="s_objectID='river_author';" rel="author">Fitz Tepper</a>							</div>
-
-			
-			<p class="excerpt">I hate networking. Or at least the type of networking that consists of awkward happy hours where no one knows each other and you&#8217;re approached every five seconds by some over-eager &#8220;networker&#8221; who seemingly has an endless pocket full of business cards.
-But, here&#8217;s the thing, that&#8217;s only one small type of networking. In its broader and much less aggressive form&hellip; <a href="https://techcrunch.com/2016/07/07/bumble-is-going-to-help-you-find-your-next-job-with-bumblebizz/" class="read-more" data-omni-sm="gbl_river_readmore,12">Read&nbsp;More</a></p>
-						<div class="social-cluster">
-				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/bumble-is-going-to-help-you-find-your-next-job-with-bumblebizz/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/bumble-is-going-to-help-you-find-your-next-job-with-bumblebizz/"></fb:comments-count></span></a></li>
-										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
-					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
-					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
-					<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
-				</ul>
-			</div>
-			<div id="clear" style="clear:both;"></div>
-		</div>
-	</div>
-</li>
-<li class="river-block " id="1349294" data-permalink="https://techcrunch.com/2016/07/07/the-first-macos-sierra-public-beta-is-coming-today/" data-shortlink="http://tcrn.ch/29zjtGs" data-shareTitle="The first macOS Sierra public beta is coming&nbsp;today">
-	<div class="block block-thumb ">
-				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/developer/" title="Developer" class="tag"><span>Developer</span></a>
-					 					 					 					 		</div>
-				<div class="block-content">
-							<span data-omni-sm-delegate="gbl_river_image,13">
-						<a href="https://techcrunch.com/2016/07/07/the-first-macos-sierra-public-beta-is-coming-today/" class="thumb"><img data-omni-sm="gbl_river_image" alt="The first macOS Sierra public beta is coming&nbsp;today" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/screen-shot-2016-06-22-at-4-21-49-pm.png?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
-				</span>
-			
-			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/the-first-macos-sierra-public-beta-is-coming-today/" data-omni-sm="gbl_river_headline,13">The first macOS Sierra public beta is coming&nbsp;today</a></h2>
-			<div class="byline">
-				<time datetime="2016-07-07 08:30:37" class="timestamp">
-					3 hours ago				</time>
-				 
-					by <a href="/author/romain-dillet/" title="Posts by Romain Dillet" onclick="s_objectID='river_author';" rel="author">Romain Dillet</a>							</div>
-
-			
-			<p class="excerpt">If you have a useless Mac lying around, today is your lucky day. Apple is releasing the first public beta of macOS Sierra later today &#8212; it&#8217;s probably going to be available at some point over the next couple of hours. This first public beta is likely based on the second developer beta that was released a couple of days ago. <a href="https://techcrunch.com/2016/07/07/the-first-macos-sierra-public-beta-is-coming-today/" class="read-more" data-omni-sm="gbl_river_readmore,13">Read&nbsp;More</a></p>
-						<div class="social-cluster">
-				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/the-first-macos-sierra-public-beta-is-coming-today/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/the-first-macos-sierra-public-beta-is-coming-today/"></fb:comments-count></span></a></li>
-										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
-					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
-					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
-					<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
-				</ul>
-			</div>
-			<div id="clear" style="clear:both;"></div>
-		</div>
-	</div>
-</li>
-<li class="river-block " id="1349260" data-permalink="https://techcrunch.com/2016/07/07/lyfts-latest-launch-is-luxury/" data-shortlink="http://tcrn.ch/29kInn7" data-shareTitle="Lyft&#8217;s latest launch is&nbsp;luxury">
-	<div class="block block-thumb ">
-				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/automotive/" title="Automotive" class="tag"><span>Automotive</span></a>
-					 					 					 					 					 		</div>
-				<div class="block-content">
-							<span data-omni-sm-delegate="gbl_river_image,14">
-						<a href="https://techcrunch.com/2016/07/07/lyfts-latest-launch-is-luxury/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Lyft&#8217;s latest launch is&nbsp;luxury" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/lyft_presskit_02.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
-				</span>
-			
-			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/lyfts-latest-launch-is-luxury/" data-omni-sm="gbl_river_headline,14">Lyft&#8217;s latest launch is&nbsp;luxury</a></h2>
-			<div class="byline">
-				<time datetime="2016-07-07 08:30:03" class="timestamp">
-					3 hours ago				</time>
-				 
-					by <a href="/author/john-mannes/" title="Posts by John Mannes" onclick="s_objectID='river_author';" rel="author">John Mannes</a>							</div>
-
-			
-			<p class="excerpt">Over the coming months, we are going to be seeing a lot more pink mustaches on Audi, BMW, and Mercedes vehicles.
-Today, Lyft is launching Lyft Premier. Users will be able to catch rides in luxury sedans and SUVs.
-Highly rated drivers with access to high-end vehicles can service rides. The cost premium for Premier rides will earn drivers additional money. Lyft will also be able to take&hellip; <a href="https://techcrunch.com/2016/07/07/lyfts-latest-launch-is-luxury/" class="read-more" data-omni-sm="gbl_river_readmore,14">Read&nbsp;More</a></p>
-						<div class="social-cluster">
-				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/lyfts-latest-launch-is-luxury/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/lyfts-latest-launch-is-luxury/"></fb:comments-count></span></a></li>
-										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
-					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
-					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
-					<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
-				</ul>
-			</div>
-			<div id="clear" style="clear:both;"></div>
-		</div>
-	</div>
-</li>
-<li class="river-block " id="1349269" data-permalink="https://techcrunch.com/2016/07/07/a-tesla-model-s-with-lidar-spotted-on-the-road-around-palo-alto/" data-shortlink="http://tcrn.ch/29klOUN" data-shareTitle="A Tesla Model S with Lidar spotted on the road around Palo&nbsp;Alto">
-	<div class="block block-thumb ">
-				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/automotive/" title="Automotive" class="tag"><span>Automotive</span></a>
-					 		</div>
-				<div class="block-content">
-							<span data-omni-sm-delegate="gbl_river_image,15">
-						<a href="https://techcrunch.com/2016/07/07/a-tesla-model-s-with-lidar-spotted-on-the-road-around-palo-alto/" class="thumb"><img data-omni-sm="gbl_river_image" alt="A Tesla Model S with Lidar spotted on the road around Palo&nbsp;Alto" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/screen-shot-2016-07-07-at-10-57-41-am.png?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
-				</span>
-			
-			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/a-tesla-model-s-with-lidar-spotted-on-the-road-around-palo-alto/" data-omni-sm="gbl_river_headline,15">A Tesla Model S with Lidar spotted on the road around Palo&nbsp;Alto</a></h2>
-			<div class="byline">
-				<time datetime="2016-07-07 08:27:19" class="timestamp">
-					4 hours ago				</time>
-				 
-					by <a href="/author/mark-lelinwalla/" title="Posts by Mark Lelinwalla" onclick="s_objectID='river_author';" rel="author">Mark Lelinwalla</a>							</div>
-
-			
-			<p class="excerpt">Tesla may be taking a page from Google&#8217;s Self-Driving Car Project&#8217;s book. A Model S was spotted near the company&#8217;s Palo Alto headquarters, strapped with Lidar sensors, as reported by Elektrek. Ironically, Tesla CEO Elon Musk has strongly dismissed Lidar in the past, relegating it to a technology that the company doesn&#8217;t need to achieve fully autonomous cars. <a href="https://techcrunch.com/2016/07/07/a-tesla-model-s-with-lidar-spotted-on-the-road-around-palo-alto/" class="read-more" data-omni-sm="gbl_river_readmore,15">Read&nbsp;More</a></p>
-						<div class="social-cluster">
-				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/a-tesla-model-s-with-lidar-spotted-on-the-road-around-palo-alto/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/a-tesla-model-s-with-lidar-spotted-on-the-road-around-palo-alto/"></fb:comments-count></span></a></li>
-										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
-					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
-					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
-					<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
-				</ul>
-			</div>
-			<div id="clear" style="clear:both;"></div>
-		</div>
-	</div>
-</li>
-<li class="river-block " id="1349292" data-permalink="https://techcrunch.com/2016/07/07/nvidias-gtx-1060-promises-vr-ready-performance-at-249/" data-shortlink="http://tcrn.ch/29thHEF" data-shareTitle="NVIDIA’s GTX 1060 promises VR-ready performance at&nbsp;$249">
-	<div class="block block-thumb ">
-				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/gaming/" title="Gaming" class="tag"><span>Gaming</span></a>
-					 					 					 		</div>
-				<div class="block-content">
-							<span data-omni-sm-delegate="gbl_river_image,16">
-						<a href="https://techcrunch.com/2016/07/07/nvidias-gtx-1060-promises-vr-ready-performance-at-249/" class="thumb"><img data-omni-sm="gbl_river_image" alt="NVIDIA’s GTX 1060 promises VR-ready performance at&nbsp;$249" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/46599_geforce_gtx_1060_keyvisual_2000px-2.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
-				</span>
-			
-			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/nvidias-gtx-1060-promises-vr-ready-performance-at-249/" data-omni-sm="gbl_river_headline,16">NVIDIA’s GTX 1060 promises VR-ready performance at&nbsp;$249</a></h2>
-			<div class="byline">
-				<time datetime="2016-07-07 08:10:50" class="timestamp">
-					4 hours ago				</time>
-				 
-					by <a href="/author/brian-heater/" title="Posts by Brian Heater" onclick="s_objectID='river_author';" rel="author">Brian Heater</a>							</div>
-
-			
-			<p class="excerpt">Two months and a day after launching its impressive GeForce GTX 1080 (along with the GTX 1070) at the DreamHack gaming event in Austin, NVIDIA is back with a slightly less flashy, but no less interesting new Pascal-powered card. Most notable here is the price, which starts at $249.
-The GTX 1060 graphics card effectively replaces the more expensive GTX 980, promising the same performance as&hellip; <a href="https://techcrunch.com/2016/07/07/nvidias-gtx-1060-promises-vr-ready-performance-at-249/" class="read-more" data-omni-sm="gbl_river_readmore,16">Read&nbsp;More</a></p>
-						<div class="social-cluster">
-				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/nvidias-gtx-1060-promises-vr-ready-performance-at-249/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/nvidias-gtx-1060-promises-vr-ready-performance-at-249/"></fb:comments-count></span></a></li>
-										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
-					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
-					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
-					<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
-				</ul>
-			</div>
-			<div id="clear" style="clear:both;"></div>
-		</div>
-	</div>
-</li>
-<li class="river-block river-block-featured" id="1349267" data-permalink="https://techcrunch.com/2016/07/07/ios-10-preview/" data-shortlink="http://tcrn.ch/29xbZC4" data-shareTitle="iOS 10 preview: Apple breaks down its walled&nbsp;garden">
-			<a href="https://techcrunch.com/2016/07/07/ios-10-preview/" class="feature-hero" data-omni-sm="gbl_river_image,17"><img data-aspect-ratio="94x53" alt="iOS 10 preview: Apple breaks down its walled&nbsp;garden" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/ios-10.jpg?w=950&#038;h=530&#038;crop=1" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/1x1.png" width="1" height="1" /></a>
+						<li class="river-block river-block-featured" id="1352083" data-permalink="https://techcrunch.com/2016/07/13/nintendos-new-magic/" data-shortlink="http://tcrn.ch/29EawGY" data-shareTitle="Nintendo&#8217;s new magic">
+			<a href="https://techcrunch.com/2016/07/13/nintendos-new-magic/" class="feature-hero" data-omni-sm="gbl_river_image,11"><img data-aspect-ratio="94x53" alt="Nintendo&#8217;s new magic" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/l1000433.jpg?w=950&#038;h=530&#038;crop=1" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/1x1.png" width="1" height="1" /></a>
 		<div class="block block-featured">
 		<div class="block-featured-content">
 						 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-			 									<a href="https://techcrunch.com/apps/" title="Apps" class="tag"><span>Apps</span></a>
-							 							 							 							 							 			</div>
+			 									<a href="https://techcrunch.com/gadgets/" title="Gadgets" class="tag"><span>Gadgets</span></a>
+							 			</div>
 						<div class="block-content">
-				<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/ios-10-preview/" data-omni-sm="gbl_river_headline,17">iOS 10 preview: Apple breaks down its walled&nbsp;garden</a></h2>
+				<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/nintendos-new-magic/" data-omni-sm="gbl_river_headline,11">Nintendo&#8217;s new magic</a></h2>
 				<div class="byline">
-					<time datetime="2016-07-07 08:01:05" class="timestamp">4 hours ago</time> by <a href="/author/romain-dillet/" title="Posts by Romain Dillet" onclick="s_objectID='river_author';" rel="author">Romain Dillet</a>				</div>
-				<p class="excerpt">As our phones become our primary computing devices, major iOS updates affect the workflow and lifestyle of hundreds of millions of people. Even minor changes can have major implications. So let&#8217;s dive into iOS 10 with an early look at Apple&#8217;s next mobile operating system.
-iOS 10 will be released this fall as a free update. Every year, a vast majority of iOS users update to the&hellip; <a href="https://techcrunch.com/2016/07/07/ios-10-preview/" class="read-more" data-omni-sm="gbl_river_readmore,17">Read&nbsp;More</a></p>
+					<time datetime="2016-07-13 10:26:06" class="timestamp">5 hours ago</time> by <a href="/author/john-biggs/" title="Posts by John Biggs" onclick="s_objectID='river_author';" rel="author">John Biggs</a>				</div>
+				<p class="excerpt">In the early morning hours I pad down the hallway in my grandmother&#8217;s ranch-style home in Martins Ferry, Ohio. It&#8217;s June 1986. I&#8217;m eleven years old and still in my pajamas.
+The house has cooled overnight and it&#8217;s even a bit chilly but as the sun rises the dark roof will warm up and grandma will send me into the basement or to the library across town. Until then I can&hellip; <a href="https://techcrunch.com/2016/07/13/nintendos-new-magic/" class="read-more" data-omni-sm="gbl_river_readmore,11">Read&nbsp;More</a></p>
 								<div class="social-cluster">
 					<ul class="social-share social-cluster-list">
-													<li><a href="https://techcrunch.com/2016/07/07/ios-10-preview/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/ios-10-preview/"></fb:comments-count></span></a></li>
+													<li><a href="https://techcrunch.com/2016/07/13/nintendos-new-magic/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/nintendos-new-magic/"></fb:comments-count></span></a></li>
 												<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
 						<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
 						<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
@@ -1671,30 +1503,29 @@ iOS 10 will be released this fall as a free update. Every year, a vast majority 
 		</div>
 	</div>
 </li>
-<li class="river-block crunch-network" id="1347455" data-permalink="https://techcrunch.com/2016/07/07/how-berlin-can-become-europes-no-1-tech-hub/" data-shortlink="http://tcrn.ch/29qu7LM" data-shareTitle="How Berlin can become Europe&#8217;s No. 1 tech&nbsp;hub">
+<li class="river-block " id="1352166" data-permalink="https://techcrunch.com/2016/07/13/pokemon-go-tops-twitters-daily-users-sees-more-engagement-than-facebook/" data-shortlink="http://tcrn.ch/29E0vtm" data-shareTitle="Pokémon Go tops Twitter&#8217;s daily users, sees more engagement than&nbsp;Facebook">
 	<div class="block block-thumb ">
 				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 							<a href="https://techcrunch.com/europe/" title="Europe" class="tag"><span>Europe</span></a>
-					 					 					 		</div>
+		 							<a href="https://techcrunch.com/apps/" title="Apps" class="tag"><span>Apps</span></a>
+					 					 					 					 					 		</div>
 				<div class="block-content">
-							<span data-omni-sm-delegate="gbl_river_image,18">
-						<a href="https://techcrunch.com/2016/07/07/how-berlin-can-become-europes-no-1-tech-hub/" class="thumb"><img data-omni-sm="gbl_river_image" alt="How Berlin can become Europe&#8217;s No. 1 tech&nbsp;hub" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/gettyimages-533781661.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+							<span data-omni-sm-delegate="gbl_river_image,12">
+						<a href="https://techcrunch.com/2016/07/13/pokemon-go-tops-twitters-daily-users-sees-more-engagement-than-facebook/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Pokémon Go tops Twitter&#8217;s daily users, sees more engagement than&nbsp;Facebook" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/gettyimages-546532826.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
 				</span>
 			
-							<span class="contributed">Crunch Network</span>
 			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/how-berlin-can-become-europes-no-1-tech-hub/" data-omni-sm="gbl_river_headline,18">How Berlin can become Europe&#8217;s No. 1 tech&nbsp;hub</a></h2>
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/pokemon-go-tops-twitters-daily-users-sees-more-engagement-than-facebook/" data-omni-sm="gbl_river_headline,12">Pokémon Go tops Twitter&#8217;s daily users, sees more engagement than&nbsp;Facebook</a></h2>
 			<div class="byline">
-				<time datetime="2016-07-07 08:00:36" class="timestamp">
-					4 hours ago				</time>
+				<time datetime="2016-07-13 09:14:52" class="timestamp">
+					6 hours ago				</time>
 				 
-					by <a href="/contributor/wouter-verhoog/" title="Posts by Wouter Verhoog" onclick="s_objectID='river_author';" rel="author">Wouter Verhoog</a>							</div>
+					by <a href="/author/sarah-perez/" title="Posts by Sarah Perez" onclick="s_objectID='river_author';" rel="author">Sarah Perez</a>							</div>
 
 			
-			<p class="excerpt">Berlin is having a moment. In 2015, the city I live in was the fastest-growing startup ecosystem in the world and received the most venture capital investment of any city in Europe. Startups headquartered in Berlin have become global giants, and many startups across the Atlantic run their European operations from here. Seemingly overnight, we have become Europe&#8217;s next great tech hub. <a href="https://techcrunch.com/2016/07/07/how-berlin-can-become-europes-no-1-tech-hub/" class="read-more" data-omni-sm="gbl_river_readmore,18">Read&nbsp;More</a></p>
+			<p class="excerpt">Pokémon Go has quickly become one of the most viral mobile applications of all time. The game is now the biggest ever in the U.S.; it has now topped Twitter&#8217;s daily users, and it sees people spending more time in its app than in Facebook, according to reports from various tracking firms. <a href="https://techcrunch.com/2016/07/13/pokemon-go-tops-twitters-daily-users-sees-more-engagement-than-facebook/" class="read-more" data-omni-sm="gbl_river_readmore,12">Read&nbsp;More</a></p>
 						<div class="social-cluster">
 				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/how-berlin-can-become-europes-no-1-tech-hub/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/how-berlin-can-become-europes-no-1-tech-hub/"></fb:comments-count></span></a></li>
+												<li><a href="https://techcrunch.com/2016/07/13/pokemon-go-tops-twitters-daily-users-sees-more-engagement-than-facebook/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/pokemon-go-tops-twitters-daily-users-sees-more-engagement-than-facebook/"></fb:comments-count></span></a></li>
 										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
 					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
 					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
@@ -1705,30 +1536,30 @@ iOS 10 will be released this fall as a free update. Every year, a vast majority 
 		</div>
 	</div>
 </li>
-<li class="river-block " id="1349206" data-permalink="https://techcrunch.com/2016/07/07/canadian-self-driving-program-further-slowed-by-tesla-autopilot-fatality/" data-shortlink="http://tcrn.ch/29zbbyh" data-shareTitle="Canadian self-driving program further slowed by Tesla Autopilot&nbsp;fatality">
+<li class="river-block " id="1352117" data-permalink="https://techcrunch.com/2016/07/13/land-rovers-lead-engineer-explains-autonomous-off-road-driving/" data-shortlink="http://tcrn.ch/29E02Zn" data-shareTitle="Land Rover&#8217;s lead engineer explains autonomous off-road&nbsp;driving">
 	<div class="block block-thumb ">
 				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
 		 							<a href="https://techcrunch.com/automotive/" title="Automotive" class="tag"><span>Automotive</span></a>
-					 		</div>
+					 					 		</div>
 				<div class="block-content">
-							<span data-omni-sm-delegate="gbl_river_image,19">
-						<a href="https://techcrunch.com/2016/07/07/canadian-self-driving-program-further-slowed-by-tesla-autopilot-fatality/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Canadian self-driving program further slowed by Tesla Autopilot&nbsp;fatality" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/tesla-model-s.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+							<span data-omni-sm-delegate="gbl_river_image,13">
+						<a href="https://techcrunch.com/2016/07/13/land-rovers-lead-engineer-explains-autonomous-off-road-driving/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Land Rover&#8217;s lead engineer explains autonomous off-road&nbsp;driving" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/land-rover.png?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
 				</span>
 			
 			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/canadian-self-driving-program-further-slowed-by-tesla-autopilot-fatality/" data-omni-sm="gbl_river_headline,19">Canadian self-driving program further slowed by Tesla Autopilot&nbsp;fatality</a></h2>
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/land-rovers-lead-engineer-explains-autonomous-off-road-driving/" data-omni-sm="gbl_river_headline,13">Land Rover&#8217;s lead engineer explains autonomous off-road&nbsp;driving</a></h2>
 			<div class="byline">
-				<time datetime="2016-07-07 07:35:07" class="timestamp">
-					4 hours ago				</time>
+				<time datetime="2016-07-13 09:12:51" class="timestamp">
+					6 hours ago				</time>
 				 
 					by <a href="/author/mark-lelinwalla/" title="Posts by Mark Lelinwalla" onclick="s_objectID='river_author';" rel="author">Mark Lelinwalla</a>							</div>
 
 			
-			<p class="excerpt">The driver death resulting from a Tesla Model S Autopilot crash on May 7 has ramifications that extend well past a federal investigation in the United States.
-In fact, government officials from the Canadian province of Ontario told Reuters that the fatal accident has further scrutinized its own autonomous driving technology and that it may have set back the development of its overall&hellip; <a href="https://techcrunch.com/2016/07/07/canadian-self-driving-program-further-slowed-by-tesla-autopilot-fatality/" class="read-more" data-omni-sm="gbl_river_readmore,19">Read&nbsp;More</a></p>
+			<p class="excerpt">When you&#8217;re Land Rover, you can&#8217;t just test connected and autonomous vehicles on regular roads. You have to live up to your rugged, but polished brand, simultaneously. That&#8217;s precisely why the automaker is testing off-road connected convoy research vehicles.
+It&#8217;s all a part of the company&#8217;s ambitious plan to create a fleet of 100-plus research vehicles over the&hellip; <a href="https://techcrunch.com/2016/07/13/land-rovers-lead-engineer-explains-autonomous-off-road-driving/" class="read-more" data-omni-sm="gbl_river_readmore,13">Read&nbsp;More</a></p>
 						<div class="social-cluster">
 				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/canadian-self-driving-program-further-slowed-by-tesla-autopilot-fatality/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/canadian-self-driving-program-further-slowed-by-tesla-autopilot-fatality/"></fb:comments-count></span></a></li>
+												<li><a href="https://techcrunch.com/2016/07/13/land-rovers-lead-engineer-explains-autonomous-off-road-driving/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/land-rovers-lead-engineer-explains-autonomous-off-road-driving/"></fb:comments-count></span></a></li>
 										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
 					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
 					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
@@ -1739,29 +1570,223 @@ In fact, government officials from the Canadian province of Ontario told Reuters
 		</div>
 	</div>
 </li>
-<li class="river-block " id="1349240" data-permalink="https://techcrunch.com/2016/07/07/join-author-and-futurist-neal-stephenson-at-disrupt-sf-2016/" data-shortlink="http://tcrn.ch/29taJ2v" data-shareTitle="Join author and futurist Neal Stephenson at Disrupt SF&nbsp;2016">
+<li class="river-block " id="1350874" data-permalink="https://techcrunch.com/2016/07/13/fluance-rt81/" data-shortlink="http://tcrn.ch/29Jedy2" data-shareTitle="The Fluance RT81 is a high quality entry-level turntable at a bargain&nbsp;price">
 	<div class="block block-thumb ">
 				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
-		 					 					 					 		</div>
+		 							<a href="https://techcrunch.com/gadgets/" title="Gadgets" class="tag"><span>Gadgets</span></a>
+					 					 					 		</div>
 				<div class="block-content">
-							<span data-omni-sm-delegate="gbl_river_image,20">
-						<a href="https://techcrunch.com/2016/07/07/join-author-and-futurist-neal-stephenson-at-disrupt-sf-2016/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Join author and futurist Neal Stephenson at Disrupt SF&nbsp;2016" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/neil_stephenson_77f9262fbf.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+							<span data-omni-sm-delegate="gbl_river_image,14">
+						<a href="https://techcrunch.com/2016/07/13/fluance-rt81/" class="thumb"><img data-omni-sm="gbl_river_image" alt="The Fluance RT81 is a high quality entry-level turntable at a bargain&nbsp;price" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/above-left.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
 				</span>
 			
 			
-			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/07/join-author-and-futurist-neal-stephenson-at-disrupt-sf-2016/" data-omni-sm="gbl_river_headline,20">Join author and futurist Neal Stephenson at Disrupt SF&nbsp;2016</a></h2>
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/fluance-rt81/" data-omni-sm="gbl_river_headline,14">The Fluance RT81 is a high quality entry-level turntable at a bargain&nbsp;price</a></h2>
 			<div class="byline">
-				<time datetime="2016-07-07 07:26:02" class="timestamp">
-					5 hours ago				</time>
+				<time datetime="2016-07-13 09:12:46" class="timestamp">
+					6 hours ago				</time>
 				 
-					by <a href="/author/john-biggs/" title="Posts by John Biggs" onclick="s_objectID='river_author';" rel="author">John Biggs</a>							</div>
+					by <a href="/author/travis-bernard/" title="Posts by Travis Bernard" onclick="s_objectID='river_author';" rel="author">Travis Bernard</a>							</div>
 
 			
-			<p class="excerpt">If there is anyone who knows where the future is headed it&#8217;s Neal Stephenson. The author of the classic cyberpunk novel, Snow Crash, and, most recently, Seveneves, Stephenson has long been a voyager in lands unexplored by the common mind.
-And now he&#8217;s going to join us on stage at Disrupt SF 2016, a unique treat. We&#8217;ll be talking about his latest book, his vision of the&hellip; <a href="https://techcrunch.com/2016/07/07/join-author-and-futurist-neal-stephenson-at-disrupt-sf-2016/" class="read-more" data-omni-sm="gbl_river_readmore,20">Read&nbsp;More</a></p>
+			<p class="excerpt">The RT81 is a higher end, entry-level turntable. It will cost you a little bit more than some of the $100 plastic entry-level turntables out there, but it&#8217;s much higher quality both in terms of appearance and sound quality. <a href="https://techcrunch.com/2016/07/13/fluance-rt81/" class="read-more" data-omni-sm="gbl_river_readmore,14">Read&nbsp;More</a></p>
 						<div class="social-cluster">
 				<ul class="social-share social-cluster-list">
-												<li><a href="https://techcrunch.com/2016/07/07/join-author-and-futurist-neal-stephenson-at-disrupt-sf-2016/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/07/join-author-and-futurist-neal-stephenson-at-disrupt-sf-2016/"></fb:comments-count></span></a></li>
+												<li><a href="https://techcrunch.com/2016/07/13/fluance-rt81/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/fluance-rt81/"></fb:comments-count></span></a></li>
+										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
+					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
+					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
+					<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
+				</ul>
+			</div>
+			<div id="clear" style="clear:both;"></div>
+		</div>
+	</div>
+</li>
+<li class="river-block " id="1351832" data-permalink="https://techcrunch.com/2016/07/13/facebook-lifts-the-veil-on-its-mobile-device-lab/" data-shortlink="http://tcrn.ch/29PQkXp" data-shareTitle="Facebook lifts the veil on its mobile device testing&nbsp;lab">
+	<div class="block block-thumb ">
+				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
+		 							<a href="https://techcrunch.com/cloud-2/" title="Cloud" class="tag"><span>Cloud</span></a>
+					 					 					 					 					 		</div>
+				<div class="block-content">
+							<span data-omni-sm-delegate="gbl_river_image,15">
+						<a href="https://techcrunch.com/2016/07/13/facebook-lifts-the-veil-on-its-mobile-device-lab/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Facebook lifts the veil on its mobile device testing&nbsp;lab" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/fb_data_center-4.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+				</span>
+			
+			
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/facebook-lifts-the-veil-on-its-mobile-device-lab/" data-omni-sm="gbl_river_headline,15">Facebook lifts the veil on its mobile device testing&nbsp;lab</a></h2>
+			<div class="byline">
+				<time datetime="2016-07-13 09:00:01" class="timestamp">
+					6 hours ago				</time>
+				 
+					by <a href="/author/frederic-lardinois/" title="Posts by Frederic Lardinois" onclick="s_objectID='river_author';" rel="author">Frederic Lardinois</a>							</div>
+
+			
+			<p class="excerpt">Earlier this week, Facebook gave a small group of reporters a tour of its Prineville, OR data center. In the process, the company also showed off its mobile device lab for testing on physical devices new iOS and Android versions of the Facebook app, Messenger and Instagram.
+The mobile device lab currently occupies 60 racks in the data center. Each rack holds 32 phones, for a total of&hellip; <a href="https://techcrunch.com/2016/07/13/facebook-lifts-the-veil-on-its-mobile-device-lab/" class="read-more" data-omni-sm="gbl_river_readmore,15">Read&nbsp;More</a></p>
+						<div class="social-cluster">
+				<ul class="social-share social-cluster-list">
+												<li><a href="https://techcrunch.com/2016/07/13/facebook-lifts-the-veil-on-its-mobile-device-lab/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/facebook-lifts-the-veil-on-its-mobile-device-lab/"></fb:comments-count></span></a></li>
+										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
+					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
+					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
+					<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
+				</ul>
+			</div>
+			<div id="clear" style="clear:both;"></div>
+		</div>
+	</div>
+</li>
+<li class="river-block " id="1352202" data-permalink="https://techcrunch.com/2016/07/13/apple-is-moving-forward-with-its-reality-tv-show-planet-of-the-apps/" data-shortlink="http://tcrn.ch/29O7xik" data-shareTitle="Apple is moving forward with its reality TV show ‘Planet of the&nbsp;Apps’">
+	<div class="block block-thumb ">
+				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
+		 							<a href="https://techcrunch.com/entertainment-2/" title="Entertainment" class="tag"><span>Entertainment</span></a>
+					 					 					 					 		</div>
+				<div class="block-content">
+							<span data-omni-sm-delegate="gbl_river_image,16">
+						<a href="https://techcrunch.com/2016/07/13/apple-is-moving-forward-with-its-reality-tv-show-planet-of-the-apps/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Apple is moving forward with its reality TV show ‘Planet of the&nbsp;Apps’" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/planet-of-the-apps.jpeg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+				</span>
+			
+			
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/apple-is-moving-forward-with-its-reality-tv-show-planet-of-the-apps/" data-omni-sm="gbl_river_headline,16">Apple is moving forward with its reality TV show ‘Planet of the&nbsp;Apps’</a></h2>
+			<div class="byline">
+				<time datetime="2016-07-13 08:47:31" class="timestamp">
+					7 hours ago				</time>
+				 
+					by <a href="/author/romain-dillet/" title="Posts by Romain Dillet" onclick="s_objectID='river_author';" rel="author">Romain Dillet</a>							</div>
+
+			
+			<p class="excerpt">Apple has been working on an unscripted TV series for a few months now. The TV show should be about the app economy, but it&#8217;s unclear how Apple is going to distribute it. Apple just announced an open casting call. <a href="https://techcrunch.com/2016/07/13/apple-is-moving-forward-with-its-reality-tv-show-planet-of-the-apps/" class="read-more" data-omni-sm="gbl_river_readmore,16">Read&nbsp;More</a></p>
+						<div class="social-cluster">
+				<ul class="social-share social-cluster-list">
+												<li><a href="https://techcrunch.com/2016/07/13/apple-is-moving-forward-with-its-reality-tv-show-planet-of-the-apps/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/apple-is-moving-forward-with-its-reality-tv-show-planet-of-the-apps/"></fb:comments-count></span></a></li>
+										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
+					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
+					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
+					<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
+				</ul>
+			</div>
+			<div id="clear" style="clear:both;"></div>
+		</div>
+	</div>
+</li>
+<li class="river-block " id="1352168" data-permalink="https://techcrunch.com/2016/07/13/trace-genomics-launches-a-23andme-for-farms-raises-4-million-to-improve-the-worlds-food-supply/" data-shortlink="http://tcrn.ch/29DSXqi" data-shareTitle="Trace Genomics launches a 23andMe for farms, raises $4 million to improve the world&#8217;s">
+	<div class="block block-thumb ">
+				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
+		 							<a href="https://techcrunch.com/bio/" title="Bio" class="tag"><span>Bio</span></a>
+					 					 					 					 					 		</div>
+				<div class="block-content">
+							<span data-omni-sm-delegate="gbl_river_image,17">
+						<a href="https://techcrunch.com/2016/07/13/trace-genomics-launches-a-23andme-for-farms-raises-4-million-to-improve-the-worlds-food-supply/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Trace Genomics launches a 23andMe for farms, raises $4 million to improve the world&#8217;s food&nbsp;supply" data-src="https://tctechcrunch2011.files.wordpress.com/2015/05/farms.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+				</span>
+			
+			
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/trace-genomics-launches-a-23andme-for-farms-raises-4-million-to-improve-the-worlds-food-supply/" data-omni-sm="gbl_river_headline,17">Trace Genomics launches a 23andMe for farms, raises $4 million to improve the world&#8217;s food&nbsp;supply</a></h2>
+			<div class="byline">
+				<time datetime="2016-07-13 08:24:48" class="timestamp">
+					7 hours ago				</time>
+				 
+					by <a href="/author/lora-kolodny/" title="Posts by Lora Kolodny" onclick="s_objectID='river_author';" rel="author">Lora Kolodny</a>							</div>
+
+			
+			<p class="excerpt">A San Francisco startup called Trace Genomics wants to help farmers diagnose and improve the health of the soil where they want to raise crops before it&#8217;s harvest time and too late to change course.
+So the startup has developed a soil testing kit and &#8220;pathogen panel,&#8221; that tells the growers of high-value crops, like berries or lettuce, whether or not their soil has&hellip; <a href="https://techcrunch.com/2016/07/13/trace-genomics-launches-a-23andme-for-farms-raises-4-million-to-improve-the-worlds-food-supply/" class="read-more" data-omni-sm="gbl_river_readmore,17">Read&nbsp;More</a></p>
+						<div class="social-cluster">
+				<ul class="social-share social-cluster-list">
+												<li><a href="https://techcrunch.com/2016/07/13/trace-genomics-launches-a-23andme-for-farms-raises-4-million-to-improve-the-worlds-food-supply/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/trace-genomics-launches-a-23andme-for-farms-raises-4-million-to-improve-the-worlds-food-supply/"></fb:comments-count></span></a></li>
+										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
+					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
+					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
+					<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
+				</ul>
+			</div>
+			<div id="clear" style="clear:both;"></div>
+		</div>
+	</div>
+</li>
+<li class="river-block " id="1352113" data-permalink="https://techcrunch.com/2016/07/13/unity-announces-181-million-monster-round-led-by-dfj-growth/" data-shortlink="http://tcrn.ch/29BVxfy" data-shareTitle="Unity raises $181M monster round at a reported $1.5B&nbsp;valuation">
+	<div class="block block-thumb ">
+				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
+		 							<a href="https://techcrunch.com/gaming/" title="Gaming" class="tag"><span>Gaming</span></a>
+					 					 					 					 					 		</div>
+				<div class="block-content">
+							<span data-omni-sm-delegate="gbl_river_image,18">
+						<a href="https://techcrunch.com/2016/07/13/unity-announces-181-million-monster-round-led-by-dfj-growth/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Unity raises $181M monster round at a reported $1.5B&nbsp;valuation" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/screen-shot-2016-07-13-at-7-43-29-am.png?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+				</span>
+			
+			
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/unity-announces-181-million-monster-round-led-by-dfj-growth/" data-omni-sm="gbl_river_headline,18">Unity raises $181M monster round at a reported $1.5B&nbsp;valuation</a></h2>
+			<div class="byline">
+				<time datetime="2016-07-13 08:10:12" class="timestamp">
+					7 hours ago				</time>
+				 
+					by <a href="/author/lucas-matney/" title="Posts by Lucas Matney" onclick="s_objectID='river_author';" rel="author">Lucas Matney</a>							</div>
+
+			
+			<p class="excerpt">Over the last few years, Unity Technologies has grown to become indispensable to the gaming industry and much of the entertainment industry as an engine for building experiences in one place and distributing them across a swath of platforms. Now, with the rise of augmented and virtual reality, we are rapidly approaching the likelihood that the future will be built on Unity.
+To do that, the&hellip; <a href="https://techcrunch.com/2016/07/13/unity-announces-181-million-monster-round-led-by-dfj-growth/" class="read-more" data-omni-sm="gbl_river_readmore,18">Read&nbsp;More</a></p>
+						<div class="social-cluster">
+				<ul class="social-share social-cluster-list">
+												<li><a href="https://techcrunch.com/2016/07/13/unity-announces-181-million-monster-round-led-by-dfj-growth/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/unity-announces-181-million-monster-round-led-by-dfj-growth/"></fb:comments-count></span></a></li>
+										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
+					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
+					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
+					<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
+				</ul>
+			</div>
+			<div id="clear" style="clear:both;"></div>
+		</div>
+	</div>
+</li>
+<li class="river-block river-block-featured" id="1350563" data-permalink="https://techcrunch.com/2016/07/13/instagrams-algorithmic-feed-is-the-worst-thing-to-happen-to-me-all-summer/" data-shortlink="http://tcrn.ch/29XxAVu" data-shareTitle="Instagram&#8217;s algorithmic feed is the worst thing to happen to me all&nbsp;summer">
+			<a href="https://techcrunch.com/2016/07/13/instagrams-algorithmic-feed-is-the-worst-thing-to-happen-to-me-all-summer/" class="feature-hero" data-omni-sm="gbl_river_image,19"><img data-aspect-ratio="94x53" alt="Instagram&#8217;s algorithmic feed is the worst thing to happen to me all&nbsp;summer" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/sliding-puzzle.jpg?w=950&#038;h=530&#038;crop=1" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/1x1.png" width="1" height="1" /></a>
+		<div class="block block-featured">
+		<div class="block-featured-content">
+						 <div class="tags" data-omni-sm-delegate="gbl_river_category">
+			 							 							 			</div>
+						<div class="block-content">
+				<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/instagrams-algorithmic-feed-is-the-worst-thing-to-happen-to-me-all-summer/" data-omni-sm="gbl_river_headline,19">Instagram&#8217;s algorithmic feed is the worst thing to happen to me all&nbsp;summer</a></h2>
+				<div class="byline">
+					<time datetime="2016-07-13 08:05:39" class="timestamp">7 hours ago</time> by <a href="/author/jordan-crook/" title="Posts by Jordan Crook" onclick="s_objectID='river_author';" rel="author">Jordan Crook</a>				</div>
+				<p class="excerpt">Nobody loves change, especially when it hits our most beloved digital services like Gmail, Facebook, Spotify, or Instagram.
+The majority of the time we get over these changes and suddenly forget what these services were like before. It&#8217;s like seeing a friend&#8217;s new haircut &#8212; shocking at first, but eventually that haircut is the only one you&#8217;ve ever known. Remember&hellip; <a href="https://techcrunch.com/2016/07/13/instagrams-algorithmic-feed-is-the-worst-thing-to-happen-to-me-all-summer/" class="read-more" data-omni-sm="gbl_river_readmore,19">Read&nbsp;More</a></p>
+								<div class="social-cluster">
+					<ul class="social-share social-cluster-list">
+													<li><a href="https://techcrunch.com/2016/07/13/instagrams-algorithmic-feed-is-the-worst-thing-to-happen-to-me-all-summer/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/instagrams-algorithmic-feed-is-the-worst-thing-to-happen-to-me-all-summer/"></fb:comments-count></span></a></li>
+												<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
+						<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
+						<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
+						<li><a href="#" rel="external" class="reddit icon-reddit"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="river-block " id="1352128" data-permalink="https://techcrunch.com/2016/07/13/ants/" data-shortlink="http://tcrn.ch/29DQ8H6" data-shareTitle="Scientists are studying ant colonies to create better network&nbsp;analysis">
+	<div class="block block-thumb ">
+				 <div class="tags" data-omni-sm-delegate="gbl_river_category">
+		 							<a href="https://techcrunch.com/science/" title="Science" class="tag"><span>Science</span></a>
+					 					 					 					 		</div>
+				<div class="block-content">
+							<span data-omni-sm-delegate="gbl_river_image,20">
+						<a href="https://techcrunch.com/2016/07/13/ants/" class="thumb"><img data-omni-sm="gbl_river_image" alt="Scientists are studying ant colonies to create better network&nbsp;analysis" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/mit-random-walks_0.jpg?w=210&#038;h=158&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" width="210" height="210" /></a>
+				</span>
+			
+			
+			<h2 class="post-title"><a href="https://techcrunch.com/2016/07/13/ants/" data-omni-sm="gbl_river_headline,20">Scientists are studying ant colonies to create better network&nbsp;analysis</a></h2>
+			<div class="byline">
+				<time datetime="2016-07-13 07:51:48" class="timestamp">
+					7 hours ago				</time>
+				 
+					by <a href="/author/brian-heater/" title="Posts by Brian Heater" onclick="s_objectID='river_author';" rel="author">Brian Heater</a>							</div>
+
+			
+			<p class="excerpt">Ants are really good at lots of things. Lifting, communicating, ruining picnics. Turns out they&#8217;ve got the whole voting thing down to a science, too. When time comes to move nests, the plucky little insects vote by quorum. The democratic process is determined, at least in part, by how often they bump into one another.
+Scientists believe that ants have a knack for determining their&hellip; <a href="https://techcrunch.com/2016/07/13/ants/" class="read-more" data-omni-sm="gbl_river_readmore,20">Read&nbsp;More</a></p>
+						<div class="social-cluster">
+				<ul class="social-share social-cluster-list">
+												<li><a href="https://techcrunch.com/2016/07/13/ants/#comments" rel="external" class="comment has-text icon-comment"><span class="social-count"><fb:comments-count href="https://techcrunch.com/2016/07/13/ants/"></fb:comments-count></span></a></li>
 										<li><a href="#" rel="external" class="facebook icon-facebook"></a></li>
 					<li><a href="#" rel="external" class="twitter icon-twitter"></a></li>
 					<li><a href="#" rel="external" class="linkedin icon-linkedin"></a></li>
@@ -1786,7 +1811,7 @@ And now he&#8217;s going to join us on stage at Disrupt SF 2016, a unique treat.
 			<div class="l-sidebar">
 
 				<div class="section ad-300x250">
-	<div id="adsDivc2b48755c0" class=""></div>
+	<div id="adsDiv36f728597b" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -1802,7 +1827,7 @@ if (!ads.isMobile()) {
 				}
 			}
 			window.adSetInView('D');
-			window.htmlAdWH('93484947', "RR", "RR", 'f', 'adsDivc2b48755c0');
+			window.htmlAdWH('93484947', "RR", "RR", 'f', 'adsDiv36f728597b');
 		});
 	}(this,this.jQuery));
 }
@@ -1938,22 +1963,22 @@ if (!ads.isMobile()) {
 		<div id="carousel-manhattan-homepage">
 			<div class="lc">
 				
-<div id="carousel-manhattan-577ead74c7881" class="carousel carousel-manhattan">
+<div id="carousel-manhattan-5786c5040468c" class="carousel carousel-manhattan">
 	<div class="main-player">
-		<div class="overlay" data-video-id="577d85ec134aa158a638f698">
+		<div class="overlay" data-video-id="57856b9f44c8a36f9e616335">
 			<div class="overlay-container">
-									<div class="overlay-background" style="background-image: url('https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/428x243.png');" data-src="https://img.vidible.tv/prod/2016-07/07/577d85ec134aa158a638f698_1280x720_U_v2_1000_562.jpg"></div>
+									<div class="overlay-background" style="background-image: url('https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/428x243.png');" data-src="https://img.vidible.tv/prod/2016-07/13/57856b9f44c8a36f9e616335_1280x720_U_v3_1000_562.jpg"></div>
 								<div class="overlay-content">
 					<div class="title">
-						<h1>Inside Rooster Teeth&#8217;s Gaming Conference&nbsp;RTX</h1>
+						<h1>Pokemon Go what you need to&nbsp;know</h1>
 					</div>
 					<div class="subtitle">
-						<h2>21 hours ago | 2:52</h2>
+						<h2>yesterday | 2:45</h2>
 					</div>
 				</div>
 			</div>
-			<div id="carousel-manhattan-577ead74c7881-player" class="player player-transparent player-primary"></div>
-			<div id="carousel-manhattan-577ead74c7881-player-backup" class="player player-transparent player-backup"></div>
+			<div id="carousel-manhattan-5786c5040468c-player" class="player player-transparent player-primary"></div>
+			<div id="carousel-manhattan-5786c5040468c-player-backup" class="player player-transparent player-backup"></div>
 		</div>
 	</div>
 	<div class="sidebar">
@@ -1974,14 +1999,24 @@ if (!ads.isMobile()) {
 					</li>
 							</ul>
 				<div class="video-container">
-											<div class="video cf video-577d85ec134aa158a638f698" data-video-id="577d85ec134aa158a638f698">
-											<div class="img" style="background-image: url('https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png');" data-src="https://img.vidible.tv/prod/2016-07/07/577d85ec134aa158a638f698_1280x720_U_v2_300_200.jpg"></div>
+											<div class="video cf video-57856b9f44c8a36f9e616335" data-video-id="57856b9f44c8a36f9e616335">
+											<div class="img" style="background-image: url('https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png');" data-src="https://img.vidible.tv/prod/2016-07/13/57856b9f44c8a36f9e616335_1280x720_U_v3_300_200.jpg"></div>
 										<div class="video-description">
 						<p class="now-playing">NOW PLAYING</p>
 						<p class="loading">LOADING&hellip;</p>
 						<p class="up-next">UP NEXT</p>
-						<h6>Inside Rooster Teeth&#039;s Gaming Conference RTX</h6>
-						<p>21 hours ago | 2:52</p>
+						<h6>Pokemon Go what you need to know</h6>
+						<p>yesterday | 2:45</p>
+					</div>
+				</div>
+											<div class="video cf video-5776fedf869ea923344a6108" data-video-id="5776fedf869ea923344a6108">
+											<div class="img" style="background-image: url('https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png');" data-src="https://img.vidible.tv/prod/2016-07/01/5776fedf869ea923344a6108_1280x720_U_v1_300_200.jpg"></div>
+										<div class="video-description">
+						<p class="now-playing">NOW PLAYING</p>
+						<p class="loading">LOADING&hellip;</p>
+						<p class="up-next">UP NEXT</p>
+						<h6>Mini robotic printer by Zuta Labs</h6>
+						<p>Jul 1, 2016 | 2:58</p>
 					</div>
 				</div>
 											<div class="video cf video-577bfaec44c8a302d4840066" data-video-id="577bfaec44c8a302d4840066">
@@ -2002,6 +2037,16 @@ if (!ads.isMobile()) {
 						<p class="up-next">UP NEXT</p>
 						<h6>Cozmo is Anki&#039;s new tiny toy robot</h6>
 						<p>Jun 26, 2016 | 3:22</p>
+					</div>
+				</div>
+											<div class="video cf video-5776f01344c8a302d483f747" data-video-id="5776f01344c8a302d483f747">
+											<div class="img" style="background-image: url('https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png');" data-src="https://img.vidible.tv/prod/2016-07/01/5776f01344c8a302d483f747_1280x720_U_v1_300_200.jpg"></div>
+										<div class="video-description">
+						<p class="now-playing">NOW PLAYING</p>
+						<p class="loading">LOADING&hellip;</p>
+						<p class="up-next">UP NEXT</p>
+						<h6>Coleman Six-Can Sling Cooler | Summer of Doug</h6>
+						<p>Jul 1, 2016 | 4:00</p>
 					</div>
 				</div>
 											<div class="video cf video-57757bd4869ea923344a5e20" data-video-id="57757bd4869ea923344a5e20">
@@ -2034,14 +2079,14 @@ if (!ads.isMobile()) {
 						<p>Jun 27, 2016 | 2:26</p>
 					</div>
 				</div>
-											<div class="video cf video-5776eae5c7480e35861e863c" data-video-id="5776eae5c7480e35861e863c">
-											<div class="img" style="background-image: url('https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png');" data-src="https://img.vidible.tv/prod/2016-07/01/5776eae5c7480e35861e863c_1280x720_U_v2_300_200.jpg"></div>
+											<div class="video cf video-577d85ec134aa158a638f698" data-video-id="577d85ec134aa158a638f698">
+											<div class="img" style="background-image: url('https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png');" data-src="https://img.vidible.tv/prod/2016-07/07/577d85ec134aa158a638f698_1280x720_U_v2_300_200.jpg"></div>
 										<div class="video-description">
 						<p class="now-playing">NOW PLAYING</p>
 						<p class="loading">LOADING&hellip;</p>
 						<p class="up-next">UP NEXT</p>
-						<h6>Watermelon Keg Kit | Summer of Doug</h6>
-						<p>Jul 1, 2016 | 2:40</p>
+						<h6>Inside Rooster Teeth&#039;s Gaming Conference RTX</h6>
+						<p>Jul 6, 2016 | 2:52</p>
 					</div>
 				</div>
 											<div class="video cf video-57741e7076a60522486f233f" data-video-id="57741e7076a60522486f233f">
@@ -2052,36 +2097,6 @@ if (!ads.isMobile()) {
 						<p class="up-next">UP NEXT</p>
 						<h6>Apps for planning your summer holiday</h6>
 						<p>Jun 29, 2016 | 1:38</p>
-					</div>
-				</div>
-											<div class="video cf video-5773dfde869ea96e817e2d2d" data-video-id="5773dfde869ea96e817e2d2d">
-											<div class="img" style="background-image: url('https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png');" data-src="https://img.vidible.tv/prod/2016-06/30/5773dfde869ea96e817e2d2d_1280x720_U_v1_300_200.jpg"></div>
-										<div class="video-description">
-						<p class="now-playing">NOW PLAYING</p>
-						<p class="loading">LOADING&hellip;</p>
-						<p class="up-next">UP NEXT</p>
-						<h6>Meet Domgy the pet robot</h6>
-						<p>Jun 29, 2016 | 2:16</p>
-					</div>
-				</div>
-											<div class="video cf video-576b002be4b0d37af15182d7" data-video-id="576b002be4b0d37af15182d7">
-											<div class="img" style="background-image: url('https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png');" data-src="https://img.vidible.tv/prod/2016-06/27/576b002be4b0d37af15182d7_1280x720_U_v2_300_200.jpg"></div>
-										<div class="video-description">
-						<p class="now-playing">NOW PLAYING</p>
-						<p class="loading">LOADING&hellip;</p>
-						<p class="up-next">UP NEXT</p>
-						<h6>HP Spectre Hands On</h6>
-						<p>Jun 22, 2016 | 2:25</p>
-					</div>
-				</div>
-											<div class="video cf video-5776f01344c8a302d483f747" data-video-id="5776f01344c8a302d483f747">
-											<div class="img" style="background-image: url('https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png');" data-src="https://img.vidible.tv/prod/2016-07/01/5776f01344c8a302d483f747_1280x720_U_v1_300_200.jpg"></div>
-										<div class="video-description">
-						<p class="now-playing">NOW PLAYING</p>
-						<p class="loading">LOADING&hellip;</p>
-						<p class="up-next">UP NEXT</p>
-						<h6>Coleman Six-Can Sling Cooler | Summer of Doug</h6>
-						<p>Jul 1, 2016 | 4:00</p>
 					</div>
 				</div>
 					</div>
@@ -2936,7 +2951,7 @@ if (!ads.isMobile()) {
 		<a href="https://techcrunch.com/advertise/" title="Advertise on TechCrunch">
 			Advertisement		</a>
 	</small>
-	<div id="adsDiv013c05e453" class=""></div>
+	<div id="adsDivbce9c7d36d" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -2951,12 +2966,12 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484949', "250", "125", 'f', 'adsDiv013c05e453');
+			window.htmlAdWH('93484949', "250", "125", 'f', 'adsDivbce9c7d36d');
 		});
 	}(this,this.jQuery));
 }
 /* ]]> */
-</script><div id="adsDiv65bf20aad3" class=""></div>
+</script><div id="adsDiv98ec2d3f59" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -2971,12 +2986,12 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484950', "250", "125", 'f', 'adsDiv65bf20aad3');
+			window.htmlAdWH('93484950', "250", "125", 'f', 'adsDiv98ec2d3f59');
 		});
 	}(this,this.jQuery));
 }
 /* ]]> */
-</script><div id="adsDiv2c74867c38" class=""></div>
+</script><div id="adsDiv5c2797e0bd" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -2991,7 +3006,7 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484951', "250", "125", 'f', 'adsDiv2c74867c38');
+			window.htmlAdWH('93484951', "250", "125", 'f', 'adsDiv5c2797e0bd');
 		});
 	}(this,this.jQuery));
 }
@@ -3011,7 +3026,7 @@ if (!ads.isMobile()) {
 				<div class="gi">
 					<h4 class="footer-logo-crunch-network"><img src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/crunch-network.jpg"/></h4>
 					<div>
-						<ul class="footer-links-about"><li id="menu-item-899764" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-899764"><a href="https://techcrunch.com/">News</a></li>
+						<ul class="footer-links-about"><li id="menu-item-899764" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-899764"><a href="https://techcrunch.com/">News</a></li>
 <li id="menu-item-899765" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-899765"><a href="https://techcrunch.com/video/">TCTV</a></li>
 <li id="menu-item-899766" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-899766"><a href="https://techcrunch.com/events/">Events</a></li>
 <li id="menu-item-899767" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-899767"><a href="http://www.crunchbase.com">CrunchBase</a></li>
@@ -3090,7 +3105,7 @@ if (!ads.isMobile()) {
 <div class="">
 	<p class="crunchdaily-tagline">Latest headlines delivered to you daily</p>
 	<div class="newsletter newsletter-side-bar-crunchdaily">
-		<form method="post" class="inline-form form-newsletters crunchdaily-newsletter" data-crunchlist="crunchdaily" action="https://link.techcrunch.com/s/Readership" data-nonce="3a8c9074a4">
+		<form method="post" class="inline-form form-newsletters crunchdaily-newsletter" data-crunchlist="crunchdaily" action="https://link.techcrunch.com/s/Readership" data-nonce="3587289696">
 			<input type="checkbox" name="crunchdaily" checked="checked" class="is-hidden">
 			<fieldset>
 				<legend>Subscribe to &lt;span class=&quot;no-mobile&quot;&gt;Subscribe to &lt;/span&gt;TechCrunch Daily</legend>
@@ -3158,7 +3173,7 @@ if (!ads.isMobile()) {
 </script>
 <!-- END Parse.ly Include: Standard -->
 	<script type="application/ld+json">
-		{"@context":"http:\/\/schema.org","@type":"ItemList","url":"https:\/\/techcrunch.com\/","itemListElement":[{"@type":"ListItem","position":1,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/ios-10-preview\/"},{"@type":"ListItem","position":2,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/how-berlin-can-become-europes-no-1-tech-hub\/"},{"@type":"ListItem","position":3,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/ch-ch-ch-changes-at-microsoft-as-coo-kevin-turner-heading-for-the-exits\/"},{"@type":"ListItem","position":4,"url":"https:\/\/techcrunch.com\/2016\/07\/06\/pokemon-go-an-education\/"},{"@type":"ListItem","position":5,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/art-mecanique-kickstarts-a-mechanical-watch-with-a-few-high-tech-trimmings\/"},{"@type":"ListItem","position":6,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/android-full-disk-encryption\/"},{"@type":"ListItem","position":7,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/vyclone-hits-the-deadpool\/"},{"@type":"ListItem","position":8,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/self-driving-bus-japan\/"},{"@type":"ListItem","position":9,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/microsoft-now-helps-businesses-use-the-data-that-powers-bing-predicts\/"},{"@type":"ListItem","position":10,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/drupe-reimagines-the-address-book-with-3-million-in-funding\/"},{"@type":"ListItem","position":11,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/apple-just-released-the-first-ios-10-beta-to-everyone\/"},{"@type":"ListItem","position":12,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/zolt-blocks-news-you-hate\/"},{"@type":"ListItem","position":13,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/yahoo-news-finance-weather-bot\/"},{"@type":"ListItem","position":14,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/amazon-echo-users-can-finally-choose-spotify-or-pandora-as-default-music-service\/"},{"@type":"ListItem","position":15,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/google-starts-experimenting-with-quantum-secure-connections-in-chrome\/"},{"@type":"ListItem","position":16,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/bumble-is-going-to-help-you-find-your-next-job-with-bumblebizz\/"},{"@type":"ListItem","position":17,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/the-first-macos-sierra-public-beta-is-coming-today\/"},{"@type":"ListItem","position":18,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/lyfts-latest-launch-is-luxury\/"},{"@type":"ListItem","position":19,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/a-tesla-model-s-with-lidar-spotted-on-the-road-around-palo-alto\/"},{"@type":"ListItem","position":20,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/nvidias-gtx-1060-promises-vr-ready-performance-at-249\/"},{"@type":"ListItem","position":21,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/ios-10-preview\/"},{"@type":"ListItem","position":22,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/how-berlin-can-become-europes-no-1-tech-hub\/"},{"@type":"ListItem","position":23,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/canadian-self-driving-program-further-slowed-by-tesla-autopilot-fatality\/"},{"@type":"ListItem","position":24,"url":"https:\/\/techcrunch.com\/2016\/07\/07\/join-author-and-futurist-neal-stephenson-at-disrupt-sf-2016\/"}]}	</script> <noscript><img src="https://sb.scorecardresearch.com/b?c1=2&c2=6036210&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="height:0;width:0;visibility:hidden" /></noscript><img src="https://tag.researchnow.com/t/beacon?pr=6222&#038;ca=TechAudience&#038;pl=369852140&#038;cr=&#038;si=584213&#038;adn=3&#038;tt=3&#038;a=1"><script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201627y'></script>
+		{"@context":"http:\/\/schema.org","@type":"ItemList","url":"https:\/\/techcrunch.com\/","itemListElement":[{"@type":"ListItem","position":1,"url":"https:\/\/techcrunch.com\/gallery\/a-look-inside-facebooks-data-center\/"},{"@type":"ListItem","position":2,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/pokemon-go-tops-twitters-daily-users-sees-more-engagement-than-facebook\/"},{"@type":"ListItem","position":3,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/facebook-lifts-the-veil-on-its-mobile-device-lab\/"},{"@type":"ListItem","position":4,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/trace-genomics-launches-a-23andme-for-farms-raises-4-million-to-improve-the-worlds-food-supply\/"},{"@type":"ListItem","position":5,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/pokemon-go-will-soon-get-ads-in-the-form-of-sponsored-locations\/"},{"@type":"ListItem","position":6,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/blockchain-based-banking-backend-vault-os-from-ex-googler-emerges-from-stealth-mode\/"},{"@type":"ListItem","position":7,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/non-artificial-intelligence-please\/"},{"@type":"ListItem","position":8,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/endangered-ferrets-are-being-saved-by-drones-that-drop-vaccine-laced-mms\/"},{"@type":"ListItem","position":9,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/farmigo-shuts-down-its-online-farmers-market\/"},{"@type":"ListItem","position":10,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/bionic-knee-brace\/"},{"@type":"ListItem","position":11,"url":"https:\/\/techcrunch.com\/gallery\/a-look-inside-facebooks-data-center\/"},{"@type":"ListItem","position":12,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/sharegrid\/"},{"@type":"ListItem","position":13,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/the-future-of-car-ownership-that-no-one-is-talking-about\/"},{"@type":"ListItem","position":14,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/linux-users-can-now-make-skype-calls-from-the-web-in-chrome\/"},{"@type":"ListItem","position":15,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/nintendos-new-magic\/"},{"@type":"ListItem","position":16,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/pokemon-go-tops-twitters-daily-users-sees-more-engagement-than-facebook\/"},{"@type":"ListItem","position":17,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/land-rovers-lead-engineer-explains-autonomous-off-road-driving\/"},{"@type":"ListItem","position":18,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/fluance-rt81\/"},{"@type":"ListItem","position":19,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/facebook-lifts-the-veil-on-its-mobile-device-lab\/"},{"@type":"ListItem","position":20,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/apple-is-moving-forward-with-its-reality-tv-show-planet-of-the-apps\/"},{"@type":"ListItem","position":21,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/trace-genomics-launches-a-23andme-for-farms-raises-4-million-to-improve-the-worlds-food-supply\/"},{"@type":"ListItem","position":22,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/unity-announces-181-million-monster-round-led-by-dfj-growth\/"},{"@type":"ListItem","position":23,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/instagrams-algorithmic-feed-is-the-worst-thing-to-happen-to-me-all-summer\/"},{"@type":"ListItem","position":24,"url":"https:\/\/techcrunch.com\/2016\/07\/13\/ants\/"}]}	</script> <noscript><img src="https://sb.scorecardresearch.com/b?c1=2&c2=6036210&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="height:0;width:0;visibility:hidden" /></noscript><img src="https://tag.researchnow.com/t/beacon?pr=6222&#038;ca=TechAudience&#038;pl=369852140&#038;cr=&#038;si=584213&#038;adn=3&#038;tt=3&#038;a=1"><script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201628y'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var WPGroHo = {"my_hash":""};
@@ -3208,7 +3223,7 @@ var TC_Header_Settings = {"mobile_collapse_offset":"300","hide_on_mobile_scroll_
 var TC_Async_Scripts = {"tc-mediavoice-MCtc":"https:\/\/cdn.mediavoice.com\/nativeads\/script\/aolibrands\/MCtc.js","tc_livefyre":"\/\/cdn.livefyre.com\/libs\/commentcount\/v1.0\/commentcount.js","tc_gravity":"https:\/\/b-ssl.grvcdn.com\/moth-min.js","commscore":"https:\/\/sb.scorecardresearch.com\/beacon.js","aol_universal_navbar":"https:\/\/s.aolcdn.com\/os\/aol\/unb.min.js","swiftype_crawler":"\/\/s.swiftypecdn.com\/cc\/zYD5B5-eXtZN9_epXvoo.js"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVjUEKwjAQRS9knKYWiwvxLG06NBObMWQmLd5eKhY3UnD34fPegyUZ92BFVojFpKmMxAK6kCpm00+du/eUB5MIISEPxOMxyAH+4RhnzL9Z9RhRYKYEmyMV8SVB2NYxEu8ka7PC4e0wHXfTU8nJTkfReZcLO2/qyp6gE0GV1fB9Ps1bvNrm3F5sWzU2vADRSW75'></script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVjUEKwjAQRS9kOjYW6UY8S5oOzcRmDJlJi7eXisWNCO4+fN57sGbj76zICqmaPNeJWEBXUsVihtn520BlNJkQMvJIPDVRDvAPx7hg+c5qwIQCC2XYHblKqBnivppE/CNpzQbHl8M4dvNDycuPjqIPvlT2wdhjewIngiqb4fO8m9d0abtzb3tr2y4+AdE2bvc='></script>
 <script type="text/javascript">
 // <![CDATA[
 (function() {
@@ -3233,7 +3248,7 @@ _stq = window._stq || [];
 _tkq.push(['storeContext', {'blog_id':'24588526','blog_tz':'-7','user_lang':'en','blog_lang':'en','user_id':'0'}]);
 _stq.push(['view', {'blog':'24588526','v':'wpcom','tz':'-7','user_id':'0','subd':'tctechcrunch2011'}]);
 function st_vt() {var x=document.createElement("img");x.src="https://pixel.wp.com/g.gif?blog=24588526&v=wpcomvt&tz=-7&user_id=0&subd=tctechcrunch2011&rand="+Math.random();}
-_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtXRThKbHcwXTdETWI1alhvb1oseHImN101ZFpEakVpYjlQYVFLYzBaVHRtPz0wXS9bUV05fk9JPTFfdlhyYStyZUstX2w4fj1dNE1KNl9LM1pNWF1BLWh+cmpIRDVfaS9CXVZGZ3hxTUlnN1h2dUtSNC1FSitdOTY4K3AuTFhMbmlWM2xEJVRYc1NUJVtkYnw4VnV+VFtZN0x6bHNfWThtaVRTbls1dHEwQz18Qi11RC1QP0MlVD8/UjFIeWZNNy9xL0QmenxXbFMsbUJu'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtXRThKbHcwXTdETWI1alhvb1oseHImN101ZFpEakVpYjlQYVFLYzBaVHRtPz0wXS9bUV05fk9JPTFfdlhyYStyZUstX2w4fj1dNE1KNl9LM1p0TFZ4aTJyM1lGOWdsLURUdThpUjFoQkNQOTFtZ1J5LE1wV005U0wyVk9qMDF4Y0RdJUdzeHZxXW8vM2tDMXFrNy49bzZhKzNfTk1DRj05VG1NY2hnYV9mcTROOV1KTWllS3kyTVViR0NXbD1TVloxaUJ8U09pelY1MWk4'}]);
 _stq.push([ 'clickTrackerInit', '24588526', '0' ]);
 	</script>
 <noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
@@ -3355,85 +3370,69 @@ if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
 		</div>
 		<div class="trending-container">
 			
-						<a href="https://techcrunch.com/2016/07/07/ios-10-preview/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/13/pokemon-go-tops-twitters-daily-users-sees-more-engagement-than-facebook/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								iOS 10 preview: Apple breaks down its walled&nbsp;garden							</div>
+								Pokémon Go tops Twitter&#8217;s daily users, sees more engagement than&nbsp;Facebook							</div>
 							<div class="trending-byline">
-								4 hours ago by Romain Dillet							</div>
+								6 hours ago by Sarah Perez							</div>
 						</a>
 
 				
-						<a href="https://techcrunch.com/2016/07/07/apple-just-released-the-first-ios-10-beta-to-everyone/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/13/unity-announces-181-million-monster-round-led-by-dfj-growth/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								Apple just released the first iOS 10 beta to&nbsp;everyone							</div>
+								Unity raises $181M monster round at a reported $1.5B&nbsp;valuation							</div>
 							<div class="trending-byline">
-								2 hours ago by Romain Dillet							</div>
+								7 hours ago by Lucas Matney							</div>
 						</a>
 
 				
-						<a href="https://techcrunch.com/2016/07/06/tesla-autopilot-2-0-rumor/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/11/the-brilliant-mechanics-of-pokemon-go/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								Tesla&#8217;s reported Autopilot 2.0 will face new goalposts for &#8216;smart&#8217;							</div>
+								The brilliant mechanics of Pokémon&nbsp;Go							</div>
 							<div class="trending-byline">
-								21 hours ago by Darrell Etherington							</div>
+								Jul 11, 2016 by Matthew Lynley							</div>
 						</a>
 
 				
-						<a href="https://techcrunch.com/2016/07/06/the-land-grab-for-farm-data/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/13/facebook-lifts-the-veil-on-its-mobile-device-lab/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								The land grab for farm&nbsp;data							</div>
+								Facebook lifts the veil on its mobile device testing&nbsp;lab							</div>
 							<div class="trending-byline">
-								yesterday by Jason Tatge							</div>
+								6 hours ago by Frederic Lardinois							</div>
 						</a>
 
 				
-						<a href="https://techcrunch.com/2016/07/06/pokemon-go-an-education/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/13/pokemon-go-will-soon-get-ads-in-the-form-of-sponsored-locations/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								Pokémon Go has already taught me so&nbsp;much							</div>
+								Pokémon Go will soon get ads in the form of sponsored&nbsp;locations							</div>
 							<div class="trending-byline">
-								22 hours ago by Darrell Etherington							</div>
+								1 hour ago by Lucia Maffei							</div>
 						</a>
 
 				
-						<a href="https://techcrunch.com/2016/07/06/key-trends-in-machine-learning-and-ai/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/13/the-future-of-car-ownership-that-no-one-is-talking-about/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								Key trends in machine learning and&nbsp;AI							</div>
+								The future of car ownership that no one is talking&nbsp;about							</div>
 							<div class="trending-byline">
-								23 hours ago by S. Somasegar, Daniel Li							</div>
+								3 hours ago by Ned Ryan							</div>
 						</a>
 
 				
-						<a href="https://techcrunch.com/2016/07/07/bumble-is-going-to-help-you-find-your-next-job-with-bumblebizz/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/12/magic-leap-says-it-will-debut-its-product-hopefully-soonish/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								Bumble is going to help you find your next job with&nbsp;BumbleBizz							</div>
+								Magic Leap says it will debut its product . . . &#8220;hopefully soonish&#8221;							</div>
 							<div class="trending-byline">
-								3 hours ago by Fitz Tepper							</div>
-						</a>
-
-				
-						<a href="https://techcrunch.com/2016/07/07/ch-ch-ch-changes-at-microsoft-as-coo-kevin-turner-heading-for-the-exits/?ncid=mobilenavtrend" class="trending-post">
-							<div class="trending-title">
-								Ch-ch-ch-changes at Microsoft as COO Kevin Turner heads for the&nbsp;exits							</div>
-							<div class="trending-byline">
-								5 hours ago by Ron Miller							</div>
-						</a>
-
-				
-						<a href="https://techcrunch.com/2016/07/07/google-starts-experimenting-with-quantum-secure-connections-in-chrome/?ncid=mobilenavtrend" class="trending-post">
-							<div class="trending-title">
-								Google starts experimenting with quantum-secure connections in&nbsp;Chrome							</div>
-							<div class="trending-byline">
-								3 hours ago by Frederic Lardinois							</div>
+								21 hours ago by Connie Loizos							</div>
 						</a>
 
 									</div>
 	</div>
-</div><!--Page generated in 0.8755 seconds.-->
+</div><!--Page generated in 0.9332 seconds.-->
 </body>
 </html>
 <!--
-	generated 262 seconds ago
-	generated in 0.947 seconds
+	generated 127 seconds ago
+	generated in 0.974 seconds
 	served from batcache in 0.004 seconds
-	expires in 38 seconds
+	expires in 173 seconds
 -->

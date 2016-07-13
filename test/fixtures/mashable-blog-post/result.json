@@ -2,7 +2,7 @@
   "contentUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3",
   "originalUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3",
   "encodingFormat": "text/html",
-  "contentSize": 12850,
+  "contentSize": 12713,
   "type": "html",
   "meta": {
     "jsonLd": {
@@ -42,7 +42,7 @@
       "datePublished": "2016-06-17T15:35:08Z",
       "author": "Andrea Romano",
       "creator": "Andrea Romano",
-      "dateModified": "2016-06-30T17:41:09Z",
+      "dateModified": "2016-07-11T20:53:50Z",
       "articleSection": "watercooler"
     },
     "html": {
@@ -110,7 +110,7 @@
         "http://ogp.me/ns#description": "Let us count the ways we hope Ramsey will die.",
         "http://ogp.me/ns#image": "http://a.amz.mshcdn.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2MzAKZQlqcGc/8e6659fa/25e/battleofthebastards.jpg",
         "http://ogp.me/ns#article:published_time": "2016-06-17T15:35:08Z",
-        "http://ogp.me/ns#article:modified_time": "2016-06-30T17:41:09Z",
+        "http://ogp.me/ns#article:modified_time": "2016-07-11T20:53:50Z",
         "http://ogp.me/ns#article:publisher": "https://www.facebook.com/mashable"
       }
     }

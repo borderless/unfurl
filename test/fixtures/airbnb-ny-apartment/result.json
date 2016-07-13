@@ -2,6 +2,7 @@
   "contentUrl": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
   "originalUrl": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
   "encodingFormat": "text/html",
+  "contentSize": 92786,
   "type": "html",
   "meta": {
     "html": {
@@ -64,8 +65,7 @@
         "name": "Bright, Chelsea Studio",
         "aggregateRating": {
           "@type": "http://schema.org/AggregateRating",
-          "ratingValue": "5",
-          "reviewCount": "15"
+          "ratingValue": "5"
         },
         "offers": {
           "@type": "http://schema.org/Offer",

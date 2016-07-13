@@ -121,12 +121,12 @@
 <link rel="alternate" type="application/json+oembed" href="https://www.nytimes.com/svc/oembed/json/?url=http%3A%2F%2Fwww.nytimes.com%2F2016%2F06%2F15%2Fopinion%2Fcampaign-stops%2Fdecoding-donald-trump.html" title="Decoding Donald Trump" />
     
                 <!--[if (gt IE 9)|!(IE)]> <!-->
-        <link rel="stylesheet" type="text/css" media="screen" href="https://a1.nyt.com/assets/article/20160706-174109/css/article/story/styles.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="https://a1.nyt.com/assets/article/20160712-095751/css/article/story/styles.css" />
     <!--<![endif]-->
     <!--[if lte IE 9]>
-        <link rel="stylesheet" type="text/css" media="screen" href="https://a1.nyt.com/assets/article/20160706-174109/css/article/story/styles-ie.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="https://a1.nyt.com/assets/article/20160712-095751/css/article/story/styles-ie.css" />
     <![endif]-->
-<link rel="stylesheet" type="text/css" media="print" href="https://a1.nyt.com/assets/article/20160706-174109/css/article/story/styles-print.css" />
+<link rel="stylesheet" type="text/css" media="print" href="https://a1.nyt.com/assets/article/20160712-095751/css/article/story/styles-print.css" />
                 <script id="page-config-data" type="text/json">
 {"pageconfig":{"ledeMediaSize":"large","keywords":["Op-Ed Columnist","andrew-rosenthal","article-medium","has-embedded-interactive"],"collections":{"columns":["andrew-rosenthal"],"sections":["opinion","politics","campaign-stops"],"newsevents":["2016-orlando-shooting"]}}}</script>
 <script id="display_overrides">
@@ -224,7 +224,7 @@
 
 <!--  begin abra  -->
 
-<script>/* nyt-a: 98643ec530c552da6a22d478a59ff9af */var NYTD=NYTD||{};NYTD.Abra=function(t,n,e){"use strict";function o(e,o){var u=n[e]||{};u[1]?r("ab-expose",e,u[0],o):o&&t.setTimeout(function(){o(null)},0)}function u(t){var e=n[t]||{};return e[0]||null}function r(n,e,o,u){f+="subject="+n+"&test="+encodeURIComponent(e)+"&variant="+encodeURIComponent(o||0)+"&instant=1&skipAugment=true\n",u&&p.push(u),c||(c=t.setTimeout(a,0))}function a(){var n=new t.XMLHttpRequest,o=p;n.withCredentials=!0,n.open("POST",e),n.onreadystatechange=function(){var t,e;if(4==n.readyState)for(t=200==n.status?null:new Error(n.statusText);e=o.shift();)e(t)},n.send(f),f="",p=[],c=null}var s,i,c,l=[],f="",p=[];for(s in n)i=n[s],i[0]&&l.push(s+"="+i[0]),i[1]&&r("ab-alloc",s,i[0]);return l.length&&t.document.documentElement.setAttribute("data-nyt-ab",l.join(" ")),u.reportExposure=o,u}(this,{"www-article-sample":["2a",1],"EC_SampleTest":["variantB"]},"//et.nytimes.com");</script>
+<script>/* nyt-a: abba22cfbba5b4d93f553b05477cbb3c */var NYTD=NYTD||{};NYTD.Abra=function(t,n,e){"use strict";function o(e,o){var u=n[e]||{};u[1]?r("ab-expose",e,u[0],o):o&&t.setTimeout(function(){o(null)},0)}function u(t){var e=n[t]||{};return e[0]||null}function r(n,e,o,u){f+="subject="+n+"&test="+encodeURIComponent(e)+"&variant="+encodeURIComponent(o||0)+"&instant=1&skipAugment=true\n",u&&p.push(u),c||(c=t.setTimeout(a,0))}function a(){var n=new t.XMLHttpRequest,o=p;n.withCredentials=!0,n.open("POST",e),n.onreadystatechange=function(){var t,e;if(4==n.readyState)for(t=200==n.status?null:new Error(n.statusText);e=o.shift();)e(t)},n.send(f),f="",p=[],c=null}var s,i,c,l=[],f="",p=[];for(s in n)i=n[s],i[0]&&l.push(s+"="+i[0]),i[1]&&r("ab-alloc",s,i[0]);return l.length&&t.document.documentElement.setAttribute("data-nyt-ab",l.join(" ")),u.reportExposure=o,u}(this,{"EC_SampleTest":["variantB"]},"//et.nytimes.com");</script>
 
 <!--  end abra  -->
 
@@ -244,10 +244,10 @@ var require = {
     baseUrl: 'https://a1.nyt.com/assets/',
     waitSeconds: 20,
     paths: {
-        'foundation': 'article/20160706-174109/js/foundation',
-        'shared': 'article/20160706-174109/js/shared',
-        'article': 'article/20160706-174109/js/article',
-        'application': 'article/20160706-174109/js/article/story',
+        'foundation': 'article/20160712-095751/js/foundation',
+        'shared': 'article/20160712-095751/js/shared',
+        'article': 'article/20160712-095751/js/article',
+        'application': 'article/20160712-095751/js/article/story',
         'videoFactory': 'https://static01.nyt.com/js2/build/video/2.0/videofactoryrequire',
         'videoPlaylist': 'https://static01.nyt.com/js2/build/video/players/extended/2.0/appRequire',
         'auth/mtr': 'https://static01.nyt.com/js/mtr',
@@ -262,23 +262,23 @@ var require = {
 };
 </script>
 <!--[if (gte IE 9)|!(IE)]> <!-->
-<script data-main="foundation/main" src="https://a1.nyt.com/assets/article/20160706-174109/js/foundation/lib/framework.js"></script>
+<script data-main="foundation/main" src="https://a1.nyt.com/assets/article/20160712-095751/js/foundation/lib/framework.js"></script>
 <!--<![endif]-->
 <!--[if lt IE 9]>
 <script>
     require.map['*']['foundation/main'] = 'foundation/legacy_main';
 </script>
-<script data-main="foundation/legacy_main" src="https://a1.nyt.com/assets/article/20160706-174109/js/foundation/lib/framework.js"></script>
+<script data-main="foundation/legacy_main" src="https://a1.nyt.com/assets/article/20160712-095751/js/foundation/lib/framework.js"></script>
 <![endif]-->
 <script>
-window.magnum.processFlags(["limitFabrikSave","moreFollowSuggestions","unfollowComments","scoopTool","videoVHSCover","videoVHSShareTools","videoVHSLive","videoVHSNewControls","videoVHSEmbeddedOnly","allTheEmphases","freeTrial","dedupeWhatsNext","trendingPageLinks","sprinklePaidPost","headerBidder","largeLedeXXL","standardizeWhatsNextCollection","onlyLayoutA","simple","simpleExtendedByline","collectionsWhatsNext","shareToolsUnderHeadline","mobileMediaViewer","whitelistInterstitial","storyPrint","podcastInLede","MovieTickets","requestTragedyAd","MoreInSubsectionFix","seriesIssueMarginalia","serverSideCollectionUrls","multipleBylines","minimalAds","adDisclaimer","bleedtransitions","inlineAdStyles","fabrikWebsocketsOnly","reviewsMapZoom","phaseOneAds"]);
+window.magnum.processFlags(["limitFabrikSave","moreFollowSuggestions","unfollowComments","scoopTool","videoVHSCover","videoVHSShareTools","videoVHSLive","videoVHSNewControls","videoVHSEmbeddedOnly","allTheEmphases","freeTrial","dedupeWhatsNext","trendingPageLinks","sprinklePaidPost","headerBidder","largeLedeXXL","standardizeWhatsNextCollection","onlyLayoutA","simple","simpleExtendedByline","collectionsWhatsNext","shareToolsUnderHeadline","mobileMediaViewer","whitelistInterstitial","storyPrint","podcastInLede","MovieTickets","requestTragedyAd","MoreInSubsectionFix","seriesIssueMarginalia","serverSideCollectionUrls","multipleBylines","minimalAds","adDisclaimer","bleedtransitions","inlineAdStyles","fabrikWebsocketsOnly","translationLinks","reviewsMapZoom","phaseOneAds"]);
 </script>
 <script>
 require(['foundation/main'], function () {
     require(['auth/mtr', 'auth/growl']);
 });
 </script>
-<script src="https://a1.nyt.com/assets/article/20160706-174109/js/article/common/layout.js"></script></head>
+<script src="https://a1.nyt.com/assets/article/20160712-095751/js/article/common/layout.js"></script></head>
 <body>
     
     <style>
@@ -355,7 +355,7 @@ require(['foundation/main'], function () {
                     <span class="visually-hidden">The New York Times</span>
                 </a>
             </h2>
-            <script>window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/article/20160706-174109/images/foundation/logos/', 'opinion', 'masthead-theme-standard', 'standard', 'branding-heading-link', 'article');</script>
+            <script>window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/article/20160712-095751/images/foundation/logos/', 'opinion', 'masthead-theme-standard', 'standard', 'branding-heading-link', 'article');</script>
         </div><!-- close branding -->
                 <div class="story-meta">
             <h6 class="kicker"><span class="kicker-label"><a href="http://www.nytimes.com/section/opinion/campaign-stops">The Opinion Pages</a></span><span class="pipe">|</span>Decoding Donald Trump</h6>
@@ -631,6 +631,16 @@ require(['foundation/main'], function() {
         </header>
         <ul>
                         <li><article class="story theme-summary">
+    <a class="story-link" href="http://www.nytimes.com/2016/07/11/business/front-page-editorials-aim-to-soothe-the-grief-stricken.html?rref=collection%2Fnewseventcollection%2FOrlando Shooting">
+        <h2 class="headline">
+            <span class="headline-text">
+                                Front-Page Editorials Aim to Soothe the Grief-Stricken            </span>
+            <time class="dateline" datetime="2016-07-10 19:35">JUL 10</time>
+        </h2>
+    </a>
+</article>
+</li>
+                        <li><article class="story theme-summary">
     <a class="story-link" href="http://www.nytimes.com/2016/07/07/arts/music/hands-charity-single-orlando.html?rref=collection%2Fnewseventcollection%2FOrlando Shooting">
         <h2 class="headline">
             <span class="headline-text">
@@ -668,16 +678,6 @@ require(['foundation/main'], function() {
             <span class="headline-text">
                                 New Documents Question Timeline in Orlando Nightclub Massacre            </span>
             <time class="dateline" datetime="2016-06-30 21:38">JUN 30</time>
-        </h2>
-    </a>
-</article>
-</li>
-                        <li><article class="story theme-summary">
-    <a class="story-link" href="http://www.nytimes.com/2016/06/30/insider/repeating-a-delicate-reporting-routine-after-four-mass-shootings.html?rref=collection%2Fnewseventcollection%2FOrlando Shooting">
-        <h2 class="headline">
-            <span class="headline-text">
-                                What It’s Like to Cover Mass Shootings — One After the Other            </span>
-            <time class="dateline" datetime="2016-06-30 14:32">JUN 30</time>
         </h2>
     </a>
 </article>
@@ -948,7 +948,7 @@ require(['foundation/main'], function() {
                 <span class="visually-hidden">The New York Times</span>
             </a>
         </h2>
-        <script>window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/article/20160706-174109/images/foundation/logos/', '', '', 'standard', 'site-index-branding-link', '');</script>
+        <script>window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/article/20160712-095751/images/foundation/logos/', '', '', 'standard', 'site-index-branding-link', '');</script>
     </header>
 
     <nav id="site-index-navigation" class="site-index-navigation" role="navigation">
@@ -1438,5 +1438,5 @@ require(['foundation/main'], function () {
 <div id="prop2" class="ad prop2-ad hidden"></div>
 <div id="Anchor" class="ad anchor-ad hidden"></div>
 <div id="ADX_CLIENTSIDE" class="ad adx-clientside-ad hidden"></div>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b5bcf2eba4","applicationID":"4491457","transactionName":"YwFXZhRYVhAEVUZcX1pLYEAPFlkTFRhCXUA=","queueTime":0,"applicationTime":183,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b5bcf2eba4","applicationID":"4491951","transactionName":"YwFXZhRYVhAEVUZcX1pLYEAPFlkTFRhCXUA=","queueTime":0,"applicationTime":351,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

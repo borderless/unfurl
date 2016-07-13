@@ -2,15 +2,15 @@
   "originalUrl": "http://www.yelp.com/biz/boba-guys-san-francisco-4",
   "contentUrl": "http://www.yelp.com/biz/boba-guys-san-francisco-4",
   "headers": {
-    "date": "Thu, 07 Jul 2016 19:33:16 GMT",
+    "date": "Wed, 13 Jul 2016 22:49:42 GMT",
     "content-type": "text/html; charset=UTF-8",
     "transfer-encoding": "chunked",
     "connection": "close",
     "set-cookie": [
-      "__cfduid=d2e092531d92b879ab8d57d87f82f79501467919993; expires=Fri, 07-Jul-17 19:33:13 GMT; path=/; domain=.yelp.com; HttpOnly",
-      "yuv=COSMkIT0RhrOrGbiYeus7CqTIPMeH0DXb3kZDFNt_pgCy6fSOsYt7wn39L2GoO_x-9ifSmB7Xxd-rRFhoD7ASyVFdPD3qcYo; Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Wed, 02-Jul-2036 19:33:13 GMT",
-      "bse=8bd15991e4720e519e756446c774a165; Domain=.yelp.com; Path=/; HttpOnly",
-      "hl=en_US; Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Wed, 02-Jul-2036 19:33:15 GMT"
+      "__cfduid=df1662b202ed6c2398fe93b6134713c7b1468450180; expires=Thu, 13-Jul-17 22:49:40 GMT; path=/; domain=.yelp.com; HttpOnly",
+      "yuv=gd7QCvAtcLTpdDC4ndaxXkFY81oUM4dCag3zECEPVbNO_jNKsWOldECUq6NnnMkTGb8LOBOHMwKqJPVuTYy3noDE35EQrrpz; Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Tue, 08-Jul-2036 22:49:40 GMT",
+      "bse=9079a30387136a6483d093bc42a29cb3; Domain=.yelp.com; Path=/; HttpOnly",
+      "hl=en_US; Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Tue, 08-Jul-2036 22:49:42 GMT"
     ],
     "vary": [
       "Accept-Encoding",
@@ -20,13 +20,13 @@
     "x-mode": "ro",
     "x-node": [
       "www_all",
-      "10-64-163-81-uswest1bprod"
+      "10-64-90-5-uswest1aprod"
     ],
-    "x-proxied": "10-64-16-235-uswest1bprod",
+    "x-proxied": "10-64-16-56-uswest1bprod",
     "x-xss-protection": "1; report=https://www.yelp.com/xss_protection_report",
     "content-encoding": "gzip",
     "server": "cloudflare-nginx",
-    "cf-ray": "2bedba19830e11e3-SJC"
+    "cf-ray": "2c204a1a5caf213e-EWR"
   },
   "status": 200,
   "statusText": "OK"

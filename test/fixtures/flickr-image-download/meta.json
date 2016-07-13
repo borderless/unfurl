@@ -1,0 +1,26 @@
+{
+  "originalUrl": "https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg",
+  "contentUrl": "https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg",
+  "headers": {
+    "date": "Wed, 13 Jul 2016 19:24:25 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "12383845",
+    "x-photo-farm": "9",
+    "p3p": "policyref=\"https://policies.yahoo.com/w3c/p3p.xml\", CP=\"CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV\"",
+    "x-photo-origin": "bf1",
+    "cache-control": "max-age=315360000,public",
+    "expires": "Tue, 14 Jul 2026 03:13:06 UTC",
+    "last-modified": "Tue, 12 Jul 2016 14:02:14 GMT",
+    "accept-ranges": "bytes",
+    "age": "20655",
+    "via": "http/1.1 pc-pool103.flickr.bf1.yahoo.com (ApacheTrafficServer [cHs f ]), http/1.1 ct2.ycs.dcb.yahoo.net (ApacheTrafficServer [cRs f ])",
+    "server": "ATS",
+    "x-photo-farm-guess": "9",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "POST, GET, OPTIONS",
+    "connection": "close",
+    "y-trace": "BAEAQAAAAADYiKaocl9m2AAAAAAAAAAAf.b4Elq0lyIAAAAAAAAAAAAFN4wzYzL_AAU3jDNjNFe8legTAAAAAA--"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

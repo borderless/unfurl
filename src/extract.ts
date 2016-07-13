@@ -10,21 +10,22 @@ import {
   HtmlResultMeta,
   ImageResult,
   VideoResult,
+  LinkResult,
   VideoSnippet,
   LinkSnippet,
   Snippet,
   ImageSnippet,
   HtmlContentType,
   HtmlSnippet,
-  SnippetImage,
-  SnippetAppLink,
-  SnippetApps,
-  SnippetAudio,
-  SnippetLocale,
-  SnippetPlayer,
-  SnippetVideo,
-  SnippetTwitter,
-  SnippetIcon,
+  HtmlSnippetImage,
+  HtmlSnippetAppLink,
+  HtmlSnippetApps,
+  HtmlSnippetAudio,
+  HtmlSnippetLocale,
+  HtmlSnippetPlayer,
+  HtmlSnippetVideo,
+  HtmlSnippetTwitter,
+  HtmlSnippetIcon,
   Options
 } from './interfaces'
 
@@ -36,8 +37,7 @@ export function extract (result: Result, options: Options = {}): Snippet {
     return
   }
 
-  const { type } = result
-  const extract = (extracts as any)[type]
+  const extract = (extracts as any)[result.type]
 
   if (extract) {
     return extract(result, options)
@@ -52,24 +52,56 @@ export function extractFromUrl (url: string, options?: Options): Promise<Snippet
 }
 
 export interface Extracts {
-  video (result: Result, options: Options): VideoSnippet
-  image (result: Result, options: Options): ImageSnippet
-  html (result: Result, options: Options): HtmlSnippet
-  link (result: Result, options: Options): LinkSnippet
+  video (result: VideoResult, options: Options): VideoSnippet
+  image (result: ImageResult, options: Options): ImageSnippet
+  html (result: HtmlResult, options: Options): HtmlSnippet
+  link (result: LinkResult, options: Options): LinkSnippet
 }
 
 export const extracts: Extracts = {
   image (result, options): ImageSnippet {
-    return result as ImageResult
-  },
-  video (result, options): VideoSnippet {
-    const { type } = result
+    const {
+      type,
+      encodingFormat,
+      dateModified,
+      contentSize,
+      contentUrl,
+      originalUrl,
+      width,
+      height
+    } = result as ImageResult
 
-    if (type === 'video') {
-      return result as VideoResult
+    return {
+      type,
+      encodingFormat,
+      dateModified,
+      contentSize,
+      contentUrl,
+      originalUrl,
+      width,
+      height
     }
   },
-  html (result: HtmlResult, options: Options): HtmlSnippet {
+  video (result, options): VideoSnippet {
+    const {
+      type,
+      encodingFormat,
+      dateModified,
+      contentSize,
+      contentUrl,
+      originalUrl
+    } = result as VideoResult
+
+    return {
+      type,
+      encodingFormat,
+      dateModified,
+      contentSize,
+      contentUrl,
+      originalUrl
+    }
+  },
+  html (result, options): HtmlSnippet {
     const { contentUrl, meta } = result
 
     return {
@@ -98,12 +130,22 @@ export const extracts: Extracts = {
     }
   },
   link (result, options): LinkSnippet {
+    const {
+      type,
+      encodingFormat,
+      dateModified,
+      contentSize,
+      contentUrl,
+      originalUrl
+    } = result as LinkResult
+
     return {
-      type: 'link',
-      contentUrl: result.contentUrl,
-      contentSize: result.contentSize,
-      encodingFormat: result.encodingFormat,
-      originalUrl: result.originalUrl
+      type,
+      encodingFormat,
+      dateModified,
+      contentSize,
+      contentUrl,
+      originalUrl
     }
   }
 }
@@ -270,13 +312,13 @@ function getMetaCaption (meta: HtmlResultMeta) {
 /**
  * Get the meta image url.
  */
-function getMetaImage (meta: HtmlResultMeta, baseUrl: string): SnippetImage | SnippetImage[] {
+function getMetaImage (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetImage | HtmlSnippetImage[] {
   const ogpImages = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image']) ||
     getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:url'])
   const twitterImages = getArray(meta, ['twitter', 'image']) || getArray(meta, ['twitter', 'image0'])
-  const images: SnippetImage[] = []
+  const images: HtmlSnippetImage[] = []
 
-  function addImage (newImage: SnippetImage, append: boolean) {
+  function addImage (newImage: HtmlSnippetImage, append: boolean) {
     for (const image of images) {
       if (image.url === newImage.url) {
         setProps(image, newImage)
@@ -336,12 +378,12 @@ function getMetaImage (meta: HtmlResultMeta, baseUrl: string): SnippetImage | Sn
 /**
  * Get the meta audio information.
  */
-function getMetaAudio (meta: HtmlResultMeta, baseUrl: string): SnippetAudio | SnippetAudio[] {
+function getMetaAudio (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetAudio | HtmlSnippetAudio[] {
   const ogpAudios = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#audio']) ||
     getArray(meta, ['rdfa', '', 'http://ogp.me/ns#audio:url'])
-  const audios: SnippetAudio[] = []
+  const audios: HtmlSnippetAudio[] = []
 
-  function addAudio (newAudio: SnippetAudio) {
+  function addAudio (newAudio: HtmlSnippetAudio) {
     for (const audio of audios) {
       if (audio.url === newAudio.url) {
         setProps(audio, newAudio)
@@ -375,12 +417,12 @@ function getMetaAudio (meta: HtmlResultMeta, baseUrl: string): SnippetAudio | Sn
 /**
  * Get the meta image url.
  */
-function getMetaVideo (meta: HtmlResultMeta, baseUrl: string): SnippetVideo | SnippetVideo[] {
+function getMetaVideo (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetVideo | HtmlSnippetVideo[] {
   const ogpVideos = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video']) ||
     getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video:url'])
-  const videos: SnippetVideo[] = []
+  const videos: HtmlSnippetVideo[] = []
 
-  function addVideo (newVideo: SnippetVideo) {
+  function addVideo (newVideo: HtmlSnippetVideo) {
     for (const video of videos) {
       if (video.url === newVideo.url) {
         setProps(video, newVideo)
@@ -424,7 +466,7 @@ function getMetaVideo (meta: HtmlResultMeta, baseUrl: string): SnippetVideo | Sn
 /**
  * Get apps metadata.
  */
-function getMetaApps (meta: HtmlResultMeta): SnippetApps {
+function getMetaApps (meta: HtmlResultMeta): HtmlSnippetApps {
   return {
     iphone: getMetaIphoneApp(meta),
     ipad: getMetaIpadApp(meta),
@@ -437,7 +479,7 @@ function getMetaApps (meta: HtmlResultMeta): SnippetApps {
 /**
  * Extract iPad app information from metadata.
  */
-function getMetaIpadApp (meta: HtmlResultMeta): SnippetAppLink {
+function getMetaIpadApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
   const twitterIpadUrl = getString(meta, ['twitter', 'app:url:ipad'])
   const twitterIpadId = getString(meta, ['twitter', 'app:id:ipad'])
   const twitterIpadName = getString(meta, ['twitter', 'app:name:ipad'])
@@ -468,7 +510,7 @@ function getMetaIpadApp (meta: HtmlResultMeta): SnippetAppLink {
 /**
  * Extract iPhone app information from metadata.
  */
-function getMetaIphoneApp (meta: HtmlResultMeta): SnippetAppLink {
+function getMetaIphoneApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
   const twitterIphoneUrl = getString(meta, ['twitter', 'app:url:iphone'])
   const twitterIphoneId = getString(meta, ['twitter', 'app:id:iphone'])
   const twitterIphoneName = getString(meta, ['twitter', 'app:name:iphone'])
@@ -499,7 +541,7 @@ function getMetaIphoneApp (meta: HtmlResultMeta): SnippetAppLink {
 /**
  * Extract the iOS app metadata.
  */
-function getMetaIosApp (meta: HtmlResultMeta): SnippetAppLink {
+function getMetaIosApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
   const applinksUrl = getString(meta, ['applinks', 'ios:url'])
   const applinksId = getString(meta, ['applinks', 'ios:app_store_id'])
   const applinksName = getString(meta, ['applinks', 'ios:app_name'])
@@ -516,7 +558,7 @@ function getMetaIosApp (meta: HtmlResultMeta): SnippetAppLink {
 /**
  * Extract Android app metadata.
  */
-function getMetaAndroidApp (meta: HtmlResultMeta): SnippetAppLink {
+function getMetaAndroidApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
   const twitterAndroidUrl = getString(meta, ['twitter', 'app:url:googleplay'])
   const twitterAndroidId = getString(meta, ['twitter', 'app:id:googleplay'])
   const twitterAndroidName = getString(meta, ['twitter', 'app:name:googleplay'])
@@ -545,7 +587,7 @@ function getMetaAndroidApp (meta: HtmlResultMeta): SnippetAppLink {
 /**
  * Extract Windows Phone app metadata.
  */
-function getMetaWindowsPhoneApp (meta: HtmlResultMeta): SnippetAppLink {
+function getMetaWindowsPhoneApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
   const applinksWindowsPhoneUrl = getString(meta, ['applinks', 'windows_phone:url'])
   const applinksWindowsPhoneId = getString(meta, ['applinks', 'windows_phone:app_id'])
   const applinksWindowsPhoneName = getString(meta, ['applinks', 'windows_phone:app_name'])
@@ -564,7 +606,7 @@ function getMetaWindowsPhoneApp (meta: HtmlResultMeta): SnippetAppLink {
 /**
  * Extract Windows app metadata.
  */
-function getMetaWindowsApp (meta: HtmlResultMeta): SnippetAppLink {
+function getMetaWindowsApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
   const applinksWindowsUrl = getString(meta, ['applinks', 'windows:url'])
   const applinksWindowsId = getString(meta, ['applinks', 'windows:app_id'])
   const applinksWindowsName = getString(meta, ['applinks', 'windows:app_name'])
@@ -583,7 +625,7 @@ function getMetaWindowsApp (meta: HtmlResultMeta): SnippetAppLink {
 /**
  * Extract Windows Universal app metadata.
  */
-function getMetaWindowsUniversalApp (meta: HtmlResultMeta): SnippetAppLink {
+function getMetaWindowsUniversalApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
   const applinksWindowsUniversalUrl = getString(meta, ['applinks', 'windows_universal:url'])
   const applinksWindowsUniversalId = getString(meta, ['applinks', 'windows_universal:app_id'])
   const applinksWindowsUniversalName = getString(meta, ['applinks', 'windows_universal:app_name'])
@@ -600,7 +642,7 @@ function getMetaWindowsUniversalApp (meta: HtmlResultMeta): SnippetAppLink {
 /**
  * Get locale data.
  */
-function getMetaLocale (meta: HtmlResultMeta): SnippetLocale {
+function getMetaLocale (meta: HtmlResultMeta): HtmlSnippetLocale {
   const primary = getString(meta, ['rdfa', '', 'http://ogp.me/ns#locale'])
   const alternate = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#locale:alternate'])
 
@@ -612,7 +654,7 @@ function getMetaLocale (meta: HtmlResultMeta): SnippetLocale {
 /**
  * Get twitter data.
  */
-function getMetaTwitter (meta: HtmlResultMeta): SnippetTwitter {
+function getMetaTwitter (meta: HtmlResultMeta): HtmlSnippetTwitter {
   const creatorId = getString(meta, ['twitter', 'creator:id'])
   const creatorHandle = getTwitterHandle(meta, ['twitter', 'creator'])
   const siteId = getString(meta, ['twitter', 'site:id'])
@@ -655,7 +697,7 @@ function getMetaDeterminer (meta: HtmlResultMeta): string {
 /**
  * Retrieve a URL for embedding an interactive widget.
  */
-function getMetaPlayer (meta: HtmlResultMeta, baseUrl: string): SnippetPlayer {
+function getMetaPlayer (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetPlayer {
   const isPlayer = getString(meta, ['twitter', 'card']) === 'player'
 
   if (!isPlayer) {
@@ -682,12 +724,12 @@ function getMetaPlayer (meta: HtmlResultMeta, baseUrl: string): SnippetPlayer {
 /**
  * Retrieve the selected snippet icon.
  */
-function getMetaIcon (meta: HtmlResultMeta, options: Options): SnippetIcon {
+function getMetaIcon (meta: HtmlResultMeta, options: Options): HtmlSnippetIcon {
   const preferredSize = Number(options.preferredIconSize) || 32
   let selectedSize: number
-  let selectedIcon: SnippetIcon
+  let selectedIcon: HtmlSnippetIcon
 
-  if (meta.html.icons) {
+  if (meta.html && meta.html.icons) {
     for (const icon of meta.html.icons) {
       if (selectedSize == null) {
         selectedIcon = icon

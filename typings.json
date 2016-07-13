@@ -14,6 +14,8 @@
     "debug": "registry:npm/debug#2.0.0+20160511151334",
     "get-value": "registry:npm/get-value#2.0.0+20160604003143",
     "htmlparser2": "registry:npm/htmlparser2#3.9.0+20160616165259",
+    "image-size-stream": "registry:common/any#1.0.0+20160622005002",
+    "jpg-stream/decoder": "registry:common/any#1.0.0+20160622005002",
     "popsicle": "npm:popsicle",
     "xtend": "registry:npm/xtend#4.0.0+20160211003958"
   }

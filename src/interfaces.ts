@@ -56,6 +56,10 @@ export interface LinkResult extends BaseInfo {
 
 export interface ImageResult extends BaseInfo {
   type: 'image'
+  width?: number
+  height?: number
+  colorSpace?: string
+  meta?: any
 }
 
 export interface VideoResult extends BaseInfo {
@@ -201,18 +205,18 @@ export interface HtmlMetaOEmbed {
 /**
  * Snippets.
  */
-export interface SnippetAppLink {
+export interface HtmlSnippetAppLink {
   id: string
   name: string
   url: string
 }
 
-export interface SnippetLocale {
+export interface HtmlSnippetLocale {
   primary?: string
   alternate?: string[]
 }
 
-export interface SnippetImage {
+export interface HtmlSnippetImage {
   url: string
   secureUrl?: string
   alt?: string
@@ -221,7 +225,7 @@ export interface SnippetImage {
   height?: number
 }
 
-export interface SnippetPlayer {
+export interface HtmlSnippetPlayer {
   url: string
   width: number
   height: number
@@ -229,7 +233,7 @@ export interface SnippetPlayer {
   streamContentType?: string
 }
 
-export interface SnippetVideo {
+export interface HtmlSnippetVideo {
   url: string
   secureUrl?: string
   type?: string
@@ -237,31 +241,31 @@ export interface SnippetVideo {
   height?: number
 }
 
-export interface SnippetAudio {
+export interface HtmlSnippetAudio {
   url: string
   secureUrl?: string
   type?: string
 }
 
-export interface SnippetTwitter {
+export interface HtmlSnippetTwitter {
   siteId?: string
   siteHandle?: string
   creatorId?: string
   creatorHandle?: string
 }
 
-export interface SnippetIcon {
+export interface HtmlSnippetIcon {
   url: string
   type?: string
   sizes?: string
 }
 
-export interface SnippetApps {
-  iphone?: SnippetAppLink
-  ipad?: SnippetAppLink
-  android?: SnippetAppLink
-  windows?: SnippetAppLink
-  windowsPhone?: SnippetAppLink
+export interface HtmlSnippetApps {
+  iphone?: HtmlSnippetAppLink
+  ipad?: HtmlSnippetAppLink
+  android?: HtmlSnippetAppLink
+  windows?: HtmlSnippetAppLink
+  windowsPhone?: HtmlSnippetAppLink
 }
 
 export interface HtmlContentTypeArticle {
@@ -285,10 +289,10 @@ export type HtmlContentType = HtmlContentTypeArticle | HtmlContentTypeVideo | Ht
 export interface HtmlSnippet extends BaseInfo {
   type: 'html'
   contentType: HtmlContentType
-  image?: SnippetImage | SnippetImage[]
-  video?: SnippetVideo | SnippetVideo[]
-  audio?: SnippetAudio | SnippetAudio[]
-  player?: SnippetPlayer
+  image?: HtmlSnippetImage | HtmlSnippetImage[]
+  video?: HtmlSnippetVideo | HtmlSnippetVideo[]
+  audio?: HtmlSnippetAudio | HtmlSnippetAudio[]
+  player?: HtmlSnippetPlayer
   determiner?: string
   headline?: string
   caption?: string
@@ -297,10 +301,10 @@ export interface HtmlSnippet extends BaseInfo {
   publisher?: string
   siteName?: string
   ttl?: number
-  icon?: SnippetIcon
-  locale?: SnippetLocale
-  twitter?: SnippetTwitter
-  apps?: SnippetApps
+  icon?: HtmlSnippetIcon
+  locale?: HtmlSnippetLocale
+  twitter?: HtmlSnippetTwitter
+  apps?: HtmlSnippetApps
 }
 
 export interface VideoSnippet extends BaseInfo {
@@ -309,6 +313,8 @@ export interface VideoSnippet extends BaseInfo {
 
 export interface ImageSnippet extends BaseInfo {
   type: 'image'
+  width?: number
+  height?: number
 }
 
 export interface LinkSnippet extends BaseInfo {

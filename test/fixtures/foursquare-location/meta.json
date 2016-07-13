@@ -12,18 +12,18 @@
     ],
     "pragma": "no-cache",
     "set-cookie": [
-      "lc=%7B%22lat%22%3A37.76011313617431%2C%22lng%22%3A-122.42111797469043%2C%22loc%22%3A%22San+Francisco%2C+CA%22%2C%22cc%22%3A%22US%22%2C%22longGeoId%22%3A%2272057594043319895%22%7D; Expires=Thu, 07 Jul 2016 21:33:14 GMT; Path=/",
-      "bbhive=XT3YVPHMA3C354EDUYMBXJNNY1SUJP%3A%3A1467919994; Expires=Sat, 07 Jul 2018 19:33:14 GMT; Path=/; Domain=.foursquare.com"
+      "lc=%7B%22lat%22%3A37.76011313617431%2C%22lng%22%3A-122.42111797469043%2C%22loc%22%3A%22San+Francisco%2C+CA%22%2C%22cc%22%3A%22US%22%2C%22longGeoId%22%3A%2272057594043319895%22%7D; Expires=Thu, 14 Jul 2016 00:49:40 GMT; Path=/",
+      "bbhive=IXZK1KDTOTNNKTQMVGWCMFZJNLPMUR%3A%3A1468450180; Expires=Fri, 13 Jul 2018 22:49:40 GMT; Path=/; Domain=.foursquare.com"
     ],
     "strict-transport-security": "max-age=31536000",
     "x-ex": "fastly_cdn",
     "content-encoding": "gzip",
     "transfer-encoding": "chunked",
     "accept-ranges": "bytes",
-    "date": "Thu, 07 Jul 2016 19:33:14 GMT",
+    "date": "Wed, 13 Jul 2016 22:49:40 GMT",
     "via": "1.1 varnish",
     "connection": "close",
-    "x-served-by": "cache-sjc3627-SJC",
+    "x-served-by": "cache-jfk1022-JFK",
     "x-cache": "MISS",
     "x-cache-hits": "0",
     "vary": "Accept-Encoding,User-Agent,Accept-Language"

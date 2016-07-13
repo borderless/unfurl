@@ -3,17 +3,16 @@
   "contentUrl": "http://html5doctor.com/microdata/",
   "headers": {
     "server": "Sucuri/Cloudproxy",
-    "date": "Thu, 07 Jul 2016 19:33:13 GMT",
+    "date": "Wed, 13 Jul 2016 22:49:39 GMT",
     "content-type": "text/html; charset=UTF-8",
     "transfer-encoding": "chunked",
     "connection": "close",
-    "vary": "Accept-Encoding,Cookie",
-    "cache-control": "max-age=3, must-revalidate",
-    "wp-super-cache": "Served supercache file from PHP",
+    "vary": "Cookie",
+    "link": "<http://html5doctor.com/wp-json/>; rel=\"https://api.w.org/\", <http://html5doctor.com/?p=2643>; rel=shortlink",
     "x-xss-protection": "1; mode=block",
     "x-frame-options": "SAMEORIGIN",
     "x-content-type-options": "nosniff",
-    "x-sucuri-id": "11010"
+    "x-sucuri-id": "14010"
   },
   "status": 200,
   "statusText": "OK"

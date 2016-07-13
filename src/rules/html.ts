@@ -529,7 +529,7 @@ export function handle (
       }
 
       if (options.fallbackOnFavicon !== false) {
-        if (result.meta.html.icons == null) {
+        if (result.meta.html && result.meta.html.icons == null) {
           const faviconUrl = resolveUrl(contentUrl, '/favicon.ico')
 
           const req = get({

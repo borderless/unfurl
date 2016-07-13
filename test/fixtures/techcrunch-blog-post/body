@@ -25,7 +25,7 @@
 	<meta property="fb:app_id" content="187288694643718" />
 	<meta property="fb:admins" content="543710097,771265067,1661021707,1550970059,663677613,1178144075,726995222,506404657,4700188" />
 			<meta property="article:publisher" content="https://www.facebook.com/techcrunch" />
-			<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=techcrunch.com&amp;id=24588526&amp;t=1467919994&amp;back=https%3A%2F%2Ftechcrunch.com%2F2016%2F06%2F17%2Fthe-europas-awards-2016-honored-the-best-tech-startups-in-europe%2F' type="text/javascript"></script>
+			<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=techcrunch.com&amp;id=24588526&amp;t=1468450147&amp;back=https%3A%2F%2Ftechcrunch.com%2F2016%2F06%2F17%2Fthe-europas-awards-2016-honored-the-best-tech-startups-in-europe%2F%3Fncid%3Drss%26utm_source%3Dfeedburner%26utm_medium%3Dfeed%26utm_campaign%3DFeed%253A%2BTechcrunch%252FMikeButcher%2B%2528TechCrunch%2BEurope%2B%25C2%25BB%2BMike%2BButcher%2529%26utm_content%3DFeedBurner' type="text/javascript"></script>
 		<script type="text/javascript">
 		/* <![CDATA[ */
 			if ( 'function' === typeof WPRemoteLogin ) {
@@ -144,7 +144,7 @@ An annual celebration of Europe’s brightest and best tech companies, The Europ
 	<header class="header header-fixed-mobile cf header-context-news" role="banner">
 
 	<div class="ad-top-mobile">
-		<div id="adsDiv75b8baae5d" class="mobile-ads-center"></div>
+		<div id="adsDiv08006757d7" class="mobile-ads-center"></div>
 <script>
 /* <![CDATA[ */
 if (ads.isMobile()) {
@@ -159,7 +159,7 @@ if (ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484974', ads.width(), ads.height(), 'f', 'adsDiv75b8baae5d');
+			window.htmlAdWH('93484974', ads.width(), ads.height(), 'f', 'adsDiv08006757d7');
 		});
 	}(this,this.jQuery));
 }
@@ -229,7 +229,7 @@ if (ads.isMobile()) {
 				<ul class="nav-col">
 					<li class="subnav-title">Channels</li>
 					<ul class="subnav-channel" data-omni-sm-delegate="gbl_mainnav"><li id="menu-item-899745" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899745"><a href="https://techcrunch.com/startups/">Startups</a></li>
-<li id="menu-item-899746" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-899746"><a href="https://techcrunch.com/mobile/">Mobile</a></li>
+<li id="menu-item-899746" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899746"><a href="https://techcrunch.com/mobile/">Mobile</a></li>
 <li id="menu-item-899747" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899747"><a href="https://techcrunch.com/gadgets/">Gadgets</a></li>
 <li id="menu-item-899748" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899748"><a href="https://techcrunch.com/enterprise/">Enterprise</a></li>
 <li id="menu-item-899749" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899749"><a href="https://techcrunch.com/social/">Social</a></li>
@@ -313,9 +313,9 @@ if (ads.isMobile()) {
 					Trending
 					<i class="icon-trending"></i>
 				</li>
-				<li id="menu-item-899781" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-899781"><a href="https://techcrunch.com/tag/apple/">Apple</a></li>
-<li id="menu-item-899780" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-899780"><a href="https://techcrunch.com/tag/microsoft/">Microsoft</a></li>
-<li id="menu-item-1140452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1140452"><a href="https://techcrunch.com/topic/company/linkedin/">LinkedIn</a></li>
+				<li id="menu-item-1351584" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1351584"><a href="https://techcrunch.com/tag/pokemon/">Pokemon</a></li>
+<li id="menu-item-1134491" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1134491"><a href="https://techcrunch.com/tag/tesla/">Tesla</a></li>
+<li id="menu-item-1137480" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1137480"><a href="https://techcrunch.com/topic/company/amazon/">Amazon</a></li>
 			</ul>
 		</nav>
 
@@ -325,7 +325,7 @@ if (ads.isMobile()) {
 					<a href="/" class="nav-parent">News</a>
 				</li>
 				<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899745"><a href="https://techcrunch.com/startups/">Startups</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-899746"><a href="https://techcrunch.com/mobile/">Mobile</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899746"><a href="https://techcrunch.com/mobile/">Mobile</a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899747"><a href="https://techcrunch.com/gadgets/">Gadgets</a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899748"><a href="https://techcrunch.com/enterprise/">Enterprise</a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899749"><a href="https://techcrunch.com/social/">Social</a></li>
@@ -443,7 +443,7 @@ if (ads.isMobile()) {
 </div><!-- /.modal -->
 
 <div class="header-ad">
-	<div id="adsDiv88d9b08b3c" class=""></div>
+	<div id="adsDivb628539dd3" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -458,7 +458,7 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484975', "LB", "LB", 'f', 'adsDiv88d9b08b3c');
+			window.htmlAdWH('93484975', "LB", "LB", 'f', 'adsDivb628539dd3');
 		});
 	}(this,this.jQuery));
 }
@@ -472,7 +472,7 @@ if (!ads.isMobile()) {
 										<div class="announcement_left">
 						<a href="https://techcrunch.com/event-info/disrupt-sf-2016/#tickets" data-ga-event="click" data-ga-event-category="Marketing - Internal" data-ga-event-action="Announcement Bar" data-ga-event-label="DisruptSF">
 														<span class="announcement-text">
-							<span class="announcement-headline">Disrupt SF</span>Author And Magic Leap Futurist Neal Stephenson To Speak At Disrupt SF								<span class="announcement-link-text">
+							<span class="announcement-headline">Disrupt SF</span>Jennifer Doudna, Inventor Of Gene Editing Technology CRISPR Cas9, To Speak At Disrupt SF This September								<span class="announcement-link-text">
 																			Save $1000 On Tickets Today																												<span class="icon-caret-right"></span>
 																	</span>
 						</span>
@@ -504,15 +504,15 @@ if (!ads.isMobile()) {
 					<ul class="recirc-river river-small g g-1-2-1">
 			<li>
 			<div class="block-small">
-				<a class="block-wrapper" href="https://techcrunch.com/2016/07/07/how-berlin-can-become-europes-no-1-tech-hub/">
-					<img src="https://tctechcrunch2011.files.wordpress.com/2016/07/gettyimages-533781661.jpg?w=150" alt="How Berlin can become Europe&#8217;s No. 1 tech&nbsp;hub" />
+				<a class="block-wrapper" href="https://techcrunch.com/2016/07/13/behavox/">
+					<img src="https://tctechcrunch2011.files.wordpress.com/2016/07/compliance.png?w=150" alt="London&#8217;s Behavox offers surveillance software to help financial institutions remain&nbsp;compliant" />
 
 					<div class="block-content">
-						<h3>How Berlin can become Europe&#8217;s No. 1 tech&nbsp;hub</h3>
+						<h3>London&#8217;s Behavox offers surveillance software to help financial institutions remain&nbsp;compliant</h3>
 
 						<div class="block-meta">
 							<div class="byline">
-								<time datetime="2016-07-07 08:00:36"></time>
+								<time datetime="2016-07-13 05:30:15"></time>
 							</div>
 						</div>
 					</div>
@@ -521,15 +521,15 @@ if (!ads.isMobile()) {
 		</li>
 			<li>
 			<div class="block-small">
-				<a class="block-wrapper" href="https://techcrunch.com/2016/07/07/silent-circles-blackphone-revealed-as-a-sales-flop/">
-					<img src="https://tctechcrunch2011.files.wordpress.com/2014/02/p1020512.jpg?w=150" alt="Silent Circle&#8217;s Blackphone revealed as a sales&nbsp;flop" />
+				<a class="block-wrapper" href="https://techcrunch.com/2016/07/12/fiveai/">
+					<img src="https://tctechcrunch2011.files.wordpress.com/2016/07/founders.jpg?w=150" alt="FiveAI picks up $2.7M to build AI-driven software for autonomous&nbsp;vehicles" />
 
 					<div class="block-content">
-						<h3>Silent Circle&#8217;s Blackphone revealed as a sales&nbsp;flop</h3>
+						<h3>FiveAI picks up $2.7M to build AI-driven software for autonomous&nbsp;vehicles</h3>
 
 						<div class="block-meta">
 							<div class="byline">
-								<time datetime="2016-07-07 05:02:53"></time>
+								<time datetime="2016-07-12 16:00:11"></time>
 							</div>
 						</div>
 					</div>
@@ -538,15 +538,15 @@ if (!ads.isMobile()) {
 		</li>
 			<li>
 			<div class="block-small">
-				<a class="block-wrapper" href="https://techcrunch.com/2016/07/07/avast-acquires-antivirus-maker-avg-for-1-3bn-to-gain-scale-and-dive-into-iot-security/">
-					<img src="https://tctechcrunch2011.files.wordpress.com/2016/07/p1040537.jpg?w=150" alt="Avast acquires antivirus maker AVG for $1.3BN to gain scale and dive into IoT&nbsp;security" />
+				<a class="block-wrapper" href="https://techcrunch.com/2016/07/12/eu-us-privacy-shield-now-officially-adopted-but-criticisms-linger/">
+					<img src="https://tctechcrunch2011.files.wordpress.com/2015/10/shutterstock_1415258531.jpg?w=150" alt="EU-US Privacy Shield now officially adopted but criticisms&nbsp;linger" />
 
 					<div class="block-content">
-						<h3>Avast acquires antivirus maker AVG for $1.3BN to gain scale and dive into IoT&nbsp;security</h3>
+						<h3>EU-US Privacy Shield now officially adopted but criticisms&nbsp;linger</h3>
 
 						<div class="block-meta">
 							<div class="byline">
-								<time datetime="2016-07-07 01:44:56"></time>
+								<time datetime="2016-07-12 03:57:00"></time>
 							</div>
 						</div>
 					</div>
@@ -744,7 +744,7 @@ The Winner is: <a target="_blank" href="https://ustwo.com/">ustwo</a><br>
 ustwo emerged from a bigger group to become a powerhouse of creativity with games like Monument Valley and Lands End in VR. Apple loves these guys and so does Frank Underwood. When he’s bored, Frank loves to play it on House of Cards.</p>
 <p><strong>7 Best Mobile Startup</strong><br>
 The Winner is: <a target="_blank" href="http://www.feverup.com/">Fever</a><br>
-Coming from Spain, Fever quickly took root in Europe’s biggest cities and has become the millennials’ favorite method of organizing a night out. With $23 million in its war chest we haven’t seen the last of this app.</p><div><div id="adsDivc1ccdcdf49" class="native-ad-mobile"></div></div>
+Coming from Spain, Fever quickly took root in Europe’s biggest cities and has become the millennials’ favorite method of organizing a night out. With $23 million in its war chest we haven’t seen the last of this app.</p><div><div id="adsDiva3039dff70" class="native-ad-mobile"></div></div>
 <p><strong>8 Best Fintech Startup</strong><br>
 The Winner is: <a target="_blank" href="https://www.fundingcircle.com">Funding Circle</a><br>
 Funding Circle is the world’s leading online marketplace for business loans, raising $272 million and has shown London’s fintech dominance right now.</p>
@@ -863,7 +863,7 @@ The Winner is: <a target="_blank" href="https://deliveroo.co.uk">Deliveroo</a></
 		<a href="https://techcrunch.com/advertise/" title="Advertise on TechCrunch">
 			Advertisement		</a>
 	</small>
-	<div id="adsDiv2f1aa0cac2" class=""></div>
+	<div id="adsDiv8d996080a4" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -878,12 +878,12 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484978', "250", "125", 'f', 'adsDiv2f1aa0cac2');
+			window.htmlAdWH('93484978', "250", "125", 'f', 'adsDiv8d996080a4');
 		});
 	}(this,this.jQuery));
 }
 /* ]]> */
-</script><div id="adsDivccfa713916" class=""></div>
+</script><div id="adsDivd3e3b7d136" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -898,7 +898,7 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484979', "250", "125", 'f', 'adsDivccfa713916');
+			window.htmlAdWH('93484979', "250", "125", 'f', 'adsDivd3e3b7d136');
 		});
 	}(this,this.jQuery));
 }
@@ -917,7 +917,7 @@ if (!ads.isMobile()) {
 			Advertisement		</a>
 	</small>
 	<!-- Begin: Right Rail Advertisement -->
-		<div id="adsDivc2b48755c0" class=""></div>
+		<div id="adsDiv36f728597b" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -932,7 +932,7 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484976', "RR", "RR", 'f', 'adsDivc2b48755c0');
+			window.htmlAdWH('93484976', "RR", "RR", 'f', 'adsDiv36f728597b');
 		});
 	}(this,this.jQuery));
 }
@@ -998,11 +998,11 @@ The Awards celebrate the most forward thinking, progressive and innovative tech 
 
 <div class="collapse-body newsletter-body">
 	<div class="newsletter newsletter-side-bar-newsletters">
-		<form method="post" class="inline-form form-newsletters" action="" data-nonce="3a8c9074a4">
+		<form method="post" class="inline-form form-newsletters" action="" data-nonce="3587289696">
 			<div class="checkboxes cf">
 				<fieldset class="custom-checkbox">
-					<input type="checkbox" name="crunchdaily" id="tc-daily-577eae7abbd520.33629580">
-					<label for="tc-daily-577eae7abbd520.33629580">
+					<input type="checkbox" name="crunchdaily" id="tc-daily-5786c563c20cf6.26804800">
+					<label for="tc-daily-5786c563c20cf6.26804800">
 						<span class="custom-checkbox-fake"></span>
 						<strong>TechCrunch Daily</strong>
 						<span class="desc">Our top headlines</span>
@@ -1010,8 +1010,8 @@ The Awards celebrate the most forward thinking, progressive and innovative tech 
 					</label>
 				</fieldset>
 				<fieldset class="custom-checkbox">
-					<input type="checkbox" name="crunchweekly" id="tc-week-in-review-577eae7abbd520.33629580">
-					<label for="tc-week-in-review-577eae7abbd520.33629580">
+					<input type="checkbox" name="crunchweekly" id="tc-week-in-review-5786c563c20cf6.26804800">
+					<label for="tc-week-in-review-5786c563c20cf6.26804800">
 						<span class="custom-checkbox-fake"></span>
 						<strong>TC Week-in-Review</strong>
 						<span class="desc">Top stories of the week</span>
@@ -1019,8 +1019,8 @@ The Awards celebrate the most forward thinking, progressive and innovative tech 
 					</label>
 				</fieldset>
 				<fieldset class="custom-checkbox">
-					<input type="checkbox" name="crunchbase" id="tc-crunchbase-daily-577eae7abbd520.33629580">
-					<label for="tc-crunchbase-daily-577eae7abbd520.33629580">
+					<input type="checkbox" name="crunchbase" id="tc-crunchbase-daily-5786c563c20cf6.26804800">
+					<label for="tc-crunchbase-daily-5786c563c20cf6.26804800">
 						<span class="custom-checkbox-fake"></span>
 						<strong>CrunchBase Daily</strong>
 						<span class="desc">The latest startup funding announcements</span>
@@ -1029,8 +1029,8 @@ The Awards celebrate the most forward thinking, progressive and innovative tech 
 				</fieldset>
 				<div class="extras hidden">
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="europe" id="tc-europe-577eae7abbd520.33629580">
-						<label for="tc-europe-577eae7abbd520.33629580">
+						<input type="checkbox" name="europe" id="tc-europe-5786c563c20cf6.26804800">
+						<label for="tc-europe-5786c563c20cf6.26804800">
 							<span class="custom-checkbox-fake"></span>
 							<strong>TC Europe</strong>
 							<span class="desc">The top European tech stories</span>
@@ -1038,8 +1038,8 @@ The Awards celebrate the most forward thinking, progressive and innovative tech 
 						</label>
 					</fieldset>
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="gadgets" id="tc-gadgets-577eae7abbd520.33629580">
-						<label for="tc-gadgets-577eae7abbd520.33629580">
+						<input type="checkbox" name="gadgets" id="tc-gadgets-5786c563c20cf6.26804800">
+						<label for="tc-gadgets-5786c563c20cf6.26804800">
 							<span class="custom-checkbox-fake"></span>
 							<strong>TC Gadgets</strong>
 							<span class="desc">Top stories about gadgets</span>
@@ -1047,8 +1047,8 @@ The Awards celebrate the most forward thinking, progressive and innovative tech 
 						</label>
 					</fieldset>
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="mobile-apps" id="tc-mobile-apps-577eae7abbd520.33629580">
-						<label for="tc-mobile-apps-577eae7abbd520.33629580">
+						<input type="checkbox" name="mobile-apps" id="tc-mobile-apps-5786c563c20cf6.26804800">
+						<label for="tc-mobile-apps-5786c563c20cf6.26804800">
 							<span class="custom-checkbox-fake"></span>
 							<strong>TC Mobile & Apps</strong>
 							<span class="desc">Top stories about apps</span>
@@ -1056,8 +1056,8 @@ The Awards celebrate the most forward thinking, progressive and innovative tech 
 						</label>
 					</fieldset>
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="startups" id="tc-startups-577eae7abbd520.33629580">
-						<label for="tc-startups-577eae7abbd520.33629580">
+						<input type="checkbox" name="startups" id="tc-startups-5786c563c20cf6.26804800">
+						<label for="tc-startups-5786c563c20cf6.26804800">
 							<span class="custom-checkbox-fake"></span>
 							<strong>TC Startups</strong>
 							<span class="desc">Top stories about startups</span>
@@ -1065,8 +1065,8 @@ The Awards celebrate the most forward thinking, progressive and innovative tech 
 						</label>
 					</fieldset>
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="social-media" id="tc-social-media-577eae7abbd520.33629580">
-						<label for="tc-social-media-577eae7abbd520.33629580">
+						<input type="checkbox" name="social-media" id="tc-social-media-5786c563c20cf6.26804800">
+						<label for="tc-social-media-5786c563c20cf6.26804800">
 							<span class="custom-checkbox-fake"></span>
 							<strong>TC Social Media</strong>
 							<span class="desc">Top stories about social</span>
@@ -1074,8 +1074,8 @@ The Awards celebrate the most forward thinking, progressive and innovative tech 
 						</label>
 					</fieldset>
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="asia" id="tc-asia-577eae7abbd520.33629580">
-						<label for="tc-asia-577eae7abbd520.33629580">
+						<input type="checkbox" name="asia" id="tc-asia-5786c563c20cf6.26804800">
+						<label for="tc-asia-5786c563c20cf6.26804800">
 							<span class="custom-checkbox-fake"></span>
 							<strong>TC Asia</strong>
 							<span class="desc">The top Asian tech stories</span>
@@ -1083,8 +1083,8 @@ The Awards celebrate the most forward thinking, progressive and innovative tech 
 						</label>
 					</fieldset>
 					<fieldset class="custom-checkbox">
-						<input type="checkbox" name="crunchnetwork" id="tc-crunchnetwork-577eae7abbd520.33629580">
-						<label for="tc-crunchnetwork-577eae7abbd520.33629580">
+						<input type="checkbox" name="crunchnetwork" id="tc-crunchnetwork-5786c563c20cf6.26804800">
+						<label for="tc-crunchnetwork-5786c563c20cf6.26804800">
 							<span class="custom-checkbox-fake"></span>
 							<strong>Crunch Network</strong>
 							<span class="desc">The best from our contributors</span>
@@ -1106,17 +1106,17 @@ The Awards celebrate the most forward thinking, progressive and innovative tech 
 	</div>
 </div>	</div>
 
-<section class="aside section video-aside crunchreport collapse collapse-adjacent" data-video-id="577d9226869ea940ad3777b0">
+<section class="aside section video-aside crunchreport collapse collapse-adjacent" data-video-id="57856c94869ea946e40f0a75">
 	<h2 class="collapse-title section-title">
 		Latest <span>Crunch Report</span>	</h2>
 	<div class="collapse-body cf">
 		<ul class="vid-list cf">
 			<li class="block vid-feature" data-lightbox-omniture="crunchreport">
 				<div class="block block-inset">
-	<a href="https://techcrunch.com/video/snapchat-memories-update-crunch-report/577d9226869ea940ad3777b0/?ncid=rightrail_cr">
-		<img src="https://img.vidible.tv/prod/2016-07/06/577d9226869ea940ad3777b0_1280x720_U_v1_300_170.jpg" alt="Snapchat Memories Update | Crunch Report" data-lightbox-url="https://techcrunch.com/video/snapchat-memories-update-crunch-report/577d9226869ea940ad3777b0/lightbox">
+	<a href="https://techcrunch.com/video/hyperloop-one-founders-lawsuit-crunch-report/57856c94869ea946e40f0a75/?ncid=rightrail_cr">
+		<img src="https://img.vidible.tv/prod/2016-07/12/57856c94869ea946e40f0a75_1280x720_U_v1_300_170.jpg" alt="Hyperloop One Founders Lawsuit | Crunch Report" data-lightbox-url="https://techcrunch.com/video/hyperloop-one-founders-lawsuit-crunch-report/57856c94869ea946e40f0a75/lightbox">
 				<div class="block-title">
-			<h3>Snapchat Memories Update | Crunch Report</h3>			
+			<h3>Hyperloop One Founders Lawsuit | Crunch Report</h3>			
 		</div>
 			</a>
 </div>
@@ -1126,7 +1126,7 @@ The Awards celebrate the most forward thinking, progressive and innovative tech 
 	</div>
 </section>
 <div class="section ad-300x250">
-	<div id="adsDiv013c05e453" class=""></div>
+	<div id="adsDivbce9c7d36d" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -1142,7 +1142,7 @@ if (!ads.isMobile()) {
 				}
 			}
 			window.adSetInView('D');
-			window.htmlAdWH('93484977', "RR", "RR", 'f', 'adsDiv013c05e453');
+			window.htmlAdWH('93484977', "RR", "RR", 'f', 'adsDivbce9c7d36d');
 		});
 	}(this,this.jQuery));
 }
@@ -1204,46 +1204,46 @@ if (!ads.isMobile()) {
 			</div>
 			<ul class="mobile-module-list">
 												<li>
-					<a href="https://techcrunch.com/2016/07/07/ios-10-preview/?ncid=mobilerecirc_featured">
+					<a href="https://techcrunch.com/gallery/a-look-inside-facebooks-data-center/?ncid=mobilerecirc_featured">
 						<div class="mobile-module-list-image">
-							<img alt="iOS 10 preview: Apple breaks down its walled&nbsp;garden" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/ios-10.jpg?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
+							<img alt="A look inside Facebook&#8217;s data&nbsp;center" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/fb_data_center_tour-20.jpg?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
 						<div class="mobile-module-list-body">
-							<h4>iOS 10 preview: Apple breaks down its walled&nbsp;garden</h4>
+							<h4>A look inside Facebook&#8217;s data&nbsp;center</h4>
 
-							<small><time datetime="2016-07-07" class="timestamp">4 hours ago</time> | Romain Dillet</small>
+							<small><time datetime="2016-07-13" class="timestamp">3 hours ago</time> | Frederic Lardinois</small>
 						</div>
 					</a>
 				</li>
 								<li>
-					<a href="https://techcrunch.com/2016/07/07/how-berlin-can-become-europes-no-1-tech-hub/?ncid=mobilerecirc_featured">
+					<a href="https://techcrunch.com/2016/07/13/pokemon-go-tops-twitters-daily-users-sees-more-engagement-than-facebook/?ncid=mobilerecirc_featured">
 						<div class="mobile-module-list-image">
-							<img alt="How Berlin can become Europe&#8217;s No. 1 tech&nbsp;hub" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/gettyimages-533781661.jpg?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
+							<img alt="Pokémon Go tops Twitter&#8217;s daily users, sees more engagement than&nbsp;Facebook" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/gettyimages-546532826.jpg?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
 						<div class="mobile-module-list-body">
-							<h4>How Berlin can become Europe&#8217;s No. 1 tech&nbsp;hub</h4>
+							<h4>Pokémon Go tops Twitter&#8217;s daily users, sees more engagement than&nbsp;Facebook</h4>
 
-							<small><time datetime="2016-07-07" class="timestamp">4 hours ago</time> | Wouter Verhoog</small>
+							<small><time datetime="2016-07-13" class="timestamp">6 hours ago</time> | Sarah Perez</small>
 						</div>
 					</a>
 				</li>
 								<li>
-					<a href="https://techcrunch.com/2016/07/07/ch-ch-ch-changes-at-microsoft-as-coo-kevin-turner-heading-for-the-exits/?ncid=mobilerecirc_featured">
+					<a href="https://techcrunch.com/2016/07/13/facebook-lifts-the-veil-on-its-mobile-device-lab/?ncid=mobilerecirc_featured">
 						<div class="mobile-module-list-image">
-							<img alt="Ch-ch-ch-changes at Microsoft as COO Kevin Turner heads for the&nbsp;exits" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/gettyimages-527560808.jpg?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
+							<img alt="Facebook lifts the veil on its mobile device testing&nbsp;lab" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/fb_data_center-4.jpg?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
 						<div class="mobile-module-list-body">
-							<h4>Ch-ch-ch-changes at Microsoft as COO Kevin Turner heads for the&nbsp;exits</h4>
+							<h4>Facebook lifts the veil on its mobile device testing&nbsp;lab</h4>
 
-							<small><time datetime="2016-07-07" class="timestamp">5 hours ago</time> | Ron Miller</small>
+							<small><time datetime="2016-07-13" class="timestamp">6 hours ago</time> | Frederic Lardinois</small>
 						</div>
 					</a>
 				</li>
 								<li>
-					<a href="https://techcrunch.com/2016/07/06/pokemon-go-an-education/?ncid=mobilerecirc_featured">
+					<a href="https://techcrunch.com/2016/07/13/trace-genomics-launches-a-23andme-for-farms-raises-4-million-to-improve-the-worlds-food-supply/?ncid=mobilerecirc_featured">
 						<div class="mobile-module-list-image">
-							<img alt="Pokémon Go has already taught me so&nbsp;much" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/pokemon-go.png?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
+							<img alt="Trace Genomics launches a 23andMe for farms, raises $4 million to improve the world&#8217;s food&nbsp;supply" data-src="https://tctechcrunch2011.files.wordpress.com/2015/05/farms.jpg?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
 						<div class="mobile-module-list-body">
-							<h4>Pokémon Go has already taught me so&nbsp;much</h4>
+							<h4>Trace Genomics launches a 23andMe for farms, raises $4 million to improve the world&#8217;s food&nbsp;supply</h4>
 
-							<small><time datetime="2016-07-06" class="timestamp">22 hours ago</time> | Darrell Etherington</small>
+							<small><time datetime="2016-07-13" class="timestamp">7 hours ago</time> | Lora Kolodny</small>
 						</div>
 					</a>
 				</li>
@@ -1259,46 +1259,46 @@ if (!ads.isMobile()) {
 			</div>
 			<ul class="mobile-module-list">
 								<li>
-					<a href="https://techcrunch.com/2016/07/07/how-berlin-can-become-europes-no-1-tech-hub/?ncid=mobilerecirc_recent">
+					<a href="https://techcrunch.com/2016/07/13/behavox/?ncid=mobilerecirc_recent">
 						<div class="mobile-module-list-image">
-							<img alt="How Berlin can become Europe&#8217;s No. 1 tech&nbsp;hub" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/gettyimages-533781661.jpg?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
+							<img alt="London&#8217;s Behavox offers surveillance software to help financial institutions remain&nbsp;compliant" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/compliance.png?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
 						<div class="mobile-module-list-body">
-							<h4>How Berlin can become Europe&#8217;s No. 1 tech&nbsp;hub</h4>
+							<h4>London&#8217;s Behavox offers surveillance software to help financial institutions remain&nbsp;compliant</h4>
 
-							<small><time datetime="2016-07-07" class="timestamp">4 hours ago</time> | Wouter Verhoog</small>
+							<small><time datetime="2016-07-13" class="timestamp">10 hours ago</time> | Steve O&#039;Hear</small>
 						</div>
 					</a>
 				</li>
 								<li>
-					<a href="https://techcrunch.com/2016/07/07/silent-circles-blackphone-revealed-as-a-sales-flop/?ncid=mobilerecirc_recent">
+					<a href="https://techcrunch.com/2016/07/12/fiveai/?ncid=mobilerecirc_recent">
 						<div class="mobile-module-list-image">
-							<img alt="Silent Circle&#8217;s Blackphone revealed as a sales&nbsp;flop" data-src="https://tctechcrunch2011.files.wordpress.com/2014/02/p1020512.jpg?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
+							<img alt="FiveAI picks up $2.7M to build AI-driven software for autonomous&nbsp;vehicles" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/founders.jpg?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
 						<div class="mobile-module-list-body">
-							<h4>Silent Circle&#8217;s Blackphone revealed as a sales&nbsp;flop</h4>
+							<h4>FiveAI picks up $2.7M to build AI-driven software for autonomous&nbsp;vehicles</h4>
 
-							<small><time datetime="2016-07-07" class="timestamp">7 hours ago</time> | Natasha Lomas</small>
+							<small><time datetime="2016-07-12" class="timestamp">23 hours ago</time> | Steve O&#039;Hear</small>
 						</div>
 					</a>
 				</li>
 								<li>
-					<a href="https://techcrunch.com/2016/07/07/avast-acquires-antivirus-maker-avg-for-1-3bn-to-gain-scale-and-dive-into-iot-security/?ncid=mobilerecirc_recent">
+					<a href="https://techcrunch.com/2016/07/12/eu-us-privacy-shield-now-officially-adopted-but-criticisms-linger/?ncid=mobilerecirc_recent">
 						<div class="mobile-module-list-image">
-							<img alt="Avast acquires antivirus maker AVG for $1.3BN to gain scale and dive into IoT&nbsp;security" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/p1040537.jpg?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
+							<img alt="EU-US Privacy Shield now officially adopted but criticisms&nbsp;linger" data-src="https://tctechcrunch2011.files.wordpress.com/2015/10/shutterstock_1415258531.jpg?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
 						<div class="mobile-module-list-body">
-							<h4>Avast acquires antivirus maker AVG for $1.3BN to gain scale and dive into IoT&nbsp;security</h4>
+							<h4>EU-US Privacy Shield now officially adopted but criticisms&nbsp;linger</h4>
 
-							<small><time datetime="2016-07-07" class="timestamp">10 hours ago</time> | Natasha Lomas</small>
+							<small><time datetime="2016-07-12" class="timestamp">yesterday</time> | Natasha Lomas</small>
 						</div>
 					</a>
 				</li>
 								<li>
-					<a href="https://techcrunch.com/2016/07/07/quantum-encryption-startup-pq-bags-10-3m-series-a/?ncid=mobilerecirc_recent">
+					<a href="https://techcrunch.com/2016/07/11/on-demand-sales-force-universal-avenue-closes-10m-series-a/?ncid=mobilerecirc_recent">
 						<div class="mobile-module-list-image">
-							<img alt="Post-quantum crypto startup PQ bags $10.3M Series&nbsp;A" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/screen-shot-2016-07-06-at-7-19-20-pm.png?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
+							<img alt="On-demand sales force Universal Avenue closes $10M Series&nbsp;A" data-src="https://tctechcrunch2011.files.wordpress.com/2016/07/founders-image-1.jpg?w=100&#038;h=75&#038;crop=1&#038;quality=85&#038;strip=all" data-tc-lazyload="deferred" src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/100x75.png" width="100" height="75" />						</div>
 						<div class="mobile-module-list-body">
-							<h4>Post-quantum crypto startup PQ bags $10.3M Series&nbsp;A</h4>
+							<h4>On-demand sales force Universal Avenue closes $10M Series&nbsp;A</h4>
 
-							<small><time datetime="2016-07-07" class="timestamp">12 hours ago</time> | Natasha Lomas</small>
+							<small><time datetime="2016-07-11" class="timestamp">yesterday</time> | Steve O&#039;Hear</small>
 						</div>
 					</a>
 				</li>
@@ -1310,7 +1310,7 @@ if (!ads.isMobile()) {
 
 		<div class="mobile-module mobile-module-ad">
 			<div class="section">
-	<div id="adsDiv65bf20aad3" class="mobile-ads-center"></div>
+	<div id="adsDiv98ec2d3f59" class="mobile-ads-center"></div>
 <script>
 /* <![CDATA[ */
 if (ads.isMobile()) {
@@ -1326,7 +1326,7 @@ if (ads.isMobile()) {
 				}
 			}
 			window.adSetInView('1');
-			window.htmlAdWH('93484973', "mm", "mm", 'f', 'adsDiv65bf20aad3');
+			window.htmlAdWH('93484973', "mm", "mm", 'f', 'adsDiv98ec2d3f59');
 		});
 	}(this,this.jQuery));
 }
@@ -1425,7 +1425,7 @@ if (ads.isMobile()) {
 		<a href="https://techcrunch.com/advertise/" title="Advertise on TechCrunch">
 			Advertisement		</a>
 	</small>
-	<div id="adsDiv2c74867c38" class=""></div>
+	<div id="adsDiv5c2797e0bd" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -1440,12 +1440,12 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484978', "250", "125", 'f', 'adsDiv2c74867c38');
+			window.htmlAdWH('93484978', "250", "125", 'f', 'adsDiv5c2797e0bd');
 		});
 	}(this,this.jQuery));
 }
 /* ]]> */
-</script><div id="adsDiv04b7aa7ea9" class=""></div>
+</script><div id="adsDiv198e900941" class=""></div>
 <script>
 /* <![CDATA[ */
 if (!ads.isMobile()) {
@@ -1460,7 +1460,7 @@ if (!ads.isMobile()) {
 					window.adsResizePortrait('1');
 				}
 			}
-			window.htmlAdWH('93484979', "250", "125", 'f', 'adsDiv04b7aa7ea9');
+			window.htmlAdWH('93484979', "250", "125", 'f', 'adsDiv198e900941');
 		});
 	}(this,this.jQuery));
 }
@@ -1562,7 +1562,7 @@ if (!ads.isMobile()) {
 <div class="">
 	<p class="crunchdaily-tagline">Latest headlines delivered to you daily</p>
 	<div class="newsletter newsletter-side-bar-crunchdaily">
-		<form method="post" class="inline-form form-newsletters crunchdaily-newsletter" data-crunchlist="crunchdaily" action="https://link.techcrunch.com/s/Readership" data-nonce="3a8c9074a4">
+		<form method="post" class="inline-form form-newsletters crunchdaily-newsletter" data-crunchlist="crunchdaily" action="https://link.techcrunch.com/s/Readership" data-nonce="3587289696">
 			<input type="checkbox" name="crunchdaily" checked="checked" class="is-hidden">
 			<fieldset>
 				<legend>Subscribe to &lt;span class=&quot;no-mobile&quot;&gt;Subscribe to &lt;/span&gt;TechCrunch Daily</legend>
@@ -1636,7 +1636,7 @@ if (!ads.isMobile()) {
 			{flush: true}
 		);
 	</script>
-<noscript><img src="https://sb.scorecardresearch.com/b?c1=2&c2=6036210&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="height:0;width:0;visibility:hidden" /></noscript><script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201627y'></script>
+<noscript><img src="https://sb.scorecardresearch.com/b?c1=2&c2=6036210&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="height:0;width:0;visibility:hidden" /></noscript><script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201628y'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var WPGroHo = {"my_hash":""};
@@ -1691,7 +1691,7 @@ var TC_Async_Scripts = {"tc-mediavoice-MCtc":"https:\/\/cdn.mediavoice.com\/nati
 var _sf_async_config = {"uid":"2905","domain":"techcrunch.com"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://s2.wp.com/_static/??-eJydkNEOgjAMRX/IUUAi8cH4LWM0bDjqsnYQ/14wEl8IUd+a3JxzksIUlLmTIAkMSQWfOkcMMjkRjKrx2twaF1sVHEJAah11Wc8H+IUjHDFus2JxQIbRBVgdIbFNAfr1ygZHO8lSLXD/cihN2j/EGd7pCBprYiJjVZkXR9DMKLwYPstW8yuFjnPdI/8t4PlJHt/4dbgU1ak+F3VeFf0T7Sadkg=='></script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJydkNEOgjAMRX/IUZnE8GL8ljEaNhx1WTuIfy8YiS+EqG9Nbs45SWGKyt5JkASGrGLInScGmbwIJtUEY2+NT62KHiEitZ66oucD/MIRjpi2WXE4IMPoI6yOmNnlCP16FYOnnaRWC9y/HMqQCQ/xlnc6gtbZlMk6pY/lCQwzCi+Gz7LV/Eph0lwPyH8LeH5SwDd+HS5lda51rXVZ9U/tE52Q'></script>
 <script type='text/javascript' src='https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js?ver=4.5.3-20160628'></script>
 <script type="text/javascript">
 // <![CDATA[
@@ -1717,7 +1717,7 @@ _stq = window._stq || [];
 _tkq.push(['storeContext', {'blog_id':'24588526','blog_tz':'-7','user_lang':'en','blog_lang':'en','user_id':'0'}]);
 _stq.push(['view', {'blog':'24588526','v':'wpcom','tz':'-7','user_id':'0','post':'1338795','subd':'tctechcrunch2011'}]);
 function st_vt() {var x=document.createElement("img");x.src="https://pixel.wp.com/g.gif?blog=24588526&v=wpcomvt&tz=-7&user_id=0&post=1338795&subd=tctechcrunch2011&rand="+Math.random();}
-_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdsV05haVJbcGxtJjNRPStQNVpUOHlbPUJnQi45Py5tekN2VnhJWWRIZGxQWnM2cD0leHFvcl1ZMjhYfGViSC1nJUFwNkkvQk9jb1VNSEFfdFBPdl9bcG05alg2eTEzbHRRWXR4fmFzLXZ2SU5BUmxCNktuOEJmXy8wUDZZR1l0WTJLOXNvJkRsLm1ISHRJQmlrRnltQ01CWXpDdkk1bFM/dT1JRGImd2Rmektlb3h6VA=='}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdsV05haVJbcGxtJjNRPStQNVpUOHlbPUJnQi45Py5telFkWjZDbj9PX2RIVjlBbjdFY3RCRENYX2FMfENoRF1bTDFuWEQrbE9WOU5NSGlYTXkvTmlHJnJJRnY0a1h5T3h+WHZPT2tKVi4ubCVoUm9jTUhWci9VWFEzYiwtLVVpNTlQaXlfLndyby9FWUsrUUJfcm0yQWtQbGw1fDczZTZDb0VXVXJia1VZckgrRE09eTM='}]);
 _stq.push([ 'clickTrackerInit', '24588526', '1338795' ]);
 	</script>
 <noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
@@ -1761,7 +1761,7 @@ if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
 						</div>
 					</div>
 					<ul class="subnav-channel menu-content open" data-omni-sm-delegate="gbl_mainnav"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899745"><a href="https://techcrunch.com/startups/">Startups</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-899746"><a href="https://techcrunch.com/mobile/">Mobile</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899746"><a href="https://techcrunch.com/mobile/">Mobile</a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899747"><a href="https://techcrunch.com/gadgets/">Gadgets</a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899748"><a href="https://techcrunch.com/enterprise/">Enterprise</a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-899749"><a href="https://techcrunch.com/social/">Social</a></li>
@@ -1839,83 +1839,59 @@ if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
 		</div>
 		<div class="trending-container">
 			
-						<a href="https://techcrunch.com/2016/07/07/ios-10-preview/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/13/pokemon-go-tops-twitters-daily-users-sees-more-engagement-than-facebook/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								iOS 10 preview: Apple breaks down its walled&nbsp;garden							</div>
+								Pokémon Go tops Twitter&#8217;s daily users, sees more engagement than&nbsp;Facebook							</div>
 							<div class="trending-byline">
-								4 hours ago by Romain Dillet							</div>
+								6 hours ago by Sarah Perez							</div>
 						</a>
 
 				
-						<a href="https://techcrunch.com/2016/07/07/apple-just-released-the-first-ios-10-beta-to-everyone/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/13/unity-announces-181-million-monster-round-led-by-dfj-growth/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								Apple just released the first iOS 10 beta to&nbsp;everyone							</div>
+								Unity raises $181M monster round at a reported $1.5B&nbsp;valuation							</div>
 							<div class="trending-byline">
-								2 hours ago by Romain Dillet							</div>
+								7 hours ago by Lucas Matney							</div>
 						</a>
 
 				
-						<a href="https://techcrunch.com/2016/07/06/tesla-autopilot-2-0-rumor/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/11/the-brilliant-mechanics-of-pokemon-go/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								Tesla&#8217;s reported Autopilot 2.0 will face new goalposts for &#8216;smart&#8217;							</div>
+								The brilliant mechanics of Pokémon&nbsp;Go							</div>
 							<div class="trending-byline">
-								21 hours ago by Darrell Etherington							</div>
+								Jul 11, 2016 by Matthew Lynley							</div>
 						</a>
 
 				
-						<a href="https://techcrunch.com/2016/07/06/the-land-grab-for-farm-data/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/13/facebook-lifts-the-veil-on-its-mobile-device-lab/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								The land grab for farm&nbsp;data							</div>
+								Facebook lifts the veil on its mobile device testing&nbsp;lab							</div>
 							<div class="trending-byline">
-								yesterday by Jason Tatge							</div>
+								6 hours ago by Frederic Lardinois							</div>
 						</a>
 
 				
-						<a href="https://techcrunch.com/2016/07/07/ch-ch-ch-changes-at-microsoft-as-coo-kevin-turner-heading-for-the-exits/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/13/pokemon-go-will-soon-get-ads-in-the-form-of-sponsored-locations/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								Ch-ch-ch-changes at Microsoft as COO Kevin Turner heads for the&nbsp;exits							</div>
+								Pokémon Go will soon get ads in the form of sponsored&nbsp;locations							</div>
 							<div class="trending-byline">
-								5 hours ago by Ron Miller							</div>
+								1 hour ago by Lucia Maffei							</div>
 						</a>
 
 				
-						<a href="https://techcrunch.com/2016/07/06/pokemon-go-an-education/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/13/the-future-of-car-ownership-that-no-one-is-talking-about/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								Pokémon Go has already taught me so&nbsp;much							</div>
+								The future of car ownership that no one is talking&nbsp;about							</div>
 							<div class="trending-byline">
-								22 hours ago by Darrell Etherington							</div>
+								3 hours ago by Ned Ryan							</div>
 						</a>
 
 				
-						<a href="https://techcrunch.com/2016/07/06/key-trends-in-machine-learning-and-ai/?ncid=mobilenavtrend" class="trending-post">
+						<a href="https://techcrunch.com/2016/07/12/magic-leap-says-it-will-debut-its-product-hopefully-soonish/?ncid=mobilenavtrend" class="trending-post">
 							<div class="trending-title">
-								Key trends in machine learning and&nbsp;AI							</div>
+								Magic Leap says it will debut its product . . . &#8220;hopefully soonish&#8221;							</div>
 							<div class="trending-byline">
-								23 hours ago by S. Somasegar, Daniel Li							</div>
-						</a>
-
-				
-						<a href="https://techcrunch.com/2016/07/07/lyfts-latest-launch-is-luxury/?ncid=mobilenavtrend" class="trending-post">
-							<div class="trending-title">
-								Lyft&#8217;s latest launch is&nbsp;luxury							</div>
-							<div class="trending-byline">
-								4 hours ago by John Mannes							</div>
-						</a>
-
-				
-						<a href="https://techcrunch.com/2016/07/07/android-full-disk-encryption/?ncid=mobilenavtrend" class="trending-post">
-							<div class="trending-title">
-								Qualcomm says encryption flaw in Android went unpatched for over a&nbsp;year							</div>
-							<div class="trending-byline">
-								22 minutes ago by Kate Conger							</div>
-						</a>
-
-				
-						<a href="https://techcrunch.com/2016/07/07/bumble-is-going-to-help-you-find-your-next-job-with-bumblebizz/?ncid=mobilenavtrend" class="trending-post">
-							<div class="trending-title">
-								Bumble is going to help you find your next job with&nbsp;BumbleBizz							</div>
-							<div class="trending-byline">
-								3 hours ago by Fitz Tepper							</div>
+								21 hours ago by Connie Loizos							</div>
 						</a>
 
 									</div>
@@ -1939,6 +1915,12 @@ if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
 			$(loadChartbeat);
 		}(this, this.jQuery));
 	</script>
-<!--Page generated in 0.8483 seconds.-->
+<!--Page generated in 0.8018 seconds.-->
 </body>
 </html>
+<!--
+	generated 31 seconds ago
+	generated in 0.845 seconds
+	served from batcache in 0.002 seconds
+	expires in 269 seconds
+-->

@@ -351,6 +351,31 @@ $ terraform apply
               <ul>
                   <li class="Suggested-reading Article-list--item">
                     <div class="content-wrap"><h2 class="Article-title">
+  <a href="/blog/cocoapods-stats-powered-by-segment/" class="Article-title Action-link">
+    CocoaPods Stats powered by Segment!
+  </a>
+</h2>
+
+<p class="Article-teaser">We’re excited to welcome Orta from CocoaPods to the blog to discuss the new Stats feature! We’re big fans of CocoaPods and are excited to help support the project.
+</p>
+
+<div class="Author Author--singleLine">
+    <figure class="Author-avatar">
+        <img class="Author-avatarPic" src="/blog/public/avatars/orta-therox.jpg">
+    </figure>
+
+    <div class="Author-details">
+        <cite class="Author-name">Orta Therox</cite>
+      <time class="Article-date">13 July 2016</time>
+        <a href="/blog/categories/engineering/"
+          <span class="Category uppercase">engineering</span>
+        </a>
+    </div>
+</div>
+</div>
+                  </li>
+                  <li class="Suggested-reading Article-list--item">
+                    <div class="content-wrap"><h2 class="Article-title">
   <a href="/blog/ci-at-segment/" class="Article-title Action-link">
     Continuous Integration at Segment
   </a>
@@ -400,45 +425,6 @@ $ terraform apply
           </a>
         </cite>
       <time class="Article-date">14 June 2016</time>
-        <a href="/blog/categories/engineering/"
-          <span class="Category uppercase">engineering</span>
-        </a>
-    </div>
-</div>
-</div>
-                  </li>
-                  <li class="Suggested-reading Article-list--item">
-                    <div class="content-wrap"><h2 class="Article-title">
-  <a href="/blog/releasing-specs/" class="Article-title Action-link">
-    Specs: A Better Dashboard for ECS
-  </a>
-</h2>
-
-<p class="Article-teaser">For the past year, we’ve been heavy users of Amazon’s EC2 Container Service (ECS). It’s given us an easy way to run and deploy thousands of containers across our infrastructure.
-</p>
-
-<div class="Author Author--singleLine">
-    <figure class="Author-avatar">
-        <img class="Author-avatarPic" src="https://c19f7be2e84987e7904e-bf41efcb49679c193a4ec0f3210da86f.ssl.cf1.rackcdn.com/photos/40580-1-1.jpg">
-    </figure>
-
-    <div class="Author-details">
-        <cite>
-          <a href="/blog/authors/stephen-mathieson/" class="Author-name">
-            Stephen Mathieson
-          </a>
-        </cite>
-    <figure class="Author-avatar">
-        <img class="Author-avatarPic" src="https://c19f7be2e84987e7904e-bf41efcb49679c193a4ec0f3210da86f.ssl.cf1.rackcdn.com/photos/40528-1-1.jpg">
-    </figure>
-
-    <div class="Author-details">
-        <cite>
-          <a href="/blog/authors/calvin-french-owen/" class="Author-name">
-            Calvin French-Owen
-          </a>
-        </cite>
-      <time class="Article-date">26 May 2016</time>
         <a href="/blog/categories/engineering/"
           <span class="Category uppercase">engineering</span>
         </a>

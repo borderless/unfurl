@@ -2,13 +2,12 @@
   "originalUrl": "https://learnxinyminutes.com/docs/standard-ml/",
   "contentUrl": "https://learnxinyminutes.com/docs/standard-ml/",
   "headers": {
-    "server": "nginx/1.10.0",
-    "date": "Thu, 07 Jul 2016 19:33:13 GMT",
+    "server": "nginx/1.4.6 (Ubuntu)",
+    "date": "Wed, 13 Jul 2016 22:49:39 GMT",
     "content-type": "text/html; charset=utf-8",
     "last-modified": "Wed, 23 Mar 2016 22:03:58 GMT",
     "transfer-encoding": "chunked",
     "connection": "close",
-    "etag": "W/\"56f312ce-eb7c\"",
     "content-encoding": "gzip"
   },
   "status": 200,

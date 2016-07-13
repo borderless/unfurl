@@ -2,17 +2,17 @@
   "originalUrl": "http://www.reddit.com/",
   "contentUrl": "https://www.reddit.com/",
   "headers": {
-    "date": "Thu, 07 Jul 2016 19:33:15 GMT",
+    "date": "Wed, 13 Jul 2016 22:49:41 GMT",
     "content-type": "text/html; charset=UTF-8",
-    "content-length": "27341",
+    "content-length": "26503",
     "connection": "close",
     "x-ua-compatible": "IE=edge",
     "x-frame-options": "SAMEORIGIN",
     "x-content-type-options": "nosniff",
     "x-xss-protection": "1; mode=block",
     "set-cookie": [
-      "loid=m6zcOIAA4N9vkjpbv9; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sat, 07-Jul-2018 19:33:15 GMT; secure",
-      "loidcreated=2016-07-07T19%3A33%3A14.053Z; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sat, 07-Jul-2018 19:33:15 GMT; secure"
+      "loid=DG7KVbhtNUxb96CZA1; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Fri, 13-Jul-2018 22:49:41 GMT; secure",
+      "loidcreated=2016-07-13T22%3A49%3A40.876Z; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Fri, 13-Jul-2018 22:49:41 GMT; secure"
     ],
     "vary": "accept-encoding",
     "content-encoding": "gzip",
@@ -20,7 +20,7 @@
     "x-moose": "majestic",
     "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
     "server": "cloudflare-nginx",
-    "cf-ray": "2bedba1a7e295170-SJC"
+    "cf-ray": "2c204a1c74d82204-EWR"
   },
   "status": 200,
   "statusText": "OK"

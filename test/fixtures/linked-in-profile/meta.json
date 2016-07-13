@@ -4,28 +4,28 @@
   "headers": {
     "vary": "Accept-Encoding",
     "server": "Play",
-    "date": "Thu, 07 Jul 2016 19:33:14 GMT",
-    "x-fs-uuid": "e26e390775195f14206be466722b0000",
+    "date": "Wed, 13 Jul 2016 22:49:40 GMT",
+    "x-fs-uuid": "79036caba8fb6014805d9e5db42a0000",
     "x-page-speed": "1",
-    "content-length": "11115",
+    "content-length": "11119",
     "content-type": "text/html; charset=utf-8",
     "content-encoding": "gzip",
     "x-frame-options": "sameorigin",
     "x-content-type-options": "nosniff",
     "x-xss-protection": "1; mode=block",
-    "x-li-fabric": "PROD-ELA4",
+    "x-li-fabric": "prod-lva1",
     "strict-transport-security": "max-age=0",
     "set-cookie": [
-      "JSESSIONID=ajax:2171444543716407493; Path=/; Domain=.www.linkedin.com",
-      "bcookie=\"v=2&4cd8c7a4-3c80-4554-8c52-d3bf8d6d5d86\"; domain=.linkedin.com; Path=/; Expires=Sun, 08-Jul-2018 07:10:46 GMT",
-      "bscookie=\"v=1&20160707193313bff657fc-3579-4ab1-8a50-f43584280e67AQHc2EHhs2SxUlT1C1cj3Vjxf_ywj2pq\"; domain=.www.linkedin.com; Path=/; Secure; Expires=Sun, 08-Jul-2018 07:10:46 GMT; HttpOnly",
-      "lidc=\"b=LGST00:g=94:u=1:i=1467919994:t=1468006394:s=AQHBEScrjJDzDx8g3NyTPowRAQekCgXn\"; Expires=Fri, 08 Jul 2016 19:33:14 GMT; domain=.linkedin.com; Path=/"
+      "JSESSIONID=ajax:7062718265887803396; Path=/; Domain=.www.linkedin.com",
+      "bcookie=\"v=2&a915dec6-f712-4980-8c8b-ef974249909b\"; domain=.linkedin.com; Path=/; Expires=Sat, 14-Jul-2018 10:27:12 GMT",
+      "bscookie=\"v=1&20160713224940eee5a980-48f6-4185-862d-e5649774f7caAQG-4aKDqIsF-AsyF73sJAjbqujzFuVy\"; domain=.www.linkedin.com; Path=/; Secure; Expires=Sat, 14-Jul-2018 10:27:12 GMT; HttpOnly",
+      "lidc=\"b=VGST08:g=80:u=1:i=1468450180:t=1468536580:s=AQFHWpziIFVc2nHnKbepOdgdEosQtC8A\"; Expires=Thu, 14 Jul 2016 22:49:40 GMT; domain=.linkedin.com; Path=/"
     ],
     "pragma": "no-cache",
     "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
     "cache-control": "no-cache, no-store",
-    "x-li-pop": "PROD-ELA4",
-    "x-li-uuid": "4m45B3UZXxQga+RmcisAAA=="
+    "x-li-pop": "prod-lva1",
+    "x-li-uuid": "eQNsq6j7YBSAXZ5dtCoAAA=="
   },
   "status": 200,
   "statusText": "OK"

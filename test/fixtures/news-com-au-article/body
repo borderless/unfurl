@@ -27,7 +27,7 @@
 		}
 		/* ]]> */
 	</script>
-	<link rel='stylesheet' id='all-css-0' href='https://s0.wp.com/_static/??-eJytj9FuwzAIRX9ozGuVtU9Tv4XYaHFjHGpIo/79SKdqkSpNe9iLhdHhwA2LQJyqUbXAM0iZP3PVUPJIGs5kgnGE++81qr6EDW4DsUPXLKHSonFqgj+GiJJBbzUGVCXzhmrQiwImzhV6bE/CzX6XkfdZ0FaCKWWk4vuq/TbGcnhMreXgxz/fveEXcRr6Xhqpgr+cZ4bvYH/MWyM+Eqasdo+ZSEebxFHnwpWa5YgFdMBG6d+8RiwFjUBtardVe+KPXXc47rv3t+54/gJJfbLK' type='text/css' media='all' />
+	<link rel='stylesheet' id='all-css-0' href='https://s1.wp.com/_static/??-eJytj9FuwjAMRX9oXsRgiD1M+xY3sdbQOPVil4q/x2VCq4SE9sBL5FjHx75hFohjNaoWeAIp03euGkoeSMORTDAOcP29RtWXsMKtJ3bolCVUmjWOTfDPEFEy6LnGgKpk3lAN+qOAiXOFDtudcLXfZeR9FrSFYEoZqfi+ao/GWPa3qaXs/fj7u1f8LE5D10kjVfCX88TwG+yfeWvEW8KU1a4xE+lgozjqXDhRsxyxgPbYKD3Na8RS0AjUxnZetF/8udntD28f2+377ngBSaKyzw==' type='text/css' media='all' />
 <!--[if IE 9]>
 <link rel='stylesheet' id='newscorpau-nca-desktop-ie-9-css'  href='https://s1.wp.com/wp-content/themes/vip/newscorpau-nca/assets/dist/css/desktop/views/legacy-ie9.css?m=1449714940h' type='text/css' media='all' />
 <![endif]-->
@@ -49,7 +49,7 @@
 <meta property="article:published_time" content="2016-06-21T00:44:04+00:00" />
 <meta property="article:modified_time" content="2016-06-21T00:43:32+00:00" />
 <meta property="og:site_name" content="News.com.au" />
-<meta property="og:image" content="https://secure.gravatar.com/blavatar/99ae28ba58e6719abd9d8575bdc18a54?s=200&amp;ts=1467919954" />
+<meta property="og:image" content="https://secure.gravatar.com/blavatar/99ae28ba58e6719abd9d8575bdc18a54?s=200&amp;ts=1468450180" />
 <meta property="og:image:width" content="200" />
 <meta property="og:image:height" content="200" />
 <meta property="og:locale" content="en_US" />
@@ -103,7 +103,7 @@ contextual_values=[]
 <meta name="google-site-verification" content="GWTbDFKaKnGKyk3q0Na5jIbWHZ4qXn-ibcfMayjSQA0" />
 <link rel="publisher" href="https://plus.google.com/+newscomauHQ" />
 									
-						<!-- all.esi prod 2016-06-23T01:42:18.501Z 22ded29a6377ff90af5624fc3bed082d5bdc41ee --> <!--    url empty ?: 0   --> <!--    ID:  c4116603f54f1b7c88339cd039c7e123 --> <!--    ID_Type:  CAPIID --> <!--    Is mobile: false --><!-- 2016-06-08T00:55:30.673Z 2884884476cc26a596fb2fb0fd2d5ccff9c8a15b
+						<!-- all.esi prod 2016-06-23T01:42:18.501Z 22ded29a6377ff90af5624fc3bed082d5bdc41ee --> <!--    url empty ?: 0   --> <!--    ID:  c4116603f54f1b7c88339cd039c7e123 --> <!--    ID_Type:  CAPIID --> <!--    Is mobile: false --><!-- 2016-07-13T03:01:45.610Z 36e09e79862316410ae692e36d10708d37945896
  -->
 <script type="text/javascript" src="//tags.news.com.au/prod/adblock/adblock.js"></script>
 <script type="text/javascript">
@@ -117,7 +117,7 @@ contextual_values=[]
         
     
     
-        <!-- px2 not fired   -->
+        <!-- px2 not fired -->
     <script type="text/javascript">
 
 (function() {
@@ -134,12 +134,17 @@ contextual_values=[]
                     
                         utag_data.md_targeting = {"channels": [], "storyid": "c4116603f54f1b7c88339cd039c7e123"}
                         
-                </script><script>bruce_rtget={"sno": "1", "snol": "h,f,e,g,a", "tmstamp": "2016-07-08 05:30:04.012190"};</script><script type="text/javascript">
+                </script><script>bruce_rtget={"sno": "1", "snol": "f,e,c", "tmstamp": "2016-07-14 08:45:03.114768"};</script><script type="text/javascript">
                 // news.com.au
                 /* trending.esi prod 2015-11-22T23:33:42.049Z 91a8dc34e11c9303ac5e44deb84a0074ee67bbb2 */ (function() { var checkTrending = function() { var sections = [], tts = 'n'; for (var i=0; i<sections.length; i++) {/* Note: window.ndm is now deprecated */if (window.utag_data) { if(window.utag_data.net_sec1 && window.utag_data.net_sec1==sections[i]){ tts="y"; } else if(window.utag_data.net_sec2 && window.utag_data.net_sec2==sections[i]){ tts="y"; } else if(window.utag_data.net_sec3 && window.utag_data.net_sec3==sections[i]){ tts="y"; } else if(window.utag_data.net_sec4 && window.utag_data.net_sec4==sections[i]){ tts="y"; } } else { tts="err"; } } window.ads_extra=window.ads_extra || {}; window.ads_extra.tts=tts;/* Trending */window.ads_extra.ttm='n';/* Trending in top10 */ }; window.ads_core = window.ads_core || []; window.ads_core.push(checkTrending); })();
                 </script> <!-- end of all.esi -->
 					
 			
+		
+					<script>
+				window.utag_data = window.utag_data || {};
+				window.utag_data.net_platform = 'web';
+			</script>
 		
 								<script>utag_data.ad_pagetype = 'story';</script>
 
@@ -376,7 +381,7 @@ window[ "analyticsData" ] = {"pn":"news.com.au | world | story | UK man in \u201
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://s1.wp.com/wp-content/themes/vip/newscorpau-plugins/meta-analytics/js/analytics.js?m=1449707456h'></script>
-<script type='text/javascript' src='//tags.tiqcdn.com/utag/newsltd/news.fw/prod/utag.js?ver=4.5.3-20160628'></script>
+<script type='text/javascript' src='//tags.tiqcdn.com/utag/newsltd/news/prod/utag.js?ver=4.5.3-20160628'></script>
 <script type='text/javascript' src='https://s1.wp.com/_static/??-eJydzEEOAjEIAMAPWUnVuPFgfAtSkm0VaApuv6/ePTkPGJg9kWmwBsTKwg5b7aA8nWx0fCUlBHTncCjVA5oDmYgpTBvPku4WYfJNCCNJ1X3zHfzTFvZHWAdfcfAnRuef+02u+XTOy+F4WXJ7Ax+TR+M='></script>
 <script type='text/javascript' async defer src='http://widgets.outbrain.com/outbrain.js'></script>
 <script type='text/javascript' src='https://s0.wp.com/wp-content/themes/vip/newscorpau-nca/assets/dist/js/desktop/story-bottom-concat-min.js?m=1450221542h'></script>
@@ -411,7 +416,7 @@ _stq = window._stq || [];
 _tkq.push(['storeContext', {'blog_id':'87804686','blog_tz':'10','user_lang':'en','blog_lang':'en','user_id':'0'}]);
 _stq.push(['view', {'blog':'87804686','v':'wpcom','tz':'10','user_id':'0','post':'503568','subd':'newsatnewscorpau'}]);
 function st_vt() {var x=document.createElement("img");x.src="https://pixel.wp.com/g.gif?blog=87804686&v=wpcomvt&tz=10&user_id=0&post=503568&subd=newsatnewscorpau&rand="+Math.random();}
-_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdhX18vYmh2eEh8WkRiT2owTys1WnlWTHJWaWRWME5lMm9qNSwycnZmOWxzSzFxQXlfMEVuL0ZiNDY/S1BYdFp1PTNXWzFvVm5QU2xEYzBOWTVlQkN+TzktZVUlcXElR0UtZWVyM2p2aU1fNmoyYk5TOGJqLG13elEzcHhKMWNZajBJaXY5fF1YYStwZWFkK3YldV9zJkIvbnF5bVhZSTcxZWtON0dkaEslajdLRmI9bQ=='}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdhX18vYmh2eEh8WkRiT2owTys1WnlWTHJWaWRWME5xa1BEeUxbME1BUTEtUnEmJnBNTD9IZURlJX4mWG5kSlFjMkxlZnlCKy5nVnE3bnhxRnV1bXloSlpvLnl+enwwVUpUbjU0aGVtb3NVeG5oWD9UflV0NG84cV1bYTB1TldhSmg/K0JpZG1fbjkuT09Ydjl+UEtCelM5NWJOVjFIWE1xLlt5K18xZkk0WnAvJVlfYQ=='}]);
 _stq.push([ 'clickTrackerInit', '87804686', '503568' ]);
 	</script>
 <noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
@@ -442,7 +447,3 @@ if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
 
 
 </html>
-<!--
-	generated in 0.524 seconds
-	29080 bytes batcached for 300 seconds
--->

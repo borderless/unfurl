@@ -3,21 +3,21 @@
   "contentUrl": "https://www.spotify.com/us/",
   "headers": {
     "server": "nginx",
-    "date": "Thu, 07 Jul 2016 19:33:14 GMT",
+    "date": "Wed, 13 Jul 2016 22:49:41 GMT",
     "content-type": "text/html; charset=UTF-8",
-    "content-length": "21629",
+    "content-length": "21479",
     "connection": "close",
     "vary": "Referer,X-Forwarded-Proto,Accept-Encoding",
     "set-cookie": [
-      "spsess=0bdbb2d1994d6e794f6ebf6f646a198f528d01dc; path=/; secure; HttpOnly",
-      "spsess=0bdbb2d1994d6e794f6ebf6f646a198f528d01dc; path=/; secure; HttpOnly",
-      "sp_ab=%7B%22remove_webplayer_links%22%3A%22control%22%7D; expires=Sat, 06-Aug-2016 19:33:14 GMT; Max-Age=2592000; path=/; secure",
-      "device_view=full; expires=Sun, 07-Aug-2016 00:00:00 GMT; Max-Age=2608006; path=/; httponly",
-      "spot=%7B%22t%22%3A1467919994%2C%22m%22%3A%22us%22%2C%22p%22%3Anull%7D; expires=Thu, 05-Mar-2020 19:33:14 GMT; Max-Age=115516800; path=/; domain=spotify.com",
-      "sp_t=4ce450c6f7891daea21a0233c3cb921b; expires=Sat, 07-Jul-2018 19:33:14 GMT; Max-Age=63072000; path=/; domain=.spotify.com; secure",
-      "sp_new=1; expires=Fri, 08-Jul-2016 19:33:14 GMT; Max-Age=86400; path=/; domain=.spotify.com; secure"
+      "spsess=87af84a580bc654f117dfab3eb3eb2556dd9dda8; path=/; secure; HttpOnly",
+      "spsess=87af84a580bc654f117dfab3eb3eb2556dd9dda8; path=/; secure; HttpOnly",
+      "sp_ab=%7B%22remove_webplayer_links%22%3A%22control%22%7D; expires=Fri, 12-Aug-2016 22:49:41 GMT; Max-Age=2592000; path=/; secure",
+      "device_view=full; expires=Sat, 13-Aug-2016 00:00:00 GMT; Max-Age=2596219; path=/; httponly",
+      "spot=%7B%22t%22%3A1468450181%2C%22m%22%3A%22us%22%2C%22p%22%3Anull%7D; expires=Wed, 11-Mar-2020 22:49:41 GMT; Max-Age=115516800; path=/; domain=spotify.com",
+      "sp_t=3d840f42bb8c7ef62c950c510087068a; expires=Fri, 13-Jul-2018 22:49:41 GMT; Max-Age=63072000; path=/; domain=.spotify.com; secure",
+      "sp_new=1; expires=Thu, 14-Jul-2016 22:49:41 GMT; Max-Age=86400; path=/; domain=.spotify.com; secure"
     ],
-    "x-cache": "HIT from sjc1-www-a1.sjc1.spotify.net",
+    "x-cache": "HIT from sjc1-www-a4.sjc1.spotify.net",
     "cache-control": "no-cache",
     "content-encoding": "gzip",
     "x-content-type-options": [

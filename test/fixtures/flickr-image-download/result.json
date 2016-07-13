@@ -1,0 +1,72 @@
+{
+  "contentUrl": "https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg",
+  "originalUrl": "https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg",
+  "encodingFormat": "image/jpeg",
+  "contentSize": 12383845,
+  "dateModified": "2016-07-12T14:02:14.000Z",
+  "type": "image",
+  "width": 3407,
+  "height": 5110,
+  "colorSpace": "rgb",
+  "meta": {
+    "image": {
+      "Make": "Canon",
+      "Model": "Canon EOS 700D",
+      "Orientation": 1,
+      "XResolution": 300,
+      "YResolution": 300,
+      "ResolutionUnit": 2,
+      "Software": "Adobe Photoshop Lightroom 6.1 (Windows)",
+      "ModifyDate": "2016-07-12T08:35:24.000Z",
+      "ExifOffset": 208
+    },
+    "thumbnail": {
+      "Compression": 6,
+      "XResolution": 72,
+      "YResolution": 72,
+      "ResolutionUnit": 2,
+      "ThumbnailOffset": 786,
+      "ThumbnailLength": 15398
+    },
+    "exif": {
+      "ExposureTime": 2,
+      "FNumber": 10,
+      "ExposureProgram": 1,
+      "ISO": 100,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          48
+        ]
+      },
+      "DateTimeOriginal": "2016-07-12T04:33:20.000Z",
+      "DateTimeDigitized": "2016-07-12T04:33:20.000Z",
+      "ShutterSpeedValue": -1,
+      "ApertureValue": 6.643856,
+      "ExposureBiasValue": 0,
+      "MaxApertureValue": 3,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 17,
+      "SubSecTimeOriginal": "71",
+      "FocalPlaneXResolution": 5798.657718120805,
+      "FocalPlaneYResolution": 5788.94472361809,
+      "FocalPlaneResolutionUnit": 2,
+      "ExposureMode": 1,
+      "WhiteBalance": 0,
+      "SceneCaptureType": 0,
+      "BodySerialNumber": "293075044298",
+      "LensSpecification": [
+        17,
+        70,
+        null,
+        null
+      ],
+      "LensModel": "17-70mm",
+      "LensSerialNumber": "0000000000"
+    }
+  }
+}

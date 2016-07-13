@@ -2,8 +2,8 @@
   "contentUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
   "originalUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
   "encodingFormat": "text/html",
-  "contentSize": 19466,
-  "dateModified": "2016-07-12T19:10:18.000Z",
+  "contentSize": 19455,
+  "dateModified": "2016-07-13T22:49:41.000Z",
   "type": "html",
   "meta": {
     "html": {
@@ -161,7 +161,7 @@
       "dateCreated": "May 04, 2012",
       "aggregateRating": {
         "@type": "http://schema.org/AggregateRating",
-        "ratingValue": "4.57461",
+        "ratingValue": "4.57523",
         "reviewCount": "9610 Ratings"
       }
     }

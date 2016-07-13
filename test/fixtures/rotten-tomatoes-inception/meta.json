@@ -7,13 +7,13 @@
     "connection": "close",
     "cache-control": "max-age=900, public",
     "content-language": "en-US",
-    "date": "Thu, 07 Jul 2016 19:33:13 GMT",
+    "date": "Wed, 13 Jul 2016 22:49:39 GMT",
     "server": "Apache-Coyote/1.1",
     "content-encoding": "gzip",
     "vary": "Accept-Encoding",
     "x-cache": "Miss from cloudfront",
-    "via": "1.1 0cf1d7257c633ae75623c5e75bf3805e.cloudfront.net (CloudFront)",
-    "x-amz-cf-id": "s2iDthA2XRnyGjtR90Raj1CutIpL1gEwBmMBBiwxIIDMkY5ZrrNHpg=="
+    "via": "1.1 0c02cd1c004ad2c9173a6dd41acaa912.cloudfront.net (CloudFront)",
+    "x-amz-cf-id": "hmjx4BAz39rFwRH8X8QpytctgvlRhUXQWLefo1Q7lpmbaDcvyUeB2g=="
   },
   "status": 200,
   "statusText": "OK"

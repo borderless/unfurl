@@ -11,7 +11,7 @@
 <link href="https://abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3.png" />
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-<script type="application/json" id="drupal-settings">{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"gazebo_dev","theme_token":"_9pA0ySOP42aHL5bJ3MeTd-lVamCoitwDRp9-9tdLQE"},"analyticsSettings":{"google":{"accounts":["UA-30775-44","UA-30775-16"],"options":{"customVars":{"dimension2":"1"},"customUrl":"","trackerUrl":"https:\/\/g.twimg.com\/googleanalytics\/analytics.js","domains":["dev.twitter.com"],"cross_domains":[],"displayAdvertisingFeatures":true}},"scribe":{"client":"gazebo"},"trackingPixel":{"pixel_ids":[]},"bing":false}}</script><meta name="google-site-verification" content="DsylEvTL7j64tY0IHBWbMN6pUvvKMIRl8usLs1sn2XQ" />
+<script type="application/json" id="drupal-settings">{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"gazebo_dev","theme_token":"QgqMlVjDGX1Q7rcuJxDFV_Zv-8-AzdNzjoLEEMrhx6g"},"analyticsSettings":{"google":{"accounts":["UA-30775-44","UA-30775-16"],"options":{"customVars":{"dimension2":"1"},"customUrl":"","trackerUrl":"https:\/\/g.twimg.com\/googleanalytics\/analytics.js","domains":["dev.twitter.com"],"cross_domains":[],"displayAdvertisingFeatures":true}},"scribe":{"client":"gazebo"},"trackingPixel":{"pixel_ids":[]},"bing":false}}</script><meta name="google-site-verification" content="DsylEvTL7j64tY0IHBWbMN6pUvvKMIRl8usLs1sn2XQ" />
 <meta content="on" name="twitter:widgets:new-embed-design" />
 <meta content="on" name="twitter:widgets:csp" />
 <meta name="og:url" content="https://dev.twitter.com/cards/types/player" />
@@ -28,19 +28,19 @@
 <meta name="og:type" content="article" />
 
     <title>Player Card | Twitter Developers</title>
-    <link type="text/css" rel="stylesheet" href="https://g.twimg.com/css/0237777/css_26jRHMMCuvdWTE9NpN-pVLYvqWAjjnIFL6rvDsh5MHM.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://g.twimg.com/css/0237777/css_Y_rYp5Zp2ETqQBWJcbCTJb03omhV0osaOMslZ_927ZE.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="https://g.twimg.com/css/fe5d0c7/css_26jRHMMCuvdWTE9NpN-pVLYvqWAjjnIFL6rvDsh5MHM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://g.twimg.com/css/fe5d0c7/css_Y_rYp5Zp2ETqQBWJcbCTJb03omhV0osaOMslZ_927ZE.css" media="all" />
 <link type="text/css" rel="stylesheet" href="https://abs.twimg.com/font/gotham-narrow-v3.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://g.twimg.com/css/0237777/css__rOiZTCBuscnfvEnJw-_pXPK3v3PrChlAC7zARk220c.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://g.twimg.com/css/0237777/css_ena-Fy7TMjwTiyFeouk2Q_f1tPj98xZSiZElGa8lx8w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://g.twimg.com/css/fe5d0c7/css__rOiZTCBuscnfvEnJw-_pXPK3v3PrChlAC7zARk220c.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://g.twimg.com/css/fe5d0c7/css_ena-Fy7TMjwTiyFeouk2Q_f1tPj98xZSiZElGa8lx8w.css" media="all" />
 
-    <script type="text/javascript" src="https://g.twimg.com/js/0237777/js_kYMI6stYSsIRxnH5jlyWN3v76pk66IDAcsvBOk1W_qc.js"></script>
-<script type="text/javascript" src="https://g.twimg.com/js/0237777/js_khfOAWT2z7QE7s9bNkw5afNKRe9w8PMP6gthYSvApG0.js"></script>
-<script type="text/javascript" src="https://g.twimg.com/js/0237777/js_GwOn7zsvXJwUDS7-VhiFJrVpcBnFBk6AYl2sYoqLJCI.js"></script>
-<script type="text/javascript" src="https://g.twimg.com/js/0237777/js_aX2iu8pTP4yy32AfhA-H8KZMM5IiCCP8Yx-eZ84lY6Q.js"></script>
-<script type="text/javascript" src="https://g.twimg.com/js/0237777/js_Ykeg4PlP-G4rQQELDhsAuT35PbEAJ2e4KmhevqSWrJg.js"></script>
-<script type="text/javascript" src="https://g.twimg.com/js/0237777/js_BsD1J0VYO_7sNrnLQ25AQi_96pz4TWChe8TDkeZN9vs.js"></script>
-<script type="text/javascript" src="https://g.twimg.com/inline-js/adca7e6ab1c7f1559e86028a530b7f8c.js?o9wmw6"></script>
+    <script type="text/javascript" src="https://g.twimg.com/js/fe5d0c7/js_kYMI6stYSsIRxnH5jlyWN3v76pk66IDAcsvBOk1W_qc.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/fe5d0c7/js_khfOAWT2z7QE7s9bNkw5afNKRe9w8PMP6gthYSvApG0.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/fe5d0c7/js_GwOn7zsvXJwUDS7-VhiFJrVpcBnFBk6AYl2sYoqLJCI.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/fe5d0c7/js_aX2iu8pTP4yy32AfhA-H8KZMM5IiCCP8Yx-eZ84lY6Q.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/fe5d0c7/js_Ykeg4PlP-G4rQQELDhsAuT35PbEAJ2e4KmhevqSWrJg.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/fe5d0c7/js_BsD1J0VYO_7sNrnLQ25AQi_96pz4TWChe8TDkeZN9vs.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/inline-js/adca7e6ab1c7f1559e86028a530b7f8c.js?oa9y47"></script>
 
   </head>
 
@@ -108,11 +108,11 @@
 </footer>
 </div>
 
-    <script type="text/javascript" src="https://g.twimg.com/js/0237777/js_Rk5YIkK6m2gKTGH-GrMu0pM_PlMKXnI0ktQUgXw1XgA.js"></script>
+    <script type="text/javascript" src="https://g.twimg.com/js/fe5d0c7/js_Rk5YIkK6m2gKTGH-GrMu0pM_PlMKXnI0ktQUgXw1XgA.js"></script>
 <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
-<script type="text/javascript" src="https://g.twimg.com/js/0237777/js_WRH7WYq-FQCJT26vr-LZAlWu_t37jPSQ1Sws4gdMfko.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/fe5d0c7/js_WRH7WYq-FQCJT26vr-LZAlWu_t37jPSQ1Sws4gdMfko.js"></script>
 <script type="text/javascript" src="https://platform.twitter.com/oct.js"></script>
-<script type="text/javascript" src="https://g.twimg.com/js/0237777/js_6yE-_uKeO7bidfCOj5hFbBaaInw0QU2U0ekyhBlHU9k.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/fe5d0c7/js_6yE-_uKeO7bidfCOj5hFbBaaInw0QU2U0ekyhBlHU9k.js"></script>
 
   </body>
 </html>

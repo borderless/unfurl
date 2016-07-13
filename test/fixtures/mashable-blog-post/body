@@ -1,24 +1,15 @@
 <!DOCTYPE html>
 <!--
-o o     o     +              o
-+   +     +             o     +       +
-            +
-o  +    +        o  +           +        +
-     __  __           _           _     _
-~_,-|  \/  | __ _ ___| |__   __ _| |__ | | ___
-    | |\/| |/ _` / __| '_ \ / _` | '_ \| |/ _ \,-~_,- - - ,
-~_,-| |  | | (_| \__ \ | | | (_| | |_) | |  __/    |   /\_/\
-    |_|  |_|\__,_|___/_| |_|\__,_|_.__/|_|\___|  ~=|__( ^ .^)
-~_,-~_,-~_,-~_,-~_,-~_,-~_,-~_,-~_,-~_,-~_,-~_,-~_,""   ""
-o o     o     +              o
-+   +     +             o     +       +
-            +
-o  +    +        o  +           +        +
+ __  __           _           _     _
+|  \/  | __ _ ___| |__   __ _| |__ | | ___
+| |\/| |/ _` / __| '_ \ / _` | '_ \| |/ _ \
+| |  | | (_| \__ \ | | | (_| | |_) | |  __/
+|_|  |_|\__,_|___/_| |_|\__,_|_.__/|_|\___|
 -->
 <html data-env='production' lang='en' xml:lang='en'>
 <head>
 <script>
-  window.__o = {"channel":"watercooler","content_type":"article","v_buy":null,"v_buy_i":null,"h_pub":454.0,"h_buy":null,"h_pub_buy":null,"v_cur":0.0,"v_max":0.0,"v_cur_i":0,"v_max_i":0,"events":"event51,event61","top_channel":"watercooler","content_source_type":"Internal","content_source_name":"Internal","author_name":"Andrea Romano","age":"18","pub_day":17,"pub_month":6,"pub_year":2016,"pub_date":"06/17/2016","sourced_from":"Internal","isPostView":true,"post_lead_type":"Alt Image Lead","topics":"Conversations,Entertainment,funny,Game of Thrones,jon snow,Lists,Television,Watercooler","campaign":null,"display_mode":null,"viral_video_type":null,"b_flag":true};
+  window.__o = {"channel":"watercooler","content_type":"article","v_buy":null,"v_buy_i":null,"h_pub":592.5,"h_buy":null,"h_pub_buy":null,"v_cur":0.0,"v_max":0.0,"v_cur_i":0,"v_max_i":0,"events":"event51,event61","top_channel":"watercooler","content_source_type":"Internal","content_source_name":"Internal","author_name":"Andrea Romano","age":"24","pub_day":17,"pub_month":6,"pub_year":2016,"pub_date":"06/17/2016","sourced_from":"Internal","isPostView":true,"post_lead_type":"Alt Image Lead","topics":"Conversations,Entertainment,funny,Game of Thrones,jon snow,Lists,Television,Watercooler","campaign":null,"display_mode":null,"viral_video_type":null,"b_flag":true};
   window._gaq = window._gaq || [];
   window._gaq.push(['_setAccount', 'UA-92124-1']);
   window._geo = "US";
@@ -26,13 +17,11 @@ o  +    +        o  +           +        +
   window.optimizely = [["setCookieExpiration", 730]];
 </script>
 <title>50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode</title>
-<link href="http://a.amz.mshcdn.com/assets/app-0b7a3c1f10dcce77a089779ab45e5272.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://a.amz.mshcdn.com/assets/app-647690729ae7f0252fe3cdea32f4cd30.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="http://a.amz.mshcdn.com/assets/posts-7f26b491c1a9b5d62bc2d817755b4152.css" media="all" rel="stylesheet" type="text/css" />
 <!--[if lte IE 8]>
 <link href="http://a.amz.mshcdn.com/assets/iehax-a92ea2679dfac0fd022bcbffb7a40eeb.css" media="screen" rel="stylesheet" type="text/css" />
 <![endif]-->
-<meta content='no' name='apple-mobile-web-app-capable'>
-<meta content='width=device-width, initial-scale=1.0' name='viewport'>
 <link href='https://plus.google.com/113493854651753327245' rel='publisher'>
 <link href='http://feeds.mashable.com/Mashable' rel='alternate' title='Mashable' type='application/rss+xml'>
 <link href='/apple-touch-icon-57x57.png?v=m2Pmw8zNwl' rel='apple-touch-icon' sizes='57x57'>
@@ -50,6 +39,9 @@ o  +    +        o  +           +        +
 <link href='/favicon-16x16.png?v=m2Pmw8zNwl' rel='icon' sizes='16x16' type='image/png'>
 <link href='/manifest.json?v=m2Pmw8zNwl' rel='manifest'>
 <link href='/favicon.ico?v=m2Pmw8zNwl' rel='shortcut icon'>
+<link href='http://a.amz.mshcdn.com/assets/mashable.touchicon-fef1d080d993d3b95408f12ab39b03f0.png' rel='apple-touch-icon-precomposed'>
+<meta content='no' name='apple-mobile-web-app-capable'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
 <meta content='#da532c' name='msapplication-TileColor'>
 <meta content='/mstile-144x144.png?v=m2Pmw8zNwl' name='msapplication-TileImage'>
 <meta content='#ffffff' name='theme-color'>
@@ -59,9 +51,8 @@ o  +    +        o  +           +        +
 <meta content='nYmtX7H2sSCkK8gHpQGxr7Es2526DgUaqb6PGYSX' name='readability-verification'>
 <meta content='YfjJNAwfOEsk9gCpEyro9wrDs3yzGlkO1w2tJ7GdxDo' name='google-site-verification'>
 <meta content='app-id=910775754' name='apple-itunes-app'>
-<link href='http://a.amz.mshcdn.com/assets/mashable.touchicon-fef1d080d993d3b95408f12ab39b03f0.png' rel='apple-touch-icon-precomposed'>
 
-<link data-page-subject="true" href="http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/" rel="canonical" /><link data-page-subject="true" href="http://i.amz.mshcdn.com/jlBR8lMx_mY6SkU-qq3tvtupPu8=/1200x627/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg" rel="image_src" /><meta content="http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/" data-page-subject="true" property="og:url" /><meta content="50 things we want from &#x27;Battle of the Bastards,&#x27; the next &#x27;Game of Thrones&#x27; episode" data-page-subject="true" property="og:title" /><meta content="article" data-page-subject="true" property="og:type" /><meta content="Mashable" data-page-subject="true" property="og:site_name" /><meta content="Let us count the ways we hope Ramsey will die." data-page-subject="true" property="og:description" /><meta content="http://a.amz.mshcdn.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2MzAKZQlqcGc/8e6659fa/25e/battleofthebastards.jpg" data-page-subject="true" property="og:image" /><meta content="2016-06-17T15:35:08Z" data-page-subject="true" property="og:article:published_time" /><meta content="2016-06-30T17:41:09Z" data-page-subject="true" property="og:article:modified_time" /><meta content="https://www.facebook.com/mashable" data-page-subject="true" property="og:article:publisher" /><meta content="We all have a lot of hopes, dreams and feelings about this week&#x27;s penultimate episode of Game of Thrones." data-page-subject="true" name="description" /><meta content="entertainment, watercooler, funny, conversations, lists, tv, jon-snow, game-of-thrones" data-page-subject="true" name="keywords" /><meta content="50 things we want from &#x27;Battle of the Bastards,&#x27; the next &#x27;Game of Thrones&#x27; episode" data-page-subject="true" name="twitter:title" /><meta content="Let us count the ways we hope Ramsey will die." data-page-subject="true" name="twitter:description" /><meta content="http://i.amz.mshcdn.com/aFAKqhtHbY6dvAbbeFO9opnh6Ug=/640x360/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg" data-page-subject="true" name="twitter:image" /><meta content="@mashable" data-page-subject="true" name="twitter:site" /><meta content="mashable" data-page-subject="true" name="twitter:via" /><meta content="http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/" data-page-subject="true" name="twitter:url" /><meta content="@AndiesMint" data-page-subject="true" name="twitter:creator" /><meta content="photo" data-page-subject="true" name="twitter:card" /><meta content="640" data-page-subject="true" name="twitter:image:width" /><meta content="360" data-page-subject="true" name="twitter:image:height" /><meta content="2016-06-17 15:35:08 UTC" data-page-subject="true" name="date" /><meta content="Andrea Romano" data-page-subject="true" name="sailthru.author" /><meta content="http://i.amz.mshcdn.com/t887bC7ssyJ2yjWtl10oaKcvFFg=/115x115/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg" data-page-subject="true" name="sailthru.image.thumb" /><meta content="http://i.amz.mshcdn.com/GGEZkfVeWBipBUZk8fhZHcca6eU=/950x534/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg" data-page-subject="true" name="sailthru.image.full" /><meta content="http://i.amz.mshcdn.com/Kemr0tZc2omvXwBAq04F_IpFKT4=/600x338/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg" data-page-subject="true" name="sailthru.lead_image" /><meta content="http://i.amz.mshcdn.com/m-rYyYcunGucMIOamlaoc00BX8Q=/288x162/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg" data-page-subject="true" name="sailthru.secondary_image" /><meta content="false" data-page-subject="true" name="sailthru.exclude_homepage" /><meta content="false" data-page-subject="true" name="sailthru.exclude_uk" /><meta content="false" data-page-subject="true" name="sailthru.exclude_australia" /><meta content="false" data-page-subject="true" name="sailthru.exclude_india" /><meta content="Andrea Romano" data-page-subject="true" name="author" /><meta content="http://on.mash.to/1UnjvOR" data-page-subject="true" name="short_url" /><script type="application/ld+json">{"@context":"http://schema.org","headline":"50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode","url":"http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/","keywords":["entertainment","watercooler","funny","conversations","lists","tv","jon-snow","game-of-thrones"],"image":{"@type":"ImageObject","url":"http://mashable.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2Mjcj/f5e300c9/25e/battleofthebastards.jpg","width":"1200","height":"627"},"@type":"Article","mainEntityOfPage":"True","publisher":{"@type":"Organization","name":"Mashable","url":"http://www.mashable.com","logo":{"@type":"ImageObject","url":"http://a.amz.mshcdn.com/assets/mashable-publisher-logo-2f5746f38769a1f07bd9e9a10a73dd46.png","width":"357","height":"60"}},"dateCreated":"2016-06-17T15:35:08Z","datePublished":"2016-06-17T15:35:08Z","author":"Andrea Romano","creator":"Andrea Romano","dateModified":"2016-06-30T17:41:09Z","articleSection":"watercooler"}</script><meta content="{&quot;page&quot;:1,&quot;omnitureData&quot;:{&quot;channel&quot;:&quot;watercooler&quot;,&quot;content_type&quot;:&quot;article&quot;,&quot;v_buy&quot;:null,&quot;v_buy_i&quot;:null,&quot;h_pub&quot;:454.0,&quot;h_buy&quot;:null,&quot;h_pub_buy&quot;:null,&quot;v_cur&quot;:0.0,&quot;v_max&quot;:0.0,&quot;v_cur_i&quot;:0,&quot;v_max_i&quot;:0,&quot;events&quot;:&quot;event51,event61&quot;,&quot;top_channel&quot;:&quot;watercooler&quot;,&quot;content_source_type&quot;:&quot;Internal&quot;,&quot;content_source_name&quot;:&quot;Internal&quot;,&quot;author_name&quot;:&quot;Andrea Romano&quot;,&quot;age&quot;:&quot;18&quot;,&quot;pub_day&quot;:17,&quot;pub_month&quot;:6,&quot;pub_year&quot;:2016,&quot;pub_date&quot;:&quot;06/17/2016&quot;,&quot;sourced_from&quot;:&quot;Internal&quot;,&quot;isPostView&quot;:true,&quot;post_lead_type&quot;:&quot;Alt Image Lead&quot;,&quot;topics&quot;:&quot;Conversations,Entertainment,funny,Game of Thrones,jon snow,Lists,Television,Watercooler&quot;,&quot;campaign&quot;:null,&quot;display_mode&quot;:null,&quot;viral_video_type&quot;:null,&quot;b_flag&quot;:true}}" name="parsely-metadata" />
+<link data-page-subject="true" href="http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/" rel="canonical" /><link data-page-subject="true" href="http://i.amz.mshcdn.com/jlBR8lMx_mY6SkU-qq3tvtupPu8=/1200x627/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg" rel="image_src" /><meta content="http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/" data-page-subject="true" property="og:url" /><meta content="50 things we want from &#x27;Battle of the Bastards,&#x27; the next &#x27;Game of Thrones&#x27; episode" data-page-subject="true" property="og:title" /><meta content="article" data-page-subject="true" property="og:type" /><meta content="Mashable" data-page-subject="true" property="og:site_name" /><meta content="Let us count the ways we hope Ramsey will die." data-page-subject="true" property="og:description" /><meta content="http://a.amz.mshcdn.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2MzAKZQlqcGc/8e6659fa/25e/battleofthebastards.jpg" data-page-subject="true" property="og:image" /><meta content="2016-06-17T15:35:08Z" data-page-subject="true" property="og:article:published_time" /><meta content="2016-07-11T20:53:50Z" data-page-subject="true" property="og:article:modified_time" /><meta content="https://www.facebook.com/mashable" data-page-subject="true" property="og:article:publisher" /><meta content="We all have a lot of hopes, dreams and feelings about this week&#x27;s penultimate episode of Game of Thrones." data-page-subject="true" name="description" /><meta content="entertainment, watercooler, funny, conversations, lists, tv, jon-snow, game-of-thrones" data-page-subject="true" name="keywords" /><meta content="50 things we want from &#x27;Battle of the Bastards,&#x27; the next &#x27;Game of Thrones&#x27; episode" data-page-subject="true" name="twitter:title" /><meta content="Let us count the ways we hope Ramsey will die." data-page-subject="true" name="twitter:description" /><meta content="http://i.amz.mshcdn.com/aFAKqhtHbY6dvAbbeFO9opnh6Ug=/640x360/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg" data-page-subject="true" name="twitter:image" /><meta content="@mashable" data-page-subject="true" name="twitter:site" /><meta content="mashable" data-page-subject="true" name="twitter:via" /><meta content="http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/" data-page-subject="true" name="twitter:url" /><meta content="@AndiesMint" data-page-subject="true" name="twitter:creator" /><meta content="photo" data-page-subject="true" name="twitter:card" /><meta content="640" data-page-subject="true" name="twitter:image:width" /><meta content="360" data-page-subject="true" name="twitter:image:height" /><meta content="2016-06-17 15:35:08 UTC" data-page-subject="true" name="date" /><meta content="Andrea Romano" data-page-subject="true" name="sailthru.author" /><meta content="http://i.amz.mshcdn.com/t887bC7ssyJ2yjWtl10oaKcvFFg=/115x115/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg" data-page-subject="true" name="sailthru.image.thumb" /><meta content="http://i.amz.mshcdn.com/GGEZkfVeWBipBUZk8fhZHcca6eU=/950x534/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg" data-page-subject="true" name="sailthru.image.full" /><meta content="http://i.amz.mshcdn.com/Kemr0tZc2omvXwBAq04F_IpFKT4=/600x338/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg" data-page-subject="true" name="sailthru.lead_image" /><meta content="http://i.amz.mshcdn.com/m-rYyYcunGucMIOamlaoc00BX8Q=/288x162/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg" data-page-subject="true" name="sailthru.secondary_image" /><meta content="false" data-page-subject="true" name="sailthru.exclude_homepage" /><meta content="false" data-page-subject="true" name="sailthru.exclude_uk" /><meta content="false" data-page-subject="true" name="sailthru.exclude_australia" /><meta content="false" data-page-subject="true" name="sailthru.exclude_india" /><meta content="Andrea Romano" data-page-subject="true" name="author" /><meta content="http://on.mash.to/1UnjvOR" data-page-subject="true" name="short_url" /><script type="application/ld+json">{"@context":"http://schema.org","headline":"50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode","url":"http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/","keywords":["entertainment","watercooler","funny","conversations","lists","tv","jon-snow","game-of-thrones"],"image":{"@type":"ImageObject","url":"http://mashable.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2Mjcj/f5e300c9/25e/battleofthebastards.jpg","width":"1200","height":"627"},"@type":"Article","mainEntityOfPage":"True","publisher":{"@type":"Organization","name":"Mashable","url":"http://www.mashable.com","logo":{"@type":"ImageObject","url":"http://a.amz.mshcdn.com/assets/mashable-publisher-logo-2f5746f38769a1f07bd9e9a10a73dd46.png","width":"357","height":"60"}},"dateCreated":"2016-06-17T15:35:08Z","datePublished":"2016-06-17T15:35:08Z","author":"Andrea Romano","creator":"Andrea Romano","dateModified":"2016-07-11T20:53:50Z","articleSection":"watercooler"}</script><meta content="{&quot;page&quot;:1,&quot;omnitureData&quot;:{&quot;channel&quot;:&quot;watercooler&quot;,&quot;content_type&quot;:&quot;article&quot;,&quot;v_buy&quot;:null,&quot;v_buy_i&quot;:null,&quot;h_pub&quot;:592.5,&quot;h_buy&quot;:null,&quot;h_pub_buy&quot;:null,&quot;v_cur&quot;:0.0,&quot;v_max&quot;:0.0,&quot;v_cur_i&quot;:0,&quot;v_max_i&quot;:0,&quot;events&quot;:&quot;event51,event61&quot;,&quot;top_channel&quot;:&quot;watercooler&quot;,&quot;content_source_type&quot;:&quot;Internal&quot;,&quot;content_source_name&quot;:&quot;Internal&quot;,&quot;author_name&quot;:&quot;Andrea Romano&quot;,&quot;age&quot;:&quot;24&quot;,&quot;pub_day&quot;:17,&quot;pub_month&quot;:6,&quot;pub_year&quot;:2016,&quot;pub_date&quot;:&quot;06/17/2016&quot;,&quot;sourced_from&quot;:&quot;Internal&quot;,&quot;isPostView&quot;:true,&quot;post_lead_type&quot;:&quot;Alt Image Lead&quot;,&quot;topics&quot;:&quot;Conversations,Entertainment,funny,Game of Thrones,jon snow,Lists,Television,Watercooler&quot;,&quot;campaign&quot;:null,&quot;display_mode&quot;:null,&quot;viral_video_type&quot;:null,&quot;b_flag&quot;:true}}" name="parsely-metadata" />
 
 
 <script src='//cdn.optimizely.com/js/58011369.js'></script>
@@ -69,24 +60,11 @@ o  +    +        o  +           +        +
 <script async='async' src='//cdn.connatix.com/min/connatix.handler.dfp.min.js'></script>
 <script src='http://content.jwplatform.com/libraries/hrrl7x1B.js'></script>
 <script src='//imasdk.googleapis.com/js/sdkloader/ima3.js'></script>
-<script src='https://analytics.ooyala.com/static/analytics.js'></script>
 <script src="http://a.amz.mshcdn.com/assets/advertisement-060f46eaa4b4b7eb4cfc22a60aa890ba.js" type="text/javascript"></script>
-<script src="http://a.amz.mshcdn.com/assets/app-a4ebb0190259c011798b9df03b9acc56.js" type="text/javascript"></script>
+<script src="http://a.amz.mshcdn.com/assets/app-6c960cc1038181b2b6853ec6644fadcd.js" type="text/javascript"></script>
 <!--[if lte IE 8]>
 <script src="http://a.amz.mshcdn.com/assets/polyfill-dbcc2a2d7d3822e949277216824a7e49.js" type="text/javascript"></script>
 <![endif]-->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','//connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1453039084979896');
-fbq('track', "PageView");
-</script>
-<noscript>
-<img height='1' src='https://www.facebook.com/tr?id=1453039084979896&amp;ev=PageView&amp;noscript=1' style='display:none' width='1'>
-</noscript>
 </head>
 <body class='body_posts body_show' data-jsid='posts/show' data-postid='bp11969' data-sec0='viral' data-sec1='conversations-watercooler' data-sec2='posts' data-topic='television' viewport='fixed'>
 <h1 class='semantic'>Mashable</h1>
@@ -198,17 +176,17 @@ Mashable
 </div></li>
 </ul></div>
 </div>
-<div id='sticky-slot' style='position:absolute;width:100%;z-index:-1;background:#f6f5f2'></div></header>
+<div id='sticky-slot'></div></header>
 </div>
 <div id='scrollable'><div class='loader'></div>
-<div class="ad_container ad-slot" data-overrides="{&quot;targeting&quot;:{&quot;tile&quot;:3,&quot;adnum&quot;:3,&quot;sec0&quot;:&quot;viral&quot;,&quot;sec1&quot;:&quot;conversations-watercooler&quot;,&quot;sec2&quot;:&quot;posts&quot;,&quot;topic&quot;:&quot;television&quot;,&quot;postid&quot;:&quot;bp11969&quot;}}" data-type="survey"></div><header class='box970' id='lead-banner'>
+<div id='srvSlot' style='position: absolute'><div class="ad_container ad-slot" data-overrides="{&quot;targeting&quot;:{&quot;tile&quot;:3,&quot;adnum&quot;:3,&quot;sec0&quot;:&quot;viral&quot;,&quot;sec1&quot;:&quot;conversations-watercooler&quot;,&quot;sec2&quot;:&quot;posts&quot;,&quot;topic&quot;:&quot;television&quot;,&quot;postid&quot;:&quot;bp11969&quot;}}" data-type="survey"></div></div>
+<header class='box970' id='lead-banner'>
 <div class='page-container'><center class='visible-desktop'><div class="ad_container ad-slot" data-overrides="{&quot;targeting&quot;:{&quot;tile&quot;:4,&quot;adnum&quot;:1,&quot;sec0&quot;:&quot;viral&quot;,&quot;sec1&quot;:&quot;conversations-watercooler&quot;,&quot;sec2&quot;:&quot;posts&quot;,&quot;topic&quot;:&quot;television&quot;,&quot;postid&quot;:&quot;bp11969&quot;}}" data-type="banner"></div></center></div>
 </header>
 <div class='posts show' id='body-container'><div id='main'>
 <div class='page-container'>
 
-<div id='body'><img height='0' id='bluekai-test-img' src='/favicon-16x16.png?bk_uuid=$_BK_UUID&amp;BK_SWAP_DEST=19275' width='0'>
-<hgroup class='page-header channel' data-channel='watercooler' data-section='sec0=viral&amp;sec1=index&amp;sec2=' id='post-head'>
+<div id='body'><hgroup class='page-header channel' data-channel='watercooler' data-section='sec0=viral&amp;sec1=index&amp;sec2=' id='post-head'>
 <h2>Watercooler</h2>
 <div class='follow-channel'>
 <div class='follow-buttons'>
@@ -252,9 +230,9 @@ Mashable
 <div class='caption'>Shares</div>
 </div>
 <div class='share-buttons'>
-<div class='share-button-boxy'><a class="social-stub social-share facebook" data-image="http://i.amz.mshcdn.com/cFOA7JH0zHa6T2ik7Ssm9YcLcx0=/1200x630/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg" data-shares="1129" data-title="50 things we want from &#x27;Battle of the Bastards,&#x27; the next &#x27;Game of Thrones&#x27; episode" data-uid="373" href="#">Share</a></div>
+<div class='share-button-boxy'><a class="social-stub social-share facebook" data-image="http://i.amz.mshcdn.com/cFOA7JH0zHa6T2ik7Ssm9YcLcx0=/1200x630/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg" data-shares="1131" data-title="50 things we want from &#x27;Battle of the Bastards,&#x27; the next &#x27;Game of Thrones&#x27; episode" data-uid="373" href="#">Share</a></div>
 <div class='share-button-boxy'><a class="social-stub social-share twitter" data-shares="565" data-tweet-text="50 things we want from &#x27;Battle of the Bastards,&#x27; the next &#x27;Game of Thrones&#x27; episode" data-uid="373" href="https://twitter.com/intent/tweet?original_referer=http://mashable.com/&amp;source=tweetbutton&amp;text=50+things+we+want+from+%27Battle+of+the+Bastards%2C%27+the+next+%27Game+of+Thrones%27+episode&amp;url=http%3A%2F%2Fmashable.com%2F2016%2F06%2F17%2Fbattle-of-the-bastards-game-of-thrones-fantasy-ending%2F&amp;via=mashable">Tweet</a></div>
-<div class='share-button-boxy'><a class="social-stub social-share google_plus" data-image="http://i.amz.mshcdn.com/cFOA7JH0zHa6T2ik7Ssm9YcLcx0=/1200x630/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg" data-shares="9" data-title="50 things we want from &#x27;Battle of the Bastards,&#x27; the next &#x27;Game of Thrones&#x27; episode" data-uid="373" href="#">Share</a></div>
+<div class='share-button-boxy'><a class="social-stub social-share google_plus" data-image="http://i.amz.mshcdn.com/cFOA7JH0zHa6T2ik7Ssm9YcLcx0=/1200x630/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg" data-shares="10" data-title="50 things we want from &#x27;Battle of the Bastards,&#x27; the next &#x27;Game of Thrones&#x27; episode" data-uid="373" href="#">Share</a></div>
 <div class='share-button-boxy'><a class="social-stub social-share linked_in" data-image="http://i.amz.mshcdn.com/cFOA7JH0zHa6T2ik7Ssm9YcLcx0=/1200x630/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg" data-shares="6" data-title="50 things we want from &#x27;Battle of the Bastards,&#x27; the next &#x27;Game of Thrones&#x27; episode" data-uid="373" href="#"></a></div>
 <div class='share-button-boxy'><a class="social-stub social-share stumble_upon" data-image="http://i.amz.mshcdn.com/cFOA7JH0zHa6T2ik7Ssm9YcLcx0=/1200x630/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg" data-shares="0" data-title="50 things we want from &#x27;Battle of the Bastards,&#x27; the next &#x27;Game of Thrones&#x27; episode" data-uid="373" href="#"></a></div>
 <div class='share-button-boxy'><a class="social-stub social-share pinterest" data-image="http://i.amz.mshcdn.com/cFOA7JH0zHa6T2ik7Ssm9YcLcx0=/1200x630/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg" data-shares="2" data-title="50 things we want from &#x27;Battle of the Bastards,&#x27; the next &#x27;Game of Thrones&#x27; episode" data-uid="373" href="#"></a></div>
@@ -382,8 +360,8 @@ Topics:
 
 <script>
   if(window.pageChanged)
-    window.omni({"channel":"watercooler","content_type":"article","v_buy":null,"v_buy_i":null,"h_pub":454.0,"h_buy":null,"h_pub_buy":null,"v_cur":0.0,"v_max":0.0,"v_cur_i":0,"v_max_i":0,"events":"event51,event61","top_channel":"watercooler","content_source_type":"Internal","content_source_name":"Internal","author_name":"Andrea Romano","age":"18","pub_day":17,"pub_month":6,"pub_year":2016,"pub_date":"06/17/2016","sourced_from":"Internal","isPostView":true,"post_lead_type":"Alt Image Lead","topics":"Conversations,Entertainment,funny,Game of Thrones,jon snow,Lists,Television,Watercooler","campaign":null,"display_mode":null,"viral_video_type":null,"b_flag":true});
-    metaData = {"link":[["canonical","http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/"],["image_src","http://i.amz.mshcdn.com/jlBR8lMx_mY6SkU-qq3tvtupPu8=/1200x627/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg"]],"meta_property":[["og:url","http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/"],["og:title","50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode"],["og:type","article"],["og:site_name","Mashable"],["og:description","Let us count the ways we hope Ramsey will die."],["og:image","http://a.amz.mshcdn.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2MzAKZQlqcGc/8e6659fa/25e/battleofthebastards.jpg"],["og:article:published_time","2016-06-17T15:35:08Z"],["og:article:modified_time","2016-06-30T17:41:09Z"],["og:article:publisher","https://www.facebook.com/mashable"]],"meta_name":[["description","We all have a lot of hopes, dreams and feelings about this week's penultimate episode of Game of Thrones."],["keywords","entertainment, watercooler, funny, conversations, lists, tv, jon-snow, game-of-thrones"],["twitter:title","50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode"],["twitter:description","Let us count the ways we hope Ramsey will die."],["twitter:image","http://i.amz.mshcdn.com/aFAKqhtHbY6dvAbbeFO9opnh6Ug=/640x360/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg"],["twitter:site","@mashable"],["twitter:via","mashable"],["twitter:url","http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/"],["twitter:creator","@AndiesMint"],["twitter:card","photo"],["twitter:image:width","640"],["twitter:image:height","360"],["date","2016-06-17 15:35:08 UTC"],["sailthru.author","Andrea Romano"],["sailthru.image.thumb","http://i.amz.mshcdn.com/t887bC7ssyJ2yjWtl10oaKcvFFg=/115x115/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg"],["sailthru.image.full","http://i.amz.mshcdn.com/GGEZkfVeWBipBUZk8fhZHcca6eU=/950x534/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg"],["sailthru.lead_image","http://i.amz.mshcdn.com/Kemr0tZc2omvXwBAq04F_IpFKT4=/600x338/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg"],["sailthru.secondary_image","http://i.amz.mshcdn.com/m-rYyYcunGucMIOamlaoc00BX8Q=/288x162/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg"],["sailthru.exclude_homepage",false],["sailthru.exclude_uk",false],["sailthru.exclude_australia",false],["sailthru.exclude_india",false],["author","Andrea Romano"]],"short_url":[["short_url","http://on.mash.to/1UnjvOR"]]};
+    window.omni({"channel":"watercooler","content_type":"article","v_buy":null,"v_buy_i":null,"h_pub":592.5,"h_buy":null,"h_pub_buy":null,"v_cur":0.0,"v_max":0.0,"v_cur_i":0,"v_max_i":0,"events":"event51,event61","top_channel":"watercooler","content_source_type":"Internal","content_source_name":"Internal","author_name":"Andrea Romano","age":"24","pub_day":17,"pub_month":6,"pub_year":2016,"pub_date":"06/17/2016","sourced_from":"Internal","isPostView":true,"post_lead_type":"Alt Image Lead","topics":"Conversations,Entertainment,funny,Game of Thrones,jon snow,Lists,Television,Watercooler","campaign":null,"display_mode":null,"viral_video_type":null,"b_flag":true});
+    metaData = {"link":[["canonical","http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/"],["image_src","http://i.amz.mshcdn.com/jlBR8lMx_mY6SkU-qq3tvtupPu8=/1200x627/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg"]],"meta_property":[["og:url","http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/"],["og:title","50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode"],["og:type","article"],["og:site_name","Mashable"],["og:description","Let us count the ways we hope Ramsey will die."],["og:image","http://a.amz.mshcdn.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2MzAKZQlqcGc/8e6659fa/25e/battleofthebastards.jpg"],["og:article:published_time","2016-06-17T15:35:08Z"],["og:article:modified_time","2016-07-11T20:53:50Z"],["og:article:publisher","https://www.facebook.com/mashable"]],"meta_name":[["description","We all have a lot of hopes, dreams and feelings about this week's penultimate episode of Game of Thrones."],["keywords","entertainment, watercooler, funny, conversations, lists, tv, jon-snow, game-of-thrones"],["twitter:title","50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode"],["twitter:description","Let us count the ways we hope Ramsey will die."],["twitter:image","http://i.amz.mshcdn.com/aFAKqhtHbY6dvAbbeFO9opnh6Ug=/640x360/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg"],["twitter:site","@mashable"],["twitter:via","mashable"],["twitter:url","http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/"],["twitter:creator","@AndiesMint"],["twitter:card","photo"],["twitter:image:width","640"],["twitter:image:height","360"],["date","2016-06-17 15:35:08 UTC"],["sailthru.author","Andrea Romano"],["sailthru.image.thumb","http://i.amz.mshcdn.com/t887bC7ssyJ2yjWtl10oaKcvFFg=/115x115/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg"],["sailthru.image.full","http://i.amz.mshcdn.com/GGEZkfVeWBipBUZk8fhZHcca6eU=/950x534/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg"],["sailthru.lead_image","http://i.amz.mshcdn.com/Kemr0tZc2omvXwBAq04F_IpFKT4=/600x338/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg"],["sailthru.secondary_image","http://i.amz.mshcdn.com/m-rYyYcunGucMIOamlaoc00BX8Q=/288x162/2016%2F06%2F17%2F32%2Fbattleofthebastards.c90e4.jpg"],["sailthru.exclude_homepage",false],["sailthru.exclude_uk",false],["sailthru.exclude_australia",false],["sailthru.exclude_india",false],["author","Andrea Romano"]],"short_url":[["short_url","http://on.mash.to/1UnjvOR"]]};
 </script>
 <div class='right_rail_replace'>
 <div class="ad_container ad-slot" data-overrides="{&quot;targeting&quot;:{&quot;tile&quot;:1,&quot;adnum&quot;:1,&quot;sec0&quot;:&quot;viral&quot;,&quot;sec1&quot;:&quot;conversations-watercooler&quot;,&quot;sec2&quot;:&quot;posts&quot;,&quot;topic&quot;:&quot;television&quot;,&quot;postid&quot;:&quot;bp11969&quot;}}" data-type="no_right_rail"></div>
@@ -401,7 +379,6 @@ Topics:
 <div class="ad_container ad-slot" data-overrides="{&quot;targeting&quot;:{&quot;tile&quot;:2,&quot;adnum&quot;:1,&quot;sec0&quot;:&quot;viral&quot;,&quot;sec1&quot;:&quot;conversations-watercooler&quot;,&quot;sec2&quot;:&quot;posts&quot;,&quot;topic&quot;:&quot;television&quot;,&quot;postid&quot;:&quot;bp11969&quot;}}" data-type="right_rail"></div>
 
 </div>
-<h1 class='ribbon hot'>What's Hot</h1>
 <div class='sidebar-inset' id='big-stories'></div>
 </aside>
 </div>
@@ -449,6 +426,7 @@ Topics:
 <img alt='' height='1' src='//t.co/i/adsct?txn_id=l4o6d&amp;p_id=Twitter' style='display:none;' width='1'>
 </noscript>
 
+<img height='0' id='bluekai-test-img' src='/favicon-16x16.png?bk_uuid=$_BK_UUID&amp;BK_SWAP_DEST=19275' width='0'>
 </div>
 </div>
 </div><div id='fb-root'></div><script>
@@ -489,6 +467,19 @@ Designed in collaboration with <a rel="nofollow" href="http://www.codeandtheory.
 <img src='http://b.scorecardresearch.com/p?c1=2&amp;c2=8750086&amp;cv=2.0&amp;cj=1'>
 </noscript></div>
 </div>
+<script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','//connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1453039084979896');
+  fbq('track', "PageView");
+</script>
+<noscript>
+<img height='1' src='https://www.facebook.com/tr?id=1453039084979896&amp;ev=PageView&amp;noscript=1' style='display: none' width='1'>
+</noscript>
+
 <script>
   window.detectStaffEditableLink && window.detectStaffEditableLink();
 </script>
