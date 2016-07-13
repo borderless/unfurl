@@ -1,5 +1,6 @@
 import debug = require('debug')
 import Promise = require('any-promise')
+import extend = require('xtend')
 import { get, createTransport, plugins } from 'popsicle'
 import status = require('popsicle-status')
 import { resolve as resolveUrl } from 'url'
@@ -10,6 +11,7 @@ import { parse } from 'content-type'
 import {
   Headers,
   AbortFn,
+  BaseResult,
   Result,
   HtmlMeta,
   TwitterMeta,
@@ -114,10 +116,8 @@ HTML_VALUE_MAP['link'] = HTML_VALUE_MAP['a']
 /**
  * Check support for HTML.
  */
-export function supported (url: string, headers: Headers) {
-  return headers['content-type'] ?
-    parse(headers['content-type']).type === 'text/html' :
-    false
+export function supported ({ encodingFormat }: BaseResult) {
+  return encodingFormat === 'text/html'
 }
 
 interface Context {
@@ -133,13 +133,14 @@ interface Context {
 }
 
 export function handle (
-  originalUrl: string,
-  contentUrl: string,
+  base: BaseResult,
   headers: Headers,
   stream: Readable,
   abort: AbortFn,
   options: Options
 ): Promise<Result> {
+  const { contentUrl } = base
+
   let oembedJson: string
   let oembedXml: string
 
@@ -159,15 +160,7 @@ export function handle (
     const applinks: AppLinksMeta = Object.create(null)
     const microdata: any[] = []
 
-    const result: Result = {
-      type: 'html',
-      originalUrl,
-      contentUrl,
-      contentSize: headers['content-length'] ? Number(headers['content-length']) : undefined,
-      encodingFormat: 'text/html',
-      dateModified: headers['last-modified'] ? new Date(headers['last-modified'] as string) : undefined,
-      meta: {}
-    }
+    const result: Result = extend(base, { type: 'html' as 'html', meta: {} })
 
     // HTML parser emits text mulitple times, this is a little helper
     // to collect each fragment and use it together.

@@ -1,8 +1,8 @@
 {
-  "type": "html",
-  "originalUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
   "contentUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+  "originalUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
   "encodingFormat": "text/html",
+  "type": "html",
   "meta": {
     "html": {
       "title": "15. Typings with Blake Embrey - YouTube",
@@ -130,9 +130,11 @@
       "genre": "Entertainment"
     },
     "oembed": {
+      "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/ZynZdGqxT7Q?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",
+      "thumbnail_width": 480,
+      "title": "15. Typings with Blake Embrey",
       "author_url": "https://www.youtube.com/user/readthesource",
       "width": 480,
-      "version": "1.0",
       "author_name": "readthesource",
       "provider_url": "https://www.youtube.com/",
       "thumbnail_height": 360,
@@ -140,9 +142,7 @@
       "provider_name": "YouTube",
       "type": "video",
       "thumbnail_url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/hqdefault.jpg",
-      "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/ZynZdGqxT7Q?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",
-      "thumbnail_width": 480,
-      "title": "15. Typings with Blake Embrey"
+      "version": "1.0"
     }
   }
 }

@@ -193,6 +193,10 @@ var FIXTURES = [
   {
     name: 'itunes-avengers-movie',
     url: 'https://itunes.apple.com/us/movie/the-avengers/id533654020'
+  },
+  {
+    name: 'textrank-pdf-paper',
+    url: 'https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf'
   }
 ]
 

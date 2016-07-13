@@ -1,8 +1,8 @@
 {
-  "type": "image",
-  "originalUrl": "http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png",
   "contentUrl": "http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png",
-  "contentSize": 19153,
+  "originalUrl": "http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png",
   "encodingFormat": "image/png",
-  "dateModified": "2011-08-29T02:10:41.000Z"
+  "contentSize": 19153,
+  "dateModified": "2011-08-29T02:10:41.000Z",
+  "type": "image"
 }

@@ -17,10 +17,9 @@ export interface Options {
 }
 
 export interface Rule {
-  supported (url: string, headers: Headers): boolean
+  supported (base: BaseResult, headers: Headers): boolean
   handle (
-    originalUrl: string,
-    responseUrl: string,
+    base: BaseResult,
     headers: Headers,
     stream: Readable,
     abort: AbortFn,
@@ -52,6 +51,10 @@ export interface BaseResult {
   meta?: ResultMeta
 }
 
+export interface LinkResult extends BaseResult {
+  type: 'link'
+}
+
 export interface ImageResult extends BaseResult {
   type: 'image'
 }
@@ -64,7 +67,7 @@ export interface HtmlResult extends BaseResult {
   type: 'html'
 }
 
-export type Result = ImageResult | VideoResult | HtmlResult
+export type Result = LinkResult | ImageResult | VideoResult | HtmlResult
 
 export interface HtmlMeta {
   title?: string
@@ -301,6 +304,10 @@ export interface ImageSnippet extends BaseSnippet {
 export interface SummarySnippet extends BaseSnippet {
   type: 'summary'
   subtype?: 'image'
+}
+
+export interface LinkSnippet extends BaseSnippet {
+  type: 'link'
 }
 
 export type Snippet = VideoSnippet | ImageSnippet | SummarySnippet | ArticleSnippet

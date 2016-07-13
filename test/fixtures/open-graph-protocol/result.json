@@ -1,8 +1,8 @@
 {
-  "type": "html",
-  "originalUrl": "http://ogp.me/",
   "contentUrl": "http://ogp.me/",
+  "originalUrl": "http://ogp.me/",
   "encodingFormat": "text/html",
+  "type": "html",
   "meta": {
     "html": {
       "title": "The Open Graph protocol",

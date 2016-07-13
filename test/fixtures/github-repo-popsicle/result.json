@@ -1,8 +1,8 @@
 {
-  "type": "html",
-  "originalUrl": "https://github.com/blakeembrey/popsicle",
   "contentUrl": "https://github.com/blakeembrey/popsicle",
+  "originalUrl": "https://github.com/blakeembrey/popsicle",
   "encodingFormat": "text/html",
+  "type": "html",
   "meta": {
     "html": {
       "title": "GitHub - blakeembrey/popsicle: Simple HTTP requests for node and the browser",

@@ -1,8 +1,8 @@
 {
-  "type": "html",
-  "originalUrl": "http://hackerne.ws",
   "contentUrl": "https://news.ycombinator.com/",
+  "originalUrl": "http://hackerne.ws",
   "encodingFormat": "text/html",
+  "type": "html",
   "meta": {
     "html": {
       "icons": [

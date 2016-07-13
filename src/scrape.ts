@@ -1,8 +1,10 @@
 import Promise = require('any-promise')
 import status = require('popsicle-status')
+import extend = require('xtend')
 import { get, jar, createTransport } from 'popsicle'
 import { Readable } from 'stream'
-import { Headers, AbortFn, Result, Options } from './interfaces'
+import { parse } from 'content-type'
+import { Headers, AbortFn, BaseResult, Result, Options } from './interfaces'
 import rules from './rules'
 
 /**
@@ -42,18 +44,25 @@ export function scrapeStream (
   headers: Headers,
   stream: Readable,
   abort?: AbortFn,
-  options?: Options
-): Promise<Result | void> {
-  const cancel = abort || (() => stream.resume())
+  options: Options = {}
+): Promise<Result> {
+  const encodingFormat = headers['content-type'] ? parse(headers['content-type']).type : undefined
+  const contentLength = Number(headers['content-length'])
+  const contentSize = isFinite(contentLength) ? contentLength : undefined
+  const lastModified = new Date(headers['last-modified'] as string)
+  const dateModified = isFinite(lastModified.getTime()) ? lastModified : undefined
+  const close = abort || (() => stream.resume())
+
+  const base: BaseResult = { contentUrl, originalUrl, encodingFormat, contentSize, dateModified }
 
   for (const rule of rules) {
-    if (rule.supported(contentUrl, headers)) {
-      return Promise.resolve(rule.handle(originalUrl, contentUrl, headers, stream, cancel, options || {}))
+    if (rule.supported(base, headers)) {
+      return Promise.resolve(rule.handle(base, headers, stream, close, options))
     }
   }
 
   // Abort unhandled types.
-  cancel()
+  close()
 
-  return Promise.resolve()
+  return Promise.resolve(extend(base, { type: 'link' as 'link' }))
 }

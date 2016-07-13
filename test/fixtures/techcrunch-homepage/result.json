@@ -1,9 +1,9 @@
 {
-  "type": "html",
-  "originalUrl": "https://techcrunch.com/",
   "contentUrl": "https://techcrunch.com/",
+  "originalUrl": "https://techcrunch.com/",
   "encodingFormat": "text/html",
   "dateModified": "2016-07-07T19:28:52.000Z",
+  "type": "html",
   "meta": {
     "jsonLd": {
       "@context": "http://schema.org",

@@ -1,8 +1,8 @@
 {
-  "type": "html",
-  "originalUrl": "https://www.rottentomatoes.com/m/inception/",
   "contentUrl": "https://www.rottentomatoes.com/m/inception/",
+  "originalUrl": "https://www.rottentomatoes.com/m/inception/",
   "encodingFormat": "text/html",
+  "type": "html",
   "meta": {
     "jsonLd": {
       "@context": "http://schema.org",

@@ -1,9 +1,9 @@
 {
-  "type": "html",
-  "originalUrl": "https://www.spotify.com/",
   "contentUrl": "https://www.spotify.com/us/",
-  "contentSize": 21629,
+  "originalUrl": "https://www.spotify.com/",
   "encodingFormat": "text/html",
+  "contentSize": 21629,
+  "type": "html",
   "meta": {
     "html": {
       "description": "Spotify is a digital music service that gives you access to millions of songs.",

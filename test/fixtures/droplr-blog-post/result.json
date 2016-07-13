@@ -1,8 +1,8 @@
 {
-  "type": "html",
-  "originalUrl": "https://droplr.com/droplr-addition-google-chrome-extension",
   "contentUrl": "https://droplr.com/droplr-addition-google-chrome-extension",
+  "originalUrl": "https://droplr.com/droplr-addition-google-chrome-extension",
   "encodingFormat": "text/html",
+  "type": "html",
   "meta": {
     "jsonLd": {
       "@context": "http://schema.org",

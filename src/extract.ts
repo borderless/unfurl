@@ -11,6 +11,7 @@ import {
   ImageResult,
   VideoResult,
   VideoSnippet,
+  LinkSnippet,
   Snippet,
   ImageSnippet,
   ArticleSnippet,
@@ -32,7 +33,7 @@ import {
  */
 export function extract (
   result: Result,
-  priority = ['video', 'image', 'article', 'summary'],
+  priority = ['video', 'image', 'article', 'summary', 'link'],
   options: Options = {}
 ): Snippet {
   if (result == null) {
@@ -64,6 +65,7 @@ export interface Extracts {
   image (result: Result, options: Options): ImageSnippet
   article (result: Result, options: Options): ArticleSnippet
   summary (result: Result, options: Options): SummarySnippet
+  link (result: Result, options: Options): LinkSnippet
 }
 
 export const extracts: Extracts = {
@@ -136,6 +138,15 @@ export const extracts: Extracts = {
         twitter: getMetaTwitter(meta),
         apps: getMetaApps(meta)
       }
+    }
+  },
+  link (result, options): LinkSnippet {
+    return {
+      type: 'link',
+      contentUrl: result.contentUrl,
+      contentSize: result.contentSize,
+      encodingFormat: result.encodingFormat,
+      originalUrl: result.originalUrl
     }
   }
 }

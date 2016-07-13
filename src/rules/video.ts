@@ -1,29 +1,14 @@
 import { Readable } from 'stream'
-import { parse } from 'content-type'
-import { Headers, AbortFn, Result } from '../interfaces'
+import extend = require('xtend')
+import { Headers, AbortFn, Result, BaseResult } from '../interfaces'
 
-export function supported (url: string, headers: Headers) {
-  return headers['content-type'] ?
-    /^video\//.test(parse(headers['content-type']).type) :
-    false
+export function supported ({ encodingFormat }: BaseResult) {
+  return /^video\//.test(encodingFormat)
 }
 
-export function handle (
-  originalUrl: string,
-  contentUrl: string,
-  headers: Headers,
-  stream: Readable,
-  abort: AbortFn
-): Result {
+export function handle (base: BaseResult, headers: Headers, stream: Readable, abort: AbortFn): Result {
   // Immediately abort streaming video data.
   abort()
 
-  return {
-    type: 'video',
-    originalUrl,
-    contentUrl,
-    contentSize: headers['content-length'] ? Number(headers['content-length']) : undefined,
-    encodingFormat: parse(headers['content-type']).type,
-    dateModified: headers['last-modified'] ? new Date(headers['last-modified'] as string) : undefined
-  }
+  return extend(base, { type: 'video' as 'video' })
 }
