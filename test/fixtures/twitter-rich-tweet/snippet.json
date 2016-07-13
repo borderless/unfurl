@@ -1,9 +1,12 @@
 {
-  "type": "article",
+  "type": "html",
   "image": {
     "url": "https://pbs.twimg.com/profile_images/617160371216842752/TQ_Bfpkz_400x400.png"
   },
   "contentUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
+  "contentType": {
+    "type": "article"
+  },
   "contentSize": 31681,
   "originalUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
   "encodingFormat": "text/html",

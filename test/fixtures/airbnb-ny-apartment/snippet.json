@@ -1,10 +1,12 @@
 {
-  "type": "summary",
-  "subtype": "image",
+  "type": "html",
   "image": {
     "url": "https://a1.muscache.com/im/pictures/43670185/606e6e19_original.jpg?aki_policy=x_large"
   },
   "contentUrl": "https://www.airbnb.com/rooms/2250401",
+  "contentType": {
+    "type": "image"
+  },
   "originalUrl": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
   "encodingFormat": "text/html",
   "headline": "Bright, Chelsea Studio - Apartments for Rent in New York",

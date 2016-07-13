@@ -1,6 +1,5 @@
 {
-  "type": "summary",
-  "subtype": "image",
+  "type": "html",
   "image": {
     "url": "http://is1.mzstatic.com/image/thumb/Purple60/v4/b7/39/73/b73973d9-86d9-8261-5951-65eab5a3c4df/source/1200x630bf.jpg",
     "secureUrl": "http://is1.mzstatic.com/image/thumb/Purple60/v4/b7/39/73/b73973d9-86d9-8261-5951-65eab5a3c4df/source/1200x630bf.jpg",
@@ -9,6 +8,9 @@
     "height": 630
   },
   "contentUrl": "https://itunes.apple.com/us/app/espn-get-scores-news-watch/id317469184?mt=8",
+  "contentType": {
+    "type": "image"
+  },
   "contentSize": 19194,
   "originalUrl": "https://itunes.apple.com/us/app/espn-sportscenter/id317469184?mt=8",
   "encodingFormat": "text/html",

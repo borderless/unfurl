@@ -17,9 +17,9 @@ export interface Options {
 }
 
 export interface Rule {
-  supported (base: BaseResult, headers: Headers): boolean
+  supported (base: BaseInfo, headers: Headers): boolean
   handle (
-    base: BaseResult,
+    base: BaseInfo,
     headers: Headers,
     stream: Readable,
     abort: AbortFn,
@@ -30,46 +30,46 @@ export interface Rule {
 /**
  * Metadata.
  */
-export interface ResultMeta {
-  html?: HtmlMeta
-  twitter?: TwitterMeta
-  sailthru?: SailthruMeta
-  dc?: DublinCoreMeta
-  jsonLd?: JsonLdMeta
-  rdfa?: RdfaMeta
-  applinks?: AppLinksMeta
-  microdata?: MicrodataMeta | MicrodataMeta[]
-  oembed?: OEmbedMeta
+export interface HtmlResultMeta {
+  html?: HtmlMetaHtml
+  twitter?: HtmlMetaTwitter
+  sailthru?: HtmlMetaSailthru
+  dc?: HtmlMetaDublinCore
+  jsonLd?: HtmlMetaJsonLd
+  rdfa?: HtmlMetaRdfa
+  applinks?: HtmlMetaAppLinks
+  microdata?: HtmlMetaMicrodata | HtmlMetaMicrodata[]
+  oembed?: HtmlMetaOEmbed
 }
 
-export interface BaseResult {
+export interface BaseInfo {
   originalUrl: string
   contentUrl: string
   contentSize?: number
   encodingFormat?: string
   dateModified?: Date
-  meta?: ResultMeta
 }
 
-export interface LinkResult extends BaseResult {
+export interface LinkResult extends BaseInfo {
   type: 'link'
 }
 
-export interface ImageResult extends BaseResult {
+export interface ImageResult extends BaseInfo {
   type: 'image'
 }
 
-export interface VideoResult extends BaseResult {
+export interface VideoResult extends BaseInfo {
   type: 'video'
 }
 
-export interface HtmlResult extends BaseResult {
+export interface HtmlResult extends BaseInfo {
   type: 'html'
+  meta?: HtmlResultMeta
 }
 
 export type Result = LinkResult | ImageResult | VideoResult | HtmlResult
 
-export interface HtmlMeta {
+export interface HtmlMetaHtml {
   title?: string
   description?: string
   author?: string
@@ -86,7 +86,7 @@ export interface HtmlIconMeta {
   type?: string
 }
 
-export interface TwitterMeta {
+export interface HtmlMetaTwitter {
   card?: string
   site?: string
   'site:id'?: string
@@ -112,7 +112,7 @@ export interface TwitterMeta {
   [key: string]: string | void
 }
 
-export interface DublinCoreMeta {
+export interface HtmlMetaDublinCore {
   title?: string
   date?: string // Date
   'date.issued'?: string // Date
@@ -120,7 +120,7 @@ export interface DublinCoreMeta {
   [key: string]: string | void
 }
 
-export interface SailthruMeta {
+export interface HtmlMetaSailthru {
   title?: string
   description?: string
   author?: string
@@ -134,21 +134,21 @@ export interface SailthruMeta {
   [key: string]: string | void
 }
 
-export interface RdfaMeta {
+export interface HtmlMetaRdfa {
   [subject: string]: {
     [predicate: string]: string | string[]
   }
 }
 
-export interface JsonLdMeta {
+export interface HtmlMetaJsonLd {
   [key: string]: any
 }
 
-export interface MicrodataMeta {
-  [key: string]: string | string[] | MicrodataMeta
+export interface HtmlMetaMicrodata {
+  [key: string]: string | string[] | HtmlMetaMicrodata
 }
 
-export interface AppLinksMeta {
+export interface HtmlMetaAppLinks {
   'al:ios:url'?: string
   'al:ios:app_store_id'?: string
   'al:ios:app_name'?: string
@@ -176,7 +176,7 @@ export interface AppLinksMeta {
   [key: string]: string | void
 }
 
-export interface OEmbedMeta {
+export interface HtmlMetaOEmbed {
   type: string
   version: '1.0'
   title?: string
@@ -264,7 +264,27 @@ export interface SnippetApps {
   windowsPhone?: SnippetAppLink
 }
 
-export interface BaseSnippet extends BaseResult {
+export interface HtmlContentTypeArticle {
+  type: 'article'
+  section?: string
+  dateModified?: Date
+  datePublished?: Date
+  dateExpires?: Date
+}
+
+export interface HtmlContentTypeImage {
+  type: 'image'
+}
+
+export interface HtmlContentTypeVideo {
+  type: 'video'
+}
+
+export type HtmlContentType = HtmlContentTypeArticle | HtmlContentTypeVideo | HtmlContentTypeImage
+
+export interface HtmlSnippet extends BaseInfo {
+  type: 'html'
+  contentType: HtmlContentType
   image?: SnippetImage | SnippetImage[]
   video?: SnippetVideo | SnippetVideo[]
   audio?: SnippetAudio | SnippetAudio[]
@@ -283,31 +303,16 @@ export interface BaseSnippet extends BaseResult {
   apps?: SnippetApps
 }
 
-export interface ArticleSnippet extends BaseResult {
-  type: 'article'
-  section?: string
-  dateModified?: Date
-  datePublished?: Date
-  dateExpires?: Date
-}
-
-export interface VideoSnippet extends BaseSnippet {
+export interface VideoSnippet extends BaseInfo {
   type: 'video'
-  subtype?: 'raw' | 'image'
 }
 
-export interface ImageSnippet extends BaseSnippet {
+export interface ImageSnippet extends BaseInfo {
   type: 'image'
-  subtype?: 'raw' | 'image'
 }
 
-export interface SummarySnippet extends BaseSnippet {
-  type: 'summary'
-  subtype?: 'image'
-}
-
-export interface LinkSnippet extends BaseSnippet {
+export interface LinkSnippet extends BaseInfo {
   type: 'link'
 }
 
-export type Snippet = VideoSnippet | ImageSnippet | SummarySnippet | ArticleSnippet
+export type Snippet = VideoSnippet | ImageSnippet | HtmlSnippet | HtmlContentTypeArticle

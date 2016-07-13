@@ -1,9 +1,13 @@
 {
-  "type": "article",
+  "type": "html",
   "image": {
     "url": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-facebookJumbo.jpg"
   },
   "contentUrl": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+  "contentType": {
+    "type": "article",
+    "section": "Opinion"
+  },
   "originalUrl": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection",
   "encodingFormat": "text/html",
   "headline": "Decoding Donald Trump",
@@ -38,6 +42,5 @@
       "name": "NYTimes",
       "url": "nytimes://reader/id/100000004471911"
     }
-  },
-  "section": "Opinion"
+  }
 }

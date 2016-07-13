@@ -1,11 +1,16 @@
 {
-  "type": "article",
+  "type": "html",
   "image": {
     "url": "https://secure.gravatar.com/blavatar/99ae28ba58e6719abd9d8575bdc18a54?s=200&ts=1467919954",
     "width": 200,
     "height": 200
   },
   "contentUrl": "http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123",
+  "contentType": {
+    "type": "article",
+    "datePublished": "2016-06-21T00:44:04.000Z",
+    "dateModified": "2016-06-21T00:43:32.000Z"
+  },
   "contentSize": 10492,
   "originalUrl": "http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123",
   "encodingFormat": "text/html",
@@ -25,7 +30,5 @@
     "siteId": "@newscomauHQ",
     "siteHandle": "newscomauHQ"
   },
-  "apps": {},
-  "datePublished": "2016-06-21T00:44:04.000Z",
-  "dateModified": "2016-06-21T00:43:32.000Z"
+  "apps": {}
 }

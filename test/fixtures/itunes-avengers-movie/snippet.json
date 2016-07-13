@@ -1,6 +1,5 @@
 {
-  "type": "summary",
-  "subtype": "image",
+  "type": "html",
   "image": {
     "url": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
     "secureUrl": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
@@ -9,6 +8,9 @@
     "height": 630
   },
   "contentUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
+  "contentType": {
+    "type": "image"
+  },
   "contentSize": 19466,
   "originalUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
   "encodingFormat": "text/html",

@@ -1,12 +1,14 @@
 {
-  "type": "summary",
-  "subtype": "image",
+  "type": "html",
   "image": {
     "url": "https://c2.staticflickr.com/8/7371/27999498362_17c8d4d490_b.jpg",
     "width": 1024,
     "height": 683
   },
   "contentUrl": "https://www.flickr.com/photos/timdrivas/27999498362/",
+  "contentType": {
+    "type": "image"
+  },
   "originalUrl": "https://www.flickr.com/photos/timdrivas/27999498362/in/explore-2016-07-05/",
   "encodingFormat": "text/html",
   "headline": "The Fourth",

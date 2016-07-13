@@ -1,6 +1,5 @@
 {
-  "type": "summary",
-  "subtype": "image",
+  "type": "html",
   "image": [
     {
       "url": "https://irs2.4sqi.net/img/general/600x600/24228814_aJsekEzXAFZlUtgcPkh7WqDOJcrCjOEYskHQ7EnOZQo.jpg"
@@ -16,6 +15,9 @@
     }
   ],
   "contentUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
+  "contentType": {
+    "type": "image"
+  },
   "originalUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
   "encodingFormat": "text/html",
   "headline": "Boba Guys",

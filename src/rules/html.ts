@@ -11,14 +11,14 @@ import { parse } from 'content-type'
 import {
   Headers,
   AbortFn,
-  BaseResult,
-  Result,
-  HtmlMeta,
-  TwitterMeta,
-  SailthruMeta,
-  DublinCoreMeta,
-  RdfaMeta,
-  AppLinksMeta,
+  BaseInfo,
+  HtmlResult,
+  HtmlMetaHtml,
+  HtmlMetaTwitter,
+  HtmlMetaSailthru,
+  HtmlMetaDublinCore,
+  HtmlMetaRdfa,
+  HtmlMetaAppLinks,
   Options,
   HtmlIconMeta
 } from '../interfaces'
@@ -116,7 +116,7 @@ HTML_VALUE_MAP['link'] = HTML_VALUE_MAP['a']
 /**
  * Check support for HTML.
  */
-export function supported ({ encodingFormat }: BaseResult) {
+export function supported ({ encodingFormat }: BaseInfo) {
   return encodingFormat === 'text/html'
 }
 
@@ -133,18 +133,18 @@ interface Context {
 }
 
 export function handle (
-  base: BaseResult,
+  base: BaseInfo,
   headers: Headers,
   stream: Readable,
   abort: AbortFn,
   options: Options
-): Promise<Result> {
+): Promise<HtmlResult> {
   const { contentUrl } = base
 
   let oembedJson: string
   let oembedXml: string
 
-  const result = new Promise<Result>((resolve, reject) => {
+  const result = new Promise<HtmlResult>((resolve, reject) => {
     const rdfaVocabs: string[] = []
     const rdfaResources: string[] = ['']
     const rdfaPrefixes: any[] = [VOCAB_PREFIXES]
@@ -152,15 +152,15 @@ export function handle (
     const microdataScopes: any[] = []
     const contexts: Context[] = [{ tagName: '', text: '' }]
 
-    const html: HtmlMeta = Object.create(null)
-    const twitter: TwitterMeta = Object.create(null)
-    const sailthru: SailthruMeta = Object.create(null)
-    const dc: DublinCoreMeta = Object.create(null)
-    const rdfa: RdfaMeta = Object.create(null)
-    const applinks: AppLinksMeta = Object.create(null)
+    const html: HtmlMetaHtml = Object.create(null)
+    const twitter: HtmlMetaTwitter = Object.create(null)
+    const sailthru: HtmlMetaSailthru = Object.create(null)
+    const dc: HtmlMetaDublinCore = Object.create(null)
+    const rdfa: HtmlMetaRdfa = Object.create(null)
+    const applinks: HtmlMetaAppLinks = Object.create(null)
     const microdata: any[] = []
 
-    const result: Result = extend(base, { type: 'html' as 'html', meta: {} })
+    const result: HtmlResult = extend(base, { type: 'html' as 'html', meta: {} })
 
     // HTML parser emits text mulitple times, this is a little helper
     // to collect each fragment and use it together.
@@ -600,7 +600,7 @@ function setProperty (obj: any, key: string | string[], value: any) {
 /**
  * Set an RDF value in the tree.
  */
-function setRdfaValue (rdfa: RdfaMeta, resource: string, property: string, value: string) {
+function setRdfaValue (rdfa: HtmlMetaRdfa, resource: string, property: string, value: string) {
   // Avoid setting empty RDFa values.
   if (!value) {
     return

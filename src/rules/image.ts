@@ -1,12 +1,12 @@
 import { Readable } from 'stream'
 import extend = require('xtend')
-import { Headers, AbortFn, Result, BaseResult } from '../interfaces'
+import { Headers, AbortFn, Result, BaseInfo } from '../interfaces'
 
-export function supported ({ encodingFormat }: BaseResult) {
+export function supported ({ encodingFormat }: BaseInfo) {
   return /^image\//.test(encodingFormat)
 }
 
-export function handle (base: BaseResult, headers: Headers, stream: Readable, abort: AbortFn): Result {
+export function handle (base: BaseInfo, headers: Headers, stream: Readable, abort: AbortFn): Result {
   // Immediately abort streaming image data.
   abort()
 

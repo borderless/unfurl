@@ -1,10 +1,12 @@
 {
-  "type": "article",
-  "subtype": "image",
+  "type": "html",
   "image": {
     "url": "https://tctechcrunch2011.files.wordpress.com/2016/06/awardsstage.jpg?w=764&h=400&crop=1"
   },
   "contentUrl": "https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
+  "contentType": {
+    "type": "article"
+  },
   "originalUrl": "https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
   "encodingFormat": "text/html",
   "headline": "The Europas Awards 2016 honored the best tech startups in Europe |…",

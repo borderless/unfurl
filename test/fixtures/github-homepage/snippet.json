@@ -1,6 +1,5 @@
 {
-  "type": "summary",
-  "subtype": "image",
+  "type": "html",
   "image": [
     {
       "url": "https://assets-cdn.github.com/images/modules/open_graph/github-logo.png",
@@ -22,6 +21,9 @@
     }
   ],
   "contentUrl": "https://github.com/",
+  "contentType": {
+    "type": "image"
+  },
   "originalUrl": "https://github.com/",
   "encodingFormat": "text/html",
   "headline": "GitHub",

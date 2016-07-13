@@ -1,12 +1,14 @@
 {
-  "type": "summary",
-  "subtype": "image",
+  "type": "html",
   "image": {
     "url": "http://d.pr/i/q3z9.png",
     "width": 1280,
     "height": 1280
   },
   "contentUrl": "http://d.pr/i/q3z9",
+  "contentType": {
+    "type": "image"
+  },
   "originalUrl": "http://d.pr/a/q3z9",
   "encodingFormat": "text/html",
   "headline": "table.jpeg",
