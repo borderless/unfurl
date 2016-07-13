@@ -1,5 +1,4 @@
 import arrify = require('arrify')
-import extend = require('xtend')
 import Promise = require('any-promise')
 import { get, Path } from 'getvalue'
 import { resolve } from 'url'
