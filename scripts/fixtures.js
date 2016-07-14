@@ -209,6 +209,10 @@ var FIXTURES = [
   {
     name: 'flickr-image-download-by-iphone',
     url: 'https://c2.staticflickr.com/4/3930/15428630771_61e9dcf6f4_o.jpg'
+  },
+  {
+    name: 'cloudinary-pricing-page',
+    url: 'http://cloudinary.com/pricing'
   }
 ]
 

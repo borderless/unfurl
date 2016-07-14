@@ -1,0 +1,14 @@
+{
+  "type": "html",
+  "contentUrl": "http://cloudinary.com/pricing",
+  "originalUrl": "http://cloudinary.com/pricing",
+  "encodingFormat": "text/html",
+  "headline": "Cloudinary - Pricing",
+  "caption": "Cloudinary",
+  "icon": {
+    "url": "http://cloudinary.com/images/favicon-32x32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  },
+  "apps": {}
+}
