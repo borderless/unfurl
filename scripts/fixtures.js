@@ -213,6 +213,26 @@ var FIXTURES = [
   {
     name: 'cloudinary-pricing-page',
     url: 'http://cloudinary.com/pricing'
+  },
+  {
+    name: 'steam-civ-5',
+    url: 'http://store.steampowered.com/app/8930/'
+  },
+  {
+    name: 'ebay-patio-furniture',
+    url: 'http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769?&_trksid=p2056016.l4276'
+  },
+  {
+    name: 'thinkgeek-citizen-playing-cards',
+    url: 'https://www.thinkgeek.com/product/jjip/?pfm=HP_ProdTab_1_7_NewStuff_jjip'
+  },
+  {
+    name: 'etsy-agents-of-shield-decal',
+    url: 'https://www.etsy.com/listing/230389421/agents-of-shield-decal-sticker-for-car?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=sr_gallery_20'
+  },
+  {
+    name: 'newegg-3d-printer',
+    url: 'http://www.newegg.com/Product/Product.aspx?Item=28-840-014'
   }
 ]
 
