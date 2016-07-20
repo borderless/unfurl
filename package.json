@@ -66,7 +66,7 @@
     "htmlparser2": "^3.9.1",
     "image-size-stream": "^1.1.0",
     "jpg-stream": "^1.1.1",
-    "popsicle": "^8.0.0",
+    "popsicle": "^8.0.2",
     "popsicle-status": "^2.0.0"
   }
 }
