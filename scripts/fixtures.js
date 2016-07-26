@@ -233,6 +233,10 @@ var FIXTURES = [
   {
     name: 'newegg-3d-printer',
     url: 'http://www.newegg.com/Product/Product.aspx?Item=28-840-014'
+  },
+  {
+    name: 'discourse-codinghorror-article',
+    url: 'https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29'
   }
 ]
 

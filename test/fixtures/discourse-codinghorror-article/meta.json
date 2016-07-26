@@ -1,0 +1,24 @@
+{
+  "originalUrl": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
+  "contentUrl": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
+  "headers": {
+    "server": "nginx",
+    "date": "Tue, 26 Jul 2016 23:45:44 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "vary": "Accept-Encoding",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "x-discourse-route": "topics/show",
+    "set-cookie": "_forum_session=WUhOUW9Vdmd2U0J0UjZndjV0VjJxdjFFdkVFSTJQZEpKbDIwdWlTb0VNbjZkclZJNUlyRlVLU3kwSmRqNjdMUTBuckZocnlIUnJacHh1TGxwMFIyQnc9PS0tZ3ArSTVwOGF6Ymw3Q1VWTDZWWHA3Zz09--3025a98762549d365e631b4ed4ac6bb77267daaf; path=/; HttpOnly",
+    "x-request-id": "b9ea8751-1ff5-483d-b41a-f39ec5842355",
+    "x-runtime": "0.113636",
+    "strict-transport-security": "max-age=6912000",
+    "x-ua-compatible": "IE=edge",
+    "content-encoding": "gzip"
+  },
+  "status": 200,
+  "statusText": "OK"
+}
