@@ -14,6 +14,7 @@ export interface Options {
   useOEmbed?: boolean
   fallbackOnFavicon?: boolean
   preferredIconSize?: number
+  extractExifData? (url: string, stream: Readable, abort: AbortFn): Promise<any>
 }
 
 export interface Rule {
@@ -56,14 +57,12 @@ export interface LinkResult extends BaseInfo {
 
 export interface ImageResult extends BaseInfo {
   type: 'image'
-  width?: number
-  height?: number
-  colorSpace?: string
-  meta?: any
+  exif?: any
 }
 
 export interface VideoResult extends BaseInfo {
   type: 'video'
+  exif?: any
 }
 
 export interface HtmlResult extends BaseInfo {

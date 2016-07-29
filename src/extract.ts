@@ -67,8 +67,7 @@ export const extracts: Extracts = {
       contentSize,
       contentUrl,
       originalUrl,
-      width,
-      height
+      exif
     } = result as ImageResult
 
     return {
@@ -78,8 +77,8 @@ export const extracts: Extracts = {
       contentSize,
       contentUrl,
       originalUrl,
-      width,
-      height
+      width: exif.ImageWidth,
+      height: exif.ImageHeight
     }
   },
   video (result, options): VideoSnippet {

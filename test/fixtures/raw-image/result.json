@@ -4,7 +4,21 @@
   "encodingFormat": "image/png",
   "contentSize": 19153,
   "dateModified": "2011-08-29T02:10:41.000Z",
-  "type": "image",
-  "width": 495,
-  "height": 341
+  "exif": {
+    "SourceFile": "-",
+    "ExifToolVersion": 10.24,
+    "FileType": "PNG",
+    "FileTypeExtension": "png",
+    "MIMEType": "image/png",
+    "ImageWidth": 495,
+    "ImageHeight": 341,
+    "BitDepth": 8,
+    "ColorType": "RGB",
+    "Compression": "Deflate/Inflate",
+    "Filter": "Adaptive",
+    "Interlace": "Noninterlaced",
+    "ImageSize": "495x341",
+    "Megapixels": 0.169
+  },
+  "type": "image"
 }

@@ -4,7 +4,26 @@
   "encodingFormat": "image/png",
   "contentSize": 78800,
   "dateModified": "2016-05-30T16:33:22.000Z",
-  "type": "image",
-  "width": 773,
-  "height": 484
+  "exif": {
+    "SourceFile": "-",
+    "ExifToolVersion": 10.24,
+    "FileType": "PNG",
+    "FileTypeExtension": "png",
+    "MIMEType": "image/png",
+    "ImageWidth": 773,
+    "ImageHeight": 484,
+    "BitDepth": 8,
+    "ColorType": "RGB",
+    "Compression": "Deflate/Inflate",
+    "Filter": "Adaptive",
+    "Interlace": "Noninterlaced",
+    "SRGBRendering": "Perceptual",
+    "Gamma": 2.2,
+    "PixelsPerUnitX": 3779,
+    "PixelsPerUnitY": 3779,
+    "PixelUnits": "meters",
+    "ImageSize": "773x484",
+    "Megapixels": 0.374
+  },
+  "type": "image"
 }

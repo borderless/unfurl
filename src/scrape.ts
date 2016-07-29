@@ -4,6 +4,7 @@ import extend = require('xtend')
 import { get, jar, createTransport } from 'popsicle'
 import { Readable } from 'stream'
 import { parse } from 'content-type'
+import { exec } from 'exiftool2'
 import { Headers, AbortFn, BaseInfo, Result, Options } from './interfaces'
 import rules from './rules'
 
@@ -38,6 +39,13 @@ export function scrapeUrl (url: string, options?: Options): Promise<Result> {
 }
 
 /**
+ * Default options.
+ */
+const DEFAULT_OPTIONS = {
+  extractExifData
+}
+
+/**
  * Scrape metadata from a stream (with headers/URL).
  */
 export function scrapeStream (
@@ -46,8 +54,9 @@ export function scrapeStream (
   headers: Headers,
   stream: Readable,
   abort?: AbortFn,
-  options: Options = {}
+  opts?: Options
 ): Promise<Result> {
+  const options = extend(DEFAULT_OPTIONS, opts)
   const encodingFormat = headers['content-type'] ? parse(headers['content-type']).type : undefined
   const contentLength = Number(headers['content-length'])
   const contentSize = isFinite(contentLength) ? contentLength : undefined
@@ -67,4 +76,27 @@ export function scrapeStream (
   close()
 
   return Promise.resolve(extend(base, { type: 'link' as 'link' }))
+}
+
+/**
+ * Extract exif data.
+ */
+function extractExifData (url: string, stream: Readable, abort: AbortFn) {
+  return new Promise((resolve, reject) => {
+    const exif = exec(['-fast', '-'])
+
+    exif.on('exif', (exif) => {
+      abort()
+
+      return resolve(exif[0])
+    })
+
+    exif.on('error', () => {
+      abort()
+
+      return resolve(null)
+    })
+
+    stream.pipe(exif)
+  })
 }
