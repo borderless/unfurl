@@ -14,6 +14,7 @@ export interface Options {
   useOEmbed?: boolean
   fallbackOnFavicon?: boolean
   preferredIconSize?: number
+  extractImageSizes?: boolean
   extractExifData? (url: string, stream: Readable, abort: AbortFn): Promise<any>
 }
 

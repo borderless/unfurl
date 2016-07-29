@@ -1,8 +1,10 @@
 import arrify = require('arrify')
+import extend = require('xtend')
 import Promise = require('any-promise')
 import { get, Path } from 'getvalue'
 import { resolve } from 'url'
 import { scrapeUrl } from './scrape'
+import { DEFAULT_OPTIONS } from './utils'
 
 import {
   Result,
@@ -32,11 +34,12 @@ import {
 /**
  * Extract rich snippets from the scraping result.
  */
-export function extract (result: Result, options: Options = {}): Snippet {
+export function extract (result: Result, opts?: Options): Snippet {
   if (result == null) {
     return
   }
 
+  const options = extend(DEFAULT_OPTIONS, opts)
   const extract = (extracts as any)[result.type]
 
   if (extract) {
