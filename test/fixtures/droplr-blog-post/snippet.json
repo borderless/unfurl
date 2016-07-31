@@ -3,12 +3,12 @@
   "image": {
     "url": "http://droplr.com/wp-content/uploads/2016/05/Drop-with-Chrome-300x187.jpg"
   },
-  "contentUrl": "https://droplr.com/droplr-addition-google-chrome-extension",
-  "contentType": {
+  "content": {
     "type": "article",
     "section": "Uncategorized",
     "datePublished": "2016-05-10T09:35:26.000Z"
   },
+  "contentUrl": "https://droplr.com/droplr-addition-google-chrome-extension",
   "originalUrl": "https://droplr.com/droplr-addition-google-chrome-extension",
   "encodingFormat": "text/html",
   "headline": "Droplr addition: Google Chrome Extension! - Droplr",

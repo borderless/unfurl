@@ -17,7 +17,7 @@ import {
   LinkSnippet,
   Snippet,
   ImageSnippet,
-  HtmlContentType,
+  HtmlContent,
   HtmlSnippet,
   HtmlSnippetImage,
   HtmlSnippetAppLink,
@@ -32,18 +32,30 @@ import {
 } from './interfaces'
 
 /**
+ * Extraction interface.
+ */
+export type Extract = (result: Result, options: Options) => Snippet | Promise<Snippet>
+
+/**
+ * Extract interfaces.
+ */
+export interface Extracts {
+  [type: string]: Extract
+}
+
+/**
  * Extract rich snippets from the scraping result.
  */
-export function extract (result: Result, opts?: Options): Snippet {
+export function extract (result: Result, opts?: Options): Promise<Snippet> {
   if (result == null) {
     return
   }
 
   const options = extend(DEFAULT_OPTIONS, opts)
-  const extract = (extracts as any)[result.type]
+  const extract = extracts[result.type]
 
   if (extract) {
-    return extract(result, options)
+    return Promise.resolve(extract(result, options))
   }
 }
 
@@ -54,15 +66,11 @@ export function extractFromUrl (url: string, options?: Options): Promise<Snippet
   return scrapeUrl(url, options).then(res => extract(res, options))
 }
 
-export interface Extracts {
-  video (result: VideoResult, options: Options): VideoSnippet
-  image (result: ImageResult, options: Options): ImageSnippet
-  html (result: HtmlResult, options: Options): HtmlSnippet
-  link (result: LinkResult, options: Options): LinkSnippet
-}
-
+/**
+ * Extraction interfaces.
+ */
 export const extracts: Extracts = {
-  image (result, options): ImageSnippet {
+  image (result: ImageResult, options: Options): ImageSnippet {
     const {
       type,
       encodingFormat,
@@ -84,7 +92,7 @@ export const extracts: Extracts = {
       height: exif.ImageHeight
     }
   },
-  video (result, options): VideoSnippet {
+  video (result: VideoResult, options: Options): VideoSnippet {
     const {
       type,
       encodingFormat,
@@ -103,7 +111,7 @@ export const extracts: Extracts = {
       originalUrl
     }
   },
-  html (result, options): HtmlSnippet {
+  html (result: HtmlResult, options: Options): HtmlSnippet {
     const { contentUrl, meta } = result
 
     return {
@@ -112,8 +120,8 @@ export const extracts: Extracts = {
       video: getMetaVideo(meta, contentUrl),
       audio: getMetaAudio(meta, contentUrl),
       player: getMetaPlayer(meta, contentUrl),
+      content: getMetaContent(meta, contentUrl),
       contentUrl: getMetaUrl(meta, contentUrl),
-      contentType: getMetaContentType(meta, contentUrl),
       contentSize: result.contentSize,
       originalUrl: result.originalUrl,
       encodingFormat: result.encodingFormat,
@@ -122,7 +130,6 @@ export const extracts: Extracts = {
       caption: getMetaCaption(meta),
       siteName: getMetaSiteName(meta),
       author: getMetaAuthor(meta),
-      publisher: getMetaPublisher(meta),
       ttl: getMetaTtl(meta),
       icon: getMetaIcon(meta, options),
       tags: getMetaTags(meta),
@@ -131,7 +138,7 @@ export const extracts: Extracts = {
       apps: getMetaApps(meta)
     }
   },
-  link (result, options): LinkSnippet {
+  link (result: LinkResult, options: Options): LinkSnippet {
     const {
       type,
       encodingFormat,
@@ -267,13 +274,6 @@ function getMetaTags (meta: HtmlResultMeta): string[] {
   if (metaTags) {
     return arrify(metaTags)
   }
-}
-
-/**
- * Get the publisher from metadata.
- */
-function getMetaPublisher (meta: HtmlResultMeta) {
-  return getString(meta, ['rdfa', '', 'http://ogp.me/ns/article#publisher'])
 }
 
 /**
@@ -761,7 +761,7 @@ function getMetaIcon (meta: HtmlResultMeta, options: Options): HtmlSnippetIcon {
 /**
  * Extract HTML page content types.
  */
-function getMetaContentType (meta: HtmlResultMeta, contentUrl: string): HtmlContentType {
+function getMetaContent (meta: HtmlResultMeta, contentUrl: string): HtmlContent {
   const twitterCard = getString(meta, ['twitter', 'card'])
   const ogpType = getString(meta, ['rdfa', '', 'http://ogp.me/ns#type'])
 
@@ -769,6 +769,7 @@ function getMetaContentType (meta: HtmlResultMeta, contentUrl: string): HtmlCont
     return {
       type: 'article' as 'article',
       section: getString(meta, ['rdfa', '', 'http://ogp.me/ns/article#section']),
+      publisher: getString(meta, ['rdfa', '', 'http://ogp.me/ns/article#publisher']),
       datePublished: getDate(meta, ['rdfa', '', 'http://ogp.me/ns/article#published_time']),
       dateExpires: getDate(meta, ['rdfa', '', 'http://ogp.me/ns/article#expiration_time']),
       dateModified: getDate(meta, ['rdfa', '', 'http://ogp.me/ns/article#modified_time'])

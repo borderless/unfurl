@@ -268,27 +268,28 @@ export interface HtmlSnippetApps {
   windowsPhone?: HtmlSnippetAppLink
 }
 
-export interface HtmlContentTypeArticle {
+export interface HtmlContentArticle {
   type: 'article'
   section?: string
+  publisher?: string
   dateModified?: Date
   datePublished?: Date
   dateExpires?: Date
 }
 
-export interface HtmlContentTypeImage {
+export interface HtmlContentImage {
   type: 'image'
 }
 
-export interface HtmlContentTypeVideo {
+export interface HtmlContentVideo {
   type: 'video'
 }
 
-export type HtmlContentType = HtmlContentTypeArticle | HtmlContentTypeVideo | HtmlContentTypeImage
+export type HtmlContent = HtmlContentArticle | HtmlContentVideo | HtmlContentImage
 
 export interface HtmlSnippet extends BaseInfo {
   type: 'html'
-  contentType: HtmlContentType
+  content: HtmlContent
   image?: HtmlSnippetImage | HtmlSnippetImage[]
   video?: HtmlSnippetVideo | HtmlSnippetVideo[]
   audio?: HtmlSnippetAudio | HtmlSnippetAudio[]
@@ -298,7 +299,6 @@ export interface HtmlSnippet extends BaseInfo {
   caption?: string
   tags?: string[]
   author?: string
-  publisher?: string
   siteName?: string
   ttl?: number
   icon?: HtmlSnippetIcon
@@ -321,4 +321,4 @@ export interface LinkSnippet extends BaseInfo {
   type: 'link'
 }
 
-export type Snippet = VideoSnippet | ImageSnippet | HtmlSnippet | HtmlContentTypeArticle
+export type Snippet = LinkSnippet | VideoSnippet | ImageSnippet | HtmlSnippet

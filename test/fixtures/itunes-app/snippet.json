@@ -7,10 +7,10 @@
     "width": 1200,
     "height": 630
   },
-  "contentUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
-  "contentType": {
+  "content": {
     "type": "image"
   },
+  "contentUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
   "contentSize": 15262,
   "originalUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
   "encodingFormat": "text/html",

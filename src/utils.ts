@@ -1,12 +1,12 @@
 import Promise = require('any-promise')
 import { Readable } from 'stream'
 import { exec } from 'exiftool2'
-import { AbortFn } from './interfaces'
+import { AbortFn, Options } from './interfaces'
 
 /**
  * Default options.
  */
-export const DEFAULT_OPTIONS = {
+export const DEFAULT_OPTIONS: Options = {
   extractExifData
 }
 

@@ -1,14 +1,12 @@
 {
   "type": "html",
   "image": {
-    "url": "http://d.pr/i/q3z9.png",
-    "width": 1280,
-    "height": 1280
+    "url": "http://d.pr/i/q3z9.png"
   },
-  "contentUrl": "http://d.pr/i/q3z9",
-  "contentType": {
+  "content": {
     "type": "image"
   },
+  "contentUrl": "http://d.pr/i/q3z9",
   "contentSize": 4272,
   "originalUrl": "http://d.pr/a/q3z9",
   "encodingFormat": "text/html",
