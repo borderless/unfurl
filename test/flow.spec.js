@@ -24,12 +24,18 @@ test('scraping', t => {
         ])
           .then(values => values.map(JSON.parse))
           .then(([meta, result, snippet]) => {
-            return scrappy.scrapeStream(meta.originalUrl, meta.contentUrl, meta.headers, createReadStream(join(dir, 'body')))
+            return scrappy.scrapeStream(
+              meta.originalUrl,
+              meta.contentUrl,
+              meta.headers,
+              createReadStream(join(dir, 'body'))
+            )
               .then(outResult => {
                 t.deepEqual(normalize(outResult), result, 'results should match')
 
-                const outSnippet = scrappy.extract(result)
-
+                return scrappy.extract(result)
+              })
+              .then(outSnippet => {
                 t.deepEqual(normalize(outSnippet), snippet, 'snippets should match')
               })
           })

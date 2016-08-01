@@ -1,7 +1,9 @@
 {
   "type": "html",
   "image": {
-    "url": "http://d.pr/i/q3z9.png"
+    "url": "http://d.pr/i/q3z9.png",
+    "width": 1280,
+    "height": 1280
   },
   "content": {
     "type": "image"
