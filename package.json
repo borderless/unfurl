@@ -65,7 +65,7 @@
     "exiftool2": "0.0.4",
     "getvalue": "^1.1.0",
     "htmlparser2": "^3.9.1",
-    "popsicle": "^8.0.2",
+    "popsicle": "^8.0.3",
     "popsicle-status": "^2.0.0"
   }
 }
