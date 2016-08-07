@@ -1,0 +1,112 @@
+{
+  "contentUrl": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
+  "originalUrl": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
+  "encodingFormat": "text/html",
+  "contentSize": 19937,
+  "type": "html",
+  "meta": {
+    "html": {
+      "title": "Cancel search",
+      "canonical": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
+      "description": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess.",
+      "keywords": "TED, talks, cognitive science, collaboration, composing, creativity, innovation, music, potential, psychology, success, work",
+      "author": "Tim Harford",
+      "icons": [
+        {
+          "url": "https://pa.tedcdn.com/favicon.svg",
+          "sizes": "any"
+        },
+        {
+          "url": "https://pa.tedcdn.com/favicon.ico"
+        }
+      ]
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "site": "@tedtalks",
+      "image": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?w=1200",
+      "app:id:iphone": "376183339",
+      "app:id:ipad": "376183339",
+      "app:id:googleplay": "com.ted.android",
+      "app:name:ipad": "TED",
+      "app:name:iphone": "TED",
+      "app:name:googleplay": "TED",
+      "app:url:ipad": "ted://x-callback-url/talk?talkID=2401&source=twitter",
+      "app:url:iphone": "ted://x-callback-url/talk?talkID=2401&source=twitter",
+      "app:url:googleplay": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#url": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
+        "http://ogp.me/ns#title": "How frustration can make us more creative",
+        "http://ogp.me/ns#image": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?c=1050%2C550&w=1050",
+        "http://ogp.me/ns#image:secure_url": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?c=1050%2C550&w=1050",
+        "http://ogp.me/ns#image:width": "1050",
+        "http://ogp.me/ns#image:height": "550",
+        "http://ogp.me/ns#type": "video.other",
+        "http://ogp.me/ns/video#duration": "932",
+        "http://ogp.me/ns/video#tag": [
+          "cognitive science",
+          "collaboration",
+          "composing",
+          "creativity",
+          "innovation",
+          "music",
+          "potential",
+          "psychology",
+          "success",
+          "work"
+        ],
+        "http://ogp.me/ns/video#release_date": "1452530143",
+        "http://ogp.me/ns#description": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess."
+      }
+    },
+    "applinks": {
+      "ios:app_name": "TED",
+      "ios:app_store_id": "376183339",
+      "ios:url": "ted://x-callback-url/talk?talkID=2401&source=facebook",
+      "android:app_name": "TED",
+      "android:package": "com.ted.android",
+      "android:url": "ted://talks/tim_harford_how_messy_problems_can_inspire_creativity?source=facebook",
+      "web:url": "http://applinks.org/documentation"
+    },
+    "microdata": {
+      "@type": "http://schema.org/VideoObject",
+      "url": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
+      "name": "How frustration can make us more creative",
+      "description": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess.",
+      "duration": "PT15M32S",
+      "uploadDate": "2016-01-11T16:35:43+00:00",
+      "thumbnailUrl": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?quality=95&w=480",
+      "author": {
+        "@type": "http://schema.org/Person",
+        "url": "https://www.ted.com/speakers/tim_harford",
+        "name": "Tim Harford",
+        "image": "http://pe.tedcdn.com/images/ted/05df61476973da030b1688b966028d4c25dd2905_254x191.jpg"
+      },
+      "embedURL": "https://embed-ssl.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
+      "playerType": "Flash HTML5",
+      "width": "640",
+      "height": "360",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/"
+    },
+    "oembed": {
+      "type": "video",
+      "version": "1.0",
+      "width": 560,
+      "height": 315,
+      "title": "Tim Harford: How frustration can make us more creative",
+      "description": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess.",
+      "url": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
+      "author_name": "Tim Harford",
+      "author_url": "https://www.ted.com/speakers/tim_harford",
+      "provider_name": "TED",
+      "provider_url": "http://ted.com",
+      "cache_age": 300,
+      "thumbnail_url": "http://pe.tedcdn.com/images/ted/348aee8d42d7f15c17f029ae8587e75e6ff0c158_240x180.jpg?lang=en",
+      "thumbnail_width": 240,
+      "thumbnail_height": 180,
+      "html": "<iframe src=\"https://embed-ssl.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity.html\" width=\"560\" height=\"315\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>"
+    }
+  }
+}

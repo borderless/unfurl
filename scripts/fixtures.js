@@ -237,6 +237,10 @@ var FIXTURES = [
   {
     name: 'discourse-codinghorror-article',
     url: 'https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29'
+  },
+  {
+    name: 'ted-talk-problems-inspire-creativity',
+    url: 'https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity'
   }
 ]
 
