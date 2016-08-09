@@ -1,0 +1,13 @@
+{
+  "type": "html",
+  "contentUrl": "http://xkcd.com/208/",
+  "contentSize": 2872,
+  "originalUrl": "http://xkcd.com/208/",
+  "encodingFormat": "text/html",
+  "headline": "xkcd: Regular Expressions",
+  "icon": {
+    "url": "http://xkcd.com/s/919f27.ico",
+    "type": "image/x-icon"
+  },
+  "apps": {}
+}

@@ -241,6 +241,10 @@ var FIXTURES = [
   {
     name: 'ted-talk-problems-inspire-creativity',
     url: 'https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity'
+  },
+  {
+    name: 'xkcd-regular-expressions',
+    url: 'http://xkcd.com/208/'
   }
 ]
 

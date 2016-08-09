@@ -1,0 +1,19 @@
+{
+  "contentUrl": "http://xkcd.com/208/",
+  "originalUrl": "http://xkcd.com/208/",
+  "encodingFormat": "text/html",
+  "contentSize": 2872,
+  "dateModified": "2016-08-08T13:37:23.000Z",
+  "type": "html",
+  "meta": {
+    "html": {
+      "title": "xkcd: Regular Expressions",
+      "icons": [
+        {
+          "url": "http://xkcd.com/s/919f27.ico",
+          "type": "image/x-icon"
+        }
+      ]
+    }
+  }
+}

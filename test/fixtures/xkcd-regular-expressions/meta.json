@@ -1,0 +1,26 @@
+{
+  "originalUrl": "http://xkcd.com/208/",
+  "contentUrl": "http://xkcd.com/208/",
+  "headers": {
+    "cache-control": "public, max-age=300",
+    "expires": "Tue, 09 Aug 2016 22:57:39 GMT",
+    "content-encoding": "gzip",
+    "last-modified": "Mon, 08 Aug 2016 13:37:23 GMT",
+    "etag": "\"2613613023\"",
+    "content-type": "text/html; charset=utf-8",
+    "server": "lighttpd/1.4.28",
+    "content-length": "2872",
+    "accept-ranges": "bytes",
+    "date": "Tue, 09 Aug 2016 22:53:12 GMT",
+    "via": "1.1 varnish",
+    "age": "0",
+    "connection": "close",
+    "x-served-by": "cache-nrt6126-NRT",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1470783192.021615,VS0,VE290",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "statusText": "OK"
+}
