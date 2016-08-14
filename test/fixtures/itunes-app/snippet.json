@@ -7,7 +7,7 @@
     "width": 1200,
     "height": 630
   },
-  "content": {
+  "mainEntity": {
     "type": "image"
   },
   "contentUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
@@ -15,8 +15,11 @@
   "originalUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
   "encodingFormat": "text/html",
   "headline": "Pokémon GO on the App Store",
-  "caption": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
-  "siteName": "App Store",
+  "description": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
+  "provider": {
+    "name": "App Store"
+  },
+  "author": {},
   "icon": {
     "url": "https://itunes.apple.com/favicon.ico",
     "type": "image/x-icon"

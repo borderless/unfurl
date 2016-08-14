@@ -5,7 +5,9 @@
   "originalUrl": "http://www.reddit.com/",
   "encodingFormat": "text/html",
   "headline": "reddit: the front page of the internet",
-  "caption": "reddit: the front page of the internet",
+  "description": "reddit: the front page of the internet",
+  "provider": {},
+  "author": {},
   "icon": {
     "url": "https://www.redditstatic.com/icon.png",
     "sizes": "256x256",

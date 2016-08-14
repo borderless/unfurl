@@ -20,15 +20,18 @@
       "height": 620
     }
   ],
-  "content": {
+  "mainEntity": {
     "type": "image"
   },
   "contentUrl": "https://github.com/",
   "originalUrl": "https://github.com/",
   "encodingFormat": "text/html",
   "headline": "GitHub",
-  "caption": "GitHub is where people build software. More than 15 million people use GitHub to discover, fork, and contribute to over 38 million projects.",
-  "siteName": "GitHub",
+  "description": "GitHub is where people build software. More than 15 million people use GitHub to discover, fork, and contribute to over 38 million projects.",
+  "provider": {
+    "name": "GitHub"
+  },
+  "author": {},
   "icon": {
     "url": "https://assets-cdn.github.com/favicon.ico",
     "type": "image/x-icon"

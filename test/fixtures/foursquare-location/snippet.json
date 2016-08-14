@@ -14,15 +14,18 @@
       "url": "https://irs2.4sqi.net/img/general/600x600/25065281_DGAEQ1LzEdZG_1hSut7DYKzmtnynhkx4G4MJGEpzW8c.jpg"
     }
   ],
-  "content": {
+  "mainEntity": {
     "type": "image"
   },
   "contentUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
   "originalUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
   "encodingFormat": "text/html",
   "headline": "Boba Guys",
-  "caption": "Bubble Tea Shop in San Francisco, CA",
-  "siteName": "Foursquare",
+  "description": "Bubble Tea Shop in San Francisco, CA",
+  "provider": {
+    "name": "Foursquare"
+  },
+  "author": {},
   "icon": {
     "url": "https://foursquare.com/favicon.ico",
     "type": "image/x-icon"

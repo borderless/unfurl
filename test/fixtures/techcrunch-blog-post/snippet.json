@@ -3,7 +3,7 @@
   "image": {
     "url": "https://tctechcrunch2011.files.wordpress.com/2016/06/awardsstage.jpg?w=764&h=400&crop=1"
   },
-  "content": {
+  "mainEntity": {
     "type": "article",
     "publisher": "https://www.facebook.com/techcrunch"
   },
@@ -11,9 +11,15 @@
   "originalUrl": "https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
   "encodingFormat": "text/html",
   "headline": "The Europas Awards 2016 honored the best tech startups in Europe |…",
-  "caption": "This week The Europas Startup Conference and Awards — the new type of tech event devised in partnership with TechCrunch and myself — honored The Best Tech Startups in Europe. You can check…",
-  "siteName": "TechCrunch",
-  "author": "Mike Butcher",
+  "description": "This week The Europas Startup Conference and Awards — the new type of tech event devised in partnership with TechCrunch and myself — honored The Best Tech Startups in Europe. You can check…",
+  "provider": {
+    "name": "TechCrunch",
+    "url": "http://techcrunch.com"
+  },
+  "author": {
+    "name": "Mike Butcher",
+    "url": "/author/mike-butcher/"
+  },
   "icon": {
     "url": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico",
     "type": "image/x-icon"

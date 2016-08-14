@@ -7,8 +7,11 @@
   "originalUrl": "https://github.com/blakeembrey/popsicle",
   "encodingFormat": "text/html",
   "headline": "blakeembrey/popsicle",
-  "caption": "popsicle - Simple HTTP requests for node and the browser",
-  "siteName": "GitHub",
+  "description": "popsicle - Simple HTTP requests for node and the browser",
+  "provider": {
+    "name": "GitHub"
+  },
+  "author": {},
   "icon": {
     "url": "https://assets-cdn.github.com/favicon.ico",
     "type": "image/x-icon"

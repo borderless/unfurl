@@ -49,6 +49,7 @@ export interface BaseInfo {
   contentUrl: string
   contentSize?: number
   encodingFormat?: string
+  dateCreated?: Date
   dateModified?: Date
 }
 
@@ -58,12 +59,12 @@ export interface LinkResult extends BaseInfo {
 
 export interface ImageResult extends BaseInfo {
   type: 'image'
-  exif?: any
+  exifData?: any
 }
 
 export interface VideoResult extends BaseInfo {
   type: 'video'
-  exif?: any
+  exifData?: any
 }
 
 export interface HtmlResult extends BaseInfo {
@@ -268,7 +269,7 @@ export interface HtmlSnippetApps {
   windowsPhone?: HtmlSnippetAppLink
 }
 
-export interface HtmlContentArticle {
+export interface HtmlEntityArticle {
   type: 'article'
   section?: string
   publisher?: string
@@ -277,29 +278,48 @@ export interface HtmlContentArticle {
   dateExpires?: Date
 }
 
-export interface HtmlContentImage {
+export interface HtmlEntityImage {
   type: 'image'
+  url?: string
+  width?: number
+  heigth?: number
 }
 
-export interface HtmlContentVideo {
+export interface HtmlEntityVideo {
   type: 'video'
+  html?: string
+  width?: number
+  height?: number
 }
 
-export type HtmlContent = HtmlContentArticle | HtmlContentVideo | HtmlContentImage
+export interface HtmlEntityRich {
+  type: 'rich'
+  html?: string
+  width?: number
+  height?: number
+}
+
+export type HtmlMainEntity = HtmlEntityArticle | HtmlEntityVideo | HtmlEntityImage | HtmlEntityRich
 
 export interface HtmlSnippet extends BaseInfo {
   type: 'html'
-  content: HtmlContent
+  mainEntity: HtmlMainEntity
   image?: HtmlSnippetImage | HtmlSnippetImage[]
   video?: HtmlSnippetVideo | HtmlSnippetVideo[]
   audio?: HtmlSnippetAudio | HtmlSnippetAudio[]
   player?: HtmlSnippetPlayer
   determiner?: string
   headline?: string
-  caption?: string
+  description?: string
   tags?: string[]
-  author?: string
-  siteName?: string
+  author?: {
+    url?: string
+    name?: string
+  }
+  provider?: {
+    url?: string
+    name?: string
+  }
   ttl?: number
   icon?: HtmlSnippetIcon
   locale?: HtmlSnippetLocale
@@ -315,6 +335,13 @@ export interface ImageSnippet extends BaseInfo {
   type: 'image'
   width?: number
   height?: number
+  make?: string
+  model?: string
+  lensMake?: string
+  lensModel?: string
+  software?: string
+  orientation?: string
+  megapixels?: number
 }
 
 export interface LinkSnippet extends BaseInfo {

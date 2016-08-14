@@ -4,6 +4,8 @@
   "originalUrl": "http://hackerne.ws",
   "encodingFormat": "text/html",
   "headline": "Hacker News",
+  "provider": {},
+  "author": {},
   "icon": {
     "url": "https://news.ycombinator.com/favicon.ico"
   },

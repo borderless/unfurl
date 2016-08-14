@@ -6,17 +6,24 @@
     "width": 1050,
     "height": 550
   },
-  "content": {
-    "type": "image"
+  "mainEntity": {
+    "type": "video",
+    "html": "<iframe src=\"https://embed-ssl.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity.html\" width=\"560\" height=\"315\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>"
   },
   "contentUrl": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
   "contentSize": 19937,
   "originalUrl": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
   "encodingFormat": "text/html",
   "headline": "Tim Harford: How frustration can make us more creative",
-  "caption": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess.",
-  "siteName": "TED",
-  "author": "Tim Harford",
+  "description": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess.",
+  "provider": {
+    "name": "TED",
+    "url": "http://ted.com"
+  },
+  "author": {
+    "name": "Tim Harford",
+    "url": "https://www.ted.com/speakers/tim_harford"
+  },
   "icon": {
     "url": "https://pa.tedcdn.com/favicon.svg",
     "sizes": "any"

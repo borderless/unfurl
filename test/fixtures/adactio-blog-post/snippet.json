@@ -8,8 +8,11 @@
   "originalUrl": "https://adactio.com/journal/9881",
   "encodingFormat": "text/html",
   "headline": "Metadata markup",
-  "caption": "So many standards to choose from.",
-  "author": "Jeremy Keith",
+  "description": "So many standards to choose from.",
+  "provider": {},
+  "author": {
+    "name": "Jeremy Keith"
+  },
   "icon": {
     "url": "https://adactio.com/favicon-32x32.png",
     "sizes": "32x32",

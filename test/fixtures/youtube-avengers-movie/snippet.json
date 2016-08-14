@@ -28,8 +28,11 @@
   "originalUrl": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
   "encodingFormat": "text/html",
   "headline": "Marvel's The Avengers",
-  "caption": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R...",
-  "siteName": "YouTube",
+  "description": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R...",
+  "provider": {
+    "name": "YouTube"
+  },
+  "author": {},
   "icon": {
     "url": "https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png",
     "sizes": "32x32"

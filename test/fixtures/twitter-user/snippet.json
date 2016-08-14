@@ -1,12 +1,20 @@
 {
   "type": "html",
+  "mainEntity": {
+    "type": "rich",
+    "html": "<a class=\"twitter-timeline\" href=\"https://twitter.com/blakeembrey\">Tweets by blakeembrey</a>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
+  },
   "contentUrl": "https://twitter.com/blakeembrey",
   "contentSize": 34226,
   "originalUrl": "https://twitter.com/blakeembrey",
   "encodingFormat": "text/html",
   "headline": "Blake Embrey (@blakeembrey) | Twitter",
-  "caption": "The latest Tweets from Blake Embrey (@blakeembrey). World Citizen ∙ Open Source Contributor ∙ Full-stack Engineer. San Francisco, CA",
-  "siteName": "Twitter",
+  "description": "The latest Tweets from Blake Embrey (@blakeembrey). World Citizen ∙ Open Source Contributor ∙ Full-stack Engineer. San Francisco, CA",
+  "provider": {
+    "name": "Twitter",
+    "url": "https://twitter.com"
+  },
+  "author": {},
   "ttl": 3153600000,
   "icon": {
     "url": "https://abs.twimg.com/favicons/favicon.ico",

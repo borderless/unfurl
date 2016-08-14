@@ -10,7 +10,9 @@
   "originalUrl": "http://ogp.me/",
   "encodingFormat": "text/html",
   "headline": "Open Graph protocol",
-  "caption": "The Open Graph protocol enables any web page to become a rich object in a social graph.",
+  "description": "The Open Graph protocol enables any web page to become a rich object in a social graph.",
+  "provider": {},
+  "author": {},
   "icon": {
     "url": "http://ogp.me/favicon.ico",
     "type": "image/x-icon"

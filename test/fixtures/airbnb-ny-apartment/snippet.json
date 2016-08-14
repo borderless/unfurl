@@ -3,7 +3,7 @@
   "image": {
     "url": "https://a1.muscache.com/im/pictures/43670185/606e6e19_original.jpg?aki_policy=x_large"
   },
-  "content": {
+  "mainEntity": {
     "type": "image"
   },
   "contentUrl": "https://www.airbnb.com/rooms/2250401",
@@ -11,8 +11,11 @@
   "originalUrl": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
   "encodingFormat": "text/html",
   "headline": "Bright, Chelsea Studio - Apartments for Rent in New York",
-  "caption": "Apartment in New York, United States. A cute boutique studio located on arguably the best street in Chelsea. A block from the Highline, endless Galleries and Restaurants, the wonderful Chelsea Market and the lively Meatpacking District. 1 Ave from the A-C-E subway and just blocks fro...",
-  "siteName": "Airbnb",
+  "description": "Apartment in New York, United States. A cute boutique studio located on arguably the best street in Chelsea. A block from the Highline, endless Galleries and Restaurants, the wonderful Chelsea Market and the lively Meatpacking District. 1 Ave from the A-C-E subway and just blocks fro...",
+  "provider": {
+    "name": "Airbnb"
+  },
+  "author": {},
   "icon": {
     "url": "https://a1.muscache.com/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f061d2dcabdf6e58.ico",
     "sizes": "76x76",

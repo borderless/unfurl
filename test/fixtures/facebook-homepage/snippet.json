@@ -7,8 +7,11 @@
   "originalUrl": "https://www.facebook.com/",
   "encodingFormat": "text/html",
   "headline": "Facebook - Log In or Sign Up",
-  "caption": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
-  "siteName": "Facebook",
+  "description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+  "provider": {
+    "name": "Facebook"
+  },
+  "author": {},
   "icon": {
     "url": "https://static.xx.fbcdn.net/rsrc.php/yV/r/hzMapiNYYpW.ico"
   },

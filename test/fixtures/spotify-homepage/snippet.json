@@ -8,7 +8,9 @@
   "originalUrl": "https://www.spotify.com/",
   "encodingFormat": "text/html",
   "headline": "Music for everyone.",
-  "caption": "Spotify is all the music you’ll ever need.",
+  "description": "Spotify is all the music you’ll ever need.",
+  "provider": {},
+  "author": {},
   "icon": {
     "url": "https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/_global/favicon.png"
   },

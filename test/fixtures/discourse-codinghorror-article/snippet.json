@@ -7,8 +7,11 @@
   "originalUrl": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
   "encodingFormat": "text/html",
   "headline": "The Raspberry Pi Has Revolutionized Emulation",
-  "caption": "Check out Pico-8 for new \"fantasy console\" goodness. Works great with Raspberry Pi Zero, 2, 3, etc.",
-  "siteName": "Coding Horror Discussion",
+  "description": "Check out Pico-8 for new \"fantasy console\" goodness. Works great with Raspberry Pi Zero, 2, 3, etc.",
+  "provider": {
+    "name": "Coding Horror Discussion"
+  },
+  "author": {},
   "icon": {
     "url": "https://discourse.codinghorror.com/images/default-favicon.ico",
     "type": "image/png"

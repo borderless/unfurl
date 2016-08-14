@@ -5,7 +5,7 @@ import { get, jar, createTransport } from 'popsicle'
 import { Readable } from 'stream'
 import { parse } from 'content-type'
 import { Headers, AbortFn, BaseInfo, Result, Options } from './interfaces'
-import rules from './rules'
+import scrapers from './scrapers'
 import { DEFAULT_OPTIONS } from './utils'
 
 /**
@@ -57,9 +57,15 @@ export function scrapeStream (
   const dateModified = isFinite(lastModified.getTime()) ? lastModified : undefined
   const close = abort || (() => stream.resume())
 
-  const base: BaseInfo = { contentUrl, originalUrl, encodingFormat, contentSize, dateModified }
+  const base: BaseInfo = {
+    contentUrl,
+    originalUrl,
+    encodingFormat,
+    contentSize,
+    dateModified
+  }
 
-  for (const rule of rules) {
+  for (const rule of scrapers) {
     if (rule.supported(base, headers)) {
       return Promise.resolve(rule.handle(base, headers, stream, close, options))
     }

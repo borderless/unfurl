@@ -14,8 +14,11 @@
   "originalUrl": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
   "encodingFormat": "text/html",
   "headline": "Desiigner- \"Panda\" (Prod. By: Menace)",
-  "caption": "It's the OFFICIAL track that you have all been waiting. This is PANDA!!",
-  "siteName": "SoundCloud",
+  "description": "It's the OFFICIAL track that you have all been waiting. This is PANDA!!",
+  "provider": {
+    "name": "SoundCloud"
+  },
+  "author": {},
   "icon": {
     "url": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14b.ico"
   },

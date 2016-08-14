@@ -7,7 +7,7 @@
     "width": 1200,
     "height": 630
   },
-  "content": {
+  "mainEntity": {
     "type": "image"
   },
   "contentUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
@@ -15,8 +15,11 @@
   "originalUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
   "encodingFormat": "text/html",
   "headline": "The Avengers on iTunes",
-  "caption": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
-  "siteName": "iTunes",
+  "description": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
+  "provider": {
+    "name": "iTunes"
+  },
+  "author": {},
   "icon": {
     "url": "https://itunes.apple.com/favicon.ico",
     "type": "image/x-icon"

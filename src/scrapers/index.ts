@@ -5,6 +5,9 @@ import * as link from './link'
 
 import { Rule } from '../interfaces'
 
+/**
+ * List of rules, executes against first match.
+ */
 const rules: Rule[] = [
   html,
   image,

@@ -5,17 +5,23 @@
     "width": 1280,
     "height": 1280
   },
-  "content": {
-    "type": "image"
+  "mainEntity": {
+    "type": "image",
+    "url": "http://d.pr/i/q3z9+"
   },
   "contentUrl": "http://d.pr/i/q3z9",
   "contentSize": 4272,
   "originalUrl": "http://d.pr/a/q3z9",
   "encodingFormat": "text/html",
   "headline": "table.jpeg",
-  "caption": "Shared with Droplr",
-  "siteName": "Droplr",
-  "author": "Droplr",
+  "description": "Shared with Droplr",
+  "provider": {
+    "name": "Droplr",
+    "url": "http://droplr.com/"
+  },
+  "author": {
+    "name": "Droplr"
+  },
   "icon": {
     "url": "https://d1zjcuqflbd5k.cloudfront.net/files/acc_138123/JfQ3?Expires=1468450480&Signature=cBuBAeqn-I~xgvgjSZ1M7mih~7w6QgpIafhzfwpXu2Bba-f~7a0a2DbgnNk7CEZW5zM76dr7REBjOvBHkPdAEF89dnMyG8FRY8xjePSJlHDAcZScNU7mf8gQ6fTzTX17C52PPZoYwLf-ebmsYqQ4Y9b3~-Uxh0bXHl32ytIiOXI_&Key-Pair-Id=APKAJTEIOJM3LSMN33SA",
     "sizes": "80x80",

@@ -8,8 +8,11 @@
   "originalUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
   "encodingFormat": "text/html",
   "headline": "'UK man' tried to kill Trump: court papers • /r/news",
-  "caption": "4913 points and 7188 comments so far on reddit",
-  "siteName": "reddit",
+  "description": "4913 points and 7188 comments so far on reddit",
+  "provider": {
+    "name": "reddit"
+  },
+  "author": {},
   "ttl": 600,
   "icon": {
     "url": "https://www.redditstatic.com/icon.png",

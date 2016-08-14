@@ -3,7 +3,7 @@
   "image": {
     "url": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-facebookJumbo.jpg"
   },
-  "content": {
+  "mainEntity": {
     "type": "article",
     "section": "Opinion"
   },
@@ -11,9 +11,14 @@
   "originalUrl": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection",
   "encodingFormat": "text/html",
   "headline": "Decoding Donald Trump",
-  "caption": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
-  "siteName": "The New York Times",
-  "author": "Andrew Rosenthal",
+  "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
+  "provider": {
+    "name": "The New York Times",
+    "url": "https://www.nytimes.com"
+  },
+  "author": {
+    "name": "Andrew Rosenthal"
+  },
   "icon": {
     "url": "https://static01.nyt.com/favicon.ico"
   },

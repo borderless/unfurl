@@ -15,7 +15,8 @@ export function handle (
   options: Options
 ): Promise<ImageResult> {
   return options.extractExifData(base.contentUrl, stream, abort)
-    .then(exif => {
-      return extend(base, { exif, type: 'image' as 'image' })
-    })
+    .then(
+      (exifData) => extend(base, { exifData, type: 'image' as 'image' }),
+      () => extend(base, { exifData: {}, type: 'image' as 'image' })
+    )
 }

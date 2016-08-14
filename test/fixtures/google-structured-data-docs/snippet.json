@@ -5,7 +5,10 @@
   "originalUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
   "encodingFormat": "text/html",
   "headline": "Introduction to Structured Data",
-  "siteName": "Google Developers",
+  "provider": {
+    "name": "Google Developers"
+  },
+  "author": {},
   "icon": {
     "url": "https://developers.google.com/_static/373305fd95/images/favicon.png"
   },
