@@ -1,0 +1,27 @@
+{
+  "originalUrl": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
+  "contentUrl": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
+  "headers": {
+    "content-type": "text/html;charset=UTF-8",
+    "set-cookie": [
+      "bby_cbc_lb=p-browse-e; expires=Sun, 14-Aug-2016 08:52:31 GMT; path=/; domain=.bestbuy.com",
+      "ltc=%20; expires=Sun, 14 Aug 2016 08:52:31 GMT; path=/; domain=.bestbuy.com;",
+      "testBucket=8; expires=Sun, 29 Jan 2017 05:59:59 GMT; path=/; domain=.bestbuy.com;",
+      "akaau=1471164751~id=504ceb7b52ccfcbe67ef83b6d4c26f47; domain=.bestbuy.com; path=/",
+      "bby_rdp=l; expires=Mon, 15-Aug-2016 08:42:31 GMT; path=/; domain=.bestbuy.com"
+    ],
+    "x-bby-instance-id": "4859fcd149",
+    "x-employment": "If you are reading this, consider a job at BestBuy.com http://www.bestbuy-jobs.com/job-family/all-corporate-careers/",
+    "vary": "Accept-Encoding",
+    "x-frame-options": "SAMEORIGIN",
+    "content-encoding": "gzip",
+    "expires": "Sun, 14 Aug 2016 08:42:33 GMT",
+    "pragma": "no-cache",
+    "date": "Sun, 14 Aug 2016 08:42:33 GMT",
+    "content-length": "26096",
+    "connection": "close",
+    "cache-control": "no-store"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

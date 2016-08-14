@@ -1,0 +1,35 @@
+{
+  "originalUrl": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
+  "contentUrl": "https://www.airbnb.com.au/rooms/2250401?checkin=24-06-2016&checkout=30-06-2016&guests=1&s=eI3nl9s6",
+  "headers": {
+    "server": "nginx/1.7.12",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "status": "200 OK",
+    "content-security-policy": "default-src 'self' https:; connect-src 'self' https: ws://localhost.airbnb.com:8888 *.mapbox.com *.inspectlet.com wss://ws.inspectlet.com http:; font-src 'self' https:; frame-src * *.google.com; img-src 'self' https: *.mapbox.com *.inspectlet.com *.gstatic.com http: data:; media-src 'self' https: blob:; object-src 'self' https:; script-src 'sha256-8Kp4YIWqA8yhCJaTWnmB7Wv7OjnXnX661ygwccVuDRw=' 'self' https: 'unsafe-eval' 'unsafe-inline' *.mapbox.com *.inspectlet.com *.google.com *.gstatic.com http:; style-src 'self' https: 'unsafe-inline' *.mapbox.com http:; report-uri /tracking/csp?action=show&controller=rooms&req_uuid=a274ef17-3aa2-42c6-8743-fcc17c7c6e70&version=77946d022f50129f605edaaa56ff5cf70e2f7bfc;",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ua-compatible": "IE=Edge,chrome=1",
+    "etag": "W/\"66bacd3062b0c4ab9a8ebcb915d87b49\"",
+    "content-encoding": "gzip",
+    "strict-transport-security": "max-age=10886400; includeSubdomains",
+    "cache-control": "public, max-age=1768",
+    "date": "Sun, 14 Aug 2016 08:42:33 GMT",
+    "transfer-encoding": "chunked",
+    "connection": [
+      "close",
+      "Transfer-Encoding"
+    ],
+    "set-cookie": [
+      "bev=1471164151_cbH%2FBPhQPCqVd8yU; domain=.airbnb.com.au; path=/; expires=Tue, 14-Aug-2018 08:42:31 GMT; secure",
+      "_csrf_token=V4%24.airbnb.com.au%24f_ms4BcPcSg%2463uffqu2AFQKlzK39Z8h8zQnGPuo4HVK_CEoH9moBiM%3D; domain=.airbnb.com.au; path=/; secure",
+      "_user_attributes=%7B%22curr%22%3A%22AUD%22%2C%22guest_exchange%22%3A1.30198%2C%22device_profiling_session_id%22%3A%221471164152--9bc40083a19323567e7fc7c9%22%7D; domain=.airbnb.com.au; path=/; secure",
+      "flags=268435456; domain=.airbnb.com.au; path=/; secure",
+      "mdr_browser=desktop; expires=Sun, 14-Aug-2016 10:42:33 GMT; path=/; domain=.airbnb.com.au"
+    ],
+    "akamai-country": "AU"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

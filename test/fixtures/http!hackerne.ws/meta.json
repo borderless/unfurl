@@ -1,0 +1,23 @@
+{
+  "originalUrl": "http://hackerne.ws",
+  "contentUrl": "https://news.ycombinator.com/",
+  "headers": {
+    "date": "Sun, 14 Aug 2016 08:42:32 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "set-cookie": "__cfduid=d9996926221439a8ea5ae96d82006571e1471164151; expires=Mon, 14-Aug-17 08:42:31 GMT; path=/; domain=.ycombinator.com; HttpOnly",
+    "vary": "Accept-Encoding",
+    "cache-control": [
+      "private",
+      "max-age=0"
+    ],
+    "x-frame-options": "DENY",
+    "strict-transport-security": "max-age=31556900; includeSubDomains",
+    "content-encoding": "gzip",
+    "server": "cloudflare-nginx",
+    "cf-ray": "2d231d2b8e8c51f1-MEL"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

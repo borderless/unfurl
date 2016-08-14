@@ -1,0 +1,28 @@
+{
+  "type": "html",
+  "image": {
+    "url": "https://adactio.com/images/photo-300.jpg"
+  },
+  "contentUrl": "https://adactio.com/journal/9881",
+  "contentSize": 23066,
+  "originalUrl": "https://adactio.com/journal/9881",
+  "encodingFormat": "text/html",
+  "headline": "Metadata markup",
+  "description": "So many standards to choose from.",
+  "provider": {},
+  "author": {
+    "name": "Jeremy Keith"
+  },
+  "icon": {
+    "url": "https://adactio.com/favicon-32x32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  },
+  "twitter": {
+    "siteId": "11250",
+    "siteHandle": "adactio",
+    "creatorId": "11250",
+    "creatorHandle": "adactio"
+  },
+  "apps": {}
+}

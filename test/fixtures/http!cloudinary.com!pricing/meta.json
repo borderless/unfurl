@@ -1,0 +1,16 @@
+{
+  "originalUrl": "http://cloudinary.com/pricing",
+  "contentUrl": "http://cloudinary.com/pricing",
+  "headers": {
+    "content-encoding": "gzip",
+    "content-type": "text/html",
+    "date": "Sun, 14 Aug 2016 08:42:31 GMT",
+    "etag": "W/\"57afc3d7-12661\"",
+    "last-modified": "Sun, 14 Aug 2016 01:05:27 GMT",
+    "server": "cloudinary",
+    "content-length": "15164",
+    "connection": "Close"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

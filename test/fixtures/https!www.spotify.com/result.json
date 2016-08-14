@@ -1,0 +1,29 @@
+{
+  "contentUrl": "https://www.spotify.com/au/",
+  "originalUrl": "https://www.spotify.com/",
+  "encodingFormat": "text/html",
+  "contentSize": 21742,
+  "type": "html",
+  "meta": {
+    "html": {
+      "description": "Spotify is a digital music service that gives you access to millions of songs.",
+      "keywords": "Spotify, music, online, listen, streaming, play, digital, album, artist, playlist",
+      "title": "Music for everyone - Spotify",
+      "icons": [
+        {
+          "url": "https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/_global/favicon.png"
+        }
+      ],
+      "canonical": "https://www.spotify.com/"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#title": "Music for everyone.",
+        "http://ogp.me/ns#type": "website",
+        "http://ogp.me/ns#url": "https://www.spotify.com/au/",
+        "http://ogp.me/ns#image": "http://d2c87l0yth4zbw.global.ssl.fastly.net/i/_global/open-graph-default.png",
+        "http://ogp.me/ns#description": "Spotify is all the music you’ll ever need."
+      }
+    }
+  }
+}

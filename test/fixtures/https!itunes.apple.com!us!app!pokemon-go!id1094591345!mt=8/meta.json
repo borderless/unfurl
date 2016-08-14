@@ -1,0 +1,38 @@
+{
+  "originalUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
+  "contentUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
+  "headers": {
+    "x-apple-jingle-correlation-key": "ZPBIGQMUAUCU4ANUT5IK4PFIWI",
+    "x-apple-request-uuid": "cbc28341-9405-054e-01b4-9f50ae3ca8b2",
+    "x-apple-translated-wo-url": "/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1094591345&cc=us&urlDesc=/pokemon-go",
+    "apple-tk": "false",
+    "content-type": "text/html; charset=UTF-8",
+    "x-apple-aka-ttl": "Generated Sun Aug 14 01:42:30 PDT 2016, Expires Sun Aug 14 01:43:30 PDT 2016, TTL 60s",
+    "x-webobjects-loadaverage": "0",
+    "last-modified": "Sun, 14 Aug 2016 08:42:30 GMT",
+    "apple-seq": "0",
+    "access-control-allow-origin": "*",
+    "apple-originating-system": "MZStore",
+    "content-encoding": "gzip",
+    "strict-transport-security": "max-age=31536000",
+    "x-frame-options": "SAMEORIGIN",
+    "x-apple-orig-url": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
+    "x-apple-application-site": "ST11",
+    "apple-timing-app": "66 ms",
+    "x-apple-application-instance": "2125648",
+    "content-length": "17448",
+    "server": "ATS/4.1.0",
+    "x-apple-ats-cache-key": "/17.173.38.164/80/us/app/pokemon-go/id1094591345/iDevice/https?mt=8",
+    "cache-control": "no-transform, max-age=57",
+    "date": "Sun, 14 Aug 2016 08:42:30 GMT",
+    "connection": "close",
+    "vary": [
+      "Accept-Encoding",
+      "X-Apple-Store-Front",
+      "Accept-Encoding"
+    ],
+    "x-apple-partner": "origin.0"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

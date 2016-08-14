@@ -1,0 +1,21 @@
+{
+  "originalUrl": "http://www.mysteryranch.com/asap-pack",
+  "contentUrl": "http://www.mysteryranch.com/asap-pack",
+  "headers": {
+    "date": "Sun, 14 Aug 2016 08:42:30 GMT",
+    "server": "Apache",
+    "content-length": "17199",
+    "content-encoding": "gzip",
+    "sspappcontext": "MysteryRanchSCA Hosting Files/SSP Applications/MysteryRanch - SuiteCommerce/SuiteCommerce Shopflow 1.05.0/* (id=33)",
+    "ns_rtimer_composite": "299214488:73686F702D6A61766130303030362E7376616C652E6E65746C65646765722E636F6D:80",
+    "edge-control": "!no-store,cache-maxage=7d",
+    "set-cookie": "NS_VER=2016.1.0; domain=www.mysteryranch.com; path=/",
+    "p3p": "CP=\"CAO PSAa OUR BUS PUR\"",
+    "vary": "User-Agent",
+    "keep-alive": "timeout=10, max=961",
+    "connection": "Keep-Alive",
+    "content-type": "text/html; charset=UTF-8"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

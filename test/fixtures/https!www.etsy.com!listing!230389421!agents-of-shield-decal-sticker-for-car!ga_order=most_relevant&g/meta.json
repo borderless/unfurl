@@ -1,0 +1,34 @@
+{
+  "originalUrl": "https://www.etsy.com/listing/230389421/agents-of-shield-decal-sticker-for-car?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=sr_gallery_20",
+  "contentUrl": "https://www.etsy.com/listing/230389421/agents-of-shield-decal-sticker-for-car?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=sr_gallery_20",
+  "headers": {
+    "server": "Apache",
+    "strict-transport-security": "max-age=631138520; includeSubDomains; preload",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block; report=/beacon/csp.php",
+    "x-content-type-options": "nosniff",
+    "x-recruiting": "Is code your craft? https://www.etsy.com/careers",
+    "last-modified": "Sun, 14 Aug 2016 04:35:59 +0000",
+    "content-encoding": "gzip",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "cache-control": "private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "x-cnection": "close",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Sun, 14 Aug 2016 08:42:32 GMT",
+    "transfer-encoding": "chunked",
+    "connection": [
+      "close",
+      "Transfer-Encoding"
+    ],
+    "vary": "Accept-Encoding",
+    "set-cookie": [
+      "uaid=uaid%3Dtqez6davlJORGUKR5dn_s0R2UHhZ%26_now%3D1471164151%26_slt%3DVO7ePt88%26_kid%3D1%26_ver%3D1%26_mac%3DPcNKczmj5WX4o-z_sYe4ZzI-hVLZNHICV51w3ZunkVk.; expires=Thu, 14-Sep-2017 01:00:51 GMT; Max-Age=34186700; path=/; domain=.etsy.com; secure; HttpOnly",
+      "fve=1471164151.0; expires=Thu, 14-Sep-2017 01:00:51 GMT; Max-Age=34186700; path=/; domain=.etsy.com; secure",
+      "user_prefs=nAVJc9YI4QEpC3sK53EqrvGxjpNjZACC8A1632F0tFJosIuSjlJ6Yk5OalElkJWapxsaDKQjIpR08kpzcnSMIBQWIpYBAA..; expires=Mon, 14-Aug-2017 08:42:31 GMT; Max-Age=31536000; path=/; domain=.etsy.com",
+      "last_browse_page=https%3A%2F%2Fwww.etsy.com%2Fshop%2FInfernoDecals; path=/; domain=.etsy.com",
+      "etsy_guest_pass=ZL1WWvOQsir8FX3CpFjnJ6z0BDljZACC8A1632F0tVKGklV0bC0DAA..; path=/; domain=.etsy.com"
+    ]
+  },
+  "status": 200,
+  "statusText": "OK"
+}

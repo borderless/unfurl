@@ -1,0 +1,37 @@
+{
+  "type": "html",
+  "image": {
+    "url": "https://secure.gravatar.com/blavatar/99ae28ba58e6719abd9d8575bdc18a54?s=200&ts=1471164150",
+    "width": 200,
+    "height": 200
+  },
+  "mainEntity": {
+    "type": "article",
+    "publisher": "https://www.facebook.com/WordPresscom",
+    "datePublished": "2016-06-21T00:44:04.000Z",
+    "dateModified": "2016-06-21T00:43:32.000Z"
+  },
+  "contentUrl": "http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123",
+  "contentSize": 10483,
+  "originalUrl": "http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123",
+  "encodingFormat": "text/html",
+  "headline": "UK man in ‘Trump shooting bid’ denied bail",
+  "description": "{“contentType”:”NEWS_STORY”,”id”:{“value”:”c4116603f54f1b7c88339cd039c7e123″,”link”:”http:\\/\\/api.newsapi.com.au\\/conte…",
+  "provider": {
+    "name": "News.com.au"
+  },
+  "author": {},
+  "icon": {
+    "url": "http://www.news.com.au/wp-content/themes/vip/newscorpau-nca/assets/dist/img/common/favicon/favicon-32x32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  },
+  "locale": {
+    "primary": "en_US"
+  },
+  "twitter": {
+    "siteId": "@newscomauHQ",
+    "siteHandle": "newscomauHQ"
+  },
+  "apps": {}
+}

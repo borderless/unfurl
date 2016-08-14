@@ -1,0 +1,158 @@
+{
+  "contentUrl": "https://techcrunch.com/",
+  "originalUrl": "https://techcrunch.com/",
+  "encodingFormat": "text/html",
+  "dateModified": "2016-08-14T08:40:13.000Z",
+  "type": "html",
+  "meta": {
+    "jsonLd": {
+      "@context": "http://schema.org",
+      "@type": "ItemList",
+      "url": "https://techcrunch.com/",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://techcrunch.com/2016/08/13/its-time-to-publicly-shame-united-airlines-so-called-online-security/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://techcrunch.com/2016/08/12/gurbaksh-chahal-sentenced-to-a-year-in-jail/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://techcrunch.com/2016/08/12/the-creativity-ecosystem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "url": "https://techcrunch.com/2016/08/12/weekly-roundup-macbook-pros-big-update-walmart-buys-jet-and-facebooks-adblocking-saga-continues/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "url": "https://techcrunch.com/2016/08/13/spacex-succesfully-launches-another-satellite-brings-home-another-rocket/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "url": "https://techcrunch.com/2016/08/13/edtech-is-the-next-fintech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "url": "https://techcrunch.com/2016/08/13/the-pokemon-go-influence-on-new-tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "url": "https://techcrunch.com/2016/08/13/gillmor-gang-what-ailes-you/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "url": "https://techcrunch.com/2016/08/13/hearing-is-like-seeing-for-our-brains-and-for-machines/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "url": "https://techcrunch.com/2016/08/13/the-onion-omega2-lets-you-add-linux-to-your-hardware-projects/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "url": "https://techcrunch.com/2016/08/13/the-story-of-naked-wines/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "url": "https://techcrunch.com/2016/08/13/digital-media-unioning-one-year-later/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "url": "https://techcrunch.com/2016/08/13/how-frank-abagnale-turned-early-life-as-con-artist-into-a-40-year-security-consulting-career/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "url": "https://techcrunch.com/2016/08/13/its-time-to-publicly-shame-united-airlines-so-called-online-security/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "url": "https://techcrunch.com/2016/08/12/crunch-report-beam-is-acquired-by-microsoft/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "url": "https://techcrunch.com/2016/08/12/a-prescription-for-preventing-3d-printing-piracy/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "url": "https://techcrunch.com/2016/08/12/early-bird-disrupt-sf-ticket-sales-extended-by-one-week/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "url": "https://techcrunch.com/2016/08/12/gurbaksh-chahal-sentenced-to-a-year-in-jail/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "url": "https://techcrunch.com/2016/08/12/triller-social/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "url": "https://techcrunch.com/2016/08/12/gm-tried-to-buy-lyft/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "url": "https://techcrunch.com/2016/08/12/werner-herzogs-meditations-on-a-connected-world/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "url": "https://techcrunch.com/2016/08/12/pokemon-go-changes-everything-and-nothing-for-arvr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "url": "https://techcrunch.com/2016/08/12/the-creativity-ecosystem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "url": "https://techcrunch.com/2016/08/12/how-to-make-your-own-han-solo-frozen-in-carbonite-fridge/"
+        }
+      ]
+    },
+    "html": {
+      "title": "TechCrunch - The latest technology news and information on startups",
+      "icons": [
+        {
+          "url": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico",
+          "type": "image/x-icon"
+        }
+      ],
+      "author": "Emily Calandrelli",
+      "description": "TechCrunch is a leading technology media property, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news."
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#site_name": "TechCrunch",
+        "http://ogp.me/ns#site": "social.techcrunch.com",
+        "http://ogp.me/ns#title": "TechCrunch",
+        "http://ogp.me/ns#description": "TechCrunch is a leading technology media property, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news.",
+        "http://ogp.me/ns#image": "https://tctechcrunch2011.files.wordpress.com/2016/08/spacex-jcsat-landing.jpg?w=764&h=400&crop=1",
+        "http://ogp.me/ns#url": "http://social.techcrunch.com/",
+        "http://ogp.me/ns#type": "website"
+      }
+    }
+  }
+}

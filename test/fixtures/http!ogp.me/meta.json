@@ -1,0 +1,15 @@
+{
+  "originalUrl": "http://ogp.me/",
+  "contentUrl": "http://ogp.me/",
+  "headers": {
+    "connection": "close",
+    "date": "Sun, 14 Aug 2016 08:42:29 GMT",
+    "server": "Apache/2.4.10 (Unix)",
+    "x-powered-by": "PHP/5.6.2",
+    "transfer-encoding": "chunked",
+    "content-type": "text/html; charset=UTF-8",
+    "via": "1.1 vegur"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

@@ -1,0 +1,72 @@
+{
+  "type": "html",
+  "image": [
+    {
+      "url": "https://irs2.4sqi.net/img/general/600x600/4728049_RqLf2Eh3jmZKnj_keLPnUCC3imRX-I7CMhnNDDDhzZQ.jpg"
+    },
+    {
+      "url": "https://irs1.4sqi.net/img/general/600x600/30191875_Lgh6KE2Ddw3meuqyW8ZMJVG7G3JVv2njuEtDIuLr-kk.jpg"
+    },
+    {
+      "url": "https://irs2.4sqi.net/img/general/600x600/7678228_hSZ-0aysgwKJcYYW2qZZkUm4VdhUL3zsAHXwM1ppJFc.jpg"
+    },
+    {
+      "url": "https://irs3.4sqi.net/img/general/600x600/47933_2M0KTEvNBeksfT5LPULAfTOTX3Pf9UJpfvfETsATRHs.jpg"
+    }
+  ],
+  "mainEntity": {
+    "type": "image"
+  },
+  "contentUrl": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
+  "originalUrl": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
+  "encodingFormat": "text/html",
+  "headline": "Sydney Opera House",
+  "description": "Opera House in Sydney, NSW",
+  "provider": {
+    "name": "Foursquare"
+  },
+  "author": {},
+  "icon": {
+    "url": "https://foursquare.com/favicon.ico",
+    "type": "image/x-icon"
+  },
+  "tags": [
+    "Sydney Opera House",
+    "2 Macquarie St",
+    "Sydney",
+    "NSW",
+    "opera house",
+    "opera house sydney",
+    "sidney opera house",
+    "sydney opera house",
+    "Opera House",
+    "Concert Hall",
+    "Art Gallery"
+  ],
+  "twitter": {
+    "siteHandle": "foursquare",
+    "creatorHandle": "foursquare"
+  },
+  "apps": {
+    "iphone": {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201b8f22e3"
+    },
+    "ipad": {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201b8f22e3"
+    },
+    "android": {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201b8f22e3"
+    },
+    "windowsPhone": {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201b8f22e3"
+    }
+  }
+}

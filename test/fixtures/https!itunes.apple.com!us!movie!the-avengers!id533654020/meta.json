@@ -1,0 +1,38 @@
+{
+  "originalUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
+  "contentUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
+  "headers": {
+    "x-apple-jingle-correlation-key": "ZGSCXGVOQZYRLFY247LCAC4JVE",
+    "x-apple-request-uuid": "c9a42b9a-ae86-7115-971a-e7d6200b89a9",
+    "x-apple-translated-wo-url": "/WebObjects/MZStore.woa/wa/viewMovie?id=533654020&cc=us&urlDesc=/the-avengers",
+    "apple-tk": "false",
+    "content-type": "text/html; charset=UTF-8",
+    "x-apple-aka-ttl": "Generated Sun Aug 14 01:42:31 PDT 2016, Expires Sun Aug 14 01:43:31 PDT 2016, TTL 60s",
+    "x-webobjects-loadaverage": "0",
+    "last-modified": "Sun, 14 Aug 2016 08:42:31 GMT",
+    "apple-seq": "0",
+    "access-control-allow-origin": "*",
+    "apple-originating-system": "MZStore",
+    "content-encoding": "gzip",
+    "strict-transport-security": "max-age=31536000",
+    "x-frame-options": "SAMEORIGIN",
+    "x-apple-orig-url": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
+    "x-apple-application-site": "NWK",
+    "apple-timing-app": "503 ms",
+    "x-apple-application-instance": "1012700",
+    "content-length": "19429",
+    "server": "ATS/4.1.0",
+    "x-apple-ats-cache-key": "/17.154.42.212/80/us/movie/the-avengers/id533654020/iDevice/https",
+    "cache-control": "no-transform, max-age=60",
+    "date": "Sun, 14 Aug 2016 08:42:31 GMT",
+    "connection": "close",
+    "vary": [
+      "Accept-Encoding",
+      "X-Apple-Store-Front",
+      "Accept-Encoding"
+    ],
+    "x-apple-partner": "origin.0"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

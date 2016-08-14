@@ -1,0 +1,47 @@
+{
+  "type": "html",
+  "image": {
+    "url": "http://is5.mzstatic.com/image/thumb/Purple62/v4/c3/ae/13/c3ae1331-6413-482b-30b6-4b670c92280f/source/1200x630bf.jpg",
+    "secureUrl": "http://is5.mzstatic.com/image/thumb/Purple62/v4/c3/ae/13/c3ae1331-6413-482b-30b6-4b670c92280f/source/1200x630bf.jpg",
+    "type": "image/jpg",
+    "width": 1200,
+    "height": 630
+  },
+  "mainEntity": {
+    "type": "image"
+  },
+  "contentUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
+  "contentSize": 17448,
+  "originalUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
+  "encodingFormat": "text/html",
+  "headline": "Pokémon GO on the App Store",
+  "description": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
+  "provider": {
+    "name": "App Store"
+  },
+  "author": {},
+  "icon": {
+    "url": "https://itunes.apple.com/favicon.ico",
+    "type": "image/x-icon"
+  },
+  "tags": [
+    "Pokémon GO",
+    "Niantic",
+    "Inc.",
+    "Games",
+    "Health & Fitness",
+    "ios apps",
+    "app",
+    "appstore",
+    "app store",
+    "iphone",
+    "ipad",
+    "ipod touch",
+    "itouch",
+    "itunes"
+  ],
+  "twitter": {
+    "siteHandle": "AppStore"
+  },
+  "apps": {}
+}

@@ -1,0 +1,29 @@
+{
+  "type": "html",
+  "image": {
+    "url": "https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg"
+  },
+  "mainEntity": {
+    "type": "article"
+  },
+  "contentUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
+  "contentSize": 34603,
+  "originalUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
+  "encodingFormat": "text/html",
+  "headline": "TypeScript on Twitter",
+  "description": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”",
+  "provider": {
+    "name": "Twitter",
+    "url": "https://twitter.com"
+  },
+  "author": {
+    "name": "TypeScript",
+    "url": "https://twitter.com/typescriptlang"
+  },
+  "ttl": 3153600000,
+  "icon": {
+    "url": "https://abs.twimg.com/favicons/favicon.ico",
+    "type": "image/x-icon"
+  },
+  "apps": {}
+}

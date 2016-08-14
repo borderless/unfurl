@@ -1,0 +1,76 @@
+{
+  "contentUrl": "https://www.airbnb.com.au/rooms/2250401?checkin=24-06-2016&checkout=30-06-2016&guests=1&s=eI3nl9s6",
+  "originalUrl": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
+  "encodingFormat": "text/html",
+  "type": "html",
+  "meta": {
+    "html": {
+      "title": "Bright, Chelsea Studio - Apartments for Rent in New York",
+      "canonical": "https://www.airbnb.com.au/rooms/2250401",
+      "description": "Entire home/apt for $295 AUD. A cute boutique studio located on arguably the best street in Chelsea. A block from the Highline, endless Galleries and Restaurants, the wonderful ...",
+      "icons": [
+        {
+          "url": "https://a1.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png",
+          "sizes": "192x192"
+        },
+        {
+          "url": "https://a1.muscache.com/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f061d2dcabdf6e58.ico",
+          "sizes": "76x76",
+          "type": "image/x-icon"
+        }
+      ]
+    },
+    "twitter": {
+      "widgets:csp": "on",
+      "card": "photo",
+      "url": "https://www.airbnb.com.au/rooms/2250401",
+      "image": "https://a1.muscache.com/im/pictures/43670185/606e6e19_original.jpg?aki_policy=x_large",
+      "title": "Bright, Chelsea Studio - Apartments for Rent in New York",
+      "site": "@airbnb_au",
+      "app:name:iphone": "Airbnb",
+      "app:name:ipad": "Airbnb",
+      "app:name:googleplay": "Airbnb",
+      "app:id:iphone": "401626263",
+      "app:id:ipad": "401626263",
+      "app:id:googleplay": "com.airbnb.android",
+      "app:url:iphone": "airbnb://rooms/2250401",
+      "app:url:ipad": "airbnb://rooms/2250401",
+      "app:url:googleplay": "airbnb://rooms/2250401"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#site_name": "Airbnb",
+        "http://ogp.me/ns#title": "Bright, Chelsea Studio - Apartments for Rent in New York",
+        "http://ogp.me/ns#type": "airbedandbreakfast:listing",
+        "http://ogp.me/ns#image": "https://a1.muscache.com/im/pictures/43670185/606e6e19_original.jpg?aki_policy=x_large",
+        "http://ogp.me/ns#url": "https://www.airbnb.com.au/rooms/2250401",
+        "http://ogp.me/ns#description": "Apartment in New York, United States. A cute boutique studio located on arguably the best street in Chelsea. A block from the Highline, endless Galleries and Restaurants, the wonderful Chelsea Market and the lively Meatpacking District. 1 Ave from the A-C-E subway and just blocks fro...",
+        "http://ogp.me/ns#locale": "en_GB"
+      }
+    },
+    "applinks": {
+      "ios:url": "airbnb://d/listing?id=2250401&ref=monorail_deep_link",
+      "ios:app_store_id": "401626263",
+      "ios:app_name": "Airbnb",
+      "android:url": "airbnb://d/listing?id=2250401&ref=monorail_deep_link",
+      "android:app_name": "Airbnb",
+      "android:package": "com.airbnb.android",
+      "web:url": "https://www.airbnb.com.au/rooms/2250401"
+    },
+    "microdata": {
+      "@type": "http://schema.org/Product",
+      "image": "https://a1.muscache.com/im/pictures/43670185/606e6e19_original.jpg?aki_policy=large",
+      "name": "Bright, Chelsea Studio",
+      "aggregateRating": {
+        "@type": "http://schema.org/AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "16"
+      },
+      "offers": {
+        "@type": "http://schema.org/Offer",
+        "priceCurrency": "AUD",
+        "price": "295"
+      }
+    }
+  }
+}

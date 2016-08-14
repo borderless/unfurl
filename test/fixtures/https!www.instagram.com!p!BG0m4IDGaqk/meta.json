@@ -1,0 +1,25 @@
+{
+  "originalUrl": "https://www.instagram.com/p/BG0m4IDGaqk/",
+  "contentUrl": "https://www.instagram.com/p/BG0m4IDGaqk/",
+  "headers": {
+    "strict-transport-security": "max-age=86400",
+    "content-language": "en",
+    "content-encoding": "gzip",
+    "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+    "vary": "Cookie, Accept-Language, Accept-Encoding",
+    "pragma": "no-cache",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "date": "Sun, 14 Aug 2016 08:42:30 GMT",
+    "x-frame-options": "SAMEORIGIN",
+    "content-type": "text/html",
+    "set-cookie": [
+      "csrftoken=PS365WP8p8mBtG0NAHFvNHRIJNeCeyc1; expires=Sun, 13-Aug-2017 08:42:30 GMT; Max-Age=31449600; Path=/; secure",
+      "s_network=; expires=Sun, 14-Aug-2016 09:42:30 GMT; Max-Age=3600; Path=/",
+      "mid=V7Au9gAEAAHI0AAGwuz2jI3uSeQw; expires=Sat, 09-Aug-2036 08:42:30 GMT; Max-Age=630720000; Path=/"
+    ],
+    "connection": "close",
+    "content-length": "5031"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

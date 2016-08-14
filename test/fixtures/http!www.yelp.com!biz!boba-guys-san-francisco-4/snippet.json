@@ -1,0 +1,72 @@
+{
+  "type": "html",
+  "image": [
+    {
+      "url": "https://s3-media2.fl.yelpcdn.com/bphoto/FE1lCskaigmVupQGk86T4g/o.jpg",
+      "width": 2000,
+      "height": 1300
+    },
+    {
+      "url": "https://s3-media2.fl.yelpcdn.com/assets/srv0/seo_metadata/e98ed5a1460f/assets/img/logos/yelp_og_image.png",
+      "width": 576,
+      "height": 576
+    }
+  ],
+  "contentUrl": "https://www.yelp.com/biz/boba-guys-san-francisco-4",
+  "originalUrl": "http://www.yelp.com/biz/boba-guys-san-francisco-4",
+  "encodingFormat": "text/html",
+  "headline": "Boba Guys - Mission - San Francisco, CA",
+  "description": "Specialties: High-quality bubble milk teas made with next-level quality ingredients like organic milk, homemade syrup, and homemade almond jelly. Home of the original Horchata Boba and Tea Frescas. Established in 2011. We started Boba Guys…",
+  "provider": {
+    "name": "Yelp"
+  },
+  "author": {},
+  "icon": {
+    "url": "https://s3-media2.fl.yelpcdn.com/assets/srv0/yelp_styleguide/118ff475a341/assets/img/logos/favicon.ico"
+  },
+  "tags": [
+    "Yelp",
+    "recommendation",
+    "San Francisco",
+    "bay area",
+    "local",
+    "business",
+    "review",
+    "friend",
+    "restaurant",
+    "dentist",
+    "doctor",
+    "salon",
+    "spa",
+    "shopping",
+    "store",
+    "share",
+    "community",
+    "massage",
+    "sushi",
+    "pizza",
+    "nails",
+    "New York",
+    "Los Angeles"
+  ],
+  "twitter": {
+    "siteHandle": "yelp"
+  },
+  "apps": {
+    "iphone": {
+      "id": "id284910350",
+      "name": "Yelp",
+      "url": "yelp:///biz/18TtLS_JtiS2OH30FLqNrw?utm_campaign=default&utm_source=twitter-card"
+    },
+    "ipad": {
+      "id": "id284910350",
+      "name": "Yelp",
+      "url": "yelp:///biz/18TtLS_JtiS2OH30FLqNrw?utm_campaign=default&utm_source=twitter-card"
+    },
+    "android": {
+      "id": "com.yelp.android",
+      "name": "Yelp",
+      "url": "intent://yelp.com/biz/18TtLS_JtiS2OH30FLqNrw?utm_source=twitter-card#Intent;scheme=http;package=com.yelp.android;end;"
+    }
+  }
+}

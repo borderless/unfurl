@@ -1,0 +1,255 @@
+{
+  "contentUrl": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
+  "originalUrl": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
+  "encodingFormat": "text/html",
+  "type": "html",
+  "meta": {
+    "jsonLd": {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://discourse.codinghorror.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://discourse.codinghorror.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    "html": {
+      "title": "The Raspberry Pi Has Revolutionized Emulation - blog - Coding Horror Discussion",
+      "description": "Every geek goes through a phase where they discover emulation. It&#39;s practically a rite of passage. This is a companion discussion topic for the original entry at https://blog.codinghorror.com/the-raspberry-pi-has-revol&hellip;",
+      "icons": [
+        {
+          "url": "https://discourse.codinghorror.com/images/default-favicon.ico",
+          "type": "image/png"
+        }
+      ],
+      "canonical": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462?page=2"
+    },
+    "twitter": {
+      "card": "summary",
+      "url": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
+      "title": "The Raspberry Pi Has Revolutionized Emulation",
+      "description": "Check out Pico-8 for new \"fantasy console\" goodness. Works great with Raspberry Pi Zero, 2, 3, etc.",
+      "image": "https://discourse-cdn.codinghorror.com/user_avatar/discourse.codinghorror.com/adam_sommer/100/74278_1.png"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#site_name": "Coding Horror Discussion",
+        "http://ogp.me/ns#url": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
+        "http://ogp.me/ns#title": "The Raspberry Pi Has Revolutionized Emulation",
+        "http://ogp.me/ns#description": "Check out Pico-8 for new \"fantasy console\" goodness. Works great with Raspberry Pi Zero, 2, 3, etc.",
+        "http://ogp.me/ns#image": "https://discourse-cdn.codinghorror.com/user_avatar/discourse.codinghorror.com/adam_sommer/100/74278_1.png"
+      }
+    },
+    "microdata": [
+      {
+        "@type": "http://data-vocabulary.org/Breadcrumb",
+        "url": "https://discourse.codinghorror.com/c/blog",
+        "title": "blog"
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "Eldon_Cleary",
+        "datePublished": "2016-07-25T22:50:02Z",
+        "position": "#24",
+        "interactionCount": [
+          "UserLikes:1",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "sunk818",
+        "datePublished": "2016-07-25T23:13:59Z",
+        "position": "#25",
+        "interactionCount": [
+          "UserLikes:0",
+          "UserComments:1"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "codinghorror",
+        "datePublished": "2016-07-25T23:32:39Z",
+        "position": "#26",
+        "interactionCount": [
+          "UserLikes:0",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "tobico",
+        "datePublished": "2016-07-26T07:52:40Z",
+        "position": "#27",
+        "interactionCount": [
+          "UserLikes:0",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "Insanity",
+        "datePublished": "2016-07-26T13:04:43Z",
+        "position": "#28",
+        "interactionCount": [
+          "UserLikes:0",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "Adam_Sommer",
+        "datePublished": "2016-07-26T15:22:27Z",
+        "position": "#29",
+        "interactionCount": [
+          "UserLikes:1",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "codinghorror",
+        "datePublished": "2016-07-26T21:04:41Z",
+        "position": "#30",
+        "interactionCount": [
+          "UserLikes:0",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "codinghorror",
+        "datePublished": "2016-07-26T22:01:29Z",
+        "position": "#31",
+        "interactionCount": [
+          "UserLikes:0",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "Tamas_Csabina",
+        "datePublished": "2016-07-27T18:52:20Z",
+        "position": "#32",
+        "interactionCount": [
+          "UserLikes:0",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "codinghorror",
+        "datePublished": "2016-07-27T20:45:36Z",
+        "position": "#33",
+        "interactionCount": [
+          "UserLikes:0",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "Rageous",
+        "datePublished": "2016-07-28T00:15:14Z",
+        "position": "#34",
+        "interactionCount": [
+          "UserLikes:3",
+          "UserComments:1"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "codinghorror",
+        "datePublished": "2016-07-28T09:51:40Z",
+        "position": "#35",
+        "interactionCount": [
+          "UserLikes:1",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "EddieJ",
+        "datePublished": "2016-07-28T23:17:49Z",
+        "position": "#36",
+        "interactionCount": [
+          "UserLikes:2",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "AndreasC",
+        "datePublished": "2016-07-29T14:27:32Z",
+        "position": "#37",
+        "interactionCount": [
+          "UserLikes:1",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "codinghorror",
+        "datePublished": "2016-07-31T08:55:45Z",
+        "position": "#38",
+        "interactionCount": [
+          "UserLikes:1",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "codinghorror",
+        "datePublished": "2016-08-03T10:12:07Z",
+        "position": "#39",
+        "interactionCount": [
+          "UserLikes:0",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "codinghorror",
+        "datePublished": "2016-08-06T07:32:13Z",
+        "position": "#40",
+        "interactionCount": [
+          "UserLikes:0",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "codinghorror",
+        "datePublished": "2016-08-08T09:51:42Z",
+        "position": "#42",
+        "interactionCount": [
+          "UserLikes:0",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "remo",
+        "datePublished": "2016-08-13T12:48:14Z",
+        "position": "#43",
+        "interactionCount": [
+          "UserLikes:1",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/Article",
+        "author": "PrintsCharming",
+        "datePublished": "2016-08-14T04:59:38Z",
+        "position": "#44",
+        "interactionCount": [
+          "UserLikes:0",
+          "UserComments:0"
+        ]
+      },
+      {
+        "@type": "http://schema.org/SiteNavigationElement"
+      }
+    ]
+  }
+}

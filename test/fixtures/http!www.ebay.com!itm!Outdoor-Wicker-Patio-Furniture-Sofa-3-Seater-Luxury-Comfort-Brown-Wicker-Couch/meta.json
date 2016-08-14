@@ -1,0 +1,33 @@
+{
+  "originalUrl": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769?&_trksid=p2056016.l4276",
+  "contentUrl": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769?&_trksid=p2056016.l4276",
+  "headers": {
+    "x-ebay-c-request-id": "ri=i%2B%2BR7nkiuyi9,rci=DD08D4kvpCROIbYI",
+    "rlogid": "t6ulcpjqcj9%3Fuk%601d72f%2B4g5c%29pqtfwpu%29pie%29fgg%7E-fij-15688377586-0x196",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "content-encoding": "gzip",
+    "cache-control": "private",
+    "pragma": "no-cache",
+    "content-type": "text/html;charset=UTF-8",
+    "content-language": "en-US",
+    "server": "Server",
+    "date": "Sun, 14 Aug 2016 08:42:31 GMT",
+    "transfer-encoding": "chunked",
+    "connection": [
+      "close",
+      "Transfer-Encoding"
+    ],
+    "vary": "Accept-Encoding",
+    "set-cookie": [
+      "JSESSIONID=D78D26261D3BB985EC952D26E5DD996C; Path=/; HttpOnly",
+      "ebay=%5Esbf%3D%23%5E;Domain=.ebay.com;Path=/ ",
+      "dp1=bu1p/QEBfX0BAX19AQA**59916277^bl/AU5b7295f7^;Domain=.ebay.com;Expires=Tue, 14-Aug-2018 08:42:31 GMT;Path=/ ",
+      "s=CgAD4ACBXsYB3ODgzNzc1ODAxNTYwYTVlMGEzYzQ3NTg4ZmZhZjQ1YWMpNMTv;Domain=.ebay.com;Path=/; HttpOnly ",
+      "nonsession=CgAAIABxX17v3MTQ3MTE2NDE1MXgzODEyMjg3Mzg3Njl4MHgyTgDLAAFXsDX/MQDKACBhFjB3ODgzNzc1ODAxNTYwYTVlMGEzYzQ3NTg4ZmZhZjQ1YWPIT0aZ;Domain=.ebay.com;Expires=Mon, 14-Aug-2017 08:42:31 GMT;Path=/ "
+    ]
+  },
+  "status": 200,
+  "statusText": "OK"
+}
