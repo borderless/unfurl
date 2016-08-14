@@ -1,0 +1,87 @@
+{
+  "contentUrl": "https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3",
+  "originalUrl": "https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3",
+  "encodingFormat": "text/html",
+  "type": "html",
+  "meta": {
+    "html": {
+      "title": "Bondi Beach - Beach",
+      "description": "See 6245 photos and 256 tips from 21719 visitors to Bondi Beach. \"Great surfing spot for beginners, although I would recommend Manly Beach and its...\"",
+      "keywords": "Bondi Beach, Queen Elizabeth Dr., Bondi Beach, NSW, at the beach nth bondi,at the beach, nth bondi,beach,bondi,bondi beach,bondi beach swimrun,bondi beach the north bondi hill,bondi beach (north end),bondi beach (northern end), Beach, Surf Spot",
+      "icons": [
+        {
+          "url": "https://foursquare.com/favicon.ico",
+          "type": "image/x-icon"
+        }
+      ],
+      "canonical": "/v/bondi-beach/4b058763f964a520848f22e3"
+    },
+    "twitter": {
+      "site": "@foursquare",
+      "creator": "@foursquare",
+      "card": "summary_large_image",
+      "url": "https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3",
+      "description": "Beach in Bondi Beach, NSW",
+      "title": "Bondi Beach",
+      "image": "https://irs3.4sqi.net/img/general/600x600/7805186_09pfuJa8RMa6hL70rmwoRnBdetJ0GCqBco1q4f-6LB0.jpg",
+      "app:name:iphone": "Foursquare",
+      "app:id:iphone": "306934924",
+      "app:url:iphone": "foursquare://venues/4b058763f964a520848f22e3",
+      "app:name:ipad": "Foursquare",
+      "app:id:ipad": "306934924",
+      "app:url:ipad": "foursquare://venues/4b058763f964a520848f22e3",
+      "app:name:googleplay": "Foursquare",
+      "app:id:googleplay": "com.joelapenna.foursquared",
+      "app:url:googleplay": "foursquare://venues/4b058763f964a520848f22e3"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#title": "Bondi Beach",
+        "http://ogp.me/ns#description": "Beach in Bondi Beach, NSW",
+        "http://ogp.me/ns#image": [
+          "https://irs3.4sqi.net/img/general/600x600/7805186_09pfuJa8RMa6hL70rmwoRnBdetJ0GCqBco1q4f-6LB0.jpg",
+          "https://irs2.4sqi.net/img/general/600x600/622354_GTGEs5tnI1pPXG49F-_bxbLdbsHPt59jjC7LnXwDVts.jpg",
+          "https://irs2.4sqi.net/img/general/600x600/30551255_YpQDhDKplFZdX6ZJlceHgXru3KMbAAwEwp3J0xrtTQM.jpg",
+          "https://irs2.4sqi.net/img/general/600x600/1728536_SMwrObKRzMSH_rnF1200G1Qn7ckYyJzxwK_X4Obtrzg.jpg"
+        ],
+        "http://ogp.me/ns#url": "https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3",
+        "http://ogp.me/ns#type": "playfoursquare:venue",
+        "http://ogp.me/ns#site_name": "Foursquare"
+      }
+    },
+    "applinks": {
+      "iphone:url": "foursquare://venues/4b058763f964a520848f22e3",
+      "iphone:app_store_id": "306934924",
+      "iphone:app_name": "Foursquare",
+      "ipad:url": "foursquare://venues/4b058763f964a520848f22e3",
+      "ipad:app_store_id": "306934924",
+      "ipad:app_name": "Foursquare",
+      "android:url": "foursquare://venues/4b058763f964a520848f22e3",
+      "android:package": "com.joelapenna.foursquared",
+      "android:app_name": "Foursquare",
+      "windows_phone:url": "foursquare://venues/4b058763f964a520848f22e3",
+      "windows_phone:app_id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "windows_phone:app_name": "Foursquare",
+      "web:should_fallback": "false"
+    },
+    "microdata": {
+      "@type": "http://schema.org/LocalBusiness",
+      "name": "Bondi Beach",
+      "aggregateRating": {
+        "@type": "http://schema.org/AggregateRating",
+        "ratingValue": "9.5",
+        "bestRating": "10",
+        "ratingCount": "1,530"
+      },
+      "address": {
+        "@type": "http://schema.org/PostalAddress",
+        "streetAddress": "Queen Elizabeth Dr.",
+        "addressLocality": "Bondi Beach",
+        "addressRegion": "NSW",
+        "postalCode": "2026",
+        "address": "(btwn Notts Ave. & Ramsgate Ave.) Australia"
+      },
+      "url": "http://www.waverley.nsw.gov.au/"
+    }
+  }
+}

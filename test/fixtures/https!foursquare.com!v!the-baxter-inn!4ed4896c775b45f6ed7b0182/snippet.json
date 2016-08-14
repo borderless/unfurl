@@ -1,0 +1,70 @@
+{
+  "type": "html",
+  "image": [
+    {
+      "url": "https://irs2.4sqi.net/img/general/600x600/13692844_gLU3tu6y4S6bcPDyiS1y9GU9ZkghXDaMJE9xFnPuVmo.jpg"
+    },
+    {
+      "url": "https://irs3.4sqi.net/img/general/600x600/ndClpMwl_-05I1_AQ5zcogSS4f7ZTRuOgU93S3UoMpA.jpg"
+    },
+    {
+      "url": "https://irs0.4sqi.net/img/general/600x600/32255700_HW4bsR2VOBsF_FPW2zXjRB8gc09xOYzVKKHpHSlhcpk.jpg"
+    },
+    {
+      "url": "https://irs3.4sqi.net/img/general/600x600/zkX2UTm0dXiVcb5nUQ18vmdl-P2XVO5Pg25ITmrr4Ls.jpg"
+    }
+  ],
+  "mainEntity": {
+    "type": "image"
+  },
+  "contentUrl": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
+  "originalUrl": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
+  "encodingFormat": "text/html",
+  "headline": "The Baxter Inn",
+  "description": "Whisky Bar in Sydney, NSW",
+  "provider": {
+    "name": "Foursquare"
+  },
+  "author": {},
+  "icon": {
+    "url": "https://foursquare.com/favicon.ico",
+    "type": "image/x-icon"
+  },
+  "tags": [
+    "The Baxter Inn",
+    "152 - 156 Clarence St.",
+    "Sydney",
+    "NSW",
+    "baxter inn",
+    "the baxter inn",
+    "Whisky Bar",
+    "Bar",
+    "Speakeasy"
+  ],
+  "twitter": {
+    "siteHandle": "foursquare",
+    "creatorHandle": "foursquare"
+  },
+  "apps": {
+    "iphone": {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4ed4896c775b45f6ed7b0182"
+    },
+    "ipad": {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4ed4896c775b45f6ed7b0182"
+    },
+    "android": {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4ed4896c775b45f6ed7b0182"
+    },
+    "windowsPhone": {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4ed4896c775b45f6ed7b0182"
+    }
+  }
+}

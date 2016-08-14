@@ -1,0 +1,33 @@
+{
+  "originalUrl": "https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3",
+  "contentUrl": "https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3",
+  "headers": {
+    "server": "nginx",
+    "content-type": "text/html; charset=utf-8",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": [
+      "nosniff",
+      "nosniff"
+    ],
+    "pragma": "no-cache",
+    "set-cookie": [
+      "lc=%7B%22lat%22%3A-33.872266205323925%2C%22lng%22%3A151.2010949705647%2C%22loc%22%3A%22Darling+Harbour%2C+NSW%22%2C%22cc%22%3A%22AU%22%2C%22longGeoId%22%3A%2210004053%22%7D; Expires=Sun, 14 Aug 2016 11:07:43 GMT; Path=/",
+      "bbhive=CMNFSOHD4AT2DQP1Q2WCTI40IJTYSI%3A%3A1471165663; Expires=Tue, 14 Aug 2018 09:07:43 GMT; Path=/; Domain=.foursquare.com"
+    ],
+    "strict-transport-security": "max-age=31536000",
+    "x-ex": "fastly_cdn",
+    "content-encoding": "gzip",
+    "transfer-encoding": "chunked",
+    "accept-ranges": "bytes",
+    "date": "Sun, 14 Aug 2016 09:07:43 GMT",
+    "via": "1.1 varnish",
+    "connection": "close",
+    "x-served-by": "cache-mel6520-MEL",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "vary": "Accept-Encoding,User-Agent,Accept-Language"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

@@ -88,6 +88,11 @@ var FIXTURES = [
   'https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324',
   'https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3',
   'https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3',
+  'https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3',
+  'https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3',
+  'https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182',
+  'https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3',
+  'https://foursquare.com/v/bourke-street-bakery/4b0b4a63f964a520fa2f23e3',
   // Yelp places.
   'http://www.yelp.com/biz/boba-guys-san-francisco-4',
   // Google structured data docs.

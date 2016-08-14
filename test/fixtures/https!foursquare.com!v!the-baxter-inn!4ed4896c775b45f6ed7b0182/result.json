@@ -1,0 +1,87 @@
+{
+  "contentUrl": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
+  "originalUrl": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
+  "encodingFormat": "text/html",
+  "type": "html",
+  "meta": {
+    "html": {
+      "title": "The Baxter Inn - Whisky Bar in Sydney",
+      "description": "Read 105 tips and reviews from 2460 visitors about whiskey, scotch and alley. \"Consistently excellent experience: great drinks, crowd and atmosphere....\"",
+      "keywords": "The Baxter Inn, 152 - 156 Clarence St., Sydney, NSW, baxter inn,the baxter inn, Whisky Bar, Bar, Speakeasy",
+      "icons": [
+        {
+          "url": "https://foursquare.com/favicon.ico",
+          "type": "image/x-icon"
+        }
+      ],
+      "canonical": "/v/the-baxter-inn/4ed4896c775b45f6ed7b0182"
+    },
+    "twitter": {
+      "site": "@foursquare",
+      "creator": "@foursquare",
+      "card": "summary_large_image",
+      "url": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
+      "description": "Whisky Bar in Sydney, NSW",
+      "title": "The Baxter Inn",
+      "image": "https://irs2.4sqi.net/img/general/600x600/13692844_gLU3tu6y4S6bcPDyiS1y9GU9ZkghXDaMJE9xFnPuVmo.jpg",
+      "app:name:iphone": "Foursquare",
+      "app:id:iphone": "306934924",
+      "app:url:iphone": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+      "app:name:ipad": "Foursquare",
+      "app:id:ipad": "306934924",
+      "app:url:ipad": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+      "app:name:googleplay": "Foursquare",
+      "app:id:googleplay": "com.joelapenna.foursquared",
+      "app:url:googleplay": "foursquare://venues/4ed4896c775b45f6ed7b0182"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#title": "The Baxter Inn",
+        "http://ogp.me/ns#description": "Whisky Bar in Sydney, NSW",
+        "http://ogp.me/ns#image": [
+          "https://irs2.4sqi.net/img/general/600x600/13692844_gLU3tu6y4S6bcPDyiS1y9GU9ZkghXDaMJE9xFnPuVmo.jpg",
+          "https://irs3.4sqi.net/img/general/600x600/ndClpMwl_-05I1_AQ5zcogSS4f7ZTRuOgU93S3UoMpA.jpg",
+          "https://irs0.4sqi.net/img/general/600x600/32255700_HW4bsR2VOBsF_FPW2zXjRB8gc09xOYzVKKHpHSlhcpk.jpg",
+          "https://irs3.4sqi.net/img/general/600x600/zkX2UTm0dXiVcb5nUQ18vmdl-P2XVO5Pg25ITmrr4Ls.jpg"
+        ],
+        "http://ogp.me/ns#url": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
+        "http://ogp.me/ns#type": "playfoursquare:venue",
+        "http://ogp.me/ns#site_name": "Foursquare"
+      }
+    },
+    "applinks": {
+      "iphone:url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+      "iphone:app_store_id": "306934924",
+      "iphone:app_name": "Foursquare",
+      "ipad:url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+      "ipad:app_store_id": "306934924",
+      "ipad:app_name": "Foursquare",
+      "android:url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+      "android:package": "com.joelapenna.foursquared",
+      "android:app_name": "Foursquare",
+      "windows_phone:url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+      "windows_phone:app_id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "windows_phone:app_name": "Foursquare",
+      "web:should_fallback": "false"
+    },
+    "microdata": {
+      "@type": "http://schema.org/LocalBusiness",
+      "name": "The Baxter Inn",
+      "aggregateRating": {
+        "@type": "http://schema.org/AggregateRating",
+        "ratingValue": "9.2",
+        "bestRating": "10",
+        "ratingCount": "410"
+      },
+      "address": {
+        "@type": "http://schema.org/PostalAddress",
+        "streetAddress": "152 - 156 Clarence St.",
+        "addressLocality": "Sydney",
+        "addressRegion": "NSW",
+        "postalCode": "2000",
+        "address": "Australia"
+      },
+      "url": "http://thebaxterinn.com/"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "originalUrl": "https://foursquare.com/v/bourke-street-bakery/4b0b4a63f964a520fa2f23e3",
+  "contentUrl": "https://foursquare.com/v/bourke-street-bakery/4b0b4a63f964a520fa2f23e3",
+  "headers": {
+    "server": "nginx",
+    "content-type": "text/html; charset=utf-8",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": [
+      "nosniff",
+      "nosniff"
+    ],
+    "pragma": "no-cache",
+    "set-cookie": [
+      "lc=%7B%22lat%22%3A-33.88954589506866%2C%22lng%22%3A151.2149941921234%2C%22loc%22%3A%22Sydney%2C+NSW%22%2C%22cc%22%3A%22AU%22%2C%22longGeoId%22%3A%2272057594040075650%22%7D; Expires=Sun, 14 Aug 2016 11:07:42 GMT; Path=/",
+      "bbhive=OOW335FEHSRFKGMZD5UNRB5VCEBJHJ%3A%3A1471165662; Expires=Tue, 14 Aug 2018 09:07:42 GMT; Path=/; Domain=.foursquare.com"
+    ],
+    "strict-transport-security": "max-age=31536000",
+    "x-ex": "fastly_cdn",
+    "content-encoding": "gzip",
+    "transfer-encoding": "chunked",
+    "accept-ranges": "bytes",
+    "date": "Sun, 14 Aug 2016 09:07:42 GMT",
+    "via": "1.1 varnish",
+    "connection": "close",
+    "x-served-by": "cache-mel6522-MEL",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "vary": "Accept-Encoding,User-Agent,Accept-Language"
+  },
+  "status": 200,
+  "statusText": "OK"
+}
