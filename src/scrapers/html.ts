@@ -99,6 +99,9 @@ const HTML_VALUE_MAP: HtmlValueMap = {
   },
   time (baseUrl, attrs) {
     return attrs.datetime
+  },
+  data (baseUrl, attrs) {
+    return attrs.value
   }
 }
 
@@ -111,6 +114,7 @@ HTML_VALUE_MAP['track'] = HTML_VALUE_MAP['audio']
 HTML_VALUE_MAP['video'] = HTML_VALUE_MAP['audio']
 HTML_VALUE_MAP['area'] = HTML_VALUE_MAP['a']
 HTML_VALUE_MAP['link'] = HTML_VALUE_MAP['a']
+HTML_VALUE_MAP['data'] = HTML_VALUE_MAP['meter']
 /* tslint:enable */
 
 /**
@@ -123,6 +127,7 @@ export function supported ({ encodingFormat }: BaseInfo) {
 interface Context {
   tagName: string
   text: string
+  id?: string
   rdfaTextProperty?: string
   microdataTextProperty?: string
   hasRdfaResource?: boolean
@@ -162,6 +167,22 @@ export function handle (
 
     const result: HtmlResult = extend(base, { type: 'html' as 'html', meta: {} })
 
+    /**
+     * Update microdata with support for `id` references (used via `itemref`).
+     */
+    function setMicrodata (id: string, itemprop: string, value: string) {
+      const scope = last(microdataScopes)
+      const props = itemprop.split(/ +/g)
+
+      if (scope) {
+        setProperty(scope, props, value)
+      }
+
+      if (id && microdataIds[id]) {
+        setProperty(microdataIds[id], props, value)
+      }
+    }
+
     // HTML parser emits text mulitple times, this is a little helper
     // to collect each fragment and use it together.
     function handleText (context: Context) {
@@ -182,7 +203,7 @@ export function handle (
       }
 
       if (context.microdataTextProperty) {
-        setProperty(last(microdataScopes), context.microdataTextProperty.split(/ +/g), normalize(text))
+        setMicrodata(context.id, context.microdataTextProperty, normalize(text))
       }
 
       if (tagName === 'title') {
@@ -231,47 +252,48 @@ export function handle (
         const itemtypeAttr = normalize((attributes as any).itemtype)
         const itemrefAttr = normalize((attributes as any).itemref)
 
+        // Store `id` references for later (microdata itemrefs).
+        if (idAttr) {
+          context.id = idAttr
+          microdataIds[idAttr] = microdataIds[idAttr] || Object.create(null)
+        }
+
         // Microdata item.
         if (attributes.hasOwnProperty('itemscope')) {
           const oldScope = last(microdataScopes)
-          const newScope = microdataIds[idAttr] || Object.create(null)
+          const newScope = Object.create(null)
+
+          // Copy item reference data.
+          if (itemrefAttr) {
+            const refs = itemrefAttr.split(/ +/g)
+
+            for (const ref of refs) {
+              // Set microdata id reference when it doesn't already exist.
+              if (microdataIds[ref] != null) {
+                assignProperties(newScope, microdataIds[ref])
+              }
+
+              microdataIds[ref] = newScope
+            }
+          }
 
           // Set child scopes on the root scope.
           if (oldScope && itempropAttr) {
             setProperty(oldScope, itempropAttr.split(/ +/g), newScope)
           }
 
-          // Store `id` references for usage later.
-          if (idAttr) {
-            microdataIds[idAttr] = newScope
-          }
-
           microdataScopes.push(newScope)
           context.hasMicrodataScope = true
         }
 
+        // Microdata `itemprop=""`.
         if (itempropAttr) {
-          const scope = last(microdataScopes)
+          const value = getValueMap(contentUrl, tagName, attributes)
 
-          if (scope) {
-            const props = itempropAttr.split(/ +/g)
-
-            if (itemrefAttr) {
-              // Set microdata id reference when it doesn't already exist.
-              if (microdataIds[itemrefAttr] == null) {
-                microdataIds[itemrefAttr] = Object.create(null)
-              }
-
-              setProperty(scope, props, microdataIds[itemrefAttr])
-            } else {
-              const value = getValueMap(contentUrl, tagName, attributes)
-
-              if (value != null) {
-                setProperty(scope, props, value)
-              } else {
-                context.microdataTextProperty = itempropAttr
-              }
-            }
+          if (value != null) {
+            setMicrodata(context.id, itempropAttr, value)
+          } else {
+            context.microdataTextProperty = itempropAttr
           }
         }
 
@@ -594,6 +616,15 @@ function setProperty (obj: any, key: string | string[], value: any) {
     } else {
       obj[key] = value
     }
+  }
+}
+
+/**
+ * Merge properties together using regular "set" algorithm.
+ */
+function assignProperties (obj: any, values: any) {
+  for (const key of Object.keys(values)) {
+    setProperty(obj, key, values[key])
   }
 }
 

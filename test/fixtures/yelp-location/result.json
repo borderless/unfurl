@@ -47,7 +47,16 @@
     },
     "microdata": [
       {
-        "@type": "http://schema.org/WebSite"
+        "sameAs": [
+          "https://www.facebook.com/yelp",
+          "https://twitter.com/yelp",
+          "https://www.linkedin.com/company/31517",
+          "https://plus.google.com/102333850216082449390/",
+          "https://instagram.com/yelp"
+        ],
+        "@type": "http://schema.org/WebSite",
+        "name": "Yelp",
+        "url": "http://www.yelp.com/"
       },
       {
         "@type": "http://schema.org/LocalBusiness",
