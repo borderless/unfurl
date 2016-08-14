@@ -1,0 +1,34 @@
+{
+  "type": "html",
+  "image": {
+    "url": "https://www.npmjs.com/static/images/touch-icons/open-graph.png"
+  },
+  "contentUrl": "https://www.npmjs.com/package/filenamify",
+  "originalUrl": "https://www.npmjs.com/package/filenamify",
+  "encodingFormat": "text/html",
+  "headline": "npm: filenamify",
+  "description": "Convert a string to a valid safe filename",
+  "provider": {
+    "name": "npm"
+  },
+  "author": {},
+  "icon": {
+    "url": "https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  },
+  "tags": [
+    "dirname",
+    "valid",
+    "convert",
+    "filepath",
+    "path",
+    "string",
+    "name",
+    "file",
+    "sanitize",
+    "safe",
+    "filename"
+  ],
+  "apps": {}
+}

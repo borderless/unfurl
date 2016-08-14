@@ -133,7 +133,9 @@ var FIXTURES = [
   // TEDTalks video.
   'https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity',
   // XKCD entry.
-  'http://xkcd.com/208/'
+  'http://xkcd.com/208/',
+  // NPM package page.
+  'https://www.npmjs.com/package/filenamify'
 ]
 
 // Read each fixture, populating the raw content.

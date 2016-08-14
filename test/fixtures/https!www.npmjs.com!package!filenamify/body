@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <script nonce='e8427b98935c37596917871b52f33901600a6c1f8fe84c07546289033c5bc3da00f4545440729c34d403c4d6857c4f5b74f7419b88e8bd9f42b3ed87d376e6ba' type='text/javascript'>window.NREUM||(NREUM={});NREUM.info = {"agent":"","beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"ba86f45fc4","applicationID":"9556514","applicationTime":192.181366,"transactionName":"M1BXZxFZVkQFURBdVwoafVITURdwIWZLG0gFVl5SBF0XTBRTB19ZA1BI","queueTime":0,"ttGuid":"1349906d7319fd0","agentToken":null}; window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+  <title>filenamify</title>
+
+    <meta name="description" content="Convert a string to a valid safe filename">
+    <meta property="og:description" content="Convert a string to a valid safe filename">
+    <meta property="og:title" content="filenamify">
+    <meta property="og:url" content="https://www.npmjs.com/package/filenamify">
+    <meta property="og:site_name" content="npm">
+    <meta name="keywords" content="dirname,valid,convert,filepath,path,string,name,file,sanitize,safe,filename">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://www.npmjs.com/package/filenamify">
+    <meta name="twitter:title" content="npm: filenamify">
+    <meta name="twitter:description" content="Convert a string to a valid safe filename">
+  
+  
+  <meta http-equiv="cleartype" content="on" />
+  
+  <meta name="apple-mobile-web-app-capable" content="no">
+  
+  
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=yes">
+  
+  <meta name="x-npm:ga:id" content="UA-47041310-1">
+  <meta name="x-npm:ga:dimensions" content="{&quot;&#x27;aboveChrome&quot;:&quot;dimension1&quot;,&quot;belowHeader&quot;:&quot;dimension3&quot;,&quot;packagePage&quot;:&quot;dimension2&#x27;&quot;}">
+  
+  <link rel="canonical" href="https://www.npmjs.com/package/filenamify">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="npm">
+
+    <link rel="stylesheet" media="all" href="/static/css/index.6fcd0a7f.css">
+
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700">
+  
+    <script src="/static/js/index.min.82964408.js"></script>
+  <link rel="apple-touch-icon" sizes="57x57" href="/static/images/touch-icons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/static/images/touch-icons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/static/images/touch-icons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/static/images/touch-icons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/static/images/touch-icons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/static/images/touch-icons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/static/images/touch-icons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/static/images/touch-icons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/images/touch-icons/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/static/images/touch-icons/apple-touch-startup-image-1024x748.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/static/images/touch-icons/apple-touch-startup-image-1536x2008.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/static/images/touch-icons/apple-touch-startup-image-2048x1496.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="/static/images/touch-icons/apple-touch-startup-image-320x460.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="/static/images/touch-icons/apple-touch-startup-image-640x1096.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="/static/images/touch-icons/apple-touch-startup-image-640x920.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="/static/images/touch-icons/apple-touch-startup-image-768x1004.png">
+  <link rel="icon" type="image/png" href="/static/images/touch-icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/static/images/touch-icons/favicon-230x230.png" sizes="230x230">
+  <link rel="icon" type="image/png" href="/static/images/touch-icons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/static/images/touch-icons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/static/images/touch-icons/coast-228x228.png" sizes="228x228">
+  <link rel="icon" type="image/png" href="/static/images/touch-icons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/static/images/touch-icons/manifest.json">
+  <link rel="shortcut icon" href="/static/images/touch-icons/favicon.ico">
+  <link rel="yandex-tableau-widget" href="/static/images/touch-icons/yandex-browser-manifest.json">
+  <meta property="og:image" content="https://www.npmjs.com/static/images/touch-icons/open-graph.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="msapplication-TileColor" content="#cb3837">
+  <meta name="msapplication-TileImage" content="/static/images/touch-icons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/static/images/touch-icons/browserconfig.xml">
+  <meta name="theme-color" content="#cb3837">
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebSite" data-crumb="wRkzWoHfZNslq8XoOIP2Z7LlR4-ABCrLS9fC3dE1ei9">
+  <meta itemprop="url" content="https://www.npmjs.com/">
+
+
+  <header class="anonymous   ">
+  <!-- logo -->
+  <div class="header-item brand-container">
+    <div class="logo-container" id='npm-logo'>
+      <a href="/"><svg viewBox="0 0 18 7">
+	<path fill="#CB3837" d="M0,0v6h5v1h4v-1h9v-6"/>
+	<path fill="#FFF" d="M1,1v4h2v-3h1v3h1v-4h1v5h2v-4h1v2h-1v1h2v-4h1v4h2v-3h1v3h1v-3h1v3h1v-4"/>
+</svg></a>
+    </div>
+  </div>
+  <!-- /logo -->
+
+  <!-- search -->
+  <div class="header-item header-search-container">
+    <form class="site-search" id="npm-search" action="/search" method="get" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+      <meta itemprop="target" content="https://www.npmjs.com/search?q={q}">
+      <div id="site-search-container">
+          <input name="q" value="" type="search" id="site-search" placeholder="find packages" tabindex="1" autocorrect="off" autocapitalize="off" itemprop="query-input" />
+      </div>
+      <button tabindex="2" type="submit">
+        <span class="a11y-only">Search</span>
+        <svg viewBox="0 0 34 34" fill="none" stroke="currentColor">
+    <ellipse stroke-width="3" cx="16" cy="15" rx="12" ry="12"/>
+    <path d="M26 26 l 8 8" stroke-width="3" stroke-linecap="square"/>
+</svg>
+      </button>
+    </form>
+  </div>
+
+
+  <!-- menu 1 -->
+  <div class="header-item user-info-container">
+    <div class="user-info">
+        <ul class="user-info-salutation single">
+          <li><a href="/signup">sign up</a> or <a href="/login">log in</a></li>
+          <li><a href="/login"><span class="a11y-only">log in</span><svg viewBox="-2765 2857 1080 1080">
+  <path fill="#986844" d="M-1811.2 3598.5c-.1-4.3-.3-11.3-.8-20.3-.9-15.8-2.7-40.9-6.6-70.7-6.9-52.6-21.6-130.1-52.6-200.4-22.3-50.4-53.5-97.1-90.3-135.2-4.4-20.5-16.7-66.5-43.5-104.8l-5-7.2-54 35.5c-44.5-22.4-91-33.7-138.6-33.7-47.5 0-94.1 11.3-138.6 33.7l-54-35.5-5 7.2c-26.8 38.3-39 84.3-43.5 104.8-36.8 38.1-68 84.8-90.3 135.3-31.1 70.3-45.8 147.8-52.6 200.4-6.1 46.6-7.2 81.6-7.5 93.8 16.6 14 31.3 29.8 46.9 45 17.2 16.7 39.4 28.2 59.1 41.6 1.7 1.1 3.1 2.6 4.2 4.1 15.7 10.4 31 15.4 50.2 19.5 19.2 4.1 35.6 5.6 55.6 7.3 38.7 3.2 77 7.7 115.5 12.6 43.1 5.4 86.5 11.5 130 13.1 41.6 1.5 81.8-9 121.8-19.3 8.9-2.3 17.9-4.5 26.8-6.8.6-4.2 3-8.1 6.7-10.4 40.1-25 81.2-48.2 122-72 5.9-3.5 13.7-1.9 17.9 3.3 9-8.9 17.1-18.2 24.3-27.9l.2-.2.2-.2c1.7-2.6 1.8-2.7 1.5-12.6z"/>
+  <path fill="#FFF" d="M-1808.7 3494.8c-6.9-53.2-21.8-131.7-53.4-203.2-22.3-50.5-53.5-97.5-90.3-136.1-5.5-24.4-18.2-68.2-44.5-105.7l-10.6-15.1-57.3 37.7c-44.3-21.4-90.6-32.2-137.9-32.2-47.2 0-93.6 10.8-137.9 32.2l-57.3-37.7-10.6 15.1c-26.2 37.5-39 81.2-44.5 105.7-36.7 38.5-67.9 85.5-90.3 136.1-31.6 71.4-46.5 149.9-53.4 203.2-7.5 57.7-7.6 98-7.6 99.7v6.3l3.8 5.1c26 35 62.9 64.7 109.6 88.3 36.9 18.6 80 33.6 128.3 44.4 82.2 18.5 151.8 19 159.5 19h.6c7.7 0 77.3-.5 159.5-19 48.3-10.8 91.4-25.8 128.3-44.4 46.7-23.6 83.6-53.3 109.6-88.3l3.7-5v-6.3c.4-1.8.2-42.3-7.3-99.8zm-118.3 174.3c-34.8 17.6-75.8 31.8-121.8 42.1-80.7 18.1-150.4 18.3-153.4 18.3h-.6c-2.9 0-72.7-.2-153.4-18.3-46-10.3-87-24.5-121.8-42.1-41.7-21.1-74.7-47.2-98-77.6.4-22.5 5.1-167.5 58.6-288.5 21.8-49.3 52.4-94.9 88.5-131.8l1.8-1.9.5-2.6c2.7-13.1 12.9-56.4 36.3-93.4l37.2 24.5-7.3 16.6 22.8-11.9c43.3-22.6 88.7-34.1 135-34.1s91.7 11.5 135 34.1l22.8 11.9-7.3-16.6 37.2-24.5c23.4 37 33.6 80.4 36.3 93.4l.5 2.6 1.8 1.9c36.1 36.9 66.7 82.5 88.5 131.8 53.5 121 58.2 266.1 58.6 288.5-23.2 30.4-56.1 56.5-97.8 77.6zm-163-13c0 30.1-50.4 54.4-112.5 54.4s-112.5-24.4-112.5-54.4c0-30.1 50.4-54.4 112.5-54.4s112.5 24.3 112.5 54.4zm-223.5-65.3c0 12.3-10 22.3-22.3 22.3s-22.3-10-22.3-22.3 10-22.3 22.3-22.3c12.3-.1 22.3 9.9 22.3 22.3zm267.8 0c0 12.3-10 22.3-22.3 22.3s-22.3-10-22.3-22.3 10-22.3 22.3-22.3c12.3-.1 22.3 9.9 22.3 22.3z"/>
+</svg></a></li>
+        </ul>
+    </div> <!-- .user-info -->
+  </div>
+  <!-- /menu 1 -->
+
+  <!-- menu 2 -->
+  <div class="header-item header-nav-menu-container">
+    <a href="#" id="npm-expansions" class="npm-expansions" data-event-trigger="click" data-event-name="npm-expansions">node package manager</a>
+
+    <div class="nav-menu-container" role="navigation">
+      <a class="nav-toggle drop-down-menu-toggle" href="#product-navigation"><span class="a11y-only">Toggle Navigation</span>
+        <svg viewBox="0 0 44 44">
+    <rect x="4" y="12" fill="currentColor" width="36" height="2"/>
+    <rect x="4" y="20" fill="currentColor" width="36" height="2"/>
+    <rect x="4" y="28" fill="currentColor" width="36" height="2"/>
+</svg>
+      </a>
+
+
+      <div class="drop-down-menu-container" role="menu">
+        <nav id="product-navigation" class="product-navigation drop-down-menu">
+          <ul class="drop-down-menu-section products-list">
+            <li><a id="nav-enterprise-link" href="/npm/enterprise">npm Enterprise</a></li>
+            <li><a id="nav-features-link" href="/features" data-event-trigger="click" data-event-name="features-nav-link">features</a></li>
+            <li><a id="nav-pricing-link" href="/pricing">pricing</a></li>
+            <li><a id="nav-docs-link" href="https://docs.npmjs.com">documentation</a></li>
+            <li><a id="nav-support-link" href="/support">support</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- /menu 2 -->
+
+
+
+</header>
+
+
+
+
+    <div class="container content">
+      
+<div class="content-column">
+
+  <h1 class="package-name">
+    <a href="/package/filenamify">filenamify</a>
+      <i class="icon-public"></i>
+  </h1>
+  <p class="package-description">Convert a string to a valid safe filename</p>
+
+  <form class="star">
+    <input type="hidden" name="name" value="filenamify">
+    <input id="star-input" type="checkbox" name="isStarred" value="true" >
+    <label for="star-input" class="icon-star"></label>
+      <input type="hidden" name="crumb" value="wRkzWoHfZNslq8XoOIP2Z7LlR4-ABCrLS9fC3dE1ei9"/>
+  </form>
+
+  <div id="readme" class="markdown">
+      <h1 class="package-name-redundant">filenamify <a href="https://travis-ci.org/sindresorhus/filenamify"><img src="https://travis-ci.org/sindresorhus/filenamify.svg?branch=master" class="badge"></a></h1>
+<blockquote>
+<p class="package-description-redundant">Convert a string to a valid safe filename</p>
+</blockquote>
+<p>On Unix-like systems <code>/</code> is reserved and <a href="http://msdn.microsoft.com/en-us/library/aa365247%28VS.85%29#naming_conventions"><code>&lt;&gt;:&quot;/\|?*</code></a> on Windows.</p>
+<h2 id="user-content-install" class="deep-link"><a href="#install">Install</a></h2>
+<div class="highlight"><pre class="editor editor-colors"><div class="line"><span class="text"><span>$&#xA0;npm&#xA0;install&#xA0;--save&#xA0;filenamify</span></span></div></pre></div>
+<h2 id="user-content-usage" class="deep-link"><a href="#usage">Usage</a></h2>
+<div class="highlight js"><pre class="editor editor-colors"><div class="line"><span class="source js"><span class="storage modifier js"><span>const</span></span><span>&#xA0;</span><span class="constant other js"><span>filenamify</span></span><span>&#xA0;</span><span class="keyword operator assignment js"><span>=</span></span><span>&#xA0;</span><span class="meta function-call js"><span class="support function js"><span>require</span></span><span class="meta js"><span class="punctuation definition begin round js"><span>(</span></span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>&apos;</span></span><span>filenamify</span><span class="punctuation definition string end js"><span>&apos;</span></span></span><span class="punctuation definition end round js"><span>)</span></span></span></span><span class="punctuation terminator statement js"><span>;</span></span></span></div><div class="line"><span class="source js"><span>&#xA0;</span></span></div><div class="line"><span class="source js"><span class="meta function-call js"><span class="entity name function js"><span>filenamify</span></span><span class="meta js"><span class="punctuation definition begin round js"><span>(</span></span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>&apos;</span></span><span>&lt;foo/bar&gt;</span><span class="punctuation definition string end js"><span>&apos;</span></span></span><span class="punctuation definition end round js"><span>)</span></span></span></span><span class="punctuation terminator statement js"><span>;</span></span></span></div><div class="line"><span class="source js"><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>=&gt;&#xA0;&apos;foo!bar&apos;</span><span>&#xA0;</span></span></span></div><div class="line"><span class="source js"><span>&#xA0;</span></span></div><div class="line"><span class="source js"><span class="meta function-call js"><span class="entity name function js"><span>filenamify</span></span><span class="meta js"><span class="punctuation definition begin round js"><span>(</span></span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>&apos;</span></span><span>foo:&quot;bar&quot;</span><span class="punctuation definition string end js"><span>&apos;</span></span></span><span class="meta delimiter object comma js"><span>,</span></span><span>&#xA0;</span><span class="meta brace curly js"><span>{</span></span><span>replacement</span><span class="keyword operator js"><span>:</span></span><span>&#xA0;</span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>&apos;</span></span><span>&#x1F434;</span><span class="punctuation definition string end js"><span>&apos;</span></span></span><span class="meta brace curly js"><span>}</span></span><span class="punctuation definition end round js"><span>)</span></span></span></span><span class="punctuation terminator statement js"><span>;</span></span></span></div><div class="line"><span class="source js"><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>=&gt;&#xA0;&apos;foo&#x1F434;bar&apos;</span><span>&#xA0;</span></span></span></div></pre></div>
+<h2 id="user-content-api" class="deep-link"><a href="#api">API</a></h2>
+<h3 id="user-content-filenamifyinput-options" class="deep-link"><a href="#filenamifyinput-options">filenamify(input, [options])</a></h3>
+<p>Accepts a filename and returns a valid filename.</p>
+<h3 id="user-content-filenamifypathinput-options" class="deep-link"><a href="#filenamifypathinput-options">filenamify.path(input, [options])</a></h3>
+<p>Accepts a path and returns the path with a valid filename.</p>
+<h4 id="user-content-input" class="deep-link"><a href="#input">input</a></h4>
+<p>Type: <code>string</code></p>
+<h4 id="user-content-options" class="deep-link"><a href="#options">options</a></h4>
+<h5 id="user-content-replacement" class="deep-link"><a href="#replacement">replacement</a></h5>
+<p>Type: <code>string</code><br>
+Default: <code>&apos;!&apos;</code></p>
+<p>String to use as replacement for reserved filename characters.</p>
+<p>Cannot contain: <code>&lt;</code> <code>&gt;</code> <code>:</code> <code>&quot;</code> <code>/</code> <code>\</code> <code>|</code> <code>?</code> <code>*</code></p>
+<h2 id="user-content-related" class="deep-link"><a href="#related">Related</a></h2>
+<ul>
+<li><a href="https://github.com/sindresorhus/filenamify-url">filenamify-url</a> - Convert a URL to a valid filename</li>
+<li><a href="https://github.com/sindresorhus/valid-filename">valid-filename</a> - Check if a string is a valid filename</li>
+</ul>
+<h2 id="user-content-license" class="deep-link"><a href="#license">License</a></h2>
+<p>MIT &#xA9; <a href="https://sindresorhus.com">Sindre Sorhus</a></p>
+
+  </div>
+
+</div>
+
+<div class="sidebar">
+
+
+    <div class="autoselect-wrapper npm-install icon-download">
+      <input type="text" value="npm install filenamify" readonly>
+      <p><a href="/package/filenamify/tutorial">how? learn more</a></p>
+    </div>
+
+  <ul class="box">
+
+      <li class="last-publisher">
+          <a href="/~sindresorhus">
+            <img src="https://s.gravatar.com/avatar/d36a92237c75c5337c17b60d90686bf9?size&#x3D;100&amp;default&#x3D;retro" alt="sindresorhus" />
+            <span>sindresorhus</span>
+          </a>
+          published
+          <span data-date="2016-04-07T15:29:11.286Z" data-date-format="relative">
+            2016-04-07T15:29:11.286Z
+          </span>
+      </li>
+
+    <li>
+      <strong>1.2.1</strong>
+      is the latest
+        of 5 releases
+    </li>
+
+      <li>
+        <a href="https://github.com/sindresorhus/filenamify">github.com/sindresorhus/filenamify</a>
+      </li>
+
+
+      <li>
+          <a href="http://spdx.org/licenses/MIT">MIT</a>
+          <img class="osi" alt="Licensed on OSI-approved terms" src="/static/images/osi.svg">®
+      </li>
+
+  </ul>
+
+    <h3 title="collaborators">
+      <a href="/package/filenamify/access">Collaborators</a>
+    </h3>
+
+    <ul class="humans collaborators">
+        <li>
+            <a href="/~sindresorhus" rel="tipsy" title="sindresorhus">
+                <img src="https://s.gravatar.com/avatar/d36a92237c75c5337c17b60d90686bf9?size&#x3D;100&amp;default&#x3D;retro" alt="sindresorhus">
+            </a>
+        </li>
+
+
+    </ul>
+
+    <h3>Stats</h3>
+    <ul class="box">
+
+        <li>
+          <strong class="pretty-number daily-downloads">9785</strong>
+          downloads in the last day
+        </li>
+        <li>
+          <strong class="pretty-number weekly-downloads">164460</strong>
+          downloads in the last week
+        </li>
+        <li>
+          <strong class="pretty-number monthly-downloads">688899</strong>
+          downloads in the last month
+        </li>
+
+        <li id="issues" data-ghapi="https://api.github.com/repos/sindresorhus/filenamify">
+          <span class="original">Have an issue? <a href="https://github.com/sindresorhus/filenamify/issues">File it.</a></span>
+            <span class="enhanced" style="display:none">
+              <a href="https://github.com/sindresorhus/filenamify/issues"></a> on GitHub
+            </span>
+        </li>
+
+        <li id="pull_requests" style="display:none">
+          <a href="https://github.com/sindresorhus/filenamify/pulls"></a> on GitHub
+        </li>
+
+    </ul>
+
+        <h3>Try it out</h3>
+        <ul class="box">
+          <li class="tonicdev"><a href="https://tonicdev.com/npm/filenamify" target="_blank">Test filenamify in your browser.</a></li>
+        </ul>
+
+
+  <h3>Keywords</h3>
+  <p class="list-of-links">
+        <a href="/browse/keyword/dirname">dirname</a>, 
+        <a href="/browse/keyword/valid">valid</a>, 
+        <a href="/browse/keyword/convert">convert</a>, 
+        <a href="/browse/keyword/filepath">filepath</a>, 
+        <a href="/browse/keyword/path">path</a>, 
+        <a href="/browse/keyword/string">string</a>, 
+        <a href="/browse/keyword/name">name</a>, 
+        <a href="/browse/keyword/file">file</a>, 
+        <a href="/browse/keyword/sanitize">sanitize</a>, 
+        <a href="/browse/keyword/safe">safe</a>, 
+        <a href="/browse/keyword/filename">filename</a>
+  </p>
+
+  <h3>Dependencies (3)</h3>
+  <p class="list-of-links">
+          <a href="/package/trim-repeated">trim-repeated</a>,
+          <a href="/package/strip-outer">strip-outer</a>,
+                <a href="/package/filename-reserved-regex">filename-reserved-regex</a>
+  </p>
+
+    <h3><a href="/browse/depended/filenamify">Dependents</a></h3>
+    <p class="list-of-links dependents">
+
+          <a href="/package/download">download</a>,
+        
+          <a href="/package/grunt-photobox">grunt-photobox</a>,
+        
+          <a href="/package/ipics-cli">ipics-cli</a>,
+        
+          <a href="/package/sindredash">sindredash</a>,
+        
+          <a href="/package/xplorer">xplorer</a>,
+                  <a href="/package/filenamify-url">filenamify-url</a>    </p>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "filenamify",
+      "description": "Convert a string to a valid safe filename",
+      "url": "https://www.npmjs.com/package/filenamify",
+      "keywords": "dirname,valid,convert,filepath,path,string,name,file,sanitize,safe,filename",
+      "applicationCategory": "DeveloperApplication",
+      "offers": {
+         "@type": "Offer",
+         "price": "0.00"
+      }
+    }
+  </script>
+
+    <div class="hiring-container" data-template="sidebar"></div>
+</div>
+
+
+    </div>
+
+  <footer class="pane bg-npm-navy-1">
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <h3 class="h4 type-npm-pastel-3">You Need Help</h3>
+          <hr class="divider-1">
+          <ul class="list-unstyled h6 em-default">
+            <li class="pbl"><a class="type-neutral-11" href="https://docs.npmjs.com">Documentation</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/support">Support / Contact Us</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="http://status.npmjs.org/">Registry Status</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="https://github.com/npm/www/issues">Website Issues</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="https://github.com/npm/npm/issues">CLI Issues</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/policies/security">Security</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-6 col-md-offset-1">
+          <h3 class="h4 type-npm-pastel-3">About npm</h3>
+          <hr class="divider-1">
+          <ul class="list-unstyled h6 em-default">
+            <li class="pbl"><a class="type-neutral-11" href="/about">About npm, Inc</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/jobs">Jobs</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/npm-weekly">npm Weekly</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="http://blog.npmjs.org">Blog</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="https://twitter.com/npmjs">Twitter</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="https://github.com/npm">GitHub</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-6 col-md-offset-1">
+          <h3 class="h4 type-npm-pastel-3">Legal Stuff</h3>
+          <hr class="divider-1">
+          <ul class="list-unstyled h6 em-default">
+            <li class="pbl"><a class="type-neutral-11" href="/policies/terms">Terms of Use</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/policies/conduct">Code of Conduct</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/policies/disputes">Package Name Disputes</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/policies/privacy">Privacy Policy</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/policies/receiving-reports">Reporting Abuse</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/policies/">Other policies</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="txt-c container">
+      <a class="npm-loves-you type-neutral-11" href="/">
+        npm loves you
+      </a>
+    </div>
+  </footer>
+
+  <script defer src="/static/js/vendor.min.fe217130.js"></script>
+  <script defer async src="https://cdn.optimizely.com/js/3318080746.js"></script>
+  <script defer async src='//img.en25.com/i/elqCfg.min.js'></script><!-- Eloqua -->
+</body>
+</html>
+
+<!-- pid&#x3D;9123 2033fc85b739804d8930400204888c5d430a2f9e https://www.npmjs.com www-13-west.internal.npmjs.com  -->
