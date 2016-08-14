@@ -11,11 +11,13 @@ import { DEFAULT_OPTIONS } from './utils'
 /**
  * Scrape metadata from a URL.
  */
-export function scrapeUrl (url: string, options?: Options): Promise<Result> {
+export function scrapeUrl (url: string, opts?: Options): Promise<Result> {
+  const options = extend(DEFAULT_OPTIONS, opts)
+
   const req = get({
     url,
     headers: {
-      'User-Agent': 'Scrappy-LinkExpanding 1.0 (+https://github.com/blakeembrey/node-scrappy)'
+      'User-Agent': options.userAgent
     },
     transport: createTransport({
       type: 'stream',

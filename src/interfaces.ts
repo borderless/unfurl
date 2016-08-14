@@ -12,6 +12,7 @@ export type AbortFn = () => void
 
 export interface Options {
   useOEmbed?: boolean
+  userAgent?: string
   fallbackOnFavicon?: boolean
   preferredIconSize?: number
   extractImageSizes?: boolean

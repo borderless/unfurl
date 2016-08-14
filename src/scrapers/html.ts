@@ -536,9 +536,14 @@ export function handle (
       // Attach OEmbed information to entry.
       if (options.useOEmbed !== false) {
         if (oembedJson) {
-          const req = get(oembedJson)
-            .use(plugins.parse('json'))
+          const req = get({
+            url: oembedJson,
+            headers: {
+              'User-Agent': options.userAgent
+            }
+          })
             .use(status(200))
+            .use(plugins.parse('json'))
             .then(
               (res) => {
                 result.meta.oembed = res.body
@@ -556,6 +561,9 @@ export function handle (
 
           const req = get({
             url: faviconUrl,
+            headers: {
+              'User-Agent': options.userAgent
+            },
             transport: createTransport({ type: 'stream' })
           })
             .use(status(200))

@@ -10,6 +10,7 @@ import { AbortFn, Options } from './interfaces'
  * Default options.
  */
 export const DEFAULT_OPTIONS: Options = {
+  userAgent: 'Scrappy-LinkExpanding 1.0 (+https://github.com/blakeembrey/node-scrappy)',
   extractExifData
 }
 
