@@ -1,0 +1,30 @@
+{
+  "originalUrl": "https://slant6.bandcamp.com/",
+  "contentUrl": "https://slant6.bandcamp.com/",
+  "headers": {
+    "server": "nginx",
+    "content-type": "text/html; charset=UTF-8",
+    "cache-control": "no-cache, no-store",
+    "set-cookie": [
+      "client_id=11F5AF2835563C245EC7F5D106DC2DA118BA2DEAC875668CFA069BDEE80B7D85; domain=.bandcamp.com; path=/; expires=Sat, 15 Aug 2026 01:55:22 -0000",
+      "session=1%09t%3A1471226122%09r%3A%5B%22nilZ0i1583749198x1471226122%22%5D; domain=.bandcamp.com; path=/; expires=Thu, 29 Sep 2016 01:55:22 -0000",
+      "session=1%09t%3A1471226122; domain=.bandcamp.com; path=/; expires=Thu, 29 Sep 2016 01:55:22 -0000",
+      "session=1%09t%3A1471226122%09r%3A%5B%22nilZ0a4292094353x1471226122%22%5D; domain=.bandcamp.com; path=/; expires=Thu, 29 Sep 2016 01:55:22 -0000",
+      "session=1%09t%3A1471226122; domain=.bandcamp.com; path=/; expires=Thu, 29 Sep 2016 01:55:22 -0000",
+      "session=1%09t%3A1471226122%09bp%3A1; domain=.bandcamp.com; path=/; expires=Thu, 29 Sep 2016 01:55:22 -0000",
+      "BACKENDID=bender05-1; path=/; domain=.bandcamp.com"
+    ],
+    "content-encoding": "gzip",
+    "transfer-encoding": "chunked",
+    "accept-ranges": "bytes",
+    "date": "Mon, 15 Aug 2016 01:55:23 GMT",
+    "via": "1.1 varnish",
+    "connection": "close",
+    "x-served-by": "cache-mel6522-MEL",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

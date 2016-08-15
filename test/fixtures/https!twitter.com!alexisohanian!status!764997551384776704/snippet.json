@@ -1,0 +1,29 @@
+{
+  "type": "html",
+  "image": {
+    "url": "https://pbs.twimg.com/media/Cp3RFyXXYAANGoA.jpg:large"
+  },
+  "mainEntity": {
+    "type": "article"
+  },
+  "contentUrl": "https://twitter.com/alexisohanian/status/764997551384776704",
+  "contentSize": 33373,
+  "originalUrl": "https://twitter.com/alexisohanian/status/764997551384776704",
+  "encodingFormat": "text/html",
+  "headline": "Alexis Ohanian on Twitter",
+  "description": "“Don't squander this. 💻 https://t.co/eWmq6oxK73”",
+  "provider": {
+    "name": "Twitter",
+    "url": "https://twitter.com"
+  },
+  "author": {
+    "name": "Alexis Ohanian",
+    "url": "https://twitter.com/alexisohanian"
+  },
+  "ttl": 3153600000,
+  "icon": {
+    "url": "https://abs.twimg.com/favicons/favicon.ico",
+    "type": "image/x-icon"
+  },
+  "apps": {}
+}

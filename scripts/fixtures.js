@@ -28,8 +28,10 @@ var FIXTURES = [
   'https://twitter.com/blakeembrey',
   // Twitter tweet.
   'https://twitter.com/typescriptlang/status/743113612407889920',
-  // Twitter rich tweet.
+  // Twitter rich tweets.
   'https://twitter.com/ericclemmons/status/749223563790471169',
+  'https://twitter.com/alexisohanian/status/764997551384776704',
+  'https://twitter.com/SeanTAllen/status/764993929469161472',
   // Imgur image.
   'https://i.imgur.com/mvUPRyV.png',
   // Segment blog post.
@@ -135,7 +137,19 @@ var FIXTURES = [
   // XKCD entry.
   'http://xkcd.com/208/',
   // NPM package page.
-  'https://www.npmjs.com/package/filenamify'
+  'https://www.npmjs.com/package/filenamify',
+  // Schema.org
+  'https://schema.org/WebSite',
+  // Bandcamp.
+  'https://slant6.bandcamp.com/',
+  // Gizmodo.
+  'http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268?utm_campaign=socialflow_gizmodo_twitter&utm_source=gizmodo_twitter&utm_medium=socialflow',
+  // The Verge.
+  'http://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter',
+  // Bjango blog post.
+  'https://bjango.com/articles/pngoptimisation/',
+  // Bjango product page.
+  'https://bjango.com/mac/istatmenus/'
 ]
 
 // Read each fixture, populating the raw content.

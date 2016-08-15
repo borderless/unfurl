@@ -1,0 +1,20 @@
+{
+  "contentUrl": "https://bjango.com/articles/pngoptimisation/",
+  "originalUrl": "https://bjango.com/articles/pngoptimisation/",
+  "encodingFormat": "text/html",
+  "contentSize": 15734,
+  "dateModified": "2016-08-07T07:35:54.000Z",
+  "type": "html",
+  "meta": {
+    "html": {
+      "title": "PNG optimisation",
+      "description": "Exporting an identical image from different design tools results in different file sizes. Why? What can be done to optimise them to reduce downloading time and disk space?",
+      "icons": [
+        {
+          "url": "https://bjango.com/favicon.ico",
+          "type": "image/x-icon"
+        }
+      ]
+    }
+  }
+}

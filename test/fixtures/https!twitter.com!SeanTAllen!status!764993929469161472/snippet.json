@@ -1,0 +1,29 @@
+{
+  "type": "html",
+  "image": {
+    "url": "https://pbs.twimg.com/profile_images/344513261583570457/837e1e55170ee3b03dd4ef88168e9414_400x400.png"
+  },
+  "mainEntity": {
+    "type": "article"
+  },
+  "contentUrl": "https://twitter.com/SeanTAllen/status/764993929469161472",
+  "contentSize": 33577,
+  "originalUrl": "https://twitter.com/SeanTAllen/status/764993929469161472",
+  "encodingFormat": "text/html",
+  "headline": "¯\\_(ツ)_/¯ on Twitter",
+  "description": "“This is a very cool thread https://t.co/r6VKiMIYoI”",
+  "provider": {
+    "name": "Twitter",
+    "url": "https://twitter.com"
+  },
+  "author": {
+    "name": "¯\\_(ツ)_/¯",
+    "url": "https://twitter.com/SeanTAllen"
+  },
+  "ttl": 3153600000,
+  "icon": {
+    "url": "https://abs.twimg.com/favicons/favicon.ico",
+    "type": "image/x-icon"
+  },
+  "apps": {}
+}

@@ -1,0 +1,34 @@
+{
+  "originalUrl": "http://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter",
+  "contentUrl": "http://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter",
+  "headers": {
+    "server": "nginx",
+    "content-type": "text/html; charset=utf-8",
+    "status": "200 OK",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "cache-control": "max-age=0, must-revalidate",
+    "surrogate-keys": "nid-2 cid-372",
+    "x-request-id": "68d72701fb7370b1988df1c90eca1bd24d4d0b76",
+    "x-runtime": "0.306314",
+    "content-encoding": "gzip",
+    "via": [
+      "1.1 varnish-v4",
+      "1.1 varnish"
+    ],
+    "content-length": "68688",
+    "accept-ranges": "bytes",
+    "date": "Mon, 15 Aug 2016 01:55:22 GMT",
+    "age": "78",
+    "connection": "close",
+    "set-cookie": "_chorus_unison_testing_v4=none; expires=Sat, 11 Feb 2017 01:55:22 GMT; path=/;",
+    "x-served-by": "cache-mel6521-MEL",
+    "x-cache": "HIT",
+    "x-cache-hits": "1",
+    "x-timer": "S1471226122.334242,VS0,VE0",
+    "vary": "Accept-Encoding, X-Chorus-Unison-Testing, Origin, X-Forwarded-Proto, X-Chorus-Unison-Testing"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

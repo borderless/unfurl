@@ -1,0 +1,37 @@
+{
+  "originalUrl": "http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268?utm_campaign=socialflow_gizmodo_twitter&utm_source=gizmodo_twitter&utm_medium=socialflow",
+  "contentUrl": "http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268?utm_campaign=socialflow_gizmodo_twitter&utm_source=gizmodo_twitter&utm_medium=socialflow",
+  "headers": {
+    "cache-control": "stale-if-error=86400, stale-while-revalidate=300",
+    "content-encoding": "gzip",
+    "content-type": "text/html; charset=utf-8",
+    "p3p": "CP=\"IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA\"",
+    "strict-transport-security": "max-age=0",
+    "x-content-type-options": "nosniff",
+    "x-kinja": "app01.bfc.kinja-ops.com #1341",
+    "x-kinja-build": "1341",
+    "x-kinja-revision": "c6dc856f99387b39875c1b02aebe8b4b21b04714",
+    "x-kinja-server": "app01.bfc.kinja-ops.com",
+    "x-xss-protection": "1; mode=block",
+    "via": [
+      "1.1 varnish",
+      "1.1 varnish"
+    ],
+    "fastly-debug-digest": "b0388882bd761fa0e60071faeab035903d4e247c2ebebb80e8f59d0f60970c1e",
+    "x-cdn-fetch": "mantle-default",
+    "content-length": "63962",
+    "accept-ranges": "bytes",
+    "date": "Mon, 15 Aug 2016 01:55:22 GMT",
+    "age": "205",
+    "connection": "close",
+    "x-served-by": "cache-jfk8120-JFK, cache-mel6523-MEL",
+    "x-cache": "HIT, HIT",
+    "x-cache-hits": "14, 1",
+    "x-timer": "S1471226122.341627,VS0,VE0",
+    "vary": "Accept-Encoding, X-Feature-Hash, X-Forwarded-Proto,Accept-Encoding",
+    "x-geo-segment": "B",
+    "set-cookie": "geocc=AU;path=/;"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

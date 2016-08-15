@@ -1,0 +1,40 @@
+{
+  "type": "html",
+  "image": {
+    "url": "https://i.kinja-img.com/gawker-media/image/upload/s--D8tZJKTC--/c_fill,fl_progressive,g_center,h_450,q_80,w_800/uwwyvlh7dwqyodgah0mr.jpg"
+  },
+  "mainEntity": {
+    "type": "article"
+  },
+  "contentUrl": "http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268",
+  "contentSize": 63962,
+  "originalUrl": "http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268?utm_campaign=socialflow_gizmodo_twitter&utm_source=gizmodo_twitter&utm_medium=socialflow",
+  "encodingFormat": "text/html",
+  "headline": "The DNC Hack Was Much Bigger Than We Thought",
+  "description": "The recent hack that targeted Democratic officials and led to the resignation of Democratic National Committee chairwoman Debbie Wasserman Schultz was much bigger than initially suspected, according to a new report from the New York Times.",
+  "provider": {
+    "name": "Gizmodo"
+  },
+  "author": {
+    "name": "Sophie Kleeman"
+  },
+  "icon": {
+    "url": "https://i.kinja-img.com/gawker-media/image/upload/s--O07tru6M--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/fdj3buryz5nuzyf2k620.png"
+  },
+  "tags": [
+    "DNC Hack",
+    "Hackers",
+    "Hacks",
+    "Democrats",
+    "Hillary Clinton",
+    "Donald Trump",
+    "Gizmodo"
+  ],
+  "locale": {
+    "primary": "en_US"
+  },
+  "twitter": {
+    "siteHandle": "gizmodo"
+  },
+  "apps": {}
+}
