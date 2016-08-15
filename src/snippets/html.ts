@@ -105,6 +105,8 @@ function getMetaTags (meta: HtmlResultMeta): string[] {
 function getMetaProvider (meta: HtmlResultMeta) {
   const name = getString(meta, ['rdfa', '', 'http://ogp.me/ns#site_name']) ||
     getString(meta, ['oembed', 'provider_name']) ||
+    getString(meta, ['html', 'application-name']) ||
+    getString(meta, ['html', 'apple-mobile-web-app-title']) ||
     getString(meta, ['twitter', 'app:name:iphone']) ||
     getString(meta, ['twitter', 'app:name:ipad']) ||
     getString(meta, ['twitter', 'app:name:googleplay']) ||

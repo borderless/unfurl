@@ -8,6 +8,7 @@
   "meta": {
     "html": {
       "title": "iStat Menus",
+      "apple-mobile-web-app-title": "Bjango",
       "icons": [
         {
           "url": "https://bjango.com/favicon.ico",

@@ -9,6 +9,7 @@
     "html": {
       "title": "PNG optimisation",
       "description": "Exporting an identical image from different design tools results in different file sizes. Why? What can be done to optimise them to reduce downloading time and disk space?",
+      "apple-mobile-web-app-title": "Bjango",
       "icons": [
         {
           "url": "https://bjango.com/favicon.ico",

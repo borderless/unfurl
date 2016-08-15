@@ -6,7 +6,13 @@
   "meta": {
     "html": {
       "title": "Extending HTML5 — Microdata | HTML5 Doctor",
-      "canonical": "http://html5doctor.com/microdata/"
+      "canonical": "http://html5doctor.com/microdata/",
+      "icons": [
+        {
+          "url": "http://html5doctor.com/favicon.ico",
+          "type": "text/plain"
+        }
+      ]
     },
     "microdata": {
       "@type": "http://schema.org/Event",

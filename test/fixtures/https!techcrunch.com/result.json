@@ -134,6 +134,7 @@
     },
     "html": {
       "title": "TechCrunch - The latest technology news and information on startups",
+      "apple-mobile-web-app-title": "TechCrunch",
       "icons": [
         {
           "url": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico",
@@ -141,7 +142,8 @@
         }
       ],
       "author": "Emily Calandrelli",
-      "description": "TechCrunch is a leading technology media property, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news."
+      "description": "TechCrunch is a leading technology media property, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news.",
+      "application-name": "TechCrunch"
     },
     "rdfa": {
       "": {

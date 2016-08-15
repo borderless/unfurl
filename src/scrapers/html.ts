@@ -405,7 +405,9 @@ export function handle (
               nameAttr === 'keywords' ||
               nameAttr === 'author' ||
               nameAttr === 'description' ||
-              nameAttr === 'language'
+              nameAttr === 'language' ||
+              nameAttr === 'application-name' ||
+              nameAttr === 'apple-mobile-web-app-title'
             ) {
               ;(html as any)[nameAttr] = contentAttr
             }

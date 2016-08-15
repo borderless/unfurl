@@ -25,6 +25,7 @@
     },
     "html": {
       "title": "The Europas Awards 2016 honored the best tech startups in Europe | TechCrunch",
+      "apple-mobile-web-app-title": "TechCrunch",
       "icons": [
         {
           "url": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico",
@@ -33,7 +34,8 @@
       ],
       "canonical": "https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
       "author": "Mike Butcher",
-      "description": "This week The Europas Startup Conference and Awards -- the new type of tech event devised in partnership with TechCrunch and myself -- honored The Best Tech.."
+      "description": "This week The Europas Startup Conference and Awards -- the new type of tech event devised in partnership with TechCrunch and myself -- honored The Best Tech..",
+      "application-name": "TechCrunch"
     },
     "twitter": {
       "card": "summary_large_image",

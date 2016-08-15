@@ -6,7 +6,9 @@
   "encodingFormat": "text/html",
   "headline": "PNG optimisation",
   "description": "Exporting an identical image from different design tools results in different file sizes. Why? What can be done to optimise them to reduce downloading time and disk space?",
-  "provider": {},
+  "provider": {
+    "name": "Bjango"
+  },
   "author": {},
   "icon": {
     "url": "https://bjango.com/favicon.ico",

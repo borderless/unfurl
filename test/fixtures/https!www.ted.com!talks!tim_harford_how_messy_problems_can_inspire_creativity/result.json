@@ -19,7 +19,9 @@
         {
           "url": "https://pa.tedcdn.com/favicon.ico"
         }
-      ]
+      ],
+      "apple-mobile-web-app-title": "TED.com",
+      "application-name": "TED.com"
     },
     "twitter": {
       "card": "summary_large_image",

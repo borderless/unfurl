@@ -5,7 +5,9 @@
   "originalUrl": "https://bjango.com/mac/istatmenus/",
   "encodingFormat": "text/html",
   "headline": "iStat Menus",
-  "provider": {},
+  "provider": {
+    "name": "Bjango"
+  },
   "author": {},
   "icon": {
     "url": "https://bjango.com/favicon.ico",

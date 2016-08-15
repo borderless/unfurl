@@ -84,6 +84,8 @@ export interface HtmlMetaHtml {
   canonical?: string
   date?: string // Date
   icons?: HtmlIconMeta[]
+  'application-name'?: string
+  'apple-mobile-web-app-title'?: string
 }
 
 export interface HtmlIconMeta {
