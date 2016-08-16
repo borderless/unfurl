@@ -1,0 +1,27 @@
+{
+  "originalUrl": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
+  "contentUrl": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
+  "headers": {
+    "date": "Tue, 16 Aug 2016 07:53:20 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "set-cookie": [
+      "__cfduid=d07fd24d20ceb352e93dbeec4d314649c1471333999; expires=Wed, 16-Aug-17 07:53:19 GMT; path=/; domain=.lifehacker.com.au; HttpOnly",
+      "PHPSESSID=912f9sivastj3eagcbjet6dhu5; path=/"
+    ],
+    "age": "87",
+    "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "cache-status": "Hit",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "link": "<http://www.lifehacker.com.au/?p=738198>; rel=shortlink",
+    "pragma": "no-cache",
+    "vary": "Accept-Encoding",
+    "x-pingback": "http://www.lifehacker.com.au/xmlrpc.php",
+    "server": "cloudflare-nginx",
+    "cf-ray": "2d334fdbe9f95221-MEL",
+    "content-encoding": "gzip"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

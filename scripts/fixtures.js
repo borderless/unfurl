@@ -149,7 +149,15 @@ var FIXTURES = [
   // Bjango blog post.
   'https://bjango.com/articles/pngoptimisation/',
   // Bjango product page.
-  'https://bjango.com/mac/istatmenus/'
+  'https://bjango.com/mac/istatmenus/',
+  // Google drive.
+  'https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing',
+  'https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing',
+  'https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing',
+  // Quora.
+  'https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date',
+  // Lifehacker.
+  'http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/'
 ]
 
 // Read each fixture, populating the raw content.

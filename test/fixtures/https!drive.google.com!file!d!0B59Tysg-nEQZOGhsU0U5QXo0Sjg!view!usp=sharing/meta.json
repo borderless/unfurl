@@ -1,0 +1,31 @@
+{
+  "originalUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing",
+  "contentUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-robots-tag": "noindex, nofollow, nosnippet",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+    "date": "Tue, 16 Aug 2016 07:53:20 GMT",
+    "content-encoding": "gzip",
+    "p3p": [
+      "CP=\"This is not a P3P policy! See https://support.google.com/accounts/answer/151657?hl=en for more info.\"",
+      "CP=\"This is not a P3P policy! See https://support.google.com/accounts/answer/151657?hl=en for more info.\""
+    ],
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "server": "GSE",
+    "set-cookie": [
+      "NID=84=aJ-1sooTVuUSbh6fEpAwioskFt2kP25lAQ-wQnckOBZXwENi-CuYRqk-bNHD0jMAuiWbw9cH8Y1Ko_SosOkTPLx59OK8KB7ktCucf8bisLJhriBm4DLq8NEqxvNZ54H1;Domain=.google.com;Path=/;Expires=Wed, 15-Feb-2017 07:53:20 GMT;HttpOnly",
+      "NID=84=BU1mNs-s2Z0ZU9WMiVKoSdrxGYmMScELfbbtNHAx1ywXR79lbwN9rZki3VcYGDnGEwFjR4TCPVVtcaRqaSNIstSdvE15Z8BgP7rdgLrivdli0bCuQkbDB41PqwwTI-ah;Domain=.google.com;Path=/;Expires=Wed, 15-Feb-2017 07:53:20 GMT;HttpOnly"
+    ],
+    "alternate-protocol": "443:quic",
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"36,35,34,33,32,31,30\"",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "status": 200,
+  "statusText": "OK"
+}
