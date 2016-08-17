@@ -134,9 +134,9 @@ function getMetaHeadline (meta: HtmlResultMeta) {
  * Get the caption from the site.
  */
 function getMetaDescription (meta: HtmlResultMeta) {
-  return getString(meta, ['twitter', 'description']) ||
-    getString(meta, ['rdfa', '', 'http://ogp.me/ns#description']) ||
+  return getString(meta, ['rdfa', '', 'http://ogp.me/ns#description']) ||
     getString(meta, ['oembed', 'summary']) ||
+    getString(meta, ['twitter', 'description']) ||
     getString(meta, ['html', 'description'])
 }
 
