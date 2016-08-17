@@ -157,7 +157,9 @@ var FIXTURES = [
   // Quora.
   'https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date',
   // Lifehacker.
-  'http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/'
+  'http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/',
+  // Courses.
+  'https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks'
 ]
 
 // Read each fixture, populating the raw content.

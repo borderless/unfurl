@@ -1,0 +1,46 @@
+{
+  "contentUrl": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
+  "originalUrl": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
+  "encodingFormat": "text/html",
+  "contentSize": 160375,
+  "type": "html",
+  "meta": {
+    "html": {
+      "title": "Bonds vs. stocks | Introduction to stocks | Khan Academy",
+      "description": "The difference between a bond and a stock.",
+      "canonical": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
+      "icons": [
+        {
+          "url": "https://www.khanacademy.org/favicon.ico?leaf"
+        }
+      ]
+    },
+    "twitter": {
+      "site": "@khanacademy",
+      "title": "Khan Academy",
+      "description": "Learn for free about math, art, computer programming, economics, physics, chemistry, biology, medicine, finance, history, and more. Khan Academy is a nonprofit with the mission of providing a free, world-class education for anyone, anywhere.",
+      "image": "https://cdn.kastatic.org/images/khan-logo-vertical-transparent.png"
+    },
+    "sailthru": {
+      "tags": "debt, khan, finance, stocks-intro-tutorial, bonds, economics, economics-finance-domain, core-finance, equity, stock-and-bonds, stocks"
+    },
+    "rdfa": {
+      "": {
+        "http://ogp.me/ns#site_name": "Khan Academy",
+        "http://ogp.me/ns#type": "video.other",
+        "http://ogp.me/ns#title": "Bonds vs. stocks",
+        "http://ogp.me/ns#description": "The difference between a bond and a stock.",
+        "http://ogp.me/ns#url": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
+        "http://ogp.me/ns#image": "http://img.youtube.com/vi/rs1md3e4aYU/0.jpg",
+        "http://ogp.me/ns#video": "http://www.youtube.com/v/rs1md3e4aYU",
+        "http://ogp.me/ns#video:type": "application/x-shockwave-flash"
+      }
+    },
+    "microdata": {
+      "@type": "http://schema.org/Organization",
+      "name": "Khan Academy",
+      "description": "Watch. Practice. Learn almost anything for free.",
+      "image": "https://cdn.kastatic.org/images/khan-logo-vertical-transparent.png"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "html",
+  "image": {
+    "url": "http://img.youtube.com/vi/rs1md3e4aYU/0.jpg"
+  },
+  "video": {
+    "url": "http://www.youtube.com/v/rs1md3e4aYU",
+    "type": "application/x-shockwave-flash"
+  },
+  "contentUrl": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
+  "contentSize": 160375,
+  "originalUrl": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
+  "encodingFormat": "text/html",
+  "headline": "Khan Academy",
+  "description": "Learn for free about math, art, computer programming, economics, physics, chemistry, biology, medicine, finance, history, and more. Khan Academy is a nonprofit with the mission of providing a free, world-class education for anyone, anywhere.",
+  "provider": {
+    "name": "Khan Academy"
+  },
+  "author": {},
+  "icon": {
+    "url": "https://www.khanacademy.org/favicon.ico?leaf"
+  },
+  "twitter": {
+    "siteHandle": "khanacademy"
+  },
+  "apps": {}
+}

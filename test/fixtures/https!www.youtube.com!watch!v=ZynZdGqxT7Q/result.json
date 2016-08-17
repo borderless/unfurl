@@ -130,19 +130,19 @@
       "genre": "Entertainment"
     },
     "oembed": {
-      "type": "video",
-      "provider_url": "https://www.youtube.com/",
-      "thumbnail_height": 360,
-      "version": "1.0",
       "author_url": "https://www.youtube.com/user/readthesource",
-      "height": 270,
-      "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/ZynZdGqxT7Q?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",
-      "author_name": "readthesource",
-      "title": "15. Typings with Blake Embrey",
       "thumbnail_width": 480,
+      "height": 270,
+      "author_name": "readthesource",
+      "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/ZynZdGqxT7Q?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",
+      "title": "15. Typings with Blake Embrey",
+      "version": "1.0",
       "thumbnail_url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/hqdefault.jpg",
+      "provider_name": "YouTube",
       "width": 480,
-      "provider_name": "YouTube"
+      "provider_url": "https://www.youtube.com/",
+      "type": "video",
+      "thumbnail_height": 360
     }
   }
 }
