@@ -46,8 +46,9 @@ var FIXTURES = [
   'http://ogp.me/',
   // Learn Standard ML guide.
   'https://learnxinyminutes.com/docs/standard-ml/',
-  // Soundcloud track.
+  // Soundcloud.
   'https://soundcloud.com/lifeofdesiigner/desiigner-panda',
+  'https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels',
   // Twitter cards dev docs.
   'https://dev.twitter.com/cards/types/player',
   // GitHub homepage.
@@ -159,7 +160,9 @@ var FIXTURES = [
   // Lifehacker.
   'http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/',
   // Courses.
-  'https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks'
+  'https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks',
+  // Contact page.
+  'https://www.mulesoft.com/contact'
 ]
 
 // Read each fixture, populating the raw content.
