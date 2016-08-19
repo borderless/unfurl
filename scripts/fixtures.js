@@ -112,8 +112,9 @@ var FIXTURES = [
   'https://www.youtube.com/watch?v=W9ZnpIGvZUo',
   // iTunes movies.
   'https://itunes.apple.com/us/movie/the-avengers/id533654020',
-  // Textrank PDF.
+  // PDFs.
   'https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf',
+  'http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf',
   // Flickr image download.
   'https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg',
   'https://c2.staticflickr.com/4/3930/15428630771_61e9dcf6f4_o.jpg',

@@ -1,0 +1,16 @@
+{
+  "originalUrl": "http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf",
+  "contentUrl": "http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf",
+  "headers": {
+    "date": "Fri, 19 Aug 2016 12:21:13 GMT",
+    "server": "Apache/2.4.7 (Ubuntu) OpenSSL/1.0.1f",
+    "last-modified": "Tue, 15 Mar 2016 02:50:37 GMT",
+    "etag": "\"70ef9-52e0d76415940\"",
+    "accept-ranges": "bytes",
+    "content-length": "462585",
+    "connection": "close",
+    "content-type": "application/pdf"
+  },
+  "status": 200,
+  "statusText": "OK"
+}
