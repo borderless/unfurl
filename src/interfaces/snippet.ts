@@ -142,9 +142,13 @@ export interface ImageSnippet extends Base {
 
 export interface PdfSnippet extends Base {
   type: 'pdf'
+  author?: string
+  title?: string
   pageCount?: number
   producer?: string
   creator?: string
+  dateCreated?: Date
+  dateModified?: Date
 }
 
 export interface LinkSnippet extends Base {

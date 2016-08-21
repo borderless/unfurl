@@ -14,7 +14,9 @@ export default function (result: ScrapeResult, options: Options): ImageSnippet {
     type: 'image',
     encodingFormat: exifData.MIMEType || exifData.Format || encodingFormat,
     dateModified: parse(exifData.ModifyDate),
-    dateCreated: parse(exifData.DateTimeCreated) || parse(exifData.DigitalCreationDateTime),
+    dateCreated: parse(exifData.SubSecDateTimeOriginal) ||
+      parse(exifData.DateTimeCreated) ||
+      parse(exifData.DigitalCreationDateTime),
     contentSize,
     contentUrl,
     originalUrl,

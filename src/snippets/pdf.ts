@@ -1,3 +1,4 @@
+import { parse } from 'exif-date'
 import { ScrapeResult, PdfSnippet, Options } from '../interfaces'
 
 export default function (result: ScrapeResult, options: Options): PdfSnippet {
@@ -17,6 +18,10 @@ export default function (result: ScrapeResult, options: Options): PdfSnippet {
     originalUrl,
     pageCount: exifData.PageCount,
     producer: exifData.Producer,
-    creator: exifData.Creator
+    author: exifData.Author,
+    creator: exifData.Creator,
+    title: exifData.Title,
+    dateCreated: parse(exifData.CreateDate),
+    dateModified: parse(exifData.ModifyDate)
   }
 }
