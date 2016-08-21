@@ -1,71 +1,71 @@
 {
+  "type": "html",
   "contentUrl": "https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3",
   "originalUrl": "https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3",
   "encodingFormat": "text/html",
-  "type": "html",
-  "meta": {
-    "html": {
-      "title": "Royal Botanic Garden - Central Business District - 113 tips from 9369 visitors",
-      "application-name": "Foursquare",
-      "description": "Read 113 tips and reviews from 9369 visitors about gardens, scenic views and picnics. \"Huge, beautiful garden with over 40 thousand types of plants...\"",
-      "keywords": "Royal Botanic Garden, Macquarie St, Sydney, NSW, botanical gardens,botannical gardens,royal botanic garden,royal botanic gardens,royal botanic gardens sydney,royal botanical gardens, Botanical Garden, Garden",
-      "icons": [
-        {
-          "url": "https://foursquare.com/favicon.ico",
-          "type": "image/x-icon"
-        }
-      ],
-      "canonical": "/v/royal-botanic-garden/4b058761f964a520188f22e3"
-    },
-    "twitter": {
-      "site": "@foursquare",
-      "creator": "@foursquare",
-      "card": "summary_large_image",
-      "url": "https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3",
-      "description": "Botanical Garden in Sydney, NSW",
-      "title": "Royal Botanic Garden",
-      "image": "https://irs2.4sqi.net/img/general/600x600/53483607_SoXlG3dETx8aFctBfqQJDXBER5wkwBm8sihfBClvA8I.jpg",
-      "app:name:iphone": "Foursquare",
-      "app:id:iphone": "306934924",
-      "app:url:iphone": "foursquare://venues/4b058761f964a520188f22e3",
-      "app:name:ipad": "Foursquare",
-      "app:id:ipad": "306934924",
-      "app:url:ipad": "foursquare://venues/4b058761f964a520188f22e3",
-      "app:name:googleplay": "Foursquare",
-      "app:id:googleplay": "com.joelapenna.foursquared",
-      "app:url:googleplay": "foursquare://venues/4b058761f964a520188f22e3"
-    },
-    "rdfa": {
-      "": {
-        "http://ogp.me/ns#title": "Royal Botanic Garden",
-        "http://ogp.me/ns#description": "Botanical Garden in Sydney, NSW",
-        "http://ogp.me/ns#image": [
-          "https://irs2.4sqi.net/img/general/600x600/53483607_SoXlG3dETx8aFctBfqQJDXBER5wkwBm8sihfBClvA8I.jpg",
-          "https://irs3.4sqi.net/img/general/600x600/3193281_QNK-Vlx4z1UJR97aVk7pI58_RsLEI75FCfhKg8nO2sE.jpg",
-          "https://irs3.4sqi.net/img/general/600x600/ZBVXZDMOHFAHSHJ0KG4UCBOCYXH3JJQSVK12ZWV44YICSZMT.jpg",
-          "https://irs3.4sqi.net/img/general/600x600/40666324_RKf6fLMqp9n5EPmaIwCgVV6IBvH3C7wbQqUcemDFiCo.jpg"
-        ],
-        "http://ogp.me/ns#url": "https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3",
-        "http://ogp.me/ns#type": "playfoursquare:venue",
-        "http://ogp.me/ns#site_name": "Foursquare"
+  "html": {
+    "title": "Royal Botanic Garden - Central Business District - 113 tips from 9369 visitors",
+    "application-name": "Foursquare",
+    "description": "Read 113 tips and reviews from 9369 visitors about gardens, scenic views and picnics. \"Huge, beautiful garden with over 40 thousand types of plants...\"",
+    "keywords": "Royal Botanic Garden, Macquarie St, Sydney, NSW, botanical gardens,botannical gardens,royal botanic garden,royal botanic gardens,royal botanic gardens sydney,royal botanical gardens, Botanical Garden, Garden",
+    "icons": [
+      {
+        "url": "https://foursquare.com/favicon.ico",
+        "type": "image/x-icon"
       }
-    },
-    "applinks": {
-      "iphone:url": "foursquare://venues/4b058761f964a520188f22e3",
-      "iphone:app_store_id": "306934924",
-      "iphone:app_name": "Foursquare",
-      "ipad:url": "foursquare://venues/4b058761f964a520188f22e3",
-      "ipad:app_store_id": "306934924",
-      "ipad:app_name": "Foursquare",
-      "android:url": "foursquare://venues/4b058761f964a520188f22e3",
-      "android:package": "com.joelapenna.foursquared",
-      "android:app_name": "Foursquare",
-      "windows_phone:url": "foursquare://venues/4b058761f964a520188f22e3",
-      "windows_phone:app_id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
-      "windows_phone:app_name": "Foursquare",
-      "web:should_fallback": "false"
-    },
-    "microdata": {
+    ],
+    "canonical": "/v/royal-botanic-garden/4b058761f964a520188f22e3"
+  },
+  "twitter": {
+    "site": "@foursquare",
+    "creator": "@foursquare",
+    "card": "summary_large_image",
+    "url": "https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3",
+    "description": "Botanical Garden in Sydney, NSW",
+    "title": "Royal Botanic Garden",
+    "image": "https://irs2.4sqi.net/img/general/600x600/53483607_SoXlG3dETx8aFctBfqQJDXBER5wkwBm8sihfBClvA8I.jpg",
+    "app:name:iphone": "Foursquare",
+    "app:id:iphone": "306934924",
+    "app:url:iphone": "foursquare://venues/4b058761f964a520188f22e3",
+    "app:name:ipad": "Foursquare",
+    "app:id:ipad": "306934924",
+    "app:url:ipad": "foursquare://venues/4b058761f964a520188f22e3",
+    "app:name:googleplay": "Foursquare",
+    "app:id:googleplay": "com.joelapenna.foursquared",
+    "app:url:googleplay": "foursquare://venues/4b058761f964a520188f22e3"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#title": "Royal Botanic Garden",
+      "http://ogp.me/ns#description": "Botanical Garden in Sydney, NSW",
+      "http://ogp.me/ns#image": [
+        "https://irs2.4sqi.net/img/general/600x600/53483607_SoXlG3dETx8aFctBfqQJDXBER5wkwBm8sihfBClvA8I.jpg",
+        "https://irs3.4sqi.net/img/general/600x600/3193281_QNK-Vlx4z1UJR97aVk7pI58_RsLEI75FCfhKg8nO2sE.jpg",
+        "https://irs3.4sqi.net/img/general/600x600/ZBVXZDMOHFAHSHJ0KG4UCBOCYXH3JJQSVK12ZWV44YICSZMT.jpg",
+        "https://irs3.4sqi.net/img/general/600x600/40666324_RKf6fLMqp9n5EPmaIwCgVV6IBvH3C7wbQqUcemDFiCo.jpg"
+      ],
+      "http://ogp.me/ns#url": "https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3",
+      "http://ogp.me/ns#type": "playfoursquare:venue",
+      "http://ogp.me/ns#site_name": "Foursquare"
+    }
+  },
+  "applinks": {
+    "iphone:url": "foursquare://venues/4b058761f964a520188f22e3",
+    "iphone:app_store_id": "306934924",
+    "iphone:app_name": "Foursquare",
+    "ipad:url": "foursquare://venues/4b058761f964a520188f22e3",
+    "ipad:app_store_id": "306934924",
+    "ipad:app_name": "Foursquare",
+    "android:url": "foursquare://venues/4b058761f964a520188f22e3",
+    "android:package": "com.joelapenna.foursquared",
+    "android:app_name": "Foursquare",
+    "windows_phone:url": "foursquare://venues/4b058761f964a520188f22e3",
+    "windows_phone:app_id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+    "windows_phone:app_name": "Foursquare",
+    "web:should_fallback": "false"
+  },
+  "microdata": [
+    {
       "@type": "http://schema.org/LocalBusiness",
       "name": "Royal Botanic Garden",
       "aggregateRating": {
@@ -85,5 +85,5 @@
       "telephone": "+61 2 9231 8111",
       "url": "http://www.rbgsyd.nsw.gov.au/"
     }
-  }
+  ]
 }

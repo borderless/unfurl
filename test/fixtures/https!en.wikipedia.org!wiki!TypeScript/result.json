@@ -1,19 +1,16 @@
 {
+  "type": "html",
   "contentUrl": "https://en.wikipedia.org/wiki/TypeScript",
   "originalUrl": "https://en.wikipedia.org/wiki/TypeScript",
   "encodingFormat": "text/html",
   "contentSize": 27482,
-  "dateModified": "2016-08-11T01:30:07.000Z",
-  "type": "html",
-  "meta": {
-    "html": {
-      "title": "TypeScript - Wikipedia, the free encyclopedia",
-      "icons": [
-        {
-          "url": "https://en.wikipedia.org/static/favicon/wikipedia.ico"
-        }
-      ],
-      "canonical": "https://en.wikipedia.org/wiki/TypeScript"
-    }
+  "html": {
+    "title": "TypeScript - Wikipedia, the free encyclopedia",
+    "icons": [
+      {
+        "url": "https://en.wikipedia.org/static/favicon/wikipedia.ico"
+      }
+    ],
+    "canonical": "https://en.wikipedia.org/wiki/TypeScript"
   }
 }

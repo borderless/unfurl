@@ -1,47 +1,47 @@
 {
+  "type": "html",
   "contentUrl": "https://www.thinkgeek.com/product/jjip/?pfm=HP_ProdTab_1_7_NewStuff_jjip",
   "originalUrl": "https://www.thinkgeek.com/product/jjip/?pfm=HP_ProdTab_1_7_NewStuff_jjip",
   "encodingFormat": "text/html",
   "contentSize": 96489,
-  "type": "html",
-  "meta": {
-    "html": {
-      "title": "Citizen Playing Cards | ThinkGeek",
-      "keywords": "Citizen Playing Cards - custom playing cards poker texas holdem hold'em night gamble gambling card game thinkgeek think geek gifts for geeks",
-      "description": "Whether you perform with them or just break out the occasional flourish in a friendly poker game, Citizen Playing Cards will impress people with their elegance. The tuck case features a combination of gold foil, hot stamping, and bronze foil.",
-      "icons": [
-        {
-          "url": "https://www.thinkgeek.com/images/favicon.png"
-        }
-      ],
-      "canonical": "http://www.thinkgeek.com/product/jjip/"
-    },
-    "twitter": {
-      "site": "@thinkgeek",
-      "creator": "@thinkgeek",
-      "domain": "thinkgeek.com",
-      "title": "Citizen Playing Cards",
-      "url": "http://www.thinkgeek.com/product/jjip",
-      "description": "Whether you perform with them or just break out the occasional flourish in a friendly poker game, Citizen Playing Cards will impress people with their elegance. The tuck case features a combination of gold foil, hot stamping, and bronze foil.",
-      "card": "product",
-      "image": "http://www.thinkgeek.com/images/products/frontsquare/jjip_citizen_playing_cards.jpg",
-      "label1": "Price",
-      "data1": "$9.99",
-      "label2": "Category"
-    },
-    "rdfa": {
-      "": {
-        "http://ogp.me/ns#site_name": "ThinkGeek",
-        "http://ogp.me/ns#type": "product",
-        "http://ogp.me/ns#title": "Citizen Playing Cards",
-        "http://ogp.me/ns#description": "Whether you perform with them or just break out the occasional flourish in a friendly poker game, Citizen Playing Cards will impress people with their elegance. The tuck case features a combination of gold foil, hot stamping, and bronze foil.",
-        "http://ogp.me/ns#url": "http://www.thinkgeek.com/product/jjip/?cpg=fbl_jjip",
-        "http://ogp.me/ns#image": "http://www.thinkgeek.com/images/products/zoom/jjip_citizen_playing_cards.jpg",
-        "http://ogp.me/ns/article#publisher": "ThinkGeek",
-        "http://ogp.me/ns/article#author": "ThinkGeek"
+  "html": {
+    "title": "Citizen Playing Cards | ThinkGeek",
+    "keywords": "Citizen Playing Cards - custom playing cards poker texas holdem hold'em night gamble gambling card game thinkgeek think geek gifts for geeks",
+    "description": "Whether you perform with them or just break out the occasional flourish in a friendly poker game, Citizen Playing Cards will impress people with their elegance. The tuck case features a combination of gold foil, hot stamping, and bronze foil.",
+    "icons": [
+      {
+        "url": "https://www.thinkgeek.com/images/favicon.png"
       }
-    },
-    "microdata": {
+    ],
+    "canonical": "http://www.thinkgeek.com/product/jjip/"
+  },
+  "twitter": {
+    "site": "@thinkgeek",
+    "creator": "@thinkgeek",
+    "domain": "thinkgeek.com",
+    "title": "Citizen Playing Cards",
+    "url": "http://www.thinkgeek.com/product/jjip",
+    "description": "Whether you perform with them or just break out the occasional flourish in a friendly poker game, Citizen Playing Cards will impress people with their elegance. The tuck case features a combination of gold foil, hot stamping, and bronze foil.",
+    "card": "product",
+    "image": "http://www.thinkgeek.com/images/products/frontsquare/jjip_citizen_playing_cards.jpg",
+    "label1": "Price",
+    "data1": "$9.99",
+    "label2": "Category"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#site_name": "ThinkGeek",
+      "http://ogp.me/ns#type": "product",
+      "http://ogp.me/ns#title": "Citizen Playing Cards",
+      "http://ogp.me/ns#description": "Whether you perform with them or just break out the occasional flourish in a friendly poker game, Citizen Playing Cards will impress people with their elegance. The tuck case features a combination of gold foil, hot stamping, and bronze foil.",
+      "http://ogp.me/ns#url": "http://www.thinkgeek.com/product/jjip/?cpg=fbl_jjip",
+      "http://ogp.me/ns#image": "http://www.thinkgeek.com/images/products/zoom/jjip_citizen_playing_cards.jpg",
+      "http://ogp.me/ns/article#publisher": "ThinkGeek",
+      "http://ogp.me/ns/article#author": "ThinkGeek"
+    }
+  },
+  "microdata": [
+    {
       "@type": "http://schema.org/Product",
       "name": "Citizen Playing Cards",
       "image": "https://www.thinkgeek.com/images/products/frontsquare/jjip_citizen_playing_cards.jpg",
@@ -53,5 +53,5 @@
       },
       "description": "When you're playing poker or blackjack, a pep talk from your cards might not be exactly what's needed, but for magicians, a little encouragement can't hurt. The backs of each of these cards in the Citizen deck feature the Latin phrase \"Audentes Fortuna iuvat.\" Fortune favors the brave. Before the calendar even flipped over to A.D. Cicero claimed the idea was an old proverb. So, you know, it's been around a while. Might be something to that.Whether you perform with them or just break out the occasional flourish in a friendly poker game, Citizen Playing Cards will impress people with their elegance. The tuck case features a combination of gold foil, hot stamping, and bronze foil, and has a breathtaking guilloche pattern inside."
     }
-  }
+  ]
 }

@@ -1,46 +1,44 @@
 {
+  "type": "html",
   "contentUrl": "https://www.flickr.com/photos/fabianf_/28229743586/sizes/o/",
   "originalUrl": "https://www.flickr.com/photos/fabianf_/28229743586/sizes/o/",
   "encodingFormat": "text/html",
-  "type": "html",
-  "meta": {
-    "html": {
-      "title": "All sizes | Yellow Motion (Explore #15) | Flickr - Photo Sharing!",
-      "description": "Flickr is almost certainly the best online photo management and sharing application in the world. Show off your favorite photos and videos to the world, securely and privately show content to your friends and family, or blog the photos and videos you take with a cameraphone.",
-      "canonical": "https://www.flickr.com/photos/fabianf_/28229743586/",
-      "application-name": "All sizes | Yellow Motion (Explore #15) | Flickr - Photo Sharing!",
-      "icons": [
-        {
-          "url": "https://s.yimg.com/pw/images/icon_black_white.svg",
-          "sizes": "any"
-        },
-        {
-          "url": "https://s.yimg.com/pw/favicon.ico",
-          "type": "image/ico"
-        }
-      ]
-    },
-    "oembed": {
-      "type": "photo",
-      "flickr_type": "photo",
-      "title": "Yellow Motion (Explore #15)",
-      "author_name": "Fabian F_",
-      "author_url": "https://www.flickr.com/photos/fabianf_/",
-      "width": "683",
-      "height": "1024",
-      "url": "https://farm9.staticflickr.com/8699/28229743586_838541269b_b.jpg",
-      "web_page": "https://www.flickr.com/photos/fabianf_/28229743586/",
-      "thumbnail_url": "https://farm9.staticflickr.com/8699/28229743586_838541269b_q.jpg",
-      "thumbnail_width": 150,
-      "thumbnail_height": 150,
-      "web_page_short_url": "https://flic.kr/p/K1yPg1",
-      "license": "All Rights Reserved",
-      "license_id": 0,
-      "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/fabianf_/28229743586/\" title=\"Yellow Motion (Explore #15) by Fabian F_, on Flickr\"><img src=\"https://farm9.staticflickr.com/8699/28229743586_838541269b_b.jpg\" width=\"683\" height=\"1024\" alt=\"Yellow Motion (Explore #15)\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
-      "version": "1.0",
-      "cache_age": 3600,
-      "provider_name": "Flickr",
-      "provider_url": "https://www.flickr.com/"
-    }
+  "html": {
+    "title": "All sizes | Yellow Motion (Explore #15) | Flickr - Photo Sharing!",
+    "description": "Flickr is almost certainly the best online photo management and sharing application in the world. Show off your favorite photos and videos to the world, securely and privately show content to your friends and family, or blog the photos and videos you take with a cameraphone.",
+    "canonical": "https://www.flickr.com/photos/fabianf_/28229743586/",
+    "application-name": "All sizes | Yellow Motion (Explore #15) | Flickr - Photo Sharing!",
+    "icons": [
+      {
+        "url": "https://s.yimg.com/pw/images/icon_black_white.svg",
+        "sizes": "any"
+      },
+      {
+        "url": "https://s.yimg.com/pw/favicon.ico",
+        "type": "image/ico"
+      }
+    ]
+  },
+  "oembed": {
+    "type": "photo",
+    "flickr_type": "photo",
+    "title": "Yellow Motion (Explore #15)",
+    "author_name": "Fabian F_",
+    "author_url": "https://www.flickr.com/photos/fabianf_/",
+    "width": "683",
+    "height": "1024",
+    "url": "https://farm9.staticflickr.com/8699/28229743586_838541269b_b.jpg",
+    "web_page": "https://www.flickr.com/photos/fabianf_/28229743586/",
+    "thumbnail_url": "https://farm9.staticflickr.com/8699/28229743586_838541269b_q.jpg",
+    "thumbnail_width": 150,
+    "thumbnail_height": 150,
+    "web_page_short_url": "https://flic.kr/p/K1yPg1",
+    "license": "All Rights Reserved",
+    "license_id": 0,
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/fabianf_/28229743586/\" title=\"Yellow Motion (Explore #15) by Fabian F_, on Flickr\"><img src=\"https://farm9.staticflickr.com/8699/28229743586_838541269b_b.jpg\" width=\"683\" height=\"1024\" alt=\"Yellow Motion (Explore #15)\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+    "version": "1.0",
+    "cache_age": 3600,
+    "provider_name": "Flickr",
+    "provider_url": "https://www.flickr.com/"
   }
 }

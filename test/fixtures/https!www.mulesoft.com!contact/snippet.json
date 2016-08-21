@@ -1,6 +1,6 @@
 {
   "type": "html",
-  "mainEntity": {
+  "entity": {
     "type": "article"
   },
   "contentUrl": "https://www.mulesoft.com/contact",

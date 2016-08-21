@@ -1,27 +1,24 @@
 {
+  "type": "html",
   "contentUrl": "https://www.mulesoft.com/contact",
   "originalUrl": "https://www.mulesoft.com/contact",
   "encodingFormat": "text/html",
-  "dateModified": "2016-08-18T08:00:26.000Z",
-  "type": "html",
-  "meta": {
-    "html": {
-      "icons": [
-        {
-          "url": "https://www.mulesoft.com/sites/all/themes/muletheme/favicon.ico"
-        }
-      ],
-      "description": "Contact us to see how we can help transform your company with the agility to unlock data, unleash innovation and connect with success.",
-      "canonical": "https://www.mulesoft.com/contact",
-      "title": "Contact | MuleSoft"
-    },
-    "rdfa": {
-      "": {
-        "http://ogp.me/ns#site_name": "MuleSoft",
-        "http://ogp.me/ns#type": "article",
-        "http://ogp.me/ns#url": "https://www.mulesoft.com/contact",
-        "http://ogp.me/ns#title": "1-415-229-2009"
+  "html": {
+    "icons": [
+      {
+        "url": "https://www.mulesoft.com/sites/all/themes/muletheme/favicon.ico"
       }
+    ],
+    "description": "Contact us to see how we can help transform your company with the agility to unlock data, unleash innovation and connect with success.",
+    "canonical": "https://www.mulesoft.com/contact",
+    "title": "Contact | MuleSoft"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#site_name": "MuleSoft",
+      "http://ogp.me/ns#type": "article",
+      "http://ogp.me/ns#url": "https://www.mulesoft.com/contact",
+      "http://ogp.me/ns#title": "1-415-229-2009"
     }
   }
 }

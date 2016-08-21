@@ -5,12 +5,12 @@ import { DEFAULT_OPTIONS } from './utils'
 
 import snippets from './snippets'
 
-import { Result, Snippet, Options } from './interfaces'
+import { ScrapeResult, Snippet, Options } from './interfaces'
 
 /**
  * Extract rich snippets from the scraping result.
  */
-export function extract (result: Result, opts?: Options): Promise<Snippet> {
+export function extract (result: ScrapeResult, opts?: Options): Promise<Snippet> {
   if (result == null) {
     return
   }

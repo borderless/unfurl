@@ -6,7 +6,7 @@
     "width": 1050,
     "height": 550
   },
-  "mainEntity": {
+  "entity": {
     "type": "video",
     "html": "<iframe src=\"https://embed-ssl.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity.html\" width=\"560\" height=\"315\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>"
   },

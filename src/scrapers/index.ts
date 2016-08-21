@@ -1,7 +1,7 @@
 import * as html from './html'
 import * as image from './image'
 import * as video from './video'
-import * as link from './link'
+import * as pdf from './pdf'
 
 import { Rule } from '../interfaces'
 
@@ -12,7 +12,7 @@ const rules: Rule[] = [
   html,
   image,
   video,
-  link
+  pdf
 ]
 
 export default rules

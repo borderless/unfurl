@@ -1,56 +1,56 @@
 {
+  "type": "html",
   "contentUrl": "https://droplr.com/droplr-addition-google-chrome-extension",
   "originalUrl": "https://droplr.com/droplr-addition-google-chrome-extension",
   "encodingFormat": "text/html",
-  "type": "html",
-  "meta": {
-    "jsonLd": {
+  "html": {
+    "title": "Droplr addition: Google Chrome Extension! - Droplr",
+    "icons": [
+      {
+        "url": "https://droplr.com/favicon.ico",
+        "type": "image/x-icon"
+      }
+    ],
+    "canonical": "https://droplr.com/droplr-addition-google-chrome-extension"
+  },
+  "twitter": {
+    "image:src": "https://droplr.com/wp-content/themes/droplr/images/v2/card.png",
+    "card": "summary_large_image",
+    "site": "@droplr",
+    "creator": "@droplr",
+    "title": "Droplr addition: Google Chrome Extension! - Droplr"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#locale": "en_US",
+      "http://ogp.me/ns#type": "article",
+      "http://ogp.me/ns#title": "Droplr addition: Google Chrome Extension! - Droplr",
+      "http://ogp.me/ns#description": "Get screenshots, annotations and effortless sharing with Droplr for Chrome. Just take a screenshot or make an annotation and Droplr will copy a short link to clipboard that you can share your screenshot in chat, email, text, or anywhere. You can also manage all your images, create collections, view stats, customize your urls, and more …",
+      "http://ogp.me/ns#url": "https://droplr.com/droplr-addition-google-chrome-extension",
+      "http://ogp.me/ns#site_name": "Droplr",
+      "http://ogp.me/ns/article#section": "Uncategorized",
+      "http://ogp.me/ns/article#published_time": "2016-05-10T09:35:26+00:00",
+      "http://ogp.me/ns#image": "http://droplr.com/wp-content/uploads/2016/05/Drop-with-Chrome-300x187.jpg"
+    }
+  },
+  "jsonld": [
+    {
       "@context": "http://schema.org",
       "@type": "WebSite",
       "url": "https://droplr.com/",
       "name": "Droplr"
-    },
-    "html": {
-      "title": "Droplr addition: Google Chrome Extension! - Droplr",
-      "icons": [
-        {
-          "url": "https://droplr.com/favicon.ico",
-          "type": "image/x-icon"
-        }
-      ],
-      "canonical": "https://droplr.com/droplr-addition-google-chrome-extension"
-    },
-    "twitter": {
-      "image:src": "https://droplr.com/wp-content/themes/droplr/images/v2/card.png",
-      "card": "summary_large_image",
-      "site": "@droplr",
-      "creator": "@droplr",
-      "title": "Droplr addition: Google Chrome Extension! - Droplr"
-    },
-    "rdfa": {
-      "": {
-        "http://ogp.me/ns#locale": "en_US",
-        "http://ogp.me/ns#type": "article",
-        "http://ogp.me/ns#title": "Droplr addition: Google Chrome Extension! - Droplr",
-        "http://ogp.me/ns#description": "Get screenshots, annotations and effortless sharing with Droplr for Chrome. Just take a screenshot or make an annotation and Droplr will copy a short link to clipboard that you can share your screenshot in chat, email, text, or anywhere. You can also manage all your images, create collections, view stats, customize your urls, and more …",
-        "http://ogp.me/ns#url": "https://droplr.com/droplr-addition-google-chrome-extension",
-        "http://ogp.me/ns#site_name": "Droplr",
-        "http://ogp.me/ns/article#section": "Uncategorized",
-        "http://ogp.me/ns/article#published_time": "2016-05-10T09:35:26+00:00",
-        "http://ogp.me/ns#image": "http://droplr.com/wp-content/uploads/2016/05/Drop-with-Chrome-300x187.jpg"
-      }
-    },
-    "oembed": {
-      "version": "1.0",
-      "provider_name": "Droplr",
-      "provider_url": "https://droplr.com",
-      "author_name": "Nicole Pressprich",
-      "author_url": "https://droplr.com/author/nicole",
-      "title": "Droplr addition: Google Chrome Extension!",
-      "type": "rich",
-      "width": 600,
-      "height": 338,
-      "html": "<blockquote class=\"wp-embedded-content\"><a href=\"https://droplr.com/droplr-addition-google-chrome-extension\">Droplr addition: Google Chrome Extension!</a></blockquote>\n<script type='text/javascript'>\n<!--//--><![CDATA[//><!--\n\t\t!function(a,b){\"use strict\";function c(){if(!e){e=!0;var a,c,d,f,g=-1!==navigator.appVersion.indexOf(\"MSIE 10\"),h=!!navigator.userAgent.match(/Trident.*rv:11\\./),i=b.querySelectorAll(\"iframe.wp-embedded-content\");for(c=0;c<i.length;c++)if(d=i[c],!d.getAttribute(\"data-secret\")){if(f=Math.random().toString(36).substr(2,10),d.src+=\"#?secret=\"+f,d.setAttribute(\"data-secret\",f),g||h)a=d.cloneNode(!0),a.removeAttribute(\"security\"),d.parentNode.replaceChild(a,d)}else;}}var d=!1,e=!1;if(b.querySelector)if(a.addEventListener)d=!0;if(a.wp=a.wp||{},!a.wp.receiveEmbedMessage)if(a.wp.receiveEmbedMessage=function(c){var d=c.data;if(d.secret||d.message||d.value)if(!/[^a-zA-Z0-9]/.test(d.secret)){var e,f,g,h,i,j=b.querySelectorAll('iframe[data-secret=\"'+d.secret+'\"]'),k=b.querySelectorAll('blockquote[data-secret=\"'+d.secret+'\"]');for(e=0;e<k.length;e++)k[e].style.display=\"none\";for(e=0;e<j.length;e++)if(f=j[e],c.source===f.contentWindow){if(f.removeAttribute(\"style\"),\"height\"===d.message){if(g=parseInt(d.value,10),g>1e3)g=1e3;else if(200>~~g)g=200;f.height=g}if(\"link\"===d.message)if(h=b.createElement(\"a\"),i=b.createElement(\"a\"),h.href=f.getAttribute(\"src\"),i.href=d.value,i.host===h.host)if(b.activeElement===f)a.top.location.href=d.value}else;}},d)a.addEventListener(\"message\",a.wp.receiveEmbedMessage,!1),b.addEventListener(\"DOMContentLoaded\",c,!1),a.addEventListener(\"load\",c,!1)}(window,document);\n//--><!]]>\n</script><iframe sandbox=\"allow-scripts\" security=\"restricted\" src=\"https://droplr.com/droplr-addition-google-chrome-extension/embed\" width=\"600\" height=\"338\" title=\"&#8220;Droplr addition: Google Chrome Extension!&#8221; &#8212; Droplr\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" class=\"wp-embedded-content\"></iframe>"
     }
+  ],
+  "oembed": {
+    "version": "1.0",
+    "provider_name": "Droplr",
+    "provider_url": "https://droplr.com",
+    "author_name": "Nicole Pressprich",
+    "author_url": "https://droplr.com/author/nicole",
+    "title": "Droplr addition: Google Chrome Extension!",
+    "type": "rich",
+    "width": 600,
+    "height": 338,
+    "html": "<blockquote class=\"wp-embedded-content\"><a href=\"https://droplr.com/droplr-addition-google-chrome-extension\">Droplr addition: Google Chrome Extension!</a></blockquote>\n<script type='text/javascript'>\n<!--//--><![CDATA[//><!--\n\t\t!function(a,b){\"use strict\";function c(){if(!e){e=!0;var a,c,d,f,g=-1!==navigator.appVersion.indexOf(\"MSIE 10\"),h=!!navigator.userAgent.match(/Trident.*rv:11\\./),i=b.querySelectorAll(\"iframe.wp-embedded-content\");for(c=0;c<i.length;c++)if(d=i[c],!d.getAttribute(\"data-secret\")){if(f=Math.random().toString(36).substr(2,10),d.src+=\"#?secret=\"+f,d.setAttribute(\"data-secret\",f),g||h)a=d.cloneNode(!0),a.removeAttribute(\"security\"),d.parentNode.replaceChild(a,d)}else;}}var d=!1,e=!1;if(b.querySelector)if(a.addEventListener)d=!0;if(a.wp=a.wp||{},!a.wp.receiveEmbedMessage)if(a.wp.receiveEmbedMessage=function(c){var d=c.data;if(d.secret||d.message||d.value)if(!/[^a-zA-Z0-9]/.test(d.secret)){var e,f,g,h,i,j=b.querySelectorAll('iframe[data-secret=\"'+d.secret+'\"]'),k=b.querySelectorAll('blockquote[data-secret=\"'+d.secret+'\"]');for(e=0;e<k.length;e++)k[e].style.display=\"none\";for(e=0;e<j.length;e++)if(f=j[e],c.source===f.contentWindow){if(f.removeAttribute(\"style\"),\"height\"===d.message){if(g=parseInt(d.value,10),g>1e3)g=1e3;else if(200>~~g)g=200;f.height=g}if(\"link\"===d.message)if(h=b.createElement(\"a\"),i=b.createElement(\"a\"),h.href=f.getAttribute(\"src\"),i.href=d.value,i.host===h.host)if(b.activeElement===f)a.top.location.href=d.value}else;}},d)a.addEventListener(\"message\",a.wp.receiveEmbedMessage,!1),b.addEventListener(\"DOMContentLoaded\",c,!1),a.addEventListener(\"load\",c,!1)}(window,document);\n//--><!]]>\n</script><iframe sandbox=\"allow-scripts\" security=\"restricted\" src=\"https://droplr.com/droplr-addition-google-chrome-extension/embed\" width=\"600\" height=\"338\" title=\"&#8220;Droplr addition: Google Chrome Extension!&#8221; &#8212; Droplr\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" class=\"wp-embedded-content\"></iframe>"
   }
 }

@@ -1,9 +1,9 @@
 {
+  "type": "image",
   "contentUrl": "http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png",
   "originalUrl": "http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png",
   "encodingFormat": "image/png",
   "contentSize": 19153,
-  "dateModified": "2011-08-29T02:10:41.000Z",
   "exifData": {
     "SourceFile": "-",
     "ExifToolVersion": 10.24,
@@ -19,6 +19,5 @@
     "Interlace": "Noninterlaced",
     "ImageSize": "495x341",
     "Megapixels": 0.169
-  },
-  "type": "image"
+  }
 }

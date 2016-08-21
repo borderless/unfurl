@@ -5,7 +5,7 @@
     "width": 1200,
     "height": 630
   },
-  "mainEntity": {
+  "entity": {
     "type": "article"
   },
   "contentUrl": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing&usp=embed_facebook",

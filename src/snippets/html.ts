@@ -11,9 +11,8 @@ import {
 } from '../utils'
 
 import {
-  HtmlResult,
-  HtmlResultMeta,
-  HtmlMainEntity,
+  ScrapeResult,
+  Entity,
   HtmlSnippet,
   HtmlSnippetImage,
   HtmlSnippetAppLink,
@@ -27,57 +26,55 @@ import {
   Options
 } from '../interfaces'
 
-export default function (result: HtmlResult, options: Options): HtmlSnippet {
-  const { contentUrl, meta } = result
-
+export default function (result: ScrapeResult, options: Options): HtmlSnippet {
   return {
-    type: 'html' as 'html',
-    image: getMetaImage(meta, contentUrl),
-    video: getMetaVideo(meta, contentUrl),
-    audio: getMetaAudio(meta, contentUrl),
-    player: getMetaPlayer(meta, contentUrl),
-    mainEntity: getMetaMainEntity(meta, contentUrl),
-    contentUrl: getMetaUrl(meta, contentUrl),
+    type: 'html',
+    image: getImage(result),
+    video: getVideo(result),
+    audio: getAudio(result),
+    player: getPlayer(result),
+    entity: getEntity(result),
+    contentUrl: getContentUrl(result),
     contentSize: result.contentSize,
     originalUrl: result.originalUrl,
     encodingFormat: result.encodingFormat,
-    determiner: getMetaDeterminer(meta),
-    headline: getMetaHeadline(meta),
-    description: getMetaDescription(meta),
-    provider: getMetaProvider(meta),
-    author: getMetaAuthor(meta),
-    ttl: getMetaTtl(meta),
-    icon: getMetaIcon(meta, options),
-    tags: getMetaTags(meta),
-    locale: getMetaLocale(meta),
-    twitter: getMetaTwitter(meta),
-    apps: getMetaApps(meta)
+    determiner: getDeterminer(result),
+    headline: getHeadline(result),
+    description: getDescription(result),
+    provider: getProvider(result),
+    author: getAuthor(result),
+    ttl: getTtl(result),
+    icon: getIcon(result, options),
+    tags: getTags(result),
+    locale: getLocale(result),
+    twitter: getTwitter(result),
+    apps: getApps(result)
   }
 }
 
 /**
  * Get the canonical URL from the metadata.
  */
-function getMetaUrl (meta: HtmlResultMeta, contentUrl: string) {
-  return getUrl(meta, ['twitter', 'url'], contentUrl) ||
-    getUrl(meta, ['rdfa', '', 'http://ogp.me/ns#url'], contentUrl) ||
-    getUrl(meta, ['html', 'canonical'], contentUrl) ||
-    getUrl(meta, ['applinks', 'web:url'], contentUrl) ||
-    getUrl(meta, ['oembed', 'url'], contentUrl) ||
-    contentUrl
+function getContentUrl (result: ScrapeResult) {
+  return getUrl(result, ['twitter', 'url'], result.contentUrl) ||
+    getUrl(result, ['rdfa', '', 'http://ogp.me/ns#url'], result.contentUrl) ||
+    getUrl(result, ['html', 'canonical'], result.contentUrl) ||
+    getUrl(result, ['applinks', 'web:url'], result.contentUrl) ||
+    getUrl(result, ['oembed', 'url'], result.contentUrl) ||
+    result.contentUrl
 }
 
 /**
  * Get the metadata author.
  */
-function getMetaAuthor (meta: HtmlResultMeta) {
-  const name = getString(meta, ['html', 'author']) ||
-    getString(meta, ['oembed', 'author_name']) ||
-    getString(meta, ['rdfa', '', 'http://ogp.me/ns/article#author']) ||
-    getString(meta, ['rdfa', '', 'https://creativecommons.org/ns#attributionName']) ||
-    getString(meta, ['sailthru', 'author'])
+function getAuthor (result: ScrapeResult) {
+  const name = getString(result, ['html', 'author']) ||
+    getString(result, ['oembed', 'author_name']) ||
+    getString(result, ['rdfa', '', 'http://ogp.me/ns/article#author']) ||
+    getString(result, ['rdfa', '', 'https://creativecommons.org/ns#attributionName']) ||
+    getString(result, ['sailthru', 'author'])
 
-  const url = getString(meta, ['oembed', 'author_url'])
+  const url = getString(result, ['oembed', 'author_url'])
 
   return { name, url }
 }
@@ -85,14 +82,14 @@ function getMetaAuthor (meta: HtmlResultMeta) {
 /**
  * Get tags from metadata.
  */
-function getMetaTags (meta: HtmlResultMeta): string[] {
-  const htmlKeywords = getString(meta, ['html', 'keywords'])
+function getTags (result: ScrapeResult): string[] {
+  const htmlKeywords = getString(result, ['html', 'keywords'])
 
   if (htmlKeywords) {
     return htmlKeywords.split(/ *, */)
   }
 
-  const metaTags = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video:tag'])
+  const metaTags = getArray(result, ['rdfa', '', 'http://ogp.me/ns#video:tag'])
 
   if (metaTags) {
     return metaTags
@@ -102,20 +99,20 @@ function getMetaTags (meta: HtmlResultMeta): string[] {
 /**
  * Get the name of the site.
  */
-function getMetaProvider (meta: HtmlResultMeta) {
-  const name = getString(meta, ['rdfa', '', 'http://ogp.me/ns#site_name']) ||
-    getString(meta, ['oembed', 'provider_name']) ||
-    getString(meta, ['html', 'application-name']) ||
-    getString(meta, ['html', 'apple-mobile-web-app-title']) ||
-    getString(meta, ['twitter', 'app:name:iphone']) ||
-    getString(meta, ['twitter', 'app:name:ipad']) ||
-    getString(meta, ['twitter', 'app:name:googleplay']) ||
-    getString(meta, ['applinks', 'ios:app_name']) ||
-    getString(meta, ['applinks', 'ipad:app_name']) ||
-    getString(meta, ['applinks', 'iphone:app_name']) ||
-    getString(meta, ['twitter', 'android:app_name'])
+function getProvider (result: ScrapeResult) {
+  const name = getString(result, ['rdfa', '', 'http://ogp.me/ns#site_name']) ||
+    getString(result, ['oembed', 'provider_name']) ||
+    getString(result, ['html', 'application-name']) ||
+    getString(result, ['html', 'apple-mobile-web-app-title']) ||
+    getString(result, ['twitter', 'app:name:iphone']) ||
+    getString(result, ['twitter', 'app:name:ipad']) ||
+    getString(result, ['twitter', 'app:name:googleplay']) ||
+    getString(result, ['applinks', 'ios:app_name']) ||
+    getString(result, ['applinks', 'ipad:app_name']) ||
+    getString(result, ['applinks', 'iphone:app_name']) ||
+    getString(result, ['twitter', 'android:app_name'])
 
-  const url = getString(meta, ['oembed', 'provider_url'])
+  const url = getString(result, ['oembed', 'provider_url'])
 
   return { name, url }
 }
@@ -123,30 +120,30 @@ function getMetaProvider (meta: HtmlResultMeta) {
 /**
  * Get the headline from the site.
  */
-function getMetaHeadline (meta: HtmlResultMeta) {
-  return getString(meta, ['twitter', 'title']) ||
-    getString(meta, ['oembed', 'title']) ||
-    getString(meta, ['rdfa', '', 'http://ogp.me/ns#title']) ||
-    getString(meta, ['html', 'title'])
+function getHeadline (result: ScrapeResult) {
+  return getString(result, ['twitter', 'title']) ||
+    getString(result, ['oembed', 'title']) ||
+    getString(result, ['rdfa', '', 'http://ogp.me/ns#title']) ||
+    getString(result, ['html', 'title'])
 }
 
 /**
  * Get the caption from the site.
  */
-function getMetaDescription (meta: HtmlResultMeta) {
-  return getString(meta, ['rdfa', '', 'http://ogp.me/ns#description']) ||
-    getString(meta, ['oembed', 'summary']) ||
-    getString(meta, ['twitter', 'description']) ||
-    getString(meta, ['html', 'description'])
+function getDescription (result: ScrapeResult) {
+  return getString(result, ['rdfa', '', 'http://ogp.me/ns#description']) ||
+    getString(result, ['oembed', 'summary']) ||
+    getString(result, ['twitter', 'description']) ||
+    getString(result, ['html', 'description'])
 }
 
 /**
  * Get the meta image url.
  */
-function getMetaImage (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetImage | HtmlSnippetImage[] {
-  const ogpImages = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image']) ||
-    getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:url'])
-  const twitterImages = getArray(meta, ['twitter', 'image']) || getArray(meta, ['twitter', 'image0'])
+function getImage (result: ScrapeResult): HtmlSnippetImage | HtmlSnippetImage[] {
+  const ogpImages = getArray(result, ['rdfa', '', 'http://ogp.me/ns#image']) ||
+    getArray(result, ['rdfa', '', 'http://ogp.me/ns#image:url'])
+  const twitterImages = getArray(result, ['twitter', 'image']) || getArray(result, ['twitter', 'image0'])
   const images: HtmlSnippetImage[] = []
 
   function addImage (newImage: HtmlSnippetImage, append: boolean) {
@@ -187,18 +184,18 @@ function getMetaImage (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetImage 
   }
 
   if (ogpImages) {
-    const ogpTypes = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:type'])
-    const ogpWidths = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:width'])
-    const ogpHeights = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:height'])
-    const ogpSecureUrls = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#image:secure_url'])
+    const ogpTypes = getArray(result, ['rdfa', '', 'http://ogp.me/ns#image:type'])
+    const ogpWidths = getArray(result, ['rdfa', '', 'http://ogp.me/ns#image:width'])
+    const ogpHeights = getArray(result, ['rdfa', '', 'http://ogp.me/ns#image:height'])
+    const ogpSecureUrls = getArray(result, ['rdfa', '', 'http://ogp.me/ns#image:secure_url'])
 
     addImages(ogpImages, ogpSecureUrls, ogpTypes, null, ogpWidths, ogpHeights, true)
   }
 
   if (twitterImages) {
-    const twitterAlts = getArray(meta, ['twitter', 'image:alt'])
-    const twitterWidths = getArray(meta, ['twitter', 'image:width'])
-    const twitterHeights = getArray(meta, ['twitter', 'image:height'])
+    const twitterAlts = getArray(result, ['twitter', 'image:alt'])
+    const twitterWidths = getArray(result, ['twitter', 'image:width'])
+    const twitterHeights = getArray(result, ['twitter', 'image:height'])
 
     addImages(twitterImages, null, null, twitterAlts, twitterWidths, twitterHeights, !ogpImages)
   }
@@ -209,9 +206,9 @@ function getMetaImage (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetImage 
 /**
  * Get the meta audio information.
  */
-function getMetaAudio (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetAudio | HtmlSnippetAudio[] {
-  const ogpAudios = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#audio']) ||
-    getArray(meta, ['rdfa', '', 'http://ogp.me/ns#audio:url'])
+function getAudio (result: ScrapeResult): HtmlSnippetAudio | HtmlSnippetAudio[] {
+  const ogpAudios = getArray(result, ['rdfa', '', 'http://ogp.me/ns#audio']) ||
+    getArray(result, ['rdfa', '', 'http://ogp.me/ns#audio:url'])
   const audios: HtmlSnippetAudio[] = []
 
   function addAudio (newAudio: HtmlSnippetAudio) {
@@ -236,8 +233,8 @@ function getMetaAudio (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetAudio 
   }
 
   if (ogpAudios) {
-    const ogpTypes = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#audio:type'])
-    const ogpSecureUrls = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#audio:secure_url'])
+    const ogpTypes = getArray(result, ['rdfa', '', 'http://ogp.me/ns#audio:type'])
+    const ogpSecureUrls = getArray(result, ['rdfa', '', 'http://ogp.me/ns#audio:secure_url'])
 
     addAudios(ogpAudios, ogpSecureUrls, ogpTypes)
   }
@@ -248,9 +245,9 @@ function getMetaAudio (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetAudio 
 /**
  * Get the meta image url.
  */
-function getMetaVideo (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetVideo | HtmlSnippetVideo[] {
-  const ogpVideos = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video']) ||
-    getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video:url'])
+function getVideo (result: ScrapeResult): HtmlSnippetVideo | HtmlSnippetVideo[] {
+  const ogpVideos = getArray(result, ['rdfa', '', 'http://ogp.me/ns#video']) ||
+    getArray(result, ['rdfa', '', 'http://ogp.me/ns#video:url'])
   const videos: HtmlSnippetVideo[] = []
 
   function addVideo (newVideo: HtmlSnippetVideo) {
@@ -283,10 +280,10 @@ function getMetaVideo (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetVideo 
   }
 
   if (ogpVideos) {
-    const ogpTypes = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video:type'])
-    const ogpWidths = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video:width'])
-    const ogpHeights = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video:height'])
-    const ogpSecureUrls = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#video:secure_url'])
+    const ogpTypes = getArray(result, ['rdfa', '', 'http://ogp.me/ns#video:type'])
+    const ogpWidths = getArray(result, ['rdfa', '', 'http://ogp.me/ns#video:width'])
+    const ogpHeights = getArray(result, ['rdfa', '', 'http://ogp.me/ns#video:height'])
+    const ogpSecureUrls = getArray(result, ['rdfa', '', 'http://ogp.me/ns#video:secure_url'])
 
     addVideos(ogpVideos, ogpSecureUrls, ogpTypes, ogpWidths, ogpHeights)
   }
@@ -297,23 +294,23 @@ function getMetaVideo (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetVideo 
 /**
  * Get apps metadata.
  */
-function getMetaApps (meta: HtmlResultMeta): HtmlSnippetApps {
+function getApps (result: ScrapeResult): HtmlSnippetApps {
   return {
-    iphone: getMetaIphoneApp(meta),
-    ipad: getMetaIpadApp(meta),
-    android: getMetaAndroidApp(meta),
-    windows: getMetaWindowsApp(meta),
-    windowsPhone: getMetaWindowsPhoneApp(meta)
+    iphone: getIphoneApp(result),
+    ipad: getIpadApp(result),
+    android: getAndroidApp(result),
+    windows: getWindowsApp(result),
+    windowsPhone: getWindowsPhoneApp(result)
   }
 }
 
 /**
  * Extract iPad app information from metadata.
  */
-function getMetaIpadApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
-  const twitterIpadUrl = getString(meta, ['twitter', 'app:url:ipad'])
-  const twitterIpadId = getString(meta, ['twitter', 'app:id:ipad'])
-  const twitterIpadName = getString(meta, ['twitter', 'app:name:ipad'])
+function getIpadApp (result: ScrapeResult): HtmlSnippetAppLink {
+  const twitterIpadUrl = getString(result, ['twitter', 'app:url:ipad'])
+  const twitterIpadId = getString(result, ['twitter', 'app:id:ipad'])
+  const twitterIpadName = getString(result, ['twitter', 'app:name:ipad'])
 
   if (twitterIpadId && twitterIpadName && twitterIpadUrl) {
     return {
@@ -323,9 +320,9 @@ function getMetaIpadApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
     }
   }
 
-  const applinksIpadUrl = getString(meta, ['applinks', 'ipad:url'])
-  const applinksIpadId = getString(meta, ['applinks', 'ipad:app_store_id'])
-  const applinksIpadName = getString(meta, ['applinks', 'ipad:app_name'])
+  const applinksIpadUrl = getString(result, ['applinks', 'ipad:url'])
+  const applinksIpadId = getString(result, ['applinks', 'ipad:app_store_id'])
+  const applinksIpadName = getString(result, ['applinks', 'ipad:app_name'])
 
   if (applinksIpadId && applinksIpadName && applinksIpadUrl) {
     return {
@@ -335,16 +332,16 @@ function getMetaIpadApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
     }
   }
 
-  return getMetaIosApp(meta)
+  return getIosApp(result)
 }
 
 /**
  * Extract iPhone app information from metadata.
  */
-function getMetaIphoneApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
-  const twitterIphoneUrl = getString(meta, ['twitter', 'app:url:iphone'])
-  const twitterIphoneId = getString(meta, ['twitter', 'app:id:iphone'])
-  const twitterIphoneName = getString(meta, ['twitter', 'app:name:iphone'])
+function getIphoneApp (result: ScrapeResult): HtmlSnippetAppLink {
+  const twitterIphoneUrl = getString(result, ['twitter', 'app:url:iphone'])
+  const twitterIphoneId = getString(result, ['twitter', 'app:id:iphone'])
+  const twitterIphoneName = getString(result, ['twitter', 'app:name:iphone'])
 
   if (twitterIphoneId && twitterIphoneName && twitterIphoneUrl) {
     return {
@@ -354,9 +351,9 @@ function getMetaIphoneApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
     }
   }
 
-  const applinksIphoneUrl = getString(meta, ['applinks', 'iphone:url'])
-  const applinksIphoneId = getString(meta, ['applinks', 'iphone:app_store_id'])
-  const applinksIphoneName = getString(meta, ['applinks', 'iphone:app_name'])
+  const applinksIphoneUrl = getString(result, ['applinks', 'iphone:url'])
+  const applinksIphoneId = getString(result, ['applinks', 'iphone:app_store_id'])
+  const applinksIphoneName = getString(result, ['applinks', 'iphone:app_name'])
 
   if (applinksIphoneId && applinksIphoneName && applinksIphoneUrl) {
     return {
@@ -366,16 +363,16 @@ function getMetaIphoneApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
     }
   }
 
-  return getMetaIosApp(meta)
+  return getIosApp(result)
 }
 
 /**
  * Extract the iOS app metadata.
  */
-function getMetaIosApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
-  const applinksUrl = getString(meta, ['applinks', 'ios:url'])
-  const applinksId = getString(meta, ['applinks', 'ios:app_store_id'])
-  const applinksName = getString(meta, ['applinks', 'ios:app_name'])
+function getIosApp (result: ScrapeResult): HtmlSnippetAppLink {
+  const applinksUrl = getString(result, ['applinks', 'ios:url'])
+  const applinksId = getString(result, ['applinks', 'ios:app_store_id'])
+  const applinksName = getString(result, ['applinks', 'ios:app_name'])
 
   if (applinksId && applinksName && applinksUrl) {
     return {
@@ -389,10 +386,10 @@ function getMetaIosApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
 /**
  * Extract Android app metadata.
  */
-function getMetaAndroidApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
-  const twitterAndroidUrl = getString(meta, ['twitter', 'app:url:googleplay'])
-  const twitterAndroidId = getString(meta, ['twitter', 'app:id:googleplay'])
-  const twitterAndroidName = getString(meta, ['twitter', 'app:name:googleplay'])
+function getAndroidApp (result: ScrapeResult): HtmlSnippetAppLink {
+  const twitterAndroidUrl = getString(result, ['twitter', 'app:url:googleplay'])
+  const twitterAndroidId = getString(result, ['twitter', 'app:id:googleplay'])
+  const twitterAndroidName = getString(result, ['twitter', 'app:name:googleplay'])
 
   if (twitterAndroidId && twitterAndroidName && twitterAndroidUrl) {
     return {
@@ -402,9 +399,9 @@ function getMetaAndroidApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
     }
   }
 
-  const applinksAndroidUrl = getString(meta, ['applinks', 'android:url'])
-  const applinksAndroidId = getString(meta, ['applinks', 'android:package'])
-  const applinksAndroidName = getString(meta, ['applinks', 'android:app_name'])
+  const applinksAndroidUrl = getString(result, ['applinks', 'android:url'])
+  const applinksAndroidId = getString(result, ['applinks', 'android:package'])
+  const applinksAndroidName = getString(result, ['applinks', 'android:app_name'])
 
   if (applinksAndroidId && applinksAndroidName && applinksAndroidUrl) {
     return {
@@ -418,10 +415,10 @@ function getMetaAndroidApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
 /**
  * Extract Windows Phone app metadata.
  */
-function getMetaWindowsPhoneApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
-  const applinksWindowsPhoneUrl = getString(meta, ['applinks', 'windows_phone:url'])
-  const applinksWindowsPhoneId = getString(meta, ['applinks', 'windows_phone:app_id'])
-  const applinksWindowsPhoneName = getString(meta, ['applinks', 'windows_phone:app_name'])
+function getWindowsPhoneApp (result: ScrapeResult): HtmlSnippetAppLink {
+  const applinksWindowsPhoneUrl = getString(result, ['applinks', 'windows_phone:url'])
+  const applinksWindowsPhoneId = getString(result, ['applinks', 'windows_phone:app_id'])
+  const applinksWindowsPhoneName = getString(result, ['applinks', 'windows_phone:app_name'])
 
   if (applinksWindowsPhoneId && applinksWindowsPhoneName && applinksWindowsPhoneUrl) {
     return {
@@ -431,16 +428,16 @@ function getMetaWindowsPhoneApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
     }
   }
 
-  return getMetaWindowsUniversalApp(meta)
+  return getWindowsUniversalApp(result)
 }
 
 /**
  * Extract Windows app metadata.
  */
-function getMetaWindowsApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
-  const applinksWindowsUrl = getString(meta, ['applinks', 'windows:url'])
-  const applinksWindowsId = getString(meta, ['applinks', 'windows:app_id'])
-  const applinksWindowsName = getString(meta, ['applinks', 'windows:app_name'])
+function getWindowsApp (result: ScrapeResult): HtmlSnippetAppLink {
+  const applinksWindowsUrl = getString(result, ['applinks', 'windows:url'])
+  const applinksWindowsId = getString(result, ['applinks', 'windows:app_id'])
+  const applinksWindowsName = getString(result, ['applinks', 'windows:app_name'])
 
   if (applinksWindowsId && applinksWindowsName && applinksWindowsUrl) {
     return {
@@ -450,16 +447,16 @@ function getMetaWindowsApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
     }
   }
 
-  return getMetaWindowsUniversalApp(meta)
+  return getWindowsUniversalApp(result)
 }
 
 /**
  * Extract Windows Universal app metadata.
  */
-function getMetaWindowsUniversalApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
-  const applinksWindowsUniversalUrl = getString(meta, ['applinks', 'windows_universal:url'])
-  const applinksWindowsUniversalId = getString(meta, ['applinks', 'windows_universal:app_id'])
-  const applinksWindowsUniversalName = getString(meta, ['applinks', 'windows_universal:app_name'])
+function getWindowsUniversalApp (result: ScrapeResult): HtmlSnippetAppLink {
+  const applinksWindowsUniversalUrl = getString(result, ['applinks', 'windows_universal:url'])
+  const applinksWindowsUniversalId = getString(result, ['applinks', 'windows_universal:app_id'])
+  const applinksWindowsUniversalName = getString(result, ['applinks', 'windows_universal:app_name'])
 
   if (applinksWindowsUniversalId && applinksWindowsUniversalName && applinksWindowsUniversalUrl) {
     return {
@@ -473,9 +470,9 @@ function getMetaWindowsUniversalApp (meta: HtmlResultMeta): HtmlSnippetAppLink {
 /**
  * Get locale data.
  */
-function getMetaLocale (meta: HtmlResultMeta): HtmlSnippetLocale {
-  const primary = getString(meta, ['rdfa', '', 'http://ogp.me/ns#locale'])
-  const alternate = getArray(meta, ['rdfa', '', 'http://ogp.me/ns#locale:alternate'])
+function getLocale (result: ScrapeResult): HtmlSnippetLocale {
+  const primary = getString(result, ['rdfa', '', 'http://ogp.me/ns#locale'])
+  const alternate = getArray(result, ['rdfa', '', 'http://ogp.me/ns#locale:alternate'])
 
   if (primary || alternate) {
     return { primary, alternate }
@@ -485,11 +482,11 @@ function getMetaLocale (meta: HtmlResultMeta): HtmlSnippetLocale {
 /**
  * Get twitter data.
  */
-function getMetaTwitter (meta: HtmlResultMeta): HtmlSnippetTwitter {
-  const creatorId = getString(meta, ['twitter', 'creator:id'])
-  const creatorHandle = getTwitterHandle(meta, ['twitter', 'creator'])
-  const siteId = getString(meta, ['twitter', 'site:id'])
-  const siteHandle = getTwitterHandle(meta, ['twitter', 'site'])
+function getTwitter (result: ScrapeResult): HtmlSnippetTwitter {
+  const creatorId = getString(result, ['twitter', 'creator:id'])
+  const creatorHandle = getTwitterHandle(result, ['twitter', 'creator'])
+  const siteId = getString(result, ['twitter', 'site:id'])
+  const siteHandle = getTwitterHandle(result, ['twitter', 'site'])
 
   if (siteId || siteHandle || creatorId || creatorHandle) {
     return {
@@ -504,8 +501,8 @@ function getMetaTwitter (meta: HtmlResultMeta): HtmlSnippetTwitter {
 /**
  * Extract/normalize the twitter handle.
  */
-function getTwitterHandle (meta: HtmlResultMeta, path: Path) {
-  const value = getString(meta, path)
+function getTwitterHandle (result: ScrapeResult, path: Path) {
+  const value = getString(result, path)
 
   if (value) {
     // Normalize twitter handles.
@@ -516,33 +513,33 @@ function getTwitterHandle (meta: HtmlResultMeta, path: Path) {
 /**
  * Get the TTL of the page.
  */
-function getMetaTtl (meta: HtmlResultMeta): number {
-  return getNumber(meta, ['rdfa', '', 'http://ogp.me/ns#ttl']) ||
-    getNumber(meta, ['oembed', 'cache_age'])
+function getTtl (result: ScrapeResult): number {
+  return getNumber(result, ['rdfa', '', 'http://ogp.me/ns#ttl']) ||
+    getNumber(result, ['oembed', 'cache_age'])
 }
 
 /**
  * Get the object determiner.
  */
-function getMetaDeterminer (meta: HtmlResultMeta): string {
-  return getString(meta, ['rdfa', '', 'http://ogp.me/ns#determiner'])
+function getDeterminer (result: ScrapeResult): string {
+  return getString(result, ['rdfa', '', 'http://ogp.me/ns#determiner'])
 }
 
 /**
  * Retrieve a URL for embedding an interactive widget.
  */
-function getMetaPlayer (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetPlayer {
-  const isPlayer = getString(meta, ['twitter', 'card']) === 'player'
+function getPlayer (result: ScrapeResult): HtmlSnippetPlayer {
+  const isPlayer = getString(result, ['twitter', 'card']) === 'player'
 
   if (!isPlayer) {
     return
   }
 
-  const url = getString(meta, ['twitter', 'player'])
-  const width = getNumber(meta, ['twitter', 'player:width'])
-  const height = getNumber(meta, ['twitter', 'player:height'])
-  const streamUrl = getString(meta, ['twitter', 'player:stream'])
-  const streamContentType = getString(meta, ['twitter', 'player:stream:content_type'])
+  const url = getString(result, ['twitter', 'player'])
+  const width = getNumber(result, ['twitter', 'player:width'])
+  const height = getNumber(result, ['twitter', 'player:height'])
+  const streamUrl = getString(result, ['twitter', 'player:stream'])
+  const streamContentType = getString(result, ['twitter', 'player:stream:content_type'])
 
   if (url && width && height) {
     return {
@@ -558,13 +555,13 @@ function getMetaPlayer (meta: HtmlResultMeta, baseUrl: string): HtmlSnippetPlaye
 /**
  * Retrieve the selected snippet icon.
  */
-function getMetaIcon (meta: HtmlResultMeta, options: Options): HtmlSnippetIcon {
+function getIcon (result: ScrapeResult, options: Options): HtmlSnippetIcon {
   const preferredSize = Number(options.preferredIconSize) || 32
   let selectedSize: number
   let selectedIcon: HtmlSnippetIcon
 
-  if (meta.html && meta.html.icons) {
-    for (const icon of meta.html.icons) {
+  if (result.html && result.html.icons) {
+    for (const icon of result.html.icons) {
       if (selectedSize == null) {
         selectedIcon = icon
       }
@@ -593,37 +590,37 @@ function getMetaIcon (meta: HtmlResultMeta, options: Options): HtmlSnippetIcon {
 /**
  * Extract HTML page content types.
  */
-function getMetaMainEntity (meta: HtmlResultMeta, contentUrl: string): HtmlMainEntity {
-  const twitterType = getString(meta, ['twitter', 'card'])
-  const ogpType = getString(meta, ['rdfa', '', 'http://ogp.me/ns#type'])
-  const oembedType = getString(meta, ['oembed', 'type'])
+function getEntity (result: ScrapeResult): Entity {
+  const twitterType = getString(result, ['twitter', 'card'])
+  const ogpType = getString(result, ['rdfa', '', 'http://ogp.me/ns#type'])
+  const oembedType = getString(result, ['oembed', 'type'])
 
   if (ogpType === 'article') {
     return {
-      type: 'article' as 'article',
-      section: getString(meta, ['rdfa', '', 'http://ogp.me/ns/article#section']),
-      publisher: getString(meta, ['rdfa', '', 'http://ogp.me/ns/article#publisher']),
-      datePublished: getDate(meta, ['rdfa', '', 'http://ogp.me/ns/article#published_time']),
-      dateExpires: getDate(meta, ['rdfa', '', 'http://ogp.me/ns/article#expiration_time']),
-      dateModified: getDate(meta, ['rdfa', '', 'http://ogp.me/ns/article#modified_time'])
+      type: 'article',
+      section: getString(result, ['rdfa', '', 'http://ogp.me/ns/article#section']),
+      publisher: getString(result, ['rdfa', '', 'http://ogp.me/ns/article#publisher']),
+      datePublished: getDate(result, ['rdfa', '', 'http://ogp.me/ns/article#published_time']),
+      dateExpires: getDate(result, ['rdfa', '', 'http://ogp.me/ns/article#expiration_time']),
+      dateModified: getDate(result, ['rdfa', '', 'http://ogp.me/ns/article#modified_time'])
     }
   }
 
   if (oembedType === 'video') {
     return {
       type: 'video',
-      html: getString(meta, ['oembed', 'html']),
-      width: getNumber(meta, ['oembed', 'width']),
-      height: getNumber(meta, ['oembed', 'height'])
+      html: getString(result, ['oembed', 'html']),
+      width: getNumber(result, ['oembed', 'width']),
+      height: getNumber(result, ['oembed', 'height'])
     }
   }
 
   if (oembedType === 'rich') {
     return {
       type: 'rich',
-      html: getString(meta, ['oembed', 'html']),
-      width: getNumber(meta, ['oembed', 'width']),
-      height: getNumber(meta, ['oembed', 'height'])
+      html: getString(result, ['oembed', 'html']),
+      width: getNumber(result, ['oembed', 'width']),
+      height: getNumber(result, ['oembed', 'height'])
     }
   }
 
@@ -635,9 +632,9 @@ function getMetaMainEntity (meta: HtmlResultMeta, contentUrl: string): HtmlMainE
   ) {
     return {
       type: 'image',
-      url: getString(meta, ['oembed', 'url']),
-      width: getNumber(meta, ['oembed', 'width']),
-      height: getNumber(meta, ['oembed', 'height'])
+      url: getString(result, ['oembed', 'url']),
+      width: getNumber(result, ['oembed', 'width']),
+      height: getNumber(result, ['oembed', 'height'])
     }
   }
 }

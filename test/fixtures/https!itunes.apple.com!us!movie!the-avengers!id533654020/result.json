@@ -1,50 +1,49 @@
 {
+  "type": "html",
   "contentUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
   "originalUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
   "encodingFormat": "text/html",
   "contentSize": 19429,
-  "dateModified": "2016-08-14T08:42:31.000Z",
-  "type": "html",
-  "meta": {
-    "html": {
-      "keywords": "download, The Avengers, Action & Adventure, Joss Whedon, movies, film, rent, buy, itunes, apple tv",
-      "description": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
-      "canonical": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
-      "title": "The Avengers on iTunes",
-      "icons": [
-        {
-          "url": "https://itunes.apple.com/favicon.ico",
-          "type": "image/x-icon"
-        }
-      ]
-    },
-    "twitter": {
-      "title": "The Avengers on iTunes",
-      "description": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
-      "site": "@iTunes",
-      "domain": "iTunes",
-      "card": "summary_large_image",
-      "image": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg"
-    },
-    "rdfa": {
-      "": {
-        "http://ogp.me/ns#title": "The Avengers on iTunes",
-        "http://ogp.me/ns#description": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
-        "http://ogp.me/ns#site_name": "iTunes",
-        "http://ogp.me/ns#image": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
-        "http://ogp.me/ns#image:secure_url": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
-        "http://ogp.me/ns#image:type": "image/jpg",
-        "http://ogp.me/ns#image:width": "1200",
-        "http://ogp.me/ns#image:height": "630",
-        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-          "http://schema.org/BreadcrumbList",
-          "http://schema.org/ListItem"
-        ],
-        "http://schema.org/name": "iTunes",
-        "http://schema.org/position": "1"
+  "html": {
+    "keywords": "download, The Avengers, Action & Adventure, Joss Whedon, movies, film, rent, buy, itunes, apple tv",
+    "description": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
+    "canonical": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
+    "title": "The Avengers on iTunes",
+    "icons": [
+      {
+        "url": "https://itunes.apple.com/favicon.ico",
+        "type": "image/x-icon"
       }
-    },
-    "microdata": {
+    ]
+  },
+  "twitter": {
+    "title": "The Avengers on iTunes",
+    "description": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
+    "site": "@iTunes",
+    "domain": "iTunes",
+    "card": "summary_large_image",
+    "image": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#title": "The Avengers on iTunes",
+      "http://ogp.me/ns#description": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
+      "http://ogp.me/ns#site_name": "iTunes",
+      "http://ogp.me/ns#image": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
+      "http://ogp.me/ns#image:secure_url": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
+      "http://ogp.me/ns#image:type": "image/jpg",
+      "http://ogp.me/ns#image:width": "1200",
+      "http://ogp.me/ns#image:height": "630",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+        "http://schema.org/BreadcrumbList",
+        "http://schema.org/ListItem"
+      ],
+      "http://schema.org/name": "iTunes",
+      "http://schema.org/position": "1"
+    }
+  },
+  "microdata": [
+    {
       "@type": "http://schema.org/Movie",
       "name": "The Avengers",
       "director": [
@@ -165,5 +164,5 @@
         "reviewCount": "9632 Ratings"
       }
     }
-  }
+  ]
 }

@@ -3,7 +3,7 @@
   "image": {
     "url": "https://i.kinja-img.com/gawker-media/image/upload/t_original/ittdz6udygdrrkbv8eey.jpg"
   },
-  "mainEntity": {
+  "entity": {
     "type": "article"
   },
   "contentUrl": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",

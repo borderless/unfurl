@@ -3,7 +3,7 @@
   "image": {
     "url": "https://cdn-images-1.medium.com/max/1200/1*QOMaDLcO8rExD0ctBV3BWg.png"
   },
-  "mainEntity": {
+  "entity": {
     "type": "article",
     "publisher": "https://www.facebook.com/medium",
     "datePublished": "2015-11-24T21:33:25.196Z"

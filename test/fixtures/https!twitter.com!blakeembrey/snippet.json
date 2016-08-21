@@ -1,6 +1,6 @@
 {
   "type": "html",
-  "mainEntity": {
+  "entity": {
     "type": "rich",
     "html": "<a class=\"twitter-timeline\" href=\"https://twitter.com/blakeembrey\">Tweets by blakeembrey</a>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
   },

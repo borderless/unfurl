@@ -1,34 +1,34 @@
 {
+  "type": "html",
   "contentUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing",
   "originalUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing",
   "encodingFormat": "text/html",
-  "type": "html",
-  "meta": {
-    "html": {
-      "title": "Overfitting.pdf - Google Drive",
-      "icons": [
-        {
-          "url": "https://ssl.gstatic.com/docs/doclist/images/icon_14_pdf_favicon.ico"
-        }
-      ]
-    },
-    "rdfa": {
-      "": {
-        "http://ogp.me/ns#title": "Overfitting.pdf",
-        "http://ogp.me/ns#type": "article",
-        "http://ogp.me/ns#site_name": "Google Docs",
-        "http://ogp.me/ns#url": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing&usp=embed_facebook",
-        "http://ogp.me/ns#image": "https://lh3.googleusercontent.com/NhTHVkHHHjdp657GeFCWaeqFEUMsTJztjG0LrHhK9idtWVg0dbgOKQ=w1200-h630-p",
-        "http://ogp.me/ns#image:width": "1200",
-        "http://ogp.me/ns#image:height": "630"
+  "html": {
+    "title": "Overfitting.pdf - Google Drive",
+    "icons": [
+      {
+        "url": "https://ssl.gstatic.com/docs/doclist/images/icon_14_pdf_favicon.ico"
       }
-    },
-    "microdata": {
+    ]
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#title": "Overfitting.pdf",
+      "http://ogp.me/ns#type": "article",
+      "http://ogp.me/ns#site_name": "Google Docs",
+      "http://ogp.me/ns#url": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing&usp=embed_facebook",
+      "http://ogp.me/ns#image": "https://lh3.googleusercontent.com/NhTHVkHHHjdp657GeFCWaeqFEUMsTJztjG0LrHhK9idtWVg0dbgOKQ=w1200-h630-p",
+      "http://ogp.me/ns#image:width": "1200",
+      "http://ogp.me/ns#image:height": "630"
+    }
+  },
+  "microdata": [
+    {
       "@type": "http://schema.org/CreativeWork/DocumentObject",
       "name": "Overfitting.pdf",
       "faviconUrl": "https://ssl.gstatic.com/docs/doclist/images/icon_14_pdf_favicon.ico",
       "url": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing&usp=embed_googleplus",
       "embedURL": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/preview?usp=embed_googleplus"
     }
-  }
+  ]
 }

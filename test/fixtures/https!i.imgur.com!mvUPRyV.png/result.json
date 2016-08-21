@@ -1,9 +1,9 @@
 {
+  "type": "image",
   "contentUrl": "https://i.imgur.com/mvUPRyV.png",
   "originalUrl": "https://i.imgur.com/mvUPRyV.png",
   "encodingFormat": "image/png",
   "contentSize": 78800,
-  "dateModified": "2016-05-30T16:33:22.000Z",
   "exifData": {
     "SourceFile": "-",
     "ExifToolVersion": 10.24,
@@ -24,6 +24,5 @@
     "PixelUnits": "meters",
     "ImageSize": "773x484",
     "Megapixels": 0.374
-  },
-  "type": "image"
+  }
 }

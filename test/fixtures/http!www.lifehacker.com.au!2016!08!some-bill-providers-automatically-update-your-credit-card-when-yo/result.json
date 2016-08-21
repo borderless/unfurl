@@ -1,79 +1,77 @@
 {
+  "type": "html",
   "contentUrl": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
   "originalUrl": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
   "encodingFormat": "text/html",
-  "type": "html",
-  "meta": {
-    "html": {
-      "title": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One | Lifehacker Australia",
-      "description": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, w...",
-      "author": "Kristin Wong",
-      "canonical": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
-      "icons": [
-        {
-          "url": "http://edge.alluremedia.com.au/assets/technetwork/ico/favicon_lifehacker.ico",
-          "type": "image/x-icon"
-        }
-      ]
-    },
-    "twitter": {
-      "card": "summary_large_image",
-      "image": "https://i.kinja-img.com/gawker-media/image/upload/t_original/ittdz6udygdrrkbv8eey.jpg",
-      "site": "@LifehackerAU"
-    },
-    "rdfa": {
-      "": {
-        "http://ogp.me/ns#type": "article",
-        "http://ogp.me/ns#title": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
-        "http://ogp.me/ns#image": "https://i.kinja-img.com/gawker-media/image/upload/t_original/ittdz6udygdrrkbv8eey.jpg",
-        "http://ogp.me/ns#description": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will update automatically. So how do they know your new credit card number?...",
-        "http://ogp.me/ns#url": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/"
-      }
-    },
-    "microdata": [
+  "html": {
+    "title": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One | Lifehacker Australia",
+    "description": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, w...",
+    "author": "Kristin Wong",
+    "canonical": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
+    "icons": [
       {
-        "@type": "http://schema.org/WPHeader"
-      },
-      {
-        "@type": "http://schema.org/WPAdBlock"
-      },
-      {
-        "@type": "http://schema.org/NewsArticle",
-        "genre": "Money",
-        "headline": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
-        "author": "Kristin Wong",
-        "datePublished": "2016-08-16T17:00:00+10:00"
-      },
-      {
-        "@type": "http://schema.org/WPSideBar"
-      },
-      {
-        "@type": "http://schema.org/WPAdBlock"
-      },
-      {
-        "@type": "http://schema.org/WPFooter",
-        "headline": [
-          "How To Fix No Man's Sky On PC",
-          "How To Eat Like An Olympian [Infographic]",
-          "If You Rely Too Much On Plan B, It Might Ruin Your Plan A",
-          "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
-          "The Science Of How And Why We Swear [NSFW]",
-          "How To Get The Most From LG's FH6 New X-Boom Freestyler Speaker",
-          "So What Would Really Happen If You Just, Like, Never Got Out Of Bed?",
-          "Look At This Googly-Eyed Squid",
-          "Dawn Of War 3 Is Looking Really Smooth",
-          "It's 2016 And I'm Buying A New Japanese Fax Machine",
-          "How's It Feel To Be The Damsel, Batman?",
-          "There Sure Are A Lotta Soft Drink Vending Machines In Video Games",
-          "BHP HORROR SHOW: Mining giant posts record $8.3 billion loss, crushes dividend",
-          "Jurassic Park star Sam Neill let rip over Sydney's lockout laws",
-          "Warnie's bought back the Melbourne mansion he renovated with former wife Simone for nearly $16m",
-          "Shares in this funeral business are tanking because not enough people are dying"
-        ]
-      },
-      {
-        "@type": "http://schema.org/WPAdBlock"
+        "url": "http://edge.alluremedia.com.au/assets/technetwork/ico/favicon_lifehacker.ico",
+        "type": "image/x-icon"
       }
     ]
-  }
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "image": "https://i.kinja-img.com/gawker-media/image/upload/t_original/ittdz6udygdrrkbv8eey.jpg",
+    "site": "@LifehackerAU"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#type": "article",
+      "http://ogp.me/ns#title": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
+      "http://ogp.me/ns#image": "https://i.kinja-img.com/gawker-media/image/upload/t_original/ittdz6udygdrrkbv8eey.jpg",
+      "http://ogp.me/ns#description": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will update automatically. So how do they know your new credit card number?...",
+      "http://ogp.me/ns#url": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/"
+    }
+  },
+  "microdata": [
+    {
+      "@type": "http://schema.org/WPHeader"
+    },
+    {
+      "@type": "http://schema.org/WPAdBlock"
+    },
+    {
+      "@type": "http://schema.org/NewsArticle",
+      "genre": "Money",
+      "headline": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
+      "author": "Kristin Wong",
+      "datePublished": "2016-08-16T17:00:00+10:00"
+    },
+    {
+      "@type": "http://schema.org/WPSideBar"
+    },
+    {
+      "@type": "http://schema.org/WPAdBlock"
+    },
+    {
+      "@type": "http://schema.org/WPFooter",
+      "headline": [
+        "How To Fix No Man's Sky On PC",
+        "How To Eat Like An Olympian [Infographic]",
+        "If You Rely Too Much On Plan B, It Might Ruin Your Plan A",
+        "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
+        "The Science Of How And Why We Swear [NSFW]",
+        "How To Get The Most From LG's FH6 New X-Boom Freestyler Speaker",
+        "So What Would Really Happen If You Just, Like, Never Got Out Of Bed?",
+        "Look At This Googly-Eyed Squid",
+        "Dawn Of War 3 Is Looking Really Smooth",
+        "It's 2016 And I'm Buying A New Japanese Fax Machine",
+        "How's It Feel To Be The Damsel, Batman?",
+        "There Sure Are A Lotta Soft Drink Vending Machines In Video Games",
+        "BHP HORROR SHOW: Mining giant posts record $8.3 billion loss, crushes dividend",
+        "Jurassic Park star Sam Neill let rip over Sydney's lockout laws",
+        "Warnie's bought back the Melbourne mansion he renovated with former wife Simone for nearly $16m",
+        "Shares in this funeral business are tanking because not enough people are dying"
+      ]
+    },
+    {
+      "@type": "http://schema.org/WPAdBlock"
+    }
+  ]
 }

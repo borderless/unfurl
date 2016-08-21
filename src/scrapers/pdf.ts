@@ -3,7 +3,7 @@ import { Readable } from 'stream'
 import { Headers, AbortFn, ScrapeResult, Options } from '../interfaces'
 
 export function supported ({ encodingFormat }: ScrapeResult) {
-  return /^image\//.test(encodingFormat)
+  return encodingFormat === 'application/pdf'
 }
 
 export function handle (
@@ -13,7 +13,7 @@ export function handle (
   abort: AbortFn,
   options: Options
 ): Promise<ScrapeResult> {
-  result.type = 'image'
+  result.type = 'pdf'
 
   return options.extractExifData(result.contentUrl, stream, abort)
     .then(

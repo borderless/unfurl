@@ -1,8 +1,23 @@
 {
+  "type": "pdf",
   "contentUrl": "http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf",
   "originalUrl": "http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf",
   "encodingFormat": "application/pdf",
   "contentSize": 462585,
-  "dateModified": "2016-03-15T02:50:37.000Z",
-  "type": "link"
+  "exifData": {
+    "SourceFile": "-",
+    "ExifToolVersion": 10.24,
+    "FileType": "PDF",
+    "FileTypeExtension": "pdf",
+    "MIMEType": "application/pdf",
+    "PDFVersion": 1.5,
+    "Linearized": "No",
+    "PageCount": 48,
+    "Producer": "MiKTeX pdfTeX-1.40.13",
+    "Creator": "TeX",
+    "CreateDate": "2016:03:14 19:50:35-07:00",
+    "ModifyDate": "2016:03:14 19:50:35-07:00",
+    "Trapped": false,
+    "PTEX_Fullbanner": "This is MiKTeX-pdfTeX 2.9.4535 (1.40.13)"
+  }
 }

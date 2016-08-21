@@ -1,6 +1,6 @@
 import debug = require('debug')
+import arrify = require('arrify')
 import Promise = require('any-promise')
-import extend = require('xtend')
 import { get, createTransport, plugins } from 'popsicle'
 import status = require('popsicle-status')
 import { resolve as resolveUrl } from 'url'
@@ -11,14 +11,13 @@ import { parse } from 'content-type'
 import {
   Headers,
   AbortFn,
-  BaseInfo,
-  HtmlResult,
-  HtmlMetaHtml,
-  HtmlMetaTwitter,
-  HtmlMetaSailthru,
-  HtmlMetaDublinCore,
-  HtmlMetaRdfa,
-  HtmlMetaAppLinks,
+  ScrapeResult,
+  ScrapeResultHtml,
+  ScrapeResultTwitter,
+  ScrapeResultSailthru,
+  ScrapeResultDublinCore,
+  ScrapeResultRdfa,
+  ScrapeResultAppLinks,
   Options,
   HtmlIconMeta
 } from '../interfaces'
@@ -120,7 +119,7 @@ HTML_VALUE_MAP['data'] = HTML_VALUE_MAP['meter']
 /**
  * Check support for HTML.
  */
-export function supported ({ encodingFormat }: BaseInfo) {
+export function supported ({ encodingFormat }: ScrapeResult) {
   return encodingFormat === 'text/html'
 }
 
@@ -138,18 +137,20 @@ interface Context {
 }
 
 export function handle (
-  base: BaseInfo,
+  result: ScrapeResult,
   headers: Headers,
   stream: Readable,
   abort: AbortFn,
   options: Options
-): Promise<HtmlResult> {
-  const { contentUrl } = base
+): Promise<ScrapeResult> {
+  const { contentUrl } = result
 
-  let oembedJson: string
-  let oembedXml: string
+  result.type = 'html'
 
-  const result = new Promise<HtmlResult>((resolve, reject) => {
+  let oembedJsonUrl: string
+  let oembedXmlUrl: string
+
+  const scrape = new Promise<ScrapeResult>((resolve, reject) => {
     const rdfaVocabs: string[] = []
     const rdfaResources: string[] = ['']
     const rdfaPrefixes: any[] = [VOCAB_PREFIXES]
@@ -157,15 +158,14 @@ export function handle (
     const microdataScopes: any[] = []
     const contexts: Context[] = [{ tagName: '', text: '' }]
 
-    const html: HtmlMetaHtml = Object.create(null)
-    const twitter: HtmlMetaTwitter = Object.create(null)
-    const sailthru: HtmlMetaSailthru = Object.create(null)
-    const dc: HtmlMetaDublinCore = Object.create(null)
-    const rdfa: HtmlMetaRdfa = Object.create(null)
-    const applinks: HtmlMetaAppLinks = Object.create(null)
+    const html: ScrapeResultHtml = Object.create(null)
+    const twitter: ScrapeResultTwitter = Object.create(null)
+    const sailthru: ScrapeResultSailthru = Object.create(null)
+    const dc: ScrapeResultDublinCore = Object.create(null)
+    const rdfa: ScrapeResultRdfa = Object.create(null)
+    const applinks: ScrapeResultAppLinks = Object.create(null)
     const microdata: any[] = []
-
-    const result: HtmlResult = extend(base, { type: 'html' as 'html', meta: {} })
+    const jsonld: any[] = []
 
     /**
      * Update microdata with support for `id` references (used via `itemref`).
@@ -190,7 +190,9 @@ export function handle (
 
       if (context.isJsonLd) {
         try {
-          result.meta.jsonLd = JSON.parse(text)
+          const schema = JSON.parse(text)
+
+          jsonld.push(...arrify(schema))
         } catch (e) {
           log(`Failed to parse JSON-LD: "${contentUrl}"`)
         }
@@ -430,9 +432,9 @@ export function handle (
 
               if (rel === 'alternate') {
                 if (type === 'application/json+oembed') {
-                  oembedJson = resolveUrl(contentUrl, href)
+                  oembedJsonUrl = resolveUrl(contentUrl, href)
                 } else if (type === 'text/xml+oembed') {
-                  oembedXml = resolveUrl(contentUrl, href)
+                  oembedXmlUrl = resolveUrl(contentUrl, href)
                 }
               }
 
@@ -490,35 +492,35 @@ export function handle (
       },
       onend () {
         if (Object.keys(html).length) {
-          result.meta.html = html
+          result.html = html
         }
 
         if (Object.keys(twitter).length) {
-          result.meta.twitter = twitter
+          result.twitter = twitter
         }
 
         if (Object.keys(sailthru).length) {
-          result.meta.sailthru = sailthru
+          result.sailthru = sailthru
         }
 
         if (Object.keys(dc).length) {
-          result.meta.dc = dc
+          result.dublincore = dc
         }
 
         if (Object.keys(rdfa).length) {
-          result.meta.rdfa = rdfa
+          result.rdfa = rdfa
         }
 
         if (Object.keys(applinks).length) {
-          result.meta.applinks = applinks
+          result.applinks = applinks
+        }
+
+        if (jsonld.length) {
+          result.jsonld = jsonld
         }
 
         if (microdata.length) {
-          if (microdata.length === 1) {
-            result.meta.microdata = microdata[0]
-          } else {
-            result.meta.microdata = microdata
-          }
+          result.microdata = microdata
         }
 
         return resolve(result)
@@ -531,15 +533,15 @@ export function handle (
     stream.pipe(new WritableStream(cbs, { decodeEntities: true }))
   })
 
-  return result
+  return scrape
     .then(function (result) {
       const resolve: Array<Promise<any>> = []
 
       // Attach OEmbed information to entry.
       if (options.useOEmbed !== false) {
-        if (oembedJson) {
+        if (oembedJsonUrl) {
           const req = get({
-            url: oembedJson,
+            url: oembedJsonUrl,
             headers: {
               'User-Agent': options.userAgent
             }
@@ -548,7 +550,7 @@ export function handle (
             .use(plugins.parse('json'))
             .then(
               (res) => {
-                result.meta.oembed = res.body
+                result.oembed = res.body
               },
               () => {/* Noop request/response errors. */}
             )
@@ -558,7 +560,7 @@ export function handle (
       }
 
       if (options.fallbackOnFavicon !== false) {
-        if (result.meta.html && result.meta.html.icons == null) {
+        if (result.html && result.html.icons == null) {
           const faviconUrl = resolveUrl(contentUrl, '/favicon.ico')
 
           const req = get({
@@ -573,7 +575,7 @@ export function handle (
           const res = req.then(
             (res) => {
               // Initialize the favicon.
-              result.meta.html.icons = [{
+              result.html.icons = [{
                 url: faviconUrl,
                 type: parse(res.get('content-type')).type
               }]
@@ -641,7 +643,7 @@ function assignProperties (obj: any, values: any) {
 /**
  * Set an RDF value in the tree.
  */
-function setRdfaValue (rdfa: HtmlMetaRdfa, resource: string, property: string, value: string) {
+function setRdfaValue (rdfa: ScrapeResultRdfa, resource: string, property: string, value: string) {
   // Avoid setting empty RDFa values.
   if (!value) {
     return

@@ -1,21 +1,19 @@
 import { parse } from 'exif-date'
-import { ImageResult, Options, ImageSnippet } from '../interfaces'
+import { ScrapeResult, Options, ImageSnippet } from '../interfaces'
 
-export default function (result: ImageResult, options: Options): ImageSnippet {
+export default function (result: ScrapeResult, options: Options): ImageSnippet {
   const {
-    type,
-    dateModified,
     encodingFormat,
     contentSize,
     contentUrl,
     originalUrl,
     exifData
-  } = result as ImageResult
+  } = result
 
   return {
-    type,
+    type: 'image',
     encodingFormat: exifData.MIMEType || exifData.Format || encodingFormat,
-    dateModified: parse(exifData.ModifyDate) || dateModified,
+    dateModified: parse(exifData.ModifyDate),
     dateCreated: parse(exifData.DateTimeCreated) || parse(exifData.DigitalCreationDateTime),
     contentSize,
     contentUrl,

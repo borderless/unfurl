@@ -1,9 +1,9 @@
 {
+  "type": "image",
   "contentUrl": "https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg",
   "originalUrl": "https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg",
   "encodingFormat": "image/jpeg",
   "contentSize": 12383845,
-  "dateModified": "2016-07-12T14:02:07.000Z",
   "exifData": {
     "SourceFile": "-",
     "ExifToolVersion": 10.24,
@@ -297,6 +297,5 @@
     "HyperfocalDistance": "1.52 m",
     "LensID": "Sigma 17-70mm f/2.8-4 DC Macro OS HSM",
     "LightValue": 5.6
-  },
-  "type": "image"
+  }
 }

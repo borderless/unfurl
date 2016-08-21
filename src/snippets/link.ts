@@ -1,19 +1,16 @@
-import { LinkResult, LinkSnippet, Options } from '../interfaces'
+import { ScrapeResult, LinkSnippet, Options } from '../interfaces'
 
-export default function (result: LinkResult, options: Options): LinkSnippet {
+export default function (result: ScrapeResult, options: Options): LinkSnippet {
   const {
-    type,
     encodingFormat,
-    dateModified,
     contentSize,
     contentUrl,
     originalUrl
-  } = result as LinkResult
+  } = result
 
   return {
-    type,
+    type: 'link',
     encodingFormat,
-    dateModified,
     contentSize,
     contentUrl,
     originalUrl

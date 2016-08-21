@@ -1,10 +1,84 @@
 {
+  "type": "html",
   "contentUrl": "https://www.flickr.com/photos/timdrivas/27999498362/in/explore-2016-07-05/",
   "originalUrl": "https://www.flickr.com/photos/timdrivas/27999498362/in/explore-2016-07-05/",
   "encodingFormat": "text/html",
-  "type": "html",
-  "meta": {
-    "jsonLd": {
+  "html": {
+    "title": "3d pan white",
+    "description": "The Macy's 4th of July firework show in NYC",
+    "keywords": "city, newyorkcity, skyline, brooklyn, outdoors, fireworks, manhattan, celebration, gothamist, 4thofjuly, independenceday, macysfireworks",
+    "canonical": "https://www.flickr.com/photos/timdrivas/27999498362",
+    "application-name": "The Fourth | The Macy's 4th of July firework show in NYC | Tim Drivas | Flickr",
+    "icons": [
+      {
+        "url": "https://s.yimg.com/pw/images/icon_black_white.svg",
+        "sizes": "any"
+      },
+      {
+        "url": "https://s.yimg.com/pw/favicon.ico",
+        "type": "image/ico"
+      }
+    ]
+  },
+  "twitter": {
+    "app:name:iphone": "Flickr",
+    "app:id:iphone": "328407587",
+    "site": "@flickr",
+    "card": "photo",
+    "description": "The Macy's 4th of July firework show in NYC",
+    "app:url:iphone": "flickr://flickr.com/photos/timdrivas/27999498362/"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#site_name": "Flickr",
+      "http://ogp.me/ns#updated_time": "2016-08-14T08:42:31.422Z",
+      "http://ogp.me/ns#title": "The Fourth",
+      "http://ogp.me/ns#description": "The Macy's 4th of July firework show in NYC",
+      "http://ogp.me/ns#type": "flickr_photos:photo",
+      "http://ogp.me/ns#url": "https://www.flickr.com/photos/timdrivas/27999498362/",
+      "http://ogp.me/ns#image": "https://c2.staticflickr.com/8/7371/27999498362_17c8d4d490_b.jpg",
+      "http://ogp.me/ns#image:width": "1024",
+      "http://ogp.me/ns#image:height": "683"
+    }
+  },
+  "applinks": {
+    "ios:app_name": "Flickr",
+    "ios:app_store_id": "328407587",
+    "ios:url": "flickr://flickr.com/photos/timdrivas/27999498362"
+  },
+  "jsonld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Flickr",
+      "url": "https://www.flickr.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.flickr.com/search?text={search_term_string}&structured=yes",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "http://www.flickr.com",
+      "logo": "https://www.flickr.com/images/opensearch-flickr-logo.png"
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Flickr",
+      "url": "https://www.flickr.com",
+      "sameAs": [
+        "https://www.facebook.com/flickr",
+        "https://instagram.com/flickr",
+        "https://flickr.tumblr.com",
+        "https://twitter.com/flickr",
+        "https://plus.google.com/+flickr",
+        "https://www.pinterest.com/flickr"
+      ]
+    },
+    {
       "@context": "http://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -27,49 +101,6 @@
           }
         }
       ]
-    },
-    "html": {
-      "title": "3d pan white",
-      "description": "The Macy's 4th of July firework show in NYC",
-      "keywords": "city, newyorkcity, skyline, brooklyn, outdoors, fireworks, manhattan, celebration, gothamist, 4thofjuly, independenceday, macysfireworks",
-      "canonical": "https://www.flickr.com/photos/timdrivas/27999498362",
-      "application-name": "The Fourth | The Macy's 4th of July firework show in NYC | Tim Drivas | Flickr",
-      "icons": [
-        {
-          "url": "https://s.yimg.com/pw/images/icon_black_white.svg",
-          "sizes": "any"
-        },
-        {
-          "url": "https://s.yimg.com/pw/favicon.ico",
-          "type": "image/ico"
-        }
-      ]
-    },
-    "twitter": {
-      "app:name:iphone": "Flickr",
-      "app:id:iphone": "328407587",
-      "site": "@flickr",
-      "card": "photo",
-      "description": "The Macy's 4th of July firework show in NYC",
-      "app:url:iphone": "flickr://flickr.com/photos/timdrivas/27999498362/"
-    },
-    "rdfa": {
-      "": {
-        "http://ogp.me/ns#site_name": "Flickr",
-        "http://ogp.me/ns#updated_time": "2016-08-14T08:42:31.422Z",
-        "http://ogp.me/ns#title": "The Fourth",
-        "http://ogp.me/ns#description": "The Macy's 4th of July firework show in NYC",
-        "http://ogp.me/ns#type": "flickr_photos:photo",
-        "http://ogp.me/ns#url": "https://www.flickr.com/photos/timdrivas/27999498362/",
-        "http://ogp.me/ns#image": "https://c2.staticflickr.com/8/7371/27999498362_17c8d4d490_b.jpg",
-        "http://ogp.me/ns#image:width": "1024",
-        "http://ogp.me/ns#image:height": "683"
-      }
-    },
-    "applinks": {
-      "ios:app_name": "Flickr",
-      "ios:app_store_id": "328407587",
-      "ios:url": "flickr://flickr.com/photos/timdrivas/27999498362"
     }
-  }
+  ]
 }

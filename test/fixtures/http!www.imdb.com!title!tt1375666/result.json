@@ -1,40 +1,40 @@
 {
+  "type": "html",
   "contentUrl": "http://www.imdb.com/title/tt1375666/",
   "originalUrl": "http://www.imdb.com/title/tt1375666/",
   "encodingFormat": "text/html",
-  "type": "html",
-  "meta": {
-    "html": {
-      "title": "Inception (2010) - IMDb",
-      "canonical": "http://www.imdb.com/title/tt1375666/",
-      "icons": [
-        {
-          "url": "http://ia.media-imdb.com/images/G/01/imdb/images/safari-favicon-517611381._CB282921673_.svg",
-          "sizes": "any"
-        },
-        {
-          "url": "http://ia.media-imdb.com/images/G/01/imdb/images/favicon-2165806970._CB282921871_.ico",
-          "type": "image/ico"
-        },
-        {
-          "url": "http://ia.media-imdb.com/images/G/01/imdb/images/desktop-favicon-2165806970._CB282919592_.ico",
-          "type": "image/x-icon"
-        }
-      ],
-      "description": "Directed by Christopher Nolan. With Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Ken Watanabe. A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
-      "keywords": "Reviews, Showtimes, DVDs, Photos, Message Boards, User Ratings, Synopsis, Trailers, Credits"
-    },
-    "rdfa": {
-      "": {
-        "http://ogp.me/ns#url": "http://www.imdb.com/title/tt1375666/",
-        "http://ogp.me/ns#image": "http://ia.media-imdb.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
-        "http://ogp.me/ns#type": "video.movie",
-        "http://ogp.me/ns#title": "Inception (2010)",
-        "http://ogp.me/ns#site_name": "IMDb",
-        "http://ogp.me/ns#description": "Directed by Christopher Nolan. With Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Ken Watanabe. A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO."
+  "html": {
+    "title": "Inception (2010) - IMDb",
+    "canonical": "http://www.imdb.com/title/tt1375666/",
+    "icons": [
+      {
+        "url": "http://ia.media-imdb.com/images/G/01/imdb/images/safari-favicon-517611381._CB282921673_.svg",
+        "sizes": "any"
+      },
+      {
+        "url": "http://ia.media-imdb.com/images/G/01/imdb/images/favicon-2165806970._CB282921871_.ico",
+        "type": "image/ico"
+      },
+      {
+        "url": "http://ia.media-imdb.com/images/G/01/imdb/images/desktop-favicon-2165806970._CB282919592_.ico",
+        "type": "image/x-icon"
       }
-    },
-    "microdata": {
+    ],
+    "description": "Directed by Christopher Nolan. With Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Ken Watanabe. A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
+    "keywords": "Reviews, Showtimes, DVDs, Photos, Message Boards, User Ratings, Synopsis, Trailers, Credits"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#url": "http://www.imdb.com/title/tt1375666/",
+      "http://ogp.me/ns#image": "http://ia.media-imdb.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+      "http://ogp.me/ns#type": "video.movie",
+      "http://ogp.me/ns#title": "Inception (2010)",
+      "http://ogp.me/ns#site_name": "IMDb",
+      "http://ogp.me/ns#description": "Directed by Christopher Nolan. With Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Ken Watanabe. A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO."
+    }
+  },
+  "microdata": [
+    {
       "@type": "http://schema.org/Movie",
       "aggregateRating": {
         "@type": "http://schema.org/AggregateRating",
@@ -256,5 +256,5 @@
         "reviewBody": "Surrealism can appear to be ineffably bizarre, or inquisitively titillating, depending purely on the viewer's intellect. Though the realm of surrealism is highly nebulous and complex, but even a slight attempt at improvisation can sometimes go awry and open a Pandora's Box, making the task highly improbable and nigh impossible. This facet of reality may pose a handicap to the most gifted of the directors, but not to the genius of Christopher Nolan, who not only dabbles with the concept of surrealism, but also ingeniously blends it with the elements of Science Fiction in his latest wonder named Inception. Nolan created a niche for himself a decade back by unleashing a monster of a movie called Memento. He further substantiated his status by conjuring movies like Insomnia, The Prestige, Batman Begins, and The Dark Knight. His unremitting desire for innovation and uncanny craving to foray into the unexplored realms of imagination deservedly earned him an auteur tag, which gave him the carte blanche that a story-teller like Nolan desperately needs. It's highly apparent that Nolan takes every possible advantage of this liberty while filming Inception. Inception is not only dreamlike, but is a dream in itself and is superior to any other thing conceived on the silver screen. With its entwined layers, the movie for the most part serves as an unfathomable riddle and makes multiple viewing extremely essential. It incredibly does extremely well on both the humanistic as well as the technical fronts. In fact, the balance between human emotions and the elements of Science Fiction is so adequate that it's impossible to separate them. The movie is about a futuristic world where the human mind can be intercepted through dream invasion. Cobb is an expert in the art of extracting information (stealing valuable secrets) from deep within the subconscious in the dream state. His proficiency in extraction is marred by a turmoil that begins with his wife's untimely death. He is forced to live the life of a fugitive away from his children. His only chance for redemption lies with a Japanese tycoon named Saitu, who wants him to do an inception (planting information into someone's mind). In order to accomplish this unprecedented task, Cobb and his team must overcome a labyrinth of unforeseeable challenges, where even a slight miss could trap them in a perpetual limbo. Any further revelation would be remissness on my part as the plot is filled with such intricacies that even expatiation would be incapable of justifying its profundity. Leonardo Dicaprio gives a solid performance in the lead role, following his memorable performance in Shutter Island. He has brilliantly depicted the complexities and limitations of Cobb's enigmatic character highlighting his pain and mental trauma. Marion Cotillard is ravishingly scintillating as Cobb's whimsical wife, Mal. The rest of the cast has given a thorough performance with special mention of Ken Watanabe, Ellen Page and Joseph Gordon-Levitt.Inception is incredibly brilliant as a movie and is a breakthrough in contemporary cinema. Nolan's creativity and his unparalleled execution definitely make it an object of great cachet, but whether it would become Buñuel's 'Un chien andalou' or Kubrick's '2001: A Space Odyssey' and serve as a prototype for the movies to come is for the time to decide. Irrespectively, Inception is sine qua non not only for an aficionado, but also for the average viewer, who is willing to delve deep enough to savour the delight.PS: One has to imagine it to believe it. 9/10http://www.apotpourriofvestiges.com/"
       }
     }
-  }
+  ]
 }

@@ -4,13 +4,14 @@ import html from './html'
 import image from './image'
 import video from './video'
 import link from './link'
+import pdf from './pdf'
 
-import { Result, Options, Snippet } from '../interfaces'
+import { ScrapeResult, Options, Snippet } from '../interfaces'
 
 /**
  * Extraction interface.
  */
-export type Extract = (result: Result, options: Options) => Snippet | Promise<Snippet>
+export type Extract = (result: ScrapeResult, options: Options) => Snippet | Promise<Snippet>
 
 /**
  * Extract interfaces.
@@ -26,7 +27,8 @@ const extracts: Extracts = {
   html,
   image,
   video,
-  link
+  link,
+  pdf
 }
 
 export default extracts

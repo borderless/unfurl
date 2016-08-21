@@ -1,50 +1,49 @@
 {
+  "type": "html",
   "contentUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
   "originalUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
   "encodingFormat": "text/html",
   "contentSize": 17448,
-  "dateModified": "2016-08-14T08:42:30.000Z",
-  "type": "html",
-  "meta": {
-    "html": {
-      "keywords": "Pokémon GO, Niantic, Inc., Games, Health & Fitness, ios apps, app, appstore, app store, iphone, ipad, ipod touch, itouch, itunes",
-      "description": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
-      "canonical": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
-      "title": "Pokémon GO on the App Store",
-      "icons": [
-        {
-          "url": "https://itunes.apple.com/favicon.ico",
-          "type": "image/x-icon"
-        }
-      ]
-    },
-    "twitter": {
-      "title": "Pokémon GO on the App Store",
-      "description": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
-      "site": "@AppStore",
-      "domain": "App Store",
-      "card": "summary_large_image",
-      "image": "http://is5.mzstatic.com/image/thumb/Purple62/v4/c3/ae/13/c3ae1331-6413-482b-30b6-4b670c92280f/source/1200x630bf.jpg"
-    },
-    "rdfa": {
-      "": {
-        "http://ogp.me/ns#title": "Pokémon GO on the App Store",
-        "http://ogp.me/ns#description": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
-        "http://ogp.me/ns#site_name": "App Store",
-        "http://ogp.me/ns#image": "http://is5.mzstatic.com/image/thumb/Purple62/v4/c3/ae/13/c3ae1331-6413-482b-30b6-4b670c92280f/source/1200x630bf.jpg",
-        "http://ogp.me/ns#image:secure_url": "http://is5.mzstatic.com/image/thumb/Purple62/v4/c3/ae/13/c3ae1331-6413-482b-30b6-4b670c92280f/source/1200x630bf.jpg",
-        "http://ogp.me/ns#image:type": "image/jpg",
-        "http://ogp.me/ns#image:width": "1200",
-        "http://ogp.me/ns#image:height": "630",
-        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-          "http://schema.org/BreadcrumbList",
-          "http://schema.org/ListItem"
-        ],
-        "http://schema.org/name": "iTunes",
-        "http://schema.org/position": "1"
+  "html": {
+    "keywords": "Pokémon GO, Niantic, Inc., Games, Health & Fitness, ios apps, app, appstore, app store, iphone, ipad, ipod touch, itouch, itunes",
+    "description": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
+    "canonical": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
+    "title": "Pokémon GO on the App Store",
+    "icons": [
+      {
+        "url": "https://itunes.apple.com/favicon.ico",
+        "type": "image/x-icon"
       }
-    },
-    "microdata": {
+    ]
+  },
+  "twitter": {
+    "title": "Pokémon GO on the App Store",
+    "description": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
+    "site": "@AppStore",
+    "domain": "App Store",
+    "card": "summary_large_image",
+    "image": "http://is5.mzstatic.com/image/thumb/Purple62/v4/c3/ae/13/c3ae1331-6413-482b-30b6-4b670c92280f/source/1200x630bf.jpg"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#title": "Pokémon GO on the App Store",
+      "http://ogp.me/ns#description": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
+      "http://ogp.me/ns#site_name": "App Store",
+      "http://ogp.me/ns#image": "http://is5.mzstatic.com/image/thumb/Purple62/v4/c3/ae/13/c3ae1331-6413-482b-30b6-4b670c92280f/source/1200x630bf.jpg",
+      "http://ogp.me/ns#image:secure_url": "http://is5.mzstatic.com/image/thumb/Purple62/v4/c3/ae/13/c3ae1331-6413-482b-30b6-4b670c92280f/source/1200x630bf.jpg",
+      "http://ogp.me/ns#image:type": "image/jpg",
+      "http://ogp.me/ns#image:width": "1200",
+      "http://ogp.me/ns#image:height": "630",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+        "http://schema.org/BreadcrumbList",
+        "http://schema.org/ListItem"
+      ],
+      "http://schema.org/name": "iTunes",
+      "http://schema.org/position": "1"
+    }
+  },
+  "microdata": [
+    {
       "@type": "http://schema.org/SoftwareApplication",
       "name": "Pokémon GO",
       "description": "Venusaur, Charizard, Blastoise, Pikachu, and many other Pokémon have been discovered on planet Earth! Now’s your chance to discover and capture the Pokémon all around you—so get your shoes on, step outside, and explore the world. You’ll join one of three teams and battle for the prestige and ownership of Gyms with your Pokémon at your side.Pokémon are out there, and you need to find them. As you walk around a neighborhood, your smartphone will vibrate when there’s a Pokémon nearby. Take aim and throw a Poké Ball… You’ll have to stay alert, or it might get away!Search far and wide for Pokémon and itemsCertain Pokémon appear near their native environment—look for Water-type Pokémon by lakes and oceans. Visit PokéStops, found at interesting places like museums, art installations, historical markers, and monuments, to stock up on Poké Balls and helpful items. Catching, hatching, evolving, and moreAs you level up, you’ll be able to catch more-powerful Pokémon to complete your Pokédex. You can add to your collection by hatching Pokémon Eggs based on the distances you walk. Help your Pokémon evolve by catching many of the same kind. Take on Gym battles and defend your GymAs your Charmander evolves to Charmeleon and then Charizard, you can battle together to defeat a Gym and assign your Pokémon to defend it against all comers.It’s time to get moving—your real-life adventures await!Note: - This app is free-to-play and offers in-game purchases. It is optimized for smartphones, not tablets.- It is recommended to play while connected to a network in order to obtain accurate location information.- Compatibility is not guaranteed for devices without GPS capabilities or devices that are connected only to Wi-Fi networks- Compatibility information may be changed at any time.- Information current as of July 6, 2016- Compatible with iPhone® 5/5c/5s/SE/6/6s/6 Plus/6s Plus devices with iOS Version 8 - 9 installed- Not compatible with 5th generation iPod Touch devices or iPhone 4S or earlier iPhone devices.- Please visit www.PokemonGO.com for additional compatibility information.- Compatibility with tablet devices is not guaranteed.- Compatibility is not guaranteed for all devices.",
@@ -79,5 +78,5 @@
         "reviewCount": "6330 Ratings"
       }
     }
-  }
+  ]
 }

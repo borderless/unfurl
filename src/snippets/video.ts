@@ -1,19 +1,16 @@
-import { VideoResult, VideoSnippet, Options } from '../interfaces'
+import { ScrapeResult, VideoSnippet, Options } from '../interfaces'
 
-export default function (result: VideoResult, options: Options): VideoSnippet {
+export default function (result: ScrapeResult, options: Options): VideoSnippet {
   const {
-    type,
     encodingFormat,
-    dateModified,
     contentSize,
     contentUrl,
     originalUrl
-  } = result as VideoResult
+  } = result
 
   return {
-    type,
+    type: 'video',
     encodingFormat,
-    dateModified,
     contentSize,
     contentUrl,
     originalUrl

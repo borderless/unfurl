@@ -4,14 +4,14 @@ import extend = require('xtend')
 import { get, jar, createTransport } from 'popsicle'
 import { Readable } from 'stream'
 import { parse } from 'content-type'
-import { Headers, AbortFn, BaseInfo, Result, Options } from './interfaces'
+import { Headers, AbortFn, ScrapeResult, Options } from './interfaces'
 import scrapers from './scrapers'
 import { DEFAULT_OPTIONS } from './utils'
 
 /**
  * Scrape metadata from a URL.
  */
-export function scrapeUrl (url: string, opts?: Options): Promise<Result> {
+export function scrapeUrl (url: string, opts?: Options): Promise<ScrapeResult> {
   const options = extend(DEFAULT_OPTIONS, opts)
 
   const req = get({
@@ -50,31 +50,29 @@ export function scrapeStream (
   stream: Readable,
   abort?: AbortFn,
   opts?: Options
-): Promise<Result> {
+): Promise<ScrapeResult> {
   const options = extend(DEFAULT_OPTIONS, opts)
   const encodingFormat = headers['content-type'] ? parse(headers['content-type']).type : undefined
   const contentLength = Number(headers['content-length'])
   const contentSize = isFinite(contentLength) ? contentLength : undefined
-  const lastModified = new Date(headers['last-modified'] as string)
-  const dateModified = isFinite(lastModified.getTime()) ? lastModified : undefined
   const close = abort || (() => stream.resume())
 
-  const base: BaseInfo = {
+  const result: ScrapeResult = {
+    type: 'link',
     contentUrl,
     originalUrl,
     encodingFormat,
-    contentSize,
-    dateModified
+    contentSize
   }
 
   for (const rule of scrapers) {
-    if (rule.supported(base, headers)) {
-      return Promise.resolve(rule.handle(base, headers, stream, close, options))
+    if (rule.supported(result, headers)) {
+      return Promise.resolve(rule.handle(result, headers, stream, close, options))
     }
   }
 
   // Abort unhandled types.
   close()
 
-  return Promise.resolve(extend(base, { type: 'link' as 'link' }))
+  return Promise.resolve(result)
 }

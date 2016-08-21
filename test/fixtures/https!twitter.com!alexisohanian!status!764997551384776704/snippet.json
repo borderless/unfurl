@@ -3,7 +3,7 @@
   "image": {
     "url": "https://pbs.twimg.com/media/Cp3RFyXXYAANGoA.jpg:large"
   },
-  "mainEntity": {
+  "entity": {
     "type": "article"
   },
   "contentUrl": "https://twitter.com/alexisohanian/status/764997551384776704",

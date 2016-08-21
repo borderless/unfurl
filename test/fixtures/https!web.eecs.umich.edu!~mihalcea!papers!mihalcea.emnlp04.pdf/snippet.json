@@ -1,8 +1,9 @@
 {
-  "type": "link",
+  "type": "pdf",
   "encodingFormat": "application/pdf",
-  "dateModified": "2004-12-21T22:42:14.000Z",
   "contentSize": 117248,
   "contentUrl": "https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf",
-  "originalUrl": "https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf"
+  "originalUrl": "https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf",
+  "pageCount": 8,
+  "producer": "GNU Ghostscript 6.53"
 }

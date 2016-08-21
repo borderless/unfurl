@@ -3,7 +3,7 @@
   "image": {
     "url": "https://pbs.twimg.com/profile_images/344513261583570457/837e1e55170ee3b03dd4ef88168e9414_400x400.png"
   },
-  "mainEntity": {
+  "entity": {
     "type": "article"
   },
   "contentUrl": "https://twitter.com/SeanTAllen/status/764993929469161472",

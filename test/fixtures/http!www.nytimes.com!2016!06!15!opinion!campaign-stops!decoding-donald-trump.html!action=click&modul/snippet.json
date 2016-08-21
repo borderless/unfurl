@@ -3,7 +3,7 @@
   "image": {
     "url": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-facebookJumbo.jpg"
   },
-  "mainEntity": {
+  "entity": {
     "type": "article",
     "section": "Opinion"
   },

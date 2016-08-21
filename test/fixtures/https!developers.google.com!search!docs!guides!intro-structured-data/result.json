@@ -1,33 +1,32 @@
 {
+  "type": "html",
   "contentUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
   "originalUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
   "encodingFormat": "text/html",
   "contentSize": 60209,
-  "dateModified": "2016-06-22T20:38:53.000Z",
-  "type": "html",
-  "meta": {
-    "html": {
-      "canonical": "https://developers.google.com/search/docs/guides/intro-structured-data",
-      "icons": [
-        {
-          "url": "https://developers.google.com/_static/a4f7ffcec0/images/favicon.png"
-        }
-      ],
-      "title": "Introduction to Structured Data | Search | Google Developers"
-    },
-    "rdfa": {
-      "": {
-        "http://ogp.me/ns#site_name": "Google Developers",
-        "http://ogp.me/ns#type": "website",
-        "http://ogp.me/ns#url": "https://developers.google.com/search/docs/guides/intro-structured-data",
-        "http://ogp.me/ns#locale": "en",
-        "http://ogp.me/ns#title": "Introduction to Structured Data"
+  "html": {
+    "canonical": "https://developers.google.com/search/docs/guides/intro-structured-data",
+    "icons": [
+      {
+        "url": "https://developers.google.com/_static/a4f7ffcec0/images/favicon.png"
       }
-    },
-    "microdata": {
+    ],
+    "title": "Introduction to Structured Data | Search | Google Developers"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#site_name": "Google Developers",
+      "http://ogp.me/ns#type": "website",
+      "http://ogp.me/ns#url": "https://developers.google.com/search/docs/guides/intro-structured-data",
+      "http://ogp.me/ns#locale": "en",
+      "http://ogp.me/ns#title": "Introduction to Structured Data"
+    }
+  },
+  "microdata": [
+    {
       "@type": "http://schema.org/Article",
       "name": "Introduction to Structured Data",
       "datePublished": "2016-06-22T20:38:53.528240"
     }
-  }
+  ]
 }

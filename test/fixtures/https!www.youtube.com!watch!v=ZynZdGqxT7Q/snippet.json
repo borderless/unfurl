@@ -24,7 +24,7 @@
     "width": 1280,
     "height": 720
   },
-  "mainEntity": {
+  "entity": {
     "type": "video",
     "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/ZynZdGqxT7Q?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>"
   },

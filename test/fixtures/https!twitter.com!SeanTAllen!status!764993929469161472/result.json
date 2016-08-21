@@ -1,43 +1,40 @@
 {
+  "type": "html",
   "contentUrl": "https://twitter.com/SeanTAllen/status/764993929469161472",
   "originalUrl": "https://twitter.com/SeanTAllen/status/764993929469161472",
   "encodingFormat": "text/html",
   "contentSize": 33577,
-  "dateModified": "2016-08-15T01:55:23.000Z",
-  "type": "html",
-  "meta": {
-    "html": {
-      "title": "¯\\_(ツ)_/¯ on Twitter: \"This is a very cool thread https://t.co/r6VKiMIYoI\"",
-      "icons": [
-        {
-          "url": "https://abs.twimg.com/favicons/favicon.ico",
-          "type": "image/x-icon"
-        }
-      ],
-      "canonical": "https://twitter.com/seantallen/status/764993929469161472"
-    },
-    "rdfa": {
-      "": {
-        "http://ogp.me/ns#type": "article",
-        "http://ogp.me/ns#url": "https://twitter.com/SeanTAllen/status/764993929469161472",
-        "http://ogp.me/ns#title": "¯\\_(ツ)_/¯ on Twitter",
-        "http://ogp.me/ns#image": "https://pbs.twimg.com/profile_images/344513261583570457/837e1e55170ee3b03dd4ef88168e9414_400x400.png",
-        "http://ogp.me/ns#description": "“This is a very cool thread https://t.co/r6VKiMIYoI”",
-        "http://ogp.me/ns#site_name": "Twitter"
+  "html": {
+    "title": "¯\\_(ツ)_/¯ on Twitter: \"This is a very cool thread https://t.co/r6VKiMIYoI\"",
+    "icons": [
+      {
+        "url": "https://abs.twimg.com/favicons/favicon.ico",
+        "type": "image/x-icon"
       }
-    },
-    "oembed": {
-      "url": "https://twitter.com/SeanTAllen/status/764993929469161472",
-      "author_name": "¯\\_(ツ)_/¯",
-      "author_url": "https://twitter.com/SeanTAllen",
-      "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">This is a very cool thread<a href=\"https://t.co/r6VKiMIYoI\">https://t.co/r6VKiMIYoI</a></p>&mdash; ¯\\_(ツ)_/¯ (@SeanTAllen) <a href=\"https://twitter.com/SeanTAllen/status/764993929469161472\">August 15, 2016</a></blockquote>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-      "width": 550,
-      "height": null,
-      "type": "rich",
-      "cache_age": "3153600000",
-      "provider_name": "Twitter",
-      "provider_url": "https://twitter.com",
-      "version": "1.0"
+    ],
+    "canonical": "https://twitter.com/seantallen/status/764993929469161472"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#type": "article",
+      "http://ogp.me/ns#url": "https://twitter.com/SeanTAllen/status/764993929469161472",
+      "http://ogp.me/ns#title": "¯\\_(ツ)_/¯ on Twitter",
+      "http://ogp.me/ns#image": "https://pbs.twimg.com/profile_images/344513261583570457/837e1e55170ee3b03dd4ef88168e9414_400x400.png",
+      "http://ogp.me/ns#description": "“This is a very cool thread https://t.co/r6VKiMIYoI”",
+      "http://ogp.me/ns#site_name": "Twitter"
     }
+  },
+  "oembed": {
+    "url": "https://twitter.com/SeanTAllen/status/764993929469161472",
+    "author_name": "¯\\_(ツ)_/¯",
+    "author_url": "https://twitter.com/SeanTAllen",
+    "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">This is a very cool thread<a href=\"https://t.co/r6VKiMIYoI\">https://t.co/r6VKiMIYoI</a></p>&mdash; ¯\\_(ツ)_/¯ (@SeanTAllen) <a href=\"https://twitter.com/SeanTAllen/status/764993929469161472\">August 15, 2016</a></blockquote>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
+    "width": 550,
+    "height": null,
+    "type": "rich",
+    "cache_age": "3153600000",
+    "provider_name": "Twitter",
+    "provider_url": "https://twitter.com",
+    "version": "1.0"
   }
 }

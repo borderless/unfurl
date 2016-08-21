@@ -3,7 +3,7 @@
   "image": {
     "url": "https://i.kinja-img.com/gawker-media/image/upload/s--D8tZJKTC--/c_fill,fl_progressive,g_center,h_450,q_80,w_800/uwwyvlh7dwqyodgah0mr.jpg"
   },
-  "mainEntity": {
+  "entity": {
     "type": "article"
   },
   "contentUrl": "http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268",
