@@ -1,0 +1,35 @@
+{
+  "originalUrl": "https://github.com/moment/moment/pull/3323",
+  "contentUrl": "https://github.com/moment/moment/pull/3323",
+  "headers": {
+    "server": "GitHub.com",
+    "date": "Mon, 22 Aug 2016 06:31:19 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "status": "200 OK",
+    "cache-control": "no-cache",
+    "vary": [
+      "X-PJAX",
+      "Accept-Encoding"
+    ],
+    "x-ua-compatible": "IE=Edge,chrome=1",
+    "set-cookie": [
+      "logged_in=no; domain=.github.com; path=/; expires=Fri, 22 Aug 2036 06:31:19 -0000; secure; HttpOnly",
+      "_gh_sess=eyJzZXNzaW9uX2lkIjoiZTJkNjVlNWE2YTBmOGZjMWEwZDZiN2JmMTI0OWNjYmMiLCJzcHlfcmVwbyI6Im1vbWVudC9tb21lbnQiLCJzcHlfcmVwb19hdCI6MTQ3MTg0NzQ3OSwiX2NzcmZfdG9rZW4iOiJpYUZXZVE2N2N3MENLTHdhbGR5VU9FUmlNOHF2UVlrQWhYT3pnQkxhb29vPSJ9--7f0b354919e7ee4f6f22ba5cb00f4f4111d021e5; path=/; secure; HttpOnly"
+    ],
+    "x-request-id": "b96b1817d5362d54c25a5caeac2eb548",
+    "x-runtime": "0.468860",
+    "content-security-policy": "default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src render.githubusercontent.com; connect-src 'self' uploads.github.com status.github.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com wss://live.github.com; font-src assets-cdn.github.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: assets-cdn.github.com identicons.github.com www.google-analytics.com collector.githubapp.com *.gravatar.com *.wp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; media-src 'none'; object-src assets-cdn.github.com; plugin-types application/x-shockwave-flash; script-src assets-cdn.github.com; style-src 'unsafe-inline' assets-cdn.github.com",
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "public-key-pins": "max-age=5184000; pin-sha256=\"WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=\"; pin-sha256=\"RRM1dGqnDFsCJXBTHky16vi1obOlCgFFn/yOhI/y+ho=\"; pin-sha256=\"k2v657xBsOVe1PQRwOsHsw3bsGT2VzIqz5K+59sNQws=\"; pin-sha256=\"K87oWBWM9UZfyddvDfoxL+8lpNyoUB2ptGtn0fv6G2Q=\"; pin-sha256=\"IQBnNBEiFuhj+8x6X8XLgh01V9Ic5/V3IRQLNFFc7v4=\"; pin-sha256=\"iie1VXtL7HzAMF+/PVPR9xzT80kQxdZeJ+zduCB3uj0=\"; pin-sha256=\"LvRiGEjRqfzurezaWuj8Wie2gyHMrW5Q06LspMnox7A=\"; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "deny",
+    "x-xss-protection": "1; mode=block",
+    "x-served-by": "d0e230454cb69aa01d4f86fc3a57b17f",
+    "content-encoding": "gzip",
+    "x-github-request-id": "A8014E04:2CFCF:79AC055:57BA9C36"
+  },
+  "status": 200,
+  "statusText": "OK"
+}

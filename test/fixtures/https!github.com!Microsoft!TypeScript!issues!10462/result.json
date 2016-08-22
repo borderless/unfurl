@@ -1,0 +1,38 @@
+{
+  "type": "html",
+  "contentUrl": "https://github.com/Microsoft/TypeScript/issues/10462",
+  "originalUrl": "https://github.com/Microsoft/TypeScript/issues/10462",
+  "encodingFormat": "text/html",
+  "html": {
+    "title": "Give a better error message for assigning from Object to anything else · Issue #10462 · Microsoft/TypeScript · GitHub",
+    "icons": [
+      {
+        "url": "https://assets-cdn.github.com/favicon.ico",
+        "type": "image/x-icon"
+      }
+    ],
+    "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output."
+  },
+  "twitter": {
+    "image:src": "https://avatars3.githubusercontent.com/u/972891?v=3&s=400",
+    "site": "@github",
+    "card": "summary",
+    "title": "Give a better error message for assigning from Object to anything else · Issue #10462 · Microsoft/TypeScript",
+    "description": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type 'Object' is not as..."
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#image": "https://avatars3.githubusercontent.com/u/972891?v=3&s=400",
+      "http://ogp.me/ns#site_name": "GitHub",
+      "http://ogp.me/ns#type": "object",
+      "http://ogp.me/ns#title": "Give a better error message for assigning from Object to anything else · Issue #10462 · Microsoft/TypeScript",
+      "http://ogp.me/ns#url": "https://github.com/Microsoft/TypeScript/issues/10462",
+      "http://ogp.me/ns#description": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type 'Object' is not as..."
+    }
+  },
+  "microdata": [
+    {
+      "@type": "http://schema.org/SoftwareSourceCode"
+    }
+  ]
+}

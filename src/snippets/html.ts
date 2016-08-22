@@ -124,6 +124,7 @@ function getHeadline (result: ScrapeResult) {
   return getString(result, ['twitter', 'title']) ||
     getString(result, ['oembed', 'title']) ||
     getString(result, ['rdfa', '', 'http://ogp.me/ns#title']) ||
+    getString(result, ['rdfa', '', 'http://purl.org/dc/terms/title']) ||
     getString(result, ['html', 'title'])
 }
 

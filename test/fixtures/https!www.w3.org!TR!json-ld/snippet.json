@@ -1,0 +1,15 @@
+{
+  "type": "html",
+  "contentUrl": "https://www.w3.org/TR/json-ld/",
+  "contentSize": 247720,
+  "originalUrl": "https://www.w3.org/TR/json-ld/",
+  "encodingFormat": "text/html",
+  "headline": "JSON-LD 1.0",
+  "provider": {},
+  "author": {},
+  "icon": {
+    "url": "https://www.w3.org/favicon.ico",
+    "type": "image/vnd.microsoft.icon"
+  },
+  "apps": {}
+}

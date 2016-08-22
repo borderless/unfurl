@@ -1,0 +1,43 @@
+{
+  "type": "html",
+  "contentUrl": "https://www.w3.org/TR/json-ld/",
+  "originalUrl": "https://www.w3.org/TR/json-ld/",
+  "encodingFormat": "text/html",
+  "contentSize": 247720,
+  "html": {
+    "title": "JSON-LD 1.0",
+    "icons": [
+      {
+        "url": "https://www.w3.org/favicon.ico",
+        "type": "image/vnd.microsoft.icon"
+      }
+    ]
+  },
+  "rdfa": {
+    "": {
+      "http://purl.org/dc/terms/language": "en",
+      "http://purl.org/dc/terms/title": "JSON-LD 1.0",
+      "http://purl.org/dc/terms/issued": "2014-01-15T23:00:00.000Z",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+        "http://xmlns.com/foaf/0.1/Person",
+        "http://xmlns.com/foaf/0.1/Person",
+        "http://xmlns.com/foaf/0.1/Person",
+        "http://xmlns.com/foaf/0.1/Person",
+        "http://xmlns.com/foaf/0.1/Person",
+        "http://xmlns.com/foaf/0.1/Person",
+        "http://xmlns.com/foaf/0.1/Person",
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Manu Sporny",
+        "Gregg Kellogg",
+        "Markus Lanthaler",
+        "Manu Sporny",
+        "Dave Longley",
+        "Gregg Kellogg",
+        "Markus Lanthaler",
+        "Niklas Lindström"
+      ]
+    }
+  }
+}

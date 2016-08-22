@@ -13,6 +13,8 @@ var FIXTURE_DIR = join(__dirname, '../test/fixtures')
 var FIXTURES = [
   // Source code repository.
   'https://github.com/blakeembrey/popsicle',
+  'https://github.com/moment/moment/pull/3323',
+  'https://github.com/Microsoft/TypeScript/issues/10462',
   // User pages.
   'https://twitter.com/blakeembrey',
   // Music pages.
@@ -73,6 +75,7 @@ var FIXTURES = [
   'https://developers.google.com/search/docs/guides/intro-structured-data',
   'https://learnxinyminutes.com/docs/standard-ml/',
   'https://dev.twitter.com/cards/types/player',
+  'https://www.w3.org/TR/json-ld/',
   // Product pages.
   'https://bjango.com/mac/istatmenus/',
   'http://www.newegg.com/Product/Product.aspx?Item=28-840-014',
