@@ -1,0 +1,35 @@
+{
+  "type": "html",
+  "contentUrl": "https://atom.io/themes/aesthetic-ui",
+  "originalUrl": "https://atom.io/themes/aesthetic-ui",
+  "encodingFormat": "text/html",
+  "contentSize": 13857,
+  "html": {
+    "title": "aesthetic-ui",
+    "description": "At GitHub, we’re building the text editor we’ve always wanted: hackable to the core, but approachable on the first day without ever touching a config file. We can’t wait to see what you build with it.",
+    "icons": [
+      {
+        "url": "https://atom.io/favicon.ico"
+      }
+    ]
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "@AtomEditor",
+    "creator": "https://github.com/dtinth",
+    "title": "aesthetic-ui",
+    "description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
+    "image:src": "http://i.imgur.com/455A2im.png"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#url": "https://atom.io/packages/aesthetic-ui",
+      "http://ogp.me/ns#site_name": "Atom",
+      "http://ogp.me/ns#title": "aesthetic-ui",
+      "http://ogp.me/ns#description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
+      "http://ogp.me/ns#type": "website",
+      "http://ogp.me/ns#author": "https://github.com/dtinth",
+      "http://ogp.me/ns#image": "http://i.imgur.com/455A2im.png"
+    }
+  }
+}

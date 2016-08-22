@@ -1,0 +1,27 @@
+{
+  "type": "html",
+  "image": {
+    "url": "http://i.imgur.com/455A2im.png"
+  },
+  "entity": {
+    "type": "image"
+  },
+  "contentUrl": "https://atom.io/packages/aesthetic-ui",
+  "contentSize": 13857,
+  "originalUrl": "https://atom.io/themes/aesthetic-ui",
+  "encodingFormat": "text/html",
+  "headline": "aesthetic-ui",
+  "description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
+  "provider": {
+    "name": "Atom"
+  },
+  "author": {},
+  "icon": {
+    "url": "https://atom.io/favicon.ico"
+  },
+  "twitter": {
+    "siteHandle": "AtomEditor",
+    "creatorHandle": "https://github.com/dtinth"
+  },
+  "apps": {}
+}

@@ -131,18 +131,18 @@
     }
   ],
   "oembed": {
-    "provider_name": "YouTube",
-    "thumbnail_width": 480,
-    "thumbnail_height": 360,
     "type": "video",
-    "version": "1.0",
-    "provider_url": "https://www.youtube.com/",
+    "thumbnail_url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/hqdefault.jpg",
     "title": "15. Typings with Blake Embrey",
     "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/ZynZdGqxT7Q?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",
     "height": 270,
-    "author_name": "readthesource",
-    "thumbnail_url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/hqdefault.jpg",
+    "author_url": "https://www.youtube.com/user/readthesource",
     "width": 480,
-    "author_url": "https://www.youtube.com/user/readthesource"
+    "version": "1.0",
+    "author_name": "readthesource",
+    "provider_url": "https://www.youtube.com/",
+    "thumbnail_height": 360,
+    "thumbnail_width": 480,
+    "provider_name": "YouTube"
   }
 }
