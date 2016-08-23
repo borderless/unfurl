@@ -15,7 +15,8 @@ var FIXTURES = [
   'https://github.com/blakeembrey/popsicle',
   'https://github.com/moment/moment/pull/3323',
   'https://github.com/Microsoft/TypeScript/issues/10462',
-  // User pages.
+  // Profile pages.
+  'https://github.com/blakeembrey',
   'https://twitter.com/blakeembrey',
   // Music pages.
   'https://soundcloud.com/lifeofdesiigner/desiigner-panda',
