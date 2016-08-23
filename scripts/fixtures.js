@@ -76,6 +76,7 @@ var FIXTURES = [
   'https://learnxinyminutes.com/docs/standard-ml/',
   'https://dev.twitter.com/cards/types/player',
   'https://www.w3.org/TR/json-ld/',
+  'http://knexjs.org/',
   // Product pages.
   'https://bjango.com/mac/istatmenus/',
   'http://www.newegg.com/Product/Product.aspx?Item=28-840-014',
