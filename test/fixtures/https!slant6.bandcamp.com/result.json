@@ -40,6 +40,7 @@
     {
       "@type": "http://schema.org/MusicAlbum",
       "name": "Inzombia",
+      "byArtist": "Slant 6",
       "image": "https://f4.bcbits.com/img/a1638428842_16.jpg",
       "tracks": [
         {

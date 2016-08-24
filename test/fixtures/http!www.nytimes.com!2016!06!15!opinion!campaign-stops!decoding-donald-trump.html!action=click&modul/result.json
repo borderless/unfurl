@@ -93,7 +93,9 @@
         "url": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-master768.jpg",
         "height": "512",
         "width": "768",
-        "copyrightHolder": "Damon Winter/The New York Times"
+        "copyrightHolder": "Credit Damon Winter/The New York Times",
+        "caption": "Donald Trump as seen through a television camera eyepiece, at an event Monday. Credit Damon Winter/The New York Times",
+        "description": "Donald Trump as seen through a television camera eyepiece, at an event Monday. Credit Damon Winter/The New York Times"
       },
       "copyrightNotice": "http://www.nytimes.com/content/help/rights/copyright/copyright-notice.html",
       "copyrightYear": "2016",

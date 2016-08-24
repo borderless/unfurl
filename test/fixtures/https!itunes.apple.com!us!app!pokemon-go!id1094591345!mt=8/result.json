@@ -39,7 +39,8 @@
         "http://schema.org/ListItem"
       ],
       "http://schema.org/name": "iTunes",
-      "http://schema.org/position": "1"
+      "http://schema.org/position": "1",
+      "http://schema.org/itemListElement": "iTunes"
     }
   },
   "microdata": [

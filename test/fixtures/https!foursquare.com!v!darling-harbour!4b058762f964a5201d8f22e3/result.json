@@ -78,8 +78,7 @@
         "@type": "http://schema.org/PostalAddress",
         "addressLocality": "Darling Harbour",
         "addressRegion": "NSW",
-        "postalCode": "2000",
-        "address": "Australia"
+        "postalCode": "2000"
       },
       "url": "http://www.darlingharbour.com/"
     }

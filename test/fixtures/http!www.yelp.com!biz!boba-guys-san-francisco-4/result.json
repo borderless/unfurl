@@ -82,8 +82,7 @@
         "addressLocality": "San Francisco",
         "addressRegion": "CA",
         "postalCode": "94110",
-        "addressCountry": "US",
-        "address": ","
+        "addressCountry": "US"
       },
       "telephone": "(415) 967-2622",
       "image": "https://s3-media4.fl.yelpcdn.com/bphoto/HPrO3kgwbdc6iGYhnX1Tyw/ls.jpg",

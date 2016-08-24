@@ -129,10 +129,10 @@ interface Context {
   id?: string
   rdfaTextProperty?: string
   microdataTextProperty?: string
+  scriptType?: string
   hasRdfaResource?: boolean
   hasRdfaVocab?: boolean
   hasRdfaPrefix?: boolean
-  isJsonLd?: boolean
   hasMicrodataScope?: boolean
 }
 
@@ -185,29 +185,64 @@ export function handle (
 
     // HTML parser emits text mulitple times, this is a little helper
     // to collect each fragment and use it together.
-    function handleText (context: Context) {
-      const { tagName, text } = context
+    function handleContextEnd (lastContext: Context) {
+      const currentContext = last(contexts)
+      const { tagName, text } = lastContext
 
-      if (context.isJsonLd) {
-        try {
-          const schema = JSON.parse(text)
+      // Remove associated RDF vocabulary scope.
+      if (lastContext.hasRdfaVocab) {
+        rdfaVocabs.pop()
+      }
 
-          jsonld.push(...arrify(schema))
-        } catch (e) {
-          log(`Failed to parse JSON-LD: "${contentUrl}"`)
+      // Remove associated RDF prefix scope.
+      if (lastContext.hasRdfaPrefix) {
+        rdfaPrefixes.pop()
+      }
+
+      // Remove associated RDF resource scope.
+      if (lastContext.hasRdfaResource) {
+        rdfaResources.pop()
+      }
+
+      // Remove associated microdata scope.
+      if (lastContext.hasMicrodataScope) {
+        const scope = microdataScopes.pop()
+
+        // When we've popped back up to the scope start, add to the known microdata.
+        if (microdataScopes.length === 0) {
+          microdata.push(scope)
+        }
+      }
+
+      // Handle parsing significant script elements.
+      if (lastContext.scriptType) {
+        if (lastContext.scriptType === 'application/ld+json') {
+          try {
+            const schema = JSON.parse(text)
+
+            jsonld.push(...arrify(schema))
+          } catch (e) {
+            log(`Failed to parse JSON-LD: "${contentUrl}"`)
+          }
         }
 
         return
       }
 
-      if (context.rdfaTextProperty) {
-        setRdfaValue(rdfa, last(rdfaResources), context.rdfaTextProperty, normalize(text))
+      // Push the previous context text onto the current context.
+      currentContext.text += lastContext.text
+
+      // Set RDFa to text value.
+      if (lastContext.rdfaTextProperty) {
+        setRdfaValue(rdfa, last(rdfaResources), lastContext.rdfaTextProperty, normalize(text))
       }
 
-      if (context.microdataTextProperty) {
-        setMicrodata(context.id, context.microdataTextProperty, normalize(text))
+      // Set microdata to text value.
+      if (lastContext.microdataTextProperty) {
+        setMicrodata(lastContext.id, lastContext.microdataTextProperty, normalize(text))
       }
 
+      // Handle HTML `<title />` tags.
       if (tagName === 'title') {
         html.title = normalize(text)
       }
@@ -281,7 +316,7 @@ export function handle (
 
           // Set child scopes on the root scope.
           if (oldScope && itempropAttr) {
-            setProperty(oldScope, itempropAttr.split(/ +/g), newScope)
+            setMicrodata(context.id, itempropAttr, newScope)
           }
 
           microdataScopes.push(newScope)
@@ -294,7 +329,7 @@ export function handle (
 
           if (value != null) {
             setMicrodata(context.id, itempropAttr, value)
-          } else {
+          } else if (!context.hasMicrodataScope) {
             context.microdataTextProperty = itempropAttr
           }
         }
@@ -325,7 +360,7 @@ export function handle (
 
         // RDFa prefix.
         if (prefixAttr) {
-          const parts = prefixAttr.split(' ')
+          const parts = prefixAttr.split(/ +/)
           const prefixes = last(rdfaPrefixes)
           const newPrefixes = Object.create(prefixes)
 
@@ -451,9 +486,7 @@ export function handle (
 
         // Detect metadata scripts (E.g. JSON-LD).
         if (tagName === 'script') {
-          if ((attributes as any).type === 'application/ld+json') {
-            context.isJsonLd = true
-          }
+          context.scriptType = (attributes as any).type
         }
 
         // Log skipped RDFa properties that weren't caught by other methods.
@@ -467,28 +500,7 @@ export function handle (
       onclosetag () {
         const context = contexts.pop()
 
-        handleText(context)
-
-        if (context.hasRdfaVocab) {
-          rdfaVocabs.pop()
-        }
-
-        if (context.hasRdfaPrefix) {
-          rdfaPrefixes.pop()
-        }
-
-        if (context.hasRdfaResource) {
-          rdfaResources.pop()
-        }
-
-        if (context.hasMicrodataScope) {
-          const scope = microdataScopes.pop()
-
-          // Add to the global microdata scope collector.
-          if (microdataScopes.length === 0) {
-            microdata.push(scope)
-          }
-        }
+        handleContextEnd(context)
       },
       onend () {
         if (Object.keys(html).length) {

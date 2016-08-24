@@ -23,6 +23,7 @@
     },
     "http://schema.org/about": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "about",
       "http://schema.org/rangeIncludes": "http://schema.org/Thing",
       "http://schema.org/domainIncludes": [
         "http://schema.org/CommunicateAction",
@@ -32,36 +33,42 @@
     },
     "http://schema.org/accessibilityAPI": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "accessibilityAPI",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates that the resource is compatible with the referenced accessibility API ()."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates that the resource is compatible with the referenced accessibility API (WebSchemas wiki lists possible values)."
     },
     "http://schema.org/accessibilityControl": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "accessibilityControl",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Identifies input methods that are sufficient to fully control the described resource ()."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Identifies input methods that are sufficient to fully control the described resource (WebSchemas wiki lists possible values)."
     },
     "http://schema.org/accessibilityFeature": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "accessibilityFeature",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility ()."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility (WebSchemas wiki lists possible values)."
     },
     "http://schema.org/accessibilityHazard": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "accessibilityHazard",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3 ()."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3 (WebSchemas wiki lists possible values)."
     },
     "http://schema.org/accountablePerson": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "accountablePerson",
       "http://schema.org/rangeIncludes": "http://schema.org/Person",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "Specifies the Person that is legally accountable for the CreativeWork."
     },
     "http://schema.org/aggregateRating": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "aggregateRating",
       "http://schema.org/rangeIncludes": "http://schema.org/AggregateRating",
       "http://schema.org/domainIncludes": [
         "http://schema.org/Brand",
@@ -77,18 +84,21 @@
     },
     "http://schema.org/alternativeHeadline": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "alternativeHeadline",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "A secondary title of the CreativeWork."
     },
     "http://schema.org/associatedMedia": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "associatedMedia",
       "http://schema.org/rangeIncludes": "http://schema.org/MediaObject",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "A media object that encodes this CreativeWork. This property is a synonym for encoding."
     },
     "http://schema.org/audience": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "audience",
       "http://schema.org/rangeIncludes": "http://schema.org/Audience",
       "http://schema.org/domainIncludes": [
         "http://schema.org/CreativeWork",
@@ -97,16 +107,18 @@
         "http://schema.org/Product",
         "http://schema.org/Service"
       ],
-      "http://www.w3.org/2000/01/rdf-schema#comment": "An intended audience, i.e. a group for whom something was created. Supersedes ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "An intended audience, i.e. a group for whom something was created. Supersedes serviceAudience."
     },
     "http://schema.org/audio": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "audio",
       "http://schema.org/rangeIncludes": "http://schema.org/AudioObject",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "An embedded audio object."
     },
     "http://schema.org/author": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "author",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Organization",
         "http://schema.org/Person"
@@ -119,6 +131,7 @@
     },
     "http://schema.org/award": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "award",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": [
         "http://schema.org/CreativeWork",
@@ -127,16 +140,18 @@
         "http://schema.org/Product",
         "http://schema.org/Service"
       ],
-      "http://www.w3.org/2000/01/rdf-schema#comment": "An award won by or for this item. Supersedes ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "An award won by or for this item. Supersedes awards."
     },
     "http://schema.org/character": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "character",
       "http://schema.org/rangeIncludes": "http://schema.org/Person",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "Fictional person connected with a creative work."
     },
     "http://schema.org/citation": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "citation",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/CreativeWork",
         "http://schema.org/Text"
@@ -146,6 +161,7 @@
     },
     "http://schema.org/comment": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "comment",
       "http://schema.org/rangeIncludes": "http://schema.org/Comment",
       "http://schema.org/domainIncludes": [
         "http://schema.org/CreativeWork",
@@ -155,24 +171,28 @@
     },
     "http://schema.org/commentCount": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "commentCount",
       "http://schema.org/rangeIncludes": "http://schema.org/Integer",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "The number of comments this CreativeWork (e.g. Article, Question or Answer) has received. This is most applicable to works published in Web sites with commenting system; additional comments may exist elsewhere."
     },
     "http://schema.org/contentLocation": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "contentLocation",
       "http://schema.org/rangeIncludes": "http://schema.org/Place",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "The location depicted or described in the content. For example, the location in a photograph or painting."
     },
     "http://schema.org/contentRating": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "contentRating",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "Official rating of a piece of content—for example,'MPAA PG-13'."
     },
     "http://schema.org/contributor": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "contributor",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Organization",
         "http://schema.org/Person"
@@ -185,6 +205,7 @@
     },
     "http://schema.org/copyrightHolder": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "copyrightHolder",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Organization",
         "http://schema.org/Person"
@@ -194,12 +215,14 @@
     },
     "http://schema.org/copyrightYear": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "copyrightYear",
       "http://schema.org/rangeIncludes": "http://schema.org/Number",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "The year during which the claimed copyright for the CreativeWork was first asserted."
     },
     "http://schema.org/creator": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "creator",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Organization",
         "http://schema.org/Person"
@@ -212,6 +235,7 @@
     },
     "http://schema.org/dateCreated": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "dateCreated",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Date",
         "http://schema.org/DateTime"
@@ -224,6 +248,7 @@
     },
     "http://schema.org/dateModified": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "dateModified",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Date",
         "http://schema.org/DateTime"
@@ -236,57 +261,66 @@
     },
     "http://schema.org/datePublished": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "datePublished",
       "http://schema.org/rangeIncludes": "http://schema.org/Date",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "Date of first broadcast/publication."
     },
     "http://schema.org/discussionUrl": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "discussionUrl",
       "http://schema.org/rangeIncludes": "http://schema.org/URL",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "A link to the page containing the comments of the CreativeWork."
     },
     "http://schema.org/editor": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "editor",
       "http://schema.org/rangeIncludes": "http://schema.org/Person",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "Specifies the Person who edited the CreativeWork."
     },
     "http://schema.org/educationalAlignment": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "educationalAlignment",
       "http://schema.org/rangeIncludes": "http://schema.org/AlignmentObject",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "An alignment to an established educational framework."
     },
     "http://schema.org/educationalUse": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "educationalUse",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "The purpose of a work in the context of education; for example, 'assignment', 'group work'."
     },
     "http://schema.org/encoding": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "encoding",
       "http://schema.org/rangeIncludes": "http://schema.org/MediaObject",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A media object that encodes this CreativeWork. This property is a synonym for associatedMedia. Supersedes ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "A media object that encodes this CreativeWork. This property is a synonym for associatedMedia. Supersedes encodings."
     },
     "http://schema.org/exampleOfWork": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "exampleOfWork",
       "http://schema.org/rangeIncludes": "http://schema.org/CreativeWork",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A creative work that this work is an example/instance/realization/derivation of. Inverse property: ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "A creative work that this work is an example/instance/realization/derivation of. Inverse property: workExample."
     },
     "http://schema.org/fileFormat": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "fileFormat",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Text",
         "http://schema.org/URL"
       ],
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Media type, typically MIME format (see ) of the content e.g. application/zip of a SoftwareApplication binary. In cases where a CreativeWork has several media type representations, 'encoding' can be used to indicate each MediaObject alongside particular fileFormat information. Unregistered or niche file formats can be indicated instead via the most appropriate URL, e.g. defining Web page or a Wikipedia entry."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Media type, typically MIME format (see IANA site) of the content e.g. application/zip of a SoftwareApplication binary. In cases where a CreativeWork has several media type representations, 'encoding' can be used to indicate each MediaObject alongside particular fileFormat information. Unregistered or niche file formats can be indicated instead via the most appropriate URL, e.g. defining Web page or a Wikipedia entry."
     },
     "http://schema.org/funder": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "funder",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Organization",
         "http://schema.org/Person"
@@ -301,6 +335,7 @@
     },
     "http://schema.org/genre": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "genre",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Text",
         "http://schema.org/URL"
@@ -313,18 +348,21 @@
     },
     "http://schema.org/hasPart": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hasPart",
       "http://schema.org/rangeIncludes": "http://schema.org/CreativeWork",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates a CreativeWork that is (in some sense) a part of this CreativeWork. Inverse property: ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates a CreativeWork that is (in some sense) a part of this CreativeWork. Inverse property: isPartOf."
     },
     "http://schema.org/headline": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "headline",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "Headline of the article."
     },
     "http://schema.org/inLanguage": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "inLanguage",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Language",
         "http://schema.org/Text"
@@ -335,66 +373,75 @@
         "http://schema.org/Event",
         "http://schema.org/WriteAction"
       ],
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The language of the content or performance or used in an action. Please use one of the language codes from the . See also . Supersedes ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "The language of the content or performance or used in an action. Please use one of the language codes from the IETF BCP 47 standard. See also availableLanguage. Supersedes language."
     },
     "http://schema.org/interactionStatistic": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "interactionStatistic",
       "http://schema.org/rangeIncludes": "http://schema.org/InteractionCounter",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used. Supersedes ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used. Supersedes interactionCount."
     },
     "http://schema.org/interactivityType": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "interactivityType",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'."
     },
     "http://schema.org/isAccessibleForFree": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "isAccessibleForFree",
       "http://schema.org/rangeIncludes": "http://schema.org/Boolean",
       "http://schema.org/domainIncludes": [
         "http://schema.org/CreativeWork",
         "http://schema.org/Event",
         "http://schema.org/PublicationEvent"
       ],
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A flag to signal that the publication is accessible for free. Supersedes ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "A flag to signal that the publication is accessible for free. Supersedes free."
     },
     "http://schema.org/isBasedOn": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "isBasedOn",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/CreativeWork",
         "http://schema.org/Product",
         "http://schema.org/URL"
       ],
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html. Supersedes ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html. Supersedes isBasedOnUrl."
     },
     "http://schema.org/isFamilyFriendly": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "isFamilyFriendly",
       "http://schema.org/rangeIncludes": "http://schema.org/Boolean",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates whether this content is family friendly."
     },
     "http://schema.org/isPartOf": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "isPartOf",
       "http://schema.org/rangeIncludes": "http://schema.org/CreativeWork",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates a CreativeWork that this CreativeWork is (in some sense) part of. Inverse property: ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates a CreativeWork that this CreativeWork is (in some sense) part of. Inverse property: hasPart."
     },
     "http://schema.org/keywords": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "keywords",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas."
     },
     "http://schema.org/learningResourceType": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "learningResourceType",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'."
     },
     "http://schema.org/license": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "license",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/CreativeWork",
         "http://schema.org/URL"
@@ -404,24 +451,28 @@
     },
     "http://schema.org/locationCreated": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "locationCreated",
       "http://schema.org/rangeIncludes": "http://schema.org/Place",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "The location where the CreativeWork was created, which may not be the same as the location depicted in the CreativeWork."
     },
     "http://schema.org/mainEntity": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "mainEntity",
       "http://schema.org/rangeIncludes": "http://schema.org/Thing",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates the primary entity described in some page or other CreativeWork. Inverse property: ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates the primary entity described in some page or other CreativeWork. Inverse property: mainEntityOfPage."
     },
     "http://schema.org/mentions": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "mentions",
       "http://schema.org/rangeIncludes": "http://schema.org/Thing",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates that the CreativeWork contains a reference to, but is not necessarily about a concept."
     },
     "http://schema.org/offers": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "offers",
       "http://schema.org/rangeIncludes": "http://schema.org/Offer",
       "http://schema.org/domainIncludes": [
         "http://schema.org/AggregateOffer",
@@ -434,6 +485,7 @@
     },
     "http://schema.org/position": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "position",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Integer",
         "http://schema.org/Text"
@@ -446,6 +498,7 @@
     },
     "http://schema.org/producer": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "producer",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Organization",
         "http://schema.org/Person"
@@ -455,6 +508,7 @@
     },
     "http://schema.org/provider": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "provider",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Organization",
         "http://schema.org/Person"
@@ -469,16 +523,18 @@
         "http://schema.org/Service",
         "http://schema.org/TrainTrip"
       ],
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller. Supersedes ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller. Supersedes carrier."
     },
     "http://schema.org/publication": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "publication",
       "http://schema.org/rangeIncludes": "http://schema.org/PublicationEvent",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "A publication event associated with the item."
     },
     "http://schema.org/publisher": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "publisher",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Organization",
         "http://schema.org/Person"
@@ -488,24 +544,28 @@
     },
     "http://schema.org/publishingPrinciples": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "publishingPrinciples",
       "http://schema.org/rangeIncludes": "http://schema.org/URL",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "Link to page describing the editorial principles of the organization primarily responsible for the creation of the CreativeWork."
     },
     "http://schema.org/recordedAt": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "recordedAt",
       "http://schema.org/rangeIncludes": "http://schema.org/Event",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The Event where the CreativeWork was recorded. The CreativeWork may capture all or part of the event. Inverse property: ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "The Event where the CreativeWork was recorded. The CreativeWork may capture all or part of the event. Inverse property: recordedIn."
     },
     "http://schema.org/releasedEvent": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "releasedEvent",
       "http://schema.org/rangeIncludes": "http://schema.org/PublicationEvent",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "The place and time the release was issued, expressed as a PublicationEvent."
     },
     "http://schema.org/review": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "review",
       "http://schema.org/rangeIncludes": "http://schema.org/Review",
       "http://schema.org/domainIncludes": [
         "http://schema.org/Brand",
@@ -517,10 +577,11 @@
         "http://schema.org/Product",
         "http://schema.org/Service"
       ],
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A review of the item. Supersedes ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "A review of the item. Supersedes reviews."
     },
     "http://schema.org/schemaVersion": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "schemaVersion",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Text",
         "http://schema.org/URL"
@@ -530,18 +591,21 @@
     },
     "http://schema.org/sourceOrganization": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "sourceOrganization",
       "http://schema.org/rangeIncludes": "http://schema.org/Organization",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "The Organization on whose behalf the creator was working."
     },
     "http://schema.org/spatialCoverage": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "spatialCoverage",
       "http://schema.org/rangeIncludes": "http://schema.org/Place",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The spatialCoverage of a CreativeWork indicates the place(s) which are the focus of the content. It is a subproperty of contentLocation intended primarily for more technical and detailed materials. For example with a Dataset, it indicates areas that the dataset describes: a dataset of New York weather would have spatialCoverage which was the place: the state of New York. Supersedes ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "The spatialCoverage of a CreativeWork indicates the place(s) which are the focus of the content. It is a subproperty of contentLocation intended primarily for more technical and detailed materials. For example with a Dataset, it indicates areas that the dataset describes: a dataset of New York weather would have spatialCoverage which was the place: the state of New York. Supersedes spatial."
     },
     "http://schema.org/sponsor": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "sponsor",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Organization",
         "http://schema.org/Person"
@@ -556,34 +620,39 @@
     },
     "http://schema.org/temporalCoverage": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "temporalCoverage",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/DateTime",
         "http://schema.org/Text",
         "http://schema.org/URL"
       ],
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The temporalCoverage of a CreativeWork indicates the period that the content applies to, i.e. that it describes, either as a DateTime or as a textual string indicating a time period in . In the case of a Dataset it will typically indicate the relevant time period in a precise notation (e.g. for a 2011 census dataset, the year 2011 would be written \"2011/2012\"). Other forms of content e.g. ScholarlyArticle, Book, TVSeries or TVEpisode may indicate their temporalCoverage in broader terms - textually or via well-known URL. Written works such as books may sometimes have precise temporal coverage too, e.g. a work set in 1939 - 1945 can be indicated in ISO 8601 interval format format via \"1939/1945\". Supersedes , ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "The temporalCoverage of a CreativeWork indicates the period that the content applies to, i.e. that it describes, either as a DateTime or as a textual string indicating a time period in ISO 8601 time interval format. In the case of a Dataset it will typically indicate the relevant time period in a precise notation (e.g. for a 2011 census dataset, the year 2011 would be written \"2011/2012\"). Other forms of content e.g. ScholarlyArticle, Book, TVSeries or TVEpisode may indicate their temporalCoverage in broader terms - textually or via well-known URL. Written works such as books may sometimes have precise temporal coverage too, e.g. a work set in 1939 - 1945 can be indicated in ISO 8601 interval format format via \"1939/1945\". Supersedes datasetTimeInterval, temporal."
     },
     "http://schema.org/text": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "text",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "The textual content of this CreativeWork."
     },
     "http://schema.org/thumbnailUrl": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "thumbnailUrl",
       "http://schema.org/rangeIncludes": "http://schema.org/URL",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "A thumbnail image relevant to the Thing."
     },
     "http://schema.org/timeRequired": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "timeRequired",
       "http://schema.org/rangeIncludes": "http://schema.org/Duration",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. 'P30M', 'P1H25M'."
     },
     "http://schema.org/translator": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "translator",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Organization",
         "http://schema.org/Person"
@@ -596,6 +665,7 @@
     },
     "http://schema.org/typicalAgeRange": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "typicalAgeRange",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": [
         "http://schema.org/CreativeWork",
@@ -605,6 +675,7 @@
     },
     "http://schema.org/version": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "version",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/Number",
         "http://schema.org/Text"
@@ -614,78 +685,90 @@
     },
     "http://schema.org/video": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "video",
       "http://schema.org/rangeIncludes": "http://schema.org/VideoObject",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
       "http://www.w3.org/2000/01/rdf-schema#comment": "An embedded video object."
     },
     "http://schema.org/workExample": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "workExample",
       "http://schema.org/rangeIncludes": "http://schema.org/CreativeWork",
       "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Example/instance/realization/derivation of the concept of this creative work. eg. The paperback edition, first edition, or eBook. Inverse property: ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Example/instance/realization/derivation of the concept of this creative work. eg. The paperback edition, first edition, or eBook. Inverse property: exampleOfWork."
     },
     "http://schema.org/additionalType": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "additionalType",
       "http://schema.org/rangeIncludes": "http://schema.org/URL",
       "http://schema.org/domainIncludes": "http://schema.org/Thing",
       "http://www.w3.org/2000/01/rdf-schema#comment": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally."
     },
     "http://schema.org/alternateName": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "alternateName",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/Thing",
       "http://www.w3.org/2000/01/rdf-schema#comment": "An alias for the item."
     },
     "http://schema.org/description": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "description",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/Thing",
       "http://www.w3.org/2000/01/rdf-schema#comment": "A description of the item."
     },
     "http://schema.org/disambiguatingDescription": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "disambiguatingDescription",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/Thing",
       "http://www.w3.org/2000/01/rdf-schema#comment": "A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation."
     },
     "http://schema.org/image": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "image",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/ImageObject",
         "http://schema.org/URL"
       ],
       "http://schema.org/domainIncludes": "http://schema.org/Thing",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "An image of the item. This can be a or a fully described ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "An image of the item. This can be a URL or a fully described ImageObject."
     },
     "http://schema.org/mainEntityOfPage": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "mainEntityOfPage",
       "http://schema.org/rangeIncludes": [
         "http://schema.org/CreativeWork",
         "http://schema.org/URL"
       ],
       "http://schema.org/domainIncludes": "http://schema.org/Thing",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See for details. Inverse property: ."
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See background notes for details. Inverse property: mainEntity."
     },
     "http://schema.org/name": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "name",
       "http://schema.org/rangeIncludes": "http://schema.org/Text",
       "http://schema.org/domainIncludes": "http://schema.org/Thing",
       "http://www.w3.org/2000/01/rdf-schema#comment": "The name of the item."
     },
     "http://schema.org/potentialAction": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "potentialAction",
       "http://schema.org/rangeIncludes": "http://schema.org/Action",
       "http://schema.org/domainIncludes": "http://schema.org/Thing",
       "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role."
     },
     "http://schema.org/sameAs": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "sameAs",
       "http://schema.org/rangeIncludes": "http://schema.org/URL",
       "http://schema.org/domainIncludes": "http://schema.org/Thing",
       "http://www.w3.org/2000/01/rdf-schema#comment": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website."
     },
     "http://schema.org/url": {
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
+      "http://www.w3.org/2000/01/rdf-schema#label": "url",
       "http://schema.org/rangeIncludes": "http://schema.org/URL",
       "http://schema.org/domainIncludes": "http://schema.org/Thing",
       "http://www.w3.org/2000/01/rdf-schema#comment": "URL of the item."

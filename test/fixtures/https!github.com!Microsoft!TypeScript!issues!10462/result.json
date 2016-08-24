@@ -32,7 +32,9 @@
   },
   "microdata": [
     {
-      "@type": "http://schema.org/SoftwareSourceCode"
+      "@type": "http://schema.org/SoftwareSourceCode",
+      "author": "Microsoft",
+      "name": "TypeScript"
     }
   ]
 }

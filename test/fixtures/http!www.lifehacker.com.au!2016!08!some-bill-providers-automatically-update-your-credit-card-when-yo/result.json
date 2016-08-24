@@ -41,7 +41,9 @@
       "genre": "Money",
       "headline": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
       "author": "Kristin Wong",
-      "datePublished": "2016-08-16T17:00:00+10:00"
+      "datePublished": "2016-08-16T17:00:00+10:00",
+      "articleBody": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will update automatically. So how do they know your new credit card number? Photo by Frankieleon One Redditor asked this very question after failing to update a Netflix account and then discovering Netflix updated the credit card information on its own. Basically, some service providers are enrolled in credit cards’ Account Updater programs. Visa, MasterCard, and Discover all have these programs and, in a nutshell, they send qualified merchants your new info whenever your card is replaced. You can read Visa’s program in detail here. Consumerist reached out to Visa on this topic a while back with a concern about security. Visa’s response: Issuers decide when to provide merchants with updated account information, either when cardholders activate their new cards or within two business days from the date of the changes. VAU participants must also meet certain qualification requirements, including Visa security requirements for data transmission. In addition, no transactions can occur until cardholders have activated their new cards. It’s still something to be aware of if you plan on using a different card before updating your information or you’re just wondering how Netflix magically knew your new number. Netflix somehow knows my new credit card number without me giving it to them? [Reddit] Have you subscribed to Lifehacker Australia's email newsletter? You can also follow us on LinkedIn, Facebook, Twitter and YouTube.",
+      "keywords": "credit cards finances spending twocents"
     },
     {
       "@type": "http://schema.org/WPSideBar"

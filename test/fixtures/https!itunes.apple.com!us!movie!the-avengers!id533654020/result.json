@@ -39,7 +39,8 @@
         "http://schema.org/ListItem"
       ],
       "http://schema.org/name": "iTunes",
-      "http://schema.org/position": "1"
+      "http://schema.org/position": "1",
+      "http://schema.org/itemListElement": "iTunes"
     }
   },
   "microdata": [
@@ -57,6 +58,7 @@
           "name": "Joss Whedon"
         }
       ],
+      "description": "Marvel presents Marvel's The Avengers, the Super Hero team-up of a lifetime. Iconic Marvel Super Heroes Iron Man, The Incredible Hulk, Thor and Captain America assemble for the first time ever in this new action-packed Marvel saga, starring Robert Downey Jr., Scarlett Johansson and Samuel L. Jackson, and directed by Joss Whedon. When an unexpected enemy emerges that threatens global safety and security, Nick Fury, Director of the international peacekeeping agency S.H.I.E.L.D., finds himself needing a team to pull the world back from the brink of disaster. Marvel's The Avengers is packed with action, adventure and spectacular special effects that’ll knock your socks off.",
       "actor": [
         {
           "@type": "http://schema.org/Person",

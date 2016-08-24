@@ -49,8 +49,7 @@
   },
   "microdata": [
     {
-      "@type": "http://schema.org/Person",
-      "author": "By"
+      "@type": "http://schema.org/Person"
     }
   ]
 }

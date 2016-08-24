@@ -46,7 +46,7 @@
           "642 critic"
         ]
       },
-      "name": "Inception",
+      "name": "Inception (2010)",
       "contentRating": [
         "M",
         "M"
@@ -58,7 +58,8 @@
       "genre": [
         "Action",
         "Adventure",
-        "Sci-Fi"
+        "Sci-Fi",
+        "Genres: Action | Adventure | Sci-Fi | Thriller"
       ],
       "datePublished": [
         "2010-07-22",
@@ -75,7 +76,10 @@
         "http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB282900252_.png"
       ],
       "trailer": "http://www.imdb.com/video/imdb/vi4219471385?ref_=tt_ov_vi",
-      "description": "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
+      "description": [
+        "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
+        "Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible - inception. Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their task is not to steal an idea but to plant one. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming. Written by Warner Bros. Pictures"
+      ],
       "director": {
         "@type": "http://schema.org/Person",
         "url": "http://www.imdb.com/name/nm0634240?ref_=tt_ov_dr",
@@ -107,20 +111,28 @@
         {
           "@type": "http://schema.org/Person",
           "url": "http://www.imdb.com/name/nm0000138?ref_=tt_ov_st_sm",
-          "name": "Leonardo DiCaprio",
-          "actors": ","
+          "name": "Leonardo DiCaprio"
         },
         {
           "@type": "http://schema.org/Person",
           "url": "http://www.imdb.com/name/nm0330687?ref_=tt_ov_st_sm",
-          "name": "Joseph Gordon-Levitt",
-          "actors": ","
+          "name": "Joseph Gordon-Levitt"
         },
         {
           "@type": "http://schema.org/Person",
           "url": "http://www.imdb.com/name/nm0680983?ref_=tt_ov_st_sm",
           "name": "Ellen Page"
         }
+      ],
+      "headline": [
+        "First Doctor Strange TV Spot Enters a New Marvel Reality",
+        "What Happened? Seven Films That Left Us Hanging",
+        "First Look at Christopher Nolan's 'Dunkirk'"
+      ],
+      "provider": [
+        "MovieWeb",
+        "Cinelinx",
+        "CineMovie"
       ],
       "url": [
         "http://www.imdb.com/plugins?titleId=tt1375666&ref_=tt_plg_rt",
@@ -147,7 +159,10 @@
         "http://www.imdb.com/search/title?colors=color&ref_=tt_dt_spec",
         "http://www.imdb.com/title/tt1375666/technical?ref_=tt_dt_spec"
       ],
-      "awards": "Another 143 wins & 198 nominations.",
+      "awards": [
+        "Won 4 Oscars.",
+        "Another 143 wins & 198 nominations."
+      ],
       "thumbnailUrl": [
         "http://www.imdb.com/title/tt1375666/mediaviewer/rm935297792?ref_=tt_pv_md_1",
         "http://www.imdb.com/title/tt1375666/mediaviewer/rm487490304?ref_=tt_pv_md_2",
@@ -235,12 +250,12 @@
         "subconscious",
         "ambiguous ending",
         "thief",
-        "corporate espionage"
+        "corporate espionage",
+        "Plot Keywords: dream | subconscious | ambiguous ending | thief | corporate espionage | See All (280) »"
       ],
       "audience": {
         "@type": "http://schema.org/Audience",
-        "url": "http://www.imdb.com/title/tt1375666/parentalguide?ref_=tt_stry_pg",
-        "audience": "»"
+        "url": "http://www.imdb.com/title/tt1375666/parentalguide?ref_=tt_stry_pg"
       },
       "review": {
         "@type": "http://schema.org/Review",
