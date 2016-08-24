@@ -1,110 +1,68 @@
 {
-  "type": "html",
+  "applinks": {
+    "android:app_name": "NYTimes",
+    "android:package": "com.nytimes.android",
+    "android:url": "nytimes://reader/id/100000004471911",
+    "ipad:app_name": "NYTimes",
+    "ipad:app_store_id": "357066198",
+    "ipad:url": "nytimes://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+    "iphone:app_name": "NYTimes",
+    "iphone:app_store_id": "284862083",
+    "iphone:url": "nytimes://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html"
+  },
   "contentUrl": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection&_r=0",
-  "originalUrl": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection",
   "encodingFormat": "text/html",
   "html": {
-    "title": "Decoding Donald Trump - The New York Times",
+    "author": "Andrew Rosenthal",
+    "canonical": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+    "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
     "icons": [
       {
         "url": "https://static01.nyt.com/favicon.ico"
       }
     ],
-    "canonical": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
-    "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
-    "author": "Andrew Rosenthal",
-    "keywords": "Orlando Fla Shooting (2016),Trump Donald J,Clinton Hillary Rodham,Muslims and Islam,Discrimination,Homosexuality and Bisexuality,Gun Control"
-  },
-  "twitter": {
-    "app:name:googleplay": "NYTimes",
-    "app:id:googleplay": "com.nytimes.android",
-    "app:url:googleplay": "nytimes://reader/id/100000004471911",
-    "url": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
-    "title": "Decoding Donald Trump",
-    "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
-    "image:alt": "Donald Trump as seen through a television camera eyepiece, at an event Monday.",
-    "image": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-videoSixteenByNineJumbo1600.jpg"
-  },
-  "rdfa": {
-    "": {
-      "http://ogp.me/ns/article#collection": "https://static01.nyt.com/services/json/sectionfronts/opinion/index.jsonp",
-      "http://ogp.me/ns#url": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#title": "Decoding Donald Trump",
-      "http://ogp.me/ns#description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
-      "http://ogp.me/ns/article#published": "2016-06-15T03:21:06-04:00",
-      "http://ogp.me/ns/article#modified": "2016-06-15T08:09:01-04:00",
-      "http://ogp.me/ns/article#section": "Opinion",
-      "http://ogp.me/ns/article#section-taxonomy-id": "AD8090D7-4137-4D71-84C8-70DA3BD89778",
-      "http://ogp.me/ns/article#section_url": "http://www.nytimes.com/pages/opinion/index.html",
-      "http://ogp.me/ns#image": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-facebookJumbo.jpg",
-      "http://ogp.me/ns/article#author": "http://topics.nytimes.com/top/reference/timestopics/people/r/andrew_rosenthal/index.html",
-      "http://ogp.me/ns/article#tag": [
-        "Orlando, Fla, Shooting (2016)",
-        "Trump, Donald J",
-        "Clinton, Hillary Rodham",
-        "Muslims and Islam",
-        "Discrimination",
-        "Homosexuality and Bisexuality",
-        "Gun Control"
-      ]
-    }
-  },
-  "applinks": {
-    "android:url": "nytimes://reader/id/100000004471911",
-    "android:package": "com.nytimes.android",
-    "android:app_name": "NYTimes",
-    "iphone:url": "nytimes://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
-    "iphone:app_store_id": "284862083",
-    "iphone:app_name": "NYTimes",
-    "ipad:url": "nytimes://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
-    "ipad:app_store_id": "357066198",
-    "ipad:app_name": "NYTimes"
+    "keywords": "Orlando Fla Shooting (2016),Trump Donald J,Clinton Hillary Rodham,Muslims and Islam,Discrimination,Homosexuality and Bisexuality,Gun Control",
+    "title": "Decoding Donald Trump - The New York Times"
   },
   "microdata": [
     {
       "@id": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
       "@type": "http://schema.org/NewsArticle",
-      "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
-      "genre": "Op-Ed",
-      "identifier": "100000004471911",
-      "usageTerms": [
-        "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
-        "http://www.nytimes.com/ref/membercenter/help/agree.html"
-      ],
-      "inLanguage": "en-US",
-      "datePublished": "2016-06-15T03:21:06-04:00",
-      "dateModified": [
-        "2016-06-15T08:09:01-04:00",
-        "2016-06-15T08:09:01-04:00"
-      ],
       "articleSection": [
         "Opinion",
         "AD8090D7-4137-4D71-84C8-70DA3BD89778"
       ],
-      "thumbnailUrl": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-thumbStandard.jpg",
-      "headline": "Decoding Donald Trump",
       "associatedMedia": {
         "@id": [
           "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-master768.jpg",
           "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-master768.jpg"
         ],
         "@type": "http://schema.org/ImageObject",
-        "url": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-master768.jpg",
-        "height": "512",
-        "width": "768",
-        "copyrightHolder": "Credit Damon Winter/The New York Times",
         "caption": "Donald Trump as seen through a television camera eyepiece, at an event Monday. Credit Damon Winter/The New York Times",
-        "description": "Donald Trump as seen through a television camera eyepiece, at an event Monday. Credit Damon Winter/The New York Times"
+        "copyrightHolder": "Credit Damon Winter/The New York Times",
+        "description": "Donald Trump as seen through a television camera eyepiece, at an event Monday. Credit Damon Winter/The New York Times",
+        "height": "512",
+        "url": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-master768.jpg",
+        "width": "768"
       },
-      "copyrightNotice": "http://www.nytimes.com/content/help/rights/copyright/copyright-notice.html",
-      "copyrightYear": "2016",
       "copyrightHolder": {
         "@id": "http://www.nytimes.com",
         "@type": "http://schema.org/Organization",
         "name": "The New York Times Company",
         "tickerSymbol": "NYSE NYT"
       },
+      "copyrightNotice": "http://www.nytimes.com/content/help/rights/copyright/copyright-notice.html",
+      "copyrightYear": "2016",
+      "dateModified": [
+        "2016-06-15T08:09:01-04:00",
+        "2016-06-15T08:09:01-04:00"
+      ],
+      "datePublished": "2016-06-15T03:21:06-04:00",
+      "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
+      "genre": "Op-Ed",
+      "headline": "Decoding Donald Trump",
+      "identifier": "100000004471911",
+      "inLanguage": "en-US",
       "provider": {
         "@id": "http://www.nytimes.com",
         "@type": "http://schema.org/Organization",
@@ -116,27 +74,69 @@
         "@type": "http://schema.org/Organization",
         "name": "The New York Times Company",
         "tickerSymbol": "NYSE NYT"
-      }
+      },
+      "thumbnailUrl": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-thumbStandard.jpg",
+      "usageTerms": [
+        "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+        "http://www.nytimes.com/ref/membercenter/help/agree.html"
+      ]
     }
   ],
   "oembed": {
-    "type": "rich",
     "asset_type": "article",
-    "version": "1.0",
-    "title": "Decoding Donald Trump",
-    "summary": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
     "author_name": "By ANDREW ROSENTHAL",
-    "publication_date": "June 15, 2016",
-    "url": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
     "cache_age": 86400,
+    "height": 550,
+    "html": "<iframe src=\"https://www.nytimes.com/svc/oembed/html/?url=http%3A%2F%2Fwww.nytimes.com%2F2016%2F06%2F15%2Fopinion%2Fcampaign-stops%2Fdecoding-donald-trump.html\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" style=\"border:none;max-width:500px;min-width:300px;min-height:550px;display:block;width:100%;\"></iframe>",
     "provider_name": "The New York Times",
     "provider_url": "https://www.nytimes.com",
-    "html": "<iframe src=\"https://www.nytimes.com/svc/oembed/html/?url=http%3A%2F%2Fwww.nytimes.com%2F2016%2F06%2F15%2Fopinion%2Fcampaign-stops%2Fdecoding-donald-trump.html\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" style=\"border:none;max-width:500px;min-width:300px;min-height:550px;display:block;width:100%;\"></iframe>",
-    "width": 300,
-    "height": 550,
+    "publication_date": "June 15, 2016",
+    "summary": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
     "thumbnail_credit": "Damon Winter/The New York Times",
+    "thumbnail_height": 293,
     "thumbnail_url": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-mediumThreeByTwo440.jpg",
     "thumbnail_width": 440,
-    "thumbnail_height": 293
-  }
+    "title": "Decoding Donald Trump",
+    "type": "rich",
+    "url": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+    "version": "1.0",
+    "width": 300
+  },
+  "originalUrl": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection",
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
+      "http://ogp.me/ns#image": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-facebookJumbo.jpg",
+      "http://ogp.me/ns#title": "Decoding Donald Trump",
+      "http://ogp.me/ns#type": "article",
+      "http://ogp.me/ns#url": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+      "http://ogp.me/ns/article#author": "http://topics.nytimes.com/top/reference/timestopics/people/r/andrew_rosenthal/index.html",
+      "http://ogp.me/ns/article#collection": "https://static01.nyt.com/services/json/sectionfronts/opinion/index.jsonp",
+      "http://ogp.me/ns/article#modified": "2016-06-15T08:09:01-04:00",
+      "http://ogp.me/ns/article#published": "2016-06-15T03:21:06-04:00",
+      "http://ogp.me/ns/article#section": "Opinion",
+      "http://ogp.me/ns/article#section-taxonomy-id": "AD8090D7-4137-4D71-84C8-70DA3BD89778",
+      "http://ogp.me/ns/article#section_url": "http://www.nytimes.com/pages/opinion/index.html",
+      "http://ogp.me/ns/article#tag": [
+        "Orlando, Fla, Shooting (2016)",
+        "Trump, Donald J",
+        "Clinton, Hillary Rodham",
+        "Muslims and Islam",
+        "Discrimination",
+        "Homosexuality and Bisexuality",
+        "Gun Control"
+      ]
+    }
+  },
+  "twitter": {
+    "app:id:googleplay": "com.nytimes.android",
+    "app:name:googleplay": "NYTimes",
+    "app:url:googleplay": "nytimes://reader/id/100000004471911",
+    "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
+    "image": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-videoSixteenByNineJumbo1600.jpg",
+    "image:alt": "Donald Trump as seen through a television camera eyepiece, at an event Monday.",
+    "title": "Decoding Donald Trump",
+    "url": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html"
+  },
+  "type": "html"
 }

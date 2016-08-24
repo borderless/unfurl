@@ -1,34 +1,36 @@
 {
-  "type": "html",
+  "apps": {
+  },
+  "author": {
+  },
+  "contentUrl": "http://slant6.bandcamp.com/",
+  "description": "12 track album",
+  "encodingFormat": "text/html",
+  "headline": "Inzombia, by Slant 6",
+  "icon": {
+    "url": "https://f4.bcbits.com/img/a1638428842_3.jpg"
+  },
   "image": {
     "url": "https://f4.bcbits.com/img/a1638428842_5.jpg"
   },
-  "video": {
-    "url": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
-    "secureUrl": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
-    "type": "text/html",
-    "width": 400,
-    "height": 120
-  },
-  "player": {
-    "url": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/linkcol=0084B4/notracklist=true/twittercard=true/",
-    "width": 350,
-    "height": 467
-  },
-  "contentUrl": "http://slant6.bandcamp.com/",
   "originalUrl": "https://slant6.bandcamp.com/",
-  "encodingFormat": "text/html",
-  "headline": "Inzombia, by Slant 6",
-  "description": "12 track album",
+  "player": {
+    "height": 467,
+    "url": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/linkcol=0084B4/notracklist=true/twittercard=true/",
+    "width": 350
+  },
   "provider": {
     "name": "Slant 6"
-  },
-  "author": {},
-  "icon": {
-    "url": "https://f4.bcbits.com/img/a1638428842_3.jpg"
   },
   "twitter": {
     "siteHandle": "bandcamp"
   },
-  "apps": {}
+  "type": "html",
+  "video": {
+    "height": 120,
+    "secureUrl": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
+    "type": "text/html",
+    "url": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
+    "width": 400
+  }
 }

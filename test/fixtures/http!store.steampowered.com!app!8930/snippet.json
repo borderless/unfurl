@@ -1,15 +1,18 @@
 {
-  "type": "html",
-  "contentUrl": "http://store.steampowered.com/app/8930/",
+  "apps": {
+  },
+  "author": {
+  },
   "contentSize": 35099,
-  "originalUrl": "http://store.steampowered.com/app/8930/",
+  "contentUrl": "http://store.steampowered.com/app/8930/",
   "encodingFormat": "text/html",
   "headline": "Sid Meier's Civilization® V on Steam",
-  "provider": {},
-  "author": {},
   "icon": {
-    "url": "http://store.steampowered.com/favicon.ico",
-    "type": "image/x-icon"
+    "type": "image/x-icon",
+    "url": "http://store.steampowered.com/favicon.ico"
   },
-  "apps": {}
+  "originalUrl": "http://store.steampowered.com/app/8930/",
+  "provider": {
+  },
+  "type": "html"
 }

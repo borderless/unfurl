@@ -1,42 +1,56 @@
 {
-  "type": "html",
+  "applinks": {
+    "android:app_name": "Foursquare",
+    "android:package": "com.joelapenna.foursquared",
+    "android:url": "foursquare://venues/4b3c2445f964a520348225e3",
+    "ipad:app_name": "Foursquare",
+    "ipad:app_store_id": "306934924",
+    "ipad:url": "foursquare://venues/4b3c2445f964a520348225e3",
+    "iphone:app_name": "Foursquare",
+    "iphone:app_store_id": "306934924",
+    "iphone:url": "foursquare://venues/4b3c2445f964a520348225e3",
+    "web:should_fallback": "false",
+    "windows_phone:app_id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+    "windows_phone:app_name": "Foursquare",
+    "windows_phone:url": "foursquare://venues/4b3c2445f964a520348225e3"
+  },
   "contentUrl": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
-  "originalUrl": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
   "encodingFormat": "text/html",
   "html": {
-    "title": "Mrs. Macquarie's Point - Central Business District - Mrs Macquaries Rd.",
     "application-name": "Foursquare",
+    "canonical": "/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
     "description": "See 425 photos from 1624 visitors about scenic views, bridge and opera house, and picnics. \"This is really one of my favorite places to take the...\"",
-    "keywords": "Mrs. Macquarie's Point, Mrs Macquaries Rd., Sydney, NSW, mrs macquarie's point,mrs macquaries point,mrs. macquarie's point,mrs. macquaries point, Scenic Lookout",
     "icons": [
       {
-        "url": "https://foursquare.com/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://foursquare.com/favicon.ico"
       }
     ],
-    "canonical": "/v/mrs-macquaries-point/4b3c2445f964a520348225e3"
+    "keywords": "Mrs. Macquarie's Point, Mrs Macquaries Rd., Sydney, NSW, mrs macquarie's point,mrs macquaries point,mrs. macquarie's point,mrs. macquaries point, Scenic Lookout",
+    "title": "Mrs. Macquarie's Point - Central Business District - Mrs Macquaries Rd."
   },
-  "twitter": {
-    "site": "@foursquare",
-    "creator": "@foursquare",
-    "card": "summary_large_image",
-    "url": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
-    "description": "Scenic Lookout in Sydney, NSW",
-    "title": "Mrs. Macquarie's Point",
-    "image": "https://irs3.4sqi.net/img/general/600x600/438641_2_--EBsG_nPTeh1VrgbcUunxKbD3q0okjw4YXmzXOtU.jpg",
-    "app:name:iphone": "Foursquare",
-    "app:id:iphone": "306934924",
-    "app:url:iphone": "foursquare://venues/4b3c2445f964a520348225e3",
-    "app:name:ipad": "Foursquare",
-    "app:id:ipad": "306934924",
-    "app:url:ipad": "foursquare://venues/4b3c2445f964a520348225e3",
-    "app:name:googleplay": "Foursquare",
-    "app:id:googleplay": "com.joelapenna.foursquared",
-    "app:url:googleplay": "foursquare://venues/4b3c2445f964a520348225e3"
-  },
+  "microdata": [
+    {
+      "@type": "http://schema.org/LocalBusiness",
+      "address": {
+        "@type": "http://schema.org/PostalAddress",
+        "addressLocality": "Sydney",
+        "addressRegion": "NSW",
+        "postalCode": "2000",
+        "streetAddress": "Mrs Macquaries Rd."
+      },
+      "aggregateRating": {
+        "@type": "http://schema.org/AggregateRating",
+        "bestRating": "10",
+        "ratingCount": "111",
+        "ratingValue": "9.6"
+      },
+      "name": "Mrs. Macquarie's Point"
+    }
+  ],
+  "originalUrl": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
   "rdfa": {
     "": {
-      "http://ogp.me/ns#title": "Mrs. Macquarie's Point",
       "http://ogp.me/ns#description": "Scenic Lookout in Sydney, NSW",
       "http://ogp.me/ns#image": [
         "https://irs3.4sqi.net/img/general/600x600/438641_2_--EBsG_nPTeh1VrgbcUunxKbD3q0okjw4YXmzXOtU.jpg",
@@ -44,43 +58,29 @@
         "https://irs2.4sqi.net/img/general/600x600/9379207_DIWpAJ5IJBLIbC57H6_uEfGl0bgZHF_6faMlyRsX-fI.jpg",
         "https://irs0.4sqi.net/img/general/600x600/DHSbNG-xAqCikjlwn3ZxKK0kWqB5ZY1ysEn78rxwvl0.jpg"
       ],
-      "http://ogp.me/ns#url": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
+      "http://ogp.me/ns#site_name": "Foursquare",
+      "http://ogp.me/ns#title": "Mrs. Macquarie's Point",
       "http://ogp.me/ns#type": "playfoursquare:venue",
-      "http://ogp.me/ns#site_name": "Foursquare"
+      "http://ogp.me/ns#url": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3"
     }
   },
-  "applinks": {
-    "iphone:url": "foursquare://venues/4b3c2445f964a520348225e3",
-    "iphone:app_store_id": "306934924",
-    "iphone:app_name": "Foursquare",
-    "ipad:url": "foursquare://venues/4b3c2445f964a520348225e3",
-    "ipad:app_store_id": "306934924",
-    "ipad:app_name": "Foursquare",
-    "android:url": "foursquare://venues/4b3c2445f964a520348225e3",
-    "android:package": "com.joelapenna.foursquared",
-    "android:app_name": "Foursquare",
-    "windows_phone:url": "foursquare://venues/4b3c2445f964a520348225e3",
-    "windows_phone:app_id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
-    "windows_phone:app_name": "Foursquare",
-    "web:should_fallback": "false"
+  "twitter": {
+    "app:id:googleplay": "com.joelapenna.foursquared",
+    "app:id:ipad": "306934924",
+    "app:id:iphone": "306934924",
+    "app:name:googleplay": "Foursquare",
+    "app:name:ipad": "Foursquare",
+    "app:name:iphone": "Foursquare",
+    "app:url:googleplay": "foursquare://venues/4b3c2445f964a520348225e3",
+    "app:url:ipad": "foursquare://venues/4b3c2445f964a520348225e3",
+    "app:url:iphone": "foursquare://venues/4b3c2445f964a520348225e3",
+    "card": "summary_large_image",
+    "creator": "@foursquare",
+    "description": "Scenic Lookout in Sydney, NSW",
+    "image": "https://irs3.4sqi.net/img/general/600x600/438641_2_--EBsG_nPTeh1VrgbcUunxKbD3q0okjw4YXmzXOtU.jpg",
+    "site": "@foursquare",
+    "title": "Mrs. Macquarie's Point",
+    "url": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/LocalBusiness",
-      "name": "Mrs. Macquarie's Point",
-      "aggregateRating": {
-        "@type": "http://schema.org/AggregateRating",
-        "ratingValue": "9.6",
-        "bestRating": "10",
-        "ratingCount": "111"
-      },
-      "address": {
-        "@type": "http://schema.org/PostalAddress",
-        "streetAddress": "Mrs Macquaries Rd.",
-        "addressLocality": "Sydney",
-        "addressRegion": "NSW",
-        "postalCode": "2000"
-      }
-    }
-  ]
+  "type": "html"
 }

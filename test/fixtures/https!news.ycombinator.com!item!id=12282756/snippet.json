@@ -1,13 +1,16 @@
 {
-  "type": "html",
+  "apps": {
+  },
+  "author": {
+  },
   "contentUrl": "https://news.ycombinator.com/item?id=12282756",
-  "originalUrl": "https://news.ycombinator.com/item?id=12282756",
   "encodingFormat": "text/html",
   "headline": "For a Better Economy, Add Commuter Rail? | Hacker News",
-  "provider": {},
-  "author": {},
   "icon": {
     "url": "https://news.ycombinator.com/favicon.ico"
   },
-  "apps": {}
+  "originalUrl": "https://news.ycombinator.com/item?id=12282756",
+  "provider": {
+  },
+  "type": "html"
 }

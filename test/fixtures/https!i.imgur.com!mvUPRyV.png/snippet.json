@@ -1,10 +1,10 @@
 {
-  "type": "image",
-  "encodingFormat": "image/png",
   "contentSize": 78800,
   "contentUrl": "https://i.imgur.com/mvUPRyV.png",
-  "originalUrl": "https://i.imgur.com/mvUPRyV.png",
-  "width": 773,
+  "encodingFormat": "image/png",
   "height": 484,
-  "megapixels": 0.374
+  "megapixels": 0.374,
+  "originalUrl": "https://i.imgur.com/mvUPRyV.png",
+  "type": "image",
+  "width": 773
 }

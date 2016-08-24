@@ -1,23 +1,25 @@
 {
-  "type": "html",
+  "apps": {
+  },
+  "author": {
+  },
+  "contentUrl": "https://github.com/Microsoft/TypeScript/issues/10462",
+  "description": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type 'Object' is not as...",
+  "encodingFormat": "text/html",
+  "headline": "Give a better error message for assigning from Object to anything else · Issue #10462 · Microsoft/TypeScript",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "https://assets-cdn.github.com/favicon.ico"
+  },
   "image": {
     "url": "https://avatars3.githubusercontent.com/u/972891?v=3&s=400"
   },
-  "contentUrl": "https://github.com/Microsoft/TypeScript/issues/10462",
   "originalUrl": "https://github.com/Microsoft/TypeScript/issues/10462",
-  "encodingFormat": "text/html",
-  "headline": "Give a better error message for assigning from Object to anything else · Issue #10462 · Microsoft/TypeScript",
-  "description": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type 'Object' is not as...",
   "provider": {
     "name": "GitHub"
-  },
-  "author": {},
-  "icon": {
-    "url": "https://assets-cdn.github.com/favicon.ico",
-    "type": "image/x-icon"
   },
   "twitter": {
     "siteHandle": "github"
   },
-  "apps": {}
+  "type": "html"
 }

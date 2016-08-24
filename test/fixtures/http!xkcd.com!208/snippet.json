@@ -1,15 +1,18 @@
 {
-  "type": "html",
-  "contentUrl": "http://xkcd.com/208/",
+  "apps": {
+  },
+  "author": {
+  },
   "contentSize": 2872,
-  "originalUrl": "http://xkcd.com/208/",
+  "contentUrl": "http://xkcd.com/208/",
   "encodingFormat": "text/html",
   "headline": "xkcd: Regular Expressions",
-  "provider": {},
-  "author": {},
   "icon": {
-    "url": "http://xkcd.com/s/919f27.ico",
-    "type": "image/x-icon"
+    "type": "image/x-icon",
+    "url": "http://xkcd.com/s/919f27.ico"
   },
-  "apps": {}
+  "originalUrl": "http://xkcd.com/208/",
+  "provider": {
+  },
+  "type": "html"
 }

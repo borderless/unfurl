@@ -1,27 +1,28 @@
 {
-  "type": "html",
-  "image": {
-    "url": "http://a.amz.mshcdn.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2MzAKZQlqcGc/8e6659fa/25e/battleofthebastards.jpg"
-  },
-  "entity": {
-    "type": "article"
-  },
-  "contentUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
-  "contentSize": 12697,
-  "originalUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3",
-  "encodingFormat": "text/html",
-  "headline": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
-  "description": "Let us count the ways we hope Ramsey will die.",
-  "provider": {
-    "name": "Mashable"
+  "apps": {
   },
   "author": {
     "name": "Andrea Romano"
   },
+  "contentSize": 12697,
+  "contentUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
+  "description": "Let us count the ways we hope Ramsey will die.",
+  "encodingFormat": "text/html",
+  "entity": {
+    "type": "article"
+  },
+  "headline": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
   "icon": {
-    "url": "http://mashable.com/favicon-32x32.png?v=m2Pmw8zNwl",
     "sizes": "32x32",
-    "type": "image/png"
+    "type": "image/png",
+    "url": "http://mashable.com/favicon-32x32.png?v=m2Pmw8zNwl"
+  },
+  "image": {
+    "url": "http://a.amz.mshcdn.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2MzAKZQlqcGc/8e6659fa/25e/battleofthebastards.jpg"
+  },
+  "originalUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3",
+  "provider": {
+    "name": "Mashable"
   },
   "tags": [
     "entertainment",
@@ -34,8 +35,8 @@
     "game-of-thrones"
   ],
   "twitter": {
-    "siteHandle": "mashable",
-    "creatorHandle": "AndiesMint"
+    "creatorHandle": "AndiesMint",
+    "siteHandle": "mashable"
   },
-  "apps": {}
+  "type": "html"
 }

@@ -1,18 +1,20 @@
 {
-  "type": "html",
-  "contentUrl": "https://bjango.com/articles/pngoptimisation/",
+  "apps": {
+  },
+  "author": {
+  },
   "contentSize": 15734,
-  "originalUrl": "https://bjango.com/articles/pngoptimisation/",
+  "contentUrl": "https://bjango.com/articles/pngoptimisation/",
+  "description": "Exporting an identical image from different design tools results in different file sizes. Why? What can be done to optimise them to reduce downloading time and disk space?",
   "encodingFormat": "text/html",
   "headline": "PNG optimisation",
-  "description": "Exporting an identical image from different design tools results in different file sizes. Why? What can be done to optimise them to reduce downloading time and disk space?",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "https://bjango.com/favicon.ico"
+  },
+  "originalUrl": "https://bjango.com/articles/pngoptimisation/",
   "provider": {
     "name": "Bjango"
   },
-  "author": {},
-  "icon": {
-    "url": "https://bjango.com/favicon.ico",
-    "type": "image/x-icon"
-  },
-  "apps": {}
+  "type": "html"
 }

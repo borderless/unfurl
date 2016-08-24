@@ -1,87 +1,87 @@
 {
-  "type": "html",
   "contentUrl": "https://www.npmjs.com/package/filenamify",
-  "originalUrl": "https://www.npmjs.com/package/filenamify",
   "encodingFormat": "text/html",
   "html": {
-    "title": "filenamify",
-    "description": "Convert a string to a valid safe filename",
-    "keywords": "dirname,valid,convert,filepath,path,string,name,file,sanitize,safe,filename",
     "canonical": "https://www.npmjs.com/package/filenamify",
+    "description": "Convert a string to a valid safe filename",
     "icons": [
       {
-        "url": "https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png",
         "sizes": "32x32",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png"
       },
       {
-        "url": "https://www.npmjs.com/static/images/touch-icons/favicon-230x230.png",
         "sizes": "230x230",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://www.npmjs.com/static/images/touch-icons/favicon-230x230.png"
       },
       {
-        "url": "https://www.npmjs.com/static/images/touch-icons/favicon-96x96.png",
         "sizes": "96x96",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://www.npmjs.com/static/images/touch-icons/favicon-96x96.png"
       },
       {
-        "url": "https://www.npmjs.com/static/images/touch-icons/android-chrome-192x192.png",
         "sizes": "192x192",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://www.npmjs.com/static/images/touch-icons/android-chrome-192x192.png"
       },
       {
-        "url": "https://www.npmjs.com/static/images/touch-icons/coast-228x228.png",
         "sizes": "228x228",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://www.npmjs.com/static/images/touch-icons/coast-228x228.png"
       },
       {
-        "url": "https://www.npmjs.com/static/images/touch-icons/favicon-16x16.png",
         "sizes": "16x16",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://www.npmjs.com/static/images/touch-icons/favicon-16x16.png"
       },
       {
         "url": "https://www.npmjs.com/static/images/touch-icons/favicon.ico"
       }
-    ]
-  },
-  "twitter": {
-    "card": "summary",
-    "url": "https://www.npmjs.com/package/filenamify",
-    "title": "npm: filenamify",
-    "description": "Convert a string to a valid safe filename"
-  },
-  "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "Convert a string to a valid safe filename",
-      "http://ogp.me/ns#title": "filenamify",
-      "http://ogp.me/ns#url": "https://www.npmjs.com/package/filenamify",
-      "http://ogp.me/ns#site_name": "npm",
-      "http://ogp.me/ns#image": "https://www.npmjs.com/static/images/touch-icons/open-graph.png"
-    }
+    ],
+    "keywords": "dirname,valid,convert,filepath,path,string,name,file,sanitize,safe,filename",
+    "title": "filenamify"
   },
   "jsonld": [
     {
       "@context": "http://schema.org",
       "@type": "SoftwareApplication",
-      "name": "filenamify",
-      "description": "Convert a string to a valid safe filename",
-      "url": "https://www.npmjs.com/package/filenamify",
-      "keywords": "dirname,valid,convert,filepath,path,string,name,file,sanitize,safe,filename",
       "applicationCategory": "DeveloperApplication",
+      "description": "Convert a string to a valid safe filename",
+      "keywords": "dirname,valid,convert,filepath,path,string,name,file,sanitize,safe,filename",
+      "name": "filenamify",
       "offers": {
         "@type": "Offer",
         "price": "0.00"
-      }
+      },
+      "url": "https://www.npmjs.com/package/filenamify"
     }
   ],
   "microdata": [
     {
       "@type": "http://schema.org/WebSite",
-      "url": "https://www.npmjs.com/",
       "potentialAction": {
         "@type": "http://schema.org/SearchAction",
         "target": "https://www.npmjs.com/search?q={q}"
-      }
+      },
+      "url": "https://www.npmjs.com/"
     }
-  ]
+  ],
+  "originalUrl": "https://www.npmjs.com/package/filenamify",
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "Convert a string to a valid safe filename",
+      "http://ogp.me/ns#image": "https://www.npmjs.com/static/images/touch-icons/open-graph.png",
+      "http://ogp.me/ns#site_name": "npm",
+      "http://ogp.me/ns#title": "filenamify",
+      "http://ogp.me/ns#url": "https://www.npmjs.com/package/filenamify"
+    }
+  },
+  "twitter": {
+    "card": "summary",
+    "description": "Convert a string to a valid safe filename",
+    "title": "npm: filenamify",
+    "url": "https://www.npmjs.com/package/filenamify"
+  },
+  "type": "html"
 }

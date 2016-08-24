@@ -1,29 +1,30 @@
 {
-  "type": "html",
-  "image": {
-    "url": "https://pbs.twimg.com/profile_images/617160371216842752/TQ_Bfpkz_400x400.png"
-  },
-  "entity": {
-    "type": "article"
-  },
-  "contentUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
-  "contentSize": 39727,
-  "originalUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
-  "encodingFormat": "text/html",
-  "headline": "Eric Clemmons on Twitter",
-  "description": "“🔥 Clean up @github issues with the HTML5 &lt;details&gt; tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx”",
-  "provider": {
-    "name": "Twitter",
-    "url": "https://twitter.com"
+  "apps": {
   },
   "author": {
     "name": "Eric Clemmons",
     "url": "https://twitter.com/ericclemmons"
   },
-  "ttl": 3153600000,
-  "icon": {
-    "url": "https://abs.twimg.com/favicons/favicon.ico",
-    "type": "image/x-icon"
+  "contentSize": 39727,
+  "contentUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
+  "description": "“🔥 Clean up @github issues with the HTML5 &lt;details&gt; tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx”",
+  "encodingFormat": "text/html",
+  "entity": {
+    "type": "article"
   },
-  "apps": {}
+  "headline": "Eric Clemmons on Twitter",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "https://abs.twimg.com/favicons/favicon.ico"
+  },
+  "image": {
+    "url": "https://pbs.twimg.com/profile_images/617160371216842752/TQ_Bfpkz_400x400.png"
+  },
+  "originalUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
+  "provider": {
+    "name": "Twitter",
+    "url": "https://twitter.com"
+  },
+  "ttl": 3153600000,
+  "type": "html"
 }

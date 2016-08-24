@@ -1,5 +1,39 @@
 {
-  "type": "html",
+  "apps": {
+    "android": {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201d8f22e3"
+    },
+    "ipad": {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201d8f22e3"
+    },
+    "iphone": {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201d8f22e3"
+    },
+    "windowsPhone": {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201d8f22e3"
+    }
+  },
+  "author": {
+  },
+  "contentUrl": "https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3",
+  "description": "Harbor / Marina in Darling Harbour, NSW",
+  "encodingFormat": "text/html",
+  "entity": {
+    "type": "image"
+  },
+  "headline": "Darling Harbour",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "https://foursquare.com/favicon.ico"
+  },
   "image": [
     {
       "url": "https://irs1.4sqi.net/img/general/600x600/217364_6EnQMRzzTJSG6KAH8dnxlBJAumfGAVKF3teWmCgpseI.jpg"
@@ -14,21 +48,9 @@
       "url": "https://irs0.4sqi.net/img/general/600x600/121824_7ICbZgLyvL--Sgog0KzA6bimoAUWQ3CiVJstfC54rck.jpg"
     }
   ],
-  "entity": {
-    "type": "image"
-  },
-  "contentUrl": "https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3",
   "originalUrl": "https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3",
-  "encodingFormat": "text/html",
-  "headline": "Darling Harbour",
-  "description": "Harbor / Marina in Darling Harbour, NSW",
   "provider": {
     "name": "Foursquare"
-  },
-  "author": {},
-  "icon": {
-    "url": "https://foursquare.com/favicon.ico",
-    "type": "image/x-icon"
   },
   "tags": [
     "Darling Harbour",
@@ -48,29 +70,8 @@
     "Plaza"
   ],
   "twitter": {
-    "siteHandle": "foursquare",
-    "creatorHandle": "foursquare"
+    "creatorHandle": "foursquare",
+    "siteHandle": "foursquare"
   },
-  "apps": {
-    "iphone": {
-      "id": "306934924",
-      "name": "Foursquare",
-      "url": "foursquare://venues/4b058762f964a5201d8f22e3"
-    },
-    "ipad": {
-      "id": "306934924",
-      "name": "Foursquare",
-      "url": "foursquare://venues/4b058762f964a5201d8f22e3"
-    },
-    "android": {
-      "id": "com.joelapenna.foursquared",
-      "name": "Foursquare",
-      "url": "foursquare://venues/4b058762f964a5201d8f22e3"
-    },
-    "windowsPhone": {
-      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
-      "name": "Foursquare",
-      "url": "foursquare://venues/4b058762f964a5201d8f22e3"
-    }
-  }
+  "type": "html"
 }

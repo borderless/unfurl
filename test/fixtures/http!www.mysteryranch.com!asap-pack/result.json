@@ -1,48 +1,33 @@
 {
-  "type": "html",
-  "contentUrl": "http://www.mysteryranch.com/asap-pack",
-  "originalUrl": "http://www.mysteryranch.com/asap-pack",
-  "encodingFormat": "text/html",
   "contentSize": 17199,
+  "contentUrl": "http://www.mysteryranch.com/asap-pack",
+  "encodingFormat": "text/html",
   "html": {
-    "title": "ASAP Pack | Mystery Ranch Backpacks",
+    "canonical": "http://www.mysteryranch.com/asap-pack",
+    "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It's size and versatility make it a perfect every day carry.",
     "icons": [
       {
-        "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-32x32.png",
         "sizes": "32x32",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-32x32.png"
       },
       {
-        "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/android-chrome-192x192.png",
         "sizes": "192x192",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/android-chrome-192x192.png"
       },
       {
-        "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-96x96.png",
         "sizes": "96x96",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-96x96.png"
       },
       {
-        "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-16x16.png",
         "sizes": "16x16",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-16x16.png"
       }
     ],
-    "canonical": "http://www.mysteryranch.com/asap-pack",
-    "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It's size and versatility make it a perfect every day carry."
-  },
-  "twitter": {
-    "card": "product",
-    "site": "@theMysteryRanch",
-    "creator": "@theMysteryRanch",
-    "title": "ASAP",
-    "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It's size and versatility make it a perfect every day carry.",
-    "image:src": "http://www.mysteryranch.com/Product Images/ASAP_10-multicam-hero-assault-pack.jpg?resizeid=3&resizeh=600&resizew=600",
-    "domain": "http://www.mysteryranch.com",
-    "data1": "$245.00 USD",
-    "label1": "PRICE",
-    "data2": "InStock",
-    "label2": "AVAILABILITY"
+    "title": "ASAP Pack | Mystery Ranch Backpacks"
   },
   "microdata": [
     {
@@ -50,7 +35,13 @@
     },
     {
       "@type": "http://schema.org/Product",
-      "url": "/asap-pack",
+      "aggregateRating": {
+        "@type": "http://schema.org/AggregateRating",
+        "bestRating": "5",
+        "ratingValue": "0",
+        "worstRating": "1"
+      },
+      "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It's size and versatility make it a perfect every day carry.",
       "image": [
         "http://www.mysteryranch.com/Product%20Images/ASAP_10-multicam-hero-assault-pack.jpg?resizeid=3&resizeh=600&resizew=600",
         "http://www.mysteryranch.com/Product%20Images/ASAP_15-coyote-hero-assault-pack.jpg?resizeid=3&resizeh=600&resizew=600",
@@ -59,19 +50,28 @@
         "http://www.mysteryranch.com/Product%20Images/ASAP_30-multicam-open-assault-pack.jpg?resizeid=3&resizeh=600&resizew=600"
       ],
       "name": "ASAP",
-      "aggregateRating": {
-        "@type": "http://schema.org/AggregateRating",
-        "bestRating": "5",
-        "worstRating": "1",
-        "ratingValue": "0"
-      },
       "offers": {
         "@type": "http://schema.org/Offer",
-        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock",
         "price": "$245.00",
-        "availability": "http://schema.org/InStock"
+        "priceCurrency": "USD"
       },
-      "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It's size and versatility make it a perfect every day carry."
+      "url": "/asap-pack"
     }
-  ]
+  ],
+  "originalUrl": "http://www.mysteryranch.com/asap-pack",
+  "twitter": {
+    "card": "product",
+    "creator": "@theMysteryRanch",
+    "data1": "$245.00 USD",
+    "data2": "InStock",
+    "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It's size and versatility make it a perfect every day carry.",
+    "domain": "http://www.mysteryranch.com",
+    "image:src": "http://www.mysteryranch.com/Product Images/ASAP_10-multicam-hero-assault-pack.jpg?resizeid=3&resizeh=600&resizew=600",
+    "label1": "PRICE",
+    "label2": "AVAILABILITY",
+    "site": "@theMysteryRanch",
+    "title": "ASAP"
+  },
+  "type": "html"
 }

@@ -1,74 +1,43 @@
 {
-  "type": "html",
   "contentUrl": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769?&_trksid=p2056016.l4276",
-  "originalUrl": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769?&_trksid=p2056016.l4276",
   "encodingFormat": "text/html",
   "html": {
-    "title": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch | eBay",
-    "description": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch in Home & Garden, Yard, Garden & Outdoor Living, Patio & Garden Furniture | eBay",
     "canonical": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769",
-    "keywords": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch, Home & Garden, Yard, Garden & Outdoor Living, Patio & Garden Furniture",
+    "description": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch in Home & Garden, Yard, Garden & Outdoor Living, Patio & Garden Furniture | eBay",
     "icons": [
       {
-        "url": "http://www.ebay.com/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "http://www.ebay.com/favicon.ico"
       }
-    ]
-  },
-  "twitter": {
-    "app:name:googleplay": "eBay",
-    "app:id:googleplay": "com.ebay.mobile",
-    "app:url:googleplay": "ebay://link/?nav=item.view&id=381228738769&referrer=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-81568-27276-4%2F16%3F&min_version=17",
-    "app:url:iphone": "ebay://launch?itm=381228738769&_trksid=p12345&referrer=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-81568-27276-4%2F16%3F",
-    "app:name:ipad": "eBay",
-    "app:name:iphone": "eBay",
-    "app:id:iphone": "282614216",
-    "app:id:ipad": "364203371",
-    "app:url:ipad": "padebay://launch?itm=381228738769&_trksid=p12345&referrer=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-81568-27276-4%2F16%3F",
-    "label1": "Price",
-    "data1": "US $349.99",
-    "image": "http://i.ebayimg.com/images/i/381228738769-0-1/s-l1000.jpg",
-    "label2": "Condition",
-    "data2": "New",
-    "title": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch",
-    "site": "@eBay",
-    "card": "product"
-  },
-  "rdfa": {
-    "": {
-      "http://ogp.me/ns#site_name": "eBay",
-      "http://ogp.me/ns#type": "ebay-objects:item",
-      "http://ogp.me/ns#image": "http://i.ebayimg.com/images/i/381228738769-0-1/s-l1000.jpg",
-      "http://ogp.me/ns#description": "US $349.99 New in Home & Garden, Yard, Garden & Outdoor Living, Patio & Garden Furniture",
-      "http://ogp.me/ns#title": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch",
-      "http://ogp.me/ns#url": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769"
-    }
+    ],
+    "keywords": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch, Home & Garden, Yard, Garden & Outdoor Living, Patio & Garden Furniture",
+    "title": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch | eBay"
   },
   "microdata": [
     {
       "@type": "http://schema.org/Product",
-      "image": [
-        "http://i.ebayimg.com/images/g/xt0AAOSwfC9XOf8d/s-l300.jpg",
-        "http://i.ebayimg.com/images/g/xt0AAOSwfC9XOf8d/s-l300.jpg"
-      ],
-      "name": "Details about Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch",
       "aggregateRating": {
         "@type": "http://schema.org/AggregateRating",
         "ratingValue": "4.5",
         "reviewCount": "5"
       },
-      "offers": {
-        "@type": "http://schema.org/Offer",
-        "price": "349.99",
-        "availability": "http://schema.org/InStock",
-        "priceCurrency": "USD"
-      },
       "brand": {
         "@type": "http://schema.org/Brand",
         "name": "Best Choice Products"
       },
-      "mpn": "SKY1854",
       "gtin13": "810010022998",
+      "image": [
+        "http://i.ebayimg.com/images/g/xt0AAOSwfC9XOf8d/s-l300.jpg",
+        "http://i.ebayimg.com/images/g/xt0AAOSwfC9XOf8d/s-l300.jpg"
+      ],
+      "mpn": "SKY1854",
+      "name": "Details about Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch",
+      "offers": {
+        "@type": "http://schema.org/Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "349.99",
+        "priceCurrency": "USD"
+      },
       "review": [
         {
           "@type": "http://schema.org/Review",
@@ -100,5 +69,36 @@
         }
       ]
     }
-  ]
+  ],
+  "originalUrl": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769?&_trksid=p2056016.l4276",
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "US $349.99 New in Home & Garden, Yard, Garden & Outdoor Living, Patio & Garden Furniture",
+      "http://ogp.me/ns#image": "http://i.ebayimg.com/images/i/381228738769-0-1/s-l1000.jpg",
+      "http://ogp.me/ns#site_name": "eBay",
+      "http://ogp.me/ns#title": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch",
+      "http://ogp.me/ns#type": "ebay-objects:item",
+      "http://ogp.me/ns#url": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769"
+    }
+  },
+  "twitter": {
+    "app:id:googleplay": "com.ebay.mobile",
+    "app:id:ipad": "364203371",
+    "app:id:iphone": "282614216",
+    "app:name:googleplay": "eBay",
+    "app:name:ipad": "eBay",
+    "app:name:iphone": "eBay",
+    "app:url:googleplay": "ebay://link/?nav=item.view&id=381228738769&referrer=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-81568-27276-4%2F16%3F&min_version=17",
+    "app:url:ipad": "padebay://launch?itm=381228738769&_trksid=p12345&referrer=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-81568-27276-4%2F16%3F",
+    "app:url:iphone": "ebay://launch?itm=381228738769&_trksid=p12345&referrer=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-81568-27276-4%2F16%3F",
+    "card": "product",
+    "data1": "US $349.99",
+    "data2": "New",
+    "image": "http://i.ebayimg.com/images/i/381228738769-0-1/s-l1000.jpg",
+    "label1": "Price",
+    "label2": "Condition",
+    "site": "@eBay",
+    "title": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch"
+  },
+  "type": "html"
 }

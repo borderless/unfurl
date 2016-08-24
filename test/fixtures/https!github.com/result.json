@@ -1,40 +1,29 @@
 {
-  "type": "html",
   "contentUrl": "https://github.com/",
-  "originalUrl": "https://github.com/",
   "encodingFormat": "text/html",
   "html": {
-    "title": "How people build software · GitHub",
+    "canonical": "https://github.com/",
     "icons": [
       {
-        "url": "https://assets-cdn.github.com/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://assets-cdn.github.com/favicon.ico"
       }
     ],
-    "canonical": "https://github.com/"
+    "title": "How people build software · GitHub"
   },
-  "twitter": {
-    "site": "github",
-    "site:id": "13334762",
-    "creator": "github",
-    "creator:id": "13334762",
-    "card": "summary_large_image",
-    "title": "GitHub",
-    "description": "GitHub is where people build software. More than 15 million people use GitHub to discover, fork, and contribute to over 38 million projects.",
-    "image:src": "https://assets-cdn.github.com/images/modules/open_graph/github-logo.png",
-    "image:width": "1200",
-    "image:height": "1200"
-  },
+  "originalUrl": "https://github.com/",
   "rdfa": {
     "": {
-      "http://ogp.me/ns#url": "https://github.com",
-      "http://ogp.me/ns#site_name": "GitHub",
-      "http://ogp.me/ns#title": "Build software better, together",
       "http://ogp.me/ns#description": "GitHub is where people build software. More than 15 million people use GitHub to discover, fork, and contribute to over 38 million projects.",
       "http://ogp.me/ns#image": [
         "https://assets-cdn.github.com/images/modules/open_graph/github-logo.png",
         "https://assets-cdn.github.com/images/modules/open_graph/github-mark.png",
         "https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png"
+      ],
+      "http://ogp.me/ns#image:height": [
+        "1200",
+        "620",
+        "620"
       ],
       "http://ogp.me/ns#image:type": [
         "image/png",
@@ -46,11 +35,22 @@
         "1200",
         "1200"
       ],
-      "http://ogp.me/ns#image:height": [
-        "1200",
-        "620",
-        "620"
-      ]
+      "http://ogp.me/ns#site_name": "GitHub",
+      "http://ogp.me/ns#title": "Build software better, together",
+      "http://ogp.me/ns#url": "https://github.com"
     }
-  }
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "creator": "github",
+    "creator:id": "13334762",
+    "description": "GitHub is where people build software. More than 15 million people use GitHub to discover, fork, and contribute to over 38 million projects.",
+    "image:height": "1200",
+    "image:src": "https://assets-cdn.github.com/images/modules/open_graph/github-logo.png",
+    "image:width": "1200",
+    "site": "github",
+    "site:id": "13334762",
+    "title": "GitHub"
+  },
+  "type": "html"
 }

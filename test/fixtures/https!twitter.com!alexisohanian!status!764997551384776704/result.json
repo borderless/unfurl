@@ -1,41 +1,41 @@
 {
-  "type": "html",
-  "contentUrl": "https://twitter.com/alexisohanian/status/764997551384776704",
-  "originalUrl": "https://twitter.com/alexisohanian/status/764997551384776704",
-  "encodingFormat": "text/html",
   "contentSize": 33373,
+  "contentUrl": "https://twitter.com/alexisohanian/status/764997551384776704",
+  "encodingFormat": "text/html",
   "html": {
-    "title": "Alexis Ohanian on Twitter: \"Don't squander this. 💻 https://t.co/eWmq6oxK73 https://t.co/JKKVsNBcS1\"",
+    "canonical": "https://twitter.com/alexisohanian/status/764997551384776704",
     "icons": [
       {
-        "url": "https://abs.twimg.com/favicons/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://abs.twimg.com/favicons/favicon.ico"
       }
     ],
-    "canonical": "https://twitter.com/alexisohanian/status/764997551384776704"
-  },
-  "rdfa": {
-    "": {
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#url": "https://twitter.com/alexisohanian/status/764997551384776704",
-      "http://ogp.me/ns#title": "Alexis Ohanian on Twitter",
-      "http://ogp.me/ns#image": "https://pbs.twimg.com/media/Cp3RFyXXYAANGoA.jpg:large",
-      "http://ogp.me/ns#image:user_generated": "true",
-      "http://ogp.me/ns#description": "“Don't squander this. 💻 https://t.co/eWmq6oxK73”",
-      "http://ogp.me/ns#site_name": "Twitter"
-    }
+    "title": "Alexis Ohanian on Twitter: \"Don't squander this. 💻 https://t.co/eWmq6oxK73 https://t.co/JKKVsNBcS1\""
   },
   "oembed": {
-    "url": "https://twitter.com/alexisohanian/status/764997551384776704",
     "author_name": "Alexis Ohanian",
     "author_url": "https://twitter.com/alexisohanian",
-    "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Don&#39;t squander this. 💻 <a href=\"https://t.co/eWmq6oxK73\">https://t.co/eWmq6oxK73</a> <a href=\"https://t.co/JKKVsNBcS1\">pic.twitter.com/JKKVsNBcS1</a></p>&mdash; Alexis Ohanian (@alexisohanian) <a href=\"https://twitter.com/alexisohanian/status/764997551384776704\">August 15, 2016</a></blockquote>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-    "width": 550,
-    "height": null,
-    "type": "rich",
     "cache_age": "3153600000",
+    "height": null,
+    "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Don&#39;t squander this. 💻 <a href=\"https://t.co/eWmq6oxK73\">https://t.co/eWmq6oxK73</a> <a href=\"https://t.co/JKKVsNBcS1\">pic.twitter.com/JKKVsNBcS1</a></p>&mdash; Alexis Ohanian (@alexisohanian) <a href=\"https://twitter.com/alexisohanian/status/764997551384776704\">August 15, 2016</a></blockquote>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
     "provider_name": "Twitter",
     "provider_url": "https://twitter.com",
-    "version": "1.0"
-  }
+    "type": "rich",
+    "url": "https://twitter.com/alexisohanian/status/764997551384776704",
+    "version": "1.0",
+    "width": 550
+  },
+  "originalUrl": "https://twitter.com/alexisohanian/status/764997551384776704",
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "“Don't squander this. 💻 https://t.co/eWmq6oxK73”",
+      "http://ogp.me/ns#image": "https://pbs.twimg.com/media/Cp3RFyXXYAANGoA.jpg:large",
+      "http://ogp.me/ns#image:user_generated": "true",
+      "http://ogp.me/ns#site_name": "Twitter",
+      "http://ogp.me/ns#title": "Alexis Ohanian on Twitter",
+      "http://ogp.me/ns#type": "article",
+      "http://ogp.me/ns#url": "https://twitter.com/alexisohanian/status/764997551384776704"
+    }
+  },
+  "type": "html"
 }

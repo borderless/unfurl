@@ -1,23 +1,24 @@
 {
-  "type": "html",
+  "apps": {
+  },
+  "author": {
+  },
+  "contentSize": 82450,
+  "contentUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+  "description": "4915 points and 7138 comments so far on reddit",
+  "encodingFormat": "text/html",
+  "headline": "'UK man' tried to kill Trump: court papers • /r/news",
+  "icon": {
+    "sizes": "256x256",
+    "type": "image/png",
+    "url": "https://www.redditstatic.com/icon.png"
+  },
   "image": {
     "url": "https://www.redditstatic.com/icon.png"
   },
-  "contentUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
-  "contentSize": 82450,
   "originalUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
-  "encodingFormat": "text/html",
-  "headline": "'UK man' tried to kill Trump: court papers • /r/news",
-  "description": "4915 points and 7138 comments so far on reddit",
   "provider": {
     "name": "reddit"
-  },
-  "author": {},
-  "ttl": 600,
-  "icon": {
-    "url": "https://www.redditstatic.com/icon.png",
-    "sizes": "256x256",
-    "type": "image/png"
   },
   "tags": [
     "reddit",
@@ -26,8 +27,9 @@
     "comment",
     "submit"
   ],
+  "ttl": 600,
   "twitter": {
     "siteHandle": "reddit"
   },
-  "apps": {}
+  "type": "html"
 }

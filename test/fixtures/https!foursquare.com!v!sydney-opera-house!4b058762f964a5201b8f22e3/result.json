@@ -1,42 +1,58 @@
 {
-  "type": "html",
+  "applinks": {
+    "android:app_name": "Foursquare",
+    "android:package": "com.joelapenna.foursquared",
+    "android:url": "foursquare://venues/4b058762f964a5201b8f22e3",
+    "ipad:app_name": "Foursquare",
+    "ipad:app_store_id": "306934924",
+    "ipad:url": "foursquare://venues/4b058762f964a5201b8f22e3",
+    "iphone:app_name": "Foursquare",
+    "iphone:app_store_id": "306934924",
+    "iphone:url": "foursquare://venues/4b058762f964a5201b8f22e3",
+    "web:should_fallback": "false",
+    "windows_phone:app_id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+    "windows_phone:app_name": "Foursquare",
+    "windows_phone:url": "foursquare://venues/4b058762f964a5201b8f22e3"
+  },
   "contentUrl": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
-  "originalUrl": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
   "encodingFormat": "text/html",
   "html": {
-    "title": "Sydney Opera House - Opera House in Circular Quay",
     "application-name": "Foursquare",
+    "canonical": "/v/sydney-opera-house/4b058762f964a5201b8f22e3",
     "description": "See 7637 photos and 304 tips from 30146 visitors to Sydney Opera House. \"Must do site in Sydney. Walking to the right of the opera heading to the...\"",
-    "keywords": "Sydney Opera House, 2 Macquarie St, Sydney, NSW, opera house,opera house sydney,sidney opera house,sydney opera house, Opera House, Concert Hall, Art Gallery",
     "icons": [
       {
-        "url": "https://foursquare.com/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://foursquare.com/favicon.ico"
       }
     ],
-    "canonical": "/v/sydney-opera-house/4b058762f964a5201b8f22e3"
+    "keywords": "Sydney Opera House, 2 Macquarie St, Sydney, NSW, opera house,opera house sydney,sidney opera house,sydney opera house, Opera House, Concert Hall, Art Gallery",
+    "title": "Sydney Opera House - Opera House in Circular Quay"
   },
-  "twitter": {
-    "site": "@foursquare",
-    "creator": "@foursquare",
-    "card": "summary_large_image",
-    "url": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
-    "description": "Opera House in Sydney, NSW",
-    "title": "Sydney Opera House",
-    "image": "https://irs2.4sqi.net/img/general/600x600/4728049_RqLf2Eh3jmZKnj_keLPnUCC3imRX-I7CMhnNDDDhzZQ.jpg",
-    "app:name:iphone": "Foursquare",
-    "app:id:iphone": "306934924",
-    "app:url:iphone": "foursquare://venues/4b058762f964a5201b8f22e3",
-    "app:name:ipad": "Foursquare",
-    "app:id:ipad": "306934924",
-    "app:url:ipad": "foursquare://venues/4b058762f964a5201b8f22e3",
-    "app:name:googleplay": "Foursquare",
-    "app:id:googleplay": "com.joelapenna.foursquared",
-    "app:url:googleplay": "foursquare://venues/4b058762f964a5201b8f22e3"
-  },
+  "microdata": [
+    {
+      "@type": "http://schema.org/LocalBusiness",
+      "address": {
+        "@type": "http://schema.org/PostalAddress",
+        "addressLocality": "Sydney",
+        "addressRegion": "NSW",
+        "postalCode": "2000",
+        "streetAddress": "2 Macquarie St"
+      },
+      "aggregateRating": {
+        "@type": "http://schema.org/AggregateRating",
+        "bestRating": "10",
+        "ratingCount": "2,513",
+        "ratingValue": "9.6"
+      },
+      "name": "Sydney Opera House",
+      "telephone": "+61 2 9250 7777",
+      "url": "http://www.sydneyoperahouse.com/"
+    }
+  ],
+  "originalUrl": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
   "rdfa": {
     "": {
-      "http://ogp.me/ns#title": "Sydney Opera House",
       "http://ogp.me/ns#description": "Opera House in Sydney, NSW",
       "http://ogp.me/ns#image": [
         "https://irs2.4sqi.net/img/general/600x600/4728049_RqLf2Eh3jmZKnj_keLPnUCC3imRX-I7CMhnNDDDhzZQ.jpg",
@@ -44,45 +60,29 @@
         "https://irs2.4sqi.net/img/general/600x600/7678228_hSZ-0aysgwKJcYYW2qZZkUm4VdhUL3zsAHXwM1ppJFc.jpg",
         "https://irs3.4sqi.net/img/general/600x600/47933_2M0KTEvNBeksfT5LPULAfTOTX3Pf9UJpfvfETsATRHs.jpg"
       ],
-      "http://ogp.me/ns#url": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
+      "http://ogp.me/ns#site_name": "Foursquare",
+      "http://ogp.me/ns#title": "Sydney Opera House",
       "http://ogp.me/ns#type": "playfoursquare:venue",
-      "http://ogp.me/ns#site_name": "Foursquare"
+      "http://ogp.me/ns#url": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3"
     }
   },
-  "applinks": {
-    "iphone:url": "foursquare://venues/4b058762f964a5201b8f22e3",
-    "iphone:app_store_id": "306934924",
-    "iphone:app_name": "Foursquare",
-    "ipad:url": "foursquare://venues/4b058762f964a5201b8f22e3",
-    "ipad:app_store_id": "306934924",
-    "ipad:app_name": "Foursquare",
-    "android:url": "foursquare://venues/4b058762f964a5201b8f22e3",
-    "android:package": "com.joelapenna.foursquared",
-    "android:app_name": "Foursquare",
-    "windows_phone:url": "foursquare://venues/4b058762f964a5201b8f22e3",
-    "windows_phone:app_id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
-    "windows_phone:app_name": "Foursquare",
-    "web:should_fallback": "false"
+  "twitter": {
+    "app:id:googleplay": "com.joelapenna.foursquared",
+    "app:id:ipad": "306934924",
+    "app:id:iphone": "306934924",
+    "app:name:googleplay": "Foursquare",
+    "app:name:ipad": "Foursquare",
+    "app:name:iphone": "Foursquare",
+    "app:url:googleplay": "foursquare://venues/4b058762f964a5201b8f22e3",
+    "app:url:ipad": "foursquare://venues/4b058762f964a5201b8f22e3",
+    "app:url:iphone": "foursquare://venues/4b058762f964a5201b8f22e3",
+    "card": "summary_large_image",
+    "creator": "@foursquare",
+    "description": "Opera House in Sydney, NSW",
+    "image": "https://irs2.4sqi.net/img/general/600x600/4728049_RqLf2Eh3jmZKnj_keLPnUCC3imRX-I7CMhnNDDDhzZQ.jpg",
+    "site": "@foursquare",
+    "title": "Sydney Opera House",
+    "url": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/LocalBusiness",
-      "name": "Sydney Opera House",
-      "aggregateRating": {
-        "@type": "http://schema.org/AggregateRating",
-        "ratingValue": "9.6",
-        "bestRating": "10",
-        "ratingCount": "2,513"
-      },
-      "address": {
-        "@type": "http://schema.org/PostalAddress",
-        "streetAddress": "2 Macquarie St",
-        "addressLocality": "Sydney",
-        "addressRegion": "NSW",
-        "postalCode": "2000"
-      },
-      "telephone": "+61 2 9250 7777",
-      "url": "http://www.sydneyoperahouse.com/"
-    }
-  ]
+  "type": "html"
 }

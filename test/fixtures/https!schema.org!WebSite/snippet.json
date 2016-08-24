@@ -1,16 +1,19 @@
 {
-  "type": "html",
-  "contentUrl": "https://schema.org/WebSite",
+  "apps": {
+  },
+  "author": {
+  },
   "contentSize": 66482,
-  "originalUrl": "https://schema.org/WebSite",
+  "contentUrl": "https://schema.org/WebSite",
+  "description": "Schema.org Type: WebSite - A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
   "encodingFormat": "text/html",
   "headline": "WebSite - schema.org",
-  "description": "Schema.org Type: WebSite - A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
-  "provider": {},
-  "author": {},
   "icon": {
-    "url": "https://schema.org/favicon.ico",
-    "type": "image/x-icon"
+    "type": "image/x-icon",
+    "url": "https://schema.org/favicon.ico"
   },
-  "apps": {}
+  "originalUrl": "https://schema.org/WebSite",
+  "provider": {
+  },
+  "type": "html"
 }

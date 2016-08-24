@@ -1,24 +1,24 @@
 {
-  "type": "html",
-  "contentUrl": "https://www.reddit.com/",
-  "originalUrl": "http://www.reddit.com/",
-  "encodingFormat": "text/html",
   "contentSize": 28355,
+  "contentUrl": "https://www.reddit.com/",
+  "encodingFormat": "text/html",
   "html": {
-    "title": "reddit: the front page of the internet",
-    "keywords": "reddit, reddit.com, vote, comment, submit",
-    "description": "reddit: the front page of the internet",
     "canonical": "https://www.reddit.com/",
+    "description": "reddit: the front page of the internet",
     "icons": [
       {
-        "url": "https://www.redditstatic.com/icon.png",
         "sizes": "256x256",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://www.redditstatic.com/icon.png"
       },
       {
-        "url": "https://www.redditstatic.com/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://www.redditstatic.com/favicon.ico"
       }
-    ]
-  }
+    ],
+    "keywords": "reddit, reddit.com, vote, comment, submit",
+    "title": "reddit: the front page of the internet"
+  },
+  "originalUrl": "http://www.reddit.com/",
+  "type": "html"
 }

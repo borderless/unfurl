@@ -1,44 +1,21 @@
 {
-  "type": "html",
   "contentUrl": "https://github.com/blakeembrey",
-  "originalUrl": "https://github.com/blakeembrey",
   "encodingFormat": "text/html",
   "html": {
-    "title": "blakeembrey (Blake Embrey) · GitHub",
+    "description": "blakeembrey has 217 repositories available. Follow their code on GitHub.",
     "icons": [
       {
-        "url": "https://assets-cdn.github.com/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://assets-cdn.github.com/favicon.ico"
       }
     ],
-    "description": "blakeembrey has 217 repositories available. Follow their code on GitHub."
-  },
-  "twitter": {
-    "image:src": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
-    "site": "@github",
-    "card": "summary",
-    "title": "blakeembrey (Blake Embrey)",
-    "description": "blakeembrey has 217 repositories available. Follow their code on GitHub."
-  },
-  "rdfa": {
-    "": {
-      "http://ogp.me/ns#image": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
-      "http://ogp.me/ns#site_name": "GitHub",
-      "http://ogp.me/ns#type": "profile",
-      "http://ogp.me/ns#title": "blakeembrey (Blake Embrey)",
-      "http://ogp.me/ns#url": "https://github.com/blakeembrey",
-      "http://ogp.me/ns#description": "blakeembrey has 217 repositories available. Follow their code on GitHub.",
-      "http://ogp.me/ns/profile#username": "blakeembrey"
-    }
+    "title": "blakeembrey (Blake Embrey) · GitHub"
   },
   "microdata": [
     {
       "@type": "http://schema.org/Person",
-      "image": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
-      "name": "Blake Embrey",
       "additionalName": "blakeembrey",
       "email": "hello@blakeembrey.com",
-      "url": "http://blakeembrey.me/",
       "follows": [
         "https://github.com/component",
         "https://github.com/nko3",
@@ -51,7 +28,30 @@
         "https://github.com/pillarjs",
         "https://github.com/typings",
         "https://github.com/types"
-      ]
+      ],
+      "image": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
+      "name": "Blake Embrey",
+      "url": "http://blakeembrey.me/"
     }
-  ]
+  ],
+  "originalUrl": "https://github.com/blakeembrey",
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "blakeembrey has 217 repositories available. Follow their code on GitHub.",
+      "http://ogp.me/ns#image": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
+      "http://ogp.me/ns#site_name": "GitHub",
+      "http://ogp.me/ns#title": "blakeembrey (Blake Embrey)",
+      "http://ogp.me/ns#type": "profile",
+      "http://ogp.me/ns#url": "https://github.com/blakeembrey",
+      "http://ogp.me/ns/profile#username": "blakeembrey"
+    }
+  },
+  "twitter": {
+    "card": "summary",
+    "description": "blakeembrey has 217 repositories available. Follow their code on GitHub.",
+    "image:src": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
+    "site": "@github",
+    "title": "blakeembrey (Blake Embrey)"
+  },
+  "type": "html"
 }

@@ -1,23 +1,25 @@
 {
-  "type": "html",
+  "apps": {
+  },
+  "author": {
+  },
+  "contentUrl": "https://github.com/blakeembrey",
+  "description": "blakeembrey has 217 repositories available. Follow their code on GitHub.",
+  "encodingFormat": "text/html",
+  "headline": "blakeembrey (Blake Embrey)",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "https://assets-cdn.github.com/favicon.ico"
+  },
   "image": {
     "url": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400"
   },
-  "contentUrl": "https://github.com/blakeembrey",
   "originalUrl": "https://github.com/blakeembrey",
-  "encodingFormat": "text/html",
-  "headline": "blakeembrey (Blake Embrey)",
-  "description": "blakeembrey has 217 repositories available. Follow their code on GitHub.",
   "provider": {
     "name": "GitHub"
-  },
-  "author": {},
-  "icon": {
-    "url": "https://assets-cdn.github.com/favicon.ico",
-    "type": "image/x-icon"
   },
   "twitter": {
     "siteHandle": "github"
   },
-  "apps": {}
+  "type": "html"
 }

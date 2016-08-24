@@ -1,27 +1,29 @@
 {
-  "type": "html",
+  "apps": {
+  },
+  "author": {
+  },
+  "contentSize": 160375,
+  "contentUrl": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
+  "description": "The difference between a bond and a stock.",
+  "encodingFormat": "text/html",
+  "headline": "Khan Academy",
+  "icon": {
+    "url": "https://www.khanacademy.org/favicon.ico?leaf"
+  },
   "image": {
     "url": "http://img.youtube.com/vi/rs1md3e4aYU/0.jpg"
   },
-  "video": {
-    "url": "http://www.youtube.com/v/rs1md3e4aYU",
-    "type": "application/x-shockwave-flash"
-  },
-  "contentUrl": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
-  "contentSize": 160375,
   "originalUrl": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
-  "encodingFormat": "text/html",
-  "headline": "Khan Academy",
-  "description": "The difference between a bond and a stock.",
   "provider": {
     "name": "Khan Academy"
-  },
-  "author": {},
-  "icon": {
-    "url": "https://www.khanacademy.org/favicon.ico?leaf"
   },
   "twitter": {
     "siteHandle": "khanacademy"
   },
-  "apps": {}
+  "type": "html",
+  "video": {
+    "type": "application/x-shockwave-flash",
+    "url": "http://www.youtube.com/v/rs1md3e4aYU"
+  }
 }

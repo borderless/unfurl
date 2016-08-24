@@ -1,7 +1,5 @@
 {
-  "type": "html",
   "contentUrl": "https://news.ycombinator.com/",
-  "originalUrl": "http://hackerne.ws",
   "encodingFormat": "text/html",
   "html": {
     "icons": [
@@ -10,5 +8,7 @@
       }
     ],
     "title": "Hacker News"
-  }
+  },
+  "originalUrl": "http://hackerne.ws",
+  "type": "html"
 }

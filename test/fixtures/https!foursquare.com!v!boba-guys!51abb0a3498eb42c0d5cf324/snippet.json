@@ -1,5 +1,39 @@
 {
-  "type": "html",
+  "apps": {
+    "android": {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324"
+    },
+    "ipad": {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324"
+    },
+    "iphone": {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324"
+    },
+    "windowsPhone": {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324"
+    }
+  },
+  "author": {
+  },
+  "contentUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
+  "description": "Bubble Tea Shop in San Francisco, CA",
+  "encodingFormat": "text/html",
+  "entity": {
+    "type": "image"
+  },
+  "headline": "Boba Guys",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "https://foursquare.com/favicon.ico"
+  },
   "image": [
     {
       "url": "https://irs2.4sqi.net/img/general/600x600/24228814_aJsekEzXAFZlUtgcPkh7WqDOJcrCjOEYskHQ7EnOZQo.jpg"
@@ -14,21 +48,9 @@
       "url": "https://irs2.4sqi.net/img/general/600x600/25065281_DGAEQ1LzEdZG_1hSut7DYKzmtnynhkx4G4MJGEpzW8c.jpg"
     }
   ],
-  "entity": {
-    "type": "image"
-  },
-  "contentUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
   "originalUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
-  "encodingFormat": "text/html",
-  "headline": "Boba Guys",
-  "description": "Bubble Tea Shop in San Francisco, CA",
   "provider": {
     "name": "Foursquare"
-  },
-  "author": {},
-  "icon": {
-    "url": "https://foursquare.com/favicon.ico",
-    "type": "image/x-icon"
   },
   "tags": [
     "Boba Guys",
@@ -44,29 +66,8 @@
     "Dessert"
   ],
   "twitter": {
-    "siteHandle": "foursquare",
-    "creatorHandle": "foursquare"
+    "creatorHandle": "foursquare",
+    "siteHandle": "foursquare"
   },
-  "apps": {
-    "iphone": {
-      "id": "306934924",
-      "name": "Foursquare",
-      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324"
-    },
-    "ipad": {
-      "id": "306934924",
-      "name": "Foursquare",
-      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324"
-    },
-    "android": {
-      "id": "com.joelapenna.foursquared",
-      "name": "Foursquare",
-      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324"
-    },
-    "windowsPhone": {
-      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
-      "name": "Foursquare",
-      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324"
-    }
-  }
+  "type": "html"
 }

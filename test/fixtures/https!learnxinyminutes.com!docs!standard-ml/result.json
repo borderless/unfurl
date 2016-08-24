@@ -1,16 +1,16 @@
 {
-  "type": "html",
   "contentUrl": "https://learnxinyminutes.com/docs/standard-ml/",
-  "originalUrl": "https://learnxinyminutes.com/docs/standard-ml/",
   "encodingFormat": "text/html",
   "html": {
-    "title": "Learn Standard ML in Y Minutes",
     "canonical": "https://learnxinyminutes.com/docs/standard-ml/",
     "icons": [
       {
-        "url": "https://learnxinyminutes.com/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://learnxinyminutes.com/favicon.ico"
       }
-    ]
-  }
+    ],
+    "title": "Learn Standard ML in Y Minutes"
+  },
+  "originalUrl": "https://learnxinyminutes.com/docs/standard-ml/",
+  "type": "html"
 }

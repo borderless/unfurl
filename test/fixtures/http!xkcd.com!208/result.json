@@ -1,16 +1,16 @@
 {
-  "type": "html",
-  "contentUrl": "http://xkcd.com/208/",
-  "originalUrl": "http://xkcd.com/208/",
-  "encodingFormat": "text/html",
   "contentSize": 2872,
+  "contentUrl": "http://xkcd.com/208/",
+  "encodingFormat": "text/html",
   "html": {
-    "title": "xkcd: Regular Expressions",
     "icons": [
       {
-        "url": "http://xkcd.com/s/919f27.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "http://xkcd.com/s/919f27.ico"
       }
-    ]
-  }
+    ],
+    "title": "xkcd: Regular Expressions"
+  },
+  "originalUrl": "http://xkcd.com/208/",
+  "type": "html"
 }

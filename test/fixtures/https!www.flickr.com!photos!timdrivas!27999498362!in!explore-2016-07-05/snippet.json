@@ -1,25 +1,37 @@
 {
-  "type": "html",
-  "image": {
-    "url": "https://c2.staticflickr.com/8/7371/27999498362_17c8d4d490_b.jpg",
-    "width": 1024,
-    "height": 683
+  "apps": {
+    "ipad": {
+      "id": "328407587",
+      "name": "Flickr",
+      "url": "flickr://flickr.com/photos/timdrivas/27999498362"
+    },
+    "iphone": {
+      "id": "328407587",
+      "name": "Flickr",
+      "url": "flickr://flickr.com/photos/timdrivas/27999498362/"
+    }
   },
+  "author": {
+  },
+  "contentUrl": "https://www.flickr.com/photos/timdrivas/27999498362/",
+  "description": "The Macy's 4th of July firework show in NYC",
+  "encodingFormat": "text/html",
   "entity": {
     "type": "image"
   },
-  "contentUrl": "https://www.flickr.com/photos/timdrivas/27999498362/",
-  "originalUrl": "https://www.flickr.com/photos/timdrivas/27999498362/in/explore-2016-07-05/",
-  "encodingFormat": "text/html",
   "headline": "The Fourth",
-  "description": "The Macy's 4th of July firework show in NYC",
+  "icon": {
+    "sizes": "any",
+    "url": "https://s.yimg.com/pw/images/icon_black_white.svg"
+  },
+  "image": {
+    "height": 683,
+    "url": "https://c2.staticflickr.com/8/7371/27999498362_17c8d4d490_b.jpg",
+    "width": 1024
+  },
+  "originalUrl": "https://www.flickr.com/photos/timdrivas/27999498362/in/explore-2016-07-05/",
   "provider": {
     "name": "Flickr"
-  },
-  "author": {},
-  "icon": {
-    "url": "https://s.yimg.com/pw/images/icon_black_white.svg",
-    "sizes": "any"
   },
   "tags": [
     "city",
@@ -38,16 +50,5 @@
   "twitter": {
     "siteHandle": "flickr"
   },
-  "apps": {
-    "iphone": {
-      "id": "328407587",
-      "name": "Flickr",
-      "url": "flickr://flickr.com/photos/timdrivas/27999498362/"
-    },
-    "ipad": {
-      "id": "328407587",
-      "name": "Flickr",
-      "url": "flickr://flickr.com/photos/timdrivas/27999498362"
-    }
-  }
+  "type": "html"
 }

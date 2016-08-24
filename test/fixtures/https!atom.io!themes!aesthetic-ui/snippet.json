@@ -1,27 +1,29 @@
 {
-  "type": "html",
-  "image": {
-    "url": "http://i.imgur.com/455A2im.png"
+  "apps": {
   },
+  "author": {
+  },
+  "contentSize": 13857,
+  "contentUrl": "https://atom.io/packages/aesthetic-ui",
+  "description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
+  "encodingFormat": "text/html",
   "entity": {
     "type": "image"
   },
-  "contentUrl": "https://atom.io/packages/aesthetic-ui",
-  "contentSize": 13857,
-  "originalUrl": "https://atom.io/themes/aesthetic-ui",
-  "encodingFormat": "text/html",
   "headline": "aesthetic-ui",
-  "description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
-  "provider": {
-    "name": "Atom"
-  },
-  "author": {},
   "icon": {
     "url": "https://atom.io/favicon.ico"
   },
-  "twitter": {
-    "siteHandle": "AtomEditor",
-    "creatorHandle": "https://github.com/dtinth"
+  "image": {
+    "url": "http://i.imgur.com/455A2im.png"
   },
-  "apps": {}
+  "originalUrl": "https://atom.io/themes/aesthetic-ui",
+  "provider": {
+    "name": "Atom"
+  },
+  "twitter": {
+    "creatorHandle": "https://github.com/dtinth",
+    "siteHandle": "AtomEditor"
+  },
+  "type": "html"
 }

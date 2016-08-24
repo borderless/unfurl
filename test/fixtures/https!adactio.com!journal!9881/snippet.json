@@ -1,28 +1,30 @@
 {
-  "type": "html",
-  "image": {
-    "url": "https://adactio.com/images/photo-300.jpg"
+  "apps": {
   },
-  "contentUrl": "https://adactio.com/journal/9881",
-  "contentSize": 23066,
-  "originalUrl": "https://adactio.com/journal/9881",
-  "encodingFormat": "text/html",
-  "headline": "Metadata markup",
-  "description": "So many standards to choose from.",
-  "provider": {},
   "author": {
     "name": "Jeremy Keith"
   },
+  "contentSize": 23066,
+  "contentUrl": "https://adactio.com/journal/9881",
+  "description": "So many standards to choose from.",
+  "encodingFormat": "text/html",
+  "headline": "Metadata markup",
   "icon": {
-    "url": "https://adactio.com/favicon-32x32.png",
     "sizes": "32x32",
-    "type": "image/png"
+    "type": "image/png",
+    "url": "https://adactio.com/favicon-32x32.png"
+  },
+  "image": {
+    "url": "https://adactio.com/images/photo-300.jpg"
+  },
+  "originalUrl": "https://adactio.com/journal/9881",
+  "provider": {
   },
   "twitter": {
-    "siteId": "11250",
-    "siteHandle": "adactio",
+    "creatorHandle": "adactio",
     "creatorId": "11250",
-    "creatorHandle": "adactio"
+    "siteHandle": "adactio",
+    "siteId": "11250"
   },
-  "apps": {}
+  "type": "html"
 }

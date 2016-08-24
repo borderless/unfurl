@@ -1,38 +1,38 @@
 {
-  "type": "html",
-  "contentUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
-  "originalUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
-  "encodingFormat": "text/html",
   "contentSize": 82450,
+  "contentUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+  "encodingFormat": "text/html",
   "html": {
-    "title": "'UK man' tried to kill Trump: court papers : news",
-    "keywords": "reddit, reddit.com, vote, comment, submit",
-    "description": "reddit: the front page of the internet",
     "canonical": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+    "description": "reddit: the front page of the internet",
     "icons": [
       {
-        "url": "https://www.redditstatic.com/icon.png",
         "sizes": "256x256",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://www.redditstatic.com/icon.png"
       },
       {
-        "url": "https://www.redditstatic.com/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://www.redditstatic.com/favicon.ico"
       }
-    ]
+    ],
+    "keywords": "reddit, reddit.com, vote, comment, submit",
+    "title": "'UK man' tried to kill Trump: court papers : news"
   },
-  "twitter": {
-    "site": "reddit",
-    "card": "summary",
-    "title": "'UK man' tried to kill Trump: court papers • /r/news"
-  },
+  "originalUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
   "rdfa": {
     "": {
-      "http://ogp.me/ns#image": "https://www.redditstatic.com/icon.png",
-      "http://ogp.me/ns#ttl": "600",
-      "http://ogp.me/ns#site_name": "reddit",
       "http://ogp.me/ns#description": "4915 points and 7138 comments so far on reddit",
-      "http://ogp.me/ns#title": "'UK man' tried to kill Trump: court papers • /r/news"
+      "http://ogp.me/ns#image": "https://www.redditstatic.com/icon.png",
+      "http://ogp.me/ns#site_name": "reddit",
+      "http://ogp.me/ns#title": "'UK man' tried to kill Trump: court papers • /r/news",
+      "http://ogp.me/ns#ttl": "600"
     }
-  }
+  },
+  "twitter": {
+    "card": "summary",
+    "site": "reddit",
+    "title": "'UK man' tried to kill Trump: court papers • /r/news"
+  },
+  "type": "html"
 }

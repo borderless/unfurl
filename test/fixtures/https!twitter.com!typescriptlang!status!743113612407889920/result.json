@@ -1,40 +1,40 @@
 {
-  "type": "html",
-  "contentUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
-  "originalUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
-  "encodingFormat": "text/html",
   "contentSize": 34603,
+  "contentUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
+  "encodingFormat": "text/html",
   "html": {
-    "title": "TypeScript on Twitter: \".d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4\"",
+    "canonical": "https://twitter.com/typescriptlang/status/743113612407889920",
     "icons": [
       {
-        "url": "https://abs.twimg.com/favicons/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://abs.twimg.com/favicons/favicon.ico"
       }
     ],
-    "canonical": "https://twitter.com/typescriptlang/status/743113612407889920"
-  },
-  "rdfa": {
-    "": {
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#url": "https://twitter.com/typescriptlang/status/743113612407889920",
-      "http://ogp.me/ns#title": "TypeScript on Twitter",
-      "http://ogp.me/ns#image": "https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg",
-      "http://ogp.me/ns#description": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”",
-      "http://ogp.me/ns#site_name": "Twitter"
-    }
+    "title": "TypeScript on Twitter: \".d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4\""
   },
   "oembed": {
-    "url": "https://twitter.com/typescriptlang/status/743113612407889920",
     "author_name": "TypeScript",
     "author_url": "https://twitter.com/typescriptlang",
-    "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! <a href=\"https://t.co/fkfz8uL4I4\">https://t.co/fkfz8uL4I4</a></p>&mdash; TypeScript (@typescriptlang) <a href=\"https://twitter.com/typescriptlang/status/743113612407889920\">June 15, 2016</a></blockquote>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-    "width": 550,
-    "height": null,
-    "type": "rich",
     "cache_age": "3153600000",
+    "height": null,
+    "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! <a href=\"https://t.co/fkfz8uL4I4\">https://t.co/fkfz8uL4I4</a></p>&mdash; TypeScript (@typescriptlang) <a href=\"https://twitter.com/typescriptlang/status/743113612407889920\">June 15, 2016</a></blockquote>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
     "provider_name": "Twitter",
     "provider_url": "https://twitter.com",
-    "version": "1.0"
-  }
+    "type": "rich",
+    "url": "https://twitter.com/typescriptlang/status/743113612407889920",
+    "version": "1.0",
+    "width": 550
+  },
+  "originalUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”",
+      "http://ogp.me/ns#image": "https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg",
+      "http://ogp.me/ns#site_name": "Twitter",
+      "http://ogp.me/ns#title": "TypeScript on Twitter",
+      "http://ogp.me/ns#type": "article",
+      "http://ogp.me/ns#url": "https://twitter.com/typescriptlang/status/743113612407889920"
+    }
+  },
+  "type": "html"
 }

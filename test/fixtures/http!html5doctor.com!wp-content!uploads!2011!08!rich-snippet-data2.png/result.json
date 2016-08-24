@@ -1,23 +1,23 @@
 {
-  "type": "image",
-  "contentUrl": "http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png",
-  "originalUrl": "http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png",
-  "encodingFormat": "image/png",
   "contentSize": 19153,
+  "contentUrl": "http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png",
+  "encodingFormat": "image/png",
   "exifData": {
-    "SourceFile": "-",
-    "ExifToolVersion": 10.24,
-    "FileType": "PNG",
-    "FileTypeExtension": "png",
-    "MIMEType": "image/png",
-    "ImageWidth": 495,
-    "ImageHeight": 341,
     "BitDepth": 8,
     "ColorType": "RGB",
     "Compression": "Deflate/Inflate",
+    "ExifToolVersion": 10.24,
+    "FileType": "PNG",
+    "FileTypeExtension": "png",
     "Filter": "Adaptive",
-    "Interlace": "Noninterlaced",
+    "ImageHeight": 341,
     "ImageSize": "495x341",
-    "Megapixels": 0.169
-  }
+    "ImageWidth": 495,
+    "Interlace": "Noninterlaced",
+    "MIMEType": "image/png",
+    "Megapixels": 0.169,
+    "SourceFile": "-"
+  },
+  "originalUrl": "http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png",
+  "type": "image"
 }

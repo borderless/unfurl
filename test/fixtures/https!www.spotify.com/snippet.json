@@ -1,18 +1,21 @@
 {
-  "type": "html",
+  "apps": {
+  },
+  "author": {
+  },
+  "contentSize": 21742,
+  "contentUrl": "https://www.spotify.com/au/",
+  "description": "Spotify is all the music you’ll ever need.",
+  "encodingFormat": "text/html",
+  "headline": "Music for everyone.",
+  "icon": {
+    "url": "https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/_global/favicon.png"
+  },
   "image": {
     "url": "http://d2c87l0yth4zbw.global.ssl.fastly.net/i/_global/open-graph-default.png"
   },
-  "contentUrl": "https://www.spotify.com/au/",
-  "contentSize": 21742,
   "originalUrl": "https://www.spotify.com/",
-  "encodingFormat": "text/html",
-  "headline": "Music for everyone.",
-  "description": "Spotify is all the music you’ll ever need.",
-  "provider": {},
-  "author": {},
-  "icon": {
-    "url": "https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/_global/favicon.png"
+  "provider": {
   },
   "tags": [
     "Spotify",
@@ -26,5 +29,5 @@
     "artist",
     "playlist"
   ],
-  "apps": {}
+  "type": "html"
 }

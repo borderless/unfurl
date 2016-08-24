@@ -1,28 +1,28 @@
 {
-  "type": "html",
   "contentUrl": "https://dev.twitter.com/cards/types/player",
-  "originalUrl": "https://dev.twitter.com/cards/types/player",
   "encodingFormat": "text/html",
   "html": {
+    "canonical": "https://dev.twitter.com/cards/types/player",
+    "description": "Video clips and audio streams have a special place on the Twitter platform thanks to the Player Card. By implementing a few HTML meta tags to your website and following the Twitter Rules of the Road, you can delivery your rich media to users across the globe.",
     "icons": [
       {
-        "url": "https://abs.twimg.com/favicons/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://abs.twimg.com/favicons/favicon.ico"
       }
     ],
-    "description": "Video clips and audio streams have a special place on the Twitter platform thanks to the Player Card. By implementing a few HTML meta tags to your website and following the Twitter Rules of the Road, you can delivery your rich media to users across the globe.",
-    "canonical": "https://dev.twitter.com/cards/types/player",
     "title": "Player Card | Twitter Developers"
   },
+  "originalUrl": "https://dev.twitter.com/cards/types/player",
   "twitter": {
-    "image:height": "500",
-    "image:width": "500",
-    "url": "https://dev.twitter.com/cards/types/player",
-    "image": "https://pbs.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3.png",
-    "widgets:new-embed-design": "on",
-    "widgets:csp": "on",
     "card": "summary",
     "description": "Video clips and audio streams have a special place on the Twitter platform thanks to the Player Card. By implementing a few HTML meta tags to your website and following the Twitter Rules of the Road, you can delivery your rich media to users across the globe.",
-    "title": "Player Card"
-  }
+    "image": "https://pbs.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3.png",
+    "image:height": "500",
+    "image:width": "500",
+    "title": "Player Card",
+    "url": "https://dev.twitter.com/cards/types/player",
+    "widgets:csp": "on",
+    "widgets:new-embed-design": "on"
+  },
+  "type": "html"
 }

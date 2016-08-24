@@ -1,24 +1,26 @@
 {
-  "type": "html",
-  "entity": {
-    "type": "rich",
-    "html": "<a class=\"twitter-timeline\" href=\"https://twitter.com/blakeembrey\">Tweets by blakeembrey</a>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
+  "apps": {
   },
-  "contentUrl": "https://twitter.com/blakeembrey",
+  "author": {
+  },
   "contentSize": 44428,
-  "originalUrl": "https://twitter.com/blakeembrey",
-  "encodingFormat": "text/html",
-  "headline": "Blake Embrey (@blakeembrey) | Twitter",
+  "contentUrl": "https://twitter.com/blakeembrey",
   "description": "The latest Tweets from Blake Embrey (@blakeembrey). World Citizen ∙ Open Source Contributor ∙ Full-stack Engineer. San Francisco, CA",
+  "encodingFormat": "text/html",
+  "entity": {
+    "html": "<a class=\"twitter-timeline\" href=\"https://twitter.com/blakeembrey\">Tweets by blakeembrey</a>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
+    "type": "rich"
+  },
+  "headline": "Blake Embrey (@blakeembrey) | Twitter",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "https://abs.twimg.com/favicons/favicon.ico"
+  },
+  "originalUrl": "https://twitter.com/blakeembrey",
   "provider": {
     "name": "Twitter",
     "url": "https://twitter.com"
   },
-  "author": {},
   "ttl": 3153600000,
-  "icon": {
-    "url": "https://abs.twimg.com/favicons/favicon.ico",
-    "type": "image/x-icon"
-  },
-  "apps": {}
+  "type": "html"
 }

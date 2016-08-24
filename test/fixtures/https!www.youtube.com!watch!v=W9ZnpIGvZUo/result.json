@@ -1,61 +1,82 @@
 {
-  "type": "html",
+  "applinks": {
+    "android:app_name": "YouTube",
+    "android:package": "com.google.android.youtube",
+    "android:url": "vnd.youtube://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks",
+    "ios:app_name": "YouTube",
+    "ios:app_store_id": "544007664",
+    "ios:url": "vnd.youtube://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks",
+    "web:url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks"
+  },
   "contentUrl": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
-  "originalUrl": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
   "encodingFormat": "text/html",
   "html": {
-    "title": "Marvel's The Avengers - YouTube",
     "canonical": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
     "description": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R...",
-    "keywords": "Marvel's The Avengers, Marvel, Walt Disney Pictures, Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Samuel...",
     "icons": [
       {
-        "url": "https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico"
       },
       {
-        "url": "https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png",
-        "sizes": "32x32"
+        "sizes": "32x32",
+        "url": "https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png"
       },
       {
-        "url": "https://s.ytimg.com/yts/img/favicon_48-vfl1s0rGh.png",
-        "sizes": "48x48"
+        "sizes": "48x48",
+        "url": "https://s.ytimg.com/yts/img/favicon_48-vfl1s0rGh.png"
       },
       {
-        "url": "https://s.ytimg.com/yts/img/favicon_96-vfldSA3ca.png",
-        "sizes": "96x96"
+        "sizes": "96x96",
+        "url": "https://s.ytimg.com/yts/img/favicon_96-vfldSA3ca.png"
       },
       {
-        "url": "https://s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png",
-        "sizes": "144x144"
+        "sizes": "144x144",
+        "url": "https://s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png"
       }
-    ]
+    ],
+    "keywords": "Marvel's The Avengers, Marvel, Walt Disney Pictures, Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Samuel...",
+    "title": "Marvel's The Avengers - YouTube"
   },
-  "twitter": {
-    "card": "player",
-    "site": "@youtube",
-    "url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
-    "title": "Marvel's The Avengers",
-    "description": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R...",
-    "image": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
-    "app:name:iphone": "YouTube",
-    "app:id:iphone": "544007664",
-    "app:name:ipad": "YouTube",
-    "app:id:ipad": "544007664",
-    "app:url:iphone": "vnd.youtube://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks",
-    "app:url:ipad": "vnd.youtube://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks",
-    "app:name:googleplay": "YouTube",
-    "app:id:googleplay": "com.google.android.youtube",
-    "app:url:googleplay": "https://www.youtube.com/watch?v=W9ZnpIGvZUo"
-  },
+  "microdata": [
+    {
+      "@type": "http://schema.org/VideoObject",
+      "author": {
+        "@type": "http://schema.org/Person",
+        "url": "http://www.youtube.com/user/MarvelMoviesOnDemand"
+      },
+      "channelId": "UCLIL7-1R7fyZtZ787Zt_bsw",
+      "datePublished": "2012-09-25",
+      "description": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R...",
+      "duration": "PT142M54S",
+      "genre": "Movies",
+      "interactionCount": "236459",
+      "isFamilyFriendly": "False",
+      "name": "Marvel's The Avengers",
+      "paid": "True",
+      "regionsAllowed": "CA,US",
+      "thumbnail": {
+        "@type": "http://schema.org/ImageObject",
+        "height": "720",
+        "url": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
+        "width": "1280"
+      },
+      "thumbnailUrl": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
+      "unlisted": "False",
+      "url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
+      "videoId": "W9ZnpIGvZUo"
+    }
+  ],
+  "originalUrl": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
   "rdfa": {
     "": {
-      "http://ogp.me/ns#site_name": "YouTube",
-      "http://ogp.me/ns#url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
-      "http://ogp.me/ns#title": "Marvel's The Avengers",
-      "http://ogp.me/ns#image": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
       "http://ogp.me/ns#description": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R...",
+      "http://ogp.me/ns#image": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
+      "http://ogp.me/ns#restrictions:age": "18+",
+      "http://ogp.me/ns#site_name": "YouTube",
+      "http://ogp.me/ns#title": "Marvel's The Avengers",
       "http://ogp.me/ns#type": "video",
+      "http://ogp.me/ns#url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
       "http://ogp.me/ns#video:tag": [
         "Marvel's The Avengers",
         "Marvel",
@@ -68,46 +89,25 @@
         "Jeremy Renner",
         "Samuel L. Jackson",
         "Joss Whedon"
-      ],
-      "http://ogp.me/ns#restrictions:age": "18+"
+      ]
     }
   },
-  "applinks": {
-    "ios:app_store_id": "544007664",
-    "ios:app_name": "YouTube",
-    "ios:url": "vnd.youtube://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks",
-    "android:url": "vnd.youtube://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks",
-    "android:app_name": "YouTube",
-    "android:package": "com.google.android.youtube",
-    "web:url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks"
+  "twitter": {
+    "app:id:googleplay": "com.google.android.youtube",
+    "app:id:ipad": "544007664",
+    "app:id:iphone": "544007664",
+    "app:name:googleplay": "YouTube",
+    "app:name:ipad": "YouTube",
+    "app:name:iphone": "YouTube",
+    "app:url:googleplay": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
+    "app:url:ipad": "vnd.youtube://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks",
+    "app:url:iphone": "vnd.youtube://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks",
+    "card": "player",
+    "description": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R...",
+    "image": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
+    "site": "@youtube",
+    "title": "Marvel's The Avengers",
+    "url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/VideoObject",
-      "url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
-      "name": "Marvel's The Avengers",
-      "description": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R...",
-      "paid": "True",
-      "channelId": "UCLIL7-1R7fyZtZ787Zt_bsw",
-      "videoId": "W9ZnpIGvZUo",
-      "duration": "PT142M54S",
-      "unlisted": "False",
-      "author": {
-        "@type": "http://schema.org/Person",
-        "url": "http://www.youtube.com/user/MarvelMoviesOnDemand"
-      },
-      "thumbnailUrl": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
-      "thumbnail": {
-        "@type": "http://schema.org/ImageObject",
-        "url": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
-        "width": "1280",
-        "height": "720"
-      },
-      "isFamilyFriendly": "False",
-      "regionsAllowed": "CA,US",
-      "interactionCount": "236459",
-      "datePublished": "2012-09-25",
-      "genre": "Movies"
-    }
-  ]
+  "type": "html"
 }

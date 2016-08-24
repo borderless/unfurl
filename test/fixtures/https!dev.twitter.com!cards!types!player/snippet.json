@@ -1,20 +1,23 @@
 {
-  "type": "html",
-  "image": {
-    "url": "https://pbs.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3.png",
-    "width": 500,
-    "height": 500
+  "apps": {
+  },
+  "author": {
   },
   "contentUrl": "https://dev.twitter.com/cards/types/player",
-  "originalUrl": "https://dev.twitter.com/cards/types/player",
+  "description": "Video clips and audio streams have a special place on the Twitter platform thanks to the Player Card. By implementing a few HTML meta tags to your website and following the Twitter Rules of the Road, you can delivery your rich media to users across the globe.",
   "encodingFormat": "text/html",
   "headline": "Player Card",
-  "description": "Video clips and audio streams have a special place on the Twitter platform thanks to the Player Card. By implementing a few HTML meta tags to your website and following the Twitter Rules of the Road, you can delivery your rich media to users across the globe.",
-  "provider": {},
-  "author": {},
   "icon": {
-    "url": "https://abs.twimg.com/favicons/favicon.ico",
-    "type": "image/x-icon"
+    "type": "image/x-icon",
+    "url": "https://abs.twimg.com/favicons/favicon.ico"
   },
-  "apps": {}
+  "image": {
+    "height": 500,
+    "url": "https://pbs.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3.png",
+    "width": 500
+  },
+  "originalUrl": "https://dev.twitter.com/cards/types/player",
+  "provider": {
+  },
+  "type": "html"
 }

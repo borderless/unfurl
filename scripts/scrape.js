@@ -6,6 +6,7 @@ var readFile = thenify(require('fs').readFile)
 var createReadStream = require('fs').createReadStream
 var join = require('path').join
 var minimatch = require('minimatch')
+var stringify = require('json-stable-stringify')
 var match = process.argv[2] || '*'
 
 var scrapeStream = require('../').scrapeStream
@@ -28,7 +29,7 @@ readdir(FIXTURE_DIR)
           return scrapeStream(meta.originalUrl, meta.contentUrl, meta.headers, createReadStream(join(dir, 'body')))
         })
         .then(result => {
-          return writeFile(join(dir, 'result.json'), JSON.stringify(result, null, 2))
+          return writeFile(join(dir, 'result.json'), stringify(result, { space: 2 }))
         })
         .then(() => {
           console.log(`Scraped "${path}"`)

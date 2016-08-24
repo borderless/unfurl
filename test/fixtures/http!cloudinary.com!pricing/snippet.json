@@ -1,17 +1,20 @@
 {
-  "type": "html",
-  "contentUrl": "http://cloudinary.com/pricing",
+  "apps": {
+  },
+  "author": {
+  },
   "contentSize": 15164,
-  "originalUrl": "http://cloudinary.com/pricing",
+  "contentUrl": "http://cloudinary.com/pricing",
+  "description": "Cloudinary",
   "encodingFormat": "text/html",
   "headline": "Cloudinary - Pricing",
-  "description": "Cloudinary",
-  "provider": {},
-  "author": {},
   "icon": {
-    "url": "http://cloudinary.com/images/favicon-32x32.png",
     "sizes": "32x32",
-    "type": "image/png"
+    "type": "image/png",
+    "url": "http://cloudinary.com/images/favicon-32x32.png"
   },
-  "apps": {}
+  "originalUrl": "http://cloudinary.com/pricing",
+  "provider": {
+  },
+  "type": "html"
 }

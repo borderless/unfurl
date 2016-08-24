@@ -1,54 +1,54 @@
 {
-  "type": "html",
-  "contentUrl": "https://adactio.com/journal/9881",
-  "originalUrl": "https://adactio.com/journal/9881",
-  "encodingFormat": "text/html",
   "contentSize": 23066,
+  "contentUrl": "https://adactio.com/journal/9881",
+  "encodingFormat": "text/html",
   "html": {
-    "title": "Adactio: Journal—Metadata markup",
-    "description": "So many standards to choose from.",
     "author": "Jeremy Keith",
     "canonical": "https://adactio.com/journal/9881",
+    "description": "So many standards to choose from.",
     "icons": [
       {
-        "url": "https://adactio.com/favicon-16x16.png",
         "sizes": "16x16",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://adactio.com/favicon-16x16.png"
       },
       {
-        "url": "https://adactio.com/favicon-32x32.png",
         "sizes": "32x32",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://adactio.com/favicon-32x32.png"
       },
       {
-        "url": "https://adactio.com/favicon-96x96.png",
         "sizes": "96x96",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://adactio.com/favicon-96x96.png"
       },
       {
-        "url": "https://adactio.com/apple-touch-icon.png",
         "sizes": "180x180",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://adactio.com/apple-touch-icon.png"
       }
-    ]
+    ],
+    "title": "Adactio: Journal—Metadata markup"
+  },
+  "originalUrl": "https://adactio.com/journal/9881",
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "So many standards to choose from.",
+      "http://ogp.me/ns#image": "https://adactio.com/images/photo-300.jpg",
+      "http://ogp.me/ns#title": "Metadata markup",
+      "http://ogp.me/ns#url": "https://adactio.com/journal/9881"
+    }
   },
   "twitter": {
     "card": "summary",
-    "site": "@adactio",
-    "site:id": "11250",
     "creator": "@adactio",
     "creator:id": "11250",
-    "url": "https://adactio.com/journal/9881",
-    "title": "Metadata markup",
     "description": "So many standards to choose from.",
-    "image": "https://adactio.com/images/photo-300.jpg"
+    "image": "https://adactio.com/images/photo-300.jpg",
+    "site": "@adactio",
+    "site:id": "11250",
+    "title": "Metadata markup",
+    "url": "https://adactio.com/journal/9881"
   },
-  "rdfa": {
-    "": {
-      "http://ogp.me/ns#url": "https://adactio.com/journal/9881",
-      "http://ogp.me/ns#title": "Metadata markup",
-      "http://ogp.me/ns#description": "So many standards to choose from.",
-      "http://ogp.me/ns#image": "https://adactio.com/images/photo-300.jpg"
-    }
-  }
+  "type": "html"
 }

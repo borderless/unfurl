@@ -6,6 +6,7 @@ var stat = thenify(require('fs').stat)
 var join = require('path').join
 var filenamify = require('filenamify')
 var popsicle = require('popsicle')
+var stringify = require('json-stable-stringify')
 
 var FIXTURE_DIR = join(__dirname, '../test/fixtures')
 
@@ -163,7 +164,7 @@ Promise.all(FIXTURES.map(function (fixtureUrl) {
             }
 
             return Promise.all([
-              writeFile(join(dir, 'meta.json'), JSON.stringify(meta, null, 2)),
+              writeFile(join(dir, 'meta.json'), stringify(meta, { space: 2 })),
               writeFile(join(dir, 'body'), res.body)
             ])
           })

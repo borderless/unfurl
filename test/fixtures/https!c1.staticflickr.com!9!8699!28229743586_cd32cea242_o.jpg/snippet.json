@@ -1,17 +1,17 @@
 {
-  "type": "image",
-  "encodingFormat": "image/jpeg",
-  "dateModified": "2016-07-12T01:35:24.000Z",
-  "dateCreated": "2016-07-11T21:33:20.710Z",
   "contentSize": 12383845,
   "contentUrl": "https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg",
-  "originalUrl": "https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg",
-  "width": 3407,
+  "dateCreated": "2016-07-11T21:33:20.710Z",
+  "dateModified": "2016-07-12T01:35:24.000Z",
+  "encodingFormat": "image/jpeg",
   "height": 5110,
-  "make": "Canon",
-  "model": "Canon EOS 700D",
   "lensModel": "17-70mm",
-  "software": "Adobe Photoshop Lightroom 6.1 (Windows)",
+  "make": "Canon",
   "megapixels": 17.4,
-  "orientation": "Horizontal (normal)"
+  "model": "Canon EOS 700D",
+  "orientation": "Horizontal (normal)",
+  "originalUrl": "https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg",
+  "software": "Adobe Photoshop Lightroom 6.1 (Windows)",
+  "type": "image",
+  "width": 3407
 }

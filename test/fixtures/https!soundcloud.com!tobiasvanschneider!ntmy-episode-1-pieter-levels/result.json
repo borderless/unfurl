@@ -1,67 +1,30 @@
 {
-  "type": "html",
+  "applinks": {
+    "android:app_name": "SoundCloud",
+    "android:package": "com.soundcloud.android",
+    "android:url": "soundcloud://sounds:229122811",
+    "ios:app_name": "SoundCloud",
+    "ios:app_store_id": "336353151",
+    "ios:url": "soundcloud://sounds:229122811",
+    "web:should_fallback": "false"
+  },
   "contentUrl": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
-  "originalUrl": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
   "encodingFormat": "text/html",
   "html": {
-    "title": "NTMY - Episode 1 - Pieter Levels by Tobias van Schneider | Free Listening on SoundCloud",
-    "keywords": "record, sounds, share, sound, audio, tracks, music, soundcloud",
-    "description": "Stream NTMY - Episode 1 - Pieter Levels by Tobias van Schneider from desktop or your mobile device",
-    "canonical": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
     "application-name": "SoundCloud",
+    "canonical": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
+    "description": "Stream NTMY - Episode 1 - Pieter Levels by Tobias van Schneider from desktop or your mobile device",
     "icons": [
       {
         "url": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14b.ico"
       }
-    ]
-  },
-  "twitter": {
-    "site": "SoundCloud",
-    "app:name:iphone": "SoundCloud",
-    "app:id:iphone": "336353151",
-    "app:name:ipad": "SoundCloud",
-    "app:id:ipad": "336353151",
-    "app:name:googleplay": "SoundCloud",
-    "app:id:googleplay": "com.soundcloud.android",
-    "title": "NTMY - Episode 1 - Pieter Levels",
-    "description": "This is the very first Episode of the NYTM show. Today with maker & founder of NomadList Pieter Levels. You can follow Pieter Levels here: https://twitter.com/levelsio or read about his work here: ht",
-    "player": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F229122811&auto_play=false&show_artwork=true&visual=true&origin=twitter",
-    "player:height": "400",
-    "player:width": "435",
-    "image": "https://i1.sndcdn.com/artworks-000133297269-bwi3mi-t500x500.jpg",
-    "card": "player",
-    "app:url:googleplay": "soundcloud://sounds:229122811",
-    "app:url:iphone": "soundcloud://sounds:229122811",
-    "app:url:ipad": "soundcloud://sounds:229122811"
-  },
-  "rdfa": {
-    "": {
-      "http://ogp.me/ns#site_name": "SoundCloud",
-      "http://ogp.me/ns#type": "music.song",
-      "http://ogp.me/ns#url": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
-      "http://ogp.me/ns#title": "NTMY - Episode 1 - Pieter Levels",
-      "http://ogp.me/ns#image": "https://i1.sndcdn.com/artworks-000133297269-bwi3mi-t500x500.jpg",
-      "http://ogp.me/ns#image:width": "500",
-      "http://ogp.me/ns#image:height": "500",
-      "http://ogp.me/ns#description": "This is the very first Episode of the NYTM show. Today with maker & founder of NomadList Pieter Levels. You can follow Pieter Levels here: https://twitter.com/levelsio or read about his work here: ht"
-    }
-  },
-  "applinks": {
-    "ios:app_name": "SoundCloud",
-    "ios:app_store_id": "336353151",
-    "android:app_name": "SoundCloud",
-    "android:package": "com.soundcloud.android",
-    "web:should_fallback": "false",
-    "ios:url": "soundcloud://sounds:229122811",
-    "android:url": "soundcloud://sounds:229122811"
+    ],
+    "keywords": "record, sounds, share, sound, audio, tracks, music, soundcloud",
+    "title": "NTMY - Episode 1 - Pieter Levels by Tobias van Schneider | Free Listening on SoundCloud"
   },
   "microdata": [
     {
       "@type": "http://schema.org/MusicRecording",
-      "url": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
-      "name": "NTMY - Episode 1 - Pieter Levels by Tobias van Schneider",
-      "duration": "PT01H13M45S",
-      "genre": "Podcast",
       "audio": {
         "@type": "http://schema.org/AudioObject",
         "embedUrl": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F229122811&auto_play=false&show_artwork=true&visual=true&origin=schema.org",
@@ -72,13 +35,50 @@
         "name": "Tobias van Schneider",
         "url": "/tobiasvanschneider"
       },
+      "description": "This is the very first Episode of the NYTM show. Today with maker & founder of NomadList Pieter Levels. You can follow Pieter Levels here: https://twitter.com/levelsio or read about his work here: https://levels.io For the full list of episodes please visit: http://www.vanschneider.com/show/ Powered & Sponsored by www.semplicelabs.com",
+      "duration": "PT01H13M45S",
+      "genre": "Podcast",
+      "image": "https://i1.sndcdn.com/artworks-000133297269-bwi3mi-t500x500.jpg",
+      "name": "NTMY - Episode 1 - Pieter Levels by Tobias van Schneider",
       "provider": {
         "@type": "http://schema.org/Organization",
-        "name": "SoundCloud",
-        "image": "http://developers.soundcloud.com/assets/logo_white-8bf7615eb575eeb114fc65323068e1e4.png"
+        "image": "http://developers.soundcloud.com/assets/logo_white-8bf7615eb575eeb114fc65323068e1e4.png",
+        "name": "SoundCloud"
       },
-      "image": "https://i1.sndcdn.com/artworks-000133297269-bwi3mi-t500x500.jpg",
-      "description": "This is the very first Episode of the NYTM show. Today with maker & founder of NomadList Pieter Levels. You can follow Pieter Levels here: https://twitter.com/levelsio or read about his work here: https://levels.io For the full list of episodes please visit: http://www.vanschneider.com/show/ Powered & Sponsored by www.semplicelabs.com"
+      "url": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels"
     }
-  ]
+  ],
+  "originalUrl": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "This is the very first Episode of the NYTM show. Today with maker & founder of NomadList Pieter Levels. You can follow Pieter Levels here: https://twitter.com/levelsio or read about his work here: ht",
+      "http://ogp.me/ns#image": "https://i1.sndcdn.com/artworks-000133297269-bwi3mi-t500x500.jpg",
+      "http://ogp.me/ns#image:height": "500",
+      "http://ogp.me/ns#image:width": "500",
+      "http://ogp.me/ns#site_name": "SoundCloud",
+      "http://ogp.me/ns#title": "NTMY - Episode 1 - Pieter Levels",
+      "http://ogp.me/ns#type": "music.song",
+      "http://ogp.me/ns#url": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels"
+    }
+  },
+  "twitter": {
+    "app:id:googleplay": "com.soundcloud.android",
+    "app:id:ipad": "336353151",
+    "app:id:iphone": "336353151",
+    "app:name:googleplay": "SoundCloud",
+    "app:name:ipad": "SoundCloud",
+    "app:name:iphone": "SoundCloud",
+    "app:url:googleplay": "soundcloud://sounds:229122811",
+    "app:url:ipad": "soundcloud://sounds:229122811",
+    "app:url:iphone": "soundcloud://sounds:229122811",
+    "card": "player",
+    "description": "This is the very first Episode of the NYTM show. Today with maker & founder of NomadList Pieter Levels. You can follow Pieter Levels here: https://twitter.com/levelsio or read about his work here: ht",
+    "image": "https://i1.sndcdn.com/artworks-000133297269-bwi3mi-t500x500.jpg",
+    "player": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F229122811&auto_play=false&show_artwork=true&visual=true&origin=twitter",
+    "player:height": "400",
+    "player:width": "435",
+    "site": "SoundCloud",
+    "title": "NTMY - Episode 1 - Pieter Levels"
+  },
+  "type": "html"
 }

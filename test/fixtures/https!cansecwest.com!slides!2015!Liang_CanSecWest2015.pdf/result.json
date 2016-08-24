@@ -1,23 +1,23 @@
 {
-  "type": "pdf",
-  "contentUrl": "https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf",
-  "originalUrl": "https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf",
-  "encodingFormat": "application/pdf",
   "contentSize": 2051916,
+  "contentUrl": "https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf",
+  "encodingFormat": "application/pdf",
   "exifData": {
-    "SourceFile": "-",
+    "Author": "chenliang",
+    "CreateDate": "2015:03:19 19:03:50Z",
+    "Creator": "Microsoft® PowerPoint® 2013",
     "ExifToolVersion": 10.24,
     "FileType": "PDF",
     "FileTypeExtension": "pdf",
-    "MIMEType": "application/pdf",
     "Linearized": "No",
-    "PageCount": 57,
+    "MIMEType": "application/pdf",
+    "ModifyDate": "2015:03:19 19:03:50Z",
     "PDFVersion": 1.4,
-    "Title": "Attacking WebKit Applications by exploiting memory corruption bugs",
-    "Author": "chenliang",
+    "PageCount": 57,
     "Producer": "Mac OS X 10.10.2 Quartz PDFContext",
-    "Creator": "Microsoft® PowerPoint® 2013",
-    "CreateDate": "2015:03:19 19:03:50Z",
-    "ModifyDate": "2015:03:19 19:03:50Z"
-  }
+    "SourceFile": "-",
+    "Title": "Attacking WebKit Applications by exploiting memory corruption bugs"
+  },
+  "originalUrl": "https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf",
+  "type": "pdf"
 }

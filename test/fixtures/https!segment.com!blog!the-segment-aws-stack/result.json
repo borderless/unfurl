@@ -1,33 +1,33 @@
 {
-  "type": "html",
-  "contentUrl": "https://segment.com/blog/the-segment-aws-stack/",
-  "originalUrl": "https://segment.com/blog/the-segment-aws-stack/",
-  "encodingFormat": "text/html",
   "contentSize": 10188,
+  "contentUrl": "https://segment.com/blog/the-segment-aws-stack/",
+  "encodingFormat": "text/html",
   "html": {
-    "title": "The Segment AWS Stack",
     "author": "Calvin French-Owen",
     "description": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!",
     "icons": [
       {
-        "url": "https://segment.com/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://segment.com/favicon.ico"
       }
-    ]
+    ],
+    "title": "The Segment AWS Stack"
+  },
+  "originalUrl": "https://segment.com/blog/the-segment-aws-stack/",
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!",
+      "http://ogp.me/ns#image": "https://segment.com/blog/the-segment-aws-stack/images/main.png",
+      "http://ogp.me/ns#site_name": "Segment Blog",
+      "http://ogp.me/ns#title": "The Segment AWS Stack",
+      "http://ogp.me/ns#type": "blog"
+    }
   },
   "twitter": {
     "card": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!",
-    "site": "@segment",
     "creator": "@calvinfo",
-    "image": "https://segment.com/blog/the-segment-aws-stack/images/main.png"
+    "image": "https://segment.com/blog/the-segment-aws-stack/images/main.png",
+    "site": "@segment"
   },
-  "rdfa": {
-    "": {
-      "http://ogp.me/ns#type": "blog",
-      "http://ogp.me/ns#site_name": "Segment Blog",
-      "http://ogp.me/ns#title": "The Segment AWS Stack",
-      "http://ogp.me/ns#description": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!",
-      "http://ogp.me/ns#image": "https://segment.com/blog/the-segment-aws-stack/images/main.png"
-    }
-  }
+  "type": "html"
 }

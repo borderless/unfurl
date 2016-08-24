@@ -1,14 +1,14 @@
 {
-  "type": "image",
-  "encodingFormat": "image/jpeg",
   "contentSize": 1397618,
   "contentUrl": "https://c2.staticflickr.com/4/3930/15428630771_61e9dcf6f4_o.jpg",
-  "originalUrl": "https://c2.staticflickr.com/4/3930/15428630771_61e9dcf6f4_o.jpg",
-  "width": 2448,
+  "encodingFormat": "image/jpeg",
   "height": 2448,
   "lensMake": "Apple",
   "lensModel": "iPhone 5 back camera 4.12mm f/2.4",
-  "software": "Instagram",
   "megapixels": 6,
-  "orientation": "Horizontal (normal)"
+  "orientation": "Horizontal (normal)",
+  "originalUrl": "https://c2.staticflickr.com/4/3930/15428630771_61e9dcf6f4_o.jpg",
+  "software": "Instagram",
+  "type": "image",
+  "width": 2448
 }

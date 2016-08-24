@@ -1,18 +1,18 @@
 {
-  "type": "pdf",
-  "contentUrl": "https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf",
-  "originalUrl": "https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf",
-  "encodingFormat": "application/pdf",
   "contentSize": 117248,
+  "contentUrl": "https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf",
+  "encodingFormat": "application/pdf",
   "exifData": {
-    "SourceFile": "-",
     "ExifToolVersion": 10.24,
     "FileType": "PDF",
     "FileTypeExtension": "pdf",
+    "Linearized": "No",
     "MIMEType": "application/pdf",
     "PDFVersion": 1.2,
-    "Linearized": "No",
     "PageCount": 8,
-    "Producer": "GNU Ghostscript 6.53"
-  }
+    "Producer": "GNU Ghostscript 6.53",
+    "SourceFile": "-"
+  },
+  "originalUrl": "https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf",
+  "type": "pdf"
 }

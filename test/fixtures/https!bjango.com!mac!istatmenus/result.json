@@ -1,17 +1,17 @@
 {
-  "type": "html",
-  "contentUrl": "https://bjango.com/mac/istatmenus/",
-  "originalUrl": "https://bjango.com/mac/istatmenus/",
-  "encodingFormat": "text/html",
   "contentSize": 21549,
+  "contentUrl": "https://bjango.com/mac/istatmenus/",
+  "encodingFormat": "text/html",
   "html": {
-    "title": "iStat Menus",
     "apple-mobile-web-app-title": "Bjango",
     "icons": [
       {
-        "url": "https://bjango.com/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://bjango.com/favicon.ico"
       }
-    ]
-  }
+    ],
+    "title": "iStat Menus"
+  },
+  "originalUrl": "https://bjango.com/mac/istatmenus/",
+  "type": "html"
 }

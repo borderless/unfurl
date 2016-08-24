@@ -1,68 +1,58 @@
 {
-  "type": "html",
   "contentUrl": "https://www.coursera.org/learn/machine-learning",
-  "originalUrl": "https://www.coursera.org/learn/machine-learning",
   "encodingFormat": "text/html",
   "html": {
+    "description": "Take free online classes from 140+ top universities and educational organizations. We partner with schools like Stanford, Yale, Princeton, and others to offer courses in dozens of topics, from computer science to teaching and beyond. Whether you are pursuing a passion or looking to advance your career, Coursera provides open, free education for everyone.",
     "icons": [
       {
-        "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-194x194.png",
         "sizes": "194x194",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-194x194.png"
       },
       {
-        "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/android-chrome-192x192.png",
         "sizes": "192x192",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/android-chrome-192x192.png"
       },
       {
-        "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-96x96.png",
         "sizes": "96x96",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-96x96.png"
       },
       {
-        "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-16x16.png",
         "sizes": "16x16",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-16x16.png"
       },
       {
-        "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-32x32.png",
         "sizes": "32x32",
-        "type": "image/png"
+        "type": "image/png",
+        "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-32x32.png"
       }
-    ],
-    "description": "Take free online classes from 140+ top universities and educational organizations. We partner with schools like Stanford, Yale, Princeton, and others to offer courses in dozens of topics, from computer science to teaching and beyond. Whether you are pursuing a passion or looking to advance your career, Coursera provides open, free education for everyone."
-  },
-  "twitter": {
-    "site": "Coursera",
-    "app:name:iphone": "Coursera",
-    "app:name:ipad": "Coursera",
-    "app:name:googleplay": "Coursera",
-    "app:id:iphone": "id736535961",
-    "app:id:ipad": "id736535961",
-    "app:id:googleplay": "org.coursera.android"
-  },
-  "rdfa": {
-    "": {
-      "http://ogp.me/ns#site_name": "Coursera",
-      "http://ogp.me/ns#title": "Coursera - Free Online Courses From Top Universities",
-      "http://ogp.me/ns#locale": "en_US",
-      "http://ogp.me/ns#type": "website",
-      "http://ogp.me/ns#description": "Take free online classes from 140+ top universities and educational organizations. We partner with schools like Stanford, Yale, Princeton, and others to offer courses in dozens of topics, from computer science to teaching and beyond. Whether you are pursuing a passion or looking to advance your career, Coursera provides open, free education for everyone.",
-      "http://ogp.me/ns#image": "http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png",
-      "http://ogp.me/ns#url": "https://www.coursera.org/learn/machine-learning"
-    }
+    ]
   },
   "jsonld": [
     {
       "@context": "http://schema.org",
-      "@type": "Course",
       "@id": "https://www.coursera.org/learn/machine-learning",
-      "name": "Machine Learning",
-      "subjectOfStudy": [
-        "Data Science"
-      ],
+      "@type": "Course",
       "description": "Machine learning is the science of getting computers to act without being explicitly programmed.",
+      "grantsCredential": "http://schema.org/True",
+      "hasCourseInstance": [
+        {
+          "@type": "CourseInstance",
+          "endDate": "2016-11-14",
+          "inLanguage": "en",
+          "instructor": {
+            "@id": "https://www.coursera.org/instructor/andrewng",
+            "@type": "Person",
+            "name": " Andrew Ng"
+          },
+          "startDate": "2016-08-22"
+        }
+      ],
+      "isAccessibleForFree": "http://schema.org/True",
+      "name": "Machine Learning",
       "provider": {
         "@type": "CollegeOrUniversity",
         "name": "Stanford University",
@@ -73,21 +63,9 @@
         "name": "Coursera",
         "url": "https://www.coursera.org/"
       },
-      "isAccessibleForFree": "http://schema.org/True",
-      "hasCourseInstance": [
-        {
-          "@type": "CourseInstance",
-          "startDate": "2016-08-22",
-          "endDate": "2016-11-14",
-          "inLanguage": "en",
-          "instructor": {
-            "@type": "Person",
-            "name": " Andrew Ng",
-            "@id": "https://www.coursera.org/instructor/andrewng"
-          }
-        }
+      "subjectOfStudy": [
+        "Data Science"
       ],
-      "grantsCredential": "http://schema.org/True",
       "thumbnail": {
         "@context": "http://schema.org",
         "@type": "ImageObject",
@@ -95,5 +73,27 @@
       },
       "timeRequired": "P1DT22H58M7.543S"
     }
-  ]
+  ],
+  "originalUrl": "https://www.coursera.org/learn/machine-learning",
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "Take free online classes from 140+ top universities and educational organizations. We partner with schools like Stanford, Yale, Princeton, and others to offer courses in dozens of topics, from computer science to teaching and beyond. Whether you are pursuing a passion or looking to advance your career, Coursera provides open, free education for everyone.",
+      "http://ogp.me/ns#image": "http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png",
+      "http://ogp.me/ns#locale": "en_US",
+      "http://ogp.me/ns#site_name": "Coursera",
+      "http://ogp.me/ns#title": "Coursera - Free Online Courses From Top Universities",
+      "http://ogp.me/ns#type": "website",
+      "http://ogp.me/ns#url": "https://www.coursera.org/learn/machine-learning"
+    }
+  },
+  "twitter": {
+    "app:id:googleplay": "org.coursera.android",
+    "app:id:ipad": "id736535961",
+    "app:id:iphone": "id736535961",
+    "app:name:googleplay": "Coursera",
+    "app:name:ipad": "Coursera",
+    "app:name:iphone": "Coursera",
+    "site": "Coursera"
+  },
+  "type": "html"
 }

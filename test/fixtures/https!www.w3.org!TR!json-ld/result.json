@@ -1,23 +1,23 @@
 {
-  "type": "html",
-  "contentUrl": "https://www.w3.org/TR/json-ld/",
-  "originalUrl": "https://www.w3.org/TR/json-ld/",
-  "encodingFormat": "text/html",
   "contentSize": 247720,
+  "contentUrl": "https://www.w3.org/TR/json-ld/",
+  "encodingFormat": "text/html",
   "html": {
-    "title": "JSON-LD 1.0",
     "icons": [
       {
-        "url": "https://www.w3.org/favicon.ico",
-        "type": "image/vnd.microsoft.icon"
+        "type": "image/vnd.microsoft.icon",
+        "url": "https://www.w3.org/favicon.ico"
       }
-    ]
+    ],
+    "title": "JSON-LD 1.0"
   },
+  "originalUrl": "https://www.w3.org/TR/json-ld/",
   "rdfa": {
     "": {
+      "http://purl.org/dc/terms/abstract": "Abstract JSON is a useful data serialization and messaging format. This specification defines JSON-LD, a JSON-based format to serialize Linked Data. The syntax is designed to easily integrate into deployed systems that already use JSON, and provides a smooth upgrade path from JSON to JSON-LD. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines.",
+      "http://purl.org/dc/terms/issued": "2014-01-15T23:00:00.000Z",
       "http://purl.org/dc/terms/language": "en",
       "http://purl.org/dc/terms/title": "JSON-LD 1.0",
-      "http://purl.org/dc/terms/issued": "2014-01-15T23:00:00.000Z",
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
         "http://xmlns.com/foaf/0.1/Person",
         "http://xmlns.com/foaf/0.1/Person",
@@ -37,8 +37,8 @@
         "Gregg Kellogg",
         "Markus Lanthaler",
         "Niklas Lindström"
-      ],
-      "http://purl.org/dc/terms/abstract": "Abstract JSON is a useful data serialization and messaging format. This specification defines JSON-LD, a JSON-based format to serialize Linked Data. The syntax is designed to easily integrate into deployed systems that already use JSON, and provides a smooth upgrade path from JSON to JSON-LD. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines."
+      ]
     }
-  }
+  },
+  "type": "html"
 }

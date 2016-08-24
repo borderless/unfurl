@@ -1,205 +1,205 @@
 {
-  "type": "html",
-  "contentUrl": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
-  "originalUrl": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
-  "encodingFormat": "text/html",
   "contentSize": 26096,
+  "contentUrl": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
+  "encodingFormat": "text/html",
   "html": {
-    "title": "Apple iPhone 6s 64GB Gray MKRY2LL/A - Best Buy",
-    "keywords": "APPLE, IPHONE 6S",
-    "description": "iPhone 6s 64GB, Read customer reviews and buy online at Best Buy.",
     "canonical": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
+    "description": "iPhone 6s 64GB, Read customer reviews and buy online at Best Buy.",
     "icons": [
       {
-        "url": "http://www.bestbuy.com/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "http://www.bestbuy.com/favicon.ico"
       }
-    ]
-  },
-  "twitter": {
-    "card": "summary_large_image",
-    "site": "@BestBuy",
-    "creator": "@BestBuy",
-    "title": "Apple - iPhone 6s 64GB - Space Gray (Verizon Wireless)",
-    "description": "iPhone 6s 64GB, Read customer reviews and buy online at Best Buy.",
-    "image": "http://pisces.bbystatic.com//image2/BestBuy_US/images/products/4447/4447801_sa.jpg;maxHeight=210;maxWidth=210"
-  },
-  "rdfa": {
-    "": {
-      "http://ogp.me/ns#title": "Apple - iPhone 6s 64GB - Space Gray (Verizon Wireless)",
-      "http://ogp.me/ns#type": "product",
-      "http://ogp.me/ns#url": "/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
-      "http://ogp.me/ns#image": "http://pisces.bbystatic.com//image2/BestBuy_US/images/products/4447/4447801_sa.jpg;maxHeight=210;maxWidth=210",
-      "http://ogp.me/ns#site_name": "Best Buy",
-      "http://ogp.me/ns#description": "iPhone 6s 64GB, Read customer reviews and buy online at Best Buy."
-    }
+    ],
+    "keywords": "APPLE, IPHONE 6S",
+    "title": "Apple iPhone 6s 64GB Gray MKRY2LL/A - Best Buy"
   },
   "microdata": [
     {
       "@type": "http://schema.org/Product",
-      "url": "/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
+      "aggregateRating": {
+        "@type": "http://schema.org/AggregateRating",
+        "bestRating": "5",
+        "ratingValue": "4.8",
+        "reviewCount": "2666",
+        "worstRating": "1"
+      },
+      "brand": {
+        "@type": "http://schema.org/Brand",
+        "name": "Apple"
+      },
+      "description": "A 4.7-inch Retina HD display with 3D Touch. 7000 series aluminum and stronger cover glass. An A9 chip with 64-bit desktop-class architecture. All new 12MP iSight camera with Live Photos. Touch ID. Faster LTE and Wi-Fi. Long battery life and iOS 9 and iCloud. All in a smooth, continuous unibody design.",
+      "model": "MKRY2LL/A",
       "name": [
         "Apple - iPhone 6s 64GB - Space Gray (Verizon Wireless)",
         "Apple - iPhone 6s 64GB - Space Gray (Verizon Wireless)",
         "A 4.7-inch Retina HD display with 3D Touch. 7000 series aluminum and stronger cover glass. An A9 chip with 64-bit desktop-class architecture. All new 12MP iSight camera with Live Photos. Touch ID. Faster LTE and Wi-Fi. Long battery life and iOS 9 and iCloud. All in a smooth, continuous unibody design."
       ],
-      "brand": {
-        "@type": "http://schema.org/Brand",
-        "name": "Apple"
-      },
-      "model": "MKRY2LL/A",
-      "productID": "4447801",
-      "aggregateRating": {
-        "@type": "http://schema.org/AggregateRating",
-        "worstRating": "1",
-        "bestRating": "5",
-        "ratingValue": "4.8",
-        "reviewCount": "2666"
-      },
-      "description": "A 4.7-inch Retina HD display with 3D Touch. 7000 series aluminum and stronger cover glass. An A9 chip with 64-bit desktop-class architecture. All new 12MP iSight camera with Live Photos. Touch ID. Faster LTE and Wi-Fi. Long battery life and iOS 9 and iCloud. All in a smooth, continuous unibody design.",
       "offers": {
         "@type": "http://schema.org/Offer",
-        "priceCurrency": "USD",
+        "availability": "InStock",
+        "itemCondition": "NewCondition",
         "price": "$299.99",
+        "priceCurrency": "USD",
         "seller": {
           "@type": "http://schema.org/Organization",
           "name": "BestBuy"
-        },
-        "availability": "InStock",
-        "itemCondition": "NewCondition"
+        }
       },
+      "productID": "4447801",
       "reviews": [
         {
           "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "4",
-            "bestRating": "5"
-          },
-          "name": "easy to use",
           "author": "kjkeane",
           "datePublished": "08/13/2016",
-          "description": "We have had no problems with this phone. It is very easy to use."
+          "description": "We have had no problems with this phone. It is very easy to use.",
+          "name": "easy to use",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "bestRating": "5",
+            "ratingValue": "4",
+            "worstRating": "1"
+          }
         },
         {
           "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "Its an IPone",
           "author": "LilD",
           "datePublished": "08/13/2016",
-          "description": "What can I said, its an IPhone and my son's loves it, great pics and enough space for his games and music."
+          "description": "What can I said, its an IPhone and my son's loves it, great pics and enough space for his games and music.",
+          "name": "Its an IPone",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "bestRating": "5",
+            "ratingValue": "5",
+            "worstRating": "1"
+          }
         },
         {
           "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "Right size with speed",
           "author": "Drandy",
           "datePublished": "08/13/2016",
-          "description": "Really a great purchase. Just the size for me and is super fast. The pictures and video is remarkable for a phone. Would recommend to anyone."
+          "description": "Really a great purchase. Just the size for me and is super fast. The pictures and video is remarkable for a phone. Would recommend to anyone.",
+          "name": "Right size with speed",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "bestRating": "5",
+            "ratingValue": "5",
+            "worstRating": "1"
+          }
         },
         {
           "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "2",
-            "bestRating": "5"
-          },
-          "name": "Not happy",
           "author": "Dawn",
           "datePublished": "08/13/2016",
-          "description": "When I turn my volume down I have to restart my phone to get a ringtone back ."
+          "description": "When I turn my volume down I have to restart my phone to get a ringtone back .",
+          "name": "Not happy",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "bestRating": "5",
+            "ratingValue": "2",
+            "worstRating": "1"
+          }
         },
         {
           "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "We are an Apple family",
           "author": "Msjoey",
           "datePublished": "08/13/2016",
-          "description": "Purchased for my 15 year old as his first phone and he's had no complaints."
+          "description": "Purchased for my 15 year old as his first phone and he's had no complaints.",
+          "name": "We are an Apple family",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "bestRating": "5",
+            "ratingValue": "5",
+            "worstRating": "1"
+          }
         },
         {
           "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "Great camera update and overall phone.",
           "author": "nick6413",
           "datePublished": "08/13/2016",
-          "description": "I always liked my iPhone but was skeptical over the increased size. But the slim body and added length are no problem. Like the new style and model. Great features."
+          "description": "I always liked my iPhone but was skeptical over the increased size. But the slim body and added length are no problem. Like the new style and model. Great features.",
+          "name": "Great camera update and overall phone.",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "bestRating": "5",
+            "ratingValue": "5",
+            "worstRating": "1"
+          }
         },
         {
           "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "Love it",
           "author": "Desy",
           "datePublished": "08/13/2016",
-          "description": "Easy to use; good battery life; great camera; nice size"
+          "description": "Easy to use; good battery life; great camera; nice size",
+          "name": "Love it",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "bestRating": "5",
+            "ratingValue": "5",
+            "worstRating": "1"
+          }
         },
         {
           "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "Love my iPhone 6s!",
           "author": "Kimfusion",
           "datePublished": "08/13/2016",
-          "description": "Switched to a Samsung Note 4 two years ago to try something new. Had problems with it and hated it. Recently went back to iPhone and I'll never switch again. I love it!"
+          "description": "Switched to a Samsung Note 4 two years ago to try something new. Had problems with it and hated it. Recently went back to iPhone and I'll never switch again. I love it!",
+          "name": "Love my iPhone 6s!",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "bestRating": "5",
+            "ratingValue": "5",
+            "worstRating": "1"
+          }
         },
         {
           "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "iPhone 6s",
           "author": "Jax39",
           "datePublished": "08/13/2016",
-          "description": "I love my new iPhone 6c it's fast and efficient, except for the shatter proof screen 2 weeks I went before I broke it by dropping it out of my pocket."
+          "description": "I love my new iPhone 6c it's fast and efficient, except for the shatter proof screen 2 weeks I went before I broke it by dropping it out of my pocket.",
+          "name": "iPhone 6s",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "bestRating": "5",
+            "ratingValue": "5",
+            "worstRating": "1"
+          }
         },
         {
           "@type": "http://schema.org/Review",
-          "reviewRating": {
-            "@type": "http://schema.org/Rating",
-            "worstRating": "1",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "name": "Love Apple Products",
           "author": "Panda",
           "datePublished": "08/13/2016",
-          "description": "I only buy Apple products, I wouldn't use anything else. Love this phone, I really like the Touch ID"
+          "description": "I only buy Apple products, I wouldn't use anything else. Love this phone, I really like the Touch ID",
+          "name": "Love Apple Products",
+          "reviewRating": {
+            "@type": "http://schema.org/Rating",
+            "bestRating": "5",
+            "ratingValue": "5",
+            "worstRating": "1"
+          }
         }
-      ]
+      ],
+      "url": "/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801"
     }
-  ]
+  ],
+  "originalUrl": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "iPhone 6s 64GB, Read customer reviews and buy online at Best Buy.",
+      "http://ogp.me/ns#image": "http://pisces.bbystatic.com//image2/BestBuy_US/images/products/4447/4447801_sa.jpg;maxHeight=210;maxWidth=210",
+      "http://ogp.me/ns#site_name": "Best Buy",
+      "http://ogp.me/ns#title": "Apple - iPhone 6s 64GB - Space Gray (Verizon Wireless)",
+      "http://ogp.me/ns#type": "product",
+      "http://ogp.me/ns#url": "/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801"
+    }
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "creator": "@BestBuy",
+    "description": "iPhone 6s 64GB, Read customer reviews and buy online at Best Buy.",
+    "image": "http://pisces.bbystatic.com//image2/BestBuy_US/images/products/4447/4447801_sa.jpg;maxHeight=210;maxWidth=210",
+    "site": "@BestBuy",
+    "title": "Apple - iPhone 6s 64GB - Space Gray (Verizon Wireless)"
+  },
+  "type": "html"
 }

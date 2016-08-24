@@ -1,23 +1,25 @@
 {
-  "type": "html",
-  "image": {
-    "url": "https://lh3.googleusercontent.com/NhTHVkHHHjdp657GeFCWaeqFEUMsTJztjG0LrHhK9idtWVg0dbgOKQ=w1200-h630-p",
-    "width": 1200,
-    "height": 630
+  "apps": {
   },
+  "author": {
+  },
+  "contentUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing&usp=embed_facebook",
+  "encodingFormat": "text/html",
   "entity": {
     "type": "article"
   },
-  "contentUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing&usp=embed_facebook",
-  "originalUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing",
-  "encodingFormat": "text/html",
   "headline": "Overfitting.pdf",
-  "provider": {
-    "name": "Google Docs"
-  },
-  "author": {},
   "icon": {
     "url": "https://ssl.gstatic.com/docs/doclist/images/icon_14_pdf_favicon.ico"
   },
-  "apps": {}
+  "image": {
+    "height": 630,
+    "url": "https://lh3.googleusercontent.com/NhTHVkHHHjdp657GeFCWaeqFEUMsTJztjG0LrHhK9idtWVg0dbgOKQ=w1200-h630-p",
+    "width": 1200
+  },
+  "originalUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing",
+  "provider": {
+    "name": "Google Docs"
+  },
+  "type": "html"
 }

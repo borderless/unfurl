@@ -1,24 +1,24 @@
 {
-  "type": "html",
   "contentUrl": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date",
-  "originalUrl": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date",
   "encodingFormat": "text/html",
   "html": {
-    "title": "How to impress a computer programmer on a date - Quora",
     "canonical": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date",
     "icons": [
       {
-        "url": "https://www.quora.com/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://www.quora.com/favicon.ico"
       }
-    ]
+    ],
+    "title": "How to impress a computer programmer on a date - Quora"
   },
+  "originalUrl": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date",
   "twitter": {
     "card": "summary",
-    "image": "https://qph.ec.quoracdn.net/main-custom-t-788-600x315-pitawsfglqjondnjfdmgqqsnbnracpcv.jpeg",
     "description": "Answer (1 of 52): My worst ever first date began with the question: \"So what's your favorite programming language?\" So, maybe something not that.",
-    "title": "How do I impress a computer programmer on a date?",
+    "image": "https://qph.ec.quoracdn.net/main-custom-t-788-600x315-pitawsfglqjondnjfdmgqqsnbnracpcv.jpeg",
     "site": "@Quora",
+    "title": "How do I impress a computer programmer on a date?",
     "url": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date"
-  }
+  },
+  "type": "html"
 }

@@ -1,19 +1,21 @@
 {
-  "type": "html",
-  "contentUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
+  "apps": {
+  },
+  "author": {
+  },
   "contentSize": 60209,
-  "originalUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
+  "contentUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
   "encodingFormat": "text/html",
   "headline": "Introduction to Structured Data",
-  "provider": {
-    "name": "Google Developers"
-  },
-  "author": {},
   "icon": {
     "url": "https://developers.google.com/_static/a4f7ffcec0/images/favicon.png"
   },
   "locale": {
     "primary": "en"
   },
-  "apps": {}
+  "originalUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
+  "provider": {
+    "name": "Google Developers"
+  },
+  "type": "html"
 }

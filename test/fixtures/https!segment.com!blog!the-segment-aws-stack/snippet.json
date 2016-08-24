@@ -1,27 +1,28 @@
 {
-  "type": "html",
-  "image": {
-    "url": "https://segment.com/blog/the-segment-aws-stack/images/main.png"
-  },
-  "contentUrl": "https://segment.com/blog/the-segment-aws-stack/",
-  "contentSize": 10188,
-  "originalUrl": "https://segment.com/blog/the-segment-aws-stack/",
-  "encodingFormat": "text/html",
-  "headline": "The Segment AWS Stack",
-  "description": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!",
-  "provider": {
-    "name": "Segment Blog"
+  "apps": {
   },
   "author": {
     "name": "Calvin French-Owen"
   },
+  "contentSize": 10188,
+  "contentUrl": "https://segment.com/blog/the-segment-aws-stack/",
+  "description": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!",
+  "encodingFormat": "text/html",
+  "headline": "The Segment AWS Stack",
   "icon": {
-    "url": "https://segment.com/favicon.ico",
-    "type": "image/x-icon"
+    "type": "image/x-icon",
+    "url": "https://segment.com/favicon.ico"
+  },
+  "image": {
+    "url": "https://segment.com/blog/the-segment-aws-stack/images/main.png"
+  },
+  "originalUrl": "https://segment.com/blog/the-segment-aws-stack/",
+  "provider": {
+    "name": "Segment Blog"
   },
   "twitter": {
-    "siteHandle": "segment",
-    "creatorHandle": "calvinfo"
+    "creatorHandle": "calvinfo",
+    "siteHandle": "segment"
   },
-  "apps": {}
+  "type": "html"
 }

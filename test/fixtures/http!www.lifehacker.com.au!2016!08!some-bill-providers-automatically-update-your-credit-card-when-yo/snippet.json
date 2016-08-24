@@ -1,26 +1,28 @@
 {
-  "type": "html",
-  "image": {
-    "url": "https://i.kinja-img.com/gawker-media/image/upload/t_original/ittdz6udygdrrkbv8eey.jpg"
+  "apps": {
   },
-  "entity": {
-    "type": "article"
-  },
-  "contentUrl": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
-  "originalUrl": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
-  "encodingFormat": "text/html",
-  "headline": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
-  "description": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will update automatically. So how do they know your new credit card number?...",
-  "provider": {},
   "author": {
     "name": "Kristin Wong"
   },
+  "contentUrl": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
+  "description": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will update automatically. So how do they know your new credit card number?...",
+  "encodingFormat": "text/html",
+  "entity": {
+    "type": "article"
+  },
+  "headline": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
   "icon": {
-    "url": "http://edge.alluremedia.com.au/assets/technetwork/ico/favicon_lifehacker.ico",
-    "type": "image/x-icon"
+    "type": "image/x-icon",
+    "url": "http://edge.alluremedia.com.au/assets/technetwork/ico/favicon_lifehacker.ico"
+  },
+  "image": {
+    "url": "https://i.kinja-img.com/gawker-media/image/upload/t_original/ittdz6udygdrrkbv8eey.jpg"
+  },
+  "originalUrl": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
+  "provider": {
   },
   "twitter": {
     "siteHandle": "LifehackerAU"
   },
-  "apps": {}
+  "type": "html"
 }

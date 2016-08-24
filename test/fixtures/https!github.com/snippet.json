@@ -1,46 +1,48 @@
 {
-  "type": "html",
-  "image": [
-    {
-      "url": "https://assets-cdn.github.com/images/modules/open_graph/github-logo.png",
-      "type": "image/png",
-      "width": 1200,
-      "height": 1200
-    },
-    {
-      "url": "https://assets-cdn.github.com/images/modules/open_graph/github-mark.png",
-      "type": "image/png",
-      "width": 1200,
-      "height": 620
-    },
-    {
-      "url": "https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png",
-      "type": "image/png",
-      "width": 1200,
-      "height": 620
-    }
-  ],
+  "apps": {
+  },
+  "author": {
+  },
+  "contentUrl": "https://github.com/",
+  "description": "GitHub is where people build software. More than 15 million people use GitHub to discover, fork, and contribute to over 38 million projects.",
+  "encodingFormat": "text/html",
   "entity": {
     "type": "image"
   },
-  "contentUrl": "https://github.com/",
-  "originalUrl": "https://github.com/",
-  "encodingFormat": "text/html",
   "headline": "GitHub",
-  "description": "GitHub is where people build software. More than 15 million people use GitHub to discover, fork, and contribute to over 38 million projects.",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "https://assets-cdn.github.com/favicon.ico"
+  },
+  "image": [
+    {
+      "height": 1200,
+      "type": "image/png",
+      "url": "https://assets-cdn.github.com/images/modules/open_graph/github-logo.png",
+      "width": 1200
+    },
+    {
+      "height": 620,
+      "type": "image/png",
+      "url": "https://assets-cdn.github.com/images/modules/open_graph/github-mark.png",
+      "width": 1200
+    },
+    {
+      "height": 620,
+      "type": "image/png",
+      "url": "https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png",
+      "width": 1200
+    }
+  ],
+  "originalUrl": "https://github.com/",
   "provider": {
     "name": "GitHub"
   },
-  "author": {},
-  "icon": {
-    "url": "https://assets-cdn.github.com/favicon.ico",
-    "type": "image/x-icon"
-  },
   "twitter": {
-    "siteId": "13334762",
-    "siteHandle": "github",
+    "creatorHandle": "github",
     "creatorId": "13334762",
-    "creatorHandle": "github"
+    "siteHandle": "github",
+    "siteId": "13334762"
   },
-  "apps": {}
+  "type": "html"
 }

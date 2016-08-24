@@ -1,5 +1,39 @@
 {
-  "type": "html",
+  "apps": {
+    "android": {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b3c2445f964a520348225e3"
+    },
+    "ipad": {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b3c2445f964a520348225e3"
+    },
+    "iphone": {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b3c2445f964a520348225e3"
+    },
+    "windowsPhone": {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b3c2445f964a520348225e3"
+    }
+  },
+  "author": {
+  },
+  "contentUrl": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
+  "description": "Scenic Lookout in Sydney, NSW",
+  "encodingFormat": "text/html",
+  "entity": {
+    "type": "image"
+  },
+  "headline": "Mrs. Macquarie's Point",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "https://foursquare.com/favicon.ico"
+  },
   "image": [
     {
       "url": "https://irs3.4sqi.net/img/general/600x600/438641_2_--EBsG_nPTeh1VrgbcUunxKbD3q0okjw4YXmzXOtU.jpg"
@@ -14,21 +48,9 @@
       "url": "https://irs0.4sqi.net/img/general/600x600/DHSbNG-xAqCikjlwn3ZxKK0kWqB5ZY1ysEn78rxwvl0.jpg"
     }
   ],
-  "entity": {
-    "type": "image"
-  },
-  "contentUrl": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
   "originalUrl": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
-  "encodingFormat": "text/html",
-  "headline": "Mrs. Macquarie's Point",
-  "description": "Scenic Lookout in Sydney, NSW",
   "provider": {
     "name": "Foursquare"
-  },
-  "author": {},
-  "icon": {
-    "url": "https://foursquare.com/favicon.ico",
-    "type": "image/x-icon"
   },
   "tags": [
     "Mrs. Macquarie's Point",
@@ -42,29 +64,8 @@
     "Scenic Lookout"
   ],
   "twitter": {
-    "siteHandle": "foursquare",
-    "creatorHandle": "foursquare"
+    "creatorHandle": "foursquare",
+    "siteHandle": "foursquare"
   },
-  "apps": {
-    "iphone": {
-      "id": "306934924",
-      "name": "Foursquare",
-      "url": "foursquare://venues/4b3c2445f964a520348225e3"
-    },
-    "ipad": {
-      "id": "306934924",
-      "name": "Foursquare",
-      "url": "foursquare://venues/4b3c2445f964a520348225e3"
-    },
-    "android": {
-      "id": "com.joelapenna.foursquared",
-      "name": "Foursquare",
-      "url": "foursquare://venues/4b3c2445f964a520348225e3"
-    },
-    "windowsPhone": {
-      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
-      "name": "Foursquare",
-      "url": "foursquare://venues/4b3c2445f964a520348225e3"
-    }
-  }
+  "type": "html"
 }

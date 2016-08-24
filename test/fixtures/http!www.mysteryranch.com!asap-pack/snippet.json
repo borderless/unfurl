@@ -1,21 +1,24 @@
 {
-  "type": "html",
-  "contentUrl": "http://www.mysteryranch.com/asap-pack",
+  "apps": {
+  },
+  "author": {
+  },
   "contentSize": 17199,
-  "originalUrl": "http://www.mysteryranch.com/asap-pack",
+  "contentUrl": "http://www.mysteryranch.com/asap-pack",
+  "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It's size and versatility make it a perfect every day carry.",
   "encodingFormat": "text/html",
   "headline": "ASAP",
-  "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It's size and versatility make it a perfect every day carry.",
-  "provider": {},
-  "author": {},
   "icon": {
-    "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-32x32.png",
     "sizes": "32x32",
-    "type": "image/png"
+    "type": "image/png",
+    "url": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-32x32.png"
+  },
+  "originalUrl": "http://www.mysteryranch.com/asap-pack",
+  "provider": {
   },
   "twitter": {
-    "siteHandle": "theMysteryRanch",
-    "creatorHandle": "theMysteryRanch"
+    "creatorHandle": "theMysteryRanch",
+    "siteHandle": "theMysteryRanch"
   },
-  "apps": {}
+  "type": "html"
 }

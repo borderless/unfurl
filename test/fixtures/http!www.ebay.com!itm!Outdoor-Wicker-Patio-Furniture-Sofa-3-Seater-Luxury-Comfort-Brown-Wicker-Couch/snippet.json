@@ -1,20 +1,37 @@
 {
-  "type": "html",
+  "apps": {
+    "android": {
+      "id": "com.ebay.mobile",
+      "name": "eBay",
+      "url": "ebay://link/?nav=item.view&id=381228738769&referrer=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-81568-27276-4%2F16%3F&min_version=17"
+    },
+    "ipad": {
+      "id": "364203371",
+      "name": "eBay",
+      "url": "padebay://launch?itm=381228738769&_trksid=p12345&referrer=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-81568-27276-4%2F16%3F"
+    },
+    "iphone": {
+      "id": "282614216",
+      "name": "eBay",
+      "url": "ebay://launch?itm=381228738769&_trksid=p12345&referrer=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-81568-27276-4%2F16%3F"
+    }
+  },
+  "author": {
+  },
+  "contentUrl": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769",
+  "description": "US $349.99 New in Home & Garden, Yard, Garden & Outdoor Living, Patio & Garden Furniture",
+  "encodingFormat": "text/html",
+  "headline": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "http://www.ebay.com/favicon.ico"
+  },
   "image": {
     "url": "http://i.ebayimg.com/images/i/381228738769-0-1/s-l1000.jpg"
   },
-  "contentUrl": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769",
   "originalUrl": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769?&_trksid=p2056016.l4276",
-  "encodingFormat": "text/html",
-  "headline": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch",
-  "description": "US $349.99 New in Home & Garden, Yard, Garden & Outdoor Living, Patio & Garden Furniture",
   "provider": {
     "name": "eBay"
-  },
-  "author": {},
-  "icon": {
-    "url": "http://www.ebay.com/favicon.ico",
-    "type": "image/x-icon"
   },
   "tags": [
     "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch",
@@ -26,21 +43,5 @@
   "twitter": {
     "siteHandle": "eBay"
   },
-  "apps": {
-    "iphone": {
-      "id": "282614216",
-      "name": "eBay",
-      "url": "ebay://launch?itm=381228738769&_trksid=p12345&referrer=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-81568-27276-4%2F16%3F"
-    },
-    "ipad": {
-      "id": "364203371",
-      "name": "eBay",
-      "url": "padebay://launch?itm=381228738769&_trksid=p12345&referrer=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-81568-27276-4%2F16%3F"
-    },
-    "android": {
-      "id": "com.ebay.mobile",
-      "name": "eBay",
-      "url": "ebay://link/?nav=item.view&id=381228738769&referrer=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-81568-27276-4%2F16%3F&min_version=17"
-    }
-  }
+  "type": "html"
 }

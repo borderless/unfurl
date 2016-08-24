@@ -1,34 +1,15 @@
 {
-  "type": "html",
   "contentUrl": "https://github.com/moment/moment/pull/3323",
-  "originalUrl": "https://github.com/moment/moment/pull/3323",
   "encodingFormat": "text/html",
   "html": {
-    "title": "Make moment's typings for parsing stricter and also allow them to accept union types. by seansfkelley · Pull Request #3323 · moment/moment · GitHub",
+    "description": "moment - Parse, validate, manipulate, and display dates in javascript.",
     "icons": [
       {
-        "url": "https://assets-cdn.github.com/favicon.ico",
-        "type": "image/x-icon"
+        "type": "image/x-icon",
+        "url": "https://assets-cdn.github.com/favicon.ico"
       }
     ],
-    "description": "moment - Parse, validate, manipulate, and display dates in javascript."
-  },
-  "twitter": {
-    "image:src": "https://avatars0.githubusercontent.com/u/2101409?v=3&s=400",
-    "site": "@github",
-    "card": "summary",
-    "title": "Make moment's typings for parsing stricter and also allow them to accept union types. by seansfkelley · Pull Request #3323 · moment/moment",
-    "description": "This commit was adapted from 1ec036686e70ad0d837ed2443684d54bca13af01 in DefinitelyTyped. See DefinitelyTyped/DefinitelyTyped#8765 for context. The original body of the commit message follows. The..."
-  },
-  "rdfa": {
-    "": {
-      "http://ogp.me/ns#image": "https://avatars0.githubusercontent.com/u/2101409?v=3&s=400",
-      "http://ogp.me/ns#site_name": "GitHub",
-      "http://ogp.me/ns#type": "object",
-      "http://ogp.me/ns#title": "Make moment's typings for parsing stricter and also allow them to accept union types. by seansfkelley · Pull Request #3323 · moment/moment",
-      "http://ogp.me/ns#url": "https://github.com/moment/moment/pull/3323",
-      "http://ogp.me/ns#description": "This commit was adapted from 1ec036686e70ad0d837ed2443684d54bca13af01 in DefinitelyTyped. See DefinitelyTyped/DefinitelyTyped#8765 for context. The original body of the commit message follows. The..."
-    }
+    "title": "Make moment's typings for parsing stricter and also allow them to accept union types. by seansfkelley · Pull Request #3323 · moment/moment · GitHub"
   },
   "microdata": [
     {
@@ -36,5 +17,24 @@
       "author": "moment",
       "name": "moment"
     }
-  ]
+  ],
+  "originalUrl": "https://github.com/moment/moment/pull/3323",
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "This commit was adapted from 1ec036686e70ad0d837ed2443684d54bca13af01 in DefinitelyTyped. See DefinitelyTyped/DefinitelyTyped#8765 for context. The original body of the commit message follows. The...",
+      "http://ogp.me/ns#image": "https://avatars0.githubusercontent.com/u/2101409?v=3&s=400",
+      "http://ogp.me/ns#site_name": "GitHub",
+      "http://ogp.me/ns#title": "Make moment's typings for parsing stricter and also allow them to accept union types. by seansfkelley · Pull Request #3323 · moment/moment",
+      "http://ogp.me/ns#type": "object",
+      "http://ogp.me/ns#url": "https://github.com/moment/moment/pull/3323"
+    }
+  },
+  "twitter": {
+    "card": "summary",
+    "description": "This commit was adapted from 1ec036686e70ad0d837ed2443684d54bca13af01 in DefinitelyTyped. See DefinitelyTyped/DefinitelyTyped#8765 for context. The original body of the commit message follows. The...",
+    "image:src": "https://avatars0.githubusercontent.com/u/2101409?v=3&s=400",
+    "site": "@github",
+    "title": "Make moment's typings for parsing stricter and also allow them to accept union types. by seansfkelley · Pull Request #3323 · moment/moment"
+  },
+  "type": "html"
 }

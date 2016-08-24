@@ -1,48 +1,48 @@
 {
-  "type": "html",
-  "image": {
-    "url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/maxresdefault.jpg"
-  },
-  "video": [
-    {
-      "url": "https://www.youtube.com/embed/ZynZdGqxT7Q",
-      "secureUrl": "https://www.youtube.com/embed/ZynZdGqxT7Q",
-      "type": "text/html",
-      "width": 1280,
-      "height": 720
+  "apps": {
+    "android": {
+      "id": "com.google.android.youtube",
+      "name": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ZynZdGqxT7Q"
     },
-    {
-      "url": "http://www.youtube.com/v/ZynZdGqxT7Q?version=3&autohide=1",
-      "secureUrl": "https://www.youtube.com/v/ZynZdGqxT7Q?version=3&autohide=1",
-      "type": "application/x-shockwave-flash",
-      "width": 1280,
-      "height": 720
+    "ipad": {
+      "id": "544007664",
+      "name": "YouTube",
+      "url": "vnd.youtube://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks"
+    },
+    "iphone": {
+      "id": "544007664",
+      "name": "YouTube",
+      "url": "vnd.youtube://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks"
     }
-  ],
-  "player": {
-    "url": "https://www.youtube.com/embed/ZynZdGqxT7Q",
-    "width": 1280,
-    "height": 720
-  },
-  "entity": {
-    "type": "video",
-    "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/ZynZdGqxT7Q?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>"
-  },
-  "contentUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
-  "originalUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
-  "encodingFormat": "text/html",
-  "headline": "15. Typings with Blake Embrey",
-  "provider": {
-    "name": "YouTube",
-    "url": "https://www.youtube.com/"
   },
   "author": {
     "name": "readthesource",
     "url": "https://www.youtube.com/user/readthesource"
   },
+  "contentUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+  "encodingFormat": "text/html",
+  "entity": {
+    "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/ZynZdGqxT7Q?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",
+    "type": "video"
+  },
+  "headline": "15. Typings with Blake Embrey",
   "icon": {
-    "url": "https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png",
-    "sizes": "32x32"
+    "sizes": "32x32",
+    "url": "https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png"
+  },
+  "image": {
+    "url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/maxresdefault.jpg"
+  },
+  "originalUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+  "player": {
+    "height": 720,
+    "url": "https://www.youtube.com/embed/ZynZdGqxT7Q",
+    "width": 1280
+  },
+  "provider": {
+    "name": "YouTube",
+    "url": "https://www.youtube.com/"
   },
   "tags": [
     "#hangoutsonair",
@@ -52,21 +52,21 @@
   "twitter": {
     "siteHandle": "youtube"
   },
-  "apps": {
-    "iphone": {
-      "id": "544007664",
-      "name": "YouTube",
-      "url": "vnd.youtube://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks"
+  "type": "html",
+  "video": [
+    {
+      "height": 720,
+      "secureUrl": "https://www.youtube.com/embed/ZynZdGqxT7Q",
+      "type": "text/html",
+      "url": "https://www.youtube.com/embed/ZynZdGqxT7Q",
+      "width": 1280
     },
-    "ipad": {
-      "id": "544007664",
-      "name": "YouTube",
-      "url": "vnd.youtube://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks"
-    },
-    "android": {
-      "id": "com.google.android.youtube",
-      "name": "YouTube",
-      "url": "https://www.youtube.com/watch?v=ZynZdGqxT7Q"
+    {
+      "height": 720,
+      "secureUrl": "https://www.youtube.com/v/ZynZdGqxT7Q?version=3&autohide=1",
+      "type": "application/x-shockwave-flash",
+      "url": "http://www.youtube.com/v/ZynZdGqxT7Q?version=3&autohide=1",
+      "width": 1280
     }
-  }
+  ]
 }

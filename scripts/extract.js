@@ -5,6 +5,7 @@ var writeFile = thenify(require('fs').writeFile)
 var readFile = thenify(require('fs').readFile)
 var join = require('path').join
 var minimatch = require('minimatch')
+var stringify = require('json-stable-stringify')
 var match = process.argv[2] || '*'
 
 var extract = require('../').extract
@@ -25,7 +26,7 @@ readdir(FIXTURE_DIR)
         .then(contents => JSON.parse(contents))
         .then(result => extract(result))
         .then(snippet => {
-          return writeFile(join(dir, 'snippet.json'), JSON.stringify(snippet, null, 2))
+          return writeFile(join(dir, 'snippet.json'), stringify(snippet, { space: 2 }))
         })
         .then(() => {
           console.log(`Extracted "${path}"`)
