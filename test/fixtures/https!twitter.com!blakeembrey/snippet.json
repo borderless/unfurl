@@ -3,6 +3,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://twitter.com/blakeembrey",
   "contentSize": 44428,
   "contentUrl": "https://twitter.com/blakeembrey",
   "description": "The latest Tweets from Blake Embrey (@blakeembrey). World Citizen ∙ Open Source Contributor ∙ Full-stack Engineer. San Francisco, CA",
@@ -16,7 +17,6 @@
     "type": "image/x-icon",
     "url": "https://abs.twimg.com/favicons/favicon.ico"
   },
-  "originalUrl": "https://twitter.com/blakeembrey",
   "provider": {
     "name": "Twitter",
     "url": "https://twitter.com"

@@ -67,7 +67,6 @@
       "url": "https://www.npmjs.com/"
     }
   ],
-  "originalUrl": "https://www.npmjs.com/package/filenamify",
   "rdfa": {
     "": {
       "http://ogp.me/ns#description": "Convert a string to a valid safe filename",

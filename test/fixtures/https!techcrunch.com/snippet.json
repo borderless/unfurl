@@ -4,7 +4,8 @@
   "author": {
     "name": "Emily Calandrelli"
   },
-  "contentUrl": "http://social.techcrunch.com/",
+  "canonicalUrl": "http://social.techcrunch.com/",
+  "contentUrl": "https://techcrunch.com/",
   "description": "TechCrunch is a leading technology media property, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news.",
   "encodingFormat": "text/html",
   "headline": "TechCrunch",
@@ -15,7 +16,6 @@
   "image": {
     "url": "https://tctechcrunch2011.files.wordpress.com/2016/08/spacex-jcsat-landing.jpg?w=764&h=400&crop=1"
   },
-  "originalUrl": "https://techcrunch.com/",
   "provider": {
     "name": "TechCrunch"
   },

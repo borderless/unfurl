@@ -4,8 +4,9 @@
   "author": {
     "name": "Droplr"
   },
+  "canonicalUrl": "http://d.pr/i/q3z9",
   "contentSize": 22488,
-  "contentUrl": "http://d.pr/i/q3z9",
+  "contentUrl": "http://d.pr/a/q3z9",
   "description": "Shared with Droplr",
   "encodingFormat": "text/html",
   "entity": {
@@ -23,7 +24,6 @@
     "url": "http://d.pr/i/q3z9.png",
     "width": 1280
   },
-  "originalUrl": "http://d.pr/a/q3z9",
   "provider": {
     "name": "Droplr",
     "url": "http://droplr.com/"

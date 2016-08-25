@@ -26,7 +26,7 @@ readdir(FIXTURE_DIR)
       return readFile(join(dir, 'meta.json'), 'utf8')
         .then(contents => JSON.parse(contents))
         .then(meta => {
-          return scrapeStream(meta.originalUrl, meta.contentUrl, meta.headers, createReadStream(join(dir, 'body')))
+          return scrapeStream(meta.contentUrl, meta.headers, createReadStream(join(dir, 'body')))
         })
         .then(result => {
           return writeFile(join(dir, 'result.json'), stringify(result, { space: 2 }))

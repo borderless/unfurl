@@ -3,6 +3,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://www.reddit.com/",
   "contentSize": 28355,
   "contentUrl": "https://www.reddit.com/",
   "description": "reddit: the front page of the internet",
@@ -13,7 +14,6 @@
     "type": "image/png",
     "url": "https://www.redditstatic.com/icon.png"
   },
-  "originalUrl": "http://www.reddit.com/",
   "provider": {
   },
   "tags": [

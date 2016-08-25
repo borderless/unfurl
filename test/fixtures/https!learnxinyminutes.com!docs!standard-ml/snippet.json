@@ -3,6 +3,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://learnxinyminutes.com/docs/standard-ml/",
   "contentUrl": "https://learnxinyminutes.com/docs/standard-ml/",
   "encodingFormat": "text/html",
   "headline": "Learn Standard ML in Y Minutes",
@@ -10,7 +11,6 @@
     "type": "image/x-icon",
     "url": "https://learnxinyminutes.com/favicon.ico"
   },
-  "originalUrl": "https://learnxinyminutes.com/docs/standard-ml/",
   "provider": {
   },
   "type": "html"

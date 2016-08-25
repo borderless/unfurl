@@ -3,6 +3,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://www.coursera.org/learn/machine-learning",
   "contentUrl": "https://www.coursera.org/learn/machine-learning",
   "description": "Take free online classes from 140+ top universities and educational organizations. We partner with schools like Stanford, Yale, Princeton, and others to offer courses in dozens of topics, from computer science to teaching and beyond. Whether you are pursuing a passion or looking to advance your career, Coursera provides open, free education for everyone.",
   "encodingFormat": "text/html",
@@ -18,7 +19,6 @@
   "locale": {
     "primary": "en_US"
   },
-  "originalUrl": "https://www.coursera.org/learn/machine-learning",
   "provider": {
     "name": "Coursera"
   },

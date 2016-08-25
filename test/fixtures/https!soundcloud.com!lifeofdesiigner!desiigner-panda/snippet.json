@@ -18,6 +18,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
   "contentUrl": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
   "description": "It's the OFFICIAL track that you have all been waiting. This is PANDA!!",
   "encodingFormat": "text/html",
@@ -30,7 +31,6 @@
     "url": "https://i1.sndcdn.com/artworks-000139618215-ubm1i6-t500x500.jpg",
     "width": 500
   },
-  "originalUrl": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
   "player": {
     "height": 400,
     "url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F237603952&auto_play=false&show_artwork=true&visual=true&origin=twitter",

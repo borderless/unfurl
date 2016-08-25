@@ -3,13 +3,13 @@
   },
   "author": {
   },
+  "canonicalUrl": "http://knexjs.org/",
   "contentUrl": "http://knexjs.org/",
   "encodingFormat": "text/html",
   "headline": "Knex.js - A SQL Query Builder for Javascript",
   "icon": {
     "url": "http://knexjs.org/docs/images/favicon.ico"
   },
-  "originalUrl": "http://knexjs.org/",
   "provider": {
   },
   "type": "html"

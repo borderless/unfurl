@@ -3,8 +3,9 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://atom.io/packages/aesthetic-ui",
   "contentSize": 13857,
-  "contentUrl": "https://atom.io/packages/aesthetic-ui",
+  "contentUrl": "https://atom.io/themes/aesthetic-ui",
   "description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
   "encodingFormat": "text/html",
   "entity": {
@@ -17,7 +18,6 @@
   "image": {
     "url": "http://i.imgur.com/455A2im.png"
   },
-  "originalUrl": "https://atom.io/themes/aesthetic-ui",
   "provider": {
     "name": "Atom"
   },

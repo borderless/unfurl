@@ -18,6 +18,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://www.yelp.com/biz/boba-guys-san-francisco-4",
   "contentUrl": "https://www.yelp.com/biz/boba-guys-san-francisco-4",
   "description": "Specialties: High-quality bubble milk teas made with next-level quality ingredients like organic milk, homemade syrup, and homemade almond jelly. Home of the original Horchata Boba and Tea Frescas. Established in 2011. We started Boba Guys…",
   "encodingFormat": "text/html",
@@ -37,7 +38,6 @@
       "width": 576
     }
   ],
-  "originalUrl": "http://www.yelp.com/biz/boba-guys-san-francisco-4",
   "provider": {
     "name": "Yelp"
   },

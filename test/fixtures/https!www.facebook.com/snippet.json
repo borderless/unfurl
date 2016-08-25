@@ -3,6 +3,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://www.facebook.com/",
   "contentUrl": "https://www.facebook.com/",
   "description": "Create an account or log in to Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
   "encodingFormat": "text/html",
@@ -16,7 +17,6 @@
   "locale": {
     "primary": "en_GB"
   },
-  "originalUrl": "https://www.facebook.com/",
   "provider": {
     "name": "Facebook"
   },

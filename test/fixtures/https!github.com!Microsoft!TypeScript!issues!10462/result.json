@@ -18,7 +18,6 @@
       "name": "TypeScript"
     }
   ],
-  "originalUrl": "https://github.com/Microsoft/TypeScript/issues/10462",
   "rdfa": {
     "": {
       "http://ogp.me/ns#description": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type 'Object' is not as...",

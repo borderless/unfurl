@@ -11,7 +11,6 @@
     ],
     "title": "The Open Graph protocol"
   },
-  "originalUrl": "http://ogp.me/",
   "rdfa": {
     "": {
       "http://ogp.me/ns#description": "The Open Graph protocol enables any web page to become a rich object in a social graph.",

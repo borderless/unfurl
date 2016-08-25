@@ -3,6 +3,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
   "contentSize": 60209,
   "contentUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
   "encodingFormat": "text/html",
@@ -13,7 +14,6 @@
   "locale": {
     "primary": "en"
   },
-  "originalUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
   "provider": {
     "name": "Google Developers"
   },

@@ -3,6 +3,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly",
   "contentUrl": "https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly",
   "encodingFormat": "text/html",
   "headline": "Aaron Parecki",
@@ -10,7 +11,6 @@
     "type": "image/x-icon",
     "url": "https://aaronparecki.com/favicon.ico"
   },
-  "originalUrl": "https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly",
   "provider": {
   },
   "type": "html"

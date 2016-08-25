@@ -3,6 +3,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://github.com/Microsoft/TypeScript/issues/10462",
   "contentUrl": "https://github.com/Microsoft/TypeScript/issues/10462",
   "description": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type 'Object' is not as...",
   "encodingFormat": "text/html",
@@ -14,7 +15,6 @@
   "image": {
     "url": "https://avatars3.githubusercontent.com/u/972891?v=3&s=400"
   },
-  "originalUrl": "https://github.com/Microsoft/TypeScript/issues/10462",
   "provider": {
     "name": "GitHub"
   },

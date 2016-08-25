@@ -3,13 +3,13 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://news.ycombinator.com/",
   "contentUrl": "https://news.ycombinator.com/",
   "encodingFormat": "text/html",
   "headline": "Hacker News",
   "icon": {
     "url": "https://news.ycombinator.com/favicon.ico"
   },
-  "originalUrl": "http://hackerne.ws",
   "provider": {
   },
   "type": "html"

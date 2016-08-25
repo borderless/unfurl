@@ -3,6 +3,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://github.com/",
   "contentUrl": "https://github.com/",
   "description": "GitHub is where people build software. More than 15 million people use GitHub to discover, fork, and contribute to over 38 million projects.",
   "encodingFormat": "text/html",
@@ -34,7 +35,6 @@
       "width": 1200
     }
   ],
-  "originalUrl": "https://github.com/",
   "provider": {
     "name": "GitHub"
   },

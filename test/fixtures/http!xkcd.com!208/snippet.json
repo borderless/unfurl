@@ -3,6 +3,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "http://xkcd.com/208/",
   "contentSize": 2872,
   "contentUrl": "http://xkcd.com/208/",
   "encodingFormat": "text/html",
@@ -11,7 +12,6 @@
     "type": "image/x-icon",
     "url": "http://xkcd.com/s/919f27.ico"
   },
-  "originalUrl": "http://xkcd.com/208/",
   "provider": {
   },
   "type": "html"

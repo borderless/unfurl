@@ -13,7 +13,6 @@
     ],
     "title": "The Segment AWS Stack"
   },
-  "originalUrl": "https://segment.com/blog/the-segment-aws-stack/",
   "rdfa": {
     "": {
       "http://ogp.me/ns#description": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!",

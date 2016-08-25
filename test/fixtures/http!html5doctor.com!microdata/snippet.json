@@ -5,6 +5,7 @@
     "name": "Oli Studholme",
     "url": "http://html5doctor.com/author/olib/"
   },
+  "canonicalUrl": "http://html5doctor.com/microdata/",
   "contentUrl": "http://html5doctor.com/microdata/",
   "encodingFormat": "text/html",
   "entity": {
@@ -16,7 +17,6 @@
     "type": "text/plain",
     "url": "http://html5doctor.com/favicon.ico"
   },
-  "originalUrl": "http://html5doctor.com/microdata/",
   "provider": {
     "name": "HTML5 Doctor",
     "url": "http://html5doctor.com"

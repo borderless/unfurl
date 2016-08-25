@@ -3,6 +3,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://www.npmjs.com/package/filenamify",
   "contentUrl": "https://www.npmjs.com/package/filenamify",
   "description": "Convert a string to a valid safe filename",
   "encodingFormat": "text/html",
@@ -15,7 +16,6 @@
   "image": {
     "url": "https://www.npmjs.com/static/images/touch-icons/open-graph.png"
   },
-  "originalUrl": "https://www.npmjs.com/package/filenamify",
   "provider": {
     "name": "npm"
   },

@@ -18,7 +18,7 @@ import {
   ScrapeResultDublinCore,
   ScrapeResultRdfa,
   ScrapeResultAppLinks,
-  Options,
+  ScrapeOptions,
   HtmlIconMeta
 } from '../interfaces'
 
@@ -141,7 +141,7 @@ export function handle (
   headers: Headers,
   stream: Readable,
   abort: AbortFn,
-  options: Options
+  options: ScrapeOptions
 ): Promise<ScrapeResult> {
   const { contentUrl } = result
 

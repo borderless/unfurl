@@ -4,13 +4,24 @@ import { Readable } from 'stream'
 import { exec } from 'exiftool2'
 import { get, Path } from 'getvalue'
 import { resolve } from 'url'
-import { AbortFn, Options } from './interfaces'
+import { AbortFn, ScrapeOptions, ExtractOptions } from './interfaces'
+import scrapers from './scrapers'
+import snippets from './snippets'
 
 /**
- * Default options.
+ * Default scraping options.
  */
-export const DEFAULT_OPTIONS: Options = {
+export const DEFAULT_SCRAPE_OPTIONS: ScrapeOptions = {
   userAgent: 'Scrappy-LinkExpanding 1.0 (+https://github.com/blakeembrey/node-scrappy)',
+  scrapers,
+  extractExifData
+}
+
+/**
+ * Default extracting options.
+ */
+export const DEFAULT_EXTRACT_OPTIONS: ExtractOptions = {
+  snippets,
   extractExifData
 }
 

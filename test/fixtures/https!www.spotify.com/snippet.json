@@ -3,6 +3,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://www.spotify.com/au/",
   "contentSize": 21742,
   "contentUrl": "https://www.spotify.com/au/",
   "description": "Spotify is all the music you’ll ever need.",
@@ -14,7 +15,6 @@
   "image": {
     "url": "http://d2c87l0yth4zbw.global.ssl.fastly.net/i/_global/open-graph-default.png"
   },
-  "originalUrl": "https://www.spotify.com/",
   "provider": {
   },
   "tags": [

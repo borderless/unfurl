@@ -18,7 +18,6 @@
       "name": "moment"
     }
   ],
-  "originalUrl": "https://github.com/moment/moment/pull/3323",
   "rdfa": {
     "": {
       "http://ogp.me/ns#description": "This commit was adapted from 1ec036686e70ad0d837ed2443684d54bca13af01 in DefinitelyTyped. See DefinitelyTyped/DefinitelyTyped#8765 for context. The original body of the commit message follows. The...",

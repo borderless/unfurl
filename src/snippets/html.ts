@@ -23,10 +23,10 @@ import {
   HtmlSnippetVideo,
   HtmlSnippetTwitter,
   HtmlSnippetIcon,
-  Options
+  ExtractOptions
 } from '../interfaces'
 
-export default function (result: ScrapeResult, options: Options): HtmlSnippet {
+export default function (result: ScrapeResult, options: ExtractOptions): HtmlSnippet {
   return {
     type: 'html',
     image: getImage(result),
@@ -34,9 +34,9 @@ export default function (result: ScrapeResult, options: Options): HtmlSnippet {
     audio: getAudio(result),
     player: getPlayer(result),
     entity: getEntity(result),
-    contentUrl: getContentUrl(result),
+    contentUrl: result.contentUrl,
     contentSize: result.contentSize,
-    originalUrl: result.originalUrl,
+    canonicalUrl: getCanonicalUrl(result),
     encodingFormat: result.encodingFormat,
     determiner: getDeterminer(result),
     headline: getHeadline(result),
@@ -55,7 +55,7 @@ export default function (result: ScrapeResult, options: Options): HtmlSnippet {
 /**
  * Get the canonical URL from the metadata.
  */
-function getContentUrl (result: ScrapeResult) {
+function getCanonicalUrl (result: ScrapeResult) {
   return getUrl(result, ['twitter', 'url'], result.contentUrl) ||
     getUrl(result, ['rdfa', '', 'http://ogp.me/ns#url'], result.contentUrl) ||
     getUrl(result, ['html', 'canonical'], result.contentUrl) ||
@@ -556,7 +556,7 @@ function getPlayer (result: ScrapeResult): HtmlSnippetPlayer {
 /**
  * Retrieve the selected snippet icon.
  */
-function getIcon (result: ScrapeResult, options: Options): HtmlSnippetIcon {
+function getIcon (result: ScrapeResult, options: ExtractOptions): HtmlSnippetIcon {
   const preferredSize = Number(options.preferredIconSize) || 32
   let selectedSize: number
   let selectedIcon: HtmlSnippetIcon

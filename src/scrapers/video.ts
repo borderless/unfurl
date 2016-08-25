@@ -1,6 +1,6 @@
 import { Readable } from 'stream'
 import Promise = require('any-promise')
-import { Headers, AbortFn, ScrapeResult, Options } from '../interfaces'
+import { Headers, AbortFn, ScrapeResult, ScrapeOptions } from '../interfaces'
 
 export function supported ({ encodingFormat }: ScrapeResult) {
   return /^video\//.test(encodingFormat)
@@ -11,7 +11,7 @@ export function handle (
   headers: Headers,
   stream: Readable,
   abort: AbortFn,
-  options: Options
+  options: ScrapeOptions
 ): Promise<ScrapeResult> {
   result.type = 'video'
 

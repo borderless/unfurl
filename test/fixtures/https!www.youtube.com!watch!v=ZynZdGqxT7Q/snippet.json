@@ -20,6 +20,7 @@
     "name": "readthesource",
     "url": "https://www.youtube.com/user/readthesource"
   },
+  "canonicalUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
   "contentUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
   "encodingFormat": "text/html",
   "entity": {
@@ -34,7 +35,6 @@
   "image": {
     "url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/maxresdefault.jpg"
   },
-  "originalUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
   "player": {
     "height": 720,
     "url": "https://www.youtube.com/embed/ZynZdGqxT7Q",

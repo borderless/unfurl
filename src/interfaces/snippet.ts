@@ -95,7 +95,11 @@ export interface RichEntity {
 
 export type Entity = ArticleEntity | VideoEntity | ImageEntity | RichEntity
 
-export interface HtmlSnippet extends Base {
+export interface SnippetBase extends Base {
+  canonicalUrl?: string
+}
+
+export interface HtmlSnippet extends SnippetBase {
   type: 'html'
   entity: Entity
   image?: HtmlSnippetImage | HtmlSnippetImage[]
@@ -121,11 +125,11 @@ export interface HtmlSnippet extends Base {
   apps?: HtmlSnippetApps
 }
 
-export interface VideoSnippet extends Base {
+export interface VideoSnippet extends SnippetBase {
   type: 'video'
 }
 
-export interface ImageSnippet extends Base {
+export interface ImageSnippet extends SnippetBase {
   type: 'image'
   dateModified?: Date
   dateCreated?: Date
@@ -140,7 +144,7 @@ export interface ImageSnippet extends Base {
   megapixels?: number
 }
 
-export interface PdfSnippet extends Base {
+export interface PdfSnippet extends SnippetBase {
   type: 'pdf'
   author?: string
   title?: string
@@ -151,7 +155,7 @@ export interface PdfSnippet extends Base {
   dateModified?: Date
 }
 
-export interface LinkSnippet extends Base {
+export interface LinkSnippet extends SnippetBase {
   type: 'link'
 }
 

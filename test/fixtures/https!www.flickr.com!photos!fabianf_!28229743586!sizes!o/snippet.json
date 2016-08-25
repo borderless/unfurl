@@ -5,7 +5,8 @@
     "name": "Fabian F_",
     "url": "https://www.flickr.com/photos/fabianf_/"
   },
-  "contentUrl": "https://www.flickr.com/photos/fabianf_/28229743586/",
+  "canonicalUrl": "https://www.flickr.com/photos/fabianf_/28229743586/",
+  "contentUrl": "https://www.flickr.com/photos/fabianf_/28229743586/sizes/o/",
   "description": "Flickr is almost certainly the best online photo management and sharing application in the world. Show off your favorite photos and videos to the world, securely and privately show content to your friends and family, or blog the photos and videos you take with a cameraphone.",
   "encodingFormat": "text/html",
   "entity": {
@@ -19,7 +20,6 @@
     "sizes": "any",
     "url": "https://s.yimg.com/pw/images/icon_black_white.svg"
   },
-  "originalUrl": "https://www.flickr.com/photos/fabianf_/28229743586/sizes/o/",
   "provider": {
     "name": "Flickr",
     "url": "https://www.flickr.com/"

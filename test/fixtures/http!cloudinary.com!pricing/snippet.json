@@ -3,6 +3,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "http://cloudinary.com/pricing",
   "contentSize": 15164,
   "contentUrl": "http://cloudinary.com/pricing",
   "description": "Cloudinary",
@@ -13,7 +14,6 @@
     "type": "image/png",
     "url": "http://cloudinary.com/images/favicon-32x32.png"
   },
-  "originalUrl": "http://cloudinary.com/pricing",
   "provider": {
   },
   "type": "html"

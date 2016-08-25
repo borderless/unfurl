@@ -1,12 +1,11 @@
 import { parse } from 'exif-date'
-import { ScrapeResult, Options, ImageSnippet } from '../interfaces'
+import { ScrapeResult, ExtractOptions, ImageSnippet } from '../interfaces'
 
-export default function (result: ScrapeResult, options: Options): ImageSnippet {
+export default function (result: ScrapeResult, options: ExtractOptions): ImageSnippet {
   const {
     encodingFormat,
     contentSize,
     contentUrl,
-    originalUrl,
     exifData
   } = result
 
@@ -19,7 +18,6 @@ export default function (result: ScrapeResult, options: Options): ImageSnippet {
       parse(exifData.DigitalCreationDateTime),
     contentSize,
     contentUrl,
-    originalUrl,
     width: exifData.ImageWidth,
     height: exifData.ImageHeight,
     make: exifData.Make,

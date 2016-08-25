@@ -4,6 +4,7 @@
   "author": {
     "name": "Calvin French-Owen"
   },
+  "canonicalUrl": "https://segment.com/blog/the-segment-aws-stack/",
   "contentSize": 10188,
   "contentUrl": "https://segment.com/blog/the-segment-aws-stack/",
   "description": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!",
@@ -16,7 +17,6 @@
   "image": {
     "url": "https://segment.com/blog/the-segment-aws-stack/images/main.png"
   },
-  "originalUrl": "https://segment.com/blog/the-segment-aws-stack/",
   "provider": {
     "name": "Segment Blog"
   },

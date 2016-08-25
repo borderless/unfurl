@@ -4,15 +4,14 @@ import extend = require('xtend')
 import { get, jar, createTransport } from 'popsicle'
 import { Readable } from 'stream'
 import { parse } from 'content-type'
-import { Headers, AbortFn, ScrapeResult, Options } from './interfaces'
-import scrapers from './scrapers'
-import { DEFAULT_OPTIONS } from './utils'
+import { Headers, AbortFn, ScrapeResult, ScrapeOptions } from './interfaces'
+import { DEFAULT_SCRAPE_OPTIONS } from './utils'
 
 /**
  * Scrape metadata from a URL.
  */
-export function scrapeUrl (url: string, opts?: Options): Promise<ScrapeResult> {
-  const options = extend(DEFAULT_OPTIONS, opts)
+export function scrapeUrl (url: string, opts?: ScrapeOptions): Promise<ScrapeResult> {
+  const options = extend(DEFAULT_SCRAPE_OPTIONS, opts)
 
   const req = get({
     url,
@@ -36,7 +35,7 @@ export function scrapeUrl (url: string, opts?: Options): Promise<ScrapeResult> {
         req.abort()
       }
 
-      return scrapeStream(url, res.url, res.headers, res.body, abort, options)
+      return scrapeStream(res.url, res.headers, res.body, abort, options)
     })
 }
 
@@ -44,14 +43,13 @@ export function scrapeUrl (url: string, opts?: Options): Promise<ScrapeResult> {
  * Scrape metadata from a stream (with headers/URL).
  */
 export function scrapeStream (
-  originalUrl: string,
   contentUrl: string,
   headers: Headers,
   stream: Readable,
   abort?: AbortFn,
-  opts?: Options
+  opts?: ScrapeOptions
 ): Promise<ScrapeResult> {
-  const options = extend(DEFAULT_OPTIONS, opts)
+  const options = extend(DEFAULT_SCRAPE_OPTIONS, opts)
   const encodingFormat = headers['content-type'] ? parse(headers['content-type']).type : undefined
   const contentLength = Number(headers['content-length'])
   const contentSize = isFinite(contentLength) ? contentLength : undefined
@@ -60,12 +58,12 @@ export function scrapeStream (
   const result: ScrapeResult = {
     type: 'link',
     contentUrl,
-    originalUrl,
     encodingFormat,
     contentSize
   }
 
-  for (const rule of scrapers) {
+  // Traverse the available scrapers to extract information.
+  for (const rule of options.scrapers) {
     if (rule.supported(result, headers)) {
       return Promise.resolve(rule.handle(result, headers, stream, close, options))
     }

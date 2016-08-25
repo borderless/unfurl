@@ -18,6 +18,7 @@
   },
   "author": {
   },
+  "canonicalUrl": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
   "contentUrl": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
   "description": "This is the very first Episode of the NYTM show. Today with maker & founder of NomadList Pieter Levels. You can follow Pieter Levels here: https://twitter.com/levelsio or read about his work here: ht",
   "encodingFormat": "text/html",
@@ -30,7 +31,6 @@
     "url": "https://i1.sndcdn.com/artworks-000133297269-bwi3mi-t500x500.jpg",
     "width": 500
   },
-  "originalUrl": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
   "player": {
     "height": 400,
     "url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F229122811&auto_play=false&show_artwork=true&visual=true&origin=twitter",

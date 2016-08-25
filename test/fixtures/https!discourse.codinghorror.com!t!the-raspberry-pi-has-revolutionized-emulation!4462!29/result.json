@@ -254,7 +254,6 @@
       "@type": "http://schema.org/SiteNavigationElement"
     }
   ],
-  "originalUrl": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
   "rdfa": {
     "": {
       "http://ogp.me/ns#description": "Check out Pico-8 for new \"fantasy console\" goodness. Works great with Raspberry Pi Zero, 2, 3, etc.",

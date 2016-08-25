@@ -3,7 +3,8 @@
   },
   "author": {
   },
-  "contentUrl": "http://slant6.bandcamp.com/",
+  "canonicalUrl": "http://slant6.bandcamp.com/",
+  "contentUrl": "https://slant6.bandcamp.com/",
   "description": "12 track album",
   "encodingFormat": "text/html",
   "headline": "Inzombia, by Slant 6",
@@ -13,7 +14,6 @@
   "image": {
     "url": "https://f4.bcbits.com/img/a1638428842_5.jpg"
   },
-  "originalUrl": "https://slant6.bandcamp.com/",
   "player": {
     "height": 467,
     "url": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/linkcol=0084B4/notracklist=true/twittercard=true/",
