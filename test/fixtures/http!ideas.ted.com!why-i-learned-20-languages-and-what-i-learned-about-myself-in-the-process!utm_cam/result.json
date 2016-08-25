@@ -1,0 +1,60 @@
+{
+  "contentUrl": "http://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=ideas-blog&utm_term=education",
+  "encodingFormat": "text/html",
+  "html": {
+    "application-name": "ideas.ted.com",
+    "canonical": "http://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/",
+    "description": "Timothy Doner was hailed as a prodigy for linguistic proficiency. But, he says, you can be fluent and still struggle to understand language.",
+    "icons": [
+      {
+        "sizes": "16x16",
+        "type": "image/x-icon",
+        "url": "http://1.gravatar.com/blavatar/3d3e4c72b49d7eab0db4c9061886d370?s=32"
+      }
+    ],
+    "keywords": "timothy doner, language, culture, speech, fluency, communication",
+    "title": "Why I taught myself 20 languages — and what I learned about myself |"
+  },
+  "oembed": {
+    "author_name": "TED Guest Author",
+    "author_url": "https://ideas.ted.com/author/tedblogguest/",
+    "html": "Timothy Doner started teaching himself to speak in other languages when he was 13, and was quickly hailed as a prodigy for his linguistic proficiency. But as he soon realized, there's more to fluency than being able to barter over kebabs in Arabic or order from a menu in Hindi.",
+    "provider_name": "ideas.ted.com",
+    "provider_url": "http://ideas.ted.com",
+    "thumbnail_height": 264,
+    "thumbnail_url": "https://i2.wp.com/tedideas.files.wordpress.com/2015/04/timdoner_ted_polyglot.jpg?fit=440%2C330&ssl=1",
+    "thumbnail_width": 440,
+    "title": "Why I taught myself 20 languages &#8212; and what I learned about myself in the process",
+    "type": "link",
+    "version": "1.0"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "Timothy Doner started teaching himself to speak in other languages when he was 13, and was quickly hailed as a prodigy for his linguistic proficiency. But as he soon realized, there’s more to…",
+      "http://ogp.me/ns#image": "https://tedideas.files.wordpress.com/2015/04/timdoner_ted_polyglot.jpg?w=1200",
+      "http://ogp.me/ns#image:height": "720",
+      "http://ogp.me/ns#image:width": "1200",
+      "http://ogp.me/ns#locale": "en_US",
+      "http://ogp.me/ns#site_name": "ideas.ted.com",
+      "http://ogp.me/ns#title": "Why I taught myself 20 languages — and what I learned about myself in the process",
+      "http://ogp.me/ns#type": "article",
+      "http://ogp.me/ns#url": "http://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/",
+      "http://ogp.me/ns/article#modified_time": "2016-01-04T02:52:30+00:00",
+      "http://ogp.me/ns/article#published_time": "2015-04-09T14:00:45+00:00",
+      "http://ogp.me/ns/article#publisher": "https://www.facebook.com/WordPresscom"
+    }
+  },
+  "twitter": {
+    "app:id:googleplay": "com.ted.android",
+    "app:id:ipad": "376183339",
+    "app:id:iphone": "376183339",
+    "app:name:googleplay": "TED Talks",
+    "app:name:ipad": "TED Talks",
+    "app:name:iphone": "TED Talks",
+    "card": "summary_large_image",
+    "creator": "@TEDTalks",
+    "image:src": "https://tedideas.files.wordpress.com/2015/04/timdoner_ted_polyglot.jpg?w=640",
+    "site": "@tedtalks"
+  },
+  "type": "html"
+}
