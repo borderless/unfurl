@@ -1,0 +1,21 @@
+{
+  "contentUrl": "https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly",
+  "headers": {
+    "cache-control": "no-cache",
+    "connection": "close",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Thu, 25 Aug 2016 06:11:41 GMT",
+    "link": [
+      "<https://aaronparecki.com/auth>; rel=\"authorization_endpoint\"",
+      "<https://aaronparecki.com/auth/token>; rel=\"token_endpoint\"",
+      "<https://aaronparecki.com/micropub>; rel=\"micropub\"",
+      "<https://switchboard.p3k.io/>; rel=\"hub\"",
+      "<https://aaronparecki.com/2016/08/23/2/micropub-cr>; rel=\"self\""
+    ],
+    "server": "nginx/1.9.10",
+    "transfer-encoding": "chunked"
+  },
+  "originalUrl": "https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly",
+  "status": 200,
+  "statusText": "OK"
+}

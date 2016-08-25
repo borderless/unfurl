@@ -30,6 +30,7 @@ var FIXTURES = [
   'http://d.pr/a/q3z9',
   // Information pages.
   'https://en.wikipedia.org/wiki/TypeScript',
+  'https://en.wikipedia.org/wiki/Jean-Luc_Picard',
   // Places.
   'https://www.google.com/maps/place/Boba+Guys/@37.7600441,-122.4233333,17z/data=!4m5!3m4!1s0x808f7e3cfdb89265:0x8ae0820c41111f70!8m2!3d37.7600017!4d-122.4211124',
   'https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324',
@@ -121,6 +122,7 @@ var FIXTURES = [
   'https://segment.com/blog/the-segment-aws-stack/',
   'http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3',
   'https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/',
+  'https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly',
   // Courses.
   'https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks',
   'https://www.coursera.org/learn/machine-learning',

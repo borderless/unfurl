@@ -1,0 +1,36 @@
+{
+  "contentUrl": "https://en.wikipedia.org/wiki/Jean-Luc_Picard",
+  "headers": {
+    "accept-ranges": "bytes",
+    "age": "17770",
+    "backend-timing": "D=67446 t=1472081101881353",
+    "cache-control": "private, s-maxage=0, max-age=0, must-revalidate",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "content-language": "en",
+    "content-length": "25687",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Thu, 25 Aug 2016 04:21:11 GMT",
+    "last-modified": "Wed, 24 Aug 2016 23:22:01 GMT",
+    "p3p": "CP=\"This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info.\"",
+    "server": "mw1262.eqiad.wmnet",
+    "set-cookie": [
+      "WMF-Last-Access=25-Aug-2016;Path=/;HttpOnly;secure;Expires=Mon, 26 Sep 2016 00:00:00 GMT",
+      "GeoIP=AU:VIC:Melbourne:-37.81:144.95:v4; Path=/; secure; Domain=.wikipedia.org"
+    ],
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "vary": "Accept-Encoding,Cookie,Authorization",
+    "via": "1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "x-analytics": "ns=0;page_id=18621845;https=1;nocookies=1",
+    "x-cache": "cp1052 miss, cp2004 hit/1, cp4018 hit/2, cp4018 hit/3",
+    "x-cache-status": "hit",
+    "x-client-ip": "168.1.78.4",
+    "x-content-type-options": "nosniff",
+    "x-powered-by": "HHVM/3.12.7",
+    "x-ua-compatible": "IE=Edge",
+    "x-varnish": "1471893633, 3933383819 3931844366, 3673301660 3663483308, 2016136403 1961139053"
+  },
+  "originalUrl": "https://en.wikipedia.org/wiki/Jean-Luc_Picard",
+  "status": 200,
+  "statusText": "OK"
+}
