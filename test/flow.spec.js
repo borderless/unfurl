@@ -25,7 +25,6 @@ test('scraping', t => {
           .then(values => values.map(JSON.parse))
           .then(([meta, result, snippet]) => {
             return scrappy.scrapeStream(
-              meta.originalUrl,
               meta.contentUrl,
               meta.headers,
               createReadStream(join(dir, 'body'))
