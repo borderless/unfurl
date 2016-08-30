@@ -1,0 +1,65 @@
+{
+  "applinks": {
+    "android:app_name": "TED",
+    "android:package": "com.ted.android",
+    "android:url": "ted://playlists/321/talks_to_form_better_habits?source=facebook",
+    "ios:app_name": "TED",
+    "ios:app_store_id": "376183339",
+    "ios:url": "ted://x-callback-url/playlist?playlistID=321&source=facebook"
+  },
+  "contentSize": 21970,
+  "contentUrl": "https://www.ted.com/playlists/321/talks_to_form_better_habits?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=social-science",
+  "encodingFormat": "text/html",
+  "html": {
+    "apple-mobile-web-app-title": "TED.com",
+    "application-name": "TED.com",
+    "author": "TED",
+    "description": "There's never a bad time to start a good habit. Let these talks set the framework for a healthier, happier life.",
+    "icons": [
+      {
+        "sizes": "any",
+        "url": "https://pa.tedcdn.com/favicon.svg"
+      },
+      {
+        "url": "https://pa.tedcdn.com/favicon.ico"
+      }
+    ],
+    "keywords": "happiness, happiness, health, health, life, life, personal growth, personal growth, psychology, psychology",
+    "title": "Cancel search"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "There's never a bad time to start a good habit. Let these talks set the framework for a healthier, happier life.",
+      "http://ogp.me/ns#image": "https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050",
+      "http://ogp.me/ns#image:height": "550",
+      "http://ogp.me/ns#image:secure_url": "https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050",
+      "http://ogp.me/ns#image:width": "1050",
+      "http://ogp.me/ns#title": "8 TED Talks to form better habits",
+      "http://ogp.me/ns#type": "video.other",
+      "http://ogp.me/ns#url": "https://www.ted.com/playlists/321/talks_to_form_better_habits?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=social-science",
+      "http://ogp.me/ns/video#duration": "5861",
+      "http://ogp.me/ns/video#release_date": "1454517695",
+      "http://ogp.me/ns/video#tag": [
+        "happiness",
+        "health",
+        "life",
+        "personal growth",
+        "psychology"
+      ]
+    }
+  },
+  "twitter": {
+    "app:id:googleplay": "com.ted.android",
+    "app:id:ipad": "376183339",
+    "app:id:iphone": "376183339",
+    "app:name:googleplay": "TED",
+    "app:name:ipad": "TED",
+    "app:name:iphone": "TED",
+    "app:url:ipad": "ted://x-callback-url/playlist?playlistID=321&source=twitter",
+    "app:url:iphone": "ted://x-callback-url/playlist?playlistID=321&source=twitter",
+    "card": "summary_large_image",
+    "image": "https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050",
+    "site": "@tedtalks"
+  },
+  "type": "html"
+}

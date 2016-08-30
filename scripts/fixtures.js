@@ -69,6 +69,7 @@ var FIXTURES = [
   // Video pages.
   'https://www.youtube.com/watch?v=W9ZnpIGvZUo',
   'https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity',
+  'https://www.ted.com/playlists/321/talks_to_form_better_habits?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=social-science',
   'https://www.youtube.com/watch?v=ZynZdGqxT7Q',
   // XKCD entries.
   'http://xkcd.com/208/',

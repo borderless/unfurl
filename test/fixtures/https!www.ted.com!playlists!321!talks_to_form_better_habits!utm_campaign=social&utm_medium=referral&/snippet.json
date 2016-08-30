@@ -1,0 +1,60 @@
+{
+  "apps": {
+    "android": {
+      "id": "com.ted.android",
+      "name": "TED",
+      "url": "ted://playlists/321/talks_to_form_better_habits?source=facebook"
+    },
+    "ipad": {
+      "id": "376183339",
+      "name": "TED",
+      "url": "ted://x-callback-url/playlist?playlistID=321&source=twitter"
+    },
+    "iphone": {
+      "id": "376183339",
+      "name": "TED",
+      "url": "ted://x-callback-url/playlist?playlistID=321&source=twitter"
+    }
+  },
+  "author": {
+    "name": "TED"
+  },
+  "canonicalUrl": "https://www.ted.com/playlists/321/talks_to_form_better_habits?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=social-science",
+  "contentSize": 21970,
+  "contentUrl": "https://www.ted.com/playlists/321/talks_to_form_better_habits?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=social-science",
+  "description": "There's never a bad time to start a good habit. Let these talks set the framework for a healthier, happier life.",
+  "encodingFormat": "text/html",
+  "entity": {
+    "type": "image"
+  },
+  "headline": "8 TED Talks to form better habits",
+  "icon": {
+    "sizes": "any",
+    "url": "https://pa.tedcdn.com/favicon.svg"
+  },
+  "image": {
+    "height": 550,
+    "secureUrl": "https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050",
+    "url": "https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050",
+    "width": 1050
+  },
+  "provider": {
+    "name": "TED.com"
+  },
+  "tags": [
+    "happiness",
+    "happiness",
+    "health",
+    "health",
+    "life",
+    "life",
+    "personal growth",
+    "personal growth",
+    "psychology",
+    "psychology"
+  ],
+  "twitter": {
+    "siteHandle": "tedtalks"
+  },
+  "type": "html"
+}
