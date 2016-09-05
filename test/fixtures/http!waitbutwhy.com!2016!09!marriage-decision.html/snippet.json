@@ -1,0 +1,39 @@
+{
+  "apps": {
+  },
+  "author": {
+    "name": "Tim Urban",
+    "url": "http://waitbutwhy.com/author/timurban"
+  },
+  "canonicalUrl": "http://waitbutwhy.com/2016/09/marriage-decision.html",
+  "contentUrl": "http://waitbutwhy.com/2016/09/marriage-decision.html",
+  "description": "We're forced to make a black-and-white, binary decision in the most important moment of our lives. Let's take a deep breath and figure this out together.",
+  "encodingFormat": "text/html",
+  "entity": {
+    "dateModified": "2016-09-02T03:29:31.000Z",
+    "datePublished": "2016-09-01T16:32:06.000Z",
+    "publisher": "https://www.facebook.com/waitbutwhy",
+    "section": "Uncategorized",
+    "type": "article"
+  },
+  "headline": "The Marriage Decision: Everything Forever or Nothing Ever Again",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "http://28oa9i1t08037ue3m1l0i861.wpengine.netdna-cdn.com/wp-content/themes/waitbutwhy/images/favicon.ico"
+  },
+  "image": {
+    "url": "http://waitbutwhy.com/wp-content/uploads/2016/09/MarriageDecision_FB2.jpg"
+  },
+  "locale": {
+    "primary": "en_US"
+  },
+  "provider": {
+    "name": "Wait But Why",
+    "url": "http://waitbutwhy.com"
+  },
+  "twitter": {
+    "creatorHandle": "waitbutwhy",
+    "siteHandle": "waitbutwhy"
+  },
+  "type": "html"
+}

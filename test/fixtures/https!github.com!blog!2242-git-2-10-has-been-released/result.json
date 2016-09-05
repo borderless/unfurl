@@ -1,0 +1,36 @@
+{
+  "contentUrl": "https://github.com/blog/2242-git-2-10-has-been-released",
+  "encodingFormat": "text/html",
+  "html": {
+    "canonical": "https://github.com/blog/2242-git-2-10-has-been-released",
+    "icons": [
+      {
+        "type": "image/x-icon",
+        "url": "https://assets-cdn.github.com/favicon.ico"
+      }
+    ],
+    "title": "Git 2.10 has been released · GitHub"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "The open source Git project has just released Git 2.10.0, with features and bugfixes from over 70 contributors. Here's our look at some of the most interesting new features: Progress reporting for...",
+      "http://ogp.me/ns#image": "https://cloud.githubusercontent.com/assets/121322/16134794/284be2e6-33d4-11e6-9165-58068a872ec2.png",
+      "http://ogp.me/ns#site_name": "GitHub",
+      "http://ogp.me/ns#title": "Git 2.10 has been released",
+      "http://ogp.me/ns#type": "article",
+      "http://ogp.me/ns#url": "https://github.com/blog/2242-git-2-10-has-been-released",
+      "http://ogp.me/ns/article#author": "262588213843476",
+      "http://ogp.me/ns/article#published_time": "2016-09-03 02:23:46 UTC",
+      "http://ogp.me/ns/article#publisher": "262588213843476",
+      "http://ogp.me/ns/article#section": "blog/general"
+    }
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "description": "The open source Git project has just released Git 2.10.0, with features and bugfixes from over 70 contributors. Here's our look at some of the most interesting new features: Progress reporting for...",
+    "image:src": "https://cloud.githubusercontent.com/assets/121322/16134794/284be2e6-33d4-11e6-9165-58068a872ec2.png",
+    "site": "@github",
+    "title": "Git 2.10 has been released"
+  },
+  "type": "html"
+}
