@@ -1,0 +1,31 @@
+{
+  "contentSize": 27467,
+  "contentUrl": "http://edition.cnn.com/",
+  "encodingFormat": "text/html",
+  "html": {
+    "canonical": "http://www.cnn.com",
+    "description": "Find the latest breaking news and information on the top stories, weather, business, entertainment, politics, and more. For in-depth coverage, CNN provides special reports, video, audio, photo galleries, and interactive guides.",
+    "icons": [
+      {
+        "type": "image/x-icon",
+        "url": "http://edition.cnn.com/favicon.ico"
+      }
+    ],
+    "keywords": "breaking news, news online, U.S. news, world news, developing story, news video, CNN news, weather, business, money, politics, law, technology, entertainment, education, travel, health, special reports, autos, CNN TV",
+    "title": "CNN - Breaking News, U.S., World, Weather, Entertainment & Video News"
+  },
+  "rdfa": {
+    "": {
+      "http://ogp.me/ns#description": "Find the latest breaking news and information on the top stories, weather, business, entertainment, politics, and more. For in-depth coverage, CNN provides special reports, video, audio, photo galleries, and interactive guides.",
+      "http://ogp.me/ns#pubdate": "2014-02-24T14:45:54Z",
+      "http://ogp.me/ns#site_name": "CNN",
+      "http://ogp.me/ns#title": "CNN - Breaking News, U.S., World, Weather, Entertainment & Video News",
+      "http://ogp.me/ns#type": "website",
+      "http://ogp.me/ns#url": "http://www.cnn.com"
+    }
+  },
+  "twitter": {
+    "card": "summary_large_image"
+  },
+  "type": "html"
+}

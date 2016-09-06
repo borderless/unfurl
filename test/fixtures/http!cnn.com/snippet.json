@@ -1,0 +1,45 @@
+{
+  "apps": {
+  },
+  "author": {
+  },
+  "canonicalUrl": "http://www.cnn.com/",
+  "contentSize": 27467,
+  "contentUrl": "http://edition.cnn.com/",
+  "description": "Find the latest breaking news and information on the top stories, weather, business, entertainment, politics, and more. For in-depth coverage, CNN provides special reports, video, audio, photo galleries, and interactive guides.",
+  "encodingFormat": "text/html",
+  "entity": {
+    "type": "image"
+  },
+  "headline": "CNN - Breaking News, U.S., World, Weather, Entertainment & Video News",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "http://edition.cnn.com/favicon.ico"
+  },
+  "provider": {
+    "name": "CNN"
+  },
+  "tags": [
+    "breaking news",
+    "news online",
+    "U.S. news",
+    "world news",
+    "developing story",
+    "news video",
+    "CNN news",
+    "weather",
+    "business",
+    "money",
+    "politics",
+    "law",
+    "technology",
+    "entertainment",
+    "education",
+    "travel",
+    "health",
+    "special reports",
+    "autos",
+    "CNN TV"
+  ],
+  "type": "html"
+}
