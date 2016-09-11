@@ -11,14 +11,7 @@
   "icon": {
     "url": "https://static.xx.fbcdn.net/rsrc.php/yV/r/hzMapiNYYpW.ico"
   },
-  "image": {
-    "url": "https://www.facebook.com/images/fb_icon_325x325.png"
-  },
-  "locale": {
-    "primary": "en_GB"
-  },
   "provider": {
-    "name": "Facebook"
   },
   "type": "html"
 }

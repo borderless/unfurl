@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://droplr.com/droplr-addition-google-chrome-extension",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://droplr.com/droplr-addition-google-chrome-extension",
@@ -11,14 +15,14 @@
     ],
     "title": "Droplr addition: Google Chrome Extension! - Droplr"
   },
-  "jsonld": [
-    {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": "Droplr",
-      "url": "https://droplr.com/"
-    }
-  ],
+  "jsonld": {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Droplr",
+    "url": "https://droplr.com/"
+  },
+  "microdata": {
+  },
   "oembed": {
     "author_name": "Nicole Pressprich",
     "author_url": "https://droplr.com/author/nicole",
@@ -32,17 +36,52 @@
     "width": 600
   },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "Get screenshots, annotations and effortless sharing with Droplr for Chrome. Just take a screenshot or make an annotation and Droplr will copy a short link to clipboard that you can share your screenshot in chat, email, text, or anywhere. You can also manage all your images, create collections, view stats, customize your urls, and more …",
-      "http://ogp.me/ns#image": "http://droplr.com/wp-content/uploads/2016/05/Drop-with-Chrome-300x187.jpg",
-      "http://ogp.me/ns#locale": "en_US",
-      "http://ogp.me/ns#site_name": "Droplr",
-      "http://ogp.me/ns#title": "Droplr addition: Google Chrome Extension! - Droplr",
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#url": "https://droplr.com/droplr-addition-google-chrome-extension",
-      "http://ogp.me/ns/article#published_time": "2016-05-10T09:35:26+00:00",
-      "http://ogp.me/ns/article#section": "Uncategorized"
-    }
+    "@context": {
+      "article": "http://ogp.me/ns/article#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "article:published_time": {
+          "@language": "en-US",
+          "@value": "2016-05-10T09:35:26+00:00"
+        },
+        "article:section": {
+          "@language": "en-US",
+          "@value": "Uncategorized"
+        },
+        "og:description": {
+          "@language": "en-US",
+          "@value": "Get screenshots, annotations and effortless sharing with Droplr for Chrome. Just take a screenshot or make an annotation and Droplr will copy a short link to clipboard that you can share your screenshot in chat, email, text, or anywhere. You can also manage all your images, create collections, view stats, customize your urls, and more …"
+        },
+        "og:image": {
+          "@language": "en-US",
+          "@value": "http://droplr.com/wp-content/uploads/2016/05/Drop-with-Chrome-300x187.jpg"
+        },
+        "og:locale": {
+          "@language": "en-US",
+          "@value": "en_US"
+        },
+        "og:site_name": {
+          "@language": "en-US",
+          "@value": "Droplr"
+        },
+        "og:title": {
+          "@language": "en-US",
+          "@value": "Droplr addition: Google Chrome Extension! - Droplr"
+        },
+        "og:type": {
+          "@language": "en-US",
+          "@value": "article"
+        },
+        "og:url": {
+          "@language": "en-US",
+          "@value": "https://droplr.com/droplr-addition-google-chrome-extension"
+        }
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary_large_image",

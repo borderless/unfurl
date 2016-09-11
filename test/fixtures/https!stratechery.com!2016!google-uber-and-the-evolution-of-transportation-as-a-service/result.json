@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "application-name": "stratechery",
@@ -20,22 +24,65 @@
     ],
     "title": "Google, Uber, and the Evolution of Transportation-as-a-Service | Stratechery by Ben Thompson"
   },
+  "microdata": {
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "The competition between Uber and Google has broken out into the open: who has the advantage in the evolution of transportation-as-a-service, and who will likely win?",
-      "http://ogp.me/ns#image": [
-        "https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-287-1024x768.png",
-        "https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288-1024x768.png"
-      ],
-      "http://ogp.me/ns#locale": "en_US",
-      "http://ogp.me/ns#site_name": "Stratechery by Ben Thompson",
-      "http://ogp.me/ns#title": "Google, Uber, and the Evolution of Transportation-as-a-Service",
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#url": "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/",
-      "http://ogp.me/ns/article#author": "https://stratechery.com/author/stratechery/",
-      "http://ogp.me/ns/article#modified_time": "2016-09-01T18:43:52+00:00",
-      "http://ogp.me/ns/article#published_time": "2016-08-31T12:48:44+00:00"
-    }
+    "@context": {
+      "article": "http://ogp.me/ns/article#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "article:author": {
+          "@language": "en-US",
+          "@value": "https://stratechery.com/author/stratechery/"
+        },
+        "article:modified_time": {
+          "@language": "en-US",
+          "@value": "2016-09-01T18:43:52+00:00"
+        },
+        "article:published_time": {
+          "@language": "en-US",
+          "@value": "2016-08-31T12:48:44+00:00"
+        },
+        "og:description": {
+          "@language": "en-US",
+          "@value": "The competition between Uber and Google has broken out into the open: who has the advantage in the evolution of transportation-as-a-service, and who will likely win?"
+        },
+        "og:image": [
+          {
+            "@language": "en-US",
+            "@value": "https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-287-1024x768.png"
+          },
+          {
+            "@language": "en-US",
+            "@value": "https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288-1024x768.png"
+          }
+        ],
+        "og:locale": {
+          "@language": "en-US",
+          "@value": "en_US"
+        },
+        "og:site_name": {
+          "@language": "en-US",
+          "@value": "Stratechery by Ben Thompson"
+        },
+        "og:title": {
+          "@language": "en-US",
+          "@value": "Google, Uber, and the Evolution of Transportation-as-a-Service"
+        },
+        "og:type": {
+          "@language": "en-US",
+          "@value": "article"
+        },
+        "og:url": {
+          "@language": "en-US",
+          "@value": "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/"
+        }
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary",

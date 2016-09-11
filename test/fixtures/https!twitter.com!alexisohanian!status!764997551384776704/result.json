@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 33373,
   "contentUrl": "https://twitter.com/alexisohanian/status/764997551384776704",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://twitter.com/alexisohanian/status/764997551384776704",
@@ -11,6 +15,8 @@
       }
     ],
     "title": "Alexis Ohanian on Twitter: \"Don't squander this. 💻 https://t.co/eWmq6oxK73 https://t.co/JKKVsNBcS1\""
+  },
+  "microdata": {
   },
   "oembed": {
     "author_name": "Alexis Ohanian",
@@ -26,15 +32,50 @@
     "width": 550
   },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "“Don't squander this. 💻 https://t.co/eWmq6oxK73”",
-      "http://ogp.me/ns#image": "https://pbs.twimg.com/media/Cp3RFyXXYAANGoA.jpg:large",
-      "http://ogp.me/ns#image:user_generated": "true",
-      "http://ogp.me/ns#site_name": "Twitter",
-      "http://ogp.me/ns#title": "Alexis Ohanian on Twitter",
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#url": "https://twitter.com/alexisohanian/status/764997551384776704"
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "fb:app_id": {
+          "@language": "en",
+          "@value": "2231777543"
+        },
+        "og:description": {
+          "@language": "en",
+          "@value": "“Don't squander this. 💻 https://t.co/eWmq6oxK73”"
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "https://pbs.twimg.com/media/Cp3RFyXXYAANGoA.jpg:large"
+        },
+        "og:image:user_generated": {
+          "@language": "en",
+          "@value": "true"
+        },
+        "og:site_name": {
+          "@language": "en",
+          "@value": "Twitter"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "Alexis Ohanian on Twitter"
+        },
+        "og:type": {
+          "@language": "en",
+          "@value": "article"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://twitter.com/alexisohanian/status/764997551384776704"
+        }
+      }
+    ]
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

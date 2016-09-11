@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 15164,
   "contentUrl": "http://cloudinary.com/pricing",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "description": "Cloudinary",
@@ -32,6 +36,14 @@
       }
     ],
     "title": "Cloudinary - Pricing"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

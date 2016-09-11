@@ -15,6 +15,8 @@
     "windows_phone:url": "foursquare://venues/4b058763f964a520848f22e3"
   },
   "contentUrl": "https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "application-name": "Foursquare",
@@ -29,40 +31,88 @@
     "keywords": "Bondi Beach, Queen Elizabeth Dr., Bondi Beach, NSW, at the beach nth bondi,at the beach, nth bondi,beach,bondi,bondi beach,bondi beach swimrun,bondi beach the north bondi hill,bondi beach (north end),bondi beach (northern end), Beach, Surf Spot",
     "title": "Bondi Beach - Beach"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/LocalBusiness",
-      "address": {
-        "@type": "http://schema.org/PostalAddress",
-        "addressLocality": "Bondi Beach",
-        "addressRegion": "NSW",
-        "postalCode": "2026",
-        "streetAddress": "Queen Elizabeth Dr."
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "LocalBusiness",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bondi Beach",
+          "addressRegion": "NSW",
+          "postalCode": "2026",
+          "streetAddress": "Queen Elizabeth Dr."
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "bestRating": "10",
+          "ratingCount": "1,530",
+          "ratingValue": "9.5"
+        },
+        "name": "Bondi Beach",
+        "url": "http://www.waverley.nsw.gov.au/"
       },
-      "aggregateRating": {
-        "@type": "http://schema.org/AggregateRating",
-        "bestRating": "10",
-        "ratingCount": "1,530",
-        "ratingValue": "9.5"
-      },
-      "name": "Bondi Beach",
-      "url": "http://www.waverley.nsw.gov.au/"
-    }
-  ],
+      {
+        "@context": {
+          "@vocab": "http://data-vocabulary.org/"
+        },
+        "@type": "Breadcrumb",
+        "child": {
+          "@type": "Breadcrumb",
+          "title": "Beach",
+          "url": "https://foursquare.com/explore?q=Beach&near=Bondi%20Beach%2C%20NSW"
+        },
+        "title": "Outdoors & Recreation",
+        "url": "https://foursquare.com/explore?q=Outdoors%20%26%20Recreation&near=Bondi%20Beach%2C%20NSW"
+      }
+    ]
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "Beach in Bondi Beach, NSW",
-      "http://ogp.me/ns#image": [
-        "https://irs3.4sqi.net/img/general/600x600/7805186_09pfuJa8RMa6hL70rmwoRnBdetJ0GCqBco1q4f-6LB0.jpg",
-        "https://irs2.4sqi.net/img/general/600x600/622354_GTGEs5tnI1pPXG49F-_bxbLdbsHPt59jjC7LnXwDVts.jpg",
-        "https://irs2.4sqi.net/img/general/600x600/30551255_YpQDhDKplFZdX6ZJlceHgXru3KMbAAwEwp3J0xrtTQM.jpg",
-        "https://irs2.4sqi.net/img/general/600x600/1728536_SMwrObKRzMSH_rnF1200G1Qn7ckYyJzxwK_X4Obtrzg.jpg"
-      ],
-      "http://ogp.me/ns#site_name": "Foursquare",
-      "http://ogp.me/ns#title": "Bondi Beach",
-      "http://ogp.me/ns#type": "playfoursquare:venue",
-      "http://ogp.me/ns#url": "https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3"
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "al:android:app_name": "Foursquare",
+        "al:android:package": "com.joelapenna.foursquared",
+        "al:android:url": "foursquare://venues/4b058763f964a520848f22e3",
+        "al:ipad:app_name": "Foursquare",
+        "al:ipad:app_store_id": "306934924",
+        "al:ipad:url": "foursquare://venues/4b058763f964a520848f22e3",
+        "al:iphone:app_name": "Foursquare",
+        "al:iphone:app_store_id": "306934924",
+        "al:iphone:url": "foursquare://venues/4b058763f964a520848f22e3",
+        "al:web:should_fallback": "false",
+        "al:windows_phone:app_id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+        "al:windows_phone:app_name": "Foursquare",
+        "al:windows_phone:url": "foursquare://venues/4b058763f964a520848f22e3",
+        "fb:app_id": "86734274142",
+        "og:description": "Beach in Bondi Beach, NSW",
+        "og:image": [
+          "https://irs3.4sqi.net/img/general/600x600/7805186_09pfuJa8RMa6hL70rmwoRnBdetJ0GCqBco1q4f-6LB0.jpg",
+          "https://irs2.4sqi.net/img/general/600x600/622354_GTGEs5tnI1pPXG49F-_bxbLdbsHPt59jjC7LnXwDVts.jpg",
+          "https://irs2.4sqi.net/img/general/600x600/30551255_YpQDhDKplFZdX6ZJlceHgXru3KMbAAwEwp3J0xrtTQM.jpg",
+          "https://irs2.4sqi.net/img/general/600x600/1728536_SMwrObKRzMSH_rnF1200G1Qn7ckYyJzxwK_X4Obtrzg.jpg"
+        ],
+        "og:site_name": "Foursquare",
+        "og:title": "Bondi Beach",
+        "og:type": "playfoursquare:venue",
+        "og:url": "https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3",
+        "playfoursquare:appears_on_lists": [
+          "https://foursquare.com/elssydney/list/top-things-to-do-in-sydney",
+          "https://foursquare.com/michelinguides/list/beach-hotspots-worldwide",
+          "https://foursquare.com/user/6858367/list/essential-sydney"
+        ],
+        "playfoursquare:location:latitude": "-33.891169026813074",
+        "playfoursquare:location:longitude": "151.27525806427002",
+        "playfoursquare:number_of_tips": "256"
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "app:id:googleplay": "com.joelapenna.foursquared",

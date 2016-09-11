@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "http://waitbutwhy.com/2016/09/marriage-decision.html",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "http://waitbutwhy.com/2016/09/marriage-decision.html",
@@ -11,6 +15,8 @@
       }
     ],
     "title": "The Marriage Decision: Everything Forever or Nothing Ever Again"
+  },
+  "microdata": {
   },
   "oembed": {
     "author_name": "Tim Urban",
@@ -28,25 +34,93 @@
     "width": 600
   },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "We're forced to make a black-and-white, binary decision in the most important moment of our lives. Let's take a deep breath and figure this out together.",
-      "http://ogp.me/ns#image": "http://waitbutwhy.com/wp-content/uploads/2016/09/MarriageDecision_FB2.jpg",
-      "http://ogp.me/ns#locale": "en_US",
-      "http://ogp.me/ns#site_name": "Wait But Why",
-      "http://ogp.me/ns#title": "The Marriage Decision: Everything Forever or Nothing Ever Again",
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#updated_time": "2016-09-01T23:29:31-04:00",
-      "http://ogp.me/ns#url": "http://waitbutwhy.com/2016/09/marriage-decision.html",
-      "http://ogp.me/ns/article#modified_time": "2016-09-01T23:29:31-04:00",
-      "http://ogp.me/ns/article#published_time": "2016-09-01T12:32:06-04:00",
-      "http://ogp.me/ns/article#publisher": "https://www.facebook.com/waitbutwhy",
-      "http://ogp.me/ns/article#section": "Uncategorized",
-      "http://ogp.me/ns/article#tag": [
-        "featured post",
-        "psychology",
-        "selfhelp"
-      ]
-    }
+    "@context": {
+      "article": "http://ogp.me/ns/article#",
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "article:modified_time": {
+          "@language": "en-US",
+          "@value": "2016-09-01T23:29:31-04:00"
+        },
+        "article:published_time": {
+          "@language": "en-US",
+          "@value": "2016-09-01T12:32:06-04:00"
+        },
+        "article:publisher": {
+          "@language": "en-US",
+          "@value": "https://www.facebook.com/waitbutwhy"
+        },
+        "article:section": {
+          "@language": "en-US",
+          "@value": "Uncategorized"
+        },
+        "article:tag": [
+          {
+            "@language": "en-US",
+            "@value": "featured post"
+          },
+          {
+            "@language": "en-US",
+            "@value": "psychology"
+          },
+          {
+            "@language": "en-US",
+            "@value": "selfhelp"
+          }
+        ],
+        "fb:admins": [
+          {
+            "@language": "en-US",
+            "@value": "1329510068"
+          },
+          {
+            "@language": "en-US",
+            "@value": "4269"
+          }
+        ],
+        "fb:app_id": {
+          "@language": "en-US",
+          "@value": "689761124373742"
+        },
+        "og:description": {
+          "@language": "en-US",
+          "@value": "We're forced to make a black-and-white, binary decision in the most important moment of our lives. Let's take a deep breath and figure this out together."
+        },
+        "og:image": {
+          "@language": "en-US",
+          "@value": "http://waitbutwhy.com/wp-content/uploads/2016/09/MarriageDecision_FB2.jpg"
+        },
+        "og:locale": {
+          "@language": "en-US",
+          "@value": "en_US"
+        },
+        "og:site_name": {
+          "@language": "en-US",
+          "@value": "Wait But Why"
+        },
+        "og:title": {
+          "@language": "en-US",
+          "@value": "The Marriage Decision: Everything Forever or Nothing Ever Again"
+        },
+        "og:type": {
+          "@language": "en-US",
+          "@value": "article"
+        },
+        "og:updated_time": {
+          "@language": "en-US",
+          "@value": "2016-09-01T23:29:31-04:00"
+        },
+        "og:url": {
+          "@language": "en-US",
+          "@value": "http://waitbutwhy.com/2016/09/marriage-decision.html"
+        }
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary_large_image",

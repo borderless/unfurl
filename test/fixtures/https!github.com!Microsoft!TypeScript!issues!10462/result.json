@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://github.com/Microsoft/TypeScript/issues/10462",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
@@ -11,22 +15,116 @@
     ],
     "title": "Give a better error message for assigning from Object to anything else · Issue #10462 · Microsoft/TypeScript · GitHub"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/SoftwareSourceCode",
-      "author": "Microsoft",
-      "name": "TypeScript"
-    }
-  ],
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "SoftwareSourceCode",
+        "author": {
+          "@language": "en",
+          "@value": "Microsoft"
+        },
+        "name": {
+          "@language": "en",
+          "@value": "TypeScript"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "name": {
+              "@language": "en",
+              "@value": "Code"
+            },
+            "position": {
+              "@language": "en",
+              "@value": "1"
+            },
+            "url": {
+              "@language": "en",
+              "@value": "https://github.com/Microsoft/TypeScript"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "name": {
+              "@language": "en",
+              "@value": "Issues"
+            },
+            "position": {
+              "@language": "en",
+              "@value": "2"
+            },
+            "url": {
+              "@language": "en",
+              "@value": "https://github.com/Microsoft/TypeScript/issues"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "name": {
+              "@language": "en",
+              "@value": "Pull requests"
+            },
+            "position": {
+              "@language": "en",
+              "@value": "3"
+            },
+            "url": {
+              "@language": "en",
+              "@value": "https://github.com/Microsoft/TypeScript/pulls"
+            }
+          }
+        ]
+      }
+    ]
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type 'Object' is not as...",
-      "http://ogp.me/ns#image": "https://avatars3.githubusercontent.com/u/972891?v=3&s=400",
-      "http://ogp.me/ns#site_name": "GitHub",
-      "http://ogp.me/ns#title": "Give a better error message for assigning from Object to anything else · Issue #10462 · Microsoft/TypeScript",
-      "http://ogp.me/ns#type": "object",
-      "http://ogp.me/ns#url": "https://github.com/Microsoft/TypeScript/issues/10462"
-    }
+    "@context": {
+      "article": "http://ogp.me/ns/article#",
+      "fb": "http://ogp.me/ns/fb#",
+      "object": "http://ogp.me/ns/object#",
+      "og": "http://ogp.me/ns#",
+      "profile": "http://ogp.me/ns/profile#"
+    },
+    "@graph": [
+      {
+        "fb:app_id": {
+          "@language": "en",
+          "@value": "1401488693436528"
+        },
+        "og:description": {
+          "@language": "en",
+          "@value": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type 'Object' is not as..."
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "https://avatars3.githubusercontent.com/u/972891?v=3&s=400"
+        },
+        "og:site_name": {
+          "@language": "en",
+          "@value": "GitHub"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "Give a better error message for assigning from Object to anything else · Issue #10462 · Microsoft/TypeScript"
+        },
+        "og:type": {
+          "@language": "en",
+          "@value": "object"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://github.com/Microsoft/TypeScript/issues/10462"
+        }
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary",

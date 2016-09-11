@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 39060,
   "contentUrl": "https://twitter.com/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://twitter.com/i/hello",
@@ -12,6 +16,14 @@
       }
     ],
     "title": "Twitter"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

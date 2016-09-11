@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://github.com/blakeembrey",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "description": "blakeembrey has 217 repositories available. Follow their code on GitHub.",
@@ -11,39 +15,128 @@
     ],
     "title": "blakeembrey (Blake Embrey) · GitHub"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/Person",
-      "additionalName": "blakeembrey",
-      "email": "hello@blakeembrey.com",
-      "follows": [
-        "https://github.com/component",
-        "https://github.com/nko3",
-        "https://github.com/DefinitelyTyped",
-        "https://github.com/expressjs",
-        "https://github.com/TypeStrong",
-        "https://github.com/github-beta",
-        "https://github.com/jshttp",
-        "https://github.com/Thinkful-Ed",
-        "https://github.com/pillarjs",
-        "https://github.com/typings",
-        "https://github.com/types"
-      ],
-      "image": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
-      "name": "Blake Embrey",
-      "url": "http://blakeembrey.me/"
-    }
-  ],
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "Person",
+        "additionalName": {
+          "@language": "en",
+          "@value": "blakeembrey"
+        },
+        "email": {
+          "@language": "en",
+          "@value": "hello@blakeembrey.com"
+        },
+        "follows": [
+          {
+            "@language": "en",
+            "@value": "https://github.com/component"
+          },
+          {
+            "@language": "en",
+            "@value": "https://github.com/nko3"
+          },
+          {
+            "@language": "en",
+            "@value": "https://github.com/DefinitelyTyped"
+          },
+          {
+            "@language": "en",
+            "@value": "https://github.com/expressjs"
+          },
+          {
+            "@language": "en",
+            "@value": "https://github.com/TypeStrong"
+          },
+          {
+            "@language": "en",
+            "@value": "https://github.com/github-beta"
+          },
+          {
+            "@language": "en",
+            "@value": "https://github.com/jshttp"
+          },
+          {
+            "@language": "en",
+            "@value": "https://github.com/Thinkful-Ed"
+          },
+          {
+            "@language": "en",
+            "@value": "https://github.com/pillarjs"
+          },
+          {
+            "@language": "en",
+            "@value": "https://github.com/typings"
+          },
+          {
+            "@language": "en",
+            "@value": "https://github.com/types"
+          }
+        ],
+        "image": {
+          "@language": "en",
+          "@value": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400"
+        },
+        "name": {
+          "@language": "en",
+          "@value": "Blake Embrey"
+        },
+        "url": {
+          "@language": "en",
+          "@value": "http://blakeembrey.me/"
+        }
+      }
+    ]
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "blakeembrey has 217 repositories available. Follow their code on GitHub.",
-      "http://ogp.me/ns#image": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
-      "http://ogp.me/ns#site_name": "GitHub",
-      "http://ogp.me/ns#title": "blakeembrey (Blake Embrey)",
-      "http://ogp.me/ns#type": "profile",
-      "http://ogp.me/ns#url": "https://github.com/blakeembrey",
-      "http://ogp.me/ns/profile#username": "blakeembrey"
-    }
+    "@context": {
+      "article": "http://ogp.me/ns/article#",
+      "fb": "http://ogp.me/ns/fb#",
+      "object": "http://ogp.me/ns/object#",
+      "og": "http://ogp.me/ns#",
+      "profile": "http://ogp.me/ns/profile#"
+    },
+    "@graph": [
+      {
+        "fb:app_id": {
+          "@language": "en",
+          "@value": "1401488693436528"
+        },
+        "og:description": {
+          "@language": "en",
+          "@value": "blakeembrey has 217 repositories available. Follow their code on GitHub."
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400"
+        },
+        "og:site_name": {
+          "@language": "en",
+          "@value": "GitHub"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "blakeembrey (Blake Embrey)"
+        },
+        "og:type": {
+          "@language": "en",
+          "@value": "profile"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://github.com/blakeembrey"
+        },
+        "profile:username": {
+          "@language": "en",
+          "@value": "blakeembrey"
+        }
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary",

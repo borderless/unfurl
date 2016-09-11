@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 41089,
   "contentUrl": "http://www.newegg.com/Product/Product.aspx?Item=28-840-014",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "http://www.newegg.com/Product/Product.aspx?Item=N82E16828840014",
@@ -15,19 +19,39 @@
     "language": "english",
     "title": "XYZprinting da Vinci 2.0 Duo FFF (Fused Filament Fabrication) ABS/PLA Dual Nozzle 3D Printer-Newegg.com"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/Product",
-      "aggregateRating": {
-        "@type": "http://schema.org/AggregateRating"
-      },
-      "name": "XYZprinting da Vinci 2.0 Duo FFF (Fused Filament Fabrication) ABS/PLA Dual Nozzle 3D Printer",
-      "offers": {
-        "@type": "http://schema.org/Offer",
-        "price": "449.99",
-        "priceCurrency": "USD"
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "Product",
+        "aggregateRating": {
+          "@type": "AggregateRating"
+        },
+        "name": {
+          "@language": "en",
+          "@value": "XYZprinting da Vinci 2.0 Duo FFF (Fused Filament Fabrication) ABS/PLA Dual Nozzle 3D Printer"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": {
+            "@language": "en",
+            "@value": "449.99"
+          },
+          "priceCurrency": {
+            "@language": "en",
+            "@value": "USD"
+          }
+        }
       }
-    }
-  ],
+    ]
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
+  },
   "type": "html"
 }

@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 66482,
   "contentUrl": "https://schema.org/WebSite",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "description": "Schema.org Type: WebSite - A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
@@ -12,765 +16,1781 @@
     ],
     "title": "WebSite - schema.org"
   },
+  "microdata": {
+  },
   "rdfa": {
-    "http://schema.org/WebSite": {
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Class",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "WebSite",
-      "http://www.w3.org/2000/01/rdf-schema#subClassOf": "http://schema.org/CreativeWork"
-    },
-    "http://schema.org/about": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CommunicateAction",
-        "http://schema.org/CreativeWork"
-      ],
-      "http://schema.org/rangeIncludes": "http://schema.org/Thing",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The subject matter of the content.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "about"
-    },
-    "http://schema.org/accessibilityAPI": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates that the resource is compatible with the referenced accessibility API (WebSchemas wiki lists possible values).",
-      "http://www.w3.org/2000/01/rdf-schema#label": "accessibilityAPI"
-    },
-    "http://schema.org/accessibilityControl": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Identifies input methods that are sufficient to fully control the described resource (WebSchemas wiki lists possible values).",
-      "http://www.w3.org/2000/01/rdf-schema#label": "accessibilityControl"
-    },
-    "http://schema.org/accessibilityFeature": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility (WebSchemas wiki lists possible values).",
-      "http://www.w3.org/2000/01/rdf-schema#label": "accessibilityFeature"
-    },
-    "http://schema.org/accessibilityHazard": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3 (WebSchemas wiki lists possible values).",
-      "http://www.w3.org/2000/01/rdf-schema#label": "accessibilityHazard"
-    },
-    "http://schema.org/accountablePerson": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Person",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Specifies the Person that is legally accountable for the CreativeWork.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "accountablePerson"
-    },
-    "http://schema.org/additionalType": {
-      "http://schema.org/domainIncludes": "http://schema.org/Thing",
-      "http://schema.org/rangeIncludes": "http://schema.org/URL",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "additionalType"
-    },
-    "http://schema.org/aggregateRating": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/Brand",
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Event",
-        "http://schema.org/Offer",
-        "http://schema.org/Organization",
-        "http://schema.org/Place",
-        "http://schema.org/Product",
-        "http://schema.org/Service"
-      ],
-      "http://schema.org/rangeIncludes": "http://schema.org/AggregateRating",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The overall rating, based on a collection of reviews or ratings, of the item.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "aggregateRating"
-    },
-    "http://schema.org/alternateName": {
-      "http://schema.org/domainIncludes": "http://schema.org/Thing",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "An alias for the item.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "alternateName"
-    },
-    "http://schema.org/alternativeHeadline": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A secondary title of the CreativeWork.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "alternativeHeadline"
-    },
-    "http://schema.org/associatedMedia": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/MediaObject",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A media object that encodes this CreativeWork. This property is a synonym for encoding.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "associatedMedia"
-    },
-    "http://schema.org/audience": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/LodgingBusiness",
-        "http://schema.org/PlayAction",
-        "http://schema.org/Product",
-        "http://schema.org/Service"
-      ],
-      "http://schema.org/rangeIncludes": "http://schema.org/Audience",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "An intended audience, i.e. a group for whom something was created. Supersedes serviceAudience.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "audience"
-    },
-    "http://schema.org/audio": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/AudioObject",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "An embedded audio object.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "audio"
-    },
-    "http://schema.org/author": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Rating"
-      ],
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Organization",
-        "http://schema.org/Person"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The author of this content or rating. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "author"
-    },
-    "http://schema.org/award": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Organization",
-        "http://schema.org/Person",
-        "http://schema.org/Product",
-        "http://schema.org/Service"
-      ],
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "An award won by or for this item. Supersedes awards.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "award"
-    },
-    "http://schema.org/character": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Person",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Fictional person connected with a creative work.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "character"
-    },
-    "http://schema.org/citation": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Text"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "citation"
-    },
-    "http://schema.org/comment": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/RsvpAction"
-      ],
-      "http://schema.org/rangeIncludes": "http://schema.org/Comment",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Comments, typically from users.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "comment"
-    },
-    "http://schema.org/commentCount": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Integer",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The number of comments this CreativeWork (e.g. Article, Question or Answer) has received. This is most applicable to works published in Web sites with commenting system; additional comments may exist elsewhere.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "commentCount"
-    },
-    "http://schema.org/contentLocation": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Place",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The location depicted or described in the content. For example, the location in a photograph or painting.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "contentLocation"
-    },
-    "http://schema.org/contentRating": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Official rating of a piece of content—for example,'MPAA PG-13'.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "contentRating"
-    },
-    "http://schema.org/contributor": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Event"
-      ],
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Organization",
-        "http://schema.org/Person"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A secondary contributor to the CreativeWork or Event.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "contributor"
-    },
-    "http://schema.org/copyrightHolder": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Organization",
-        "http://schema.org/Person"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The party holding the legal copyright to the CreativeWork.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "copyrightHolder"
-    },
-    "http://schema.org/copyrightYear": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Number",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The year during which the claimed copyright for the CreativeWork was first asserted.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "copyrightYear"
-    },
-    "http://schema.org/creator": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/UserComments"
-      ],
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Organization",
-        "http://schema.org/Person"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "creator"
-    },
-    "http://schema.org/dateCreated": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/DataFeedItem"
-      ],
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Date",
-        "http://schema.org/DateTime"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The date on which the CreativeWork was created or the item was added to a DataFeed.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "dateCreated"
-    },
-    "http://schema.org/dateModified": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/DataFeedItem"
-      ],
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Date",
-        "http://schema.org/DateTime"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "dateModified"
-    },
-    "http://schema.org/datePublished": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Date",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Date of first broadcast/publication.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "datePublished"
-    },
-    "http://schema.org/description": {
-      "http://schema.org/domainIncludes": "http://schema.org/Thing",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A description of the item.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "description"
-    },
-    "http://schema.org/disambiguatingDescription": {
-      "http://schema.org/domainIncludes": "http://schema.org/Thing",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "disambiguatingDescription"
-    },
-    "http://schema.org/discussionUrl": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/URL",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A link to the page containing the comments of the CreativeWork.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "discussionUrl"
-    },
-    "http://schema.org/editor": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Person",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Specifies the Person who edited the CreativeWork.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "editor"
-    },
-    "http://schema.org/educationalAlignment": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/AlignmentObject",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "An alignment to an established educational framework.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "educationalAlignment"
-    },
-    "http://schema.org/educationalUse": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The purpose of a work in the context of education; for example, 'assignment', 'group work'.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "educationalUse"
-    },
-    "http://schema.org/encoding": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/MediaObject",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A media object that encodes this CreativeWork. This property is a synonym for associatedMedia. Supersedes encodings.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "encoding"
-    },
-    "http://schema.org/exampleOfWork": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A creative work that this work is an example/instance/realization/derivation of. Inverse property: workExample.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "exampleOfWork"
-    },
-    "http://schema.org/fileFormat": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Text",
-        "http://schema.org/URL"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Media type, typically MIME format (see IANA site) of the content e.g. application/zip of a SoftwareApplication binary. In cases where a CreativeWork has several media type representations, 'encoding' can be used to indicate each MediaObject alongside particular fileFormat information. Unregistered or niche file formats can be indicated instead via the most appropriate URL, e.g. defining Web page or a Wikipedia entry.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "fileFormat"
-    },
-    "http://schema.org/funder": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Event",
-        "http://schema.org/Organization",
-        "http://schema.org/Person"
-      ],
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Organization",
-        "http://schema.org/Person"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A person or organization that supports (sponsors) something through some kind of financial contribution.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "funder"
-    },
-    "http://schema.org/genre": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/MusicGroup"
-      ],
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Text",
-        "http://schema.org/URL"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Genre of the creative work or group.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "genre"
-    },
-    "http://schema.org/hasPart": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates a CreativeWork that is (in some sense) a part of this CreativeWork. Inverse property: isPartOf.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "hasPart"
-    },
-    "http://schema.org/headline": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Headline of the article.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "headline"
-    },
-    "http://schema.org/image": {
-      "http://schema.org/domainIncludes": "http://schema.org/Thing",
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/ImageObject",
-        "http://schema.org/URL"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "An image of the item. This can be a URL or a fully described ImageObject.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "image"
-    },
-    "http://schema.org/inLanguage": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CommunicateAction",
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Event",
-        "http://schema.org/WriteAction"
-      ],
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Language",
-        "http://schema.org/Text"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The language of the content or performance or used in an action. Please use one of the language codes from the IETF BCP 47 standard. See also availableLanguage. Supersedes language.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "inLanguage"
-    },
-    "http://schema.org/interactionStatistic": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/InteractionCounter",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used. Supersedes interactionCount.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "interactionStatistic"
-    },
-    "http://schema.org/interactivityType": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "interactivityType"
-    },
-    "http://schema.org/isAccessibleForFree": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Event",
-        "http://schema.org/PublicationEvent"
-      ],
-      "http://schema.org/rangeIncludes": "http://schema.org/Boolean",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A flag to signal that the publication is accessible for free. Supersedes free.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "isAccessibleForFree"
-    },
-    "http://schema.org/isBasedOn": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Product",
-        "http://schema.org/URL"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html. Supersedes isBasedOnUrl.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "isBasedOn"
-    },
-    "http://schema.org/isFamilyFriendly": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Boolean",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates whether this content is family friendly.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "isFamilyFriendly"
-    },
-    "http://schema.org/isPartOf": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates a CreativeWork that this CreativeWork is (in some sense) part of. Inverse property: hasPart.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "isPartOf"
-    },
-    "http://schema.org/keywords": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "keywords"
-    },
-    "http://schema.org/learningResourceType": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "learningResourceType"
-    },
-    "http://schema.org/license": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/URL"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A license document that applies to this content, typically indicated by URL.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "license"
-    },
-    "http://schema.org/locationCreated": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Place",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The location where the CreativeWork was created, which may not be the same as the location depicted in the CreativeWork.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "locationCreated"
-    },
-    "http://schema.org/mainEntity": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Thing",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates the primary entity described in some page or other CreativeWork. Inverse property: mainEntityOfPage.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "mainEntity"
-    },
-    "http://schema.org/mainEntityOfPage": {
-      "http://schema.org/domainIncludes": "http://schema.org/Thing",
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/URL"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See background notes for details. Inverse property: mainEntity.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "mainEntityOfPage"
-    },
-    "http://schema.org/mentions": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Thing",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates that the CreativeWork contains a reference to, but is not necessarily about a concept.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "mentions"
-    },
-    "http://schema.org/name": {
-      "http://schema.org/domainIncludes": "http://schema.org/Thing",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The name of the item.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "name"
-    },
-    "http://schema.org/offers": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/AggregateOffer",
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Event",
-        "http://schema.org/Product",
-        "http://schema.org/Service"
-      ],
-      "http://schema.org/rangeIncludes": "http://schema.org/Offer",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "An offer to provide this item—for example, an offer to sell a product, rent the DVD of a movie, perform a service, or give away tickets to an event.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "offers"
-    },
-    "http://schema.org/position": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/ListItem"
-      ],
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Integer",
-        "http://schema.org/Text"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The position of an item in a series or sequence of items.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "position"
-    },
-    "http://schema.org/potentialAction": {
-      "http://schema.org/domainIncludes": "http://schema.org/Thing",
-      "http://schema.org/rangeIncludes": "http://schema.org/Action",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "potentialAction"
-    },
-    "http://schema.org/producer": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Organization",
-        "http://schema.org/Person"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.).",
-      "http://www.w3.org/2000/01/rdf-schema#label": "producer"
-    },
-    "http://schema.org/provider": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/BusTrip",
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Flight",
-        "http://schema.org/Invoice",
-        "http://schema.org/ParcelDelivery",
-        "http://schema.org/Reservation",
-        "http://schema.org/Service",
-        "http://schema.org/TrainTrip"
-      ],
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Organization",
-        "http://schema.org/Person"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller. Supersedes carrier.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "provider"
-    },
-    "http://schema.org/publication": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/PublicationEvent",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A publication event associated with the item.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "publication"
-    },
-    "http://schema.org/publisher": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Organization",
-        "http://schema.org/Person"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The publisher of the creative work.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "publisher"
-    },
-    "http://schema.org/publishingPrinciples": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/URL",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Link to page describing the editorial principles of the organization primarily responsible for the creation of the CreativeWork.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "publishingPrinciples"
-    },
-    "http://schema.org/recordedAt": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Event",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The Event where the CreativeWork was recorded. The CreativeWork may capture all or part of the event. Inverse property: recordedIn.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "recordedAt"
-    },
-    "http://schema.org/releasedEvent": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/PublicationEvent",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The place and time the release was issued, expressed as a PublicationEvent.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "releasedEvent"
-    },
-    "http://schema.org/review": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/Brand",
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Event",
-        "http://schema.org/Offer",
-        "http://schema.org/Organization",
-        "http://schema.org/Place",
-        "http://schema.org/Product",
-        "http://schema.org/Service"
-      ],
-      "http://schema.org/rangeIncludes": "http://schema.org/Review",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A review of the item. Supersedes reviews.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "review"
-    },
-    "http://schema.org/sameAs": {
-      "http://schema.org/domainIncludes": "http://schema.org/Thing",
-      "http://schema.org/rangeIncludes": "http://schema.org/URL",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "sameAs"
-    },
-    "http://schema.org/schemaVersion": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Text",
-        "http://schema.org/URL"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicates (by URL or string) a particular version of a schema used in some CreativeWork. For example, a document could declare a schemaVersion using an URL such as http://schema.org/version/2.0/ if precise indication of schema version was required by some application.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "schemaVersion"
-    },
-    "http://schema.org/sourceOrganization": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Organization",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The Organization on whose behalf the creator was working.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "sourceOrganization"
-    },
-    "http://schema.org/spatialCoverage": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Place",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The spatialCoverage of a CreativeWork indicates the place(s) which are the focus of the content. It is a subproperty of contentLocation intended primarily for more technical and detailed materials. For example with a Dataset, it indicates areas that the dataset describes: a dataset of New York weather would have spatialCoverage which was the place: the state of New York. Supersedes spatial.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "spatialCoverage"
-    },
-    "http://schema.org/sponsor": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Event",
-        "http://schema.org/Organization",
-        "http://schema.org/Person"
-      ],
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Organization",
-        "http://schema.org/Person"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A person or organization that supports a thing through a pledge, promise, or financial contribution. e.g. a sponsor of a Medical Study or a corporate sponsor of an event.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "sponsor"
-    },
-    "http://schema.org/temporalCoverage": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/DateTime",
-        "http://schema.org/Text",
-        "http://schema.org/URL"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The temporalCoverage of a CreativeWork indicates the period that the content applies to, i.e. that it describes, either as a DateTime or as a textual string indicating a time period in ISO 8601 time interval format. In the case of a Dataset it will typically indicate the relevant time period in a precise notation (e.g. for a 2011 census dataset, the year 2011 would be written \"2011/2012\"). Other forms of content e.g. ScholarlyArticle, Book, TVSeries or TVEpisode may indicate their temporalCoverage in broader terms - textually or via well-known URL. Written works such as books may sometimes have precise temporal coverage too, e.g. a work set in 1939 - 1945 can be indicated in ISO 8601 interval format format via \"1939/1945\". Supersedes datasetTimeInterval, temporal.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "temporalCoverage"
-    },
-    "http://schema.org/text": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The textual content of this CreativeWork.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "text"
-    },
-    "http://schema.org/thumbnailUrl": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/URL",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "A thumbnail image relevant to the Thing.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "thumbnailUrl"
-    },
-    "http://schema.org/timeRequired": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/Duration",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. 'P30M', 'P1H25M'.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "timeRequired"
-    },
-    "http://schema.org/translator": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Event"
-      ],
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Organization",
-        "http://schema.org/Person"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Organization or person who adapts a creative work to different languages, regional differences and technical requirements of a target market, or that translates during some event.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "translator"
-    },
-    "http://schema.org/typicalAgeRange": {
-      "http://schema.org/domainIncludes": [
-        "http://schema.org/CreativeWork",
-        "http://schema.org/Event"
-      ],
-      "http://schema.org/rangeIncludes": "http://schema.org/Text",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The typical expected age range, e.g. '7-9', '11-'.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "typicalAgeRange"
-    },
-    "http://schema.org/url": {
-      "http://schema.org/domainIncludes": "http://schema.org/Thing",
-      "http://schema.org/rangeIncludes": "http://schema.org/URL",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "URL of the item.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "url"
-    },
-    "http://schema.org/version": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": [
-        "http://schema.org/Number",
-        "http://schema.org/Text"
-      ],
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "The version of the CreativeWork embodied by a specified resource.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "version"
-    },
-    "http://schema.org/video": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/VideoObject",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "An embedded video object.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "video"
-    },
-    "http://schema.org/workExample": {
-      "http://schema.org/domainIncludes": "http://schema.org/CreativeWork",
-      "http://schema.org/rangeIncludes": "http://schema.org/CreativeWork",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "http://www.w3.org/2000/01/rdf-schema#Property",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Example/instance/realization/derivation of the concept of this creative work. eg. The paperback edition, first edition, or eBook. Inverse property: exampleOfWork.",
-      "http://www.w3.org/2000/01/rdf-schema#label": "workExample"
-    }
+    "@context": {
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": [
+          "rdfs:Class",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property",
+          "rdfs:Property"
+        ],
+        "domainIncludes": [
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CommunicateAction"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Brand"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Event"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Offer"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Place"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Product"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Service"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/LodgingBusiness"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/PlayAction"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Product"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Service"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Rating"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Product"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Service"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/RsvpAction"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Event"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/UserComments"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/DataFeedItem"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/DataFeedItem"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Event"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/MusicGroup"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CommunicateAction"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Event"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/WriteAction"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Event"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/PublicationEvent"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/AggregateOffer"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Event"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Product"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Service"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/ListItem"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/BusTrip"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Flight"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Invoice"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/ParcelDelivery"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Reservation"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Service"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/TrainTrip"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Brand"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Event"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Offer"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Place"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Product"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Service"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Event"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Event"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Event"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Thing"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Thing"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Thing"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Thing"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Thing"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Thing"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Thing"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Thing"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Thing"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Thing"
+          }
+        ],
+        "rangeIncludes": [
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Thing"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/AggregateRating"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/MediaObject"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Audience"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/AudioObject"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Comment"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Integer"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Place"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Number"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Date"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/DateTime"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Date"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/DateTime"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Date"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/AlignmentObject"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/MediaObject"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Language"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/InteractionCounter"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Boolean"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Product"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Boolean"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Place"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Thing"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Thing"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Offer"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Integer"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/PublicationEvent"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Event"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/PublicationEvent"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Review"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Place"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/DateTime"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Duration"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Organization"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Person"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Number"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/VideoObject"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/ImageObject"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/CreativeWork"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Text"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/Action"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          },
+          {
+            "@language": "en",
+            "@value": "http://schema.org/URL"
+          }
+        ],
+        "rdfs:comment": [
+          {
+            "@language": "en",
+            "@value": "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs."
+          },
+          {
+            "@language": "en",
+            "@value": "The subject matter of the content."
+          },
+          {
+            "@language": "en",
+            "@value": "Indicates that the resource is compatible with the referenced accessibility API (WebSchemas wiki lists possible values)."
+          },
+          {
+            "@language": "en",
+            "@value": "Identifies input methods that are sufficient to fully control the described resource (WebSchemas wiki lists possible values)."
+          },
+          {
+            "@language": "en",
+            "@value": "Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility (WebSchemas wiki lists possible values)."
+          },
+          {
+            "@language": "en",
+            "@value": "A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3 (WebSchemas wiki lists possible values)."
+          },
+          {
+            "@language": "en",
+            "@value": "Specifies the Person that is legally accountable for the CreativeWork."
+          },
+          {
+            "@language": "en",
+            "@value": "The overall rating, based on a collection of reviews or ratings, of the item."
+          },
+          {
+            "@language": "en",
+            "@value": "A secondary title of the CreativeWork."
+          },
+          {
+            "@language": "en",
+            "@value": "A media object that encodes this CreativeWork. This property is a synonym for encoding."
+          },
+          {
+            "@language": "en",
+            "@value": "An intended audience, i.e. a group for whom something was created. Supersedes serviceAudience."
+          },
+          {
+            "@language": "en",
+            "@value": "An embedded audio object."
+          },
+          {
+            "@language": "en",
+            "@value": "The author of this content or rating. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably."
+          },
+          {
+            "@language": "en",
+            "@value": "An award won by or for this item. Supersedes awards."
+          },
+          {
+            "@language": "en",
+            "@value": "Fictional person connected with a creative work."
+          },
+          {
+            "@language": "en",
+            "@value": "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc."
+          },
+          {
+            "@language": "en",
+            "@value": "Comments, typically from users."
+          },
+          {
+            "@language": "en",
+            "@value": "The number of comments this CreativeWork (e.g. Article, Question or Answer) has received. This is most applicable to works published in Web sites with commenting system; additional comments may exist elsewhere."
+          },
+          {
+            "@language": "en",
+            "@value": "The location depicted or described in the content. For example, the location in a photograph or painting."
+          },
+          {
+            "@language": "en",
+            "@value": "Official rating of a piece of content—for example,'MPAA PG-13'."
+          },
+          {
+            "@language": "en",
+            "@value": "A secondary contributor to the CreativeWork or Event."
+          },
+          {
+            "@language": "en",
+            "@value": "The party holding the legal copyright to the CreativeWork."
+          },
+          {
+            "@language": "en",
+            "@value": "The year during which the claimed copyright for the CreativeWork was first asserted."
+          },
+          {
+            "@language": "en",
+            "@value": "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork."
+          },
+          {
+            "@language": "en",
+            "@value": "The date on which the CreativeWork was created or the item was added to a DataFeed."
+          },
+          {
+            "@language": "en",
+            "@value": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed."
+          },
+          {
+            "@language": "en",
+            "@value": "Date of first broadcast/publication."
+          },
+          {
+            "@language": "en",
+            "@value": "A link to the page containing the comments of the CreativeWork."
+          },
+          {
+            "@language": "en",
+            "@value": "Specifies the Person who edited the CreativeWork."
+          },
+          {
+            "@language": "en",
+            "@value": "An alignment to an established educational framework."
+          },
+          {
+            "@language": "en",
+            "@value": "The purpose of a work in the context of education; for example, 'assignment', 'group work'."
+          },
+          {
+            "@language": "en",
+            "@value": "A media object that encodes this CreativeWork. This property is a synonym for associatedMedia. Supersedes encodings."
+          },
+          {
+            "@language": "en",
+            "@value": "A creative work that this work is an example/instance/realization/derivation of. Inverse property: workExample."
+          },
+          {
+            "@language": "en",
+            "@value": "Media type, typically MIME format (see IANA site) of the content e.g. application/zip of a SoftwareApplication binary. In cases where a CreativeWork has several media type representations, 'encoding' can be used to indicate each MediaObject alongside particular fileFormat information. Unregistered or niche file formats can be indicated instead via the most appropriate URL, e.g. defining Web page or a Wikipedia entry."
+          },
+          {
+            "@language": "en",
+            "@value": "A person or organization that supports (sponsors) something through some kind of financial contribution."
+          },
+          {
+            "@language": "en",
+            "@value": "Genre of the creative work or group."
+          },
+          {
+            "@language": "en",
+            "@value": "Indicates a CreativeWork that is (in some sense) a part of this CreativeWork. Inverse property: isPartOf."
+          },
+          {
+            "@language": "en",
+            "@value": "Headline of the article."
+          },
+          {
+            "@language": "en",
+            "@value": "The language of the content or performance or used in an action. Please use one of the language codes from the IETF BCP 47 standard. See also availableLanguage. Supersedes language."
+          },
+          {
+            "@language": "en",
+            "@value": "The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used. Supersedes interactionCount."
+          },
+          {
+            "@language": "en",
+            "@value": "The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'."
+          },
+          {
+            "@language": "en",
+            "@value": "A flag to signal that the publication is accessible for free. Supersedes free."
+          },
+          {
+            "@language": "en",
+            "@value": "A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html. Supersedes isBasedOnUrl."
+          },
+          {
+            "@language": "en",
+            "@value": "Indicates whether this content is family friendly."
+          },
+          {
+            "@language": "en",
+            "@value": "Indicates a CreativeWork that this CreativeWork is (in some sense) part of. Inverse property: hasPart."
+          },
+          {
+            "@language": "en",
+            "@value": "Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas."
+          },
+          {
+            "@language": "en",
+            "@value": "The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'."
+          },
+          {
+            "@language": "en",
+            "@value": "A license document that applies to this content, typically indicated by URL."
+          },
+          {
+            "@language": "en",
+            "@value": "The location where the CreativeWork was created, which may not be the same as the location depicted in the CreativeWork."
+          },
+          {
+            "@language": "en",
+            "@value": "Indicates the primary entity described in some page or other CreativeWork. Inverse property: mainEntityOfPage."
+          },
+          {
+            "@language": "en",
+            "@value": "Indicates that the CreativeWork contains a reference to, but is not necessarily about a concept."
+          },
+          {
+            "@language": "en",
+            "@value": "An offer to provide this item—for example, an offer to sell a product, rent the DVD of a movie, perform a service, or give away tickets to an event."
+          },
+          {
+            "@language": "en",
+            "@value": "The position of an item in a series or sequence of items."
+          },
+          {
+            "@language": "en",
+            "@value": "The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.)."
+          },
+          {
+            "@language": "en",
+            "@value": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller. Supersedes carrier."
+          },
+          {
+            "@language": "en",
+            "@value": "A publication event associated with the item."
+          },
+          {
+            "@language": "en",
+            "@value": "The publisher of the creative work."
+          },
+          {
+            "@language": "en",
+            "@value": "Link to page describing the editorial principles of the organization primarily responsible for the creation of the CreativeWork."
+          },
+          {
+            "@language": "en",
+            "@value": "The Event where the CreativeWork was recorded. The CreativeWork may capture all or part of the event. Inverse property: recordedIn."
+          },
+          {
+            "@language": "en",
+            "@value": "The place and time the release was issued, expressed as a PublicationEvent."
+          },
+          {
+            "@language": "en",
+            "@value": "A review of the item. Supersedes reviews."
+          },
+          {
+            "@language": "en",
+            "@value": "Indicates (by URL or string) a particular version of a schema used in some CreativeWork. For example, a document could declare a schemaVersion using an URL such as http://schema.org/version/2.0/ if precise indication of schema version was required by some application."
+          },
+          {
+            "@language": "en",
+            "@value": "The Organization on whose behalf the creator was working."
+          },
+          {
+            "@language": "en",
+            "@value": "The spatialCoverage of a CreativeWork indicates the place(s) which are the focus of the content. It is a subproperty of contentLocation intended primarily for more technical and detailed materials. For example with a Dataset, it indicates areas that the dataset describes: a dataset of New York weather would have spatialCoverage which was the place: the state of New York. Supersedes spatial."
+          },
+          {
+            "@language": "en",
+            "@value": "A person or organization that supports a thing through a pledge, promise, or financial contribution. e.g. a sponsor of a Medical Study or a corporate sponsor of an event."
+          },
+          {
+            "@language": "en",
+            "@value": "The temporalCoverage of a CreativeWork indicates the period that the content applies to, i.e. that it describes, either as a DateTime or as a textual string indicating a time period in ISO 8601 time interval format. In the case of a Dataset it will typically indicate the relevant time period in a precise notation (e.g. for a 2011 census dataset, the year 2011 would be written \"2011/2012\"). Other forms of content e.g. ScholarlyArticle, Book, TVSeries or TVEpisode may indicate their temporalCoverage in broader terms - textually or via well-known URL. Written works such as books may sometimes have precise temporal coverage too, e.g. a work set in 1939 - 1945 can be indicated in ISO 8601 interval format format via \"1939/1945\". Supersedes datasetTimeInterval, temporal."
+          },
+          {
+            "@language": "en",
+            "@value": "The textual content of this CreativeWork."
+          },
+          {
+            "@language": "en",
+            "@value": "A thumbnail image relevant to the Thing."
+          },
+          {
+            "@language": "en",
+            "@value": "Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. 'P30M', 'P1H25M'."
+          },
+          {
+            "@language": "en",
+            "@value": "Organization or person who adapts a creative work to different languages, regional differences and technical requirements of a target market, or that translates during some event."
+          },
+          {
+            "@language": "en",
+            "@value": "The typical expected age range, e.g. '7-9', '11-'."
+          },
+          {
+            "@language": "en",
+            "@value": "The version of the CreativeWork embodied by a specified resource."
+          },
+          {
+            "@language": "en",
+            "@value": "An embedded video object."
+          },
+          {
+            "@language": "en",
+            "@value": "Example/instance/realization/derivation of the concept of this creative work. eg. The paperback edition, first edition, or eBook. Inverse property: exampleOfWork."
+          },
+          {
+            "@language": "en",
+            "@value": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally."
+          },
+          {
+            "@language": "en",
+            "@value": "An alias for the item."
+          },
+          {
+            "@language": "en",
+            "@value": "A description of the item."
+          },
+          {
+            "@language": "en",
+            "@value": "A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation."
+          },
+          {
+            "@language": "en",
+            "@value": "An image of the item. This can be a URL or a fully described ImageObject."
+          },
+          {
+            "@language": "en",
+            "@value": "Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See background notes for details. Inverse property: mainEntity."
+          },
+          {
+            "@language": "en",
+            "@value": "The name of the item."
+          },
+          {
+            "@language": "en",
+            "@value": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role."
+          },
+          {
+            "@language": "en",
+            "@value": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website."
+          },
+          {
+            "@language": "en",
+            "@value": "URL of the item."
+          }
+        ],
+        "rdfs:label": [
+          {
+            "@language": "en",
+            "@value": "WebSite"
+          },
+          {
+            "@language": "en",
+            "@value": "about"
+          },
+          {
+            "@language": "en",
+            "@value": "accessibilityAPI"
+          },
+          {
+            "@language": "en",
+            "@value": "accessibilityControl"
+          },
+          {
+            "@language": "en",
+            "@value": "accessibilityFeature"
+          },
+          {
+            "@language": "en",
+            "@value": "accessibilityHazard"
+          },
+          {
+            "@language": "en",
+            "@value": "accountablePerson"
+          },
+          {
+            "@language": "en",
+            "@value": "aggregateRating"
+          },
+          {
+            "@language": "en",
+            "@value": "alternativeHeadline"
+          },
+          {
+            "@language": "en",
+            "@value": "associatedMedia"
+          },
+          {
+            "@language": "en",
+            "@value": "audience"
+          },
+          {
+            "@language": "en",
+            "@value": "audio"
+          },
+          {
+            "@language": "en",
+            "@value": "author"
+          },
+          {
+            "@language": "en",
+            "@value": "award"
+          },
+          {
+            "@language": "en",
+            "@value": "character"
+          },
+          {
+            "@language": "en",
+            "@value": "citation"
+          },
+          {
+            "@language": "en",
+            "@value": "comment"
+          },
+          {
+            "@language": "en",
+            "@value": "commentCount"
+          },
+          {
+            "@language": "en",
+            "@value": "contentLocation"
+          },
+          {
+            "@language": "en",
+            "@value": "contentRating"
+          },
+          {
+            "@language": "en",
+            "@value": "contributor"
+          },
+          {
+            "@language": "en",
+            "@value": "copyrightHolder"
+          },
+          {
+            "@language": "en",
+            "@value": "copyrightYear"
+          },
+          {
+            "@language": "en",
+            "@value": "creator"
+          },
+          {
+            "@language": "en",
+            "@value": "dateCreated"
+          },
+          {
+            "@language": "en",
+            "@value": "dateModified"
+          },
+          {
+            "@language": "en",
+            "@value": "datePublished"
+          },
+          {
+            "@language": "en",
+            "@value": "discussionUrl"
+          },
+          {
+            "@language": "en",
+            "@value": "editor"
+          },
+          {
+            "@language": "en",
+            "@value": "educationalAlignment"
+          },
+          {
+            "@language": "en",
+            "@value": "educationalUse"
+          },
+          {
+            "@language": "en",
+            "@value": "encoding"
+          },
+          {
+            "@language": "en",
+            "@value": "exampleOfWork"
+          },
+          {
+            "@language": "en",
+            "@value": "fileFormat"
+          },
+          {
+            "@language": "en",
+            "@value": "funder"
+          },
+          {
+            "@language": "en",
+            "@value": "genre"
+          },
+          {
+            "@language": "en",
+            "@value": "hasPart"
+          },
+          {
+            "@language": "en",
+            "@value": "headline"
+          },
+          {
+            "@language": "en",
+            "@value": "inLanguage"
+          },
+          {
+            "@language": "en",
+            "@value": "interactionStatistic"
+          },
+          {
+            "@language": "en",
+            "@value": "interactivityType"
+          },
+          {
+            "@language": "en",
+            "@value": "isAccessibleForFree"
+          },
+          {
+            "@language": "en",
+            "@value": "isBasedOn"
+          },
+          {
+            "@language": "en",
+            "@value": "isFamilyFriendly"
+          },
+          {
+            "@language": "en",
+            "@value": "isPartOf"
+          },
+          {
+            "@language": "en",
+            "@value": "keywords"
+          },
+          {
+            "@language": "en",
+            "@value": "learningResourceType"
+          },
+          {
+            "@language": "en",
+            "@value": "license"
+          },
+          {
+            "@language": "en",
+            "@value": "locationCreated"
+          },
+          {
+            "@language": "en",
+            "@value": "mainEntity"
+          },
+          {
+            "@language": "en",
+            "@value": "mentions"
+          },
+          {
+            "@language": "en",
+            "@value": "offers"
+          },
+          {
+            "@language": "en",
+            "@value": "position"
+          },
+          {
+            "@language": "en",
+            "@value": "producer"
+          },
+          {
+            "@language": "en",
+            "@value": "provider"
+          },
+          {
+            "@language": "en",
+            "@value": "publication"
+          },
+          {
+            "@language": "en",
+            "@value": "publisher"
+          },
+          {
+            "@language": "en",
+            "@value": "publishingPrinciples"
+          },
+          {
+            "@language": "en",
+            "@value": "recordedAt"
+          },
+          {
+            "@language": "en",
+            "@value": "releasedEvent"
+          },
+          {
+            "@language": "en",
+            "@value": "review"
+          },
+          {
+            "@language": "en",
+            "@value": "schemaVersion"
+          },
+          {
+            "@language": "en",
+            "@value": "sourceOrganization"
+          },
+          {
+            "@language": "en",
+            "@value": "spatialCoverage"
+          },
+          {
+            "@language": "en",
+            "@value": "sponsor"
+          },
+          {
+            "@language": "en",
+            "@value": "temporalCoverage"
+          },
+          {
+            "@language": "en",
+            "@value": "text"
+          },
+          {
+            "@language": "en",
+            "@value": "thumbnailUrl"
+          },
+          {
+            "@language": "en",
+            "@value": "timeRequired"
+          },
+          {
+            "@language": "en",
+            "@value": "translator"
+          },
+          {
+            "@language": "en",
+            "@value": "typicalAgeRange"
+          },
+          {
+            "@language": "en",
+            "@value": "version"
+          },
+          {
+            "@language": "en",
+            "@value": "video"
+          },
+          {
+            "@language": "en",
+            "@value": "workExample"
+          },
+          {
+            "@language": "en",
+            "@value": "additionalType"
+          },
+          {
+            "@language": "en",
+            "@value": "alternateName"
+          },
+          {
+            "@language": "en",
+            "@value": "description"
+          },
+          {
+            "@language": "en",
+            "@value": "disambiguatingDescription"
+          },
+          {
+            "@language": "en",
+            "@value": "image"
+          },
+          {
+            "@language": "en",
+            "@value": "mainEntityOfPage"
+          },
+          {
+            "@language": "en",
+            "@value": "name"
+          },
+          {
+            "@language": "en",
+            "@value": "potentialAction"
+          },
+          {
+            "@language": "en",
+            "@value": "sameAs"
+          },
+          {
+            "@language": "en",
+            "@value": "url"
+          }
+        ],
+        "rdfs:subClassOf": {
+          "@language": "en",
+          "@value": "http://schema.org/CreativeWork"
+        }
+      }
+    ]
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

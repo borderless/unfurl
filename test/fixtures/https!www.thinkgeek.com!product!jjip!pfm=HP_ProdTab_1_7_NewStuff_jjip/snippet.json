@@ -2,7 +2,6 @@
   "apps": {
   },
   "author": {
-    "name": "ThinkGeek"
   },
   "canonicalUrl": "http://www.thinkgeek.com/product/jjip",
   "contentSize": 96489,
@@ -14,10 +13,9 @@
     "url": "https://www.thinkgeek.com/images/favicon.png"
   },
   "image": {
-    "url": "http://www.thinkgeek.com/images/products/zoom/jjip_citizen_playing_cards.jpg"
+    "url": "http://www.thinkgeek.com/images/products/frontsquare/jjip_citizen_playing_cards.jpg"
   },
   "provider": {
-    "name": "ThinkGeek"
   },
   "tags": [
     "Citizen Playing Cards - custom playing cards poker texas holdem hold'em night gamble gambling card game thinkgeek think geek gifts for geeks"

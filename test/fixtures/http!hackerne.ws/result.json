@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://news.ycombinator.com/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "icons": [
@@ -8,6 +12,14 @@
       }
     ],
     "title": "Hacker News"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

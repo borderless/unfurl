@@ -8,6 +8,8 @@
     "ios:url": "etsy://listing/230389421?ref=applinks_ios"
   },
   "contentUrl": "https://www.etsy.com/listing/230389421/agents-of-shield-decal-sticker-for-car?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=sr_gallery_20",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://www.etsy.com/listing/230389421/agents-of-shield-decal-sticker-for-car",
@@ -19,33 +21,136 @@
     ],
     "title": "Agents of Shield decal sticker for car truck by InfernoDecals"
   },
-  "microdata": [
-    {
-      "@type": "http://data-vocabulary.org/Breadcrumb",
-      "title": "InfernoDecals",
-      "url": "https://www.etsy.com/shop/InfernoDecals?ref=l2-shopheader-name"
-    },
-    {
-      "@type": "http://data-vocabulary.org/Product",
-      "name": "Agents of Shield decal sticker for car, truck, laptop in ANY COLOR die cut vinyl",
-      "offerDetails": {
-        "@type": "http://data-vocabulary.org/Offer",
-        "availability": "in_stock",
-        "currency": "USD",
-        "price": "2.99"
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://data-vocabulary.org/"
+        },
+        "@type": "Breadcrumb",
+        "title": {
+          "@language": "en-US",
+          "@value": "InfernoDecals"
+        },
+        "url": {
+          "@language": "en-US",
+          "@value": "https://www.etsy.com/shop/InfernoDecals?ref=l2-shopheader-name"
+        }
+      },
+      {
+        "@context": {
+          "@vocab": "http://data-vocabulary.org/"
+        },
+        "@type": "Product",
+        "name": {
+          "@language": "en-US",
+          "@value": "Agents of Shield decal sticker for car, truck, laptop in ANY COLOR die cut vinyl"
+        },
+        "offerDetails": {
+          "@type": "Offer",
+          "availability": {
+            "@language": "en-US",
+            "@value": "in_stock"
+          },
+          "currency": {
+            "@language": "en-US",
+            "@value": "USD"
+          },
+          "price": {
+            "@language": "en-US",
+            "@value": "2.99"
+          }
+        }
       }
-    }
-  ],
+    ]
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "Die cut sticker is cut in the shape of the graphic with no background and all one color. Available in several colors and a variety of sizes. Please rely on dimensions listed or measure area where you will be applying the decal. Select options from drop down menus. Agents of Shield Hydra logo also available: https://www.etsy.com/your/shops/InfernoDecals/tools/listings/230718253 Sizes listed are in inches. (1 inch = 2.54 centimeters) Made from quality outdoor vinyl that is water proof, UV resistant and rated to last 6 years outdoors and longer indoors. Self adhesive vinyl is removable and does not damage hard surfaces or vehicle paint. Not reuseable or repositionable. Can be applied to any clean smooth surface such as vehicle body, window, laptop, water bottle, mirror, helmet, guitar etc. Ships in cardboard mailer or with cardboard inside envelope to protect from damage during shipping. Easy to install, comes with full instructions included. How to install vinyl decals: 1. Clean the area thoroughly with rubbing alcohol or soap and water. Do not use Windex or similar products, it will leave a residue behind that will prevent the sticker from adhering well. 2. Prepare the sticker for application by firmly rubbing a squeegee or credit card across the clear transfer tape. This removes any air bubbles that may have formed and makes the sticker cling to the transfer tape. 3. Peel the white paper backing off the sticker. If the sticker clings to the backing, slowly replace the paper backing and repeat Step 2. 4. Slowly lower the sticker onto the surface and rub it in place firmly with a squeegee or credit card. Wait 10 minutes or more. For best results, wait 24 hours before moving to the next step. 5. Slowly peel the clear transfer tape off at an angle. Be careful not to pull the sticker off the surface. If sticker pulls away from the surface repeat Step 4. *Use a pin to poke any air bubbles in the center and push the air out through the hole. *For best results do not apply a sticker in extreme hot or cold temperatures.",
-      "http://ogp.me/ns#image": "https://img0.etsystatic.com/058/0/10499963/il_570xN.759424778_ojd8.jpg",
-      "http://ogp.me/ns#locale": "en_US",
-      "http://ogp.me/ns#site_name": "Etsy",
-      "http://ogp.me/ns#title": "Agents of Shield decal sticker for car, truck, laptop in ANY COLOR die cut vinyl",
-      "http://ogp.me/ns#type": "etsymarketplace:item",
-      "http://ogp.me/ns#url": "https://www.etsy.com/listing/230389421/agents-of-shield-decal-sticker-for-car?utm_source=OpenGraph&utm_medium=PageTools&utm_campaign=Share"
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "al:android:app_name": {
+          "@language": "en-US",
+          "@value": "Etsy"
+        },
+        "al:android:package": {
+          "@language": "en-US",
+          "@value": "com.etsy.android"
+        },
+        "al:android:url": {
+          "@language": "en-US",
+          "@value": "etsy://listing/230389421?ref=applinks_android"
+        },
+        "al:ios:app_name": {
+          "@language": "en-US",
+          "@value": "Etsy"
+        },
+        "al:ios:app_store_id": {
+          "@language": "en-US",
+          "@value": "477128284"
+        },
+        "al:ios:url": {
+          "@language": "en-US",
+          "@value": "etsy://listing/230389421?ref=applinks_ios"
+        },
+        "etsymarketplace:currency_code": {
+          "@language": "en-US",
+          "@value": "USD"
+        },
+        "etsymarketplace:currency_symbol": {
+          "@language": "en-US",
+          "@value": "$"
+        },
+        "etsymarketplace:price": {
+          "@language": "en-US",
+          "@value": "US$2.99"
+        },
+        "etsymarketplace:price_value": {
+          "@language": "en-US",
+          "@value": "2.99"
+        },
+        "etsymarketplace:shop": {
+          "@language": "en-US",
+          "@value": "https://www.etsy.com/shop/InfernoDecals"
+        },
+        "fb:app_id": {
+          "@language": "en-US",
+          "@value": "89186614300"
+        },
+        "og:description": {
+          "@language": "en-US",
+          "@value": "Die cut sticker is cut in the shape of the graphic with no background and all one color. Available in several colors and a variety of sizes. Please rely on dimensions listed or measure area where you will be applying the decal. Select options from drop down menus. Agents of Shield Hydra logo also available: https://www.etsy.com/your/shops/InfernoDecals/tools/listings/230718253 Sizes listed are in inches. (1 inch = 2.54 centimeters) Made from quality outdoor vinyl that is water proof, UV resistant and rated to last 6 years outdoors and longer indoors. Self adhesive vinyl is removable and does not damage hard surfaces or vehicle paint. Not reuseable or repositionable. Can be applied to any clean smooth surface such as vehicle body, window, laptop, water bottle, mirror, helmet, guitar etc. Ships in cardboard mailer or with cardboard inside envelope to protect from damage during shipping. Easy to install, comes with full instructions included. How to install vinyl decals: 1. Clean the area thoroughly with rubbing alcohol or soap and water. Do not use Windex or similar products, it will leave a residue behind that will prevent the sticker from adhering well. 2. Prepare the sticker for application by firmly rubbing a squeegee or credit card across the clear transfer tape. This removes any air bubbles that may have formed and makes the sticker cling to the transfer tape. 3. Peel the white paper backing off the sticker. If the sticker clings to the backing, slowly replace the paper backing and repeat Step 2. 4. Slowly lower the sticker onto the surface and rub it in place firmly with a squeegee or credit card. Wait 10 minutes or more. For best results, wait 24 hours before moving to the next step. 5. Slowly peel the clear transfer tape off at an angle. Be careful not to pull the sticker off the surface. If sticker pulls away from the surface repeat Step 4. *Use a pin to poke any air bubbles in the center and push the air out through the hole. *For best results do not apply a sticker in extreme hot or cold temperatures."
+        },
+        "og:image": {
+          "@language": "en-US",
+          "@value": "https://img0.etsystatic.com/058/0/10499963/il_570xN.759424778_ojd8.jpg"
+        },
+        "og:locale": {
+          "@language": "en-US",
+          "@value": "en_US"
+        },
+        "og:site_name": {
+          "@language": "en-US",
+          "@value": "Etsy"
+        },
+        "og:title": {
+          "@language": "en-US",
+          "@value": "Agents of Shield decal sticker for car, truck, laptop in ANY COLOR die cut vinyl"
+        },
+        "og:type": {
+          "@language": "en-US",
+          "@value": "etsymarketplace:item"
+        },
+        "og:url": {
+          "@language": "en-US",
+          "@value": "https://www.etsy.com/listing/230389421/agents-of-shield-decal-sticker-for-car?utm_source=OpenGraph&utm_medium=PageTools&utm_campaign=Share"
+        }
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "image": "https://img0.etsystatic.com/058/0/10499963/il_570xN.759424778_ojd8.jpg"

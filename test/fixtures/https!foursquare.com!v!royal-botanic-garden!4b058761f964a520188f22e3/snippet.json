@@ -35,20 +35,9 @@
     "type": "image/x-icon",
     "url": "https://foursquare.com/favicon.ico"
   },
-  "image": [
-    {
-      "url": "https://irs2.4sqi.net/img/general/600x600/53483607_SoXlG3dETx8aFctBfqQJDXBER5wkwBm8sihfBClvA8I.jpg"
-    },
-    {
-      "url": "https://irs3.4sqi.net/img/general/600x600/3193281_QNK-Vlx4z1UJR97aVk7pI58_RsLEI75FCfhKg8nO2sE.jpg"
-    },
-    {
-      "url": "https://irs3.4sqi.net/img/general/600x600/ZBVXZDMOHFAHSHJ0KG4UCBOCYXH3JJQSVK12ZWV44YICSZMT.jpg"
-    },
-    {
-      "url": "https://irs3.4sqi.net/img/general/600x600/40666324_RKf6fLMqp9n5EPmaIwCgVV6IBvH3C7wbQqUcemDFiCo.jpg"
-    }
-  ],
+  "image": {
+    "url": "https://irs2.4sqi.net/img/general/600x600/53483607_SoXlG3dETx8aFctBfqQJDXBER5wkwBm8sihfBClvA8I.jpg"
+  },
   "provider": {
     "name": "Foursquare"
   },

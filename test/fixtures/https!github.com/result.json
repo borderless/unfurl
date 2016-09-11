@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://github.com/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://github.com/",
@@ -11,33 +15,138 @@
     ],
     "title": "How people build software · GitHub"
   },
+  "microdata": {
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "GitHub is where people build software. More than 15 million people use GitHub to discover, fork, and contribute to over 38 million projects.",
-      "http://ogp.me/ns#image": [
-        "https://assets-cdn.github.com/images/modules/open_graph/github-logo.png",
-        "https://assets-cdn.github.com/images/modules/open_graph/github-mark.png",
-        "https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png"
-      ],
-      "http://ogp.me/ns#image:height": [
-        "1200",
-        "620",
-        "620"
-      ],
-      "http://ogp.me/ns#image:type": [
-        "image/png",
-        "image/png",
-        "image/png"
-      ],
-      "http://ogp.me/ns#image:width": [
-        "1200",
-        "1200",
-        "1200"
-      ],
-      "http://ogp.me/ns#site_name": "GitHub",
-      "http://ogp.me/ns#title": "Build software better, together",
-      "http://ogp.me/ns#url": "https://github.com"
-    }
+    "@context": {
+      "article": "http://ogp.me/ns/article#",
+      "fb": "http://ogp.me/ns/fb#",
+      "object": "http://ogp.me/ns/object#",
+      "og": "http://ogp.me/ns#",
+      "profile": "http://ogp.me/ns/profile#"
+    },
+    "@graph": [
+      {
+        "fb:app_id": {
+          "@language": "en",
+          "@value": "1401488693436528"
+        },
+        "og:description": {
+          "@language": "en",
+          "@value": "GitHub is where people build software. More than 15 million people use GitHub to discover, fork, and contribute to over 38 million projects."
+        },
+        "og:image": [
+          {
+            "@language": "en",
+            "@value": "https://assets-cdn.github.com/images/modules/open_graph/github-logo.png"
+          },
+          {
+            "@language": "en",
+            "@value": "https://assets-cdn.github.com/images/modules/open_graph/github-mark.png"
+          },
+          {
+            "@language": "en",
+            "@value": "https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png"
+          }
+        ],
+        "og:image:height": [
+          {
+            "@language": "en",
+            "@value": "1200"
+          },
+          {
+            "@language": "en",
+            "@value": "620"
+          },
+          {
+            "@language": "en",
+            "@value": "620"
+          }
+        ],
+        "og:image:type": [
+          {
+            "@language": "en",
+            "@value": "image/png"
+          },
+          {
+            "@language": "en",
+            "@value": "image/png"
+          },
+          {
+            "@language": "en",
+            "@value": "image/png"
+          }
+        ],
+        "og:image:width": [
+          {
+            "@language": "en",
+            "@value": "1200"
+          },
+          {
+            "@language": "en",
+            "@value": "1200"
+          },
+          {
+            "@language": "en",
+            "@value": "1200"
+          }
+        ],
+        "og:site_name": {
+          "@language": "en",
+          "@value": "GitHub"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "Build software better, together"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://github.com"
+        },
+        "twitter:card": {
+          "@language": "en",
+          "@value": "summary_large_image"
+        },
+        "twitter:creator": {
+          "@language": "en",
+          "@value": "github"
+        },
+        "twitter:creator:id": {
+          "@language": "en",
+          "@value": "13334762"
+        },
+        "twitter:description": {
+          "@language": "en",
+          "@value": "GitHub is where people build software. More than 15 million people use GitHub to discover, fork, and contribute to over 38 million projects."
+        },
+        "twitter:image:height": {
+          "@language": "en",
+          "@value": "1200"
+        },
+        "twitter:image:src": {
+          "@language": "en",
+          "@value": "https://assets-cdn.github.com/images/modules/open_graph/github-logo.png"
+        },
+        "twitter:image:width": {
+          "@language": "en",
+          "@value": "1200"
+        },
+        "twitter:site": {
+          "@language": "en",
+          "@value": "github"
+        },
+        "twitter:site:id": {
+          "@language": "en",
+          "@value": "13334762"
+        },
+        "twitter:title": {
+          "@language": "en",
+          "@value": "GitHub"
+        }
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary_large_image",

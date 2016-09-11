@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 39727,
   "contentUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://twitter.com/ericclemmons/status/749223563790471169",
@@ -11,6 +15,8 @@
       }
     ],
     "title": "Eric Clemmons on Twitter: \"🔥 Clean up @github issues with the HTML5 <details> tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx\""
+  },
+  "microdata": {
   },
   "oembed": {
     "author_name": "Eric Clemmons",
@@ -26,14 +32,46 @@
     "width": 550
   },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "“🔥 Clean up @github issues with the HTML5 &lt;details&gt; tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx”",
-      "http://ogp.me/ns#image": "https://pbs.twimg.com/profile_images/617160371216842752/TQ_Bfpkz_400x400.png",
-      "http://ogp.me/ns#site_name": "Twitter",
-      "http://ogp.me/ns#title": "Eric Clemmons on Twitter",
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#url": "https://twitter.com/ericclemmons/status/749223563790471169"
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "fb:app_id": {
+          "@language": "en",
+          "@value": "2231777543"
+        },
+        "og:description": {
+          "@language": "en",
+          "@value": "“🔥 Clean up @github issues with the HTML5 &lt;details&gt; tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx”"
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "https://pbs.twimg.com/profile_images/617160371216842752/TQ_Bfpkz_400x400.png"
+        },
+        "og:site_name": {
+          "@language": "en",
+          "@value": "Twitter"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "Eric Clemmons on Twitter"
+        },
+        "og:type": {
+          "@language": "en",
+          "@value": "article"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://twitter.com/ericclemmons/status/749223563790471169"
+        }
+      }
+    ]
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

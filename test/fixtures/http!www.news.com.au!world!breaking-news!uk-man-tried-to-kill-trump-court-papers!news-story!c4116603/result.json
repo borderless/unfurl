@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 10483,
   "contentUrl": "http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "apple-mobile-web-app-title": "news.com.au",
@@ -43,21 +47,76 @@
     ],
     "title": "UK man in ‘Trump shooting bid’ denied bail | News.com.au"
   },
+  "microdata": {
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "{“contentType”:”NEWS_STORY”,”id”:{“value”:”c4116603f54f1b7c88339cd039c7e123″,”link”:”http:\\/\\/api.newsapi.com.au\\/conte…",
-      "http://ogp.me/ns#image": "https://secure.gravatar.com/blavatar/99ae28ba58e6719abd9d8575bdc18a54?s=200&ts=1471164150",
-      "http://ogp.me/ns#image:height": "200",
-      "http://ogp.me/ns#image:width": "200",
-      "http://ogp.me/ns#locale": "en_US",
-      "http://ogp.me/ns#site_name": "News.com.au",
-      "http://ogp.me/ns#title": "UK man in ‘Trump shooting bid’ denied bail",
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#url": "http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123",
-      "http://ogp.me/ns/article#modified_time": "2016-06-21T00:43:32+00:00",
-      "http://ogp.me/ns/article#published_time": "2016-06-21T00:44:04+00:00",
-      "http://ogp.me/ns/article#publisher": "https://www.facebook.com/WordPresscom"
-    }
+    "@context": {
+      "article": "http://ogp.me/ns/article#",
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "article:modified_time": {
+          "@language": "en",
+          "@value": "2016-06-21T00:43:32+00:00"
+        },
+        "article:published_time": {
+          "@language": "en",
+          "@value": "2016-06-21T00:44:04+00:00"
+        },
+        "article:publisher": {
+          "@language": "en",
+          "@value": "https://www.facebook.com/WordPresscom"
+        },
+        "fb:admins": {
+          "@language": "en",
+          "@value": "1533025129,653135158,737988273"
+        },
+        "fb:app_id": {
+          "@language": "en",
+          "@value": "113758722003364"
+        },
+        "og:description": {
+          "@language": "en",
+          "@value": "{“contentType”:”NEWS_STORY”,”id”:{“value”:”c4116603f54f1b7c88339cd039c7e123″,”link”:”http:\\/\\/api.newsapi.com.au\\/conte…"
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "https://secure.gravatar.com/blavatar/99ae28ba58e6719abd9d8575bdc18a54?s=200&ts=1471164150"
+        },
+        "og:image:height": {
+          "@language": "en",
+          "@value": "200"
+        },
+        "og:image:width": {
+          "@language": "en",
+          "@value": "200"
+        },
+        "og:locale": {
+          "@language": "en",
+          "@value": "en_US"
+        },
+        "og:site_name": {
+          "@language": "en",
+          "@value": "News.com.au"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "UK man in ‘Trump shooting bid’ denied bail"
+        },
+        "og:type": {
+          "@language": "en",
+          "@value": "article"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123"
+        }
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary",

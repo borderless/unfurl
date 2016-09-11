@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 44428,
   "contentUrl": "https://twitter.com/blakeembrey",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://twitter.com/blakeembrey",
@@ -13,6 +17,8 @@
     ],
     "title": "Blake Embrey (@blakeembrey) | Twitter"
   },
+  "microdata": {
+  },
   "oembed": {
     "cache_age": "3153600000",
     "height": null,
@@ -24,6 +30,12 @@
     "url": "https://twitter.com/blakeembrey",
     "version": "1.0",
     "width": null
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

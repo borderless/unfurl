@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 28355,
   "contentUrl": "https://www.reddit.com/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://www.reddit.com/",
@@ -18,6 +22,14 @@
     ],
     "keywords": "reddit, reddit.com, vote, comment, submit",
     "title": "reddit: the front page of the internet"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

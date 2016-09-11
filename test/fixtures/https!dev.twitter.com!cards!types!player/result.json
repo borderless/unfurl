@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://dev.twitter.com/cards/types/player",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://dev.twitter.com/cards/types/player",
@@ -11,6 +15,12 @@
       }
     ],
     "title": "Player Card | Twitter Developers"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary",

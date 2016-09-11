@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "author": "Kristin Wong",
@@ -13,61 +17,250 @@
     ],
     "title": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One | Lifehacker Australia"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/WPHeader"
-    },
-    {
-      "@type": "http://schema.org/WPAdBlock"
-    },
-    {
-      "@type": "http://schema.org/NewsArticle",
-      "articleBody": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will update automatically. So how do they know your new credit card number? Photo by Frankieleon One Redditor asked this very question after failing to update a Netflix account and then discovering Netflix updated the credit card information on its own. Basically, some service providers are enrolled in credit cards’ Account Updater programs. Visa, MasterCard, and Discover all have these programs and, in a nutshell, they send qualified merchants your new info whenever your card is replaced. You can read Visa’s program in detail here. Consumerist reached out to Visa on this topic a while back with a concern about security. Visa’s response: Issuers decide when to provide merchants with updated account information, either when cardholders activate their new cards or within two business days from the date of the changes. VAU participants must also meet certain qualification requirements, including Visa security requirements for data transmission. In addition, no transactions can occur until cardholders have activated their new cards. It’s still something to be aware of if you plan on using a different card before updating your information or you’re just wondering how Netflix magically knew your new number. Netflix somehow knows my new credit card number without me giving it to them? [Reddit] Have you subscribed to Lifehacker Australia's email newsletter? You can also follow us on LinkedIn, Facebook, Twitter and YouTube.",
-      "author": "Kristin Wong",
-      "datePublished": "2016-08-16T17:00:00+10:00",
-      "genre": "Money",
-      "headline": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
-      "keywords": "credit cards finances spending twocents"
-    },
-    {
-      "@type": "http://schema.org/WPSideBar"
-    },
-    {
-      "@type": "http://schema.org/WPAdBlock"
-    },
-    {
-      "@type": "http://schema.org/WPFooter",
-      "headline": [
-        "How To Fix No Man's Sky On PC",
-        "How To Eat Like An Olympian [Infographic]",
-        "If You Rely Too Much On Plan B, It Might Ruin Your Plan A",
-        "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
-        "The Science Of How And Why We Swear [NSFW]",
-        "How To Get The Most From LG's FH6 New X-Boom Freestyler Speaker",
-        "So What Would Really Happen If You Just, Like, Never Got Out Of Bed?",
-        "Look At This Googly-Eyed Squid",
-        "Dawn Of War 3 Is Looking Really Smooth",
-        "It's 2016 And I'm Buying A New Japanese Fax Machine",
-        "How's It Feel To Be The Damsel, Batman?",
-        "There Sure Are A Lotta Soft Drink Vending Machines In Video Games",
-        "BHP HORROR SHOW: Mining giant posts record $8.3 billion loss, crushes dividend",
-        "Jurassic Park star Sam Neill let rip over Sydney's lockout laws",
-        "Warnie's bought back the Melbourne mansion he renovated with former wife Simone for nearly $16m",
-        "Shares in this funeral business are tanking because not enough people are dying"
-      ]
-    },
-    {
-      "@type": "http://schema.org/WPAdBlock"
-    }
-  ],
+  "microdata": {
+    "@graph": [
+      {
+        "description": {
+          "@language": "en",
+          "@value": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, w..."
+        },
+        "image": {
+          "@language": "en",
+          "@value": "https://i.kinja-img.com/gawker-media/image/upload/t_original/ittdz6udygdrrkbv8eey.jpg"
+        },
+        "name": {
+          "@language": "en",
+          "@value": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One"
+        }
+      },
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "WPHeader"
+      },
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "WPAdBlock"
+      },
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "NewsArticle",
+        "articleBody": {
+          "@language": "en",
+          "@value": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will update automatically. So how do they know your new credit card number? Photo by Frankieleon One Redditor asked this very question after failing to update a Netflix account and then discovering Netflix updated the credit card information on its own. Basically, some service providers are enrolled in credit cards’ Account Updater programs. Visa, MasterCard, and Discover all have these programs and, in a nutshell, they send qualified merchants your new info whenever your card is replaced. You can read Visa’s program in detail here. Consumerist reached out to Visa on this topic a while back with a concern about security. Visa’s response: Issuers decide when to provide merchants with updated account information, either when cardholders activate their new cards or within two business days from the date of the changes. VAU participants must also meet certain qualification requirements, including Visa security requirements for data transmission. In addition, no transactions can occur until cardholders have activated their new cards. It’s still something to be aware of if you plan on using a different card before updating your information or you’re just wondering how Netflix magically knew your new number. Netflix somehow knows my new credit card number without me giving it to them? [Reddit] Have you subscribed to Lifehacker Australia's email newsletter? You can also follow us on LinkedIn, Facebook, Twitter and YouTube."
+        },
+        "author": {
+          "@language": "en",
+          "@value": "Kristin Wong"
+        },
+        "datePublished": {
+          "@language": "en",
+          "@value": "2016-08-16T17:00:00+10:00"
+        },
+        "genre": {
+          "@language": "en",
+          "@value": "Money"
+        },
+        "headline": {
+          "@language": "en",
+          "@value": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One"
+        },
+        "keywords": {
+          "@language": "en",
+          "@value": "credit cards finances spending twocents"
+        }
+      },
+      {
+        "@type": "NewsArticle",
+        "author": {
+          "@language": "en",
+          "@value": "Chris Jager"
+        },
+        "datePublished": {
+          "@language": "en",
+          "@value": "2016-08-16T17:30:38+10:00"
+        },
+        "description": {
+          "@language": "en",
+          "@value": "Brief news items of note for Lifehacker readers, including. PlayStation 4 gets a new-look menu, 13 movies that went disastrously over budget, watch Stranger Things and the movies that inspired it side by side."
+        },
+        "genre": {
+          "@language": "en",
+          "@value": "organise"
+        },
+        "headline": {
+          "@language": "en",
+          "@value": "Briefly: PS4 Menu Refresh, Movie Budget Disasters, Olympic Splash"
+        }
+      },
+      {
+        "@type": "NewsArticle",
+        "author": {
+          "@language": "en",
+          "@value": "Kristin Wong"
+        },
+        "datePublished": {
+          "@language": "en",
+          "@value": "2016-08-16T17:00:00+10:00"
+        },
+        "description": {
+          "@language": "en",
+          "@value": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will update automatically. So how do they know your new credit card number?"
+        },
+        "genre": {
+          "@language": "en",
+          "@value": "money"
+        },
+        "headline": {
+          "@language": "en",
+          "@value": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One"
+        }
+      },
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "WPSideBar"
+      },
+      {
+        "@type": "WPAdBlock"
+      },
+      {
+        "@type": "WPAdBlock"
+      },
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "WPAdBlock"
+      },
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "WPFooter",
+        "headline": [
+          {
+            "@language": "en",
+            "@value": "How To Fix No Man's Sky On PC"
+          },
+          {
+            "@language": "en",
+            "@value": "How To Eat Like An Olympian [Infographic]"
+          },
+          {
+            "@language": "en",
+            "@value": "If You Rely Too Much On Plan B, It Might Ruin Your Plan A"
+          },
+          {
+            "@language": "en",
+            "@value": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One"
+          },
+          {
+            "@language": "en",
+            "@value": "The Science Of How And Why We Swear [NSFW]"
+          },
+          {
+            "@language": "en",
+            "@value": "How To Get The Most From LG's FH6 New X-Boom Freestyler Speaker"
+          },
+          {
+            "@language": "en",
+            "@value": "So What Would Really Happen If You Just, Like, Never Got Out Of Bed?"
+          },
+          {
+            "@language": "en",
+            "@value": "Look At This Googly-Eyed Squid"
+          },
+          {
+            "@language": "en",
+            "@value": "Dawn Of War 3 Is Looking Really Smooth"
+          },
+          {
+            "@language": "en",
+            "@value": "It's 2016 And I'm Buying A New Japanese Fax Machine"
+          },
+          {
+            "@language": "en",
+            "@value": "How's It Feel To Be The Damsel, Batman?"
+          },
+          {
+            "@language": "en",
+            "@value": "There Sure Are A Lotta Soft Drink Vending Machines In Video Games"
+          },
+          {
+            "@language": "en",
+            "@value": "BHP HORROR SHOW: Mining giant posts record $8.3 billion loss, crushes dividend"
+          },
+          {
+            "@language": "en",
+            "@value": "Jurassic Park star Sam Neill let rip over Sydney's lockout laws"
+          },
+          {
+            "@language": "en",
+            "@value": "Warnie's bought back the Melbourne mansion he renovated with former wife Simone for nearly $16m"
+          },
+          {
+            "@language": "en",
+            "@value": "Shares in this funeral business are tanking because not enough people are dying"
+          }
+        ]
+      },
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "WPAdBlock"
+      }
+    ]
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will update automatically. So how do they know your new credit card number?...",
-      "http://ogp.me/ns#image": "https://i.kinja-img.com/gawker-media/image/upload/t_original/ittdz6udygdrrkbv8eey.jpg",
-      "http://ogp.me/ns#title": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#url": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/"
-    }
+    "@context": {
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "og:description": {
+          "@language": "en",
+          "@value": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will update automatically. So how do they know your new credit card number?..."
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "https://i.kinja-img.com/gawker-media/image/upload/t_original/ittdz6udygdrrkbv8eey.jpg"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One"
+        },
+        "og:type": {
+          "@language": "en",
+          "@value": "article"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/"
+        },
+        "twitter:card": {
+          "@language": "en",
+          "@value": "summary_large_image"
+        },
+        "twitter:image": {
+          "@language": "en",
+          "@value": "https://i.kinja-img.com/gawker-media/image/upload/t_original/ittdz6udygdrrkbv8eey.jpg"
+        },
+        "twitter:site": {
+          "@language": "en",
+          "@value": "@LifehackerAU"
+        }
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary_large_image",

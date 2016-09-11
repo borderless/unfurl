@@ -10,7 +10,7 @@
   "description": "Let us count the ways we hope Ramsey will die.",
   "encodingFormat": "text/html",
   "entity": {
-    "type": "article"
+    "type": "image"
   },
   "headline": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
   "icon": {
@@ -19,10 +19,11 @@
     "url": "http://mashable.com/favicon-32x32.png?v=m2Pmw8zNwl"
   },
   "image": {
-    "url": "http://a.amz.mshcdn.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2MzAKZQlqcGc/8e6659fa/25e/battleofthebastards.jpg"
+    "height": 360,
+    "url": "http://i.amz.mshcdn.com/aFAKqhtHbY6dvAbbeFO9opnh6Ug=/640x360/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F11969%2Fbattleofthebastards.jpg",
+    "width": 640
   },
   "provider": {
-    "name": "Mashable"
   },
   "tags": [
     "entertainment",

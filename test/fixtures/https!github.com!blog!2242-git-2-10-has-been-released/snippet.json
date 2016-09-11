@@ -2,28 +2,20 @@
   "apps": {
   },
   "author": {
-    "name": "262588213843476"
   },
   "canonicalUrl": "https://github.com/blog/2242-git-2-10-has-been-released",
   "contentUrl": "https://github.com/blog/2242-git-2-10-has-been-released",
   "description": "The open source Git project has just released Git 2.10.0, with features and bugfixes from over 70 contributors. Here's our look at some of the most interesting new features: Progress reporting for...",
   "encodingFormat": "text/html",
   "entity": {
-    "datePublished": "2016-09-03T02:23:46.000Z",
-    "publisher": "262588213843476",
-    "section": "blog/general",
-    "type": "article"
+    "type": "image"
   },
   "headline": "Git 2.10 has been released",
   "icon": {
     "type": "image/x-icon",
     "url": "https://assets-cdn.github.com/favicon.ico"
   },
-  "image": {
-    "url": "https://cloud.githubusercontent.com/assets/121322/16134794/284be2e6-33d4-11e6-9165-58068a872ec2.png"
-  },
   "provider": {
-    "name": "GitHub"
   },
   "twitter": {
     "siteHandle": "github"

@@ -13,6 +13,7 @@
     "content-type": "registry:npm/content-type#1.0.0+20160616192126",
     "debug": "registry:npm/debug#2.0.0+20160511151334",
     "get-value": "registry:npm/get-value#2.0.0+20160604003143",
+    "has": "registry:npm/has#1.0.0+20160723033700",
     "htmlparser2": "registry:npm/htmlparser2#3.9.0+20160616165259",
     "popsicle": "npm:popsicle",
     "xtend": "registry:npm/xtend#4.0.0+20160211003958"

@@ -24,16 +24,11 @@
   "description": "Let’s start with the most obvious question first. This is what an “unfurl” is:",
   "encodingFormat": "text/html",
   "entity": {
-    "datePublished": "2015-11-24T21:33:25.196Z",
-    "publisher": "https://www.facebook.com/medium",
-    "type": "article"
+    "type": "image"
   },
-  "headline": "Everything you ever wanted to know about unfurling but were afraid to ask /or/ How to make your… — Slack Platform Blog",
+  "headline": "Everything you ever wanted to know about unfurling but were afraid to ask /or/ How to make your… — Slack Platform Blog — Medium",
   "icon": {
     "url": "https://cdn-static-1.medium.com/_/fp/icons/favicon-medium.TAS6uQ-Y7kcKgi0xjcYHXw.ico"
-  },
-  "image": {
-    "url": "https://cdn-images-1.medium.com/max/1200/1*QOMaDLcO8rExD0ctBV3BWg.png"
   },
   "provider": {
     "name": "Medium"

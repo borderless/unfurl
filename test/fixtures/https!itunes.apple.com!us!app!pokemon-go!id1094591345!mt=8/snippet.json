@@ -17,14 +17,9 @@
     "url": "https://itunes.apple.com/favicon.ico"
   },
   "image": {
-    "height": 630,
-    "secureUrl": "http://is5.mzstatic.com/image/thumb/Purple62/v4/c3/ae/13/c3ae1331-6413-482b-30b6-4b670c92280f/source/1200x630bf.jpg",
-    "type": "image/jpg",
-    "url": "http://is5.mzstatic.com/image/thumb/Purple62/v4/c3/ae/13/c3ae1331-6413-482b-30b6-4b670c92280f/source/1200x630bf.jpg",
-    "width": 1200
+    "url": "http://is5.mzstatic.com/image/thumb/Purple62/v4/c3/ae/13/c3ae1331-6413-482b-30b6-4b670c92280f/source/1200x630bf.jpg"
   },
   "provider": {
-    "name": "App Store"
   },
   "tags": [
     "Pokémon GO",

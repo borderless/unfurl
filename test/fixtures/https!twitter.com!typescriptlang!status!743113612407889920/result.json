@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 34603,
   "contentUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://twitter.com/typescriptlang/status/743113612407889920",
@@ -11,6 +15,8 @@
       }
     ],
     "title": "TypeScript on Twitter: \".d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4\""
+  },
+  "microdata": {
   },
   "oembed": {
     "author_name": "TypeScript",
@@ -26,14 +32,46 @@
     "width": 550
   },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”",
-      "http://ogp.me/ns#image": "https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg",
-      "http://ogp.me/ns#site_name": "Twitter",
-      "http://ogp.me/ns#title": "TypeScript on Twitter",
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#url": "https://twitter.com/typescriptlang/status/743113612407889920"
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "fb:app_id": {
+          "@language": "en",
+          "@value": "2231777543"
+        },
+        "og:description": {
+          "@language": "en",
+          "@value": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”"
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg"
+        },
+        "og:site_name": {
+          "@language": "en",
+          "@value": "Twitter"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "TypeScript on Twitter"
+        },
+        "og:type": {
+          "@language": "en",
+          "@value": "article"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://twitter.com/typescriptlang/status/743113612407889920"
+        }
+      }
+    ]
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

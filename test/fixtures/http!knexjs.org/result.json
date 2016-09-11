@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "http://knexjs.org/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "http://knexjs.org",
@@ -9,6 +13,14 @@
       }
     ],
     "title": "Knex.js - A SQL Query Builder for Javascript"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

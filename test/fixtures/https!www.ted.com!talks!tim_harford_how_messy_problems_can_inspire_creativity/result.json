@@ -10,6 +10,8 @@
   },
   "contentSize": 19678,
   "contentUrl": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "apple-mobile-web-app-title": "TED.com",
@@ -29,28 +31,75 @@
     "keywords": "TED, talks, cognitive science, collaboration, composing, creativity, innovation, music, potential, psychology, success, work",
     "title": "Cancel search"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/VideoObject",
-      "author": {
-        "@type": "http://schema.org/Person",
-        "image": "http://pe.tedcdn.com/images/ted/05df61476973da030b1688b966028d4c25dd2905_254x191.jpg",
-        "name": "Tim Harford",
-        "url": "https://www.ted.com/speakers/tim_harford"
-      },
-      "description": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess.",
-      "duration": "PT15M32S",
-      "embedURL": "https://embed-ssl.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
-      "height": "360",
-      "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "name": "How frustration can make us more creative",
-      "playerType": "Flash HTML5",
-      "thumbnailUrl": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?quality=95&w=480",
-      "uploadDate": "2016-01-11T16:35:43+00:00",
-      "url": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
-      "width": "640"
-    }
-  ],
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "VideoObject",
+        "author": {
+          "@type": "Person",
+          "image": {
+            "@language": "en",
+            "@value": "http://pe.tedcdn.com/images/ted/05df61476973da030b1688b966028d4c25dd2905_254x191.jpg"
+          },
+          "name": {
+            "@language": "en",
+            "@value": "Tim Harford"
+          },
+          "url": {
+            "@language": "en",
+            "@value": "https://www.ted.com/speakers/tim_harford"
+          }
+        },
+        "description": {
+          "@language": "en",
+          "@value": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess."
+        },
+        "duration": {
+          "@language": "en",
+          "@value": "PT15M32S"
+        },
+        "embedURL": {
+          "@language": "en",
+          "@value": "https://embed-ssl.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity"
+        },
+        "height": {
+          "@language": "en",
+          "@value": "360"
+        },
+        "license": {
+          "@language": "en",
+          "@value": "http://creativecommons.org/licenses/by-nc-nd/3.0/"
+        },
+        "name": {
+          "@language": "en",
+          "@value": "How frustration can make us more creative"
+        },
+        "playerType": {
+          "@language": "en",
+          "@value": "Flash HTML5"
+        },
+        "thumbnailUrl": {
+          "@language": "en",
+          "@value": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?quality=95&w=480"
+        },
+        "uploadDate": {
+          "@language": "en",
+          "@value": "2016-01-11T16:35:43+00:00"
+        },
+        "url": {
+          "@language": "en",
+          "@value": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity"
+        },
+        "width": {
+          "@language": "en",
+          "@value": "640"
+        }
+      }
+    ]
+  },
   "oembed": {
     "author_name": "Tim Harford",
     "author_url": "https://www.ted.com/speakers/tim_harford",
@@ -70,30 +119,135 @@
     "width": 560
   },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess.",
-      "http://ogp.me/ns#image": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?c=1050%2C550&w=1050",
-      "http://ogp.me/ns#image:height": "550",
-      "http://ogp.me/ns#image:secure_url": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?c=1050%2C550&w=1050",
-      "http://ogp.me/ns#image:width": "1050",
-      "http://ogp.me/ns#title": "How frustration can make us more creative",
-      "http://ogp.me/ns#type": "video.other",
-      "http://ogp.me/ns#url": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
-      "http://ogp.me/ns/video#duration": "932",
-      "http://ogp.me/ns/video#release_date": "1452530143",
-      "http://ogp.me/ns/video#tag": [
-        "cognitive science",
-        "collaboration",
-        "composing",
-        "creativity",
-        "innovation",
-        "music",
-        "potential",
-        "psychology",
-        "success",
-        "work"
-      ]
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#",
+      "video": "http://ogp.me/ns/video#"
+    },
+    "@graph": [
+      {
+        "al:android:app_name": {
+          "@language": "en",
+          "@value": "TED"
+        },
+        "al:android:package": {
+          "@language": "en",
+          "@value": "com.ted.android"
+        },
+        "al:android:url": {
+          "@language": "en",
+          "@value": "ted://talks/tim_harford_how_messy_problems_can_inspire_creativity?source=facebook"
+        },
+        "al:ios:app_name": {
+          "@language": "en",
+          "@value": "TED"
+        },
+        "al:ios:app_store_id": {
+          "@language": "en",
+          "@value": "376183339"
+        },
+        "al:ios:url": {
+          "@language": "en",
+          "@value": "ted://x-callback-url/talk?talkID=2401&source=facebook"
+        },
+        "al:web:url": {
+          "@language": "en",
+          "@value": "http://applinks.org/documentation"
+        },
+        "fb:app_id": {
+          "@language": "en",
+          "@value": "201021956610141"
+        },
+        "og:description": {
+          "@language": "en",
+          "@value": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess."
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?c=1050%2C550&w=1050"
+        },
+        "og:image:height": {
+          "@language": "en",
+          "@value": "550"
+        },
+        "og:image:secure_url": {
+          "@language": "en",
+          "@value": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?c=1050%2C550&w=1050"
+        },
+        "og:image:width": {
+          "@language": "en",
+          "@value": "1050"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "How frustration can make us more creative"
+        },
+        "og:type": {
+          "@language": "en",
+          "@value": "video.other"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity"
+        },
+        "twitter:image": {
+          "@language": "en",
+          "@value": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?w=1200"
+        },
+        "video:duration": {
+          "@language": "en",
+          "@value": "932"
+        },
+        "video:release_date": {
+          "@language": "en",
+          "@value": "1452530143"
+        },
+        "video:tag": [
+          {
+            "@language": "en",
+            "@value": "cognitive science"
+          },
+          {
+            "@language": "en",
+            "@value": "collaboration"
+          },
+          {
+            "@language": "en",
+            "@value": "composing"
+          },
+          {
+            "@language": "en",
+            "@value": "creativity"
+          },
+          {
+            "@language": "en",
+            "@value": "innovation"
+          },
+          {
+            "@language": "en",
+            "@value": "music"
+          },
+          {
+            "@language": "en",
+            "@value": "potential"
+          },
+          {
+            "@language": "en",
+            "@value": "psychology"
+          },
+          {
+            "@language": "en",
+            "@value": "success"
+          },
+          {
+            "@language": "en",
+            "@value": "work"
+          }
+        ]
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "app:id:googleplay": "com.ted.android",

@@ -4,17 +4,14 @@
   "author": {
     "name": "Emily Calandrelli"
   },
-  "canonicalUrl": "http://social.techcrunch.com/",
+  "canonicalUrl": "https://techcrunch.com/",
   "contentUrl": "https://techcrunch.com/",
   "description": "TechCrunch is a leading technology media property, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news.",
   "encodingFormat": "text/html",
-  "headline": "TechCrunch",
+  "headline": "TechCrunch - The latest technology news and information on startups",
   "icon": {
     "type": "image/x-icon",
     "url": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico"
-  },
-  "image": {
-    "url": "https://tctechcrunch2011.files.wordpress.com/2016/08/spacex-jcsat-landing.jpg?w=764&h=400&crop=1"
   },
   "provider": {
     "name": "TechCrunch"

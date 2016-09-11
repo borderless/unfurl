@@ -3,7 +3,7 @@
   },
   "author": {
   },
-  "canonicalUrl": "https://atom.io/packages/aesthetic-ui",
+  "canonicalUrl": "https://atom.io/themes/aesthetic-ui",
   "contentSize": 13857,
   "contentUrl": "https://atom.io/themes/aesthetic-ui",
   "description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
@@ -15,11 +15,7 @@
   "icon": {
     "url": "https://atom.io/favicon.ico"
   },
-  "image": {
-    "url": "http://i.imgur.com/455A2im.png"
-  },
   "provider": {
-    "name": "Atom"
   },
   "twitter": {
     "creatorHandle": "https://github.com/dtinth",

@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "icons": [
@@ -9,26 +13,40 @@
     ],
     "title": "Digital Nomad list - Google Sheets"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/CreativeWork/SpreadsheetObject",
-      "embedURL": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/preview?usp=embed_googleplus",
-      "faviconUrl": "//ssl.gstatic.com/docs/spreadsheets/favicon_jfk2.png",
-      "name": "Digital Nomad list",
-      "url": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing&usp=embed_googleplus"
-    }
-  ],
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/CreativeWork/"
+        },
+        "@type": "SpreadsheetObject",
+        "embedURL": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/preview?usp=embed_googleplus",
+        "faviconUrl": "//ssl.gstatic.com/docs/spreadsheets/favicon_jfk2.png",
+        "name": "Digital Nomad list",
+        "url": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing&usp=embed_googleplus"
+      }
+    ]
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "Sheet1 Location, I offer, Day Rate( USD), Languages, I' m looking for( work, ideas, tips etc), E-mail/ contact, Website, Twitter, LinkedIn, Required Language?, Deadline Beichen Fan, Remote, Full stack Javascript engineering: Backbone/ AngularJS/ Bootstrap/ JQuery, Node. js, MongoDB,, EN/ CHINE...",
-      "http://ogp.me/ns#image": "https://lh5.googleusercontent.com/JOwVgKkkY2VSYHtF1htVhKJPRyg87Fe8OkCMGTvTzi69ao1ZUSUygnjxk1O5GA6CubD8Sw=w1200-h630-p",
-      "http://ogp.me/ns#image:height": "630",
-      "http://ogp.me/ns#image:width": "1200",
-      "http://ogp.me/ns#site_name": "Google Docs",
-      "http://ogp.me/ns#title": "Digital Nomad list",
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#url": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing&usp=embed_facebook"
-    }
+    "@context": {
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "og:description": "Sheet1 Location, I offer, Day Rate( USD), Languages, I' m looking for( work, ideas, tips etc), E-mail/ contact, Website, Twitter, LinkedIn, Required Language?, Deadline Beichen Fan, Remote, Full stack Javascript engineering: Backbone/ AngularJS/ Bootstrap/ JQuery, Node. js, MongoDB,, EN/ CHINE...",
+        "og:image": "https://lh5.googleusercontent.com/JOwVgKkkY2VSYHtF1htVhKJPRyg87Fe8OkCMGTvTzi69ao1ZUSUygnjxk1O5GA6CubD8Sw=w1200-h630-p",
+        "og:image:height": "630",
+        "og:image:width": "1200",
+        "og:site_name": "Google Docs",
+        "og:title": "Digital Nomad list",
+        "og:type": "article",
+        "og:url": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing&usp=embed_facebook"
+      }
+    ]
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

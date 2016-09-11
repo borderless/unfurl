@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 82450,
   "contentUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
@@ -19,14 +23,50 @@
     "keywords": "reddit, reddit.com, vote, comment, submit",
     "title": "'UK man' tried to kill Trump: court papers : news"
   },
+  "microdata": {
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "4915 points and 7138 comments so far on reddit",
-      "http://ogp.me/ns#image": "https://www.redditstatic.com/icon.png",
-      "http://ogp.me/ns#site_name": "reddit",
-      "http://ogp.me/ns#title": "'UK man' tried to kill Trump: court papers • /r/news",
-      "http://ogp.me/ns#ttl": "600"
-    }
+    "@context": {
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "og:description": {
+          "@language": "en",
+          "@value": "4915 points and 7138 comments so far on reddit"
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "https://www.redditstatic.com/icon.png"
+        },
+        "og:site_name": {
+          "@language": "en",
+          "@value": "reddit"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "'UK man' tried to kill Trump: court papers • /r/news"
+        },
+        "og:ttl": {
+          "@language": "en",
+          "@value": "600"
+        },
+        "twitter:card": {
+          "@language": "en",
+          "@value": "summary"
+        },
+        "twitter:site": {
+          "@language": "en",
+          "@value": "reddit"
+        },
+        "twitter:title": {
+          "@language": "en",
+          "@value": "'UK man' tried to kill Trump: court papers • /r/news"
+        }
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary",

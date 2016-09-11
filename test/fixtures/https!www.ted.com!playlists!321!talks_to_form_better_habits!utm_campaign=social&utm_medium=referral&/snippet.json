@@ -27,16 +27,13 @@
   "entity": {
     "type": "image"
   },
-  "headline": "8 TED Talks to form better habits",
+  "headline": "Cancel search",
   "icon": {
     "sizes": "any",
     "url": "https://pa.tedcdn.com/favicon.svg"
   },
   "image": {
-    "height": 550,
-    "secureUrl": "https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050",
-    "url": "https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050",
-    "width": 1050
+    "url": "https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050"
   },
   "provider": {
     "name": "TED.com"

@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 23066,
   "contentUrl": "https://adactio.com/journal/9881",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "author": "Jeremy Keith",
@@ -30,13 +34,34 @@
     ],
     "title": "Adactio: Journal—Metadata markup"
   },
+  "microdata": {
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "So many standards to choose from.",
-      "http://ogp.me/ns#image": "https://adactio.com/images/photo-300.jpg",
-      "http://ogp.me/ns#title": "Metadata markup",
-      "http://ogp.me/ns#url": "https://adactio.com/journal/9881"
-    }
+    "@context": {
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "og:description": {
+          "@language": "en",
+          "@value": "So many standards to choose from."
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "https://adactio.com/images/photo-300.jpg"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "Metadata markup"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://adactio.com/journal/9881"
+        }
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary",

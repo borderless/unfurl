@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 247720,
   "contentUrl": "https://www.w3.org/TR/json-ld/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "icons": [
@@ -11,33 +15,239 @@
     ],
     "title": "JSON-LD 1.0"
   },
+  "microdata": {
+  },
   "rdfa": {
-    "": {
-      "http://purl.org/dc/terms/abstract": "Abstract JSON is a useful data serialization and messaging format. This specification defines JSON-LD, a JSON-based format to serialize Linked Data. The syntax is designed to easily integrate into deployed systems that already use JSON, and provides a smooth upgrade path from JSON to JSON-LD. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines.",
-      "http://purl.org/dc/terms/issued": "2014-01-15T23:00:00.000Z",
-      "http://purl.org/dc/terms/language": "en",
-      "http://purl.org/dc/terms/title": "JSON-LD 1.0",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-        "http://xmlns.com/foaf/0.1/Person",
-        "http://xmlns.com/foaf/0.1/Person",
-        "http://xmlns.com/foaf/0.1/Person",
-        "http://xmlns.com/foaf/0.1/Person",
-        "http://xmlns.com/foaf/0.1/Person",
-        "http://xmlns.com/foaf/0.1/Person",
-        "http://xmlns.com/foaf/0.1/Person",
-        "http://xmlns.com/foaf/0.1/Person"
-      ],
-      "http://xmlns.com/foaf/0.1/name": [
-        "Manu Sporny",
-        "Gregg Kellogg",
-        "Markus Lanthaler",
-        "Manu Sporny",
-        "Dave Longley",
-        "Gregg Kellogg",
-        "Markus Lanthaler",
-        "Niklas Lindström"
-      ]
-    }
+    "@context": {
+      "dcterms": "http://purl.org/dc/terms/",
+      "foaf": "http://xmlns.com/foaf/0.1/"
+    },
+    "@graph": [
+      {
+        "@type": [
+          "bibo:Document",
+          "w3p:REC"
+        ],
+        "bibo:chapter": [
+          {
+            "@id": "#abstract",
+            "@type": "bibo:Chapter"
+          },
+          {
+            "@id": "#sotd",
+            "@type": "bibo:Chapter",
+            "w3p:patentRules": {
+              "@id": "http://www.w3.org/Consortium/Patent-Policy-20040205/"
+            }
+          },
+          {
+            "@id": "#references",
+            "@type": "bibo:Chapter",
+            "bibo:chapter": [
+              {
+                "@id": "#normative-references",
+                "@type": "bibo:Chapter",
+                "dcterms:requires": [
+                  {
+                    "@id": "http://tools.ietf.org/html/bcp47"
+                  },
+                  {
+                    "@id": "http://www.w3.org/TR/2014/PR-rdf11-concepts-20140109/"
+                  },
+                  {
+                    "@id": "http://www.ietf.org/rfc/rfc2119.txt"
+                  },
+                  {
+                    "@id": "http://www.ietf.org/rfc/rfc3987.txt"
+                  },
+                  {
+                    "@id": "http://www.ietf.org/rfc/rfc4627.txt"
+                  },
+                  {
+                    "@id": "http://www.ietf.org/rfc/rfc5988.txt"
+                  }
+                ]
+              },
+              {
+                "@id": "#informative-references",
+                "@type": "bibo:Chapter",
+                "dcterms:references": [
+                  {
+                    "@id": "http://www.ietf.org/rfc/rfc2616.txt"
+                  },
+                  {
+                    "@id": "http://www.w3.org/TR/json-ld-api/"
+                  },
+                  {
+                    "@id": "http://www.w3.org/DesignIssues/LinkedData.html"
+                  },
+                  {
+                    "@id": "http://www.w3.org/TR/2013/NOTE-microdata-20131029/"
+                  },
+                  {
+                    "@id": "http://microformats.org"
+                  },
+                  {
+                    "@id": "http://www.w3.org/TR/2014/PR-rdf11-mt-20140109/"
+                  },
+                  {
+                    "@id": "http://www.w3.org/TR/2014/PER-rdf-schema-20140109/"
+                  },
+                  {
+                    "@id": "http://www.w3.org/TR/rdfa-core/"
+                  },
+                  {
+                    "@id": "http://www.ietf.org/rfc/rfc3986.txt"
+                  },
+                  {
+                    "@id": "http://www.ietf.org/rfc/rfc6839.txt"
+                  },
+                  {
+                    "@id": "http://www.ietf.org/rfc/rfc6906.txt"
+                  },
+                  {
+                    "@id": "http://www.w3.org/TR/2014/PR-turtle-20140109/"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "bibo:editor": [
+          {
+            "@type": "foaf:Person",
+            "foaf:homepage": {
+              "@id": "http://manu.sporny.org/"
+            },
+            "foaf:name": {
+              "@language": "en",
+              "@value": "Manu Sporny"
+            },
+            "foaf:workplaceHomepage": {
+              "@id": "http://digitalbazaar.com/"
+            }
+          },
+          {
+            "@type": "foaf:Person",
+            "foaf:homepage": {
+              "@id": "http://greggkellogg.net/"
+            },
+            "foaf:name": {
+              "@language": "en",
+              "@value": "Gregg Kellogg"
+            },
+            "foaf:workplaceHomepage": {
+              "@id": "http://kellogg-assoc.com/"
+            }
+          },
+          {
+            "@type": "foaf:Person",
+            "foaf:homepage": {
+              "@id": "http://www.markus-lanthaler.com/"
+            },
+            "foaf:name": {
+              "@language": "en",
+              "@value": "Markus Lanthaler"
+            },
+            "foaf:workplaceHomepage": {
+              "@id": "http://www.tugraz.at/"
+            }
+          }
+        ],
+        "bibo:subtitle": {
+          "@language": "en",
+          "@value": "A JSON-based Serialization for Linked Data"
+        },
+        "dcterms:abstract": {
+          "@language": "en",
+          "@value": "Abstract JSON is a useful data serialization and messaging format. This specification defines JSON-LD, a JSON-based format to serialize Linked Data. The syntax is designed to easily integrate into deployed systems that already use JSON, and provides a smooth upgrade path from JSON to JSON-LD. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines."
+        },
+        "dcterms:contributor": [
+          {
+            "@type": "foaf:Person",
+            "foaf:homepage": {
+              "@id": "http://digitalbazaar.com/"
+            },
+            "foaf:name": {
+              "@language": "en",
+              "@value": "Manu Sporny"
+            },
+            "foaf:workplaceHomepage": {
+              "@id": "http://digitalbazaar.com/"
+            }
+          },
+          {
+            "@type": "foaf:Person",
+            "foaf:homepage": {
+              "@id": "http://digitalbazaar.com/"
+            },
+            "foaf:name": {
+              "@language": "en",
+              "@value": "Dave Longley"
+            },
+            "foaf:workplaceHomepage": {
+              "@id": "http://digitalbazaar.com/"
+            }
+          },
+          {
+            "@type": "foaf:Person",
+            "foaf:homepage": {
+              "@id": "http://greggkellogg.net/"
+            },
+            "foaf:name": {
+              "@language": "en",
+              "@value": "Gregg Kellogg"
+            },
+            "foaf:workplaceHomepage": {
+              "@id": "http://kellogg-assoc.com/"
+            }
+          },
+          {
+            "@type": "foaf:Person",
+            "foaf:homepage": {
+              "@id": "http://www.markus-lanthaler.com/"
+            },
+            "foaf:name": {
+              "@language": "en",
+              "@value": "Markus Lanthaler"
+            },
+            "foaf:workplaceHomepage": {
+              "@id": "http://www.tugraz.at/"
+            }
+          },
+          {
+            "@type": "foaf:Person",
+            "foaf:homepage": {
+              "@id": "http://neverspace.net/"
+            },
+            "foaf:name": {
+              "@language": "en",
+              "@value": "Niklas Lindström"
+            }
+          }
+        ],
+        "dcterms:issued": {
+          "@language": "en",
+          "@type": "xsd:dateTime",
+          "@value": "2014-01-15T23:00:00.000Z"
+        },
+        "dcterms:language": {
+          "@language": "en",
+          "@value": "en"
+        },
+        "dcterms:replaces": {
+          "@id": "http://www.w3.org/TR/2013/PR-json-ld-20131105/"
+        },
+        "dcterms:title": {
+          "@language": "en",
+          "@value": "JSON-LD 1.0"
+        }
+      }
+    ]
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

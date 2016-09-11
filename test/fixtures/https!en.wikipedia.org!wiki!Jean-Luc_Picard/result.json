@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 25687,
   "contentUrl": "https://en.wikipedia.org/wiki/Jean-Luc_Picard",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://en.wikipedia.org/wiki/Jean-Luc_Picard",
@@ -10,6 +14,14 @@
       }
     ],
     "title": "Jean-Luc Picard - Wikipedia, the free encyclopedia"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

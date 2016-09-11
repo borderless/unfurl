@@ -24,15 +24,16 @@
   "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
   "encodingFormat": "text/html",
   "entity": {
-    "section": "Opinion",
-    "type": "article"
+    "html": "<iframe src=\"https://www.nytimes.com/svc/oembed/html/?url=http%3A%2F%2Fwww.nytimes.com%2F2016%2F06%2F15%2Fopinion%2Fcampaign-stops%2Fdecoding-donald-trump.html\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" style=\"border:none;max-width:500px;min-width:300px;min-height:550px;display:block;width:100%;\"></iframe>",
+    "type": "rich"
   },
   "headline": "Decoding Donald Trump",
   "icon": {
     "url": "https://static01.nyt.com/favicon.ico"
   },
   "image": {
-    "url": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-facebookJumbo.jpg"
+    "alt": "Donald Trump as seen through a television camera eyepiece, at an event Monday.",
+    "url": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-videoSixteenByNineJumbo1600.jpg"
   },
   "provider": {
     "name": "The New York Times",

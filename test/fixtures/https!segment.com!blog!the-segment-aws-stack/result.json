@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 10188,
   "contentUrl": "https://segment.com/blog/the-segment-aws-stack/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "author": "Calvin French-Owen",
@@ -13,14 +17,23 @@
     ],
     "title": "The Segment AWS Stack"
   },
+  "microdata": {
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!",
-      "http://ogp.me/ns#image": "https://segment.com/blog/the-segment-aws-stack/images/main.png",
-      "http://ogp.me/ns#site_name": "Segment Blog",
-      "http://ogp.me/ns#title": "The Segment AWS Stack",
-      "http://ogp.me/ns#type": "blog"
-    }
+    "@context": {
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "og:description": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!",
+        "og:image": "https://segment.com/blog/the-segment-aws-stack/images/main.png",
+        "og:site_name": "Segment Blog",
+        "og:title": "The Segment AWS Stack",
+        "og:type": "blog"
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "Segment is the analytics API you've always wanted. It's the easiest way to install all of your favorite analytics tools at once!",

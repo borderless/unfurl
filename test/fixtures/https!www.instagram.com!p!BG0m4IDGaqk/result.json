@@ -9,6 +9,8 @@
   },
   "contentSize": 5031,
   "contentUrl": "https://www.instagram.com/p/BG0m4IDGaqk/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://www.instagram.com/p/BG0m4IDGaqk/",
@@ -25,15 +27,151 @@
     ],
     "title": "Instagram"
   },
+  "microdata": {
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "See this Instagram photo by @minaalofficial • 104 likes",
-      "http://ogp.me/ns#image": "https://instagram.fmel2-1.fna.fbcdn.net/t51.2885-15/e35/13355676_1724260121146276_372407195_n.jpg?ig_cache_key=MTI3NTgxNTU3NzE1Mjc2MDQ4NA%3D%3D.2",
-      "http://ogp.me/ns#site_name": "Instagram",
-      "http://ogp.me/ns#title": "Instagram photo by #Minaal • Jun 19, 2016 at 4:04am UTC",
-      "http://ogp.me/ns#type": "instapp:photo",
-      "http://ogp.me/ns#url": "https://www.instagram.com/p/BG0m4IDGaqk/"
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "al:android:app_name": {
+          "@language": "en",
+          "@value": "Instagram"
+        },
+        "al:android:package": {
+          "@language": "en",
+          "@value": "com.instagram.android"
+        },
+        "al:android:url": {
+          "@language": "en",
+          "@value": "https://www.instagram.com/p/BG0m4IDGaqk/"
+        },
+        "al:ios:app_name": {
+          "@language": "en",
+          "@value": "Instagram"
+        },
+        "al:ios:app_store_id": {
+          "@language": "en",
+          "@value": "389801252"
+        },
+        "al:ios:url": {
+          "@language": "en",
+          "@value": "instagram://media?id=1275815577152760484"
+        },
+        "fb:app_id": {
+          "@language": "en",
+          "@value": "124024574287414"
+        },
+        "instapp:hashtags": [
+          {
+            "@language": "en",
+            "@value": "regram"
+          },
+          {
+            "@language": "en",
+            "@value": "nomadlife"
+          },
+          {
+            "@language": "en",
+            "@value": "laundry"
+          },
+          {
+            "@language": "en",
+            "@value": "newyorkcity"
+          },
+          {
+            "@language": "en",
+            "@value": "office"
+          },
+          {
+            "@language": "en",
+            "@value": "newyork"
+          },
+          {
+            "@language": "en",
+            "@value": "laptop"
+          },
+          {
+            "@language": "en",
+            "@value": "officeoftheday"
+          },
+          {
+            "@language": "en",
+            "@value": "welltraveled"
+          },
+          {
+            "@language": "en",
+            "@value": "myoffice"
+          },
+          {
+            "@language": "en",
+            "@value": "tompkinssquare"
+          },
+          {
+            "@language": "en",
+            "@value": "digitalnomad"
+          },
+          {
+            "@language": "en",
+            "@value": "locationindependent"
+          },
+          {
+            "@language": "en",
+            "@value": "roamtheplanet"
+          },
+          {
+            "@language": "en",
+            "@value": "nyc"
+          },
+          {
+            "@language": "en",
+            "@value": "justgoshoot"
+          },
+          {
+            "@language": "en",
+            "@value": "laundromat"
+          },
+          {
+            "@language": "en",
+            "@value": "hustle"
+          }
+        ],
+        "instapp:owner_user_id": {
+          "@language": "en",
+          "@value": "1178566641"
+        },
+        "og:description": {
+          "@language": "en",
+          "@value": "See this Instagram photo by @minaalofficial • 104 likes"
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "https://instagram.fmel2-1.fna.fbcdn.net/t51.2885-15/e35/13355676_1724260121146276_372407195_n.jpg?ig_cache_key=MTI3NTgxNTU3NzE1Mjc2MDQ4NA%3D%3D.2"
+        },
+        "og:site_name": {
+          "@language": "en",
+          "@value": "Instagram"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "Instagram photo by #Minaal • Jun 19, 2016 at 4:04am UTC"
+        },
+        "og:type": {
+          "@language": "en",
+          "@value": "instapp:photo"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://www.instagram.com/p/BG0m4IDGaqk/"
+        }
+      }
+    ]
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

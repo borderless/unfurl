@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 21742,
   "contentUrl": "https://www.spotify.com/au/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://www.spotify.com/",
@@ -13,14 +17,45 @@
     "keywords": "Spotify, music, online, listen, streaming, play, digital, album, artist, playlist",
     "title": "Music for everyone - Spotify"
   },
+  "microdata": {
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "Spotify is all the music you’ll ever need.",
-      "http://ogp.me/ns#image": "http://d2c87l0yth4zbw.global.ssl.fastly.net/i/_global/open-graph-default.png",
-      "http://ogp.me/ns#title": "Music for everyone.",
-      "http://ogp.me/ns#type": "website",
-      "http://ogp.me/ns#url": "https://www.spotify.com/au/"
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "fb:app_id": {
+          "@language": "en",
+          "@value": "174829003346"
+        },
+        "og:description": {
+          "@language": "en",
+          "@value": "Spotify is all the music you’ll ever need."
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "http://d2c87l0yth4zbw.global.ssl.fastly.net/i/_global/open-graph-default.png"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "Music for everyone."
+        },
+        "og:type": {
+          "@language": "en",
+          "@value": "website"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://www.spotify.com/au/"
+        }
+      }
+    ]
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

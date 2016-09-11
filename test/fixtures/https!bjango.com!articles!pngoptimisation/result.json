@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 15734,
   "contentUrl": "https://bjango.com/articles/pngoptimisation/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "apple-mobile-web-app-title": "Bjango",
@@ -12,6 +16,14 @@
       }
     ],
     "title": "PNG optimisation"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

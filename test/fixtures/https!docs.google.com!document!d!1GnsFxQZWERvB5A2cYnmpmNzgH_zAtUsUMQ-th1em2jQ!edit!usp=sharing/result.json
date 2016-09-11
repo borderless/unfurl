@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "icons": [
@@ -9,26 +13,40 @@
     ],
     "title": "Bay Area Guide to Mission Series/Banners - Google Docs"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/CreativeWork/DocumentObject",
-      "embedURL": "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/preview?usp=embed_googleplus",
-      "faviconUrl": "https://ssl.gstatic.com/docs/documents/images/kix-favicon6.ico",
-      "name": "Bay Area Guide to Mission Series/Banners",
-      "url": "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing&usp=embed_googleplus"
-    }
-  ],
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/CreativeWork/"
+        },
+        "@type": "DocumentObject",
+        "embedURL": "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/preview?usp=embed_googleplus",
+        "faviconUrl": "https://ssl.gstatic.com/docs/documents/images/kix-favicon6.ico",
+        "name": "Bay Area Guide to Mission Series/Banners",
+        "url": "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing&usp=embed_googleplus"
+      }
+    ]
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "Guide to Ingress Mission Series/Banners in the Greater SF Bay Area contributors: @katranrocks (Kate Magary), @strandit (Bryant Durrell), @hiryu (Brett Allen), @011101000101001 (Florian Sauer), @FlyingRobot (Timothy Appel), @freddd123 (Austin), @jookwarrior (Andy), @VeIocipractor (TZ), @phthoruth ...",
-      "http://ogp.me/ns#image": "https://lh4.googleusercontent.com/mRveTQA06RV1oCWNnA6CiDyPwMd5Uz0pTdTIzLR3NdTENlixSZCN17Ry2zUiYXHX6ZanMA=w1200-h630-p",
-      "http://ogp.me/ns#image:height": "630",
-      "http://ogp.me/ns#image:width": "1200",
-      "http://ogp.me/ns#site_name": "Google Docs",
-      "http://ogp.me/ns#title": "Bay Area Guide to Mission Series/Banners",
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#url": "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing&usp=embed_facebook"
-    }
+    "@context": {
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "og:description": "Guide to Ingress Mission Series/Banners in the Greater SF Bay Area contributors: @katranrocks (Kate Magary), @strandit (Bryant Durrell), @hiryu (Brett Allen), @011101000101001 (Florian Sauer), @FlyingRobot (Timothy Appel), @freddd123 (Austin), @jookwarrior (Andy), @VeIocipractor (TZ), @phthoruth ...",
+        "og:image": "https://lh4.googleusercontent.com/mRveTQA06RV1oCWNnA6CiDyPwMd5Uz0pTdTIzLR3NdTENlixSZCN17Ry2zUiYXHX6ZanMA=w1200-h630-p",
+        "og:image:height": "630",
+        "og:image:width": "1200",
+        "og:site_name": "Google Docs",
+        "og:title": "Bay Area Guide to Mission Series/Banners",
+        "og:type": "article",
+        "og:url": "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing&usp=embed_facebook"
+      }
+    ]
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

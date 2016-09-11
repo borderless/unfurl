@@ -15,6 +15,8 @@
     "windows_phone:url": "foursquare://venues/4ed4896c775b45f6ed7b0182"
   },
   "contentUrl": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "application-name": "Foursquare",
@@ -29,40 +31,94 @@
     "keywords": "The Baxter Inn, 152 - 156 Clarence St., Sydney, NSW, baxter inn,the baxter inn, Whisky Bar, Bar, Speakeasy",
     "title": "The Baxter Inn - Whisky Bar in Sydney"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/LocalBusiness",
-      "address": {
-        "@type": "http://schema.org/PostalAddress",
-        "addressLocality": "Sydney",
-        "addressRegion": "NSW",
-        "postalCode": "2000",
-        "streetAddress": "152 - 156 Clarence St."
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "LocalBusiness",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sydney",
+          "addressRegion": "NSW",
+          "postalCode": "2000",
+          "streetAddress": "152 - 156 Clarence St."
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "bestRating": "10",
+          "ratingCount": "410",
+          "ratingValue": "9.2"
+        },
+        "name": "The Baxter Inn",
+        "url": "http://thebaxterinn.com/"
       },
-      "aggregateRating": {
-        "@type": "http://schema.org/AggregateRating",
-        "bestRating": "10",
-        "ratingCount": "410",
-        "ratingValue": "9.2"
-      },
-      "name": "The Baxter Inn",
-      "url": "http://thebaxterinn.com/"
-    }
-  ],
+      {
+        "@context": {
+          "@vocab": "http://data-vocabulary.org/"
+        },
+        "@type": "Breadcrumb",
+        "child": {
+          "@type": "Breadcrumb",
+          "child": {
+            "@type": "Breadcrumb",
+            "title": "Whisky Bar",
+            "url": "https://foursquare.com/explore?q=Whisky%20Bar&near=Sydney%20City%20Center%20Sydney%2C%20NSW"
+          },
+          "title": "Bar",
+          "url": "https://foursquare.com/explore?q=Bar&near=Sydney%20City%20Center%20Sydney%2C%20NSW"
+        },
+        "title": "Nightlife Spot",
+        "url": "https://foursquare.com/explore?q=Nightlife%20Spot&near=Sydney%20City%20Center%20Sydney%2C%20NSW"
+      }
+    ]
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "Whisky Bar in Sydney, NSW",
-      "http://ogp.me/ns#image": [
-        "https://irs2.4sqi.net/img/general/600x600/13692844_gLU3tu6y4S6bcPDyiS1y9GU9ZkghXDaMJE9xFnPuVmo.jpg",
-        "https://irs3.4sqi.net/img/general/600x600/ndClpMwl_-05I1_AQ5zcogSS4f7ZTRuOgU93S3UoMpA.jpg",
-        "https://irs0.4sqi.net/img/general/600x600/32255700_HW4bsR2VOBsF_FPW2zXjRB8gc09xOYzVKKHpHSlhcpk.jpg",
-        "https://irs3.4sqi.net/img/general/600x600/zkX2UTm0dXiVcb5nUQ18vmdl-P2XVO5Pg25ITmrr4Ls.jpg"
-      ],
-      "http://ogp.me/ns#site_name": "Foursquare",
-      "http://ogp.me/ns#title": "The Baxter Inn",
-      "http://ogp.me/ns#type": "playfoursquare:venue",
-      "http://ogp.me/ns#url": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182"
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "al:android:app_name": "Foursquare",
+        "al:android:package": "com.joelapenna.foursquared",
+        "al:android:url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+        "al:ipad:app_name": "Foursquare",
+        "al:ipad:app_store_id": "306934924",
+        "al:ipad:url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+        "al:iphone:app_name": "Foursquare",
+        "al:iphone:app_store_id": "306934924",
+        "al:iphone:url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+        "al:web:should_fallback": "false",
+        "al:windows_phone:app_id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+        "al:windows_phone:app_name": "Foursquare",
+        "al:windows_phone:url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+        "fb:app_id": "86734274142",
+        "og:description": "Whisky Bar in Sydney, NSW",
+        "og:image": [
+          "https://irs2.4sqi.net/img/general/600x600/13692844_gLU3tu6y4S6bcPDyiS1y9GU9ZkghXDaMJE9xFnPuVmo.jpg",
+          "https://irs3.4sqi.net/img/general/600x600/ndClpMwl_-05I1_AQ5zcogSS4f7ZTRuOgU93S3UoMpA.jpg",
+          "https://irs0.4sqi.net/img/general/600x600/32255700_HW4bsR2VOBsF_FPW2zXjRB8gc09xOYzVKKHpHSlhcpk.jpg",
+          "https://irs3.4sqi.net/img/general/600x600/zkX2UTm0dXiVcb5nUQ18vmdl-P2XVO5Pg25ITmrr4Ls.jpg"
+        ],
+        "og:site_name": "Foursquare",
+        "og:title": "The Baxter Inn",
+        "og:type": "playfoursquare:venue",
+        "og:url": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
+        "playfoursquare:appears_on_lists": [
+          "https://foursquare.com/mocksiej/list/sydney-bars-and-tapas-style-food",
+          "https://foursquare.com/p/diplomatico-rum/16801663/list/worlds-50-best-bars-2012-by-drinks-international",
+          "https://foursquare.com/zackzachariah/list/drink-ints-50-best-bars-worldwide",
+          "https://foursquare.com/hendyo/list/sydneys-best-small-bars"
+        ],
+        "playfoursquare:location:latitude": "-33.86974743675177",
+        "playfoursquare:location:longitude": "151.20567083358765",
+        "playfoursquare:number_of_tips": "105"
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "app:id:googleplay": "com.joelapenna.foursquared",

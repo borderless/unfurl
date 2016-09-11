@@ -2,35 +2,20 @@
   "apps": {
   },
   "author": {
-    "name": "https://stratechery.com/author/stratechery/"
   },
   "canonicalUrl": "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/",
   "contentUrl": "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/",
-  "description": "The competition between Uber and Google has broken out into the open: who has the advantage in the evolution of transportation-as-a-service, and who will likely win?",
   "encodingFormat": "text/html",
-  "entity": {
-    "dateModified": "2016-09-01T18:43:52.000Z",
-    "datePublished": "2016-08-31T12:48:44.000Z",
-    "type": "article"
-  },
-  "headline": "Google, Uber, and the Evolution of Transportation-as-a-Service",
+  "headline": "Google, Uber, and the Evolution of Transportation-as-a-Service | Stratechery by Ben Thompson",
   "icon": {
     "type": "image/ico",
     "url": "https://stratechery.com/wp-content/themes/stratechery/images/IE/favicon.ico"
   },
-  "image": [
-    {
-      "url": "https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-287-1024x768.png"
-    },
-    {
-      "url": "https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288-1024x768.png"
-    }
-  ],
-  "locale": {
-    "primary": "en_US"
+  "image": {
+    "url": "https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-287-1024x768.png?w=240"
   },
   "provider": {
-    "name": "Stratechery by Ben Thompson"
+    "name": "stratechery"
   },
   "twitter": {
     "siteHandle": "stratechery"

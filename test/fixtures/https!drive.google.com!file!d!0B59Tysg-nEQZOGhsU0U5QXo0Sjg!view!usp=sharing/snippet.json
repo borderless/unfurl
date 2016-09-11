@@ -3,23 +3,14 @@
   },
   "author": {
   },
-  "canonicalUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing&usp=embed_facebook",
+  "canonicalUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing",
   "contentUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing",
   "encodingFormat": "text/html",
-  "entity": {
-    "type": "article"
-  },
-  "headline": "Overfitting.pdf",
+  "headline": "Overfitting.pdf - Google Drive",
   "icon": {
     "url": "https://ssl.gstatic.com/docs/doclist/images/icon_14_pdf_favicon.ico"
   },
-  "image": {
-    "height": 630,
-    "url": "https://lh3.googleusercontent.com/NhTHVkHHHjdp657GeFCWaeqFEUMsTJztjG0LrHhK9idtWVg0dbgOKQ=w1200-h630-p",
-    "width": 1200
-  },
   "provider": {
-    "name": "Google Docs"
   },
   "type": "html"
 }

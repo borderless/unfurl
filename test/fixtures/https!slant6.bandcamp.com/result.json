@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://slant6.bandcamp.com/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "icons": [
@@ -9,117 +13,178 @@
     ],
     "title": "Slant 6"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/MusicAlbum",
-      "byArtist": "Slant 6",
-      "datePublished": "19950101",
-      "description": "Slant 6's second full-length record, released in 1995.",
-      "image": "https://f4.bcbits.com/img/a1638428842_16.jpg",
-      "keywords": [
-        "https://bandcamp.com/tag/dischord",
-        "https://bandcamp.com/tag/punk",
-        "https://bandcamp.com/tag/washington-dc",
-        "https://bandcamp.com/tag/dischord",
-        "https://bandcamp.com/tag/washington"
-      ],
-      "name": "Inzombia",
-      "tracks": [
-        {
-          "@type": "http://www.schema.org/MusicRecording",
-          "duration": "P00H01M52S",
-          "name": "G.F.S.",
-          "url": "https://slant6.bandcamp.com/track/g-f-s"
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
         },
-        {
-          "@type": "http://www.schema.org/MusicRecording",
-          "duration": "P00H02M33S",
-          "name": "Babydoll",
-          "url": "https://slant6.bandcamp.com/track/babydoll"
+        "@type": "MusicAlbum",
+        "byArtist": "Slant 6",
+        "datePublished": "19950101",
+        "description": "Slant 6's second full-length record, released in 1995.",
+        "image": "https://f4.bcbits.com/img/a1638428842_16.jpg",
+        "keywords": [
+          "https://bandcamp.com/tag/dischord",
+          "https://bandcamp.com/tag/punk",
+          "https://bandcamp.com/tag/washington-dc",
+          "https://bandcamp.com/tag/dischord",
+          "https://bandcamp.com/tag/washington"
+        ],
+        "name": "Inzombia",
+        "tracks": [
+          {
+            "@context": {
+              "@vocab": "http://www.schema.org/"
+            },
+            "@type": "MusicRecording",
+            "duration": "P00H01M52S",
+            "name": "G.F.S.",
+            "url": "https://slant6.bandcamp.com/track/g-f-s"
+          },
+          {
+            "@context": {
+              "@vocab": "http://www.schema.org/"
+            },
+            "@type": "MusicRecording",
+            "duration": "P00H02M33S",
+            "name": "Babydoll",
+            "url": "https://slant6.bandcamp.com/track/babydoll"
+          },
+          {
+            "@context": {
+              "@vocab": "http://www.schema.org/"
+            },
+            "@type": "MusicRecording",
+            "duration": "P00H02M09S",
+            "name": "Click-Click",
+            "url": "https://slant6.bandcamp.com/track/click-click"
+          },
+          {
+            "@context": {
+              "@vocab": "http://www.schema.org/"
+            },
+            "@type": "MusicRecording",
+            "duration": "P00H01M27S",
+            "name": "Instrumental",
+            "url": "https://slant6.bandcamp.com/track/instrumental"
+          },
+          {
+            "@context": {
+              "@vocab": "http://www.schema.org/"
+            },
+            "@type": "MusicRecording",
+            "duration": "P00H02M25S",
+            "name": "Ladybug Superfly",
+            "url": "https://slant6.bandcamp.com/track/ladybug-superfly"
+          },
+          {
+            "@context": {
+              "@vocab": "http://www.schema.org/"
+            },
+            "@type": "MusicRecording",
+            "duration": "P00H01M30S",
+            "name": "Retro Duck",
+            "url": "https://slant6.bandcamp.com/track/retro-duck"
+          },
+          {
+            "@context": {
+              "@vocab": "http://www.schema.org/"
+            },
+            "@type": "MusicRecording",
+            "duration": "P00H02M12S",
+            "name": "Partner In Crime",
+            "url": "https://slant6.bandcamp.com/track/partner-in-crime"
+          },
+          {
+            "@context": {
+              "@vocab": "http://www.schema.org/"
+            },
+            "@type": "MusicRecording",
+            "duration": "P00H01M40S",
+            "name": "Victim Of Your Own Desires",
+            "url": "https://slant6.bandcamp.com/track/victim-of-your-own-desires"
+          },
+          {
+            "@context": {
+              "@vocab": "http://www.schema.org/"
+            },
+            "@type": "MusicRecording",
+            "duration": "P00H01M57S",
+            "name": "Eight Swimming Pools",
+            "url": "https://slant6.bandcamp.com/track/eight-swimming-pools"
+          },
+          {
+            "@context": {
+              "@vocab": "http://www.schema.org/"
+            },
+            "@type": "MusicRecording",
+            "duration": "P00H02M03S",
+            "name": "Insider Spider",
+            "url": "https://slant6.bandcamp.com/track/insider-spider"
+          },
+          {
+            "@context": {
+              "@vocab": "http://www.schema.org/"
+            },
+            "@type": "MusicRecording",
+            "duration": "P00H02M23S",
+            "name": "Mascaria",
+            "url": "https://slant6.bandcamp.com/track/mascaria"
+          },
+          {
+            "@context": {
+              "@vocab": "http://www.schema.org/"
+            },
+            "@type": "MusicRecording",
+            "duration": "P00H07M15S",
+            "name": "Inzombia",
+            "url": "https://slant6.bandcamp.com/track/inzombia"
+          }
+        ]
+      },
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
         },
-        {
-          "@type": "http://www.schema.org/MusicRecording",
-          "duration": "P00H02M09S",
-          "name": "Click-Click",
-          "url": "https://slant6.bandcamp.com/track/click-click"
-        },
-        {
-          "@type": "http://www.schema.org/MusicRecording",
-          "duration": "P00H01M27S",
-          "name": "Instrumental",
-          "url": "https://slant6.bandcamp.com/track/instrumental"
-        },
-        {
-          "@type": "http://www.schema.org/MusicRecording",
-          "duration": "P00H02M25S",
-          "name": "Ladybug Superfly",
-          "url": "https://slant6.bandcamp.com/track/ladybug-superfly"
-        },
-        {
-          "@type": "http://www.schema.org/MusicRecording",
-          "duration": "P00H01M30S",
-          "name": "Retro Duck",
-          "url": "https://slant6.bandcamp.com/track/retro-duck"
-        },
-        {
-          "@type": "http://www.schema.org/MusicRecording",
-          "duration": "P00H02M12S",
-          "name": "Partner In Crime",
-          "url": "https://slant6.bandcamp.com/track/partner-in-crime"
-        },
-        {
-          "@type": "http://www.schema.org/MusicRecording",
-          "duration": "P00H01M40S",
-          "name": "Victim Of Your Own Desires",
-          "url": "https://slant6.bandcamp.com/track/victim-of-your-own-desires"
-        },
-        {
-          "@type": "http://www.schema.org/MusicRecording",
-          "duration": "P00H01M57S",
-          "name": "Eight Swimming Pools",
-          "url": "https://slant6.bandcamp.com/track/eight-swimming-pools"
-        },
-        {
-          "@type": "http://www.schema.org/MusicRecording",
-          "duration": "P00H02M03S",
-          "name": "Insider Spider",
-          "url": "https://slant6.bandcamp.com/track/insider-spider"
-        },
-        {
-          "@type": "http://www.schema.org/MusicRecording",
-          "duration": "P00H02M23S",
-          "name": "Mascaria",
-          "url": "https://slant6.bandcamp.com/track/mascaria"
-        },
-        {
-          "@type": "http://www.schema.org/MusicRecording",
-          "duration": "P00H07M15S",
-          "name": "Inzombia",
-          "url": "https://slant6.bandcamp.com/track/inzombia"
-        }
-      ]
-    },
-    {
-      "@type": "http://schema.org/MusicGroup",
-      "description": "Formed in Washington, DC in 1992, Slant 6 was Christina Billotte, Myra Power, and Marge Marshall. The band did a number of US tours and released a single and two albums on Dischord. Slant 6 finally came to an end while on tour in England and played its last show with Fugazi in Leeds in 1995.",
-      "name": "Slant 6",
-      "url": "http://www.dischord.com/band/slant-6"
-    }
-  ],
+        "@type": "MusicGroup",
+        "description": "Formed in Washington, DC in 1992, Slant 6 was Christina Billotte, Myra Power, and Marge Marshall. The band did a number of US tours and released a single and two albums on Dischord. Slant 6 finally came to an end while on tour in England and played its last show with Fugazi in Leeds in 1995.",
+        "name": "Slant 6",
+        "url": "http://www.dischord.com/band/slant-6"
+      }
+    ]
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "12 track album",
-      "http://ogp.me/ns#image": "https://f4.bcbits.com/img/a1638428842_5.jpg",
-      "http://ogp.me/ns#site_name": "Slant 6",
-      "http://ogp.me/ns#title": "Inzombia, by Slant 6",
-      "http://ogp.me/ns#type": "album",
-      "http://ogp.me/ns#url": "http://slant6.bandcamp.com",
-      "http://ogp.me/ns#video": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
-      "http://ogp.me/ns#video:height": "120",
-      "http://ogp.me/ns#video:secure_url": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
-      "http://ogp.me/ns#video:type": "text/html",
-      "http://ogp.me/ns#video:width": "400"
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "fb:app_id": "165661066782720",
+        "og:description": "12 track album",
+        "og:image": "https://f4.bcbits.com/img/a1638428842_5.jpg",
+        "og:site_name": "Slant 6",
+        "og:title": "Inzombia, by Slant 6",
+        "og:type": "album",
+        "og:url": "http://slant6.bandcamp.com",
+        "og:video": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
+        "og:video:height": "120",
+        "og:video:secure_url": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
+        "og:video:type": "text/html",
+        "og:video:width": "400",
+        "twitter:card": "player",
+        "twitter:description": "12 track album",
+        "twitter:image": "https://f4.bcbits.com/img/a1638428842_2.jpg",
+        "twitter:player": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/linkcol=0084B4/notracklist=true/twittercard=true/",
+        "twitter:player:height": "467",
+        "twitter:player:width": "350",
+        "twitter:site": "bandcamp",
+        "twitter:title": "Inzombia, by Slant 6"
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "player",

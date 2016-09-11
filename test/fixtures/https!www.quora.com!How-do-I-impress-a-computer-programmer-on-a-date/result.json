@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date",
@@ -10,6 +14,12 @@
       }
     ],
     "title": "How to impress a computer programmer on a date - Quora"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary",

@@ -13,11 +13,7 @@
     "type": "image/png",
     "url": "https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png"
   },
-  "image": {
-    "url": "https://www.npmjs.com/static/images/touch-icons/open-graph.png"
-  },
   "provider": {
-    "name": "npm"
   },
   "tags": [
     "dirname",

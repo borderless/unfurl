@@ -10,7 +10,7 @@
   "description": "The recent hack that targeted Democratic officials and led to the resignation of Democratic National Committee chairwoman Debbie Wasserman Schultz was much bigger than initially suspected, according to a new report from the New York Times.",
   "encodingFormat": "text/html",
   "entity": {
-    "type": "article"
+    "type": "image"
   },
   "headline": "The DNC Hack Was Much Bigger Than We Thought",
   "icon": {
@@ -19,11 +19,7 @@
   "image": {
     "url": "https://i.kinja-img.com/gawker-media/image/upload/s--D8tZJKTC--/c_fill,fl_progressive,g_center,h_450,q_80,w_800/uwwyvlh7dwqyodgah0mr.jpg"
   },
-  "locale": {
-    "primary": "en_US"
-  },
   "provider": {
-    "name": "Gizmodo"
   },
   "tags": [
     "DNC Hack",

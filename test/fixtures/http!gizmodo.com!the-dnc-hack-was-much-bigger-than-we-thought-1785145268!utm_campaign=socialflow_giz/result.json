@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 63962,
   "contentUrl": "http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268?utm_campaign=socialflow_gizmodo_twitter&utm_source=gizmodo_twitter&utm_medium=socialflow",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "author": "Sophie Kleeman",
@@ -14,49 +18,82 @@
     "keywords": "DNC Hack, Hackers, Hacks, Democrats, Hillary Clinton, Donald Trump, Gizmodo",
     "title": "The DNC Hack Was Much Bigger Than We Thought"
   },
-  "jsonld": [
-    {
-      "@context": "http://schema.org",
-      "@type": "Article",
-      "articleSection": "gizmodo.com",
-      "author": {
-        "@type": "Person",
-        "name": "Sophie Kleeman"
-      },
-      "creator": [
-        "Sophie Kleeman"
-      ],
-      "dateCreated": "2016-08-11T10:30:00-04:00",
-      "datePublished": "2016-08-11T10:30:00-04:00",
-      "headline": "The DNC Hack Was Much Bigger Than We Thought",
-      "image": {
-        "@list": [
-          "https://i.kinja-img.com/gawker-media/image/upload/uwwyvlh7dwqyodgah0mr.jpg"
-        ]
-      },
-      "keywords": [
-        "dnc hack",
-        "hackers",
-        "hacks",
-        "democrats",
-        "hillary clinton",
-        "donald trump"
-      ],
-      "mainEntityOfPage": true,
-      "thumbnailUrl": "https://i.kinja-img.com/gawker-media/image/upload/s--K9wSb8rZ--/fdj3buryz5nuzyf2k620.png",
-      "url": "http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268"
-    }
-  ],
+  "jsonld": {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "articleSection": "gizmodo.com",
+    "author": {
+      "@type": "Person",
+      "name": "Sophie Kleeman"
+    },
+    "creator": [
+      "Sophie Kleeman"
+    ],
+    "dateCreated": "2016-08-11T10:30:00-04:00",
+    "datePublished": "2016-08-11T10:30:00-04:00",
+    "headline": "The DNC Hack Was Much Bigger Than We Thought",
+    "image": {
+      "@list": [
+        "https://i.kinja-img.com/gawker-media/image/upload/uwwyvlh7dwqyodgah0mr.jpg"
+      ]
+    },
+    "keywords": [
+      "dnc hack",
+      "hackers",
+      "hacks",
+      "democrats",
+      "hillary clinton",
+      "donald trump"
+    ],
+    "mainEntityOfPage": true,
+    "thumbnailUrl": "https://i.kinja-img.com/gawker-media/image/upload/s--K9wSb8rZ--/fdj3buryz5nuzyf2k620.png",
+    "url": "http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268"
+  },
+  "microdata": {
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "The recent hack that targeted Democratic officials and led to the resignation of Democratic National Committee chairwoman Debbie Wasserman Schultz was much bigger than initially suspected, according to a new report from the New York Times.",
-      "http://ogp.me/ns#image": "https://i.kinja-img.com/gawker-media/image/upload/s--D8tZJKTC--/c_fill,fl_progressive,g_center,h_450,q_80,w_800/uwwyvlh7dwqyodgah0mr.jpg",
-      "http://ogp.me/ns#locale": "en_US",
-      "http://ogp.me/ns#site_name": "Gizmodo",
-      "http://ogp.me/ns#title": "The DNC Hack Was Much Bigger Than We Thought",
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#url": "http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268"
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "fb:app_id": {
+          "@language": "en-US",
+          "@value": "44615671688"
+        },
+        "og:description": {
+          "@language": "en-US",
+          "@value": "The recent hack that targeted Democratic officials and led to the resignation of Democratic National Committee chairwoman Debbie Wasserman Schultz was much bigger than initially suspected, according to a new report from the New York Times."
+        },
+        "og:image": {
+          "@language": "en-US",
+          "@value": "https://i.kinja-img.com/gawker-media/image/upload/s--D8tZJKTC--/c_fill,fl_progressive,g_center,h_450,q_80,w_800/uwwyvlh7dwqyodgah0mr.jpg"
+        },
+        "og:locale": {
+          "@language": "en-US",
+          "@value": "en_US"
+        },
+        "og:site_name": {
+          "@language": "en-US",
+          "@value": "Gizmodo"
+        },
+        "og:title": {
+          "@language": "en-US",
+          "@value": "The DNC Hack Was Much Bigger Than We Thought"
+        },
+        "og:type": {
+          "@language": "en-US",
+          "@value": "article"
+        },
+        "og:url": {
+          "@language": "en-US",
+          "@value": "http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268"
+        }
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary_large_image",

@@ -17,14 +17,9 @@
     "url": "https://itunes.apple.com/favicon.ico"
   },
   "image": {
-    "height": 630,
-    "secureUrl": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
-    "type": "image/jpg",
-    "url": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
-    "width": 1200
+    "url": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg"
   },
   "provider": {
-    "name": "iTunes"
   },
   "tags": [
     "download",

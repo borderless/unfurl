@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 68688,
   "contentUrl": "http://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "application-name": "The Verge",
@@ -18,22 +22,68 @@
     ],
     "title": "Emails show Google’s close relationship with the White House | The Verge"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/Person"
-    }
-  ],
+  "microdata": {
+    "@graph": [
+      {
+        "author": {
+          "@context": {
+            "@vocab": "http://schema.org/"
+          },
+          "@type": "Person"
+        }
+      }
+    ]
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "For years, Google has been building a lobbying machine that outpaces its Silicon Valley peers, turning the internet giant into a major Washington presence. In 2014, the company surpassed AT&T,...",
-      "http://ogp.me/ns#image": "https://cdn3.vox-cdn.com/thumbor/cFjgdLubuBVqMiAkw40X4PRUwhI=/0x107:2039x1254/1600x900/cdn0.vox-cdn.com/uploads/chorus_image/image/50332007/Google-app-stock-Dec2015-verge-02.0.0.jpg",
-      "http://ogp.me/ns#site_name": "The Verge",
-      "http://ogp.me/ns#title": "Emails show Google’s close relationship with the White House",
-      "http://ogp.me/ns#type": "article",
-      "http://ogp.me/ns#url": "http://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails",
-      "http://ogp.me/ns/article#published_time": "2016-08-10T15:00:02Z",
-      "http://ogp.me/ns/article#publisher": "http://www.facebook.com/verge"
-    }
+    "@context": {
+      "article": "http://ogp.me/ns/article#",
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "article:published_time": {
+          "@language": "en-US",
+          "@value": "2016-08-10T15:00:02Z"
+        },
+        "article:publisher": {
+          "@language": "en-US",
+          "@value": "http://www.facebook.com/verge"
+        },
+        "fb:app_id": {
+          "@language": "en-US",
+          "@value": "179668695452017"
+        },
+        "og:description": {
+          "@language": "en-US",
+          "@value": "For years, Google has been building a lobbying machine that outpaces its Silicon Valley peers, turning the internet giant into a major Washington presence. In 2014, the company surpassed AT&T,..."
+        },
+        "og:image": {
+          "@language": "en-US",
+          "@value": "https://cdn3.vox-cdn.com/thumbor/cFjgdLubuBVqMiAkw40X4PRUwhI=/0x107:2039x1254/1600x900/cdn0.vox-cdn.com/uploads/chorus_image/image/50332007/Google-app-stock-Dec2015-verge-02.0.0.jpg"
+        },
+        "og:site_name": {
+          "@language": "en-US",
+          "@value": "The Verge"
+        },
+        "og:title": {
+          "@language": "en-US",
+          "@value": "Emails show Google’s close relationship with the White House"
+        },
+        "og:type": {
+          "@language": "en-US",
+          "@value": "article"
+        },
+        "og:url": {
+          "@language": "en-US",
+          "@value": "http://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails"
+        },
+        "twitter:account_id": {
+          "@language": "en-US",
+          "@value": "1465737598"
+        }
+      }
+    ]
   },
   "sailthru": {
     "date": "2016-08-10",

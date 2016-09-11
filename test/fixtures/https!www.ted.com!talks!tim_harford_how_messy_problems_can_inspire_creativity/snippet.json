@@ -35,10 +35,7 @@
     "url": "https://pa.tedcdn.com/favicon.svg"
   },
   "image": {
-    "height": 550,
-    "secureUrl": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?c=1050%2C550&w=1050",
-    "url": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?c=1050%2C550&w=1050",
-    "width": 1050
+    "url": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?w=1200"
   },
   "provider": {
     "name": "TED",

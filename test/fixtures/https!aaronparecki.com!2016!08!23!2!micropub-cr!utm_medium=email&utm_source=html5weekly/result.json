@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "icons": [
@@ -9,6 +13,14 @@
       }
     ],
     "title": "Aaron Parecki"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

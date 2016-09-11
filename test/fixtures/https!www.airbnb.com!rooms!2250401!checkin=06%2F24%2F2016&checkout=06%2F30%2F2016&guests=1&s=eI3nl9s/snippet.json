@@ -20,7 +20,7 @@
   },
   "canonicalUrl": "https://www.airbnb.com.au/rooms/2250401",
   "contentUrl": "https://www.airbnb.com.au/rooms/2250401?checkin=24-06-2016&checkout=30-06-2016&guests=1&s=eI3nl9s6",
-  "description": "Apartment in New York, United States. A cute boutique studio located on arguably the best street in Chelsea. A block from the Highline, endless Galleries and Restaurants, the wonderful Chelsea Market and the lively Meatpacking District. 1 Ave from the A-C-E subway and just blocks fro...",
+  "description": "Entire home/apt for $295 AUD. A cute boutique studio located on arguably the best street in Chelsea. A block from the Highline, endless Galleries and Restaurants, the wonderful ...",
   "encodingFormat": "text/html",
   "entity": {
     "type": "image"
@@ -33,9 +33,6 @@
   },
   "image": {
     "url": "https://a1.muscache.com/im/pictures/43670185/606e6e19_original.jpg?aki_policy=x_large"
-  },
-  "locale": {
-    "primary": "en_GB"
   },
   "provider": {
     "name": "Airbnb"

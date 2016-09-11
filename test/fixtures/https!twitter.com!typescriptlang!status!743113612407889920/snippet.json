@@ -8,18 +8,15 @@
   "canonicalUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
   "contentSize": 34603,
   "contentUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
-  "description": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”",
   "encodingFormat": "text/html",
   "entity": {
-    "type": "article"
+    "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! <a href=\"https://t.co/fkfz8uL4I4\">https://t.co/fkfz8uL4I4</a></p>&mdash; TypeScript (@typescriptlang) <a href=\"https://twitter.com/typescriptlang/status/743113612407889920\">June 15, 2016</a></blockquote>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
+    "type": "rich"
   },
-  "headline": "TypeScript on Twitter",
+  "headline": "TypeScript on Twitter: \".d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4\"",
   "icon": {
     "type": "image/x-icon",
     "url": "https://abs.twimg.com/favicons/favicon.ico"
-  },
-  "image": {
-    "url": "https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg"
   },
   "provider": {
     "name": "Twitter",

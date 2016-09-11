@@ -15,28 +15,7 @@
     "type": "image/x-icon",
     "url": "https://assets-cdn.github.com/favicon.ico"
   },
-  "image": [
-    {
-      "height": 1200,
-      "type": "image/png",
-      "url": "https://assets-cdn.github.com/images/modules/open_graph/github-logo.png",
-      "width": 1200
-    },
-    {
-      "height": 620,
-      "type": "image/png",
-      "url": "https://assets-cdn.github.com/images/modules/open_graph/github-mark.png",
-      "width": 1200
-    },
-    {
-      "height": 620,
-      "type": "image/png",
-      "url": "https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png",
-      "width": 1200
-    }
-  ],
   "provider": {
-    "name": "GitHub"
   },
   "twitter": {
     "creatorHandle": "github",

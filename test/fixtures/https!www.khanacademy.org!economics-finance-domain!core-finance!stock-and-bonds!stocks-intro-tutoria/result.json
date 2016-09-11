@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 160375,
   "contentUrl": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
@@ -12,25 +16,97 @@
     ],
     "title": "Bonds vs. stocks | Introduction to stocks | Khan Academy"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/Organization",
-      "description": "Watch. Practice. Learn almost anything for free.",
-      "image": "https://cdn.kastatic.org/images/khan-logo-vertical-transparent.png",
-      "name": "Khan Academy"
-    }
-  ],
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "Organization",
+        "description": {
+          "@language": "en",
+          "@value": "Watch. Practice. Learn almost anything for free."
+        },
+        "image": {
+          "@language": "en",
+          "@value": "https://cdn.kastatic.org/images/khan-logo-vertical-transparent.png"
+        },
+        "name": {
+          "@language": "en",
+          "@value": "Khan Academy"
+        }
+      },
+      {
+        "@type": "VideoObject",
+        "description": {
+          "@language": "en",
+          "@value": "The difference between a bond and a stock."
+        },
+        "name": {
+          "@language": "en",
+          "@value": "Bonds vs. stocks"
+        },
+        "thumbnailUrl": {
+          "@language": "en",
+          "@value": "https://cdn.kastatic.org/googleusercontent/4SKhQ_XNx98rrnAtDrvT3RnZKT-qCudwuhIfkKdirx5Rxl_34ULc5qSK3Q7WXVkQl9J3QXGq5c-J5n3waKg7T4IP"
+        },
+        "uploadDate": {
+          "@language": "en",
+          "@value": "2011-02-20T16:42:16Z"
+        }
+      }
+    ]
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "The difference between a bond and a stock.",
-      "http://ogp.me/ns#image": "http://img.youtube.com/vi/rs1md3e4aYU/0.jpg",
-      "http://ogp.me/ns#site_name": "Khan Academy",
-      "http://ogp.me/ns#title": "Bonds vs. stocks",
-      "http://ogp.me/ns#type": "video.other",
-      "http://ogp.me/ns#url": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
-      "http://ogp.me/ns#video": "http://www.youtube.com/v/rs1md3e4aYU",
-      "http://ogp.me/ns#video:type": "application/x-shockwave-flash"
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "khanacademy": "http://ogp.me/ns/apps/khanacademy#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "fb:admins": {
+          "@language": "en",
+          "@value": "100000121497109,1305017,100001572496923"
+        },
+        "fb:app_id": {
+          "@language": "en",
+          "@value": "160249463991765"
+        },
+        "og:description": {
+          "@language": "en",
+          "@value": "The difference between a bond and a stock."
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "http://img.youtube.com/vi/rs1md3e4aYU/0.jpg"
+        },
+        "og:site_name": {
+          "@language": "en",
+          "@value": "Khan Academy"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "Bonds vs. stocks"
+        },
+        "og:type": {
+          "@language": "en",
+          "@value": "video.other"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks"
+        },
+        "og:video": {
+          "@language": "en",
+          "@value": "http://www.youtube.com/v/rs1md3e4aYU"
+        },
+        "og:video:type": {
+          "@language": "en",
+          "@value": "application/x-shockwave-flash"
+        }
+      }
+    ]
   },
   "sailthru": {
     "tags": "debt, khan, finance, stocks-intro-tutorial, bonds, economics, economics-finance-domain, core-finance, equity, stock-and-bonds, stocks"

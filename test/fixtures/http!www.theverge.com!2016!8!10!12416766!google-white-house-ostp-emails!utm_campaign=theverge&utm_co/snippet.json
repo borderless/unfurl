@@ -10,17 +10,12 @@
   "description": "For years, Google has been building a lobbying machine that outpaces its Silicon Valley peers, turning the internet giant into a major Washington presence. In 2014, the company surpassed AT&T,...",
   "encodingFormat": "text/html",
   "entity": {
-    "datePublished": "2016-08-10T15:00:02.000Z",
-    "publisher": "http://www.facebook.com/verge",
-    "type": "article"
+    "type": "image"
   },
   "headline": "Emails show Google’s close relationship with the White House",
   "icon": {
     "sizes": "196x196",
     "url": "https://cdn0.vox-cdn.com/images/verge/2.0/verge-icon-196x196.v503bbf1.png"
-  },
-  "image": {
-    "url": "https://cdn3.vox-cdn.com/thumbor/cFjgdLubuBVqMiAkw40X4PRUwhI=/0x107:2039x1254/1600x900/cdn0.vox-cdn.com/uploads/chorus_image/image/50332007/Google-app-stock-Dec2015-verge-02.0.0.jpg"
   },
   "provider": {
     "name": "The Verge"

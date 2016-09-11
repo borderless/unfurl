@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 21549,
   "contentUrl": "https://bjango.com/mac/istatmenus/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "apple-mobile-web-app-title": "Bjango",
@@ -11,6 +15,14 @@
       }
     ],
     "title": "iStat Menus"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

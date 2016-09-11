@@ -3,7 +3,7 @@
   },
   "author": {
   },
-  "canonicalUrl": "http://slant6.bandcamp.com/",
+  "canonicalUrl": "https://slant6.bandcamp.com/",
   "contentUrl": "https://slant6.bandcamp.com/",
   "description": "12 track album",
   "encodingFormat": "text/html",
@@ -12,7 +12,7 @@
     "url": "https://f4.bcbits.com/img/a1638428842_3.jpg"
   },
   "image": {
-    "url": "https://f4.bcbits.com/img/a1638428842_5.jpg"
+    "url": "https://f4.bcbits.com/img/a1638428842_2.jpg"
   },
   "player": {
     "height": 467,
@@ -20,17 +20,9 @@
     "width": 350
   },
   "provider": {
-    "name": "Slant 6"
   },
   "twitter": {
     "siteHandle": "bandcamp"
   },
-  "type": "html",
-  "video": {
-    "height": 120,
-    "secureUrl": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
-    "type": "text/html",
-    "url": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
-    "width": 400
-  }
+  "type": "html"
 }

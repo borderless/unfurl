@@ -6,11 +6,11 @@ export interface ScrapeResult extends Base {
   twitter?: ScrapeResultTwitter
   sailthru?: ScrapeResultSailthru
   dublincore?: ScrapeResultDublinCore
-  jsonld?: ScrapeResultJsonld
-  rdfa?: ScrapeResultRdfa
   applinks?: ScrapeResultAppLinks
-  microdata?: ScrapeResultMicrodata | ScrapeResultMicrodata[]
   oembed?: ScrapeResultOEmbed
+  jsonld?: ScrapeResultJsonld
+  rdfa?: ScrapeResultJsonld
+  microdata?: ScrapeResultJsonld
 }
 
 export interface ScrapeResultHtml {
@@ -80,18 +80,8 @@ export interface ScrapeResultSailthru {
   [key: string]: string | void
 }
 
-export interface ScrapeResultRdfa {
-  [subject: string]: {
-    [predicate: string]: string | string[]
-  }
-}
-
 export interface ScrapeResultJsonld {
   [key: string]: any
-}
-
-export interface ScrapeResultMicrodata {
-  [key: string]: string | string[] | ScrapeResultMicrodata
 }
 
 export interface ScrapeResultAppLinks {

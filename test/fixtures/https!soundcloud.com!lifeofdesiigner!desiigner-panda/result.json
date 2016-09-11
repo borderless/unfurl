@@ -9,6 +9,8 @@
     "web:should_fallback": "false"
   },
   "contentUrl": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "application-name": "SoundCloud",
@@ -22,48 +24,286 @@
     "keywords": "record, sounds, share, sound, audio, tracks, music, soundcloud",
     "title": "Desiigner- \"Panda\" (Prod. By: Menace) by LifeOfDesiigner | Life Of Desiigner | Free Listening on SoundCloud"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/MusicRecording",
-      "audio": {
-        "@type": "http://schema.org/AudioObject",
-        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F237603952&auto_play=false&show_artwork=true&visual=true&origin=schema.org",
-        "height": "400px"
-      },
-      "byArtist": {
-        "@type": "http://schema.org/MusicGroup",
-        "name": "LifeOfDesiigner",
-        "url": "/lifeofdesiigner"
-      },
-      "description": "It's the OFFICIAL track that you have all been waiting. This is PANDA!!",
-      "duration": "PT00H04M06S",
-      "genre": "Desiigner",
-      "image": "https://i1.sndcdn.com/artworks-000139618215-ubm1i6-t500x500.jpg",
-      "interactionCount": [
-        "UserLikes:2105487",
-        "UserDownloads:0",
-        "UserComments:27008"
-      ],
-      "name": "Desiigner- \"Panda\" (Prod. By: Menace) by LifeOfDesiigner",
-      "provider": {
-        "@type": "http://schema.org/Organization",
-        "image": "http://developers.soundcloud.com/assets/logo_white-8bf7615eb575eeb114fc65323068e1e4.png",
-        "name": "SoundCloud"
-      },
-      "url": "https://soundcloud.com/lifeofdesiigner/desiigner-panda"
-    }
-  ],
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "MusicRecording",
+        "audio": {
+          "@type": "AudioObject",
+          "embedUrl": {
+            "@language": "en",
+            "@value": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F237603952&auto_play=false&show_artwork=true&visual=true&origin=schema.org"
+          },
+          "height": {
+            "@language": "en",
+            "@value": "400px"
+          }
+        },
+        "byArtist": {
+          "@type": "MusicGroup",
+          "name": {
+            "@language": "en",
+            "@value": "LifeOfDesiigner"
+          },
+          "url": {
+            "@language": "en",
+            "@value": "/lifeofdesiigner"
+          }
+        },
+        "description": {
+          "@language": "en",
+          "@value": "It's the OFFICIAL track that you have all been waiting. This is PANDA!!"
+        },
+        "duration": {
+          "@language": "en",
+          "@value": "PT00H04M06S"
+        },
+        "genre": {
+          "@language": "en",
+          "@value": "Desiigner"
+        },
+        "image": {
+          "@language": "en",
+          "@value": "https://i1.sndcdn.com/artworks-000139618215-ubm1i6-t500x500.jpg"
+        },
+        "interactionCount": [
+          {
+            "@language": "en",
+            "@value": "UserLikes:2105487"
+          },
+          {
+            "@language": "en",
+            "@value": "UserDownloads:0"
+          },
+          {
+            "@language": "en",
+            "@value": "UserComments:27008"
+          }
+        ],
+        "name": {
+          "@language": "en",
+          "@value": "Desiigner- \"Panda\" (Prod. By: Menace) by LifeOfDesiigner"
+        },
+        "provider": {
+          "@type": "Organization",
+          "image": {
+            "@language": "en",
+            "@value": "http://developers.soundcloud.com/assets/logo_white-8bf7615eb575eeb114fc65323068e1e4.png"
+          },
+          "name": {
+            "@language": "en",
+            "@value": "SoundCloud"
+          }
+        },
+        "url": {
+          "@language": "en",
+          "@value": "https://soundcloud.com/lifeofdesiigner/desiigner-panda"
+        }
+      }
+    ]
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "It's the OFFICIAL track that you have all been waiting. This is PANDA!!",
-      "http://ogp.me/ns#image": "https://i1.sndcdn.com/artworks-000139618215-ubm1i6-t500x500.jpg",
-      "http://ogp.me/ns#image:height": "500",
-      "http://ogp.me/ns#image:width": "500",
-      "http://ogp.me/ns#site_name": "SoundCloud",
-      "http://ogp.me/ns#title": "Desiigner- \"Panda\" (Prod. By: Menace)",
-      "http://ogp.me/ns#type": "music.song",
-      "http://ogp.me/ns#url": "https://soundcloud.com/lifeofdesiigner/desiigner-panda"
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "al:android:app_name": {
+          "@language": "en",
+          "@value": "SoundCloud"
+        },
+        "al:android:package": {
+          "@language": "en",
+          "@value": "com.soundcloud.android"
+        },
+        "al:android:url": {
+          "@language": "en",
+          "@value": "soundcloud://sounds:237603952"
+        },
+        "al:ios:app_name": {
+          "@language": "en",
+          "@value": "SoundCloud"
+        },
+        "al:ios:app_store_id": {
+          "@language": "en",
+          "@value": "336353151"
+        },
+        "al:ios:url": {
+          "@language": "en",
+          "@value": "soundcloud://sounds:237603952"
+        },
+        "al:web:should_fallback": {
+          "@language": "en",
+          "@value": "false"
+        },
+        "fb:app_id": {
+          "@language": "en",
+          "@value": "19507961798"
+        },
+        "og:description": {
+          "@language": "en",
+          "@value": "It's the OFFICIAL track that you have all been waiting. This is PANDA!!"
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "https://i1.sndcdn.com/artworks-000139618215-ubm1i6-t500x500.jpg"
+        },
+        "og:image:height": {
+          "@language": "en",
+          "@value": "500"
+        },
+        "og:image:width": {
+          "@language": "en",
+          "@value": "500"
+        },
+        "og:site_name": {
+          "@language": "en",
+          "@value": "SoundCloud"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "Desiigner- \"Panda\" (Prod. By: Menace)"
+        },
+        "og:type": {
+          "@language": "en",
+          "@value": "music.song"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://soundcloud.com/lifeofdesiigner/desiigner-panda"
+        },
+        "soundcloud:comments_count": {
+          "@language": "en",
+          "@value": "27008"
+        },
+        "soundcloud:download_count": {
+          "@language": "en",
+          "@value": "0"
+        },
+        "soundcloud:like_count": {
+          "@language": "en",
+          "@value": "2105487"
+        },
+        "soundcloud:play_count": {
+          "@language": "en",
+          "@value": "120133997"
+        },
+        "soundcloud:user": {
+          "@language": "en",
+          "@value": "https://soundcloud.com/lifeofdesiigner"
+        },
+        "twitter:app:id:googleplay": [
+          {
+            "@language": "en",
+            "@value": "com.soundcloud.android"
+          },
+          {
+            "@language": "en",
+            "@value": "com.soundcloud.android"
+          }
+        ],
+        "twitter:app:id:ipad": [
+          {
+            "@language": "en",
+            "@value": "336353151"
+          },
+          {
+            "@language": "en",
+            "@value": "336353151"
+          }
+        ],
+        "twitter:app:id:iphone": [
+          {
+            "@language": "en",
+            "@value": "336353151"
+          },
+          {
+            "@language": "en",
+            "@value": "336353151"
+          }
+        ],
+        "twitter:app:name:googleplay": [
+          {
+            "@language": "en",
+            "@value": "SoundCloud"
+          },
+          {
+            "@language": "en",
+            "@value": "SoundCloud"
+          }
+        ],
+        "twitter:app:name:ipad": [
+          {
+            "@language": "en",
+            "@value": "SoundCloud"
+          },
+          {
+            "@language": "en",
+            "@value": "SoundCloud"
+          }
+        ],
+        "twitter:app:name:iphone": [
+          {
+            "@language": "en",
+            "@value": "SoundCloud"
+          },
+          {
+            "@language": "en",
+            "@value": "SoundCloud"
+          }
+        ],
+        "twitter:app:url:googleplay": {
+          "@language": "en",
+          "@value": "soundcloud://sounds:237603952"
+        },
+        "twitter:app:url:ipad": {
+          "@language": "en",
+          "@value": "soundcloud://sounds:237603952"
+        },
+        "twitter:app:url:iphone": {
+          "@language": "en",
+          "@value": "soundcloud://sounds:237603952"
+        },
+        "twitter:card": {
+          "@language": "en",
+          "@value": "player"
+        },
+        "twitter:description": {
+          "@language": "en",
+          "@value": "It's the OFFICIAL track that you have all been waiting. This is PANDA!!"
+        },
+        "twitter:image": {
+          "@language": "en",
+          "@value": "https://i1.sndcdn.com/artworks-000139618215-ubm1i6-t500x500.jpg"
+        },
+        "twitter:player": {
+          "@language": "en",
+          "@value": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F237603952&auto_play=false&show_artwork=true&visual=true&origin=twitter"
+        },
+        "twitter:player:height": {
+          "@language": "en",
+          "@value": "400"
+        },
+        "twitter:player:width": {
+          "@language": "en",
+          "@value": "435"
+        },
+        "twitter:site": {
+          "@language": "en",
+          "@value": "SoundCloud"
+        },
+        "twitter:title": {
+          "@language": "en",
+          "@value": "Desiigner- \"Panda\" (Prod. By: Menace)"
+        }
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "app:id:googleplay": "com.soundcloud.android",

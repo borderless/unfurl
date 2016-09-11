@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "http://html5doctor.com/microdata/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "http://html5doctor.com/microdata/",
@@ -11,21 +15,58 @@
     ],
     "title": "Extending HTML5 — Microdata | HTML5 Doctor"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/Event",
-      "description": "On July 21st 19:00-20:00 at Apple Ginza, Oliver Reichenstein, CEO of iA, will share the lessons they’ve learned while creating three iPad apps and one iPad website.",
-      "endDate": "2010-07-21T20:00:00+09:00",
-      "location": {
-        "@type": "http://schema.org/Organization",
-        "name": "Apple Ginza",
-        "url": "http://www.apple.com/jp/retail/ginza/map/"
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "Event",
+        "description": {
+          "@language": "en",
+          "@value": "On July 21st 19:00-20:00 at Apple Ginza, Oliver Reichenstein, CEO of iA, will share the lessons they’ve learned while creating three iPad apps and one iPad website."
+        },
+        "endDate": {
+          "@language": "en",
+          "@value": "2010-07-21T20:00:00+09:00"
+        },
+        "location": {
+          "@type": "Organization",
+          "name": {
+            "@language": "en",
+            "@value": "Apple Ginza"
+          },
+          "url": {
+            "@language": "en",
+            "@value": "http://www.apple.com/jp/retail/ginza/map/"
+          }
+        },
+        "startDate": {
+          "@language": "en",
+          "@value": "2010-07-21T19:00:00+09:00"
+        },
+        "summary": {
+          "@language": "en",
+          "@value": "WDE-ex Vol.11 — Designing for iPad: Our experience so far"
+        },
+        "url": {
+          "@language": "en",
+          "@value": "http://atnd.org/events/5181"
+        }
       },
-      "startDate": "2010-07-21T19:00:00+09:00",
-      "summary": "WDE-ex Vol.11 — Designing for iPad: Our experience so far",
-      "url": "http://atnd.org/events/5181"
-    }
-  ],
+      {
+        "@type": "Person",
+        "name": {
+          "@language": "en",
+          "@value": "Oliver Reichenstein"
+        },
+        "url": {
+          "@language": "en",
+          "@value": "http://informationarchitects.jp/"
+        }
+      }
+    ]
+  },
   "oembed": {
     "author_name": "Oli Studholme",
     "author_url": "http://html5doctor.com/author/olib/",
@@ -37,6 +78,12 @@
     "type": "rich",
     "version": "1.0",
     "width": 600
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

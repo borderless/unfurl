@@ -9,6 +9,8 @@
     "web:url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks"
   },
   "contentUrl": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
@@ -38,58 +40,211 @@
     "keywords": "Marvel's The Avengers, Marvel, Walt Disney Pictures, Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Samuel...",
     "title": "Marvel's The Avengers - YouTube"
   },
-  "microdata": [
-    {
-      "@type": "http://schema.org/VideoObject",
-      "author": {
-        "@type": "http://schema.org/Person",
-        "url": "http://www.youtube.com/user/MarvelMoviesOnDemand"
-      },
-      "channelId": "UCLIL7-1R7fyZtZ787Zt_bsw",
-      "datePublished": "2012-09-25",
-      "description": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R...",
-      "duration": "PT142M54S",
-      "genre": "Movies",
-      "interactionCount": "236459",
-      "isFamilyFriendly": "False",
-      "name": "Marvel's The Avengers",
-      "paid": "True",
-      "regionsAllowed": "CA,US",
-      "thumbnail": {
-        "@type": "http://schema.org/ImageObject",
-        "height": "720",
-        "url": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
-        "width": "1280"
-      },
-      "thumbnailUrl": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
-      "unlisted": "False",
-      "url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
-      "videoId": "W9ZnpIGvZUo"
-    }
-  ],
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "VideoObject",
+        "author": {
+          "@type": "Person",
+          "url": {
+            "@language": "en",
+            "@value": "http://www.youtube.com/user/MarvelMoviesOnDemand"
+          }
+        },
+        "channelId": {
+          "@language": "en",
+          "@value": "UCLIL7-1R7fyZtZ787Zt_bsw"
+        },
+        "datePublished": {
+          "@language": "en",
+          "@value": "2012-09-25"
+        },
+        "description": {
+          "@language": "en",
+          "@value": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R..."
+        },
+        "duration": {
+          "@language": "en",
+          "@value": "PT142M54S"
+        },
+        "genre": {
+          "@language": "en",
+          "@value": "Movies"
+        },
+        "interactionCount": {
+          "@language": "en",
+          "@value": "236459"
+        },
+        "isFamilyFriendly": {
+          "@language": "en",
+          "@value": "False"
+        },
+        "name": {
+          "@language": "en",
+          "@value": "Marvel's The Avengers"
+        },
+        "paid": {
+          "@language": "en",
+          "@value": "True"
+        },
+        "regionsAllowed": {
+          "@language": "en",
+          "@value": "CA,US"
+        },
+        "thumbnail": {
+          "@type": "ImageObject",
+          "height": {
+            "@language": "en",
+            "@value": "720"
+          },
+          "url": {
+            "@language": "en",
+            "@value": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg"
+          },
+          "width": {
+            "@language": "en",
+            "@value": "1280"
+          }
+        },
+        "thumbnailUrl": {
+          "@language": "en",
+          "@value": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg"
+        },
+        "unlisted": {
+          "@language": "en",
+          "@value": "False"
+        },
+        "url": {
+          "@language": "en",
+          "@value": "https://www.youtube.com/watch?v=W9ZnpIGvZUo"
+        },
+        "videoId": {
+          "@language": "en",
+          "@value": "W9ZnpIGvZUo"
+        }
+      }
+    ]
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#description": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R...",
-      "http://ogp.me/ns#image": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
-      "http://ogp.me/ns#restrictions:age": "18+",
-      "http://ogp.me/ns#site_name": "YouTube",
-      "http://ogp.me/ns#title": "Marvel's The Avengers",
-      "http://ogp.me/ns#type": "video",
-      "http://ogp.me/ns#url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
-      "http://ogp.me/ns#video:tag": [
-        "Marvel's The Avengers",
-        "Marvel",
-        "Walt Disney Pictures",
-        "Robert Downey Jr.",
-        "Chris Evans",
-        "Mark Ruffalo",
-        "Chris Hemsworth",
-        "Scarlett Johansson",
-        "Jeremy Renner",
-        "Samuel L. Jackson",
-        "Joss Whedon"
-      ]
-    }
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "al:android:app_name": {
+          "@language": "en",
+          "@value": "YouTube"
+        },
+        "al:android:package": {
+          "@language": "en",
+          "@value": "com.google.android.youtube"
+        },
+        "al:android:url": {
+          "@language": "en",
+          "@value": "vnd.youtube://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks"
+        },
+        "al:ios:app_name": {
+          "@language": "en",
+          "@value": "YouTube"
+        },
+        "al:ios:app_store_id": {
+          "@language": "en",
+          "@value": "544007664"
+        },
+        "al:ios:url": {
+          "@language": "en",
+          "@value": "vnd.youtube://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks"
+        },
+        "al:web:url": {
+          "@language": "en",
+          "@value": "https://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks"
+        },
+        "fb:app_id": {
+          "@language": "en",
+          "@value": "87741124305"
+        },
+        "og:description": {
+          "@language": "en",
+          "@value": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R..."
+        },
+        "og:image": {
+          "@language": "en",
+          "@value": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg"
+        },
+        "og:restrictions:age": {
+          "@language": "en",
+          "@value": "18+"
+        },
+        "og:site_name": {
+          "@language": "en",
+          "@value": "YouTube"
+        },
+        "og:title": {
+          "@language": "en",
+          "@value": "Marvel's The Avengers"
+        },
+        "og:type": {
+          "@language": "en",
+          "@value": "video"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://www.youtube.com/watch?v=W9ZnpIGvZUo"
+        },
+        "og:video:tag": [
+          {
+            "@language": "en",
+            "@value": "Marvel's The Avengers"
+          },
+          {
+            "@language": "en",
+            "@value": "Marvel"
+          },
+          {
+            "@language": "en",
+            "@value": "Walt Disney Pictures"
+          },
+          {
+            "@language": "en",
+            "@value": "Robert Downey Jr."
+          },
+          {
+            "@language": "en",
+            "@value": "Chris Evans"
+          },
+          {
+            "@language": "en",
+            "@value": "Mark Ruffalo"
+          },
+          {
+            "@language": "en",
+            "@value": "Chris Hemsworth"
+          },
+          {
+            "@language": "en",
+            "@value": "Scarlett Johansson"
+          },
+          {
+            "@language": "en",
+            "@value": "Jeremy Renner"
+          },
+          {
+            "@language": "en",
+            "@value": "Samuel L. Jackson"
+          },
+          {
+            "@language": "en",
+            "@value": "Joss Whedon"
+          }
+        ]
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "app:id:googleplay": "com.google.android.youtube",

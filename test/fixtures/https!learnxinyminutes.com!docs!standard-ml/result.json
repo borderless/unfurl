@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://learnxinyminutes.com/docs/standard-ml/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://learnxinyminutes.com/docs/standard-ml/",
@@ -10,6 +14,14 @@
       }
     ],
     "title": "Learn Standard ML in Y Minutes"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

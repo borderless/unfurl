@@ -7,15 +7,11 @@
   "contentSize": 60209,
   "contentUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
   "encodingFormat": "text/html",
-  "headline": "Introduction to Structured Data",
+  "headline": "Introduction to Structured Data | Search | Google Developers",
   "icon": {
     "url": "https://developers.google.com/_static/a4f7ffcec0/images/favicon.png"
   },
-  "locale": {
-    "primary": "en"
-  },
   "provider": {
-    "name": "Google Developers"
   },
   "type": "html"
 }

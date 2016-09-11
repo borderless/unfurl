@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 13857,
   "contentUrl": "https://atom.io/themes/aesthetic-ui",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "description": "At GitHub, we’re building the text editor we’ve always wanted: hackable to the core, but approachable on the first day without ever touching a config file. We can’t wait to see what you build with it.",
@@ -11,16 +15,31 @@
     ],
     "title": "aesthetic-ui"
   },
+  "microdata": {
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#author": "https://github.com/dtinth",
-      "http://ogp.me/ns#description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
-      "http://ogp.me/ns#image": "http://i.imgur.com/455A2im.png",
-      "http://ogp.me/ns#site_name": "Atom",
-      "http://ogp.me/ns#title": "aesthetic-ui",
-      "http://ogp.me/ns#type": "website",
-      "http://ogp.me/ns#url": "https://atom.io/packages/aesthetic-ui"
-    }
+    "@context": {
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "og:author": "https://github.com/dtinth",
+        "og:description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
+        "og:image": "http://i.imgur.com/455A2im.png",
+        "og:site_name": "Atom",
+        "og:title": "aesthetic-ui",
+        "og:type": "website",
+        "og:url": "https://atom.io/packages/aesthetic-ui",
+        "twitter:card": "summary_large_image",
+        "twitter:creator": "https://github.com/dtinth",
+        "twitter:description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
+        "twitter:image:src": "http://i.imgur.com/455A2im.png",
+        "twitter:site": "@AtomEditor",
+        "twitter:title": "aesthetic-ui"
+      }
+    ]
+  },
+  "sailthru": {
   },
   "twitter": {
     "card": "summary_large_image",

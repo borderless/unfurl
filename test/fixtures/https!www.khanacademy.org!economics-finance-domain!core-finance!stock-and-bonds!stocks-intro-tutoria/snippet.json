@@ -6,24 +6,19 @@
   "canonicalUrl": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
   "contentSize": 160375,
   "contentUrl": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
-  "description": "The difference between a bond and a stock.",
+  "description": "Learn for free about math, art, computer programming, economics, physics, chemistry, biology, medicine, finance, history, and more. Khan Academy is a nonprofit with the mission of providing a free, world-class education for anyone, anywhere.",
   "encodingFormat": "text/html",
   "headline": "Khan Academy",
   "icon": {
     "url": "https://www.khanacademy.org/favicon.ico?leaf"
   },
   "image": {
-    "url": "http://img.youtube.com/vi/rs1md3e4aYU/0.jpg"
+    "url": "https://cdn.kastatic.org/images/khan-logo-vertical-transparent.png"
   },
   "provider": {
-    "name": "Khan Academy"
   },
   "twitter": {
     "siteHandle": "khanacademy"
   },
-  "type": "html",
-  "video": {
-    "type": "application/x-shockwave-flash",
-    "url": "http://www.youtube.com/v/rs1md3e4aYU"
-  }
+  "type": "html"
 }

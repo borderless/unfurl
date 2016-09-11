@@ -1,5 +1,9 @@
 {
+  "applinks": {
+  },
   "contentUrl": "https://www.facebook.com/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "canonical": "https://www.facebook.com/",
@@ -11,21 +15,42 @@
     ],
     "title": "Facebook - Log In or Sign Up"
   },
-  "jsonld": [
-    {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": "Facebook",
-      "url": "https://www.facebook.com/"
-    }
-  ],
+  "jsonld": {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Facebook",
+    "url": "https://www.facebook.com/"
+  },
+  "microdata": {
+  },
   "rdfa": {
-    "": {
-      "http://ogp.me/ns#image": "https://www.facebook.com/images/fb_icon_325x325.png",
-      "http://ogp.me/ns#locale": "en_GB",
-      "http://ogp.me/ns#site_name": "Facebook",
-      "http://ogp.me/ns#url": "https://www.facebook.com/"
-    }
+    "@context": {
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "og:image": {
+          "@language": "en",
+          "@value": "https://www.facebook.com/images/fb_icon_325x325.png"
+        },
+        "og:locale": {
+          "@language": "en",
+          "@value": "en_GB"
+        },
+        "og:site_name": {
+          "@language": "en",
+          "@value": "Facebook"
+        },
+        "og:url": {
+          "@language": "en",
+          "@value": "https://www.facebook.com/"
+        }
+      }
+    ]
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }

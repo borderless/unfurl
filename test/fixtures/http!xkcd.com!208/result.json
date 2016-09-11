@@ -1,6 +1,10 @@
 {
+  "applinks": {
+  },
   "contentSize": 2872,
   "contentUrl": "http://xkcd.com/208/",
+  "dublincore": {
+  },
   "encodingFormat": "text/html",
   "html": {
     "icons": [
@@ -10,6 +14,14 @@
       }
     ],
     "title": "xkcd: Regular Expressions"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+  },
+  "sailthru": {
+  },
+  "twitter": {
   },
   "type": "html"
 }
