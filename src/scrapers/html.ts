@@ -261,8 +261,8 @@ export function handle (
     /**
      * Create an RDFa resource.
      */
-    function createRdfaResource (id: string) {
-      if (has(rdfaRoot, '@graph')) {
+    function createRdfaResource (id?: string) {
+      if (id && has(rdfaRoot, '@graph')) {
         for (const item of rdfaRoot['@graph']) {
           if (item['@id'] === id) {
             return item
@@ -596,8 +596,20 @@ export function handle (
           }
         }
 
+        // RDFa `resource=""`.
+        if (resourceAttr && !propertyAttr && !relAttr && !aboutAttr) {
+          rdfaNodes.push(createRdfaResource(resourceAttr))
+          context.flags = context.flags | FLAGS.rdfaNode
+        }
+
         // RDFa `typeof=""`.
         if (typeOfAttr) {
+          // Standalone `typeof` attribute should be treated as a blank resource.
+          if (!rdfaRels.length && !propertyAttr && !relAttr && !resourceAttr && !aboutAttr) {
+            rdfaNodes.push(createRdfaResource())
+            context.flags = context.flags | FLAGS.rdfaNode
+          }
+
           addRdfaProperty(last(rdfaNodes), '@type', split(typeOfAttr))
         }
 

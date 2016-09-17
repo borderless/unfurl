@@ -133,21 +133,9 @@
         "@context": {
           "@vocab": "http://schema.org/"
         },
-        "@type": "BreadcrumbList",
         "fb:app_id": {
           "@language": "en",
           "@value": "116556461780510"
-        },
-        "itemListElement": {
-          "@type": "ListItem",
-          "name": {
-            "@language": "en-US",
-            "@value": "iTunes"
-          },
-          "position": {
-            "@language": "en-US",
-            "@value": "1"
-          }
         },
         "og:description": {
           "@language": "en",
@@ -180,6 +168,20 @@
         "og:title": {
           "@language": "en",
           "@value": "Pokémon GO on the App Store"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": {
+          "@type": "ListItem",
+          "name": {
+            "@language": "en-US",
+            "@value": "iTunes"
+          },
+          "position": {
+            "@language": "en-US",
+            "@value": "1"
+          }
         }
       }
     ]

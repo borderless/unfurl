@@ -306,18 +306,6 @@
         "@context": {
           "@vocab": "http://schema.org/"
         },
-        "@type": "BreadcrumbList",
-        "itemListElement": {
-          "@type": "ListItem",
-          "name": {
-            "@language": "en-US",
-            "@value": "iTunes"
-          },
-          "position": {
-            "@language": "en-US",
-            "@value": "1"
-          }
-        },
         "og:description": {
           "@language": "en",
           "@value": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99."
@@ -349,6 +337,20 @@
         "og:title": {
           "@language": "en",
           "@value": "The Avengers on iTunes"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": {
+          "@type": "ListItem",
+          "name": {
+            "@language": "en-US",
+            "@value": "iTunes"
+          },
+          "position": {
+            "@language": "en-US",
+            "@value": "1"
+          }
         }
       }
     ]

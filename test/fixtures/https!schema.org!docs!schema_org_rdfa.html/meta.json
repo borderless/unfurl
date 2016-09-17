@@ -1,0 +1,20 @@
+{
+  "contentUrl": "https://schema.org/docs/schema_org_rdfa.html",
+  "headers": {
+    "age": "52",
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"36,35,34,33,32\"",
+    "cache-control": "public, max-age=600",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "content-length": "91958",
+    "content-type": "text/html",
+    "date": "Sat, 17 Sep 2016 20:26:16 GMT",
+    "etag": "\"5D_o8Q\"",
+    "expires": "Sat, 17 Sep 2016 20:36:16 GMT",
+    "server": "Google Frontend",
+    "x-cloud-trace-context": "5354aeda1fa43c5187bee5c3fc7803c6"
+  },
+  "originalUrl": "https://schema.org/docs/schema_org_rdfa.html",
+  "status": 200,
+  "statusText": "OK"
+}

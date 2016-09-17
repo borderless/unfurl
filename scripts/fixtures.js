@@ -137,7 +137,9 @@ var FIXTURES = [
   'https://www.mulesoft.com/contact',
   // Developer pages.
   'https://www.npmjs.com/package/filenamify',
-  'https://atom.io/themes/aesthetic-ui'
+  'https://atom.io/themes/aesthetic-ui',
+  // Schema definitions.
+  'https://schema.org/docs/schema_org_rdfa.html'
 ]
 
 // Read each fixture, populating the raw content.
