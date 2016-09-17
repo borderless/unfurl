@@ -131,16 +131,21 @@ export function supported ({ encodingFormat }: ScrapeResult) {
 interface Context {
   tagName: string
   text: string
+  flags: number
   id?: string
-  hasLang?: boolean
   scriptType?: string
   rdfaTextProperty?: string[]
   microdataTextProperty?: string[]
-  hasRdfaRel?: boolean
-  hasRdfaScope?: boolean
-  hasRdfaVocab?: boolean
-  hasMicrodataVocab?: boolean
-  hasMicrodataScope?: boolean
+}
+
+const FLAGS = {
+  hasLang: (1 << 0),
+  rdfaLink: (1 << 1),
+  rdfaNode: (1 << 2),
+  rdfaVocab: (1 << 3),
+  microdataNode: (1 << 4),
+  microdataVocab: (1 << 5),
+  microdataScope: (1 << 6)
 }
 
 export function handle (
@@ -169,15 +174,15 @@ export function handle (
     const rdfaRoot: any = {}
     const rdfaNodes: any[] = [{}]
     const rdfaVocabs: string[] = []
-    const rdfaRels: Array<{ rels: string[], used: boolean }> = []
+    const rdfaRels: Array<{ links: string[], used: boolean }> = []
 
     const microdataRoot: any = {}
     const microdataRefs: any = {}
-    const microdataVocabs: string[] = []
+    const microdataScopes: string[][] = [[]]
     const microdataNodes: any[] = [{}]
 
     const langs: string[] = []
-    const contexts: Context[] = [{ tagName: '', text: '' }]
+    const contexts: Context[] = [{ tagName: '', text: '', flags: 0 }]
 
     /**
      * Push a value into a JSON-LD graph.
@@ -277,34 +282,41 @@ export function handle (
       const { tagName, text } = prevContext
       const value = normalize(text)
 
-      // Pop microdata scope.
-      if (prevContext.hasMicrodataScope) {
-        microdataNodes.pop()
-      }
+      if (prevContext.flags) {
+        // This context created a new node.
+        if (prevContext.flags & FLAGS.microdataNode) {
+          microdataNodes.pop()
+        }
 
-      // Pop microdata vocabulary.
-      if (prevContext.hasMicrodataVocab) {
-        microdataVocabs.pop()
-      }
+        // This context used a new vocabulary.
+        if (prevContext.flags & FLAGS.microdataVocab) {
+          last(microdataScopes).pop()
+        }
 
-      // Pop RDFa scope.
-      if (prevContext.hasRdfaScope) {
-        rdfaNodes.pop()
-      }
+        // This context created a new scope altogether.
+        if (prevContext.flags & FLAGS.microdataScope) {
+          microdataScopes.pop()
+        }
 
-      // Pop RDFa vocab.
-      if (prevContext.hasRdfaVocab) {
-        rdfaVocabs.pop()
-      }
+        // This context created a new node.
+        if (prevContext.flags & FLAGS.rdfaNode) {
+          rdfaNodes.pop()
+        }
 
-      // Pop RDFa rel.
-      if (prevContext.hasRdfaRel) {
-        rdfaRels.pop()
-      }
+        // This context used a vocabulary.
+        if (prevContext.flags & FLAGS.rdfaVocab) {
+          rdfaVocabs.pop()
+        }
 
-      // Pop the current language.
-      if (prevContext.hasLang) {
-        langs.pop()
+        // This context used an RDFa link (E.g. `rel=""`).
+        if (prevContext.flags & FLAGS.rdfaLink) {
+          rdfaRels.pop()
+        }
+
+        // This context used language property (E.g. `lang=""`).
+        if (prevContext.flags & FLAGS.hasLang) {
+          langs.pop()
+        }
       }
 
       // Handle parsing significant script elements.
@@ -370,7 +382,7 @@ export function handle (
 
     const cbs: Callbacks = {
       onopentagname (tagName) {
-        contexts.push({ tagName, text: '' })
+        contexts.push({ tagName, text: '', flags: 0 })
       },
       onopentag (tagName, attributes) {
         const context = contexts[contexts.length - 1]
@@ -399,8 +411,8 @@ export function handle (
 
         // Push the language onto the stack.
         if (langAttr) {
-          context.hasLang = true
           langs.push(langAttr)
+          context.flags = context.flags | FLAGS.hasLang
         }
 
         // Store `id` references for later (microdata itemrefs).
@@ -435,15 +447,17 @@ export function handle (
             addMicrodataProperty(last(microdataNodes), context.id, split(itempropAttr), newNode)
           } else {
             pushToGraph(microdataRoot, newNode)
+            microdataScopes.push([])
+            context.flags = context.flags | FLAGS.microdataScope
           }
 
           // Push the new node as the current scope.
           microdataNodes.push(newNode)
-          context.hasMicrodataScope = true
+          context.flags = context.flags | FLAGS.microdataNode
         }
 
         // Microdata `itemprop=""`.
-        if (itempropAttr && !context.hasMicrodataScope) {
+        if (itempropAttr && !(context.flags & FLAGS.microdataNode)) {
           const value = getValueMap(contentUrl, tagName, attributes)
           const props = split(itempropAttr)
 
@@ -465,12 +479,13 @@ export function handle (
         // Microdata `itemtype=""`.
         if (itemtypeAttr) {
           const [vocab, type] = splitItemtype(itemtypeAttr)
+          const vocabs = last(microdataScopes)
 
-          if (type && vocab !== last(microdataVocabs)) {
+          if (type && vocab !== last(vocabs)) {
             setContext(last(microdataNodes), '@vocab', vocab)
 
-            microdataVocabs.push(vocab)
-            context.hasMicrodataVocab = true
+            vocabs.push(vocab)
+            context.flags = context.flags | FLAGS.microdataVocab
           }
 
           addMicrodataProperty(last(microdataNodes), context.id, '@type', type || itemtypeAttr)
@@ -481,7 +496,7 @@ export function handle (
           setContext(last(rdfaNodes), '@vocab', vocabAttr)
 
           rdfaVocabs.push(vocabAttr)
-          context.hasRdfaVocab = true
+          context.flags = context.flags | FLAGS.rdfaVocab
         }
 
         // RDFa `prefix=""`.
@@ -505,44 +520,44 @@ export function handle (
 
         // RDFa `rel=""`. Additional care is taken to avoid extranuous output with HTML `rel` attributes.
         if (relAttr) {
-          const rels = split(relAttr).map(x => normalizeRdfaProperty(x)).filter(x => !!x)
+          const links = split(relAttr).map(x => normalizeRdfaProperty(x)).filter(x => !!x)
 
-          if (rels.length) {
-            rdfaRels.push({ rels, used: false })
-            context.hasRdfaRel = true
+          if (links.length) {
+            rdfaRels.push({ links, used: false })
+            context.flags = context.flags | FLAGS.rdfaLink
           }
         }
 
         // Handle RDFa rel chaining.
         if (rdfaRels.length) {
-          const rdfaRel = last(rdfaRels)
+          const rel = last(rdfaRels)
 
-          if (!rdfaRel.used) {
+          if (!rel.used) {
             const validRelId = resourceAttr || hrefAttr || srcAttr
 
             if (validRelId) {
               const newNode: any = { '@id': validRelId }
 
-              rdfaRel.used = true
-              addRdfaProperty(last(rdfaNodes), rdfaRel.rels, newNode)
+              rel.used = true
+              addRdfaProperty(last(rdfaNodes), rel.links, newNode)
 
-              if (resourceAttr && !context.hasRdfaScope) {
+              if (resourceAttr && !(context.flags & FLAGS.rdfaNode)) {
                 rdfaNodes.push(newNode)
-                context.hasRdfaScope = true
+                context.flags = context.flags | FLAGS.rdfaNode
               }
             }
 
             // Support property chaining with `rel`.
-            if (!context.hasRdfaRel && (propertyAttr || typeOfAttr)) {
-              rdfaRel.used = true
+            if (!(context.flags & FLAGS.rdfaLink) && (propertyAttr || typeOfAttr)) {
+              rel.used = true
 
-              if (!context.hasRdfaScope) {
+              if (!(context.flags & FLAGS.rdfaNode)) {
                 const newNode: any = {}
 
-                addRdfaProperty(last(rdfaNodes), rdfaRel.rels, newNode)
+                addRdfaProperty(last(rdfaNodes), rel.links, newNode)
 
                 rdfaNodes.push(newNode)
-                context.hasRdfaScope = true
+                context.flags = context.flags | FLAGS.rdfaNode
               }
             }
           }
@@ -551,7 +566,7 @@ export function handle (
         // RDFa `about=""`.
         if (aboutAttr) {
           rdfaNodes.push(createRdfaResource(aboutAttr))
-          context.hasRdfaScope = true
+          context.flags = context.flags | FLAGS.rdfaNode
         }
 
         // RDFa `property=""`.
@@ -566,14 +581,14 @@ export function handle (
               '@type': normalize(attributes['datatype'])
             }))
           } else {
-            if ((typeOfAttr || resourceAttr) && !context.hasRdfaRel) {
+            if ((typeOfAttr || resourceAttr) && !(context.flags & FLAGS.rdfaLink)) {
               const newNode: any = { '@id': resourceAttr }
 
               addRdfaProperty(last(rdfaNodes), properties, newNode)
 
-              if (typeOfAttr && !context.hasRdfaScope) {
+              if (typeOfAttr && !(context.flags & FLAGS.rdfaNode)) {
                 rdfaNodes.push(newNode)
-                context.hasRdfaScope = true
+                context.flags = context.flags | FLAGS.rdfaNode
               }
             } else {
               context.rdfaTextProperty = properties

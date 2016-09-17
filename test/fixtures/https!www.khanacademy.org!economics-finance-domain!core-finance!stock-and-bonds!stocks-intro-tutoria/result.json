@@ -37,6 +37,9 @@
         }
       },
       {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
         "@type": "VideoObject",
         "description": {
           "@language": "en",

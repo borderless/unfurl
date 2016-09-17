@@ -289,12 +289,18 @@
         ]
       },
       {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
         "@type": "videoObject",
         "duration": "T1M14S",
         "image": "http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB282919901_.png",
         "url": "http://www.imdb.com/video/screenplay/vi379389465?ref_=tt_pv_vi_aiv_1"
       },
       {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
         "@type": "videoObject",
         "duration": "T2M35S",
         "image": "http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB282919901_.png",

@@ -76,6 +76,9 @@
         }
       },
       {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
         "@type": "NewsArticle",
         "author": {
           "@language": "en",
@@ -99,6 +102,9 @@
         }
       },
       {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
         "@type": "NewsArticle",
         "author": {
           "@language": "en",
@@ -128,9 +134,15 @@
         "@type": "WPSideBar"
       },
       {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
         "@type": "WPAdBlock"
       },
       {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
         "@type": "WPAdBlock"
       },
       {

@@ -32,6 +32,9 @@
         }
       },
       {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
         "@type": "BreadcrumbList",
         "itemListElement": [
           {
