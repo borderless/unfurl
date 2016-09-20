@@ -70,7 +70,7 @@
     "getvalue": "^1.1.0",
     "has": "^1.0.1",
     "htmlparser2": "^3.9.1",
-    "popsicle": "^8.1.1",
+    "popsicle": "^8.2.0",
     "popsicle-status": "^2.0.0"
   }
 }
