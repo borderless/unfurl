@@ -118,7 +118,7 @@ HTML_VALUE_MAP['track'] = HTML_VALUE_MAP['audio']
 HTML_VALUE_MAP['video'] = HTML_VALUE_MAP['audio']
 HTML_VALUE_MAP['area'] = HTML_VALUE_MAP['a']
 HTML_VALUE_MAP['link'] = HTML_VALUE_MAP['a']
-HTML_VALUE_MAP['data'] = HTML_VALUE_MAP['meter']
+HTML_VALUE_MAP['meter'] = HTML_VALUE_MAP['data']
 /* tslint:enable */
 
 /**
@@ -835,7 +835,7 @@ function last <T> (arr: T[]): T {
 function getValueMap (url: string, tagName: string, attributes: any) {
   const value = normalize(attributes.content)
 
-  if (!value && HTML_VALUE_MAP.hasOwnProperty(tagName)) {
+  if (!value && has(HTML_VALUE_MAP, tagName)) {
     return normalize(HTML_VALUE_MAP[tagName](url, attributes))
   }
 

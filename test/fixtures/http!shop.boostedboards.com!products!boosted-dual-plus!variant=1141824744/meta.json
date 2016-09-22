@@ -1,0 +1,39 @@
+{
+  "contentUrl": "http://shop.boostedboards.com/products/boosted-dual-plus?variant=1141824744",
+  "headers": {
+    "connection": "close",
+    "content-encoding": "gzip",
+    "content-language": "en",
+    "content-security-policy-report-only": "default-src 'self' *; connect-src 'self' *; font-src 'self' * data:; frame-src 'self' * shopify-pos:; img-src 'self' * data:; media-src 'self' *; object-src 'self' *; script-src 'self' * 'unsafe-inline' 'unsafe-eval'; style-src 'self' * 'unsafe-inline'; frame-ancestors shop.boostedboards.com; report-uri /csp-report/9a880404-14d6-488d-8d6a-401cbdf86582?source%5Baction%5D=products&source%5Bcontroller%5D=storefront_section%2Fshop&source%5Bsection%5D=storefront;",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 18 Sep 2016 19:12:24 GMT",
+    "etag": "cacheable:80015e3889b2c66ccef62525eb142f60",
+    "p3p": "CP=\"NOI DSP COR NID ADMa OPTa OUR NOR\"",
+    "server": "nginx",
+    "set-cookie": [
+      "_session_id=813d3d097bfcc36280a4a6f79e096840; path=/; HttpOnly",
+      "customer_sig=; path=/; expires=Thu, 18 Sep 2036 19:12:24 -0000; HttpOnly",
+      "_orig_referrer=; Expires=Sun, 02-Oct-16 19:12:24 GMT; Path=/; HttpOnly",
+      "_landing_page=%2Fproducts%2Fboosted-dual-plus%3Fvariant%3D1141824744; Expires=Sun, 02-Oct-16 19:12:24 GMT; Path=/; HttpOnly",
+      "cart_sig=; path=/; expires=Sun, 02 Oct 2016 19:12:24 -0000; HttpOnly"
+    ],
+    "transfer-encoding": "chunked",
+    "x-alternate-cache-key": "cacheable:239b7e597f631e28cf1a15aaa78871ab",
+    "x-cache": "hit, server",
+    "x-content-type-options": [
+      "nosniff",
+      "nosniff",
+      "nosniff"
+    ],
+    "x-dc": "chi2,ash",
+    "x-download-options": "noopen",
+    "x-permitted-cross-domain-policies": "none",
+    "x-request-id": "9a880404-14d6-488d-8d6a-401cbdf86582",
+    "x-shardid": "4",
+    "x-shopid": "3257933",
+    "x-xss-protection": "1; mode=block; report=/xss-report/9a880404-14d6-488d-8d6a-401cbdf86582?source%5Baction%5D=products&source%5Bcontroller%5D=storefront_section%2Fshop&source%5Bsection%5D=storefront"
+  },
+  "originalUrl": "http://shop.boostedboards.com/products/boosted-dual-plus?variant=1141824744",
+  "status": 200,
+  "statusText": "OK"
+}

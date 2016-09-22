@@ -1,0 +1,34 @@
+{
+  "apps": {
+    "iphone": {
+      "id": "596961532",
+      "name": "Kickstarter",
+      "url": "ksr://www.kickstarter.com/projects/1655571865/361230638?app_banner=1&ref=category_featured"
+    }
+  },
+  "author": {
+  },
+  "canonicalUrl": "https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor",
+  "contentUrl": "https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor?ref=category_featured",
+  "description": "LVL is a wearable hydration monitor that gives you the complete picture of your health by also tracking activity, sleep, mood and HR.",
+  "encodingFormat": "text/html",
+  "entity": {
+    "type": "image"
+  },
+  "headline": "LVL – The First Wearable Hydration Monitor",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "https://www.kickstarter.com/favicon.ico"
+  },
+  "image": {
+    "url": "https://ksr-ugc.imgix.net/assets/013/622/325/ba3e0c3ba83ec7a7f6621d52f78773b9_original.jpg?w=640&h=360&fit=fill&bg=000000&v=1473713981&auto=format&q=92&s=468b71562ed1d30cbf4aa9f9a1d7be1a"
+  },
+  "provider": {
+    "name": "Kickstarter"
+  },
+  "twitter": {
+    "siteHandle": "kickstarter",
+    "siteId": "16186995"
+  },
+  "type": "html"
+}
