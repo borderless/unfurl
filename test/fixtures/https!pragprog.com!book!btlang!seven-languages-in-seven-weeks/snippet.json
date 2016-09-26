@@ -1,0 +1,32 @@
+{
+  "apps": {
+  },
+  "author": {
+  },
+  "canonicalUrl": "https://pragprog.com/book/btlang/seven-languages-in-seven-weeks",
+  "contentUrl": "https://pragprog.com/book/btlang/seven-languages-in-seven-weeks",
+  "description": "title: Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages, by: Bruce A. Tate, isbn: 9781934356593, date: 2010-10-27",
+  "encodingFormat": "text/html",
+  "headline": "The Pragmatic Bookshelf | Seven Languages in Seven Weeks",
+  "icon": {
+    "url": "https://pragprog.com/favicon.png"
+  },
+  "provider": {
+  },
+  "tags": [
+    "Ruby",
+    "Io",
+    "Prolog",
+    "Scala",
+    "Erlang",
+    "Clojure",
+    "Haskell",
+    "programming",
+    "languages",
+    "survey",
+    "JavaScript",
+    "Java",
+    "Rails"
+  ],
+  "type": "html"
+}
