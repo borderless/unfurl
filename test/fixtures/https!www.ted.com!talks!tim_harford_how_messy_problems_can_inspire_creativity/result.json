@@ -110,7 +110,7 @@
     "provider_name": "TED",
     "provider_url": "http://ted.com",
     "thumbnail_height": 180,
-    "thumbnail_url": "http://pe.tedcdn.com/images/ted/348aee8d42d7f15c17f029ae8587e75e6ff0c158_240x180.jpg?lang=en",
+    "thumbnail_url": "https://pe.tedcdn.com/images/ted/348aee8d42d7f15c17f029ae8587e75e6ff0c158_240x180.jpg?lang=en",
     "thumbnail_width": 240,
     "title": "Tim Harford: How frustration can make us more creative",
     "type": "video",
