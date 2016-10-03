@@ -26,6 +26,7 @@ var FIXTURES = [
   // Movie pages.
   'http://www.imdb.com/title/tt1375666/',
   'https://www.rottentomatoes.com/m/inception/',
+  'https://trakt.tv/movies/kung-fury-2015',
   // File pages.
   'http://d.pr/a/q3z9',
   // Information pages.

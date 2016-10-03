@@ -1,0 +1,453 @@
+{
+  "applinks": {
+  },
+  "contentUrl": "https://trakt.tv/movies/kung-fury-2015",
+  "dublincore": {
+  },
+  "encodingFormat": "text/html",
+  "html": {
+    "apple-mobile-web-app-title": "Trakt.tv",
+    "application-name": "Trakt.tv",
+    "description": "During an unfortunate series of events, a friend of Kung Fury is assassinated by the most dangerous kung fu master criminal of all time, Adolf Hitler, a.k.a Kung Führer. Kung Fury decides to travel back in time to Nazi Germany in order to kill Hitler and end the Nazi empire once and for all.",
+    "icons": [
+      {
+        "type": "image/x-icon",
+        "url": "https://walter.trakt.tv/hotlink-ok/public/favicon.ico"
+      }
+    ],
+    "title": "Kung Fury (2015) - Trakt.tv"
+  },
+  "microdata": {
+    "@graph": [
+      {
+        "@context": {
+          "@vocab": "http://schema.org/"
+        },
+        "@type": "Movie",
+        "actor": [
+          {
+            "@type": "Person",
+            "image": [
+              "https://walter.trakt.tv/images/people/000/543/926/headshots/thumb/e96c706707.jpg",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "David Sandberg",
+            "url": "https://trakt.tv/people/david-sandberg-b737c176-2e66-45ad-ba1e-2febc20a8c37"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "https://walter.trakt.tv/images/people/000/424/822/headshots/thumb/a8939588e5.jpg",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Jorma Taccone",
+            "url": "https://trakt.tv/people/jorma-taccone"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Leopold Nilsson",
+            "url": "https://trakt.tv/people/leopold-nilsson"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Andreas Cahling",
+            "url": "https://trakt.tv/people/andreas-cahling"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Helene Ahlson",
+            "url": "https://trakt.tv/people/helene-ahlson"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Eos Karlsson",
+            "url": "https://trakt.tv/people/eos-karlsson"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Eleni Young",
+            "url": "https://trakt.tv/people/eleni-young"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Erik Hörnqvist",
+            "url": "https://trakt.tv/people/erik-hornqvist"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Per-Henrik Arvidius",
+            "url": "https://trakt.tv/people/per-henrik-arvidius"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Sebastian Sahin",
+            "url": "https://trakt.tv/people/sebastian-sahin"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "https://walter.trakt.tv/images/people/000/419/355/headshots/thumb/ba0796a547.jpg",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "David Hasselhoff",
+            "url": "https://trakt.tv/people/david-hasselhoff"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "https://walter.trakt.tv/images/people/000/445/760/headshots/thumb/c2162a2ffe.jpg",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Magnus Betnér",
+            "url": "https://trakt.tv/people/magnus-betner-175e0569-055f-48f3-89ff-ec695097f727"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "https://walter.trakt.tv/images/people/000/182/825/headshots/thumb/b622383b3c.jpg",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Björn Gustafsson",
+            "url": "https://trakt.tv/people/bjorn-gustafsson"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Steven Chew",
+            "url": "https://trakt.tv/people/steven-chew"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Frank Sanderson",
+            "url": "https://trakt.tv/people/frank-sanderson"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Yasmina Suhonen",
+            "url": "https://trakt.tv/people/yasmina-suhonen"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Robin Arvidsson",
+            "url": "https://trakt.tv/people/robin-arvidsson"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Tomas Blomberg",
+            "url": "https://trakt.tv/people/tomas-blomberg"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Joel Dunkels",
+            "url": "https://trakt.tv/people/joel-dunkels"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Julian Maroda",
+            "url": "https://trakt.tv/people/julian-maroda"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Vlad Micu",
+            "url": "https://trakt.tv/people/vlad-micu"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Marc Strömberg",
+            "url": "https://trakt.tv/people/marc-stromberg"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Barry Hitchings",
+            "url": "https://trakt.tv/people/barry-hitchings"
+          },
+          {
+            "@type": "Person",
+            "image": [
+              "/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+              "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+            ],
+            "name": "Gustaf Lingmark",
+            "url": "https://trakt.tv/people/gustaf-lingmark"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "bestRating": "100",
+          "ratingCount": "1.5k",
+          "ratingValue": "78",
+          "worstRating": "0"
+        },
+        "datePublished": "2015-05-28",
+        "description": "During an unfortunate series of events, a friend of Kung Fury is assassinated by the most dangerous kung fu master criminal of all time, Adolf Hitler, a.k.a Kung Führer. Kung Fury decides to travel back in time to Nazi Germany in order to kill Hitler and end the Nazi empire once and for all.",
+        "director": {
+          "@type": "Person",
+          "image": "https://walter.trakt.tv/images/people/000/543/926/headshots/thumb/e96c706707.jpg",
+          "name": "David Sandberg",
+          "url": "https://trakt.tv/people/david-sandberg-b737c176-2e66-45ad-ba1e-2febc20a8c37"
+        },
+        "duration": "P31M",
+        "genre": [
+          "Action",
+          "Comedy",
+          "Fantasy",
+          "Science Fiction"
+        ],
+        "image": [
+          "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png",
+          "https://trakt.tv/assets/placeholders/thumb/poster-2d5709c1b640929ca1ab60137044b152.png"
+        ],
+        "name": "Kung Fury (2015)",
+        "review": [
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "image": "https://secure.gravatar.com/avatar/d786c1f94e8c2275d5930ec23fdf451e?d=https%3A%2F%2Fwalter.trakt.tv%2Fhotlink-ok%2Fplaceholders%2Fmedium%2Ffry.png&r=pg&s=256",
+              "name": "Tommy",
+              "sameAs": "https://trakt.tv/users/styrbjorn"
+            },
+            "datePublished": "2015-05-29T00:01:59+01:00",
+            "description": "Excellent movie ! Brings back good.. and bad memories from the 80s!",
+            "itemReviewed": {
+              "@type": "Movie",
+              "image": "https://walter.trakt.tv/images/movies/000/152/524/posters/original/e7a61eb2d5.jpg",
+              "name": "Kung Fury (2015)",
+              "sameAs": "https://trakt.tv/movies/kung-fury-2015"
+            },
+            "name": "Kung Fury (2015)",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Trakt.tv",
+              "sameAs": "https://trakt.tv/"
+            },
+            "reviewBody": "Excellent movie ! Brings back good.. and bad memories from the 80s!",
+            "url": "https://trakt.tv/comments/45033"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "image": "https://walter.trakt.tv/images/users/000/010/469/avatars/thumb/7117d0eb85.jpg",
+              "name": "Adam \"Atomic\" Thompson",
+              "sameAs": "https://trakt.tv/users/atomicsunset"
+            },
+            "datePublished": "2015-05-30T01:00:27+01:00",
+            "description": "As cheesy and campy as this movie is, it's so much so that you can't help but get wrapped up in nostalgia. From the characters, to the outrageous and o",
+            "itemReviewed": {
+              "@type": "Movie",
+              "image": "https://walter.trakt.tv/images/movies/000/152/524/posters/original/e7a61eb2d5.jpg",
+              "name": "Kung Fury (2015)",
+              "sameAs": "https://trakt.tv/movies/kung-fury-2015"
+            },
+            "name": "Kung Fury (2015)",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Trakt.tv",
+              "sameAs": "https://trakt.tv/"
+            },
+            "reviewBody": "As cheesy and campy as this movie is, it's so much so that you can't help but get wrapped up in nostalgia. From the characters, to the outrageous and over the top 80's effects this movie is perfect for a laugh. This is not going to be for everyone, but at only 30 minutes long it's worth the quick laughs!",
+            "url": "https://trakt.tv/comments/45114"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "image": "https://walter.trakt.tv/images/users/000/017/500/avatars/thumb/3229700d3c.jpg",
+              "name": "sp1ti",
+              "sameAs": "https://trakt.tv/users/sp1ti"
+            },
+            "datePublished": "2015-05-29T21:24:01+01:00",
+            "description": "Should have stayed short if anything. They tryhard at tryharding. It's so over the top it's just boring and Axe Cop is already doing the same thing any",
+            "itemReviewed": {
+              "@type": "Movie",
+              "image": "https://walter.trakt.tv/images/movies/000/152/524/posters/original/e7a61eb2d5.jpg",
+              "name": "Kung Fury (2015)",
+              "sameAs": "https://trakt.tv/movies/kung-fury-2015"
+            },
+            "name": "Kung Fury (2015)",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Trakt.tv",
+              "sameAs": "https://trakt.tv/"
+            },
+            "reviewBody": "Should have stayed short if anything. They tryhard at tryharding. It's so over the top it's just boring and Axe Cop is already doing the same thing anyways. You might enjoy this if you have nostalgia goggles glued to your face and are okey with just 30 minutes of \"wow - so random - '80s!!!\".",
+            "url": "https://trakt.tv/comments/45094"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "image": "https://secure.gravatar.com/avatar/74cfec697f074a693514cb8b49fcf029?d=https%3A%2F%2Fwalter.trakt.tv%2Fhotlink-ok%2Fplaceholders%2Fmedium%2Ffry.png&r=pg&s=256",
+              "name": "NotoriousX",
+              "sameAs": "https://trakt.tv/users/notoriousx"
+            },
+            "datePublished": "2016-02-23T22:06:10+00:00",
+            "description": "An ode to the 80s. Funny stupidity in a short-film package. Try and find all the nods to 80s action movies, arcade games, and cartoons.",
+            "itemReviewed": {
+              "@type": "Movie",
+              "image": "https://walter.trakt.tv/images/movies/000/152/524/posters/original/e7a61eb2d5.jpg",
+              "name": "Kung Fury (2015)",
+              "sameAs": "https://trakt.tv/movies/kung-fury-2015"
+            },
+            "name": "Kung Fury (2015)",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Trakt.tv",
+              "sameAs": "https://trakt.tv/"
+            },
+            "reviewBody": "An ode to the 80s. Funny stupidity in a short-film package. Try and find all the nods to 80s action movies, arcade games, and cartoons.",
+            "url": "https://trakt.tv/comments/72542"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "image": "https://walter.trakt.tv/images/users/001/320/464/avatars/thumb/c073e0b08c.jpg",
+              "name": "A Cloudspotter, Supine",
+              "sameAs": "https://trakt.tv/users/cloudspottersupine"
+            },
+            "datePublished": "2015-10-09T04:32:45+01:00",
+            "description": "I've never understood the rampant caricaturization of 1980s film. The 1980s were a great decade for film. But \"corny\" and \"quirky\" nods to the Back II",
+            "itemReviewed": {
+              "@type": "Movie",
+              "image": "https://walter.trakt.tv/images/movies/000/152/524/posters/original/e7a61eb2d5.jpg",
+              "name": "Kung Fury (2015)",
+              "sameAs": "https://trakt.tv/movies/kung-fury-2015"
+            },
+            "name": "Kung Fury (2015)",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Trakt.tv",
+              "sameAs": "https://trakt.tv/"
+            },
+            "reviewBody": "I've never understood the rampant caricaturization of 1980s film. The 1980s were a great decade for film. But \"corny\" and \"quirky\" nods to the Back II the Futures and the Terminator 2's of the decade seem like an insult to the decade's serious accomplishments, and Kung Fury is an honest attempt to be crowned king of these. It reminds me of Snow Crash, the novel by Neal Stephenson, except Snow Crash has two fanbases: One, which sees it as an angry parody of the film-and-television caricatures of cyberpunk that had become more popular since Gibson and Sterling. And two, the group of \"nostalgic\" fans who didn't realize it was a parody in the first place, and enjoy everything that Snow Crash puts on burn notice. Except Kung Fury has nothing to parallel the former-- It's an honest love letter to the worst things in a decade of film. I apologize for being no fun, but I wasted my time here.",
+            "url": "https://trakt.tv/comments/58593"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "image": "https://secure.gravatar.com/avatar/c7af488e9d29177657c8e37d586e0855?d=https%3A%2F%2Fwalter.trakt.tv%2Fhotlink-ok%2Fplaceholders%2Fmedium%2Ffry.png&r=pg&s=256",
+              "name": "Tuikkeli",
+              "sameAs": "https://trakt.tv/users/tuikkeli"
+            },
+            "datePublished": "2015-07-27T15:28:41+01:00",
+            "description": "Totally ninja. Literally. Well sort of. Some way.",
+            "itemReviewed": {
+              "@type": "Movie",
+              "image": "https://walter.trakt.tv/images/movies/000/152/524/posters/original/e7a61eb2d5.jpg",
+              "name": "Kung Fury (2015)",
+              "sameAs": "https://trakt.tv/movies/kung-fury-2015"
+            },
+            "name": "Kung Fury (2015)",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Trakt.tv",
+              "sameAs": "https://trakt.tv/"
+            },
+            "reviewBody": "Totally ninja. Literally. Well sort of. Some way.",
+            "url": "https://trakt.tv/comments/50703"
+          }
+        ],
+        "url": "https://trakt.tv/movies/kung-fury-2015"
+      }
+    ]
+  },
+  "rdfa": {
+    "@context": {
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "fb:app_id": "224753454332789",
+        "og:description": "During an unfortunate series of events, a friend of Kung Fury is assassinated by the most dangerous kung fu master criminal of all time, Adolf Hitler, a.k.a Kung Führer. Kung Fury decides to travel back in time to Nazi Germany in order to kill Hitler and end the Nazi empire once and for all.",
+        "og:image": "https://walter.trakt.tv/images/movies/000/152/524/posters/medium/e7a61eb2d5.jpg",
+        "og:site_name": "Trakt.tv",
+        "og:title": "Kung Fury (2015)",
+        "og:type": "video.movie",
+        "og:url": "https://trakt.tv/movies/kung-fury-2015"
+      }
+    ]
+  },
+  "sailthru": {
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "image": "https://walter.trakt.tv/images/movies/000/152/524/fanarts/thumb/4ce64053e1.jpg",
+    "site": "@trakt"
+  },
+  "type": "html"
+}

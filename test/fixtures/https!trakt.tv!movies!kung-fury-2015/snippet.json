@@ -1,0 +1,28 @@
+{
+  "apps": {
+  },
+  "author": {
+  },
+  "canonicalUrl": "https://trakt.tv/movies/kung-fury-2015",
+  "contentUrl": "https://trakt.tv/movies/kung-fury-2015",
+  "description": "During an unfortunate series of events, a friend of Kung Fury is assassinated by the most dangerous kung fu master criminal of all time, Adolf Hitler, a.k.a Kung Führer. Kung Fury decides to travel back in time to Nazi Germany in order to kill Hitler and end the Nazi empire once and for all.",
+  "encodingFormat": "text/html",
+  "entity": {
+    "type": "image"
+  },
+  "headline": "Kung Fury (2015) - Trakt.tv",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "https://walter.trakt.tv/hotlink-ok/public/favicon.ico"
+  },
+  "image": {
+    "url": "https://walter.trakt.tv/images/movies/000/152/524/fanarts/thumb/4ce64053e1.jpg"
+  },
+  "provider": {
+    "name": "Trakt.tv"
+  },
+  "twitter": {
+    "siteHandle": "trakt"
+  },
+  "type": "html"
+}
