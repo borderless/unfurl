@@ -1,0 +1,47 @@
+{
+  "applinks": {
+  },
+  "contentSize": 8594,
+  "contentUrl": "https://www.battlefield.com/buy/battlefield-1",
+  "dublincore": {
+  },
+  "encodingFormat": "text/html",
+  "html": {
+    "description": "Pre-Order Battlefield 1 on Xbox One, PlayStation 4, or Origin for PC. Buy the Battlefield 1 Early Enlister Deluxe Edition to get early access on October 18, three days before the worldwide release date.",
+    "icons": [
+      {
+        "type": "image/x-icon",
+        "url": "https://www.battlefield.com/assets/dist/images/favicon.ico"
+      }
+    ],
+    "title": "Pre-Order Battlefield 1 – Battlefield Official Site"
+  },
+  "microdata": {
+  },
+  "rdfa": {
+    "@context": {
+      "article": "http://ogp.me/ns/article#",
+      "fb": "http://ogp.me/ns/fb#",
+      "og": "http://ogp.me/ns#"
+    },
+    "@graph": [
+      {
+        "og:description": "Pre-Order Battlefield 1 on Xbox One, PlayStation 4, or Origin for PC. Buy the Battlefield 1 Early Enlister Deluxe Edition to get early access on October 18, three days before the worldwide release date.",
+        "og:image": "http://media-www-battlefieldwebcore.spark.ea.com/content/battlefield-portal/en_US/_global_/_jcr_content/ccm/componentwrapper_1/components/opengraph/ogImage.img.jpg",
+        "og:site_name": "Battlefield",
+        "og:title": "Pre-Order Battlefield 1 – Battlefield Official Site",
+        "og:type": "article",
+        "og:url": "https://www.battlefield.com/buy/battlefield-1"
+      }
+    ]
+  },
+  "sailthru": {
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "description": "Pre-Order Battlefield 1 on Xbox One, PlayStation 4, or Origin for PC. Buy the Battlefield 1 Early Enlister Deluxe Edition to get early access on October 18, three days before the worldwide release date.",
+    "image": "http://media-www-battlefieldwebcore.spark.ea.com/content/battlefield-portal/en_US/_global_/_jcr_content/ccm/componentwrapper_1/components/opengraph/ogImage.img.jpg",
+    "title": "Pre-Order Battlefield 1 – Battlefield Official Site"
+  },
+  "type": "html"
+}

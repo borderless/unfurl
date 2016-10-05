@@ -1,0 +1,23 @@
+{
+  "contentUrl": "https://www.battlefield.com/buy/battlefield-1",
+  "headers": {
+    "cache-control": "max-age=564",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "content-length": "8594",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 05 Oct 2016 21:24:27 GMT",
+    "expires": "Wed, 05 Oct 2016 21:29:28 UTC",
+    "last-modified": "Wed, 05 Oct 2016 21:10:40 UTC",
+    "server": "nginx",
+    "set-cookie": "ealocale=en-us; expires=Mon, 31-Dec-2038 23:59:59 GMT; path=/; domain=.battlefield.com",
+    "vary": "Accept-Encoding",
+    "x-frame-options": [
+      "SAMEORIGIN",
+      "SAMEORIGIN"
+    ]
+  },
+  "originalUrl": "https://www.battlefield.com/buy/battlefield-1",
+  "status": 200,
+  "statusText": "OK"
+}

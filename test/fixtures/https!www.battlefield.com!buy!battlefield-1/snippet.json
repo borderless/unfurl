@@ -1,0 +1,25 @@
+{
+  "apps": {
+  },
+  "author": {
+  },
+  "canonicalUrl": "https://www.battlefield.com/buy/battlefield-1",
+  "contentSize": 8594,
+  "contentUrl": "https://www.battlefield.com/buy/battlefield-1",
+  "description": "Pre-Order Battlefield 1 on Xbox One, PlayStation 4, or Origin for PC. Buy the Battlefield 1 Early Enlister Deluxe Edition to get early access on October 18, three days before the worldwide release date.",
+  "encodingFormat": "text/html",
+  "entity": {
+    "type": "image"
+  },
+  "headline": "Pre-Order Battlefield 1 – Battlefield Official Site",
+  "icon": {
+    "type": "image/x-icon",
+    "url": "https://www.battlefield.com/assets/dist/images/favicon.ico"
+  },
+  "image": {
+    "url": "http://media-www-battlefieldwebcore.spark.ea.com/content/battlefield-portal/en_US/_global_/_jcr_content/ccm/componentwrapper_1/components/opengraph/ogImage.img.jpg"
+  },
+  "provider": {
+  },
+  "type": "html"
+}

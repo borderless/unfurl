@@ -99,6 +99,7 @@ var FIXTURES = [
   'http://shop.boostedboards.com/products/boosted-dual-plus?variant=1141824744',
   'https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor?ref=category_featured',
   'https://pragprog.com/book/btlang/seven-languages-in-seven-weeks',
+  'https://www.battlefield.com/buy/battlefield-1',
   // Documents.
   'https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing',
   'https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing',
