@@ -38,7 +38,7 @@ export function extractExifData (url: string, stream: Readable, abort: AbortFn) 
       return resolve(exif[0])
     })
 
-    exif.on('error', (error) => {
+    exif.on('error', () => {
       abort()
 
       return resolve(null)
