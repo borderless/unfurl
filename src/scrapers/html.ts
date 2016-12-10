@@ -39,6 +39,8 @@ export async function handle (
     Jsonld.expand(parsed.microdata || {})
   ])
 
+  result.type = 'html'
+
   result.content = {
     jsonld,
     rdfa,

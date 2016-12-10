@@ -3,38 +3,46 @@ import { get, Path } from 'getvalue'
 import arrify = require('arrify')
 
 /**
+ * Export the JSON-LD value interface.
+ */
+export interface JsonLdValue {
+  '@value': string
+}
+
+/**
+ * Turn an object into a string.
+ */
+export function toString (value: string | JsonLdValue | undefined): string | undefined {
+  return typeof value === 'object' ? value['@value'] : value
+}
+
+/**
  * Return a value as a string.
  */
 export function getString (obj: any, path: Path): string | undefined {
-  const value = get<any>(obj, path)
-
-  if (typeof value === 'string') {
-    return value
-  }
+  const value = get<string | JsonLdValue | string[] | JsonLdValue[] | undefined>(obj, path)
 
   if (Array.isArray(value)) {
-    if (typeof value[0] === 'string') {
-      return value[0]
-    }
+    return toString(value[0])
   }
 
-  return
+  return toString(value)
 }
 
 /**
  * Return an array of values.
  */
 export function getArray (obj: any, path: Path): string[] | undefined {
-  const value = get<any>(obj, path)
+  const value = get<string | JsonLdValue | string[] | JsonLdValue[] | undefined>(obj, path)
 
-  return value ? arrify(value) : undefined
+  return value ? arrify<string | JsonLdValue>(value).map(x => toString(x) as string) : undefined
 }
 
 /**
  * Convert a string to valid number.
  */
-export function toNumber (value: string): number | undefined {
-  const num = Number(value)
+export function toNumber (value: string | JsonLdValue): number | undefined {
+  const num = Number(toString(value))
 
   return isFinite(num) ? num : undefined
 }

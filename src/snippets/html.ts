@@ -24,7 +24,9 @@ import {
   getNumber,
   getUrl,
   copyProps,
-  toNumber
+  toNumber,
+  toString,
+  JsonLdValue
 } from '../support'
 
 export default function (result: ScrapeResult<HtmlContent>, options: ExtractOptions): HtmlSnippet {
@@ -60,7 +62,7 @@ export default function (result: ScrapeResult<HtmlContent>, options: ExtractOpti
  */
 function getCanonicalUrl (content: HtmlContent, contentUrl: string) {
   return getUrl(content, ['twitter', 'url'], contentUrl) ||
-    getUrl(content, ['rdfa', '', 'http://ogp.me/ns#url'], contentUrl) ||
+    getUrl(content, ['rdfa', 0, 'http://ogp.me/ns#url'], contentUrl) ||
     getUrl(content, ['html', 'canonical'], contentUrl) ||
     getUrl(content, ['applinks', 'web:url'], contentUrl) ||
     getUrl(content, ['oembed', 'url'], contentUrl)
@@ -72,8 +74,8 @@ function getCanonicalUrl (content: HtmlContent, contentUrl: string) {
 function getAuthor (content: HtmlContent) {
   const name = getString(content, ['html', 'author']) ||
     getString(content, ['oembed', 'author_name']) ||
-    getString(content, ['rdfa', '', 'http://ogp.me/ns/article#author']) ||
-    getString(content, ['rdfa', '', 'https://creativecommons.org/ns#attributionName']) ||
+    getString(content, ['rdfa', 0, 'http://ogp.me/ns/article#author']) ||
+    getString(content, ['rdfa', 0, 'https://creativecommons.org/ns#attributionName']) ||
     getString(content, ['sailthru', 'author'])
 
   const url = getString(content, ['oembed', 'author_url'])
@@ -91,7 +93,7 @@ function getTags (content: HtmlContent): string[] | undefined {
     return htmlKeywords.split(/ *, */)
   }
 
-  const metaTags = getArray(content, ['rdfa', '', 'http://ogp.me/ns#video:tag'])
+  const metaTags = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#video:tag'])
 
   if (metaTags) {
     return metaTags
@@ -104,7 +106,7 @@ function getTags (content: HtmlContent): string[] | undefined {
  * Get the name of the site.
  */
 function getProvider (content: HtmlContent) {
-  const name = getString(content, ['rdfa', '', 'http://ogp.me/ns#site_name']) ||
+  const name = getString(content, ['rdfa', 0, 'http://ogp.me/ns#site_name']) ||
     getString(content, ['oembed', 'provider_name']) ||
     getString(content, ['html', 'application-name']) ||
     getString(content, ['html', 'apple-mobile-web-app-title']) ||
@@ -127,8 +129,8 @@ function getProvider (content: HtmlContent) {
 function getHeadline (content: HtmlContent) {
   return getString(content, ['twitter', 'title']) ||
     getString(content, ['oembed', 'title']) ||
-    getString(content, ['rdfa', '', 'http://ogp.me/ns#title']) ||
-    getString(content, ['rdfa', '', 'http://purl.org/dc/terms/title']) ||
+    getString(content, ['rdfa', 0, 'http://ogp.me/ns#title']) ||
+    getString(content, ['rdfa', 0, 'http://purl.org/dc/terms/title']) ||
     getString(content, ['html', 'title'])
 }
 
@@ -136,7 +138,7 @@ function getHeadline (content: HtmlContent) {
  * Get the caption from the site.
  */
 function getDescription (content: HtmlContent) {
-  return getString(content, ['rdfa', '', 'http://ogp.me/ns#description']) ||
+  return getString(content, ['rdfa', 0, 'http://ogp.me/ns#description']) ||
     getString(content, ['oembed', 'summary']) ||
     getString(content, ['twitter', 'description']) ||
     getString(content, ['html', 'description'])
@@ -146,8 +148,8 @@ function getDescription (content: HtmlContent) {
  * Get the meta image url.
  */
 function getImage (content: HtmlContent): HtmlSnippetImage | HtmlSnippetImage[] {
-  const ogpImages = getArray(content, ['rdfa', '', 'http://ogp.me/ns#image']) ||
-    getArray(content, ['rdfa', '', 'http://ogp.me/ns#image:url'])
+  const ogpImages = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#image']) ||
+    getArray(content, ['rdfa', 0, 'http://ogp.me/ns#image:url'])
   const twitterImages = getArray(content, ['twitter', 'image']) || getArray(content, ['twitter', 'image0'])
   const images: HtmlSnippetImage[] = []
 
@@ -165,21 +167,21 @@ function getImage (content: HtmlContent): HtmlSnippetImage | HtmlSnippetImage[] 
   }
 
   function addImages (
-    urls: string[],
-    secureUrls: string[] | undefined,
-    types: string[] | undefined,
-    alts: string[] | undefined,
-    widths: string[] | undefined,
-    heights: string[] | undefined,
+    urls: string[] | JsonLdValue[],
+    secureUrls: string[] | JsonLdValue[] | undefined,
+    types: string[] | JsonLdValue[] | undefined,
+    alts: string[] | JsonLdValue[] | undefined,
+    widths: string[] | JsonLdValue[] | undefined,
+    heights: string[] | JsonLdValue[] | undefined,
     append: boolean
   ) {
     for (let i = 0; i < urls.length; i++) {
       addImage(
         {
-          url: urls[i],
-          secureUrl: secureUrls ? secureUrls[i] : undefined,
-          type: types ? types[i] : undefined,
-          alt: alts ? alts[i] : undefined,
+          url: toString(urls[i]) as string,
+          secureUrl: secureUrls ? toString(secureUrls[i]) : undefined,
+          type: types ? toString(types[i]) : undefined,
+          alt: alts ? toString(alts[i]) : undefined,
           width: widths ? toNumber(widths[i]) : undefined,
           height: heights ? toNumber(heights[i]) : undefined
         },
@@ -189,10 +191,10 @@ function getImage (content: HtmlContent): HtmlSnippetImage | HtmlSnippetImage[] 
   }
 
   if (ogpImages) {
-    const ogpTypes = getArray(content, ['rdfa', '', 'http://ogp.me/ns#image:type'])
-    const ogpWidths = getArray(content, ['rdfa', '', 'http://ogp.me/ns#image:width'])
-    const ogpHeights = getArray(content, ['rdfa', '', 'http://ogp.me/ns#image:height'])
-    const ogpSecureUrls = getArray(content, ['rdfa', '', 'http://ogp.me/ns#image:secure_url'])
+    const ogpTypes = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#image:type'])
+    const ogpWidths = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#image:width'])
+    const ogpHeights = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#image:height'])
+    const ogpSecureUrls = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#image:secure_url'])
 
     addImages(ogpImages, ogpSecureUrls, ogpTypes, undefined, ogpWidths, ogpHeights, true)
   }
@@ -212,8 +214,8 @@ function getImage (content: HtmlContent): HtmlSnippetImage | HtmlSnippetImage[] 
  * Get the meta audio information.
  */
 function getAudio (content: HtmlContent): HtmlSnippetAudio | HtmlSnippetAudio[] {
-  const ogpAudios = getArray(content, ['rdfa', '', 'http://ogp.me/ns#audio']) ||
-    getArray(content, ['rdfa', '', 'http://ogp.me/ns#audio:url'])
+  const ogpAudios = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#audio']) ||
+    getArray(content, ['rdfa', 0, 'http://ogp.me/ns#audio:url'])
   const audios: HtmlSnippetAudio[] = []
 
   function addAudio (newAudio: HtmlSnippetAudio) {
@@ -238,8 +240,8 @@ function getAudio (content: HtmlContent): HtmlSnippetAudio | HtmlSnippetAudio[] 
   }
 
   if (ogpAudios) {
-    const ogpTypes = getArray(content, ['rdfa', '', 'http://ogp.me/ns#audio:type'])
-    const ogpSecureUrls = getArray(content, ['rdfa', '', 'http://ogp.me/ns#audio:secure_url'])
+    const ogpTypes = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#audio:type'])
+    const ogpSecureUrls = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#audio:secure_url'])
 
     addAudios(ogpAudios, ogpSecureUrls, ogpTypes)
   }
@@ -251,8 +253,8 @@ function getAudio (content: HtmlContent): HtmlSnippetAudio | HtmlSnippetAudio[] 
  * Get the meta image url.
  */
 function getVideo (content: HtmlContent): HtmlSnippetVideo | HtmlSnippetVideo[] {
-  const ogpVideos = getArray(content, ['rdfa', '', 'http://ogp.me/ns#video']) ||
-    getArray(content, ['rdfa', '', 'http://ogp.me/ns#video:url'])
+  const ogpVideos = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#video']) ||
+    getArray(content, ['rdfa', 0, 'http://ogp.me/ns#video:url'])
   const videos: HtmlSnippetVideo[] = []
 
   function addVideo (newVideo: HtmlSnippetVideo) {
@@ -285,10 +287,10 @@ function getVideo (content: HtmlContent): HtmlSnippetVideo | HtmlSnippetVideo[] 
   }
 
   if (ogpVideos) {
-    const ogpTypes = getArray(content, ['rdfa', '', 'http://ogp.me/ns#video:type'])
-    const ogpWidths = getArray(content, ['rdfa', '', 'http://ogp.me/ns#video:width'])
-    const ogpHeights = getArray(content, ['rdfa', '', 'http://ogp.me/ns#video:height'])
-    const ogpSecureUrls = getArray(content, ['rdfa', '', 'http://ogp.me/ns#video:secure_url'])
+    const ogpTypes = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#video:type'])
+    const ogpWidths = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#video:width'])
+    const ogpHeights = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#video:height'])
+    const ogpSecureUrls = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#video:secure_url'])
 
     addVideos(ogpVideos, ogpSecureUrls, ogpTypes, ogpWidths, ogpHeights)
   }
@@ -482,8 +484,8 @@ function getWindowsUniversalApp (content: HtmlContent): HtmlSnippetAppLink | und
  * Get locale data.
  */
 function getLocale (content: HtmlContent): HtmlSnippetLocale | undefined {
-  const primary = getString(content, ['rdfa', '', 'http://ogp.me/ns#locale'])
-  const alternate = getArray(content, ['rdfa', '', 'http://ogp.me/ns#locale:alternate'])
+  const primary = getString(content, ['rdfa', 0, 'http://ogp.me/ns#locale'])
+  const alternate = getArray(content, ['rdfa', 0, 'http://ogp.me/ns#locale:alternate'])
 
   if (primary || alternate) {
     return { primary, alternate }
@@ -531,7 +533,7 @@ function getTwitterHandle (content: HtmlContent, path: Path) {
  * Get the TTL of the page.
  */
 function getTtl (content: HtmlContent): number | undefined {
-  return getNumber(content, ['rdfa', '', 'http://ogp.me/ns#ttl']) ||
+  return getNumber(content, ['rdfa', 0, 'http://ogp.me/ns#ttl']) ||
     getNumber(content, ['oembed', 'cache_age'])
 }
 
@@ -539,7 +541,7 @@ function getTtl (content: HtmlContent): number | undefined {
  * Get the object determiner.
  */
 function getDeterminer (content: HtmlContent): string | undefined {
-  return getString(content, ['rdfa', '', 'http://ogp.me/ns#determiner'])
+  return getString(content, ['rdfa', 0, 'http://ogp.me/ns#determiner'])
 }
 
 /**
@@ -609,17 +611,17 @@ function getIcon (content: HtmlContent, options: ExtractOptions): HtmlSnippetIco
  */
 function getEntity (content: HtmlContent): Entity | undefined {
   const twitterType = getString(content, ['twitter', 'card'])
-  const ogpType = getString(content, ['rdfa', '', 'http://ogp.me/ns#type'])
+  const ogpType = getString(content, ['rdfa', 0, 'http://ogp.me/ns#type'])
   const oembedType = getString(content, ['oembed', 'type'])
 
   if (ogpType === 'article') {
     return {
       type: 'article',
-      section: getString(content, ['rdfa', '', 'http://ogp.me/ns/article#section']),
-      publisher: getString(content, ['rdfa', '', 'http://ogp.me/ns/article#publisher']),
-      datePublished: getDate(content, ['rdfa', '', 'http://ogp.me/ns/article#published_time']),
-      dateExpires: getDate(content, ['rdfa', '', 'http://ogp.me/ns/article#expiration_time']),
-      dateModified: getDate(content, ['rdfa', '', 'http://ogp.me/ns/article#modified_time'])
+      section: getString(content, ['rdfa', 0, 'http://ogp.me/ns/article#section']),
+      publisher: getString(content, ['rdfa', 0, 'http://ogp.me/ns/article#publisher']),
+      datePublished: getDate(content, ['rdfa', 0, 'http://ogp.me/ns/article#published_time']),
+      dateExpires: getDate(content, ['rdfa', 0, 'http://ogp.me/ns/article#expiration_time']),
+      dateModified: getDate(content, ['rdfa', 0, 'http://ogp.me/ns/article#modified_time'])
     }
   }
 
