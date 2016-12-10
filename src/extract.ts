@@ -1,28 +1,23 @@
-import extend = require('xtend')
-import Promise = require('any-promise')
+import defaultSnippets from './snippets'
 import { scrapeUrl } from './scrape'
-import { DEFAULT_EXTRACT_OPTIONS } from './utils'
-
-import snippets from './snippets'
-
 import { ScrapeResult, Snippet, ScrapeOptions, ExtractOptions } from './interfaces'
 
 /**
  * Extract rich snippets from the scraping result.
  */
-export function extract (result: ScrapeResult, opts?: ExtractOptions): Promise<Snippet> {
+export async function extract (result: ScrapeResult<any>, options: ExtractOptions = {}): Promise<Snippet | undefined> {
   if (result == null) {
     return
   }
 
-  const options = extend(DEFAULT_EXTRACT_OPTIONS, opts)
+  const snippets = options.snippets || defaultSnippets
   const extract = snippets[result.type]
 
   if (extract) {
-    return Promise.resolve(extract(result, options))
+    return extract(result, options)
   }
 
-  return Promise.resolve(undefined)
+  return
 }
 
 /**

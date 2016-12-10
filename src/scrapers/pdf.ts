@@ -1,24 +1,27 @@
 import Promise = require('any-promise')
 import { Readable } from 'stream'
-import { Headers, AbortFn, ScrapeResult, ScrapeOptions } from '../interfaces'
+import { Headers, AbortFn, ScrapeResult, ScrapeOptions, ExifData } from '../interfaces'
+import { extractExifData as defaultExtractExifData } from '../support'
 
-export function supported ({ encodingFormat }: ScrapeResult) {
+export function supported ({ encodingFormat }: ScrapeResult<null>) {
   return encodingFormat === 'application/pdf'
 }
 
 export function handle (
-  result: ScrapeResult,
-  headers: Headers,
+  result: ScrapeResult<ExifData>,
+  _headers: Headers,
   stream: Readable,
   abort: AbortFn,
   options: ScrapeOptions
-): Promise<ScrapeResult> {
+): Promise<ScrapeResult<ExifData>> {
+  const extractExifData = options.extractExifData || defaultExtractExifData
+
   result.type = 'pdf'
 
-  return options.extractExifData(result.contentUrl, stream, abort)
+  return extractExifData(result.contentUrl, stream, abort)
     .then(
       (exifData) => {
-        result.exifData = exifData
+        result.content = exifData
 
         return result
       },

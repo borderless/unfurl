@@ -1,6 +1,6 @@
-import { ScrapeResult, LinkSnippet, ExtractOptions } from '../interfaces'
+import { ScrapeResult, LinkSnippet } from '../interfaces'
 
-export default function (result: ScrapeResult, options: ExtractOptions): LinkSnippet {
+export default function (result: ScrapeResult<null>): LinkSnippet {
   const {
     encodingFormat,
     contentSize,

@@ -8,7 +8,7 @@ import { Scraper } from '../interfaces'
 /**
  * List of rules, executes against first match.
  */
-const rules: Scraper[] = [
+const rules: Scraper<any>[] = [
   html,
   image,
   video,

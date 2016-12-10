@@ -1,6 +1,6 @@
-import { ScrapeResult, VideoSnippet, ExtractOptions } from '../interfaces'
+import { ScrapeResult, VideoSnippet, ExifData } from '../interfaces'
 
-export default function (result: ScrapeResult, options: ExtractOptions): VideoSnippet {
+export default function (result: ScrapeResult<ExifData>): VideoSnippet {
   const {
     encodingFormat,
     contentSize,

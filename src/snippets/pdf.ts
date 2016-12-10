@@ -1,12 +1,12 @@
-import { parse } from 'exif-date'
-import { ScrapeResult, PdfSnippet, ExtractOptions } from '../interfaces'
+import { parseExifDate } from '../support'
+import { ScrapeResult, PdfSnippet, ExifData } from '../interfaces'
 
-export default function (result: ScrapeResult, options: ExtractOptions): PdfSnippet {
+export default function (result: ScrapeResult<ExifData>): PdfSnippet {
   const {
     encodingFormat,
     contentSize,
     contentUrl,
-    exifData
+    content
   } = result
 
   return {
@@ -14,12 +14,12 @@ export default function (result: ScrapeResult, options: ExtractOptions): PdfSnip
     encodingFormat,
     contentSize,
     contentUrl,
-    pageCount: exifData.PageCount,
-    producer: exifData.Producer,
-    author: exifData.Author,
-    creator: exifData.Creator,
-    title: exifData.Title,
-    dateCreated: parse(exifData.CreateDate),
-    dateModified: parse(exifData.ModifyDate)
+    pageCount: content.PageCount,
+    producer: content.Producer,
+    author: content.Author,
+    creator: content.Creator,
+    title: content.Title,
+    dateCreated: parseExifDate(content.CreateDate),
+    dateModified: parseExifDate(content.ModifyDate)
   }
 }

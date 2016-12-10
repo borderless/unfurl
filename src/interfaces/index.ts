@@ -1,3 +1,3 @@
 export * from './options'
-export * from './scrape'
-export * from './snippet'
+export * from './snippets'
+export * from './formats'
