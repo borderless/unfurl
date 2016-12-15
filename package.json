@@ -62,7 +62,7 @@
     "exif-date": "^2.0.0",
     "exiftool2": "0.0.4",
     "getvalue": "^1.1.0",
-    "htmlmetaparser": "^1.0.3",
+    "htmlmetaparser": "^1.1.1",
     "htmlparser2": "^3.9.1",
     "jsonld": "^0.4.11",
     "popsicle": "^9.0.0"

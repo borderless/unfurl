@@ -581,13 +581,13 @@ function getIcon (content: HtmlContent, options: ExtractOptions): HtmlSnippetIco
   let selectedSize: number | undefined
   let selectedIcon: HtmlSnippetIcon | undefined
 
-  for (const icon of content.favicons) {
+  for (const icon of content.icons) {
     if (selectedSize == null) {
       selectedIcon = icon
     }
 
-    if (icon.size) {
-      const size = parseInt(icon.size, 10) // "32x32" -> "32".
+    if (icon.sizes) {
+      const size = parseInt(icon.sizes, 10) // "32x32" -> "32".
 
       if (selectedSize == null) {
         selectedIcon = icon

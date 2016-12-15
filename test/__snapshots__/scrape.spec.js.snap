@@ -4,38 +4,38 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://cloudinary.com/images/favicon-192x192.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://cloudinary.com/images/favicon-160x160.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://cloudinary.com/images/favicon-96x96.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://cloudinary.com/images/favicon-16x16.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://cloudinary.com/images/favicon-32x32.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-    ],
     "html": Object {
       "description": "Cloudinary",
       "title": "Cloudinary - Pricing",
       "viewport": "width=device-width, initial-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "http://cloudinary.com/images/favicon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://cloudinary.com/images/favicon-160x160.png",
+        "sizes": "160x160",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://cloudinary.com/images/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://cloudinary.com/images/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://cloudinary.com/images/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -73,7 +73,7 @@ Object {
   "headline": "Cloudinary - Pricing",
   "icon": Object {
     "href": "http://cloudinary.com/images/favicon-32x32.png",
-    "size": undefined,
+    "sizes": "32x32",
     "type": "image/png",
   },
   "image": undefined,
@@ -97,12 +97,6 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://www.cnn.com/favicon.ico",
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "http://www.cnn.com/",
       "description": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com.",
@@ -110,6 +104,12 @@ Object {
       "title": "CNN - Breaking News, Latest News and Videos",
       "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "http://www.cnn.com/favicon.ico",
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -239,19 +239,19 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://d1zjcuqflbd5k.cloudfront.net/files/acc_138123/JfQ3?Expires=1480919396&Signature=HtNoi9GnvPTouBZwmJ49t2Zvy8pFBxD6sc87TawT~RZdK9yzKHJyfqFrDa4Ah4WTa2PBqUch0C8bMYlfjbO3jK3pkHkZ9Pstd6n~BTrZKE4lPaJgMCuEOpjhj2AhMTyglG6fyzzLuzs51Gn~AGsRPtFElE8gpp9PUmJTNPy8yXc_&Key-Pair-Id=APKAJTEIOJM3LSMN33SA",
-        "size": undefined,
-        "type": "image/png",
-      },
-    ],
     "html": Object {
       "author": "Droplr",
       "description": "Easy cloud file sharing for Mac, Windows, and iOS.",
       "title": "table.jpeg • Droplr",
       "viewport": "initial-scale=1.0, width=device-width",
     },
+    "icons": Array [
+      Object {
+        "href": "https://d1zjcuqflbd5k.cloudfront.net/files/acc_138123/JfQ3?Expires=1480919396&Signature=HtNoi9GnvPTouBZwmJ49t2Zvy8pFBxD6sc87TawT~RZdK9yzKHJyfqFrDa4Ah4WTa2PBqUch0C8bMYlfjbO3jK3pkHkZ9Pstd6n~BTrZKE4lPaJgMCuEOpjhj2AhMTyglG6fyzzLuzs51Gn~AGsRPtFElE8gpp9PUmJTNPy8yXc_&Key-Pair-Id=APKAJTEIOJM3LSMN33SA",
+        "sizes": "80x80",
+        "type": "image/png",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -337,7 +337,7 @@ Object {
   "headline": "table.jpeg",
   "icon": Object {
     "href": "https://d1zjcuqflbd5k.cloudfront.net/files/acc_138123/JfQ3?Expires=1480919396&Signature=HtNoi9GnvPTouBZwmJ49t2Zvy8pFBxD6sc87TawT~RZdK9yzKHJyfqFrDa4Ah4WTa2PBqUch0C8bMYlfjbO3jK3pkHkZ9Pstd6n~BTrZKE4lPaJgMCuEOpjhj2AhMTyglG6fyzzLuzs51Gn~AGsRPtFElE8gpp9PUmJTNPy8yXc_&Key-Pair-Id=APKAJTEIOJM3LSMN33SA",
-    "size": undefined,
+    "sizes": "80x80",
     "type": "image/png",
   },
   "image": Object {
@@ -430,18 +430,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://franz.com/favicon.ico",
-        "type": "application/octet-stream",
-      },
-    ],
     "html": Object {
       "description": "Franz is a leading vendor of Graph Search Technology (AllegroGraph and Gruff) and Common Lisp Software Development Tools (Allegro CL and AllegroCache)",
       "keywords": "Franz Inc, Lisp, Enterprise Development Tools, Common Lisp, Allegro CL, ACL, Allegro Common Lisp AllegroCache, RDF, OWL, SPARQL, Semantic Web Technology, AllegroGraph Web 3.0 Database, Triple Store, RacerPro, TopBraid Composer",
       "title": "AllegroGraph - Semantic Graph Database",
       "viewport": "width=device-width, initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "http://franz.com/favicon.ico",
+        "type": "application/octet-stream",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -642,13 +642,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://i.kinja-img.com/gawker-media/image/upload/s--O07tru6M--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/fdj3buryz5nuzyf2k620.png",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "amphtml": "http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268/amp",
       "author": "Sophie Kleeman",
@@ -659,6 +652,13 @@ Object {
       "title": "The DNC Hack Was Much Bigger Than We Thought",
       "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=10.0",
     },
+    "icons": Array [
+      Object {
+        "href": "https://i.kinja-img.com/gawker-media/image/upload/s--O07tru6M--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/fdj3buryz5nuzyf2k620.png",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -891,7 +891,7 @@ Object {
   "headline": "The DNC Hack Was Much Bigger Than We Thought",
   "icon": Object {
     "href": "https://i.kinja-img.com/gawker-media/image/upload/s--O07tru6M--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/fdj3buryz5nuzyf2k620.png",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -946,17 +946,17 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://news.ycombinator.com/favicon.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "title": "Hacker News",
       "viewport": "width=device-width, initial-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "https://news.ycombinator.com/favicon.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -994,7 +994,7 @@ Object {
   "headline": "Hacker News",
   "icon": Object {
     "href": "https://news.ycombinator.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": undefined,
@@ -1054,16 +1054,16 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
+    "html": Object {
+      "canonical": "http://html5doctor.com/microdata/",
+      "title": "Extending HTML5 — Microdata | HTML5 Doctor",
+    },
+    "icons": Array [
       Object {
         "href": "http://html5doctor.com/favicon.ico",
         "type": "text/plain",
       },
     ],
-    "html": Object {
-      "canonical": "http://html5doctor.com/microdata/",
-      "title": "Extending HTML5 — Microdata | HTML5 Doctor",
-    },
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -1270,18 +1270,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://1.gravatar.com/blavatar/3d3e4c72b49d7eab0db4c9061886d370?s=32",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "http://1.gravatar.com/blavatar/3d3e4c72b49d7eab0db4c9061886d370?s=32",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "amphtml": "http://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/amp/",
       "application-name": "ideas.ted.com",
@@ -1292,6 +1280,13 @@ Object {
       "title": "Why I taught myself 20 languages — and what I learned about myself |",
       "viewport": "width=device-width",
     },
+    "icons": Array [
+      Object {
+        "href": "http://1.gravatar.com/blavatar/3d3e4c72b49d7eab0db4c9061886d370?s=32",
+        "sizes": "16x16",
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -1476,7 +1471,7 @@ Object {
   "headline": "Why I taught myself 20 languages — and what I learned about myself in the process",
   "icon": Object {
     "href": "http://1.gravatar.com/blavatar/3d3e4c72b49d7eab0db4c9061886d370?s=32",
-    "size": undefined,
+    "sizes": "16x16",
     "type": "image/x-icon",
   },
   "image": Object {
@@ -1522,23 +1517,23 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://knexjs.org/assets/favicons/favicon-32x32.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://knexjs.org/assets/favicons/favicon-16x16.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-    ],
     "html": Object {
       "canonical": "http://knexjs.org/",
       "title": "Knex.js - A SQL Query Builder for Javascript",
       "viewport": "width=device-width",
     },
+    "icons": Array [
+      Object {
+        "href": "http://knexjs.org/assets/favicons/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://knexjs.org/assets/favicons/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -1575,8 +1570,8 @@ Object {
   "entity": undefined,
   "headline": "Knex.js - A SQL Query Builder for Javascript",
   "icon": Object {
-    "href": "http://knexjs.org/assets/favicons/favicon-16x16.png",
-    "size": undefined,
+    "href": "http://knexjs.org/assets/favicons/favicon-32x32.png",
+    "sizes": "32x32",
     "type": "image/png",
   },
   "image": undefined,
@@ -1608,33 +1603,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://mashable.com/favicon-32x32.png?v=m2Pmw8zNwl",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://mashable.com/android-chrome-192x192.png?v=m2Pmw8zNwl",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://mashable.com/favicon-96x96.png?v=m2Pmw8zNwl",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://mashable.com/favicon-16x16.png?v=m2Pmw8zNwl",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://mashable.com/favicon.ico?v=m2Pmw8zNwl",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "author": "Andrea Romano",
       "canonical": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
@@ -1644,6 +1612,33 @@ Object {
       "title": "50 things we want from \'Battle of the Bastards,\' the next \'Game of Thrones\' episode",
       "viewport": "width=device-width, initial-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "http://mashable.com/favicon-32x32.png?v=m2Pmw8zNwl",
+        "sizes": "32x32",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://mashable.com/android-chrome-192x192.png?v=m2Pmw8zNwl",
+        "sizes": "192x192",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://mashable.com/favicon-96x96.png?v=m2Pmw8zNwl",
+        "sizes": "96x96",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://mashable.com/favicon-16x16.png?v=m2Pmw8zNwl",
+        "sizes": "16x16",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://mashable.com/favicon.ico?v=m2Pmw8zNwl",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -1918,9 +1913,9 @@ Object {
   },
   "headline": "50 things we want from \'Battle of the Bastards,\' the next \'Game of Thrones\' episode",
   "icon": Object {
-    "href": "http://mashable.com/favicon.ico?v=m2Pmw8zNwl",
-    "size": undefined,
-    "type": undefined,
+    "href": "http://mashable.com/favicon-32x32.png?v=m2Pmw8zNwl",
+    "sizes": "32x32",
+    "type": "image/png",
   },
   "image": Object {
     "alt": undefined,
@@ -1979,16 +1974,16 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
+    "html": Object {
+      "description": "The Open Graph protocol enables any web page to become a rich object in a social graph.",
+      "title": "The Open Graph protocol",
+    },
+    "icons": Array [
       Object {
         "href": "http://ogp.me/favicon.ico",
         "type": "image/x-icon",
       },
     ],
-    "html": Object {
-      "description": "The Open Graph protocol enables any web page to become a rich object in a social graph.",
-      "title": "The Open Graph protocol",
-    },
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -2112,19 +2107,19 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://cdn.shopify.com/s/files/1/0325/7933/t/14/assets/favicon.png?12673001170186464071",
-        "size": undefined,
-        "type": "image/png",
-      },
-    ],
     "html": Object {
       "canonical": "http://shop.boostedboards.com/products/boosted-dual-plus",
       "description": "Mindblowing Power, Speed, and Braking. The Dual+ is a technological marvel, cleverly disguised as an everyday longboard.",
       "title": "Boosted Dual+ – Boosted Boards",
       "viewport": "width=device-width,initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "http://cdn.shopify.com/s/files/1/0325/7933/t/14/assets/favicon.png?12673001170186464071",
+        "sizes": undefined,
+        "type": "image/png",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -2282,7 +2277,7 @@ Object {
   "headline": "Boosted Dual+",
   "icon": Object {
     "href": "http://cdn.shopify.com/s/files/1/0325/7933/t/14/assets/favicon.png?12673001170186464071",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/png",
   },
   "image": Array [
@@ -2336,19 +2331,19 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://store.steampowered.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "http://store.steampowered.com/app/8930/",
       "description": "Create, discover, and download new player-created maps, scenarios, interfaces, and more!",
       "title": "Sid Meier\'s Civilization® V on Steam",
       "viewport": "width=device-width,initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "http://store.steampowered.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -2487,7 +2482,7 @@ Object {
   "headline": "Sid Meier\'s Civilization® V on Steam",
   "icon": Object {
     "href": "http://store.steampowered.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -2554,13 +2549,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://28oa9i1t08037ue3m1l0i861.wpengine.netdna-cdn.com/wp-content/themes/waitbutwhy/images/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "http://waitbutwhy.com/2016/09/marriage-decision.html",
       "description": "We\'re forced to make a black-and-white, binary decision in the most important moment of our lives. Let\'s take a deep breath and figure this out together.",
@@ -2568,6 +2556,13 @@ Object {
       "title": "The Marriage Decision: Everything Forever or Nothing Ever Again",
       "viewport": "width=device-width",
     },
+    "icons": Array [
+      Object {
+        "href": "http://28oa9i1t08037ue3m1l0i861.wpengine.netdna-cdn.com/wp-content/themes/waitbutwhy/images/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -2720,7 +2715,7 @@ Object {
   "headline": "The Marriage Decision: Everything Forever or Nothing Ever Again",
   "icon": Object {
     "href": "http://28oa9i1t08037ue3m1l0i861.wpengine.netdna-cdn.com/wp-content/themes/waitbutwhy/images/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -2800,13 +2795,6 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://www.bestbuy.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon/4447801.p?skuId=4447801",
       "description": "4.7-inch (diagonal) Retina HD display with 1334-by-750 resolution; 3D Touch; A9 chip with M9 motion coprocessor",
@@ -2814,6 +2802,13 @@ Object {
       "title": "Apple iPhone 6s 64GB Gray MKRY2LL/A - Best Buy",
       "viewport": "width=device-width, initial-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "http://www.bestbuy.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -2944,7 +2939,7 @@ Object {
   "headline": "Apple iPhone 6s 64GB Gray MKRY2LL/A - Best Buy",
   "icon": Object {
     "href": "http://www.bestbuy.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": undefined,
@@ -3140,17 +3135,17 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://www.ebay.com/favicon.ico",
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769",
       "description": "Add style without losing comfort with this 3-person outdoor sofa. Made out of weather resistant wicker on an aluminum frame, it will endure in any of your outdoor spaces. The synthetic resin wicker provides a durable exterior, while still preserving its classic yet modern appearance. | eBay!",
       "title": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch | eBay",
     },
+    "icons": Array [
+      Object {
+        "href": "http://www.ebay.com/favicon.ico",
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -3646,29 +3641,29 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://ia.media-imdb.com/images/G/01/imdb/images/safari-favicon-517611381._TTD_",
-        "size": undefined,
-        "type": undefined,
-      },
-      Object {
-        "href": "http://ia.media-imdb.com/images/G/01/imdb/images/favicon-2165806970._TTD_",
-        "size": undefined,
-        "type": "image/ico",
-      },
-      Object {
-        "href": "http://ia.media-imdb.com/images/G/01/imdb/images/desktop-favicon-2165806970._TTD_",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "http://www.imdb.com/title/tt1375666/",
       "description": "Directed by Christopher Nolan. With Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Ken Watanabe. A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
       "keywords": "Reviews, Showtimes, DVDs, Photos, Message Boards, User Ratings, Synopsis, Trailers, Credits",
       "title": "Inception (2010) - IMDb",
     },
+    "icons": Array [
+      Object {
+        "href": "http://ia.media-imdb.com/images/G/01/imdb/images/safari-favicon-517611381._TTD_",
+        "sizes": "any",
+        "type": undefined,
+      },
+      Object {
+        "href": "http://ia.media-imdb.com/images/G/01/imdb/images/favicon-2165806970._TTD_",
+        "sizes": undefined,
+        "type": "image/ico",
+      },
+      Object {
+        "href": "http://ia.media-imdb.com/images/G/01/imdb/images/desktop-favicon-2165806970._TTD_",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -4450,9 +4445,9 @@ Object {
   "entity": undefined,
   "headline": "Inception (2010)",
   "icon": Object {
-    "href": "http://ia.media-imdb.com/images/G/01/imdb/images/desktop-favicon-2165806970._TTD_",
-    "size": undefined,
-    "type": "image/x-icon",
+    "href": "http://ia.media-imdb.com/images/G/01/imdb/images/safari-favicon-517611381._TTD_",
+    "sizes": "any",
+    "type": undefined,
   },
   "image": Object {
     "alt": undefined,
@@ -4507,13 +4502,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://edge.alluremedia.com.au/assets/gmg/ico/favicon_lifehacker_80.png",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "application-name": "Lifehacker Australia",
       "author": "Kristin Wong",
@@ -4523,6 +4511,13 @@ Object {
       "title": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One | Lifehacker Australia",
       "viewport": "width=device-width, initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "http://edge.alluremedia.com.au/assets/gmg/ico/favicon_lifehacker_80.png",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -4743,7 +4738,7 @@ Object {
   "headline": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
   "icon": Object {
     "href": "http://edge.alluremedia.com.au/assets/gmg/ico/favicon_lifehacker_80.png",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -4779,34 +4774,34 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-32x32.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/android-chrome-192x192.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-96x96.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-16x16.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-    ],
     "html": Object {
       "canonical": "http://www.mysteryranch.com/asap-pack",
       "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It\'s size and versatility make it a perfect every day carry.",
       "title": "ASAP Pack | Mystery Ranch Backpacks",
       "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
     },
+    "icons": Array [
+      Object {
+        "href": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -5172,8 +5167,8 @@ Object {
   "entity": undefined,
   "headline": "ASAP",
   "icon": Object {
-    "href": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-16x16.png",
-    "size": undefined,
+    "href": "http://www.mysteryranch.com/c.999464/shopflow/images/favicons/favicon-32x32.png",
+    "sizes": "32x32",
     "type": "image/png",
   },
   "image": undefined,
@@ -5210,13 +5205,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://images10.newegg.com/WebResource/Themes/2005/Nest/Newegg.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "http://www.newegg.com/Product/Product.aspx?Item=N82E16828840014",
       "description": "Buy XYZprinting da Vinci 2.0 Duo FFF &#40;Fused Filament Fabrication&#41; ABS&#47;PLA Dual Nozzle 3D Printer with fast shipping and top-rated customer service.Once you know, you Newegg&#33;",
@@ -5225,6 +5213,13 @@ Object {
       "robots": "index,follow",
       "title": "XYZprinting da Vinci 2.0 Duo FFF (Fused Filament Fabrication) ABS/PLA Dual Nozzle 3D Printer-Newegg.com",
     },
+    "icons": Array [
+      Object {
+        "href": "http://images10.newegg.com/WebResource/Themes/2005/Nest/Newegg.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -5315,7 +5310,7 @@ Object {
   "headline": "XYZprinting da Vinci 2.0 Duo FFF (Fused Filament Fabrication) ABS/PLA Dual Nozzle 3D Printer-Newegg.com",
   "icon": Object {
     "href": "http://images10.newegg.com/WebResource/Themes/2005/Nest/Newegg.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -5386,33 +5381,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://secure.gravatar.com/blavatar/99ae28ba58e6719abd9d8575bdc18a54?s=32",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "https://secure.gravatar.com/blavatar/99ae28ba58e6719abd9d8575bdc18a54?s=32",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "http://www.news.com.au/wp-content/themes/vip/newscorpau-nca/assets/dist/img/common/favicon/favicon-32x32.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://www.news.com.au/wp-content/themes/vip/newscorpau-nca/assets/dist/img/common/favicon/favicon-16x16.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "http://www.news.com.au/wp-content/themes/vip/newscorpau-nca/assets/dist/img/common/favicon/favicon.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "apple-mobile-web-app-title": "news.com.au",
       "application-name": "news.com.au",
@@ -5421,6 +5389,28 @@ Object {
       "title": "UK man in ‘Trump shooting bid’ denied bail | News.com.au",
       "viewport": "width=device-width",
     },
+    "icons": Array [
+      Object {
+        "href": "https://secure.gravatar.com/blavatar/99ae28ba58e6719abd9d8575bdc18a54?s=32",
+        "sizes": "16x16",
+        "type": "image/x-icon",
+      },
+      Object {
+        "href": "http://www.news.com.au/wp-content/themes/vip/newscorpau-nca/assets/dist/img/common/favicon/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://www.news.com.au/wp-content/themes/vip/newscorpau-nca/assets/dist/img/common/favicon/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+      },
+      Object {
+        "href": "http://www.news.com.au/wp-content/themes/vip/newscorpau-nca/assets/dist/img/common/favicon/favicon.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -5558,9 +5548,9 @@ Object {
   },
   "headline": "UK man in ‘Trump shooting bid’ denied bail",
   "icon": Object {
-    "href": "http://www.news.com.au/wp-content/themes/vip/newscorpau-nca/assets/dist/img/common/favicon/favicon.ico",
-    "size": undefined,
-    "type": undefined,
+    "href": "http://www.news.com.au/wp-content/themes/vip/newscorpau-nca/assets/dist/img/common/favicon/favicon-32x32.png",
+    "sizes": "32x32",
+    "type": "image/png",
   },
   "image": Object {
     "alt": undefined,
@@ -5630,13 +5620,6 @@ Object {
       "iphone:url": "nytimes://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://static01.nyt.com/favicon.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "author": "Andrew Rosenthal",
       "canonical": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
@@ -5646,6 +5629,13 @@ Object {
       "title": "Decoding Donald Trump - The New York Times",
       "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://static01.nyt.com/favicon.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -6113,7 +6103,7 @@ Object {
   "headline": "Decoding Donald Trump",
   "icon": Object {
     "href": "https://static01.nyt.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -6167,18 +6157,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://www.redditstatic.com/icon.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://www.redditstatic.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://www.reddit.com/",
       "description": "reddit: the front page of the internet",
@@ -6186,6 +6164,18 @@ Object {
       "title": "reddit: the front page of the internet",
       "viewport": "width=1024",
     },
+    "icons": Array [
+      Object {
+        "href": "https://www.redditstatic.com/icon.png",
+        "sizes": "256x256",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://www.redditstatic.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -6222,9 +6212,9 @@ Object {
   "entity": undefined,
   "headline": "reddit: the front page of the internet",
   "icon": Object {
-    "href": "https://www.redditstatic.com/favicon.ico",
-    "size": undefined,
-    "type": "image/x-icon",
+    "href": "https://www.redditstatic.com/icon.png",
+    "sizes": "256x256",
+    "type": "image/png",
   },
   "image": undefined,
   "locale": undefined,
@@ -6261,33 +6251,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://cdn0.vox-cdn.com/uploads/chorus_asset/file/7395361/favicon-64x64.0.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-      Object {
-        "href": "https://cdn1.vox-cdn.com/uploads/chorus_asset/file/7395367/favicon-16x16.0.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://cdn0.vox-cdn.com/uploads/chorus_asset/file/7395363/favicon-32x32.0.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://cdn2.vox-cdn.com/uploads/chorus_asset/file/7395365/favicon-96x96.0.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://cdn0.vox-cdn.com/uploads/chorus_asset/file/7395351/android-chrome-192x192.0.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-    ],
     "html": Object {
       "amphtml": "http://www.theverge.com/platform/amp/2016/8/10/12416766/google-white-house-ostp-emails",
       "author": "Colin Lecher",
@@ -6296,6 +6259,33 @@ Object {
       "title": "more-arrow",
       "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
     },
+    "icons": Array [
+      Object {
+        "href": "https://cdn0.vox-cdn.com/uploads/chorus_asset/file/7395361/favicon-64x64.0.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+      Object {
+        "href": "https://cdn1.vox-cdn.com/uploads/chorus_asset/file/7395367/favicon-16x16.0.png",
+        "sizes": "16x16",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://cdn0.vox-cdn.com/uploads/chorus_asset/file/7395363/favicon-32x32.0.png",
+        "sizes": "32x32",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://cdn2.vox-cdn.com/uploads/chorus_asset/file/7395365/favicon-96x96.0.png",
+        "sizes": "96x96",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://cdn0.vox-cdn.com/uploads/chorus_asset/file/7395351/android-chrome-192x192.0.png",
+        "sizes": "192x192",
+        "type": "image/png",
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -6510,8 +6500,8 @@ Object {
   },
   "headline": "Emails show Google’s close relationship with the White House",
   "icon": Object {
-    "href": "https://cdn0.vox-cdn.com/uploads/chorus_asset/file/7395351/android-chrome-192x192.0.png",
-    "size": undefined,
+    "href": "https://cdn0.vox-cdn.com/uploads/chorus_asset/file/7395363/favicon-32x32.0.png",
+    "sizes": "32x32",
     "type": "image/png",
   },
   "image": Object {
@@ -6846,13 +6836,6 @@ Object {
       "ios:url": "https://www.yelp.com/biz/boba-guys-san-francisco-4?utm_campaign=biz_details&utm_medium=organic&utm_source=apple",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://s3-media2.fl.yelpcdn.com/assets/srv0/yelp_styleguide/118ff475a341/assets/img/logos/favicon.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "application-name": "Yelp",
       "description": "924 reviews of Boba Guys \"This is one of the most popular boba spots in the Bay Area. I was pleased with the quality of my drink, but I don\'t think it\'s something I\'d go out of my way for. For the price point and wait time, it was a great…",
@@ -6860,6 +6843,13 @@ Object {
       "title": "Boba Guys - 1056 Photos & 924 Reviews - Coffee & Tea - 3491 19th St, Mission, San Francisco, CA - Phone Number - Menu - Yelp",
       "viewport": "width=1020",
     },
+    "icons": Array [
+      Object {
+        "href": "https://s3-media2.fl.yelpcdn.com/assets/srv0/yelp_styleguide/118ff475a341/assets/img/logos/favicon.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -8728,7 +8718,7 @@ Object {
   "headline": "Boba Guys - Mission - San Francisco, CA",
   "icon": Object {
     "href": "https://s3-media2.fl.yelpcdn.com/assets/srv0/yelp_styleguide/118ff475a341/assets/img/logos/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Array [
@@ -8813,21 +8803,16 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://xkcd.com/s/919f27.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "http://xkcd.com/s/919f27.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "title": "xkcd: Regular Expressions",
     },
+    "icons": Array [
+      Object {
+        "href": "http://xkcd.com/s/919f27.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -8865,7 +8850,7 @@ Object {
   "headline": "xkcd: Regular Expressions",
   "icon": Object {
     "href": "http://xkcd.com/s/919f27.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": undefined,
@@ -8889,16 +8874,16 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
+    "html": Object {
+      "title": "Micropub CR • Aaron Parecki",
+      "viewport": "width=device-width, initial-scale=1",
+    },
+    "icons": Array [
       Object {
         "href": "https://aaronparecki.com/favicon.ico",
         "type": "image/x-icon",
       },
     ],
-    "html": Object {
-      "title": "Micropub CR • Aaron Parecki",
-      "viewport": "width=device-width, initial-scale=1",
-    },
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -9002,28 +8987,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://adactio.com/apple-touch-icon.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://adactio.com/favicon-96x96.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://adactio.com/favicon-32x32.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://adactio.com/favicon-16x16.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-    ],
     "html": Object {
       "amphtml": "https://adactio.com/journal/9881/amp",
       "author": "Jeremy Keith",
@@ -9033,6 +8996,28 @@ Object {
       "title": "Adactio: Journal—Metadata markup",
       "viewport": "width=device-width, initial-scale=1.0, shrink-to-fit=no",
     },
+    "icons": Array [
+      Object {
+        "href": "https://adactio.com/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://adactio.com/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://adactio.com/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://adactio.com/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -9106,8 +9091,8 @@ Object {
   "entity": undefined,
   "headline": "Metadata markup",
   "icon": Object {
-    "href": "https://adactio.com/favicon-16x16.png",
-    "size": undefined,
+    "href": "https://adactio.com/favicon-32x32.png",
+    "sizes": "32x32",
     "type": "image/png",
   },
   "image": Object {
@@ -9151,17 +9136,17 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://atom.io/favicon.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "description": "At GitHub, we’re building the text editor we’ve always wanted: hackable to the core, but approachable on the first day without ever touching a config file. We can’t wait to see what you build with it.",
       "title": "aesthetic-ui",
     },
+    "icons": Array [
+      Object {
+        "href": "https://atom.io/favicon.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -9279,7 +9264,7 @@ Object {
   "headline": "aesthetic-ui",
   "icon": Object {
     "href": "https://atom.io/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -9337,19 +9322,19 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://bjango.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "apple-mobile-web-app-title": "Bjango",
       "description": "Exporting an identical image from different design tools results in different file sizes. Why? What can be done to optimise them to reduce downloading time and disk space?",
       "title": "PNG optimisation",
       "viewport": "width=device-width, initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://bjango.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -9387,7 +9372,7 @@ Object {
   "headline": "PNG optimisation",
   "icon": Object {
     "href": "https://bjango.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": undefined,
@@ -9433,18 +9418,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://bjango.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "apple-mobile-web-app-title": "Bjango",
       "title": "iStat Menus",
       "viewport": "width=device-width, initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://bjango.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -9482,7 +9467,7 @@ Object {
   "headline": "iStat Menus",
   "icon": Object {
     "href": "https://bjango.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": undefined,
@@ -9964,17 +9949,17 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://ton.twimg.com/dtc/f1d20a4e-7c91-40cd-8dc0-7e2b46e56d55/_static/favicon.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "title": "Player Card — Twitter Developers",
       "viewport": "width=device-width, initial-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "https://ton.twimg.com/dtc/f1d20a4e-7c91-40cd-8dc0-7e2b46e56d55/_static/favicon.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -10059,7 +10044,7 @@ Object {
   "headline": "Player Card — Twitter Developers",
   "icon": Object {
     "href": "https://ton.twimg.com/dtc/f1d20a4e-7c91-40cd-8dc0-7e2b46e56d55/_static/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -10105,18 +10090,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://developers.google.com/_static/fc980851dd/images/favicon.png",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "canonical": "https://developers.google.com/search/docs/guides/intro-structured-data",
       "title": "Introduction to Structured Data | Search | Google Developers",
       "viewport": "width=device-width, initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://developers.google.com/_static/fc980851dd/images/favicon.png",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -10211,7 +10196,7 @@ Object {
   "headline": "Introduction to Structured Data | Search | Google Developers",
   "icon": Object {
     "href": "https://developers.google.com/_static/fc980851dd/images/favicon.png",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": undefined,
@@ -10246,13 +10231,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://discourse.codinghorror.com/images/default-favicon.ico",
-        "size": undefined,
-        "type": "image/png",
-      },
-    ],
     "html": Object {
       "canonical": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462?page=2",
       "description": "Every geek goes through a phase where they discover emulation. It&#39;s practically a rite of passage. This is a companion discussion topic for the original entry at https://blog.codinghorror.com/the-raspberry-pi-has-revol&hellip;",
@@ -10260,6 +10238,13 @@ Object {
       "title": "The Raspberry Pi Has Revolutionized Emulation - blog - Coding Horror Discussion",
       "viewport": "width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes",
     },
+    "icons": Array [
+      Object {
+        "href": "https://discourse.codinghorror.com/images/default-favicon.ico",
+        "sizes": undefined,
+        "type": "image/png",
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -11184,7 +11169,7 @@ Object {
   "headline": "The Raspberry Pi Has Revolutionized Emulation",
   "icon": Object {
     "href": "https://discourse.codinghorror.com/images/default-favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/png",
   },
   "image": Object {
@@ -11215,17 +11200,17 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://ssl.gstatic.com/docs/documents/images/kix-favicon6.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "title": "Bay Area Guide to Mission Series/Banners - Google Docs",
       "viewport": "width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "https://ssl.gstatic.com/docs/documents/images/kix-favicon6.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -11339,7 +11324,7 @@ Object {
   "headline": "Bay Area Guide to Mission Series/Banners",
   "icon": Object {
     "href": "https://ssl.gstatic.com/docs/documents/images/kix-favicon6.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -11370,16 +11355,16 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://ssl.gstatic.com/docs/spreadsheets/favicon_jfk2.png",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "title": "Digital Nomad list - Google Sheets",
     },
+    "icons": Array [
+      Object {
+        "href": "https://ssl.gstatic.com/docs/spreadsheets/favicon_jfk2.png",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -11493,7 +11478,7 @@ Object {
   "headline": "Digital Nomad list",
   "icon": Object {
     "href": "https://ssl.gstatic.com/docs/spreadsheets/favicon_jfk2.png",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -11524,16 +11509,16 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://ssl.gstatic.com/docs/doclist/images/icon_14_pdf_favicon.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "title": "Overfitting.pdf - Google Drive",
     },
+    "icons": Array [
+      Object {
+        "href": "https://ssl.gstatic.com/docs/doclist/images/icon_14_pdf_favicon.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -11642,7 +11627,7 @@ Object {
   "headline": "Overfitting.pdf",
   "icon": Object {
     "href": "https://ssl.gstatic.com/docs/doclist/images/icon_14_pdf_favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -11688,19 +11673,19 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://droplr.com/wp-content/themes/droplr-marketing-oct-2016/favicon.png",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "canonical": "https://droplr.com/droplr-addition-google-chrome-extension",
       "description": "Get screenshots, annotations and effortless sharing with Droplr for Chrome.",
       "title": "Droplr addition: Google Chrome Extension! – Droplr",
       "viewport": "width=device-width, initial-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "https://droplr.com/wp-content/themes/droplr-marketing-oct-2016/favicon.png",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -11830,7 +11815,7 @@ Object {
   "headline": "Droplr addition: Google Chrome Extension! - Droplr",
   "icon": Object {
     "href": "https://droplr.com/wp-content/themes/droplr-marketing-oct-2016/favicon.png",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -11872,18 +11857,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "canonical": "https://en.wikipedia.org/wiki/Jean-Luc_Picard",
       "generator": "MediaWiki 1.29.0-wmf.4",
       "title": "Jean-Luc Picard - Wikipedia",
     },
+    "icons": Array [
+      Object {
+        "href": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -11921,7 +11906,7 @@ Object {
   "headline": "Jean-Luc Picard - Wikipedia",
   "icon": Object {
     "href": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": undefined,
@@ -11953,18 +11938,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "canonical": "https://en.wikipedia.org/wiki/TypeScript",
       "generator": "MediaWiki 1.29.0-wmf.4",
       "title": "TypeScript - Wikipedia",
     },
+    "icons": Array [
+      Object {
+        "href": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -12002,7 +11987,7 @@ Object {
   "headline": "TypeScript - Wikipedia",
   "icon": Object {
     "href": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": undefined,
@@ -12125,18 +12110,6 @@ Object {
       "windows_phone:url": "foursquare://venues/51abb0a3498eb42c0d5cf324",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "application-name": "Foursquare",
       "canonical": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
@@ -12144,6 +12117,13 @@ Object {
       "keywords": "Boba Guys, 3491 19th St, San Francisco, CA, boba guys,boba guys milk tea & snack bar,boba guys - milk tea & snack bar,boba guys - milk tea and snack bar,bubble tea, Bubble Tea, Dessert",
       "title": "Boba Guys - Mission District - 130 tips from 4123 visitors",
     },
+    "icons": Array [
+      Object {
+        "href": "https://foursquare.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -12467,7 +12447,7 @@ Object {
   "headline": "Boba Guys",
   "icon": Object {
     "href": "https://foursquare.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Array [
@@ -12640,18 +12620,6 @@ Object {
       "windows_phone:url": "foursquare://venues/4b058763f964a520848f22e3",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "application-name": "Foursquare",
       "canonical": "https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3",
@@ -12659,6 +12627,13 @@ Object {
       "keywords": "Bondi Beach, Queen Elizabeth Dr., Bondi Beach, NSW, at the beach nth bondi,at the beach, nth bondi,beach,bondi,bondi beach,bondi beach swimrun,bondi beach the north bondi hill,bondi beach (north end),bondi beach (northern end), Beach, Surf Spot",
       "title": "Bondi Beach - Beach",
     },
+    "icons": Array [
+      Object {
+        "href": "https://foursquare.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -12966,7 +12941,7 @@ Object {
   "headline": "Bondi Beach",
   "icon": Object {
     "href": "https://foursquare.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Array [
@@ -13144,18 +13119,6 @@ Object {
       "windows_phone:url": "foursquare://venues/4b0b4a63f964a520fa2f23e3",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "application-name": "Foursquare",
       "canonical": "https://foursquare.com/v/bourke-street-bakery/4b0b4a63f964a520fa2f23e3",
@@ -13163,6 +13126,13 @@ Object {
       "keywords": "Bourke Street Bakery, 633 Bourke St., Sydney, NSW, bourke street bakery,bourke street bakery (633 bourke st, surry hills, nsw),bourke street bakery 633 bourke st surry hills nsw, Bakery, Café, Coffee Shop, Lunch, Brunch & more",
       "title": "Bourke Street Bakery - Surry Hills - 158 tips from 2691 visitors",
     },
+    "icons": Array [
+      Object {
+        "href": "https://foursquare.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -13486,7 +13456,7 @@ Object {
   "headline": "Bourke Street Bakery",
   "icon": Object {
     "href": "https://foursquare.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Array [
@@ -13662,18 +13632,6 @@ Object {
       "windows_phone:url": "foursquare://venues/4b058762f964a5201d8f22e3",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "application-name": "Foursquare",
       "canonical": "https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3",
@@ -13681,6 +13639,13 @@ Object {
       "keywords": "Darling Harbour, Darling Harbour, NSW, darling habour,darling harbour,darling harbour australia,darling harbour sydney,darling harbour sydney nsw,darling harbour, sydney nsw,darling harbs,docks darling harbour, Harbor / Marina, Park, Plaza",
       "title": "Darling Harbour - 152 tips from 19237 visitors",
     },
+    "icons": Array [
+      Object {
+        "href": "https://foursquare.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -13994,7 +13959,7 @@ Object {
   "headline": "Darling Harbour",
   "icon": Object {
     "href": "https://foursquare.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Array [
@@ -14171,18 +14136,6 @@ Object {
       "windows_phone:url": "foursquare://venues/4b3c2445f964a520348225e3",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "application-name": "Foursquare",
       "canonical": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
@@ -14190,6 +14143,13 @@ Object {
       "keywords": "Mrs. Macquarie\'s Point, Mrs Macquaries Rd., Sydney, NSW, mrs macquarie\'s point,mrs macquaries point,mrs. macquarie\'s point,mrs. macquaries point, Scenic Lookout",
       "title": "Mrs. Macquarie\'s Point - Central Business District - Mrs Macquaries Rd.",
     },
+    "icons": Array [
+      Object {
+        "href": "https://foursquare.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -14498,7 +14458,7 @@ Object {
   "headline": "Mrs. Macquarie\'s Point",
   "icon": Object {
     "href": "https://foursquare.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Array [
@@ -14669,18 +14629,6 @@ Object {
       "windows_phone:url": "foursquare://venues/4b058761f964a520188f22e3",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "application-name": "Foursquare",
       "canonical": "https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3",
@@ -14688,6 +14636,13 @@ Object {
       "keywords": "Royal Botanic Garden, Macquarie St, Sydney, NSW, botanical gardens,botannical gardens,royal botanic garden,royal botanic gardens,royal botanic gardens sydney,royal botanical gardens, Botanical Garden, Garden",
       "title": "Royal Botanic Garden - Central Business District - 117 tips from 9933 visitors",
     },
+    "icons": Array [
+      Object {
+        "href": "https://foursquare.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -15006,7 +14961,7 @@ Object {
   "headline": "Royal Botanic Garden",
   "icon": Object {
     "href": "https://foursquare.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Array [
@@ -15180,18 +15135,6 @@ Object {
       "windows_phone:url": "foursquare://venues/4b058762f964a5201b8f22e3",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "application-name": "Foursquare",
       "canonical": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
@@ -15199,6 +15142,13 @@ Object {
       "keywords": "Sydney Opera House, 2 Macquarie St, Sydney, NSW, opera house,opera house sydney,sidney opera house,sydney opera house, Opera House, Concert Hall, Art Gallery",
       "title": "Sydney Opera House - Opera House in Circular Quay",
     },
+    "icons": Array [
+      Object {
+        "href": "https://foursquare.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -15536,7 +15486,7 @@ Object {
   "headline": "Sydney Opera House",
   "icon": Object {
     "href": "https://foursquare.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Array [
@@ -15709,18 +15659,6 @@ Object {
       "windows_phone:url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "https://foursquare.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "application-name": "Foursquare",
       "canonical": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
@@ -15728,6 +15666,13 @@ Object {
       "keywords": "The Baxter Inn, 152 - 156 Clarence St., Sydney, NSW, baxter inn,the baxter inn, Whisky Bar, Bar, Speakeasy",
       "title": "The Baxter Inn - Whisky Bar in Sydney",
     },
+    "icons": Array [
+      Object {
+        "href": "https://foursquare.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -16063,7 +16008,7 @@ Object {
   "headline": "The Baxter Inn",
   "icon": Object {
     "href": "https://foursquare.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Array [
@@ -16135,18 +16080,18 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://assets-cdn.github.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://github.com/",
       "title": "How people build software · GitHub",
       "viewport": "width=device-width",
     },
+    "icons": Array [
+      Object {
+        "href": "https://assets-cdn.github.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -16349,7 +16294,7 @@ Object {
   "headline": "GitHub",
   "icon": Object {
     "href": "https://assets-cdn.github.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Array [
@@ -16411,18 +16356,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://assets-cdn.github.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
       "title": "Give a better error message for assigning from Object to anything else · Issue #10462 · Microsoft/TypeScript · GitHub",
       "viewport": "width=device-width",
     },
+    "icons": Array [
+      Object {
+        "href": "https://assets-cdn.github.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -16605,7 +16550,7 @@ Object {
   "headline": "Give a better error message for assigning from Object to anything else · Issue #10462 · Microsoft/TypeScript",
   "icon": Object {
     "href": "https://assets-cdn.github.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -16649,18 +16594,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://assets-cdn.github.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "description": "blakeembrey has 213 repositories available. Follow their code on GitHub.",
       "title": "blakeembrey (Blake Embrey) · GitHub",
       "viewport": "width=device-width",
     },
+    "icons": Array [
+      Object {
+        "href": "https://assets-cdn.github.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -16837,7 +16782,7 @@ Object {
   "headline": "blakeembrey (Blake Embrey)",
   "icon": Object {
     "href": "https://assets-cdn.github.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -16881,19 +16826,19 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://assets-cdn.github.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://github.com/blakeembrey/popsicle",
       "description": "popsicle - Simple HTTP requests for node and the browser",
       "title": "GitHub - blakeembrey/popsicle: Simple HTTP requests for node and the browser",
       "viewport": "width=device-width",
     },
+    "icons": Array [
+      Object {
+        "href": "https://assets-cdn.github.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -17110,7 +17055,7 @@ Object {
   "headline": "blakeembrey/popsicle",
   "icon": Object {
     "href": "https://assets-cdn.github.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -17168,18 +17113,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://assets-cdn.github.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://github.com/blog/2242-git-2-10-has-been-released",
       "title": "Git 2.10 has been released · GitHub",
       "viewport": "width=device-width",
     },
+    "icons": Array [
+      Object {
+        "href": "https://assets-cdn.github.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -17299,7 +17244,7 @@ Object {
   "headline": "Git 2.10 has been released",
   "icon": Object {
     "href": "https://assets-cdn.github.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -17343,18 +17288,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://assets-cdn.github.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "description": "moment - Parse, validate, manipulate, and display dates in javascript.",
       "title": "[misc] typescript: refactor constructor and ISO format hack by seansfkelley · Pull Request #3323 · moment/moment · GitHub",
       "viewport": "width=device-width",
     },
+    "icons": Array [
+      Object {
+        "href": "https://assets-cdn.github.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -17537,7 +17482,7 @@ Object {
   "headline": "[misc] typescript: refactor constructor and ISO format hack by seansfkelley · Pull Request #3323 · moment/moment",
   "icon": Object {
     "href": "https://assets-cdn.github.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -17623,18 +17568,18 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://itunes.apple.com/favicon.ico",
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
       "description": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
       "keywords": "Pokémon GO, Niantic, Inc., Games, Health & Fitness, ios apps, app, appstore, app store, iphone, ipad, ipod touch, itouch, itunes",
       "title": "Pokémon GO on the App Store",
     },
+    "icons": Array [
+      Object {
+        "href": "https://itunes.apple.com/favicon.ico",
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -17931,18 +17876,18 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://itunes.apple.com/favicon.ico",
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
       "description": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
       "keywords": "download, The Avengers, Action & Adventure, Joss Whedon, movies, film, rent, buy, itunes, apple tv",
       "title": "The Avengers on iTunes",
     },
+    "icons": Array [
+      Object {
+        "href": "https://itunes.apple.com/favicon.ico",
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -18517,17 +18462,17 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://learnxinyminutes.com/favicon.ico",
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://learnxinyminutes.com/docs/standard-ml/",
       "title": "Learn Standard ML in Y Minutes",
       "viewport": "width=device-width, initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://learnxinyminutes.com/favicon.ico",
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -18596,13 +18541,6 @@ Object {
       "web:url": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://cdn-static-1.medium.com/_/fp/icons/favicon-medium.TAS6uQ-Y7kcKgi0xjcYHXw.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "author": "Matt Haughey",
       "canonical": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254",
@@ -18611,6 +18549,13 @@ Object {
       "title": "Everything you ever wanted to know about unfurling but were afraid to ask /or/ How to make your…",
       "viewport": "width=device-width, initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://cdn-static-1.medium.com/_/fp/icons/favicon-medium.TAS6uQ-Y7kcKgi0xjcYHXw.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -18907,7 +18852,7 @@ Object {
   "headline": "Everything you ever wanted to know about unfurling but were afraid to ask /or/ How to make your… – Slack Platform Blog",
   "icon": Object {
     "href": "https://cdn-static-1.medium.com/_/fp/icons/favicon-medium.TAS6uQ-Y7kcKgi0xjcYHXw.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -18943,17 +18888,17 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://news.ycombinator.com/favicon.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "title": "For a Better Economy, Add Commuter Rail? | Hacker News",
       "viewport": "width=device-width, initial-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "https://news.ycombinator.com/favicon.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -18991,7 +18936,7 @@ Object {
   "headline": "For a Better Economy, Add Commuter Rail? | Hacker News",
   "icon": Object {
     "href": "https://news.ycombinator.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": undefined,
@@ -19023,24 +18968,19 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://pragprog.com/favicon.png",
-        "size": undefined,
-        "type": undefined,
-      },
-      Object {
-        "href": "https://pragprog.com/favicon.png",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "canonical": "https://pragprog.com/book/btlang/seven-languages-in-seven-weeks",
       "keywords": "9781934356593,Bruce A. Tate,Pragmatic Bookshelf,Ruby, Io, Prolog, Scala, Erlang, Clojure, Haskell, programming, languages, survey, JavaScript, Java, Rails",
       "title": "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages by Bruce A. Tate | The Pragmatic Bookshelf",
       "viewport": "width=device-width, initial-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "https://pragprog.com/favicon.png",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -19091,7 +19031,7 @@ Object {
   "headline": "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages by Bruce A. Tate | The Pragmatic Bookshelf",
   "icon": Object {
     "href": "https://pragprog.com/favicon.png",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": undefined,
@@ -19132,16 +19072,16 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
+    "html": Object {
+      "description": "Schema.org Type: WebSite - A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
+      "title": "WebSite - schema.org",
+    },
+    "icons": Array [
       Object {
         "href": "https://schema.org/favicon.ico",
         "type": "image/x-icon",
       },
     ],
-    "html": Object {
-      "description": "Schema.org Type: WebSite - A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
-      "title": "WebSite - schema.org",
-    },
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -20721,15 +20661,15 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
+    "html": Object {
+      "title": "Schema.org master file: RDFS in RDFa",
+    },
+    "icons": Array [
       Object {
         "href": "https://schema.org/favicon.ico",
         "type": "image/x-icon",
       },
     ],
-    "html": Object {
-      "title": "Schema.org master file: RDFS in RDFa",
-    },
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -50338,13 +50278,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://segment.com/build/public/public/images/touch-icon.png",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "application-name": "Segment",
       "author": "Calvin French-Owen",
@@ -50352,6 +50285,13 @@ Object {
       "title": "The Segment AWS Stack",
       "viewport": "width=device-width, initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://segment.com/build/public/public/images/touch-icon.png",
+        "sizes": "192x192",
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -50516,7 +50456,7 @@ Object {
   "headline": "The Segment AWS Stack",
   "icon": Object {
     "href": "https://segment.com/build/public/public/images/touch-icon.png",
-    "size": undefined,
+    "sizes": "192x192",
     "type": undefined,
   },
   "image": Object {
@@ -50567,18 +50507,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://f4.bcbits.com/img/a1638428842_3.jpg",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "description": "Slant 6 Formed in Washington, DC in 1992, Slant 6 was Christina Billotte, Myra Power, and Marge Marshall. The band did a number of US tours and released a single and two albums on Dischord. Slant 6 finally came to an end while on tour in England and played its last show with Fugazi in Leeds in 1995. Inzombia, released 01 January 1995 1. G.F.S. 2. Babydoll 3. Click-Click 4. Instrumental 5. Ladybug Superfly 6. Retro Duck 7. Partner In Crime 8. Victim Of Your Own Desires 9. Eight Swimming Pools 10. Insider Spider 11. Mascaria 12. Inzombia Slant 6\'s second full-length record, released in 1995.",
       "generator": "Bandcamp",
       "title": "Slant 6",
     },
+    "icons": Array [
+      Object {
+        "href": "https://f4.bcbits.com/img/a1638428842_3.jpg",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -51087,7 +51027,7 @@ Object {
   "headline": "Inzombia, by Slant 6",
   "icon": Object {
     "href": "https://f4.bcbits.com/img/a1638428842_3.jpg",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -51135,18 +51075,18 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://www.amazon.com/favicon.ico",
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://www.amazon.com/Node-js-Right-Way-Server-Side-JavaScript/dp/1937785734",
       "description": "Node.js the Right Way: Practical, Server-Side JavaScript That Scales [Jim Wilson] on Amazon.com. *FREE* shipping on qualifying offers. Get to the forefront of server-side JavaScript programming by writing compact, robust, fast, networked Node applications that scale. Ready to take JavaScript beyond the browser",
       "keywords": "Jim Wilson,Node.js the Right Way: Practical, Server-Side JavaScript That Scales,Pragmatic Bookshelf,1937785734,Computer - Internet,Computer Books: Languages,Computers,Computers / Programming Languages / JavaScript,Computers / Web / Web Programming,Computers/Programming Languages - JavaScript,Computing: Textbooks & Study Guides,Programming Languages - JavaScript,Web - Web Programming,Web programming",
       "title": "Node.js the Right Way: Practical, Server-Side JavaScript That Scales: Jim Wilson: 9781937785734: Amazon.com: Books",
     },
+    "icons": Array [
+      Object {
+        "href": "https://www.amazon.com/favicon.ico",
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -51257,13 +51197,6 @@ Object {
       "web:should_fallback": "false",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14b.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "application-name": "SoundCloud",
       "canonical": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
@@ -51272,6 +51205,13 @@ Object {
       "title": "Desiigner- \"Panda\" (Prod. By: Menace) by LifeOfDesiigner | Life Of Desiigner | Free Listening on SoundCloud",
       "viewport": "width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no",
     },
+    "icons": Array [
+      Object {
+        "href": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14b.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -51727,7 +51667,7 @@ Object {
   "headline": "Desiigner- \"Panda\" (Prod. By: Menace)",
   "icon": Object {
     "href": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14b.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -51812,13 +51752,6 @@ Object {
       "web:should_fallback": "false",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14b.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "application-name": "SoundCloud",
       "canonical": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
@@ -51827,6 +51760,13 @@ Object {
       "title": "NTMY - Episode 1 - Pieter Levels by Tobias van Schneider | Free Listening on SoundCloud",
       "viewport": "width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no",
     },
+    "icons": Array [
+      Object {
+        "href": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14b.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -52251,7 +52191,7 @@ Object {
   "headline": "NTMY - Episode 1 - Pieter Levels",
   "icon": Object {
     "href": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14b.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -52331,29 +52271,29 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://stratechery.com/wp-content/themes/stratechery/images/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "https://stratechery.com/wp-content/themes/stratechery/images/StratecheryLogo-5757.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://stratechery.com/wp-content/themes/stratechery/images/IE/favicon.ico",
-        "size": undefined,
-        "type": "image/ico",
-      },
-    ],
     "html": Object {
       "application-name": "stratechery",
       "canonical": "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/",
       "title": "Google, Uber, and the Evolution of Transportation-as-a-Service – Stratechery by Ben Thompson",
       "viewport": "width=device-width, initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://stratechery.com/wp-content/themes/stratechery/images/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+      Object {
+        "href": "https://stratechery.com/wp-content/themes/stratechery/images/StratecheryLogo-5757.png",
+        "sizes": undefined,
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://stratechery.com/wp-content/themes/stratechery/images/IE/favicon.ico",
+        "sizes": undefined,
+        "type": "image/ico",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -52458,7 +52398,7 @@ Object {
   "headline": "Google, Uber, and the Evolution of Transportation-as-a-Service",
   "icon": Object {
     "href": "https://stratechery.com/wp-content/themes/stratechery/images/IE/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/ico",
   },
   "image": Object {
@@ -52512,13 +52452,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "apple-mobile-web-app-title": "TechCrunch",
       "application-name": "TechCrunch",
@@ -52529,6 +52462,13 @@ Object {
       "title": "TechCrunch - The latest technology news and information on startups",
       "viewport": "initial-scale=1.0,width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -52996,7 +52936,7 @@ Object {
   "headline": "TechCrunch",
   "icon": Object {
     "href": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -53063,13 +53003,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "amphtml": "https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/amp/",
       "apple-mobile-web-app-title": "TechCrunch",
@@ -53082,6 +53015,13 @@ Object {
       "title": "The Europas Awards 2016 honored the best tech startups in Europe | TechCrunch",
       "viewport": "initial-scale=1.0,width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -53399,7 +53339,7 @@ Object {
   "headline": "The Europas Awards 2016 honored the best tech startups in Europe |…",
   "icon": Object {
     "href": "https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -53435,13 +53375,6 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://walter.trakt.tv/hotlink-ok/public/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "apple-mobile-web-app-title": "Trakt.tv",
       "application-name": "Trakt.tv",
@@ -53449,6 +53382,13 @@ Object {
       "title": "Kung Fury (2015) - Trakt.tv",
       "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no",
     },
+    "icons": Array [
+      Object {
+        "href": "https://walter.trakt.tv/hotlink-ok/public/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -54737,7 +54677,7 @@ Object {
   "headline": "Kung Fury (2015)",
   "icon": Object {
     "href": "https://walter.trakt.tv/hotlink-ok/public/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -55117,19 +55057,19 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://abs.twimg.com/favicons/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://twitter.com/i/hello",
       "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
       "robots": "NOODP",
       "title": "Twitter. It\'s what\'s happening.",
     },
+    "icons": Array [
+      Object {
+        "href": "https://abs.twimg.com/favicons/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -55167,7 +55107,7 @@ Object {
   "headline": "Twitter. It\'s what\'s happening.",
   "icon": Object {
     "href": "https://abs.twimg.com/favicons/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": undefined,
@@ -55542,18 +55482,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://abs.twimg.com/favicons/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://twitter.com/seantallen/status/764993929469161472",
       "robots": "NOODP",
       "title": "¯\\_(ツ)_/¯ on Twitter: \"This is a very cool thread https://t.co/r6VKiMIYoI\"",
     },
+    "icons": Array [
+      Object {
+        "href": "https://abs.twimg.com/favicons/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -55643,7 +55583,7 @@ Object {
   "headline": "¯\\_(ツ)_/¯ on Twitter",
   "icon": Object {
     "href": "https://abs.twimg.com/favicons/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -56025,18 +55965,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://abs.twimg.com/favicons/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://twitter.com/alexisohanian/status/764997551384776704",
       "robots": "NOODP",
       "title": "Alexis Ohanian on Twitter: \"Don\'t squander this. 💻 https://t.co/eWmq6oxK73 https://t.co/JKKVsNBcS1\"",
     },
+    "icons": Array [
+      Object {
+        "href": "https://abs.twimg.com/favicons/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -56132,7 +56072,7 @@ Object {
   "headline": "Alexis Ohanian on Twitter",
   "icon": Object {
     "href": "https://abs.twimg.com/favicons/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -56514,19 +56454,19 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://abs.twimg.com/favicons/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://twitter.com/blakeembrey",
       "description": "The latest Tweets from Blake Embrey (@blakeembrey). World Citizen ∙ Open Source Contributor ∙ Full-stack Engineer. San Francisco, CA",
       "robots": "NOODP",
       "title": "Blake Embrey (@blakeembrey) | Twitter",
     },
+    "icons": Array [
+      Object {
+        "href": "https://abs.twimg.com/favicons/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -56564,7 +56504,7 @@ Object {
   "headline": "Blake Embrey (@blakeembrey) | Twitter",
   "icon": Object {
     "href": "https://abs.twimg.com/favicons/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": undefined,
@@ -56939,18 +56879,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://abs.twimg.com/favicons/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://twitter.com/ericclemmons/status/749223563790471169",
       "robots": "NOODP",
       "title": "Eric Clemmons on Twitter: \"🔥 Clean up @github issues with the HTML5 <details> tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx\"",
     },
+    "icons": Array [
+      Object {
+        "href": "https://abs.twimg.com/favicons/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -57040,7 +56980,7 @@ Object {
   "headline": "Eric Clemmons on Twitter",
   "icon": Object {
     "href": "https://abs.twimg.com/favicons/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -57422,18 +57362,18 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://abs.twimg.com/favicons/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://twitter.com/typescriptlang/status/743113612407889920",
       "robots": "NOODP",
       "title": "TypeScript on Twitter: \".d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4\"",
     },
+    "icons": Array [
+      Object {
+        "href": "https://abs.twimg.com/favicons/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -57523,7 +57463,7 @@ Object {
   "headline": "TypeScript on Twitter",
   "icon": Object {
     "href": "https://abs.twimg.com/favicons/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -58033,18 +57973,6 @@ Object {
       "web:url": "https://www.airbnb.com/rooms/2250401",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://a1.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png",
-        "size": undefined,
-        "type": undefined,
-      },
-      Object {
-        "href": "https://a1.muscache.com/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f061d2dcabdf6e58.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "apple-mobile-web-app-title": "Airbnb",
       "application-name": "Airbnb",
@@ -58053,6 +57981,18 @@ Object {
       "title": "Bright, Chelsea Studio - Apartments for Rent in New York",
       "viewport": "width=device-width, initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://a1.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png",
+        "sizes": "192x192",
+        "type": undefined,
+      },
+      Object {
+        "href": "https://a1.muscache.com/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f061d2dcabdf6e58.ico",
+        "sizes": "76x76",
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -58372,7 +58312,7 @@ Object {
   "headline": "Bright, Chelsea Studio - Apartments for Rent in New York",
   "icon": Object {
     "href": "https://a1.muscache.com/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f061d2dcabdf6e58.ico",
-    "size": undefined,
+    "sizes": "76x76",
     "type": "image/x-icon",
   },
   "image": Object {
@@ -58531,19 +58471,19 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://www.battlefield.com/assets/dist/images/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://www.battlefield.com/buy/battlefield-1",
       "description": "Buy Battlefield 1 on Xbox One, PlayStation 4, or Origin for PC.",
       "title": "Buy Battlefield 1 – Battlefield Official Site",
       "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://www.battlefield.com/assets/dist/images/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -58628,7 +58568,7 @@ Object {
   "headline": "Buy Battlefield 1 – Battlefield Official Site",
   "icon": Object {
     "href": "https://www.battlefield.com/assets/dist/images/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -58728,39 +58668,39 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-194x194.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/android-chrome-192x192.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-96x96.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-16x16.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-32x32.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-    ],
     "html": Object {
       "description": "Machine Learning from Stanford University. Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, effective web search, and a vastly improved understanding of the human genome. Machine learning is so pervasive today that you probably use it dozens of times a day without knowing it. Many researchers also think it is the best way to make progress towards human-level AI. In this class, you will learn about the most effective machine learning techniques, and gain practice implementing them and getting them to work for yourself. More importantly, you\'ll learn about not only the theoretical underpinnings of learning, but also gain the practical know-how needed to quickly and powerfully apply these techniques to new problems. Finally, you\'ll learn about some of Silicon Valley\'s best practices in innovation as it pertains to machine learning and AI. This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI). The course will also draw from numerous case studies and applications, so that you\'ll also learn how to apply learning algorithms to building smart robots (perception, control), text understanding (web search, anti-spam), computer vision, medical informatics, audio, database mining, and other areas. 1000+ courses from schools like Stanford and Yale - no application required. Build career skills in data science, computer science, business, and more.",
       "robots": "NOODP",
       "title": "Machine Learning - Stanford University | Coursera",
       "viewport": "width=device-width, initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-194x194.png",
+        "sizes": "194x194",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+      },
+    ],
     "jsonld": Array [
       Object {
         "@id": "https://www.coursera.org/learn/machine-learning",
@@ -59009,7 +58949,7 @@ Object {
   "headline": "Machine Learning - Stanford University | Coursera",
   "icon": Object {
     "href": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-32x32.png",
-    "size": undefined,
+    "sizes": "32x32",
     "type": "image/png",
   },
   "image": Object {
@@ -59225,13 +59165,6 @@ Object {
         "href": "https://www.etsy.com/shop/InfernoDecals/rss/",
         "hreflang": undefined,
         "media": undefined,
-        "title": "Shop RSS for InfernoDecals on Etsy",
-        "type": "application/rss+xml",
-      },
-      Object {
-        "href": "https://www.etsy.com/shop/InfernoDecals/rss/",
-        "hreflang": undefined,
-        "media": undefined,
         "title": "RSS",
         "type": "application/rss+xml",
       },
@@ -59245,19 +59178,19 @@ Object {
       "ios:url": "etsy://listing/230389421?ref=applinks_ios",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://www.etsy.com/images/favicon.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "canonical": "https://www.etsy.com/listing/230389421/agents-of-shield-decal-sticker-for-car",
       "description": "Die cut sticker is cut in the shape of the graphic with no background and all one color. Available in several colors and a variety of sizes. Please rely on dimensions listed or measure area where you will be applying the decal. Select options from drop down menus. Agents of Shield Hydra logo also available: https://www.etsy.com/your/shops/InfernoDecals/tools/listings/230718253 Sizes listed are in inches. (1 inch = 2.54 centimeters) Made from quality outdoor vinyl that is water proof, UV resistant and rated to last 6 years outdoors and longer indoors. Self adhesive vinyl is removable and does not damage hard surfaces or vehicle paint. Not reuseable or repositionable. Can be applied to any clean smooth surface such as vehicle body, window, laptop, water bottle, mirror, helmet, guitar etc. Ships in cardboard mailer or with cardboard inside envelope to protect from damage during shipping. Easy to install, comes with full instructions included. How to install vinyl decals: 1. Clean the area thoroughly with rubbing alcohol or soap and water. Do not use Windex or similar products, it will leave a residue behind that will prevent the sticker from adhering well. 2. Prepare the sticker for application by firmly rubbing a squeegee or credit card across the clear transfer tape. This removes any air bubbles that may have formed and makes the sticker cling to the transfer tape. 3. Peel the white paper backing off the sticker. If the sticker clings to the backing, slowly replace the paper backing and repeat Step 2. 4. Slowly lower the sticker onto the surface and rub it in place firmly with a squeegee or credit card. Wait 10 minutes or more. For best results, wait 24 hours before moving to the next step. 5. Slowly peel the clear transfer tape off at an angle. Be careful not to pull the sticker off the surface. If sticker pulls away from the surface repeat Step 4. *Use a pin to poke any air bubbles in the center and push the air out through the hole. *For best results do not apply a sticker in extreme hot or cold temperatures.",
       "title": "Agents of Shield decal sticker for car truck by InfernoDecals",
       "viewport": "width=1024",
     },
+    "icons": Array [
+      Object {
+        "href": "https://www.etsy.com/images/favicon.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -59480,7 +59413,7 @@ Object {
   "headline": "Agents of Shield decal sticker for car, truck, laptop in ANY COLOR die cut vinyl",
   "icon": Object {
     "href": "https://www.etsy.com/images/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -59732,19 +59665,19 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://static.xx.fbcdn.net/rsrc.php/yV/r/hzMapiNYYpW.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "canonical": "https://www.facebook.com/",
       "description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
       "robots": "noodp,noydir",
       "title": "Facebook - Log In or Sign Up",
     },
+    "icons": Array [
+      Object {
+        "href": "https://static.xx.fbcdn.net/rsrc.php/yV/r/hzMapiNYYpW.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -59825,7 +59758,7 @@ Object {
   "headline": "Facebook - Log In or Sign Up",
   "icon": Object {
     "href": "https://static.xx.fbcdn.net/rsrc.php/yV/r/hzMapiNYYpW.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -59874,18 +59807,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://s.yimg.com/pw/images/icon_black_white.svg",
-        "size": undefined,
-        "type": undefined,
-      },
-      Object {
-        "href": "https://s.yimg.com/pw/favicon.ico",
-        "size": undefined,
-        "type": "image/ico",
-      },
-    ],
     "html": Object {
       "application-name": "All sizes | Yellow Motion (Explore #15) | Flickr - Photo Sharing!",
       "canonical": "https://www.flickr.com/photos/fabianf_/28229743586/",
@@ -59894,6 +59815,18 @@ Object {
       "title": "All sizes | Yellow Motion (Explore #15) | Flickr - Photo Sharing!",
       "viewport": "width=1036",
     },
+    "icons": Array [
+      Object {
+        "href": "https://s.yimg.com/pw/images/icon_black_white.svg",
+        "sizes": "any",
+        "type": undefined,
+      },
+      Object {
+        "href": "https://s.yimg.com/pw/favicon.ico",
+        "sizes": undefined,
+        "type": "image/ico",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -59930,9 +59863,9 @@ Object {
   "entity": undefined,
   "headline": "All sizes | Yellow Motion (Explore #15) | Flickr - Photo Sharing!",
   "icon": Object {
-    "href": "https://s.yimg.com/pw/favicon.ico",
-    "size": undefined,
-    "type": "image/ico",
+    "href": "https://s.yimg.com/pw/images/icon_black_white.svg",
+    "sizes": "any",
+    "type": undefined,
   },
   "image": undefined,
   "locale": undefined,
@@ -59959,13 +59892,6 @@ Object {
       "ios:url": "flickr://flickr.com/photos/timdrivas/27999498362",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://s.yimg.com/pw/favicon.ico",
-        "size": undefined,
-        "type": "image/ico",
-      },
-    ],
     "html": Object {
       "application-name": "The Fourth | The Macy\'s 4th of July firework show in NYC | Tim Drivas | Flickr",
       "canonical": "https://www.flickr.com/photos/timdrivas/27999498362",
@@ -59974,6 +59900,13 @@ Object {
       "robots": "noarchive",
       "title": "3d pan white",
     },
+    "icons": Array [
+      Object {
+        "href": "https://s.yimg.com/pw/favicon.ico",
+        "sizes": undefined,
+        "type": "image/ico",
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -60229,7 +60162,7 @@ Object {
   "headline": "The Fourth",
   "icon": Object {
     "href": "https://s.yimg.com/pw/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/ico",
   },
   "image": Object {
@@ -60278,17 +60211,17 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://www.google.com/images/branding/product/ico/maps_32dp.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "title": "Google Maps",
       "viewport": "initial-scale=1.0, user-scalable=no",
     },
+    "icons": Array [
+      Object {
+        "href": "https://www.google.com/images/branding/product/ico/maps_32dp.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -60342,7 +60275,7 @@ Object {
   "headline": "Google Maps",
   "icon": Object {
     "href": "https://www.google.com/images/branding/product/ico/maps_32dp.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": undefined,
@@ -60717,18 +60650,6 @@ Object {
       "ios:url": "instagram://media?id=1275815577152760484",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://instagramstatic-a.akamaihd.net/h1/images/ico/favicon-192.png/b407fa101800.png",
-        "size": undefined,
-        "type": undefined,
-      },
-      Object {
-        "href": "https://instagramstatic-a.akamaihd.net/h1/images/ico/favicon.ico/dfa85bb1fd63.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://www.instagram.com/p/BG0m4IDGaqk/",
       "description": "See this Instagram photo by @minaalofficial • 107 likes",
@@ -60736,6 +60657,18 @@ Object {
       "title": "Instagram",
       "viewport": "width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://instagramstatic-a.akamaihd.net/h1/images/ico/favicon-192.png/b407fa101800.png",
+        "sizes": "192x192",
+        "type": undefined,
+      },
+      Object {
+        "href": "https://instagramstatic-a.akamaihd.net/h1/images/ico/favicon.ico/dfa85bb1fd63.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -60945,9 +60878,9 @@ Object {
   "entity": undefined,
   "headline": "Instagram photo by Minaal • Jun 19, 2016 at 4:04am UTC",
   "icon": Object {
-    "href": "https://instagramstatic-a.akamaihd.net/h1/images/ico/favicon.ico/dfa85bb1fd63.ico",
-    "size": undefined,
-    "type": "image/x-icon",
+    "href": "https://instagramstatic-a.akamaihd.net/h1/images/ico/favicon-192.png/b407fa101800.png",
+    "sizes": "192x192",
+    "type": undefined,
   },
   "image": Object {
     "alt": undefined,
@@ -60977,13 +60910,6 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://www.khanacademy.org/favicon.ico?leaf",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "canonical": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
       "description": "The difference between a bond and a stock.",
@@ -60991,6 +60917,13 @@ Object {
       "title": "Bonds vs. stocks | Stocks and bonds (video) | Khan Academy",
       "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "https://www.khanacademy.org/favicon.ico?leaf",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -61157,7 +61090,7 @@ Object {
   "headline": "Khan Academy",
   "icon": Object {
     "href": "https://www.khanacademy.org/favicon.ico?leaf",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -61251,19 +61184,19 @@ Object {
       "ios:url": "ksr://www.kickstarter.com/projects/1655571865/361230638?app_banner=1&ref=category_featured",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://static.kickstarter.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor",
       "description": "BSX Athletics is raising funds for LVL – The First Wearable Hydration Monitor on Kickstarter! LVL is a wearable hydration monitor that gives you the complete picture of your health by also tracking activity, sleep, mood and HR.",
       "title": "youtube icon",
       "viewport": "width=device-width,initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://static.kickstarter.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -61497,7 +61430,7 @@ Object {
   "headline": "LVL – The First Wearable Hydration Monitor",
   "icon": Object {
     "href": "https://static.kickstarter.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -61541,13 +61474,6 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://www.mulesoft.com/sites/all/themes/muletheme/favicon.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "canonical": "https://www.mulesoft.com/contact",
       "description": "Contact us to see how we can help transform your company with the agility to unlock data, unleash innovation and connect with success.",
@@ -61555,6 +61481,13 @@ Object {
       "title": "Contact | MuleSoft",
       "viewport": "width=device-width, initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://www.mulesoft.com/sites/all/themes/muletheme/favicon.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -61626,7 +61559,7 @@ Object {
   "headline": "1-415-229-2009",
   "icon": Object {
     "href": "https://www.mulesoft.com/sites/all/themes/muletheme/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": undefined,
@@ -61650,38 +61583,6 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://www.npmjs.com/static/images/touch-icons/favicon-230x230.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://www.npmjs.com/static/images/touch-icons/favicon-96x96.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://www.npmjs.com/static/images/touch-icons/android-chrome-192x192.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://www.npmjs.com/static/images/touch-icons/coast-228x228.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://www.npmjs.com/static/images/touch-icons/favicon-16x16.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-    ],
     "html": Object {
       "canonical": "https://www.npmjs.com/package/filenamify",
       "description": "Convert a string to a valid safe filename",
@@ -61689,6 +61590,38 @@ Object {
       "title": "filenamify",
       "viewport": "width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=yes",
     },
+    "icons": Array [
+      Object {
+        "href": "https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://www.npmjs.com/static/images/touch-icons/favicon-230x230.png",
+        "sizes": "230x230",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://www.npmjs.com/static/images/touch-icons/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://www.npmjs.com/static/images/touch-icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://www.npmjs.com/static/images/touch-icons/coast-228x228.png",
+        "sizes": "228x228",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://www.npmjs.com/static/images/touch-icons/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -61831,8 +61764,8 @@ Object {
   "entity": undefined,
   "headline": "npm: filenamify",
   "icon": Object {
-    "href": "https://www.npmjs.com/static/images/touch-icons/favicon-16x16.png",
-    "size": undefined,
+    "href": "https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png",
+    "sizes": "32x32",
     "type": "image/png",
   },
   "image": Object {
@@ -61875,17 +61808,17 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://www.quora.com/favicon.ico",
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date",
       "robots": "noarchive",
       "title": "How to impress a computer programmer on a date - Quora",
     },
+    "icons": Array [
+      Object {
+        "href": "https://www.quora.com/favicon.ico",
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [],
@@ -61961,18 +61894,6 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://www.redditstatic.com/icon.png",
-        "size": undefined,
-        "type": "image/png",
-      },
-      Object {
-        "href": "https://www.redditstatic.com/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
       "description": "reddit: the front page of the internet",
@@ -61980,6 +61901,18 @@ Object {
       "title": "\'UK man\' tried to kill Trump: court papers : news",
       "viewport": "width=1024",
     },
+    "icons": Array [
+      Object {
+        "href": "https://www.redditstatic.com/icon.png",
+        "sizes": "256x256",
+        "type": "image/png",
+      },
+      Object {
+        "href": "https://www.redditstatic.com/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -62071,9 +62004,9 @@ Object {
   "entity": undefined,
   "headline": "\'UK man\' tried to kill Trump: court papers • /r/news",
   "icon": Object {
-    "href": "https://www.redditstatic.com/favicon.ico",
-    "size": undefined,
-    "type": "image/x-icon",
+    "href": "https://www.redditstatic.com/icon.png",
+    "sizes": "256x256",
+    "type": "image/png",
   },
   "image": Object {
     "alt": undefined,
@@ -62114,18 +62047,18 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://staticv2.rottentomatoes.com/static/images/icons/favicon.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-    ],
     "html": Object {
       "canonical": "https://www.rottentomatoes.com/m/inception/",
       "title": "Inception (2010) - Rotten Tomatoes",
       "viewport": "width=device-width,initial-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://staticv2.rottentomatoes.com/static/images/icons/favicon.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+    ],
     "jsonld": Array [
       Object {
         "@type": Array [
@@ -65281,7 +65214,7 @@ Object {
   "headline": "Inception",
   "icon": Object {
     "href": "https://staticv2.rottentomatoes.com/static/images/icons/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": "image/x-icon",
   },
   "image": Object {
@@ -65317,13 +65250,6 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/_global/favicon.png",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "canonical": "https://www.spotify.com/",
       "description": "Spotify is a digital music service that gives you access to millions of songs.",
@@ -65331,6 +65257,13 @@ Object {
       "title": "Music for everyone - Spotify",
       "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
     },
+    "icons": Array [
+      Object {
+        "href": "https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/_global/favicon.png",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -65412,7 +65345,7 @@ Object {
   "headline": "Music for everyone.",
   "icon": Object {
     "href": "https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/_global/favicon.png",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -65461,13 +65394,6 @@ Object {
       "ios:url": "ted://playlists/321/talks_to_form_better_habits?source=facebook",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://pa.tedcdn.com/favicon.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "apple-mobile-web-app-title": "TED.com",
       "application-name": "TED.com",
@@ -65477,6 +65403,13 @@ Object {
       "title": "Cancel search",
       "viewport": "width=device-width, initial-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "https://pa.tedcdn.com/favicon.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -65676,7 +65609,7 @@ Object {
   "headline": "8 TED Talks to form better habits",
   "icon": Object {
     "href": "https://pa.tedcdn.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -65949,13 +65882,6 @@ Object {
       "web:url": "http://applinks.org/documentation",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://pa.tedcdn.com/favicon.ico",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "apple-mobile-web-app-title": "TED.com",
       "application-name": "TED.com",
@@ -65966,6 +65892,13 @@ Object {
       "title": "Cancel search",
       "viewport": "width=device-width, initial-scale=1.0",
     },
+    "icons": Array [
+      Object {
+        "href": "https://pa.tedcdn.com/favicon.ico",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -66295,7 +66228,7 @@ Object {
   "headline": "How frustration can make us more creative",
   "icon": Object {
     "href": "https://pa.tedcdn.com/favicon.ico",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": Object {
@@ -66352,19 +66285,19 @@ Object {
     ],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "http://www.thinkgeek.com/images/favicon.png",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "canonical": "http://www.thinkgeek.com/toys-games/board-games-cards/",
       "description": "Shop for board games and collectible card games at ThinkGeek. We have the TCG to fulfill your deck-building desires and that casual game for a party.",
       "keywords": "computer geek t-shirts open source t-shirts geek gifts high caffeine products think geek golf shirts programming mugs beer glasses linux fish gnu geek shirts ties shower shock caffeinated soap",
       "title": "Board Games & Cards | ThinkGeek",
     },
+    "icons": Array [
+      Object {
+        "href": "http://www.thinkgeek.com/images/favicon.png",
+        "sizes": undefined,
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -66524,7 +66457,7 @@ Object {
   "headline": "Board Games & Cards | ThinkGeek",
   "icon": Object {
     "href": "http://www.thinkgeek.com/images/favicon.png",
-    "size": undefined,
+    "sizes": undefined,
     "type": undefined,
   },
   "image": undefined,
@@ -66555,15 +66488,15 @@ Object {
     "alternate": Array [],
     "applinks": undefined,
     "dublincore": undefined,
-    "favicons": Array [
+    "html": Object {
+      "title": "JSON-LD 1.0",
+    },
+    "icons": Array [
       Object {
         "href": "https://www.w3.org/favicon.ico",
         "type": "image/vnd.microsoft.icon",
       },
     ],
-    "html": Object {
-      "title": "JSON-LD 1.0",
-    },
     "jsonld": Array [],
     "microdata": Array [],
     "rdfa": Array [
@@ -66800,39 +66733,39 @@ Object {
       "web:url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png",
-        "size": undefined,
-        "type": undefined,
-      },
-      Object {
-        "href": "https://s.ytimg.com/yts/img/favicon_48-vfl1s0rGh.png",
-        "size": undefined,
-        "type": undefined,
-      },
-      Object {
-        "href": "https://s.ytimg.com/yts/img/favicon_96-vfldSA3ca.png",
-        "size": undefined,
-        "type": undefined,
-      },
-      Object {
-        "href": "https://s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "canonical": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
       "description": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R...",
       "keywords": "Marvel\'s The Avengers, Marvel, Walt Disney Pictures, Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Samuel...",
       "title": "Marvel\'s The Avengers - YouTube",
     },
+    "icons": Array [
+      Object {
+        "href": "https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+      Object {
+        "href": "https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png",
+        "sizes": "32x32",
+        "type": undefined,
+      },
+      Object {
+        "href": "https://s.ytimg.com/yts/img/favicon_48-vfl1s0rGh.png",
+        "sizes": "48x48",
+        "type": undefined,
+      },
+      Object {
+        "href": "https://s.ytimg.com/yts/img/favicon_96-vfldSA3ca.png",
+        "sizes": "96x96",
+        "type": undefined,
+      },
+      Object {
+        "href": "https://s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png",
+        "sizes": "144x144",
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -67235,8 +67168,8 @@ Object {
   "entity": undefined,
   "headline": "Marvel\'s The Avengers",
   "icon": Object {
-    "href": "https://s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png",
-    "size": undefined,
+    "href": "https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png",
+    "sizes": "32x32",
     "type": undefined,
   },
   "image": Object {
@@ -67341,38 +67274,38 @@ Object {
       "web:url": "https://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks",
     },
     "dublincore": undefined,
-    "favicons": Array [
-      Object {
-        "href": "https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico",
-        "size": undefined,
-        "type": "image/x-icon",
-      },
-      Object {
-        "href": "https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png",
-        "size": undefined,
-        "type": undefined,
-      },
-      Object {
-        "href": "https://s.ytimg.com/yts/img/favicon_48-vfl1s0rGh.png",
-        "size": undefined,
-        "type": undefined,
-      },
-      Object {
-        "href": "https://s.ytimg.com/yts/img/favicon_96-vfldSA3ca.png",
-        "size": undefined,
-        "type": undefined,
-      },
-      Object {
-        "href": "https://s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png",
-        "size": undefined,
-        "type": undefined,
-      },
-    ],
     "html": Object {
       "canonical": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
       "keywords": "#hangoutsonair, Hangouts On Air, #hoa",
       "title": "15. Typings with Blake Embrey - YouTube",
     },
+    "icons": Array [
+      Object {
+        "href": "https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico",
+        "sizes": undefined,
+        "type": "image/x-icon",
+      },
+      Object {
+        "href": "https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png",
+        "sizes": "32x32",
+        "type": undefined,
+      },
+      Object {
+        "href": "https://s.ytimg.com/yts/img/favicon_48-vfl1s0rGh.png",
+        "sizes": "48x48",
+        "type": undefined,
+      },
+      Object {
+        "href": "https://s.ytimg.com/yts/img/favicon_96-vfldSA3ca.png",
+        "sizes": "96x96",
+        "type": undefined,
+      },
+      Object {
+        "href": "https://s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png",
+        "sizes": "144x144",
+        "type": undefined,
+      },
+    ],
     "jsonld": Array [],
     "microdata": Array [
       Object {
@@ -67753,8 +67686,8 @@ Object {
   "entity": undefined,
   "headline": "15. Typings with Blake Embrey",
   "icon": Object {
-    "href": "https://s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png",
-    "size": undefined,
+    "href": "https://s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png",
+    "sizes": "32x32",
     "type": undefined,
   },
   "image": Object {
