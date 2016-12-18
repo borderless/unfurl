@@ -5,32 +5,25 @@ import { resolve } from 'url'
 import { promises as Jsonld } from 'jsonld'
 import { parse } from 'content-type'
 import { makeRequest as defaultMakeRequest, concat } from '../support'
-
-import {
-  Headers,
-  AbortFn,
-  ScrapeResult,
-  ScrapeOptions
-} from '../interfaces'
+import { AbortFn, BaseResult, HtmlResult, ScrapeOptions } from '../interfaces'
 
 /**
  * Check support for HTML.
  */
-export function supported ({ encodingFormat }: ScrapeResult<null>) {
+export function supported ({ encodingFormat }: BaseResult) {
   return encodingFormat === 'text/html'
 }
 
 export async function handle (
-  result: ScrapeResult<HtmlContent>,
-  _headers: Headers,
+  base: BaseResult,
   stream: Readable,
   _abort: AbortFn,
   options: ScrapeOptions
-): Promise<ScrapeResult<HtmlContent>> {
-  const { contentUrl } = result
+): Promise<HtmlResult> {
+  const { url } = base
   const makeRequest = options.makeRequest || defaultMakeRequest
 
-  const parsed = await parseHtml(stream, contentUrl)
+  const parsed = await parseHtml(stream, url)
   const { twitter, html, icons, dublincore, applinks, sailthru, alternate } = parsed
 
   const [jsonld, rdfa, microdata] = await Promise.all([
@@ -39,24 +32,26 @@ export async function handle (
     Jsonld.expand(parsed.microdata || {})
   ])
 
-  result.type = 'html'
-
-  result.content = {
-    jsonld,
-    rdfa,
-    microdata,
-    twitter,
-    html,
-    icons,
-    dublincore,
-    applinks,
-    sailthru,
-    alternate
-  }
+  const result: HtmlResult = Object.assign(
+    {
+      type: 'html' as 'html',
+      jsonld,
+      rdfa,
+      microdata,
+      twitter,
+      html,
+      icons,
+      dublincore,
+      applinks,
+      sailthru,
+      alternate
+    },
+    base
+  )
 
   // Attempt to read OEmbed metadata.
   if (options.useOEmbed !== false) {
-    for (const alternate of result.content.alternate) {
+    for (const alternate of result.alternate) {
       if (alternate.type === 'text/json+oembed') {
         const res = await makeRequest(alternate.href)
 
@@ -64,7 +59,7 @@ export async function handle (
           const content = await concat(res.stream)
 
           try {
-            result.content.oembed = JSON.parse(content.toString('utf8'))
+            result.oembed = JSON.parse(content.toString('utf8'))
           } catch (e) { /* Ignore parse errors. */ }
         }
 
@@ -74,15 +69,15 @@ export async function handle (
   }
 
   // Follow the default browser behaviour to find `favicon.ico`.
-  if (options.fallbackOnFavicon !== false && result.content.icons.length === 0) {
-    const href = resolve(contentUrl, '/favicon.ico')
+  if (options.fallbackOnFavicon !== false && result.icons.length === 0) {
+    const href = resolve(url, '/favicon.ico')
     const res = await makeRequest(href)
 
     // Ignore the actual response body, it's not important.
     res.abort()
 
     if (res.status === 200) {
-      result.content.icons.push({
+      result.icons.push({
         type: res.headers['content-type'] ? parse(res.headers['content-type']).type : undefined,
         href
       })

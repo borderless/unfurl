@@ -1,6 +1,6 @@
 import { Readable } from 'stream'
-import Promise = require('any-promise')
 import { Snippet } from './snippets'
+import { BaseResult, Result } from './results'
 
 /**
  * HTTP headers interface.
@@ -29,7 +29,7 @@ export interface RequestResult {
  * Content scraping options.
  */
 export interface ScrapeOptions {
-  scrapers?: Scraper<any>[]
+  scrapers?: Scraper[]
   useOEmbed?: boolean
   fallbackOnFavicon?: boolean
   makeRequest? (url: string): Promise<RequestResult>
@@ -47,34 +47,22 @@ export interface ExtractOptions {
 }
 
 /**
- * Re-used base interface for scraped and extracted information.
- */
-export interface ScrapeResult <T extends any> {
-  type: 'html' | 'image' | 'video' | 'pdf' | 'link' | string
-  content: T
-  contentUrl: string
-  contentSize?: number
-  encodingFormat?: string
-}
-
-/**
  * Format for detecting support for scraping information.
  */
-export interface Scraper <T> {
-  supported (result: ScrapeResult<any>, headers: Headers): boolean
+export interface Scraper {
+  supported (result: BaseResult, headers: Headers): boolean
   handle (
-    result: ScrapeResult<any>,
-    headers: Headers,
+    result: BaseResult,
     stream: Readable,
     abort: AbortFn,
     options: ScrapeOptions
-  ): ScrapeResult<T> | Promise<ScrapeResult<T>>
+  ): Result | Promise<Result>
 }
 
 /**
  * Interface to extract information from the scraped content.
  */
-export type Extract = (result: ScrapeResult<any>, options: ExtractOptions) => undefined | Snippet | Promise<Snippet>
+export type Extract = (result: Result, options: ExtractOptions) => undefined | Snippet | Promise<Snippet>
 
 /**
  * Map of methods for extracting.

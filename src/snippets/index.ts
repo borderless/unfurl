@@ -1,7 +1,6 @@
 import html from './html'
 import image from './image'
 import video from './video'
-import link from './link'
 import pdf from './pdf'
 
 import { Extracts } from '../interfaces'
@@ -13,7 +12,6 @@ const extracts: Extracts = {
   html,
   image,
   video,
-  link,
   pdf
 }
 

@@ -9,7 +9,7 @@ import { AbortFn, ExifData, RequestResult } from '../interfaces'
  * Extract exif data.
  */
 export async function extractExifData (_url: string, stream: Readable, abort: AbortFn) {
-  return new Promise<ExifData | null>((resolve) => {
+  return new Promise<ExifData>((resolve) => {
     const exif = exec(['-fast', '-'])
 
     exif.on('exif', (exif) => {
@@ -21,7 +21,7 @@ export async function extractExifData (_url: string, stream: Readable, abort: Ab
     exif.on('error', () => {
       abort()
 
-      return resolve(null)
+      return resolve({})
     })
 
     stream.pipe(exif)

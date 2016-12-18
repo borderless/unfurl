@@ -1,30 +1,27 @@
-import Promise = require('any-promise')
 import { Readable } from 'stream'
-import { Headers, AbortFn, ScrapeResult, ScrapeOptions, ExifData } from '../interfaces'
+import { AbortFn, BaseResult, ScrapeOptions, ImageResult } from '../interfaces'
 import { extractExifData as defaultExtractExifData } from '../support'
 
-export function supported ({ encodingFormat }: ScrapeResult<null>) {
+export function supported ({ encodingFormat }: BaseResult) {
   return !!encodingFormat && /^image\//.test(encodingFormat)
 }
 
-export function handle (
-  result: ScrapeResult<ExifData>,
-  _headers: Headers,
+export async function handle (
+  base: BaseResult,
   stream: Readable,
   abort: AbortFn,
   options: ScrapeOptions
-): Promise<ScrapeResult<ExifData>> {
+): Promise<ImageResult> {
   const extractExifData = options.extractExifData || defaultExtractExifData
+  const exifData = await extractExifData(base.url, stream, abort)
 
-  result.type = 'image'
+  const result: ImageResult = Object.assign(
+    {
+      type: 'image' as 'image',
+      exifData
+    },
+    base
+  )
 
-  return extractExifData(result.contentUrl, stream, abort)
-    .then(
-      (exifData) => {
-        result.content = exifData
-
-        return result
-      },
-      () => result
-    )
+  return result
 }

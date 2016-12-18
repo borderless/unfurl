@@ -1,31 +1,25 @@
 import { parseExifDate } from '../support'
-import { ScrapeResult, ImageSnippet, ExifData } from '../interfaces'
+import { ImageResult, ImageSnippet } from '../interfaces'
 
-export default function (result: ScrapeResult<ExifData>): ImageSnippet {
-  const {
-    encodingFormat,
-    contentSize,
-    contentUrl,
-    content
-  } = result
+export default function (result: ImageResult): ImageSnippet {
+  const { exifData } = result
 
   return {
     type: 'image',
-    encodingFormat: content.MIMEType || content.Format || encodingFormat,
-    dateModified: parseExifDate(content.ModifyDate),
-    dateCreated: parseExifDate(content.SubSecDateTimeOriginal) ||
-      parseExifDate(content.DateTimeCreated) ||
-      parseExifDate(content.DigitalCreationDateTime),
-    contentSize,
-    contentUrl,
-    width: content.ImageWidth,
-    height: content.ImageHeight,
-    make: content.Make,
-    model: content.Model,
-    lensMake: content.LensMake,
-    lensModel: content.LensModel,
-    software: content.Software,
-    megapixels: content.Megapixels,
-    orientation: content.Orientation
+    encodingFormat: exifData.MIMEType || exifData.Format || result.encodingFormat,
+    dateModified: parseExifDate(exifData.ModifyDate),
+    dateCreated: parseExifDate(exifData.SubSecDateTimeOriginal) ||
+      parseExifDate(exifData.DateTimeCreated) ||
+      parseExifDate(exifData.DigitalCreationDateTime),
+    url: result.url,
+    width: exifData.ImageWidth,
+    height: exifData.ImageHeight,
+    make: exifData.Make,
+    model: exifData.Model,
+    lensMake: exifData.LensMake,
+    lensModel: exifData.LensModel,
+    software: exifData.Software,
+    megapixels: exifData.Megapixels,
+    orientation: exifData.Orientation
   }
 }

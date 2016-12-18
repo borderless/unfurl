@@ -1,25 +1,19 @@
 import { parseExifDate } from '../support'
-import { ScrapeResult, PdfSnippet, ExifData } from '../interfaces'
+import { PdfResult, PdfSnippet } from '../interfaces'
 
-export default function (result: ScrapeResult<ExifData>): PdfSnippet {
-  const {
-    encodingFormat,
-    contentSize,
-    contentUrl,
-    content
-  } = result
+export default function (result: PdfResult): PdfSnippet {
+  const { exifData } = result
 
   return {
     type: 'pdf',
-    encodingFormat,
-    contentSize,
-    contentUrl,
-    pageCount: content.PageCount,
-    producer: content.Producer,
-    author: content.Author,
-    creator: content.Creator,
-    title: content.Title,
-    dateCreated: parseExifDate(content.CreateDate),
-    dateModified: parseExifDate(content.ModifyDate)
+    url: result.url,
+    encodingFormat: result.encodingFormat,
+    pageCount: exifData.PageCount,
+    producer: exifData.Producer,
+    author: exifData.Author,
+    creator: exifData.Creator,
+    title: exifData.Title,
+    dateCreated: parseExifDate(exifData.CreateDate),
+    dateModified: parseExifDate(exifData.ModifyDate)
   }
 }

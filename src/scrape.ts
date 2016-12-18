@@ -1,54 +1,50 @@
-import Promise = require('any-promise')
 import { Readable } from 'stream'
 import { parse } from 'content-type'
 import defaultScrapers from './scrapers'
-import { Headers, AbortFn, ScrapeResult, ScrapeOptions } from './interfaces'
+import { Headers, AbortFn, Result, ScrapeOptions, BaseResult } from './interfaces'
 import { makeRequest as defaultMakeRequest } from './support'
 
 /**
  * Scrape metadata from a URL.
  */
-export function scrapeUrl (url: string, options: ScrapeOptions = {}): Promise<ScrapeResult<any>> {
+export async function scrapeUrl (url: string, options: ScrapeOptions = {}): Promise<Result> {
   const makeRequest = options.makeRequest || defaultMakeRequest
+  const res = await makeRequest(url)
 
-  return makeRequest(url).then(res => {
-    return scrapeStream(res.url, res.headers, res.stream, res.abort, options)
-  })
+  return scrapeStream(res.url, res.status, res.headers, res.stream, res.abort, options)
 }
 
 /**
  * Scrape metadata from a stream (with headers/URL).
  */
-export function scrapeStream (
-  contentUrl: string,
+export async function scrapeStream (
+  url: string,
+  status: number,
   headers: Headers,
   stream: Readable,
   abort?: AbortFn,
   options: ScrapeOptions = {}
-): Promise<ScrapeResult<any>> {
+): Promise<Result> {
   const encodingFormat = headers['content-type'] ? parse(headers['content-type']).type : undefined
-  const contentLength = Number(headers['content-length'])
-  const contentSize = isFinite(contentLength) ? contentLength : undefined
   const close = abort || (() => stream.resume())
   const scrapers = options.scrapers || defaultScrapers
 
-  const result: ScrapeResult<null> = {
-    type: 'link',
-    content: null,
-    contentUrl,
-    encodingFormat,
-    contentSize
+  const base: BaseResult = {
+    url,
+    status,
+    headers,
+    encodingFormat
   }
 
   // Traverse the available scrapers to extract information.
   for (const rule of scrapers) {
-    if (rule.supported(result, headers)) {
-      return Promise.resolve(rule.handle(result, headers, stream, close, options))
+    if (rule.supported(base, headers)) {
+      return rule.handle(base, stream, close, options)
     }
   }
 
   // Abort unhandled types.
   close()
 
-  return Promise.resolve(result)
+  return base
 }

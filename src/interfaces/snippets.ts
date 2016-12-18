@@ -1,8 +1,7 @@
-export interface SnippetBase {
-  type: 'html' | 'image' | 'video' | 'pdf' | 'link' | string
-  contentUrl: string
+export interface BaseSnippet {
+  type?: string
+  url: string
   canonicalUrl?: string
-  contentSize?: number
   encodingFormat?: string
 }
 
@@ -101,7 +100,7 @@ export interface RichEntity {
 
 export type Entity = ArticleEntity | VideoEntity | ImageEntity | RichEntity
 
-export interface HtmlSnippet extends SnippetBase {
+export interface HtmlSnippet extends BaseSnippet {
   type: 'html'
   entity?: Entity
   image?: HtmlSnippetImage | HtmlSnippetImage[]
@@ -127,11 +126,11 @@ export interface HtmlSnippet extends SnippetBase {
   apps?: HtmlSnippetApps
 }
 
-export interface VideoSnippet extends SnippetBase {
+export interface VideoSnippet extends BaseSnippet {
   type: 'video'
 }
 
-export interface ImageSnippet extends SnippetBase {
+export interface ImageSnippet extends BaseSnippet {
   type: 'image'
   dateModified?: Date
   dateCreated?: Date
@@ -146,7 +145,7 @@ export interface ImageSnippet extends SnippetBase {
   megapixels?: number
 }
 
-export interface PdfSnippet extends SnippetBase {
+export interface PdfSnippet extends BaseSnippet {
   type: 'pdf'
   author?: string
   title?: string
@@ -157,8 +156,8 @@ export interface PdfSnippet extends SnippetBase {
   dateModified?: Date
 }
 
-export interface LinkSnippet extends SnippetBase {
+export interface LinkSnippet extends BaseSnippet {
   type: 'link'
 }
 
-export type Snippet = PdfSnippet | LinkSnippet | VideoSnippet | ImageSnippet | HtmlSnippet
+export type Snippet = PdfSnippet | LinkSnippet | VideoSnippet | ImageSnippet | HtmlSnippet | BaseSnippet

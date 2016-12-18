@@ -1,23 +1,25 @@
 import defaultSnippets from './snippets'
 import { scrapeUrl } from './scrape'
-import { ScrapeResult, Snippet, ScrapeOptions, ExtractOptions } from './interfaces'
+import { Result, Snippet, ScrapeOptions, ExtractOptions } from './interfaces'
 
 /**
  * Extract rich snippets from the scraping result.
  */
-export async function extract (result: ScrapeResult<any>, options: ExtractOptions = {}): Promise<Snippet | undefined> {
+export async function extract (result: Result, options: ExtractOptions = {}): Promise<Snippet | undefined> {
   if (result == null) {
     return
   }
 
   const snippets = options.snippets || defaultSnippets
-  const extract = snippets[result.type]
 
-  if (extract) {
-    return extract(result, options)
+  if (result.type == null || !snippets[result.type]) {
+    return {
+      url: result.url,
+      encodingFormat: result.encodingFormat
+    }
   }
 
-  return
+  return snippets[result.type](result, options)
 }
 
 /**
