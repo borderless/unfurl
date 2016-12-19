@@ -160,7 +160,7 @@ describe('scrappy', function () {
       transport: popsicle.createTransport({ type: 'stream', jar: popsicle.jar() })
     })
 
-    return req.then((res) => {
+    return req.then(function (res) {
       return {
         stream: res.body,
         headers: res.headers,
@@ -172,7 +172,7 @@ describe('scrappy', function () {
   }
 
   beforeAll(function () {
-    jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000
+    jasmine.DEFAULT_TIMEOUT_INTERVAL = 20000
   })
 
   FIXTURES.forEach(function (fixtureUrl) {

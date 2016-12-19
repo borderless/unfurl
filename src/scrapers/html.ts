@@ -27,9 +27,9 @@ export async function handle (
   const { twitter, html, icons, dublincore, applinks, sailthru, alternate } = parsed
 
   const [jsonld, rdfa, microdata] = await Promise.all([
-    Jsonld.expand(parsed.jsonld || {}),
-    Jsonld.expand(parsed.rdfa || {}),
-    Jsonld.expand(parsed.microdata || {})
+    parsed.jsonld ? Jsonld.expand(parsed.jsonld, { base: url }).catch(() => undefined) : undefined,
+    parsed.rdfa ? Jsonld.expand(parsed.rdfa, { base: url }).catch(() => undefined) : undefined,
+    parsed.microdata ? Jsonld.expand(parsed.microdata, { base: url }).catch(() => undefined) : undefined
   ])
 
   const result: HtmlResult = Object.assign(
