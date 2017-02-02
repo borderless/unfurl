@@ -43,7 +43,7 @@ export default async function (
   }
 
   const [parsed] = await Promise.all([
-    parseHtml(stream, url),
+    parseHtml(stream.pipe(new PassThrough()), url),
     next(stream.pipe(new PassThrough()))
   ])
 
