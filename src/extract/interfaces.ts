@@ -1,3 +1,10 @@
+/**
+ * Content extraction options.
+ */
+export interface ExtractOptions {
+  preferredIconSize?: number
+}
+
 export interface BaseSnippet {
   type?: string
   url: string

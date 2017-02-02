@@ -15,6 +15,7 @@
     "tsc": "tsc",
     "build": "npm run clean && npm run tsc",
     "test:cov": "jest --coverage",
+    "test:update": "jest -u",
     "test": "npm run lint && npm run build && npm run test:cov",
     "populate": "node scripts/fixtures.js && node scripts/scrape.js && node scripts/extract.js",
     "prepublish": "typings install && npm run build"
@@ -47,11 +48,11 @@
   "homepage": "https://github.com/blakeembrey/node-scrappy",
   "devDependencies": {
     "catbox-fs": "^2.0.0",
-    "jest": "^18.0.0",
+    "jest": "^18.1.0",
     "popsicle-cache": "^5.0.1",
     "rimraf": "^2.5.4",
     "tslint": "^4.0.2",
-    "tslint-config-standard": "^2.0.0",
+    "tslint-config-standard": "^3.0.0",
     "typescript": "^2.1.4",
     "typings": "^2.0.0"
   },
@@ -62,7 +63,7 @@
     "exif-date": "^2.0.0",
     "exiftool2": "0.0.4",
     "getvalue": "^1.1.0",
-    "htmlmetaparser": "^1.1.1",
+    "htmlmetaparser": "^1.2.0",
     "htmlparser2": "^3.9.1",
     "jsonld": "^0.4.11",
     "popsicle": "^9.0.0"

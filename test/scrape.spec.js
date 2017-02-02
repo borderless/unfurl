@@ -177,7 +177,8 @@ describe('scrappy', function () {
 
   FIXTURES.forEach(function (fixtureUrl) {
     it(fixtureUrl, function () {
-      return scrappy.scrapeUrl(fixtureUrl, { makeRequest })
+      return makeRequest(fixtureUrl)
+        .then(scrappy.scrapeResponse)
         .then(function (result) {
           expect(result).toMatchSnapshot()
 

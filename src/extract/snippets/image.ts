@@ -1,8 +1,9 @@
+import { ImageSnippet } from '../interfaces'
 import { parseExifDate } from '../support'
-import { ImageResult, ImageSnippet } from '../interfaces'
+import { ScrapeResult } from '../../scrape'
 
-export default function (result: ImageResult): ImageSnippet {
-  const { exifData } = result
+export default function (result: ScrapeResult): ImageSnippet {
+  const exifData = result.exifData || {}
 
   return {
     type: 'image',

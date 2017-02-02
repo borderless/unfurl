@@ -1,6 +1,14 @@
 import { resolve } from 'url'
 import { get, Path } from 'getvalue'
 import arrify = require('arrify')
+import { parse } from 'exif-date'
+
+/**
+ * Parse an EXIF date.
+ */
+export function parseExifDate (value: string | undefined) {
+  return value ? parse(value) : undefined
+}
 
 /**
  * Export the JSON-LD value interface.

@@ -1,8 +1,9 @@
 import { parseExifDate } from '../support'
-import { PdfResult, PdfSnippet } from '../interfaces'
+import { PdfSnippet } from '../interfaces'
+import { ScrapeResult } from '../../scrape'
 
-export default function (result: PdfResult): PdfSnippet {
-  const { exifData } = result
+export default function (result: ScrapeResult): PdfSnippet {
+  const exifData = result.exifData || {}
 
   return {
     type: 'pdf',
