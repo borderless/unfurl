@@ -14,7 +14,7 @@ export default async function (
   next: Next
 ): Promise<ScrapeResult> {
   const [exifdata] = await Promise.all([
-    extractExifData(stream),
+    extractExifData(stream.pipe(new PassThrough())),
     next(stream.pipe(new PassThrough()))
   ])
 
