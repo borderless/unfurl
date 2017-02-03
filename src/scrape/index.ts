@@ -57,7 +57,7 @@ export function compose (middleware: Plugin[]): Plugin {
 
     function dispatch (pos: number, stream: Readable): Promise<any> {
       if (pos <= index) {
-        throw new TypeError('`next(stream, result)` called multiple times')
+        throw new TypeError('`next(stream)` called multiple times')
       }
 
       index = pos

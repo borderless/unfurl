@@ -114,7 +114,6 @@ export interface HtmlSnippet extends BaseSnippet {
   video?: HtmlSnippetVideo | HtmlSnippetVideo[]
   audio?: HtmlSnippetAudio | HtmlSnippetAudio[]
   player?: HtmlSnippetPlayer
-  determiner?: string
   headline?: string
   description?: string
   tags?: string[]

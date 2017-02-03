@@ -69,14 +69,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": undefined,
   "description": "Cloudinary",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Cloudinary - Pricing",
@@ -85,7 +84,7 @@ Object {
     "sizes": "32x32",
     "type": "image/png",
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -97,7 +96,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "http://cloudinary.com/pricing",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -192,14 +191,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://www.cnn.com/",
   "description": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -209,7 +207,7 @@ Object {
   },
   "headline": "CNN - Breaking News, Latest News and Videos",
   "icon": undefined,
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -227,7 +225,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "http://www.cnn.com/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -340,14 +338,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "Droplr",
     "url": undefined,
   },
   "canonicalUrl": "http://d.pr/i/q3z9",
   "description": "Shared with Droplr",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -361,14 +358,16 @@ Object {
     "sizes": "80x80",
     "type": "image/png",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": 1280,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "http://d.pr/i/q3z9.png",
-    "width": 1280,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 1280,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "http://d.pr/i/q3z9.png",
+      "width": 1280,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -385,7 +384,7 @@ Object {
   },
   "type": "html",
   "url": "http://d.pr/a/q3z9",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -606,19 +605,18 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": undefined,
   "description": "Franz is a leading vendor of Graph Search Technology (AllegroGraph and Gruff) and Common Lisp Software Development Tools (Allegro CL and AllegroCache)",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "AllegroGraph - Semantic Graph Database",
   "icon": undefined,
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -646,7 +644,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "http://franz.com/agraph/allegrograph/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -913,14 +911,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "Sophie Kleeman",
     "url": undefined,
   },
   "canonicalUrl": "http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268",
   "description": "The recent hack that targeted Democratic officials and led to the resignation of Democratic National Committee chairwoman Debbie Wasserman Schultz was much bigger than initially suspected, according to a new report from the New York Times.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -936,14 +933,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://i.kinja-img.com/gawker-media/image/upload/s--D8tZJKTC--/c_fill,fl_progressive,g_center,h_450,q_80,w_800/uwwyvlh7dwqyodgah0mr.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://i.kinja-img.com/gawker-media/image/upload/s--D8tZJKTC--/c_fill,fl_progressive,g_center,h_450,q_80,w_800/uwwyvlh7dwqyodgah0mr.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": Object {
     "alternate": undefined,
     "primary": "en_US",
@@ -971,7 +970,7 @@ Object {
   },
   "type": "html",
   "url": "http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268?utm_campaign=socialflow_gizmodo_twitter&utm_source=gizmodo_twitter&utm_medium=socialflow",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -1029,14 +1028,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": undefined,
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Hacker News",
@@ -1045,7 +1043,7 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -1057,7 +1055,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://news.ycombinator.com/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -1207,19 +1205,18 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://html5doctor.com/microdata/",
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Extending HTML5 — Microdata | HTML5 Doctor",
   "icon": undefined,
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -1231,7 +1228,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "http://html5doctor.com/microdata/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -1512,14 +1509,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/",
   "description": "Timothy Doner started teaching himself to speak in other languages when he was 13, and was quickly hailed as a prodigy for his linguistic proficiency. But as he soon realized, there’s more to…",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -1535,14 +1531,16 @@ Object {
     "sizes": "16x16",
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": 720,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://tedideas.files.wordpress.com/2015/04/timdoner_ted_polyglot.jpg?w=1200",
-    "width": 1200,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 720,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://tedideas.files.wordpress.com/2015/04/timdoner_ted_polyglot.jpg?w=1200",
+      "width": 1200,
+    },
+  ],
   "locale": Object {
     "alternate": undefined,
     "primary": "en_US",
@@ -1569,7 +1567,7 @@ Object {
   },
   "type": "html",
   "url": "http://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=ideas-blog&utm_term=education",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -1627,14 +1625,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://knexjs.org/",
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Knex.js - A SQL Query Builder for Javascript",
@@ -1643,7 +1640,7 @@ Object {
     "sizes": "32x32",
     "type": "image/png",
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -1655,7 +1652,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "http://knexjs.org/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -1998,14 +1995,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "Andrea Romano",
     "url": undefined,
   },
   "canonicalUrl": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
   "description": "Let us count the ways we hope Ramsey will die.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -2021,14 +2017,16 @@ Object {
     "sizes": "32x32",
     "type": "image/png",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "http://a.amz.mshcdn.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2MzAKZQlqcGc/8e6659fa/25e/battleofthebastards.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "http://a.amz.mshcdn.com/media/ZgkyMDE2LzA2LzE3LzMyL2JhdHRsZW9mdGhlYmFzdGFyZHMuYzkwZTQuanBnCnAJdGh1bWIJMTIwMHg2MzAKZQlqcGc/8e6659fa/25e/battleofthebastards.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -2054,7 +2052,7 @@ Object {
   },
   "type": "html",
   "url": "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -2160,26 +2158,27 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://ogp.me/",
   "description": "The Open Graph protocol enables any web page to become a rich object in a social graph.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Open Graph protocol",
   "icon": undefined,
-  "image": Object {
-    "alt": undefined,
-    "height": 300,
-    "secureUrl": undefined,
-    "type": "image/png",
-    "url": "http://ogp.me/logo.png",
-    "width": 300,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 300,
+      "secureUrl": undefined,
+      "type": "image/png",
+      "url": "http://ogp.me/logo.png",
+      "width": 300,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -2191,7 +2190,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "http://ogp.me/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -2382,14 +2381,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://shop.boostedboards.com/products/boosted-dual-plus",
   "description": "Mindblowing Power, Speed, and Braking. The Dual+ is a technological marvel, cleverly disguised as an everyday longboard.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Boosted Dual+",
@@ -2440,7 +2438,7 @@ Object {
   },
   "type": "html",
   "url": "http://shop.boostedboards.com/products/boosted-dual-plus?variant=1141824744",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -2595,14 +2593,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://store.steampowered.com/app/8930/",
   "description": "Create, discover, and download new player-created maps, scenarios, interfaces, and more!",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Sid Meier\'s Civilization® V on Steam",
@@ -2611,14 +2608,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "http://cdn.akamai.steamstatic.com/steam/apps/8930/header.jpg?t=1480703524",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "http://cdn.akamai.steamstatic.com/steam/apps/8930/header.jpg?t=1480703524",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -2630,7 +2629,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "http://store.steampowered.com/app/8930/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -2837,14 +2836,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://waitbutwhy.com/2016/09/marriage-decision.html",
   "description": "We\'re forced to make a black-and-white, binary decision in the most important moment of our lives. Let\'s take a deep breath and figure this out together.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -2860,14 +2858,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "http://waitbutwhy.com/wp-content/uploads/2016/09/MarriageDecision_FB2.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "http://waitbutwhy.com/wp-content/uploads/2016/09/MarriageDecision_FB2.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": Object {
     "alternate": undefined,
     "primary": "en_US",
@@ -2887,7 +2887,7 @@ Object {
   },
   "type": "html",
   "url": "http://waitbutwhy.com/2016/09/marriage-decision.html",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -3070,14 +3070,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon/4447801.p?skuId=4447801",
   "description": "4.7-inch (diagonal) Retina HD display with 1334-by-750 resolution; 3D Touch; A9 chip with M9 motion coprocessor",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Apple iPhone 6s 64GB Gray MKRY2LL/A - Best Buy",
@@ -3086,7 +3085,7 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -3101,7 +3100,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon/4447801.p?skuId=4447801",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -3747,26 +3746,27 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769",
   "description": "Add style without losing comfort with this 3-person outdoor sofa. Made out of weather resistant wicker on an aluminum frame, it will endure in any of your outdoor spaces. The synthetic resin wicker provides a durable exterior, while still preserving its classic yet modern appearance. | eBay!",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Outdoor Wicker Patio Furniture Sofa 3 Seater Luxury Comfort Brown Wicker Couch",
   "icon": undefined,
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "http://i.ebayimg.com/images/i/381228738769-0-1/s-l1000.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "http://i.ebayimg.com/images/i/381228738769-0-1/s-l1000.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -3783,7 +3783,7 @@ Object {
   },
   "type": "html",
   "url": "http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769?&_trksid=p2056016.l4276",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -4597,14 +4597,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://www.imdb.com/title/tt1375666/",
   "description": "Directed by Christopher Nolan. With Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Ken Watanabe. A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Inception (2010)",
@@ -4613,14 +4612,16 @@ Object {
     "sizes": "any",
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -4642,7 +4643,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "http://www.imdb.com/title/tt1375666/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -4898,14 +4899,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "Kristin Wong",
     "url": undefined,
   },
   "canonicalUrl": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
   "description": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will...",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -4921,14 +4921,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "http://i.kinja-img.com/gawker-media/image/upload/t_large/ittdz6udygdrrkbv8eey.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "http://i.kinja-img.com/gawker-media/image/upload/t_large/ittdz6udygdrrkbv8eey.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -4945,7 +4947,7 @@ Object {
   },
   "type": "html",
   "url": "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -5368,14 +5370,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://www.mysteryranch.com/asap-pack",
   "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It\'s size and versatility make it a perfect every day carry.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "ASAP",
@@ -5384,7 +5385,7 @@ Object {
     "sizes": "32x32",
     "type": "image/png",
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -5401,7 +5402,7 @@ Object {
   },
   "type": "html",
   "url": "http://www.mysteryranch.com/asap-pack",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -5485,14 +5486,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://www.newegg.com/Product/Product.aspx?Item=N82E16828840014",
   "description": "Buy XYZprinting da Vinci 2.0 Duo FFF &#40;Fused Filament Fabrication&#41; ABS&#47;PLA Dual Nozzle 3D Printer with fast shipping and top-rated customer service.Once you know, you Newegg&#33;",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "XYZprinting da Vinci 2.0 Duo FFF (Fused Filament Fabrication) ABS/PLA Dual Nozzle 3D Printer-Newegg.com",
@@ -5501,15 +5501,20 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "http://images10.newegg.com/WebResource/Themes/2005/Nest/logo_424x210.png",
-    "width": undefined,
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "http://images10.newegg.com/WebResource/Themes/2005/Nest/logo_424x210.png",
+      "width": undefined,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "english",
   },
-  "locale": undefined,
   "player": undefined,
   "provider": Object {
     "name": undefined,
@@ -5524,7 +5529,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "http://www.newegg.com/Product/Product.aspx?Item=28-840-014",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -5736,14 +5741,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123",
   "description": "A British man accused of trying to take a police officer\'s gun and kill Donald Trump during a rally in Las Vegas will not be released on bail.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -5759,14 +5763,16 @@ Object {
     "sizes": "32x32",
     "type": "image/png",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": 200,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://secure.gravatar.com/blavatar/99ae28ba58e6719abd9d8575bdc18a54?s=200&ts=1482112884",
-    "width": 200,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 200,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://secure.gravatar.com/blavatar/99ae28ba58e6719abd9d8575bdc18a54?s=200&ts=1482112884",
+      "width": 200,
+    },
+  ],
   "locale": Object {
     "alternate": undefined,
     "primary": "en_US",
@@ -5786,7 +5792,7 @@ Object {
   },
   "type": "html",
   "url": "http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -6353,14 +6359,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "Andrew Rosenthal",
     "url": undefined,
   },
   "canonicalUrl": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
   "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -6376,14 +6381,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-facebookJumbo.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-facebookJumbo.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -6403,7 +6410,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection&_r=0",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -6474,14 +6481,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.reddit.com/",
   "description": "reddit: the front page of the internet",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "reddit: the front page of the internet",
@@ -6490,7 +6496,7 @@ Object {
     "sizes": "256x256",
     "type": "image/png",
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -6508,7 +6514,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://www.reddit.com/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -6760,14 +6766,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "Colin Lecher",
     "url": undefined,
   },
   "canonicalUrl": "http://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails",
   "description": "For years, Google has been building a lobbying machine that outpaces its Silicon Valley peers, turning the internet giant into a major Washington presence. In 2014, the company surpassed AT&T,...",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -6783,14 +6788,16 @@ Object {
     "sizes": "32x32",
     "type": "image/png",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": 900,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://cdn0.vox-cdn.com/thumbor/cFjgdLubuBVqMiAkw40X4PRUwhI=/0x107:2039x1254/1600x900/cdn0.vox-cdn.com/uploads/chorus_image/image/50332007/Google-app-stock-Dec2015-verge-02.0.0.jpg",
-    "width": 1600,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 900,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://cdn0.vox-cdn.com/thumbor/cFjgdLubuBVqMiAkw40X4PRUwhI=/0x107:2039x1254/1600x900/cdn0.vox-cdn.com/uploads/chorus_image/image/50332007/Google-app-stock-Dec2015-verge-02.0.0.jpg",
+      "width": 1600,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -6807,7 +6814,7 @@ Object {
   },
   "type": "html",
   "url": "http://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -9009,14 +9016,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.yelp.com/biz/boba-guys-san-francisco-4",
   "description": "Specialties: High-quality bubble milk teas made with next-level quality ingredients like organic milk, homemade syrup, and homemade almond jelly. Home of the original Horchata Boba and Tea Frescas. Established in 2011. We started Boba Guys…",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Boba Guys - Mission - San Francisco, CA",
@@ -9083,7 +9089,7 @@ Object {
   },
   "type": "html",
   "url": "https://www.yelp.com/biz/boba-guys-san-francisco-4",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -9146,14 +9152,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": undefined,
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "xkcd: Regular Expressions",
@@ -9162,7 +9167,7 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -9174,7 +9179,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "http://xkcd.com/208/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -9217,19 +9222,18 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": undefined,
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Micropub CR • Aaron Parecki",
   "icon": undefined,
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -9241,7 +9245,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -9401,14 +9405,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "Jeremy Keith",
     "url": undefined,
   },
   "canonicalUrl": "https://adactio.com/journal/9881",
   "description": "So many standards to choose from.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Metadata markup",
@@ -9417,14 +9420,16 @@ Object {
     "sizes": "32x32",
     "type": "image/png",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://adactio.com/images/photo-300.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://adactio.com/images/photo-300.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -9441,7 +9446,7 @@ Object {
   },
   "type": "html",
   "url": "https://adactio.com/journal/9881",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -9575,14 +9580,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://atom.io/packages/aesthetic-ui",
   "description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -9596,14 +9600,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "http://i.imgur.com/455A2im.png",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "http://i.imgur.com/455A2im.png",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -9620,7 +9626,7 @@ Object {
   },
   "type": "html",
   "url": "https://atom.io/themes/aesthetic-ui",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -9698,14 +9704,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": undefined,
   "description": "Exporting an identical image from different design tools results in different file sizes. Why? What can be done to optimise them to reduce downloading time and disk space?",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "PNG optimisation",
@@ -9714,7 +9719,7 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -9726,7 +9731,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://bjango.com/articles/pngoptimisation/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -9803,14 +9808,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": undefined,
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "iStat Menus",
@@ -9819,7 +9823,7 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -9831,7 +9835,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://bjango.com/mac/istatmenus/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -10386,14 +10390,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": undefined,
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Player Card — Twitter Developers",
@@ -10402,14 +10405,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -10421,7 +10426,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://dev.twitter.com/cards/types/player",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -10551,14 +10556,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Introduction to Structured Data | Search | Google Developers",
@@ -10567,7 +10571,7 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": undefined,
+  "image": Array [],
   "locale": Object {
     "alternate": undefined,
     "primary": "en",
@@ -10582,7 +10586,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://developers.google.com/search/docs/guides/intro-structured-data",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -11539,14 +11543,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
   "description": "Check out Pico-8 for new \"fantasy console\" goodness. Works great with Raspberry Pi Zero, 2, 3, etc.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "The Raspberry Pi Has Revolutionized Emulation",
@@ -11555,14 +11558,16 @@ Object {
     "sizes": undefined,
     "type": "image/png",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://discourse-cdn.codinghorror.com/user_avatar/discourse.codinghorror.com/adam_sommer/200/74278_1.png",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://discourse-cdn.codinghorror.com/user_avatar/discourse.codinghorror.com/adam_sommer/200/74278_1.png",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -11574,7 +11579,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -11691,14 +11696,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing&usp=embed_facebook",
   "description": "Guide to Ingress Mission Series/Banners in the Greater SF Bay Area contributors: @katranrocks (Kate Magary), @strandit (Bryant Durrell), @hiryu (Brett Allen), @011101000101001 (Florian Sauer), @FlyingRobot (Timothy Appel), @freddd123 (Austin), @jookwarrior (Andy), @VeIocipractor (TZ), @phthoruth ...",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -11714,14 +11718,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": 630,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://lh4.googleusercontent.com/mRveTQA06RV1oCWNnA6CiDyPwMd5Uz0pTdTIzLR3NdTENlixSZCN17Ry2zUiYXHX6ZanMA=w1200-h630-p",
-    "width": 1200,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 630,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://lh4.googleusercontent.com/mRveTQA06RV1oCWNnA6CiDyPwMd5Uz0pTdTIzLR3NdTENlixSZCN17Ry2zUiYXHX6ZanMA=w1200-h630-p",
+      "width": 1200,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -11733,7 +11739,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -11849,14 +11855,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing&usp=embed_facebook",
   "description": "Sheet1 Location, I offer, Day Rate( USD), Languages, I\' m looking for( work, ideas, tips etc), E-mail/ contact, Website, Twitter, LinkedIn, Required Language?, Deadline Gigi Griffis, Remote, usually European time zone; US citizen, Content strategy and copywriting services,$ 75-$ 100/ hr, mostl...",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -11872,14 +11877,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": 630,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://lh5.googleusercontent.com/JOwVgKkkY2VSYHtF1htVhKJPRyg87Fe8OkCMGTvTzi69ao1ZUSUygnjxk1O5GA6CubD8Sw=w1200-h630-p",
-    "width": 1200,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 630,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://lh5.googleusercontent.com/JOwVgKkkY2VSYHtF1htVhKJPRyg87Fe8OkCMGTvTzi69ao1ZUSUygnjxk1O5GA6CubD8Sw=w1200-h630-p",
+      "width": 1200,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -11891,7 +11898,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -12002,14 +12009,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing&usp=embed_facebook",
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -12025,14 +12031,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": 630,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://lh3.googleusercontent.com/NhTHVkHHHjdp657GeFCWaeqFEUMsTJztjG0LrHhK9idtWVg0dbgOKQ=w1200-h630-p",
-    "width": 1200,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 630,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://lh3.googleusercontent.com/NhTHVkHHHjdp657GeFCWaeqFEUMsTJztjG0LrHhK9idtWVg0dbgOKQ=w1200-h630-p",
+      "width": 1200,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -12044,7 +12052,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -12197,14 +12205,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://droplr.com/droplr-addition-google-chrome-extension",
   "description": "Get screenshots, annotations and effortless sharing with Droplr for Chrome.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -12220,14 +12227,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://droplr.com/wp-content/uploads/2016/05/Drop-with-Chrome-300x187.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://droplr.com/wp-content/uploads/2016/05/Drop-with-Chrome-300x187.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": Object {
     "alternate": undefined,
     "primary": "en_US",
@@ -12242,7 +12251,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://droplr.com/droplr-addition-google-chrome-extension",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -12302,14 +12311,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://en.wikipedia.org/wiki/Jean-Luc_Picard",
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Jean-Luc Picard - Wikipedia",
@@ -12318,7 +12326,7 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -12330,7 +12338,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://en.wikipedia.org/wiki/Jean-Luc_Picard",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -12390,14 +12398,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://en.wikipedia.org/wiki/TypeScript",
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "TypeScript - Wikipedia",
@@ -12406,7 +12413,7 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -12418,7 +12425,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://en.wikipedia.org/wiki/TypeScript",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -12849,14 +12856,13 @@ Object {
       "url": "foursquare://venues/51abb0a3498eb42c0d5cf324",
     },
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
   "description": "Bubble Tea Shop in San Francisco, CA",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -12932,7 +12938,7 @@ Object {
   },
   "type": "html",
   "url": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -13347,14 +13353,13 @@ Object {
       "url": "foursquare://venues/4b058763f964a520848f22e3",
     },
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3",
   "description": "Beach in Bondi Beach, NSW",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -13435,7 +13440,7 @@ Object {
   },
   "type": "html",
   "url": "https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -13866,14 +13871,13 @@ Object {
       "url": "foursquare://venues/4b0b4a63f964a520fa2f23e3",
     },
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://foursquare.com/v/bourke-street-bakery/4b0b4a63f964a520fa2f23e3",
   "description": "Bakery in Sydney, NSW",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -13952,7 +13956,7 @@ Object {
   },
   "type": "html",
   "url": "https://foursquare.com/v/bourke-street-bakery/4b0b4a63f964a520fa2f23e3",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -14373,14 +14377,13 @@ Object {
       "url": "foursquare://venues/4b058762f964a5201d8f22e3",
     },
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3",
   "description": "Harbor / Marina in Darling Harbour, NSW",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -14460,7 +14463,7 @@ Object {
   },
   "type": "html",
   "url": "https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -14876,14 +14879,13 @@ Object {
       "url": "foursquare://venues/4b3c2445f964a520348225e3",
     },
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
   "description": "Scenic Lookout in Sydney, NSW",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -14957,7 +14959,7 @@ Object {
   },
   "type": "html",
   "url": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -15383,14 +15385,13 @@ Object {
       "url": "foursquare://venues/4b058761f964a520188f22e3",
     },
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3",
   "description": "Botanical Garden in Sydney, NSW",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -15467,7 +15468,7 @@ Object {
   },
   "type": "html",
   "url": "https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -15915,14 +15916,13 @@ Object {
       "url": "foursquare://venues/4b058762f964a5201b8f22e3",
     },
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
   "description": "Opera House in Sydney, NSW",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -15998,7 +15998,7 @@ Object {
   },
   "type": "html",
   "url": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -16441,14 +16441,13 @@ Object {
       "url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
     },
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
   "description": "Whisky Bar in Sydney, NSW",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -16522,7 +16521,7 @@ Object {
   },
   "type": "html",
   "url": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -16753,14 +16752,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://github.com/",
   "description": "GitHub is where people build software. More than 18 million people use GitHub to discover, fork, and contribute to over 49 million projects.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -16816,7 +16814,7 @@ Object {
   },
   "type": "html",
   "url": "https://github.com/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -17056,14 +17054,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://github.com/Microsoft/TypeScript/issues/10462",
   "description": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type \'Object\' is not assig...",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Give a better error message for assigning from Object to anything else · Issue #10462 · Microsoft/TypeScript",
@@ -17072,14 +17069,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://avatars3.githubusercontent.com/u/972891?v=3&s=400",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://avatars3.githubusercontent.com/u/972891?v=3&s=400",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -17096,7 +17095,7 @@ Object {
   },
   "type": "html",
   "url": "https://github.com/Microsoft/TypeScript/issues/10462",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -17323,14 +17322,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://github.com/blakeembrey",
   "description": "blakeembrey has 214 repositories available. Follow their code on GitHub.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "blakeembrey (Blake Embrey)",
@@ -17339,14 +17337,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -17363,7 +17363,7 @@ Object {
   },
   "type": "html",
   "url": "https://github.com/blakeembrey",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -17638,14 +17638,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://github.com/blakeembrey/popsicle",
   "description": "popsicle - Simple HTTP requests for node and the browser",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "blakeembrey/popsicle",
@@ -17654,14 +17653,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://avatars0.githubusercontent.com/u/1088987?v=3&s=400",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -17678,7 +17679,7 @@ Object {
   },
   "type": "html",
   "url": "https://github.com/blakeembrey/popsicle",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -17851,14 +17852,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "262588213843476",
     "url": undefined,
   },
   "canonicalUrl": "https://github.com/blog/2242-git-2-10-has-been-released",
   "description": "The open source Git project has just released Git 2.10.0, with features and bugfixes from over 70 contributors. Here\'s our look at some of the most interesting new features: Progress reporting for...",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -17874,14 +17874,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://cloud.githubusercontent.com/assets/121322/16134794/284be2e6-33d4-11e6-9165-58068a872ec2.png",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://cloud.githubusercontent.com/assets/121322/16134794/284be2e6-33d4-11e6-9165-58068a872ec2.png",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -17898,7 +17900,7 @@ Object {
   },
   "type": "html",
   "url": "https://github.com/blog/2242-git-2-10-has-been-released",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -18138,14 +18140,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://github.com/moment/moment/pull/3323",
   "description": "This commit was adapted from 1ec036686e70ad0d837ed2443684d54bca13af01 in DefinitelyTyped. See DefinitelyTyped/DefinitelyTyped#8765 for context. The original body of the commit message follows. Thes...",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "[misc] typescript: refactor constructor and ISO format hack by seansfkelley · Pull Request #3323 · moment/moment",
@@ -18154,14 +18155,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://avatars0.githubusercontent.com/u/2101409?v=3&s=400",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://avatars0.githubusercontent.com/u/2101409?v=3&s=400",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -18178,7 +18181,7 @@ Object {
   },
   "type": "html",
   "url": "https://github.com/moment/moment/pull/3323",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -18484,14 +18487,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
   "description": "Read reviews, compare customer ratings, see screenshots, and learn more about Pokémon GO. Download Pokémon GO and enjoy it on your iPhone, iPad, and iPod touch.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -18501,14 +18503,16 @@ Object {
   },
   "headline": "Pokémon GO on the App Store",
   "icon": undefined,
-  "image": Object {
-    "alt": undefined,
-    "height": 630,
-    "secureUrl": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/40/0e/88/400e88ff-f534-c459-f06f-99f46833b4f1/source/1200x630bf.jpg",
-    "type": "image/jpg",
-    "url": "http://is2.mzstatic.com/image/thumb/Purple122/v4/40/0e/88/400e88ff-f534-c459-f06f-99f46833b4f1/source/1200x630bf.jpg",
-    "width": 1200,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 630,
+      "secureUrl": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/40/0e/88/400e88ff-f534-c459-f06f-99f46833b4f1/source/1200x630bf.jpg",
+      "type": "image/jpg",
+      "url": "http://is2.mzstatic.com/image/thumb/Purple122/v4/40/0e/88/400e88ff-f534-c459-f06f-99f46833b4f1/source/1200x630bf.jpg",
+      "width": 1200,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -18540,7 +18544,7 @@ Object {
   },
   "type": "html",
   "url": "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -19080,14 +19084,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
   "description": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -19097,14 +19100,16 @@ Object {
   },
   "headline": "The Avengers on iTunes",
   "icon": undefined,
-  "image": Object {
-    "alt": undefined,
-    "height": 630,
-    "secureUrl": "https://is1-ssl.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
-    "type": "image/jpg",
-    "url": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
-    "width": 1200,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 630,
+      "secureUrl": "https://is1-ssl.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
+      "type": "image/jpg",
+      "url": "http://is1.mzstatic.com/image/thumb/Video/v4/2c/8d/c4/2c8dc46e-8d93-67b4-72a3-99ff76c8a4b9/source/1200x630bf.jpg",
+      "width": 1200,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -19132,7 +19137,7 @@ Object {
   },
   "type": "html",
   "url": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -19178,19 +19183,18 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://learnxinyminutes.com/docs/standard-ml/",
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Learn Standard ML in Y Minutes",
   "icon": undefined,
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -19202,7 +19206,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://learnxinyminutes.com/docs/standard-ml/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -19514,14 +19518,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "Matt Haughey",
     "url": undefined,
   },
   "canonicalUrl": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254",
   "description": "Let’s start with the most obvious question first. This is what an “unfurl” is:",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -19537,14 +19540,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://cdn-images-1.medium.com/max/1200/1*QOMaDLcO8rExD0ctBV3BWg.png",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://cdn-images-1.medium.com/max/1200/1*QOMaDLcO8rExD0ctBV3BWg.png",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -19561,7 +19566,7 @@ Object {
   },
   "type": "html",
   "url": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -19611,14 +19616,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": undefined,
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "For a Better Economy, Add Commuter Rail? | Hacker News",
@@ -19627,7 +19631,7 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -19639,7 +19643,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://news.ycombinator.com/item?id=12282756",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -19718,14 +19722,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://pragprog.com/book/btlang/seven-languages-in-seven-weeks",
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages by Bruce A. Tate | The Pragmatic Bookshelf",
@@ -19734,7 +19737,7 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -19763,7 +19766,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://pragprog.com/book/btlang/seven-languages-in-seven-weeks",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -21326,19 +21329,18 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": undefined,
   "description": "Schema.org Type: WebSite - A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "WebSite - schema.org",
   "icon": undefined,
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -21350,7 +21352,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://schema.org/WebSite",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -50931,19 +50933,18 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": undefined,
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Schema.org master file: RDFS in RDFa",
   "icon": undefined,
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -50955,7 +50956,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://schema.org/docs/schema_org_rdfa.html",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -51144,14 +51145,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "Calvin French-Owen",
     "url": undefined,
   },
   "canonicalUrl": "https://segment.com/blog/the-segment-aws-stack/",
   "description": "Segment is the analytics API you\'ve always wanted. It\'s the easiest way to install all of your favorite analytics tools at once!",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -51167,14 +51167,16 @@ Object {
     "sizes": "192x192",
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://segment.com/blog/the-segment-aws-stack/images/main.png",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://segment.com/blog/the-segment-aws-stack/images/main.png",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -51191,7 +51193,7 @@ Object {
   },
   "type": "html",
   "url": "https://segment.com/blog/the-segment-aws-stack/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -51735,14 +51737,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "http://slant6.bandcamp.com/",
   "description": "12 track album",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Inzombia, by Slant 6",
@@ -51751,14 +51752,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://f4.bcbits.com/img/a1638428842_5.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://f4.bcbits.com/img/a1638428842_5.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": Object {
     "height": 467,
@@ -51781,13 +51784,15 @@ Object {
   },
   "type": "html",
   "url": "https://slant6.bandcamp.com/",
-  "video": Object {
-    "height": 120,
-    "secureUrl": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
-    "type": "text/html",
-    "url": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
-    "width": 400,
-  },
+  "video": Array [
+    Object {
+      "height": 120,
+      "secureUrl": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
+      "type": "text/html",
+      "url": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
+      "width": 400,
+    },
+  ],
 }
 `;
 
@@ -51834,19 +51839,18 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.amazon.com/Node-js-Right-Way-Server-Side-JavaScript/dp/1937785734",
   "description": "Node.js the Right Way: Practical, Server-Side JavaScript That Scales [Jim Wilson] on Amazon.com. *FREE* shipping on qualifying offers. Get to the forefront of server-side JavaScript programming by writing compact, robust, fast, networked Node applications that scale. Ready to take JavaScript beyond the browser",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Node.js the Right Way: Practical, Server-Side JavaScript That Scales: Jim Wilson: 9781937785734: Amazon.com: Books",
   "icon": undefined,
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -51874,7 +51878,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://www.amazon.com/gp/product/1937785734?ref%5F=s9%5Fqpp%5Fgw%5Fd99%5Fg14%5Fi5%5Fr&redirect=true&fpl=fresh&pf%5Frd%5Fm=ATVPDKIKX0DER&pf%5Frd%5Fs=desktop-1&pf%5Frd%5Fr=92JG667YC8526036ANPR&pf%5Frd%5Ft=36701&pf%5Frd%5Fp=6aad23bd-3035-4a40-b691-0eefb1a18396&pf%5Frd%5Fi=desktop&pldnSite=1",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -52371,14 +52375,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
   "description": "It\'s the OFFICIAL track that you have all been waiting. This is PANDA!!",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Desiigner- \"Panda\" (Prod. By: Menace)",
@@ -52387,14 +52390,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": 500,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://i1.sndcdn.com/artworks-000179308245-paabn9-t500x500.jpg",
-    "width": 500,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 500,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://i1.sndcdn.com/artworks-000179308245-paabn9-t500x500.jpg",
+      "width": 500,
+    },
+  ],
   "locale": undefined,
   "player": Object {
     "height": 400,
@@ -52426,7 +52431,7 @@ Object {
   },
   "type": "html",
   "url": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -52885,14 +52890,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
   "description": "This is the very first Episode of the NYTM show. Today with maker & founder of NomadList Pieter Levels. You can follow Pieter Levels here: https://twitter.com/levelsio or read about his work here: ht",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "NTMY - Episode 1 - Pieter Levels",
@@ -52901,14 +52905,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": 500,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://i1.sndcdn.com/artworks-000133297269-bwi3mi-t500x500.jpg",
-    "width": 500,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 500,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://i1.sndcdn.com/artworks-000133297269-bwi3mi-t500x500.jpg",
+      "width": 500,
+    },
+  ],
   "locale": undefined,
   "player": Object {
     "height": 400,
@@ -52940,7 +52946,7 @@ Object {
   },
   "type": "html",
   "url": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -53105,14 +53111,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/",
   "description": "The competition between Uber and Google has broken out into the open: who has the advantage in the evolution of transportation-as-a-service, and who will likely win?",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -53128,14 +53133,16 @@ Object {
     "sizes": undefined,
     "type": "image/ico",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288-1024x768.png",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288-1024x768.png",
+      "width": undefined,
+    },
+  ],
   "locale": Object {
     "alternate": undefined,
     "primary": "en_US",
@@ -53155,7 +53162,7 @@ Object {
   },
   "type": "html",
   "url": "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -53681,14 +53688,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "Sebastiaan Vaessen",
     "url": undefined,
   },
   "canonicalUrl": "http://social.techcrunch.com/",
   "description": "TechCrunch is a leading technology media property, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "TechCrunch",
@@ -53697,14 +53703,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://tctechcrunch2011.files.wordpress.com/2016/12/copymachine.jpg?w=764&h=400&crop=1",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://tctechcrunch2011.files.wordpress.com/2016/12/copymachine.jpg?w=764&h=400&crop=1",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -53716,7 +53724,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://techcrunch.com/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -54120,14 +54128,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "Mike Butcher",
     "url": undefined,
   },
   "canonicalUrl": "https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
   "description": "This week The Europas Startup Conference and Awards -- the new type of tech event devised in partnership with TechCrunch and myself -- honored The Best Tech..",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -54143,14 +54150,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://tctechcrunch2011.files.wordpress.com/2016/06/awardsstage.jpg?w=764&h=400&crop=1",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://tctechcrunch2011.files.wordpress.com/2016/06/awardsstage.jpg?w=764&h=400&crop=1",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -54167,7 +54176,7 @@ Object {
   },
   "type": "html",
   "url": "https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -54933,14 +54942,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://trakt.tv/movies/kung-fury-2015",
   "description": "During an unfortunate series of events, a friend of Kung Fury is assassinated by the most dangerous kung fu master criminal of all time, Adolf Hitler, a.k.a Kung Führer. Kung Fury decides to travel back in time to Nazi Germany in order to kill Hitler and end the Nazi empire once and for all.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -54954,14 +54962,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://walter.trakt.tv/images/movies/000/152/524/posters/medium/e7a61eb2d5.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://walter.trakt.tv/images/movies/000/152/524/posters/medium/e7a61eb2d5.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -54978,7 +54988,7 @@ Object {
   },
   "type": "html",
   "url": "https://trakt.tv/movies/kung-fury-2015",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -55377,14 +55387,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://twitter.com/i/hello",
   "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Twitter. It\'s what\'s happening.",
@@ -55393,7 +55402,7 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -55405,7 +55414,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://twitter.com/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -55856,14 +55865,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://twitter.com/SeanTAllen/status/764993929469161472",
   "description": "“This is a very cool thread https://t.co/r6VKiMIYoI”",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -55879,14 +55887,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://pbs.twimg.com/profile_images/344513261583570457/837e1e55170ee3b03dd4ef88168e9414_400x400.png",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://pbs.twimg.com/profile_images/344513261583570457/837e1e55170ee3b03dd4ef88168e9414_400x400.png",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -55898,7 +55908,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://twitter.com/SeanTAllen/status/764993929469161472",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -56353,14 +56363,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://twitter.com/alexisohanian/status/764997551384776704",
   "description": "“Don\'t squander this. 💻 https://t.co/eWmq6oxK73”",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -56376,14 +56385,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://pbs.twimg.com/media/Cp3RFyXXYAANGoA.jpg:large",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://pbs.twimg.com/media/Cp3RFyXXYAANGoA.jpg:large",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -56395,7 +56406,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://twitter.com/alexisohanian/status/764997551384776704",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -56801,14 +56812,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://twitter.com/blakeembrey",
   "description": "The latest Tweets from Blake Embrey (@blakeembrey). World Citizen ∙ Open Source Contributor ∙ Full-stack Engineer. San Francisco, CA",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Blake Embrey (@blakeembrey) | Twitter",
@@ -56817,7 +56827,7 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -56829,7 +56839,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://twitter.com/blakeembrey",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -57278,14 +57288,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
   "description": "“🔥 Clean up @github issues with the HTML5 &lt;details&gt; tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx”",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -57301,14 +57310,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://pbs.twimg.com/profile_images/617160371216842752/TQ_Bfpkz_400x400.png",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://pbs.twimg.com/profile_images/617160371216842752/TQ_Bfpkz_400x400.png",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -57320,7 +57331,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://twitter.com/ericclemmons/status/749223563790471169",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -57769,14 +57780,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://twitter.com/typescriptlang/status/743113612407889920",
   "description": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -57792,14 +57802,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -57811,7 +57823,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://twitter.com/typescriptlang/status/743113612407889920",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -58642,14 +58654,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.airbnb.com/rooms/2250401",
   "description": "Apartment in New York, United States. A cute boutique studio located on arguably the best street in Chelsea. A block from the Highline, endless Galleries and Restaurants, the wonderful Chelsea Market and the lively Meatpacking District. 1 Ave from the A-C-E subway and just blocks fro...",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -58663,14 +58674,16 @@ Object {
     "sizes": "76x76",
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://a1.muscache.com/im/pictures/43670185/606e6e19_original.jpg?aki_policy=x_large",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://a1.muscache.com/im/pictures/43670185/606e6e19_original.jpg?aki_policy=x_large",
+      "width": undefined,
+    },
+  ],
   "locale": Object {
     "alternate": undefined,
     "primary": "en_US",
@@ -58690,7 +58703,7 @@ Object {
   },
   "type": "html",
   "url": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -58910,14 +58923,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.battlefield.com/buy/battlefield-1",
   "description": "Buy Battlefield 1 on Xbox One, PlayStation 4, or Origin for PC.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -58933,14 +58945,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "http://media-www-battlefieldwebcore.spark.ea.com/content/battlefield-portal/en_US/_global_/_jcr_content/ccm/componentwrapper_1/components/opengraph/ogImage.img.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "http://media-www-battlefieldwebcore.spark.ea.com/content/battlefield-portal/en_US/_global_/_jcr_content/ccm/componentwrapper_1/components/opengraph/ogImage.img.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -58957,7 +58971,7 @@ Object {
   },
   "type": "html",
   "url": "https://www.battlefield.com/buy/battlefield-1",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -59302,14 +59316,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.coursera.org/learn/machine-learning",
   "description": "Machine Learning from Stanford University. Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, effective web search, and a vastly improved understanding of the human genome. Machine learning is so pervasive today that you probably use it dozens of times a day without knowing it. Many researchers also think it is the best way to make progress towards human-level AI. In this class, you will learn about the most effective machine learning techniques, and gain practice implementing them and getting them to work for yourself. More importantly, you\'ll learn about not only the theoretical underpinnings of learning, but also gain the practical know-how needed to quickly and powerfully apply these techniques to new problems. Finally, you\'ll learn about some of Silicon Valley\'s best practices in innovation as it pertains to machine learning and AI. This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI). The course will also draw from numerous case studies and applications, so that you\'ll also learn how to apply learning algorithms to building smart robots (perception, control), text understanding (web search, anti-spam), computer vision, medical informatics, audio, database mining, and other areas. 1000+ courses from schools like Stanford and Yale - no application required. Build career skills in data science, computer science, business, and more.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Machine Learning - Stanford University | Coursera",
@@ -59318,14 +59331,16 @@ Object {
     "sizes": "32x32",
     "type": "image/png",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/topics/ml/large-icon.png",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/topics/ml/large-icon.png",
+      "width": undefined,
+    },
+  ],
   "locale": Object {
     "alternate": undefined,
     "primary": "en_US",
@@ -59345,7 +59360,7 @@ Object {
   },
   "type": "html",
   "url": "https://www.coursera.org/learn/machine-learning",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -59782,14 +59797,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.etsy.com/listing/230389421/agents-of-shield-decal-sticker-for-car?utm_source=OpenGraph&utm_medium=PageTools&utm_campaign=Share",
   "description": "Die cut sticker is cut in the shape of the graphic with no background and all one color. Available in several colors and a variety of sizes. Please rely on dimensions listed or measure area where you will be applying the decal. Select options from drop down menus. Agents of Shield Hydra logo also available: https://www.etsy.com/your/shops/InfernoDecals/tools/listings/230718253 Sizes listed are in inches. (1 inch = 2.54 centimeters) Made from quality outdoor vinyl that is water proof, UV resistant and rated to last 6 years outdoors and longer indoors. Self adhesive vinyl is removable and does not damage hard surfaces or vehicle paint. Not reuseable or repositionable. Can be applied to any clean smooth surface such as vehicle body, window, laptop, water bottle, mirror, helmet, guitar etc. Ships in cardboard mailer or with cardboard inside envelope to protect from damage during shipping. Easy to install, comes with full instructions included. How to install vinyl decals: 1. Clean the area thoroughly with rubbing alcohol or soap and water. Do not use Windex or similar products, it will leave a residue behind that will prevent the sticker from adhering well. 2. Prepare the sticker for application by firmly rubbing a squeegee or credit card across the clear transfer tape. This removes any air bubbles that may have formed and makes the sticker cling to the transfer tape. 3. Peel the white paper backing off the sticker. If the sticker clings to the backing, slowly replace the paper backing and repeat Step 2. 4. Slowly lower the sticker onto the surface and rub it in place firmly with a squeegee or credit card. Wait 10 minutes or more. For best results, wait 24 hours before moving to the next step. 5. Slowly peel the clear transfer tape off at an angle. Be careful not to pull the sticker off the surface. If sticker pulls away from the surface repeat Step 4. *Use a pin to poke any air bubbles in the center and push the air out through the hole. *For best results do not apply a sticker in extreme hot or cold temperatures.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Agents of Shield decal sticker for car, truck, laptop in ANY COLOR die cut vinyl",
@@ -59798,14 +59812,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://img0.etsystatic.com/058/0/10499963/il_570xN.759424778_ojd8.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://img0.etsystatic.com/058/0/10499963/il_570xN.759424778_ojd8.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": Object {
     "alternate": undefined,
     "primary": "en_US",
@@ -59820,7 +59836,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://www.etsy.com/listing/230389421/agents-of-shield-decal-sticker-for-car?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=sr_gallery_20",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -60134,14 +60150,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.facebook.com/",
   "description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Facebook - Log In or Sign Up",
@@ -60150,14 +60165,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://www.facebook.com/images/fb_icon_325x325.png",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://www.facebook.com/images/fb_icon_325x325.png",
+      "width": undefined,
+    },
+  ],
   "locale": Object {
     "alternate": undefined,
     "primary": "en_US",
@@ -60172,7 +60189,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://www.facebook.com/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -60255,14 +60272,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.flickr.com/photos/fabianf_/28229743586/",
   "description": "Flickr is almost certainly the best online photo management and sharing application in the world. Show off your favorite photos and videos to the world, securely and privately show content to your friends and family, or blog the photos and videos you take with a cameraphone.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "All sizes | Yellow Motion (Explore #15) | Flickr - Photo Sharing!",
@@ -60271,7 +60287,7 @@ Object {
     "sizes": "any",
     "type": undefined,
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -60283,7 +60299,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://www.flickr.com/photos/fabianf_/28229743586/sizes/o/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -60565,14 +60581,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.flickr.com/photos/timdrivas/27999498362/",
   "description": "The Macy\'s 4th of July firework show in NYC",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -60586,14 +60601,16 @@ Object {
     "sizes": undefined,
     "type": "image/ico",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": 683,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://c2.staticflickr.com/8/7371/27999498362_17c8d4d490_b.jpg",
-    "width": 1024,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 683,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://c2.staticflickr.com/8/7371/27999498362_17c8d4d490_b.jpg",
+      "width": 1024,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -60623,7 +60640,7 @@ Object {
   },
   "type": "html",
   "url": "https://www.flickr.com/photos/timdrivas/27999498362/in/explore-2016-07-05/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -60694,14 +60711,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": undefined,
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Google Maps",
@@ -60710,7 +60726,7 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -60722,7 +60738,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://www.google.com/maps/place/Boba+Guys/@37.7600441,-122.4233333,17z/data=!4m5!3m4!1s0x808f7e3cfdb89265:0x8ae0820c41111f70!8m2!3d37.7600017!4d-122.4211124?dg=dbrw&newdg=1",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -61310,14 +61326,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.instagram.com/p/BG0m4IDGaqk/",
   "description": "See this Instagram photo by @minaalofficial • 107 likes",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Instagram photo by Minaal • Jun 19, 2016 at 4:04am UTC",
@@ -61326,14 +61341,16 @@ Object {
     "sizes": "192x192",
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13355676_1724260121146276_372407195_n.jpg?ig_cache_key=MTI3NTgxNTU3NzE1Mjc2MDQ4NA%3D%3D.2",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13355676_1724260121146276_372407195_n.jpg?ig_cache_key=MTI3NTgxNTU3NzE1Mjc2MDQ4NA%3D%3D.2",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -61345,7 +61362,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://www.instagram.com/p/BG0m4IDGaqk/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -61501,14 +61518,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
   "description": "The difference between a bond and a stock.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Khan Academy",
@@ -61517,14 +61533,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "http://img.youtube.com/vi/rs1md3e4aYU/0.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "http://img.youtube.com/vi/rs1md3e4aYU/0.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -61546,13 +61564,15 @@ Object {
   },
   "type": "html",
   "url": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
-  "video": Object {
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": "application/x-shockwave-flash",
-    "url": "http://www.youtube.com/v/rs1md3e4aYU",
-    "width": undefined,
-  },
+  "video": Array [
+    Object {
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "application/x-shockwave-flash",
+      "url": "http://www.youtube.com/v/rs1md3e4aYU",
+      "width": undefined,
+    },
+  ],
 }
 `;
 
@@ -61848,14 +61868,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor",
   "description": "LVL is a wearable hydration monitor that gives you the complete picture of your health by also tracking activity, sleep, mood and HR.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -61869,14 +61888,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": 1152,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://ksr-ugc.imgix.net/assets/013/622/325/ba3e0c3ba83ec7a7f6621d52f78773b9_original.jpg?w=1536&h=864&fit=fill&bg=000000&v=1473713981&auto=format&q=92&s=06bc55ef9203f6b52b87f7bf978ae915",
-    "width": 1536,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 1152,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://ksr-ugc.imgix.net/assets/013/622/325/ba3e0c3ba83ec7a7f6621d52f78773b9_original.jpg?w=1536&h=864&fit=fill&bg=000000&v=1473713981&auto=format&q=92&s=06bc55ef9203f6b52b87f7bf978ae915",
+      "width": 1536,
+    },
+  ],
   "locale": Object {
     "alternate": Array [
       "en_US",
@@ -61901,7 +61922,7 @@ Object {
   },
   "type": "html",
   "url": "https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor?ref=category_featured",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -61985,14 +62006,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.mulesoft.com/contact",
   "description": "Contact us to see how we can help transform your company with the agility to unlock data, unleash innovation and connect with success.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -62008,7 +62028,7 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -62020,7 +62040,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://www.mulesoft.com/contact",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -62216,14 +62236,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.npmjs.com/package/filenamify",
   "description": "Convert a string to a valid safe filename",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "npm: filenamify",
@@ -62232,14 +62251,16 @@ Object {
     "sizes": "32x32",
     "type": "image/png",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://www.npmjs.com/static/images/touch-icons/open-graph.png",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://www.npmjs.com/static/images/touch-icons/open-graph.png",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -62263,7 +62284,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://www.npmjs.com/package/filenamify",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -62306,19 +62327,18 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date",
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "How to impress a computer programmer on a date - Quora",
   "icon": undefined,
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -62330,7 +62350,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -62456,14 +62476,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
   "description": "17697 points and 7029 comments so far on reddit",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "\'UK man\' tried to kill Trump: court papers • /r/news",
@@ -62472,14 +62491,16 @@ Object {
     "sizes": "256x256",
     "type": "image/png",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://www.redditstatic.com/icon.png",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://www.redditstatic.com/icon.png",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -62502,7 +62523,7 @@ Object {
   },
   "type": "html",
   "url": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -65680,14 +65701,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.rottentomatoes.com/m/inception/",
   "description": "Visionary filmmaker Christopher Nolan (Memento, The Dark Knight) writes and directs this psychological sci-fi action film about a thief who possesses the power to enter into the dreams of others. Dom Cobb (Leonardo DiCaprio) doesn\'t steal things, he steals ideas. By projecting himself deep into the subconscious of his targets, he can glean information that even the best computer hackers can\'t get to. In the world of corporate espionage, Cobb is the ultimate weapon. But even weapons have their weakness, and when Cobb loses everything, he\'s forced to embark on one final mission in a desperate quest for redemption. This time, Cobb won\'t be harvesting an idea, but sowing one. Should he and his team of specialists succeed, they will have discovered a new frontier in the art of psychic espionage. They\'ve planned everything to perfection, and they have all the tools to get the job done. Their mission is complicated, however, by the sudden appearance of a malevolent foe that seems to know exactly what they\'re up to, and precisely how to stop them. ~ Jason Buchanan, Rovi",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Inception",
@@ -65696,14 +65716,16 @@ Object {
     "sizes": undefined,
     "type": "image/x-icon",
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://resizing.flixster.com/KLdXKhUmh7tOozh09RAwywnee1o=/300x300/v1.bTsxMTE2NjcyNTtqOzE3Mjc0OzEyMDA7ODAwOzEyMDA",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://resizing.flixster.com/KLdXKhUmh7tOozh09RAwywnee1o=/300x300/v1.bTsxMTE2NjcyNTtqOzE3Mjc0OzEyMDA7ODAwOzEyMDA",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -65720,7 +65742,7 @@ Object {
   },
   "type": "html",
   "url": "https://www.rottentomatoes.com/m/inception/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -65822,14 +65844,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.spotify.com/us/",
   "description": "Spotify is all the music you’ll ever need.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Music for everyone.",
@@ -65838,14 +65859,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "http://d2c87l0yth4zbw.global.ssl.fastly.net/i/_global/open-graph-default.png",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "http://d2c87l0yth4zbw.global.ssl.fastly.net/i/_global/open-graph-default.png",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -65868,7 +65891,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://www.spotify.com/us/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -66104,14 +66127,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "TED",
     "url": undefined,
   },
   "canonicalUrl": "https://www.ted.com/playlists/321/talks_to_form_better_habits?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=social-science",
   "description": "There\'s never a bad time to start a good habit. Let these talks set the framework for a healthier, happier life.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -66125,14 +66147,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": 550,
-    "secureUrl": "https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050",
-    "type": undefined,
-    "url": "https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050",
-    "width": 1050,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 550,
+      "secureUrl": "https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050",
+      "type": undefined,
+      "url": "https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050",
+      "width": 1050,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -66160,7 +66184,7 @@ Object {
   },
   "type": "html",
   "url": "https://www.ted.com/playlists/321/talks_to_form_better_habits?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=social-science",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -66746,14 +66770,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "Tim Harford",
     "url": undefined,
   },
   "canonicalUrl": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
   "description": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -66767,14 +66790,16 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": 550,
-    "secureUrl": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?c=1050%2C550&w=1050",
-    "type": undefined,
-    "url": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?c=1050%2C550&w=1050",
-    "width": 1050,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": 550,
+      "secureUrl": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?c=1050%2C550&w=1050",
+      "type": undefined,
+      "url": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a6d334cc40db487ceb771ace385e609b660568b_2880x1620.jpg?c=1050%2C550&w=1050",
+      "width": 1050,
+    },
+  ],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -66804,7 +66829,7 @@ Object {
   },
   "type": "html",
   "url": "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -66997,14 +67022,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": "ThinkGeek",
     "url": undefined,
   },
   "canonicalUrl": "http://www.thinkgeek.com/toys-games/board-games-cards/",
   "description": "Shop for board games and collectible card games at ThinkGeek. We have the TCG to fulfill your deck-building desires and that casual game for a party.",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Board Games & Cards | ThinkGeek",
@@ -67013,7 +67037,7 @@ Object {
     "sizes": undefined,
     "type": undefined,
   },
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -67032,7 +67056,7 @@ Object {
   },
   "type": "html",
   "url": "http://www.thinkgeek.com/toys-games/board-games-cards/?icpg=gy_jjip&pfm=HP_ProdTab_1_7_NewStuff_jjip",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -67213,19 +67237,18 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": undefined,
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "JSON-LD 1.0",
   "icon": undefined,
-  "image": undefined,
+  "image": Array [],
   "locale": undefined,
   "player": undefined,
   "provider": Object {
@@ -67237,7 +67260,7 @@ Object {
   "twitter": undefined,
   "type": "html",
   "url": "https://www.w3.org/TR/json-ld/",
-  "video": undefined,
+  "video": Array [],
 }
 `;
 
@@ -67710,14 +67733,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
   "description": "\"Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark R...",
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Marvel\'s The Avengers",
@@ -67726,14 +67748,16 @@ Object {
     "sizes": "32x32",
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": Object {
     "height": 720,
@@ -68232,14 +68256,13 @@ Object {
     "windows": undefined,
     "windowsPhone": undefined,
   },
-  "audio": undefined,
+  "audio": Array [],
   "author": Object {
     "name": undefined,
     "url": undefined,
   },
   "canonicalUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
   "description": undefined,
-  "determiner": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "15. Typings with Blake Embrey",
@@ -68248,14 +68271,16 @@ Object {
     "sizes": "32x32",
     "type": undefined,
   },
-  "image": Object {
-    "alt": undefined,
-    "height": undefined,
-    "secureUrl": undefined,
-    "type": undefined,
-    "url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/maxresdefault.jpg",
-    "width": undefined,
-  },
+  "image": Array [
+    Object {
+      "alt": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": undefined,
+      "url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/maxresdefault.jpg",
+      "width": undefined,
+    },
+  ],
   "locale": undefined,
   "player": Object {
     "height": 720,

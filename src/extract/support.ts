@@ -18,81 +18,72 @@ export interface JsonLdValue {
 }
 
 /**
- * Turn an object into a string.
+ * Return a value as a string.
  */
-export function toString (value: string | JsonLdValue | undefined): string | undefined {
-  return typeof value === 'object' ? value['@value'] : value
+export function getValue (obj: any, path: Path): string | undefined {
+  const value = get<string | string[] | undefined>(obj, path)
+
+  if (Array.isArray(value)) {
+    return value[0]
+  }
+
+  return value
 }
 
 /**
- * Return a value as a string.
+ * Return JSON-LD value as a string.
  */
-export function getString (obj: any, path: Path): string | undefined {
-  const value = get<string | JsonLdValue | string[] | JsonLdValue[] | undefined>(obj, path)
+export function getJsonLdValue (obj: any, path: Path): string | undefined {
+  const value = get<JsonLdValue | JsonLdValue[] | undefined>(obj, path)
 
   if (Array.isArray(value)) {
-    return toString(value[0])
+    return value[0] ? value[0]['@value'] : undefined
   }
 
-  return toString(value)
+  return value ? value['@value'] : undefined
 }
 
 /**
  * Return an array of values.
  */
 export function getArray (obj: any, path: Path): string[] | undefined {
-  const value = get<string | JsonLdValue | string[] | JsonLdValue[] | undefined>(obj, path)
+  const value = get<string | string[] | undefined>(obj, path)
 
-  return value ? arrify<string | JsonLdValue>(value).map(x => toString(x) as string) : undefined
+  return value ? arrify(value) : undefined
+}
+
+/**
+ * Return JSON-LD as an array of values.
+ */
+export function getJsonLdArray (obj: any, path: Path): string[] | undefined {
+  const value = get<JsonLdValue | JsonLdValue[] | undefined>(obj, path)
+
+  return value ? arrify(value).map(x => x['@value']) : undefined
 }
 
 /**
  * Convert a string to valid number.
  */
-export function toNumber (value: string | JsonLdValue): number | undefined {
-  const num = Number(toString(value))
+export function toNumber (value: string | undefined): number | undefined {
+  const num = Number(value)
 
   return isFinite(num) ? num : undefined
 }
 
 /**
- * Return a value as a number.
- */
-export function getNumber (obj: any, path: Path): number | undefined {
-  const str = getString(obj, path)
-
-  return str ? toNumber(str) : undefined
-}
-
-/**
  * Convert a string to a valid date.
  */
-export function toDate (value: string): Date | undefined {
-  const date = new Date(value)
+export function toDate (value: string | undefined): Date | undefined {
+  const date = new Date(value || '')
 
   return isNaN(date.getTime()) ? undefined : date
 }
 
 /**
- * Return a value in date format.
- */
-export function getDate (obj: any, path: Path): Date | undefined {
-  const str = getString(obj, path)
-
-  return str ? toDate(str) : undefined
-}
-
-/**
  * Extract a URL from an object.
  */
-export function getUrl (obj: any, path: Path, baseUrl: string): string | undefined {
-  const value = getString(obj, path)
-
-  if (value) {
-    return resolve(baseUrl, value)
-  }
-
-  return
+export function toUrl (value: string | undefined, baseUrl: string): string | undefined {
+  return value ? resolve(baseUrl, value) : undefined
 }
 
 /**
