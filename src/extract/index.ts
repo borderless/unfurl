@@ -1,44 +1,16 @@
-import { Snippet, ExtractOptions } from './interfaces'
-import { scrapeUrl, ScrapeResult } from '../scrape'
-
-import html from './snippets/html'
-import image from './snippets/image'
-import pdf from './snippets/pdf'
-import video from './snippets/video'
+import { Snippet, Helper } from './interfaces'
+import { ScrapeResult } from '../scrape'
+import * as helpers from './helpers'
+import snippet from './snippet'
 
 export * from './interfaces'
+export { helpers }
 
 /**
- * Extract rich snippets from the scraping result.
+ * Simple wrapper for using the built-in extract helpers.
  */
-export async function extract (result: ScrapeResult, options: ExtractOptions = {}): Promise<Snippet> {
-  const encoding = result.encodingFormat || ''
+export function extract (result: ScrapeResult, helpers: Helper[] = []): Promise<Snippet> {
+  const extracted = snippet(result)
 
-  if (encoding === 'text/html') {
-    return html(result, options)
-  }
-
-  if (encoding === 'application/pdf') {
-    return pdf(result)
-  }
-
-  if (/^image\//.test(encoding)) {
-    return image(result)
-  }
-
-  if (/^video\//.test(encoding)) {
-    return video(result)
-  }
-
-  return {
-    url: result.url,
-    encodingFormat: result.encodingFormat
-  }
-}
-
-/**
- * Extract the rich snippet from a URL.
- */
-export function extractFromUrl (url: string, options?: ExtractOptions): Promise<Snippet> {
-  return scrapeUrl(url).then(res => extract(res, options))
+  return helpers.reduce((p, helper) => p.then(snippet => helper(snippet, result)), Promise.resolve(extracted))
 }

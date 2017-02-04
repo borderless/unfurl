@@ -1,9 +1,6 @@
-/**
- * Content extraction options.
- */
-export interface ExtractOptions {
-  preferredIconSize?: number
-}
+import { ScrapeResult } from '../scrape'
+
+export type Helper = (snippet: Snippet, result: ScrapeResult) => Promise<Snippet>
 
 export interface BaseSnippet {
   type?: string
@@ -110,9 +107,9 @@ export type Entity = ArticleEntity | VideoEntity | ImageEntity | RichEntity
 export interface HtmlSnippet extends BaseSnippet {
   type: 'html'
   entity?: Entity
-  image?: HtmlSnippetImage | HtmlSnippetImage[]
-  video?: HtmlSnippetVideo | HtmlSnippetVideo[]
-  audio?: HtmlSnippetAudio | HtmlSnippetAudio[]
+  image?: HtmlSnippetImage[]
+  video?: HtmlSnippetVideo[]
+  audio?: HtmlSnippetAudio[]
   player?: HtmlSnippetPlayer
   headline?: string
   description?: string
@@ -166,4 +163,4 @@ export interface LinkSnippet extends BaseSnippet {
   type: 'link'
 }
 
-export type Snippet = PdfSnippet | LinkSnippet | VideoSnippet | ImageSnippet | HtmlSnippet | BaseSnippet
+export type Snippet = PdfSnippet | LinkSnippet | VideoSnippet | ImageSnippet | HtmlSnippet

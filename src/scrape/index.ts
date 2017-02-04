@@ -3,17 +3,17 @@ import { parse } from 'content-type'
 import { ScrapeResult, Plugin } from './interfaces'
 import { makeRequest, Response } from './support'
 
-import html from './plugins/html'
-import exifdata from './plugins/exifdata'
+import * as plugins from './plugins'
 
+export { plugins }
 export * from './interfaces'
-export const plugins = { html, exifdata }
-export const DEFAULT_SCRAPER = compose([exifdata, html])
+
+export const DEFAULT_SCRAPER = compose([plugins.exifData, plugins.html])
 
 /**
  * Scrape metadata from a URL.
  */
-export async function scrapeUrl (url: string, plugin = DEFAULT_SCRAPER): Promise<ScrapeResult> {
+export async function scrapeUrl (url: string, plugin?: Plugin): Promise<ScrapeResult> {
   const res = await makeRequest(url)
 
   return scrapeResponse(res, plugin)
@@ -22,7 +22,7 @@ export async function scrapeUrl (url: string, plugin = DEFAULT_SCRAPER): Promise
 /**
  * Normalize and scrape a HTTP response object.
  */
-export async function scrapeResponse (res: Response, plugin = DEFAULT_SCRAPER) {
+export async function scrapeResponse (res: Response, plugin?: Plugin) {
   const { url, headers } = res
   const encodingFormat = headers['content-type'] ? parse(headers['content-type']).type : undefined
   const contentSize = Number(headers['content-length']) || undefined

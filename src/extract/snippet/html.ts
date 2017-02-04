@@ -3,7 +3,6 @@ import { ScrapeResult } from '../../scrape'
 
 import {
   Entity,
-  ExtractOptions,
   HtmlSnippet,
   HtmlSnippetImage,
   HtmlSnippetAppLink,
@@ -12,8 +11,7 @@ import {
   HtmlSnippetLocale,
   HtmlSnippetPlayer,
   HtmlSnippetVideo,
-  HtmlSnippetTwitter,
-  HtmlSnippetIcon
+  HtmlSnippetTwitter
 } from '../interfaces'
 
 import {
@@ -27,7 +25,7 @@ import {
   toDate
 } from '../support'
 
-export default function (result: ScrapeResult, options: ExtractOptions): HtmlSnippet {
+export default function (result: ScrapeResult): HtmlSnippet {
   return {
     type: 'html',
     image: getImage(result),
@@ -43,7 +41,6 @@ export default function (result: ScrapeResult, options: ExtractOptions): HtmlSni
     provider: getProvider(result),
     author: getAuthor(result),
     ttl: getTtl(result),
-    icon: getIcon(result, options),
     tags: getTags(result),
     locale: getLocale(result),
     twitter: getTwitter(result),
@@ -141,7 +138,7 @@ function getDescription (result: ScrapeResult) {
 /**
  * Get the meta image url.
  */
-function getImage (result: ScrapeResult): HtmlSnippetImage | HtmlSnippetImage[] {
+function getImage (result: ScrapeResult): HtmlSnippetImage[] {
   const ogpImages = getJsonLdArray(result, ['rdfa', 0, 'http://ogp.me/ns#image']) ||
     getJsonLdArray(result, ['rdfa', 0, 'http://ogp.me/ns#image:url'])
   const twitterImages = getArray(result, ['twitter', 'image']) || getArray(result, ['twitter', 'image0'])
@@ -207,7 +204,7 @@ function getImage (result: ScrapeResult): HtmlSnippetImage | HtmlSnippetImage[] 
 /**
  * Get the meta audio information.
  */
-function getAudio (result: ScrapeResult): HtmlSnippetAudio | HtmlSnippetAudio[] {
+function getAudio (result: ScrapeResult): HtmlSnippetAudio[] {
   const ogpAudios = getJsonLdArray(result, ['rdfa', 0, 'http://ogp.me/ns#audio']) ||
     getJsonLdArray(result, ['rdfa', 0, 'http://ogp.me/ns#audio:url'])
   const audios: HtmlSnippetAudio[] = []
@@ -246,7 +243,7 @@ function getAudio (result: ScrapeResult): HtmlSnippetAudio | HtmlSnippetAudio[] 
 /**
  * Get the meta image url.
  */
-function getVideo (result: ScrapeResult): HtmlSnippetVideo | HtmlSnippetVideo[] {
+function getVideo (result: ScrapeResult): HtmlSnippetVideo[] {
   const ogpVideos = getJsonLdArray(result, ['rdfa', 0, 'http://ogp.me/ns#video']) ||
     getJsonLdArray(result, ['rdfa', 0, 'http://ogp.me/ns#video:url'])
   const videos: HtmlSnippetVideo[] = []
@@ -558,40 +555,6 @@ function getPlayer (result: ScrapeResult): HtmlSnippetPlayer | undefined {
   }
 
   return
-}
-
-/**
- * Retrieve the selected snippet icon.
- */
-function getIcon (result: ScrapeResult, options: ExtractOptions): HtmlSnippetIcon | undefined {
-  const preferredSize = Number(options.preferredIconSize) || 32
-  const icons = result.icons || []
-  let selectedSize: number | undefined
-  let selectedIcon: HtmlSnippetIcon | undefined
-
-  for (const icon of icons) {
-    if (selectedSize == null) {
-      selectedIcon = icon
-    }
-
-    if (icon.sizes) {
-      const size = parseInt(icon.sizes, 10) // "32x32" -> "32".
-
-      if (selectedSize == null) {
-        selectedIcon = icon
-        selectedSize = size
-      } else {
-        if (Math.abs(preferredSize - size) < Math.abs(selectedSize - size)) {
-          selectedIcon = icon
-          selectedSize = size
-        }
-      }
-    } else {
-      selectedIcon = selectedIcon || icon
-    }
-  }
-
-  return selectedIcon
 }
 
 /**

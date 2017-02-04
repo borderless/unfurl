@@ -182,7 +182,10 @@ describe('scrappy', function () {
         .then(function (result) {
           expect(result).toMatchSnapshot()
 
-          return scrappy.extract(result)
+          return scrappy.extract(result, [
+            scrappy.helpers.iconSelector({ makeRequest }),
+            scrappy.helpers.imageSize({ makeRequest })
+          ])
         })
         .then(function (snippet) {
           expect(snippet).toMatchSnapshot()
