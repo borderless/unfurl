@@ -27,10 +27,11 @@ export default function (options: Options = {}) {
         }
 
         return {
+          type: 'image' as 'image',
           url: image.url,
           secureUrl: image.secureUrl,
-          alt: image.alt,
-          type: exifData.MIMEType || image.type,
+          caption: image.caption,
+          encodingFormat: exifData.MIMEType || image.encodingFormat,
           width: exifData.ImageWidth || image.width,
           height: exifData.ImageHeight || image.height
         }

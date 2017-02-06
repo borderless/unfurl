@@ -13,7 +13,7 @@ export default function (result: ScrapeResult): PdfSnippet {
     producer: exifData.Producer,
     author: exifData.Author,
     creator: exifData.Creator,
-    title: exifData.Title,
+    headline: exifData.Title,
     dateCreated: parseExifDate(exifData.CreateDate),
     dateModified: parseExifDate(exifData.ModifyDate)
   }

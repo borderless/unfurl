@@ -5,31 +5,23 @@ export type Helper = (snippet: Snippet, result: ScrapeResult) => Promise<Snippet
 export interface BaseSnippet {
   type?: string
   url: string
+  secureUrl?: string
   canonicalUrl?: string
   encodingFormat?: string
 }
 
-export interface HtmlSnippetAppLink {
+export interface SnippetAppLink {
   id: string
   name: string
   url: string
 }
 
-export interface HtmlSnippetLocale {
+export interface SnippetLocale {
   primary?: string
   alternate?: string[]
 }
 
-export interface HtmlSnippetImage {
-  url: string
-  secureUrl?: string
-  alt?: string
-  type?: string
-  width?: number
-  height?: number
-}
-
-export interface HtmlSnippetPlayer {
+export interface SnippetPlayer {
   url: string
   width: number
   height: number
@@ -37,39 +29,19 @@ export interface HtmlSnippetPlayer {
   streamContentType?: string
 }
 
-export interface HtmlSnippetVideo {
-  url: string
-  secureUrl?: string
-  type?: string
-  width?: number
-  height?: number
-}
-
-export interface HtmlSnippetAudio {
-  url: string
-  secureUrl?: string
-  type?: string
-}
-
-export interface HtmlSnippetTwitter {
+export interface SnippetTwitter {
   siteId?: string
   siteHandle?: string
   creatorId?: string
   creatorHandle?: string
 }
 
-export interface HtmlSnippetIcon {
-  href: string
-  type?: string
-  size?: string
-}
-
-export interface HtmlSnippetApps {
-  iphone?: HtmlSnippetAppLink
-  ipad?: HtmlSnippetAppLink
-  android?: HtmlSnippetAppLink
-  windows?: HtmlSnippetAppLink
-  windowsPhone?: HtmlSnippetAppLink
+export interface SnippetApps {
+  iphone?: SnippetAppLink
+  ipad?: SnippetAppLink
+  android?: SnippetAppLink
+  windows?: SnippetAppLink
+  windowsPhone?: SnippetAppLink
 }
 
 export interface ArticleEntity {
@@ -107,10 +79,10 @@ export type Entity = ArticleEntity | VideoEntity | ImageEntity | RichEntity
 export interface HtmlSnippet extends BaseSnippet {
   type: 'html'
   entity?: Entity
-  image?: HtmlSnippetImage[]
-  video?: HtmlSnippetVideo[]
-  audio?: HtmlSnippetAudio[]
-  player?: HtmlSnippetPlayer
+  image?: ImageSnippet[]
+  video?: VideoSnippet[]
+  audio?: AudioSnippet[]
+  player?: SnippetPlayer
   headline?: string
   description?: string
   tags?: string[]
@@ -123,18 +95,25 @@ export interface HtmlSnippet extends BaseSnippet {
     name?: string
   }
   ttl?: number
-  icon?: HtmlSnippetIcon
-  locale?: HtmlSnippetLocale
-  twitter?: HtmlSnippetTwitter
-  apps?: HtmlSnippetApps
+  icon?: ImageSnippet
+  locale?: SnippetLocale
+  twitter?: SnippetTwitter
+  apps?: SnippetApps
+}
+
+export interface AudioSnippet extends BaseSnippet {
+  type: 'audio'
 }
 
 export interface VideoSnippet extends BaseSnippet {
   type: 'video'
+  width?: number
+  height?: number
 }
 
 export interface ImageSnippet extends BaseSnippet {
   type: 'image'
+  caption?: string
   dateModified?: Date
   dateCreated?: Date
   width?: number
@@ -151,7 +130,7 @@ export interface ImageSnippet extends BaseSnippet {
 export interface PdfSnippet extends BaseSnippet {
   type: 'pdf'
   author?: string
-  title?: string
+  headline?: string
   pageCount?: number
   producer?: string
   creator?: string

@@ -13,12 +13,12 @@ export default async function (
   result: ScrapeResult,
   next: Next
 ): Promise<ScrapeResult> {
-  const [exifdata] = await Promise.all([
+  const [exifData] = await Promise.all([
     extractExifData(stream.pipe(new PassThrough())),
     next(stream.pipe(new PassThrough()))
   ])
 
-  result.exifData = exifdata
+  result.exifData = exifData
 
   return result
 }

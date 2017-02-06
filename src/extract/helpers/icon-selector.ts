@@ -1,6 +1,7 @@
 import { resolve } from 'url'
+import { Icon } from 'htmlmetaparser'
 import { ScrapeResult, scrapeResponse } from '../../scrape'
-import { Snippet, HtmlSnippetIcon } from '../interfaces'
+import { Snippet, ImageSnippet } from '../interfaces'
 import { Response, makeRequest as defaultMakeRequest } from '../../scrape/support'
 
 export interface Options {
@@ -22,49 +23,61 @@ export default function (options: Options = {}) {
     }
 
     const icons = result.icons || []
-    let selectedSize: number | undefined
-    let selectedIcon: HtmlSnippetIcon | undefined
+    let selectedImage: ImageSnippet | undefined
 
     if (icons.length === 0 && options.fallbackOnFavicon !== false) {
-      const href = resolve(result.url, '/favicon.ico')
-      const response = await makeRequest(href)
+      const url = resolve(result.url, '/favicon.ico')
+      const response = await makeRequest(url)
       const { exifData } = await scrapeResponse(response)
 
       if (!exifData) {
         return snippet
       }
 
-      const icon: HtmlSnippetIcon = {
-        href,
-        size: exifData.ImageWidth && exifData.ImageHeight ? `${exifData.ImageWidth}x${exifData.ImageHeight}` : undefined,
-        type: exifData.MIMEType
+      const icon: ImageSnippet = {
+        type: 'image',
+        url,
+        width: exifData.ImageWidth,
+        height: exifData.ImageHeight,
+        encodingFormat: exifData.MIMEType
       }
 
       return Object.assign(snippet, { icon })
     }
 
     for (const icon of icons) {
-      if (selectedSize == null) {
-        selectedIcon = icon
-      }
+      const currentImage = formatIcon(icon)
 
-      if (icon.sizes) {
-        const size = parseInt(icon.sizes, 10) // "32x32" -> "32".
+      if (selectedImage) {
+        const selectedWidth = selectedImage.width || Infinity
+        const currentWidth = currentImage.width || Infinity
 
-        if (selectedSize == null) {
-          selectedIcon = icon
-          selectedSize = size
-        } else {
-          if (Math.abs(preferredSize - size) < Math.abs(selectedSize - size)) {
-            selectedIcon = icon
-            selectedSize = size
-          }
+        if (Math.abs(preferredSize - currentWidth) < Math.abs(preferredSize - selectedWidth)) {
+          selectedImage = currentImage
         }
       } else {
-        selectedIcon = selectedIcon || icon
+        selectedImage = currentImage
       }
     }
 
-    return Object.assign(snippet, { icon: selectedIcon })
+    return Object.assign(snippet, { icon: selectedImage })
   }
+}
+
+/**
+ * Format the icon into an image snippet.
+ */
+function formatIcon (icon: Icon): ImageSnippet {
+  const image: ImageSnippet = { type: 'image', encodingFormat: icon.type, url: icon.href }
+
+  if (typeof icon.sizes === 'string') {
+    const [width, height] = icon.sizes.split('x', 2).map(x => parseInt(x, 10)) // "32x32" -> [32, 32].
+
+    if (width && height) {
+      image.width = width
+      image.height = height
+    }
+  }
+
+  return image
 }
