@@ -3,6 +3,7 @@ import { Icon } from 'htmlmetaparser'
 import { ScrapeResult, scrapeResponse } from '../../scrape'
 import { Snippet, ImageSnippet } from '../interfaces'
 import { Response, makeRequest as defaultMakeRequest } from '../../scrape/support'
+import { extract } from '../'
 
 export interface Options {
   preferredSize?: number
@@ -28,19 +29,8 @@ export default function (options: Options = {}) {
     if (icons.length === 0 && options.fallbackOnFavicon !== false) {
       const url = resolve(result.url, '/favicon.ico')
       const response = await makeRequest(url)
-      const { exifData } = await scrapeResponse(response)
-
-      if (!exifData) {
-        return snippet
-      }
-
-      const icon: ImageSnippet = {
-        type: 'image',
-        url,
-        width: exifData.ImageWidth,
-        height: exifData.ImageHeight,
-        encodingFormat: exifData.MIMEType
-      }
+      const iconResult = await scrapeResponse(response)
+      const icon = await extract(iconResult) as ImageSnippet
 
       return Object.assign(snippet, { icon })
     }

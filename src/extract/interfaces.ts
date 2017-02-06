@@ -21,14 +21,6 @@ export interface SnippetLocale {
   alternate?: string[]
 }
 
-export interface SnippetPlayer {
-  url: string
-  width: number
-  height: number
-  streamUrl?: string
-  streamContentType?: string
-}
-
 export interface SnippetTwitter {
   siteId?: string
   siteHandle?: string
@@ -82,7 +74,6 @@ export interface HtmlSnippet extends BaseSnippet {
   image?: ImageSnippet[]
   video?: VideoSnippet[]
   audio?: AudioSnippet[]
-  player?: SnippetPlayer
   headline?: string
   description?: string
   tags?: string[]

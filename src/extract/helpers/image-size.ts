@@ -1,6 +1,7 @@
 import { scrapeResponse } from '../../scrape'
-import { Snippet } from '../interfaces'
+import { Snippet, ImageSnippet } from '../interfaces'
 import { Response, makeRequest as defaultMakeRequest } from '../../scrape/support'
+import { extract } from '../'
 
 export interface Options {
   makeRequest?: (url: string) => Promise<Response>
@@ -19,22 +20,11 @@ export default function (options: Options = {}) {
 
     snippet.image = await Promise.all(snippet.image.map(async (image) => {
       try {
-        const response = await makeRequest(image.secureUrl || image.url)
-        const { exifData } = await scrapeResponse(response)
+        const url = image.secureUrl || image.url
+        const response = await makeRequest(url)
+        const result = await scrapeResponse(response)
 
-        if (!exifData) {
-          return image // Skip when we failed to get exif data.
-        }
-
-        return {
-          type: 'image' as 'image',
-          url: image.url,
-          secureUrl: image.secureUrl,
-          caption: image.caption,
-          encodingFormat: exifData.MIMEType || image.encodingFormat,
-          width: exifData.ImageWidth || image.width,
-          height: exifData.ImageHeight || image.height
-        }
+        return await extract(result) as ImageSnippet
       } catch (e) {
         return image // Ignore bad requests.
       }

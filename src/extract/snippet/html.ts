@@ -10,7 +10,6 @@ import {
   SnippetAppLink,
   SnippetApps,
   SnippetLocale,
-  SnippetPlayer,
   SnippetTwitter
 } from '../interfaces'
 
@@ -31,7 +30,6 @@ export default function (result: ScrapeResult): HtmlSnippet {
     image: getImage(result),
     video: getVideo(result),
     audio: getAudio(result),
-    player: getPlayer(result),
     entity: getEntity(result),
     url: result.url,
     canonicalUrl: getCanonicalUrl(result),
@@ -289,6 +287,22 @@ function getVideo (result: ScrapeResult): VideoSnippet[] {
     addVideos(ogpVideos, ogpSecureUrls, ogpTypes, ogpWidths, ogpHeights)
   }
 
+  if (getValue(result, ['twitter', 'card']) === 'player') {
+    const embedUrl = getValue(result, ['twitter', 'player'])
+    const width = toNumber(getValue(result, ['twitter', 'player:width']))
+    const height = toNumber(getValue(result, ['twitter', 'player:height']))
+    const url = getValue(result, ['twitter', 'player:stream'])
+    const encodingFormat = getValue(result, ['twitter', 'player:stream:content_type'])
+
+    if (embedUrl && width && height) {
+      addVideo({ type: 'video', url: embedUrl, encodingFormat: 'text/html', width, height })
+    }
+
+    if (url) {
+      addVideo({ type: 'video', url, encodingFormat, width, height })
+    }
+  }
+
   return videos
 }
 
@@ -529,35 +543,6 @@ function getTwitterHandle (result: ScrapeResult, path: Path) {
 function getTtl (result: ScrapeResult): number | undefined {
   return toNumber(getJsonLdValue(result, ['rdfa', 0, 'http://ogp.me/ns#ttl'])) ||
     toNumber(getValue(result, ['oembed', 'cache_age']))
-}
-
-/**
- * Retrieve a URL for embedding an interactive widget.
- */
-function getPlayer (result: ScrapeResult): SnippetPlayer | undefined {
-  const isPlayer = getValue(result, ['twitter', 'card']) === 'player'
-
-  if (!isPlayer) {
-    return
-  }
-
-  const url = getValue(result, ['twitter', 'player'])
-  const width = toNumber(getValue(result, ['twitter', 'player:width']))
-  const height = toNumber(getValue(result, ['twitter', 'player:height']))
-  const streamUrl = getValue(result, ['twitter', 'player:stream'])
-  const streamContentType = getValue(result, ['twitter', 'player:stream:content_type'])
-
-  if (url && width && height) {
-    return {
-      url,
-      width,
-      height,
-      streamUrl,
-      streamContentType
-    }
-  }
-
-  return
 }
 
 /**

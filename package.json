@@ -60,7 +60,7 @@
     "arrify": "^1.0.1",
     "concat-stream": "^1.5.2",
     "content-type": "^1.0.2",
-    "exif-date": "^2.0.0",
+    "exif-date": "^2.0.1",
     "exiftool2": "0.0.4",
     "getvalue": "^1.1.0",
     "htmlmetaparser": "^1.2.0",
