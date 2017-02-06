@@ -63,17 +63,6 @@ const url = 'https://medium.com/slack-developer-blog/everything-you-ever-wanted-
 scrapeAndExtract(url).then(console.log.bind(console))
 ```
 
-## Development
-
-```sh
-# Build the fixtures directory with raw content.
-node scripts/fixtures.js
-# Scrape the metadata results from fixtures.
-node scripts/scrape.js
-# Extract the snippets from the previous results.
-node scripts/extract.js
-```
-
 ## License
 
 Apache 2.0
