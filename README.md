@@ -7,6 +7,8 @@
 
 > Extract rich metadata from URLs.
 
+[Try it using Runkit!](https://runkit.com/blakeembrey/scrappy)
+
 ## Installation
 
 ```sh
