@@ -51,9 +51,9 @@
     "jest": "^18.1.0",
     "popsicle-cache": "^5.0.1",
     "rimraf": "^2.5.4",
-    "tslint": "^4.0.2",
+    "tslint": "^4.5.1",
     "tslint-config-standard": "^3.0.0",
-    "typescript": "^2.1.4",
+    "typescript": "^2.2.1",
     "typings": "^2.0.0"
   },
   "dependencies": {

@@ -3,7 +3,7 @@
     "catbox-fs": "npm:catbox-fs"
   },
   "globalDependencies": {
-    "node": "registry:env/node#6.0.0+20170119204930"
+    "node": "registry:env/node#6.0.0+20170213133316"
   },
   "dependencies": {
     "arrify": "registry:npm/arrify#1.0.0+20160508201941",
