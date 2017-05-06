@@ -10,7 +10,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "lint": "tslint \"src/**/*.ts\" -e \"src/typings/**\"",
+    "lint": "tslint \"src/**/*.ts\" --project tsconfig.json --type-check",
     "clean": "rimraf dist",
     "tsc": "tsc",
     "build": "npm run clean && npm run tsc",

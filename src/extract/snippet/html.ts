@@ -88,7 +88,7 @@ function getTags (result: ScrapeResult): string[] | undefined {
     return metaTags
   }
 
-  return
+  return undefined
 }
 
 /**
@@ -397,7 +397,7 @@ function getIosApp (result: ScrapeResult): SnippetAppLink | undefined {
     }
   }
 
-  return
+  return undefined
 }
 
 /**
@@ -428,7 +428,7 @@ function getAndroidApp (result: ScrapeResult): SnippetAppLink | undefined {
     }
   }
 
-  return
+  return undefined
 }
 
 /**
@@ -485,7 +485,7 @@ function getWindowsUniversalApp (result: ScrapeResult): SnippetAppLink | undefin
     }
   }
 
-  return
+  return undefined
 }
 
 /**
@@ -499,7 +499,7 @@ function getLocale (result: ScrapeResult): SnippetLocale | undefined {
     return { primary, alternate }
   }
 
-  return
+  return undefined
 }
 
 /**
@@ -520,7 +520,7 @@ function getTwitter (result: ScrapeResult): SnippetTwitter | undefined {
     }
   }
 
-  return
+  return undefined
 }
 
 /**
@@ -534,7 +534,7 @@ function getTwitterHandle (result: ScrapeResult, path: Path) {
     return value.replace(/^@/, '')
   }
 
-  return
+  return undefined
 }
 
 /**
@@ -596,5 +596,5 @@ function getEntity (result: ScrapeResult): Entity | undefined {
     }
   }
 
-  return
+  return undefined
 }
