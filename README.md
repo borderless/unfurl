@@ -1,9 +1,10 @@
 # Scrappy
 
-[![NPM version][npm-image]][npm-url]
-[![NPM downloads][downloads-image]][downloads-url]
-[![Build status][travis-image]][travis-url]
-[![Test coverage][coveralls-image]][coveralls-url]
+[![NPM version](https://img.shields.io/npm/v/scrappy.svg?style=flat)](https://npmjs.org/package/scrappy)
+[![NPM downloads](https://img.shields.io/npm/dm/scrappy.svg?style=flat)](https://npmjs.org/package/scrappy)
+[![Build status](https://img.shields.io/travis/blakeembrey/node-scrappy.svg?style=flat)](https://travis-ci.org/blakeembrey/node-scrappy)
+[![Test coverage](https://img.shields.io/coveralls/blakeembrey/node-scrappy.svg?style=flat)](https://coveralls.io/r/blakeembrey/node-scrappy?branch=master)
+[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/node-scrappy.svg)](https://greenkeeper.io/)
 
 > Extract rich metadata from URLs.
 
@@ -68,12 +69,3 @@ scrapeAndExtract(url).then(console.log.bind(console))
 ## License
 
 Apache 2.0
-
-[npm-image]: https://img.shields.io/npm/v/scrappy.svg?style=flat
-[npm-url]: https://npmjs.org/package/scrappy
-[downloads-image]: https://img.shields.io/npm/dm/scrappy.svg?style=flat
-[downloads-url]: https://npmjs.org/package/scrappy
-[travis-image]: https://img.shields.io/travis/blakeembrey/node-scrappy.svg?style=flat
-[travis-url]: https://travis-ci.org/blakeembrey/node-scrappy
-[coveralls-image]: https://img.shields.io/coveralls/blakeembrey/node-scrappy.svg?style=flat
-[coveralls-url]: https://coveralls.io/r/blakeembrey/node-scrappy?branch=master

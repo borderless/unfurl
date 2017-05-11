@@ -10,7 +10,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "lint": "tslint \"src/**/*.ts\" -e \"src/typings/**\"",
+    "lint": "tslint \"src/**/*.ts\" --project tsconfig.json --type-check",
     "clean": "rimraf dist",
     "tsc": "tsc",
     "build": "npm run clean && npm run tsc",
@@ -48,11 +48,11 @@
   "homepage": "https://github.com/blakeembrey/node-scrappy",
   "devDependencies": {
     "catbox-fs": "^2.0.0",
-    "jest": "^18.1.0",
+    "jest": "^20.0.0",
     "popsicle-cache": "^5.0.1",
     "rimraf": "^2.5.4",
-    "tslint": "^4.5.1",
-    "tslint-config-standard": "^3.0.0",
+    "tslint": "^5.2.0",
+    "tslint-config-standard": "^5.0.2",
     "typescript": "^2.2.1",
     "typings": "^2.0.0"
   },
