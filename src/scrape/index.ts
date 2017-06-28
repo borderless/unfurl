@@ -24,7 +24,7 @@ export async function scrapeUrl (url: string, plugin?: Plugin): Promise<ScrapeRe
  */
 export async function scrapeResponse (res: Response, plugin?: Plugin) {
   const { url, headers } = res
-  const encodingFormat = headers['content-type'] ? parse(headers['content-type']).type : undefined
+  const encodingFormat = headers['content-type'] ? parse(String(headers['content-type'])).type : undefined
   const contentSize = Number(headers['content-length']) || undefined
 
   return scrapeStream(res.stream, { url, encodingFormat, contentSize }, res.abort, plugin)
