@@ -52,7 +52,7 @@
     "popsicle-cache": "^5.0.1",
     "rimraf": "^2.5.4",
     "tslint": "^5.2.0",
-    "tslint-config-standard": "^6.0.0",
+    "tslint-config-standard": "^7.0.0",
     "typescript": "^2.4.1",
     "typings": "^2.0.0"
   },
