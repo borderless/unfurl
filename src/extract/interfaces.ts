@@ -49,7 +49,7 @@ export interface ImageEntity {
   type: 'image'
   url?: string
   width?: number
-  heigth?: number
+  height?: number
 }
 
 export interface VideoEntity {
