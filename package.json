@@ -48,7 +48,7 @@
   "homepage": "https://github.com/blakeembrey/node-scrappy",
   "devDependencies": {
     "catbox-fs": "^2.0.0",
-    "jest": "^21.0.0",
+    "jest": "^22.0.6",
     "popsicle-cache": "^5.0.1",
     "rimraf": "^2.5.4",
     "tslint": "^5.8.0",
