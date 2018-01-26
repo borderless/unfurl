@@ -65,7 +65,7 @@
     "getvalue": "^1.1.0",
     "htmlmetaparser": "^1.2.0",
     "htmlparser2": "^3.9.1",
-    "jsonld": "^0.4.11",
+    "jsonld": "^0.5.18",
     "popsicle": "^9.0.0"
   }
 }
