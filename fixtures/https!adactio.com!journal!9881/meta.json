@@ -1,0 +1,27 @@
+{
+  "url": "https://adactio.com/journal/9881",
+  "headers": {
+    "date": "Sun, 02 Feb 2020 00:38:15 GMT",
+    "server": "Apache/2.4.41 (Ubuntu)",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "default-src https: data: 'unsafe-inline' 'unsafe-eval'; media-src *",
+    "strict-transport-security": "max-age=63072000",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "upgrade": "h2",
+    "connection": "Upgrade, Keep-Alive",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "cache-control": "public",
+    "pragma": "no-cache",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "set-cookie": [
+      "PHPSESSID=h95tect1c5rpfk64311blnfcd9; path=/;HttpOnly;Secure"
+    ],
+    "content-length": "24520",
+    "keep-alive": "timeout=5, max=100",
+    "content-type": "text/html; charset=utf-8"
+  },
+  "status": 200
+}

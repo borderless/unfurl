@@ -1,0 +1,30 @@
+{
+  "url": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt",
+  "headers": {
+    ":status": "200",
+    "date": "Sun, 02 Feb 2020 02:02:57 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "set-cookie": [
+      "__cfduid=d165f3e818fc1e21ff0321da0bb30634e1580608976; expires=Tue, 03-Mar-20 02:02:56 GMT; path=/; domain=.medium.com; HttpOnly; SameSite=Lax",
+      "uid=lo_AdOqOiAMkiwg; Expires=Mon, 01-Feb-21 02:02:56 GMT; Domain=.medium.com; Path=/; Secure; HttpOnly",
+      "optimizelyEndUserId=lo_AdOqOiAMkiwg; path=/; expires=Mon, 01 Feb 2021 02:02:56 GMT; domain=.medium.com; samesite=none; secure, sid=1:BlI07gSee7OzkXVnjDxkf2YKd3cQqrPqc9sViYZeR9l1TNh/vFAuUvabt5Bbmvwv; path=/; expires=Mon, 01 Feb 2021 02:02:56 GMT; domain=.medium.com; samesite=none; secure; httponly",
+      "__cfruid=951abc5500a79c757446e528b45a5c72e1a2fa83-1580608977; path=/; domain=.medium.com; HttpOnly; Secure; SameSite=None"
+    ],
+    "sepia-upstream": "production",
+    "x-frame-options": "allow-from medium.com",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "medium-fulfilled-by": "lite/master-20200131-182730-1c59b5c54c, rito/master-20200131-002953-ea6cc835e4, tutu/medium-39861",
+    "etag": "W/\"2ef7e-/aIMsfSZikGxn1BSXtbeggQwJjQ\"",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-envoy-upstream-service-time": "334",
+    "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+    "cf-cache-status": "DYNAMIC",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "alt-svc": "h3-24=\":443\"; ma=86400, h3-23=\":443\"; ma=86400",
+    "x-content-type-options": "nosniff",
+    "server": "cloudflare",
+    "cf-ray": "55e895f88aa26c44-SJC"
+  },
+  "status": 200
+}

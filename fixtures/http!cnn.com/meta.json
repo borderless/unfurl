@@ -1,0 +1,32 @@
+{
+  "url": "https://www.cnn.com/",
+  "headers": {
+    ":status": "200",
+    "content-type": "text/html; charset=utf-8",
+    "x-servedbyhost": "::ffff:127.0.0.1",
+    "access-control-allow-origin": "*",
+    "cache-control": "max-age=60",
+    "content-security-policy": "default-src 'self' blob: https://*.cnn.com:* http://*.cnn.com:* *.cnn.io:* *.cnn.net:* *.turner.com:* *.turner.io:* *.ugdturner.com:* courageousstudio.com *.vgtf.net:*; script-src 'unsafe-eval' 'unsafe-inline' 'self' *; style-src 'unsafe-inline' 'self' blob: *; child-src 'self' blob: *; frame-src 'self' *; object-src 'self' *; img-src 'self' data: blob: *; media-src 'self' data: blob: *; font-src 'self' data: *; connect-src 'self' *; frame-ancestors 'self' https://*.cnn.com:* http://*.cnn.com https://*.cnn.io:* http://*.cnn.io:* *.turner.com:* courageousstudio.com;",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "content-encoding": "gzip",
+    "via": "1.1 varnish, 1.1 varnish",
+    "accept-ranges": "bytes",
+    "date": "Sun, 02 Feb 2020 00:38:12 GMT",
+    "age": "135",
+    "set-cookie": [
+      "countryCode=US; Domain=.cnn.com; Path=/; SameSite=Lax",
+      "geoData=san francisco|CA|94103|US|NA|-800|broadband; Domain=.cnn.com; Path=/; SameSite=Lax",
+      "FastAB=0=5517,1=3181,2=7341,3=4965,4=4299,5=0796,6=9752,7=1669,8=6378,9=3267; Domain=.cnn.com; Path=/; Expires=Thu Jul 01 2021 00:00:00 GMT; SameSite=Lax",
+      "tryThing01=9516; Domain=.cnn.com; Path=/; Expires=Sun Mar 01 2020 00:00:00 GMT; SameSite=Lax",
+      "tryThing02=5782; Domain=.cnn.com; Path=/; Expires=Wed Jan 01 2020 00:00:00 GMT; SameSite=Lax"
+    ],
+    "x-served-by": "cache-iad2127-IAD, cache-sea4437-SEA",
+    "x-cache": "HIT, HIT",
+    "x-cache-hits": "5, 37",
+    "x-timer": "S1580603892.073164,VS0,VE0",
+    "vary": "Accept-Encoding",
+    "content-length": "154194"
+  },
+  "status": 200
+}

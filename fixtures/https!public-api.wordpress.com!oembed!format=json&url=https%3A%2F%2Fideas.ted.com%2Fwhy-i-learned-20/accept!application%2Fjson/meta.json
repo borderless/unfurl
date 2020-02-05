@@ -1,0 +1,15 @@
+{
+  "url": "https://public-api.wordpress.com/oembed/?format=json&url=https%3A%2F%2Fideas.ted.com%2Fwhy-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process%2F&for=wpcom-auto-discovery",
+  "headers": {
+    ":status": "200",
+    "server": "nginx",
+    "date": "Wed, 05 Feb 2020 03:32:49 GMT",
+    "content-type": "application/json; charset=UTF-8",
+    "vary": "Accept-Encoding",
+    "x-hacker": "If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.",
+    "content-encoding": "gzip",
+    "x-ac": "2.sjc _bur ",
+    "strict-transport-security": "max-age=15552000"
+  },
+  "status": 200
+}

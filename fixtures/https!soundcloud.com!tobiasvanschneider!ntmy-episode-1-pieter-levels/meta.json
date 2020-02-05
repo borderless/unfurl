@@ -1,0 +1,21 @@
+{
+  "url": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
+  "headers": {
+    "content-type": "text/html",
+    "content-length": "11697",
+    "connection": "keep-alive",
+    "x-pants": "distant-towel",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "private, max-age=0, no-cache, no-store",
+    "x-frame-options": "SAMEORIGIN",
+    "server-timing": "rollouts; dur=6.972775; desc=\"api-v2/rollouts\", geoip; dur=1.686091; desc=\"geoip/geoip\", experiments; dur=9.774424; desc=\"api-v2/experiments\", privacySettings; dur=7.513345; desc=\"api-v2/privacySettings\", geoip; dur=2.997435; desc=\"geoip/geoip\"",
+    "date": "Sun, 02 Feb 2020 00:36:32 GMT",
+    "strict-transport-security": "max-age=63072000",
+    "server": "am/2",
+    "x-cache": "Error from cloudfront",
+    "via": "1.1 57a21088b36c69a83578b5a5579df58f.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA19-C2",
+    "x-amz-cf-id": "AZou2MWEdO8EMEfjCNYRSZkY7jrohCQ7B1ie2HDzy5Hbg_oWCXlYiA=="
+  },
+  "status": 404
+}

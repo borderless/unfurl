@@ -1,0 +1,25 @@
+{
+  "url": "https://www.ted.com/talks/tim_harford_how_frustration_can_make_us_more_creative",
+  "headers": {
+    ":status": "200",
+    "content-type": "text/html; charset=utf-8",
+    "status": "200 OK",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "cache-control": "no-transform, public, max-age=0, s-maxage=240",
+    "etag": "W/\"3ac7af9a6f5eae868a432cbfa402768e\"",
+    "strict-transport-security": "max-age=15552000",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes",
+    "date": "Sun, 02 Feb 2020 00:36:55 GMT",
+    "via": "1.1 varnish",
+    "age": "0",
+    "x-served-by": "e12, cache-iad2145-IAD, cache-sea4448-SEA",
+    "x-cache": "MISS, MISS",
+    "x-cache-hits": "0, 0",
+    "vary": "Accept-Encoding",
+    "content-length": "19067"
+  },
+  "status": 200
+}

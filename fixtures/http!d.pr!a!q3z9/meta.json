@@ -1,0 +1,17 @@
+{
+  "url": "https://d.pr/a/q3z9",
+  "headers": {
+    ":status": "200",
+    "date": "Sun, 02 Feb 2020 00:36:36 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "26392",
+    "set-cookie": [
+      "AWSALB=flDMeldhwHQSmDOX9UeHGfURtsUc3F8JPwOUWgc4ijHNPMOxCrHpSJEoJpW/2fFTjEOVvSZwRkHuH/Sk0fPhAjoka9tKsqr289S99UNUPljkQRhaqt2iPK7GDIQL; Expires=Sun, 09 Feb 2020 00:36:36 GMT; Path=/",
+      "AWSALBCORS=flDMeldhwHQSmDOX9UeHGfURtsUc3F8JPwOUWgc4ijHNPMOxCrHpSJEoJpW/2fFTjEOVvSZwRkHuH/Sk0fPhAjoka9tKsqr289S99UNUPljkQRhaqt2iPK7GDIQL; Expires=Sun, 09 Feb 2020 00:36:36 GMT; Path=/; SameSite=None; Secure"
+    ],
+    "server": "nginx/1.15.7",
+    "content-security-policy": "frame-ancestors d.pr http://d.pr https://d.pr",
+    "etag": "W/\"6718-Wb1t0BmfkgcqUNKOJLrxMXkkH+M\""
+  },
+  "status": 200
+}

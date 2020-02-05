@@ -1,0 +1,15 @@
+{
+  "url": "https://schema.org/docs/schema_org_rdfa.html",
+  "headers": {
+    ":status": "200",
+    "date": "Sun, 02 Feb 2020 00:38:27 GMT",
+    "expires": "Sun, 02 Feb 2020 00:48:27 GMT",
+    "cache-control": "public, max-age=600",
+    "etag": "\"naVpLg\"",
+    "x-cloud-trace-context": "826f70d2d44f620b0df60a0f75cfedf3",
+    "content-type": "text/html",
+    "server": "Google Frontend",
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"
+  },
+  "status": 200
+}

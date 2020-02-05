@@ -1,0 +1,23 @@
+{
+  "url": "https://store.steampowered.com/app/8930/",
+  "headers": {
+    "server": "nginx/1.17.6",
+    "content-type": "text/html; charset=UTF-8",
+    "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+    "cache-control": "no-cache",
+    "content-security-policy": "default-src blob: data: https: 'unsafe-inline' 'unsafe-eval'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://steamstore-a.akamaihd.net/ https://steamstore-a.akamaihd.net/ *.google-analytics.com https://www.gstatic.com https://steamcommunity-a.akamaihd.net; object-src 'none'; connect-src 'self' http://store.steampowered.com https://store.steampowered.com http://127.0.0.1:27060 https://steamcommunity.com/ https://steamcommunity.com/ wss://community.steam-api.com/websocket/ https://api.steampowered.com/ *.google-analytics.com https://*.steamstatic.com https://*.steamcontent.com https://*.valvesoftware.com https://*.steambeta.net https://*.cqloud.com https://steambroadcast.akamaized.net https://steambroadcastchat.akamaized.net https://api.steampowered.com; frame-src 'self' steam:  http://www.youtube.com https://www.youtube.com https://www.google.com https://sketchfab.com https://player.vimeo.com https://steamcommunity.com embed.nicovideo.jp www.escapistmagazine.com player.youku.com www.bilibili.com https://medal.tv https://steamcommunity.com/;",
+    "x-frame-options": "DENY",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "content-length": "29889",
+    "date": "Sun, 02 Feb 2020 00:37:21 GMT",
+    "connection": "keep-alive",
+    "set-cookie": [
+      "browserid=1291906078536752171; expires=Mon, 01-Feb-2021 00:37:21 GMT; Max-Age=31536000; path=/; secure",
+      "steamCountry=US%7C0feed97990903f0ba7dab3d9efa9a4a2; path=/; secure",
+      "recentapps=%7B%228930%22%3A1580603841%7D; expires=Sat, 02-May-2020 00:37:21 GMT; Max-Age=7776000; path=/",
+      "sessionid=ace5f2db826d9a2893ab2d08; path=/; secure"
+    ]
+  },
+  "status": 200
+}

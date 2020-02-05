@@ -1,0 +1,20 @@
+{
+  "url": "https://waitbutwhy.com/2016/09/marriage-decision.html",
+  "headers": {
+    ":status": "200",
+    "server": "nginx",
+    "date": "Sun, 02 Feb 2020 00:38:24 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "vary": "Accept-Encoding, Accept-Encoding, Accept-Encoding,Cookie",
+    "link": "<https://waitbutwhy.com/wp-json/>; rel=\"https://api.w.org/\", <https://waitbutwhy.com/?p=5618>; rel=shortlink",
+    "x-powered-by": "WP Engine",
+    "x-cacheable": "SHORT",
+    "cache-control": "max-age=600, must-revalidate",
+    "x-cache": "HIT: 1",
+    "x-pass-why": "",
+    "x-cache-group": "normal",
+    "x-frame-options": "SAMEORIGIN",
+    "content-encoding": "gzip"
+  },
+  "status": 200
+}

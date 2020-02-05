@@ -1,0 +1,22 @@
+{
+  "url": "https://publish.twitter.com/oembed?url=https://twitter.com/typescript/status/743113612407889920",
+  "headers": {
+    ":status": "200",
+    "cache-control": "must-revalidate, max-age=3153600000",
+    "content-disposition": "attachment; filename=json.json",
+    "content-encoding": "gzip",
+    "content-length": "457",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Sun, 02 Feb 2020 03:28:59 GMT",
+    "expires": "Tue, 09 Jan 2120 03:28:59 GMT",
+    "last-modified": "Sun, 02 Feb 2020 03:28:59 GMT",
+    "server": "tsa_a",
+    "strict-transport-security": "max-age=631138519",
+    "x-connection-hash": "7ba4817b6e2bf398774a13e4461fb6ca",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-response-time": "13",
+    "x-xss-protection": "0"
+  },
+  "status": 200
+}

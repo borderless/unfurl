@@ -1,0 +1,41 @@
+{
+  "url": "https://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268?utm_campaign=socialflow_gizmodo_twitter&utm_source=gizmodo_twitter&utm_medium=socialflow",
+  "headers": {
+    ":status": "200",
+    "x-powered-by": "Express",
+    "x-kinja": "kinja-magma-kube01-5545c5cd7d-t24rm #907",
+    "x-kinja-revision": "5bb750c4af6a24dfd4c28b258bb5521334062680",
+    "x-kinja-server": "kinja-magma-kube01-5545c5cd7d-t24rm",
+    "x-kinja-build": "907",
+    "cache-control": "stale-if-error=86400, stale-while-revalidate=300",
+    "content-security-policy": "frame-ancestors 'self' https://gizmodo.com; upgrade-insecure-requests",
+    "strict-transport-security": "max-age=63072000; includeSubDomains",
+    "x-frame-options": "deny",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "x-googlenews-bot": "false",
+    "x-kinja-server-push": "/x-kinja-static/assets/new-client/runtime~ads.54484ea6a0a90bf7d28d.js, /x-kinja-static/assets/new-client/vendors~ads.bbd1c98eb9684ebd4e66.js, /x-kinja-static/assets/new-client/ads.98d08595be276b27da92.js, /x-kinja-static/assets/new-client/runtime~trackers.83877260061b4d6ce009.js, /x-kinja-static/assets/new-client/categoryPage~client-base~curatedHomepage~errorPage~experiments~featuredPermalinkPage~frontPage~newsl~329c652b.5ecf60d39ea857ff84b9.js, /x-kinja-static/assets/new-client/trackers.8ad2ff13530843655f1b.js",
+    "content-type": "text/html; charset=utf-8",
+    "etag": "W/\"68394-vUY0GX9rref+r7r4OKi1AnKrGW8\"",
+    "content-encoding": "gzip",
+    "via": "1.1 varnish, 1.1 varnish",
+    "x-cdn-fetch": "mantle-default",
+    "accept-ranges": "bytes",
+    "date": "Sun, 02 Feb 2020 00:38:14 GMT",
+    "age": "0",
+    "x-served-by": "cache-jfk8143-JFK, cache-sjc10023-SJC",
+    "x-cache": "MISS, MISS",
+    "x-cache-hits": "0, 0",
+    "x-timer": "S1580603895.630560,VS0,VE224",
+    "set-cookie": [
+      "KinjaBucket=0;path=/;Max-Age=31536000;domain=gizmodo.com;SameSite=None;Secure;",
+      "KinjaSetBucket=0|1580603700|zKoif9ViwL/r3hhPJZGnyy3wdgFBtxO4BtVss9SzzO0=;path=/;Max-Age=300;SameSite=None;Secure;"
+    ],
+    "x-exp-id": "tgs0ab4MLPvGYtW0gf7NK6",
+    "x-exp-variant": "1",
+    "vary": "Accept-Encoding, X-Feature-Hash, X-Forwarded-Proto, Cookie, X-GoogleNews-Bot, Authorization, X-Use-Magma",
+    "x-use-magma": "yes",
+    "content-length": "80040"
+  },
+  "status": 200
+}

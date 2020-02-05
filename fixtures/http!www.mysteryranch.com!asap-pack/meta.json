@@ -1,0 +1,23 @@
+{
+  "url": "https://www.mysteryranch.com/asap-pack",
+  "headers": {
+    ":status": "200",
+    "content-type": "text/html;charset=utf-8",
+    "content-length": "17059",
+    "date": "Sun, 02 Feb 2020 00:37:23 GMT",
+    "x-n-operationid": "1f8b0996-320c-4466-9f41-32dbfaf72d98",
+    "ns_rtimer_composite": "1982170651:73686F703032362E70726F642E6368692E6E65746C65646765722E636F6D:80",
+    "sspappcontext": "MysteryRanchSCA Hosting Files/SSP Applications/Mystery Ranch Commerce/production/* (id=44)",
+    "content-encoding": "gzip",
+    "cache-control": "max-age=7200, s-maxage=604800",
+    "expires": "Sun, 02 Feb 2020 02:37:23 GMT",
+    "set-cookie": ["NS_ROUTING_VERSION=LAGGING; path=/"],
+    "p3p": "CP=\"CAO PSAa OUR BUS PUR\"",
+    "vary": "User-Agent",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 599f04a365a179d553682d476509c389.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA19-C1",
+    "x-amz-cf-id": "NdC7Ti8FjS006PCrTGaa3iTsuGAKsbKqKR6ykndJBN7uZLGrnIa-Zg=="
+  },
+  "status": 200
+}

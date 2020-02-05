@@ -1,0 +1,17 @@
+{
+  "url": "https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly",
+  "headers": {
+    ":status": "200",
+    "server": "nginx/1.14.0",
+    "content-type": "text/html; charset=UTF-8",
+    "cache-control": "no-cache",
+    "link": "<https://switchboard.p3k.io/>; rel=\"hub\", <https://aaronparecki.com/auth/token>; rel=\"token_endpoint\", <https://aaronparecki.com/2016/08/23/2/micropub-cr>; rel=\"self\"",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "Authorization,Content-Type,Accept,Referer,Origin,User-Agent,Cache-Control,Pragma",
+    "date": "Sun, 02 Feb 2020 00:38:23 GMT",
+    "strict-transport-security": "max-age=2592000",
+    "x-no-cache": "0",
+    "x-cache": "MISS"
+  },
+  "status": 200
+}

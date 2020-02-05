@@ -4,7 +4,6 @@
 [![NPM downloads](https://img.shields.io/npm/dm/scrappy.svg?style=flat)](https://npmjs.org/package/scrappy)
 [![Build status](https://img.shields.io/travis/blakeembrey/node-scrappy.svg?style=flat)](https://travis-ci.org/blakeembrey/node-scrappy)
 [![Test coverage](https://img.shields.io/coveralls/blakeembrey/node-scrappy.svg?style=flat)](https://coveralls.io/r/blakeembrey/node-scrappy?branch=master)
-[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/node-scrappy.svg)](https://greenkeeper.io/)
 
 > Extract rich metadata from URLs.
 
@@ -12,58 +11,42 @@
 
 ## Installation
 
-```sh
+```
 npm install scrappy --save
 ```
 
 ## Usage
 
-**Scrappy** uses a simple two step process to extract the metadata from any URL or file. First, it runs through plugin-able `scrapeStream` middleware to extract metadata about the file itself. With the result in hand, it gets passed on to a plugin-able `extract` pipeline to format the metadata for presentation and extract additional metadata about related entities.
+**Scrappy** attempts to parse and extract rich structured metadata from URLs.
 
-### Scraping
-
-#### `scrapeUrl`
-
-```ts
-function scrapeUrl(url: string, plugin?: Plugin): Promise<ScrapeResult>
+```js
+import { scraper, urlScraper } from "scrappy";
 ```
 
-Makes the HTTP request and passes the response into `scrapeResponse`.
+### Scraper
 
-#### `scrapeResponse`
+Accepts a `request` function and optional `plugins` array. The request is expected to return a "page" object, which is the same shape as the input to `scrape(page)`.
 
-```ts
-function scrapeResponse (res: Response, plugin?: Plugin): Promise<ScrapeResult>
+```js
+const scrape = scraper({ request });
+const res = await fetch("http://example.com"); // E.g. `popsicle`.
+
+await scrape({
+  url: res.url,
+  status: res.status,
+  headers: res.headers.asObject(),
+  body: res.stream() // Must stream the request instead of buffering to support large responses.
+});
 ```
 
-Accepts a HTTP response object and transforms it into `scrapeStream`.
+### URL Scraper
 
-#### `scrapeStream`
+Simpler wrapper around `scraper` that automatically makes a `request(url)` for the page.
 
-```ts
-function scrapeStream (stream: Readable, input: ScrapeResult, abort?: () => void, plugin = DEFAULT_SCRAPER): Promise<ScrapeResult>
-```
+```js
+const scrape = urlScraper({ request });
 
-Accepts a readable stream and input scrape result (at a minimum should have `url`, but could add other known metadata - e.g. from HTTP headers), and returns the scrape result after running through the plugin function. It also accepts an `abort` function, which can be used to close the stream early.
-
-The default plugins are in the [`plugins/` directory](src/scrape/plugins) and combined into a single pipeline using `compose` (based on `throwback`, but calls `next(stream)` to pass a stream forward).
-
-### Extraction
-
-Extraction is based on a single function, `extract`. It accepts the scrape result, and an optional array of helpers. The default extraction maps the scrape result into a proprietary format useful for applications to visualize. After the extraction is done, it iterates over each of the helper functions to transform the extracted snippet.
-
-Some built-in extraction helpers are available in the [`helpers/` directory](src/extract/helpers), including a default favicon selector and image dimension extraction.
-
-### Example
-
-This example uses [`scrapeAndExtract`](src/index.ts) (a simple wrapper around `scrapeUrl` and `extract`) to retrieve metadata from a webpage. In your own application, you may want to write your own `makeRequest` function or override other parts of the pipeline (e.g. to enable caching or customize the user-agent, etc).
-
-```ts
-import { scrapeAndExtract } from 'scrappy'
-
-const url = 'https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt'
-
-scrapeAndExtract(url).then(console.log.bind(console))
+await scrape("http://example.com");
 ```
 
 ## License

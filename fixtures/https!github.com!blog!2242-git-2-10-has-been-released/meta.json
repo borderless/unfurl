@@ -1,0 +1,21 @@
+{
+  "url": "https://github.blog/2016-09-03-git-2-10-has-been-released/",
+  "headers": {
+    ":status": "200",
+    "server": "nginx",
+    "date": "Sun, 02 Feb 2020 00:38:24 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "x-hacker": "If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.",
+    "x-powered-by": "WordPress.com VIP <https://wpvip.com>",
+    "link": "<https://github.blog/wp-json/>; rel=\"https://api.w.org/\", <https://wp.me/pamS32-7WL>; rel=shortlink",
+    "content-encoding": "gzip",
+    "x-rq": "sjc1 116 171 3103",
+    "cache-control": "max-age=300, must-revalidate",
+    "age": "0",
+    "x-cache": "miss",
+    "vary": "Accept-Encoding",
+    "accept-ranges": "bytes",
+    "strict-transport-security": "max-age=31536000;includeSubdomains;preload"
+  },
+  "status": 200
+}

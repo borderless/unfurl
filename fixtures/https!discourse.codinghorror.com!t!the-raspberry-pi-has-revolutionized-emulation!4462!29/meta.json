@@ -1,0 +1,27 @@
+{
+  "url": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
+  "headers": {
+    ":status": "200",
+    "server": "nginx",
+    "date": "Sun, 02 Feb 2020 02:21:39 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "x-download-options": "noopen",
+    "x-permitted-cross-domain-policies": "none",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-discourse-route": "topics/show",
+    "last-modified": "Sun, 14 Aug 2016 04:59:38 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-security-policy": "base-uri 'none'; object-src 'none'; script-src 'report-sample' https://discourse.codinghorror.com/logs/ https://discourse.codinghorror.com/sidekiq/ https://discourse.codinghorror.com/mini-profiler-resources/ https://discourse-cdn.codinghorror.com/assets/ https://discourse-cdn.codinghorror.com/brotli_asset/ https://discourse.codinghorror.com/extra-locales/ https://discourse-cdn.codinghorror.com/highlight-js/ https://discourse-cdn.codinghorror.com/javascripts/ https://discourse-cdn.codinghorror.com/plugins/ https://discourse-cdn.codinghorror.com/theme-javascripts/ https://discourse-cdn.codinghorror.com/svg-sprite/; worker-src 'self' blob:",
+    "x-discourse-cached": "skip",
+    "x-request-id": "2904958a-fe37-4ba6-beac-6badf1143712",
+    "x-runtime": "0.054463",
+    "x-discourse-trackview": "1",
+    "strict-transport-security": "max-age=31536000",
+    "content-encoding": "gzip"
+  },
+  "status": 200
+}

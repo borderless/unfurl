@@ -1,0 +1,21 @@
+{
+  "url": "https://www.flickr.com/photos/fabianf_/28229743586/sizes/l/",
+  "headers": {
+    ":status": "200",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 02 Feb 2020 00:36:52 GMT",
+    "server": "Apache/2.4.41 (Ubuntu)",
+    "set-cookie": [
+      "localization=en-us%3Bus%3Bus; expires=Sun, 30-Jan-2022 00:36:51 GMT; Max-Age=62899200; path=/; domain=.flickr.com"
+    ],
+    "content-security-policy": "style-src 'unsafe-inline' https://*.flickr.com https://*.staticflickr.com https://*.flickr.net https://*.braintreegateway.com https://*.kaptcha.com https://*.paypal.com http://api.flickr.com https://*.pinterest.com https://connect.facebook.net https://*.facebook.com https://*.maps.api.here.com https://*.maps.cit.api.here.com https://cdn.siftscience.com https://tpc.googlesyndication.com https://securepubads.g.doubleclick.net https://adservice.google.com https://cdn.ampproject.org; default-src https://*.flickr.com https://*.staticflickr.com https://*.flickr.net https://*.braintreegateway.com https://*.kaptcha.com https://*.paypal.com http://api.flickr.com https://*.pinterest.com https://connect.facebook.net https://*.facebook.com https://*.maps.api.here.com https://*.maps.cit.api.here.com https://cdn.siftscience.com https://tpc.googlesyndication.com https://securepubads.g.doubleclick.net https://adservice.google.com https://cdn.ampproject.org; img-src data: blob: https://*.flickr.com https://*.flickr.net http://*.flickr.net https://*.staticflickr.com http://*.staticflickr.com https://*.yimg.com https://*.yahoo.com https://image.maps.api.here.com https://*.paypal.com https://*.pinterest.com http://*.static-alpha.flickr.com https://connect.facebook.net https://*.facebook.com https://*.maps.api.here.com https://*.maps.cit.api.here.com https://creativecommons.org https://hexagon-analytics.com https://*.2o7.net https://tagmanager.google.com https://www.googletagmanager.com https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://*.doubleclick.com https://*.doubleclick.de https://*.doubleclick.net https://*.googletagservices.com https://*.googleadservices.com https://*.googlesyndication.com https://*.googleapis.com; media-src https://*.flickr.com https://*.flickr.net http://*.flickr.net https://*.staticflickr.com https://*.yahoo.com; script-src 'unsafe-inline' 'unsafe-eval' 'nonce-ad168c04734bde22d76408ae55fdab2e' https://*.flickr.com http://*.flickr.net https://*.flickr.net https://*.staticflickr.com https://*.analytics.yahoo.com https://yep.video.yahoo.com https://video.media.yql.yahoo.com https://*.yahooapis.com https://*.braintreegateway.com https://*.paypalobjects.com https://connect.facebook.net https://*.facebook.com https://*.maps.api.here.com https://*.maps.cit.api.here.com https://cdn.siftscience.com https://assets.adobedtm.com https://securepubads.g.doubleclick.net https://adservice.google.com https://cdn.ampproject.org https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://*.doubleclick.com https://*.doubleclick.de https://*.doubleclick.net https://*.googletagservices.com https://*.googleadservices.com https://*.googlesyndication.com https://*.googleapis.com; connect-src https://*.flickr.com https://*.flickr.net http://*.flickr.net https://*.staticflickr.com https://geo.query.yahoo.com https://*.yahooapis.com http://api.flickr.com https://*.pinterest.com http://*.yahoo.com https://*.maps.api.here.com https://*.maps.cit.api.here.com https://cdn.siftscience.com https://*.demdex.net https://securepubads.g.doubleclick.net; frame-ancestors https://*.flickr.com; report-uri https://csp.flickr.com/beacon/csp?src=adsecflickr;",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-frame-options": "SAMEORIGIN",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 f126db770f21f288439f44d357978a27.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA19-C1",
+    "x-amz-cf-id": "Mms_E8A8m1Y08T6HYelsIBZrnJcO4oB835u53h6Lj15zQLReum4AFw=="
+  },
+  "status": 200
+}

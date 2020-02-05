@@ -1,0 +1,29 @@
+{
+  "url": "https://www.npmjs.com/package/filenamify",
+  "headers": {
+    ":status": "200",
+    "date": "Sun, 02 Feb 2020 00:38:27 GMT",
+    "content-type": "text/html",
+    "set-cookie": [
+      "__cfduid=dd400d4ffa734f31267e75d5a1e13a6a51580603906; expires=Tue, 03-Mar-20 00:38:26 GMT; path=/; domain=.npmjs.com; HttpOnly; SameSite=Lax; Secure"
+    ],
+    "cf-ray": "55e81a323c4292e0-SJC",
+    "cache-control": "public, max-age=14400",
+    "expires": "Sun, 02 Feb 2020 04:38:27 GMT",
+    "strict-transport-security": "max-age=31536000",
+    "vary": "x-requested-with, x-spiferack, Accept-Encoding",
+    "cf-cache-status": "EXPIRED",
+    "content-security-policy": "connect-src 'self' checkout.stripe.com sentry.io api.github.com www.npmjs.com http://gj.track.uc.cn/collect;default-src 'none';img-src * data:;script-src 'self' data: 'unsafe-inline' https://checkout.stripe.com/checkout.js https://static.accountdock.com https://www.googletagmanager.com https://www.googletagmanager.com/gtm.js https://app.hubspot.com https://optimize.google.com https://js.hs-scripts.com/ http://js.hs-analytics.net/ https://js.hsforms.net/ https://forms.hsforms.com/ https://www.brighttalk.com/ https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google-analytics.com https://www.google-analytics.com/analytics.js https://platform.twitter.com/widgets.js https://static.npmjs.com/;style-src https://optimize.google.com 'self' 'unsafe-inline' https://fonts.googleapis.com https://static.npmjs.com/;frame-src https://www.brighttalk.com/ checkout.stripe.com https://accountdock.com/app https://www.youtube.com/embed/mKMaG0cixXw https://forms.hsforms.com/ https://app.hubspot.com https://optimize.google.com https://static.accountdock.com/;font-src https://fonts.gstatic.com https://static.npmjs.com/ ;media-src https://player.vimeo.com https://fpdl.vimeocdn.com https://gcs-vimeo.akamaized.net",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "npm-cost": "1",
+    "npm-remaining": "99",
+    "x-clacks-overhead": "terry pratchett",
+    "x-content-security-policy": "connect-src 'self' checkout.stripe.com sentry.io api.github.com www.npmjs.com http://gj.track.uc.cn/collect;default-src 'none';img-src * data:;script-src 'self' data: 'unsafe-inline' https://checkout.stripe.com/checkout.js https://static.accountdock.com https://www.googletagmanager.com https://www.googletagmanager.com/gtm.js https://app.hubspot.com https://optimize.google.com https://js.hs-scripts.com/ http://js.hs-analytics.net/ https://js.hsforms.net/ https://forms.hsforms.com/ https://www.brighttalk.com/ https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google-analytics.com https://www.google-analytics.com/analytics.js https://platform.twitter.com/widgets.js https://static.npmjs.com/;style-src https://optimize.google.com 'self' 'unsafe-inline' https://fonts.googleapis.com https://static.npmjs.com/;frame-src https://www.brighttalk.com/ checkout.stripe.com https://accountdock.com/app https://www.youtube.com/embed/mKMaG0cixXw https://forms.hsforms.com/ https://app.hubspot.com https://optimize.google.com https://static.accountdock.com/;font-src https://fonts.gstatic.com https://static.npmjs.com/ ;media-src https://player.vimeo.com https://fpdl.vimeocdn.com https://gcs-vimeo.akamaized.net",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-xss-protection": "1; mode=block",
+    "server": "cloudflare",
+    "content-encoding": "br"
+  },
+  "status": 200
+}

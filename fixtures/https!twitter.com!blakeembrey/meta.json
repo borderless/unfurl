@@ -1,0 +1,33 @@
+{
+  "url": "https://twitter.com/blakeembrey",
+  "headers": {
+    ":status": "200",
+    "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+    "content-encoding": "gzip",
+    "content-length": "83441",
+    "content-type": "text/html;charset=utf-8",
+    "date": "Sun, 02 Feb 2020 00:36:32 GMT",
+    "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+    "last-modified": "Sun, 02 Feb 2020 00:36:32 GMT",
+    "pragma": "no-cache",
+    "server": "tsa_a",
+    "set-cookie": [
+      "fm=0; Max-Age=0; Expires=Sun, 2 Feb 2020 00:36:32 GMT; Path=/; Domain=.twitter.com; Secure; HTTPOnly",
+      "_twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCHbaUwNwAToMY3NyZl9p%250AZCIlOGI2YjBlMWI5NDRiMTVmN2UwODZiMWQ2NzNhNzhlZDY6B2lkIiU2MDJj%250AZTg5YWFlN2Y4NTFkY2ExNjc1MzEzNzM5YjFlMw%253D%253D--29ecc75d25299530879168ab44910c9fe2edcb40; Path=/; Domain=.twitter.com; Secure; HTTPOnly",
+      "personalization_id=\"v1_HosVyoDo2XfW/SP+ftla+w==\"; Max-Age=63072000; Expires=Tue, 1 Feb 2022 00:36:32 GMT; Path=/; Domain=.twitter.com",
+      "guest_id=v1%3A158060379198826852; Max-Age=63072000; Expires=Tue, 1 Feb 2022 00:36:32 GMT; Path=/; Domain=.twitter.com",
+      "ct0=c80c2221e709f7665ce2dcff3b311983; Max-Age=21600; Expires=Sun, 2 Feb 2020 06:36:32 GMT; Path=/; Domain=.twitter.com; Secure"
+    ],
+    "status": "200 OK",
+    "strict-transport-security": "max-age=631138519",
+    "x-connection-hash": "df554e2c7811c2839a3a19747b91a338",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-response-time": "201",
+    "x-transaction": "00fe067f00498008",
+    "x-twitter-response-tags": "BouncerCompliant",
+    "x-ua-compatible": "IE=edge,chrome=1",
+    "x-xss-protection": "0"
+  },
+  "status": 200
+}

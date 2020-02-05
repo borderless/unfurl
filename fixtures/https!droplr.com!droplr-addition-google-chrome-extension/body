@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" class="wf-loading">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NQXCJW7');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="description" content="">
+
+  <meta name="norton-safeweb-site-verification" content="mtabda8aro-iln48nlw1awkiq9yfwgjmur4hfvuqju832oju3bun09ftjbn6pwx72zoipgbj68bw3g5fl-u8jsb88wd4cpkhkzmabxbr2hviwuxo-y0t8t1h0wsjz25k" />
+
+  
+  <title>404 Page Not Found</title>
+  <link rel="stylesheet" href="/assets/css/f47ae6b8.style.min.css">
+  <meta name="google-site-verification" content="cUDF12rNH8_BqRH4LSvBJwVThOur3TWKMfpGouxPczo">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="194x194" href="/assets/favicons/favicon-194x194.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/favicons/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicons/site.webmanifest">
+<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#7140_c_c">
+<link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Droplr - Capture + explain your ideas." />
+<meta property="og:url" content="https://droplr.com" />
+<meta property="og:image" content="/assets/images/droplr-preview.png" />
+<meta property="og:description" content="Droplr offers one of the best solution for file sharing, screen recording and send them anywhere" />
+
+</head>
+
+<body class="">
+  <!--[if IE]>
+    <div class="browserupgrade"><p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p></div>
+  <![endif]-->
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+  </script>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQXCJW7"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div id='wrap'>
+    
+        
+          
+            
+ <header class="header"> 
+  <div class="inner">
+    <a class="logo" href="/"><div class="svg-icon svg-logo"></div></a>
+    <div class="hamburger_wrap">
+      <a class="btn btn_white" id="menu_pull">
+        <div class="hamburger" id="hamburger-1">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </a>
+    </div>
+    <div class="btns">
+      <a class="btn btn_white ga_btn_login_header" href="https://auth.droplr.com/login"><span>LOG IN</span></a>
+      <a class="btn btn_green ga_btn_signup_header" href="https://auth.droplr.com/select-plan?trial=true"><span>TRY FOR FREE</span></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="http://help.droplr.com/knowledge/">Help</a></li>
+        <li><a href="/apps">Apps</a></li>
+        <li><a href="/enterprise">Enterprise</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="spacer"></div>
+  <div class="responsive_menu overlay_menu">
+    <div class="overlay_menu_wrap">
+      <ul>
+        <li><a href="http://help.droplr.com/knowledge/">Help</a></li>
+        <li><a href="/apps">Apps</a></li>
+        <li><a href="/enterprise">Enterprise</a></li>
+      </ul>
+      <div class="btns btns--mobile">
+        <a class="btn btn_white ga_btn_login_header" href="https://auth.droplr.com/login"><span>LOG IN</span></a>
+        <a class="btn btn_green ga_btn_signup_header" href="https://auth.droplr.com/"><span>SIGN UP</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+          
+        
+    
+    <div id="main">
+      <section id="not_found">
+  <div class="inner">
+    <div class="left">
+      <div class="svg-icon svg-404"></div>
+      <p class="lg">Heyyy...! What are you doing here?<br/>This place doesn’t exist! <img srcset="/assets/images/404_emoji@2x.png 2x" src="/assets/images/404_emoji.png" alt="emoji"/></p>
+      <p>We know - it looks alien but not too shabby for a page that doesn’t exist, right? (Thanks! That's all for you) OK. Let’s get out of this place!</p>
+      <p><a href="/">&larr; Alright, go back home!</a></p>
+    </div>
+    <div class="right">
+      <img srcset="/assets/images/404@2x.png 2x" src="/assets/images/404.png" alt="404">
+    </div>
+  </div>
+</section>
+
+    </div>
+  </div>
+
+  
+    <footer>
+  <div class="inner">
+    <div class="logo_wrap">
+      <a class="logo" href="/"><div class="svg-icon svg-logo_white"></div></a>
+    </div>
+    <div class="menu_wrap">
+      <div class="menu_section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/careers/">Careers</a></li>
+          <li><a href="/contact/">Contact us</a></li>
+          <li><a href="/press/">Press Kit</a></li>
+        </ul>
+      </div>
+      <div class="menu_section">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="/enterprise/">Enterprise</a></li>
+          <li><a href="/">Droplr PRO</a></li>
+          <li><a href="/reviews/">Customer Stories</a></li>
+        </ul>
+      </div>
+      <div class="menu_section">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="/features/">Why Droplr?</a></li>
+          <li><a href="/integrations/">Integrations</a></li>
+          <li><a href="https://help.droplr.com/knowledge/">Knowledge Base</a></li>
+        </ul>
+      </div>
+      <div class="menu_section">
+        <h4>The Best Articles</h4>
+        <ul>
+          <li><a href="https://help.droplr.com/key-features/file-transfer-how-to-send-large-files">File Transfer</a></li>
+          <li><a href="https://help.droplr.com/key-features/screenshot-how-to-send-visual-feedback">Screenshot Tool</a></li>
+          <li><a href="https://help.droplr.com/key-features/screencast-how-to-easily-record-your-screen">Screencast Tool</a></li>
+          <li><a href="https://help.droplr.com/key-features/dashboard">Cloud Storage</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="social_wrap">
+      <ul>
+        <li><a href="https://www.facebook.com/droplr/"><i class="icon-facebook"></i></a></li>
+        <li><a href="https://twitter.com/droplr/"><i class="icon-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/droplr/"><i class="icon-instagram"></i></a></li>
+        <li><a href="/contact/"><i class="icon-email"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="bottom_bar">
+    <div class="inner">
+      <ul>
+        <li><a href="/terms">Terms & Conditions</a></li>
+        <li><a href="/privacy">Privacy Policy</a></li>
+        <li><a href="/security">Security</a></li>
+      </ul>
+      <p class="copyright">Copyright &copy; 2020 Droplr</p>
+      <div class="spacer"></div>
+    </div>
+  </div>
+</footer>
+
+  
+  
+    <div class="cookies">
+    <div class="cookies__wrapper">
+        <p class="cookies__info">We use cookies.</p>
+        <a href="https://droplr.com/privacy/" class="cookies__link">Privacy Policy</a>
+    </div>
+    <button class="cookies__accept">OK</button>
+</div>
+
+  
+  
+    <script type="text/javascript" src="/assets/js/a0c2835d.bundle.min.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>WebFont.load({google:{families:["Source Sans Pro:400,600,700"]}});</script>
+  <div class="modal">
+    <div class="modal-inner">
+      <a data-modal-close>&#10005;</a>
+      <div class="modal-content"></div>
+    </div>
+  </div>
+</body>
+</html>

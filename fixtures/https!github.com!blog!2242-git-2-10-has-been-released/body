@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>Git 2.10 has been released - The GitHub Blog</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v12.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://github.blog/2016-09-03-git-2-10-has-been-released/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Git 2.10 has been released - The GitHub Blog" />
+<meta property="og:description" content="The open source Git project has just released Git 2.10.0, with features and bugfixes from over 70 contributors. Here&#8217;s our look at some of the most interesting new features: Progress reporting for pushes When you" />
+<meta property="og:url" content="https://github.blog/2016-09-03-git-2-10-has-been-released/" />
+<meta property="og:site_name" content="The GitHub Blog" />
+<meta property="article:publisher" content="https://www.facebook.com/GitHub" />
+<meta property="article:section" content="Featured" />
+<meta property="article:published_time" content="2016-09-03T09:23:46+00:00" />
+<meta property="article:modified_time" content="2019-01-04T16:54:07+00:00" />
+<meta property="og:updated_time" content="2019-01-04T16:54:07+00:00" />
+<meta property="og:image" content="https://github.blog/wp-content/uploads/2016/09/284be2e6-33d4-11e6-9165-58068a872ec2.png?fit=1200%2C630" />
+<meta property="og:image:secure_url" content="https://github.blog/wp-content/uploads/2016/09/284be2e6-33d4-11e6-9165-58068a872ec2.png?fit=1200%2C630" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="The open source Git project has just released Git 2.10.0, with features and bugfixes from over 70 contributors. Here&#8217;s our look at some of the most interesting new features: Progress reporting for pushes When you" />
+<meta name="twitter:title" content="Git 2.10 has been released - The GitHub Blog" />
+<meta name="twitter:site" content="@github" />
+<meta name="twitter:image" content="https://github.blog/wp-content/uploads/2016/09/284be2e6-33d4-11e6-9165-58068a872ec2.png?fit=1200%2C630" />
+<meta name="twitter:creator" content="@github" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://github.blog/#organization","name":"GitHub","url":"https://github.blog/","sameAs":["https://www.facebook.com/GitHub","https://www.instagram.com/github/","https://www.linkedin.com/company/github/","https://www.youtube.com/GitHub","https://twitter.com/github"],"logo":{"@type":"ImageObject","@id":"https://github.blog/#logo","url":"https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=512%2C512","width":512,"height":512,"caption":"GitHub"},"image":{"@id":"https://github.blog/#logo"}},{"@type":"WebSite","@id":"https://github.blog/#website","url":"https://github.blog/","name":"The GitHub Blog","description":"Updates, ideas, and inspiration from GitHub to help developers build and design software.","publisher":{"@id":"https://github.blog/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://github.blog/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://github.blog/2016-09-03-git-2-10-has-been-released/#primaryimage","url":"https://github.blog/wp-content/uploads/2016/09/284be2e6-33d4-11e6-9165-58068a872ec2.png?fit=1200%2C630","width":1200,"height":630},{"@type":"WebPage","@id":"https://github.blog/2016-09-03-git-2-10-has-been-released/#webpage","url":"https://github.blog/2016-09-03-git-2-10-has-been-released/","inLanguage":"en-US","name":"Git 2.10 has been released - The GitHub Blog","isPartOf":{"@id":"https://github.blog/#website"},"primaryImageOfPage":{"@id":"https://github.blog/2016-09-03-git-2-10-has-been-released/#primaryimage"},"datePublished":"2016-09-03T09:23:46+00:00","dateModified":"2019-01-04T16:54:07+00:00"},{"@type":"Article","@id":"https://github.blog/2016-09-03-git-2-10-has-been-released/#article","isPartOf":{"@id":"https://github.blog/2016-09-03-git-2-10-has-been-released/#webpage"},"author":{"@id":"https://github.blog/#/schema/person/aed5acadcdaf697bb429612725de2bcc"},"headline":"Git 2.10 has been released","datePublished":"2016-09-03T09:23:46+00:00","dateModified":"2019-01-04T16:54:07+00:00","commentCount":0,"mainEntityOfPage":{"@id":"https://github.blog/2016-09-03-git-2-10-has-been-released/#webpage"},"publisher":{"@id":"https://github.blog/#organization"},"image":{"@id":"https://github.blog/2016-09-03-git-2-10-has-been-released/#primaryimage"},"articleSection":"Featured"},{"@type":["Person"],"@id":"https://github.blog/#/schema/person/aed5acadcdaf697bb429612725de2bcc","name":"Jeff King","image":{"@type":"ImageObject","@id":"https://github.blog/#authorlogo","url":"https://secure.gravatar.com/avatar/ec515a12aa0fb6ab8b7682a810491d64?s=96&d=mm&r=g","caption":"Jeff King"},"sameAs":[]}]}</script>
+<script type='application/ld+json'>{"headline":"Git 2.10 has been released","@context":"http:\/\/schema.org","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/github.blog\/2016-09-03-git-2-10-has-been-released\/"},"dateModified":"2019-01-04T08:54:07-08:00","datePublished":"2016-09-03T02:23:46-07:00","@type":"BlogPosting","description":"The open source Git project has just released Git 2.10.0, with features and bugfixes from over 70 contributors. Here&#8217;s our look at some of the most interesting new features: Progress reporting for pushes When you","author":{"@type":"Person","name":"Jeff King"},"image":"https:\/\/github.blog\/wp-content\/uploads\/2016\/09\/284be2e6-33d4-11e6-9165-58068a872ec2.png?resize=150%2C150"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="The GitHub Blog &raquo; Feed" href="https://github.blog/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/github.blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='all-css-0' href='https://github.blog/_static/??-eJydzEsOwjAMBNALkVpBgsICcZYmsVLT/BQ7oN6eFLpjx26kmTfwKoqSDc0hg2UGRyxgQraLCmTqVFdgWQMOkdLQBwfowuYkmARkxtidJ5mbUV35r9+O/lNPTC7XvfuRsakSmqfE8EApk10+aM/b/B5v+jRe9XjUl/MbCG5Rdw==' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<script type='text/javascript' src='https://github.blog/wp-content/themes/github-blog/dist/js/vendor/gascrolldepth.min.js?m=1579172186g'></script>
+<link rel='https://api.w.org/' href='https://github.blog/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://github.blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://github.blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+<link rel='shortlink' href='https://wp.me/pamS32-7WL' />
+<link rel="alternate" type="application/json+oembed" href="https://github.blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgithub.blog%2F2016-09-03-git-2-10-has-been-released%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://github.blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgithub.blog%2F2016-09-03-git-2-10-has-been-released%2F&#038;format=xml" />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type='text/css'>img#wpstats{display:none}</style><link rel="icon" href="https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32" sizes="32x32" />
+<link rel="icon" href="https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=192%2C192" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180" />
+<meta name="msapplication-TileImage" content="https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=270%2C270" />
+			<style type="text/css" id="wp-custom-css">
+				ol [href*=uncategorized] {
+	display: none;
+}
+
+.featured-post {
+	z-index: 0 !important;
+}
+
+span.vr {
+	display: none !important;
+}
+
+a.btn-sponsors {
+	font-size: 16px !important;
+	padding: 10px 14px !important;
+	margin-top: 10px;
+	background-color: #0366d6 !important;
+	color: #fff;
+}
+
+.btn-sponsors:hover {
+	background-color: #fff !important;
+	color: #0366d6 !important;
+}
+
+.microcopy-sponsors {
+	font-weight: 400 !important;
+	margin-top: 1px !important;
+	margin-bottom: 20px !important;
+	text-align: center !important;
+}
+
+.code-none span {
+	color: #333 !important;
+	font-weight: normal !important;
+}
+
+.code-highlight {
+	background: yellow !important;
+}
+
+.universe-compact-list {
+	padding-left: 0 !important;
+}
+
+.universe-compact-list li {
+	display: inline-block;
+	border: 1px solid #dfe2e5;
+	border-radius: 3px;
+	padding: 7px 10px;
+	font-size: 13px;
+	margin-bottom: .4em;
+	background-color: #fafbfc;
+}
+
+#ul-columns {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}			</style>
+		
+				<script>
+		// remove no-js and add js to the HTML (do it the cross-brower way)
+		document.documentElement.className = document.documentElement.className.replace('no-js', ' ');
+		document.documentElement.className += ' js ';
+
+		// Webfont loader
+		WebFontConfig = {
+			google: { families: [ 'Roboto+Mono:400,700' ] }
+		};
+
+		(function() {
+			var wf = document.createElement('script');
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+				'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})();
+		</script>
+				<script>
+			// We respect Do Not Track. Since browser support is not yet consistent, we need to check for `window` and `navigator`
+			// See: https://developer.mozilla.org/en-US/docs/Web/API/Navigator/doNotTrack#Browser_compatibility
+			function doNotTrackEnabled() {
+				if (window.doNotTrack && window.doNotTrack == "1") {
+					return true;
+				}
+				if (navigator.doNotTrack && navigator.doNotTrack == "1") {
+					return true;
+				}
+				return false;
+			}
+
+			// Load the segments script! 💖
+			function loadSegment() {
+				if (doNotTrackEnabled()) {
+					return;
+				}
+				!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+				analytics.load("lJBpaa5rQWQ4kQZlHasOfoxmTFzXIdmp");
+				analytics.page();
+				}}();
+			}
+
+			loadSegment();
+		</script>
+				<script>
+			(function ( i, s, o, g, r, a, m ) {
+				i[ 'GoogleAnalyticsObject' ] = r;
+				i[ r ] = i[ r ] || function () {
+					(i[ r ].q = i[ r ].q || []).push( arguments )
+				}, i[ r ].l = 1 * new Date();
+				a = s.createElement( o ),
+					m = s.getElementsByTagName( o )[ 0 ];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore( a, m )
+			})( window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga' );
+			ga( 'create', 'UA-3769691-2', 'auto' );
+			ga( 'send', 'pageview' );
+		</script>
+			</head>
+
+	<body class="post-template-default single single-post postid-30551 single-format-standard">
+
+		
+		
+<div class="top-bar bg-gray-dark px-3">
+	<div class="top-bar__container container-xl d-flex flex-row flex-items-center">
+
+		<a href="https://github.com/" class="text-white f6">
+			Back to GitHub.com		</a>
+
+	</div>
+</div>
+
+		<header class="site-header px-3" role="banner">
+
+			<div class="container-xl d-flex flex-row py-3">
+
+				<div class="d-flex flex-items-center col-6 col-md-4">
+					
+<a href="https://github.blog/" class="site-branding d-flex" aria-label="The GitHub Blog">
+	<svg role="img" height="28" width="28" class="icon-mark-github icon" aria-label="github-logo"><use xlink:href="https://github.blog/wp-content/themes/github-blog/dist/icons/icons.svg#icon-mark-github"/></svg>	<h1 class="site-branding__title h4 text-normal pl-3 mt-1 alt-mono-font">
+		The GitHub Blog	</h1>
+</a>
+				</div>
+
+				<div class="header-right d-flex col-6 col-md-8 flex-justify-end">
+					
+<div class="d-none d-lg-flex flex-items-center flex-justify-between">
+	<nav id="js-primary-nav" class="primary-nav" aria-label="Primary">
+
+		<ul id="menu-primary-navigation" class="primary-nav__menu d-flex flex-self-center flex-shrink-0 text-white"><li id="menu-item-46666" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46666"><a href="http://github.blog/changelog">Changelog</a></li>
+<li id="menu-item-46564" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-46564"><a href="https://github.blog/category/community/">Community</a>
+<ul class="sub-menu">
+	<li id="menu-item-46566" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46566"><a href="https://github.blog/category/community/education/">Education</a></li>
+	<li id="menu-item-46567" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46567"><a href="https://github.blog/category/community/events/">Events</a></li>
+	<li id="menu-item-46572" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46572"><a href="https://github.blog/category/community/insights/">Insights</a></li>
+	<li id="menu-item-49686" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49686"><a href="https://github.blog/category/community/open-source/">Open source</a></li>
+</ul>
+</li>
+<li id="menu-item-46570" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46570"><a href="https://github.blog/category/company/">Company</a></li>
+<li id="menu-item-46568" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46568"><a href="https://github.blog/category/engineering/">Engineering</a></li>
+<li id="menu-item-46563" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46563"><a href="https://github.blog/category/enterprise/">Enterprise</a></li>
+<li id="menu-item-46569" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-46569"><a href="https://github.blog/category/product/">Product</a>
+<ul class="sub-menu">
+	<li id="menu-item-46582" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46582"><a href="https://github.blog/category/product/editor-tools/">Editor tools</a></li>
+	<li id="menu-item-46579" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46579"><a href="https://github.blog/category/product/features/">Features</a></li>
+	<li id="menu-item-50520" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-50520"><a href="https://github.blog/category/product/security/">Security</a></li>
+</ul>
+</li>
+</ul>
+	</nav>
+
+	<div class="header-search__toggle-container d-flex flex-self-auto flex-justify-end mx-3">
+		<button type="button"
+				aria-expanded="false"
+				aria-controls="js-header-search"
+				aria-haspopup="true"
+				class="header-search__toggle btn btn-outline btn-link anim-fade-in fast px-2"
+				id="js-search-toggle">
+			<svg role="img" height="16" width="16" class="icon-search icon" aria-label="search"><use xlink:href="https://github.blog/wp-content/themes/github-blog/dist/icons/icons.svg#icon-search"/></svg>		</button>
+	</div>
+</div>
+
+					<div id="js-header-search" class="header-search d-none col-6 box-shadow-large p-3" aria-hidden="true">
+	<form role="search" method="get" class="header-search__form col-12" action="https://github.blog">
+		<label class="search-form__label screen-reader-text" for="search-input">Search by Keyword</label>
+
+		<div class="header-search__form-fields d-flex flex-row flex-items-center">
+			<input type="search" class="search-field form-control flex-auto p-2 mr-2" placeholder="Search …" value="" name="s" id="search-input">
+
+			<div class="site-search__submit ml-2">
+				<button type="submit" class="btn btn-outline px-4 py-2 search-submit">
+					Search
+					<svg role="img" height="12" width="12" class="icon-arrow-skinny-right icon" aria-label="arrow-skinny-right"><use xlink:href="https://github.blog/wp-content/themes/github-blog/dist/icons/icons.svg#icon-arrow-skinny-right"/></svg>				</button>
+			</div>
+		</div>
+	</form>
+</div>
+
+					<button class="mobile-nav-toggle d-lg-none btn border-0 px-2"
+							id="js-mobile-nav-toggle"
+							aria-controls="js-mobile-nav"
+							aria-expanded="false">
+						<span class="screen-reader-text">
+							Primary Menu						</span>
+						<div class="burger-menu">
+							<div class="burger"></div>
+						</div>
+					</button>
+
+				</div>
+			</div>
+
+			
+<nav id="js-mobile-nav" class="mobile-nav d-none d-flex flex-column col-12" role="navigation" aria-label="Mobile">
+	<ul id="menu-primary-navigation-1" class="primary-nav__menu col-12 px-3 d-flex flex-column text-white"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46666"><a href="http://github.blog/changelog">Changelog</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-46564"><a href="https://github.blog/category/community/">Community</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46566"><a href="https://github.blog/category/community/education/">Education</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46567"><a href="https://github.blog/category/community/events/">Events</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46572"><a href="https://github.blog/category/community/insights/">Insights</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49686"><a href="https://github.blog/category/community/open-source/">Open source</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46570"><a href="https://github.blog/category/company/">Company</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46568"><a href="https://github.blog/category/engineering/">Engineering</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46563"><a href="https://github.blog/category/enterprise/">Enterprise</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-46569"><a href="https://github.blog/category/product/">Product</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46582"><a href="https://github.blog/category/product/editor-tools/">Editor tools</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46579"><a href="https://github.blog/category/product/features/">Features</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-50520"><a href="https://github.blog/category/product/security/">Security</a></li>
+</ul>
+</li>
+</ul>
+	<div class="mobile-nav__search col-12 px-3 my-4">
+
+		<form role="search" method="get" class="header-search__form col-12" action="https://github.blog">
+			<label class="search-form__label screen-reader-text" for="mobile-search-input">Search by Keyword</label>
+
+			<div class="d-flex flex-row flex-items-center">
+				<input type="search" class="search-field form-control flex-auto p-2 mr-2" placeholder="Search …" value="" name="s" id="mobile-search-input">
+
+				<div class="site-search__submit ml-2">
+					<button type="submit" class="btn btn-outline px-4 py-2 search-submit">
+						<svg role="img" height="16" width="16" class="icon-search icon" aria-label="search"><use xlink:href="https://github.blog/wp-content/themes/github-blog/dist/icons/icons.svg#icon-search"/></svg>
+						<div class="screen-reader-text">
+							Search						</div>
+					</button>
+				</div>
+			</div>
+		</form>
+
+	</div>
+</nav>
+
+		</header><!-- .site-header -->
+
+		<main class="site-main" id="main" role="main">
+
+	<section class="main-post px-3 py-4 pb-md-8">
+
+					
+			<div class="container-md">
+
+				<article  id="post-30551" class="col-12 post-30551 post type-post status-publish format-standard has-post-thumbnail hentry category-featured">
+
+					
+<div class="post-featured mb-3 mb-md-9 pb-0 pb-md-4 ">
+	
+		<div class="post-featured__image">
+
+			<img width="1200" height="630" src="https://github.blog/wp-content/uploads/2016/09/284be2e6-33d4-11e6-9165-58068a872ec2.png?fit=1200%2C630" class="attachment-full size-full wp-post-image" alt="" srcset="https://github.blog/wp-content/uploads/2016/09/284be2e6-33d4-11e6-9165-58068a872ec2.png?w=1200 1200w, https://github.blog/wp-content/uploads/2016/09/284be2e6-33d4-11e6-9165-58068a872ec2.png?w=300 300w, https://github.blog/wp-content/uploads/2016/09/284be2e6-33d4-11e6-9165-58068a872ec2.png?w=768 768w, https://github.blog/wp-content/uploads/2016/09/284be2e6-33d4-11e6-9165-58068a872ec2.png?w=1024 1024w" sizes="(max-width: 1200px) 100vw, 1200px" />
+		</div>
+
+	</div>
+
+
+					<header class="post__header d-block mb-6">
+
+	<div class="post__header-content">
+		<div class="post__meta d-flex flex-column flex-md-row flex-md-items-center my-3 col-12">
+			<p class="post__date m-0 alt-mono-font f5">
+				<time datetime="2016-09-03" pubdate>
+					September 3, 2016				</time>
+
+			</p>
+							<span class="spacer-line col-1"></span>
+				<div class="post__categories col-12 col-md-6 flex-auto d-flex flex-row flex-wrap alt-mono-font">
+					
+	<li><a href="https://github.blog/category/uncategorized/featured/">Featured</a></li>				</div>
+					</div>
+
+		<h1 class="post__title my-2 f00-light lh-condensed">
+			Git 2.10 has been released		</h1>
+
+					<a href="https://github.blog/author/peff/" class="author-block d-inline-flex flex-row flex-items-center">
+	<div class="author-block__pic mr-3">
+		<img alt='Image of Jeff King' src='https://avatars2.githubusercontent.com/u/45925?v=4&#038;s=35' srcset='https://avatars2.githubusercontent.com/u/45925?v=4&#038;s=70 2x' class='avatar avatar-35 photo avatar-default' height='35' width='35' itemprop="image" />	</div>
+	<p class="hero-post__author-name f5 m-0">
+		Jeff King	</p>
+</a>
+			</div>
+
+</header>
+
+					
+<div class="post__content markdown-body col-12 col-md-10 mb-2 mb-md-4">
+
+	<p>The open source Git project has just released Git 2.10.0, with features and bugfixes from over <a href="http://public-inbox.org/git/xmqqtwdxsp5q.fsf@gitster.mtv.corp.google.com/">70 contributors</a>. Here&#8217;s our look at some of the most interesting new features:</p>
+<h2 id="progress-reporting-for-pushes">Progress reporting for pushes<a href="#progress-reporting-for-pushes" class="heading-link" aria-label="Progress reporting for pushes" data-anchorjs-icon="#" style="padding-left: 0.375em;"></a></h2>
+<p>When you run <code>git push</code>, you&#8217;ve probably seen a progress meter telling you how many objects you&#8217;ve sent, how many are left, and how fast the data is moving. But what happens after all of the data has made it to the server? Are we done?</p>
+<p>Not quite. Even though the receiver of a push does as much work as possible while the data is flowing in, there are a few CPU-intensive tasks it can&#8217;t start until the whole thing has arrived. And while that&#8217;s happening, Git is completely silent. Most pushes are small enough that this phase finishes quickly, and you never notice. But when pushing a large number of objects, this can take many seconds or even minutes, leaving you to wonder if things are still working.</p>
+<p>Worse, because the network connection is completely silent during this phase, you run the risk of the connection being dropped by HTTP proxies or other network infrastructure. That&#8217;s an easy way to turn your wondering into frustration.</p>
+<p>Git 2.10 adds progress reports for these post-receive operations, to keep you entertained and to make sure the network knows we&#8217;re still going.</p>
+<p><img width="1360" height="500" src="https://github.blog/wp-content/uploads/2016/09/34bb6956-6dff-11e6-8e3e-8a92c0bddaef.gif?resize=1360%2C500" class="attachment-full size-full" alt="Push progress" data-recalc-dims="1"></p>
+<p>Of course you&#8217;re not always around to watch those progress meters. For pushes without a terminal (or run with <code>--quiet</code>), Git 2.10 also sends periodic &#8220;keepalive&#8221; packets to keep the network connection running.</p>
+<p>The progress reporting and keepalives are all implemented on the server side of the connection, and are backwards-compatible with all existing versions of Git. So you don&#8217;t even need to upgrade to see them (but your hosting provider does).</p>
+<p>A few other progress-related improvements came along for the ride, too.  <code>git clone</code> now gives an accurate progress meter when checking that it received all of the necessary objects. And some progress messages, like those from an auto-gc of the remote repository, are more clearly marked as coming from the remote.</p>
+<p>[<a href="https://github.com/git/git/compare/67b3a5d4c084c3f579205a07b65169e742d39c02...83558686ceaeb634b630d5177818d571cafafbf4">source</a>, <a href="https://github.com/git/git/commit/860a2ebecd26563e6ac0f89c90052b41a17d1703">source</a>]</p>
+<h2 id="signature-verification-improvements">Signature verification improvements<a href="#signature-verification-improvements" class="heading-link" aria-label="Signature verification improvements" data-anchorjs-icon="#" style="padding-left: 0.375em;"></a></h2>
+<p>GPG-signed tags and commits have been a part of Git for a long time, but the workflows and tooling around them are still not that convenient to use. Git 2.10 takes a few incremental steps in this area. Along with some behind-the-scenes robustness improvements, it adds a new configuration option, <code>log.showSignature</code>, to verify signatures for every invocation of <code>git log</code>.</p>
+<p>The default output format for signature verification has also been changed to show 64-bit GPG key-ids, even when using older versions of GPG (64-bit ids are already the default on newer versions). This is in response to the <a href="https://evil32.com/">Evil 32</a> project, which showed how easy it is to generate &#8220;fake&#8221; keys which collide in the 32-bit key-id space. That project is two years old, but got new attention recently as somebody uploaded all of the fake keys from their dataset to the public keyservers.</p>
+<p>If you&#8217;re not yet signing your commits and tags, there are <a href="https://help.github.com/articles/generating-a-new-gpg-key/">several</a> <a href="https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work">guides</a> to help you get started.</p>
+<p>[<a href="https://github.com/git/git/commit/fce04c3ca695d32c1b3c59e1bfc1fb4019025c72">source</a>,<br />
+<a href="https://github.com/git/git/commit/b624a3e67f498cb41f704c9bd28e7d53076611c8">source</a>,<br />
+<a href="https://github.com/git/git/compare/1d77bed8b02d902f11310f578debe933b90791f6...efee9553a4f97b2ecd8f49be19606dd4cf7d9c28">source</a>]</p>
+<h2 id="more-color-attributes">More color attributes<a href="#more-color-attributes" class="heading-link" aria-label="More color attributes" data-anchorjs-icon="#" style="padding-left: 0.375em;"></a></h2>
+<p>You&#8217;ve probably seen that Git can produce colorful output in your terminal.  But did you know that those colors are configurable, or that you can use them in custom <code>log</code> formats and prompts? Some people <a href="https://github.com/olivierverdier/zsh-git-prompt">get</a> <a href="https://coderwall.com/p/euwpig/a-better-git-log">pretty</a> <a href="https://github.com/magicmonty/bash-git-prompt">fancy</a>.</p>
+<p>Git 2.10 comes with a few new options: its color code now understands italic and strikethrough attributes.</p>
+<p><img width="1360" height="500" src="https://github.blog/wp-content/uploads/2016/09/34bdb0f8-6dff-11e6-8ae5-4177e25d5f39.gif?resize=1360%2C500" class="attachment-full size-full" alt="new-color-options" data-recalc-dims="1"></p>
+<p>In addition, the <code>%C(auto)</code> placeholder has been fixed (which is handy if you are designing custom <code>log</code> output), color support now works out of the box on FreeBSD, and the default colors for <code>HEAD</code> decorations have been tweaked to increase visibility.</p>
+<p>[<a href="https://github.com/git/git/compare/bb2d8a817df91c68742e10ace2a791de176f7247...9dc3515cf005639317fb95492b3157aadf056923">source</a>, <a href="https://github.com/git/git/commit/b15a3e005af07843116c73205742adfbab3d2e82">source</a>, <a href="https://github.com/git/git/commit/995bc22d7f8c611e342095a211065f8585a08e65">source</a>, <a href="https://github.com/git/git/commit/a903e233f65a3e93cad74007cc0d5a178f712263">source</a>]</p>
+<h2 id="odds-and-ends">Odds and ends<a href="#odds-and-ends" class="heading-link" aria-label="Odds and ends" data-anchorjs-icon="#" style="padding-left: 0.375em;"></a></h2>
+<ul>
+<li>You shouldn&#8217;t ever need to debug your HTTP connections, but if you do, Git 2.10 supports the <code>GIT_TRACE_CURL</code> environment variable. It supersedes the old <code>GIT_CURL_VERBOSE</code> variable, and gives more details, supports redirecting to a file (to avoid tangling with the rest of Git&#8217;s output), and most importantly, will automatically scrub your authentication information from the result, making it safe to share the output with a fellow debugger.  [<a href="https://github.com/git/git/commit/74c682d3c63bff8860af5caf9bd38a5413568709">source</a>]</li>
+<li>The smart-http protocol will now grow its negotiation windows more aggressively, which should result in fewer round-trips when fetching a large repository over HTTP. [<a href="https://github.com/git/git/commit/da470981defcace6e909b74ebc4ab5a40a702728">source</a>]</li>
+<li>
+<code>submodule update</code> and <code>clone --recursive</code> have learned to retry a single cloning failure for each submodule, to make ephemeral server and network failures less annoying.  [<a href="https://github.com/git/git/compare/89b8710fce0d1b3d99c0a1c218bacb82ff0811e4...bb9d91b4ed54df7bd970c82971ba2851e6735d72">source</a>]</li>
+<li>Manpages in the terminal will now have <code>literal</code> phrases shown in <strong>bold</strong> (these are generally shown in a fixed-space typewriter font in the HTML pages, but were not decorated at all in the terminal). [<a href="https://github.com/git/git/commit/5945717009cbd07fc303939452df6475ac342fe7">source</a>]</li>
+<li>Git&#8217;s internal date-formatting code can now correctly show dates past the year 2100. Phew, fixed with only 84 years to spare. [<a href="https://github.com/git/git/commit/bab748371a104c58058c0eff9f4073b710ce0355">source</a>]</li>
+<li>Similarly, <code>git archive</code> can now generate tarfiles with POSIX extensions to handle files larger than 8GB, and timestamps later than the year 2242 (8 giga-seconds since 1970). [<a href="https://github.com/git/git/compare/42bd66816bd117ed5e6d15f38dbe9e655ebc76a5...5caeeb83bcb88622db739fe27ee8bfc64e9cbf21">source</a>]</li>
+</ul>
+<h2 id="the-whole-enchilada">The whole enchilada<a href="#the-whole-enchilada" class="heading-link" aria-label="The whole enchilada" data-anchorjs-icon="#" style="padding-left: 0.375em;"></a></h2>
+<p>That&#8217;s just a sampling of the changes in Git 2.10, which contains over 600 commits. Check out the <a href="https://github.com/git/git/blob/v2.10.0/Documentation/RelNotes/2.10.0.txt">the full release notes</a> for the complete list.</p>
+
+	<div class="post__social-share pt-5 pt-md-0">
+	<div class="social-links">
+
+		<strong class="section-label f3 alt-mono-font text-gray d-inline-block mb-2 mb-lg-4 underline-dash">
+			Share		</strong>
+
+		<ul class="social-links__list d-flex flex-row flex-lg-column">
+			<li class="social-links__item">
+				<a href="https://twitter.com/share?text=Git 2.10 has been released&url=https://github.blog/2016-09-03-git-2-10-has-been-released/" target="_blank" rel="noopener noreferrer" class="social-links__link">
+					<svg role="img" height="16" width="16" class="icon-twitter icon" aria-label="twitter"><use xlink:href="https://github.blog/wp-content/themes/github-blog/dist/icons/icons.svg#icon-twitter"/></svg>
+				<span class="social-links__text f5">
+					Twitter					<span class="screen-reader-text">
+						Share on Twitter					</span>
+				</span>
+				</a>
+			</li>
+
+			<li class="social-links__item">
+				<a href="https://www.facebook.com/sharer/sharer.php?u=https://github.blog/2016-09-03-git-2-10-has-been-released/&t=Git%202.10%20has%20been%20released" target="_blank" rel="noopener noreferrer" class="social-links__link">
+					<svg role="img" height="16" width="16" class="icon-facebook icon" aria-label="facebook"><use xlink:href="https://github.blog/wp-content/themes/github-blog/dist/icons/icons.svg#icon-facebook"/></svg>					<span class="social-links__text f5">
+					Facebook						<span class="screen-reader-text">
+						Share on Facebook					</span>
+				</span>
+				</a>
+			</li>
+
+			<li class="social-links__item mb-2 mr-2">
+				<a
+					href="https://www.linkedin.com/shareArticle?url=https://github.blog/2016-09-03-git-2-10-has-been-released/&title=Git%202.10%20has%20been%20released"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="social-links__link">
+					<svg role="img" height="16" width="16" class="icon-linkedin icon" aria-label="linkedin"><use xlink:href="https://github.blog/wp-content/themes/github-blog/dist/icons/icons.svg#icon-linkedin"/></svg>					<span class="social-links__text f5">
+					LinkedIn						<span class="screen-reader-text">
+						Share on LinkedIn					</span>
+				</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+</div>
+
+				</article>
+
+			</div>
+
+		
+	</section>
+
+	<section class="related-posts px-3 py-6 py-md-9 bg-gray-light">
+
+	<div class="container-xl">
+		<strong class="section-label f3 alt-mono-font text-gray d-inline-block mb-4 underline-dash">
+			Related posts		</strong>
+	</div>
+
+	<div class="container-xl d-flex flex-column flex-md-row mt-4">
+
+		<div class="related-posts__post col-12 col-md-4 px-3 pl-md-0 pr-md-5">
+<article class="post-item d-flex flex-column flex-lg-row mb-8 px-sm-0">
+
+	<div class="post-item__content col-12 col-lg-6">
+
+		<div class="post__meta d-flex flex-column flex-lg-row flex-lg-items-center f4">
+			<p class="post__date m-0 alt-mono-font">
+				<time datetime="2019-10-08" pubdate>
+					October 8, 2019				</time>
+			</p>
+
+			<span class="spacer-line"></span>
+
+			<div class="post__categories flex-auto">
+				<a class="alt-mono-font" href="https://github.blog/category/community/">Community</a>			</div>
+		</div>
+
+		<h4 class="post-item__title f3 mb-4">
+			<a href="https://github.blog/2019-10-08-js13k-2019-highlights/">
+				Highlights from the js13kGames 2019 competition			</a>
+		</h4>
+
+		<div class="post-item__excerpt mb-3">
+			<p>We take a look at the top 10 games as voted on by the community in the 8th annual JS13K competition. </p>
+		</div>
+
+		<a href="https://github.blog/author/leereilly/" class="author-block d-inline-flex flex-row flex-items-center">
+	<div class="author-block__pic mr-3">
+		<img alt='Image of Lee Reilly' src='https://avatars3.githubusercontent.com/u/121322?v=4&#038;s=35' srcset='https://avatars3.githubusercontent.com/u/121322?v=4&#038;s=70 2x' class='avatar avatar-35 photo avatar-default' height='35' width='35' itemprop="image" />	</div>
+	<p class="hero-post__author-name f5 m-0">
+		Lee Reilly	</p>
+</a>
+
+	</div>
+
+</article>
+</div><div class="related-posts__post col-12 col-md-4 px-3 pl-md-0 pr-md-5">
+<article class="post-item d-flex flex-column flex-lg-row mb-8 px-sm-0">
+
+	<div class="post-item__content col-12 col-lg-6">
+
+		<div class="post__meta d-flex flex-column flex-lg-row flex-lg-items-center f4">
+			<p class="post__date m-0 alt-mono-font">
+				<time datetime="2019-01-20" pubdate>
+					January 20, 2019				</time>
+			</p>
+
+			<span class="spacer-line"></span>
+
+			<div class="post__categories flex-auto">
+				<a class="alt-mono-font" href="https://github.blog/category/community/">Community</a>			</div>
+		</div>
+
+		<h4 class="post-item__title f3 mb-4">
+			<a href="https://github.blog/2019-01-20-release-radar-december-2018/">
+				Release Radar · December 2018			</a>
+		</h4>
+
+		<div class="post-item__excerpt mb-3">
+			<p>We&#8217;re sharing new and exciting releases from world-changing technologies to weekend side projects in the December 2018 edition of Release Radar.</p>
+		</div>
+
+		<a href="https://github.blog/author/leereilly/" class="author-block d-inline-flex flex-row flex-items-center">
+	<div class="author-block__pic mr-3">
+		<img alt='Image of Lee Reilly' src='https://avatars3.githubusercontent.com/u/121322?v=4&#038;s=35' srcset='https://avatars3.githubusercontent.com/u/121322?v=4&#038;s=70 2x' class='avatar avatar-35 photo avatar-default' height='35' width='35' itemprop="image" />	</div>
+	<p class="hero-post__author-name f5 m-0">
+		Lee Reilly	</p>
+</a>
+
+	</div>
+
+</article>
+</div><div class="related-posts__post col-12 col-md-4 px-3 pl-md-0 pr-md-5">
+<article class="post-item d-flex flex-column flex-lg-row mb-8 px-sm-0">
+
+	<div class="post-item__content col-12 col-lg-6">
+
+		<div class="post__meta d-flex flex-column flex-lg-row flex-lg-items-center f4">
+			<p class="post__date m-0 alt-mono-font">
+				<time datetime="2019-01-17" pubdate>
+					January 17, 2019				</time>
+			</p>
+
+			<span class="spacer-line"></span>
+
+			<div class="post__categories flex-auto">
+				<a class="alt-mono-font" href="https://github.blog/category/product/editor-tools/">Editor tools</a>			</div>
+		</div>
+
+		<h4 class="post-item__title f3 mb-4">
+			<a href="https://github.blog/2019-01-17-github-desktop-update/">
+				GitHub Desktop 1.6 now available			</a>
+		</h4>
+
+		<div class="post-item__excerpt mb-3">
+			<p>We are excited to release GitHub Desktop 1.6, bringing new features and improvements around onboarding, suggested next steps, and large file restrictions.</p>
+		</div>
+
+		<a href="https://github.blog/author/nerdneha/" class="author-block d-inline-flex flex-row flex-items-center">
+	<div class="author-block__pic mr-3">
+		<img alt='Image of Neha Batra' src='https://avatars0.githubusercontent.com/u/1834387?v=4&#038;s=35' srcset='https://avatars0.githubusercontent.com/u/1834387?v=4&#038;s=70 2x' class='avatar avatar-35 photo avatar-default' height='35' width='35' itemprop="image" />	</div>
+	<p class="hero-post__author-name f5 m-0">
+		Neha Batra	</p>
+</a>
+
+	</div>
+
+</article>
+</div>
+	</div>
+
+</section>
+
+
+	
+	</main><!--/.site-main-->
+
+	<footer class="site-footer mt-6" id="footer" role="contentinfo">
+
+		<div class="container-lg p-responsive">
+			<div class="d-flex flex-wrap py-5 mb-5">
+				<div class="col-12 col-lg-4 mb-5">
+					<a href="https://github.blog" class="text-gray-dark" aria-label="Go to GitHub homepage">
+						<svg role="img" height="30" width="84" class="icon-logo-github icon" aria-label="logo-github"><use xlink:href="https://github.blog/wp-content/themes/github-blog/dist/icons/icons.svg#icon-logo-github"/></svg>					</a>
+				</div>
+				<div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-lg-0 pl-lg-4">
+					<h4 class="mb-3 text-mono text-gray-light text-normal">
+						Product					</h4>
+					<ul class="list-style-none text-gray f5">
+						<li class="lh-condensed mb-3">
+							<a href="https://github.com/features" class="link-gray">
+								Features							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://github.com/security" class="link-gray">
+								Security							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://github.com/enterprise" class="link-gray">
+								Enterprise							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://github.com/customer-stories" class="link-gray">
+								Customer stories							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://github.com/pricing" class="link-gray">
+								Pricing							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://resources.github.com" class="link-gray">
+								Resources							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4">
+					<h4 class="mb-3 text-mono text-gray-light text-normal">
+						Platform					</h4>
+					<ul class="list-style-none f5">
+						<li class="lh-condensed mb-3">
+							<a href="https://developer.github.com/" class="link-gray">
+								Developer API							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="http://partner.github.com" class="link-gray">
+								Partners							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://atom.io" class="link-gray">
+								Atom							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="http://electron.atom.io" class="link-gray">
+								Electron							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://desktop.github.com" class="link-gray">
+								GitHub Desktop							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4">
+					<h4 class="mb-3 text-mono text-gray-light text-normal">
+						Support					</h4>
+					<ul class="list-style-none f5">
+						<li class="lh-condensed mb-3">
+							<a href="https://help.github.com" class="link-gray">
+								Help							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://github.community" class="link-gray">
+								Community Forum							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://services.github.com" class="link-gray">
+								Training							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://status.github.com" class="link-gray">
+								Status							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://github.com/contact" class="link-gray">
+								Contact							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4">
+					<h4 class="mb-3 text-mono text-gray-light text-normal">
+						Company					</h4>
+					<ul class="list-style-none f5">
+						<li class="lh-condensed mb-3">
+							<a href="https://github.com/about" class="link-gray">
+								About							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://github.blog" class="link-gray">
+								Blog							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://github.com/about/careers" class="link-gray">
+								Careers							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://github.com/about/press" class="link-gray">
+								Press							</a>
+						</li>
+						<li class="lh-condensed mb-3">
+							<a href="https://shop.github.com" class="link-gray">
+								Shop							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="bg-gray-light">
+			<div class="container-lg p-responsive f6 py-4 d-sm-flex flex-justify-between flex-row-reverse flex-items-center">
+				<ul class="list-style-none d-flex flex-items-center mb-3 mb-sm-0 lh-condensed-ultra site-footer__social-list">
+					<li class="mr-3">
+						<a href="https://twitter.com/github">
+							<svg role="img" height="18" width="22" class="icon-twitter icon" aria-label="twitter"><use xlink:href="https://github.blog/wp-content/themes/github-blog/dist/icons/icons.svg#icon-twitter"/></svg>							<span class="screen-reader-text">Github Twitter link</span>
+						</a>
+					</li>
+					<li class="mr-3">
+						<a href="https://www.facebook.com/GitHub">
+							<svg role="img" height="18" width="22" class="icon-facebook icon" aria-label="facebook"><use xlink:href="https://github.blog/wp-content/themes/github-blog/dist/icons/icons.svg#icon-facebook"/></svg>							<span class="screen-reader-text">Github Facebook link</span>
+						</a>
+					</li>
+					<li class="mr-3">
+						<a href="https://www.youtube.com/github">
+							<svg role="img" height="18" width="22" class="icon-youtube icon" aria-label="youtube"><use xlink:href="https://github.blog/wp-content/themes/github-blog/dist/icons/icons.svg#icon-youtube"/></svg>							<span class="screen-reader-text">Github Youtube link</span>
+						</a>
+					</li>
+					<li class="mr-3 flex-self-start">
+						<a href="https://www.linkedin.com/company/github">
+							<svg role="img" height="18" width="22" class="icon-linkedin icon" aria-label="linkedin"><use xlink:href="https://github.blog/wp-content/themes/github-blog/dist/icons/icons.svg#icon-linkedin"/></svg>							<span class="screen-reader-text">Github LinkedIn link</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/github" >
+							<svg role="img" height="20" width="20" class="icon-mark-github icon" aria-label="mark-github"><use xlink:href="https://github.blog/wp-content/themes/github-blog/dist/icons/icons.svg#icon-mark-github"/></svg>							<span class="screen-reader-text">Github link</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="list-style-none d-flex text-gray">
+					<li class="mr-3">
+						© 2020 GitHub, Inc.					</li>
+					<li class="mr-3">
+						<a href="https://github.com/site/terms" class="link-gray">
+							Terms						</a>
+					</li>
+					<li>
+						<a href="https://github.com/site/privacy" class="link-gray">
+							Privacy						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+</footer><!--/.site-footer-->
+
+	<script type='text/javascript' src='https://github.blog/_static/??-eJyNjksOwjAMRC9EahUJCgvEURBp3NTF+ah2irg9oQKpS1YjyzNvBp7Z9CkqRoVQTObiKQpMqPneP+BGsQdbiB3kMWmKX2kCxWaSHWziOmJAAU86FmssJw93EdRKE1gwujSDLN5QDZic+DUQ8x8QR6IfxDCvHrftrvO4OFwr6onB4u9/DZf20J3bbt+ejtMb1mBVVQ=='></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202005.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.1.1',blog:'153214340',post:'30551',tz:'-8',srv:'github.blog'} ]);
+	_stq.push([ 'clickTrackerInit', '153214340', '30551' ]);
+</script>
+	</body>
+</html>

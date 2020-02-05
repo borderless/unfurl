@@ -1,0 +1,21 @@
+{
+  "url": "https://www.w3.org/TR/json-ld/",
+  "headers": {
+    ":status": "200",
+    "date": "Sun, 02 Feb 2020 00:36:58 GMT",
+    "content-location": "Overview.html",
+    "last-modified": "Tue, 10 Dec 2019 07:40:39 GMT",
+    "etag": "\"f83a9-59954a0e1abc0;50c0cc2915ac0-gzip\"",
+    "accept-ranges": "bytes",
+    "cache-control": "max-age=31536000",
+    "expires": "Mon, 01 Feb 2021 00:36:58 GMT",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "link": "<https://timetravel.mementoweb.org/w3c/timegate/https://www.w3.org/TR/json-ld11/>;rel=\"timegate\"",
+    "access-control-allow-origin": "*",
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": "max-age=15552000; includeSubdomains; preload",
+    "content-security-policy": "upgrade-insecure-requests"
+  },
+  "status": 200
+}

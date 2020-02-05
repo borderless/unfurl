@@ -1,0 +1,19 @@
+{
+  "url": "https://buy.boostedboards.com/vehicles/all-boards",
+  "headers": {
+    ":status": "200",
+    "date": "Sun, 02 Feb 2020 00:38:03 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "x-powered-by": "Next.js",
+    "access-control-allow-origin": "*",
+    "vary": "Accept-Encoding",
+    "cf-cache-status": "DYNAMIC",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "strict-transport-security": "max-age=0; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "server": "cloudflare",
+    "cf-ray": "55e8199ddb45eef2-LAX",
+    "content-encoding": "br"
+  },
+  "status": 200
+}

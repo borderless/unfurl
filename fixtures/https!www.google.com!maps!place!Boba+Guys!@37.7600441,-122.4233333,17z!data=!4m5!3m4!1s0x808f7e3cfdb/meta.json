@@ -1,0 +1,21 @@
+{
+  "url": "https://www.google.com/maps/place/Boba+Guys/@37.7600441,-122.4233333,17z/data=!4m5!3m4!1s0x808f7e3cfdb89265:0x8ae0820c41111f70!8m2!3d37.7600017!4d-122.4211124",
+  "headers": {
+    ":status": "200",
+    "date": "Sun, 02 Feb 2020 00:36:36 GMT",
+    "expires": "-1",
+    "cache-control": "private, max-age=0",
+    "content-type": "text/html; charset=UTF-8",
+    "p3p": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+    "content-encoding": "gzip",
+    "server": "gws",
+    "x-xss-protection": "0",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": [
+      "1P_JAR=2020-02-02-00; expires=Tue, 03-Mar-2020 00:36:36 GMT; path=/; domain=.google.com; Secure",
+      "NID=197=WLMVkiBrq2IIQxN8VclevAGs5PTwU15AFPKfbRfh-sTfVBaak3qVjeCyiNXjf7LQNjxsEAl8KpoARINywJyzfNhFr3fLg-6XAt0wl5AusIeXHtPj76jlRaLIZICy-G1AGL1o4dfTg5v3OtsUZRsV3jsMXsIDrdLvpIrcDI97-_Q; expires=Mon, 03-Aug-2020 00:36:36 GMT; path=/; domain=.google.com; HttpOnly"
+    ],
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"
+  },
+  "status": 200
+}

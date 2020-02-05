@@ -1,0 +1,17 @@
+{
+  "url": "https://schema.org/WebSite",
+  "headers": {
+    ":status": "200",
+    "cache-control": "no-cache",
+    "access-control-allow-origin": "*",
+    "etag": "f15a12de88b90d01b38aca03993d9d46",
+    "last-modified": "Tue, 28 Jan 2020 17:29:26 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "x-cloud-trace-context": "2ca8953fd8018ba51759f2b7c1dd8d4a",
+    "date": "Sun, 02 Feb 2020 00:36:56 GMT",
+    "server": "Google Frontend",
+    "content-length": "89558",
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"
+  },
+  "status": 200
+}

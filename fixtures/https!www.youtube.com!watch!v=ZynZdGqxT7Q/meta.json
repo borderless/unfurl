@@ -1,0 +1,18 @@
+{
+  "url": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+  "headers": {
+    ":status": "200",
+    "strict-transport-security": "max-age=31536000",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "content-encoding": "br",
+    "expires": "Tue, 27 Apr 1971 19:44:06 GMT",
+    "cache-control": "no-cache",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 02 Feb 2020 00:36:55 GMT",
+    "server": "YouTube Frontend Proxy",
+    "x-xss-protection": "0",
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"
+  },
+  "status": 200
+}

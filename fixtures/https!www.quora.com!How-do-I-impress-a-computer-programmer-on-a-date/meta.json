@@ -1,0 +1,35 @@
+{
+  "url": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date",
+  "headers": {
+    ":status": "200",
+    "cache-control": "private, no-store, max-age=0, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "content-encoding": "gzip",
+    "content-security-policy": "default-src * data: blob:;style-src * 'unsafe-inline';script-src https://*.quora.com https://*.facebook.net https://*.facebook.com https://*.googleapis.com https://*.twitter.com https://*.quoracdn.net https://*.google.com https://*.google-analytics.com https://*.gstatic.com https://*.youtube.com https://*.ytimg.com https://*.jwpcdn.com https://*.stripe.com https://*.intercom.io https://*.intercomcdn.com https://*.syndication.twimg.com https://cdnjs.cloudflare.com https://*.jwplatform.com https://*.googlesyndication.com https://*.googletagmanager.com https://*.googleadservices.com https://*.doubleclick.net https://*.googletagservices.com https://*.ampproject.org https://*.ads-twitter.com https://*.dwin1.com https://*.marketo.net https://*.licdn.com https://*.linkedin.com https://*.qualtrics.com https://*.siteintercept.qualtrics.com https://sc-static.net https://static.bytedance.com 'unsafe-inline' 'unsafe-eval' 127.0.0.1:*;connect-src 'self' https://*.quora.com wss://*.quora.com https://*.quoracdn.net https://*.stripe.com https://*.intercom.io wss://*.intercom.io https://*.jwplatform.com https://*.jwpsrv.com https://syndication.twitter.com https://*.syndication.twimg.com https://*.googleapis.com https://*.qualtrics.com https://*.facebook.com https://*.fbcdn.net blob: https://*.mktoresp.com https://*.doubleclick.net ;report-uri /security_reports/content_security_policy_violation_3RD_PARTY_POST",
+    "content-type": "text/html; charset=utf-8",
+    "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+    "pragma": "no-cache",
+    "server": "nginx",
+    "set-cookie": [
+      "m-b=J6cBWPDXnr3riOwQ1dKEIg==; Domain=.quora.com; Max-Age=63072000; Path=/; expires=Tue, 01-Feb-2022 00:38:09 GMT; secure; HttpOnly; SameSite=None",
+      "m-b_lax=J6cBWPDXnr3riOwQ1dKEIg==; Domain=.quora.com; Max-Age=63072000; Path=/; expires=Tue, 01-Feb-2022 00:38:09 GMT; secure; HttpOnly; SameSite=Lax",
+      "m-b_strict=J6cBWPDXnr3riOwQ1dKEIg==; Domain=.quora.com; Max-Age=63072000; Path=/; expires=Tue, 01-Feb-2022 00:38:09 GMT; secure; HttpOnly; SameSite=Strict",
+      "m-s=Q2RVPc-jxfWZ_vHawmo-yg==; Domain=.quora.com; Max-Age=63072000; Path=/; expires=Tue, 01-Feb-2022 00:38:09 GMT; secure; HttpOnly",
+      "m-ans_frontend_early_version=b115bfa98a08b964; Domain=.quora.com; Max-Age=63115200; Path=/; expires=Tue, 01-Feb-2022 12:38:09 GMT",
+      "m-early_v=2964ab48428ef2bd; Domain=.quora.com; Max-Age=63115200; Path=/; expires=Tue, 01-Feb-2022 12:38:09 GMT"
+    ],
+    "strict-transport-security": "max-age=31536000;",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-q-stat": "81,e2812e62acc136c8e22569874d04fd9e,10.0.4.73,53850,136.24.147.161,,78619708481,1,1580603889.225,0.070,,.,0,0,0.000,0.068,-,0,0,2866,392,196,10,26847,,,,,,,",
+    "x-ua-compatible": "IE=Edge, chrome=1",
+    "x-xss-protection": "1; mode=block",
+    "accept-ranges": "bytes",
+    "date": "Sun, 02 Feb 2020 00:38:09 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-sea4433-SEA",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1580603889.123527,VS0,VE135"
+  },
+  "status": 200
+}

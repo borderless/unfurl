@@ -1,0 +1,29 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Jean-Luc_Picard",
+  "headers": {
+    ":status": "200",
+    "date": "Sat, 01 Feb 2020 21:45:22 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "mw1239.eqiad.wmnet",
+    "x-powered-by": "PHP/7.2.26-1+0~20191218.33+debian9~1.gbpb5a340+wmf1",
+    "x-content-type-options": "nosniff",
+    "p3p": "CP=\"See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info.\"",
+    "content-language": "en",
+    "vary": "Accept-Encoding,Cookie,Authorization",
+    "content-encoding": "gzip",
+    "last-modified": "Sat, 01 Feb 2020 19:51:47 GMT",
+    "backend-timing": "D=135041 t=1580593522555345",
+    "x-ats-timestamp": "1580593522",
+    "x-varnish": "760081388 726300928",
+    "age": "10274",
+    "x-cache": "cp4030 miss, cp4031 hit/6",
+    "x-cache-status": "hit-front",
+    "server-timing": "cache;desc=\"hit-front\"",
+    "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+    "x-client-ip": "136.24.147.161",
+    "cache-control": "private, s-maxage=0, max-age=0, must-revalidate",
+    "accept-ranges": "bytes",
+    "content-length": "32735"
+  },
+  "status": 200
+}

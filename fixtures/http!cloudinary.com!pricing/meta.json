@@ -1,0 +1,18 @@
+{
+  "url": "https://cloudinary.com/pricing",
+  "headers": {
+    ":status": "200",
+    "date": "Sun, 02 Feb 2020 00:36:52 GMT",
+    "content-type": "text/html",
+    "etag": "W/\"5e361202-693c\"",
+    "last-modified": "Sun, 02 Feb 2020 00:04:18 GMT",
+    "strict-transport-security": "max-age=86400",
+    "cf-cache-status": "DYNAMIC",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "alt-svc": "h3-24=\":443\"; ma=86400, h3-23=\":443\"; ma=86400",
+    "server": "cloudflare",
+    "cf-ray": "55e817e66f3ded87-SJC",
+    "content-encoding": "br"
+  },
+  "status": 200
+}

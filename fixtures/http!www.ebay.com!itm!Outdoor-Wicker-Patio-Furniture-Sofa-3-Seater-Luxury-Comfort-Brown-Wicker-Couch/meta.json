@@ -1,0 +1,26 @@
+{
+  "url": "https://www.ebay.com/p/2164370744?iid=381228738769",
+  "headers": {
+    ":status": "200",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "x-frame-options": "SAMEORIGIN",
+    "content-type": "text/html; charset=UTF-8",
+    "rlogid": "t6swvpfg559%3Ftilutwt%60d41(%3F2%3B272-17003549946-0x2503",
+    "content-encoding": "gzip",
+    "strict-transport-security": "max-age=31536000",
+    "x-envoy-upstream-service-time": "169",
+    "server": "ebay-proxy-server",
+    "x-edgeconnect-midmile-rtt": "36",
+    "x-edgeconnect-origin-mex-latency": "181",
+    "date": "Sun, 02 Feb 2020 00:37:21 GMT",
+    "vary": "Accept-Encoding",
+    "set-cookie": [
+      "ebay=%5Esbf%3D%23000000%5E; Domain=.ebay.com; Path=/",
+      "dp1=bu1p/QEBfX0BAX19AQA**61f880c0^bl/US61f880c0^; Domain=.ebay.com; Path=/; Expires=Tue, 01 Feb 2022 00:37:20 GMT",
+      "s=CgAD4ACBeN2tAMDM1NDk2ZTUxNzAwYWQ0YTQ2YzIwZTk0ZmZjZWNmNjMKqvas; Domain=.ebay.com; Path=/; HttpOnly",
+      "nonsession=CgADKACBh+IDAMDM1NDk2ZTUxNzAwYWQ0YTQ2YzIwZTk0ZmZjZWNmNjMAywABXjYgyDKSmSyO; Domain=.ebay.com; Path=/; Expires=Tue, 01 Feb 2022 00:37:20 GMT"
+    ]
+  },
+  "status": 200
+}

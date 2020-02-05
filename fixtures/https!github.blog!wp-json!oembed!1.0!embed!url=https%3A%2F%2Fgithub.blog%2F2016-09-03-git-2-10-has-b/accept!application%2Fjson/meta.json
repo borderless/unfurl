@@ -1,0 +1,24 @@
+{
+  "url": "https://github.blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgithub.blog%2F2016-09-03-git-2-10-has-been-released%2F",
+  "headers": {
+    ":status": "200",
+    "server": "nginx",
+    "date": "Wed, 05 Feb 2020 03:32:49 GMT",
+    "content-type": "application/json; charset=UTF-8",
+    "x-robots-tag": "noindex",
+    "link": "<https://github.blog/wp-json/>; rel=\"https://api.w.org/\"",
+    "x-content-type-options": "nosniff",
+    "access-control-expose-headers": "X-WP-Total, X-WP-TotalPages",
+    "access-control-allow-headers": "Authorization, Content-Type",
+    "cache-control": "max-age=60",
+    "allow": "GET",
+    "content-encoding": "gzip",
+    "x-rq": "sjc1 116 171 3103",
+    "age": "0",
+    "x-cache": "miss",
+    "vary": "Accept-Encoding, Origin, Origin",
+    "accept-ranges": "bytes",
+    "strict-transport-security": "max-age=31536000;includeSubdomains;preload"
+  },
+  "status": 200
+}

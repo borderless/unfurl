@@ -1,0 +1,15 @@
+{
+  "url": "https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf",
+  "headers": {
+    "date": "Sun, 02 Feb 2020 00:36:48 GMT",
+    "server": "Apache/2.4.7 (Ubuntu) OpenSSL/1.0.1f",
+    "last-modified": "Thu, 31 Oct 2019 21:07:18 GMT",
+    "etag": "\"70e8d-5963b3c162181\"",
+    "accept-ranges": "bytes",
+    "content-length": "462477",
+    "keep-alive": "timeout=15, max=100",
+    "connection": "Keep-Alive",
+    "content-type": "application/pdf"
+  },
+  "status": 200
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://ogp.me/",
+  "headers": {
+    ":status": "200",
+    "content-type": "text/html",
+    "content-length": "23422",
+    "last-modified": "Sat, 20 Jul 2019 00:18:35 GMT",
+    "accept-ranges": "bytes",
+    "server": "AmazonS3",
+    "date": "Sat, 01 Feb 2020 12:14:10 GMT",
+    "etag": "\"739ed4982d9f00313e5b86b169debfc1\"",
+    "x-cache": "Hit from cloudfront",
+    "via": "1.1 325ed3ba58a560748d886354beef39c0.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA19-C2",
+    "x-amz-cf-id": "cYAqycLdYA1mgcHkRafFFeuH8LvVfH5JUqueLh01pmYmSKUVcnrh2w==",
+    "age": "44642"
+  },
+  "status": 200
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.reddit.com/",
+  "headers": {
+    ":status": "200",
+    "cache-control": "private, s-maxage=0, max-age=0, must-revalidate, no-store",
+    "content-encoding": "gzip",
+    "content-type": "text/html; charset=utf-8",
+    "set-cookie": [
+      "session_tracker=Jo2YCDL7MrtoBMA7A8.0.1580603890718.Z0FBQUFBQmVOaG55eGZGQWdGLTQ5Xzc1UjB4ajVDVmNEbFpEN3lLY3lrVUFTbWduMFRxTXNqRWNHSFU1NG93TWI4Q2tjWFloRHNhZFNaWGhDanZsZEhncy1DQkNMaEp4ejVoYWFOdEpnenVKcXRZcnNqYUxhNzBUaTRVZDlMTkpQZFlWclBaOTEzMmw; path=/; domain=.reddit.com; secure"
+    ],
+    "x-frame-options": "SAMEORIGIN",
+    "accept-ranges": "bytes",
+    "date": "Sun, 02 Feb 2020 00:38:11 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-sea4421-SEA",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1580603891.565657,VS0,VE856",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+    "server": "snooserv"
+  },
+  "status": 200
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://www.amazon.com/gp/product/1937785734/ref=s9_qpp_gw_d99_g14_i5_r?ie=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-1&pf_rd_r=92JG667YC8526036ANPR&pf_rd_t=36701&pf_rd_p=6aad23bd-3035-4a40-b691-0eefb1a18396&pf_rd_i=desktop&pldnSite=1",
+  "headers": {
+    ":status": "200",
+    "content-type": "text/html;charset=UTF-8",
+    "server": "Server",
+    "date": "Sun, 02 Feb 2020 00:37:55 GMT",
+    "strict-transport-security": "max-age=47474747; includeSubDomains; preload",
+    "vary": "Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment",
+    "p3p": "policyref=\"https://www.amazon.com/w3c/p3p.xml\",CP=\"CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC \"",
+    "x-ua-compatible": "IE=edge",
+    "cache-control": "no-cache, no-transform",
+    "content-encoding": "gzip",
+    "x-xss-protection": "1;",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": [
+      "session-id=133-5706426-1198862; Domain=.amazon.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/",
+      "session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/",
+      "i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/"
+    ],
+    "x-amz-rid": "YAEK80PKBEZB14YRX8XS",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 97d744cbc5fa647cc362d14ff20ecf08.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA19-C2",
+    "x-amz-cf-id": "hiEgPE47lF6r3kWp8PAA0dGK4ZuDJTIXfx5mI70MMuBMhX4WaAeubA=="
+  },
+  "status": 200
+}

@@ -1,0 +1,27 @@
+{
+  "url": "https://github.com/blakeembrey",
+  "headers": {
+    "date": "Sun, 02 Feb 2020 00:36:31 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "server": "GitHub.com",
+    "status": "200 OK",
+    "vary": "X-Requested-With, Accept-Encoding",
+    "etag": "W/\"6fc0159eaef539febd4f37fc016d3871\"",
+    "cache-control": "max-age=0, private, must-revalidate",
+    "set-cookie": [
+      "has_recent_activity=1; path=/; expires=Sun, 02 Feb 2020 01:36:30 -0000",
+      "_gh_sess=VFJkcEpVT3FETUJ6Nk91WHlwUnFIVkZZQk9Tb1M3TSt3ZlhQOW9iL0V6eWJjLysyVFI1Ti84dUI5bzNXRUpNSnFkejRwOWlpWjU3ZlJ2THQyVi9pUDF3TG02Y0IvcVlOMDREM1NPeU9ycWNaUnpJVVpYYUoyOTVudDhNTFZTajU5Vk80VlJLWTgyNHNiNysxcG5pOXBjVExlWDNyRnA5N2pQanlsVUhCRW5yZ2hrWUtPME9rOFdEL3JsS3oxY3RCWlBQazdRemlRU2dnRjQrK2poTUpmTjVtc3o1Zm9yaWJWRDAvSFJPbCtGMD0tLUVLMUlTUUtUdkc0MExNeFFlOENhNlE9PQ%3D%3D--8adad9d3c1bd0bb411553973b8567828712f0c4a; path=/; secure; HttpOnly"
+    ],
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "x-frame-options": "deny",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+    "expect-ct": "max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"",
+    "content-security-policy": "default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com wss://live.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com",
+    "content-encoding": "gzip",
+    "x-github-request-id": "DFD7:8E08:C66D20:103F06D:5E36198D"
+  },
+  "status": 200
+}

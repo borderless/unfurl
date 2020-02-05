@@ -1,0 +1,24 @@
+{
+  "url": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing",
+  "headers": {
+    ":status": "200",
+    "content-type": "text/html; charset=utf-8",
+    "x-robots-tag": "noindex, nofollow, nosnippet",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+    "date": "Sun, 02 Feb 2020 00:38:08 GMT",
+    "content-encoding": "gzip",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "content-security-policy": "base-uri 'self';object-src 'self';report-uri https://docs.google.com/spreadsheets/cspreport;script-src 'report-sample' 'nonce-FBx6XuwGmksF+9O1TMCOrw' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';worker-src 'self'",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "server": "GSE",
+    "set-cookie": [
+      "S=apps-spreadsheets=p79D92AqOjTSKm51PSBsq09j2wMeBLtf; Domain=.docs.google.com; Expires=Sun, 02-Feb-2020 01:38:08 GMT; Path=/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg; Secure; HttpOnly; SameSite=none",
+      "GFE_RTT=932; Domain=.docs.google.com; Expires=Sun, 02-Feb-2020 00:43:08 GMT; Path=/; Secure; Priority=LOW; SameSite=strict"
+    ],
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"
+  },
+  "status": 200
+}

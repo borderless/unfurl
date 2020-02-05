@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!-- Use the latest IE engine to render the page and execute JavaScript -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://stratechery.com/xmlrpc.php">
+
+	<!-- Typekit -->
+	<script src="//use.typekit.net/qcf4iyw.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#e9ab59">
+	<link rel="shortcut icon" href="/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#e9ab59">
+	<meta name="msapplication-config" content="/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-39065009-1', 'auto');
+		ga('send', 'pageview');
+		ga('require', 'linker');
+		ga('linker:autoLink', ['memberful.com'], true);
+			</script>
+
+	<title>Google, Uber, and the Evolution of Transportation-as-a-Service &#8211; Stratechery by Ben Thompson</title>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/stratechery.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://stratechery.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='memberful-wp-profile-widget-css'  href='https://stratechery.com/wp-content/plugins/memberful-wp/stylesheets/widget.css?ver=1.51.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ewd-ufaq-style-css'  href='https://stratechery.com/wp-content/plugins/ultimate-faqs/css/ewd-ufaq-styles.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ewd-ufaq-rrssb-css'  href='https://stratechery.com/wp-content/plugins/ultimate-faqs/css/rrssb-min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='stratechery-bigfoot-css'  href='https://stratechery.com/wp-content/themes/stratecheryV4/css/bigfoot.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='stratechery-membership-css'  href='https://stratechery.com/wp-content/themes/stratecheryV4/css/membership.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='stratechery-style-css'  href='https://stratechery.com/wp-content/themes/stratecheryV4/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='algolia-autocomplete-css'  href='https://stratechery.com/wp-content/plugins/search-by-algolia-instant-relevant-results/includes/../css/algolia-autocomplete.css?ver=2.11.3' type='text/css' media='screen' />
+<link rel='stylesheet' id='social-logos-css'  href='https://stratechery.com/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://stratechery.com/wp-content/plugins/jetpack/css/jetpack.css?ver=7.9.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://stratechery.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://stratechery.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://stratechery.com/wp-content/plugins/jetpack/_inc/build/related-posts/related-posts.min.js?ver=20191011'></script>
+<script type='text/javascript' src='https://stratechery.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://stratechery.com/wp-includes/js/wp-util.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://stratechery.com/wp-content/plugins/search-by-algolia-instant-relevant-results/includes/../js/algoliasearch/algoliasearch.jquery.min.js?ver=2.11.3'></script>
+<script type='text/javascript' src='https://stratechery.com/wp-content/plugins/search-by-algolia-instant-relevant-results/includes/../js/autocomplete.js/autocomplete.min.js?ver=2.11.3'></script>
+<script type='text/javascript' src='https://stratechery.com/wp-content/plugins/search-by-algolia-instant-relevant-results/includes/../js/autocomplete-noconflict.js?ver=2.11.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://stratechery.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://stratechery.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='A Review of Apple Pay and Apple Leverage, Apple Versus Australia&#8217;s Banks, Consumers and Competition' href='https://stratechery.com/2016/a-review-of-apple-pay-and-apple-leverage-apple-versus-australias-banks-consumers-and-competition/' />
+<link rel='next' title='Apple&#8217;s EU Tax Problem, How Apple Pays Taxes…Eventually, Everyone is a Loser' href='https://stratechery.com/2016/apples-eu-tax-problem-how-apple-pays-taxeseventually-everyone-is-a-loser/' />
+<link rel="canonical" href="https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/" />
+<link rel='shortlink' href='https://stratechery.com/?p=2258' />
+<link rel="alternate" type="application/json+oembed" href="https://stratechery.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstratechery.com%2F2016%2Fgoogle-uber-and-the-evolution-of-transportation-as-a-service%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://stratechery.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstratechery.com%2F2016%2Fgoogle-uber-and-the-evolution-of-transportation-as-a-service%2F&#038;format=xml" />
+<script type="text/javascript">
+  window.MemberfulOptions = {
+    site: "https://stratechery.memberful.com",
+    intercept: [
+            "http://stratechery.com/?memberful_endpoint=auth",
+            "https://stratechery.com/?memberful_endpoint=auth",
+            "http://stratechery.com?memberful_endpoint=auth",
+            "https://stratechery.com?memberful_endpoint=auth",
+          ],
+    memberSignedIn: false  };
+
+  (function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = 'https://d35xxde4fgg0cx.cloudfront.net/assets/embedded.js';
+
+    setup = function() { window.MemberfulEmbedded.setup(); }
+
+    if(s.addEventListener) {
+      s.addEventListener("load", setup, false);
+    } else {
+      s.attachEvent("onload", setup);
+    }
+
+    ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+  })();
+</script>
+    <script type="text/javascript">
+        var ajaxurl = 'https://stratechery.com/wp-admin/admin-ajax.php';
+    </script>
+		<style type="text/css">
+						ol.footnotes li {list-style-type:decimal;}
+								</style>
+		<script type="text/javascript">var algolia = {"debug":false,"application_id":"Q1WKEJ5QZW","search_api_key":"9869ac428326cd1e4fec2202453b53e0","powered_by_enabled":false,"query":"","autocomplete":{"sources":[{"index_id":"posts_post","index_name":"STRATECHERY_PRODUCTION_posts_post","label":"Posts","admin_name":"Posts","position":0,"max_suggestions":5,"tmpl_suggestion":"autocomplete-post-suggestion","enabled":true},{"index_id":"terms_companies","index_name":"STRATECHERY_PRODUCTION_terms_companies","label":"<a href=\"\/companies\/\">Companies<\/a>","admin_name":"Companies","position":1,"max_suggestions":3,"tmpl_suggestion":"autocomplete-term-suggestion","enabled":true},{"index_id":"terms_concepts","index_name":"STRATECHERY_PRODUCTION_terms_concepts","label":"<a href=\"\/concepts\/\">Concepts<\/a>","admin_name":"Concepts","position":2,"max_suggestions":3,"tmpl_suggestion":"autocomplete-term-suggestion","enabled":true},{"index_id":"terms_topics","index_name":"STRATECHERY_PRODUCTION_terms_topics","label":"<a href=\"\/topics\/\">Topics<\/a>","admin_name":"Topics","position":3,"max_suggestions":3,"tmpl_suggestion":"autocomplete-term-suggestion","enabled":true}],"input_selector":"input[name='s']:not('.no-autocomplete')"},"indices":{"searchable_posts":{"name":"STRATECHERY_PRODUCTION_searchable_posts","id":"searchable_posts","enabled":true,"replicas":[]},"posts_post":{"name":"STRATECHERY_PRODUCTION_posts_post","id":"posts_post","enabled":true,"replicas":[]},"terms_topics":{"name":"STRATECHERY_PRODUCTION_terms_topics","id":"terms_topics","enabled":true,"replicas":[]},"terms_concepts":{"name":"STRATECHERY_PRODUCTION_terms_concepts","id":"terms_concepts","enabled":true,"replicas":[]},"terms_companies":{"name":"STRATECHERY_PRODUCTION_terms_companies","id":"terms_companies","enabled":true,"replicas":[]}}};</script>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Google, Uber, and the Evolution of Transportation-as-a-Service" />
+<meta property="og:url" content="https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/" />
+<meta property="og:description" content="The competition between Uber and Google has broken out into the open: who has the advantage in the evolution of transportation-as-a-service, and who will likely win?" />
+<meta property="article:published_time" content="2016-08-31T12:48:44+00:00" />
+<meta property="article:modified_time" content="2018-03-27T08:38:13+00:00" />
+<meta property="og:site_name" content="Stratechery by Ben Thompson" />
+<meta property="og:image" content="https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288.png" />
+<meta property="og:image:width" content="2732" />
+<meta property="og:image:height" content="2048" />
+<meta property="og:image:alt" content="A drawing of Uber and Google&#039;s Challenges Competing for the Self-Driving Market" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@stratechery" />
+<meta name="twitter:text:title" content="Google, Uber, and the Evolution of Transportation-as-a-Service" />
+<meta name="twitter:image" content="https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288.png?w=640" />
+<meta name="twitter:image:alt" content="A drawing of Uber and Google&#039;s Challenges Competing for the Self-Driving Market" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="https://stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1-270x270.png" />
+<script type="text/html" id="tmpl-autocomplete-header">
+  <div class="autocomplete-header">
+	<div class="autocomplete-header-title">{{{ data.label }}}</div>
+	<div class="clear"></div>
+  </div>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-post-suggestion">
+  <a class="suggestion-link" href="{{ data.permalink }}" title="{{ data.post_title }}">
+		<div class="suggestion-post-attributes">
+		  <span class="suggestion-post-title">{{{ data._highlightResult.post_title.value }}}</span>
+		  <# if ( data._snippetResult['content'] ) { #>
+			<span class="suggestion-post-content">{{{ data._snippetResult['content'].value }}}</span>
+			<# } #>
+		</div>
+  </a>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-term-suggestion">
+  <a class="suggestion-link" href="{{ data.permalink }}" title="{{ data.name }}">
+	<svg viewBox="0 0 21 21" width="21" height="21">
+	  <svg width="21" height="21" viewBox="0 0 21 21">
+		<path
+			d="M4.662 8.72l-1.23 1.23c-.682.682-.68 1.792.004 2.477l5.135 5.135c.7.693 1.8.688 2.48.005l1.23-1.23 5.35-5.346c.31-.31.54-.92.51-1.36l-.32-4.29c-.09-1.09-1.05-2.06-2.15-2.14l-4.3-.33c-.43-.03-1.05.2-1.36.51l-.79.8-2.27 2.28-2.28 2.27zm9.826-.98c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25-1.25.56-1.25 1.25.56 1.25 1.25 1.25z"
+			fill-rule="evenodd"></path>
+	  </svg>
+	</svg>
+	<span class="suggestion-post-title">{{{ data._highlightResult.name.value }}}</span>
+  </a>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-user-suggestion">
+  <a class="suggestion-link user-suggestion-link" href="{{ data.posts_url }}" title="{{ data.display_name }}">
+	<# if ( data.avatar_url ) { #>
+	  <img class="suggestion-user-thumbnail" src="{{ data.avatar_url }}" alt="{{ data.display_name }}">
+	  <# } #>
+
+		<span class="suggestion-post-title">{{{ data._highlightResult.display_name.value }}}</span>
+  </a>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-footer">
+  <div class="autocomplete-footer">
+	<div class="autocomplete-footer-branding">
+	  <a href="#" class="algolia-powered-by-link" title="Algolia">
+		<svg width="130" viewBox="0 0 130 18" xmlns="http://www.w3.org/2000/svg">
+		  <title>Search by Algolia</title>
+		  <defs>
+			<linearGradient x1="-36.868%" y1="134.936%" x2="129.432%" y2="-27.7%" id="a">
+			  <stop stop-color="#00AEFF" offset="0%"/>
+			  <stop stop-color="#3369E7" offset="100%"/>
+			</linearGradient>
+		  </defs>
+		  <g fill="none" fill-rule="evenodd">
+			<path
+				d="M59.399.022h13.299a2.372 2.372 0 0 1 2.377 2.364V15.62a2.372 2.372 0 0 1-2.377 2.364H59.399a2.372 2.372 0 0 1-2.377-2.364V2.381A2.368 2.368 0 0 1 59.399.022z"
+				fill="url(#a)"/>
+			<path
+				d="M66.257 4.56c-2.815 0-5.1 2.272-5.1 5.078 0 2.806 2.284 5.072 5.1 5.072 2.815 0 5.1-2.272 5.1-5.078 0-2.806-2.279-5.072-5.1-5.072zm0 8.652c-1.983 0-3.593-1.602-3.593-3.574 0-1.972 1.61-3.574 3.593-3.574 1.983 0 3.593 1.602 3.593 3.574a3.582 3.582 0 0 1-3.593 3.574zm0-6.418v2.664c0 .076.082.131.153.093l2.377-1.226c.055-.027.071-.093.044-.147a2.96 2.96 0 0 0-2.465-1.487c-.055 0-.11.044-.11.104l.001-.001zm-3.33-1.956l-.312-.311a.783.783 0 0 0-1.106 0l-.372.37a.773.773 0 0 0 0 1.101l.307.305c.049.049.121.038.164-.011.181-.245.378-.479.597-.697.225-.223.455-.42.707-.599.055-.033.06-.109.016-.158h-.001zm5.001-.806v-.616a.781.781 0 0 0-.783-.779h-1.824a.78.78 0 0 0-.783.779v.632c0 .071.066.12.137.104a5.736 5.736 0 0 1 1.588-.223c.52 0 1.035.071 1.534.207a.106.106 0 0 0 .131-.104z"
+				fill="#FFF"/>
+			<path
+				d="M102.162 13.762c0 1.455-.372 2.517-1.123 3.193-.75.676-1.895 1.013-3.44 1.013-.564 0-1.736-.109-2.673-.316l.345-1.689c.783.163 1.819.207 2.361.207.86 0 1.473-.174 1.84-.523.367-.349.548-.866.548-1.553v-.349a6.374 6.374 0 0 1-.838.316 4.151 4.151 0 0 1-1.194.158 4.515 4.515 0 0 1-1.616-.278 3.385 3.385 0 0 1-1.254-.817 3.744 3.744 0 0 1-.811-1.351c-.192-.539-.29-1.504-.29-2.212 0-.665.104-1.498.307-2.054a3.925 3.925 0 0 1 .904-1.433 4.124 4.124 0 0 1 1.441-.926 5.31 5.31 0 0 1 1.945-.365c.696 0 1.337.087 1.961.191a15.86 15.86 0 0 1 1.588.332v8.456h-.001zm-5.954-4.206c0 .893.197 1.885.592 2.299.394.414.904.621 1.528.621.34 0 .663-.049.964-.142a2.75 2.75 0 0 0 .734-.332v-5.29a8.531 8.531 0 0 0-1.413-.18c-.778-.022-1.369.294-1.786.801-.411.507-.619 1.395-.619 2.223zm16.12 0c0 .719-.104 1.264-.318 1.858a4.389 4.389 0 0 1-.904 1.52c-.389.42-.854.746-1.402.975-.548.229-1.391.36-1.813.36-.422-.005-1.26-.125-1.802-.36a4.088 4.088 0 0 1-1.397-.975 4.486 4.486 0 0 1-.909-1.52 5.037 5.037 0 0 1-.329-1.858c0-.719.099-1.411.318-1.999.219-.588.526-1.09.92-1.509.394-.42.865-.741 1.402-.97a4.547 4.547 0 0 1 1.786-.338 4.69 4.69 0 0 1 1.791.338c.548.229 1.019.55 1.402.97.389.42.69.921.909 1.509.23.588.345 1.28.345 1.999h.001zm-2.191.005c0-.921-.203-1.689-.597-2.223-.394-.539-.948-.806-1.654-.806-.707 0-1.26.267-1.654.806-.394.539-.586 1.302-.586 2.223 0 .932.197 1.558.592 2.098.394.545.948.812 1.654.812.707 0 1.26-.272 1.654-.812.394-.545.592-1.166.592-2.098h-.001zm6.962 4.707c-3.511.016-3.511-2.822-3.511-3.274L113.583.926l2.142-.338v10.003c0 .256 0 1.88 1.375 1.885v1.792h-.001zm3.774 0h-2.153V5.072l2.153-.338v9.534zm-1.079-10.542c.718 0 1.304-.578 1.304-1.291 0-.714-.581-1.291-1.304-1.291-.723 0-1.304.578-1.304 1.291 0 .714.586 1.291 1.304 1.291zm6.431 1.013c.707 0 1.304.087 1.786.262.482.174.871.42 1.156.73.285.311.488.735.608 1.182.126.447.186.937.186 1.476v5.481a25.24 25.24 0 0 1-1.495.251c-.668.098-1.419.147-2.251.147a6.829 6.829 0 0 1-1.517-.158 3.213 3.213 0 0 1-1.178-.507 2.455 2.455 0 0 1-.761-.904c-.181-.37-.274-.893-.274-1.438 0-.523.104-.855.307-1.215.208-.36.487-.654.838-.883a3.609 3.609 0 0 1 1.227-.49 7.073 7.073 0 0 1 2.202-.103c.263.027.537.076.833.147v-.349c0-.245-.027-.479-.088-.697a1.486 1.486 0 0 0-.307-.583c-.148-.169-.34-.3-.581-.392a2.536 2.536 0 0 0-.915-.163c-.493 0-.942.06-1.353.131-.411.071-.75.153-1.008.245l-.257-1.749c.268-.093.668-.185 1.183-.278a9.335 9.335 0 0 1 1.66-.142l-.001-.001zm.181 7.731c.657 0 1.145-.038 1.484-.104v-2.168a5.097 5.097 0 0 0-1.978-.104c-.241.033-.46.098-.652.191a1.167 1.167 0 0 0-.466.392c-.121.169-.175.267-.175.523 0 .501.175.79.493.981.323.196.75.289 1.293.289h.001zM84.109 4.794c.707 0 1.304.087 1.786.262.482.174.871.42 1.156.73.29.316.487.735.608 1.182.126.447.186.937.186 1.476v5.481a25.24 25.24 0 0 1-1.495.251c-.668.098-1.419.147-2.251.147a6.829 6.829 0 0 1-1.517-.158 3.213 3.213 0 0 1-1.178-.507 2.455 2.455 0 0 1-.761-.904c-.181-.37-.274-.893-.274-1.438 0-.523.104-.855.307-1.215.208-.36.487-.654.838-.883a3.609 3.609 0 0 1 1.227-.49 7.073 7.073 0 0 1 2.202-.103c.257.027.537.076.833.147v-.349c0-.245-.027-.479-.088-.697a1.486 1.486 0 0 0-.307-.583c-.148-.169-.34-.3-.581-.392a2.536 2.536 0 0 0-.915-.163c-.493 0-.942.06-1.353.131-.411.071-.75.153-1.008.245l-.257-1.749c.268-.093.668-.185 1.183-.278a8.89 8.89 0 0 1 1.66-.142l-.001-.001zm.186 7.736c.657 0 1.145-.038 1.484-.104v-2.168a5.097 5.097 0 0 0-1.978-.104c-.241.033-.46.098-.652.191a1.167 1.167 0 0 0-.466.392c-.121.169-.175.267-.175.523 0 .501.175.79.493.981.318.191.75.289 1.293.289h.001zm8.682 1.738c-3.511.016-3.511-2.822-3.511-3.274L89.461.926l2.142-.338v10.003c0 .256 0 1.88 1.375 1.885v1.792h-.001z"
+				fill="#182359"/>
+			<path
+				d="M5.027 11.025c0 .698-.252 1.246-.757 1.644-.505.397-1.201.596-2.089.596-.888 0-1.615-.138-2.181-.414v-1.214c.358.168.739.301 1.141.397.403.097.778.145 1.125.145.508 0 .884-.097 1.125-.29a.945.945 0 0 0 .363-.779.978.978 0 0 0-.333-.747c-.222-.204-.68-.446-1.375-.725-.716-.29-1.221-.621-1.515-.994-.294-.372-.44-.82-.44-1.343 0-.655.233-1.171.698-1.547.466-.376 1.09-.564 1.875-.564.752 0 1.5.165 2.245.494l-.408 1.047c-.698-.294-1.321-.44-1.869-.44-.415 0-.73.09-.945.271a.89.89 0 0 0-.322.717c0 .204.043.379.129.524.086.145.227.282.424.411.197.129.551.299 1.063.51.577.24.999.464 1.268.671.269.208.466.442.591.704.125.261.188.569.188.924l-.001.002zm3.98 2.24c-.924 0-1.646-.269-2.167-.808-.521-.539-.782-1.281-.782-2.226 0-.97.242-1.733.725-2.288.483-.555 1.148-.833 1.993-.833.784 0 1.404.238 1.858.714.455.476.682 1.132.682 1.966v.682H7.357c.018.577.174 1.02.467 1.329.294.31.707.465 1.241.465.351 0 .678-.033.98-.099a5.1 5.1 0 0 0 .975-.33v1.026a3.865 3.865 0 0 1-.935.312 5.723 5.723 0 0 1-1.08.091l.002-.001zm-.231-5.199c-.401 0-.722.127-.964.381s-.386.625-.432 1.112h2.696c-.007-.491-.125-.862-.354-1.115-.229-.252-.544-.379-.945-.379l-.001.001zm7.692 5.092l-.252-.827h-.043c-.286.362-.575.608-.865.739-.29.131-.662.196-1.117.196-.584 0-1.039-.158-1.367-.473-.328-.315-.491-.761-.491-1.337 0-.612.227-1.074.682-1.386.455-.312 1.148-.482 2.079-.51l1.026-.032v-.317c0-.38-.089-.663-.266-.851-.177-.188-.452-.282-.824-.282-.304 0-.596.045-.876.134a6.68 6.68 0 0 0-.806.317l-.408-.902a4.414 4.414 0 0 1 1.058-.384 4.856 4.856 0 0 1 1.085-.132c.756 0 1.326.165 1.711.494.385.329.577.847.577 1.552v4.002h-.902l-.001-.001zm-1.88-.859c.458 0 .826-.128 1.104-.384.278-.256.416-.615.416-1.077v-.516l-.763.032c-.594.021-1.027.121-1.297.298s-.406.448-.406.814c0 .265.079.47.236.615.158.145.394.218.709.218h.001zm7.557-5.189c.254 0 .464.018.628.054l-.124 1.176a2.383 2.383 0 0 0-.559-.064c-.505 0-.914.165-1.227.494-.313.329-.47.757-.47 1.284v3.105h-1.262V7.218h.988l.167 1.047h.064c.197-.354.454-.636.771-.843a1.83 1.83 0 0 1 1.023-.312h.001zm4.125 6.155c-.899 0-1.582-.262-2.049-.787-.467-.525-.701-1.277-.701-2.259 0-.999.244-1.767.733-2.304.489-.537 1.195-.806 2.119-.806.627 0 1.191.116 1.692.349l-.381 1.015c-.534-.208-.974-.312-1.321-.312-1.028 0-1.542.682-1.542 2.046 0 .666.128 1.166.384 1.501.256.335.631.502 1.125.502a3.23 3.23 0 0 0 1.595-.419v1.101a2.53 2.53 0 0 1-.722.285 4.356 4.356 0 0 1-.932.086v.002zm8.277-.107h-1.268V9.506c0-.458-.092-.8-.277-1.026-.184-.226-.477-.338-.878-.338-.53 0-.919.158-1.168.475-.249.317-.373.848-.373 1.593v2.949h-1.262V4.801h1.262v2.122c0 .34-.021.704-.064 1.09h.081a1.76 1.76 0 0 1 .717-.666c.306-.158.663-.236 1.072-.236 1.439 0 2.159.725 2.159 2.175v3.873l-.001-.001zm7.649-6.048c.741 0 1.319.269 1.732.806.414.537.62 1.291.62 2.261 0 .974-.209 1.732-.628 2.275-.419.542-1.001.814-1.746.814-.752 0-1.336-.27-1.751-.811h-.086l-.231.704h-.945V4.801h1.262v1.987l-.021.655-.032.553h.054c.401-.591.992-.886 1.772-.886zm-.328 1.031c-.508 0-.875.149-1.098.448-.224.299-.339.799-.346 1.501v.086c0 .723.115 1.247.344 1.571.229.324.603.486 1.123.486.448 0 .787-.177 1.018-.532.231-.354.346-.867.346-1.536 0-1.35-.462-2.025-1.386-2.025l-.001.001zm3.244-.924h1.375l1.209 3.368c.183.48.304.931.365 1.354h.043c.032-.197.091-.436.177-.717.086-.281.541-1.616 1.364-4.004h1.364l-2.541 6.73c-.462 1.235-1.232 1.853-2.31 1.853-.279 0-.551-.03-.816-.091v-.999c.19.043.406.064.65.064.609 0 1.037-.353 1.284-1.058l.22-.559-2.385-5.941h.001z"
+				fill="#1D3657"/>
+		  </g>
+		</svg>
+	  </a>
+	</div>
+  </div>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-empty">
+  <div class="autocomplete-empty">
+	  No results matched your query 	<span class="empty-query">"{{ data.query }}"</span>
+  </div>
+</script>
+
+<script type="text/javascript">
+  jQuery(function () {
+	/* init Algolia client */
+	var client = algoliasearch(algolia.application_id, algolia.search_api_key);
+
+	/* setup default sources */
+	var sources = [];
+
+	sources.push({
+		source: function(q, cb) { cb([]); },
+		name: "default",
+		templates: {
+			empty: function(data) {
+				return '<a href="/?s=' + encodeURIComponent(data.query) + '">Search for: <span class="empty-query">"' + data.query + '"</span></a>';
+			}
+		}
+	});
+
+	jQuery.each(algolia.autocomplete.sources, function (i, config) {
+	  var suggestion_template = wp.template(config['tmpl_suggestion']);
+	  sources.push({
+		source: algoliaAutocomplete.sources.hits(client.initIndex(config['index_name']), {
+		  hitsPerPage: config['max_suggestions'],
+		  attributesToSnippet: [
+			'content:10'
+		  ],
+		  highlightPreTag: '__ais-highlight__',
+		  highlightPostTag: '__/ais-highlight__'
+		}),
+		templates: {
+		  header: function () {
+			return wp.template('autocomplete-header')({
+			  label: config['label']
+			});
+		  },
+		  suggestion: function (hit) {
+      if(hit.escaped === true) {
+        return suggestion_template(hit);
+      }
+      hit.escaped = true;
+
+			for (var key in hit._highlightResult) {
+			  /* We do not deal with arrays. */
+			  if (typeof hit._highlightResult[key].value !== 'string') {
+				continue;
+			  }
+			  hit._highlightResult[key].value = _.escape(hit._highlightResult[key].value);
+			  hit._highlightResult[key].value = hit._highlightResult[key].value.replace(/__ais-highlight__/g, '<em>').replace(/__\/ais-highlight__/g, '</em>');
+			}
+
+			for (var key in hit._snippetResult) {
+			  /* We do not deal with arrays. */
+			  if (typeof hit._snippetResult[key].value !== 'string') {
+				continue;
+			  }
+
+			  hit._snippetResult[key].value = _.escape(hit._snippetResult[key].value);
+			  hit._snippetResult[key].value = hit._snippetResult[key].value.replace(/__ais-highlight__/g, '<em>').replace(/__\/ais-highlight__/g, '</em>');
+			}
+
+			return suggestion_template(hit);
+		  }
+		}
+	  });
+	});
+
+	/* Setup dropdown menus */
+	jQuery(algolia.autocomplete.input_selector).each(function (i) {
+	  var $searchInput = jQuery(this);
+
+	  var config = {
+		debug: algolia.debug,
+		hint: false,
+		openOnFocus: true,
+		appendTo: 'body'
+	  };
+
+	  if (algolia.powered_by_enabled) {
+		config.templates.footer = wp.template('autocomplete-footer');
+	  }
+
+	  /* Instantiate autocomplete.js */
+	  var autocomplete = algoliaAutocomplete($searchInput[0], config, sources)
+	  .on('autocomplete:selected', function (e, suggestion) {
+		/* Redirect the user when we detect a suggestion selection. */
+		window.location.href = suggestion.permalink;
+	  });
+
+	  /* Force the dropdown to be re-drawn on scroll to handle fixed containers. */
+	  jQuery(window).scroll(function() {
+		if(autocomplete.autocomplete.getWrapper().style.display === "block") {
+		  autocomplete.autocomplete.close();
+		  autocomplete.autocomplete.open();
+		}
+	  });
+	});
+
+	jQuery(document).on("click", ".algolia-powered-by-link", function (e) {
+	  e.preventDefault();
+	  window.location = "https://www.algolia.com/?utm_source=WordPress&utm_medium=extension&utm_content=" + window.location.hostname + "&utm_campaign=poweredby";
+	});
+  });
+</script>
+</head>
+
+<body class="post-template-default single single-post postid-2258 single-format-standard">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">
+		Skip to content	</a>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="grid">
+			<div class="row">
+				<div class="twelve column">
+					<div class="site-branding">
+						<h1 class="site-title">
+							<a href="https://stratechery.com/" rel="home">
+								<span>Stratechery by Ben Thompson</span>
+							</a>
+						</h1><!-- .site-title -->
+													<p class="site-description">On the business, strategy, and impact of technology.</p>
+											</div><!-- .site-branding -->
+
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span>Menu</span></button>
+						<div class="menu-primary-container"><ul id="primary-menu" class="menu"><li id="menu-item-1611" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1611"><a href="http://stratechery.com/about/">About</a></li>
+<li id="menu-item-1613" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1613"><a href="http://exponent.fm/">Exponent Podcast</a></li>
+<li id="menu-item-1645" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1645"><a href="https://forum.stratechery.com/login">Member Forum</a></li>
+</ul></div>					</nav><!-- #site-navigation -->
+					<div class="widget-area">
+						<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://stratechery.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside><aside id="nav_menu-6" class="widget widget_nav_menu"><h1 class="widget-title">Explore Stratechery</h1><div class="menu-explore-container"><ul id="menu-explore" class="menu"><li id="menu-item-3386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3386"><a href="https://stratechery.com/concepts/">Concepts</a></li>
+<li id="menu-item-3387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3387"><a href="https://stratechery.com/companies/">Companies</a></li>
+<li id="menu-item-3388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3388"><a href="https://stratechery.com/topics/">Topics</a></li>
+</ul></div></aside><aside id="nav_menu-2" class="widget widget_nav_menu"><h1 class="widget-title">By Ben Thompson</h1><div class="menu-primary-container"><ul id="menu-primary" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1611"><a href="http://stratechery.com/about/">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1613"><a href="http://exponent.fm/">Exponent Podcast</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1645"><a href="https://forum.stratechery.com/login">Member Forum</a></li>
+</ul></div></aside><aside id="nav_menu-4" class="widget widget_nav_menu"><h1 class="widget-title">Weekly Articles</h1><div class="menu-weekly-articles-container"><ul id="menu-weekly-articles" class="menu"><li id="menu-item-1641" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1641"><a href="http://stratechery.com/feed/">RSS Feed</a></li>
+<li id="menu-item-1643" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1643"><a href="https://stratechery.memberful.com/register/">Email</a></li>
+<li id="menu-item-1642" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1642"><a href="http://twitter.com/stratechery">Twitter</a></li>
+</ul></div></aside><aside id="nav_menu-3" class="widget widget_nav_menu"><h1 class="widget-title">The Daily Update</h1><div class="menu-the-daily-update-container"><ul id="menu-the-daily-update" class="menu"><li id="menu-item-1608" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1608"><a href="https://stratechery.com/membership/">About The Daily Update</a></li>
+<li id="menu-item-1630" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1630"><a href="https://stratechery.memberful.com/checkout?plan=5749">Subscribe Monthly</a></li>
+<li id="menu-item-1609" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1609"><a href="https://stratechery.memberful.com/checkout?plan=5748">Subscribe Annually</a></li>
+</ul></div></aside><aside id="memberful_wp_profile_widget-2" class="widget widget_memberful_wp_profile_widget">  <h1 class="widget-title">Account</h1>  <a href="https://stratechery.com/?memberful_endpoint=auth" class="memberful-sign-in-link">Sign in</a></aside><aside id="text-2" class="widget widget_text">			<div class="textwidget"><a class="memberful-rss-notice" href="https://stratechery.com/membership/">Subscribe</a> to access the Daily Update via email, RSS, or the web</div>
+		</aside><aside id="nav_menu-7" class="widget widget_nav_menu"><h1 class="widget-title">Archives</h1><div class="menu-archives-container"><ul id="menu-archives" class="menu"><li id="menu-item-1772" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1772"><a href="https://stratechery.com/category/articles/">Articles</a></li>
+<li id="menu-item-1773" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1773"><a href="https://stratechery.com/category/daily-email/">Daily Updates</a></li>
+<li id="menu-item-1775" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1775"><a href="https://stratechery.com/category/year-in-review/">Years in Review</a></li>
+</ul></div></aside>					</div>
+				</div><!-- .twelve -->
+			</div><!-- .row -->
+		</div><!-- .grid -->
+	</header><!-- #masthead -->
+
+<div id="content" class="site-content">
+	<div class="grid">
+		<div class="row">
+			<div class="nine column content-area">
+				<div id="primary">
+					<main id="main" class="site-main" role="main">
+
+					
+						<article id="post-2258" class="post-2258 post type-post status-publish format-standard has-post-thumbnail hentry category-articles topics-ride-sharing topics-self-driving topics-transportation concepts-aggregation-theory concepts-business-models concepts-differentiation concepts-evolution-of-technology concepts-incentives concepts-making-money concepts-owning-customer-relationship concepts-product-management concepts-saas concepts-the-future companies-ford companies-google companies-tesla companies-uber">
+	<header class="entry-header">
+
+		<h1 class="entry-title">Google, Uber, and the Evolution of Transportation-as-a-Service</h1>
+		<div class="entry-meta">
+			<span class="posted-on"><span class="screen-reader-text">Posted on</span><time class="entry-date published" datetime="2016-08-31T05:48:44-07:00">Wednesday, August 31, 2016</time><time class="updated" datetime="2018-03-27T01:38:13-07:00">Tuesday, March 27, 2018</time></span> <span class="byline"><span class="author vcard"><span class="screen-reader-text">Author</span> by <a class="url fn n" href="https://stratechery.com/author/stratechery/">Ben Thompson</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>In the eight months since I wrote <a href="https://stratechery.com/2016/cars-and-the-future/">Cars and the Future</a>, there has been an explosion in news about the future of transportation, much of it in the last few weeks:</p>
+<ul>
+<li>Ford <a href="https://media.ford.com/content/fordmedia/fna/us/en/news/2016/08/16/ford-targets-fully-autonomous-vehicle-for-ride-sharing-in-2021.html">announced plans</a> for its own car-sharing service built around self-driving Fords</li>
+<li>Elon Musk penned a <a href="https://stratechery.com/2016/follow-up-dollar-shave-club-cpg-and-amazon-teslas-master-plan-part-deux/">second master plan</a> envisioning a future car-sharing service built around self-driving Teslas</li>
+<li>Nutonomy <a href="https://app.ft.com/cms/s/2d6bdb28-6a7a-11e6-a0b1-d87a9fea034f">launched a trial in Singapore</a> of its own ride-sharing service built around Renault and Mitsubishi vehicles modified to be self-driving</li>
+<li>Uber <a href="http://www.bloomberg.com/news/features/2016-08-18/uber-s-first-self-driving-fleet-arrives-in-pittsburgh-this-month-is06r7on">announced its own self-driving trial in Pittsburgh</a> in partnership with Volvo. Uber also <a href="http://www.nytimes.com/2016/08/19/technology/uber-self-driving-cars-otto-trucks.html?_r=0">acquired self-driving startup Otto</a>, founded by former members of Google&#8217;s self-driving team</li>
+<li>And, speaking of Google, Alphabet executive David Drummond <a href="http://www.wsj.com/articles/alphabet-executive-david-drummond-leaves-uber-board-1472510812">stepped down from Uber&#8217;s board</a> a day before the company <a href="http://www.wsj.com/article_email/google-takes-on-uber-with-new-ride-share-service-1472584235-lMyQjAxMTA2NDM4MDkzOTAxWj">announced an expansion of its Waze-based ride-sharing service</a> from Israel to Uber&#8217;s home city of San Francisco</li>
+</ul>
+<p>These five bits of news are presented in roughly the order they matter; Uber and Google matter most of all.</p>
+<h4>From UberX to Google&#8217;s Self-Driving Cars</h4>
+<p>When thinking about the future of transportation-as-a-service, it&#8217;s tempting to draw a straight line from UberX to Google self-driving cars:</p>
+<p><a href="https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-287.png"><img src="https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-287-1024x768.png" alt="stratechery Year One - 287" width="640" height="480" class="aligncenter size-large wp-image-2259" srcset="https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-287-1024x768.png 1024w, https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-287-300x225.png 300w, https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-287-768x576.png 768w, https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-287-840x630.png 840w" sizes="(max-width: 640px) 100vw, 640px" /></a></p>
+<p>Uber CEO Travis Kalanick can certainly see the connection; he told <a href="http://www.bloomberg.com/news/features/2016-08-18/uber-s-first-self-driving-fleet-arrives-in-pittsburgh-this-month-is06r7on">Bloomberg</a> earlier this month:</p>
+<blockquote><p>
+  “The minute it was clear to us that our friends in Mountain View were going to be getting in the ride-sharing space, we needed to make sure there is an alternative [self-driving car],” says Kalanick. “Because if there is not, we’re not going to have any business.” Developing an autonomous vehicle, he adds, “is basically existential for us.”
+</p></blockquote>
+<p>The problem for Uber is that their dominant position in the ride-sharing market is predicated on the two-sided market of riders and drivers, which I explained two years ago in <a href="https://stratechery.com/2014/uber-fights/">Why Uber Fights</a>:</p>
+<blockquote><p>
+  Driver and rider markets do interact, and it’s that interaction that creates a winner-take-all dynamic…In the case of Uber and Lyft, ride-sharing is (theoretically) habitual, both companies will ensure the prices are similar, and the primary means of differentiation is car liquidity, which works in the favor of the larger service. Over time it is reasonable to assume that the majority player will become dominant.
+</p></blockquote>
+<p>That is indeed how the ride-sharing market has played out: as of <a href="http://www.bloomberg.com/news/articles/2016-04-14/lyft-is-gaining-on-uber-as-it-spends-big-for-growth">earlier this year</a> Uber provided over 80% of rides in the United States (the only market Lyft competes in), despite Lyft&#8217;s determination to spend hundreds of millions in subsidies and free rides. And, on the flipside, Uber <a href="https://stratechery.com/2016/didi-acquires-uber-china-why-uber-china-was-doomed-was-uber-china-worth-it/">left China earlier this month</a>, tired of spending their own billions in a futile attempt to displace the dominant Didi.</p>
+<p>Self-driving cars change these market dynamics in two important ways: first, drivers are no longer a scarce resource, which means there are no longer two-sided market forces at play. Second, the single best way to change consumer habits and preferences is through lower prices, and eliminating drivers is the most obvious way to do just that.</p>
+<p>Small wonder then that Uber is investing so heavily in self-driving cars, including <a href="http://www.wsj.com/articles/is-uber-a-friend-or-foe-of-carnegie-mellon-in-robotics-1433084582">hiring a huge number of Carnegie Mellon researchers</a> (thus the Pittsburgh location of the self-driving trial), as well as paying ~$680 million for Otto.</p>
+<p>Kalanick told <a href="http://www.businessinsider.com/travis-kalanick-interview-on-self-driving-cars-future-driver-jobs-2016-8">Business Insider</a> that Uber is still behind:</p>
+<blockquote><p>
+  I think we&#8217;re catching up. Look at some of the folks and how long they&#8217;ve been working on it. Lots of respect for an area that they&#8217;ve pioneered, and we&#8217;ve got to do some catch-up. And that&#8217;s OK, but it means we gotta wake up early and we&#8217;re going to bed late.
+</p></blockquote>
+<p>I&#8217;ll take Kalanick at his word; Uber, though, still has some very important advantages that make this race a bit more complicated than it seems, and the journey I depicted above a lot less linear than it may appear.</p>
+<h4>The Five Components of Transportation-as-a-Service</h4>
+<p>Drivers and riders are important to understanding the future of transportation-as-a-service (TaaS), but they are not the only pieces that matter — and not the only areas where Uber still has an advantage. I see five components that really matter:</p>
+<ul>
+<li>Drivers</li>
+<li>Cars</li>
+<li>Mapping</li>
+<li>Routing</li>
+<li>Riders</li>
+</ul>
+<p>The shift from an UberX model to self-driving cars will require changes in every component.</p>
+<p><strong>TaaS 1.0: UberX</strong></p>
+<p>It&#8217;s clear why drivers and riders are the most important pieces here: drivers bring their own cars, existing mapping solutions are good enough, and routing is <em>relatively</em> simple. To be sure, that <em>relatively</em> modifier is important: managing millions of matches a day between drivers and riders is a hugely complicated undertaking, and the fact that Uber has been working on the underlying algorithms for years is a big advantage. It&#8217;s also an advantage that will become ever more critical.</p>
+<p><strong>TaaS 1.5: UberPool</strong></p>
+<p>UberPool is arguably the most important service Uber has launched to date, and looking at the pieces that go into it explain why:</p>
+<ul>
+<li>Drivers: the same as UberX</li>
+<li>Cars: the same as UberX</li>
+<li>Mapping: the same as UberX</li>
+<li>Routing: massive increase in complexity over UberX</li>
+<li>Riders: change in expectations (and behavior with regard to pick-up and drop-off points) relative to UberX</li>
+</ul>
+<p>It&#8217;s the routing piece that is the most important; Uber investor Bill Gurley has called the development of the necessary algorithms to make UberPool a success a <a href="http://abovethecrowd.com/2015/01/30/ubers-new-bhag-uberpool/">BHAG: Big Hairy Audacious Goal</a>, and it&#8217;s an investment that will be critical for Uber going forward.</p>
+<p>First, as Gurley&#8217;s title suggests, getting the algorithms behind UberPool right is an incredibly complex problem. It&#8217;s basically the <a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">traveling salesman problem</a> on steroids, and the only real way to solve it is to slowly but surely work out heuristics that work in real world situations.<a href="#footnote_0_2258" id="identifier_0_2258" class="footnote-link footnote-identifier-link" title="Machine learning is relatively ineffective at solving this specific type of problem">1</a> Combine that reality with the fact that Uber has a dominant share of drivers and riders, giving the company sufficient liquidity to offer UberPool in multiple markets, and the result is that Uber is undoubtedly far ahead of competitors — present and potential — in solving these problems.</p>
+<p>The reason this matters is that building a self-driving car is like building a smartphone: it&#8217;s a hard problem, to be sure, but it&#8217;s only half of the equation when it comes to transportation-as-a-service. After all, just how useful would an iPhone or Android device be without the cloud? Similarly, a transportation-as-a-service company built around self-driving cars not only needs cars that can drive themselves, but an entire infrastructure on the back-end that tells those cars exactly where to go in a way that maximizes what will undoubtedly be a massive capital investment in the cars themselves.</p>
+<p>This is likely the motivation behind Google&#8217;s Waze-based ride-sharing service. Kalanick may be right that Google is ahead when it comes to self-driving cars, but they have a lot of catching up to do when it comes to telling those cars where to go.</p>
+<p><strong>TaaS 2.0: Human Self-Driving Cars</strong></p>
+<p>One of the more interesting facts about the new Waze service is that it is true ride-sharing: Google is capping the price at 54 cents a mile, which means it&#8217;s impossible to make money by simply driving-for-hire. More prosaically, that happens to be the <a href="https://www.irs.gov/uac/newsroom/2016-standard-mileage-rates-for-business-medical-and-moving-announced">IRS standard mileage rate</a>, which means Google can plausibly claim their service is facilitating, well, ride-sharing and the sharing of gas money without all of the complications of hiring contractors.</p>
+<p>Still, true ride-sharing is itself an important transportation-as-a-service evolution that <a href="https://stratechery.com/2015/uber-2-0-human-self-driving-cars/">I wrote about last year</a>. In the short to medium-term, catching a ride with someone already headed in your direction actually has even better economics than self-driving cars, given that the car is a sunk cost and the driver is going that way anyways. In that article I called this sort of car-pooling service &#8220;human-powered self-driving cars.&#8221;</p>
+<p>Note that this again marks an important shift in the components in transportation-as-a-service:</p>
+<ul>
+<li>Drivers: because they are already headed in that direction, they are effectively free</li>
+<li>Cars: because they have already been bought for the purpose of transporting the driver, they are effectively free</li>
+<li>Mapping: the same as UberX</li>
+<li>Routing: slightly more complex than UberPool</li>
+<li>Riders: similar experience to UberPool</li>
+</ul>
+<p>Uber launched UberCommute just a few weeks after that article; given that the economics of UberCommute are approaching those of self-driving cars, that means the company is ahead when it comes to figuring out the business model as well.</p>
+<p><strong>TaaS 3.0: Self-Driving Cars</strong></p>
+<p>Whenever self-driving cars do arrive, nearly every piece in the transportation-as-a-service puzzle will be different from today&#8217;s UberX:</p>
+<ul>
+<li>Drivers: non-existent!</li>
+<li>Cars: self-driving, which means they will likely be very expensive at least at the beginning, requiring significant capital costs</li>
+<li>Mapping: massively more detailed</li>
+<li>Routing: similar complexity to UberPool</li>
+<li>Riders: similar economics to UberCommute/Waze</li>
+</ul>
+<p>Note that there are two critical leaps that need to be made: cars <em>and</em> maps. Google is clearly well ahead in maps, but Uber is <a href="http://www.ft.com/cms/s/0%2Fe0dfa45e-5522-11e6-befd-2fc0c26b3c60.html?ft_site=falcon&amp;desktop=true#axzz4G0M5oyu8">investing $500 million</a> to catch up, even as it does the same for self-driving technology.</p>
+<p>The point of this analysis, though, is to highlight that for all the work Uber has to do, they are by no means doomed because of Google&#8217;s entry, because there isn&#8217;t a straight line from UberX to Google&#8217;s self-driving cars:</p>
+<p><a href="https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288.png"><img src="https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288-1024x768.png" alt="stratechery Year One - 288" width="640" height="480" class="aligncenter size-large wp-image-2260" srcset="https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288-1024x768.png 1024w, https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288-300x225.png 300w, https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288-768x576.png 768w, https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288-840x630.png 840w" sizes="(max-width: 640px) 100vw, 640px" /></a></p>
+<p>Indeed, Uber has their own advantages in routing, business model, and customer attachment, and those are just as formidable and potentially more defensible than Google&#8217;s tech leadership.</p>
+<h4>Handicapping the Future</h4>
+<p>With this framework in mind it&#8217;s easier to understand why I ranked those five pieces of news the way I did:</p>
+<ul>
+<li>Ford certainly knows how to build cars, but self-driving technology is a software problem; there is no evidence to suggest that Ford has the capability to leap ahead of Google or Uber. Moreover, while Ford&#8217;s relatively slim margins may make a ride-sharing service attractive, nearly every aspect of the company would need to transform itself from a product model to a service model, and that is even less likely than the company leading the way in self-driving technology. I think it is much more likely Ford will eventually partner with Google or Uber as an OEM.</li>
+<li>Tesla is a much more technologically advanced company than Ford and is already in the mindset of building computers on wheels. Moreover, it has thousands of cars on the road today both capturing data and beta-testing self-driving technology (<a href="https://stratechery.com/2016/the-tesla-autopilot-fatality-uber-partners-with-hertz/">for better or worse</a>). However, Tesla faces several significant obstacles in building a service business: it has no routing capability; it sells its cars as products, not as a service; and, frankly, it has its hands full building the Model 3 before its negative cash flow catches up to it.<a href="#footnote_1_2258" id="identifier_1_2258" class="footnote-link footnote-identifier-link" title="One company I haven&rsquo;t mentioned is Apple, but I put them in the same category as Tesla: they are a product company with legitimate questions about their cloud capabilities">2</a></li>
+<li>Nutonomy is very interesting, not only because of their technology, but also because of the smart way they are dealing with perhaps the most important piece of transportation-as-a-service: the government. I have argued for years that Singapore was likely to be the first place where self-driving cars take off: the technology already works as long as you get rid of those pesky human drivers, while Singapore has placed strict limits on automobiles for years, and, to put it delicately, Singapore has the government structure to get rid of non-self-driving cars completely. By starting there Nutonomy has a big advantage when it comes to real-world experience and iteration, and could springboard from Singapore to other urban areas.</li>
+</ul>
+<p>That leaves Google and Uber, and, despite yesterday&#8217;s news, I still like Uber&#8217;s chances.</p>
+<p>First, it matters that the development of self-driving cars is, in Kalanick&#8217;s words, &#8220;existential&#8221; for the company. Never underestimate the motivating power of simple survival, and, on the flipside, keep in mind how poorly Google has done in any business that is not advertising-based.</p>
+<p>Second, I suspect Uber&#8217;s routing advantage (as infuriating as it may be when you are matched with a driver who is going the wrong way) is a real one: telling cars where to go at scale is an incredibly difficult problem and Uber has a multi-year head start.</p>
+<p>Third, any discussion of the threat self-driving cars poses to Uber tends to imagine a world where there are magically tens of thousands if not millions of self-driving cars everywhere immediately. That simply isn&#8217;t practical from a pure logistics standpoint; the time it will take to build all of those cars — and, crucially, get government approval — is time Uber has to catch up.</p>
+<p>Moreover, it&#8217;s not at all clear that Google will be willing to make the sort of investment necessary to build a self-driving fleet that could take on Uber. The company&#8217;s <a href="https://www.theinformation.com/articles/inside-the-battle-over-google-fiber">recent scale-back of Google Fiber</a> is instructive in this regard: it is very difficult for a company built on search advertising margins to stomach the capital costs entailed in building out a fleet capable of challenging Uber in more than one or two markets.</p>
+<p>Finally, as the incumbent in the transportation-as-a-service space Uber has the advantage of only needing to be good-enough. To the degree the company can build out UberPool and UberCommute, they can ensure that their own self-driving cars get first consideration from consumers trained to open their app whenever they are out and about.</p>
+<p>Needless to say, the next few years will be fascinating to watch. The only sure thing is that the Uber-Google battle in particular will be quite the ride.</p>
+<ol class="footnotes"><li id="footnote_0_2258" class="footnote">Machine learning is relatively ineffective at solving this specific type of problem [<a href="#identifier_0_2258" class="footnote-link footnote-back-link">&#8617;</a>]</li><li id="footnote_1_2258" class="footnote">One company I haven&#8217;t mentioned is Apple, but I put them in the same category as Tesla: they are a product company with legitimate questions about their cloud capabilities [<a href="#identifier_1_2258" class="footnote-link footnote-back-link">&#8617;</a>]</li></ol><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-2258" class="share-facebook sd-button share-icon" href="https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/?share=facebook" target="_blank" title="Click to share on Facebook"><span>Facebook</span></a></li><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-2258" class="share-twitter sd-button share-icon" href="https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-2258" class="share-linkedin sd-button share-icon" href="https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div>			</div><!-- .entry-content -->
+</article><!-- #post-## -->
+
+						
+	<nav class="navigation post-navigation" role="navigation" aria-label="Post navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://stratechery.com/2016/the-sports-linchpin/" rel="prev"><span class="screen-reader-text">Previous post:</span> <span class="post-title">The Sports Linchpin</span></a></div><div class="nav-next"><a href="https://stratechery.com/2016/beyond-the-iphone/" rel="next"><span class="screen-reader-text">Next post:</span> <span class="post-title">Beyond the iPhone</span></a></div></div>
+	</nav>
+					
+					</main><!-- #main -->
+				</div><!-- #primary -->
+			</div><!-- .nine -->
+
+			
+<div class="three column widget-area">
+	<div id="secondary" role="complementary">
+		<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://stratechery.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside><aside id="nav_menu-6" class="widget widget_nav_menu"><h1 class="widget-title">Explore Stratechery</h1><div class="menu-explore-container"><ul id="menu-explore-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3386"><a href="https://stratechery.com/concepts/">Concepts</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3387"><a href="https://stratechery.com/companies/">Companies</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3388"><a href="https://stratechery.com/topics/">Topics</a></li>
+</ul></div></aside><aside id="nav_menu-2" class="widget widget_nav_menu"><h1 class="widget-title">By Ben Thompson</h1><div class="menu-primary-container"><ul id="menu-primary-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1611"><a href="http://stratechery.com/about/">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1613"><a href="http://exponent.fm/">Exponent Podcast</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1645"><a href="https://forum.stratechery.com/login">Member Forum</a></li>
+</ul></div></aside><aside id="nav_menu-4" class="widget widget_nav_menu"><h1 class="widget-title">Weekly Articles</h1><div class="menu-weekly-articles-container"><ul id="menu-weekly-articles-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1641"><a href="http://stratechery.com/feed/">RSS Feed</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1643"><a href="https://stratechery.memberful.com/register/">Email</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1642"><a href="http://twitter.com/stratechery">Twitter</a></li>
+</ul></div></aside><aside id="nav_menu-3" class="widget widget_nav_menu"><h1 class="widget-title">The Daily Update</h1><div class="menu-the-daily-update-container"><ul id="menu-the-daily-update-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1608"><a href="https://stratechery.com/membership/">About The Daily Update</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1630"><a href="https://stratechery.memberful.com/checkout?plan=5749">Subscribe Monthly</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1609"><a href="https://stratechery.memberful.com/checkout?plan=5748">Subscribe Annually</a></li>
+</ul></div></aside><aside id="memberful_wp_profile_widget-2" class="widget widget_memberful_wp_profile_widget">  <h1 class="widget-title">Account</h1>  <a href="https://stratechery.com/?memberful_endpoint=auth" class="memberful-sign-in-link">Sign in</a></aside><aside id="text-2" class="widget widget_text">			<div class="textwidget"><a class="memberful-rss-notice" href="https://stratechery.com/membership/">Subscribe</a> to access the Daily Update via email, RSS, or the web</div>
+		</aside><aside id="nav_menu-7" class="widget widget_nav_menu"><h1 class="widget-title">Archives</h1><div class="menu-archives-container"><ul id="menu-archives-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1772"><a href="https://stratechery.com/category/articles/">Articles</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1773"><a href="https://stratechery.com/category/daily-email/">Daily Updates</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1775"><a href="https://stratechery.com/category/year-in-review/">Years in Review</a></li>
+</ul></div></aside>	</div><!-- #secondary -->
+</div><!-- .widget-area -->		</div><!-- .row -->
+	</div><!-- .grid -->
+</div><!-- #content -->
+
+
+	<section id="daily-updates">
+		<div class="grid">
+			<div class="row">
+				<h1><strong>Subscriber&#8217;s Daily Update</strong></h1>
+
+									<div id="post-4574" class="post-4574 post type-post status-publish format-standard hentry category-daily-email topics-countries topics-government topics-government-organizations topics-healthcare topics-hhs topics-united-states concepts-aggregation-theory concepts-commoditizing-suppliers concepts-privacy concepts-technology-and-society companies-epic-systems">
+						<span class="entry-meta">
+							Thursday, January 30, 2020						</span>
+						<h1 class="entry-title"><a href="https://stratechery.com/2020/epic-systems-and-electronic-health-records-aggregators-and-data-portability-epics-privacy-objections/" rel="bookmark">Epic Systems and Electronic Health Records, Aggregators and Data Portability, Epic&#8217;s Privacy Objections</a></h1>					</div>
+									<div id="post-4572" class="post-4572 post type-post status-publish format-standard hentry category-daily-email topics-china topics-countries topics-earnings topics-events topics-iphone topics-mobile concepts-business-models concepts-hardware concepts-saas concepts-subscriptions companies-apple">
+						<span class="entry-meta">
+							Wednesday, January 29, 2020						</span>
+						<h1 class="entry-title"><a href="https://stratechery.com/2020/apples-earnings-slowing-services-growth-apple-and-the-wuhan-virus/" rel="bookmark">Apple&#8217;s Earnings, Slowing Services Growth, Apple and the Wuhan Virus</a></h1>					</div>
+									<div id="post-4568" class="post-4568 post type-post status-publish format-standard hentry category-daily-email concepts-disruption concepts-disruption-theory concepts-the-innovators-dilemma companies-apple companies-stratechery">
+						<span class="entry-meta">
+							Monday, January 27, 2020						</span>
+						<h1 class="entry-title"><a href="https://stratechery.com/2020/clayton-christensen-passes-away-professor-christensen-and-i-kobe-bryant-and-measuring-your-life/" rel="bookmark">Clayton Christensen Passes Away, Professor Christensen and I, Kobe Bryant and Measuring Your Life</a></h1>					</div>
+									<div id="post-4561" class="post-4561 post type-post status-publish format-standard hentry category-daily-email topics-earnings topics-events topics-streaming topics-video concepts-aggregation-theory concepts-business-models concepts-customer-acquisition concepts-owning-customer-relationship concepts-product-management concepts-subscriptions companies-netflix">
+						<span class="entry-meta">
+							Thursday, January 23, 2020						</span>
+						<h1 class="entry-title"><a href="https://stratechery.com/2020/netflixs-new-rung-self-production-cash-flow-and-margin-netflixs-new-rung/" rel="bookmark">Netflix Earnings; Self-Production, Cash Flow, and Margin; Netflix&#8217;s New Rung</a></h1>					</div>
+							</div><!-- .row -->
+		</div><!-- .grid -->
+	</section><!-- #daily-updates -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="grid">
+			<div class="row">
+				<div class="twelve column">
+					<div class="site-info">
+						<div class="site-info-container">
+							<span class="powered-by">
+								On the business, strategy, and impact of technology.
+							</span><!-- .powered-by -->
+							<span class="copyright">
+								&copy; <a href="http://stratechery.com/">Stratechery LLC</a> 2020 | <a href="https://stratechery.com/terms-service/">Terms of Service</a> | <a href="https://stratechery.com/privacy-policy/">Privacy Policy</a>
+							</span>
+						</div><!-- .site-info-container -->
+					</div><!-- .site-info -->
+				</div><!-- .twelve -->
+			</div><!-- .row -->
+		</div><!-- .grid -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+	<div id="sharing_email" style="display: none;">
+		<form action="/2016/google-uber-and-the-evolution-of-transportation-as-a-service/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="email" name="target_email" id="target_email" value="" />
+
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="" />
+
+				<label for="source_email">Your Email Address</label>
+				<input type="email" name="source_email" id="source_email" value="" />
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off" title="This field is for validation and should not be changed" />
+			
+			<img style="float: right; display: none" class="loading" src="https://stratechery.com/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16" />
+			<input type="submit" value="Send Email" class="sharing_send" />
+			<a rel="nofollow" href="#cancel" class="sharing_cancel" role="button">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202005'></script>
+<script type='text/javascript' src='https://stratechery.com/wp-content/themes/stratecheryV4/js/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='https://stratechery.com/wp-content/themes/stratecheryV4/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='https://stratechery.com/wp-content/themes/stratecheryV4/js/theme.js?ver=1.0'></script>
+<script type='text/javascript' src='https://stratechery.com/wp-content/themes/stratecheryV4/js/bigfoot.min.js?ver=20150428'></script>
+<script type='text/javascript' src='https://stratechery.com/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"","is_stats_active":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://stratechery.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?ver=7.9.1'></script>
+<script type='text/javascript'>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-linkedin', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+</script>
+</body>
+</html>

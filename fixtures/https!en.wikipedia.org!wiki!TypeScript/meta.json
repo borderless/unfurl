@@ -1,0 +1,34 @@
+{
+  "url": "https://en.wikipedia.org/wiki/TypeScript",
+  "headers": {
+    ":status": "200",
+    "date": "Sat, 01 Feb 2020 18:28:47 GMT",
+    "vary": "Accept-Encoding,Cookie,Authorization",
+    "server": "ATS/8.0.5",
+    "x-ats-timestamp": "1580581727",
+    "content-type": "text/html; charset=UTF-8",
+    "x-powered-by": "PHP/7.2.26-1+0~20191218.33+debian9~1.gbpb5a340+wmf1",
+    "x-content-type-options": "nosniff",
+    "p3p": "CP=\"See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info.\"",
+    "content-language": "en",
+    "content-encoding": "gzip",
+    "last-modified": "Fri, 31 Jan 2020 15:11:53 GMT",
+    "backend-timing": "D=163275 t=1580492087174382",
+    "x-varnish": "756589000 686575675",
+    "age": "22069",
+    "x-cache": "cp4030 miss, cp4031 hit/5",
+    "x-cache-status": "hit-front",
+    "server-timing": "cache;desc=\"hit-front\"",
+    "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+    "set-cookie": [
+      "WMF-Last-Access=02-Feb-2020;Path=/;HttpOnly;secure;Expires=Thu, 05 Mar 2020 00:00:00 GMT",
+      "WMF-Last-Access-Global=02-Feb-2020;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu, 05 Mar 2020 00:00:00 GMT",
+      "GeoIP=US:CA:San_Francisco:37.78:-122.41:v4; Path=/; secure; Domain=.wikipedia.org"
+    ],
+    "x-client-ip": "136.24.147.161",
+    "cache-control": "private, s-maxage=0, max-age=0, must-revalidate",
+    "accept-ranges": "bytes",
+    "content-length": "34599"
+  },
+  "status": 200
+}

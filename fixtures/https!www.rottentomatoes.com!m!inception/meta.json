@@ -1,0 +1,22 @@
+{
+  "url": "https://www.rottentomatoes.com/m/inception/",
+  "headers": {
+    ":status": "200",
+    "content-encoding": "gzip",
+    "content-type": "text/html; charset=utf-8",
+    "etag": "W/\"500f9-+X+XqrbhRpZWzqxM709M/Q4a7Ec\"",
+    "x-content-type-options": "nosniff",
+    "x-response-time": "260.714ms",
+    "cache-control": "max-age=535",
+    "expires": "Sun, 02 Feb 2020 00:45:30 GMT",
+    "date": "Sun, 02 Feb 2020 00:36:35 GMT",
+    "vary": "Accept-Encoding",
+    "set-cookie": [
+      "akamai_generated_location={\"zip\":\"94102-94105+94107-94112+94114-94134+94137+94139-94147+94151+94153-94154+94156+94159-94164+94171-94172+94177+94188\",\"city\":\"SANFRANCISCO\",\"state\":\"CA\",\"county\":\"SANFRANCISCO+SANMATEO\",\"areacode\":\"415+650\",\"lat\":\"37.7795\",\"long\":\"-122.4195\",\"countrycode\":\"US\"}; expires=Tue, 03-Mar-2020 00:36:35 GMT; path=/; domain=.rottentomatoes.com; secure",
+      "akacd_RTReplatform=2177452799~rv=74~id=b87340d27ed5ae15de7245bcdda04f24; path=/; Expires=Mon, 31 Dec 2038 23:59:59 GMT; HttpOnly; Secure; SameSite=None"
+    ],
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000 ; includeSubDomains"
+  },
+  "status": 200
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.newegg.com/xyzprinting-da-vinci-2-0-duo/p/N82E16828840014",
+  "headers": {
+    ":status": "200",
+    "content-type": "text/html; charset=utf-8",
+    "ntcoent-length": "228612",
+    "nel": "{\"report_to\": \"default\", \"max_age\": 2592000}`);",
+    "report-to": "{\"group\":\"default\",\"max-age\":10886400,\"include_subdomains\":\"true\",\"endpoints\":[{\"url\":\"https://pf.newegg.com/csp\"}]};",
+    "pragma": "no-cache",
+    "ga": "0",
+    "link": "<https://assets.adobedtm.com>;rel=preconnect,<https://c1.neweggimages.com>;rel=preconnect,<https://promotions.newegg.com>;rel=preconnect,<https://www2.newegg.com>;rel=preconnect,<https://promotions.newegg.com>;rel=preconnect,<https://pf.newegg.com>;rel=preconnect,<https://ec-apis.newegg.com>;rel=preconnect,<https://sealserver.trustwave.com>;rel=preconnect,<https://help.newegg.com>;rel=preconnect,<https://states.newegg.com>;rel=preconnect,<https://fonts.gstatic.com>;rel=preconnect,<https://secure.newegg.com>;rel=preconnect,<https://tags.tiqcdn.com>;rel=preconnect,<https://images10.newegg.com>;rel=preconnect",
+    "x-server-id": "105",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ver": "11221901",
+    "x-newegg-flow": "MISS",
+    "x-newegg-index": "0",
+    "accept-ranges": "bytes",
+    "content-security-policy": "upgrade-insecure-requests",
+    "content-encoding": "gzip",
+    "cache-control": "no-cache",
+    "expires": "Sun, 02 Feb 2020 00:36:59 GMT",
+    "date": "Sun, 02 Feb 2020 00:36:59 GMT",
+    "vary": "Accept-Encoding",
+    "set-cookie": [
+      "NV_NVTCTIMESTAMP=1580603819; domain=.newegg.com; expires=Wed, 01-Feb-23 00:36:58 GMT; path=/;secure;SameSite=None",
+      "NSC_mc-xxx.ofxfhh.dpn-vsmibti=7c02a3dcb518e96ac8509a47c9de1d0106267d99857d66ff0f72c4b9b2c1283a084d9624;expires=Sun, 02-Feb-2020 01:13:10 GMT;path=/;secure"
+    ],
+    "strict-transport-security": "max-age=31536000"
+  },
+  "status": 200
+}

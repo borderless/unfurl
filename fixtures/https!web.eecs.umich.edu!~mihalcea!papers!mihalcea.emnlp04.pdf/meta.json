@@ -1,0 +1,16 @@
+{
+  "url": "https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf",
+  "headers": {
+    "date": "Sun, 02 Feb 2020 00:36:48 GMT",
+    "server": "Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.2k-fips mod_auth_gssapi/1.5.1 mod_auth_kerb/5.4 mod_fcgid/2.3.9 mod_nss/1.0.14 NSS/3.28.4 PHP/5.4.16 SVN/1.7.14 mod_wsgi/3.4 Python/2.7.5",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "last-modified": "Tue, 21 Dec 2004 22:42:14 GMT",
+    "etag": "\"1ca00-3ebc7f2c2bd80\"",
+    "accept-ranges": "bytes",
+    "content-length": "117248",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive",
+    "content-type": "application/pdf"
+  },
+  "status": 200
+}

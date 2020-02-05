@@ -1,0 +1,41 @@
+{
+  "url": "https://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection",
+  "headers": {
+    ":status": "200",
+    "server": "nginx",
+    "content-type": "text/html; charset=utf-8",
+    "x-nyt-data-last-modified": "Sat, 01 Feb 2020 23:02:22 GMT",
+    "last-modified": "Sat, 01 Feb 2020 23:02:22 GMT",
+    "x-scoop-last-modified": "2018-01-20T00:13:36.865Z",
+    "x-pagetype": "vi-story",
+    "x-vi-compatibility": "Compatible",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "content-encoding": "gzip",
+    "cache-control": "s-maxage=259200,no-cache",
+    "x-nyt-route": "vi-story",
+    "x-datadome-timer": "(null),VE423",
+    "x-origin-time": "2020-02-01 23:02:22 UTC",
+    "accept-ranges": "bytes",
+    "date": "Sun, 02 Feb 2020 00:38:17 GMT",
+    "age": "5755",
+    "x-served-by": "cache-jfk8121-JFK, cache-sea4469-SEA",
+    "x-cache": "MISS, HIT",
+    "x-cache-hits": "0, 1",
+    "x-timer": "S1580603898.534765,VS0,VE2",
+    "vary": "Accept-Encoding, Fastly-SSL",
+    "set-cookie": [
+      "nyt-a=UyNDL2JUKGcQY5dGr0nI2V; Expires=Mon, 01 Feb 2021 00:38:17 GMT; Path=/; Domain=.nytimes.com",
+      "nyt-gdpr=0; Expires=Sun, 02 Feb 2020 06:38:17 GMT; Path=/; Domain=.nytimes.com",
+      "nyt-purr=cfs; Expires=Mon, 01 Feb 2021 00:38:17 GMT; Path=/; Domain=.nytimes.com",
+      "nyt-us=1; Expires=Sun, 02 Feb 2020 06:38:17 GMT; Path=/; Domain=.nytimes.com",
+      "nyt-geo=US; Expires=Sun, 02 Feb 2020 06:38:17 GMT; Path=/; Domain=.nytimes.com"
+    ],
+    "x-gdpr": "0",
+    "x-frame-options": "DENY",
+    "x-api-version": "F-F-VI",
+    "content-security-policy": "default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: wss: blob:; media-src https: blob:; object-src https:; child-src https: data: blob:; form-action https:; block-all-mixed-content;",
+    "content-length": "63770"
+  },
+  "status": 200
+}

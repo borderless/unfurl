@@ -1,0 +1,26 @@
+{
+  "url": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
+  "headers": {
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "set-cookie": [
+      "sc_anonymous_id=892563-364717-19474-920225; path=/; expires=Wed, 30 Jan 2030 00:36:32 GMT; domain=.soundcloud.com"
+    ],
+    "x-pants": "distant-towel",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "private, max-age=0, no-cache, no-store",
+    "x-frame-options": "SAMEORIGIN",
+    "server-timing": "rollouts; dur=5.732834; desc=\"api-v2/rollouts\", geoip; dur=1.374503; desc=\"geoip/geoip\", experiments; dur=6.806811; desc=\"api-v2/experiments\", resolve; dur=63.699277; desc=\"api-v2/resolve\", privacySettings; dur=8.557974; desc=\"api-v2/privacySettings\", geoip; dur=2.463277; desc=\"geoip/geoip\", user; dur=13.24383; desc=\"api-v2/user\", trackComments; dur=107.071342; desc=\"api-v2/trackComments\"",
+    "date": "Sun, 02 Feb 2020 00:36:32 GMT",
+    "strict-transport-security": "max-age=63072000",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "server": "am/2",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 57a21088b36c69a83578b5a5579df58f.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA19-C2",
+    "x-amz-cf-id": "uT4u3sBzoPqMtTayf1GneAKeIm8nMbAryf7kudLFfmeT8licI6plqg=="
+  },
+  "status": 200
+}

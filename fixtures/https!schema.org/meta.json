@@ -1,0 +1,17 @@
+{
+  "url": "https://schema.org",
+  "headers": {
+    ":status": "200",
+    "access-control-allow-origin": "*",
+    "content-type": "text/html",
+    "vary": "Accept, Accept-Encoding",
+    "x-cloud-trace-context": "02284cdda48fbfdb8ff9950d6cefc950",
+    "date": "Sun, 02 Feb 2020 00:35:39 GMT",
+    "server": "Google Frontend",
+    "content-length": "5083",
+    "cache-control": "public, max-age=600",
+    "age": "74",
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"
+  },
+  "status": 200
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
+  "headers": {
+    "server": "nginx",
+    "content-type": "text/html; charset=utf-8",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff, nosniff",
+    "pragma": "no-cache",
+    "set-cookie": [
+      "lc=%7B%22lat%22%3A-33.85726%2C%22lng%22%3A151.21504%2C%22loc%22%3A%22Sydney%2C+Australia%22%2C%22cc%22%3A%22AU%22%2C%22longGeoId%22%3A%2272057594040075650%22%7D; Expires=Sun, 02 Feb 2020 02:34:38 GMT; Path=/",
+      "bbhive=2RAAN0H0IPZH5OUORE1BAW4P0LNBPV%3A%3A1643675678; Expires=Tue, 01 Feb 2022 00:34:38 GMT; Path=/; Domain=.foursquare.com"
+    ],
+    "strict-transport-security": "max-age=31536000",
+    "x-rate-limit-key": "136.24.147.161",
+    "x-ex": "fastly_cdn",
+    "content-encoding": "gzip",
+    "transfer-encoding": "chunked",
+    "accept-ranges": "bytes",
+    "date": "Sun, 02 Feb 2020 00:36:37 GMT",
+    "via": "1.1 varnish",
+    "connection": "keep-alive",
+    "x-served-by": "cache-sjc10047-SJC",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "vary": "Accept-Encoding,User-Agent,Accept-Language"
+  },
+  "status": 200
+}

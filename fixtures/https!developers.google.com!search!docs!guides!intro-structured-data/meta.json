@@ -1,0 +1,22 @@
+{
+  "url": "https://developers.google.com/search/docs/guides/intro-structured-data",
+  "headers": {
+    ":status": "200",
+    "last-modified": "Wed, 29 Jan 2020 22:59:16 GMT",
+    "x-devsite-last-modified": "2020-01-29",
+    "content-type": "text/html; charset=utf-8",
+    "expires": "0",
+    "pragma": "no-cache",
+    "cache-control": "no-cache, must-revalidate",
+    "strict-transport-security": "max-age=31536000; includeSubdomains",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "0",
+    "x-content-type-options": "nosniff",
+    "x-cloud-trace-context": "f9999e337006a3cf614b9db2d34aa8c7",
+    "date": "Sun, 02 Feb 2020 00:36:56 GMT",
+    "server": "Google Frontend",
+    "content-length": "69346",
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"
+  },
+  "status": 200
+}

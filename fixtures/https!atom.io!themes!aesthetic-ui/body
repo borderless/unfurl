@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"844a840367","applicationID":"13323906","transactionName":"c1cMREAKXVRcRhpFUlNTA1dXFh5LUVtC","queueTime":1,"applicationTime":20,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"844a840367",applicationID:"13323906"};window.NREUM||(NREUM={}),__nr_require=function(n,e,t){function r(t){if(!e[t]){var i=e[t]={exports:{}};n[t][0].call(i.exports,function(e){var i=n[t][1][e];return r(i||e)},i,i.exports)}return e[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(n,e,t){function r(){}function i(n,e,t){return function(){return o(n,[u.now()].concat(f(arguments)),e?null:this,t),e?void 0:this}}var o=n("handle"),a=n(4),f=n(5),c=n("ee").get("tracer"),u=n("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(n,e){s[e]=i(d+e,!0,"api")}),s.addPageAction=i(d+"addPageAction",!0),s.setCurrentRouteName=i(d+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(n,e){var t={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),n,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return e.apply(this,arguments)}catch(n){throw c.emit("fn-err",[arguments,this,n],t),n}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(n,e){m[e]=i(l+e)}),newrelic.noticeError=function(n,e){"string"==typeof n&&(n=new Error(n)),o("err",[n,u.now(),!1,e])}},{}],2:[function(n,e,t){function r(n,e){var t=n.getEntries();t.forEach(function(n){"first-paint"===n.name?a("timing",["fp",Math.floor(n.startTime)]):"first-contentful-paint"===n.name&&a("timing",["fcp",Math.floor(n.startTime)])})}function i(n){if(n instanceof c&&!s){var e,t=Math.round(n.timeStamp);e=t>1e12?Date.now()-t:f.now()-t,s=!0,a("timing",["fi",t,{type:n.type,fid:e}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var o,a=n("handle"),f=n("loader"),c=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){o=new PerformanceObserver(r);try{o.observe({entryTypes:["paint"]})}catch(u){}}if("addEventListener"in document){var s=!1,p=["click","keydown","mousedown","pointerdown","touchstart"];p.forEach(function(n){document.addEventListener(n,i,!1)})}}},{}],3:[function(n,e,t){function r(n,e){if(!i)return!1;if(n!==i)return!1;if(!e)return!0;if(!o)return!1;for(var t=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],4:[function(n,e,t){function r(n,e){var t=[],r="",o=0;for(r in n)i.call(n,r)&&(t[o]=e(r,n[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],5:[function(n,e,t){function r(n,e,t){e||(e=0),"undefined"==typeof t&&(t=n?n.length:0);for(var r=-1,i=t-e||0,o=Array(i<0?0:i);++r<i;)o[r]=n[e+r];return o}e.exports=r},{}],6:[function(n,e,t){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(n,e,t){function r(){}function i(n){function e(n){return n&&n instanceof r?n:n?c(n,f,o):o()}function t(t,r,i,o){if(!d.aborted||o){n&&n(t,r,i);for(var a=e(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(n,e){h[n]=v(n).concat(e)}function m(n,e){var t=h[n];if(t)for(var r=0;r<t.length;r++)t[r]===e&&t.splice(r,1)}function v(n){return h[n]||[]}function g(n){return p[n]=p[n]||i(t)}function w(n,e){u(n,function(n,t){e=e||"feature",y[t]=e,e in s||(s[e]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:e,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var f="nr@context",c=n("gos"),u=n(4),s={},p={},d=e.exports=i();d.backlog=s},{}],gos:[function(n,e,t){function r(n,e,t){if(i.call(n,e))return n[e];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return n[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(n,e,t){function r(n,e,t,r){i.buffer([n],r),i.emit(n,e,t)}var i=n("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(n,e,t){function r(n){var e=typeof n;return!n||"object"!==e&&"function"!==e?-1:n===window?0:a(n,o,function(){return i++})}var i=1,o="nr@id",a=n("gos");e.exports=r},{}],loader:[function(n,e,t){function r(){if(!x++){var n=E.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(n&&n.licenseKey&&n.applicationID&&e))return s.abort();u(y,function(e,t){n[e]||(n[e]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=l.createElement("script");t.src="https://"+n.agent,e.parentNode.insertBefore(t,e)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=n("handle"),u=n(4),s=n("ee"),p=n(3),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1158.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=e.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};n(1),n(2),l[m]?(l[m]("DOMContentLoaded",o,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",i),d[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=n(6)},{}],"wrap-function":[function(n,e,t){function r(n){return!(n&&n instanceof Function&&n.apply&&!n[a])}var i=n("ee"),o=n(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;e.exports=function(n,e){function t(n,e,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){d([u,"",[r,a,i],f])}s(e+"start",[r,a,i],f);try{return c=n.apply(a,r)}catch(p){throw s(e+"err",[r,a,p],f),p}finally{s(e+"end",[r,a,c],f)}}return r(n)?n:(e||(e=""),nrWrapper[a]=n,p(n,nrWrapper),nrWrapper)}function u(n,e,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<e.length;c++)f=e[c],a=n[f],r(a)||(n[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||e){var o=c;c=!0;try{n.emit(t,r,i,e)}catch(a){d([a,t,r,i])}c=o}}function p(n,e){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(n);return t.forEach(function(t){Object.defineProperty(e,t,{get:function(){return n[t]},set:function(e){return n[t]=e,e}})}),e}catch(r){d([r])}for(var i in n)f.call(n,i)&&(e[i]=n[i]);return e}function d(e){try{n.emit("internal-error",e)}catch(t){}}return n||(n=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+  <title>aesthetic-ui</title>
+  <link rel="stylesheet" media="all" href="https://github-atom-io-herokuapp-com.freetls.fastly.net/assets/application-3cb78c62c5521ca313c78178e3e82ccb1695af1c72a01a79d82ac9fadcbdec6c.css" data-turbolinks-track="true" />
+  <script src="https://github-atom-io-herokuapp-com.freetls.fastly.net/assets/application-d672dbbb8d60f7f02d7854cd1cffdeb0c12e464f93cc6424bc100f6bbb670534.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="XPtw44h1os2pykjUnC7rB4HJ8mnlcBjif/TXdd68FRiC5XyzBliP6P40AbsfsKh+TEvhBXuqQoSxhEQLwPlxuQ==" />
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3769691-35', 'atom.io');
+  ga('send', 'pageview');
+
+</script>
+
+  <meta property="og:url" content="https://atom.io/packages/aesthetic-ui" />
+<meta property="og:site_name" content="Atom" />
+<meta property="og:title" content="aesthetic-ui" />
+<meta property="og:description" content="Ａｎ　ＡＥＳＴＨＥＴＩＣ　ＵＩ　tｈｅｍｅ　ｆｏｒ　Ａｔｏｍ" />
+<meta property="og:type" content="website" />
+<meta property="og:author" content='https://github.com/dtinth' />
+  <meta property="og:image" content="http://i.imgur.com/455A2im.png" />
+
+  <meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@AtomEditor" />
+<meta property="twitter:creator" content='https://github.com/dtinth' />
+<meta property="twitter:title" content="aesthetic-ui" />
+<meta property="twitter:description" content="Ａｎ　ＡＥＳＴＨＥＴＩＣ　ＵＩ　tｈｅｍｅ　ｆｏｒ　Ａｔｏｍ" />
+  <meta property="twitter:image:src" content="http://i.imgur.com/455A2im.png" />
+
+  <meta name="description" content="At GitHub, we’re building the text editor we’ve always wanted: hackable to the core, but approachable on the first day without ever touching a config file. We can’t wait to see what you build with it." />
+
+
+  <link rel="shortcut icon" href="/favicon.ico"/>
+  <link rel="alternate" type="application/atom+xml" title="Atom Packages and Themes" href="https://atom.io/packages.atom" />
+</head>
+<body class="">
+
+  
+
+  <div class="footer-push">
+    <nav class="top-bar" aria-label="Primary">
+  <div class="wrapper no-pad">
+
+    <ul class="navigation">
+      <li><h1><a href="/" class="logo-small" title="Atom: A hackable text editor for the 21st Century"></a></h1></li>
+      <li><a class="" href="/packages">Packages</a></li>
+      <li><a class="is-selected" href="/themes">Themes</a></li>
+      <li><a class="" href="/docs">Documentation</a></li>
+      <li><a href="https://blog.atom.io">Blog</a></li>
+      <li><a href="https://discuss.atom.io">Discuss</a></li>
+    </ul>
+
+    <div class="top-bar-right">
+        <a href="/login?last_url=%2Fthemes%2Faesthetic-ui">
+          <span class="octicon octicon-log-in"></span> Sign in
+        </a>
+    </div>
+  </div>
+</nav>
+
+
+    <div id="js-pjax-container">
+      
+<div class="wrapper package-show content-push">
+
+
+  <div>
+    <div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/themes/aesthetic-ui">aesthetic-ui</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Ａｎ　ＡＥＳＴＨＥＴＩＣ　ＵＩ　tｈｅｍｅ　ｆｏｒ　Ａｔｏｍ</span>
+
+        <ul class="keywords">
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/dtinth">
+          <img src="https://github.com/dtinth.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/dtinth" class="author">
+          dtinth
+        </a>
+
+        <div class="meta-right">
+          <a class="linked-octicon" href="https://github.com/dtinth/atom-aesthetic-ui/releases/tag/v4.0.0">
+            <span class="stat tooltipped tooltipped-n" aria-label="Latest version">
+              <span class="octicon octicon-versions"></span> <span class="value">4.0.0</span>
+            </span>
+          </a>
+          <span class="stat tooltipped tooltipped-n" aria-label="25,126 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">25,126</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/aesthetic-ui/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star aesthetic-ui"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/aesthetic-ui/stargazers" aria-label="84 users starred aesthetic-ui">
+    84
+  </a>
+</div>
+
+        </span>
+        
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+
+
+
+      <div class="package-meta">
+        <ul>
+          <li><a href="https://github.com/dtinth/atom-aesthetic-ui"><span class="octicon octicon-repo"></span> Repo</a></li>
+          <li><a href="https://github.com/dtinth/atom-aesthetic-ui/issues"><span class="octicon octicon-bug"></span> Bugs</a></li>
+          <li><a href="https://github.com/dtinth/atom-aesthetic-ui/releases"><span class="octicon octicon-versions"></span> Versions</a></li>
+          <li>
+              <a href="https://github.com/dtinth/atom-aesthetic-ui/blob/7a7cb5ac1f53c05d6f6e215f786cf5decce2a514/LICENSE.md"><span class="octicon octicon-law"></span> License</a>
+          </li>
+        </ul>
+
+        <a href="#flag-modal" class="js-show-flag show-flag"><span class="octicon octicon-circle-slash"></span> Flag as spam or malicious</a>
+      </div>
+  </div>
+
+
+    <div class="markdown-body readme">
+          <h1>
+<a href="#%EF%BD%81%EF%BD%85%EF%BD%93%EF%BD%94%EF%BD%88%EF%BD%85%EF%BD%94%EF%BD%89%EF%BD%83%EF%BD%95%EF%BD%89" aria-hidden="true"></a>ａｅｓｔｈｅｔｉｃ－ｕｉ</h1>
+<p>Ａｎ　<a href="http://knowyourmeme.com/memes/aesthetic">ａｅｓｔｈｅｔｉｃ</a>　ＵＩ　ｔｈｅｍｅ　ｆｏｒ　Ａｔｏｍ　ｔｅｘｔ　ｅｄｉｔｏｒ．　Ｃｏｎｔｒｉｂｕｔｉｏｎｓ　ｗｅｌｃｏｍｅ！</p>
+<h2>
+<a href="#%EF%BC%AE%EF%BD%85%EF%BD%97%EF%BD%89%EF%BD%8E%EF%BD%96%EF%BD%85%EF%BD%92%EF%BD%93%EF%BD%89%EF%BD%8F%EF%BD%8E%EF%BC%94%EF%BC%90%EF%BC%90" aria-hidden="true"></a>Ｎｅｗ　ｉｎ　ｖｅｒｓｉｏｎ　４．０．０</h2>
+<ul>
+<li>Ｔｈｉｓ　ｖｅｒｓｉｏｎ　ｉｓ　ｃｏｍｐａｔｉｂｌｅ　ｗｉｔｈ　Ａｔｏｍ　１．１７　ａｎｄ　ａｂｏｖｅ．</li>
+</ul>
+<h2>
+<a href="#%EF%BC%AE%EF%BD%85%EF%BD%97%EF%BD%89%EF%BD%8E%EF%BD%96%EF%BD%85%EF%BD%92%EF%BD%93%EF%BD%89%EF%BD%8F%EF%BD%8E%EF%BC%93%EF%BC%90%EF%BC%90" aria-hidden="true"></a>Ｎｅｗ　ｉｎ　ｖｅｒｓｉｏｎ　３．０．０</h2>
+<ul>
+<li>
+<p>Ａｄｄｅｄ　ｃｕｓｔｏｍ　ｔｉｔｌｅ　ｂａｒ　（ｏｎｌｙ　ｔｅｓｔｅｄ　ｏｎ　Ｍａｃ）．</p>
+</li>
+<li>
+<p>Ａｄｄｅｄ　ｃｕｓｔｏｍ　ｓｃｒｏｌｌｂａｒ．</p>
+</li>
+<li>
+<p>Ｆｉｘ　ｄｅｐｒｅｃａｔｅｄ　ｓｅｌｅｃｔｏｒｓ．</p>
+</li>
+<li>
+<p>Ｕｐｄａｔｅｄ　ｔｏ　ｌａｔｅｓｔ　ａｔｏｍ－ｌｉｇｈｔ－ｕｉ　ｕｐｓｔｒｅａｍ．</p>
+</li>
+</ul>
+<h2>
+<a href="#%EF%BC%AE%EF%BD%85%EF%BD%97%EF%BD%89%EF%BD%8E%EF%BD%96%EF%BD%85%EF%BD%92%EF%BD%93%EF%BD%89%EF%BD%8F%EF%BD%8E%EF%BC%92%EF%BC%90%EF%BC%90" aria-hidden="true"></a>Ｎｅｗ　ｉｎ　ｖｅｒｓｉｏｎ　２．０．０</h2>
+<p>Ｍｏｒｅ　ｃｏｍｐａｃｔ　ａｎｄ　ａｅｓｔｈｅｔｉｃ　ｔｒｅｅ　ｖｉｅｗ！<a href="https://github.com/dtinth/atom-aesthetic-ui/pull/4">Ｃｏｎｔｒｉｂｕｔｅｄ　ｂｙ　＠ａｂｅｊｆｅｈｒ．</a>　Ｔｈａｎｋｓ！</p>
+<p><img src="https://i.github-camo.com/729adbef4e35abd35e5a2ba894c35d3dbc35467b/687474703a2f2f692e696d6775722e636f6d2f3435354132696d2e706e67" alt="Ｓｃｒｅｅｎｓｈｏｔ" data-canonical-src="http://i.imgur.com/455A2im.png"></p>
+<h2>
+<a href="#%EF%BC%B3%EF%BD%83%EF%BD%92%EF%BD%85%EF%BD%85%EF%BD%8E%EF%BD%93%EF%BD%88%EF%BD%8F%EF%BD%94%EF%BD%93" aria-hidden="true"></a>Ｓｃｒｅｅｎｓｈｏｔｓ</h2>
+<p><img src="https://i.github-camo.com/f74ec4147d9846a53dfa97eb73ab7078042ebc76/687474703a2f2f692e696d6775722e636f6d2f4d6a58327871772e706e67" alt="Ｓｅｔｔｉｎｇｓ　ｖｉｅｗ　＆　ｍｏｄａｌｓ" data-canonical-src="http://i.imgur.com/MjX2xqw.png"></p>
+<p><img src="https://i.github-camo.com/1355fac44908f16520710ef589983ca4695a2569/687474703a2f2f692e696d6775722e636f6d2f7a484f626d79652e706e67" alt="Ｔｅｘｔ　ｅｄｉｔｏｒ　＆　ｔｒｅｅ　ｖｉｅｗ" data-canonical-src="http://i.imgur.com/zHObmye.png"></p>
+<p>Ｎｏｔｅ：　Ｕｓｉｎｇ　<a href="https://atom.io/themes/redmond-syntax">Ｒｅｄｍｏｎｄ</a>　ｓｙｎｔａｘ　ｔｈｅｍｅ．</p>
+    </div>
+
+</div>
+
+<div id="flag-modal" style="display:none">
+  <h2>
+    I think this package is bad news.
+  </h2>
+
+  <p>
+    Good catch. Let us know what about this package looks wrong to you, and we'll
+    investigate right away.
+  </p>
+
+  <form action="/packages/aesthetic-ui/flag" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tvYIVpVU5ji5JBTpTYyc4mfIvcJjq+5tw0kgjSxmWsBo6AQGG3nLHe7aXYbOEt+bqkqurv1xtAsNObPzMiM+YQ==" />
+    <textarea rows="5" name="flag[message]" id="flag_message">
+</textarea>
+    <input type="submit" name="commit" value="Flag aesthetic-ui" class="button primary flag-button" data-disable-with="Flag aesthetic-ui" />
+</form></div>
+
+
+    </div>
+
+    <div class="footer-pad"></div>
+  </div>
+
+  <footer>
+  <div class="footer">
+    <div class="wrapper no-pad">
+      <ul class="footer-left">
+        <li><a href="/terms">Terms of Use</a></li>
+        <li><a href="https://help.github.com/articles/github-privacy-policy/">Privacy</a></li>
+        <li><a href="https://github.com/atom/atom/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+        <li><a href="/releases">Releases</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+
+      <div class="footer-right">
+        <a href="https://github.com"><span class="octicon octicon-code"></span> with <span class="octicon octicon-heart"></span> by <span class="octicon octicon-logo-github"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

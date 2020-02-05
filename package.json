@@ -5,20 +5,17 @@
   "main": "dist/index.js",
   "files": [
     "dist/",
-    "typings.json",
     "README.md",
     "LICENSE"
   ],
   "scripts": {
-    "lint": "tslint \"src/**/*.ts\" --project tsconfig.json --type-check",
-    "clean": "rimraf dist",
-    "tsc": "tsc",
-    "build": "npm run clean && npm run tsc",
-    "test:cov": "jest --coverage",
-    "test:update": "jest -u",
-    "test": "npm run lint && npm run build && npm run test:cov",
-    "populate": "node scripts/fixtures.js && node scripts/scrape.js && node scripts/extract.js",
-    "prepublish": "typings install && npm run build"
+    "prettier": "prettier --write",
+    "lint": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --quiet --fix",
+    "format": "npm run prettier -- \"{.,src/**}/*.{js,jsx,ts,tsx,json,md,yml,yaml}\"",
+    "build": "rimraf dist/ && tsc",
+    "specs": "jest --coverage",
+    "test": "npm run build && npm run lint && npm run specs",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -46,26 +43,60 @@
     "url": "https://github.com/blakeembrey/node-scrappy/issues"
   },
   "homepage": "https://github.com/blakeembrey/node-scrappy",
+  "jest": {
+    "roots": [
+      "<rootDir>/src/"
+    ],
+    "transform": {
+      "\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,md,yml,yaml}": "npm run prettier"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
-    "catbox-fs": "^2.0.0",
-    "jest": "^21.0.0",
-    "popsicle-cache": "^5.0.1",
-    "rimraf": "^2.5.4",
-    "tslint": "^5.8.0",
-    "tslint-config-standard": "^7.0.0",
-    "typescript": "^2.6.1",
-    "typings": "^2.0.0"
+    "@types/jest": "^25.1.1",
+    "@types/jsonld": "^1.5.0",
+    "@types/node": "^13.1.8",
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "@typescript-eslint/parser": "^2.17.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "filenamify": "^4.1.0",
+    "husky": "^4.2.0",
+    "jest": "^25.1.0",
+    "lint-staged": "^10.0.1",
+    "popsicle": "^12.0.5",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "ts-jest": "^25.0.0",
+    "typescript": "^3.7.5"
   },
   "dependencies": {
-    "arrify": "^1.0.1",
-    "concat-stream": "^1.5.2",
-    "content-type": "^1.0.2",
     "exif-date": "^2.0.1",
-    "exiftool2": "0.0.4",
-    "getvalue": "^1.1.0",
-    "htmlmetaparser": "^1.2.0",
-    "htmlparser2": "^3.9.1",
-    "jsonld": "^0.4.11",
-    "popsicle": "^9.0.0"
+    "exiftool2": "^1.0.1",
+    "functools": "^3.4.0",
+    "htmlmetaparser": "^2.0.0",
+    "htmlparser2": "^4.0.0",
+    "iterative": "^1.9.1",
+    "jsonld": "^2.0.2"
   }
 }

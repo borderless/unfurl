@@ -1,0 +1,26 @@
+{
+  "url": "https://github.com/moment/moment/pull/3323",
+  "headers": {
+    "date": "Sun, 02 Feb 2020 00:36:29 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "server": "GitHub.com",
+    "status": "200 OK",
+    "vary": "X-PJAX, Accept-Encoding",
+    "etag": "W/\"ec68397d654dd013d9565fd917b3cf55\"",
+    "cache-control": "max-age=0, private, must-revalidate",
+    "set-cookie": [
+      "has_recent_activity=1; path=/; expires=Sun, 02 Feb 2020 01:36:28 -0000",
+      "_gh_sess=U3VJcnhLaHMvOWdsVTU1YXFsK2ZuVHNuVlpjRFRlcVZMUnN5ckhRaHZaem9kZE5wdGVzendLWkNuNUlzNTM1WitmZnF6NFVyc0FHaTZXd3hwZjFVNklWTXZuQUN6L0NxbExoSldaQlZyWnNTVDQxaDdYR2xPaHl0WDF1bE94b3lBOHQ4aTA1Vkg3VmlkNmJ1UnZ6bEJsSm1lSHZkUXlXc2hNS2VZSGRTY0hGZEhvei9vaDR1d2hkNGtYRzNqOXVDNWZzc0c0dlFzVG9waU80d1NkUUIyaXRuUnVuQlNRdUp6cVlOVlV1c0Uvaz0tLTJ0eTQ2TTFGaUdhZ0UvTXA2VyswcFE9PQ%3D%3D--7502735d8755d83cf3c4725bd74d04e6b79a4791; path=/; secure; HttpOnly"
+    ],
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "x-frame-options": "deny",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "expect-ct": "max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"",
+    "content-security-policy": "default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com wss://live.github.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com",
+    "content-encoding": "gzip",
+    "x-github-request-id": "DFD6:1796:1728B3:1E7555:5E36198C"
+  },
+  "status": 200
+}

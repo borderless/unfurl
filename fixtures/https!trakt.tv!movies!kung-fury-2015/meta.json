@@ -1,0 +1,27 @@
+{
+  "url": "https://trakt.tv/movies/kung-fury-2015",
+  "headers": {
+    ":status": "200",
+    "date": "Sun, 02 Feb 2020 00:36:35 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "set-cookie": [
+      "__cfduid=dd3d9ff60ce6673b18a3ae9382397add11580603795; expires=Tue, 03-Mar-20 00:36:35 GMT; path=/; domain=.trakt.tv; HttpOnly; SameSite=Lax",
+      "watchnow_country=us; path=/; expires=Thu, 02 Feb 2040 00:36:35 -0000",
+      "_traktsession=dHZ4cFJLZ3UrZUdqMnRYb0w2L1RueXdxTnkzbUVZeFBtWHlCZ2FJcUszcFk4R1gxUjJmMXZORTZHWkRFdTh6d3ZJUitxa1ZhWGsxOTBLNkFvakVuMFEvRnpLUUNYbzM4K2IwSi9la1dCejYweHk0YXA2cDFZN3ZTeWc3L1kvbnh0QkR2cW1vdlRRVkZXVUR0Y0R1MHFEU1ZKOFN4QnpNMmhaL1U3NFRZUGhPRXdnMHlETWpNaWdnS1VXbVQwTVlVLS1CVzRiSldiMUNwcHc0V3BjOS96WGNnPT0%3D--75d12c16c11309b6b6420d1cf32ca421ad662caf; path=/; HttpOnly"
+    ],
+    "cache-control": "max-age=0, private, must-revalidate",
+    "cf-railgun": "a50ae0e40b 0.91 0.166011 0030 57da",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-request-id": "16bb986f-3c77-4d0b-bfbc-9244338883ef",
+    "x-runtime": "0.157317",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "server": "cloudflare",
+    "cf-ray": "55e8177acfaf51ce-SJC",
+    "content-encoding": "br"
+  },
+  "status": 200
+}

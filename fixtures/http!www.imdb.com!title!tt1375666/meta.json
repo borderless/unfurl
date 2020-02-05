@@ -1,0 +1,30 @@
+{
+  "url": "https://www.imdb.com/title/tt1375666/",
+  "headers": {
+    ":status": "200",
+    "server": "Server",
+    "content-type": "text/html;charset=UTF-8",
+    "strict-transport-security": "max-age=47474747; includeSubDomains; preload",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "frame-ancestors 'self' imdb.com *.imdb.com *.media-imdb.com withoutabox.com *.withoutabox.com amazon.com *.amazon.com amazon.co.uk *.amazon.co.uk amazon.de *.amazon.de translate.google.com images.google.com www.google.com www.google.co.uk search.aol.com bing.com www.bing.com",
+    "ad-unit": "imdb.title_md.title.maindetails",
+    "entity-id": "tt1375666",
+    "content-language": "en-US",
+    "set-cookie": [
+      "uu=BCYlDf7jAqztU6Vq5zMwbZaeXAF0ae5bMbvlN-rnD4Y3viykBjCTDA9hK_nBcIFqcMOpo9lfzmqk%0D%0APC4UGElNX6H2IwGUo6dajAhOv0AEL-ZZqLak43zEFI2fKqJCIacKEzu3Jx6-vDT2mKHc7nU1jClN%0D%0A5A%0D%0A; Domain=.imdb.com; Expires=Fri, 20-Feb-2088 03:50:41 GMT; Path=/; Secure",
+      "session-id=135-4880732-3024453; Domain=.imdb.com; Expires=Fri, 20-Feb-2088 03:50:41 GMT; Path=/; Secure",
+      "session-id-time=2211323794; Domain=.imdb.com; Expires=Fri, 20-Feb-2088 03:50:41 GMT; Path=/; Secure"
+    ],
+    "content-encoding": "gzip",
+    "x-amz-rid": "CHJWMJCS54A7DCN37BHX",
+    "accept-ranges": "bytes",
+    "date": "Sun, 02 Feb 2020 00:36:34 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-sea4444-SEA",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1580603794.979145,VS0,VE890",
+    "vary": "Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent"
+  },
+  "status": 200
+}

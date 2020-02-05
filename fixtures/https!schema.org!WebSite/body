@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Generated from genericTermPageHeader.tpl -->
+<head>
+  <!-- Generated from headtags.tpl -->
+    <meta charset="utf-8" >
+    <link rel="shortcut icon" type="image/png" href="docs/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="docs/schemaorg.css" />
+    <link rel="stylesheet" type="text/css" href="docs/prettify.css" />
+    <script type="text/javascript" src="docs/prettify.js"></script>
+    
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<!-- ##### Generated insert [CSEScript-start] see scripts/genhtmlinserts.sh ##### --> 
+<!-- Enable CSE Search -->
+<script>
+(function() {
+var cx = '013516846811604855281:nj5laplixaa'; // Insert your own Custom Search engine ID here
+var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})();
+</script>
+<!-- ##### Generated insert [CSEScript-end] see scripts/genhtmlinserts.sh ##### --> 
+<!-- End headtags.tpl -->
+	
+    <title>WebSite - schema.org Type</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Schema.org Type: WebSite - A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs." />
+
+
+<script type="text/javascript">
+      $(document).ready(function(){
+        prettyPrint();
+        setTimeout(function(){
+
+  $(".atn:contains(itemscope), .atn:contains(itemtype), .atn:contains(itemprop), .atn:contains(itemid), .atn:contains(time), .atn:contains(datetime), .atn:contains(datetime), .tag:contains(time) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function(){
+
+  $(".atn:contains(property), .atn:contains(typeof) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function() {
+          $('.ds-selector-tabs .selectors a').click(function() {
+            var $this = $(this);
+            var $p = $this.parents('.ds-selector-tabs');
+            $('.selected', $p).removeClass('selected');
+            $this.addClass('selected');
+            $('pre.' + $this.data('selects'), $p).addClass('selected');
+          });
+        }, 0);
+      });
+</script>
+
+<style>
+
+  .pln    { color: #444;    } /* plain text                 */
+  .tag    { color: #515484; } /* div, span, a, etc          */
+  .atn,
+  .atv    { color: #314B17; } /* href, datetime             */
+  .new    { color: #660003; } /* itemscope, itemtype, etc,. */
+  .curl   { color: #080;    } /* new url                    */
+
+  table.definition-table {
+    border-spacing: 3px;
+    border-collapse: separate;
+  }
+  
+  #morecheck {
+	  outline: none;
+  }
+#morecheck:checked + div { display: none; }
+  
+
+</style>
+<link rel="canonical" href="https://schema.org/WebSite" />
+</head>
+<body class="mainsite">
+
+<!-- Header start from basicPageHeader.tpl -->
+<div id="container">
+	<div id="intro">
+		<div id="pageHeader">
+			<div class="wrapper">
+				<div id="sitename">
+				<h1>
+					<a href="/">schema.org</a>
+				</h1>
+				</div>
+				<div id="cse-search-form" style="width: 400px;"><div class="gcse-searchbox-only" data-resultsUrl="docs/search_results.html"></div></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="selectionbar">
+	<div class="wrapper">
+		<ul>
+	        
+	        <li>
+	        
+				<a href="docs/documents.html">Documentation</a>
+			</li>
+	        
+	        <li class="activelink">
+	        
+				<a href="docs/schemas.html">Schemas</a>
+			</li>
+			<li>
+	        
+				<a href="./">Home</a>
+	        
+			</li>
+		</ul>
+	</div>
+</div>
+
+<!-- Header start from topnotes.tpl -->
+
+
+
+
+
+<!-- Header end from topnotes.tpl -->
+
+<!-- Header end from basicPageHeader.tpl -->
+  <div id="mainContent" vocab="http://schema.org/" typeof="rdfs:Class" resource="http://schema.org/WebSite">
+  <!-- no external mappings noted for this term. -->
+
+<!-- webapp will assemble the rest elsewhere -->
+<!-- Will need at least:  </div></body></html> -->
+<!-- end of genericTermPageHeader.tpl -->
+  
+<h1 property="rdfs:label" class="page-title">WebSite</h1>
+<h4><span class='breadcrumbs'><a   href="./Thing">Thing</a> &gt; <link  property="rdfs:subClassOf" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a> &gt; <a   href="./WebSite">WebSite</a></span>
+</h4>
+ <div property="rdfs:comment">A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.</div>
+
+
+<div>
+        <div id='infobox' style='text-align: right;' role="checkbox" aria-checked="false"><label for="morecheck"><b><span style="cursor: pointer;">[more...]</span></b></label></div>
+        <input type='checkbox' checked="checked" style='display: none' id=morecheck><div id='infomsg' style='background-color: #EEEEEE; text-align: left; padding: 0.5em;'>
+        <ul><li> <span class="canonicalUrl">Canonical URL: <a href="http://schema.org/WebSite">http://schema.org/WebSite</a></span> 
+<link  property="sameAs" href="https://schema.org/WebSite" /></li><li><a href='https://docs.google.com/a/google.com/forms/d/1krxHlWJAO3JgvHRZV9Rugkr9VYnMdrI10xbGsWt733c/viewform?entry.1174568178&entry.41124795=http://schema.org/WebSite&entry.882602760=Class'>Leave public feedback on this term &#128172;</a></li><li><a href='https://github.com/schemaorg/schemaorg/issues?q=is%3Aissue+is%3Aopen+WebSite'>Check for open issues.</a></li></ul>
+</div>
+</div>
+<table class="definition-table">
+        <thead>
+  <tr><th>Property</th><th>Expected Type</th><th>Description</th>               
+  </tr>
+  </thead>
+
+<tr class="supertype">
+     <th class="supertype-name" colspan="3">Properties from <a   href="./WebSite">WebSite</a></th>
+  
+</tr>
+
+<tbody class="supertype">
+  <tr typeof="rdfs:Property" resource="http://schema.org/issn">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./issn">issn</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Blog"><link property="domainIncludes" href="http://schema.org/CreativeWorkSeries"><link property="domainIncludes" href="http://schema.org/Dataset"><link property="domainIncludes" href="http://schema.org/WebSite"></td><td class="prop-desc" property="rdfs:comment">The International Standard Serial Number (ISSN) that identifies this serial publication. You can repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial publication.</td></tr><tr class="supertype">
+     <th class="supertype-name" colspan="3">Properties from <a   href="./CreativeWork">CreativeWork</a></th>
+  
+</tr>
+
+<tbody class="supertype">
+  <tr typeof="rdfs:Property" resource="http://schema.org/about">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./about">about</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Thing" /><a   href="./Thing">Thing</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CommunicateAction"><link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Event"></td><td class="prop-desc" property="rdfs:comment">The subject matter of the content.<br/> Inverse property: <a   href="./subjectOf">subjectOf</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/abstract">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a title="Defined in extension: pending.schema.org"  class="ext ext-pending"  href="https://pending.schema.org/abstract">abstract</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">An abstract is a short description that summarizes a <a class="localLink" href="/CreativeWork">CreativeWork</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/accessMode">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./accessMode">accessMode</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The human sensory perceptual system or cognitive faculty through which a person may process or perceive information. Expected values include: auditory, tactile, textual, visual, colorDependent, chartOnVisual, chemOnVisual, diagramOnVisual, mathOnVisual, musicOnVisual, textOnVisual.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/accessModeSufficient">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./accessModeSufficient">accessModeSufficient</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/ItemList" /><a   href="./ItemList">ItemList</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A list of single or combined accessModes that are sufficient to understand all the intellectual content of a resource. Expected values include:  auditory, tactile, textual, visual.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/accessibilityAPI">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./accessibilityAPI">accessibilityAPI</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Indicates that the resource is compatible with the referenced accessibility API (<a href="http://www.w3.org/wiki/WebSchemas/Accessibility">WebSchemas wiki lists possible values</a>).</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/accessibilityControl">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./accessibilityControl">accessibilityControl</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Identifies input methods that are sufficient to fully control the described resource (<a href="http://www.w3.org/wiki/WebSchemas/Accessibility">WebSchemas wiki lists possible values</a>).</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/accessibilityFeature">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./accessibilityFeature">accessibilityFeature</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility (<a href="http://www.w3.org/wiki/WebSchemas/Accessibility">WebSchemas wiki lists possible values</a>).</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/accessibilityHazard">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./accessibilityHazard">accessibilityHazard</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3 (<a href="http://www.w3.org/wiki/WebSchemas/Accessibility">WebSchemas wiki lists possible values</a>).</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/accessibilitySummary">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./accessibilitySummary">accessibilitySummary</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A human-readable summary of specific accessibility features or deficiencies, consistent with the other accessibility metadata but expressing subtleties such as "short descriptions are present but long descriptions will be needed for non-visual users" or "short descriptions are present and no long descriptions are needed."</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/accountablePerson">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./accountablePerson">accountablePerson</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Specifies the Person that is legally accountable for the CreativeWork.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/aggregateRating">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./aggregateRating">aggregateRating</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/AggregateRating" /><a   href="./AggregateRating">AggregateRating</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Brand"><link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Event"><link property="domainIncludes" href="http://schema.org/Offer"><link property="domainIncludes" href="http://schema.org/Organization"><link property="domainIncludes" href="http://schema.org/Place"><link property="domainIncludes" href="http://schema.org/Product"><link property="domainIncludes" href="http://schema.org/Service"></td><td class="prop-desc" property="rdfs:comment">The overall rating, based on a collection of reviews or ratings, of the item.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/alternativeHeadline">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./alternativeHeadline">alternativeHeadline</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A secondary title of the CreativeWork.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/associatedMedia">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./associatedMedia">associatedMedia</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/MediaObject" /><a   href="./MediaObject">MediaObject</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A media object that encodes this CreativeWork. This property is a synonym for encoding.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/audience">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./audience">audience</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Audience" /><a   href="./Audience">Audience</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Event"><link property="domainIncludes" href="http://schema.org/LodgingBusiness"><link property="domainIncludes" href="http://schema.org/PlayAction"><link property="domainIncludes" href="http://schema.org/Product"><link property="domainIncludes" href="http://schema.org/Service"></td><td class="prop-desc" property="rdfs:comment">An intended audience, i.e. a group for whom something was created. Supersedes <a   href="./serviceAudience">serviceAudience</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/audio">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./audio">audio</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/AudioObject" /><a   href="./AudioObject">AudioObject</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Clip" /><a   href="./Clip">Clip</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/MusicRecording" /><a   href="./MusicRecording">MusicRecording</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">An embedded audio object.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/author">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./author">author</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Rating"></td><td class="prop-desc" property="rdfs:comment">The author of this content or rating. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/award">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./award">award</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Organization"><link property="domainIncludes" href="http://schema.org/Person"><link property="domainIncludes" href="http://schema.org/Product"><link property="domainIncludes" href="http://schema.org/Service"></td><td class="prop-desc" property="rdfs:comment">An award won by or for this item. Supersedes <a   href="./awards">awards</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/character">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./character">character</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Fictional person connected with a creative work.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/citation">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./citation">citation</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/comment">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./comment">comment</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Comment" /><a   href="./Comment">Comment</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/RsvpAction"></td><td class="prop-desc" property="rdfs:comment">Comments, typically from users.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/commentCount">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./commentCount">commentCount</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Integer" /><a   href="./Integer">Integer</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The number of comments this CreativeWork (e.g. Article, Question or Answer) has received. This is most applicable to works published in Web sites with commenting system; additional comments may exist elsewhere.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/conditionsOfAccess">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a title="Defined in extension: pending.schema.org"  class="ext ext-pending"  href="https://pending.schema.org/conditionsOfAccess">conditionsOfAccess</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Conditions that affect the availability of, or method(s) of access to, an item. Typically used for real world items such as an <a class="localLink" href="/ArchiveComponent">ArchiveComponent</a> held by an <a class="localLink" href="/ArchiveOrganization">ArchiveOrganization</a>. This property is not suitable for use as a general Web access control mechanism. It is expressed only in natural language.<br/><br/>
+
+For example "Available by appointment from the Reading Room" or "Accessible only from logged-in accounts ".</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/contentLocation">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./contentLocation">contentLocation</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Place" /><a   href="./Place">Place</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The location depicted or described in the content. For example, the location in a photograph or painting.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/contentRating">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./contentRating">contentRating</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Rating" /><a   href="./Rating">Rating</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Official rating of a piece of content&#x2014;for example,'MPAA PG-13'.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/contentReferenceTime">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a title="Defined in extension: pending.schema.org"  class="ext ext-pending"  href="https://pending.schema.org/contentReferenceTime">contentReferenceTime</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/DateTime" /><a   href="./DateTime">DateTime</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The specific time described by a creative work, for works (e.g. articles, video objects etc.) that emphasise a particular moment within an Event.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/contributor">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./contributor">contributor</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Event"></td><td class="prop-desc" property="rdfs:comment">A secondary contributor to the CreativeWork or Event.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/copyrightHolder">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./copyrightHolder">copyrightHolder</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The party holding the legal copyright to the CreativeWork.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/copyrightYear">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./copyrightYear">copyrightYear</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Number" /><a   href="./Number">Number</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The year during which the claimed copyright for the CreativeWork was first asserted.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/correction">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a title="Defined in extension: pending.schema.org"  class="ext ext-pending"  href="https://pending.schema.org/correction">correction</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CorrectionComment" /><a title="Defined in extension: pending.schema.org"  class="ext ext-pending"  href="https://pending.schema.org/CorrectionComment">CorrectionComment</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Indicates a correction to a <a class="localLink" href="/CreativeWork">CreativeWork</a>, either via a <a class="localLink" href="/CorrectionComment">CorrectionComment</a>, textually or in another document.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/creativeWorkStatus">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a title="Defined in extension: pending.schema.org"  class="ext ext-pending"  href="https://pending.schema.org/creativeWorkStatus">creativeWorkStatus</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/DefinedTerm" /><a title="Defined in extension: pending.schema.org"  class="ext ext-pending"  href="https://pending.schema.org/DefinedTerm">DefinedTerm</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The status of a creative work in terms of its stage in a lifecycle. Example terms include Incomplete, Draft, Published, Obsolete. Some organizations define a set of terms for the stages of their publication lifecycle.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/creator">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./creator">creator</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/UserComments"></td><td class="prop-desc" property="rdfs:comment">The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/dateCreated">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./dateCreated">dateCreated</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Date" /><a   href="./Date">Date</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/DateTime" /><a   href="./DateTime">DateTime</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/DataFeedItem"></td><td class="prop-desc" property="rdfs:comment">The date on which the CreativeWork was created or the item was added to a DataFeed.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/dateModified">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./dateModified">dateModified</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Date" /><a   href="./Date">Date</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/DateTime" /><a   href="./DateTime">DateTime</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/DataFeedItem"></td><td class="prop-desc" property="rdfs:comment">The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/datePublished">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./datePublished">datePublished</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Date" /><a   href="./Date">Date</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/DateTime" /><a   href="./DateTime">DateTime</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Date of first broadcast/publication.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/discussionUrl">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./discussionUrl">discussionUrl</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A link to the page containing the comments of the CreativeWork.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/editor">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./editor">editor</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Specifies the Person who edited the CreativeWork.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/educationalAlignment">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./educationalAlignment">educationalAlignment</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/AlignmentObject" /><a   href="./AlignmentObject">AlignmentObject</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">An alignment to an established educational framework.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/educationalUse">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./educationalUse">educationalUse</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The purpose of a work in the context of education; for example, 'assignment', 'group work'.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/encoding">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./encoding">encoding</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/MediaObject" /><a   href="./MediaObject">MediaObject</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A media object that encodes this CreativeWork. This property is a synonym for associatedMedia. Supersedes <a   href="./encodings">encodings</a>.<br/> Inverse property: <a   href="./encodesCreativeWork">encodesCreativeWork</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/encodingFormat">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./encodingFormat">encodingFormat</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/MediaObject"></td><td class="prop-desc" property="rdfs:comment">Media type typically expressed using a MIME format (see <a href="http://www.iana.org/assignments/media-types/media-types.xhtml">IANA site</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types">MDN reference</a>) e.g. application/zip for a SoftwareApplication binary, audio/mpeg for .mp3 etc.).<br/><br/>
+
+In cases where a <a class="localLink" href="/CreativeWork">CreativeWork</a> has several media type representations, <a class="localLink" href="/encoding">encoding</a> can be used to indicate each <a class="localLink" href="/MediaObject">MediaObject</a> alongside particular <a class="localLink" href="/encodingFormat">encodingFormat</a> information.<br/><br/>
+
+Unregistered or niche encoding and file formats can be indicated instead via the most appropriate URL, e.g. defining Web page or a Wikipedia/Wikidata entry. Supersedes <a   href="./fileFormat">fileFormat</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/exampleOfWork">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./exampleOfWork">exampleOfWork</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A creative work that this work is an example/instance/realization/derivation of.<br/> Inverse property: <a   href="./workExample">workExample</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/expires">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./expires">expires</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Date" /><a   href="./Date">Date</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Date the content expires and is no longer useful or available. For example a <a class="localLink" href="/VideoObject">VideoObject</a> or <a class="localLink" href="/NewsArticle">NewsArticle</a> whose availability or relevance is time-limited, or a <a class="localLink" href="/ClaimReview">ClaimReview</a> fact check whose publisher wants to indicate that it may no longer be relevant (or helpful to highlight) after some date.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/funder">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./funder">funder</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Event"><link property="domainIncludes" href="http://schema.org/MonetaryGrant"><link property="domainIncludes" href="http://schema.org/Organization"><link property="domainIncludes" href="http://schema.org/Person"></td><td class="prop-desc" property="rdfs:comment">A person or organization that supports (sponsors) something through some kind of financial contribution.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/genre">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./genre">genre</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/BroadcastChannel"><link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/MusicGroup"></td><td class="prop-desc" property="rdfs:comment">Genre of the creative work, broadcast channel or group.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/hasPart">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./hasPart">hasPart</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Indicates an item or CreativeWork that is part of this item, or CreativeWork (in some sense).<br/> Inverse property: <a   href="./isPartOf">isPartOf</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/headline">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./headline">headline</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Headline of the article.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/inLanguage">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./inLanguage">inLanguage</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Language" /><a   href="./Language">Language</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/BroadcastService"><link property="domainIncludes" href="http://schema.org/CommunicateAction"><link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Event"><link property="domainIncludes" href="http://schema.org/LinkRole"><link property="domainIncludes" href="http://schema.org/PronounceableText"><link property="domainIncludes" href="http://schema.org/WriteAction"></td><td class="prop-desc" property="rdfs:comment">The language of the content or performance or used in an action. Please use one of the language codes from the <a href="http://tools.ietf.org/html/bcp47">IETF BCP 47 standard</a>. See also <a class="localLink" href="/availableLanguage">availableLanguage</a>. Supersedes <a   href="./language">language</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/interactionStatistic">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./interactionStatistic">interactionStatistic</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/InteractionCounter" /><a   href="./InteractionCounter">InteractionCounter</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Organization"><link property="domainIncludes" href="http://schema.org/Person"></td><td class="prop-desc" property="rdfs:comment">The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used. Supersedes <a   href="./interactionCount">interactionCount</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/interactivityType">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./interactivityType">interactivityType</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/isAccessibleForFree">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./isAccessibleForFree">isAccessibleForFree</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Boolean" /><a   href="./Boolean">Boolean</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Event"><link property="domainIncludes" href="http://schema.org/Place"><link property="domainIncludes" href="http://schema.org/PublicationEvent"></td><td class="prop-desc" property="rdfs:comment">A flag to signal that the item, event, or place is accessible for free. Supersedes <a   href="./free">free</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/isBasedOn">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./isBasedOn">isBasedOn</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Product" /><a   href="./Product">Product</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A resource from which this work is derived or from which it is a modification or adaption. Supersedes <a   href="./isBasedOnUrl">isBasedOnUrl</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/isFamilyFriendly">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./isFamilyFriendly">isFamilyFriendly</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Boolean" /><a   href="./Boolean">Boolean</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Indicates whether this content is family friendly.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/isPartOf">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./isPartOf">isPartOf</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Indicates an item or CreativeWork that this item, or CreativeWork (in some sense), is part of.<br/> Inverse property: <a   href="./hasPart">hasPart</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/keywords">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./keywords">keywords</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/learningResourceType">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./learningResourceType">learningResourceType</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/license">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./license">license</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A license document that applies to this content, typically indicated by URL.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/locationCreated">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./locationCreated">locationCreated</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Place" /><a   href="./Place">Place</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The location where the CreativeWork was created, which may not be the same as the location depicted in the CreativeWork.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/mainEntity">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./mainEntity">mainEntity</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Thing" /><a   href="./Thing">Thing</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Indicates the primary entity described in some page or other CreativeWork.<br/> Inverse property: <a   href="./mainEntityOfPage">mainEntityOfPage</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/maintainer">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a title="Defined in extension: pending.schema.org"  class="ext ext-pending"  href="https://pending.schema.org/maintainer">maintainer</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A maintainer of a <a class="localLink" href="/Dataset">Dataset</a>, software package (<a class="localLink" href="/SoftwareApplication">SoftwareApplication</a>), or other <a class="localLink" href="/Project">Project</a>. A maintainer is a <a class="localLink" href="/Person">Person</a> or <a class="localLink" href="/Organization">Organization</a> that manages contributions to, and/or publication of, some (typically complex) artifact. It is common for distributions of software and data to be based on "upstream" sources. When <a class="localLink" href="/maintainer">maintainer</a> is applied to a specific version of something e.g. a particular version or packaging of a <a class="localLink" href="/Dataset">Dataset</a>, it is always  possible that the upstream source has a different maintainer. The <a class="localLink" href="/isBasedOn">isBasedOn</a> property can be used to indicate such relationships between datasets to make the different maintenance roles clear. Similarly in the case of software, a package may have dedicated maintainers working on integration into software distributions such as Ubuntu, as well as upstream maintainers of the underlying work.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/material">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./material">material</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Product" /><a   href="./Product">Product</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Product"></td><td class="prop-desc" property="rdfs:comment">A material that something is made from, e.g. leather, wool, cotton, paper.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/materialExtent">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a title="Defined in extension: pending.schema.org"  class="ext ext-pending"  href="https://pending.schema.org/materialExtent">materialExtent</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/QuantitativeValue" /><a   href="./QuantitativeValue">QuantitativeValue</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The quantity of the materials being described or an expression of the physical space they occupy.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/mentions">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./mentions">mentions</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Thing" /><a   href="./Thing">Thing</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Indicates that the CreativeWork contains a reference to, but is not necessarily about a concept.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/offers">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./offers">offers</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Demand" /><a   href="./Demand">Demand</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Offer" /><a   href="./Offer">Offer</a>&nbsp;<link property="domainIncludes" href="http://schema.org/AggregateOffer"><link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/EducationalOccupationalProgram"><link property="domainIncludes" href="http://schema.org/Event"><link property="domainIncludes" href="http://schema.org/MenuItem"><link property="domainIncludes" href="http://schema.org/Product"><link property="domainIncludes" href="http://schema.org/Service"><link property="domainIncludes" href="http://schema.org/Trip"></td><td class="prop-desc" property="rdfs:comment">An offer to provide this item&#x2014;for example, an offer to sell a product, rent the DVD of a movie, perform a service, or give away tickets to an event. Use <a class="localLink" href="/businessFunction">businessFunction</a> to indicate the kind of transaction offered, i.e. sell, lease, etc. This property can also be used to describe a <a class="localLink" href="/Demand">Demand</a>. While this property is listed as expected on a number of common types, it can be used in others. In that case, using a second type, such as Product or a subtype of Product, can clarify the nature of the offer.<br/> Inverse property: <a   href="./itemOffered">itemOffered</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/position">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./position">position</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Integer" /><a   href="./Integer">Integer</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/ListItem"></td><td class="prop-desc" property="rdfs:comment">The position of an item in a series or sequence of items.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/producer">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./producer">producer</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.).</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/provider">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./provider">provider</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/EducationalOccupationalProgram"><link property="domainIncludes" href="http://schema.org/Invoice"><link property="domainIncludes" href="http://schema.org/ParcelDelivery"><link property="domainIncludes" href="http://schema.org/Reservation"><link property="domainIncludes" href="http://schema.org/Service"><link property="domainIncludes" href="http://schema.org/Trip"></td><td class="prop-desc" property="rdfs:comment">The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller. Supersedes <a   href="./carrier">carrier</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/publication">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./publication">publication</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/PublicationEvent" /><a   href="./PublicationEvent">PublicationEvent</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A publication event associated with the item.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/publisher">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./publisher">publisher</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The publisher of the creative work.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/publisherImprint">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a title="Defined in extension: bib.schema.org"  class="ext ext-bib"  href="https://bib.schema.org/publisherImprint">publisherImprint</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The publishing division which published the comic.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/publishingPrinciples">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./publishingPrinciples">publishingPrinciples</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Organization"><link property="domainIncludes" href="http://schema.org/Person"></td><td class="prop-desc" property="rdfs:comment">The publishingPrinciples property indicates (typically via <a class="localLink" href="/URL">URL</a>) a document describing the editorial principles of an <a class="localLink" href="/Organization">Organization</a> (or individual e.g. a <a class="localLink" href="/Person">Person</a> writing a blog) that relate to their activities as a publisher, e.g. ethics or diversity policies. When applied to a <a class="localLink" href="/CreativeWork">CreativeWork</a> (e.g. <a class="localLink" href="/NewsArticle">NewsArticle</a>) the principles are those of the party primarily responsible for the creation of the <a class="localLink" href="/CreativeWork">CreativeWork</a>.<br/><br/>
+
+While such policies are most typically expressed in natural language, sometimes related information (e.g. indicating a <a class="localLink" href="/funder">funder</a>) can be expressed using schema.org terminology.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/recordedAt">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./recordedAt">recordedAt</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Event" /><a   href="./Event">Event</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The Event where the CreativeWork was recorded. The CreativeWork may capture all or part of the event.<br/> Inverse property: <a   href="./recordedIn">recordedIn</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/releasedEvent">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./releasedEvent">releasedEvent</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/PublicationEvent" /><a   href="./PublicationEvent">PublicationEvent</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The place and time the release was issued, expressed as a PublicationEvent.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/review">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./review">review</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Review" /><a   href="./Review">Review</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Brand"><link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Event"><link property="domainIncludes" href="http://schema.org/Offer"><link property="domainIncludes" href="http://schema.org/Organization"><link property="domainIncludes" href="http://schema.org/Place"><link property="domainIncludes" href="http://schema.org/Product"><link property="domainIncludes" href="http://schema.org/Service"></td><td class="prop-desc" property="rdfs:comment">A review of the item. Supersedes <a   href="./reviews">reviews</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/schemaVersion">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./schemaVersion">schemaVersion</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Indicates (by URL or string) a particular version of a schema used in some CreativeWork. For example, a document could declare a schemaVersion using an URL such as http://schema.org/version/2.0/ if precise indication of schema version was required by some application.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/sdDatePublished">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a title="Defined in extension: pending.schema.org"  class="ext ext-pending"  href="https://pending.schema.org/sdDatePublished">sdDatePublished</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Date" /><a   href="./Date">Date</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Indicates the date on which the current structured data was generated / published. Typically used alongside <a class="localLink" href="/sdPublisher">sdPublisher</a></td></tr><tr typeof="rdfs:Property" resource="http://schema.org/sdLicense">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a title="Defined in extension: pending.schema.org"  class="ext ext-pending"  href="https://pending.schema.org/sdLicense">sdLicense</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A license document that applies to this structured data, typically indicated by URL.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/sdPublisher">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a title="Defined in extension: pending.schema.org"  class="ext ext-pending"  href="https://pending.schema.org/sdPublisher">sdPublisher</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Indicates the party responsible for generating and publishing the current structured data markup, typically in cases where the structured data is derived automatically from existing published content but published on a different site. For example, student projects and open data initiatives often re-publish existing content with more explicitly structured metadata. The
+<a class="localLink" href="/sdPublisher">sdPublisher</a> property helps make such practices more explicit.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/sourceOrganization">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./sourceOrganization">sourceOrganization</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The Organization on whose behalf the creator was working.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/spatial">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./spatial">spatial</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Place" /><a   href="./Place">Place</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The "spatial" property can be used in cases when more specific properties
+(e.g. <a class="localLink" href="/locationCreated">locationCreated</a>, <a class="localLink" href="/spatialCoverage">spatialCoverage</a>, <a class="localLink" href="/contentLocation">contentLocation</a>) are not known to be appropriate.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/spatialCoverage">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./spatialCoverage">spatialCoverage</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Place" /><a   href="./Place">Place</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The spatialCoverage of a CreativeWork indicates the place(s) which are the focus of the content. It is a subproperty of
+      contentLocation intended primarily for more technical and detailed materials. For example with a Dataset, it indicates
+      areas that the dataset describes: a dataset of New York weather would have spatialCoverage which was the place: the state of New York.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/sponsor">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./sponsor">sponsor</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Event"><link property="domainIncludes" href="http://schema.org/Grant"><link property="domainIncludes" href="http://schema.org/MedicalStudy"><link property="domainIncludes" href="http://schema.org/Organization"><link property="domainIncludes" href="http://schema.org/Person"></td><td class="prop-desc" property="rdfs:comment">A person or organization that supports a thing through a pledge, promise, or financial contribution. e.g. a sponsor of a Medical Study or a corporate sponsor of an event.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/temporal">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./temporal">temporal</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/DateTime" /><a   href="./DateTime">DateTime</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The "temporal" property can be used in cases where more specific properties
+(e.g. <a class="localLink" href="/temporalCoverage">temporalCoverage</a>, <a class="localLink" href="/dateCreated">dateCreated</a>, <a class="localLink" href="/dateModified">dateModified</a>, <a class="localLink" href="/datePublished">datePublished</a>) are not known to be appropriate.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/temporalCoverage">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./temporalCoverage">temporalCoverage</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/DateTime" /><a   href="./DateTime">DateTime</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The temporalCoverage of a CreativeWork indicates the period that the content applies to, i.e. that it describes, either as a DateTime or as a textual string indicating a time period in <a href="https://en.wikipedia.org/wiki/ISO_8601#Time_intervals">ISO 8601 time interval format</a>. In
+      the case of a Dataset it will typically indicate the relevant time period in a precise notation (e.g. for a 2011 census dataset, the year 2011 would be written "2011/2012"). Other forms of content e.g. ScholarlyArticle, Book, TVSeries or TVEpisode may indicate their temporalCoverage in broader terms - textually or via well-known URL.
+      Written works such as books may sometimes have precise temporal coverage too, e.g. a work set in 1939 - 1945 can be indicated in ISO 8601 interval format format via "1939/1945".<br/><br/>
+
+Open-ended date ranges can be written with ".." in place of the end date. For example, "2015-11/.." indicates a range beginning in November 2015 and with no specified final date. This is tentative and might be updated in future when ISO 8601 is officially updated. Supersedes <a   href="./datasetTimeInterval">datasetTimeInterval</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/text">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./text">text</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The textual content of this CreativeWork.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/thumbnailUrl">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./thumbnailUrl">thumbnailUrl</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A thumbnail image relevant to the Thing.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/timeRequired">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./timeRequired">timeRequired</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Duration" /><a   href="./Duration">Duration</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. 'PT30M', 'PT1H25M'.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/translationOfWork">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a title="Defined in extension: bib.schema.org"  class="ext ext-bib"  href="https://bib.schema.org/translationOfWork">translationOfWork</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The work that this work has been translated from. e.g. 物种起源 is a translationOf “On the Origin of Species”<br/> Inverse property: <a title="Defined in extension: bib.schema.org"  class="ext ext-bib"  href="https://bib.schema.org/workTranslation">workTranslation</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/translator">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./translator">translator</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Organization" /><a   href="./Organization">Organization</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Person" /><a   href="./Person">Person</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Event"></td><td class="prop-desc" property="rdfs:comment">Organization or person who adapts a creative work to different languages, regional differences and technical requirements of a target market, or that translates during some event.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/typicalAgeRange">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./typicalAgeRange">typicalAgeRange</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"><link property="domainIncludes" href="http://schema.org/Event"></td><td class="prop-desc" property="rdfs:comment">The typical expected age range, e.g. '7-9', '11-'.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/version">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./version">version</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Number" /><a   href="./Number">Number</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">The version of the CreativeWork embodied by a specified resource.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/video">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./video">video</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Clip" /><a   href="./Clip">Clip</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/VideoObject" /><a   href="./VideoObject">VideoObject</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">An embedded video object.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/workExample">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./workExample">workExample</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">Example/instance/realization/derivation of the concept of this creative work. eg. The paperback edition, first edition, or eBook.<br/> Inverse property: <a   href="./exampleOfWork">exampleOfWork</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/workTranslation">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a title="Defined in extension: bib.schema.org"  class="ext ext-bib"  href="https://bib.schema.org/workTranslation">workTranslation</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a>&nbsp;<link property="domainIncludes" href="http://schema.org/CreativeWork"></td><td class="prop-desc" property="rdfs:comment">A work that is a translation of the content of this work. e.g. 西遊記 has an English workTranslation “Journey to the West”,a German workTranslation “Monkeys Pilgerfahrt” and a Vietnamese  translation Tây du ký bình khảo.<br/> Inverse property: <a title="Defined in extension: bib.schema.org"  class="ext ext-bib"  href="https://bib.schema.org/translationOfWork">translationOfWork</a>.</td></tr><tr class="supertype">
+     <th class="supertype-name" colspan="3">Properties from <a   href="./Thing">Thing</a></th>
+  
+</tr>
+
+<tbody class="supertype">
+  <tr typeof="rdfs:Property" resource="http://schema.org/additionalType">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./additionalType">additionalType</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Thing"></td><td class="prop-desc" property="rdfs:comment">An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/alternateName">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./alternateName">alternateName</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Thing"></td><td class="prop-desc" property="rdfs:comment">An alias for the item.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/description">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./description">description</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Thing"></td><td class="prop-desc" property="rdfs:comment">A description of the item.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/disambiguatingDescription">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./disambiguatingDescription">disambiguatingDescription</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Thing"></td><td class="prop-desc" property="rdfs:comment">A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/identifier">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./identifier">identifier</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/PropertyValue" /><a   href="./PropertyValue">PropertyValue</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Thing"></td><td class="prop-desc" property="rdfs:comment">The identifier property represents any kind of identifier for any kind of <a class="localLink" href="/Thing">Thing</a>, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See <a href="/docs/datamodel.html#identifierBg">background notes</a> for more details.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/image">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./image">image</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/ImageObject" /><a   href="./ImageObject">ImageObject</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Thing"></td><td class="prop-desc" property="rdfs:comment">An image of the item. This can be a <a class="localLink" href="/URL">URL</a> or a fully described <a class="localLink" href="/ImageObject">ImageObject</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/mainEntityOfPage">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./mainEntityOfPage">mainEntityOfPage</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Thing"></td><td class="prop-desc" property="rdfs:comment">Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See <a href="/docs/datamodel.html#mainEntityBackground">background notes</a> for details.<br/> Inverse property: <a   href="./mainEntity">mainEntity</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/name">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./name">name</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Text" /><a   href="./Text">Text</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Thing"></td><td class="prop-desc" property="rdfs:comment">The name of the item.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/potentialAction">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./potentialAction">potentialAction</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/Action" /><a   href="./Action">Action</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Thing"></td><td class="prop-desc" property="rdfs:comment">Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/sameAs">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./sameAs">sameAs</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Thing"></td><td class="prop-desc" property="rdfs:comment">URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/subjectOf">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./subjectOf">subjectOf</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/CreativeWork" /><a   href="./CreativeWork">CreativeWork</a>&nbsp; or <br/> <link  property="rangeIncludes" href="http://schema.org/Event" /><a   href="./Event">Event</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Thing"></td><td class="prop-desc" property="rdfs:comment">A CreativeWork or Event about this Thing.<br/> Inverse property: <a   href="./about">about</a>.</td></tr><tr typeof="rdfs:Property" resource="http://schema.org/url">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a   href="./url">url</a></code>
+    </th>
+ <td class="prop-ect">
+<link  property="rangeIncludes" href="http://schema.org/URL" /><a   href="./URL">URL</a>&nbsp;<link property="domainIncludes" href="http://schema.org/Thing"></td><td class="prop-desc" property="rdfs:comment">URL of the item.</td></tr>
+
+</table>
+
+<br/><br/><div id="incoming">Instances of <a   href="./WebSite">WebSite</a> may appear as values for the following properties</div><br/><table class="definition-table">
+        
+  
+<thead>
+  <tr><th>Property</th><th>On Types</th><th>Description</th>               
+  </tr>
+</thead>
+
+<tr>
+<th class="prop-nam" scope="row">
+ <code><a   href="./interactionService">interactionService</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a   href="./InteractionCounter">InteractionCounter</a>&nbsp;</td><td class="prop-desc">The WebSite or SoftwareApplication where the interactions took place. </td></tr></table>
+<b><a  id="examples" title="Link: #examples" href="#examples" class="clickableAnchor"  >Examples</a></b><br/><br/>
+
+<div><a  id="website-1" title="Link: #website-1" href="#website-1" class="clickableAnchor" >Example 1</a></div><div class='ds-selector-tabs ds-selector'>
+  <div class='selectors'>
+    <a data-selects='original_html' class='selected'>Without Markup</a>
+    <a data-selects='microdata' class=''>Microdata</a>
+    <a data-selects='rdfa' class=''>RDFa</a>
+    <a data-selects='jsonld' class=''>JSON-LD</a>
+</div>
+
+<pre class="prettyprint lang-html linenums original_html selected">&lt;p&gt;(A WebSite describing its search options)&lt;/p&gt;
+</pre>
+
+<pre class="prettyprint lang-html linenums microdata ">&lt;div itemscope itemtype="http://schema.org/WebSite"&gt;
+    &lt;link itemprop="url" href="http://www.example.com/"/&gt;
+    &lt;form itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction"&gt;
+	  &lt;meta itemprop="target" content="http://example.com/search?q={query}"/&gt;
+      &lt;input itemprop="query" type="text" name="query"/&gt;
+      &lt;input type="submit"/&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+</pre>
+
+<pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org/" typeof="WebSite"&gt;
+    &lt;link property="url" href="http://www.example.com/"/&gt;
+    &lt;form property="potentialAction" typeof="http://schema.org/SearchAction"&gt;
+      &lt;meta property="target" content="http://www.example.com/search?q={query}"/&gt;
+      &lt;input property="query" type="text" name="query"&gt;
+      &lt;input type="submit"&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+</pre>
+
+<pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "http://example.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "http://example.com/search?&q={query}",
+      "query": "required"
+    }
+}
+&lt;/script&gt;
+</pre>
+
+</div>
+
+ <br/>
+
+</div>
+</body>
+<!-- AppEngineVersion 6-0 (6-0.424190384339824207) -->
+<!-- sdopythonapp version: 2.0.1 -->
+</html>

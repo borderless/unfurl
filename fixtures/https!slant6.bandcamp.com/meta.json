@@ -1,0 +1,29 @@
+{
+  "url": "https://slant6.bandcamp.com/",
+  "headers": {
+    "server": "nginx",
+    "content-type": "text/html; charset=UTF-8",
+    "set-cookie": [
+      "client_id=BFB8451016FAA83D37BCB2E30713BEB826DA804EAB051FB6236B88D86EA99FFD; domain=.bandcamp.com; path=/; expires=Sat, 02 Feb 2030 00:36:33 -0000",
+      "session=1%09t%3A1580603793; domain=.bandcamp.com; path=/; expires=Wed, 18 Mar 2020 00:36:33 -0000",
+      "session=1%09t%3A1580603793%09r%3A%5B%22nilZ0a4292094353x1580603793%22%5D; domain=.bandcamp.com; path=/; expires=Wed, 18 Mar 2020 00:36:33 -0000",
+      "session=1%09t%3A1580603793; domain=.bandcamp.com; path=/; expires=Wed, 18 Mar 2020 00:36:33 -0000",
+      "session=1%09t%3A1580603793%09bp%3A1; domain=.bandcamp.com; path=/; expires=Wed, 18 Mar 2020 00:36:33 -0000",
+      "BACKENDID=bender22-5; path=/; domain=.bandcamp.com"
+    ],
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes, bytes",
+    "age": "0",
+    "transfer-encoding": "chunked",
+    "date": "Sun, 02 Feb 2020 00:36:33 GMT",
+    "via": "1.1 varnish",
+    "connection": "keep-alive",
+    "x-served-by": "cache-sjc10045-SJC",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1580603793.216217,VS0,VE466",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200
+}

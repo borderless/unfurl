@@ -1,0 +1,28 @@
+{
+  "url": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
+  "headers": {
+    "server": "nginx",
+    "content-type": "text/html; charset=utf-8",
+    "set-cookie": [
+      "lc=%7B%22lat%22%3A-33.869707424672704%2C%22lng%22%3A151.20546728070755%2C%22loc%22%3A%22Sydney+City+Center%22%2C%22cc%22%3A%22AU%22%2C%22longGeoId%22%3A%2210004054%22%7D; Expires=Sun, 02 Feb 2020 02:36:24 GMT; Path=/"
+    ],
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff, nosniff",
+    "pragma": "no-cache",
+    "strict-transport-security": "max-age=31536000",
+    "x-rate-limit-key": "136.24.147.161",
+    "x-ex": "fastly_cdn",
+    "content-encoding": "gzip",
+    "transfer-encoding": "chunked",
+    "accept-ranges": "bytes",
+    "date": "Sun, 02 Feb 2020 00:36:40 GMT",
+    "via": "1.1 varnish",
+    "connection": "keep-alive",
+    "x-served-by": "cache-sjc10047-SJC",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "vary": "Accept-Encoding,User-Agent,Accept-Language"
+  },
+  "status": 200
+}

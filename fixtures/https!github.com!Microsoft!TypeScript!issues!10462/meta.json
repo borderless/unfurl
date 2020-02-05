@@ -1,0 +1,26 @@
+{
+  "url": "https://github.com/Microsoft/TypeScript/issues/10462",
+  "headers": {
+    "date": "Sun, 02 Feb 2020 00:36:29 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "server": "GitHub.com",
+    "status": "200 OK",
+    "vary": "X-PJAX,Accept, Accept-Encoding",
+    "etag": "W/\"d548a18a07b8dee6126938ccc823140b\"",
+    "cache-control": "max-age=0, private, must-revalidate",
+    "set-cookie": [
+      "has_recent_activity=1; path=/; expires=Sun, 02 Feb 2020 01:36:29 -0000",
+      "_gh_sess=M3RJNWdBSXFmK0RHZElaeWdvZEtoTTlkdHo0ZFJaRjBwNFVmR0JSN2RqVUVIdlEwOWlhTFlKMU95RnlBSkZjVnNoTHFPTUZha09PVllCaElHcE5pb2g4SjF1ZjRqVmNDQlBpd0VhbzJBN0lwdGFKL1B0VGlwQmoyM0JMcFJyQktRYnYzaTdZN2J2THRiNFFmMWQvdFpqcVdNMWEzTzl0U0YyYzBBWTZsVFRISW5IRWFPOEgvbkptT3JFR1VPdUh6TElQNVBnd240YitMVGlRT2ZWZVR1ejVpajRjN1JwZlp4T0NXQmdUc1NMQT0tLW5TWW1CRDdkdEJNSXZQV2o5eXJjdFE9PQ%3D%3D--c4ce8e7ca21ad1d6debef22e6294d221f514a778; path=/; secure; HttpOnly"
+    ],
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "x-frame-options": "deny",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "expect-ct": "max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"",
+    "content-security-policy": "default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com wss://live.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com",
+    "content-encoding": "gzip",
+    "x-github-request-id": "DFD6:1796:1728B9:1E755D:5E36198D"
+  },
+  "status": 200
+}

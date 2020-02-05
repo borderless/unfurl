@@ -1,0 +1,30 @@
+{
+  "url": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
+  "headers": {
+    ":status": "200",
+    "content-type": "text/html; charset=utf-8",
+    "cache-control": "no-cache",
+    "set-cookie": [
+      "fkey=1.0_04vwsd8qu4QBLA==_1580603905; Path=/",
+      "gae_b_id=!$Hbri70jTQ106uqO9rhlNFH4fYkaKU-8bManu28zqt9A.%q51ts1%1$a2FpZF8yNTIzNzE4NTU0ODM4NzgwMzIzODgyMTM; expires=Mon, 01 Feb 2021 00:38:25 GMT; httponly; Max-Age=31536000; Path=/; secure",
+      "ka_session=KbDy7Jv4ppcGRFqhS0tUaU8gqoVkM7fZwPaYoGpm:1580603905:1580603905:1:; expires=Mon, 01 Feb 2021 00:38:25 GMT; Max-Age=31536000; Path=/",
+      "KAVID=8663d9c7-b511-42d9-acd2-1afc053303e6; expires=Tue, 01 Feb 2022 00:38:25 GMT; path=/;"
+    ],
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "x-cloud-trace-context": "f0020fd76bb2f4fe2a990fc577762236",
+    "server": "Google Frontend",
+    "expires": "Sun, 02 Feb 2020 00:38:25 GMT",
+    "accept-ranges": "bytes, bytes, bytes, bytes",
+    "age": "0",
+    "via": "1.1 varnish, 1.1 varnish",
+    "date": "Sun, 02 Feb 2020 00:38:25 GMT",
+    "x-served-by": "cache-mdw17362-MDW, cache-sea4477-SEA",
+    "x-cache": "MISS, MISS",
+    "x-cache-hits": "0, 0",
+    "x-timer": "S1580603905.039716,VS0,VE266",
+    "vary": "Accept-Encoding",
+    "content-length": "160134"
+  },
+  "status": 200
+}

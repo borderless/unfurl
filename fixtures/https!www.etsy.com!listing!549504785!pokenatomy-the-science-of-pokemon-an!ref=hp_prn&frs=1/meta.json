@@ -1,0 +1,29 @@
+{
+  "url": "https://www.etsy.com/listing/549504785/pokenatomy-the-science-of-pokemon-an?ref=hp_prn&frs=1",
+  "headers": {
+    ":status": "200",
+    "server": "Apache",
+    "x-cloud-trace-context": "b9d6248b20c0b353a45204feda24ae45/16896892055772448255;o=0",
+    "strict-transport-security": "max-age=631138520; includeSubDomains; preload",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy-report-only": "frame-ancestors 'self'; report-uri /beacon/csp.php",
+    "x-xss-protection": "1; mode=block; report=/beacon/csp.php",
+    "x-content-type-options": "nosniff",
+    "x-recruiting": "Is code your craft? https://www.etsy.com/careers",
+    "last-modified": "Sun, 02 Feb 2020 00:16:02 +0000",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "cache-control": "private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "content-type": "text/html; charset=UTF-8",
+    "x-akamai-http2": "True",
+    "date": "Sun, 02 Feb 2020 00:37:00 GMT",
+    "set-cookie": [
+      "uaid=wgoM1KMHMWe2GAlIAbbdwnCMOtljZACCODPJ1TC6Wqk0MTNFyUop1SIpLC0ozc3MucI7tCLdMNwi3DEoNbPcOc89RKmWAQA.; expires=Mon, 01-Feb-2021 00:36:59 GMT; Max-Age=31536000; path=/; domain=.etsy.com; secure",
+      "user_prefs=ZI53Sx3M9Xzd6GmXQsBkTXLPj21jZACCODPJ1TA6Wik02EVJJ680J0dHKTVPNzRYSUcJRIBFjCAUFiKWAQA.; expires=Mon, 01-Feb-2021 00:36:59 GMT; Max-Age=31535999; path=/; domain=.etsy.com",
+      "fve=1580603819.0; expires=Wed, 03-Mar-2021 16:55:19 GMT; Max-Age=34186699; path=/; domain=.etsy.com; secure",
+      "last_browse_page=https%3A%2F%2Fwww.etsy.com%2Fshop%2FMultiverseBooks; path=/; domain=.etsy.com"
+    ]
+  },
+  "status": 200
+}

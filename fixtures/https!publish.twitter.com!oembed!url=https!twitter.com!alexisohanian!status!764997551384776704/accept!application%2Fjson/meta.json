@@ -1,0 +1,22 @@
+{
+  "url": "https://publish.twitter.com/oembed?url=https://twitter.com/alexisohanian/status/764997551384776704",
+  "headers": {
+    ":status": "200",
+    "cache-control": "must-revalidate, max-age=3153600000",
+    "content-disposition": "attachment; filename=json.json",
+    "content-encoding": "gzip",
+    "content-length": "468",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 05 Feb 2020 03:32:45 GMT",
+    "expires": "Fri, 12 Jan 2120 03:32:45 GMT",
+    "last-modified": "Wed, 05 Feb 2020 03:32:45 GMT",
+    "server": "tsa_a",
+    "strict-transport-security": "max-age=631138519",
+    "x-connection-hash": "3ba1ca38629c8893f8dc9f57db56324c",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-response-time": "30",
+    "x-xss-protection": "0"
+  },
+  "status": 200
+}

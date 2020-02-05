@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>The Raspberry Pi Has Revolutionized Emulation - blog - Coding Horror Discussion</title>
+    <meta name="description" content="Every geek goes through a phase where they discover emulation. It&amp;#39;s practically a rite of passage. 
+
+This is a companion discussion topic for the original entry at https://blog.codinghorror.com/the-raspberry-pi-has-revol&amp;hellip;">
+    <meta name="generator" content="Discourse 2.4.0.beta10 - https://github.com/discourse/discourse version 4f677854d3df2555ddeaa1d02c228960d33e0248">
+<link rel="icon" type="image/png" href="https://discourse-cdn.codinghorror.com/uploads/default/optimized/3X/b/c/bc7909b0ece56689d3551a51911e6ee1810ad310_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://discourse-cdn.codinghorror.com/uploads/default/optimized/3X/f/3/f3dfe83738183d904a8b8885e58bc97c4ec22301_2_180x180.png">
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462?page=2" />
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://discourse.codinghorror.com","potentialAction":{"@type":"SearchAction","target":"https://discourse.codinghorror.com/search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<link rel="search" type="application/opensearchdescription+xml" href="https://discourse.codinghorror.com/opensearch.xml" title="Coding Horror Discussion Search">
+
+      <link href="https://discourse-cdn.codinghorror.com/stylesheets/desktop_3_094f06ba1f9762b4c97596b31e0c2898e6f29667.css?__ws=discourse.codinghorror.com" media="all" rel="stylesheet" data-target="desktop" data-theme-id="4"/>
+      <link href="https://discourse-cdn.codinghorror.com/stylesheets/desktop_theme_4_9546a4503cc101919e253ee2f82d57a7ba74400e.css?__ws=discourse.codinghorror.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="4"/>
+    
+    
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of &#39;The Raspberry Pi Has Revolutionized Emulation&#39;" href="https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462.rss" />
+    <meta property="og:site_name" content="Coding Horror Discussion" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://discourse-cdn.codinghorror.com/uploads/default/original/3X/f/3/f3dfe83738183d904a8b8885e58bc97c4ec22301.png" />
+<meta property="og:image" content="https://discourse-cdn.codinghorror.com/uploads/default/original/3X/f/3/f3dfe83738183d904a8b8885e58bc97c4ec22301.png" />
+<meta property="og:url" content="https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29" />
+<meta name="twitter:url" content="https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29" />
+<meta property="og:title" content="The Raspberry Pi Has Revolutionized Emulation" />
+<meta name="twitter:title" content="The Raspberry Pi Has Revolutionized Emulation" />
+<meta property="og:description" content="Check out Pico-8 for new “fantasy console” goodness.  Works great with Raspberry Pi Zero, 2, 3, etc." />
+<meta name="twitter:description" content="Check out Pico-8 for new “fantasy console” goodness.  Works great with Raspberry Pi Zero, 2, 3, etc." />
+<meta property="article:published_time" content="2016-07-26T15:22:27+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+        <link rel="next" href="/t/the-raspberry-pi-has-revolutionized-emulation/4462?page=2">
+
+
+    
+  </head>
+  <body class="crawler">
+    
+    <header>
+      <a href="/">
+          <img src="https://discourse-cdn.codinghorror.com/uploads/default/original/3X/a/a/aa4aed9d6276bab017d3991051fbb9177783abee.png" alt="Coding Horror Discussion" id="site-logo" style="max-width: 150px;">
+      </a>
+    </header>
+    <div id="main-outlet" class="wrap">
+        <h1 class="crawler-topic-title">
+    <a href="/t/the-raspberry-pi-has-revolutionized-emulation/4462">The Raspberry Pi Has Revolutionized Emulation</a>
+  </h1>
+
+  <div id="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a href="https://discourse.codinghorror.com/c/blog" class="badge-wrapper bullet" itemprop="item">
+          <span class="badge-category-bg"></span>
+          <span class="category-title" itemprop="name">blog</span>
+        </a>
+        <meta itemprop="position" content="1" />
+      </div>
+  </div>
+
+
+  
+
+
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/Eldon_Cleary'><span itemprop='name'>Eldon_Cleary</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2016-07-25T22:50:02Z' class='post-time'>
+                July 25, 2016, 10:50pm
+              </time>
+          <span itemprop='position'>#24</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>I make and sell kits like these in my spare time, I noticed a picture from one of my kits here too. The controller style arcade is mine, you can get it for 55 dollars or my more popular bartop kit for 100</p>
+<p>Look at this on eBay <a href="http://www.ebay.com/itm/291826294816" rel="nofollow noopener">http://www.ebay.com/itm/291826294816</a></p>
+<p>Look at this on eBay <a href="http://www.ebay.com/itm/291820465597" rel="nofollow noopener">http://www.ebay.com/itm/291820465597</a></p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="//discourse-cdn.codinghorror.com/uploads/default/original/3X/6/9/6999b3bc5abc7ff5b723133defaf7199f99e5357.jpg" data-download-href="//discourse-cdn.codinghorror.com/uploads/default/6999b3bc5abc7ff5b723133defaf7199f99e5357" title="FB_IMG_1461425825903.jpg" rel="nofollow noopener"><img src="//discourse-cdn.codinghorror.com/uploads/default/original/3X/6/9/6999b3bc5abc7ff5b723133defaf7199f99e5357.jpg" width="500" height="500" data-small-upload="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/6/9/6999b3bc5abc7ff5b723133defaf7199f99e5357_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">FB_IMG_1461425825903.jpg</span><span class="informations">528×528 28.2 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="1" />
+           <span class='post-likes'>1 Like</span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/sunk818'><span itemprop='name'>sunk818</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2016-07-25T23:13:59Z' class='post-time'>
+                July 25, 2016, 11:13pm
+              </time>
+          <span itemprop='position'>#25</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Has anyone looked into what options we have for games with non-standard controller layout or buttons? If I wanted to play Robotron 2084, I’d need two joysticks one for movements and one for firing. Defender? Tron with a joystick and jogdial. Or Tempest with a jog dial and fire button. Centipede, Millipede, and Crystal Castle I’ve worked out okay with a mouse as a trackball replacement.</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="1" />
+          </div>
+
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/codinghorror'><span itemprop='name'>codinghorror</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2016-07-25T23:32:39Z' class='post-time'>
+                July 25, 2016, 11:32pm
+              </time>
+          <span itemprop='position'>#26</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>The best generic layout is arguably two sticks, 6 buttons each, and a trackball. Then you can play dual stick games as a single player using both sticks, and you’re covered on most mouse-alike games. Takes a fairly wide cabinet though.</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/tobico'><span itemprop='name'>tobico</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2016-07-26T07:52:40Z' class='post-time'>
+                July 26, 2016,  7:52am
+              </time>
+          <span itemprop='position'>#27</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Anyone got any tips for a comparable Raspberry Pi 3 kit available in Australia? Everything I’ve found so far is over twice the price and doesn’t include heatsinks.</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/Insanity'><span itemprop='name'>Insanity</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2016-07-26T13:04:43Z' class='post-time'>
+                July 26, 2016,  1:04pm
+              </time>
+          <span itemprop='position'>#28</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Hey, I really like your blog and have been reading on and off for quite some time.<br>
+Your blog really needs an index at the side. I like to read on my mobile phone, but when I have read the first few articles I spend ages scrolling to find another article I didn’t read. Being able to jump to articles based on the title would be great.</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/Adam_Sommer'><span itemprop='name'>Adam_Sommer</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2016-07-26T15:22:27Z' class='post-time'>
+                July 26, 2016,  3:22pm
+              </time>
+          <span itemprop='position'>#29</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Check out <a href="http://www.lexaloffle.com/pico-8.php" rel="nofollow noopener">Pico-8</a> for new “fantasy console” goodness.  Works great with Raspberry Pi Zero, 2, 3, etc.</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="1" />
+           <span class='post-likes'>1 Like</span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/codinghorror'><span itemprop='name'>codinghorror</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <meta itemprop='datePublished' content='2016-07-26T21:04:41Z'>
+              <time itemprop='dateModified' datetime='2016-08-06T07:44:11Z' class='post-time'>
+                August 6, 2016,  7:44am
+              </time>
+          <span itemprop='position'>#30</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>The quick and dirty of <strong>safe</strong> Pi overclocking:</p>
+<ul>
+<li>Exit to RetroPi console (press menu button on your controller, then select exit) or press <kbd>f4</kbd> any time</li>
+<li><code>sudo -s</code></li>
+<li><code>nano /boot/config.txt</code></li>
+</ul>
+<p>the lines you want are:</p>
+<pre><code>sdram_freq=500
+dtoverlay=sdhost,overclock_50=100
+</code></pre>
+<p>I’ve found the Pi 3 is fast enough that boosting the storage and memory speeds is generally more beneficial to overall performance than CPU power in most cases, and it’s safer.</p>
+<blockquote>
+<p><img src="https://discourse-cdn.codinghorror.com/images/emoji/win10/warning.png?v=5" title=":warning:" class="emoji" alt=":warning:"> I no longer blanket advise CPU overclocking due to minor voltage and heat complications I’ve seen. Avoid CPU overclocking unless you are absolutely <em>certain</em> you need the extra CPU power for bleeding edge emulators like Dreamcast.</p>
+<p>And before proceeding, make SURE you have:</p>
+<ul>
+<li>a heatsink installed</li>
+<li>a quality power supply designed for large devices (think iPad 3+)</li>
+</ul>
+</blockquote>
+<p>If you are sure you also want to overclock the CPU, add these lines too:</p>
+<pre><code>arm_freq=1400
+over_voltage=6
+</code></pre>
+<p>You might be able to bump the voltage down if it’s stable in your testing. See <a href="http://elinux.org/RPiconfig">RPiconfig docs</a> for details.</p>
+<p>Save using <kbd>ctrl</kbd>-<kbd>o</kbd>, then exit the nano editor with <kbd>ctrl</kbd>-<kbd>x</kbd>.</p>
+<p><code>reboot</code> and see what happens. Be prepared to re-flash the SD card if it doesn’t work!</p>
+<p>To test, I recommend running the included Quake 3 (under Ports) in a few different modes like botmatch, be sure to turn up the graphics in there to max at 1024x768, select Skirmish mode, and add a ton of bots with a fraglimit of 0. Then let it go.</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/codinghorror'><span itemprop='name'>codinghorror</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <meta itemprop='datePublished' content='2016-07-26T22:01:29Z'>
+              <time itemprop='dateModified' datetime='2016-08-06T08:33:03Z' class='post-time'>
+                August 6, 2016,  8:33am
+              </time>
+          <span itemprop='position'>#31</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>It is a bit weird that the Pi 3 ships without a heatsink. It <a href="http://www.sbeddoes.com/blog/2016/3/7/yia8uhjlb9hoau76a38jc21z3blp1e" rel="nofollow noopener">probably should have one</a>:</p>
+<p><img src="//discourse-cdn.codinghorror.com/uploads/default/original/3X/7/f/7fbc5f998addda846ba02351516e6b714bb97155.png" width="674" height="389"></p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="//discourse-cdn.codinghorror.com/uploads/default/original/3X/9/a/9acc7cecc05f9a5ae92e4dd9d7056474079b5cec.png" data-download-href="//discourse-cdn.codinghorror.com/uploads/default/9acc7cecc05f9a5ae92e4dd9d7056474079b5cec" title="pi-bare-load-temps.png" rel="nofollow noopener"><img src="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/9/a/9acc7cecc05f9a5ae92e4dd9d7056474079b5cec_2_690x398.png" width="690" height="398" srcset="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/9/a/9acc7cecc05f9a5ae92e4dd9d7056474079b5cec_2_690x398.png, //discourse-cdn.codinghorror.com/uploads/default/optimized/3X/9/a/9acc7cecc05f9a5ae92e4dd9d7056474079b5cec_2_1035x597.png 1.5x, //discourse-cdn.codinghorror.com/uploads/default/original/3X/9/a/9acc7cecc05f9a5ae92e4dd9d7056474079b5cec.png 2x" data-small-upload="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/9/a/9acc7cecc05f9a5ae92e4dd9d7056474079b5cec_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">pi-bare-load-temps.png</span><span class="informations">1047×604 25.8 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="//discourse-cdn.codinghorror.com/uploads/default/original/3X/1/2/120a8f89e9cd769564bdb8e20da5ae7da34ce0d7.png" data-download-href="//discourse-cdn.codinghorror.com/uploads/default/120a8f89e9cd769564bdb8e20da5ae7da34ce0d7" title="pi3-heatsink-load-temps.png" rel="nofollow noopener"><img src="//discourse-cdn.codinghorror.com/uploads/default/original/3X/1/2/120a8f89e9cd769564bdb8e20da5ae7da34ce0d7.png" width="690" height="398" data-small-upload="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/1/2/120a8f89e9cd769564bdb8e20da5ae7da34ce0d7_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">pi3-heatsink-load-temps.png</span><span class="informations">1041×601 14.2 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p>If there’s ever a Pi 4 it should <em>absolutely</em> have a heatsink in the default package!</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/Tamas_Csabina'><span itemprop='name'>Tamas_Csabina</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2016-07-27T18:52:20Z' class='post-time'>
+                July 27, 2016,  6:52pm
+              </time>
+          <span itemprop='position'>#32</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Another site where they build and sell these arcade boxes. They are built around original PCBs:<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="http://www.dragonfly-amusement.com/arcade-uk.shtml/favicon.ico" class="site-icon" width="" height="">
+      <a href="http://www.dragonfly-amusement.com/arcade-uk.shtml" target="_blank" rel="nofollow noopener">dragonfly-amusement.com</a>
+  </header>
+  <article class="onebox-body">
+    <img src="http://www.dragonfly-amusement.com/images/og_image.jpg" class="thumbnail onebox-avatar" width="200" height="200">
+
+<h3><a href="http://www.dragonfly-amusement.com/arcade-uk.shtml" target="_blank" rel="nofollow noopener">DragonFly Amusement</a></h3>
+
+<p>Are you looking for an Arcade Machine, Pachislo or Pachinko? We are the largest reseller of Japanse parlor games in the Benelux.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/codinghorror'><span itemprop='name'>codinghorror</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <meta itemprop='datePublished' content='2016-07-27T20:45:36Z'>
+              <time itemprop='dateModified' datetime='2016-07-29T21:44:06Z' class='post-time'>
+                July 29, 2016,  9:44pm
+              </time>
+          <span itemprop='position'>#33</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>One thing I hadn’t anticipated; the quality of analog audio out from the Pi is quite … bad. <em>Lots</em> of interference / noise. Not that it matters a ton for an arcade machine, but it’s still significantly worse than I expected.</p>
+<p>I am adding this USB powered, <a href="https://www.amazon.com/aLLreLi-Extractor-Converter-Splitter-Adapter/dp/B014QO0DR0?tag=codihorr-20" rel="nofollow noopener">HDMI “audio extractor” box</a> to my build:</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="//discourse-cdn.codinghorror.com/uploads/default/original/3X/c/3/c37a5eadd17757402673066c0840e676450fcdf0.jpg" data-download-href="//discourse-cdn.codinghorror.com/uploads/default/c37a5eadd17757402673066c0840e676450fcdf0" title="blob.jpg" rel="nofollow noopener"><img src="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/c/3/c37a5eadd17757402673066c0840e676450fcdf0_2_690x248.jpg" width="690" height="248" srcset="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/c/3/c37a5eadd17757402673066c0840e676450fcdf0_2_690x248.jpg, //discourse-cdn.codinghorror.com/uploads/default/original/3X/c/3/c37a5eadd17757402673066c0840e676450fcdf0.jpg 1.5x, //discourse-cdn.codinghorror.com/uploads/default/original/3X/c/3/c37a5eadd17757402673066c0840e676450fcdf0.jpg 2x" data-small-upload="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/c/3/c37a5eadd17757402673066c0840e676450fcdf0_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">blob.jpg</span><span class="informations">938×338 57.2 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p>I found one on eBay that looks similar for $17.</p>
+<p>I got it, and <strong>I can confirm this works grrrrreat!</strong> You go from scratchy, fuzzed out analog Pi audio with lots of interference (which you have to crank the volume way up on to hear at all), to pristine digital audio quality. It’s a huge, clearly audible difference – I strongly recommend it!</p>
+<p>You will need to <strong>force HDMI video</strong> with this adapter installed as the Pi has trouble seeing the monitor at boot. But the fix is simple, just reboot with the monitor directly connected, and make sure these options are set in your <code>/boot/config.txt</code>:</p>
+<pre><code>hdmi_force_hotplug=1
+hdmi_group=1
+hdmi_mode=16
+</code></pre>
+<p>Mode 16 is 1080p, 60Hz which is what I expect most will be running but if you need others <a href="http://elinux.org/RPiconfig" rel="nofollow noopener">they are listed here</a>.</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/Rageous'><span itemprop='name'>Rageous</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2016-07-28T00:15:14Z' class='post-time'>
+                July 28, 2016, 12:15am
+              </time>
+          <span itemprop='position'>#34</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Yo! This is going to be long and probably well beyond the scope of the barcades you’re mostly referencing, but I’m a huge arcade parts enthusiast so this is a really fun topic for me and I’m always happy to share knowledge.</p>
+<p>Most of the prefab kits you see are going to have generic parts in them, and as you can see just from the pictures in this thread there are a variety of joysticks, push button types and button layouts. If this kind of thing is fun for you, I highly recommend going to <a href="http://slagcoin.com/joystick.html" rel="nofollow noopener">Slagcoin</a> and reading through. They provide the finest baseline on how an arcade joystick interface comes together, including a wide variety of panel layouts that people like myself continue to reference and use on a regular basis today. The most popular setups tend to reflect traditions in various regions, mainly America, Japan and Korea.</p>
+<p><strong>Restrictor gates! Know your gates!</strong><br>
+For your old school ROM needs, or even current-day arcade experiences, you need to understand gates and how they work with your arcade stick lever. A gate is a clip on the underside that restricts the limits of the joystick’s movement. Modern portable arcade sticks made for competitive fighting games use <a href="http://slagcoin.com/joystick/restrictors/square_gate2.png" rel="nofollow noopener">square gates</a>, allowing you to reach the diagonal corners easily. GameCube players and King of Fighters arcade enthusiasts will recognize <a href="http://slagcoin.com/joystick/restrictors/octagon_gate.png" rel="nofollow noopener">octogonal gates</a>, which has visible notches for you to easily tell which direction you’re aiming. <a href="http://slagcoin.com/joystick/restrictors/circle_gate.png" rel="nofollow noopener">Circle gates</a> are typically used for people with a primary need for up/down/left/right cardinals, and very rarely diagonals. These are all “8-way” gates (four cardinals plus four intermediate). Very old arcade machines like your Pac-Man cocktail cabs and such can even have “4-way” gates (<a href="http://slagcoin.com/joystick/restrictors/plus_gate.png" rel="nofollow noopener">restricting to cardinals only</a>) or “2-way” gates for only <a href="http://slagcoin.com/joystick/restrictors/vertical_gate.png" rel="nofollow noopener">up/down</a> or <a href="http://slagcoin.com/joystick/restrictors/horizontal_gate.png" rel="nofollow noopener">left/right</a>. Picking the right gate (or even experimenting with multiple types, they’re dirt cheap!) can go a long way towards having a good experience with your arcade.</p>
+<p><strong>American Style</strong><br>
+If you’ve ever been to an arcade in the US, you’ll be quite familiar with them. They typically come with large <a href="http://www.paradisearcadeshop.com/502-levers-il-industrias-lorenzo" rel="nofollow noopener">bat tops</a> and <a href="http://www.paradisearcadeshop.com/5_il-industrias-lorenzo-sa" rel="nofollow noopener">spring-loaded concave buttons</a>. These setups are designed for you to slam the hell out of them and keep going. The bat tops use a circular gate with a fairly stiff amount of movement resistance (remember they’re installed in heavy, stand-up arcades that don’t move), and tend to have <a href="http://slagcoin.com/joystick/layout/matrix36_s.png" rel="nofollow noopener">two rows of buttons in a straight line</a> (sometimes 6 buttons, usually 8). For a long time the parts were distributed by Happ, but following a merger with Suzo in 2005, production was shifted to Suzo’s facilities in China and the quality took a serious downturn. However, you can now buy parts made by Industrias Lorenzo, the company actually manufacturing Happ’s original stuff. If you’re an American-style fan, IL is your jam.</p>
+<p><strong>Japanese Style</strong><br>
+Popular amongst arcade enthusiasts but not particularly commonplace in western countries, Japan favors a lighter touch. They use shorter-length arcade sticks with lollipop-style <a href="http://cdn.shopify.com/s/files/1/0748/3745/products/jlf-tprg-8ayt-sk---group.jpg?v=1455517222" rel="nofollow noopener">ball tops</a> instead of bat tops, and light-to-the-touch <a href="http://www.paradisearcadeshop.com/299-buttons-sanwa" rel="nofollow noopener">convex buttons</a> with plastic microswitches in a <a href="http://slagcoin.com/joystick/layout/shift36_s.png" rel="nofollow noopener">Vewlix layout</a>. Because most Japanese arcade machines are sit-down, rather than stand-up, they opt for parts that are quicker and more precise, and require considerably less force than their American counterparts. The ball top format allows for many more (and ergonomically advantageous) hand-holding variations, allowing the legions of Japanese salarymen to hit Taito Station after work for hours on end in comfort. Sanwa is the gold standard manufacturer here – their JLF lever and OBSC buttons are ubiquitous and widely-accepted with many colors and customization options. The JLF has <a href="http://arcadeshock.com/collections/sanwa-accessories/gate" rel="nofollow noopener">snap-on gates</a> that quickly allow you to switch to circular or octagonal in a matter of seconds, and because the ball tops are removable, people often get customized colors, patterns, swirls, etc. You can even get a bat top that screws into the lever. Other brand makers include Hori (which focuses on high performance fighting game gear) and Seimitsu, which has a slightly heavier feel than Sanwa but also has some really nifty <a href="http://www.paradisearcadeshop.com/2564-large_default/seimitsu-ls-32-triple-restrictor-plate.jpg" rel="nofollow noopener">tri-gates</a> that include a little of everything for you to experiment with (that linked example includes 2-way, 4-way and circular 8-way). For those of you considering assembling a countertop barcade, Japanese style parts are probably your best bet to play comfortably without it sliding around.</p>
+<p><strong>Korean Style</strong><br>
+3D fighting games like Tekken and Virtua Fighter are ridiculously popular in South Korea, so their solutions are based on mostly 4-way inputs (lots of forward-forward-back-back, or down-up movements) with very occasional use of 8-way. To accomplish this, makers Crown and Myoungshin Fanta created a <a href="http://www.etokki.com/Joysticks/Myoungshin-Fanta-stick-Green" rel="nofollow noopener">special type of stick</a> with a rubber grommet to restrict movement instead of plastic gates. The nature of the stick gives way easily to cardinal directions, but has heavy resistance towards diagonals… and a very sharp return to neutral (a fellow player who uses a Fanta full time once quipped, “Neutral is a hell of a drug.”). They also prefer Crown’s custom-made push buttons (which have a slightly squishy feedback feel) in Namco’s <a href="http://slagcoin.com/joystick/layout/sega2_s.png" rel="nofollow noopener">Noir layout</a>. Crown and Myoungshin gear is a bit difficult to obtain stateside, but there are a few specialty shops that will provide parts or fully-assembled Korean-style arcade sticks for your purposes.</p>
+<p><strong>A Modern Aside</strong><br>
+In the last couple years, people have begun creating push buttons with Cherry MX microswitches in them, allowing you to drop in your preferred actuation. This was pioneered by <a href="http://gamerfinger.com/hbfs30.html" rel="nofollow noopener">GamerFinger</a> a few years ago, but refined gorgeously by Paradise Arcade Shop’s custom-designed <a href="http://www.paradisearcadeshop.com/obs-mx-button-system/1626-obs-mx-drop-in-kit.html" rel="nofollow noopener">OBS-MX</a> line that drops into standard Sanwa rims. Presumably you can customize it with any microswitch type you want, but they offer MX Red, Blue, Brown, Green, Black and Clear to choose from. (I’m assuming MX Clear for our esteemed host.)</p>
+<p><strong>Where do I get all this stuff, or at least fulfill my gear lust curiosity?</strong><br>
+<a href="http://www.paradisearcadeshop.com/" rel="nofollow noopener">Paradise Arcade Shop</a> and <a href="http://arcadeshock.com/" rel="nofollow noopener">Arcade Shock</a> come with my highest recommendation, as well as <a href="http://www.etokki.com/index.php?route=common/home" rel="nofollow noopener">Etokki</a> for exclusively Korean needs. As a general rule for the type of kits you see here, you’ll want to pick the “screw-in” button type (which accommodates thicker installation panels) instead of “snap-in” (used on thin metal panels). If you have issues with the noise made by these, Paradise also offers a large line of <a href="http://www.paradisearcadeshop.com/569-button-stuff" rel="nofollow noopener">silencing pads</a> to mute the button click, and you can also get <a href="http://arcadeshock.com/collections/joysticks/products/sanwa-denshi-2014-silent-joystick-2nd-generation-jlf-tprg-8ayt-sk" rel="nofollow noopener">silent joysticks</a> if the microswitch noises are too loud for your tastes.</p>
+<p><strong>Hey, I want a real arcade! Not a little one!</strong><br>
+With some sleuthing on your local Craigslist, you can probably find an old arcade that can be refurbished or repurposed to handle your own needs, and there’s also <a href="http://captainsauctionwarehouse.com/" rel="nofollow noopener">Captain’s Auction Warehouse</a> if you have something specific in mind. Even though these were all wired up for JAMMA style play with actual arcade boards, there’s absolutely nothing stopping you from dropping in your little Raspberry Pi and rewiring the controls directly to it.</p>
+<p><a href="http://i.imgur.com/7Url0C3.jpg" rel="nofollow noopener">This</a> is my baby (<a href="http://i.imgur.com/SmVuFik.jpg" rel="nofollow noopener">alternate view</a>). It’s a Chinese clone of the Taito Vewlix Japanese-style sit down cab, which our community affectionately calls “Chewlix”. Typically they come with only a single player layout, but I was able to get a 2-player arrangement included when I bought it. It’s been great for parties and casual fun, and while I don’t have kids yet, I anticipate leveraging this as a way to introduce them to gaming as a social activity rather than an isolating one (as most iOS and console games typically are). It was originally wired up for Chinese-format JAMMA, but I’ve installed two <a href="http://arcadeshock.com/collections/brook/products/brook-universal-fighting-board-ps3-ps4-xbox-360-xbox-one-pc" rel="nofollow noopener">Brook Universal Fighting Boards</a> that allow it to work natively with PS3, PS4, 360, Xbox One or PC. Just plug in the USB cables and you’re good to go. When the picture was taken, I had an Xbox 360 in there (with a digital jukebox full of Xbox Live Arcade games). Currently my PS4 occupies the space for Street Fighter V purposes. Again, like I pointed out before… once you have the shell, there’s no limit to what interface you put inside it. As long as you can send control inputs to your buttons, signal to your monitor (typically Component/VGA/DVI) and sound to your speakers, anything will work. Getting a Vewlix cab of any kind is a pricey affair, since they have to be shipped overseas and potentially trucked somewhere. I got mine as part of a group buy, where 10 of us all pitched in to split the costs of shipping and customs, enabling us to get our cabs for close to the actual price (I’m into my Chewlix for about $1200 versus over $4000 if you order a single Taito Vewlix from Japan).</p>
+<p>A third option is to get an MDF-style build from the US and assemble it yourself. I’ve seen a couple different types in person that I can recommend with confidence: <a href="http://www.kraylixarcade.com/" rel="nofollow noopener">Kraylix Arcade</a>, and <a href="http://www.recroommasters.com/Default.asp" rel="nofollow noopener">RecRoomMasters</a>. The Kraylix cabs are built to order and absolutely gorgeous, and include options to have them painted and/or assembled by Kray ahead of time. The RecRoomMasters kits are fantastic if you already have your own portable arcade sticks, or have a very specific idea of what kind of cab you want (cocktail, stand up, sit down, etc.). They also offer headless versions for you to mount your own HDTV. Both of these solutions involve a fair amount of elbow grease (such as picking your monitor, adding speakers for sound, considering prefab button panels vs. populating your own), but for the DIYer looking for a great weekend project that the kids will also enjoy, they’re phenomenally fun experiences.</p>
+<p><strong>Other stuff you can do</strong><br>
+Some people put <a href="http://www.paradisearcadeshop.com/632-springs" rel="nofollow noopener">heavier springs</a> in their sticks to increase resistance and snappiness. Some add LEDs and translucent buttons, then program <a href="http://www.paradisearcadeshop.com/436-kaimana-led-series" rel="nofollow noopener">Arduino-style boards</a> to light up when they’re pressed. Depending on what kind of cab you get, there are well-versed people capable of helping you print laminate marquee artwork to put on your cab. You can customize damn near anything.</p>
+<p><strong>A new approach for the modern age</strong><br>
+One of the things that caught my eye back when I was getting into all of this was a newly-formed company called <a href="http://www.hitboxarcade.com/" rel="nofollow noopener">HitBox Arcade</a>. They realized that the joystick, while commonly-accepted as the primary arcade interface, was outdated and subject to imprecision and error due to the analog input format. Therefore they engineered a new approach from scratch that created a stickless design, using push buttons for the cardinal directions. Right, down and left are executed with your left hand fingers, and up (typically jump in fighting games) is positioned in the low center, akin to a spacebar. To accomplish diagonals, you merely press a combination of the two desired buttons (up and right together, for example). This has been a boon for touch-typists, keyboard gaming warriors and musicians looking to get into arcade play but lacking the years of analog stick muscle memory. The up button at the bottom is a brain bender at first, but many friends of mine only casually interested in arcade games have adapted quickly to the layout and prefer it to joysticks. This has also been embraced by high level players in all communities, from fighting games to even the world’s best Tetris players as a viable alternative that offers clean execution inputs. I liked the concept so much, I cleaned up HitBox Arcade’s somewhat messy and arbitrary layout by re-engineering a Vewlix-standard version with precise measurements and have open-sourced it to custom arcade panel manufacturers. <a href="http://i.imgur.com/jl6BPJt.jpg" rel="nofollow noopener">Here</a> is a picture of my Hori VLX with a custom epoxy-painted metal panel using my revised HitBox design, manufactured by <a href="https://www.facebook.com/jasenscustoms/" rel="nofollow noopener">Jasen’s Customs</a>. This isn’t the kind of approach that would be easily included in an official or premade barcade/arcade setup, but if you’re the kind of person taking a drill to MDF in order to make your own, this is definitely an option available to you.</p>
+<p><strong>I scrolled to the end because you write longer posts than Jeff. For chrissakes, just give me a tl;dr.</strong><br>
+The bottom line is that setting these up to play your ROMs is only the beginning. You can spend a considerable amount of time customizing your actual gameplay experience to your performance and aesthetic liking, and there are multitudes of different (and reasonably-priced!) ways to do that. The sky is the limit here, and it’s a very fun place to fly.</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="5" />
+           <span class='post-likes'>5 Likes</span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="1" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/codinghorror'><span itemprop='name'>codinghorror</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <meta itemprop='datePublished' content='2016-07-28T09:51:40Z'>
+              <time itemprop='dateModified' datetime='2016-08-08T09:26:35Z' class='post-time'>
+                August 8, 2016,  9:26am
+              </time>
+          <span itemprop='position'>#35</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <h3>Raspbian config changes I found essential:</h3>
+<ul>
+<li>
+<p>those saucy brits behind the Pi set the default keyboard to UK layout. Change it to <img src="//discourse-cdn.codinghorror.com/images/emoji/win10/flag_us.png?v=6" title=":flag_us:" class="emoji" alt=":flag_us:"> <img src="//discourse-cdn.codinghorror.com/images/emoji/win10/hash.png?v=6" title=":hash:" class="emoji" alt=":hash:"><img src="//discourse-cdn.codinghorror.com/images/emoji/win10/one.png?v=6" title=":one:" class="emoji" alt=":one:"> via <code>dpkg-reconfigure keyboard-configuration</code></p>
+</li>
+<li>
+<p>you will want a larger font for a 1080p display, change it via <code>dpkg-reconfigure console-setup</code>. I recommend TerminusBold at the setting just under the largest available size.</p>
+</li>
+</ul>
+<h3>RetroPie config changes I found essential:</h3>
+<ul>
+<li>
+<p>disable “quick system select” via the select menu so ← → don’t move you away from the game select page.</p>
+</li>
+<li>
+<p>turn off that incredibly annoying “flipper” menu sound via the select menu. Sound OFF here just means sound in the emulation station UI itself, not in games. Note that holding the stick up or down for a while will move very rapidly between letters, which exacerbates the flipper sound problem.</p>
+</li>
+<li>
+<p>disable “launch menu” for games <a href="https://github.com/retropie/retropie-setup/wiki/runcommand#configuring-runcommand" rel="nofollow noopener">in the retropie run command config page</a> which can accidentally get activated by eager button mashers.</p>
+</li>
+<li>
+<p>turn off overscan override via <code>disable_overscan=1</code> in the <code>config.txt</code> file – this let the Pi naturally scale perfectly edge-to-edge on my modern HDMI LCD</p>
+</li>
+<li>
+<p>Remove unusued emulators. Zork and ScummVM are bundled out of the box … really? <em>really?</em> press <kbd>f4</kbd> and use <code>mc</code> to visit the <code>retropie/roms</code> folder, then delete any files in these folders. They’ll stop showing up.</p>
+</li>
+</ul>
+<h3>Controls</h3>
+<p>It’s worthwhile to understand the default shortcuts in the shared retroarch / <code>libretro</code> emulation layer. Starting with these basic buttons (an exhaustive list of system controllers and mappings is at the bottom of <a href="https://github.com/retropie/retropie-setup/wiki/retroarch-configuration" rel="nofollow noopener">this page</a>)</p>
+<p><img src="//discourse-cdn.codinghorror.com/uploads/default/original/3X/0/a/0ac0f63a60a7e759d878900e406d3dbc1827c982.png" width="530" height="255"></p>
+<p>You can use these common controller shortcuts in any emulator based on <code>libretro</code> which is almost all of them!</p>
+<p><kbd>select</kbd>+<kbd>start</kbd> — exit<br>
+<kbd>select</kbd>+<kbd>x</kbd> — retroarch GUI menu<br>
+<kbd>select</kbd>+<kbd>b</kbd> — reset game</p>
+<p><kbd>select</kbd>+<kbd>r shoulder</kbd> — save state<br>
+<kbd>select</kbd>+<kbd>l shoulder</kbd> — load state<br>
+<kbd>select</kbd>+<kbd>→</kbd> — state slot inc<br>
+<kbd>select</kbd>+<kbd>←</kbd> — state slot dec</p>
+<p>Additionally in emulation station, it isn’t obvious, but:</p>
+<ul>
+<li>Jump directly to any game list index letter (a,b,c etc) via the select menu.</li>
+<li>Hold up or down a while to begin scrolling the game list extremely fast</li>
+<li>Use <kbd>r shoulder</kbd> and <kbd>l shoulder</kbd> to skip up and down a page in the game list</li>
+</ul>
+<h3>RetroArch / Libretro keyboard shortcuts</h3>
+<p>Any emulator that <a href="http://www.libretro.com/index.php/getting-started-with-retroarch/" rel="nofollow noopener">uses libretro</a> will also work with the following RetroArch keyboard shortcuts, if you have a keyboard attached:</p>
+<p><kbd>f8</kbd> take screenshot<br>
+<kbd>o</kbd> movie record toggle<br>
+<kbd>p</kbd> pause<br>
+<kbd>h</kbd> reset game<br>
+<kbd>m</kbd> next shader<br>
+<kbd>n</kbd> prev shader<br>
+<kbd>e</kbd> slow motion (hold down)</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="2" />
+           <span class='post-likes'>2 Likes</span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/EddieJ'><span itemprop='name'>EddieJ</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2016-07-28T23:17:49Z' class='post-time'>
+                July 28, 2016, 11:17pm
+              </time>
+          <span itemprop='position'>#36</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p><img src="//discourse-cdn.codinghorror.com/images/emoji/win10/heart_eyes.png?v=9" title=":heart_eyes:" class="emoji" alt=":heart_eyes:"> It’s beautiful. I got my pitendo today <div class="lightbox-wrapper"><a class="lightbox" href="//discourse-cdn.codinghorror.com/uploads/default/original/3X/e/f/ef8943bf0c3f5ca60f097cc2ce0bf8ade9977d7f.jpg" data-download-href="//discourse-cdn.codinghorror.com/uploads/default/ef8943bf0c3f5ca60f097cc2ce0bf8ade9977d7f" title="pitendo.jpg" rel="nofollow noopener"><img src="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/e/f/ef8943bf0c3f5ca60f097cc2ce0bf8ade9977d7f_2_657x500.jpg" width="657" height="500" srcset="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/e/f/ef8943bf0c3f5ca60f097cc2ce0bf8ade9977d7f_2_657x500.jpg, //discourse-cdn.codinghorror.com/uploads/default/optimized/3X/e/f/ef8943bf0c3f5ca60f097cc2ce0bf8ade9977d7f_2_985x750.jpg 1.5x, //discourse-cdn.codinghorror.com/uploads/default/optimized/3X/e/f/ef8943bf0c3f5ca60f097cc2ce0bf8ade9977d7f_2_1314x1000.jpg 2x" data-small-upload="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/e/f/ef8943bf0c3f5ca60f097cc2ce0bf8ade9977d7f_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">pitendo.jpg</span><span class="informations">3928×2988 1.74 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="2" />
+           <span class='post-likes'>2 Likes</span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/AndreasC'><span itemprop='name'>AndreasC</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2016-07-29T14:27:32Z' class='post-time'>
+                July 29, 2016,  2:27pm
+              </time>
+          <span itemprop='position'>#37</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>great post although i didn’t go through all of it. In comments you can find valuable tips, i have build my own a few months ago: <a href="https://www.reddit.com/r/RetroPie/comments/4ko627/my_first_bartop_arcade_working_good_many_software/" rel="nofollow noopener">https://www.reddit.com/r/RetroPie/comments/4ko627/my_first_bartop_arcade_working_good_many_software/</a></p>
+<p>but with your tips will be even better.</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="1" />
+           <span class='post-likes'>1 Like</span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/codinghorror'><span itemprop='name'>codinghorror</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <meta itemprop='datePublished' content='2016-07-31T08:55:45Z'>
+              <time itemprop='dateModified' datetime='2016-07-31T08:56:00Z' class='post-time'>
+                July 31, 2016,  8:56am
+              </time>
+          <span itemprop='position'>#38</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>A short note on ROMs, I found this post to be exceptionally helpful:</p>
+<p><a href="http://dsync.blogspot.com/2015/05/sourcing-and-downloading-best-possible.html" class="onebox" target="_blank">http://dsync.blogspot.com/2015/05/sourcing-and-downloading-best-possible.html</a></p>
+<p>for MAME, pay very close attention to versions of romsets, as each Pi-compatible emulator expects a certain specific version of the MAME romsets.</p>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicon.ico" class="site-icon" width="32" height="32">
+      <a href="https://github.com/retropie/retropie-setup/wiki/MAME" target="_blank">GitHub</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://avatars3.githubusercontent.com/u/11378204?s=400&amp;v=4" class="thumbnail onebox-avatar" width="400" height="400">
+
+<h3><a href="https://github.com/retropie/retropie-setup/wiki/MAME" target="_blank">RetroPie/RetroPie-Setup</a></h3>
+
+<p>Shell script to set up a Raspberry Pi/Odroid/PC with RetroArch emulator and various cores - RetroPie/RetroPie-Setup</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p>The Atari 2600 is oddly left out of these sets, but <a href="http://www.atarimania.com/rom_collection_archive_atari_2600_roms.html">can be found here</a>.</p>
+<p><img src="https://discourse-cdn.codinghorror.com/images/emoji/win10/space_invader.png?v=9" title=":space_invader:" class="emoji" alt=":space_invader:"></p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/codinghorror'><span itemprop='name'>codinghorror</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <meta itemprop='datePublished' content='2016-08-03T10:12:07Z'>
+              <time itemprop='dateModified' datetime='2016-08-08T09:03:45Z' class='post-time'>
+                August 8, 2016,  9:03am
+              </time>
+          <span itemprop='position'>#39</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>ROM management can be a problem, since the complete romsets are super large for popular systems. In an ideal world I’d have “top 100” popular ROMs for each system and ignore the hundreds (thousands?) of mediocre or bad games released that, let’s face it, nobody in their right mind wants to play in anno domini 2016. Wheel of Fortune on NES, anyone??</p>
+<p><img src="//discourse-cdn.codinghorror.com/uploads/default/original/3X/7/b/7b437a0b9401e2a13461cd99da22a6b382bf4a85.png" width="256" height="240"></p>
+<h3>No-Intro ROMsets</h3>
+<p>Assuming you are working with the <strong>no-intro</strong> romsets which have a standardized naming scheme:</p>
+<ul>
+<li>delete all non-US ROMs (sorry, other countries! <img src="//discourse-cdn.codinghorror.com/images/emoji/win10/flag_us.png?v=6" title=":flag_us:" class="emoji" alt=":flag_us:"> <img src="//discourse-cdn.codinghorror.com/images/emoji/win10/hash.png?v=6" title=":hash:" class="emoji" alt=":hash:"><img src="//discourse-cdn.codinghorror.com/images/emoji/win10/one.png?v=6" title=":one:" class="emoji" alt=":one:"> )</li>
+<li>delete all prototypes / betas / alphas</li>
+<li>delete all earlier revisions, when multiple revisions of a ROM are stored in the set</li>
+</ul>
+<p>Some of this is captured here:</p>
+<pre><code>del "*(Japan)*"
+del "*(Europe)*"
+del "*(Korea)*"
+del "*(China)*"
+del "*(Brazil)*"
+del "*(Australia)*"
+del "*(Italy)*"
+del "*(Sweden)*"
+del "*(Germany)*"
+del "*(Canada)*"
+del "*(Asia)*"
+del "*(Japan, Europe)*"
+del "*(Japan, Korea)*"
+del "*(Beta)*"
+del "*(Beta 1)*"
+del "*(Alpha)*"
+del "*(Demo)*"
+del "*(Proto)*"
+del "*(Sample)*"
+del "*(Beta 2)*"
+del "*(Alt 1)*"
+del "*(Program)*"
+del "*(Compilation)*"
+del "*(GEOS)*"
+del "*(Addon)*"
+</code></pre>
+<p>(also, the x-in-1 carts, diagnostic carts, promotional carts, arcade collections that are emulated elsewhere, etc)</p>
+<h3>MAME ROMsets</h3>
+<p>For <strong>MAME</strong>, specifically, there are so many ROMs (5,000+) that a different strategy is needed. I found some good tips <a href="https://www.reddit.com/r/MAME/comments/31wgl2/filter_out_unwanted_rom_genresclones/" rel="nofollow noopener">here</a>.</p>
+<blockquote>
+<p><img src="//discourse-cdn.codinghorror.com/images/emoji/win10/bell.png?v=6" title=":bell:" class="emoji" alt=":bell:">  <strong>Before you begin, make sure you are working with a split ROM set</strong>, that is, each game’s zip file contains all the ROMs necessary for that game to work. If you have a merged set, then deleting any individual game file is risky as games can potentially depend on each other for shared ROMs.</p>
+</blockquote>
+<ul>
+<li>remove all Neo-Geo games (since that has a dedicated emulator in RetroPie, anyway)</li>
+<li>remove all clones</li>
+<li>remove all bootlegs</li>
+<li>remove all playchoice (nes) / megaplay (genesis)</li>
+<li>remove all gambling games</li>
+</ul>
+<p>(some other ideas: remove gambling / casino / mahjong, lightgun, etc)</p>
+<p>I recommend dumping <strong>complete info on all games</strong> from <code>mame.exe</code> like so:</p>
+<pre><code>mame -listxml &gt;listxml.txt
+</code></pre>
+<p>Then you can use some simple regular expressions on this <code>listinfo.txt</code> file to grab the matches. List all of match 1 to get the names, add <code>.zip</code> at the end of each line, and you’re good <img src="//discourse-cdn.codinghorror.com/images/emoji/win10/sunny.png?v=6" title=":sunny:" class="emoji" alt=":sunny:"></p>
+<p>All clone MAME games (2824)</p>
+<pre><code>&lt;game name="([^"]+)"[^&gt;]+?cloneof
+</code></pre>
+<p>All Neo-Geo MAME games (150)</p>
+<pre><code>&lt;game name="([^"]+)"[^&gt;]+?romof="neogeo"
+</code></pre>
+<p>All PlayChoice and MegaPlay games (61)</p>
+<pre><code>&lt;game name="([^"]+)"[^&gt;]+?romof="(playch10|megaplay)"
+</code></pre>
+<blockquote>
+<p><img src="//discourse-cdn.codinghorror.com/images/emoji/win10/warning.png?v=6" title=":warning:" class="emoji" alt=":warning:"> for the matches at this point on to work, first do a global <code>listinfo.txt</code> regex replace of <code>&lt;/game&gt;</code> with <code>}</code> so you have a reliable, unique “end of game” character to work with. Yeah, I had to cheat. Sorry!</p>
+</blockquote>
+<p>All bootleg games (328)</p>
+<pre><code>&lt;game name="([^"]+)"[^}]*?&lt;manufacturer&gt;bootleg
+</code></pre>
+<p>All gambling games (214)</p>
+<pre><code>&lt;game name="([^"]+)"[^}]*?(mahjong|poker|casino)
+</code></pre>
+<p>All lightgun games (117)</p>
+<pre><code>&lt;game name="([^"]+)"[^}]*?control="lightgun"
+</code></pre>
+<p>All prototype/beta games (94)</p>
+<pre><code>&lt;game name="([^"]+)"[^}]*?(prototype|beta)
+</code></pre>
+<p>All games with disk images (86)</p>
+<pre><code>&lt;game name="([^"]+)"[^}]*?&lt;disk
+</code></pre>
+<p>All quiz and trivia games (112)</p>
+<pre><code>&lt;game name="([^"]+)"[^}]*?(quiz|trivia)
+</code></pre>
+<p>Other stuff you may want to remove by keyword: beatmania, vs. NES. Removing hard drive games mostly covers this, but it’s also <em>probably</em> advisable to delete any ROM over 40mb in size as they are likely to be early 1996-1999 3D games that are hard to emulate.</p>
+<p>(Mature / adult is hard to screen for using metadata alone. I found <a href="https://groups.google.com/d/msg/alt.games.mame/oG1fRUmikXI/MohQP1WTRj8J" rel="nofollow noopener">one list</a> here.)</p>
+<h3>Neo-Geo ROMsets</h3>
+<p>The MAME style 8.3 DOS naming makes this tough. I wish there was a a way to get all Neo-Geo ROMs with proper long filenames. Here are some tips:</p>
+<ul>
+<li>
+<p>sort by filesize, remove all the tiny files under 1MB in size; these are clearly minor modifications of existing ROMsets or prototypes.</p>
+</li>
+<li>
+<p>look for files ending in <code>*b.zip</code> or <code>*bl.zip</code> and clean these up as bootleg versions of other ROMs.</p>
+</li>
+<li>
+<p>sort by filename and look at near-identical 8.3 filenames. Compare to filesize; if the name is the same and the filesize is smaller, it’s probably a modification or hack and can be removed.</p>
+</li>
+</ul>
+<h3>Scraping game info</h3>
+<p>Once you have your romsets the way you want, follow the excellent instructions for <a href="https://github.com/retropie/retropie-setup/wiki/scraper" rel="nofollow noopener">scraping metadata</a>: pictures, descriptions, etc. This will require an internet connection, but your RetroPie works fine with DHCP so just plug in an ethernet cable and have at it.</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/codinghorror'><span itemprop='name'>codinghorror</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <meta itemprop='datePublished' content='2016-08-06T07:32:13Z'>
+              <time itemprop='dateModified' datetime='2016-08-06T07:32:39Z' class='post-time'>
+                August 6, 2016,  7:32am
+              </time>
+          <span itemprop='position'>#40</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <h3>Spinner / Paddle / Wheel support</h3>
+<p>It’s pretty easy to get a spinner going on any arcade device!</p>
+<p><img src="//discourse-cdn.codinghorror.com/uploads/default/original/3X/0/d/0d4ff1f9702f7691cd8da62de7bb1e2bcd90abbd.jpg" width="600" height="450"></p>
+<ul>
+<li>
+<p>grab a <a href="http://groovygamegear.com/webstore/index.php?main_page=product_info&amp;products_id=268" rel="nofollow noopener">TurboTwist 2 spinner</a> which fits directly in any standard 1 1/8" button hole. <em>Very</em> easy installation.</p>
+</li>
+<li>
+<p>it presents as a mouse that only moves along one axis, which is conceptually simple and well supported.</p>
+</li>
+<li>
+<p>it is another USB connection coming out of your existing USB controller, which isn’t a big deal. You could use an internal hub inside the controller to combine the two, if you want to get fancy.</p>
+</li>
+</ul>
+<p>With that in mind, <a href="https://github.com/retropie/retropie-setup/wiki/Spinners-and-Trackballs" rel="nofollow noopener">here’s the only way</a> I could get spinner working in RetroPie:</p>
+<ul>
+<li>
+<p>use AdvanceMame. Doesn’t seem to work in the other MAME variants.</p>
+</li>
+<li>
+<p>edit <code>/opt/retropie/configs/mame-advancemame/advmame-1.4.rc</code> to specify where mouse input is coming from</p>
+<pre><code>  device_mouse raw
+  device_raw_mousedev[0] /dev/input/mouse0
+  device_raw_mousedev[1] /dev/input/mouse1
+  device_raw_mousedev[2] /dev/input/mouse2
+  device_raw_mousedev[3] /dev/input/mouse3
+</code></pre>
+</li>
+<li>
+<p>add default control mappings for dial (assumes motion is on X axis)</p>
+<pre><code>  input_map[p1_dialx] mouse[0,x] mouse[1,x] mouse[2,x] mouse[3,x]
+</code></pre>
+</li>
+<li>
+<p>turn up the <a href="https://wiki.archlinux.org/index.php/Mouse_polling_rate" rel="nofollow noopener">USB pollling rate</a> for better precision. Edit <code>/boot/cmdline.txt</code> and append this to the end, with a space in front:</p>
+<pre><code>  usbhid.mousepoll=2
+</code></pre>
+</li>
+</ul>
+<p>While in game, you will almost certainly need to press <kbd>esc</kbd> to bring up the MAME menu and edit the analog settings to turn down the sensitivity a lot. I got really good results in Tempest and Arkanoid this way!</p>
+<h3>Trackball Support</h3>
+<p>TBD, very similar except you are using a two axis mouse</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/codinghorror'><span itemprop='name'>codinghorror</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <meta itemprop='datePublished' content='2016-08-08T09:51:42Z'>
+              <time itemprop='dateModified' datetime='2016-08-08T09:56:08Z' class='post-time'>
+                August 8, 2016,  9:56am
+              </time>
+          <span itemprop='position'>#42</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Older games are very low resolution relative to the 1920x1080 flat panel LCD you are likely using.</p>
+<p>That’s not as bad as it sounds, because on an arcade machine or home gaming system, you’d be historically using a CRT which tends to naturally fuzz out those low resolution details:</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="//discourse-cdn.codinghorror.com/uploads/default/original/3X/f/f/ff1d1f6b94b04c1394f5a5bbf29744f78697b230.jpg" data-download-href="//discourse-cdn.codinghorror.com/uploads/default/ff1d1f6b94b04c1394f5a5bbf29744f78697b230" title="finalfight_hi.jpg" rel="nofollow noopener"><img src="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/f/f/ff1d1f6b94b04c1394f5a5bbf29744f78697b230_2_690x477.jpg" width="690" height="477" srcset="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/f/f/ff1d1f6b94b04c1394f5a5bbf29744f78697b230_2_690x477.jpg, //discourse-cdn.codinghorror.com/uploads/default/optimized/3X/f/f/ff1d1f6b94b04c1394f5a5bbf29744f78697b230_2_1035x715.jpg 1.5x, //discourse-cdn.codinghorror.com/uploads/default/optimized/3X/f/f/ff1d1f6b94b04c1394f5a5bbf29744f78697b230_2_1380x954.jpg 2x" data-small-upload="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/f/f/ff1d1f6b94b04c1394f5a5bbf29744f78697b230_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">finalfight_hi.jpg</span><span class="informations">2180×1508 1.11 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p>And leads directly to this joke:</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="//discourse-cdn.codinghorror.com/uploads/default/original/3X/d/f/df9dbb37568568b76483889f093befa8e9cb5f6a.png" data-download-href="//discourse-cdn.codinghorror.com/uploads/default/df9dbb37568568b76483889f093befa8e9cb5f6a" title="indie-retro-2d.png" rel="nofollow noopener"><img src="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/d/f/df9dbb37568568b76483889f093befa8e9cb5f6a_2_690x414.png" width="690" height="414" srcset="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/d/f/df9dbb37568568b76483889f093befa8e9cb5f6a_2_690x414.png, //discourse-cdn.codinghorror.com/uploads/default/original/3X/d/f/df9dbb37568568b76483889f093befa8e9cb5f6a.png 1.5x, //discourse-cdn.codinghorror.com/uploads/default/original/3X/d/f/df9dbb37568568b76483889f093befa8e9cb5f6a.png 2x" data-small-upload="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/d/f/df9dbb37568568b76483889f093befa8e9cb5f6a_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">indie-retro-2d.png</span><span class="informations">824×495 244 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p>I recommend using the <a href="http://www.scale2x.it/algorithm" rel="nofollow noopener">scale2x</a> or <a href="https://en.wikipedia.org/wiki/Hqx" rel="nofollow noopener">hqx</a> type scalers, which are available in all retro engines, to infer additional detail from the tiny number of pixels in play on older games.</p>
+<p><img src="//discourse-cdn.codinghorror.com/uploads/default/original/3X/b/b/bb77548103dacd5b7c1417b1bfe244c92915ab4b.png" width="521" height="205"></p>
+<p>It’s true that older games were played on monitors that had one of these effects:</p>
+<h3>Visible phosphor masks (1988+)</h3>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="//discourse-cdn.codinghorror.com/uploads/default/original/3X/1/2/121a7db059ebc461b47629ba9efb3b2c32fa42ee.jpg" data-download-href="//discourse-cdn.codinghorror.com/uploads/default/121a7db059ebc461b47629ba9efb3b2c32fa42ee" title="metal-slug-tv-closeup.jpg" rel="nofollow noopener"><img src="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/1/2/121a7db059ebc461b47629ba9efb3b2c32fa42ee_2_666x500.jpg" width="666" height="500" srcset="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/1/2/121a7db059ebc461b47629ba9efb3b2c32fa42ee_2_666x500.jpg, //discourse-cdn.codinghorror.com/uploads/default/optimized/3X/1/2/121a7db059ebc461b47629ba9efb3b2c32fa42ee_2_999x750.jpg 1.5x, //discourse-cdn.codinghorror.com/uploads/default/optimized/3X/1/2/121a7db059ebc461b47629ba9efb3b2c32fa42ee_2_1332x1000.jpg 2x" data-small-upload="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/1/2/121a7db059ebc461b47629ba9efb3b2c32fa42ee_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">metal-slug-tv-closeup.jpg</span><span class="informations">1408×1056 915 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<h3>Visible scanlines (1977 - 1988)</h3>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="//discourse-cdn.codinghorror.com/uploads/default/original/3X/2/b/2b28f21e1a9d3b1ffc4256fa4daf94374ef94175.jpg" data-download-href="//discourse-cdn.codinghorror.com/uploads/default/2b28f21e1a9d3b1ffc4256fa4daf94374ef94175" title="blob.jpg" rel="nofollow noopener"><img src="//discourse-cdn.codinghorror.com/uploads/default/original/3X/2/b/2b28f21e1a9d3b1ffc4256fa4daf94374ef94175.jpg" width="493" height="500" data-small-upload="//discourse-cdn.codinghorror.com/uploads/default/optimized/3X/2/b/2b28f21e1a9d3b1ffc4256fa4daf94374ef94175_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">blob.jpg</span><span class="informations">568×575 156 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p>I recommend enabling those as well, as appropriate for the age of the system or game. (Do note that scanlines should be <em>vertical</em> in arcade games where the monitor was rotated vertically, and horizontal when the monitor was in standard wide or portrait orientation.)</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+            <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+            </div>
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/remo'><span itemprop='name'>remo</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2016-08-13T12:48:14Z' class='post-time'>
+                August 13, 2016, 12:48pm
+              </time>
+          <span itemprop='position'>#43</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>I’m intrigued by that Hitbox controller, never seen something like that before. It must be the ultimate controller for VIM users.</p>
+<p>If I  want to build my own what kind  of PCB-board should I use? I read that early versions of the Hitbox blocked both sides when back and  forward are pressed simultaneously giving it an unfair advantage against cross-ups. Newer versions seem to result in neutral when forward and back are pressed at the same time.</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="1" />
+           <span class='post-likes'>1 Like</span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="1" />
+          </div>
+
+
+    </div>
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://discourse.codinghorror.com/u/PrintsCharming'><span itemprop='name'>PrintsCharming</span></a>
+            
+          </span>
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2016-08-14T04:59:38Z' class='post-time'>
+                August 14, 2016,  4:59am
+              </time>
+          <span itemprop='position'>#44</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>How is the stability of the RetroPie ecosystem as a whole? I guess my real question is the system seems to be running nicely at the moment and I’m typically an “update regularly kind of guy” and I see there are a TON of updates that have been released to both the raspbian os and retropie, and I’m kind of scared to do it.</p>
+        </div>
+
+        <meta itemprop='headline' content='The Raspberry Pi Has Revolutionized Emulation'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="1" />
+          </div>
+
+
+    </div>
+
+    <div role='navigation' itemscope itemtype='http://schema.org/SiteNavigationElement' class="topic-body crawler-post">
+        <span itemprop='name'><b><a rel="next" itemprop="url" href="/t/the-raspberry-pi-has-revolutionized-emulation/4462?page=2">next page →</a></b></span>
+    </div>
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+      <nav class='crawler-nav' itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <ul>
+        <li itemprop="name"><a href='/' itemprop="url">Home </a></li>
+        <li itemprop="name"><a href='/categories' itemprop="url">Categories </a></li>
+        <li itemprop="name"><a href='/guidelines' itemprop="url">FAQ/Guidelines </a></li>
+        <li itemprop="name"><a href='/tos' itemprop="url">Terms of Service </a></li>
+        <li itemprop="name"><a href='/privacy' itemprop="url">Privacy Policy </a></li>
+        </ul>
+      </nav>
+      <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+    </footer>
+    
+    
+  </body>
+  
+</html>

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.spotify.com/us/",
+  "headers": {
+    ":status": "200",
+    "date": "Sun, 02 Feb 2020 00:38:09 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "content-length": "13899",
+    "vary": "X-Forwarded-Proto,Accept-Encoding",
+    "set-cookie": [
+      "spsess=Z4I3mVkMHiquLzhJxR7tzfBLpF7k-Fb-9gLrZCjpyCJY2Pzj; path=/; secure; HttpOnly",
+      "sp_usid=f20172e0-f4cb-4222-bccf-b94bb9c5cca8; expires=Sun, 02-Feb-2020 01:08:09 GMT; Max-Age=1800; path=/; domain=.spotify.com; secure",
+      "sp_ab=%7B%222019_04_premium_menu%22%3A%22control%22%7D; expires=Tue, 03-Mar-2020 00:38:09 GMT; Max-Age=2592000; path=/; domain=.spotify.com; secure",
+      "spot=%7B%22t%22%3A1580603889%2C%22m%22%3A%22us%22%2C%22p%22%3Anull%7D; expires=Sun, 01-Oct-2023 00:38:09 GMT; Max-Age=115516800; path=/; domain=spotify.com"
+    ],
+    "x-cache": "HIT from 409fbbc43966",
+    "cache-control": "no-cache, private",
+    "content-encoding": "gzip",
+    "x-join-the-band": "https://www.spotify.com/jobs/",
+    "x-xss-protection": "1; mode=block",
+    "content-security-policy": "base-uri 'none'; connect-src https: wss:; form-action https:; frame-ancestors 'self' https://*.spotify.com https://*.spotify.net; object-src 'none';",
+    "report-to": "{ \"group\": \"csp-endpoint\", \"max_age\": 86400, \"endpoints\": [{ \"url\": \"/api/concierge/report-to\" }] }",
+    "x-envoy-upstream-service-time": "37",
+    "strict-transport-security": "max-age=31536000",
+    "x-content-type-options": "nosniff",
+    "server": "envoy",
+    "via": "HTTP/2 edgeproxy, 1.1 google",
+    "alt-svc": "clear"
+  },
+  "status": 200
+}

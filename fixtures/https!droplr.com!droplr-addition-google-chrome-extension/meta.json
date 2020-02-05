@@ -1,0 +1,18 @@
+{
+  "url": "https://droplr.com/droplr-addition-google-chrome-extension",
+  "headers": {
+    ":status": "404",
+    "content-type": "text/html",
+    "date": "Fri, 24 Jan 2020 13:03:18 GMT",
+    "last-modified": "Tue, 14 Jan 2020 10:43:11 GMT",
+    "server": "AmazonS3",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "x-cache": "Error from cloudfront",
+    "via": "1.1 d042f60a962591f741406f28a8170c5a.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA19-C1",
+    "x-amz-cf-id": "-0JR3LOrjHTy8eJM2c_v_YtjVKlH_Pwxcqryc1N9YKq2BQLjbdYjWg==",
+    "age": "732898"
+  },
+  "status": 404
+}

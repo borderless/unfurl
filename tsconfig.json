@@ -1,27 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "es2015",
-      "es2015.promise"
-    ],
+    "target": "ES2018",
+    "lib": ["ES2018"],
     "outDir": "dist",
     "rootDir": "src",
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
     "declaration": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "strictNullChecks": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "removeComments": true,
     "sourceMap": true,
-    "inlineSources": true
+    "inlineSources": true,
+    "esModuleInterop": true
   },
-  "include": [
-    "src/**/*",
-    "typings/**/*"
-  ]
+  "include": ["src/**/*"]
 }

@@ -1,0 +1,30 @@
+{
+  "url": "https://twitter.com/typescript/status/743113612407889920",
+  "headers": {
+    ":status": "200",
+    "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+    "content-encoding": "gzip",
+    "content-length": "67811",
+    "content-type": "text/html;charset=utf-8",
+    "date": "Sun, 02 Feb 2020 00:39:20 GMT",
+    "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+    "last-modified": "Sun, 02 Feb 2020 00:39:20 GMT",
+    "pragma": "no-cache",
+    "server": "tsa_a",
+    "set-cookie": [
+      "fm=0; Max-Age=0; Expires=Sun, 2 Feb 2020 00:39:20 GMT; Path=/; Domain=.twitter.com; Secure; HTTPOnly",
+      "_twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCFttVgNwAToMY3NyZl9p%250AZCIlMjM2ZWRmNDhjMWVhNDFhODY2M2NiNzEzZGM5ZjA1Zjk6B2lkIiVmOGZj%250AZWNjYWQyNDE0YWM3ZDMzZDI0M2IxYmJjYjFiMw%253D%253D--044a633693d3bdf2e57bc27edb425c114ad28fa6; Path=/; Domain=.twitter.com; Secure; HTTPOnly"
+    ],
+    "status": "200 OK",
+    "strict-transport-security": "max-age=631138519",
+    "x-connection-hash": "ed86a35135db92e31830d6061287e371",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-response-time": "95",
+    "x-transaction": "00d6d3fa00cd5c7b",
+    "x-twitter-response-tags": "BouncerCompliant",
+    "x-ua-compatible": "IE=edge,chrome=1",
+    "x-xss-protection": "0"
+  },
+  "status": 200
+}

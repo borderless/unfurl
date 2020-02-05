@@ -1,0 +1,27 @@
+{
+  "url": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+  "headers": {
+    ":status": "200",
+    "cache-control": "private, s-maxage=0, max-age=0, must-revalidate, no-store",
+    "content-encoding": "gzip",
+    "content-type": "text/html; charset=utf-8",
+    "set-cookie": [
+      "loid=00000000005kyib1q3.2.1580603806746.Z0FBQUFBQmVOaG1lbUZMY3BSUkcwNUM4WFhHS2JqeXM1Tl9IcDJvWUxkNG9xblJWajZUUEtCc05SeDVyb2JSeURkdkZGNERfMm0xT1ozbzh5Y0xDZUF5SGljMG4zcHRJN010aUFLaURKSGZ0X1h4N2N1WFdfMmJHcFNLQ19fTjNTYkw3Nkg2UHBpQzM; path=/; expires=Wed, 02 Feb 2022 00:36:46 GMT; domain=.reddit.com; secure",
+      "d2_token=3.8c9a0eb9479d68e6740204bff2b420d0092a75c04e73212498b13b7eba8bfc11.eyJhY2Nlc3NUb2tlbiI6Ii1TdU5QR014NW5aVzV0SWlaRjN2NUQ1bFRnOFkiLCJleHBpcmVzIjoiMjAyMC0wMi0wMlQwMTozNjo0Ni4wMDBaIiwibG9nZ2VkT3V0Ijp0cnVlLCJzY29wZXMiOlsiKiIsImVtYWlsIl19; path=/; expires=Wed, 02 Feb 2022 00:36:46 GMT; domain=.reddit.com; secure",
+      "session_tracker=Jo2YCDL7MrtoBMA7A8.0.1580603808020.Z0FBQUFBQmVOaG1nRDVmMmt6cmdVbWVqVXRTdDY2aW8yRThqTk45ekdqbWFMajF3TExfR3ZNMlBJbFNZQkg3R1psUlk3MU1OTkVsaFF5UXdVNmg1ZnJ1NzlxRUowY2VPSWZEbWt1Vm9HeFl4QXhhQkxuY1VfMnZMMkpfY2M1a1JIeHhUT3pZX0FzRTE; path=/; domain=.reddit.com; secure",
+      "edgebucket=uZEhoLndCN5BD5L2uS; Domain=reddit.com; Max-Age=63071999; Path=/;  secure"
+    ],
+    "x-frame-options": "SAMEORIGIN",
+    "accept-ranges": "bytes",
+    "date": "Sun, 02 Feb 2020 00:36:48 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-sea4439-SEA",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1580603807.667189,VS0,VE1495",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+    "server": "snooserv"
+  },
+  "status": 200
+}

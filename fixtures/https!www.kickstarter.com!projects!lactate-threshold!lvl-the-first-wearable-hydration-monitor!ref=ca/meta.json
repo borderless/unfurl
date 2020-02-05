@@ -1,0 +1,36 @@
+{
+  "url": "https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor?ref=category_featured",
+  "headers": {
+    ":status": "200",
+    "server": "nginx",
+    "content-type": "text/html; charset=utf-8",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "heartbleed": "NO; see http://heartbleedheader.com",
+    "etag": "W/\"5e16bab4c0708b757990c7cb94f849ce\"",
+    "cache-control": "max-age=0, private, must-revalidate",
+    "set-cookie": [
+      "vis=11f0656b32461af1-8d7352d59e04f30c-0cc69dc8c8d0b49dv1; path=/; expires=Thu, 02 Feb 2040 00:38:03 GMT; secure",
+      "lang=en; path=/; secure",
+      "last_page=https%3A%2F%2Fwww.kickstarter.com%2Fprojects%2Flactate-threshold%2Flvl-the-first-wearable-hydration-monitor%3Fref%3Dcategory_featured; path=/; expires=Sun, 02 Feb 2020 01:08:03 GMT; HttpOnly; secure",
+      "woe_id=RjNRVDg5ZEZ2L2RndC9hYzgwSjRrQT09LS1QRE9kcDdHSXk3VGNUOTJoMGhPSEdRPT0%3D--c3a3ffa4e2222d0228e1999753851601228dde9d; path=/; expires=Mon, 03 Feb 2020 00:38:03 GMT; secure",
+      "optimizely_current_variations=%7B%7D; path=/; secure",
+      "_ksr_session=WUYzNVMxUDg3N3R2bUphNkFOV015eGZDaDN5Z1NTZldVOXY3Q0s1clpQUitQcTdWL0ZseEJ0elpyeXE3Yzh0dndxbjRGSFpreTZ3b0dBK1VHU3JLdmVEOGtvS25IckZ2UkZGNWhsek9EOFRzV2UrSkJUamw2M01vS3JXRGZWSW9YZVBrckxSMVp3T2FMNWIyZ29FUWtnPT0tLS9talF4dW5WcWJjTVBaVDlRc2N4YXc9PQ%3D%3D--4417399500b8d853615549cb9ce97589f8b0e3ce; path=/; secure; HttpOnly",
+      "request_time=Sun%2C+02+Feb+2020+00%3A38%3A04+-0000; path=/; secure"
+    ],
+    "x-request-id": "a1211d6b-7031-4fb1-8f05-ea1e624c723a",
+    "x-runtime": "0.451226",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes, bytes",
+    "age": "0",
+    "date": "Sun, 02 Feb 2020 00:38:04 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-sea4432-SEA",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1580603884.668596,VS0,VE587",
+    "strict-transport-security": "max-age=31557600"
+  },
+  "status": 200
+}

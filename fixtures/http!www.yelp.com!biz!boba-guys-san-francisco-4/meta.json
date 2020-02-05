@@ -1,0 +1,38 @@
+{
+  "url": "https://www.yelp.com/biz/boba-guys-san-francisco-4",
+  "headers": {
+    ":status": "200",
+    "server": "nginx",
+    "content-type": "text/html; charset=UTF-8",
+    "cache-control": "private, no-transform",
+    "set-cookie": [
+      "pid=; Domain=.yelp.com; Max-Age=0; Path=/; expires=Wed, 31-Dec-97 23:59:59 GMT",
+      "bse=7026d5ff547143b69c1caa17c82ce0a6; Domain=.yelp.com; Path=/; HttpOnly",
+      "hl=en_US; Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sat, 28-Jan-2040 00:36:45 GMT",
+      "wdi=1|00FE7923A53D5EB6|0x1.78d86666db33ep+30|a425b6a4fb4d9099; Domain=.yelp.com; Path=/; Max-Age=630720000; Expires=Sat, 28 Jan 2040 00:36:45 GMT; HttpOnly"
+    ],
+    "x-zipkin-id": "98e81694609ce4d6",
+    "x-node": "www_all, 10-69-232-226-uswest2cprod-aea5dd28-4505-11ea-8dad-4e487ef62",
+    "content-security-policy": "report-uri https://www.yelp.com/csp_block?id=6bd24a372d3cbb50&page=enforced_by_default_directives&policy_hash=6e215adc2276dc69a36c08d19821d488&site=www&timestamp=1580603801; object-src 'self' https://*.flickr.com https://*.staticflickr.com; base-uri 'self' https://*.yelpcdn.com https://*.adsrvr.org https://6372968.fls.doubleclick.net",
+    "x-xss-protection": "1; report=https://www.yelp.com/xss_protection_report",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "content-security-policy-report-only": "report-uri https://www.yelp.com/csp_report_only?id=6bd24a372d3cbb50&page=csp_report_frame_directives%2Cfull_site_ssl_csp_report_directives&policy_hash=4ce4d87e4dc70c576ef81a7cf516852d&site=www&timestamp=1580603801; frame-ancestors 'self' https://*.yelp.com; default-src https:; img-src https: data: https://*.adsrvr.org; script-src https: data: 'unsafe-inline' 'unsafe-eval' blob:; style-src https: 'unsafe-inline' data:; connect-src https:; font-src data: 'self' https://*.yelpcdn.com https://fonts.gstatic.com https://connect.facebook.net https://cdnjs.cloudflare.com https://apis.google.com https://www.google-analytics.com https://use.typekit.net https://player.ooyala.com https://use.fontawesome.com https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; frame-src https: yelp-webview://* yelp://* data:; child-src https: yelp-webview://* yelp://*; media-src https:; object-src 'self'; base-uri 'self' https://*.yelpcdn.com https://*.adsrvr.org https://6372968.fls.doubleclick.net; form-action https: 'self'",
+    "referrer-policy": "origin-when-cross-origin",
+    "x-routing-service": "10-69-163-68-uswest2bprod; site=www",
+    "x-b3-sampled": "0",
+    "x-mode": "ro",
+    "x-proxied": "10-69-152-92-uswest2bprod",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes, bytes",
+    "age": "0",
+    "date": "Sun, 02 Feb 2020 00:36:45 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-sea4468-SEA",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1580603802.688059,VS0,VE4281",
+    "vary": "User-Agent, Accept-Encoding"
+  },
+  "status": 200
+}

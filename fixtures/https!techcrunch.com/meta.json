@@ -1,0 +1,29 @@
+{
+  "url": "https://techcrunch.com/",
+  "headers": {
+    ":status": "200",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes",
+    "age": "334",
+    "cache-control": "max-age=300, must-revalidate",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Sun, 02 Feb 2020 00:38:11 GMT",
+    "ec-policy-id": "66811",
+    "link": "<https://techcrunch.com/wp-json/>; rel=\"https://api.w.org/\"",
+    "server": "nginx",
+    "set-cookie": [
+      "A1=d=AQABBPMZNl4CEED-_8nIShS6h-YQVy5vyEYFEgEBAQFrN14_XgAAAAAA_SMAAA&S=AQAAAg6Ztc0QyLYom54ju7noPhU; Domain=.techcrunch.com:443; Max-Age=31536000; SameSite=Lax; Path=/; Secure; HttpOnly",
+      "A3=d=AQABBPMZNl4CEED-_8nIShS6h-YQVy5vyEYFEgEBAQFrN14_XgAAAAAA_SMAAA&S=AQAAAg6Ztc0QyLYom54ju7noPhU; Domain=.techcrunch.com:443; Max-Age=31536000; SameSite=None; Path=/; Secure; HttpOnly",
+      "A1S=d=AQABBPMZNl4CEED-_8nIShS6h-YQVy5vyEYFEgEBAQFrN14_XgAAAAAA_SMAAA&S=AQAAAg6Ztc0QyLYom54ju7noPhU; Domain=.techcrunch.com:443; SameSite=Lax; Path=/; Secure",
+      "GUC=AQEBAQFeN2teP0Ic9wRC; Domain=.techcrunch.com:443; Max-Age=31536000; Path=/; Secure"
+    ],
+    "strict-transport-security": "max-age=31536000;",
+    "vary": "Accept-Encoding",
+    "x-cache": "hit",
+    "x-hacker": "If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.",
+    "x-powered-by": "WordPress.com VIP <https://wpvip.com>",
+    "x-rq": "sjc1 100 70 3099",
+    "content-length": "212107"
+  },
+  "status": 200
+}

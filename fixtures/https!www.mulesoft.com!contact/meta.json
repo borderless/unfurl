@@ -1,0 +1,29 @@
+{
+  "url": "https://www.mulesoft.com/contact",
+  "headers": {
+    "server": "nginx",
+    "content-type": "text/html; charset=UTF-8",
+    "x-drupal-dynamic-cache": "MISS",
+    "link": "<https://www.mulesoft.com/contact>; rel=\"canonical\", </sites/default/files/css/css_c6-hLr_4yrAuYAcgDSZp44q9yqcjBOfqc96jW1GTHSU.css>; rel=preload; as=style, </sites/default/files/css/css_9sSCziuwFuLXBl3pmLZv5YsD0Mc1iplz6nGkJfas4r4.css>; rel=preload; as=style, </sites/default/files/js/js_hHafc688pkIxn5PJ2izg0eQnqyRW4Oobda1s32tEc34.js>; rel=preload; as=script",
+    "x-ua-compatible": "IE=edge",
+    "content-language": "en",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "ALLOW-FROM https://resources.mulesoft.com/",
+    "last-modified": "Fri, 31 Jan 2020 19:17:56 GMT",
+    "etag": "\"1580498276\"",
+    "x-drupal-cache": "HIT",
+    "content-encoding": "gzip",
+    "x-request-id": "v-179ad0ea-447b-11ea-b429-efe1e00c99cb",
+    "x-ah-environment": "prod",
+    "x-age": "0",
+    "accept-ranges": "bytes",
+    "content-length": "23059",
+    "cache-control": "max-age=0",
+    "expires": "Sun, 02 Feb 2020 00:38:26 GMT",
+    "date": "Sun, 02 Feb 2020 00:38:26 GMT",
+    "connection": "keep-alive",
+    "vary": "Accept-Encoding",
+    "content-security-policy": "frame-ancestors https://library.mulesoft.com https://resources.mulesoft.com 'self'"
+  },
+  "status": 200
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter",
+  "headers": {
+    ":status": "200",
+    "content-type": "text/html; charset=utf-8",
+    "server": "nginx",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "content-security-policy": "default-src https: data: 'unsafe-inline' 'unsafe-eval'; child-src https: data: blob:; connect-src https: data: blob:; font-src https: data:; img-src https: data: blob:; media-src https: data: blob:; object-src https:; script-src https: data: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline'; block-all-mixed-content; upgrade-insecure-requests",
+    "link": "<https://concertads-configs.vox-cdn.com/sbn/verge/config.json>; rel=preload; as=fetch; crossorigin",
+    "cache-control": "max-age=0, must-revalidate",
+    "etag": "W/\"7c27dbd5ccd1483d56b4bb3f26e85bbe\"",
+    "x-request-id": "fafba9bc0de0f5c5f6f94612f064f6949320b385",
+    "x-runtime": "0.774320",
+    "strict-transport-security": "max-age=31557600; preload",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes",
+    "date": "Sun, 02 Feb 2020 00:38:14 GMT",
+    "via": "1.1 varnish",
+    "age": "0",
+    "set-cookie": [
+      "_chorus_geoip_continent=NA; expires=Mon, 03 Feb 2020 00:38:14 GMT; path=/;"
+    ],
+    "x-served-by": "cache-sea4439-SEA",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1580603894.681466,VS0,VE849",
+    "vary": "Accept-Encoding, X-Chorus-Unison-Testing, X-Chorus-Require-Privacy-Consent, X-Chorus-Restrict-In-Privacy-Consent-Region, Origin, X-Forwarded-Proto, Cookie, X-Chorus-Unison-Testing, X-Chorus-Require-Privacy-Consent, X-Chorus-Restrict-In-Privacy-Consent-Region",
+    "content-length": "45093"
+  },
+  "status": 200
+}

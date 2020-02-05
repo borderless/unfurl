@@ -1,0 +1,32 @@
+{
+  "url": "https://www.flickr.com/services/oembed?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Ffabianf_%2F28229743586%2F&format=json",
+  "headers": {
+    ":status": "200",
+    "content-type": "application/json",
+    "vary": "Accept-Encoding",
+    "date": "Sun, 02 Feb 2020 03:29:01 GMT",
+    "server": "Apache/2.4.41 (Ubuntu)",
+    "set-cookie": [
+      "xb=523276; expires=Wed, 30-Jan-2030 03:29:01 GMT; Max-Age=315360000; path=/; domain=.flickr.com",
+      "localization=en-us%3Bus%3Bus; expires=Sun, 30-Jan-2022 03:29:01 GMT; Max-Age=62899200; path=/; domain=.flickr.com",
+      "flrbp=1580614141-1d5837399dc59ba9b91451c5badd118b439a0948; expires=Fri, 31-Jul-2020 03:29:01 GMT; Max-Age=15552000; path=/; domain=.flickr.com; httponly",
+      "flrbs=1580614141-681a3eb315a08f090579957f523a09235e72adc8; expires=Fri, 31-Jul-2020 03:29:01 GMT; Max-Age=15552000; path=/; domain=.flickr.com; httponly",
+      "flrbgrp=1580614141-8e1d182444762d1399ab2ce379b4ae72e802bc61; expires=Fri, 31-Jul-2020 03:29:01 GMT; Max-Age=15552000; path=/; domain=.flickr.com; httponly",
+      "flrbgdrp=1580614141-d805a31e27957e674973738548018b5ce77924f0; expires=Fri, 31-Jul-2020 03:29:01 GMT; Max-Age=15552000; path=/; domain=.flickr.com; httponly",
+      "flrbgmrp=1580614141-1d8c5c633b99507f27be1d15a884b837751dd57b; expires=Fri, 31-Jul-2020 03:29:01 GMT; Max-Age=15552000; path=/; domain=.flickr.com; httponly",
+      "flrbrst=1580614141-df435fd19f66d4b72c8ebfe55b7ce0065a279dd3; expires=Fri, 31-Jul-2020 03:29:01 GMT; Max-Age=15552000; path=/; domain=.flickr.com; httponly",
+      "flrtags=1580614141-5a4f8f4d27309b8c70c01d21f2c5f29ee022b1cc; expires=Fri, 31-Jul-2020 03:29:01 GMT; Max-Age=15552000; path=/; domain=.flickr.com; httponly",
+      "flrbrp=1580614141-3272ade3fd0344f4fab77fca38f961b09b981644; expires=Fri, 31-Jul-2020 03:29:01 GMT; Max-Age=15552000; path=/; domain=.flickr.com; httponly",
+      "flrbrgs=1580614141-38926aefc3112d45743c1582f5835de78ced4f49; expires=Fri, 31-Jul-2020 03:29:01 GMT; Max-Age=15552000; path=/; domain=.flickr.com; httponly",
+      "flrb=51; expires=Sun, 02-Feb-2020 04:29:01 GMT; Max-Age=3600; path=/; domain=.flickr.com; httponly"
+    ],
+    "content-security-policy": "default-src 'unsafe-inline' https://*.flickr.com https://*.staticflickr.com https://*.flickr.net https://*.braintreegateway.com https://*.kaptcha.com https://*.paypal.com http://api.flickr.com https://*.pinterest.com https://connect.facebook.net https://*.facebook.com https://*.maps.api.here.com https://*.maps.cit.api.here.com https://cdn.siftscience.com https://tpc.googlesyndication.com https://securepubads.g.doubleclick.net https://adservice.google.com https://cdn.ampproject.org; img-src data: blob: https://*.flickr.com https://*.flickr.net http://*.flickr.net https://*.staticflickr.com http://*.staticflickr.com https://*.yimg.com https://*.yahoo.com https://image.maps.api.here.com https://*.paypal.com https://*.pinterest.com http://*.static-alpha.flickr.com https://connect.facebook.net https://*.facebook.com https://*.maps.api.here.com https://*.maps.cit.api.here.com https://creativecommons.org https://hexagon-analytics.com https://*.2o7.net https://tagmanager.google.com https://www.googletagmanager.com https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://*.doubleclick.com https://*.doubleclick.de https://*.doubleclick.net https://*.googletagservices.com https://*.googleadservices.com https://*.googlesyndication.com https://*.googleapis.com; script-src 'unsafe-eval' 'unsafe-inline' https://*.flickr.com http://*.flickr.net https://*.flickr.net https://*.staticflickr.com https://*.analytics.yahoo.com https://yep.video.yahoo.com https://video.media.yql.yahoo.com https://*.yahooapis.com https://*.braintreegateway.com https://*.paypalobjects.com https://connect.facebook.net https://*.facebook.com https://*.maps.api.here.com https://*.maps.cit.api.here.com https://cdn.siftscience.com https://assets.adobedtm.com https://securepubads.g.doubleclick.net https://adservice.google.com https://cdn.ampproject.org https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://*.doubleclick.com https://*.doubleclick.de https://*.doubleclick.net https://*.googletagservices.com https://*.googleadservices.com https://*.googlesyndication.com https://*.googleapis.com; connect-src https://*.flickr.com https://*.flickr.net http://*.flickr.net https://*.staticflickr.com https://geo.query.yahoo.com https://*.yahooapis.com http://api.flickr.com https://*.pinterest.com http://*.yahoo.com https://*.maps.api.here.com https://*.maps.cit.api.here.com https://cdn.siftscience.com https://*.demdex.net https://securepubads.g.doubleclick.net; report-uri https://csp.flickr.com/beacon/csp?src=adsecflickr;",
+    "x-frame-options": "SAMEORIGIN",
+    "content-encoding": "gzip",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 57a21088b36c69a83578b5a5579df58f.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA19-C2",
+    "x-amz-cf-id": "SlTEGgCB6LjxDMooYwYPaE3UxArdSmKtFW-RApPTwaRJIeuaXHqMpg=="
+  },
+  "status": 200
+}

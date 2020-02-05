@@ -1,0 +1,24 @@
+{
+  "url": "https://www.facebook.com/",
+  "headers": {
+    ":status": "200",
+    "content-encoding": "br",
+    "set-cookie": [
+      "fr=1zM28a92aLt00mkog..BeNhny.-T.AAA.0.0.BeNhny.AWUpU3OG; expires=Sat, 02-May-2020 00:38:09 GMT; Max-Age=7775999; path=/; domain=.facebook.com; secure; httponly",
+      "sb=8hk2XhzhwxvMONl8JSxj3RJb; expires=Tue, 01-Feb-2022 00:38:10 GMT; Max-Age=63072000; path=/; domain=.facebook.com; secure; httponly"
+    ],
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "pragma": "no-cache",
+    "strict-transport-security": "max-age=15552000; preload",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-xss-protection": "0",
+    "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+    "content-type": "text/html; charset=\"utf-8\"",
+    "x-fb-debug": "CEeDtf/GzdaLCu9xVuimcJ99QWqOHS2VqsVsiZRmEtX7GJeQnCg40UlWxeiUnbc7XYsDz3isgkHdnmXuSNUUBA==",
+    "date": "Sun, 02 Feb 2020 00:38:10 GMT",
+    "alt-svc": "h3-24=\":443\"; ma=3600"
+  },
+  "status": 200
+}

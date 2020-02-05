@@ -1,0 +1,21 @@
+{
+  "url": "https://www.battlefield.com/buy/battlefield-1",
+  "headers": {
+    ":status": "200",
+    "content-type": "text/html; charset=utf-8",
+    "server": "nginx",
+    "expires": "Sun, 02 Feb 2020 00:49:11 UTC",
+    "cache-control": "max-age=666",
+    "last-modified": "Sun, 02 Feb 2020 00:26:59 UTC",
+    "content-encoding": "gzip",
+    "content-length": "10764",
+    "vary": "Accept-Encoding",
+    "x-frame-options": "SAMEORIGIN, SAMEORIGIN",
+    "date": "Sun, 02 Feb 2020 00:38:05 GMT",
+    "set-cookie": [
+      "ealocale=en-us; expires=Mon, 31-Dec-2038 23:59:59 GMT; path=/; domain=.battlefield.com; secure"
+    ],
+    "strict-transport-security": "max-age=15768000 ; includeSubDomains"
+  },
+  "status": 200
+}

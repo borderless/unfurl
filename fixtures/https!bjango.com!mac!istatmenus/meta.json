@@ -1,0 +1,18 @@
+{
+  "url": "https://bjango.com/mac/istatmenus/",
+  "headers": {
+    "date": "Sun, 02 Feb 2020 00:36:58 GMT",
+    "server": "Apache",
+    "x-frame-options": "DENY",
+    "last-modified": "Fri, 06 Dec 2019 05:18:03 GMT",
+    "etag": "\"6d4b-599022b89f8c0\"",
+    "accept-ranges": "bytes",
+    "content-length": "27979",
+    "strict-transport-security": "max-age=15768000; preload",
+    "vary": "Accept-Encoding",
+    "keep-alive": "timeout=5, max=150",
+    "connection": "Keep-Alive",
+    "content-type": "text/html"
+  },
+  "status": 200
+}

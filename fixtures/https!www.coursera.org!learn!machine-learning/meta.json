@@ -1,0 +1,32 @@
+{
+  "url": "https://www.coursera.org/learn/machine-learning",
+  "headers": {
+    ":status": "200",
+    "content-type": "text/html",
+    "cache-control": "private, no-cache, no-store, must-revalidate, max-age=0",
+    "content-encoding": "gzip",
+    "date": "Sun, 02 Feb 2020 00:38:25 GMT",
+    "etag": "W/\"cd777-gFGAfWHgjQKg9BVd3msPa5S1VTI\"",
+    "server": "envoy",
+    "set-cookie": [
+      "CSRF3-Token=1581467905.8Cptytnw05DKz9RD; Max-Age=864000; Expires=Wed, 12 Feb 2020 00:38:26 GMT; Path=/; Domain=.coursera.org",
+      "__204u=7177527829-1580603905596; Max-Age=31536000; Expires=Mon, 01 Feb 2021 00:38:26 GMT; Path=/; Domain=.coursera.org"
+    ],
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-coursera-render-mode": "html",
+    "x-coursera-render-version": "v2",
+    "x-coursera-request-id": "Ur3If0VUEeqoBgpoJlhSVQ",
+    "x-coursera-trace-id-hex": "46f2c80595c02990",
+    "x-envoy-upstream-service-time": "886",
+    "x-frame-options": "SAMEORIGIN",
+    "x-powered-by": "Express",
+    "x-xss-protection": "1; mode=block",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 112d82578d402a38d8d02e8b857617e1.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA19-C2",
+    "x-amz-cf-id": "L2cAHADFbiMhf5OaQj-U_r-Nn_mxHkPFc6Ex8dSsWBx6IOjVGuaNOA=="
+  },
+  "status": 200
+}

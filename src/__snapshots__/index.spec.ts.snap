@@ -1,0 +1,5674 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scrappy http://cloudinary.com/pricing 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://cloudinary.com/pricing",
+  "description": "Select a plan that best suits your needs. A Free plan with generous usage limits available without any time limit. Activate your account within seconds.",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": undefined,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "Cloudinary - Pricing and Plans",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 630,
+      "secureUrl": "https://cloudinary.com/wp-content/uploads/sites/6/2018/04/Cloudinary-3D-Facebook-Sharing-1200x630-v1c.jpg",
+      "type": "image",
+      "url": "https://cloudinary.com/wp-content/uploads/sites/6/2018/04/Cloudinary-3D-Facebook-Sharing-1200x630-v1c.jpg",
+      "width": 1200,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://cloudinary-res.cloudinary.com/image/upload/cloudinary_sharing_picture.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Cloudinary",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://cloudinary.com/pricing",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://cnn.com/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.cnn.com/",
+  "description": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com.",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "CNN - Breaking News, Latest News and Videos",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": "CNN",
+    "url": undefined,
+  },
+  "tags": Array [
+    "cnn news",
+    "daily news",
+    "breaking news",
+    "news today",
+    "current events",
+  ],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.cnn.com/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://d.pr/a/q3z9 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Droplr",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://d.pr/i/q3z9",
+  "description": "Shared with Droplr",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "table.jpeg",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 1280,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://d.pr/i/q3z9+",
+      "width": 1280,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Droplr App",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "droplr",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://d.pr/a/q3z9",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://franz.com/agraph/allegrograph/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": undefined,
+  "description": "Franz is a leading vendor of Graph Search Technology (AllegroGraph and Gruff) and Common Lisp Software Development Tools (Allegro CL and AllegroCache)",
+  "entity": undefined,
+  "headline": "AllegroGraph - Semantic Graph Database",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [
+    "Franz Inc",
+    "Lisp",
+    "Enterprise Development Tools",
+    "Common Lisp",
+    "Allegro CL",
+    "ACL",
+    "Allegro Common Lisp AllegroCache",
+    "RDF",
+    "OWL",
+    "SPARQL",
+    "Semantic Web Technology",
+    "AllegroGraph Web 3.0 Database",
+    "Triple Store",
+    "RacerPro",
+    "TopBraid Composer",
+  ],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://franz.com:443/agraph/allegrograph/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268?utm_campaign=socialflow_gizmodo_twitter&utm_source=gizmodo_twitter&utm_medium=socialflow 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Sophie Kleeman",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268",
+  "description": "The recent hack that targeted Democratic officials and led to the resignation of Democratic National Committee chairwoman Debbie Wasserman Schultz was much bigger than initially suspected, according to a new report from the New York Times.",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": 2016-08-11T14:30:00.000Z,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "The DNC Hack Was Much Bigger Than We Thought",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/uwwyvlh7dwqyodgah0mr.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "Gizmodo",
+    "url": undefined,
+  },
+  "tags": Array [
+    "DNC Hack",
+    "Hackers",
+    "Hacks",
+    "Democrats",
+    "Hillary Clinton",
+    "Donald Trump",
+    "Gizmodo",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "gizmodo",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268?utm_campaign=socialflow_gizmodo_twitter&utm_source=gizmodo_twitter&utm_medium=socialflow",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://hackerne.ws 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": undefined,
+  "description": undefined,
+  "entity": undefined,
+  "headline": "Hacker News",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://news.ycombinator.com/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://html5doctor.com/microdata/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "http://html5doctor.com/microdata/",
+  "description": undefined,
+  "entity": undefined,
+  "headline": "Extending HTML5 — Microdata | HTML5 Doctor",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "http://html5doctor.com/microdata/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png 1`] = `
+Object {
+  "dateCreated": undefined,
+  "dateModified": undefined,
+  "height": 341,
+  "lensMake": undefined,
+  "lensModel": undefined,
+  "make": undefined,
+  "megapixels": 0.169,
+  "model": undefined,
+  "orientation": undefined,
+  "software": undefined,
+  "type": "image",
+  "url": "http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png",
+  "width": 495,
+}
+`;
+
+exports[`scrappy http://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=ideas-blog&utm_term=education 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Timothy Doner",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/",
+  "description": "Timothy Doner started teaching himself to speak in other languages when he was 13, and was quickly hailed as a prodigy for his linguistic proficiency. But as he soon realized, there’s more to…",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": 2016-01-04T02:52:30.000Z,
+    "datePublished": 2015-04-09T14:00:45.000Z,
+    "publisher": "https://www.facebook.com/WordPresscom",
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "Why I taught myself 20 languages — and what I learned about myself in the process",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 720,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://tedideas.files.wordpress.com/2015/04/timdoner_ted_polyglot.jpg?w=1200",
+      "width": 1200,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "ideas.ted.com",
+    "url": undefined,
+  },
+  "tags": Array [
+    "timothy doner",
+    "language",
+    "culture",
+    "speech",
+    "fluency",
+    "communication",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "TEDTalks",
+    "creatorId": undefined,
+    "siteHandle": "tedtalks",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=ideas-blog&utm_term=education",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://knexjs.org/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "http://knexjs.org/",
+  "description": undefined,
+  "entity": undefined,
+  "headline": "Knex.js - A SQL Query Builder for Javascript",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "http://knexjs.org/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Andrea Romano",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
+  "description": "Let us count the ways we hope Ramsey will die.",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": 2016-06-17T15:35:08.000Z,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://mondrian.mashable.com/2016%252F06%252F17%252F32%252Fbattleofthebastards.c90e4.jpg%252F1200x630.jpg?signature=CVDsdAQSqErEJGSa-9wzifVh3rM=",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Mashable",
+    "url": undefined,
+  },
+  "tags": Array [
+    "watercooler",
+    "entertainment",
+    "tv",
+    "lists",
+    "conversations",
+    "funny",
+    "game-of-thrones",
+    "jon-snow",
+    "culture",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "mashable",
+    "creatorId": undefined,
+    "siteHandle": "mashable",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://ogp.me/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "http://ogp.me/",
+  "description": "The Open Graph protocol enables any web page to become a rich object in a social graph.",
+  "entity": undefined,
+  "headline": "Open Graph protocol",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": "image/png",
+      "height": 300,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "http://ogp.me/logo.png",
+      "width": 300,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://ogp.me/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://shop.boostedboards.com/products/boosted-dual-plus?variant=1141824744 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://boostedboards.com/vehicles/all-boards",
+  "description": "Choosing between performance and portability has never been easier with Boosted Boards. Explore our selection of electric & motorized skateboards today!",
+  "entity": undefined,
+  "headline": "Electric Skateboards & Motorized Skateboards | Boosted Boards",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://buy.boostedboards.com/vehicles/all-boards",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://store.steampowered.com/app/8930/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://store.steampowered.com/app/8930/Sid_Meiers_Civilization_V/",
+  "description": "Create, discover, and download new player-created maps, scenarios, interfaces, and more!",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "Sid Meier's Civilization® V on Steam",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://steamcdn-a.akamaihd.net/steam/apps/8930/header.jpg?t=1579731804",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "steam",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://store.steampowered.com/app/8930/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://waitbutwhy.com/2016/09/marriage-decision.html 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "http://waitbutwhy.com/2016/09/marriage-decision.html",
+  "description": "We're forced to make a black-and-white, binary decision in the most important moment of our lives. Let's take a deep breath and figure this out together.",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": 2019-11-07T23:48:53.000Z,
+    "datePublished": 2016-09-01T16:32:06.000Z,
+    "publisher": "https://www.facebook.com/waitbutwhy",
+    "section": "Uncategorized",
+    "type": "article",
+  },
+  "headline": "The Marriage Decision: Everything Forever or Nothing Ever Again",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 630,
+      "secureUrl": "https://waitbutwhy.com/wp-content/uploads/2016/09/MarriageDecision_FB2.jpg",
+      "type": "image",
+      "url": "https://waitbutwhy.com/wp-content/uploads/2016/09/MarriageDecision_FB2.jpg",
+      "width": 1200,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "Wait But Why",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "waitbutwhy",
+    "creatorId": undefined,
+    "siteHandle": "waitbutwhy",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://waitbutwhy.com/2016/09/marriage-decision.html",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf 1`] = `
+Object {
+  "author": undefined,
+  "creator": "TeX",
+  "dateCreated": 2019-10-31T07:05:18.000Z,
+  "dateModified": 2019-10-31T07:05:18.000Z,
+  "headline": undefined,
+  "pageCount": 48,
+  "producer": "MiKTeX pdfTeX-1.40.17",
+  "type": "pdf",
+  "url": "https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf",
+}
+`;
+
+exports[`scrappy http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769?&_trksid=p2056016.l4276 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.ebay.com/p/2164370744",
+  "description": "Find many great new & used options and get the best deals for Best ChoiceProducts Outdoor Wicker Patio Sofa 3 Seater Luxury Comfort Brown at the best online prices at eBay! Free shipping for many products!",
+  "entity": undefined,
+  "headline": "Best ChoiceProducts Outdoor Wicker Patio Sofa 3 Seater Luxury Comfort Brown for sale online | eBay",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://i.ebayimg.com/images/g/zxIAAOSwN7BdMUlx/s-l600.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "eBay",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.ebay.com/p/2164370744?iid=381228738769",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://www.imdb.com/title/tt1375666/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "http://www.imdb.com/title/tt1375666/",
+  "description": "Directed by Christopher Nolan. With Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Ken Watanabe. A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+  "entity": undefined,
+  "headline": "Inception (2010) - IMDb",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "IMDb",
+    "url": undefined,
+  },
+  "tags": Array [
+    "Reviews",
+    "Showtimes",
+    "DVDs",
+    "Photos",
+    "Message Boards",
+    "User Ratings",
+    "Synopsis",
+    "Trailers",
+    "Credits",
+  ],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.imdb.com/title/tt1375666/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Kristin Wong",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
+  "description": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will update automatically. So how do they know your new credit card number?...",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": 2016-08-16T09:35:41.000Z,
+    "datePublished": 2016-08-16T17:00:00.000Z,
+    "publisher": undefined,
+    "section": "Money",
+    "type": "article",
+  },
+  "headline": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://i.kinja-img.com/gawker-media/image/upload/c_lfill,w_1200,h_628,q_90/ittdz6udygdrrkbv8eey.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Lifehacker Australia",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "LifehackerAU",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://www.mysteryranch.com/asap-pack 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.mysteryranch.com/asap-pack",
+  "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It's size and versatility make it a perfect every day carry.",
+  "entity": undefined,
+  "headline": "ASAP Pack | Mystery Ranch Backpacks",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": "MYSTERY RANCH",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.mysteryranch.com/asap-pack",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://www.newegg.com/Product/Product.aspx?Item=28-840-014 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.newegg.com/xyzprinting-da-vinci-2-0-duo/p/N82E16828840014",
+  "description": "Buy XYZprinting da Vinci 2.0 Duo FFF &#40;Fused Filament Fabrication&#41; ABS&#47;PLA Dual Nozzle 3D Printer with fast shipping and top-rated customer service.Once you know, you Newegg&#33;",
+  "entity": undefined,
+  "headline": "XYZprinting da Vinci 2.0 Duo FFF &#40;Fused Filament Fabrication&#41; ABS&#47;PLA Dual Nozzle 3D Printer - Newegg.com",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://c1.neweggimages.com/ProductImage/28-840-014-16.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "english",
+  },
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [
+    "Newegg",
+    "Newegg.com",
+    "XYZprinting da Vinci 2.0 Duo FFF &#40;Fused Filament Fabrication&#41; ABS&#47;PLA Dual Nozzle 3D Printer",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "Newegg",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.newegg.com/xyzprinting-da-vinci-2-0-duo/p/N82E16828840014",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": undefined,
+  "description": "404 page",
+  "entity": undefined,
+  "headline": "oh dear… something’s wrong! | news.com.au — Australia’s #1 news site",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "/wp-content/themes/vip/newscorpau-nca/assets/dist/img/common/favicon/favicon-1024x1024.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "news.com.au",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "newscomauHQ",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.news.com.au/404",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.nytimes.android",
+      "name": "NYTimes",
+      "url": "nyt://article/12477c98-899e-5288-9734-8fe0987f3021",
+    },
+    "ipad": Object {
+      "id": "357066198",
+      "name": "NYTimes",
+      "url": "nytimes://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+    },
+    "iphone": Object {
+      "id": "284862083",
+      "name": "NYTimes",
+      "url": "nytimes://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Andrew Rosenthal",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
+  "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": 2016-06-15T07:21:06.000Z,
+    "publisher": undefined,
+    "section": "Opinion",
+    "type": "article",
+  },
+  "headline": "Opinion | Decoding Donald Trump",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://static01.nyt.com/images/2016/06/15/opinion/15rosenthalWeb/15rosenthalWeb-facebookJumbo.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "NYTimes",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://www.reddit.com/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.reddit.com/",
+  "description": "Reddit is a network of communities based on people's interests. Find communities you're interested in, and become part of an online community!",
+  "entity": undefined,
+  "headline": "reddit",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 256,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://www.redditstatic.com/icon.png",
+      "width": 256,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "reddit",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": 600,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "reddit",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.reddit.com/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Colin Lecher",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails",
+  "description": "For years, Google has been building a lobbying machine that outpaces its Silicon Valley peers, turning the internet giant into a major Washington presence. In 2014, the company surpassed AT&T,...",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": 2016-08-10T15:00:02.000Z,
+    "datePublished": 2016-08-10T15:00:02.000Z,
+    "publisher": "http://www.facebook.com/verge",
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "Emails show Google’s close relationship with the White House",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 900,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://cdn.vox-cdn.com/thumbor/LGQzJGCBxXdqwrAutflAxMGp3pw=/0x107:2039x1254/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/50332007/Google-app-stock-Dec2015-verge-02.0.0.jpg",
+      "width": 1600,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "The Verge",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "verge",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://www.yelp.com/biz/boba-guys-san-francisco-4 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.yelp.android",
+      "name": "Yelp",
+      "url": "intent://yelp.com/biz/18TtLS_JtiS2OH30FLqNrw?utm_source=twitter-card#Intent;scheme=http;package=com.yelp.android;end;",
+    },
+    "ipad": Object {
+      "id": "id284910350",
+      "name": "Yelp",
+      "url": "yelp:///biz/18TtLS_JtiS2OH30FLqNrw?utm_campaign=default&utm_source=twitter-card",
+    },
+    "iphone": Object {
+      "id": "id284910350",
+      "name": "Yelp",
+      "url": "yelp:///biz/18TtLS_JtiS2OH30FLqNrw?utm_campaign=default&utm_source=twitter-card",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.yelp.com/biz/boba-guys-san-francisco-4",
+  "description": "Bubble Tea in San Francisco, CA",
+  "entity": undefined,
+  "headline": "Boba Guys - Mission - San Francisco, CA",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 2000,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://s3-media0.fl.yelpcdn.com/bphoto/T3NRy7xNGPGfwn9Vbv4MAQ/o.jpg",
+      "width": 1500,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Yelp",
+    "url": undefined,
+  },
+  "tags": Array [
+    "Yelp",
+    "recommendation",
+    "San Francisco",
+    "bay area",
+    "local",
+    "business",
+    "review",
+    "friend",
+    "restaurant",
+    "dentist",
+    "doctor",
+    "salon",
+    "spa",
+    "shopping",
+    "store",
+    "share",
+    "community",
+    "massage",
+    "sushi",
+    "pizza",
+    "nails",
+    "New York",
+    "Los Angeles",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "yelp",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.yelp.com/biz/boba-guys-san-francisco-4",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://xkcd.com/208/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://xkcd.com/208/",
+  "description": undefined,
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "Regular Expressions",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://imgs.xkcd.com/comics/",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "xkcd",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://xkcd.com/208/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://aaronparecki.com/2016/08/23/2/micropub-cr",
+  "description": "I'm excited to announce that [ Micropub] is now a W3C Candidate Recommendation!",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": undefined,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "Micropub CR",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://aaronparecki.com/2016/08/23/2/micropub-cr.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Aaron Parecki",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "aaronpk",
+    "creatorId": undefined,
+    "siteHandle": "aaronpk",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://adactio.com/journal/9881 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Jeremy Keith",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://adactio.com/journal/9881",
+  "description": "So many standards to choose from.",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": 2015-11-29T01:58:16.000Z,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "Metadata markup",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://adactio.com/images/photo-300.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "adactio",
+    "creatorId": "11250",
+    "siteHandle": "adactio",
+    "siteId": "11250",
+  },
+  "type": "html",
+  "url": "https://adactio.com/journal/9881",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://atom.io/themes/aesthetic-ui 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://atom.io/packages/aesthetic-ui",
+  "description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "aesthetic-ui",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "http://i.imgur.com/455A2im.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Atom",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "https://github.com/dtinth",
+    "creatorId": undefined,
+    "siteHandle": "AtomEditor",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://atom.io/themes/aesthetic-ui",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://bjango.com/articles/pngoptimisation/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": undefined,
+  "description": "Exporting an identical image from different design tools results in different file sizes. Why? What can be done to optimise them to reduce downloading time and disk space?",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "PNG optimisation",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": "https://bjango.com/images/site-icons/bjango-cover.png",
+      "type": "image",
+      "url": "https://bjango.com/images/site-icons/bjango-cover.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "PNG optimisation",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "bjango",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://bjango.com/articles/pngoptimisation/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://bjango.com/mac/istatmenus/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": undefined,
+  "description": "An advanced Mac system monitor for your menubar, with CPU, GPU, memory, network, disk usage, disk activity, temperatures, fans, battery info and more.",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "iStat Menus",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": "https://bjango.com/images/site-icons/bjango-cover.png",
+      "type": "image",
+      "url": "https://bjango.com/images/site-icons/bjango-cover.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "iStat Menus",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "bjango",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://bjango.com/mac/istatmenus/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg 1`] = `
+Object {
+  "dateCreated": 2016-07-11T21:33:20.071Z,
+  "dateModified": 2016-07-12T01:35:24.000Z,
+  "height": 5110,
+  "lensMake": undefined,
+  "lensModel": "17-70mm",
+  "make": "Canon",
+  "megapixels": 17.4,
+  "model": "Canon EOS 700D",
+  "orientation": "Horizontal (normal)",
+  "software": "Adobe Photoshop Lightroom 6.1 (Windows)",
+  "type": "image",
+  "url": "https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg",
+  "width": 3407,
+}
+`;
+
+exports[`scrappy https://c2.staticflickr.com/4/3930/15428630771_61e9dcf6f4_o.jpg 1`] = `
+Object {
+  "dateCreated": undefined,
+  "dateModified": undefined,
+  "height": 2448,
+  "lensMake": "Apple",
+  "lensModel": "iPhone 5 back camera 4.12mm f/2.4",
+  "make": undefined,
+  "megapixels": 6,
+  "model": undefined,
+  "orientation": "Horizontal (normal)",
+  "software": "Instagram",
+  "type": "image",
+  "url": "https://c2.staticflickr.com/4/3930/15428630771_61e9dcf6f4_o.jpg",
+  "width": 2448,
+}
+`;
+
+exports[`scrappy https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf 1`] = `
+Object {
+  "author": "chenliang",
+  "creator": "Microsoft® PowerPoint® 2013",
+  "dateCreated": 2015-03-19T19:03:50.000Z,
+  "dateModified": 2015-03-19T19:03:50.000Z,
+  "headline": "Attacking WebKit Applications by exploiting memory corruption bugs",
+  "pageCount": 57,
+  "producer": "Mac OS X 10.10.2 Quartz PDFContext",
+  "type": "pdf",
+  "url": "https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf",
+}
+`;
+
+exports[`scrappy https://dev.twitter.com/cards/types/player 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card",
+  "description": undefined,
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": undefined,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "Player card",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://developer.twitter.com/content/dam/developer-twitter/icons/twitter.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://developers.google.com/search/docs/guides/intro-structured-data 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
+  "description": undefined,
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "Understand how structured data works | Search for Developers",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 675,
+      "secureUrl": "https://www.gstatic.com/devrel-devsite/prod/vcd1bbe5dda31d2b800805cc4c730b0229f847f2d108be33386b6e78644e79178/developers/images/opengraph/white.png",
+      "type": "image",
+      "url": "https://www.gstatic.com/devrel-devsite/prod/vcd1bbe5dda31d2b800805cc4c730b0229f847f2d108be33386b6e78644e79178/developers/images/opengraph/white.png",
+      "width": 1200,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en",
+  },
+  "provider": Object {
+    "name": "Google Developers",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://developers.google.com/search/docs/guides/intro-structured-data",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Eldon_Cleary",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
+  "description": "Check out Pico-8 for new “fantasy console” goodness. Works great with Raspberry Pi Zero, 2, 3, etc.",
+  "entity": undefined,
+  "headline": "The Raspberry Pi Has Revolutionized Emulation",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://discourse-cdn.codinghorror.com/uploads/default/original/3X/f/3/f3dfe83738183d904a8b8885e58bc97c4ec22301.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Coding Horror Discussion",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing&usp=embed_facebook",
+  "description": "Guide to Ingress Mission Series/Banners in the Greater SF Bay Area contributors: @katranrocks (Kate Magary), @strandit (Bryant Durrell), @hiryu (Brett Allen), @011101000101001 (Florian Sauer), @FlyingRobot (Timothy Appel), @freddd123 (Austin), @jookwarrior (Andy), @VeIocipractor (TZ), @phthoruth ...",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": undefined,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "Bay Area Guide to Mission Series/Banners",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 630,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://lh5.googleusercontent.com/8eTM3C-2QYSHidIiq558P29Un9-nBry0DUte4wITfnM12uJv1Ejop7ID-245Md7nXeNkZW8zXw=w1200-h630-p",
+      "width": 1200,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Google Docs",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing&usp=embed_facebook",
+  "description": "Digital Nomad Specialist List #,Location,I offer,Day Rate (USD),Languages,I'm looking for (work, ideas, tips etc),E-mail/contact,Website,Twitter,LinkedIn,Language,Deadline Phillip Gourley,Remote (GMT+8),15 years experience at scale with some of the worlds largest brands. Infrastructure & Devops ...",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": undefined,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "> 500 Digital Nomad specialists. Question: maybe convert to airtable soon?",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 630,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://lh5.googleusercontent.com/li0nvGN1E37xNnAndC1FchzZkpJSnyl0lf-TMFJR9tOTGccNViD549HHaTxtZJ2Gp0Sucwjiug=w1200-h630-p",
+      "width": 1200,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Google Docs",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing&usp=embed_facebook",
+  "description": undefined,
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": undefined,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "Overfitting.pdf",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 630,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://lh3.googleusercontent.com/xRivC0qd8o77QE7sma3my6O9p6EdOzmthPXOtPLTybbn1WOOwJeZpSrw4g=w1200-h630-p",
+      "width": 1200,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Google Docs",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://droplr.com/droplr-addition-google-chrome-extension 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://droplr.com/",
+  "description": "Droplr offers one of the best solution for file sharing, screen recording and send them anywhere",
+  "entity": undefined,
+  "headline": "Droplr - Capture + explain your ideas.",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "/assets/images/droplr-preview.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://droplr.com/droplr-addition-google-chrome-extension",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://en.wikipedia.org/wiki/Jean-Luc_Picard 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Contributors to Wikimedia projects",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://en.wikipedia.org/wiki/Jean-Luc_Picard",
+  "description": undefined,
+  "entity": undefined,
+  "headline": "Jean-Luc Picard - Wikipedia",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8e/Patrick_Steward_as_Jean-Luc_Picard_in_1996%27s_Star_Trek_First_Contact.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://en.wikipedia.org/wiki/Jean-Luc_Picard",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://en.wikipedia.org/wiki/TypeScript 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Contributors to Wikimedia projects",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://en.wikipedia.org/wiki/TypeScript",
+  "description": undefined,
+  "entity": undefined,
+  "headline": "TypeScript - Wikipedia",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://en.wikipedia.org/wiki/TypeScript",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324",
+    },
+    "ipad": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324",
+    },
+    "iphone": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324",
+    },
+    "windows": undefined,
+    "windowsPhone": Object {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/51abb0a3498eb42c0d5cf324",
+    },
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
+  "description": "Bubble Tea Shop in San Francisco, CA",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "Boba Guys",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/24228814_aJsekEzXAFZlUtgcPkh7WqDOJcrCjOEYskHQ7EnOZQo.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/238171_Pt_kLpeKQSGmKiU2oEPOBRClk2kgyB33cYKnb-d_3ok.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/57576_AzT1zl9SvqafcyFizZMb4up9emlaOMK5obd306IswPY.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/25065281_DGAEQ1LzEdZG_1hSut7DYKzmtnynhkx4G4MJGEpzW8c.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Foursquare",
+    "url": undefined,
+  },
+  "tags": Array [
+    "Boba Guys",
+    "3491 19th St",
+    "San Francisco",
+    "CA",
+    "boba guys",
+    "boba guys milk tea & snack bar",
+    "boba guys - milk tea & snack bar",
+    "boba guys - milk tea and snack bar",
+    "bubble tea",
+    "Bubble Tea",
+    "Dessert",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "foursquare",
+    "creatorId": undefined,
+    "siteHandle": "foursquare",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058763f964a520848f22e3",
+    },
+    "ipad": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058763f964a520848f22e3",
+    },
+    "iphone": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058763f964a520848f22e3",
+    },
+    "windows": undefined,
+    "windowsPhone": Object {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058763f964a520848f22e3",
+    },
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3",
+  "description": "Beach in Sydney, NSW",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "Bondi Beach",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/1728536_SMwrObKRzMSH_rnF1200G1Qn7ckYyJzxwK_X4Obtrzg.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/622354_GTGEs5tnI1pPXG49F-_bxbLdbsHPt59jjC7LnXwDVts.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/7805186_09pfuJa8RMa6hL70rmwoRnBdetJ0GCqBco1q4f-6LB0.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/2837961_P-QD6L27Y2o1-2RctSpFbJsHZ5cZ2_g5n-Sn3p6JFNg.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Foursquare",
+    "url": undefined,
+  },
+  "tags": Array [
+    "Bondi Beach",
+    "Queen Elizabeth Dr",
+    "Sydney",
+    "NSW",
+    "at the beach nth bondi",
+    "at the beach",
+    "nth bondi",
+    "beach",
+    "bondi",
+    "bondi beach",
+    "bondi beach swimrun",
+    "bondi beach the north bondi hill",
+    "bondi beach (north end)",
+    "bondi beach (northern end)",
+    "Beach",
+    "Surf Spot",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "foursquare",
+    "creatorId": undefined,
+    "siteHandle": "foursquare",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://foursquare.com/v/bourke-street-bakery/4b0b4a63f964a520fa2f23e3 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b0b4a63f964a520fa2f23e3",
+    },
+    "ipad": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b0b4a63f964a520fa2f23e3",
+    },
+    "iphone": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b0b4a63f964a520fa2f23e3",
+    },
+    "windows": undefined,
+    "windowsPhone": Object {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b0b4a63f964a520fa2f23e3",
+    },
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://foursquare.com/v/bourke-street-bakery/4b0b4a63f964a520fa2f23e3",
+  "description": "Bakery in Surry Hills, NSW",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "Bourke Street Bakery",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/UXYSYOJ0NML3VFOI40RJ3PIW5EQB5IGBKQJTMJ100SRDOXJT.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/103519_MzW2H0kYbDLxCglswKkPvGEKXf2EFGt1Nw_VGShqsFw.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/582620_0RECuTzg-dKtXM23uZWvHBLF-bWu_jrNEKvP0UTzVHU.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/13108506_EfnbicuUASMvUTeG2AqfcbMC4CwQEf1UOyeecz57htY.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Foursquare",
+    "url": undefined,
+  },
+  "tags": Array [
+    "Bourke Street Bakery",
+    "633 Bourke St.",
+    "Surry Hills",
+    "NSW",
+    "bourke street bakery",
+    "bourke street bakery (633 bourke st",
+    "surry hills",
+    "nsw)",
+    "bourke street bakery 633 bourke st surry hills nsw",
+    "Bakery",
+    "Café",
+    "Lunch",
+    "Brunch & more",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "foursquare",
+    "creatorId": undefined,
+    "siteHandle": "foursquare",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://foursquare.com/v/bourke-street-bakery/4b0b4a63f964a520fa2f23e3",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201d8f22e3",
+    },
+    "ipad": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201d8f22e3",
+    },
+    "iphone": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201d8f22e3",
+    },
+    "windows": undefined,
+    "windowsPhone": Object {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201d8f22e3",
+    },
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3",
+  "description": "Harbor / Marina in Sydney, NSW",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "Darling Harbour",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/566259_OXawwY55XJ-rwwFgHVtuX-WLH9eNj7h0ia_ZyJKAO6c.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/1951232_M1OM54HzkFAErTzNmxESvmieBWgs1gvuYeSHPqvYUaM.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/4767889_g2q5dJG4jlSIhlZ2pIdiiJ4oalK0lmS8-Iq0cI9gVCE.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/11812362_49-Kut3KgyRoJXPjtMkewz_ZbV_dHbR-z92rl9ucRkk.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Foursquare",
+    "url": undefined,
+  },
+  "tags": Array [
+    "Darling Harbour",
+    "Darling Dr",
+    "Sydney",
+    "NSW",
+    "darling habour",
+    "darling harbour",
+    "darling harbour australia",
+    "darling harbour sydney",
+    "darling harbour sydney nsw",
+    "darling harbour",
+    "sydney nsw",
+    "darling harbs",
+    "docks darling harbour",
+    "Harbor / Marina",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "foursquare",
+    "creatorId": undefined,
+    "siteHandle": "foursquare",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b3c2445f964a520348225e3",
+    },
+    "ipad": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b3c2445f964a520348225e3",
+    },
+    "iphone": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b3c2445f964a520348225e3",
+    },
+    "windows": undefined,
+    "windowsPhone": Object {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b3c2445f964a520348225e3",
+    },
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
+  "description": "Scenic Lookout in Sydney, NSW",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "Mrs. Macquarie's Point",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/438641_2_--EBsG_nPTeh1VrgbcUunxKbD3q0okjw4YXmzXOtU.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/2305500_WEZtmhQmJzi6Uz8XICTYEv7CS0mmgAPLMRB921HW2V4.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/9379207_DIWpAJ5IJBLIbC57H6_uEfGl0bgZHF_6faMlyRsX-fI.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/DHSbNG-xAqCikjlwn3ZxKK0kWqB5ZY1ysEn78rxwvl0.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Foursquare",
+    "url": undefined,
+  },
+  "tags": Array [
+    "Mrs. Macquarie's Point",
+    "Mrs Macquaries Rd.",
+    "Sydney",
+    "NSW",
+    "mrs macquarie's point",
+    "mrs macquaries point",
+    "mrs. macquarie's point",
+    "mrs. macquaries point",
+    "Scenic Lookout",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "foursquare",
+    "creatorId": undefined,
+    "siteHandle": "foursquare",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058761f964a520188f22e3",
+    },
+    "ipad": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058761f964a520188f22e3",
+    },
+    "iphone": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058761f964a520188f22e3",
+    },
+    "windows": undefined,
+    "windowsPhone": Object {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058761f964a520188f22e3",
+    },
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3",
+  "description": "Botanical Garden in Sydney, NSW",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "Royal Botanic Garden",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/53483607_SoXlG3dETx8aFctBfqQJDXBER5wkwBm8sihfBClvA8I.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/3193281_QNK-Vlx4z1UJR97aVk7pI58_RsLEI75FCfhKg8nO2sE.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/40666324_RKf6fLMqp9n5EPmaIwCgVV6IBvH3C7wbQqUcemDFiCo.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/70934338_tZcMpOJJ7Fi4EZiIKJj1_uEf_Fm4alfrum18fg_tT8A.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Foursquare",
+    "url": undefined,
+  },
+  "tags": Array [
+    "Royal Botanic Garden",
+    "Macquarie St",
+    "Sydney",
+    "NSW",
+    "botanical gardens",
+    "botannical gardens",
+    "royal botanic garden",
+    "royal botanic gardens",
+    "royal botanic gardens sydney",
+    "royal botanical gardens",
+    "Botanical Garden",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "foursquare",
+    "creatorId": undefined,
+    "siteHandle": "foursquare",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201b8f22e3",
+    },
+    "ipad": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201b8f22e3",
+    },
+    "iphone": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201b8f22e3",
+    },
+    "windows": undefined,
+    "windowsPhone": Object {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4b058762f964a5201b8f22e3",
+    },
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
+  "description": "Opera House in Sydney, NSW",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "Sydney Opera House",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/30191875_Lgh6KE2Ddw3meuqyW8ZMJVG7G3JVv2njuEtDIuLr-kk.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/38110221_71KyQ-F5PD9hyza_2Bb34lyYmQquujWWl1QF8-igTAw.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/58075601_HESGYXEyXwz9zbAQ9gUnae9j-YEwtvM0kTjPXKeioSs.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/39378828_NSoo4Ae_7c-Wns-gC7Z1Idgh6MlxOdt72upSdC267iA.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Foursquare",
+    "url": undefined,
+  },
+  "tags": Array [
+    "Sydney Opera House",
+    "2 Macquarie St",
+    "Sydney",
+    "NSW",
+    "opera house",
+    "opera house sydney",
+    "sidney opera house",
+    "sydney opera house",
+    "Opera House",
+    "Concert Hall",
+    "Art Gallery",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "foursquare",
+    "creatorId": undefined,
+    "siteHandle": "foursquare",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.joelapenna.foursquared",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+    },
+    "ipad": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+    },
+    "iphone": Object {
+      "id": "306934924",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+    },
+    "windows": undefined,
+    "windowsPhone": Object {
+      "id": "26cf3302-469f-e011-986b-78e7d1fa76f8",
+      "name": "Foursquare",
+      "url": "foursquare://venues/4ed4896c775b45f6ed7b0182",
+    },
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
+  "description": "Whisky Bar in Sydney, NSW",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "The Baxter Inn",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/13692844_gLU3tu6y4S6bcPDyiS1y9GU9ZkghXDaMJE9xFnPuVmo.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/ndClpMwl_-05I1_AQ5zcogSS4f7ZTRuOgU93S3UoMpA.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/32255700_HW4bsR2VOBsF_FPW2zXjRB8gc09xOYzVKKHpHSlhcpk.jpg",
+      "width": undefined,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://fastly.4sqi.net/img/general/600x600/zkX2UTm0dXiVcb5nUQ18vmdl-P2XVO5Pg25ITmrr4Ls.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Foursquare",
+    "url": undefined,
+  },
+  "tags": Array [
+    "The Baxter Inn",
+    "152 - 156 Clarence St.",
+    "Sydney",
+    "NSW",
+    "baxter inn",
+    "baxters bar",
+    "the baxter inn",
+    "Whisky Bar",
+    "Bar",
+    "Speakeasy",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "foursquare",
+    "creatorId": undefined,
+    "siteHandle": "foursquare",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://github.com/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://github.com/",
+  "description": "GitHub is where people build software. More than 40 million people use GitHub to discover, fork, and contribute to over 100 million projects.",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "GitHub",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": "image/png",
+      "height": 1200,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://github.githubassets.com/images/modules/open_graph/github-logo.png",
+      "width": 1200,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": "image/png",
+      "height": 620,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://github.githubassets.com/images/modules/open_graph/github-mark.png",
+      "width": 1200,
+    },
+    Object {
+      "caption": undefined,
+      "encodingFormat": "image/png",
+      "height": 620,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://github.githubassets.com/images/modules/open_graph/github-octocat.png",
+      "width": 1200,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "GitHub",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "github",
+    "creatorId": "13334762",
+    "siteHandle": "github",
+    "siteId": "13334762",
+  },
+  "type": "html",
+  "url": "https://github.com/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://github.com/Microsoft/TypeScript/issues/10462 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://github.com/microsoft/TypeScript/issues/10462",
+  "description": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type &#39;Object&#39; is n...",
+  "entity": undefined,
+  "headline": "Give a better error message for assigning from Object to anything else · Issue #10462 · microsoft/TypeScript",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://avatars2.githubusercontent.com/u/6154722?s=400&v=4",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "GitHub",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "github",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://github.com/Microsoft/TypeScript/issues/10462",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://github.com/blakeembrey 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://github.com/blakeembrey",
+  "description": "blakeembrey has 228 repositories available. Follow their code on GitHub.",
+  "entity": undefined,
+  "headline": "blakeembrey - Overview",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://avatars2.githubusercontent.com/u/1088987?s=400&v=4",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "GitHub",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "github",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://github.com/blakeembrey",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://github.com/blakeembrey/popsicle 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://github.com/serviejs/popsicle",
+  "description": "Simple HTTP requests for node and the browser. Contribute to serviejs/popsicle development by creating an account on GitHub.",
+  "entity": undefined,
+  "headline": "serviejs/popsicle",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://avatars1.githubusercontent.com/u/27746196?s=400&v=4",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "GitHub",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "github",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://github.com/serviejs/popsicle",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://github.com/blog/2242-git-2-10-has-been-released 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Jeff King",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://github.blog/2016-09-03-git-2-10-has-been-released/",
+  "description": "The open source Git project has just released Git 2.10.0, with features and bugfixes from over 70 contributors. Here’s our look at some of the most interesting new features: Progress reporting for pushes When you",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": 2019-01-04T16:54:07.000Z,
+    "datePublished": 2016-09-03T09:23:46.000Z,
+    "publisher": "https://www.facebook.com/GitHub",
+    "section": "Featured",
+    "type": "article",
+  },
+  "headline": "Git 2.10 has been released - The GitHub Blog",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 630,
+      "secureUrl": "https://github.blog/wp-content/uploads/2016/09/284be2e6-33d4-11e6-9165-58068a872ec2.png?fit=1200%2C630",
+      "type": "image",
+      "url": "https://github.blog/wp-content/uploads/2016/09/284be2e6-33d4-11e6-9165-58068a872ec2.png?fit=1200%2C630",
+      "width": 1200,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "The GitHub Blog",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "github",
+    "creatorId": undefined,
+    "siteHandle": "github",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://github.blog/2016-09-03-git-2-10-has-been-released/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://github.com/moment/moment/pull/3323 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://github.com/moment/moment/pull/3323",
+  "description": "This commit was adapted from 1ec036686e70ad0d837ed2443684d54bca13af01 in DefinitelyTyped. See DefinitelyTyped/DefinitelyTyped#8765 for context. The original body of the commit message follows. Thes...",
+  "entity": undefined,
+  "headline": "[misc] typescript: refactor constructor and ISO format hack by seansfkelley · Pull Request #3323 · moment/moment",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://avatars2.githubusercontent.com/u/4129662?s=400&v=4",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "GitHub",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "github",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://github.com/moment/moment/pull/3323",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://i.imgur.com/mvUPRyV.png 1`] = `
+Object {
+  "dateCreated": undefined,
+  "dateModified": undefined,
+  "height": 484,
+  "lensMake": undefined,
+  "lensModel": undefined,
+  "make": undefined,
+  "megapixels": 0.374,
+  "model": undefined,
+  "orientation": undefined,
+  "software": undefined,
+  "type": "image",
+  "url": "https://i.imgur.com/mvUPRyV.png",
+  "width": 773,
+}
+`;
+
+exports[`scrappy https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Niantic, Inc.",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345",
+  "description": "‎NEW! Team GO Rocket has invaded the world of Pokémon GO! Battle with Team GO Rocket Grunts as you restore PokéStops and rescue Pokémon. Join Trainers across the globe who are discovering Pokémon as they explore the world around them. Pokémon GO is the global gaming sensation that has been download…",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "‎Pokémon GO",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": "image/png",
+      "height": 630,
+      "secureUrl": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/c4/dc/fa/c4dcfa01-0e81-ec0f-c774-908ec3921457/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/1200x630wa.png",
+      "type": "image",
+      "url": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/c4/dc/fa/c4dcfa01-0e81-ec0f-c774-908ec3921457/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/1200x630wa.png",
+      "width": 1200,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "App Store",
+    "url": undefined,
+  },
+  "tags": Array [
+    "Pokémon GO",
+    "Niantic",
+    "Inc.",
+    "Games",
+    "Strategy",
+    "Role Playing",
+    "Health & Fitness",
+    "ios apps",
+    "app",
+    "appstore",
+    "app store",
+    "iphone",
+    "ipad",
+    "ipod touch",
+    "itouch",
+    "itunes",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "AppStore",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://apps.apple.com/us/app/pokemon-go/id1094591345",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://itunes.apple.com/us/movie/the-avengers/id533654020 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
+  "description": "‎Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "‎The Avengers on iTunes",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": "image/png",
+      "height": 630,
+      "secureUrl": "https://is2-ssl.mzstatic.com/image/thumb/Video118/v4/04/6a/b4/046ab45e-6099-3e1a-ccef-7b3f8b07f057/contsched.sumsaanu.lsr/1200x630wf.png",
+      "type": "image",
+      "url": "https://is2-ssl.mzstatic.com/image/thumb/Video118/v4/04/6a/b4/046ab45e-6099-3e1a-ccef-7b3f8b07f057/contsched.sumsaanu.lsr/1200x630wf.png",
+      "width": 1200,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "iTunes",
+    "url": undefined,
+  },
+  "tags": Array [
+    "The Avengers",
+    "Action & Adventure",
+    "Joss Whedon",
+    "movies",
+    "film",
+    "rent",
+    "buy",
+    "itunes",
+    "apple tv",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "iTunes",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://learnxinyminutes.com/docs/standard-ml/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://learnxinyminutes.com/docs/standard-ml/",
+  "description": undefined,
+  "entity": undefined,
+  "headline": "Learn Standard ML in Y Minutes",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://learnxinyminutes.com/docs/standard-ml/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.medium.reader",
+      "name": "Medium",
+      "url": "medium://p/e64b4bb9254",
+    },
+    "ipad": Object {
+      "id": "828256236",
+      "name": "Medium",
+      "url": "medium://p/e64b4bb9254",
+    },
+    "iphone": Object {
+      "id": "828256236",
+      "name": "Medium",
+      "url": "medium://p/e64b4bb9254",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Matt Haughey",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254",
+  "description": "Let’s start with the most obvious question first. This is what an “unfurl” is:",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": 2015-11-24T21:33:25.196Z,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "Everything you ever wanted to know about unfurling but were afraid to ask /or/ How to make your…",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://miro.medium.com/max/1200/1*QOMaDLcO8rExD0ctBV3BWg.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Medium",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "mathowie",
+    "creatorId": undefined,
+    "siteHandle": "slackapi",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://news.ycombinator.com/item?id=12282756 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": undefined,
+  "description": undefined,
+  "entity": undefined,
+  "headline": "For a Better Economy, Add Commuter Rail? | Hacker News",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://news.ycombinator.com/item?id=12282756",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://pragprog.com/book/btlang/seven-languages-in-seven-weeks 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://pragprog.com/book/btlang/seven-languages-in-seven-weeks",
+  "description": undefined,
+  "entity": undefined,
+  "headline": "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages by Bruce A. Tate | The Pragmatic Bookshelf",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://imagery.pragprog.com/products/195/btlang.jpg?1298589937",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [
+    "9781934356593",
+    "Bruce A. Tate",
+    "Pragmatic Bookshelf",
+    "Ruby",
+    "Io",
+    "Prolog",
+    "Scala",
+    "Erlang",
+    "Clojure",
+    "Haskell",
+    "programming",
+    "languages",
+    "survey",
+    "JavaScript",
+    "Java",
+    "Rails",
+  ],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://pragprog.com/book/btlang/seven-languages-in-seven-weeks",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://schema.org/WebSite 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://schema.org/WebSite",
+  "description": "Schema.org Type: WebSite - A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
+  "entity": undefined,
+  "headline": "WebSite - schema.org Type",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://schema.org/WebSite",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://schema.org/docs/schema_org_rdfa.html 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": undefined,
+  "description": undefined,
+  "entity": undefined,
+  "headline": "Schema.org master file: RDFS in RDFa",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://schema.org/docs/schema_org_rdfa.html",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://segment.com/blog/the-segment-aws-stack/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://segment.com/blog",
+  "description": undefined,
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "The Segment AWS Stack",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://images.ctfassets.net/9u2t3ap6pctb/4UJD4ywUl3ebCFYiByJSqU/9775fbd912f6ecab427990caaad69ae4/og-blog.png?h=250",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Segment",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "segment",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://segment.com/blog/the-segment-aws-stack/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://slant6.bandcamp.com/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://slant6.bandcamp.com/",
+  "description": "12 track album",
+  "entity": undefined,
+  "headline": "Inzombia, by Slant 6",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://f4.bcbits.com/img/a1638428842_5.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Slant 6",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "bandcamp",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://slant6.bandcamp.com/",
+  "video": Array [
+    Object {
+      "encodingFormat": "text/html",
+      "height": 120,
+      "secureUrl": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
+      "type": "video",
+      "url": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/tracklist=false/artwork=small/",
+      "width": 400,
+    },
+    Object {
+      "encodingFormat": "text/html",
+      "height": 467,
+      "type": "video",
+      "url": "https://bandcamp.com/EmbeddedPlayer/v=2/album=4292094353/size=large/linkcol=0084B4/notracklist=true/twittercard=true/",
+      "width": 350,
+    },
+  ],
+}
+`;
+
+exports[`scrappy https://smile.amazon.com/gp/product/1937785734/ref=s9_qpp_gw_d99_g14_i5_r?ie=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-1&pf_rd_r=92JG667YC8526036ANPR&pf_rd_t=36701&pf_rd_p=6aad23bd-3035-4a40-b691-0eefb1a18396&pf_rd_i=desktop 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.amazon.com/Node-js-Right-Way-Server-Side-JavaScript/dp/1937785734",
+  "description": "Node.js the Right Way: Practical, Server-Side JavaScript That Scales [Jim Wilson] on Amazon.com. *FREE* shipping on qualifying offers. Get to the forefront of server-side JavaScript programming by writing compact, robust, fast, networked Node applications that scale. Ready to take JavaScript beyond the browser",
+  "entity": undefined,
+  "headline": "Node.js the Right Way: Practical, Server-Side JavaScript That Scales: Jim Wilson: 8601400967638: Amazon.com: Books",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [
+    "Jim Wilson",
+    "Node.js the Right Way: Practical",
+    "Server-Side JavaScript That Scales",
+    "Pragmatic Bookshelf",
+    "1937785734",
+    "COMPUTER",
+    "COMPUTERS / Programming Languages / JavaScript",
+    "COMPUTERS / Web / Web Programming",
+    "Computer - Internet",
+    "Computer Books: Languages",
+    "Computer/Languages",
+    "Computers",
+    "Computers/Programming Languages - JavaScript",
+    "Non-Fiction",
+    "Programming Languages - JavaScript",
+    "Web - Web Programming",
+    "javascript; node; npm",
+    "javascript;node;npm",
+  ],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.amazon.com/gp/product/1937785734/ref=s9_qpp_gw_d99_g14_i5_r?ie=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-1&pf_rd_r=92JG667YC8526036ANPR&pf_rd_t=36701&pf_rd_p=6aad23bd-3035-4a40-b691-0eefb1a18396&pf_rd_i=desktop&pldnSite=1",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://soundcloud.com/lifeofdesiigner/desiigner-panda 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.soundcloud.android",
+      "name": "SoundCloud",
+      "url": "soundcloud://sounds:237603952",
+    },
+    "ipad": Object {
+      "id": "336353151",
+      "name": "SoundCloud",
+      "url": "soundcloud://sounds:237603952",
+    },
+    "iphone": Object {
+      "id": "336353151",
+      "name": "SoundCloud",
+      "url": "soundcloud://sounds:237603952",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
+  "description": "It's the OFFICIAL track that you have all been waiting. This is PANDA!!",
+  "entity": undefined,
+  "headline": "Desiigner- \\"Panda\\" (Prod. By: Menace)",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 500,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://i1.sndcdn.com/artworks-000179308245-paabn9-t500x500.jpg",
+      "width": 500,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "SoundCloud",
+    "url": undefined,
+  },
+  "tags": Array [
+    "record",
+    "sounds",
+    "share",
+    "sound",
+    "audio",
+    "tracks",
+    "music",
+    "soundcloud",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "SoundCloud",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
+  "video": Array [
+    Object {
+      "encodingFormat": "text/html",
+      "height": 400,
+      "type": "video",
+      "url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F237603952&auto_play=false&show_artwork=true&visual=true&origin=twitter",
+      "width": 435,
+    },
+  ],
+}
+`;
+
+exports[`scrappy https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": undefined,
+  "description": undefined,
+  "entity": undefined,
+  "headline": "SoundCloud - Hear the world’s sounds",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": "SoundCloud",
+    "url": undefined,
+  },
+  "tags": Array [
+    "record",
+    "sounds",
+    "share",
+    "sound",
+    "audio",
+    "tracks",
+    "music",
+    "soundcloud",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "SoundCloud",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/",
+  "description": "The competition between Uber and Google has broken out into the open: who has the advantage in the evolution of transportation-as-a-service, and who will likely win?",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": 2018-03-27T08:38:13.000Z,
+    "datePublished": 2016-08-31T12:48:44.000Z,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "Google, Uber, and the Evolution of Transportation-as-a-Service",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 2048,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://stratechery.com/wp-content/uploads/2016/08/stratechery-Year-One-288.png",
+      "width": 2732,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "Stratechery by Ben Thompson",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "stratechery",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://techcrunch.com/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Jonathan Shieber",
+    "url": undefined,
+  },
+  "canonicalUrl": "http://social.techcrunch.com/",
+  "description": "TechCrunch - Reporting on the business of technology, startups, venture capital funding, and Silicon Valley",
+  "entity": undefined,
+  "headline": "TechCrunch – Startup and Technology News",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://techcrunch.com/wp-content/themes/techcrunch-2017/images/opengraph-default.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "TechCrunch",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://techcrunch.com/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Mike Butcher",
+    "url": undefined,
+  },
+  "canonicalUrl": "http://social.techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
+  "description": "This week The Europas Startup Conference and Awards — the new type of tech event devised in partnership with TechCrunch and myself — honored The Best Tech Startups in Europe. You can check out all the pictures here and follow the coverage on Twitter. An annual celebration of Europe’s br…",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": 2016-06-17T12:31:46.000Z,
+    "publisher": "https://www.facebook.com/techcrunch",
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "The Europas Awards 2016 honored the best tech startups in Europe – TechCrunch",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://techcrunch.com/wp-content/uploads/2016/06/awardsstage.jpg?w=600",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "TechCrunch",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "techcrunch",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://trakt.tv/movies/kung-fury-2015 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://trakt.tv/movies/kung-fury-2015",
+  "description": "During an unfortunate series of events, a friend of Kung Fury is assassinated by the most dangerous kung fu master criminal of all time, Adolf Hitler, a.k.a Kung Führer. Kung Fury decides to travel back in time to Nazi Germany in order to kill Hitler and end the Nazi empire once and for all.",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "Kung Fury (2015)",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://walter.trakt.tv/images/movies/000/152/524/fanarts/thumb/4ce64053e1.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Trakt.tv",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "trakt",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://trakt.tv/movies/kung-fury-2015",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://twitter.com/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://twitter.com/",
+  "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+  "entity": undefined,
+  "headline": "bird",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://twitter.com/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://twitter.com/SeanTAllen/status/764993929469161472 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": undefined,
+  "description": undefined,
+  "entity": undefined,
+  "headline": "Twitter / ?",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://twitter.com/SeanTAllen/status/764993929469161472",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://twitter.com/alexisohanian/status/764997551384776704 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.twitter.android",
+      "name": "Twitter",
+      "url": "twitter://status?status_id=764997551384776704",
+    },
+    "ipad": Object {
+      "id": "333903271",
+      "name": "Twitter",
+      "url": "twitter://status?id=764997551384776704",
+    },
+    "iphone": Object {
+      "id": "333903271",
+      "name": "Twitter",
+      "url": "twitter://status?id=764997551384776704",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://twitter.com/alexisohanian/status/764997551384776704",
+  "description": "“Don't squander this. 💻 https://t.co/eWmq6oxK73”",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": undefined,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "Alexis Ohanian Sr. 🚀 on Twitter",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://pbs.twimg.com/media/Cp3RFyXXYAANGoA.jpg:large",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Twitter",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://twitter.com/alexisohanian/status/764997551384776704",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://twitter.com/blakeembrey 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.twitter.android",
+      "name": "Twitter",
+      "url": "twitter://user?screen_name=blakeembrey",
+    },
+    "ipad": Object {
+      "id": "333903271",
+      "name": "Twitter",
+      "url": "twitter://user?screen_name=blakeembrey",
+    },
+    "iphone": Object {
+      "id": "333903271",
+      "name": "Twitter",
+      "url": "twitter://user?screen_name=blakeembrey",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://twitter.com/blakeembrey",
+  "description": "The latest Tweets from Blake Embrey (@blakeembrey). I traveled and wrote some code once. San Francisco, CA",
+  "entity": undefined,
+  "headline": "Blake Embrey (@blakeembrey) | Twitter",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Twitter",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://twitter.com/blakeembrey",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://twitter.com/ericclemmons/status/749223563790471169 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.twitter.android",
+      "name": "Twitter",
+      "url": "twitter://status?status_id=749223563790471169",
+    },
+    "ipad": Object {
+      "id": "333903271",
+      "name": "Twitter",
+      "url": "twitter://status?id=749223563790471169",
+    },
+    "iphone": Object {
+      "id": "333903271",
+      "name": "Twitter",
+      "url": "twitter://status?id=749223563790471169",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
+  "description": "“🔥 Clean up @github issues with the HTML5 &lt;details&gt; tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx”",
+  "entity": undefined,
+  "headline": "Eric Clemmons on Twitter",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/CmXG2nSVUAANYPK.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Twitter",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://twitter.com/ericclemmons/status/749223563790471169",
+  "video": Array [
+    Object {
+      "encodingFormat": "text/html",
+      "height": 724,
+      "secureUrl": "https://twitter.com/i/videos/749223563790471169?embed_source=facebook",
+      "type": "video",
+      "url": "https://twitter.com/i/videos/749223563790471169?embed_source=facebook",
+      "width": 906,
+    },
+  ],
+}
+`;
+
+exports[`scrappy https://twitter.com/typescriptlang/status/743113612407889920 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.twitter.android",
+      "name": "Twitter",
+      "url": "twitter://status?status_id=743113612407889920",
+    },
+    "ipad": Object {
+      "id": "333903271",
+      "name": "Twitter",
+      "url": "twitter://status?id=743113612407889920",
+    },
+    "iphone": Object {
+      "id": "333903271",
+      "name": "Twitter",
+      "url": "twitter://status?id=743113612407889920",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://twitter.com/typescript/status/743113612407889920",
+  "description": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": undefined,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "TypeScript on Twitter",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://pbs.twimg.com/profile_images/1149708719178993664/3Hb8W4aX_400x400.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Twitter",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://twitter.com/typescript/status/743113612407889920",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf 1`] = `
+Object {
+  "author": undefined,
+  "creator": undefined,
+  "dateCreated": undefined,
+  "dateModified": undefined,
+  "headline": undefined,
+  "pageCount": 8,
+  "producer": "GNU Ghostscript 6.53",
+  "type": "pdf",
+  "url": "https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf",
+}
+`;
+
+exports[`scrappy https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
+  "description": undefined,
+  "entity": undefined,
+  "headline": "Vacation Rentals, Homes, Experiences & Places - Airbnb",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://a0.muscache.com/airbnb/static/logos/trips-og-1280x630-9de9c338cc3fd9b5663fb80be0cbe8c2.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "Airbnb",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "airbnb",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.battlefield.com/buy/battlefield-1 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.battlefield.com/buy/battlefield-1",
+  "description": "Buy Battlefield 1 Revolution and enjoy the ever growing Battefield 1 experience with new modes, new maps, and new conflicts.",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": undefined,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "Buy Battlefield 1 Revolution – Access the Complete Battlefield 1 Experience",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://media.contentapi.ea.com/content/bf/en-us/_global_/_jcr_content/ccm/componentwrapper_1/components/opengraph/ogImage.img.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Battlefield",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": "battlefield",
+    "creatorId": undefined,
+    "siteHandle": "battlefield",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.battlefield.com/buy/battlefield-1",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.coursera.org/learn/machine-learning 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.coursera.org/learn/machine-learning",
+  "description": "Learn Machine Learning from Stanford University. Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, ...",
+  "entity": undefined,
+  "headline": "Machine Learning | Coursera",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://s3.amazonaws.com/coursera/media/Partner_Logos.png",
+      "width": undefined,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "Coursera",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "Coursera",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.coursera.org/learn/machine-learning",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.etsy.com/listing/549504785/pokenatomy-the-science-of-pokemon-an?ref=hp_prn&frs=1 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.etsy.android",
+      "name": "Etsy",
+      "url": "etsy://listing/549504785?ref=applinks_android",
+    },
+    "ipad": Object {
+      "id": "477128284",
+      "name": "Etsy",
+      "url": "etsy://listing/549504785?ref=applinks_ios",
+    },
+    "iphone": Object {
+      "id": "477128284",
+      "name": "Etsy",
+      "url": "etsy://listing/549504785?ref=applinks_ios",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.etsy.com/listing/549504785/pokenatomy-the-science-of-pokemon-an?utm_source=OpenGraph&utm_medium=PageTools&utm_campaign=Share",
+  "description": "PokéNatomy is an unofficial anatomical art project, re-imagining Pokemon through the lens of modern biology. This fan-made book will never be sold in stores, and each copy is one of only a 5,000 currently in existence. Now, for the first time ever, you can get the incredible scientific world of",
+  "entity": undefined,
+  "headline": "PokéNatomy: The Science of Pokémon (An Unofficial Guide)",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://i.etsystatic.com/15750901/r/il/7272e3/1518401459/il_570xN.1518401459_130n.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "Etsy",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.etsy.com/listing/549504785/pokenatomy-the-science-of-pokemon-an?ref=hp_prn&frs=1",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.facebook.com/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.facebook.com:443/",
+  "description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+  "entity": undefined,
+  "headline": "Facebook - Log In or Sign Up",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://www.facebook.com/images/fb_icon_325x325.png",
+      "width": undefined,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "Facebook",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.facebook.com/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.flickr.com/photos/fabianf_/28229743586/sizes/o/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.flickr.com/photos/fabianf_/28229743586/",
+  "description": "Flickr is almost certainly the best online photo management and sharing application in the world. Show off your favorite photos and videos to the world, securely and privately show content to your friends and family, or blog the photos and videos you take with a cameraphone.",
+  "entity": undefined,
+  "headline": "All sizes | Yellow Motion (Explore #15) | Flickr - Photo Sharing!",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": "All sizes | Yellow Motion (Explore #15) | Flickr - Photo Sharing!",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.flickr.com/photos/fabianf_/28229743586/sizes/l/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.flickr.com/photos/timdrivas/27999498362/in/explore-2016-07-05/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": Object {
+      "id": "328407587",
+      "name": "Flickr",
+      "url": "flickr://flickr.com/photos/timdrivas/27999498362",
+    },
+    "iphone": Object {
+      "id": "328407587",
+      "name": "Flickr",
+      "url": "flickr://flickr.com/photos/timdrivas/27999498362/",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.flickr.com/photos/timdrivas/27999498362/",
+  "description": "The Macy's 4th of July firework show in NYC",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": undefined,
+    "publisher": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "The Fourth",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 683,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://live.staticflickr.com/7371/27999498362_17c8d4d490_b.jpg",
+      "width": 1024,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Flickr",
+    "url": undefined,
+  },
+  "tags": Array [
+    "city",
+    "newyorkcity",
+    "skyline",
+    "brooklyn",
+    "outdoors",
+    "fireworks",
+    "manhattan",
+    "celebration",
+    "gothamist",
+    "4thofjuly",
+    "independenceday",
+    "macysfireworks",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "flickr",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.flickr.com/photos/timdrivas/27999498362/in/explore-2016-07-05/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.google.com/maps/place/Boba+Guys/@37.7600441,-122.4233333,17z/data=!4m5!3m4!1s0x808f7e3cfdb89265:0x8ae0820c41111f70!8m2!3d37.7600017!4d-122.4211124 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": undefined,
+  "description": "Find local businesses, view maps and get driving directions in Google Maps.",
+  "entity": undefined,
+  "headline": "Google Maps",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 256,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://maps.google.com/maps/api/staticmap?center=37.7600441%2C-122.4233333&zoom=17&size=256x256&language=en&sensor=false&client=google-maps-frontend&signature=ti6aNldsRB6tsZsZhqoT3xBkPX4",
+      "width": 256,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Google Maps",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.google.com/maps/place/Boba+Guys/@37.7600441,-122.4233333,17z/data=!4m5!3m4!1s0x808f7e3cfdb89265:0x8ae0820c41111f70!8m2!3d37.7600017!4d-122.4211124",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.instagram.com/p/BG0m4IDGaqk/ 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.instagram.android",
+      "name": "Instagram",
+      "url": "https://www.instagram.com/p/BG0m4IDGaqk/",
+    },
+    "ipad": Object {
+      "id": "389801252",
+      "name": "Instagram",
+      "url": "instagram://media?id=1275815577152760484",
+    },
+    "iphone": Object {
+      "id": "389801252",
+      "name": "Instagram",
+      "url": "instagram://media?id=1275815577152760484",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.instagram.com/p/BG0m4IDGaqk/",
+  "description": "107 Likes, 3 Comments - Minaal | Travel Backpacks (@minaalofficial) on Instagram: “Bask in the glamor of #nomadlife. Laundromat turned office, New York City. Photo cred:…”",
+  "entity": undefined,
+  "headline": "Minaal | Travel Backpacks on Instagram: “Bask in the glamor of #nomadlife. Laundromat turned office, New York City. Photo cred: @conni.biesalski #regram #nyc #office #laundry…”",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-15/e35/13355676_1724260121146276_372407195_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=104&_nc_ohc=4sqygbNW42MAX_HycW8&oh=b5db49bd3027122dc52298affec378eb&oe=5EC20F9B",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Instagram",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.instagram.com/p/BG0m4IDGaqk/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.khanacademy.org/economics-finance-domain/ap-macroeconomics/ap-financial-sector/financial-assets-ap/v/bonds-vs-stocks",
+  "description": "Learn about the difference between stocks and bonds. Topics include the key characteristics that define an asset as a bond vs. a stock.",
+  "entity": undefined,
+  "headline": "Bonds vs. stocks (video) | Stocks and bonds | Khan Academy",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://img.youtube.com/vi/rs1md3e4aYU/0.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "Khan Academy",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "khanacademy",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
+  "video": Array [
+    Object {
+      "encodingFormat": "application/x-shockwave-flash",
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "video",
+      "url": "http://www.youtube.com/v/rs1md3e4aYU",
+      "width": undefined,
+    },
+  ],
+}
+`;
+
+exports[`scrappy https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor?ref=category_featured 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": Object {
+      "id": "596961532",
+      "name": "Kickstarter",
+      "url": "ksr://www.kickstarter.com/projects/1655571865/361230638?app_banner=1&ref=category_featured",
+    },
+    "iphone": Object {
+      "id": "596961532",
+      "name": "Kickstarter",
+      "url": "ksr://www.kickstarter.com/projects/1655571865/361230638?app_banner=1&ref=category_featured",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor",
+  "description": "LVL is a wearable hydration monitor that gives you the complete picture of your health by also tracking activity, sleep, mood and HR.",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "LVL – The First Wearable Hydration Monitor",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 1152,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://ksr-ugc.imgix.net/assets/013/622/325/ba3e0c3ba83ec7a7f6621d52f78773b9_original.jpg?ixlib=rb-2.1.0&crop=faces&w=1552&h=873&fit=crop&v=1473713981&auto=format&frame=1&q=92&s=475528a9a7e4f182fca4e34f90d24a6a",
+      "width": 1536,
+    },
+  ],
+  "locale": Object {
+    "alternate": Array [
+      "en_US",
+      "de_DE",
+      "es_ES",
+      "fr_FR",
+      "it_IT",
+      "ja_JP",
+      "zh_HK",
+    ],
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "Kickstarter",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": 600,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "kickstarter",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor?ref=category_featured",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.mulesoft.com/contact 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.mulesoft.com/contact",
+  "description": "Contact us to see how we can help transform your company with the agility to unlock data, unleash innovation and connect with success.",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "Contact | MuleSoft",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": "https://www.mulesoft.com/sites/default/files/cmm_files/MS-OG_image_for_Landing_page_final2x.jpg",
+      "type": "image",
+      "url": "https://www.mulesoft.com/sites/default/files/cmm_files/MS-OG_image_for_Landing_page_final2x.jpg",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "MuleSoft",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.mulesoft.com/contact",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.npmjs.com/package/filenamify 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.npmjs.com/package/filenamify",
+  "description": "Convert a string to a valid safe filename",
+  "entity": undefined,
+  "headline": "npm: filenamify",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://static.npmjs.com/338e4905a2684ca96e08c7780fc68412.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "npm",
+    "url": undefined,
+  },
+  "tags": Array [
+    "filename",
+    "safe",
+    "sanitize",
+    "file",
+    "name",
+    "string",
+    "path",
+    "filepath",
+    "convert",
+    "valid",
+    "dirname",
+  ],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.npmjs.com/package/filenamify",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date",
+  "description": undefined,
+  "entity": undefined,
+  "headline": "How to impress a computer programmer on a date - Quora",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.reddit.com:443/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+  "description": "17,708 votes and 6,870 comments so far on Reddit",
+  "entity": undefined,
+  "headline": "r/news - 'UK man' tried to kill Trump: court papers",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 398,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://external-preview.redd.it/f7phpD8xBAKIqFoyp7eWQZHH2HlGsTjXpMC99omHkOs.jpg?auto=webp&s=23aeb00542a96f544679402da5d51e78b02cba23",
+      "width": 650,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "reddit",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": 600,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "reddit",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.rottentomatoes.com/m/inception/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Christopher Nolan",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.rottentomatoes.com/m/inception",
+  "description": "Visionary filmmaker Christopher Nolan (Memento, The Dark Knight) writes and directs this psychological sci-fi action film about a thief who possesses the power to enter into the dreams of others. Dom Cobb (Leonardo DiCaprio) doesn't steal things, he steals ideas. By projecting himself deep into the subconscious of his targets, he can glean information that even the best computer hackers can't get to. In the world of corporate espionage, Cobb is the ultimate weapon. But even weapons have their weakness, and when Cobb loses everything, he's forced to embark on one final mission in a desperate quest for redemption. This time, Cobb won't be harvesting an idea, but sowing one. Should he and his team of specialists succeed, they will have discovered a new frontier in the art of psychic espionage. They've planned everything to perfection, and they have all the tools to get the job done. Their mission is complicated, however, by the sudden appearance of a malevolent foe that seems to know exactly what they're up to, and precisely how to stop them. ~ Jason Buchanan, Rovi",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "Inception (2010)",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://resizing.flixster.com/W8nttrady4ag667l3LL_WBGN6nQ=/206x305/v1.bTsxMTE2NjcyNTtqOzE4Mzk5OzEyMDA7ODAwOzEyMDA",
+      "width": undefined,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "Rotten Tomatoes",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "rottentomatoes",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.rottentomatoes.com/m/inception/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.spotify.com/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.spotify.com/us/",
+  "description": "Spotify is all the music you’ll ever need.",
+  "entity": undefined,
+  "headline": "Music for everyone.",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": "https://www.scdn.co/i/_global/open-graph-default.png",
+      "type": "image",
+      "url": "http://www.scdn.co/i/_global/open-graph-default.png",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [
+    "Spotify",
+    "music",
+    "online",
+    "listen",
+    "streaming",
+    "play",
+    "digital",
+    "album",
+    "artist",
+    "playlist",
+  ],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.spotify.com/us/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.ted.com/playlists/321/talks_to_form_better_habits?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=social-science 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.ted.android",
+      "name": "TED",
+      "url": "ted://playlists/321/talks_to_form_better_habits?source=facebook",
+    },
+    "ipad": Object {
+      "id": "376183339",
+      "name": "TED",
+      "url": "ted://playlists/321/talks_to_form_better_habits?source=twitter",
+    },
+    "iphone": Object {
+      "id": "376183339",
+      "name": "TED",
+      "url": "ted://playlists/321/talks_to_form_better_habits?source=twitter",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "TED",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.ted.com/playlists/321/talks_to_form_better_habits?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=social-science",
+  "description": "There's never a bad time to start a good habit. Let these talks set the framework for a healthier, happier life.",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "8 TED Talks to form better habits",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 550,
+      "secureUrl": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_321/3b911698-efa6-49e8-a000-f63bfdc106d6/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050",
+      "type": "image",
+      "url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_321/3b911698-efa6-49e8-a000-f63bfdc106d6/talks_to_form_better_habits_1200x627.jpg?c=1050%2C550&w=1050",
+      "width": 1050,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "TED Talks",
+    "url": undefined,
+  },
+  "tags": Array [
+    "happiness",
+    "health",
+    "life",
+    "personal growth",
+    "psychology",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "tedtalks",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.ted.com/playlists/321/talks_to_form_better_habits?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=social-science",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.ted.android",
+      "name": "TED",
+      "url": "https://www.ted.com/talks/tim_harford_how_frustration_can_make_us_more_creative",
+    },
+    "ipad": Object {
+      "id": "376183339",
+      "name": "TED",
+      "url": "ted://talks/2401?source=twitter",
+    },
+    "iphone": Object {
+      "id": "376183339",
+      "name": "TED",
+      "url": "ted://talks/2401?source=twitter",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Tim Harford",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.ted.com/talks/tim_harford_how_frustration_can_make_us_more_creative",
+  "description": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess.",
+  "entity": Object {
+    "height": undefined,
+    "type": "image",
+    "url": undefined,
+    "width": undefined,
+  },
+  "headline": "How frustration can make us more creative",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 550,
+      "secureUrl": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/e002fc6b-b54f-46bb-a0c0-4670c7b2cfac/TimHarford_2015G-embed.jpg?c=1050%2C550&w=1050",
+      "type": "image",
+      "url": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/e002fc6b-b54f-46bb-a0c0-4670c7b2cfac/TimHarford_2015G-embed.jpg?c=1050%2C550&w=1050",
+      "width": 1050,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "TED Talks",
+    "url": undefined,
+  },
+  "tags": Array [
+    "TED",
+    "talks",
+    "cognitive science",
+    "collaboration",
+    "composing",
+    "creativity",
+    "innovation",
+    "music",
+    "potential",
+    "success",
+    "work",
+    "psychology",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "tedtalks",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.ted.com/talks/tim_harford_how_frustration_can_make_us_more_creative",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.w3.org/TR/json-ld/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.w3.org/TR/json-ld11/",
+  "description": "JSON is a useful data serialization and messaging format. This specification defines JSON-LD 1.1, a JSON-based format to serialize Linked Data. The syntax is designed to easily integrate into deployed systems that already use JSON, and provides a smooth upgrade path from JSON to JSON-LD. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines.",
+  "entity": undefined,
+  "headline": "JSON-LD 1.1",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://www.w3.org/TR/json-ld/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://www.youtube.com/watch?v=W9ZnpIGvZUo 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.google.android.youtube",
+      "name": "YouTube",
+      "url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
+    },
+    "ipad": Object {
+      "id": "544007664",
+      "name": "YouTube",
+      "url": "vnd.youtube://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks",
+    },
+    "iphone": Object {
+      "id": "544007664",
+      "name": "YouTube",
+      "url": "vnd.youtube://www.youtube.com/watch?v=W9ZnpIGvZUo&feature=applinks",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
+  "description": "Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark Ru...",
+  "entity": undefined,
+  "headline": "Marvel Studios' The Avengers",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 720,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://i.ytimg.com/vi/W9ZnpIGvZUo/maxresdefault.jpg",
+      "width": 1280,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "YouTube",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "youtube",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
+  "video": Array [
+    Object {
+      "encodingFormat": "text/html",
+      "height": 720,
+      "secureUrl": "https://www.youtube.com/embed/W9ZnpIGvZUo",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/W9ZnpIGvZUo",
+      "width": 1280,
+    },
+  ],
+}
+`;
+
+exports[`scrappy https://www.youtube.com/watch?v=ZynZdGqxT7Q 1`] = `
+Object {
+  "apps": Object {
+    "android": Object {
+      "id": "com.google.android.youtube",
+      "name": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+    },
+    "ipad": Object {
+      "id": "544007664",
+      "name": "YouTube",
+      "url": "vnd.youtube://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks",
+    },
+    "iphone": Object {
+      "id": "544007664",
+      "name": "YouTube",
+      "url": "vnd.youtube://www.youtube.com/watch?v=ZynZdGqxT7Q&feature=applinks",
+    },
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+  "description": undefined,
+  "entity": undefined,
+  "headline": "15. Typings with Blake Embrey",
+  "image": Array [
+    Object {
+      "caption": undefined,
+      "encodingFormat": undefined,
+      "height": 720,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://i.ytimg.com/vi/ZynZdGqxT7Q/maxresdefault.jpg",
+      "width": 1280,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "YouTube",
+    "url": undefined,
+  },
+  "tags": Array [
+    "#hangoutsonair",
+    "Hangouts On Air",
+    "#hoa",
+  ],
+  "ttl": undefined,
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "youtube",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
+  "video": Array [
+    Object {
+      "encodingFormat": "text/html",
+      "height": 720,
+      "secureUrl": "https://www.youtube.com/embed/ZynZdGqxT7Q",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/ZynZdGqxT7Q",
+      "width": 1280,
+    },
+  ],
+}
+`;

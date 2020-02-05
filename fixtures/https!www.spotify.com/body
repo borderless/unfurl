@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" class="">
+  <head>
+
+          <script nonce="7964a3502aa5a63c41651f1647d9dc95" src="//www.scdn.co/webpack/jquery-2.1.3.min.c045716245098a766c7e.js"></script>
+    
+            <script nonce="7964a3502aa5a63c41651f1647d9dc95">
+            var spweb = spweb || {};
+spweb.config = {
+  environment: {
+    staticUrl: '//www.scdn.co'
+  },
+  sso: {
+    host: 'https://accounts.spotify.com'
+  },
+  www: {
+    host: 'www.spotify.com'
+  },
+  facebook: {
+    appId: 174829003346,
+    locale: 'zz',
+    version: 'v2.2',
+    scopes: 'email,user_birthday,public_profile,user_friends'
+  },
+  twitter: {
+    enable: true
+  },
+  market: 'us',
+  language: 'en'
+};
+        </script>
+    
+        	
+	
+          <script
+    id="track-js-data"
+    nonce="7964a3502aa5a63c41651f1647d9dc95"
+    src="//www.scdn.co/webpack/onetrust.fcb8f3e7ff66fb3f39a9.js"
+    data-gaid="UA-5784146-31"
+    data-optimize="GTM-P9JKJ53"
+    data-gtmid="GTM-7BJJ"
+    data-gtmdata=""
+    data-language="en"
+    data-market="us"
+    data-loggedIn="0"
+    data-usercountry=""
+    data-useot="0"
+></script>
+<style>.async-hide { opacity: 0 !important}</style>
+    
+          <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+      <meta name="description" content="Spotify is a digital music service that gives you access to millions of songs.">
+      <meta name="keywords" content="Spotify, music, online, listen, streaming, play, digital, album, artist, playlist">
+
+              <meta property="fb:app_id" content="174829003346">
+        <meta property="og:title" content="Music for everyone.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.spotify.com/us/">
+        <meta property="og:image" content="http://www.scdn.co/i/_global/open-graph-default.png">
+        <meta property="og:image:secure_url" content="https://www.scdn.co/i/_global/open-graph-default.png">
+        <meta property="og:description" content="Spotify is all the music you’ll ever need.">
+                              <meta name="twitter:card" content="summary">
+          <meta name="twitter:title" content="Music for everyone.">
+          <meta name="twitter:image" content="http://www.scdn.co/i/_global/twitter_card-default.jpg">
+          <meta name="twitter:description" content="Spotify is all the music you’ll ever need.">
+                
+    <title>Music for everyone
+	-
+	Spotify
+</title>
+
+          <link rel="icon" href="//www.scdn.co/i/_global/favicon.png">
+      <!--[if IE]><link rel="shortcut icon" href="//www.scdn.co/i/_global/favicon.ico"><![endif]-->
+    
+          <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//www.scdn.co/i/_global/touch-icon-144.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="//www.scdn.co/i/_global/touch-icon-114.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="//www.scdn.co/i/_global/touch-icon-72.png">
+      <link rel="apple-touch-icon-precomposed" href="//www.scdn.co/i/_global/touch-icon-57.png">
+    
+    	<link rel="stylesheet" href="//www.scdn.co/build/css/spotify-2f48c7d02b.css"/>
+	<link rel="stylesheet" href="//www.scdn.co/build/css/shelf-ffd8a9773c.css"/>
+			<link rel="stylesheet" href="//www.scdn.co/build/css/index-b3288cc838.css"/>
+	
+        <link rel="stylesheet" href="//www.scdn.co/build/css/masthead-2c79544fa4.css"          />
+
+
+          <script nonce="7964a3502aa5a63c41651f1647d9dc95">
+    (function() {
+        var spAnalytics = window.spAnalytics || {};
+        spAnalytics._q = [];
+        function proxy(fn) {
+            spAnalytics[fn] = function() {
+                spAnalytics._q.push([fn].concat(Array.prototype.slice.call(arguments, 0)));
+            };
+        }
+        var funcs = ["init", "logEvent", "setUserId", "setUserProperties", "setVersionName", "setDomain", "setGlobalUserProperties"];
+        for (var i = 0; i < funcs.length; i++) {
+            proxy(funcs[i]);
+        }
+        window.spAnalytics = spAnalytics;
+    })();
+</script>
+              <script nonce="7964a3502aa5a63c41651f1647d9dc95">
+    (function(window, document) {
+        var s = document.getElementsByTagName('script')[0];
+        var as = document.createElement('script');
+        as.type = 'text/javascript';
+        as.async = true;
+        as.src = '//www.scdn.co/webpack/sp-analytics.4f3e7ea6ed3a66865d5a.js';
+        as.onload = function() { window.spAnalytics.runQueuedFunctions(); };
+        s.parentNode.insertBefore(as, s);
+    })(window, document);
+</script>
+        <script nonce="7964a3502aa5a63c41651f1647d9dc95">
+            spAnalytics.init(null, {apiEndpoint: '/us/spotify/framework/analytics/track/'})
+        </script>
+        <script nonce="7964a3502aa5a63c41651f1647d9dc95" src="//www.scdn.co/webpack/tracking.download.6beb08dfd6d58047c3a9.js"></script>
+            </head>
+
+      <body class="	 m-us l-en page-homepage is-loggedout  reboot 
+	index-homepage
+	
+">
+          <noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-7BJJ"
+          height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+</noscript>
+    
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+ <symbol id="spotify-logo" viewBox="0 0 827.79999 248.275">
+  <g transform="matrix(1.25 0 0 -1.25 0 248.28)">
+   <g transform="scale(.1)">
+    <path d="m1580.6 1105.8c-320.13 190.11-848.16 207.59-1153.8 114.84-49.078-14.89-100.97 12.82-115.84 61.89-14.872 49.1 12.8 100.96 61.914 115.88 350.8 106.49 933.97 85.91 1302.5-132.85 44.14-26.2 58.62-83.21 32.45-127.28-26.18-44.14-83.24-58.69-127.27-32.48zm-10.5-281.56c-22.46-36.449-70.11-47.867-106.51-25.5-266.88 164.05-673.86 211.58-989.6 115.73-40.945-12.367-84.191 10.722-96.629 51.582-12.339 40.949 10.754 84.119 51.629 96.569 360.7 109.45 809.1 56.44 1115.6-131.94 36.4-22.41 47.86-70.078 25.48-106.44zm-121.5-270.43c-17.84-29.258-55.95-38.43-85.1-20.598-233.22 142.54-526.75 174.73-872.45 95.758-33.312-7.629-66.511 13.25-74.109 46.551-7.633 33.312 13.164 66.511 46.555 74.109 378.3 86.48 702.8 49.269 964.57-110.69 29.19-17.832 38.38-55.953 20.53-85.132zm-455.48 1432.4c-548.48 0-993.12-444.6-993.12-993.06 0-548.53 444.64-993.14 993.12-993.14 548.5 0 993.12 444.61 993.12 993.14 0 548.47-444.62 993.1-993.12 993.1"/>
+    <path d="m2701.9 1069.4c-171.46 40.89-202 69.59-202 129.88 0 56.99 53.64 95.31 133.41 95.31 77.32 0 153.98-29.11 234.37-89.05 2.44-1.81 5.48-2.54 8.48-2.06 3 0.45 5.66 2.09 7.41 4.57l83.73 118.03c3.44 4.86 2.5 11.56-2.13 15.27-95.67 76.77-203.4 114.09-329.32 114.09-185.15 0-314.46-111.1-314.46-270.08 0-170.48 111.55-230.83 304.33-277.43 164.08-37.789 191.78-69.449 191.78-126.07 0-62.719-56-101.71-146.11-101.71-100.09 0-181.73 33.719-273.06 112.8-2.27 1.953-5.37 2.851-8.24 2.679-3.02-0.25-5.78-1.648-7.71-3.957l-93.87-111.72c-3.94-4.641-3.44-11.559 1.11-15.578 106.26-94.86 236.94-144.97 377.97-144.97 199.51 0 328.42 109.02 328.42 277.74 0 142.59-85.19 221.45-294.11 272.26"/>
+    <path d="m3592.2 878.31c0-120.4-74.17-204.42-180.36-204.42-105 0-184.19 87.839-184.19 204.42 0 116.57 79.19 204.42 184.19 204.42 104.48 0 180.36-85.949 180.36-204.42zm-144.83 360.22c-86.47 0-157.4-34.06-215.9-103.85v78.56c0 6.19-5.03 11.25-11.22 11.25h-153.53c-6.2 0-11.22-5.06-11.22-11.25v-872.86c0-6.199 5.02-11.25 11.22-11.25h153.53c6.19 0 11.22 5.051 11.22 11.25v275.52c58.51-65.66 129.45-97.726 215.9-97.726 160.69 0 323.34 123.69 323.34 360.14 0 236.5-162.65 360.22-323.34 360.22"/>
+    <path d="m4187.7 672.63c-110.07 0-193.05 88.43-193.05 205.68 0 117.75 80.11 203.19 190.51 203.19 110.77 0 194.31-88.43 194.31-205.76 0-117.72-80.65-203.11-191.77-203.11zm0 565.9c-206.94 0-369.05-159.34-369.05-362.79 0-201.24 161-358.9 366.51-358.9 207.66 0 370.27 158.8 370.27 361.47 0 202-161.49 360.22-367.73 360.22"/>
+    <path d="m4997.3 1224.5h-168.95v172.74c0 6.2-5.01 11.25-11.21 11.25h-153.52c-6.21 0-11.26-5.05-11.26-11.25v-172.74h-73.83c-6.18 0-11.18-5.06-11.18-11.25v-131.95c0-6.2 5-11.25 11.18-11.25h73.83v-341.45c0-137.98 68.67-207.94 204.12-207.94 55.07 0 100.77 11.372 143.83 35.801 3.5 1.949 5.68 5.723 5.68 9.731v125.66c0 3.871-2.03 7.531-5.34 9.57-3.35 2.102-7.51 2.199-10.93 0.5-29.58-14.879-58.18-21.738-90.13-21.738-49.26 0-71.24 22.359-71.24 72.488v317.38h168.95c6.21 0 11.21 5.05 11.21 11.25v131.95c0 6.19-5 11.25-11.21 11.25"/>
+    <path d="m5586 1223.8v21.22c0 62.41 23.92 90.24 77.6 90.24 32.01 0 57.72-6.36 86.52-15.96 3.54-1.12 7.24-0.56 10.12 1.56 2.96 2.12 4.64 5.53 4.64 9.13v129.38c0 4.95-3.18 9.33-7.94 10.78-30.42 9.05-69.33 18.34-127.61 18.34-141.82 0-216.77-79.86-216.77-230.86v-32.49h-73.76c-6.19 0-11.27-5.05-11.27-11.25v-132.62c0-6.2 5.08-11.25 11.27-11.25h73.76v-526.66c0-6.199 5-11.25 11.19-11.25h153.54c6.2 0 11.25 5.051 11.25 11.25v526.66h143.35l219.59-526.52c-24.93-55.329-49.44-66.329-82.91-66.329-27.05 0-55.53 8.071-84.65 24.008-2.75 1.5-5.99 1.762-8.95 0.84-2.93-1.027-5.4-3.207-6.64-6.059l-52.04-114.17c-2.48-5.387-0.36-11.727 4.83-14.528 54.33-29.422 103.37-41.98 163.98-41.98 113.37 0 176.03 52.808 231.28 194.89l266.36 688.3c1.34 3.46 0.94 7.37-1.18 10.44-2.11 3.05-5.51 4.89-9.24 4.89h-159.83c-4.78 0-9.07-3.04-10.63-7.54l-164-467.82-179.3 468.02c-1.64 4.35-5.83 7.23-10.49 7.23h-262.28"/>
+    <path d="m5244.7 1224.5h-153.54c-6.2 0-11.25-5.06-11.25-11.25v-669.86c0-6.199 5.05-11.25 11.25-11.25h153.54c6.19 0 11.25 5.051 11.25 11.25v669.86c0 6.19-5.06 11.25-11.25 11.25"/>
+    <path d="m5168.7 1529.5c-60.82 0-110.19-49.24-110.19-110.06 0-60.87 49.37-110.16 110.19-110.16 60.8 0 110.11 49.29 110.11 110.16 0 60.82-49.31 110.06-110.11 110.06"/>
+    <path d="m6520.1 1157.9h-28.14v-35.88h28.14c14.04 0 22.42 6.87 22.42 17.95 0 11.67-8.38 17.93-22.42 17.93zm18.23-51.18 30.57-42.79h-25.77l-27.51 39.25h-23.66v-39.25h-21.57v113.42h50.58c26.34 0 43.68-13.48 43.68-36.18 0-18.59-10.74-29.95-26.32-34.45zm-23.95 108.37c-55.35 0-97.23-43.99-97.23-97.87 0-53.84 41.58-97.25 96.66-97.25 55.33 0 97.25 43.96 97.25 97.87 0 53.84-41.61 97.25-96.68 97.25zm-0.57-205.93c-60.76 0-108.05 48.8-108.05 108.06 0 59.27 47.9 108.62 108.62 108.62 60.76 0 108.04-48.79 108.04-108 0-59.27-47.86-108.68-108.61-108.68"/>
+   </g>
+  </g>
+ </symbol>
+ <symbol id="user-icon" viewBox="0 0 1024 1024">
+  <path d="m730.06 679.64q-45.377 53.444-101.84 83.443t-120 29.999q-64.032 0-120.75-30.503t-102.6-84.451q-40.335 13.109-77.645 29.747t-53.948 26.722l-17.142 10.084q-29.747 19.159-51.175 57.729t-21.428 73.107 25.461 59.242 60.754 24.705h716.95q35.293 0 60.754-24.705t25.461-59.242-21.428-72.603-51.679-57.225q-6.554-4.033-18.907-10.84t-51.427-24.453-79.409-30.755zm-221.84 25.72q-34.285 0-67.561-14.873t-60.754-40.335-51.175-60.502-40.083-75.124-25.461-84.451-9.075-87.728q0-64.032 19.915-116.22t54.452-85.964 80.67-51.931 99.072-18.151 99.072 18.151 80.67 51.931 54.452 85.964 19.915 116.22q0 65.04-20.167 130.58t-53.948 116.72-81.426 83.443-98.568 32.268z"/>
+ </symbol>
+<symbol id="chevron-down" viewBox="0 0 1024 1024">
+  <path class="path1" d="M476.455 806.696l-381.164-381.164q-14.621-14.621-14.621-35.293t14.621-34.789 35.293-14.117 34.789 14.117l342.846 343.35 349.4-349.4q14.621-14.117 35.293-14.117t34.789 14.117 14.117 34.789-14.117 34.789l-381.164 381.164q-19.159 19.159-38.318 19.159t-31.764-12.605z"></path>
+</symbol>
+<symbol id="scroll-down" viewBox="643.5 386 22.1 21.9">
+  <path d="M665.6,396.3c0,0.3-0.1,0.7-0.4,0.9l-9.8,10.4c-0.5,0.5-1.3,0.5-1.7,0l-9.8-10.4c-0.5-0.5-0.5-1.3,0-1.8
+    s1.3-0.5,1.7,0l8.9,9.5l8.9-9.5c0.5-0.5,1.3-0.5,1.7,0C665.5,395.6,665.6,396,665.6,396.3z">
+  <path d="M665.6,387.3c0,0.3-0.1,0.7-0.4,0.9l-9.8,10.4c-0.5,0.5-1.3,0.5-1.7,0l-9.8-10.4c-0.5-0.5-0.5-1.3,0-1.8
+    s1.3-0.5,1.7,0l8.9,9.5l8.9-9.5c0.5-0.5,1.3-0.5,1.7,0C665.5,386.6,665.6,387,665.6,387.3z">
+</symbol>
+</svg>
+  
+          <div id="fb-root"></div>
+    
+      <div class="wrap">
+
+                          
+    
+    
+    
+    
+
+    <div data-hypernova-key="MastheadHeader" data-hypernova-id="6902cb18-4934-4dd0-8a76-453e51e2aa0f">
+	<header role="banner" class="mh-header-hover mh-default-z-index svelte-1urf6j7 mh-transparent mh-semitransparent-top mh-fixed">
+	  <div class="mh-container svelte-1urf6j7">
+	    <div class="mh-brand-wrapper svelte-1urf6j7">
+	      <a href="https://www.spotify.com/us/" class="mh-header-primary svelte-18o1xvt" data-tracking="{&#34;category&#34;: &#34;menu&#34;, &#34;action&#34;: &#34;spotify-logo&#34;}">
+	  <span class="mh-header-primary svelte-1gcdbl9">
+	  <svg viewBox="0 0 63 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin meet">
+	    <g fill-rule="evenodd" class="svelte-1gcdbl9">
+	      <path d="M61.842 9.506a1.02 1.02 0 0 1-1.023-1.024c0-.562.453-1.03 1.029-1.03a1.02 1.02 0 0 1 1.023 1.024 1.03 1.03 0 0 1-1.029 1.03m.006-1.952a.915.915 0 0 0-.922.928c0 .51.394.921.916.921a.916.916 0 0 0 .922-.927.908.908 0 0 0-.916-.922m.226 1.027l.29.406h-.244l-.26-.372h-.225v.372h-.204V7.912h.48c.249 0 .413.128.413.343 0 .176-.102.284-.25.326m-.172-.485h-.267v.34h.267c.133 0 .212-.065.212-.17 0-.11-.08-.17-.212-.17m-12.804-3.52a1.043 1.043 0 1 0-.001 2.086 1.043 1.043 0 0 0 0-2.087m.72 2.89h-1.454a.107.107 0 0 0-.106.107v6.346c0 .06.047.107.106.107h1.455a.107.107 0 0 0 .107-.107V7.572a.107.107 0 0 0-.107-.107m3.233.006v-.2c0-.592.227-.856.736-.856.303 0 .546.06.82.152a.106.106 0 0 0 .14-.102V5.24a.107.107 0 0 0-.076-.102 3.993 3.993 0 0 0-1.21-.174c-1.343 0-2.053.757-2.053 2.188v.308h-.699a.107.107 0 0 0-.107.106v1.257c0 .059.048.107.107.107h.699v4.99c0 .058.047.106.106.106h1.455a.107.107 0 0 0 .106-.107v-4.99h1.358l2.081 4.99c-.236.523-.468.628-.785.628-.257 0-.527-.077-.803-.228a.109.109 0 0 0-.084-.008.106.106 0 0 0-.063.058l-.493 1.081a.106.106 0 0 0 .045.138c.515.279.98.398 1.554.398 1.074 0 1.668-.5 2.191-1.847L60.6 7.617a.106.106 0 0 0-.099-.146h-1.514a.107.107 0 0 0-.1.072l-1.552 4.431-1.7-4.434a.106.106 0 0 0-.099-.069h-2.485m-5.577-.006h-1.6V5.828a.106.106 0 0 0-.107-.106h-1.455a.107.107 0 0 0-.106.106v1.637h-.7a.106.106 0 0 0-.106.107v1.25c0 .059.048.107.106.107h.7v3.234c0 1.308.65 1.97 1.934 1.97.522 0 .954-.107 1.362-.338a.106.106 0 0 0 .054-.093v-1.19a.106.106 0 0 0-.154-.096c-.28.141-.551.206-.854.206-.467 0-.675-.211-.675-.686V8.929h1.6a.106.106 0 0 0 .107-.107v-1.25a.106.106 0 0 0-.106-.107m-7.671-.133c-1.96 0-3.497 1.51-3.497 3.437 0 1.907 1.526 3.4 3.473 3.4 1.967 0 3.508-1.504 3.508-3.424 0-1.914-1.53-3.413-3.484-3.413m0 5.362c-1.043 0-1.83-.838-1.83-1.95 0-1.115.76-1.924 1.806-1.924 1.05 0 1.84.838 1.84 1.95 0 1.115-.763 1.924-1.816 1.924m-7.014-5.362c-.82 0-1.492.323-2.046.984v-.744a.107.107 0 0 0-.106-.107h-1.455a.107.107 0 0 0-.106.107v8.27c0 .058.048.106.106.106h1.455a.107.107 0 0 0 .106-.106v-2.61c.555.621 1.227.925 2.046.925 1.522 0 3.063-1.172 3.063-3.412s-1.54-3.413-3.063-3.413m1.372 3.413c0 1.14-.703 1.937-1.709 1.937-.995 0-1.745-.833-1.745-1.937s.75-1.937 1.745-1.937c.99 0 1.71.814 1.71 1.937m-8.437-1.81c-1.624-.388-1.913-.66-1.913-1.231 0-.54.508-.903 1.264-.903.732 0 1.459.275 2.22.843a.107.107 0 0 0 .15-.023l.794-1.119a.107.107 0 0 0-.02-.144c-.906-.728-1.927-1.081-3.12-1.081-1.755 0-2.98 1.052-2.98 2.559 0 1.615 1.057 2.187 2.884 2.628 1.554.358 1.817.658 1.817 1.195 0 .594-.53.963-1.385.963-.948 0-1.721-.32-2.587-1.068a.11.11 0 0 0-.078-.026.105.105 0 0 0-.073.038l-.89 1.058a.105.105 0 0 0 .011.148 5.303 5.303 0 0 0 3.581 1.373c1.89 0 3.112-1.033 3.112-2.631 0-1.351-.807-2.098-2.787-2.58M9.507.305a9.41 9.41 0 1 0 0 18.82 9.41 9.41 0 0 0 0-18.82m4.316 13.572a.586.586 0 0 1-.807.195c-2.21-1.35-4.99-1.655-8.266-.907a.586.586 0 1 1-.261-1.143c3.584-.82 6.659-.467 9.139 1.049.276.169.363.53.195.806m1.15-2.562a.734.734 0 0 1-1.008.242c-2.529-1.555-6.385-2.005-9.377-1.097a.735.735 0 0 1-.426-1.404c3.418-1.037 7.666-.534 10.57 1.25a.734.734 0 0 1 .242 1.01m.1-2.669C12.04 6.846 7.036 6.68 4.141 7.56a.88.88 0 1 1-.511-1.684c3.323-1.01 8.849-.814 12.34 1.258a.88.88 0 0 1-.898 1.514"></path>
+	    </g>
+	  </svg>
+	  Spotify
+	</span>
+	</a>
+	    </div>
+	    
+	
+
+	<nav role="navigation" class="mh-desktop svelte-4ldyho">
+	  <ul class="svelte-4ldyho">
+	    <li class="svelte-vf0pv9">
+	  <a href="https://www.spotify.com/us/premium/?checkout=false" class="mh-header-primary svelte-vf0pv9" data-ga-category="menu" data-ga-action="premium">
+	    Premium
+	  </a>
+	</li><li class="svelte-vf0pv9">
+	  <a href="https://support.spotify.com/" class="mh-header-primary svelte-vf0pv9" data-ga-category="menu" data-ga-action="help">
+	    Help
+	  </a>
+	</li><li class="svelte-vf0pv9">
+	  <a href="https://www.spotify.com/us/download/" class="mh-header-primary svelte-vf0pv9" data-ga-category="menu" data-ga-action="download" data-gtm-event-name="download_spotify_button_clicked" data-tracking="{&#34;category&#34;: &#34;download&#34;, &#34;action&#34;: &#34;download start&#34;, &#34;label&#34;: &#34;download-navbar&#34;}">
+	    Download
+	  </a>
+	</li><li role="separator" class="mh-header-primary svelte-1i2hclv"></li><li class="svelte-vf0pv9">
+	  <a href="https://www.spotify.com/us/signup/" class="mh-header-secondary svelte-vf0pv9 mh-tier-2" data-ga-category="menu" data-ga-action="sign-up" class="mh-tier-2">
+	    Sign up
+	  </a>
+	</li><li class="svelte-vf0pv9">
+	  <a href="https://www.spotify.com/us/account/overview/" class="mh-header-secondary svelte-vf0pv9 mh-tier-2" data-tracking="{&#34;category&#34;: &#34;menu&#34;, &#34;action&#34;: &#34;log-in&#34;}" class="mh-tier-2">
+	    Log In
+	  </a>
+	</li>
+	  </ul>
+	</nav>
+
+	<div class="mh-mobile-menu svelte-4ldyho">
+	  
+
+	  <button type="button" role="menu" class="mh-header-primary svelte-v64zdx mh-menu-closed">
+	  <span class="mh-sr-only svelte-v64zdx">Toggle navigation</span>
+	  <span class="mh-icon-bar svelte-v64zdx"></span>
+	  <span class="mh-icon-bar svelte-v64zdx"></span>
+	  <span class="mh-icon-bar svelte-v64zdx"></span>
+	</button>
+
+	  
+	</div>
+	  </div>
+	</header>
+
+	</div>
+<script type="application/json" data-hypernova-key="MastheadHeader" data-hypernova-id="6902cb18-4934-4dd0-8a76-453e51e2aa0f"><!--{"navigation":{"brand":{"href":"https://www.spotify.com/us/","alt":"Spotify","dataAttributes":{"data-tracking":"{\"category\": \"menu\", \"action\": \"spotify-logo\"}"}},"mobileMenu":[],"nav":[{"type":"link","parameters":{"href":"https://www.spotify.com/us/premium/?checkout=false","text":"Premium","dataAttributes":{"data-ga-category":"menu","data-ga-action":"premium"}}},{"type":"link","parameters":{"href":"https://support.spotify.com/","text":"Help","dataAttributes":{"data-ga-category":"menu","data-ga-action":"help"}}},{"type":"link","parameters":{"href":"https://www.spotify.com/us/download/","text":"Download","dataAttributes":{"data-ga-category":"menu","data-ga-action":"download","data-gtm-event-name":"download_spotify_button_clicked","data-tracking":"{\"category\": \"download\", \"action\": \"download start\", \"label\": \"download-navbar\"}"}}},{"type":"sep"},{"type":"link","parameters":{"tier":2,"href":"https://www.spotify.com/us/signup/","text":"Sign up","dataAttributes":{"data-ga-category":"menu","data-ga-action":"sign-up"}}},{"type":"link","parameters":{"tier":2,"href":"https://www.spotify.com/us/account/overview/","text":"Log In","dataAttributes":{"data-tracking":"{\"category\": \"menu\", \"action\": \"log-in\"}"}}}],"colorClassNames":{},"scrollColorClassNames":{},"zIndexClassName":"mh-default-z-index","transparent":true,"topTransparencyMode":"semitransparent","fixed":true},"fixed":true,"transparent":true,"topTransparencyMode":"semitransparent"}--></script>
+    
+          
+
+
+    
+    
+    			<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+    <symbol id="chevron-carousel" viewBox="0 0 21 36">
+        <polyline stroke="#FFFFFF" stroke-width="4" transform="translate(10.000000, 18.000000) rotate(-180.000000) translate(-10.000000, -18.000000) " points="17.9765021 2 2 17.9882424 18 34"></polyline>
+    </symbol>
+
+    <symbol id="outline-phone" viewBox="0 0 318 634">
+      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <rect stroke="#FFFFFF" stroke-width="2.85696" fill-opacity="0.1" fill="#FFFFFF" x="2" y="2" width="314.437607" height="629.952055" rx="20.8"></rect>
+          <path d="M157.253568,36.559948 C159.424307,36.559948 161.184038,34.7973051 161.184038,32.6229748 C161.184038,30.4486446 159.424307,28.6860017 157.253568,28.6860017 C155.08283,28.6860017 153.323098,30.4486446 153.323098,32.6229748 C153.323098,34.7973051 155.08283,36.559948 157.253568,36.559948 Z" stroke="#FFFFFF" stroke-width="1.90464"></path>
+          <ellipse stroke="#FFFFFF" stroke-width="1.90464" cx="159.218803" cy="587.657188" rx="23.5828205" ry="23.6218388"></ellipse>
+      </g>
+    </symbol>
+
+    <symbol id="phone-charts" viewBox="0 0 14 11" fill="#FFFFFF">
+        <polygon points="10.363 1.89 11.6405 2.9815 6.836 8.6065 3.8535 6.059 0.194 10.344 0.5745 10.6685 3.909 6.764 6.892 9.3115 12.021 3.3065 13.2985 4.3975 14.002 0.6015"></polygon>
+    </symbol>
+
+    <symbol id="phone-chevron" viewBox="0 0 6 11">
+        <polygon fill="#FFFFFF" fill-rule="nonzero" transform="translate(2.980406, 5.202880) scale(-1, -1) translate(-2.980406, -5.202880) " points="5.95372826 0.757735069 5.19542255 0 0 5.19933517 5.20250707 10.4057602 5.96081278 9.64802513 1.51547057 5.19933517"></polygon>
+    </symbol>
+
+    <symbol id="phone-new-releases" viewBox="0 0 15 16">
+      <path d="M7.50388277,12.8684331 L8.10687335,12.8684331 L8.10687335,7.1399182 L7.50388277,7.1399182 C7.48217511,7.26232752 7.43695082,7.37448581 7.37001887,7.47699608 C7.30248392,7.57950635 7.21505029,7.66935358 7.10832095,7.74774379 C7.00159162,7.82673699 6.87858154,7.88884615 6.73929072,7.93467427 C6.5993969,7.97989939 6.44744328,8.00522546 6.28101788,8.01004947 L6.28101788,8.62450807 L7.50388277,8.62450807 L7.50388277,12.8684331 L7.50388277,12.8684331 Z M12.3278074,1.41200628 L12.3278074,0.27836333 C12.3278074,0.111934896 12.1927375,-0.0231374555 12.0263121,-0.0231374555 C11.8598867,-0.0231374555 11.7248168,0.111934896 11.7248168,0.27836333 L11.7248168,1.41200628 L3.28234572,1.41200628 L3.28234572,0.27836333 C3.28234572,0.111934896 3.14727583,-0.0231374555 2.98085043,-0.0231374555 C2.81442503,-0.0231374555 2.67935514,0.111934896 2.67935514,0.27836333 L2.67935514,1.41200628 L0.267995813,1.41200628 L0.267995813,15.884044 L14.7397697,15.884044 L14.7397697,1.41200628 L12.3278074,1.41200628 L12.3278074,1.41200628 Z M14.1367792,15.2810424 L0.870986393,15.2810424 L0.870986393,5.03001571 L14.1367792,5.03001571 L14.1367792,15.2810424 L14.1367792,15.2810424 Z M14.1367792,4.42701414 L0.870986393,4.42701414 L0.870986393,2.01500785 L14.1367792,2.01500785 L14.1367792,4.42701414 L14.1367792,4.42701414 Z" id="Shape" fill="#FFFFFF"></path>
+    </symbol>
+
+    <symbol id="phone-videos" viewBox="0 0 16 14">
+        <path d="M14.3561665,0.87160527 L2.18989549,0.87160527 C1.31709779,0.87160527 0.60299058,1.5857255 0.60299058,2.45853911 L0.60299058,11.4511642 C0.60299058,12.3239778 1.31709779,13.038098 2.18989549,13.038098 L14.3561665,13.038098 C15.2289642,13.038098 15.9430714,12.3239778 15.9430714,11.4511642 L15.9430714,2.45801013 C15.9430714,1.58519652 15.2289642,0.87160527 14.3561665,0.87160527 L14.3561665,0.87160527 Z M15.4141031,11.4506352 C15.4141031,12.0340979 14.9396185,12.5085911 14.3561665,12.5085911 L2.18989549,12.5085911 C1.60644345,12.5085911 1.13195888,12.0340979 1.13195888,11.4506352 L1.13195888,2.45801013 C1.13195888,1.87454745 1.60644345,1.40005424 2.18989549,1.40005424 L14.3561665,1.40005424 C14.9396185,1.40005424 15.4141031,1.87454745 15.4141031,2.45801013 L15.4141031,11.4506352 L15.4141031,11.4506352 Z M6.97758761,9.54314072 L10.9057062,7.2748833 C11.1527344,7.13258823 11.1527344,6.77605709 10.9057062,6.63376203 L6.97758761,4.3655046 C6.73055941,4.22320953 6.42217089,4.40094612 6.42217089,4.68606523 L6.42217089,9.22205111 C6.42217089,9.50717022 6.73055941,9.68543579 6.97758761,9.54314072 L6.97758761,9.54314072 Z" fill="#FFFFFF"></path>
+    </symbol>
+
+    <symbol id="phone-podcasts" viewBox="0 0 18 15">
+        <path d="M5.86723293,4.19784885 C6.10041978,3.99788891 6.35537839,3.82141996 6.62351462,3.67245267 L6.3456384,3.17169339 C6.04369866,3.33956807 5.75780126,3.53780916 5.49539443,3.76183305 C3.33368925,5.60845451 3.07643889,8.86969229 4.92302669,11.0314369 C5.32064752,11.4966732 5.80019887,11.8868529 6.34964898,12.190517 L6.62695227,11.6891848 C6.13823387,11.4187518 5.71139306,11.0726894 5.35903455,10.6595916 C3.71698656,8.73791353 3.94501695,5.83935381 5.86723293,4.19784885 L5.86723293,4.19784885 Z M2.96185075,12.7067459 C1.62002368,11.135714 0.970308952,9.13611456 1.13302411,7.07635528 C1.29516632,5.016596 2.24968549,3.14361879 3.82068883,1.80176726 C4.04184393,1.61269339 4.2864896,1.43106789 4.5907211,1.22996204 L4.27503078,0.751547857 C3.95017342,0.965831576 3.68776659,1.16120791 3.44827739,1.36632441 C1.76096709,2.80729648 0.735976215,4.81950082 0.561802249,7.03166509 C0.387628283,9.24382937 1.08547003,11.3912502 2.52698878,13.0791642 C3.02602011,13.6635743 3.61443018,14.1809492 4.27445784,14.616392 L4.59014816,14.1379778 C3.97423693,13.7317555 3.42650564,13.2499036 2.96185075,12.7067459 L2.96185075,12.7067459 Z M12.7648658,4.33421122 C12.3672449,3.86897491 11.8871206,3.47879519 11.3382435,3.1751311 L11.0609402,3.67703628 C11.5496586,3.94689626 11.9759264,4.29353169 12.3288579,4.70662945 C13.9703329,6.62830751 13.7423026,9.52744018 11.8200866,11.1683722 C11.5868997,11.3677592 11.3319411,11.5442281 11.0638049,11.6937684 L11.3416811,12.1945276 C11.6436208,12.026653 11.9295182,11.8284119 12.1919251,11.604388 C14.3542032,9.75776653 14.6108806,6.49652875 12.7648658,4.33421122 L12.7648658,4.33421122 Z M15.1603307,2.28762981 C14.6612994,1.70321967 14.0734623,1.18641776 13.4128617,0.750401955 L13.0971713,1.22881614 C13.7130826,1.63446553 14.2602409,2.11631743 14.7248958,2.65947509 C16.0667229,4.23050706 16.7164376,6.23010648 16.5537225,8.28986576 C16.3915802,10.349625 15.4370611,12.2226023 13.8666307,13.5644538 C13.6443297,13.7541006 13.399684,13.9357261 13.0960255,14.136259 L13.4117158,14.6141002 C13.7354273,14.4003895 13.9978341,14.2055861 14.2384692,13.9998966 C15.9257795,12.5589246 16.9507703,10.5472932 17.1249443,8.33455594 C17.2996912,6.12239167 16.6018495,3.97497086 15.1603307,2.28762981 L15.1603307,2.28762981 Z M8.84365975,5.6777816 C7.73788424,5.6777816 6.83836738,6.57731486 6.83836738,7.68311052 C6.83836738,8.78890618 7.73788424,9.68843944 8.84365975,9.68843944 C9.94943526,9.68843944 10.8489521,8.78890618 10.8489521,7.68311052 C10.8489521,6.57731486 9.94943526,5.6777816 8.84365975,5.6777816 L8.84365975,5.6777816 Z M8.84365975,9.11548832 C8.0541475,9.11548832 7.41130806,8.47263716 7.41130806,7.68311052 C7.41130806,6.89358387 8.0541475,6.25073272 8.84365975,6.25073272 C9.63317201,6.25073272 10.2760114,6.89358387 10.2760114,7.68311052 C10.2760114,8.47263716 9.63317201,9.11548832 8.84365975,9.11548832 L8.84365975,9.11548832 Z" fill="#FFFFFF"></path>
+    </symbol>
+
+    <symbol id="phone-discover" viewBox="0 0 17 17">
+        <path d="M15.620002,4.50877674 L15.0960032,4.81148353 C15.7387911,5.92100642 16.1132483,7.20419377 16.1132483,8.57602234 C16.1132483,12.7325122 12.7322801,16.113542 8.57586603,16.113542 C4.41945196,16.113542 1.03848378,12.7325122 1.03848378,8.57602234 C1.03848378,4.41953251 4.41945196,1.03850271 8.57586603,1.03850271 L8.57586603,0.435501134 C4.07996826,0.435501134 0.435493197,4.08004263 0.435493197,8.57602234 C0.435493197,13.072002 4.07996826,16.7165435 8.57586603,16.7165435 C13.0717638,16.7165435 16.7162389,13.072002 16.7162389,8.57602234 C16.7162389,7.09263847 16.3128382,5.70633786 15.620002,4.50877674 L15.620002,4.50877674 Z M13.3997907,8.57602234 C13.3997907,11.2358623 11.2356575,13.4000349 8.57586603,13.4000349 C5.91607458,13.4000349 3.75194139,11.2358623 3.75194139,8.57602234 C3.75194139,5.91618241 5.91607458,3.75200977 8.57586603,3.75200977 L8.57586603,3.1490082 C5.57900284,3.1490082 3.14895081,5.57850153 3.14895081,8.57602234 C3.14895081,11.5735431 5.57900284,14.0030365 8.57586603,14.0030365 C11.5733322,14.0030365 14.0027812,11.5735431 14.0027812,8.57602234 C14.0027812,7.58709976 13.7338474,6.66330136 13.2719567,5.86432428 L12.7485608,6.16642806 C13.1604034,6.87676391 13.3997907,7.69805205 13.3997907,8.57602234 L13.3997907,8.57602234 Z M8.57586603,10.6865278 C7.41209421,10.6865278 6.465399,9.73981537 6.465399,8.57602234 C6.465399,7.41222931 7.41209421,6.46551684 8.57586603,6.46551684 L8.57586603,5.86251527 C7.07743444,5.86251527 5.86240842,7.07756344 5.86240842,8.57602234 C5.86240842,10.0744812 7.07743444,11.2895294 8.57586603,11.2895294 C10.0742976,11.2895294 11.2893236,10.0744812 11.2893236,8.57602234 C11.2893236,8.08156105 11.1470179,7.62388286 10.9160725,7.22469582 L10.3950886,7.5249906 C10.5753828,7.83613941 10.6863331,8.19191034 10.6863331,8.57602234 C10.6863331,9.73981537 9.73963785,10.6865278 8.57586603,10.6865278 L8.57586603,10.6865278 Z M12.3445572,3.2997586 C12.8438334,3.2997586 13.249043,2.89514454 13.249043,2.39525624 C13.249043,1.89536794 12.8438334,1.49075388 12.3445572,1.49075388 C11.845281,1.49075388 11.4400713,1.89536794 11.4400713,2.39525624 C11.4400713,2.89514454 11.845281,3.2997586 12.3445572,3.2997586 L12.3445572,3.2997586 Z" fill="#FFFFFF"></path>
+    </symbol>
+
+    <symbol id="phone-concerts" viewBox="0 0 16 11">
+        <path d="M15.7968996,3.57349312 L15.7968996,0.00107200279 L-8.8817842e-16,0.00107200279 L-8.8817842e-16,3.57405731 C0.98674205,3.57405731 1.78674218,4.37407202 1.78674218,5.36083206 C1.78674218,6.34759209 0.98674205,7.14704262 -8.8817842e-16,7.14704262 L-8.8817842e-16,10.7200279 L15.7968996,10.7200279 L15.7968996,7.14704262 C14.8101575,7.14704262 14.0101574,6.34759209 14.0101574,5.36026787 C14.0101574,4.37294365 14.8101575,3.57349312 15.7968996,3.57349312 L15.7968996,3.57349312 Z M4.51339988,10.1558427 L0.564174986,10.1558427 L0.564174986,7.64239728 C1.58871676,7.3890781 2.35091716,6.4621217 2.35091716,5.36026787 C2.35091716,4.25841404 1.58871676,3.33145764 0.564174986,3.07813846 L0.564174986,0.565257271 L4.51339988,0.565257271 L4.51339988,10.1558427 L4.51339988,10.1558427 Z M13.4459824,5.36026787 C13.4459824,6.4621217 14.2076187,7.3890781 15.2327246,7.64239728 L15.2327246,10.1558427 L5.07757487,10.1558427 L5.07757487,0.564693086 L15.2327246,0.564693086 L15.2327246,3.07757427 C14.2081828,3.33145764 13.4459824,4.25841404 13.4459824,5.36026787 L13.4459824,5.36026787 Z" fill="#FFFFFF"></path>
+    </symbol>
+
+    <symbol id="arrow-scroll-down" viewBox="0 0 32 32">
+      <polygon fill="#ffffff" points="15.98 22.43 7.28 13.73 8.7 12.32 15.98 19.6 23.28 12.3 24.7 13.72 15.98 22.43"/>
+      <path fill="#ffffff" d="M16,32A16,16,0,1,1,32,16,16,16,0,0,1,16,32ZM16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Z"/>
+    </symbol>
+
+    <symbol id="album-play" viewBox="0 0 25.4 25.4">
+      <path fill="#ffffff"  d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"/>
+      <path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"/>
+      <path fill="#ffffff" d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"/>
+      <path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"/>
+    </symbol>
+</svg>
+		<section>
+			<div class="hero hero-home simplified">
+				<div class="hero-home-bg-cover"></div>
+				<div class="container container-simplified">
+					<div class="row row-simplified">
+						<h1>Music for everyone.</h1>
+						<h4>Millions of songs. No credit card needed.</h4>
+						<a href="/us/download/" id="generic-btn-premium" role="button" data-tracking='{"category": "home (offer)", "action": "premium"}' class="btn btn-green btn-simplified js-goto-signup js-button-hero-get-free">
+							GET SPOTIFY FREE
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+			
+      </div>
+
+      
+
+
+  
+  <div data-hypernova-key="MastheadFooter" data-hypernova-id="5f36c32b-eb80-4e64-b9c7-e122b525eba4"><footer class="mh-footer-hover svelte-1cgydzu">
+	  <nav class="svelte-1cgydzu">
+	    <div class="mh-brand svelte-1cgydzu">
+	      <a href="https://www.spotify.com/us/" class="mh-footer-primary svelte-18o1xvt">
+	  <span class="mh-footer-primary svelte-1gcdbl9">
+	  <svg viewBox="0 0 63 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin meet">
+	    <g fill-rule="evenodd" class="svelte-1gcdbl9">
+	      <path d="M61.842 9.506a1.02 1.02 0 0 1-1.023-1.024c0-.562.453-1.03 1.029-1.03a1.02 1.02 0 0 1 1.023 1.024 1.03 1.03 0 0 1-1.029 1.03m.006-1.952a.915.915 0 0 0-.922.928c0 .51.394.921.916.921a.916.916 0 0 0 .922-.927.908.908 0 0 0-.916-.922m.226 1.027l.29.406h-.244l-.26-.372h-.225v.372h-.204V7.912h.48c.249 0 .413.128.413.343 0 .176-.102.284-.25.326m-.172-.485h-.267v.34h.267c.133 0 .212-.065.212-.17 0-.11-.08-.17-.212-.17m-12.804-3.52a1.043 1.043 0 1 0-.001 2.086 1.043 1.043 0 0 0 0-2.087m.72 2.89h-1.454a.107.107 0 0 0-.106.107v6.346c0 .06.047.107.106.107h1.455a.107.107 0 0 0 .107-.107V7.572a.107.107 0 0 0-.107-.107m3.233.006v-.2c0-.592.227-.856.736-.856.303 0 .546.06.82.152a.106.106 0 0 0 .14-.102V5.24a.107.107 0 0 0-.076-.102 3.993 3.993 0 0 0-1.21-.174c-1.343 0-2.053.757-2.053 2.188v.308h-.699a.107.107 0 0 0-.107.106v1.257c0 .059.048.107.107.107h.699v4.99c0 .058.047.106.106.106h1.455a.107.107 0 0 0 .106-.107v-4.99h1.358l2.081 4.99c-.236.523-.468.628-.785.628-.257 0-.527-.077-.803-.228a.109.109 0 0 0-.084-.008.106.106 0 0 0-.063.058l-.493 1.081a.106.106 0 0 0 .045.138c.515.279.98.398 1.554.398 1.074 0 1.668-.5 2.191-1.847L60.6 7.617a.106.106 0 0 0-.099-.146h-1.514a.107.107 0 0 0-.1.072l-1.552 4.431-1.7-4.434a.106.106 0 0 0-.099-.069h-2.485m-5.577-.006h-1.6V5.828a.106.106 0 0 0-.107-.106h-1.455a.107.107 0 0 0-.106.106v1.637h-.7a.106.106 0 0 0-.106.107v1.25c0 .059.048.107.106.107h.7v3.234c0 1.308.65 1.97 1.934 1.97.522 0 .954-.107 1.362-.338a.106.106 0 0 0 .054-.093v-1.19a.106.106 0 0 0-.154-.096c-.28.141-.551.206-.854.206-.467 0-.675-.211-.675-.686V8.929h1.6a.106.106 0 0 0 .107-.107v-1.25a.106.106 0 0 0-.106-.107m-7.671-.133c-1.96 0-3.497 1.51-3.497 3.437 0 1.907 1.526 3.4 3.473 3.4 1.967 0 3.508-1.504 3.508-3.424 0-1.914-1.53-3.413-3.484-3.413m0 5.362c-1.043 0-1.83-.838-1.83-1.95 0-1.115.76-1.924 1.806-1.924 1.05 0 1.84.838 1.84 1.95 0 1.115-.763 1.924-1.816 1.924m-7.014-5.362c-.82 0-1.492.323-2.046.984v-.744a.107.107 0 0 0-.106-.107h-1.455a.107.107 0 0 0-.106.107v8.27c0 .058.048.106.106.106h1.455a.107.107 0 0 0 .106-.106v-2.61c.555.621 1.227.925 2.046.925 1.522 0 3.063-1.172 3.063-3.412s-1.54-3.413-3.063-3.413m1.372 3.413c0 1.14-.703 1.937-1.709 1.937-.995 0-1.745-.833-1.745-1.937s.75-1.937 1.745-1.937c.99 0 1.71.814 1.71 1.937m-8.437-1.81c-1.624-.388-1.913-.66-1.913-1.231 0-.54.508-.903 1.264-.903.732 0 1.459.275 2.22.843a.107.107 0 0 0 .15-.023l.794-1.119a.107.107 0 0 0-.02-.144c-.906-.728-1.927-1.081-3.12-1.081-1.755 0-2.98 1.052-2.98 2.559 0 1.615 1.057 2.187 2.884 2.628 1.554.358 1.817.658 1.817 1.195 0 .594-.53.963-1.385.963-.948 0-1.721-.32-2.587-1.068a.11.11 0 0 0-.078-.026.105.105 0 0 0-.073.038l-.89 1.058a.105.105 0 0 0 .011.148 5.303 5.303 0 0 0 3.581 1.373c1.89 0 3.112-1.033 3.112-2.631 0-1.351-.807-2.098-2.787-2.58M9.507.305a9.41 9.41 0 1 0 0 18.82 9.41 9.41 0 0 0 0-18.82m4.316 13.572a.586.586 0 0 1-.807.195c-2.21-1.35-4.99-1.655-8.266-.907a.586.586 0 1 1-.261-1.143c3.584-.82 6.659-.467 9.139 1.049.276.169.363.53.195.806m1.15-2.562a.734.734 0 0 1-1.008.242c-2.529-1.555-6.385-2.005-9.377-1.097a.735.735 0 0 1-.426-1.404c3.418-1.037 7.666-.534 10.57 1.25a.734.734 0 0 1 .242 1.01m.1-2.669C12.04 6.846 7.036 6.68 4.141 7.56a.88.88 0 1 1-.511-1.684c3.323-1.01 8.849-.814 12.34 1.258a.88.88 0 0 1-.898 1.514"></path>
+	    </g>
+	  </svg>
+	  Spotify
+	</span>
+	</a>
+	    </div>
+
+	    <div class="mh-top-links svelte-1cgydzu">
+	      <dl class="svelte-12h6dnj">
+	  <dt class="svelte-12h6dnj">Company</dt>
+	  <dd class="svelte-12h6dnj">
+	      <a href="https://www.spotify.com/us/about-us/contact/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="about">About</a>
+	    </dd><dd class="svelte-12h6dnj">
+	      <a href="https://www.spotifyjobs.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="jobs">Jobs</a>
+	    </dd><dd class="svelte-12h6dnj">
+	      <a href="https://newsroom.spotify.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="press">For the Record</a>
+	    </dd>
+	</dl><dl class="svelte-12h6dnj">
+	  <dt class="svelte-12h6dnj">Communities</dt>
+	  <dd class="svelte-12h6dnj">
+	      <a href="https://artists.spotify.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="artists">For Artists</a>
+	    </dd><dd class="svelte-12h6dnj">
+	      <a href="https://developer.spotify.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="developers">Developers</a>
+	    </dd><dd class="svelte-12h6dnj">
+	      <a href="https://spotifyforbrands.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="brands">Brands</a>
+	    </dd><dd class="svelte-12h6dnj">
+	      <a href="https://investors.spotify.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="investors">Investors</a>
+	    </dd><dd class="svelte-12h6dnj">
+	      <a href="https://spotifyforvendors.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="vendors">Vendors</a>
+	    </dd>
+	</dl><dl class="svelte-12h6dnj">
+	  <dt class="svelte-12h6dnj">Useful links</dt>
+	  <dd class="svelte-12h6dnj">
+	      <a href="https://support.spotify.com/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="help">Help</a>
+	    </dd><dd class="svelte-12h6dnj">
+	      <a href="https://www.spotify.com/us/redirect/webplayerlink/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="play">Web Player</a>
+	    </dd><dd class="svelte-12h6dnj">
+	      <a href="https://www.spotify.com/us/free/" class="mh-footer-primary svelte-12h6dnj" data-ga-category="menu" data-ga-action="free">Free Mobile App</a>
+	    </dd>
+	</dl>
+	    </div>
+
+	    <div class="mh-social-icons svelte-1cgydzu">
+	      <ul class="svelte-dnye4j">
+	  <li class="svelte-dnye4j">
+	    <a href="https://instagram.com/spotify" title="Instagram" class="mh-footer-primary svelte-dnye4j">
+	      <span role="img" aria-label="Instagram" class="mh-social-icon-instagram svelte-dnye4j"></span>
+	    </a>
+	  </li><li class="svelte-dnye4j">
+	    <a href="https://twitter.com/spotify" title="Twitter" class="mh-footer-primary svelte-dnye4j">
+	      <span role="img" aria-label="Twitter" class="mh-social-icon-twitter svelte-dnye4j"></span>
+	    </a>
+	  </li><li class="svelte-dnye4j">
+	    <a href="https://www.facebook.com/Spotify" title="Facebook" class="mh-footer-primary svelte-dnye4j">
+	      <span role="img" aria-label="Facebook" class="mh-social-icon-facebook svelte-dnye4j"></span>
+	    </a>
+	  </li>
+	</ul>
+	    </div>
+
+	    <div class="mh-country svelte-1cgydzu">
+	      <a href="https://www.spotify.com/us/select-your-country/" class="mh-footer-secondary svelte-1ouzkfx mh-compact" class="mh-compact">
+	  
+	  USA
+	  <img src="https://masthead.scdn.co/065b62cfb94f49960e7c37413175e2bb/flags/us.svg" alt="" class="svelte-11cxugd">
+	
+	</a>
+	    </div>
+
+	    <div class="mh-bottom-links svelte-1cgydzu">
+	      <ul class="svelte-19l7cif">
+	  <li class="svelte-19l7cif">
+	      <a href="https://www.spotify.com/us/legal/" class="mh-footer-secondary svelte-1ouzkfx">
+	  Legal
+	</a>
+	    </li><li class="svelte-19l7cif">
+	      <a href="https://www.spotify.com/us/privacy/" class="mh-footer-secondary svelte-1ouzkfx">
+	  Privacy Center
+	</a>
+	    </li><li class="svelte-19l7cif">
+	      <a href="https://www.spotify.com/us/legal/privacy-policy/" class="mh-footer-secondary svelte-1ouzkfx">
+	  Privacy Policy
+	</a>
+	    </li><li class="svelte-19l7cif">
+	      <a href="https://www.spotify.com/us/legal/cookies-policy/" class="mh-footer-secondary svelte-1ouzkfx">
+	  Cookies
+	</a>
+	    </li><li class="svelte-19l7cif">
+	      <a href="https://www.spotify.com/us/legal/privacy-policy/#s3" class="mh-footer-secondary svelte-1ouzkfx">
+	  About Ads
+	</a>
+	    </li><li class="svelte-19l7cif">
+	      <a href="https://www.spotify.com/us/legal/California-privacy-disclosure" class="mh-footer-secondary svelte-1ouzkfx">
+	  Additional CA Privacy Disclosures
+	</a>
+	    </li>
+	</ul>
+	      <span class="svelte-1so9ic8">
+	  © 2020 Spotify AB
+	</span>
+	    </div>
+	  </nav>
+	</footer></div>
+<script type="application/json" data-hypernova-key="MastheadFooter" data-hypernova-id="5f36c32b-eb80-4e64-b9c7-e122b525eba4"><!--{"brand":{"href":"https://www.spotify.com/us/","alt":"Spotify"},"topLinkGroups":[{"title":"Company","links":[{"title":"About","href":"https://www.spotify.com/us/about-us/contact/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"about"}},{"title":"Jobs","href":"https://www.spotifyjobs.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"jobs"}},{"title":"For the Record","href":"https://newsroom.spotify.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"press"}}]},{"title":"Communities","links":[{"title":"For Artists","href":"https://artists.spotify.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"artists"}},{"title":"Developers","href":"https://developer.spotify.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"developers"}},{"title":"Brands","href":"https://spotifyforbrands.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"brands"}},{"title":"Investors","href":"https://investors.spotify.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"investors"}},{"title":"Vendors","href":"https://spotifyforvendors.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"vendors"}}]},{"title":"Useful links","links":[{"title":"Help","href":"https://support.spotify.com/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"help"}},{"title":"Web Player","href":"https://www.spotify.com/us/redirect/webplayerlink/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"play"}},{"title":"Free Mobile App","href":"https://www.spotify.com/us/free/","dataAttributes":{"data-ga-category":"menu","data-ga-action":"free"}}]}],"socialLinks":[{"name":"Instagram","icon":"instagram","href":"https://instagram.com/spotify"},{"name":"Twitter","icon":"twitter","href":"https://twitter.com/spotify"},{"name":"Facebook","icon":"facebook","href":"https://www.facebook.com/Spotify"}],"country":{"name":"USA","flagCode":"us","href":"https://www.spotify.com/us/select-your-country/"},"bottomLinks":[{"title":"Legal","href":"https://www.spotify.com/us/legal/"},{"title":"Privacy Center","href":"https://www.spotify.com/us/privacy/"},{"title":"Privacy Policy","href":"https://www.spotify.com/us/legal/privacy-policy/"},{"title":"Cookies","href":"https://www.spotify.com/us/legal/cookies-policy/"},{"title":"About Ads","href":"https://www.spotify.com/us/legal/privacy-policy/#s3"},{"title":"Additional CA Privacy Disclosures","href":"https://www.spotify.com/us/legal/California-privacy-disclosure"}],"copyrightNotice":"© 2020 Spotify AB"}--></script>
+  
+   	    <script nonce="7964a3502aa5a63c41651f1647d9dc95" src="//www.scdn.co/webpack/spweb-site.min.8facf5054879f4bddb0f.js"></script>
+   
+
+	<script nonce="7964a3502aa5a63c41651f1647d9dc95">
+		// Fire an event once when the user scrolls past the fold
+$(document).bind('scroll.learner', function () {
+if ($(document).scrollTop() >= $(window).height()) {
+spweb.analytics.sendEvent('home', 'scroll-past-fold', '', '');
+$(document).unbind('scroll.learner');
+$(document).unbind('click.learner');
+}
+});
+	</script>
+
+
+        <script nonce="7964a3502aa5a63c41651f1647d9dc95" src="//www.scdn.co/webpack/vendors~masthead~ssr-bundle.c88a19b201840804d8cb.js"                                                                                                                         async defer
+    ></script>
+    <script nonce="7964a3502aa5a63c41651f1647d9dc95" src="//www.scdn.co/webpack/vendors~masthead.9b708614b5bca37ee0eb.js"                                                                                                                         async defer
+    ></script>
+    <script nonce="7964a3502aa5a63c41651f1647d9dc95" src="//www.scdn.co/webpack/masthead.a62f512c7cf4218e1e81.js"                                                                                                                         async defer
+    ></script>
+
+
+        <script nonce="7964a3502aa5a63c41651f1647d9dc95" defer src="https://www.fastly-insights.com/insights.js?k=040e3997-282c-4275-ba9b-a406ce78b133&dnt=1"></script>
+
+</body>
+<!-- This page was rendered using Twig -->
+</html>

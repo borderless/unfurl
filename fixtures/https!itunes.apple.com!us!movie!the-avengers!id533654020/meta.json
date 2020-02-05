@@ -1,0 +1,32 @@
+{
+  "url": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
+  "headers": {
+    ":status": "200",
+    "x-apple-jingle-correlation-key": "A5NYXSPAIMJEIMSNTXVXMDMGLY",
+    "x-apple-request-uuid": "075b8bc9-e043-1244-324d-9deb760d865e",
+    "x-apple-translated-wo-url": "/WebObjects/MZStore.woa/wa/viewMovie?id=533654020&cc=us&urlDesc=/the-avengers",
+    "apple-tk": "false",
+    "content-type": "text/html; charset=UTF-8",
+    "x-webobjects-loadaverage": "0",
+    "last-modified": "Sun, 02 Feb 2020 00:37:23 GMT",
+    "apple-seq": "2",
+    "access-control-allow-origin": "*",
+    "apple-originating-system": "MZStore",
+    "content-encoding": "gzip",
+    "strict-transport-security": "max-age=31536000",
+    "x-frame-options": "SAMEORIGIN",
+    "x-apple-orig-url": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
+    "x-apple-application-site": "ST11",
+    "apple-timing-app": "1019 ms",
+    "x-apple-application-instance": "2002703",
+    "content-length": "60446",
+    "cache-control": "no-transform, max-age=900",
+    "date": "Sun, 02 Feb 2020 00:37:23 GMT",
+    "x-cache": "TCP_MISS from a104-98-118-15.deploy.akamaitechnologies.com (AkamaiGHost/9.8.5.1.1-27758809) (-)",
+    "x-true-cache-key": "/L/itunes.apple.com/us/movie/the-avengers/id533654020 vcd=2897 ci2=__",
+    "vary": "Accept-Encoding, X-Apple-Store-Front, Cookie, Accept-Encoding",
+    "x-cache-remote": "TCP_REFRESH_MISS from a63-243-230-38.deploy.akamaitechnologies.com (AkamaiGHost/9.8.5.1.1-27758809) (S)",
+    "x-apple-partner": "origin.0"
+  },
+  "status": 200
+}

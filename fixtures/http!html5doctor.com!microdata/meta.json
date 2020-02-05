@@ -1,0 +1,19 @@
+{
+  "url": "http://html5doctor.com/microdata/",
+  "headers": {
+    "server": "Sucuri/Cloudproxy",
+    "date": "Sun, 02 Feb 2020 00:38:17 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "x-sucuri-id": "11010",
+    "x-xss-protection": "1; mode=block",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "vary": "Accept-Encoding,Cookie",
+    "cache-control": "max-age=3, must-revalidate",
+    "wp-super-cache": "Served supercache file from PHP",
+    "x-sucuri-cache": "HIT"
+  },
+  "status": 200
+}
