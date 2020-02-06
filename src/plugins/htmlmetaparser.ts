@@ -54,8 +54,6 @@ export const plugin: Plugin = async (input, next) => {
     request
   );
 
-  // debugger;
-
   const oembed = getOembed(request, metadata.alternate);
   const options = { url, metadata, graph, oembed };
 
@@ -207,6 +205,12 @@ function toNumber(value: string | undefined): number | undefined {
  */
 function toDate(value: string | undefined): Date | undefined {
   if (!value) return undefined;
+
+  // Fix non-timezone specified ISO string to be UTC.
+  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d*)?$/.test(value)) {
+    return new Date(`${value}Z`);
+  }
+
   const date = new Date(value);
   return isNaN(date.getTime()) ? undefined : date;
 }
