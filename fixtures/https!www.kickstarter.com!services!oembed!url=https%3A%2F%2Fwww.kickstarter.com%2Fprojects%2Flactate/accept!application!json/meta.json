@@ -1,0 +1,27 @@
+{
+  "url": "https://www.kickstarter.com/services/oembed?url=https%3A%2F%2Fwww.kickstarter.com%2Fprojects%2Flactate-threshold%2Flvl-the-first-wearable-hydration-monitor",
+  "headers": {
+    ":status": "200",
+    "server": "nginx",
+    "content-type": "application/json; charset=utf-8",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "heartbleed": "NO; see http://heartbleedheader.com",
+    "etag": "W/\"7051f41c6226645961d5c6d1b743d390\"",
+    "cache-control": "max-age=0, private, must-revalidate",
+    "x-request-id": "622508a8-14a1-4972-a77d-b4d942426384",
+    "x-runtime": "0.036822",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes, bytes",
+    "age": "0",
+    "date": "Mon, 10 Feb 2020 07:35:49 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-sea4428-SEA",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1581320150.631555,VS0,VE103",
+    "strict-transport-security": "max-age=31557600"
+  },
+  "status": 200
+}

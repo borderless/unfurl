@@ -11,53 +11,35 @@ import { Readable } from "stream";
 import { parse } from "exif-date";
 
 export const plugin: Plugin = async (input, next) => {
-  const { scrape, request } = input;
-  const { url, status, headers, body } = input.page;
-
-  const [a, b] = tee(body);
-  const [snippet, result] = await Promise.all<Snippet | undefined, Snippet>([
-    extract(url, headers, a),
-    next({ page: { url, status, headers, body: b }, scrape, request })
-  ]);
-
-  return snippet ? Object.assign(result, snippet) : result;
-};
-
-function extract(
-  url: string,
-  headers: Record<string, string | string[]>,
-  stream: Readable
-) {
-  const type = contentType(headers);
+  const { url, headers, body } = input.page;
+  const type = contentType(headers).toLowerCase();
 
   if (type === "application/pdf") {
-    return pdf(url, stream);
+    return pdf(url, body);
   }
 
   if (type.startsWith("image/")) {
-    return image(url, stream);
+    return image(url, body);
   }
 
   if (type.startsWith("video/")) {
-    return video(url, stream);
+    return video(url, body);
   }
 
-  stream.resume(); // Discard.
-
-  return undefined;
-}
+  return next(input);
+};
 
 async function pdf(url: string, stream: Readable): Promise<PdfSnippet> {
   const exifData = await extractExifData(stream);
-  if (!exifData) return { url, type: "pdf" };
+  if (!exifData) return { type: "pdf", url };
 
   return {
     url,
     type: "pdf",
-    pageCount: exifData.PageCount,
-    producer: exifData.Producer,
-    author: exifData.Author,
-    creator: exifData.Creator,
+    encodingFormat: exifData.MIMEType,
+    producer: exifData.Producer && { name: exifData.Producer },
+    author: exifData.Author && { name: exifData.Author },
+    creator: exifData.Creator && { name: exifData.Creator },
     headline: exifData.Title,
     dateCreated: parseExifDate(exifData.CreateDate),
     dateModified: parseExifDate(exifData.ModifyDate)
@@ -66,11 +48,12 @@ async function pdf(url: string, stream: Readable): Promise<PdfSnippet> {
 
 async function image(url: string, stream: Readable): Promise<ImageSnippet> {
   const exifData = await extractExifData(stream);
-  if (!exifData) return { url, type: "image" };
+  if (!exifData) return { type: "image", url };
 
   return {
-    url,
     type: "image",
+    url,
+    encodingFormat: exifData.MIMEType,
     dateModified: parseExifDate(exifData.ModifyDate),
     dateCreated:
       parseExifDate(exifData.SubSecDateTimeOriginal) ||
@@ -78,18 +61,23 @@ async function image(url: string, stream: Readable): Promise<ImageSnippet> {
       parseExifDate(exifData.DigitalCreationDateTime),
     width: exifData.ImageWidth,
     height: exifData.ImageHeight,
-    make: exifData.Make,
-    model: exifData.Model,
-    lensMake: exifData.LensMake,
-    lensModel: exifData.LensModel,
-    software: exifData.Software,
-    megapixels: exifData.Megapixels,
-    orientation: exifData.Orientation
+    camera: {
+      make: exifData.Make,
+      model: exifData.Model,
+      lensMake: exifData.LensMake,
+      lensModel: exifData.LensModel,
+      software: exifData.Software,
+      megapixels: exifData.Megapixels,
+      orientation: exifData.Orientation
+    }
   };
 }
 
-function video(url: string, stream: Readable): VideoSnippet {
-  return { url, type: "video" };
+async function video(url: string, stream: Readable): Promise<VideoSnippet> {
+  const exifData = await extractExifData(stream);
+  if (!exifData) return { type: "video", url };
+
+  return { type: "video", url, encodingFormat: exifData.MIMEType };
 }
 
 /**

@@ -45,7 +45,7 @@ export function scraper(options: Options): Scrape {
     ({ page }: Input): Promise<Snippet> => {
       page.body.resume(); // Discard unused data.
 
-      return Promise.resolve({ type: "unknown", url: page.url });
+      return Promise.resolve({ type: "link", url: page.url });
     }
   );
 

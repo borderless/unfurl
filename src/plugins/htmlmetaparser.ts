@@ -2,15 +2,15 @@ import { Handler, Result, Alternative, ResultJsonLd } from "htmlmetaparser";
 import { WritableStream } from "htmlparser2";
 import { Readable } from "stream";
 import { expand } from "jsonld";
-import { JsonLd, Document } from "jsonld/jsonld-spec";
+import { Document } from "jsonld/jsonld-spec";
 import { resolve } from "url";
 import { memoizeOne } from "functools";
 import { next, filter, map, list } from "iterative";
-import { tee, contentType, readJson } from "../helpers";
+import { decodeHTML } from "entities";
+import { contentType, readJson } from "../helpers";
 import {
   Plugin,
   Request,
-  Snippet,
   ImageSnippet,
   AudioSnippet,
   VideoSnippet,
@@ -18,7 +18,8 @@ import {
   SnippetAppLink,
   SnippetLocale,
   SnippetTwitter,
-  Entity
+  Entity,
+  HtmlSnippet
 } from "../types";
 
 const OEMBED_CONTENT_TYPE = /^application\/json(?:\+oembed)?$/i;
@@ -28,21 +29,15 @@ const JSON_LD_CONTENT_TYPE = /^application\/(?:ld\+)?json$/i;
  * Extract metadata from HTML documents.
  */
 export const plugin: Plugin = async (input, next) => {
-  const { scrape, request } = input;
+  const { request } = input;
   const { url, status, headers, body } = input.page;
   const type = contentType(headers);
 
   // Avoid parsing non-HTML documents.
   if (type !== "text/html") return next(input);
 
-  const [a, b] = tee(body);
-  const [metadata, result] = await Promise.all<Result | undefined, Snippet>([
-    parse(a, url),
-    next({ page: { url, status, headers, body: b }, scrape, request })
-  ]);
-
-  // Avoid trying to extract data on failure.
-  if (!metadata) return result;
+  const metadata = await parse(body, url);
+  if (!metadata) return { type: "html", url };
 
   const graph = await normalizeJsonLd(
     [
@@ -54,11 +49,14 @@ export const plugin: Plugin = async (input, next) => {
     request
   );
 
-  const oembed = getOembed(request, metadata.alternate);
+  const oembed =
+    status === 200 ? await getOembed(request, metadata.alternate) : undefined;
   const options = { url, metadata, graph, oembed };
 
-  return Object.assign(result, {
+  const snippet: HtmlSnippet = {
     type: "html",
+    url: url,
+    encodingFormat: type,
     image: getImage(options),
     video: getVideo(options),
     audio: getAudio(options),
@@ -68,12 +66,13 @@ export const plugin: Plugin = async (input, next) => {
     description: getDescription(options),
     provider: getProvider(options),
     author: getAuthor(options),
-    ttl: getTtl(options),
     tags: getTags(options),
     locale: getLocale(options),
     twitter: getTwitter(options),
     apps: getApps(options)
-  });
+  };
+
+  return snippet;
 };
 
 /**
@@ -84,12 +83,10 @@ async function getOembed(
   alternate: Alternative[]
 ): Promise<any> {
   const oembed = alternate.filter(x => x.type === "application/json+oembed")[0];
-  if (!oembed) return undefined;
+  if (!oembed) return;
 
   const page = await request(oembed.href, {
-    headers: {
-      accept: "application/json"
-    }
+    accept: "application/json"
   });
 
   if (
@@ -99,11 +96,9 @@ async function getOembed(
     try {
       return await readJson(page.body);
     } catch (err) {
-      return undefined;
+      /* Noop. */
     }
   }
-
-  return undefined;
 }
 
 /**
@@ -122,9 +117,7 @@ interface ExtractOptions {
 const createJsonLdLoader = memoizeOne((request: Request) => {
   return async (url: string) => {
     const page = await request(url, {
-      headers: {
-        accept: "application/ld+json"
-      }
+      accept: "application/ld+json"
     });
 
     if (
@@ -150,7 +143,7 @@ async function normalizeJsonLd(
   url: string,
   request: Request
 ) {
-  if (!data) return undefined;
+  if (!data) return;
 
   const documentLoader = createJsonLdLoader(request);
   return expand(data, { base: url, documentLoader }).catch(
@@ -195,7 +188,7 @@ function toValue<T>(value: T | T[] | undefined): T | undefined {
  * Convert a string to valid number.
  */
 function toNumber(value: string | undefined): number | undefined {
-  if (!value) return undefined;
+  if (!value) return;
   const num = Number(value);
   return isFinite(num) ? num : undefined;
 }
@@ -204,7 +197,7 @@ function toNumber(value: string | undefined): number | undefined {
  * Convert a string to a valid date.
  */
 function toDate(value: string | undefined): Date | undefined {
-  if (!value) return undefined;
+  if (!value) return;
 
   // Fix non-timezone specified ISO string to be UTC.
   if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d*)?$/.test(value)) {
@@ -235,14 +228,27 @@ function copyProps(obj: any, data: any) {
   return obj;
 }
 
+/**
+ * Pick JSON-LD `@value` property.
+ */
 function jsonLdValue(value: any[] | undefined): string | undefined {
-  if (!value) return undefined;
+  if (!value) return;
   return next(filter(map(value, x => x["@value"])), undefined);
 }
 
+/**
+ * Return a list of string values from JSON-LD.
+ */
 function jsonLdArray(value: any[] | undefined): string[] | undefined {
-  if (!value) return undefined;
+  if (!value) return;
   return list(filter(map(value, x => x["@value"])));
+}
+
+/**
+ * Decode HTML string.
+ */
+function decode(value?: string) {
+  return value ? decodeHTML(value) : undefined;
 }
 
 /**
@@ -252,7 +258,7 @@ function first<T, R>(
   value: T[] | undefined,
   mapFn: (value: T) => R
 ): R | undefined {
-  if (value === undefined) return undefined;
+  if (value === undefined) return;
   return next(filter(map(value, mapFn)), undefined);
 }
 
@@ -278,7 +284,6 @@ function getCanonicalUrl(options: ExtractOptions) {
 function getAuthor(options: ExtractOptions) {
   const name =
     options.metadata?.html?.author ||
-    options.oembed?.author_name ||
     jsonLdValue(
       first(
         options.graph,
@@ -291,6 +296,7 @@ function getAuthor(options: ExtractOptions) {
           )
       )
     ) ||
+    decode(options.oembed?.author_name) ||
     options.metadata?.sailthru?.author;
 
   const url = options.oembed?.author_url;
@@ -309,9 +315,7 @@ function getTags(options: ExtractOptions): string[] {
     first(options.graph, x => x["http://ogp.me/ns#video:tag"])
   );
 
-  if (metaTags) return metaTags;
-
-  return [];
+  return metaTags || [];
 }
 
 /**
@@ -320,7 +324,7 @@ function getTags(options: ExtractOptions): string[] {
 function getProvider(options: ExtractOptions) {
   const name =
     jsonLdValue(first(options.graph, x => x["http://ogp.me/ns#site_name"])) ||
-    options.oembed?.provider_name ||
+    decode(options.oembed?.provider_name) ||
     options.metadata?.html?.["application-name"] ||
     options.metadata?.html?.["apple-mobile-web-app-title"] ||
     options.metadata?.twitter?.["app:name:iphone"] ||
@@ -342,13 +346,14 @@ function getProvider(options: ExtractOptions) {
 function getHeadline(options: ExtractOptions) {
   return (
     options.metadata?.twitter?.title ||
-    options.oembed?.title ||
     jsonLdValue(
       first(
         options.graph,
         x => x["http://ogp.me/ns#title"] || x["http://purl.org/dc/terms/title"]
       )
     ) ||
+    options.metadata?.twitter?.["text:title"] ||
+    decode(options.oembed?.title) ||
     options.metadata?.html?.title
   );
 }
@@ -359,7 +364,7 @@ function getHeadline(options: ExtractOptions) {
 function getDescription(options: ExtractOptions) {
   return (
     jsonLdValue(first(options.graph, x => x["http://ogp.me/ns#description"])) ||
-    options.oembed?.summary ||
+    decode(options.oembed?.summary) ||
     options.metadata?.twitter?.["description"] ||
     options.metadata?.html?.["description"]
   );
@@ -409,7 +414,7 @@ function getImage(options: ExtractOptions): ImageSnippet[] {
           url: urls[i],
           secureUrl: secureUrls ? secureUrls[i] : undefined,
           encodingFormat: types ? types[i] : undefined,
-          caption: alts ? alts[i] : undefined,
+          description: alts ? alts[i] : undefined,
           width: widths ? toNumber(widths[i]) : undefined,
           height: heights ? toNumber(heights[i]) : undefined
         },
@@ -689,8 +694,6 @@ function getIosApp(options: ExtractOptions): SnippetAppLink | undefined {
       url: applinksUrl
     };
   }
-
-  return undefined;
 }
 
 /**
@@ -720,8 +723,6 @@ function getAndroidApp(options: ExtractOptions): SnippetAppLink | undefined {
       url: applinksAndroidUrl
     };
   }
-
-  return undefined;
 }
 
 /**
@@ -795,8 +796,6 @@ function getWindowsUniversalApp(
       url: applinksWindowsUniversalUrl
     };
   }
-
-  return undefined;
 }
 
 /**
@@ -813,8 +812,6 @@ function getLocale(options: ExtractOptions): SnippetLocale | undefined {
   if (primary || alternate) {
     return { primary, alternate };
   }
-
-  return undefined;
 }
 
 /**
@@ -834,8 +831,6 @@ function getTwitter(options: ExtractOptions): SnippetTwitter | undefined {
       creatorHandle
     };
   }
-
-  return undefined;
 }
 
 /**
@@ -843,18 +838,7 @@ function getTwitter(options: ExtractOptions): SnippetTwitter | undefined {
  */
 function toTwitterHandle(value?: string) {
   // Normalize twitter handles.
-  if (value) return value.replace(/^@/, "");
-}
-
-/**
- * Get the TTL of the page.
- */
-function getTtl(options: ExtractOptions): number | undefined {
-  return (
-    toNumber(
-      jsonLdValue(first(options.graph, x => x["http://ogp.me/ns#ttl"]))
-    ) || toNumber(options.oembed?.cache_age)
-  );
+  return value?.replace(/^@/, "");
 }
 
 /**
@@ -934,5 +918,5 @@ function getEntity(options: ExtractOptions): Entity | undefined {
     };
   }
 
-  return undefined;
+  return;
 }

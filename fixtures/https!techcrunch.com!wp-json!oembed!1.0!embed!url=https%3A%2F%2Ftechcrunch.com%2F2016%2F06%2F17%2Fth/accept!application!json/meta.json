@@ -1,0 +1,31 @@
+{
+  "url": "https://techcrunch.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechcrunch.com%2F2016%2F06%2F17%2Fthe-europas-awards-2016-honored-the-best-tech-startups-in-europe%2F",
+  "headers": {
+    ":status": "200",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes",
+    "access-control-allow-headers": "Authorization, Content-Type",
+    "access-control-expose-headers": "X-WP-Total, X-WP-TotalPages",
+    "age": "0",
+    "allow": "GET",
+    "cache-control": "max-age=60",
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Mon, 10 Feb 2020 07:35:51 GMT",
+    "ec-policy-id": "66811",
+    "link": "<https://techcrunch.com/wp-json/>; rel=\"https://api.w.org/\"",
+    "server": "nginx",
+    "set-cookie": [
+      "A1=d=AQABBNYHQV4CEDZvgJV6XwVDpX1cH2pUDwgFEgEBAQFZQl5KXgAAAAAA_SMAAA&S=AQAAAhuur3AmJ-ghPLTkplFBIeI; Domain=.techcrunch.com; Max-Age=31536000; SameSite=Lax; Path=/; Secure; HttpOnly",
+      "A3=d=AQABBNYHQV4CEDZvgJV6XwVDpX1cH2pUDwgFEgEBAQFZQl5KXgAAAAAA_SMAAA&S=AQAAAhuur3AmJ-ghPLTkplFBIeI; Domain=.techcrunch.com; Max-Age=31536000; SameSite=None; Path=/; Secure; HttpOnly",
+      "A1S=d=AQABBNYHQV4CEDZvgJV6XwVDpX1cH2pUDwgFEgEBAQFZQl5KXgAAAAAA_SMAAA&S=AQAAAhuur3AmJ-ghPLTkplFBIeI; Domain=.techcrunch.com; SameSite=Lax; Path=/; Secure",
+      "GUC=AQEBAQFeQlleSkIceAQj; Domain=.techcrunch.com; Max-Age=31536000; Path=/; Secure"
+    ],
+    "strict-transport-security": "max-age=31536000;",
+    "vary": "Accept-Encoding, Origin, Origin",
+    "x-cache": "miss",
+    "x-content-type-options": "nosniff",
+    "x-robots-tag": "noindex",
+    "x-rq": "sjc1 100 70 3099"
+  },
+  "status": 200
+}

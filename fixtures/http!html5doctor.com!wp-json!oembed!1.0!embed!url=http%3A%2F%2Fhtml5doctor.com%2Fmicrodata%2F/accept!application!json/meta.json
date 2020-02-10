@@ -1,0 +1,22 @@
+{
+  "url": "http://html5doctor.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhtml5doctor.com%2Fmicrodata%2F",
+  "headers": {
+    "server": "Sucuri/Cloudproxy",
+    "date": "Mon, 10 Feb 2020 07:35:49 GMT",
+    "content-type": "application/json; charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "x-sucuri-id": "11010",
+    "x-xss-protection": "1; mode=block",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff, nosniff",
+    "vary": "Cookie,Origin",
+    "x-robots-tag": "noindex",
+    "link": "<http://html5doctor.com/wp-json/>; rel=\"https://api.w.org/\"",
+    "access-control-expose-headers": "X-WP-Total, X-WP-TotalPages",
+    "access-control-allow-headers": "Authorization, Content-Type",
+    "allow": "GET",
+    "x-sucuri-cache": "HIT"
+  },
+  "status": 200
+}

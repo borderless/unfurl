@@ -1,0 +1,23 @@
+{
+  "url": "https://stratechery.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstratechery.com%2F2016%2Fgoogle-uber-and-the-evolution-of-transportation-as-a-service%2F",
+  "headers": {
+    ":status": "401",
+    "server": "nginx",
+    "date": "Mon, 10 Feb 2020 07:35:51 GMT",
+    "content-type": "application/json; charset=UTF-8",
+    "content-length": "118",
+    "x-robots-tag": "noindex",
+    "link": "<https://stratechery.com/wp-json/>; rel=\"https://api.w.org/\"",
+    "x-content-type-options": "nosniff",
+    "access-control-expose-headers": "X-WP-Total, X-WP-TotalPages",
+    "access-control-allow-headers": "Authorization, Content-Type",
+    "vary": "Origin",
+    "x-powered-by": "WP Engine",
+    "x-cacheable": "NO:Auth",
+    "cache-control": "max-age=0, must-revalidate, private",
+    "x-cache": "MISS",
+    "x-pass-why": "",
+    "x-cache-group": "normal"
+  },
+  "status": 401
+}

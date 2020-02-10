@@ -1,0 +1,22 @@
+{
+  "url": "https://publish.twitter.com/oembed?url=https://twitter.com/ericclemmons/status/749223563790471169",
+  "headers": {
+    ":status": "200",
+    "cache-control": "must-revalidate, max-age=3153600000",
+    "content-disposition": "attachment; filename=json.json",
+    "content-encoding": "gzip",
+    "content-length": "503",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Mon, 10 Feb 2020 07:35:46 GMT",
+    "expires": "Wed, 17 Jan 2120 07:35:46 GMT",
+    "last-modified": "Mon, 10 Feb 2020 07:35:46 GMT",
+    "server": "tsa_a",
+    "strict-transport-security": "max-age=631138519",
+    "x-connection-hash": "9ef24f3d46c850a0a795376cfbb118ac",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-response-time": "16",
+    "x-xss-protection": "0"
+  },
+  "status": 200
+}

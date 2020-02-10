@@ -1,0 +1,28 @@
+{
+  "url": "https://www.nytimes.com/svc/oembed/json/?url=https%3A%2F%2Fwww.nytimes.com%2F2016%2F06%2F15%2Fopinion%2Fcampaign-stops%2Fdecoding-donald-trump.html",
+  "headers": {
+    ":status": "200",
+    "content-type": "application/json; charset=utf-8",
+    "access-control-allow-methods": "GET",
+    "access-control-allow-origin": "*",
+    "cache-control": "max-age=600",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "22a416ef0829e0b4117280dfb50fa732",
+    "server": "Google Frontend",
+    "x-origin-time": "2020-02-10 07:35:50 UTC",
+    "accept-ranges": "bytes",
+    "date": "Mon, 10 Feb 2020 07:35:50 GMT",
+    "age": "0",
+    "x-served-by": "cache-sea4460-SEA",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1581320150.388204,VS0,VE309",
+    "vary": "Accept-Encoding, Fastly-SSL",
+    "x-frame-options": "DENY",
+    "x-api-version": "F-X",
+    "x-nyt-route": "content-api-gae",
+    "content-security-policy": "default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: wss: blob:; media-src https: blob:; object-src https:; child-src https: data: blob:; form-action https:; block-all-mixed-content;",
+    "content-length": "616"
+  },
+  "status": 200
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://api.instagram.com/oembed/?type=json&url=https://www.instagram.com/p/BG0m4IDGaqk/",
+  "headers": {
+    ":status": "200",
+    "content-type": "application/json; charset=utf-8",
+    "access-control-allow-credentials": "true",
+    "vary": "Accept-Language, Cookie, Accept-Encoding",
+    "content-language": "en",
+    "content-length": "2964",
+    "content-encoding": "gzip",
+    "date": "Mon, 10 Feb 2020 07:35:48 GMT",
+    "strict-transport-security": "max-age=31536000",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "report-uri https://www.instagram.com/security/csp_report/; default-src 'self' https://www.instagram.com; img-src https: data: blob:; font-src https: data:; media-src 'self' blob: https://www.instagram.com https://*.cdninstagram.com https://*.fbcdn.net; manifest-src 'self' https://www.instagram.com; script-src 'self' https://instagram.com https://www.instagram.com https://*.www.instagram.com https://*.cdninstagram.com wss://www.instagram.com https://*.facebook.com https://*.fbcdn.net https://*.facebook.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://*.www.instagram.com https://www.instagram.com 'unsafe-inline'; connect-src 'self' https://instagram.com https://www.instagram.com https://*.www.instagram.com https://graph.instagram.com https://*.graph.instagram.com https://*.cdninstagram.com https://api.instagram.com https://i.instagram.com wss://www.instagram.com wss://edge-chat.instagram.com https://*.facebook.com https://*.fbcdn.net https://*.facebook.net chrome-extension://boadgeojelhgndaghljhdicfkmllpafd blob:; worker-src 'self' blob: https://www.instagram.com; frame-src 'self' https://instagram.com https://www.instagram.com https://staticxx.facebook.com https://www.facebook.com https://web.facebook.com https://connect.facebook.net https://m.facebook.com; object-src 'none'; upgrade-insecure-requests",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "0",
+    "x-aed": "15",
+    "access-control-expose-headers": "X-IG-Set-WWW-Claim",
+    "set-cookie": [
+      "csrftoken=JHjDFsno6HpJUH85ieOYWabwWfmWM9Sf; Domain=.instagram.com; expires=Mon, 08-Feb-2021 07:35:48 GMT; Max-Age=31449600; Path=/; Secure",
+      "rur=FRC; Domain=.instagram.com; HttpOnly; Path=/; Secure",
+      "mid=XkEH1AAEAAH8X3kMJs3uKSihhxTz; Domain=.instagram.com; expires=Thu, 07-Feb-2030 07:35:48 GMT; Max-Age=315360000; Path=/; Secure",
+      "urlgen=\"{\\\"136.24.147.161\\\": 19165}:1j13bg:aMqoWMoiZq4vKMXcBy2bl27WCdM\"; Domain=.instagram.com; HttpOnly; Path=/; Secure"
+    ],
+    "x-fb-trip-id": "1082456386"
+  },
+  "status": 200
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.ted.com/services/v1/oembed.json?url=https%3A%2F%2Fwww.ted.com%2Ftalks%2Ftim_harford_how_frustration_can_make_us_more_creative",
+  "headers": {
+    ":status": "200",
+    "content-type": "application/json; charset=utf-8",
+    "status": "200 OK",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "access-control-allow-origin": "*",
+    "cache-control": "no-transform, public, max-age=0, s-maxage=3600",
+    "etag": "W/\"eb31c89f30a44e99b1e7962e6f8b2cb6\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes",
+    "date": "Mon, 10 Feb 2020 07:37:17 GMT",
+    "via": "1.1 varnish",
+    "age": "1833",
+    "x-served-by": "e01, cache-iad2132-IAD, cache-sea4450-SEA",
+    "x-cache": "MISS, HIT",
+    "x-cache-hits": "0, 1",
+    "vary": "Accept-Encoding",
+    "set-cookie": [
+      "_nu=1581320238; Expires=Sat, 08 Feb 2025 07:37:17 GMT; path=/",
+      "_abby=9MLgWcNE64lztij; Expires=Sat, 08 Feb 2025 07:37:17 GMT; Path=/; Domain=.ted.com",
+      "_abby_jiosurvey=b; Expires=Mon, 24 Feb 2020 07:37:17 GMT; Path=/"
+    ],
+    "content-length": "581"
+  },
+  "status": 200
+}

@@ -1,0 +1,26 @@
+{
+  "url": "https://publish.twitter.com/oembed?url=https://twitter.com/blakeembrey",
+  "headers": {
+    ":status": "200",
+    "cache-control": "must-revalidate, max-age=3153600000",
+    "content-disposition": "attachment; filename=json.json",
+    "content-encoding": "gzip",
+    "content-length": "282",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Mon, 10 Feb 2020 07:35:44 GMT",
+    "expires": "Wed, 17 Jan 2120 07:35:44 GMT",
+    "last-modified": "Mon, 10 Feb 2020 07:35:44 GMT",
+    "server": "tsa_a",
+    "set-cookie": [
+      "personalization_id=\"v1_1NoIwbVuE0BoaiL7DWVlYg==\"; Max-Age=63072000; Expires=Wed, 9 Feb 2022 07:35:44 GMT; Path=/; Domain=.twitter.com",
+      "guest_id=v1%3A158132014403387028; Max-Age=63072000; Expires=Wed, 9 Feb 2022 07:35:44 GMT; Path=/; Domain=.twitter.com; Secure"
+    ],
+    "strict-transport-security": "max-age=631138519",
+    "x-connection-hash": "9ef24f3d46c850a0a795376cfbb118ac",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-response-time": "7",
+    "x-xss-protection": "0"
+  },
+  "status": 200
+}

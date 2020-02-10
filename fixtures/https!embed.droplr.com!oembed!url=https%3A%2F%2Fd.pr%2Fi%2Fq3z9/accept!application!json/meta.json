@@ -1,0 +1,17 @@
+{
+  "url": "https://embed.droplr.com/oembed?url=https%3A%2F%2Fd.pr%2Fi%2Fq3z9",
+  "headers": {
+    ":status": "200",
+    "content-type": "application/json",
+    "content-length": "671",
+    "date": "Mon, 10 Feb 2020 07:35:45 GMT",
+    "x-amzn-requestid": "7093e98b-3b76-45a3-9208-c206fa2e33c3",
+    "x-amz-apigw-id": "Hq4ovHK6vHcFxhQ=",
+    "x-amzn-trace-id": "Root=1-5e4107d1-4f4b6b73d59cfa40392544e2;Sampled=0",
+    "via": "1.1 ee8246c5442dace7525c74f6a799bb47.cloudfront.net (CloudFront), 1.1 570075675953459325e00b7bcd171df3.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA19-C2, SEA19-C2",
+    "x-cache": "Miss from cloudfront",
+    "x-amz-cf-id": "3Ws5Y5FleTe7UxOCrTrgpgEV7F4Rh68dwkm_HNWTBgga5-FmviWExQ=="
+  },
+  "status": 200
+}

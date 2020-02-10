@@ -1,0 +1,26 @@
+{
+  "url": "https://soundcloud.com/oembed?type=json&url=https%3A%2F%2Fsoundcloud.com%2Flifeofdesiigner%2Fdesiigner-panda",
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "status": "200 OK",
+    "access-control-allow-headers": "Accept, Authorization, Content-Type, Origin",
+    "cache-control": "private, max-age=0, must-revalidate",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, PUT, POST, DELETE",
+    "access-control-expose-headers": "Date",
+    "etag": "\"69d1596951598cc7850e7a8db2d0631e\"",
+    "date": "Mon, 10 Feb 2020 07:35:44 GMT",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "server": "am/2",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 e5147bed59b539c23be4f2e01cf6f6f5.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA19-C1",
+    "x-amz-cf-id": "CIKjB68n7MAICnH79v-1t0FxHfg8HBn936x-rDNIP5iGZvf0DkkVEQ=="
+  },
+  "status": 200
+}

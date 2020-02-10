@@ -91,6 +91,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
+    "entities": "^2.0.0",
     "exif-date": "^2.0.1",
     "exiftool2": "^1.0.1",
     "functools": "^3.4.0",

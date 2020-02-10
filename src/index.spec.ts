@@ -4,7 +4,7 @@ import * as fs from "fs";
 import { promisify } from "util";
 import { stringify } from "querystring";
 import { join } from "path";
-import { Request } from "./types";
+import { Request, RequestOptions } from "./types";
 import { urlScraper, plugins } from "./index";
 import { tee } from "./helpers";
 
@@ -150,8 +150,10 @@ const FIXTURES = [
   "https://schema.org/docs/schema_org_rdfa.html"
 ];
 
-const buildFilename = (url: string, headers: Record<string, string> = {}) => {
-  const params = stringify(headers, ";", ":");
+const buildFilename = (url: string, options: RequestOptions) => {
+  const params = Object.entries(options)
+    .map(([key, value]) => `${key}:${value}`)
+    .join(";");
 
   if (params) return `${filenamify(url)}/${filenamify(params)}`;
 
@@ -160,7 +162,7 @@ const buildFilename = (url: string, headers: Record<string, string> = {}) => {
 
 describe("scrappy", function() {
   const request: Request = async (url, options = {}) => {
-    const filename = buildFilename(url, options.headers);
+    const filename = buildFilename(url, options);
     const path = join(FIXTURE_DIR, filename);
 
     const load = async () => {
@@ -168,9 +170,9 @@ describe("scrappy", function() {
 
       const res = await fetch(url, {
         headers: {
+          Accept: options.accept || "*/*",
           "User-Agent":
-            "Scrappy-Browser 1.0 (+https://github.com/blakeembrey/node-scrappy)",
-          ...options.headers
+            "Scrappy-Browser 1.0 (+https://github.com/blakeembrey/node-scrappy)"
         }
       });
 

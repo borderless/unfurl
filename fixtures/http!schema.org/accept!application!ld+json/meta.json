@@ -1,0 +1,19 @@
+{
+  "url": "https://schema.org/docs/jsonldcontext.jsonld",
+  "headers": {
+    ":status": "200",
+    "access-control-allow-origin": "*",
+    "vary": "Accept, Accept-Encoding",
+    "etag": "2f79895f35d985c542c84087d0e848ef",
+    "last-modified": "Tue, 28 Jan 2020 17:32:58 GMT",
+    "content-type": "application/ld+json; charset=utf-8",
+    "x-cloud-trace-context": "fefd324d67bf039172c0d8d928d31eda",
+    "date": "Mon, 10 Feb 2020 07:06:42 GMT",
+    "server": "Google Frontend",
+    "content-length": "147321",
+    "cache-control": "public, max-age=600",
+    "age": "87",
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"
+  },
+  "status": 200
+}
