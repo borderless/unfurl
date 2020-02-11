@@ -345,15 +345,15 @@ function getProvider(options: ExtractOptions) {
  */
 function getHeadline(options: ExtractOptions) {
   return (
-    options.metadata?.twitter?.title ||
+    decode(options.oembed?.title) ||
     jsonLdValue(
       first(
         options.graph,
         x => x["http://ogp.me/ns#title"] || x["http://purl.org/dc/terms/title"]
       )
     ) ||
+    options.metadata?.twitter?.title ||
     options.metadata?.twitter?.["text:title"] ||
-    decode(options.oembed?.title) ||
     options.metadata?.html?.title
   );
 }

@@ -95,7 +95,7 @@
     "exif-date": "^2.0.1",
     "exiftool2": "^1.0.1",
     "functools": "^3.4.0",
-    "htmlmetaparser": "^2.0.0",
+    "htmlmetaparser": "^2.0.2",
     "htmlparser2": "^4.0.0",
     "iterative": "^1.9.1",
     "jsonld": "^2.0.2"

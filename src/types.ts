@@ -83,7 +83,6 @@ export interface PdfSnippet extends BaseSnippet {
   dateCreated?: Date;
   dateModified?: Date;
   datePublished?: Date;
-  // pageCount?: number;
 }
 
 export interface LinkSnippet extends BaseSnippet {

@@ -71,6 +71,7 @@ const FIXTURES = [
   "http://cloudinary.com/pricing",
   // Forum posts.
   "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
+  "https://moz.com/community/q/are-rel-author-and-rel-publisher-meta-tags-currently-in-use",
   // Video pages.
   "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
   "https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity",

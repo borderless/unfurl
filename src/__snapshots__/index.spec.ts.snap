@@ -1060,7 +1060,7 @@ Object {
     "section": "Opinion",
     "type": "article",
   },
-  "headline": "Opinion | Decoding Donald Trump",
+  "headline": "Decoding Donald Trump",
   "image": Array [
     Object {
       "description": undefined,
@@ -2958,7 +2958,7 @@ Object {
     "url": undefined,
     "width": undefined,
   },
-  "headline": "GitHub",
+  "headline": "Build software better, together",
   "image": Array [
     Object {
       "description": undefined,
@@ -3175,7 +3175,7 @@ Object {
     "section": "Featured",
     "type": "article",
   },
-  "headline": "Git 2.10 has been released - The GitHub Blog",
+  "headline": "Git 2.10 has been released",
   "image": Array [
     Object {
       "description": undefined,
@@ -3512,6 +3512,39 @@ Object {
   },
   "type": "html",
   "url": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://moz.com/community/q/are-rel-author-and-rel-publisher-meta-tags-currently-in-use 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://moz.com/community/q/are-rel-author-and-rel-publisher-meta-tags-currently-in-use",
+  "description": "Have an SEO question? Search our Q&A forum for your question; if not found, please ask our incredible community of SEOs for some help! You can also earn MozPoints by answering other community members' questions.",
+  "encodingFormat": "text/html",
+  "entity": undefined,
+  "headline": "Are rel=author and rel=publisher meta tags currently in use? | SEO Q&A | Moz",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://moz.com/community/q/are-rel-author-and-rel-publisher-meta-tags-currently-in-use",
   "video": Array [],
 }
 `;
@@ -3879,7 +3912,7 @@ Object {
     "type": "rich",
     "width": undefined,
   },
-  "headline": "Desiigner- \\"Panda\\" (Prod. By: Menace)",
+  "headline": "Desiigner- \\"Panda\\" (Prod. By: Menace) by LifeOfDesiigner",
   "image": Array [
     Object {
       "description": undefined,
@@ -4099,7 +4132,7 @@ Object {
     "section": undefined,
     "type": "article",
   },
-  "headline": "The Europas Awards 2016 honored the best tech startups in Europe – TechCrunch",
+  "headline": "The Europas Awards 2016 honored the best tech startups in Europe",
   "image": Array [
     Object {
       "description": undefined,
@@ -4200,7 +4233,7 @@ Object {
   "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
   "encodingFormat": "text/html",
   "entity": undefined,
-  "headline": "bird",
+  "headline": "Twitter. It's what's happening.",
   "image": Array [],
   "locale": undefined,
   "provider": Object {
@@ -4965,7 +4998,11 @@ Object {
     "type": "rich",
     "width": 658,
   },
-  "headline": "Minaal | Travel Backpacks on Instagram: “Bask in the glamor of #nomadlife. Laundromat turned office, New York City. Photo cred: @conni.biesalski #regram #nyc #office #laundry…”",
+  "headline": "Bask in the glamor of #nomadlife.
+Laundromat turned office, New York City.
+
+Photo cred: @conni.biesalski
+#regram  #nyc #office #laundry #laundromat #newyork #newyorkcity #laptop #digitalnomad #locationindependent #welltraveled #justgoshoot #roamtheplanet #hustle #myoffice #officeoftheday #tompkinssquare",
   "image": Array [
     Object {
       "description": undefined,
@@ -5185,7 +5222,7 @@ Object {
   "description": "Convert a string to a valid safe filename",
   "encodingFormat": "text/html",
   "entity": undefined,
-  "headline": "npm: filenamify",
+  "headline": "filenamify",
   "image": Array [
     Object {
       "description": undefined,
@@ -5519,7 +5556,7 @@ Object {
     "type": "video",
     "width": 560,
   },
-  "headline": "How frustration can make us more creative",
+  "headline": "Tim Harford: How frustration can make us more creative",
   "image": Array [
     Object {
       "description": undefined,
