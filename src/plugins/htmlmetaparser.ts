@@ -5,7 +5,7 @@ import { expand } from "jsonld";
 import { Document } from "jsonld/jsonld-spec";
 import { resolve } from "url";
 import { memoizeOne } from "functools";
-import { next, filter, map, list } from "iterative";
+import { next, filter, map, list, flatten } from "iterative";
 import { decodeHTML } from "entities";
 import { contentType, readJson } from "../helpers";
 import {
@@ -146,9 +146,28 @@ async function normalizeJsonLd(
   if (!data) return;
 
   const documentLoader = createJsonLdLoader(request);
-  return expand(data, { base: url, documentLoader }).catch(
+  const result = (await expand(data, { base: url, documentLoader }).catch(
     () => undefined
-  ) as Promise<ResultJsonLd[] | undefined>;
+  )) as ResultJsonLd[] | undefined;
+
+  if (!result) return;
+
+  const idPrefix = url.split("#", 1)[0];
+
+  // Normalize out unneeded `@graph` data from JSON-LD.
+  return Array.from(
+    filter(
+      flatten(
+        map(result, (x): ResultJsonLd[] => {
+          return (x["@graph"] as ResultJsonLd[]) || toArray(x);
+        }) as Iterable<ResultJsonLd[]>
+      ),
+      x => {
+        const id: string = x["@id"] || "";
+        return id === "" || id === idPrefix || id.startsWith(`${idPrefix}#`);
+      }
+    )
+  );
 }
 
 /**
@@ -233,7 +252,7 @@ function copyProps(obj: any, data: any) {
  */
 function jsonLdValue(value: any[] | undefined): string | undefined {
   if (!value) return;
-  return next(filter(map(value, x => x["@value"])), undefined);
+  return decode(next(filter(map(value, x => x["@value"])), undefined));
 }
 
 /**
@@ -267,12 +286,12 @@ function first<T, R>(
  */
 function getCanonicalUrl(options: ExtractOptions) {
   return (
+    toUrl(options.metadata?.html?.canonical, options.url) ||
     toUrl(options.metadata?.twitter?.url, options.url) ||
     toUrl(
       jsonLdValue(first(options.graph, x => x["http://ogp.me/ns#url"])),
       options.url
     ) ||
-    toUrl(options.metadata?.html?.canonical, options.url) ||
     toUrl(options.metadata?.applinks?.["web:url"], options.url) ||
     toUrl(options.oembed?.url, options.url)
   );
@@ -363,7 +382,14 @@ function getHeadline(options: ExtractOptions) {
  */
 function getDescription(options: ExtractOptions) {
   return (
-    jsonLdValue(first(options.graph, x => x["http://ogp.me/ns#description"])) ||
+    jsonLdValue(
+      first(
+        options.graph,
+        x =>
+          x["http://ogp.me/ns#description"] ||
+          x["http://schema.org/description"]
+      )
+    ) ||
     decode(options.oembed?.summary) ||
     options.metadata?.twitter?.["description"] ||
     options.metadata?.html?.["description"]

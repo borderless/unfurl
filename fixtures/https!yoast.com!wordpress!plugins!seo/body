@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Yoast SEO: the #1 WordPress SEO Plugin • Yoast</title>
+
+	
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	var gtm4wp_use_sku_instead        = 1;
+	var gtm4wp_id_prefix              = '';
+	var gtm4wp_remarketing            = false;
+	var gtm4wp_eec                    = 1;
+	var gtm4wp_classicec              = false;
+	var gtm4wp_currency               = 'USD';
+	var gtm4wp_product_per_impression = 0;
+//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- This site is optimized with the Yoast SEO Premium plugin v13.1-RC1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Yoast SEO is the most complete WordPress SEO plugin. It handles the technical optimization of your site &amp; assists with optimizing your content."/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://yoast.com/wordpress/plugins/seo/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="og:product" />
+<meta property="og:title" content="Yoast SEO: the #1 WordPress SEO plugin" />
+<meta property="og:description" content="Yoast SEO is the most complete WordPress SEO plugin. It handles the technical optimization of your site &amp; assists with optimizing your content." />
+<meta property="og:url" content="https://yoast.com/wordpress/plugins/seo/" />
+<meta property="og:site_name" content="Yoast" />
+<meta property="article:author" content="https://www.facebook.com/jdevalk" />
+<meta property="article:tag" content="Yoast SEO" />
+<meta property="article:tag" content="Yoast SEO Premium" />
+<meta property="og:image" content="https://yoast.com/app/uploads/2010/10/Yoast_SEO_FB-1-1.png" />
+<meta property="og:image:secure_url" content="https://yoast.com/app/uploads/2010/10/Yoast_SEO_FB-1-1.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
+<meta property="product:price:amount" content="89"/>
+<meta property="product:price:currency" content="USD"/>
+<meta property="product:availability" content="instock"/>
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Yoast SEO is the most complete WordPress SEO plugin. It handles the technical optimization of your site &amp; assists with optimizing your content." />
+<meta name="twitter:title" content="Yoast SEO: the #1 WordPress SEO Plugin • Yoast" />
+<meta name="twitter:site" content="@yoast" />
+<meta name="twitter:image" content="https://yoast.com/app/uploads/2018/12/Yoast_SEO_FB-2.png" />
+<meta name="twitter:creator" content="@jdevalk" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://yoast.com/#organization","name":"Yoast","url":"https://yoast.com/","sameAs":["https://www.facebook.com/yoast","https://www.instagram.com/yoast/","https://www.linkedin.com/company/1414157/","https://www.youtube.com/yoast","https://www.pinterest.com/yoast/","https://en.wikipedia.org/wiki/Yoast","https://twitter.com/yoast"],"logo":{"@type":"ImageObject","@id":"https://yoast.com/#logo","inLanguage":"en-US","url":"https://yoast.com/app/uploads/2019/06/Yoast-Logo-Icon-120x120.png","width":120,"height":120,"caption":"Yoast"},"image":{"@id":"https://yoast.com/#logo"},"legalName":"Yoast BV"},{"@type":"WebSite","@id":"https://yoast.com/#website","url":"https://yoast.com/","name":"Yoast","inLanguage":"en-US","description":"SEO for everyone","publisher":{"@id":"https://yoast.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://yoast.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://yoast.com/wordpress/plugins/seo/#primaryimage","inLanguage":"en-US","url":"https://yoast.com/app/uploads/2010/10/Yoast_SEO_FB-1-1.png","width":1200,"height":628,"caption":"Yoast SEO"},{"@type":["WebPage","ItemPage"],"@id":"https://yoast.com/wordpress/plugins/seo/#webpage","url":"https://yoast.com/wordpress/plugins/seo/","name":"Yoast SEO: the #1 WordPress SEO Plugin \u2022 Yoast","isPartOf":{"@id":"https://yoast.com/#website"},"inLanguage":"en-US","primaryImageOfPage":{"@id":"https://yoast.com/wordpress/plugins/seo/#primaryimage"},"datePublished":"2010-10-11T20:07:47+00:00","dateModified":"2020-01-13T09:17:14+00:00","description":"Yoast SEO is the most complete WordPress SEO plugin. It handles the technical optimization of your site & assists with optimizing your content.","breadcrumb":{"@id":"https://yoast.com/wordpress/plugins/seo/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://yoast.com/wordpress/plugins/seo/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://yoast.com/","url":"https://yoast.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://yoast.com/wordpress/plugins/","url":"https://yoast.com/wordpress/plugins/","name":"WordPress plugins"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://yoast.com/wordpress/plugins/seo/","url":"https://yoast.com/wordpress/plugins/seo/","name":"Yoast SEO for WordPress"}}]},{"@type":["Product","softwareApplication"],"@id":"https://yoast.com/wordpress/plugins/seo/#product","mainEntityOfPage":{"@id":"https://yoast.com/wordpress/plugins/seo/#webpage"},"name":"Yoast SEO for WordPress","sku":"82101","brand":{"@id":"https://yoast.com/#organization"},"manufacturer":{"@id":"https://yoast.com/#organization"},"description":"Yoast SEO is the most complete WordPress SEO plugin. It handles the technical optimization of your site & assists with optimizing your content.","operatingSystem":"WordPress","applicationCategory":"Plugin","offers":{"@type":"AggregateOffer","@id":"https://yoast.com/wordpress/plugins/seo/#/aggregate-offer/3327","lowPrice":"0.00","priceCurrency":"EUR","offerCount":4,"offers":[{"@type":"Offer","price":"0.00"},{"@type":"Offer","price":"79.00"},{"@type":"Offer","price":"89.00","priceCurrency":"USD"},{"@type":"Offer","price":"79.00","priceCurrency":"GBP"}]},"aggregateRating":{"@type":"AggregateRating","worstRating":1,"bestRating":5,"ratingValue":4.9000000000000004,"ratingCount":27072,"reviewCount":27072},"image":{"@type":"ImageObject","@id":"https://yoast.com/wordpress/plugins/seo/#product_image","inLanguage":"en-US","url":"https://yoast.com/app/uploads/2017/04/Yoast_SEO_icon_nw.png","width":500,"height":500,"caption":"Yoast SEO icon"}}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//instant.page' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='preconnect' href='https://www.googletagmanager.com' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://yoast.com/app/themes/yoast-theme/css/fontawesome.min.css?ver=1581348006' type='text/css' media='all' />
+<link rel='stylesheet' id='yoast-com-css'  href='https://yoast.com/app/themes/yoast-theme/css/style.min.css?ver=1581348007' type='text/css' media='all' />
+	<script>
+		if ( navigator.serviceWorker ) {
+			window.addEventListener('load', function() {
+									navigator.serviceWorker.register(
+						"https:\/\/yoast.com\/?wp_service_worker=1",
+						{"scope":"\/"}					);
+							} );
+		}
+	</script>
+	<script type='text/javascript' src='https://yoast.com/app/themes/yoast-theme/js/includes/jquery-3.4.1.min.js?ver=1581347952'></script>
+<script type='text/javascript' src='https://yoast.com/app/plugins/duracelltomi-google-tag-manager/js/gtm4wp-woocommerce-enhanced.js?ver=1.10'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var yoastComL10n = {"processingWooCommerceOrder":"Processing your order... please wait"};
+var wc_eu_vat_params = {"eu_countries":["AT","BE","BG","CY","CZ","DE","DK","EE","ES","FI","FR","GB","GR","HR","HU","IE","IT","LT","LU","LV","MT","NL","PL","PT","RO","SE","SI","SK","IM","MC"]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://yoast.com/app/themes/yoast-com/assets/js/yoast.js?ver=1581348007'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shop_switcher = {"cookie_domain":".yoast.com"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://yoast.com/app/themes/yoast-theme/js/yoast.js?ver=1581348007'></script>
+<script type='text/javascript' src='https://yoast.com/app/themes/yoast-theme/js/includes/jquery.modal.min.js?ver=1581347952'></script>
+<script type='text/javascript' src='https://yoast.com/app/themes/yoast-theme/js/includes/jquery.modal.enhanced.js?ver=1581347952'></script>
+<link rel='https://api.w.org/' href='https://yoast.com/wp-json/' />
+<meta name="generator" content="WordPress 5.3" />
+<meta name="generator" content="WooCommerce 3.2.6" />
+<link rel="alternate" type="application/json+oembed" href="https://yoast.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fyoast.com%2Fwordpress%2Fplugins%2Fseo%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://yoast.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fyoast.com%2Fwordpress%2Fplugins%2Fseo%2F&#038;format=xml" />
+		<link rel="manifest" href="https://yoast.com/wp-json/app/v1/web-manifest">
+		<meta name="theme-color" content="#ffffff">
+		<style type="text/css">.wpkb-rating-options label { display: inline-block; margin-left: 5px; cursor: pointer; }</style><link rel="search" type="application/opensearchdescription+xml" href="https://yoast.com/app/opensearch.xml" title="Yoast.com" />
+		<script>
+			var dataLayer = dataLayer || [];
+			Array.prototype.forEach.call( document.getElementsByClassName( "yoast-schema-graph" ), function ( el ) {
+				var json  = JSON.parse( el.innerHTML );
+				var layer = {};
+				Array.prototype.forEach.call( json[ "@graph" ], function ( piece ) {
+					if ( Array.isArray( piece[ "@type" ] ) ) {
+						Array.prototype.forEach.call( piece[ "@type" ], function ( p ) {
+							var pieceName      = p.toLowerCase();
+							layer[ pieceName ] = piece;
+						} );
+					}
+					else {
+						var pieceName      = piece[ "@type" ].toLowerCase();
+						layer[ pieceName ] = piece;
+					}
+				} );
+				dataLayer.push( { "yoast_schema": layer } );
+			} );
+		</script>
+		
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+	var dataLayer_content = {"logged_in":false,"currency_code":"$","currency_string":"USD","user_region":"US","yoast_seo_score":64,"yoast_readability_score":60,"yoast_cornerstone_content":true,"pageTitle":"Yoast SEO: the #1 WordPress SEO Plugin • Yoast","pagePostType":"yoast_plugins","pagePostType2":"single-yoast_plugins","pagePostAuthor":"Joost de Valk","pagePostDate":"11 October, 2010","pagePostDateYear":"2010","pagePostDateMonth":"10","pagePostDateDay":"11"};
+
+	// if dataLayer contains ecommerce purchase data, check whether it has been already tracked
+	if ( dataLayer_content.transactionId || ( dataLayer_content.ecommerce && dataLayer_content.ecommerce.purchase ) ) {
+		// read order id already tracked from cookies
+		var gtm4wp_orderid_tracked = "";
+		var gtm4wp_cookie = "; " + document.cookie;
+		var gtm4wp_cookie_parts = gtm4wp_cookie.split( "; gtm4wp_orderid_tracked=" );
+		if ( gtm4wp_cookie_parts.length == 2 ) {
+			gtm4wp_orderid_tracked = gtm4wp_cookie_parts.pop().split(";").shift();
+		}
+
+		// check enhanced ecommerce
+		if ( dataLayer_content.ecommerce && dataLayer_content.ecommerce.purchase ) {
+			if ( gtm4wp_orderid_tracked && ( dataLayer_content.ecommerce.purchase.actionField.id == gtm4wp_orderid_tracked ) ) {
+				delete dataLayer_content.ecommerce.purchase;
+			} else {
+				gtm4wp_orderid_tracked = dataLayer_content.ecommerce.purchase.actionField.id;
+			}
+		}
+
+		// check standard ecommerce
+		if ( dataLayer_content.transactionId ) {
+			if ( gtm4wp_orderid_tracked && ( dataLayer_content.transactionId == gtm4wp_orderid_tracked ) ) {
+				delete dataLayer_content.transactionId;
+				delete dataLayer_content.transactionDate;
+				delete dataLayer_content.transactionType;
+				delete dataLayer_content.transactionAffiliation;
+				delete dataLayer_content.transactionTotal;
+				delete dataLayer_content.transactionShipping;
+				delete dataLayer_content.transactionTax;
+				delete dataLayer_content.transactionPaymentType;
+				delete dataLayer_content.transactionCurrency;
+				delete dataLayer_content.transactionShippingMethod;
+				delete dataLayer_content.transactionPromoCode;
+				delete dataLayer_content.transactionProducts;
+			} else {
+				gtm4wp_orderid_tracked = dataLayer_content.transactionId;
+			}
+		}
+
+		if ( gtm4wp_orderid_tracked ) {
+			var gtm4wp_orderid_cookie_expire = new Date();
+			gtm4wp_orderid_cookie_expire.setTime( gtm4wp_orderid_cookie_expire.getTime() + (365*24*60*60*1000) );
+			var gtm4wp_orderid_cookie_expires = "expires="+ gtm4wp_orderid_cookie_expire.toUTCString();
+			document.cookie = "gtm4wp_orderid_cookie_expire=" + gtm4wp_orderid_tracked + ";" + gtm4wp_orderid_cookie_expire + ";path=/";
+		}
+
+	}
+
+	dataLayer.push( dataLayer_content );//]]>
+</script>
+<script data-cfasync="false">//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NHRB36F');//]]>
+</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><script type="text/javascript">var algolia = {"debug":false,"application_id":"RC8G2UCWJK","search_api_key":"d431a0211e57d437b2c624e2152e84d6","powered_by_enabled":false,"query":"","autocomplete":{"sources":[{"index_id":"searchable_posts","index_name":"yoastcom_searchable_posts","label":"Searchable posts","admin_name":"All posts","position":10,"max_suggestions":5,"tmpl_suggestion":"autocomplete-post-suggestion","enabled":true}],"input_selector":"input[name='s']:not('.no-autocomplete')"},"indices":{"searchable_posts":{"name":"yoastcom_searchable_posts","id":"searchable_posts","enabled":true,"replicas":[]}}};</script><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://yoast.com/app/uploads/2015/09/cropped-Yoast_Favicon_512x512-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://yoast.com/app/uploads/2015/09/cropped-Yoast_Favicon_512x512-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://yoast.com/app/uploads/2015/09/cropped-Yoast_Favicon_512x512-180x180.png" />
+<meta name="msapplication-TileImage" content="https://yoast.com/app/uploads/2015/09/cropped-Yoast_Favicon_512x512-270x270.png" />
+<link rel="apple-touch-icon" href="https://yoast.com/app/themes/yoast-theme/images/yoast-logo-icon-120x120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://yoast.com/app/themes/yoast-theme/images/yoast-logo-icon-152x152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://yoast.com/app/themes/yoast-theme/images/yoast-logo-icon-512x512.png" sizes="512x512">
+<link rel='mask-icon' color='#a4286a' href='https://yoast.com/app/themes/yoast-theme/images/yoast-logo-icon-black.svg'>
+<script type="text/html" id="tmpl-autocomplete-header">
+  <div class="autocomplete-header">
+	<div class="autocomplete-header-title">{{{ data.label }}}</div>
+	<div class="clear"></div>
+  </div>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-post-suggestion">
+  <a class="suggestion-link" href="{{ data.permalink }}" title="{{ data.post_title }}">
+	<# if ( data.images.thumbnail ) { #>
+	  <img class="suggestion-post-thumbnail" src="{{ data.images.thumbnail.url }}" alt="{{ data.post_title }}">
+	  <# } #>
+		<div class="suggestion-post-attributes">
+		  <span class="suggestion-post-title">{{{ data._highlightResult.post_title.value }}}</span>
+		  <# if ( data._snippetResult['content'] ) { #>
+			<span class="suggestion-post-content">{{{ data._snippetResult['content'].value }}}</span>
+			<# } #>
+		</div>
+  </a>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-term-suggestion">
+  <a class="suggestion-link" href="{{ data.permalink }}" title="{{ data.name }}">
+	<svg viewBox="0 0 21 21" width="21" height="21">
+	  <svg width="21" height="21" viewBox="0 0 21 21">
+		<path
+			d="M4.662 8.72l-1.23 1.23c-.682.682-.68 1.792.004 2.477l5.135 5.135c.7.693 1.8.688 2.48.005l1.23-1.23 5.35-5.346c.31-.31.54-.92.51-1.36l-.32-4.29c-.09-1.09-1.05-2.06-2.15-2.14l-4.3-.33c-.43-.03-1.05.2-1.36.51l-.79.8-2.27 2.28-2.28 2.27zm9.826-.98c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25-1.25.56-1.25 1.25.56 1.25 1.25 1.25z"
+			fill-rule="evenodd"></path>
+	  </svg>
+	</svg>
+	<span class="suggestion-post-title">{{{ data._highlightResult.name.value }}}</span>
+  </a>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-user-suggestion">
+  <a class="suggestion-link user-suggestion-link" href="{{ data.posts_url }}" title="{{ data.display_name }}">
+	<# if ( data.avatar_url ) { #>
+	  <img class="suggestion-user-thumbnail" src="{{ data.avatar_url }}" alt="{{ data.display_name }}">
+	  <# } #>
+
+		<span class="suggestion-post-title">{{{ data._highlightResult.display_name.value }}}</span>
+  </a>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-footer">
+  <div class="autocomplete-footer">
+	<div class="autocomplete-footer-branding">
+	  <a href="#" class="algolia-powered-by-link" title="Algolia">
+		<svg width="130" viewBox="0 0 130 18" xmlns="http://www.w3.org/2000/svg">
+		  <title>Search by Algolia</title>
+		  <defs>
+			<linearGradient x1="-36.868%" y1="134.936%" x2="129.432%" y2="-27.7%" id="a">
+			  <stop stop-color="#00AEFF" offset="0%"/>
+			  <stop stop-color="#3369E7" offset="100%"/>
+			</linearGradient>
+		  </defs>
+		  <g fill="none" fill-rule="evenodd">
+			<path
+				d="M59.399.022h13.299a2.372 2.372 0 0 1 2.377 2.364V15.62a2.372 2.372 0 0 1-2.377 2.364H59.399a2.372 2.372 0 0 1-2.377-2.364V2.381A2.368 2.368 0 0 1 59.399.022z"
+				fill="url(#a)"/>
+			<path
+				d="M66.257 4.56c-2.815 0-5.1 2.272-5.1 5.078 0 2.806 2.284 5.072 5.1 5.072 2.815 0 5.1-2.272 5.1-5.078 0-2.806-2.279-5.072-5.1-5.072zm0 8.652c-1.983 0-3.593-1.602-3.593-3.574 0-1.972 1.61-3.574 3.593-3.574 1.983 0 3.593 1.602 3.593 3.574a3.582 3.582 0 0 1-3.593 3.574zm0-6.418v2.664c0 .076.082.131.153.093l2.377-1.226c.055-.027.071-.093.044-.147a2.96 2.96 0 0 0-2.465-1.487c-.055 0-.11.044-.11.104l.001-.001zm-3.33-1.956l-.312-.311a.783.783 0 0 0-1.106 0l-.372.37a.773.773 0 0 0 0 1.101l.307.305c.049.049.121.038.164-.011.181-.245.378-.479.597-.697.225-.223.455-.42.707-.599.055-.033.06-.109.016-.158h-.001zm5.001-.806v-.616a.781.781 0 0 0-.783-.779h-1.824a.78.78 0 0 0-.783.779v.632c0 .071.066.12.137.104a5.736 5.736 0 0 1 1.588-.223c.52 0 1.035.071 1.534.207a.106.106 0 0 0 .131-.104z"
+				fill="#FFF"/>
+			<path
+				d="M102.162 13.762c0 1.455-.372 2.517-1.123 3.193-.75.676-1.895 1.013-3.44 1.013-.564 0-1.736-.109-2.673-.316l.345-1.689c.783.163 1.819.207 2.361.207.86 0 1.473-.174 1.84-.523.367-.349.548-.866.548-1.553v-.349a6.374 6.374 0 0 1-.838.316 4.151 4.151 0 0 1-1.194.158 4.515 4.515 0 0 1-1.616-.278 3.385 3.385 0 0 1-1.254-.817 3.744 3.744 0 0 1-.811-1.351c-.192-.539-.29-1.504-.29-2.212 0-.665.104-1.498.307-2.054a3.925 3.925 0 0 1 .904-1.433 4.124 4.124 0 0 1 1.441-.926 5.31 5.31 0 0 1 1.945-.365c.696 0 1.337.087 1.961.191a15.86 15.86 0 0 1 1.588.332v8.456h-.001zm-5.954-4.206c0 .893.197 1.885.592 2.299.394.414.904.621 1.528.621.34 0 .663-.049.964-.142a2.75 2.75 0 0 0 .734-.332v-5.29a8.531 8.531 0 0 0-1.413-.18c-.778-.022-1.369.294-1.786.801-.411.507-.619 1.395-.619 2.223zm16.12 0c0 .719-.104 1.264-.318 1.858a4.389 4.389 0 0 1-.904 1.52c-.389.42-.854.746-1.402.975-.548.229-1.391.36-1.813.36-.422-.005-1.26-.125-1.802-.36a4.088 4.088 0 0 1-1.397-.975 4.486 4.486 0 0 1-.909-1.52 5.037 5.037 0 0 1-.329-1.858c0-.719.099-1.411.318-1.999.219-.588.526-1.09.92-1.509.394-.42.865-.741 1.402-.97a4.547 4.547 0 0 1 1.786-.338 4.69 4.69 0 0 1 1.791.338c.548.229 1.019.55 1.402.97.389.42.69.921.909 1.509.23.588.345 1.28.345 1.999h.001zm-2.191.005c0-.921-.203-1.689-.597-2.223-.394-.539-.948-.806-1.654-.806-.707 0-1.26.267-1.654.806-.394.539-.586 1.302-.586 2.223 0 .932.197 1.558.592 2.098.394.545.948.812 1.654.812.707 0 1.26-.272 1.654-.812.394-.545.592-1.166.592-2.098h-.001zm6.962 4.707c-3.511.016-3.511-2.822-3.511-3.274L113.583.926l2.142-.338v10.003c0 .256 0 1.88 1.375 1.885v1.792h-.001zm3.774 0h-2.153V5.072l2.153-.338v9.534zm-1.079-10.542c.718 0 1.304-.578 1.304-1.291 0-.714-.581-1.291-1.304-1.291-.723 0-1.304.578-1.304 1.291 0 .714.586 1.291 1.304 1.291zm6.431 1.013c.707 0 1.304.087 1.786.262.482.174.871.42 1.156.73.285.311.488.735.608 1.182.126.447.186.937.186 1.476v5.481a25.24 25.24 0 0 1-1.495.251c-.668.098-1.419.147-2.251.147a6.829 6.829 0 0 1-1.517-.158 3.213 3.213 0 0 1-1.178-.507 2.455 2.455 0 0 1-.761-.904c-.181-.37-.274-.893-.274-1.438 0-.523.104-.855.307-1.215.208-.36.487-.654.838-.883a3.609 3.609 0 0 1 1.227-.49 7.073 7.073 0 0 1 2.202-.103c.263.027.537.076.833.147v-.349c0-.245-.027-.479-.088-.697a1.486 1.486 0 0 0-.307-.583c-.148-.169-.34-.3-.581-.392a2.536 2.536 0 0 0-.915-.163c-.493 0-.942.06-1.353.131-.411.071-.75.153-1.008.245l-.257-1.749c.268-.093.668-.185 1.183-.278a9.335 9.335 0 0 1 1.66-.142l-.001-.001zm.181 7.731c.657 0 1.145-.038 1.484-.104v-2.168a5.097 5.097 0 0 0-1.978-.104c-.241.033-.46.098-.652.191a1.167 1.167 0 0 0-.466.392c-.121.169-.175.267-.175.523 0 .501.175.79.493.981.323.196.75.289 1.293.289h.001zM84.109 4.794c.707 0 1.304.087 1.786.262.482.174.871.42 1.156.73.29.316.487.735.608 1.182.126.447.186.937.186 1.476v5.481a25.24 25.24 0 0 1-1.495.251c-.668.098-1.419.147-2.251.147a6.829 6.829 0 0 1-1.517-.158 3.213 3.213 0 0 1-1.178-.507 2.455 2.455 0 0 1-.761-.904c-.181-.37-.274-.893-.274-1.438 0-.523.104-.855.307-1.215.208-.36.487-.654.838-.883a3.609 3.609 0 0 1 1.227-.49 7.073 7.073 0 0 1 2.202-.103c.257.027.537.076.833.147v-.349c0-.245-.027-.479-.088-.697a1.486 1.486 0 0 0-.307-.583c-.148-.169-.34-.3-.581-.392a2.536 2.536 0 0 0-.915-.163c-.493 0-.942.06-1.353.131-.411.071-.75.153-1.008.245l-.257-1.749c.268-.093.668-.185 1.183-.278a8.89 8.89 0 0 1 1.66-.142l-.001-.001zm.186 7.736c.657 0 1.145-.038 1.484-.104v-2.168a5.097 5.097 0 0 0-1.978-.104c-.241.033-.46.098-.652.191a1.167 1.167 0 0 0-.466.392c-.121.169-.175.267-.175.523 0 .501.175.79.493.981.318.191.75.289 1.293.289h.001zm8.682 1.738c-3.511.016-3.511-2.822-3.511-3.274L89.461.926l2.142-.338v10.003c0 .256 0 1.88 1.375 1.885v1.792h-.001z"
+				fill="#182359"/>
+			<path
+				d="M5.027 11.025c0 .698-.252 1.246-.757 1.644-.505.397-1.201.596-2.089.596-.888 0-1.615-.138-2.181-.414v-1.214c.358.168.739.301 1.141.397.403.097.778.145 1.125.145.508 0 .884-.097 1.125-.29a.945.945 0 0 0 .363-.779.978.978 0 0 0-.333-.747c-.222-.204-.68-.446-1.375-.725-.716-.29-1.221-.621-1.515-.994-.294-.372-.44-.82-.44-1.343 0-.655.233-1.171.698-1.547.466-.376 1.09-.564 1.875-.564.752 0 1.5.165 2.245.494l-.408 1.047c-.698-.294-1.321-.44-1.869-.44-.415 0-.73.09-.945.271a.89.89 0 0 0-.322.717c0 .204.043.379.129.524.086.145.227.282.424.411.197.129.551.299 1.063.51.577.24.999.464 1.268.671.269.208.466.442.591.704.125.261.188.569.188.924l-.001.002zm3.98 2.24c-.924 0-1.646-.269-2.167-.808-.521-.539-.782-1.281-.782-2.226 0-.97.242-1.733.725-2.288.483-.555 1.148-.833 1.993-.833.784 0 1.404.238 1.858.714.455.476.682 1.132.682 1.966v.682H7.357c.018.577.174 1.02.467 1.329.294.31.707.465 1.241.465.351 0 .678-.033.98-.099a5.1 5.1 0 0 0 .975-.33v1.026a3.865 3.865 0 0 1-.935.312 5.723 5.723 0 0 1-1.08.091l.002-.001zm-.231-5.199c-.401 0-.722.127-.964.381s-.386.625-.432 1.112h2.696c-.007-.491-.125-.862-.354-1.115-.229-.252-.544-.379-.945-.379l-.001.001zm7.692 5.092l-.252-.827h-.043c-.286.362-.575.608-.865.739-.29.131-.662.196-1.117.196-.584 0-1.039-.158-1.367-.473-.328-.315-.491-.761-.491-1.337 0-.612.227-1.074.682-1.386.455-.312 1.148-.482 2.079-.51l1.026-.032v-.317c0-.38-.089-.663-.266-.851-.177-.188-.452-.282-.824-.282-.304 0-.596.045-.876.134a6.68 6.68 0 0 0-.806.317l-.408-.902a4.414 4.414 0 0 1 1.058-.384 4.856 4.856 0 0 1 1.085-.132c.756 0 1.326.165 1.711.494.385.329.577.847.577 1.552v4.002h-.902l-.001-.001zm-1.88-.859c.458 0 .826-.128 1.104-.384.278-.256.416-.615.416-1.077v-.516l-.763.032c-.594.021-1.027.121-1.297.298s-.406.448-.406.814c0 .265.079.47.236.615.158.145.394.218.709.218h.001zm7.557-5.189c.254 0 .464.018.628.054l-.124 1.176a2.383 2.383 0 0 0-.559-.064c-.505 0-.914.165-1.227.494-.313.329-.47.757-.47 1.284v3.105h-1.262V7.218h.988l.167 1.047h.064c.197-.354.454-.636.771-.843a1.83 1.83 0 0 1 1.023-.312h.001zm4.125 6.155c-.899 0-1.582-.262-2.049-.787-.467-.525-.701-1.277-.701-2.259 0-.999.244-1.767.733-2.304.489-.537 1.195-.806 2.119-.806.627 0 1.191.116 1.692.349l-.381 1.015c-.534-.208-.974-.312-1.321-.312-1.028 0-1.542.682-1.542 2.046 0 .666.128 1.166.384 1.501.256.335.631.502 1.125.502a3.23 3.23 0 0 0 1.595-.419v1.101a2.53 2.53 0 0 1-.722.285 4.356 4.356 0 0 1-.932.086v.002zm8.277-.107h-1.268V9.506c0-.458-.092-.8-.277-1.026-.184-.226-.477-.338-.878-.338-.53 0-.919.158-1.168.475-.249.317-.373.848-.373 1.593v2.949h-1.262V4.801h1.262v2.122c0 .34-.021.704-.064 1.09h.081a1.76 1.76 0 0 1 .717-.666c.306-.158.663-.236 1.072-.236 1.439 0 2.159.725 2.159 2.175v3.873l-.001-.001zm7.649-6.048c.741 0 1.319.269 1.732.806.414.537.62 1.291.62 2.261 0 .974-.209 1.732-.628 2.275-.419.542-1.001.814-1.746.814-.752 0-1.336-.27-1.751-.811h-.086l-.231.704h-.945V4.801h1.262v1.987l-.021.655-.032.553h.054c.401-.591.992-.886 1.772-.886zm-.328 1.031c-.508 0-.875.149-1.098.448-.224.299-.339.799-.346 1.501v.086c0 .723.115 1.247.344 1.571.229.324.603.486 1.123.486.448 0 .787-.177 1.018-.532.231-.354.346-.867.346-1.536 0-1.35-.462-2.025-1.386-2.025l-.001.001zm3.244-.924h1.375l1.209 3.368c.183.48.304.931.365 1.354h.043c.032-.197.091-.436.177-.717.086-.281.541-1.616 1.364-4.004h1.364l-2.541 6.73c-.462 1.235-1.232 1.853-2.31 1.853-.279 0-.551-.03-.816-.091v-.999c.19.043.406.064.65.064.609 0 1.037-.353 1.284-1.058l.22-.559-2.385-5.941h.001z"
+				fill="#1D3657"/>
+		  </g>
+		</svg>
+	  </a>
+	</div>
+  </div>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-empty">
+  <div class="autocomplete-empty">
+	  No results matched your query 	<span class="empty-query">"{{ data.query }}"</span>
+  </div>
+</script>
+
+<script type="text/javascript">
+  jQuery(function () {
+	/* init Algolia client */
+	var client = algoliasearch(algolia.application_id, algolia.search_api_key);
+
+	/* setup default sources */
+	var sources = [];
+	jQuery.each(algolia.autocomplete.sources, function (i, config) {
+	  var suggestion_template = wp.template(config['tmpl_suggestion']);
+	  sources.push({
+		source: algoliaAutocomplete.sources.hits(client.initIndex(config['index_name']), {
+		  hitsPerPage: config['max_suggestions'],
+		  attributesToSnippet: [
+			'content:10'
+		  ],
+		  highlightPreTag: '__ais-highlight__',
+		  highlightPostTag: '__/ais-highlight__'
+		}),
+		templates: {
+		  header: function () {
+			return wp.template('autocomplete-header')({
+			  label: _.escape(config['label'])
+			});
+		  },
+		  suggestion: function (hit) {
+			for (var key in hit._highlightResult) {
+			  /* We do not deal with arrays. */
+			  if (typeof hit._highlightResult[key].value !== 'string') {
+				continue;
+			  }
+			  hit._highlightResult[key].value = _.escape(hit._highlightResult[key].value);
+			  hit._highlightResult[key].value = hit._highlightResult[key].value.replace(/__ais-highlight__/g, '<em>').replace(/__\/ais-highlight__/g, '</em>');
+			}
+
+			for (var key in hit._snippetResult) {
+			  /* We do not deal with arrays. */
+			  if (typeof hit._snippetResult[key].value !== 'string') {
+				continue;
+			  }
+
+			  hit._snippetResult[key].value = _.escape(hit._snippetResult[key].value);
+			  hit._snippetResult[key].value = hit._snippetResult[key].value.replace(/__ais-highlight__/g, '<em>').replace(/__\/ais-highlight__/g, '</em>');
+			}
+
+			return suggestion_template(hit);
+		  }
+		}
+	  });
+
+	});
+
+	/* Setup dropdown menus */
+	jQuery(algolia.autocomplete.input_selector).each(function (i) {
+	  var $searchInput = jQuery(this);
+
+	  var config = {
+		debug: algolia.debug,
+		hint: false,
+		openOnFocus: true,
+		appendTo: 'body',
+		templates: {
+		  empty: wp.template('autocomplete-empty')
+		}
+	  };
+
+	  if (algolia.powered_by_enabled) {
+		config.templates.footer = wp.template('autocomplete-footer');
+	  }
+
+	  /* Instantiate autocomplete.js */
+	  var autocomplete = algoliaAutocomplete($searchInput[0], config, sources)
+	  .on('autocomplete:selected', function (e, suggestion) {
+		/* Redirect the user when we detect a suggestion selection. */
+		window.location.href = suggestion.permalink;
+	  });
+
+	  /* Force the dropdown to be re-drawn on scroll to handle fixed containers. */
+	  jQuery(window).scroll(function() {
+		if(autocomplete.autocomplete.getWrapper().style.display === "block") {
+		  autocomplete.autocomplete.close();
+		  autocomplete.autocomplete.open();
+		}
+	  });
+	});
+
+	jQuery(document).on("click", ".algolia-powered-by-link", function (e) {
+	  e.preventDefault();
+	  window.location = "https://www.algolia.com/?utm_source=WordPress&utm_medium=extension&utm_content=" + window.location.hostname + "&utm_campaign=poweredby";
+	});
+  });
+</script>
+</head>
+<body class="yoast_plugins-template-default single single-yoast_plugins postid-3327 custom-background has_paypal_express_checkout theme-plugins has-sticky-purchase-button">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHRB36F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<header class="siteheader row mb-0" >
+			<div id="cookie-notice" class="callout callout-cookies">
+		<div class="row mb-0">
+			<p>Cookies help us provide, protect and improve our products and services. By using our website, you agree to our use of cookies (<a href="https://yoast.com/privacy-policy">Privacy policy</a>).</p>
+
+			<button class="close-button" aria-label="Dismiss alert" type="button">
+				<span aria-hidden="true" class="fa fa-close"></span>
+			</button>
+		</div>
+	</div>
+
+		<a href="/" class="siteheader__title">
+	<picture>
+		<source media="(max-width: 895px)"
+				srcset="https://yoast.com/app/themes/yoast-theme/images/logo-diap.svg" sizes="100%"/>
+		<source media="(min-width: 896px)"
+				srcset="https://yoast.com/app/themes/yoast-theme/images/logo.svg"
+				sizes="100%"/>
+		<img src="https://yoast.com/app/themes/yoast-theme/images/logo.svg" alt="Yoast - SEO for everyone" loading="eager"/>
+	</picture>
+</a>
+
+
+<ul class="utility-menu">
+	<li class="login">
+		<a href="https://my.yoast.com/">
+			<i class="fa fa-user"></i>
+
+			<span class="hide-on-tablet">
+				Login			</span>
+		</a>
+	</li>
+
+	
+	<li class="checkout">
+		<a class="cart" href="https://yoast.com/cart/">
+			<i class="fa fa-shop"></i>
+
+			<span class="hide-on-tablet">Cart</span>
+
+			<div class="num-items-container">
+				<span id="cart_count" class="num-items"></span>
+			</div>
+		</a>
+	</li>
+
+	<li class="hide-on-tablet"><label for="currency-switcher" class="screen-reader-text">Change currency</label><select class="currency-switcher" id="currency-switcher"><option  selected='selected' value="1">USD ($)</option><option  value="2">EUR (€)</option><option  value="7">GBP (£)</option></select></li>
+
+	
+	<li class="hide-on-desktop">
+		<button type="button" data-toggle="data-show-mobile-search" data-hide-on-active="data-show-mobile-nav" class="button--naked hide-on-desktop" aria-expanded="false">
+			<span class="visuallyhidden focusable">Search</span>
+
+			<span class="text-icon" aria-hidden="true">
+				<i class="fa fa-search"></i>
+			</span>
+		</button>
+	</li>
+
+	<li class="burger hide-on-desktop">
+		<button type="button" data-toggle="data-show-mobile-nav" data-hide-on-active="data-show-mobile-search" class="button--naked" id="mobile-show-nav" aria-expanded="false">
+			<span class="visuallyhidden focusable">Navigation menu</span>
+
+			<span class="hamburger" aria-hidden="true">
+				<span class="bar1"></span>
+				<span class="bar2"></span>
+				<span class="bar3"></span>
+			</span>
+		</button>
+	</li>
+</ul>
+
+<div class="search search-bar search--small">
+	<form class="row" action="https://yoast.com">
+		<label class="visuallyhidden" for="searchfield-big-siteheader">
+			Search		</label>
+
+		<input type="text" id="searchfield-big-siteheader" class="mb-0" name="s" placeholder="What are you looking for?">
+
+		<button class="button button--secondary button--small mb-0 mr-0 ml-16">
+			<i class="fa fa-search "></i><span class="visuallyhidden">Search</span>		</button>
+	</form>
+</div>
+	</header>
+
+	<nav aria-label="Main menu" id="main-menu"><ul id="menu-main-menu" class="menu"><li id="menu-item-1272245" class="home menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1272245"><a href="https://yoast.com">Home</a></li>
+<li id="menu-item-1282843" class="yoast-seo menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-1282843 active"><a href="https://yoast.com/wordpress/plugins/seo/" aria-current="page"><i class="fa fa-wordpress"></i> Yoast SEO</a></li>
+<li id="menu-item-1487280" class="plugins menu-item menu-item-type-custom menu-item-object-custom menu-item-1487280"><a href="https://yoast.com/wordpress/plugins/">Other plugins</a></li>
+<li id="menu-item-1282842" class="courses menu-item menu-item-type-custom menu-item-object-custom menu-item-1282842"><a href="https://yoast.com/academy/">SEO training</a></li>
+<li id="menu-item-1230339" class="seo-blog menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1230339"><a href="https://yoast.com/seo-blog/">SEO blog</a></li>
+<li id="menu-item-1230340" class="support menu-item menu-item-type-custom menu-item-object-custom menu-item-1230340"><a href="https://kb.yoast.com/">Help</a></li>
+<li id="menu-item-1710863" class="shop menu-item menu-item-type-custom menu-item-object-custom menu-item-1710863"><a href="https://yoast.com/shop/">Shop</a></li>
+</ul></nav>
+	<div class="site">
+		
+	<nav class="row breadcrumb" aria-label="You are here:">
+		<span><span><a href="https://yoast.com/" >Home</a> » <span><a href="https://yoast.com/wordpress/plugins/" >WordPress plugins</a> » <span class="breadcrumb_last" aria-current="page">Yoast SEO for WordPress</span></span></span></span>	</nav>
+
+		<main role="main">
+			<div class="row-holder bg-grey">
+				<div class="row grid grid__col-2-1">
+					<div>
+						<h1>
+							Yoast SEO: the #1 WordPress SEO plugin						</h1>
+
+													<div style="position: relative;">
+								<ul class="list--usp ">
+			<li>Get more visitors from Google and Bing</li>
+			<li>Attract more visitors from social media</li>
+			<li>Increase your readers’ engagement</li>
+	</ul>
+<p>We walk you through every step: no need to be or hire an SEO expert.</p><div class="plugin-buy-button"><a href="https://yoast.com/cart/?add-to-cart=883420" class="buy-button openmodal button default " data-modal-product-id="883420" rel="nofollow" data-product-id="883420" data-product-name="Yoast SEO for WordPress Premium plugin" data-price="89" data-currency="USD">Get Yoast SEO Premium&nbsp;<span aria-hidden="true">&#9656;</span></a><span class="microcopy">Only <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>89</span> <small class="woocommerce-Price-taxLabel tax_label">(ex VAT)</small> for 1 site<span> &ndash; including 1 year free updates and support</span></span></div><span class="free-plugin-download__container">or <a href="https://downloads.wordpress.org/plugin/wordpress-seo.latest-stable.zip" class="link--download free-plugin-download">download Yoast SEO <strong>Free</strong> »</a></span>							</div>
+											</div>
+					<div class="icon-image hide-on-tablet"><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" focusable="false" viewBox="0 0 500 500"><path d="M80,0H420a80,80,0,0,1,80,80V500a0,0,0,0,1,0,0H80A80,80,0,0,1,0,420V80A80,80,0,0,1,80,0Z" fill="#a4286a"/><path d="M437.61,2,155.89,500H500V80A80,80,0,0,0,437.61,2Z" fill="#6c2548"/><path d="M74.4,337.3v34.9c21.6-.9,38.5-8,52.8-22.5s27.4-38,39.9-72.9l92.6-248H214.9L140.3,236l-37-116.2h-41l54.4,139.8a57.54,57.54,0,0,1,0,41.8C111.2,315.6,101.3,332.3,74.4,337.3Z" fill="#fff"/><circle cx="368.33" cy="124.68" r="97.34" transform="translate(19.72 296.97) rotate(-45)" fill="#9fda4f"/><path d="M416.2,39.93,320.46,209.44A97.34,97.34,0,1,0,416.2,39.93Z" fill="#77b227"/><path d="M294.78,254.75h0l-.15-.08-.13-.07h0a63.6,63.6,0,0,0-62.56,110.76h0l.07,0,.06,0h0a63.6,63.6,0,0,0,62.71-110.67Z" fill="#fec228"/><path d="M294.5,254.59,231.94,365.35A63.6,63.6,0,1,0,294.5,254.59Z" fill="#f49a00"/><path d="M222.31,450.07A38.16,38.16,0,0,0,203,416.83h0l0,0h0a38.18,38.18,0,1,0,19.41,33.27Z" fill="#ff4e47"/><path d="M202.9,416.8l-37.54,66.48A38.17,38.17,0,0,0,202.9,416.8Z" fill="#ed261f"/></svg></div>				</div>
+			</div>
+			<div class="row">
+
+				<section
+						class="content content--full-width">
+					<div style="min-width: 100%">
+<ul class="tabs mt-32" style="padding-left: 0">
+<li id="compare_tab" class="tabs__item tabs__item default_open mb-0"><a class="tabs__link" href="#compare">Compare Premium &amp; free</a></li>
+<li id="features_tab" class="tabs__item mb-0"><a class="tabs__link" href="#features">Features in detail</a></li>
+<li id="support_tab" class="tabs__item mb-0"><a class="tabs__link" href="#support">Get 24/7 support</a></li>
+</ul>
+<div class="tabs__content shadow">
+<section id="compare" class="tabs__panel default_open">
+<h3>Compare the Premium and the free version:</h3>
+<table class="compare-free-premium">
+<tbody>
+<tr>
+<td style="width: 50%">
+<h3><strong>Yoast SEO Premium</strong></h3>
+</td>
+<td>
+<h3><strong>Yoast SEO free</strong></h3>
+</td>
+</tr>
+<tr>
+<td>
+<h4>Keyword optimization</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> Optimize for keywords, keyphrases, synonyms, related keywords and <strong>all word forms</strong> of those.</td>
+<td><i class="fa fa-check" style="color: #77b227"></i> Only 1 keyword or keyphrase</td>
+</tr>
+<tr>
+<td>
+<h4>Tell Google exactly what your page is about</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i><span style="color: #77b227"><strong>NEW!</strong> </span>Make sure that Google, Pinterest and other platforms all know exactly what your page is about, by adding schema.org data the right way. <strong>Faster indexing, rich results!</strong></td>
+<td><i class="fa fa-check" style="color: #77b227"></i>Check!</td>
+</tr>
+<tr>
+<td>
+<h4>No outdated content</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i>We’ll keep an eye on your most important pages and warn you when these haven’t been updated for six months.</td>
+<td><i class="fa fa-check" style="color: #77b227"></i> Keep an eye on all pages manually</td>
+</tr>
+<tr>
+<td>
+<h4>Preview of your page</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> <strong>Google, Facebook and Twitter</strong> previews.</td>
+<td><i class="fa fa-check" style="color: #77b227"></i> Only Google preview</td>
+</tr>
+<tr>
+<td>
+<h4>Readability check</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> We analyze the readability of the copy you wrote and calculate the <strong>Flesch Reading Ease score</strong>.</td>
+<td><i class="fa fa-check" style="color: #77b227"></i> Check!</td>
+</tr>
+<tr>
+<td>
+<h4>Full control over your breadcrumbs</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> You can set a <strong>primary category</strong> for your post, and <strong>determine the taxonomy</strong> for every single page on your website.</td>
+<td><i class="fa fa-check" style="color: #77b227"></i> Check!</td>
+</tr>
+<tr>
+<td>
+<h4>No duplicate content</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> Avoid confusing Google with duplicate content, by setting canonical URLs.</td>
+<td><i class="fa fa-check" style="color: #77b227"></i> Check!</td>
+</tr>
+<tr>
+<td>
+<h4>Works in the block editor and classic editor</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> No matter how you like to write your posts in WordPress, Yoast SEO works in both the classic editor and the block editor!</td>
+<td><i class="fa fa-check" style="color: #77b227"></i> Check!</td>
+</tr>
+<tr>
+<td>
+<h4>Technical stuff in the background</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> It doesn’t matter whether you know about <strong>robots.txt</strong>, <strong>.htaccess files</strong>, clean <strong>permalink URLs</strong> or <strong>sitemaps</strong> – Yoast SEO makes sure your technical configuration rolls out the red carpet for search engines.</td>
+<td><i class="fa fa-check" style="color: #77b227"></i> Check!</td>
+</tr>
+<tr>
+<td>
+<h4>Always updated for Google&#8217;s algorithm</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> Make sure that Google, Pinterest and other platforms all know exactly what your page is about, by adding schema.org data the right way. Faster indexing, rich results!</td>
+<td><i class="fa fa-check" style="color: #77b227"></i> Check!</td>
+</tr>
+<tr>
+<td>
+<h4>Internal linking suggestions</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> Get <strong>suggestions for links</strong> to other pages on your website, as you write.</td>
+<td><i class="fa fa-times" style="color: #dc3232"></i> You have to manually look up related pages to create links.</td>
+</tr>
+<tr>
+<td>
+<h4>Content insights</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> We show you the <strong>5 words or phrases</strong> you use the most on your page, to check if they’re a match with your chosen keywords.</td>
+<td><i class="fa fa-times" style="color: #dc3232"></i> We&#8217;re afraid you have to check your text very thoroughly yourself to make sure it&#8217;s focused enough.</td>
+</tr>
+<tr>
+<td>
+<h4>Redirect manager</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> Easily redirect old URLs to new ones. So you don’t lose visitors because they get stuck on a <strong>404 Not Found</strong> page.</td>
+<td><i class="fa fa-times" style="color: #dc3232"></i> You have to think of creating a redirect yourself each time you delete a page.</td>
+</tr>
+<tr>
+<td>
+<h4>Focus keyword export</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> Get a clear overview of your focus keywords and SEO scores (CSV export)</td>
+<td><i class="fa fa-times" style="color: #dc3232"></i> No exports. You’ll have to click around your website and compile this Excel dashboard yourself.</td>
+</tr>
+<tr>
+<td>
+<h4>1 year free access to 24/7 support</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> Round the clock email access to our wonderful and <strong>knowledgeable support team</strong>.</td>
+<td><i class="fa fa-times" style="color: #dc3232"></i> You can use our extensive FAQ section and knowledge base.</td>
+</tr>
+<tr>
+<td>
+<h4>Ad-free</h4>
+<p><i class="fa fa-check" style="color: #77b227"></i> In Yoast SEO Premium there are <strong>no ads</strong>.</td>
+<td><i class="fa fa-times" style="color: #dc3232"></i> You’ll see ads for our other awesome products and services.</td>
+</tr>
+<tr>
+<td style="text-align: center"><div class="plugin-buy-button"><a href="https://yoast.com/cart/?add-to-cart=883420" class="buy-button openmodal button default " data-modal-product-id="883420" rel="nofollow" data-product-id="883420" data-product-name="Yoast SEO for WordPress Premium plugin" data-price="89" data-currency="USD">Get Yoast SEO Premium&nbsp;<span aria-hidden="true">&#9656;</span></a><span class="microcopy">Only <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>89</span> <small class="woocommerce-Price-taxLabel tax_label">(ex VAT)</small> for 1 site<span> &ndash; including 1 year free updates and support</span></span></div></td>
+<td><span style="color: #008578"><a class="link--download free-plugin-download" style="color: #008578" href="https://downloads.wordpress.org/plugin/wordpress-seo.latest-stable.zip">Download the free version »</a></span></td>
+</tr>
+</tbody>
+</table>
+<table class="compare-free-premium usps-paymentmethods">
+<tbody>
+<tr>
+<td>
+<p style="text-align: center"><i class="fa fa-check" style="color: #77b227"></i> Most downloaded SEO plugin <i class="fa fa-check" style="color: #77b227"></i> Over 135 million downloads <i class="fa fa-check" style="color: #77b227"></i> 4.9 out of 5 stars</p>
+<p><img loading='lazy' class="size-large wp-image-877671 aligncenter" src="https://yoast.com/app/uploads/2017/09/paymentmethods.png" alt="payment option icons" width="600" height="35"/></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="features" class="tabs__panel">
+<div class="content">
+<h2 id="features" class="exclude">Yoast SEO plugin features and benefits</h2>
+<h3 id="focus-keyword-content"><strong>Optimize for keywords, keyphrases and synonyms, related keywords and all word forms</strong></h3>
+<p>In Yoast SEO you can enter the keyword or keyphrase you’d like your post or page to rank for in the search results. We then run a check on your content to check whether you&#8217;re <strong>using the keywords often enough</strong> &#8211; but not too often &#8211; and <strong>in the right spots</strong>. <strong>In Yoast SEO Premium, we take this one major step further.</strong> We will not only check for the keyword or keyphrase you enter, but we will analyze your text on all variations of that word or phrase. If the keyphrase is &#8220;room decorating ideas&#8221; and the synonym is &#8220;apartment decorating ideas&#8221; all the possible word forms of each word are taken into account: &#8216;apartments&#8217;, &#8216;rooms&#8217;, &#8216;room&#8217;s&#8217;, &#8216;decorate&#8217;, &#8216;decorates&#8217;, &#8216;decorated&#8217;, &#8216;idea&#8217;, etc. This way, you are<strong> truly optimizing your text.</strong> With this addition in Yoast SEO Premium, we can guarantee that no other WordPress plugin comes <strong>closer to how Google will see your text*</strong>! <em>* We are constantly working on perfecting this for all available languages</em></p>
+<h3><strong>Optimize for related keywords as well</strong></h3>
+<h3 id="internal-linking">&#8211; <em>Premium only</em></h3>
+<p>In the free version, you can only set 1 focus keyword or keyphrase. That means you’ll have to choose what exactly to optimize for. In Yoast SEO Premium, you have the option to <strong>add more related keywords</strong>. This means, that when you want to optimize for pen, you can also optimize for paper in the same text. You will be able <strong>reach a broader audience</strong> because of it. In both versions, Yoast SEO doesn’t only help you boost your ranking in the search results, but also your morale! <img loading='lazy' class="alignnone wp-image-1155929 size-full" src="https://yoast.com/app/uploads/2010/10/Savannah_Lauren_on_Twitter_.png" alt="I love that really good feeling you get when the Yoast app says your SEO is good with its green light. Savannah Lauren @sava_laur" width="599" height="207" srcset="https://yoast.com/app/uploads/2010/10/Savannah_Lauren_on_Twitter_.png 599w, https://yoast.com/app/uploads/2010/10/Savannah_Lauren_on_Twitter_-250x86.png 250w, https://yoast.com/app/uploads/2010/10/Savannah_Lauren_on_Twitter_-145x50.png 145w" sizes="(max-width: 599px) 100vw, 599px" /></p>
+<h3 id="internal-linking"><strong>Internal linking suggestions</strong> &#8211; <em>Premium only</em></h3>
+<p><span style="font-size: 1em;letter-spacing: 0.01em">Internal linking is extremely important because it helps search engines to understand your site structure. </span> <span style="font-size: 1em;letter-spacing: 0.01em">But adding links by hand is slow, tedious and downright annoying. </span>With the <strong>internal linking</strong> feature in Yoast SEO Premium, that’s a thing of the past. This feature analyzes your text and suggests links to related posts – as you write. Taking all the hassle out of internal linking. Yeah, we’re pretty happy about it too.</p>
+<h3 id="focus-keyword-content"><span style="color: #99cc00"><strong><span style="color: #77b227">NEW!&nbsp;</span></strong></span><strong>Tell Google exactly what your page is about</strong></h3>
+<p>By adding schema.org code to your pages in a <strong>new and innovative way</strong>, we are able to improve how Google, Pinterest and other platforms understand what your page is about. With Yoast SEO, you are now able to tell Google that your <code>WebPage</code> is an <code>Article</code> made by an <code>Organization</code>, and other combinations like that. This is <strong>the most convenient way for search engines</strong> to retrieve that information, and at this moment, <strong>Yoast is the only product or plugin offering this information this way!</strong> Others just tell Google it&#8217;s a webpage, an article and that there&#8217;s a brand, without connecting all together. This leaves a lot for Google to figure out itself. Only we tell the full story. If your website is about yourself (a <code>Person</code>), we&#8217;ll tell Google all the details you want Google to know, and also add your social profiles and more via that same schema.org data. This will definitely <strong>enhance your personal Knowledge Panel</strong> in Google and show these social profiles there as well, increasing your click-through chances due to that complete profile. This unique way of adding schema to your website will also connect with the schema.org data in our Local, Video or WooCommerce plugins, to make it all <strong>stunningly effective</strong>!</p>
+<h3 id="title-description"><strong>Preview of your page in Google</strong></h3>
+<p>Thanks to the snippet editor, you can <strong>see through the eyes of the Google user</strong>: what will your post or page look like in the search results? And on mobile screens? Would you click a link like that? In the free version, you can only preview your link in Google, not in Facebook or Twitter.</p>
+<h3 id="social-previews"><strong>Preview of your page in social media</strong> &#8211; <em>Premium only</em></h3>
+<p>Check what your page will look like if you share it on <strong>Facebook</strong> or <strong>Twitter</strong>. Do the title fit and the image match? Will it stand out? If you want people to click, your social media shares have to look the part. If you don’t want to think about that for every single post, just set a template. The Yoast SEO WordPress plugin allows you to set those for all types of pages. <img loading='lazy' class="alignnone wp-image-1155931 size-full" src="https://yoast.com/app/uploads/2010/10/Steve_Morgan_on_Twitter.png" alt="God I love @yoast... Just gave 189 pages a unique meta description simply by editing 3 templates. Took 5 minutes. BOOM. Steve Morgan @steviephil" width="599" height="208" srcset="https://yoast.com/app/uploads/2010/10/Steve_Morgan_on_Twitter.png 599w, https://yoast.com/app/uploads/2010/10/Steve_Morgan_on_Twitter-250x87.png 250w, https://yoast.com/app/uploads/2010/10/Steve_Morgan_on_Twitter-144x50.png 144w" sizes="(max-width: 599px) 100vw, 599px" /></p>
+<h3 id="readability"><strong>Readability check: increase the chances that people actually read your page</strong></h3>
+<p>Online readers don’t read – they scan. Just like you are probably doing right now. So you should write short sentences, add subheadings and use connecting words. Do you think that’s a lot harder than it sounds?   No worries. Yoast SEO will <strong>tell you exactly what to do, based on scientific research</strong> on readability, such as the Flesch Reading Ease score.</p>
+<h3 id="breadcrumbs"><strong>Full control over your breadcrumbs</strong></h3>
+<p>Your breadcrumb can get messy because of several reasons. Some posts may be listed in several categories and appear with different breadcrumbs, for example. With Yoast SEO you can set a <strong>primary category</strong> for your post, and <strong>determine the taxonomy</strong> for every single page on your WordPress website.</p>
+<h3 id="canonical"><strong>No duplicate content: avoid confusing Google</strong></h3>
+<p>Your website can show the same content on various URLs, which might confuse Google: this is called a duplicate content issue. Yoast SEO solves this by letting you indicate one URL as the original one – what techies like to call a <strong>canonical link</strong>. That way, Yoast SEO makes sure that your content is always found under the URL you want it to be found under. Simple.</p>
+<h3 id="gutenberg"><strong>Working in every WordPress editor</strong></h3>
+<p>If you are an early-adapter of the Gutenberg editor, Yoast SEO will guide you in optimizing your posts. If you choose to use the classic editor, we&#8217;ll help you to improve your posts. No matter how you like to write your posts or pages in WordPress, we&#8217;ve got you covered.</p>
+<h3 id="technical-stuff"><strong>Technical stuff in the background</strong></h3>
+<p>Search engine robots crawl the web and create an index. And it doesn’t hurt to help them a bit. Yoast SEO rolls out the red carpet for the search bots, making it super easy to crawl your site and find everything. Basically, the WordPress plugin takes care of all the technical stuff for you. But hey, if technical tweaking is your thing – more power to you. With Yoast SEO, you can <strong>edit your robots.txt and .htaccess files</strong>, <strong>clean up your URLs</strong> and <strong>generate and update your sitemaps</strong>.</p>
+<h3 id="insights"><strong>Content insights</strong> &#8211; <em>Premium only</em></h3>
+<p>Our Insights functionality lists the <strong>5 words or word combinations that appear most often</strong> on your page. That way, you can check if the topics and keywords you’d like to rank for in Google, Bing and Yahoo are in line with what you’re actually writing about. This is a Premium feature. In the free version, you’ll have to do your own content analysis, we’re afraid. <em>Currently, this feature is only available in <a href="https://kb.yoast.com/kb/dont-see-yoast-internal-linking-metabox/" rel="noopener">selected languages</a>.</em></p>
+<h3 id="redirect-manager"><strong>Redirect manager: your visitors don’t get stuck on a 404 Not Found page</strong> &#8211; <em>Premium only</em></h3>
+<p>We all have to delete pages at some point, but when that old URL gets visitors, they bump into a 404 Not Found error. Aaaargh! To avoid this, you can redirect them to a new page with relevant information. It’s important to do this systematically to keep your website healthy. The <strong>Redirect manager</strong> allows you to do just that: after deleting a post or page, the plugin will ask you what to do with the old URL. You can also go to the menu ‘Redirects’ to see and update all your redirected pages. And you can even set ‘REGEX redirects’ to indicate that all URLs containing a certain word or expression should redirect to the same page.</p>
+<h3 id="export"><strong>Focus keyword export </strong>&#8211; <em>Premium only</em></h3>
+<p>You no longer need to click around to find out what you should optimize next. In Yoast SEO Premium, you can download an overview of all the focus keywords you’ve used so far and of the pages that need more SEO care. You get to choose what data you’d like to see – keywords, URL, readability score and/or title – and download your overview as a CSV file. And yes, this works for content with multiple focus keywords as well.</p>
+<h3 id="updates"><strong>Always updated for Google&#8217;s algorithm</strong></h3>
+<p>You might have heard about Google Panda and Google Penguin &#8211; two major updates to Google&#8217;s search algorithm. Google also makes minor changes to its algorithm 500-600 times a year. We update the <strong>Yoast SEO plugin every 2 weeks</strong>. That way you&#8217;re sure that your website is optimized for Google&#8217;s most recent version of its algorithm. <em>Updates and upgrades on our Premium plugin are only available with a valid subscription.</em></p>
+<h3 id="premium-support"><strong>1 year of 24/7 support</strong> &#8211; <em>Premium only</em></h3>
+<p>Upgrading to Yoast SEO Premium (formerly known as WordPress SEO by Yoast Premium) gives you <em>a full year</em> access to our wonderful and knowledgeable support team. You can email them your questions about the use of the plugin or your problems in setting it up and they’ll assist you! <em>You can always choose to renew your subscription to keep getting the 24/7 support. Every renewal gives you another year of free support.</em> <img loading='lazy' class="alignnone wp-image-1155933 size-large" src="https://yoast.com/app/uploads/2010/10/Haley_Bradley_on_Twitter-600x207.png" alt="A5: I Love Yoast and it is one of the few plugins I actually pay for! I love their support and emails too! #IBAchat Haley Bradley @haleysvintage" width="600" height="207" srcset="https://yoast.com/app/uploads/2010/10/Haley_Bradley_on_Twitter.png 600w, https://yoast.com/app/uploads/2010/10/Haley_Bradley_on_Twitter-250x86.png 250w, https://yoast.com/app/uploads/2010/10/Haley_Bradley_on_Twitter-145x50.png 145w" sizes="(max-width: 600px) 100vw, 600px" /></p>
+<h3 id="ad-free"><strong>Ad-free</strong> &#8211; <em>Premium only</em></h3>
+<p>As soon as you install Yoast SEO Premium, you will no longer see any ads in your WordPress plugin. Unless you love seeing the Yoast team in your right-hand column every day, of course. We can’t blame you!</p>
+</div>
+</section>
+<section id="support" class="tabs__panel">
+<div class="content">
+<h2>Get 24/7 support</h2>
+<p>Our wonderful and knowledgeable support team loves to personally help you with every question about the plugin you ask through email. To get access to this 24/7 email support, upgrade to Premium. <div class="plugin-buy-button"><a href="https://yoast.com/cart/?add-to-cart=883420" class="buy-button openmodal button default " data-modal-product-id="883420" rel="nofollow" data-product-id="883420" data-product-name="Yoast SEO for WordPress Premium plugin" data-price="89" data-currency="USD">Get 24/7 support with Premium</a></div> Already own Premium? <a href="https://kb.yoast.com/kb/support/#premium" rel="noopener">Get support here</a>. Free users can find their answer <a href="https://kb.yoast.com/" rel="noopener">in the knowledge base</a> (330+ articles).</p>
+</div>
+</section>
+</div>
+</div>
+				</section>
+
+									<section class="extra">
+											</section>
+				
+							</div>
+		</main>
+
+		
+	<div>
+		<hr>
+		<nav id="footer__nav" class="row" aria-label="Sitemap">
+			<ul id="menu-footer-menu" class="footer__menu grid grid__col-4 accordion small-only"><li id="menu-item-1712602" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-1712602"><a href="https://yoast.com">Home</a>
+<ul class="sub-menu">
+	<li id="menu-item-1712755" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712755"><a href="https://yoast.com/about-us/">About us</a></li>
+	<li id="menu-item-1949653" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1949653"><a href="https://yoast.com/jobs">Work at Yoast</a></li>
+	<li id="menu-item-2318820" class="menu-item menu-item-type-post_type_archive menu-item-object-yoast_banen menu-item-2318820"><a href="https://yoast.com/werken-bij/">Werken bij Yoast (NL)</a></li>
+	<li id="menu-item-2032798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2032798"><a href="https://yoast.com/community/">Community</a></li>
+	<li id="menu-item-1712757" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712757"><a href="https://yoast.com/conference/">YoastCon</a></li>
+	<li id="menu-item-1712605" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712605"><a href="https://developer.yoast.com/">Developer portal</a></li>
+	<li id="menu-item-1712606" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712606"><a href="https://kb.yoast.com/">Knowledge base</a></li>
+</ul>
+</li>
+<li id="menu-item-1712732" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1712732"><a href="https://yoast.com/wordpress/plugins/">WordPress plugins</a>
+<ul class="sub-menu">
+	<li id="menu-item-1712733" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-1712733"><a href="https://yoast.com/wordpress/plugins/seo/" aria-current="page">Yoast SEO</a></li>
+	<li id="menu-item-1712734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712734"><a href="https://yoast.com/wordpress/plugins/local-seo/">Local SEO</a></li>
+	<li id="menu-item-1712735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712735"><a href="https://yoast.com/wordpress/plugins/video-seo/">Video SEO</a></li>
+	<li id="menu-item-1712736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712736"><a href="https://yoast.com/wordpress/plugins/news-seo/">News SEO</a></li>
+	<li id="menu-item-1712737" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712737"><a href="https://yoast.com/wordpress/plugins/yoast-woocommerce-seo/">WooCommerce SEO</a></li>
+	<li id="menu-item-1712739" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712739"><a href="https://yoast.com/yoast-seo-platforms/">Other platforms</a></li>
+</ul>
+</li>
+<li id="menu-item-1712608" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1712608"><a href="https://yoast.com/seo-blog/">SEO blog</a>
+<ul class="sub-menu">
+	<li id="menu-item-1712741" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712741"><a href="https://yoast.com/tag/seo-basics/">SEO basics</a></li>
+	<li id="menu-item-2324514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2324514"><a href="https://yoast.com/must-reads-for-website-seo/">SEO essentials</a></li>
+	<li id="menu-item-1712742" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712742"><a href="https://yoast.com/series/annelieke-analytics/">Annelieke&#8217;s Analytics</a></li>
+	<li id="menu-item-1712743" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712743"><a href="https://yoast.com/series/ask-yoast/">Ask Yoast</a></li>
+</ul>
+</li>
+<li id="menu-item-1712746" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1712746"><a href="https://yoast.com/academy/">Yoast SEO academy</a>
+<ul class="sub-menu">
+	<li id="menu-item-1712747" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712747"><a href="https://yoast.com/academy/">All courses</a></li>
+	<li id="menu-item-1712749" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712749"><a href="https://yoast.com/academy/course/yoast-seo-wordpress-training/">Yoast SEO training</a></li>
+	<li id="menu-item-1712750" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712750"><a href="https://yoast.com/subscriptions/">Training subscription</a></li>
+	<li id="menu-item-1712751" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712751"><a href="https://academy.yoast.com/courses/">Login to Academy</a></li>
+</ul>
+</li>
+</ul>		</nav>
+	</div>
+
+		</div>
+
+	<div id="free-plugin-download-modal" class="yoast-jquery-modal" role="dialog" aria-modal="true" aria-labelledby="free-plugin-download-title" tabindex="0">
+	<div role="document">
+		<h1 id="free-plugin-download-title">
+			Great idea to get our free SEO plugin!		</h1>
+		<div class="content content-downloading">
+			<div class="notification">
+				<h2>Your plugin is downloading right now.</h2>
+				<p>You'll find it on your computer in a few seconds.</p>
+				<p>Need help? Check out our <a href="https://kb.yoast.com/kb/installation-guide-for-wordpress-seo/" target="_blank">Yoast SEO installation guide</a></p>
+			</div>
+		</div>
+		<div class="content content-usps">
+			<p><strong>Wait!</strong> We get that you’re thrilled to get started, but hear us out…<br/>
+				Why not make sure you get the most out of it?			</p>
+			<ul class="list--usp" role="list">
+				<li><span class="usp-checkmark" aria-hidden="true"></span>Get weekly tips on how to optimize your website's SEO, usability and conversion.</li>
+				<li><span class="usp-checkmark" aria-hidden="true"></span>Be the first to know about new features and other cool (free) plugins.</li>
+				<li><span class="usp-checkmark" aria-hidden="true"></span>Get our <strong>free 50-page SEO guide</strong> right away to help you become an SEO genius.</li>
+			</ul>
+			<form action="https://yoast.us1.list-manage.com/subscribe/post?u=ffa93edfe21752c921f860358&amp;id=972f1c9122"
+				  method="post" enctype="multipart/form-data">
+				<fieldset>
+					<legend class="visuallyhidden">Subscribe to our SEO tips newsletter</legend>
+					<div class="grid grid__col-2">
+						<div>
+							<label class="visuallyhidden" for="newsletter-email">Email</label>
+							<input type="email" placeholder="Enter your email address&hellip;"
+								   id="newsletter-email" name="EMAIL">
+						</div>
+						<div>
+							<button type="submit" class="default"
+									name="Yes, give me your free tips">Yes, give me your SEO tips</button>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+
+	<footer role="contentinfo" class="sitefooter">
+		<div class="row mb-0">
+			<strong>© 2003-2020 Yoast BV</strong> Yoast is a trademark of Yoast BV<ul id="menu-legal" class=""><li id="menu-item-1712763" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712763"><a href="https://yoast.com/reserved-rights/">Some rights reserved</a></li>
+<li id="menu-item-1712764" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712764"><a href="https://yoast.com/privacy-policy/">Privacy policy</a></li>
+<li id="menu-item-1712765" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712765"><a href="https://yoast.com/terms-of-service/">Terms of service</a></li>
+<li id="menu-item-1712766" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712766"><a href="https://yoast.com/refund-policy/">Refund policy</a></li>
+<li id="menu-item-1712767" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712767"><a href="https://yoast.com/contact/">Contact us</a></li>
+</ul>		</div>
+
+		<div class="sticky-purchase-button__container">
+
+	<div class="plugin-buy-button"><a href="https://yoast.com/cart/?add-to-cart=883420" class="buy-button openmodal button default " data-modal-product-id="883420" rel="nofollow" data-product-id="883420" data-product-name="Yoast SEO for WordPress Premium plugin" data-price="89" data-currency="USD">Get Yoast SEO Premium&nbsp;<span aria-hidden="true">&#9656;</span></a></div>		<span class="sticky-purchase-button__label">
+            <span class="microcopy">Only <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>89</span> <small class="woocommerce-Price-taxLabel tax_label">(ex VAT)</small> for 1 site</span></span>
+			<span class="free-plugin-download__container">or <a href="https://downloads.wordpress.org/plugin/wordpress-seo.latest-stable.zip" class="link--download free-plugin-download">download Yoast SEO <strong>Free</strong> »</a></span></div>
+	</footer>
+
+	<script type="text/javascript">(function() {
+	'use strict';
+
+	function act(e) {
+		if( this.checked && this.value > 3 ) {
+			this.form.submit();
+		} else {
+			var messageWrap = this.parentNode.parentNode.parentNode.querySelector('.wpkb-rating-message');
+			messageWrap.style.display = 'block';
+			messageWrap.querySelector('textarea').focus();
+		}
+	}
+
+	var messageWraps = document.querySelectorAll('.wpkb-rating-message');
+	[].forEach.call(messageWraps, function(e) { e.style.display = 'none'; });
+
+	var options = document.querySelectorAll( '.wpkb-rating-option' );
+	[].forEach.call(options, function(e) {
+		e.style.display = 'none';
+		e.addEventListener('change', act);
+	});
+})();</script>
+<!-- Google Tag Manager (noscript) -->
+		<div id="prices-modal-883420" class="yoast-jquery-modal prices-modal" role="dialog" aria-modal="true" aria-labelledby="yoast-buy-bulk-modal-title" tabindex="0">
+			<div role="document">
+				<h1 class="h3" id="yoast-buy-bulk-modal-title">Save money by buying in bulk</h1>
+				<div class="content">
+					<p>
+						<strong>How many sites will you use Yoast SEO Premium on?</strong><br/>
+					</p>
+
+					<form class="yoast-add-to-cart-form yoast-add-to-cart" action="https://yoast.com/cart/" method="get">
+						<input type="hidden" name="add-to-cart" value="883420"/>
+
+						<label><div class="modal-choice--container"><input type="radio" name="quantity" value="1" checked="checked" /><span class="modal-choice--detail modal-choice--sites">1 site</span><span class="modal-choice--detail modal-choice--discount"></span><span class="modal-choice--detail modal-choice--price"></span><span class="modal-choice--detail modal-choice--discount-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>89</span></span></div></label><label><div class="modal-choice--container"><input type="radio" name="quantity" value="2" /><span class="modal-choice--detail modal-choice--sites">2 sites</span><span class="modal-choice--detail modal-choice--discount">Save 5%</span><span class="modal-choice--detail modal-choice--price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>178</span></span><span class="modal-choice--detail modal-choice--discount-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>169.10</span></span></div></label><label><div class="modal-choice--container"><input type="radio" name="quantity" value="3" /><span class="modal-choice--detail modal-choice--sites">3 sites</span><span class="modal-choice--detail modal-choice--discount">Save 5%</span><span class="modal-choice--detail modal-choice--price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>267</span></span><span class="modal-choice--detail modal-choice--discount-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>253.65</span></span></div></label><label><div class="modal-choice--container"><input type="radio" name="quantity" value="4" /><span class="modal-choice--detail modal-choice--sites">4 sites</span><span class="modal-choice--detail modal-choice--discount">Save 5%</span><span class="modal-choice--detail modal-choice--price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>356</span></span><span class="modal-choice--detail modal-choice--discount-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>338.20</span></span></div></label><label><div class="modal-choice--container"><input type="radio" name="quantity" value="5" /><span class="modal-choice--detail modal-choice--sites">5 sites</span><span class="modal-choice--detail modal-choice--discount">Save 10%</span><span class="modal-choice--detail modal-choice--price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>445</span></span><span class="modal-choice--detail modal-choice--discount-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>400.50</span></span></div></label><label><div class="modal-choice--container"><input type="radio" name="quantity" value="10" /><span class="modal-choice--detail modal-choice--sites">10 sites</span><span class="modal-choice--detail modal-choice--discount">Save 15%</span><span class="modal-choice--detail modal-choice--price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>890</span></span><span class="modal-choice--detail modal-choice--discount-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>756.50</span></span></div></label><button type="button" class="modal-choice--show-more" aria-expanded="false">Save up to 50% for more sites</button><div class="modal-choice--show-more-items"><label><div class="modal-choice--container"><input type="radio" name="quantity" value="20" /><span class="modal-choice--detail modal-choice--sites">20 sites</span><span class="modal-choice--detail modal-choice--discount">Save 20%</span><span class="modal-choice--detail modal-choice--price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>1,780</span></span><span class="modal-choice--detail modal-choice--discount-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>1,424</span></span></div></label><label><div class="modal-choice--container"><input type="radio" name="quantity" value="30" /><span class="modal-choice--detail modal-choice--sites">30 sites</span><span class="modal-choice--detail modal-choice--discount">Save 25%</span><span class="modal-choice--detail modal-choice--price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>2,670</span></span><span class="modal-choice--detail modal-choice--discount-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>2,002.50</span></span></div></label><label><div class="modal-choice--container"><input type="radio" name="quantity" value="40" /><span class="modal-choice--detail modal-choice--sites">40 sites</span><span class="modal-choice--detail modal-choice--discount">Save 30%</span><span class="modal-choice--detail modal-choice--price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>3,560</span></span><span class="modal-choice--detail modal-choice--discount-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>2,492</span></span></div></label><label><div class="modal-choice--container"><input type="radio" name="quantity" value="50" /><span class="modal-choice--detail modal-choice--sites">50 sites</span><span class="modal-choice--detail modal-choice--discount">Save 35%</span><span class="modal-choice--detail modal-choice--price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>4,450</span></span><span class="modal-choice--detail modal-choice--discount-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>2,892.50</span></span></div></label><label><div class="modal-choice--container"><input type="radio" name="quantity" value="75" /><span class="modal-choice--detail modal-choice--sites">75 sites</span><span class="modal-choice--detail modal-choice--discount">Save 40%</span><span class="modal-choice--detail modal-choice--price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>6,675</span></span><span class="modal-choice--detail modal-choice--discount-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>4,005</span></span></div></label><label><div class="modal-choice--container"><input type="radio" name="quantity" value="100" /><span class="modal-choice--detail modal-choice--sites">100 sites</span><span class="modal-choice--detail modal-choice--discount">Save 45%</span><span class="modal-choice--detail modal-choice--price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>8,900</span></span><span class="modal-choice--detail modal-choice--discount-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>4,895</span></span></div></label><label><div class="modal-choice--container"><input type="radio" name="quantity" value="150" /><span class="modal-choice--detail modal-choice--sites">150 sites</span><span class="modal-choice--detail modal-choice--discount">Save 50%</span><span class="modal-choice--detail modal-choice--price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>13,350</span></span><span class="modal-choice--detail modal-choice--discount-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>6,675</span></span></div></label></div>
+						<br/>
+						<button type="submit" class="edd-add-to-cart edd-no-js" name="edd_purchase_download"
+							data-product-id="883420" data-product-name="Yoast SEO for WordPress Premium plugin" data-price="89" data-currency="USD"							value="Buy this bundle now" data-action="edd_add_to_cart"
+							data-download-id="883420">Add to cart							&raquo;
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1" src='https://instant.page/3.0.0'></script>
+<script type='text/javascript' src='https://yoast.com/wp/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://yoast.com/wp/wp-includes/js/wp-util.min.js?ver=5.3'></script>
+<script type='text/javascript' defer src='https://yoast.com/app/plugins/algolia/js/algoliasearch/algoliasearch.jquery.min.js?ver=2.9.3'></script>
+<script type='text/javascript' defer src='https://yoast.com/app/plugins/algolia/js/autocomplete.js/autocomplete.min.js?ver=2.9.3'></script>
+<script type='text/javascript' defer src='https://yoast.com/app/plugins/algolia/js/autocomplete-noconflict.js?ver=2.9.3'></script>
+<script type='text/javascript' src='https://yoast.com/wp/wp-includes/js/wp-embed.min.js?ver=5.3'></script>
+	<script>
+		jQuery(document).ready(function ($) {
+			$( 'a.free-plugin-download' ).click( function() {
+				$( '#free-plugin-download-modal' ).modal( {
+					closeText:
+						'<i class="fa fa-times-circle" aria-hidden="true"></i>' +
+						'<span class="screen-reader-text">Close dialog</span>',
+				} );
+
+				position_modal();
+			} );
+
+			$(window).resize(position_modal);
+
+			function position_modal() {
+				var $modal_margin_top = ($(window).height() / 2) - ($('#free-plugin-download-modal').outerHeight() / 2) + 'px';
+				var $modal_margin_left = ($(window).width() / 2) - ($('#free-plugin-download-modal').outerWidth() / 2) + 'px';
+
+				$('#free-plugin-download-modal').css({
+					'top': $modal_margin_top,
+					'left': $modal_margin_left,
+					'position': 'absolute'
+				});
+			}
+
+			$.modal.enhance();
+		});
+	</script>
+			<script>
+			function register_open_modal() {
+				jQuery( '[data-modal-product-id]' ).click( function( e ) {
+					e.preventDefault();
+					var product_id = jQuery( this ).data( 'modal-product-id' );
+
+					jQuery( '#prices-modal-' + product_id ).modal( {
+						closeText:
+							'<i class="fa fa-times-circle" aria-hidden="true"></i>' +
+							'<span class="screen-reader-text">Close dialog</span>',
+					} );
+				} );
+
+				jQuery( '.modal label' ).click( function( e ) {
+					e.preventDefault();
+					jQuery( 'input#' + jQuery( this ).attr( 'for' ) ).prop( 'checked', true );
+				} );
+
+				$.modal.enhance();
+			}
+
+			jQuery( document ).ready( register_open_modal );
+			jQuery( 'body' ).on( 'ab_ready', register_open_modal );
+		</script>
+		
+</body>
+</html>

@@ -20,7 +20,7 @@ Object {
   "entity": Object {
     "dateExpires": undefined,
     "dateModified": undefined,
-    "datePublished": undefined,
+    "datePublished": 2018-02-13T14:41:50.000Z,
     "publisher": undefined,
     "section": undefined,
     "type": "article",
@@ -319,7 +319,7 @@ Object {
     "url": "http://html5doctor.com/author/olib/",
   },
   "canonicalUrl": "http://html5doctor.com/microdata/",
-  "description": undefined,
+  "description": "On July 21st 19:00-20:00 at Apple Ginza, Oliver Reichenstein, CEO of iA, will share the lessons they’ve learned while creating three iPad apps and one iPad website.",
   "encodingFormat": "text/html",
   "entity": Object {
     "height": 338,
@@ -382,7 +382,7 @@ Object {
     "name": "Timothy Doner",
     "url": "https://ideas.ted.com/author/tedblogguest/",
   },
-  "canonicalUrl": "https://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/",
+  "canonicalUrl": "http://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/",
   "description": "Timothy Doner started teaching himself to speak in other languages when he was 13, and was quickly hailed as a prodigy for his linguistic proficiency. But as he soon realized, there’s more to…",
   "encodingFormat": "text/html",
   "entity": Object {
@@ -674,7 +674,7 @@ Object {
     "name": undefined,
     "url": undefined,
   },
-  "canonicalUrl": "http://waitbutwhy.com/2016/09/marriage-decision.html",
+  "canonicalUrl": "https://waitbutwhy.com/2016/09/marriage-decision.html",
   "description": "We're forced to make a black-and-white, binary decision in the most important moment of our lives. Let's take a deep breath and figure this out together.",
   "encodingFormat": "text/html",
   "entity": Object {
@@ -793,8 +793,8 @@ Object {
     "name": undefined,
     "url": undefined,
   },
-  "canonicalUrl": "http://www.imdb.com/title/tt1375666/",
-  "description": "Directed by Christopher Nolan. With Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Ken Watanabe. A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+  "canonicalUrl": "https://www.imdb.com/title/tt1375666/",
+  "description": "Inception is a movie starring Leonardo DiCaprio, Joseph Gordon-Levitt, and Ellen Page. A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a...",
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Inception (2010) - IMDb",
@@ -935,10 +935,10 @@ Object {
     "url": undefined,
   },
   "canonicalUrl": "https://www.newegg.com/xyzprinting-da-vinci-2-0-duo/p/N82E16828840014",
-  "description": "Buy XYZprinting da Vinci 2.0 Duo FFF &#40;Fused Filament Fabrication&#41; ABS&#47;PLA Dual Nozzle 3D Printer with fast shipping and top-rated customer service.Once you know, you Newegg&#33;",
+  "description": "XYZprinting da Vinci 2.0 Duo FFF (Fused Filament Fabrication) ABS/PLA Dual Nozzle 3D Printer",
   "encodingFormat": "text/html",
   "entity": undefined,
-  "headline": "XYZprinting da Vinci 2.0 Duo FFF &#40;Fused Filament Fabrication&#41; ABS&#47;PLA Dual Nozzle 3D Printer - Newegg.com",
+  "headline": "XYZprinting da Vinci 2.0 Duo FFF (Fused Filament Fabrication) ABS/PLA Dual Nozzle 3D Printer - Newegg.com",
   "image": Array [
     Object {
       "description": undefined,
@@ -1148,7 +1148,7 @@ Object {
     "url": undefined,
   },
   "canonicalUrl": "https://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails",
-  "description": "For years, Google has been building a lobbying machine that outpaces its Silicon Valley peers, turning the internet giant into a major Washington presence. In 2014, the company surpassed AT&T,...",
+  "description": "For years, Google has been building a lobbying machine that outpaces its Silicon Valley peers, turning the internet giant into a major Washington presence. In 2014, the company surpassed AT&amp;T,...",
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -1766,7 +1766,7 @@ Object {
     "name": "Eldon_Cleary",
     "url": undefined,
   },
-  "canonicalUrl": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29",
+  "canonicalUrl": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462?page=2",
   "description": "Check out Pico-8 for new “fantasy console” goodness. Works great with Raspberry Pi Zero, 2, 3, etc.",
   "encodingFormat": "text/html",
   "entity": undefined,
@@ -3021,7 +3021,7 @@ Object {
     "url": undefined,
   },
   "canonicalUrl": "https://github.com/microsoft/TypeScript/issues/10462",
-  "description": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type &#39;Object&#39; is n...",
+  "description": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type 'Object' is n...",
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Give a better error message for assigning from Object to anything else · Issue #10462 · microsoft/TypeScript",
@@ -3277,6 +3277,39 @@ Object {
 }
 `;
 
+exports[`scrappy https://ianstormtaylor.com/design-tip-never-use-black/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Ian Storm Taylor",
+    "url": undefined,
+  },
+  "canonicalUrl": undefined,
+  "description": undefined,
+  "encodingFormat": "text/html",
+  "entity": undefined,
+  "headline": "Design Tip: Never Use Black by Ian Storm Taylor",
+  "image": Array [],
+  "locale": undefined,
+  "provider": Object {
+    "name": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "twitter": undefined,
+  "type": "html",
+  "url": "https://ianstormtaylor.com/design-tip-never-use-black/",
+  "video": Array [],
+}
+`;
+
 exports[`scrappy https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8 1`] = `
 Object {
   "apps": Object {
@@ -3292,7 +3325,35 @@ Object {
     "url": undefined,
   },
   "canonicalUrl": "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345",
-  "description": "‎NEW! Team GO Rocket has invaded the world of Pokémon GO! Battle with Team GO Rocket Grunts as you restore PokéStops and rescue Pokémon. Join Trainers across the globe who are discovering Pokémon as they explore the world around them. Pokémon GO is the global gaming sensation that has been download…",
+  "description": "NEW! Team GO Rocket has invaded the world of Pokémon GO! Battle with Team GO Rocket Grunts as you restore PokéStops and rescue Pokémon. 
+
+Join Trainers across the globe who are discovering Pokémon as they explore the world around them. Pokémon GO is the global gaming sensation that has been downloaded over 1 billion times and named “Best Mobile Game” by the Game Developers Choice Awards and “Best App of the Year” by TechCrunch.
+_______________
+
+UNCOVER THE WORLD OF POKÉMON: Explore and discover Pokémon wherever you are!
+ 
+CATCH more Pokémon to complete your Pokédex!
+ 
+JOURNEY alongside your Buddy Pokémon to help make your Pokémon stronger and earn rewards!
+
+COMPETE in epic Gym battles and...
+
+TEAM UP with other Trainers to catch powerful Pokémon during Raid Battles!
+ 
+It’s time to get moving—your real-life adventures await! Let’s GO!
+_______________
+
+Notes:
+- This app is free-to-play and offers in-game purchases. It is optimized for smartphones, not tablets.
+- It is recommended to play while connected to a network in order to obtain accurate location information.
+- Compatibility is not guaranteed for devices without GPS capabilities or devices that are connected only to Wi-Fi networks.
+- Compatibility information may be changed at any time.
+- Information current as of July 11, 2019.
+- Compatible with iPhone® 5s / SE / 6 / 6s / 6 Plus / 6s Plus / 7 / 7 Plus / 8 / 8 Plus / X devices with iOS Version 9 or later installed.
+- Not compatible with 5th generation iPod Touch devices or iPhone 5c or earlier iPhone devices.
+- Please visit PokemonGO.com for additional compatibility information.
+- Compatibility is not guaranteed for all devices.
+- Continued use of GPS running in the background can dramatically reduce battery life.",
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -3365,7 +3426,7 @@ Object {
     "url": undefined,
   },
   "canonicalUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
-  "description": "‎Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
+  "description": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -3476,7 +3537,7 @@ Object {
     "url": undefined,
   },
   "canonicalUrl": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254",
-  "description": "Let’s start with the most obvious question first. This is what an “unfurl” is:",
+  "description": "Those handy little previews you see when you paste a link into a Slack message are what we refer to as unfurling internally at Slack (and also in Slack’s API documentation). While it may sound like…",
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -3722,7 +3783,7 @@ Object {
     "name": undefined,
     "url": undefined,
   },
-  "canonicalUrl": "https://segment.com/blog",
+  "canonicalUrl": "https://segment.com/blog/the-segment-aws-stack/",
   "description": undefined,
   "encodingFormat": "text/html",
   "entity": Object {
@@ -4121,8 +4182,8 @@ Object {
     "name": "Mike Butcher",
     "url": "https://techcrunch.com/author/mike-butcher/",
   },
-  "canonicalUrl": "http://social.techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
-  "description": "This week The Europas Startup Conference and Awards — the new type of tech event devised in partnership with TechCrunch and myself — honored The Best Tech Startups in Europe. You can check out all the pictures here and follow the coverage on Twitter. An annual celebration of Europe’s br…",
+  "canonicalUrl": "https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
+  "description": "This week The Europas Startup Conference and Awards — the new type of tech event devised in partnership with TechCrunch and myself — honored The Best Tech Startups in Europe. You can check out all the pictures here and follow the coverage on Twitter. An annual celebration of Europe’s brightest and best tech companies, The Europas Conference […]",
   "encodingFormat": "text/html",
   "entity": Object {
     "dateExpires": undefined,
@@ -4422,7 +4483,7 @@ Object {
     "url": "https://twitter.com/ericclemmons",
   },
   "canonicalUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
-  "description": "“🔥 Clean up @github issues with the HTML5 &lt;details&gt; tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx”",
+  "description": "“🔥 Clean up @github issues with the HTML5 <details> tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx”",
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -4558,7 +4619,7 @@ Object {
     "name": undefined,
     "url": undefined,
   },
-  "canonicalUrl": "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
+  "canonicalUrl": "https://www.airbnb.com/rooms/2250401",
   "description": undefined,
   "encodingFormat": "text/html",
   "entity": undefined,
@@ -4665,7 +4726,7 @@ Object {
     "url": undefined,
   },
   "canonicalUrl": "https://www.coursera.org/learn/machine-learning",
-  "description": "Learn Machine Learning from Stanford University. Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, ...",
+  "description": "Machine learning is the science of getting computers to act without being explicitly programmed.",
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "Machine Learning | Coursera",
@@ -4727,8 +4788,15 @@ Object {
     "name": undefined,
     "url": undefined,
   },
-  "canonicalUrl": "https://www.etsy.com/listing/549504785/pokenatomy-the-science-of-pokemon-an?utm_source=OpenGraph&utm_medium=PageTools&utm_campaign=Share",
-  "description": "PokéNatomy is an unofficial anatomical art project, re-imagining Pokemon through the lens of modern biology. This fan-made book will never be sold in stores, and each copy is one of only a 5,000 currently in existence. Now, for the first time ever, you can get the incredible scientific world of",
+  "canonicalUrl": "https://www.etsy.com/listing/549504785/pokenatomy-the-science-of-pokemon-an",
+  "description": "PokéNatomy is an unofficial anatomical art project, re-imagining Pokemon through the lens of modern biology. This fan-made book will never be sold in stores, and each copy is one of only a 5,000 currently in existence.
+
+Now, for the first time ever, you can get the incredible scientific world of Pokémon in print in a high-quality, fully illustrated, unofficial guidebook, designed to help people of all ages understand the power that's inside!
+
+This book is over 300 pages long and contains all of the original 151 Pokémon, with full page anatomical illustrations for each Pokémon as well as detailed descriptions of their biology, behavior, and abilities.
+​
+ PokéNatomy is suitable for all ages, and designed to clarify and explain diverse scientific concepts like DNA, body systems, hereditary traits, and adaptation all through the wonder and weirdness of classic Pokémon characters!
+​",
   "encodingFormat": "text/html",
   "entity": undefined,
   "headline": "PokéNatomy: The Science of Pokémon (An Unofficial Guide)",
@@ -4773,7 +4841,7 @@ Object {
     "name": undefined,
     "url": undefined,
   },
-  "canonicalUrl": "https://www.facebook.com:443/",
+  "canonicalUrl": "https://www.facebook.com/",
   "description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
   "encodingFormat": "text/html",
   "entity": undefined,
@@ -4865,7 +4933,7 @@ Object {
     "name": undefined,
     "url": undefined,
   },
-  "canonicalUrl": "https://www.flickr.com/photos/timdrivas/27999498362/",
+  "canonicalUrl": "https://www.flickr.com/photos/timdrivas/27999498362",
   "description": "The Macy's 4th of July firework show in NYC",
   "encodingFormat": "text/html",
   "entity": Object {
@@ -4988,8 +5056,8 @@ Object {
     "name": "minaalofficial",
     "url": "https://www.instagram.com/minaalofficial",
   },
-  "canonicalUrl": "https://www.instagram.com/p/BG0m4IDGaqk/",
-  "description": "107 Likes, 3 Comments - Minaal | Travel Backpacks (@minaalofficial) on Instagram: “Bask in the glamor of #nomadlife. Laundromat turned office, New York City. Photo cred:…”",
+  "canonicalUrl": "https://www.instagram.com/minaalofficial/p/BG0m4IDGaqk/caption/bask-in-the-glamor-of-nomadlife-laundromat-turned-office-new",
+  "description": "107 Likes, 3 Comments - Minaal | Travel Backpacks (@minaalofficial) on Instagram: “Bask in the glamor of #nomadlife. Laundromat turned office, New York City.  Photo cred:…”",
   "encodingFormat": "text/html",
   "entity": Object {
     "height": undefined,
@@ -5306,7 +5374,7 @@ Object {
     "name": undefined,
     "url": undefined,
   },
-  "canonicalUrl": "https://www.reddit.com:443/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+  "canonicalUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
   "description": "17,708 votes and 6,870 comments so far on Reddit",
   "encodingFormat": "text/html",
   "entity": undefined,
@@ -5781,5 +5849,66 @@ Object {
       "width": 1280,
     },
   ],
+}
+`;
+
+exports[`scrappy https://yoast.com/wordpress/plugins/seo/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "https://www.facebook.com/jdevalk",
+    "url": "https://yoast.com/about-us/team/joost-de-valk/",
+  },
+  "canonicalUrl": "https://yoast.com/wordpress/plugins/seo/",
+  "description": "Yoast SEO is the most complete WordPress SEO plugin. It handles the technical optimization of your site & assists with optimizing your content.",
+  "encodingFormat": "text/html",
+  "entity": Object {
+    "height": 338,
+    "html": "<blockquote class=\\"wp-embedded-content\\"><a href=\\"https://yoast.com/wordpress/plugins/seo/\\">Yoast SEO: the #1 WordPress SEO plugin</a></blockquote>
+<script type='text/javascript'>
+<!--//--><![CDATA[//><!--
+		!function(d,l){\\"use strict\\";var e=!1,o=!1;if(l.querySelector)if(d.addEventListener)e=!0;if(d.wp=d.wp||{},!d.wp.receiveEmbedMessage)if(d.wp.receiveEmbedMessage=function(e){var t=e.data;if(t)if(t.secret||t.message||t.value)if(!/[^a-zA-Z0-9]/.test(t.secret)){var r,a,i,s,n,o=l.querySelectorAll('iframe[data-secret=\\"'+t.secret+'\\"]'),c=l.querySelectorAll('blockquote[data-secret=\\"'+t.secret+'\\"]');for(r=0;r<c.length;r++)c[r].style.display=\\"none\\";for(r=0;r<o.length;r++)if(a=o[r],e.source===a.contentWindow){if(a.removeAttribute(\\"style\\"),\\"height\\"===t.message){if(1e3<(i=parseInt(t.value,10)))i=1e3;else if(~~i<200)i=200;a.height=i}if(\\"link\\"===t.message)if(s=l.createElement(\\"a\\"),n=l.createElement(\\"a\\"),s.href=a.getAttribute(\\"src\\"),n.href=t.value,n.host===s.host)if(l.activeElement===a)d.top.location.href=t.value}}},e)d.addEventListener(\\"message\\",d.wp.receiveEmbedMessage,!1),l.addEventListener(\\"DOMContentLoaded\\",t,!1),d.addEventListener(\\"load\\",t,!1);function t(){if(!o){o=!0;var e,t,r,a,i=-1!==navigator.appVersion.indexOf(\\"MSIE 10\\"),s=!!navigator.userAgent.match(/Trident.*rv:11\\\\./),n=l.querySelectorAll(\\"iframe.wp-embedded-content\\");for(t=0;t<n.length;t++){if(!(r=n[t]).getAttribute(\\"data-secret\\"))a=Math.random().toString(36).substr(2,10),r.src+=\\"#?secret=\\"+a,r.setAttribute(\\"data-secret\\",a);if(i||s)(e=r.cloneNode(!0)).removeAttribute(\\"security\\"),r.parentNode.replaceChild(e,r)}}}}(window,document);
+//--><!]]>
+</script><iframe sandbox=\\"allow-scripts\\" security=\\"restricted\\" src=\\"https://yoast.com/wordpress/plugins/seo/embed/\\" width=\\"600\\" height=\\"338\\" title=\\"&#8220;Yoast SEO: the #1 WordPress SEO plugin&#8221; &#8212; Yoast\\" frameborder=\\"0\\" marginwidth=\\"0\\" marginheight=\\"0\\" scrolling=\\"no\\" class=\\"wp-embedded-content\\"></iframe>",
+    "type": "rich",
+    "width": 600,
+  },
+  "headline": "Yoast SEO: the #1 WordPress SEO plugin",
+  "image": Array [
+    Object {
+      "description": undefined,
+      "encodingFormat": undefined,
+      "height": 628,
+      "secureUrl": "https://yoast.com/app/uploads/2010/10/Yoast_SEO_FB-1-1.png",
+      "type": "image",
+      "url": "https://yoast.com/app/uploads/2010/10/Yoast_SEO_FB-1-1.png",
+      "width": 1200,
+    },
+  ],
+  "locale": Object {
+    "alternate": undefined,
+    "primary": "en_US",
+  },
+  "provider": Object {
+    "name": "Yoast",
+    "url": "https://yoast.com",
+  },
+  "tags": Array [],
+  "twitter": Object {
+    "creatorHandle": "jdevalk",
+    "creatorId": undefined,
+    "siteHandle": "yoast",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://yoast.com/wordpress/plugins/seo/",
+  "video": Array [],
 }
 `;

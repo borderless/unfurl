@@ -1,0 +1,29 @@
+{
+  "url": "https://yoast.com/wordpress/plugins/seo/",
+  "headers": {
+    ":status": "200",
+    "date": "Tue, 11 Feb 2020 07:04:57 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "set-cookie": [
+      "__cfduid=de6b75ff331f83cea75c84ee249e9b5e41581404696; expires=Thu, 12-Mar-20 07:04:56 GMT; path=/; domain=.yoast.com; HttpOnly; SameSite=Lax; Secure",
+      "selected_shop=1; Domain=.yoast.com; Path=/",
+      "selected_country=US; Domain=.yoast.com; Path=/",
+      "__cflb=02DiuCzTvJfThFMUUiDm2YjfE19GB2FN91xRxctLaGvmJ; Secure; SameSite=Lax; path=/; expires=Wed, 12-Feb-20 06:04:57 GMT; HttpOnly"
+    ],
+    "vary": "Accept-Encoding",
+    "x-dns-prefetch-control": "on",
+    "link": "<https://yoast.com/wp-json/>; rel=\"https://api.w.org/\"",
+    "x-backend": "web3.yoast.com",
+    "x-cached": "HIT",
+    "x-proxy-cache": "HIT",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "cf-cache-status": "DYNAMIC",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "alt-svc": "h3-24=\":443\"; ma=86400, h3-23=\":443\"; ma=86400",
+    "x-content-type-options": "nosniff",
+    "server": "cloudflare",
+    "cf-ray": "563478bbff6a6cf8-SJC",
+    "content-encoding": "br"
+  },
+  "status": 200
+}

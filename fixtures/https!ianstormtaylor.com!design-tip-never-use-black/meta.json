@@ -1,0 +1,18 @@
+{
+  "url": "https://ianstormtaylor.com/design-tip-never-use-black/",
+  "headers": {
+    ":status": "200",
+    "cache-control": "public, max-age=0, must-revalidate",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Tue, 28 Jan 2020 18:16:57 GMT",
+    "etag": "\"47b16f39d1bbbe0db9e92fb9112020a1-ssl-df\"",
+    "strict-transport-security": "max-age=31536000",
+    "content-encoding": "gzip",
+    "content-length": "4375",
+    "age": "1170758",
+    "server": "Netlify",
+    "vary": "Accept-Encoding",
+    "x-nf-request-id": "70910464-4b9a-4896-b26f-94884c6961bc-2767738"
+  },
+  "status": 200
+}

@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Design Tip: Never Use Black by Ian Storm Taylor</title>
+    <meta name="author" content="Ian Storm Taylor">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,300italic,400italic,500italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,300italic">
+    <link rel="stylesheet" href="/prism.css">
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="author">
+        <img class="author-gravatar" src="//www.gravatar.com/avatar/e7f4e4b1d3b381e70f864bc7f8b4493e?size=200" />
+        <h1 class="author-name">
+          <a class="author-link" href="/">Ian Storm Taylor</a>
+        </h1>
+        <label class="author-bio">Co-founder of <a href='https://segment.com'>Segment</a></label>
+          <div class="author-twitter">
+            <a href="https://twitter.com/ianstormtaylor" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false"></a>
+            <div class="author-twitter-mask-color"></div>
+            <div class="author-twitter-mask-lighten"></div>
+          </div>
+      </div>
+    </header>
+
+    <!-- Article -->
+    <main class="main">
+      <article class="article">
+        <h1 class="article-title">
+          <a class="article-link" href="/design-tip-never-use-black">Design Tip: Never Use&nbsp;Black</a>
+        </h1>
+        <time class="article-date" datetime="2012-08-07T17:15:00.000Z">August 7, 2012</time>
+        <div class="article-body">
+          <p>One of the most important color tricks I’ve ever learned was to avoid using the color black in my work. Mrs. Zamula, my childhood art teacher, first warned me about black when I was in middle school. And I heard the same again multiple times at RISD. It sounds weird at first, but it’s good advice.</p><p>Problem is, we see <strong>dark</strong> things and assume they are <strong>black</strong> things. When, in reality, it’s very hard to find something that is pure black. Roads aren’t black. Your office chair isn’t black. The sidebar in Sparrow isn’t black. Words on web pages aren’t black.</p><h2 id="shadows-aren-t-black">Shadows aren’t black.</h2><p>In high school, I spent lots of my free time in the art room with a few other art-loving friends. (It was either that or playing Halo, which I did a lot of too.) Mrs. Zamula was constantly showing us different artists’ work. One book she would always bring back out to leaf through was of <a href="http://en.wikipedia.org/wiki/Wayne_Thiebaud">Wayne Thiebaud’s</a> work. She would excitedly point out the slivers of bright primary color he slips between shadows. And she’d tell us to look at his bright blue shadows!</p><p>I probably went through that book ten times. Thiebaud is a perfect example of shadows not being black. (And he’s a painter that anyone living in San Francisco should know.)</p><figure><img src="https://assets.contents.io/asset_Ej7ifPkv.png"/></figure><p>His shadows are some of the most saturated parts of his paintings, and that’s on the screen too. On paper they’d look even nicer. And in real-life nicer still.</p><p>Now you might be thinking, “Yeah, but those are paintings. They’re not real.” Well, how real do you think our interfaces are to Thiebaud?</p><p>But I must have been thinking the same thing, because one of those days in art class Mrs. Zamula came in with a blue light bulb to prove it. She screwed the bulb into a clamp-light, plugged the light in and clamped it to a stool. Then she got a pure-white ball from her cabinet full of pure-white things (that she kept for figure drawing exercises) and placed it on a pure-white pedestal, under the light. And sure enough, when she turned on the blue light, the shadow cast by the ball was an orange tint, not black.</p><p>I was amazed. And now when I walk down the street in San Francisco I love looking for the most saturated shadow I can find. Here’s a photo I took down the street with Path (yes, filters…) that reminded me of Thiebaud in the first place:</p><figure><img src="https://assets.contents.io/asset_uUhLERra.png"/></figure><p>This the corner of Chestnut Street and Polk Street, in San Francisco. </p><p>The darkest part of that image? It’s not <code>#000000</code>. It’s <code>#130f30</code>. (That’s 19% brightness and 69% saturation!)</p><h2 id="black-overpowers-everything-else">Black overpowers everything else.</h2><p>When you put pure black next to a set of meticulously picked colors, the black overpowers everything else. It stands out because it’s not natural. All of the “black” everyday objects around you have some amount of light bouncing off of them, which means they aren’t black, they’re dark gray. And that light probably has a tint to it, so they’re not even dark gray, they’re colored-dark gray.</p><p>Lots of the apps we use on a daily basis have blacks that aren’t really blacks, but dark grays. Twitter’s sidebar, <a href="http://www.sublimetext.com/2">Sublime Text 2</a>&#39;s sidebar if you have <a href="https://github.com/buymeasoda/soda-theme/">Soda Dark</a> installed (which you should!), new Photoshop’s background, the calendar widget. Even Twitter Bootstrap. They all use colors close to black, but slightly muted so they don’t overpower the rest of the elements on the screen.</p><figure><img src="https://assets.contents.io/asset_qWERpCFe.png"/></figure><p>Here’s a bit of a contrived example… Dribbble has a pretty awesome feature that lets you search for shots by color. If you search for <a href="http://dribbble.com/colors/000000?percent=25&amp;variance=0">shots with pure black</a> and <a href="http://dribbble.com/colors/292724?percent=25&amp;variance=15">shots with “real black”</a> which ones feel better? Not the ones with pure black in them.</p><p>It’s not only about the brightness (or value) of the color either…</p><h2 id="saturation-is-just-as-important">Saturation is just as important.</h2><p>You can do even better than staying away from pure <code>#000000</code> black too. Whenever you’re working with grays, add a bit of color to them and they will feel less dull. The amount of color you can add is proportional to how dark the color is. The black from my Path photo had 69%! saturation, whereas a light-gray might only need 3%.</p><p>I’ve used that as a general guide when making the color palette for <a href="https://segment.io/">Segment</a>. I mix a small amount of yellow-orange into our grays. Saturation starts at 2% for our lightest gray and steadily increases until it’s at 22% for the darkest gray, forming an arc across the Photoshop color picker.</p><p>But don’t take my word for it again—let’s look at Facebook. Why does the Facebook Mobile interface feel so nice? Because all of those grays are pumped full of Facebook Blue.</p><figure><img src="https://assets.contents.io/asset_AHouIFJ1.png"/></figure><h2 id="it-s-been-a-long-time-coming">It’s been a long time coming.</h2><p>Mrs. Zamula first warned me about black back in middle school, and others warned me later on, but it’s still taken me a long time to really grok, and to build up the automatic response against it. Even now, I still have trouble choosing grays that set the right mood.</p><p>Bottom line is: when you find <code>#000000</code> in your color picker, ask yourself if you really want pure black. You’re probably better off with something more natural. And if you’re feeling adventurous, try staying away from the left edge of the color picker altogether.</p>
+        </div>
+      </article>
+    </main>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-previous">
+        <label class="nav-label">Previous</label>
+          <a class="nav-link" href="/assigning-backbone-subviews-made-even-cleaner">Assigning Backbone Subviews Made Even&nbsp;Cleaner</a>
+      </div>
+      <div class="nav-mark">
+        <img class="nav-icon" src="/icon.svg" />
+      </div>
+      <div class="nav-next">
+        <label class="nav-label">Next</label>
+          <a class="nav-link" href="/break-apart-your-backbonejs-render-methods">Break Apart Your Backbone.js Render&nbsp;Methods</a>
+      </div>
+    </nav>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="author">
+        <img class="author-gravatar" src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;e7f4e4b1d3b381e70f864bc7f8b4493e?size&#x3D;200" />
+        <h1 class="author-name">
+          <a class="author-link" href="/">Ian Storm Taylor</a>
+        </h1>
+        <label class="author-bio">Co-founder of <a href='https://segment.com'>Segment</a></label>
+          <div class="author-twitter">
+            <a href="https://twitter.com/ianstormtaylor" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false"></a>
+            <div class="author-twitter-mask-color"></div>
+            <div class="author-twitter-mask-lighten"></div>
+          </div>
+      </div>
+    </footer>
+
+    <script src="/prism.js"></script>
+    <script src="/index.js"></script>
+
+      <script>
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+          analytics.load('WwSA7MnIIvUUCfVUjEWbAlmemSgb5k7O');
+          analytics.page('Article', {
+            article: {
+              name: 'Design Tip: Never Use Black',
+              slug: 'design-tip-never-use-black',
+              date: '2012-08-07T17:15:00.000Z'
+            }
+          });
+        }}();
+      </script>
+      <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+      </script>
+  </body>
+</html>

@@ -104,6 +104,7 @@ const FIXTURES = [
   "https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor?ref=category_featured",
   "https://pragprog.com/book/btlang/seven-languages-in-seven-weeks",
   "https://www.battlefield.com/buy/battlefield-1",
+  "https://yoast.com/wordpress/plugins/seo/",
   // Documents.
   "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing",
   "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing",
@@ -139,6 +140,7 @@ const FIXTURES = [
   "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/",
   "https://github.com/blog/2242-git-2-10-has-been-released",
   "http://waitbutwhy.com/2016/09/marriage-decision.html",
+  "https://ianstormtaylor.com/design-tip-never-use-black/",
   // Courses.
   "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
   "https://www.coursera.org/learn/machine-learning",
