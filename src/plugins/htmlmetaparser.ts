@@ -11,15 +11,12 @@ import { contentType, readJson } from "../helpers";
 import {
   Plugin,
   Request,
-  ImageSnippet,
-  AudioSnippet,
-  VideoSnippet,
-  SnippetApps,
-  SnippetAppLink,
-  SnippetLocale,
-  SnippetTwitter,
+  SnippetApp,
   Entity,
-  HtmlSnippet
+  Snippet,
+  ImageEntity,
+  VideoEntity,
+  AudioEntity
 } from "../types";
 
 const OEMBED_CONTENT_TYPE = /^application\/json(?:\+oembed)?$/i;
@@ -37,7 +34,7 @@ export const plugin: Plugin = async (input, next) => {
   if (type !== "text/html") return next(input);
 
   const metadata = await parse(body, url);
-  if (!metadata) return { type: "html", url };
+  if (!metadata) return { type: "website", url };
 
   const graph = await normalizeJsonLd(
     [
@@ -53,22 +50,21 @@ export const plugin: Plugin = async (input, next) => {
     status === 200 ? await getOembed(request, metadata.alternate) : undefined;
   const options = { url, metadata, graph, oembed };
 
-  const snippet: HtmlSnippet = {
-    type: "html",
+  const snippet: Snippet = {
+    type: "website",
     url: url,
     encodingFormat: type,
     image: getImage(options),
     video: getVideo(options),
     audio: getAudio(options),
-    entity: getEntity(options),
+    mainEntity: getMainEntity(options),
     canonicalUrl: getCanonicalUrl(options),
     headline: getHeadline(options),
     description: getDescription(options),
     provider: getProvider(options),
     author: getAuthor(options),
     tags: getTags(options),
-    locale: getLocale(options),
-    twitter: getTwitter(options),
+    language: getLanguage(options),
     apps: getApps(options)
   };
 
@@ -319,8 +315,9 @@ function getAuthor(options: ExtractOptions) {
     options.metadata?.sailthru?.author;
 
   const url = options.oembed?.author_url;
+  const twitterHandle = toTwitterHandle(options.metadata?.twitter?.creator);
 
-  return { name, url };
+  return { name, url, twitterHandle };
 }
 
 /**
@@ -355,8 +352,9 @@ function getProvider(options: ExtractOptions) {
     options.metadata?.twitter?.["android:app_name"];
 
   const url = options.oembed?.provider_url;
+  const twitterHandle = toTwitterHandle(options.metadata?.twitter?.site);
 
-  return { name, url };
+  return { name, url, twitterHandle };
 }
 
 /**
@@ -399,7 +397,7 @@ function getDescription(options: ExtractOptions) {
 /**
  * Get the meta image url.
  */
-function getImage(options: ExtractOptions): ImageSnippet[] {
+function getImage(options: ExtractOptions): ImageEntity[] {
   const ogpImages = jsonLdArray(
     first(
       options.graph,
@@ -409,9 +407,9 @@ function getImage(options: ExtractOptions): ImageSnippet[] {
   const twitterImages =
     toArray(options.metadata?.twitter?.image) ||
     toArray(options.metadata?.twitter?.image0);
-  const images: ImageSnippet[] = [];
+  const images: ImageEntity[] = [];
 
-  function addImage(newImage: ImageSnippet, append: boolean) {
+  function addImage(newImage: ImageEntity, append: boolean) {
     for (const image of images) {
       if (image.url === newImage.url) {
         copyProps(image, newImage);
@@ -426,23 +424,23 @@ function getImage(options: ExtractOptions): ImageSnippet[] {
 
   function addImages(
     urls: string[],
-    secureUrls: string[] | undefined,
-    types: string[] | undefined,
-    alts: string[] | undefined,
-    widths: string[] | undefined,
-    heights: string[] | undefined,
+    secureUrls: string[] = [],
+    types: string[] = [],
+    alts: string[] = [],
+    widths: string[] = [],
+    heights: string[] = [],
     append: boolean
   ) {
     for (let i = 0; i < urls.length; i++) {
       addImage(
         {
           type: "image",
-          url: urls[i],
-          secureUrl: secureUrls ? secureUrls[i] : undefined,
-          encodingFormat: types ? types[i] : undefined,
-          description: alts ? alts[i] : undefined,
-          width: widths ? toNumber(widths[i]) : undefined,
-          height: heights ? toNumber(heights[i]) : undefined
+          url: toUrl(urls[i], options.url),
+          secureUrl: toUrl(secureUrls[i], options.url),
+          encodingFormat: types[i],
+          description: alts[i],
+          width: toNumber(widths[i]),
+          height: toNumber(heights[i])
         },
         append
       );
@@ -496,16 +494,16 @@ function getImage(options: ExtractOptions): ImageSnippet[] {
 /**
  * Get the meta audio information.
  */
-function getAudio(options: ExtractOptions): AudioSnippet[] {
+function getAudio(options: ExtractOptions): AudioEntity[] {
   const ogpAudios = jsonLdArray(
     first(
       options.graph,
       x => x["http://ogp.me/ns#audio"] || x["http://ogp.me/ns#audio:url"]
     )
   );
-  const audios: AudioSnippet[] = [];
+  const audios: AudioEntity[] = [];
 
-  function addAudio(newAudio: AudioSnippet) {
+  function addAudio(newAudio: AudioEntity) {
     for (const audio of audios) {
       if (audio.url === newAudio.url) {
         copyProps(audio, newAudio);
@@ -518,15 +516,15 @@ function getAudio(options: ExtractOptions): AudioSnippet[] {
 
   function addAudios(
     urls: string[],
-    secureUrls: string[] | undefined,
-    types: string[] | undefined
+    secureUrls: string[] = [],
+    types: string[] = []
   ) {
     for (let i = 0; i < urls.length; i++) {
       addAudio({
         type: "audio",
-        url: urls[i],
-        secureUrl: secureUrls ? secureUrls[i] : undefined,
-        encodingFormat: types ? types[i] : undefined
+        url: toUrl(urls[i], options.url),
+        secureUrl: toUrl(secureUrls[i], options.url),
+        encodingFormat: types[i]
       });
     }
   }
@@ -548,16 +546,16 @@ function getAudio(options: ExtractOptions): AudioSnippet[] {
 /**
  * Get the meta image url.
  */
-function getVideo(options: ExtractOptions): VideoSnippet[] {
+function getVideo(options: ExtractOptions): VideoEntity[] {
   const ogpVideos = jsonLdArray(
     first(
       options.graph,
       x => x["http://ogp.me/ns#video"] || x["http://ogp.me/ns#video:url"]
     )
   );
-  const videos: VideoSnippet[] = [];
+  const videos: VideoEntity[] = [];
 
-  function addVideo(newVideo: VideoSnippet) {
+  function addVideo(newVideo: VideoEntity) {
     for (const video of videos) {
       if (video.url === newVideo.url) {
         copyProps(video, newVideo);
@@ -570,19 +568,19 @@ function getVideo(options: ExtractOptions): VideoSnippet[] {
 
   function addVideos(
     urls: string[],
-    secureUrls: string[] | undefined,
-    types: string[] | undefined,
-    widths: string[] | undefined,
-    heights: string[] | undefined
+    secureUrls: string[] = [],
+    types: string[] = [],
+    widths: string[] = [],
+    heights: string[] = []
   ) {
     for (let i = 0; i < urls.length; i++) {
       addVideo({
         type: "video",
-        url: urls[i],
-        secureUrl: secureUrls ? secureUrls[i] : undefined,
-        encodingFormat: types ? types[i] : undefined,
-        width: widths ? toNumber(widths[i]) : undefined,
-        height: heights ? toNumber(heights[i]) : undefined
+        url: toUrl(urls[i], options.url),
+        secureUrl: toUrl(secureUrls[i], options.url),
+        encodingFormat: types[i],
+        width: toNumber(widths[i]),
+        height: toNumber(heights[i])
       });
     }
   }
@@ -615,7 +613,7 @@ function getVideo(options: ExtractOptions): VideoSnippet[] {
     if (embedUrl && width && height) {
       addVideo({
         type: "video",
-        url: embedUrl,
+        url: toUrl(embedUrl, options.url),
         encodingFormat: "text/html",
         width,
         height
@@ -633,26 +631,32 @@ function getVideo(options: ExtractOptions): VideoSnippet[] {
 /**
  * Get apps metadata.
  */
-function getApps(options: ExtractOptions): SnippetApps {
-  return {
-    iphone: getIphoneApp(options),
-    ipad: getIpadApp(options),
-    android: getAndroidApp(options),
-    windows: getWindowsApp(options),
-    windowsPhone: getWindowsPhoneApp(options)
-  };
+function getApps(options: ExtractOptions): SnippetApp[] {
+  return list(
+    filter([
+      getIphoneApp(options),
+      getIpadApp(options),
+      getIosApp(options),
+      getAndroidApp(options),
+      getWindowsApp(options),
+      getWindowsPhoneApp(options),
+      getWindowsUniversalApp(options)
+    ])
+  );
 }
 
 /**
  * Extract iPad app information from metadata.
  */
-function getIpadApp(options: ExtractOptions): SnippetAppLink | undefined {
+function getIpadApp(options: ExtractOptions): SnippetApp | undefined {
   const twitterIpadUrl = options.metadata?.twitter?.["app:url:ipad"];
   const twitterIpadId = options.metadata?.twitter?.["app:id:ipad"];
   const twitterIpadName = options.metadata?.twitter?.["app:name:ipad"];
 
   if (twitterIpadId && twitterIpadName && twitterIpadUrl) {
     return {
+      device: "iPad",
+      os: "iOS",
       id: twitterIpadId,
       name: twitterIpadName,
       url: twitterIpadUrl
@@ -665,25 +669,27 @@ function getIpadApp(options: ExtractOptions): SnippetAppLink | undefined {
 
   if (applinksIpadId && applinksIpadName && applinksIpadUrl) {
     return {
+      device: "iPad",
+      os: "iOS",
       id: applinksIpadId,
       name: applinksIpadName,
       url: applinksIpadUrl
     };
   }
-
-  return getIosApp(options);
 }
 
 /**
  * Extract iPhone app information from metadata.
  */
-function getIphoneApp(options: ExtractOptions): SnippetAppLink | undefined {
+function getIphoneApp(options: ExtractOptions): SnippetApp | undefined {
   const twitterIphoneUrl = options.metadata?.twitter?.["app:url:iphone"];
   const twitterIphoneId = options.metadata?.twitter?.["app:id:iphone"];
   const twitterIphoneName = options.metadata?.twitter?.["app:name:iphone"];
 
   if (twitterIphoneId && twitterIphoneName && twitterIphoneUrl) {
     return {
+      device: "iPhone",
+      os: "iOS",
       id: twitterIphoneId,
       name: twitterIphoneName,
       url: twitterIphoneUrl
@@ -696,25 +702,26 @@ function getIphoneApp(options: ExtractOptions): SnippetAppLink | undefined {
 
   if (applinksIphoneId && applinksIphoneName && applinksIphoneUrl) {
     return {
+      device: "iPhone",
+      os: "iOS",
       id: applinksIphoneId,
       name: applinksIphoneName,
       url: applinksIphoneUrl
     };
   }
-
-  return getIosApp(options);
 }
 
 /**
  * Extract the iOS app metadata.
  */
-function getIosApp(options: ExtractOptions): SnippetAppLink | undefined {
+function getIosApp(options: ExtractOptions): SnippetApp | undefined {
   const applinksUrl = options.metadata?.applinks?.["ios:url"];
   const applinksId = options.metadata?.applinks?.["ios:app_store_id"];
   const applinksName = options.metadata?.applinks?.["ios:app_name"];
 
   if (applinksId && applinksName && applinksUrl) {
     return {
+      os: "iOS",
       id: applinksId,
       name: applinksName,
       url: applinksUrl
@@ -725,13 +732,14 @@ function getIosApp(options: ExtractOptions): SnippetAppLink | undefined {
 /**
  * Extract Android app metadata.
  */
-function getAndroidApp(options: ExtractOptions): SnippetAppLink | undefined {
+function getAndroidApp(options: ExtractOptions): SnippetApp | undefined {
   const twitterAndroidUrl = options.metadata?.twitter?.["app:url:googleplay"];
   const twitterAndroidId = options.metadata?.twitter?.["app:id:googleplay"];
   const twitterAndroidName = options.metadata?.twitter?.["app:name:googleplay"];
 
   if (twitterAndroidId && twitterAndroidName && twitterAndroidUrl) {
     return {
+      os: "Android",
       id: twitterAndroidId,
       name: twitterAndroidName,
       url: twitterAndroidUrl
@@ -744,6 +752,7 @@ function getAndroidApp(options: ExtractOptions): SnippetAppLink | undefined {
 
   if (applinksAndroidId && applinksAndroidName && applinksAndroidUrl) {
     return {
+      os: "Android",
       id: applinksAndroidId,
       name: applinksAndroidName,
       url: applinksAndroidUrl
@@ -754,9 +763,7 @@ function getAndroidApp(options: ExtractOptions): SnippetAppLink | undefined {
 /**
  * Extract Windows Phone app metadata.
  */
-function getWindowsPhoneApp(
-  options: ExtractOptions
-): SnippetAppLink | undefined {
+function getWindowsPhoneApp(options: ExtractOptions): SnippetApp | undefined {
   const applinksWindowsPhoneUrl =
     options.metadata?.applinks?.["windows_phone:url"];
   const applinksWindowsPhoneId =
@@ -770,32 +777,32 @@ function getWindowsPhoneApp(
     applinksWindowsPhoneUrl
   ) {
     return {
+      device: "Mobile",
+      os: "Windows",
       id: applinksWindowsPhoneId,
       name: applinksWindowsPhoneName,
       url: applinksWindowsPhoneUrl
     };
   }
-
-  return getWindowsUniversalApp(options);
 }
 
 /**
  * Extract Windows app metadata.
  */
-function getWindowsApp(options: ExtractOptions): SnippetAppLink | undefined {
+function getWindowsApp(options: ExtractOptions): SnippetApp | undefined {
   const applinksWindowsUrl = options.metadata?.applinks?.["windows:url"];
   const applinksWindowsId = options.metadata?.applinks?.["windows:app_id"];
   const applinksWindowsName = options.metadata?.applinks?.["windows:app_name"];
 
   if (applinksWindowsId && applinksWindowsName && applinksWindowsUrl) {
     return {
+      device: "PC",
+      os: "Windows",
       id: applinksWindowsId,
       name: applinksWindowsName,
       url: applinksWindowsUrl
     };
   }
-
-  return getWindowsUniversalApp(options);
 }
 
 /**
@@ -803,7 +810,7 @@ function getWindowsApp(options: ExtractOptions): SnippetAppLink | undefined {
  */
 function getWindowsUniversalApp(
   options: ExtractOptions
-): SnippetAppLink | undefined {
+): SnippetApp | undefined {
   const applinksWindowsUniversalUrl =
     options.metadata?.applinks?.["windows_universal:url"];
   const applinksWindowsUniversalId =
@@ -817,6 +824,7 @@ function getWindowsUniversalApp(
     applinksWindowsUniversalUrl
   ) {
     return {
+      os: "Windows",
       id: applinksWindowsUniversalId,
       name: applinksWindowsUniversalName,
       url: applinksWindowsUniversalUrl
@@ -827,36 +835,11 @@ function getWindowsUniversalApp(
 /**
  * Get locale data.
  */
-function getLocale(options: ExtractOptions): SnippetLocale | undefined {
-  const primary =
+function getLanguage(options: ExtractOptions): string | undefined {
+  return (
     jsonLdValue(first(options.graph, x => x["http://ogp.me/ns#locale"])) ||
-    options.metadata?.html?.["language"];
-  const alternate = jsonLdArray(
-    first(options.graph, x => x["http://ogp.me/ns#locale:alternate"])
+    options.metadata?.html?.["language"]
   );
-
-  if (primary || alternate) {
-    return { primary, alternate };
-  }
-}
-
-/**
- * Get twitter data.
- */
-function getTwitter(options: ExtractOptions): SnippetTwitter | undefined {
-  const creatorId = options.metadata?.twitter?.["creator:id"];
-  const creatorHandle = toTwitterHandle(options.metadata?.twitter?.creator);
-  const siteId = options.metadata?.twitter?.["site:id"];
-  const siteHandle = toTwitterHandle(options.metadata?.twitter?.site);
-
-  if (siteId || siteHandle || creatorId || creatorHandle) {
-    return {
-      siteId,
-      siteHandle,
-      creatorId,
-      creatorHandle
-    };
-  }
 }
 
 /**
@@ -870,7 +853,7 @@ function toTwitterHandle(value?: string) {
 /**
  * Extract HTML page content types.
  */
-function getEntity(options: ExtractOptions): Entity | undefined {
+function getMainEntity(options: ExtractOptions): Entity | undefined {
   const twitterType = options.metadata?.twitter?.card;
   const ogpType = jsonLdValue(
     first(options.graph, x => x["http://ogp.me/ns#type"])
@@ -923,7 +906,7 @@ function getEntity(options: ExtractOptions): Entity | undefined {
 
   if (oembedType === "rich") {
     return {
-      type: "rich",
+      type: "embed",
       html: options.oembed?.html,
       width: toNumber(options.oembed?.width),
       height: toNumber(options.oembed?.height)
@@ -931,14 +914,13 @@ function getEntity(options: ExtractOptions): Entity | undefined {
   }
 
   if (
-    twitterType === "summary_large_image" ||
     twitterType === "photo" ||
     twitterType === "gallery" ||
     oembedType === "photo"
   ) {
     return {
       type: "image",
-      url: options.oembed?.url,
+      url: toUrl(options.oembed?.url, options.url),
       width: toNumber(options.oembed?.width),
       height: toNumber(options.oembed?.height)
     };

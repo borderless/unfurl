@@ -25,80 +25,43 @@ export interface Input {
 export type Next = (input: Input) => Promise<Snippet>;
 export type Plugin = (input: Input, next: Next) => Promise<Snippet>;
 
-export interface BaseSnippet {
-  type?: string;
+export interface Snippet {
+  type: "website" | "image" | "video" | "audio" | "document" | "link";
   url: string;
   secureUrl?: string;
   canonicalUrl?: string;
   encodingFormat?: string;
-}
-
-export interface HtmlSnippet extends BaseSnippet {
-  type: "html";
   headline?: string;
   description?: string;
+
+  mainEntity?: Entity;
   tags?: string[];
-  entity?: Entity;
-  image?: ImageSnippet[];
-  video?: VideoSnippet[];
-  audio?: AudioSnippet[];
-  author?: SnippetPerson;
-  provider?: SnippetPerson;
-  icon?: ImageSnippet[];
-  locale?: SnippetLocale;
-  twitter?: SnippetTwitter;
-  apps?: SnippetApps;
-  dateCreated?: Date;
-  dateModified?: Date;
-  datePublished?: Date;
-}
+  apps?: SnippetApp[];
+  language?: string;
 
-export interface AudioSnippet extends BaseSnippet {
-  type: "audio";
-}
+  image?: ImageEntity[];
+  video?: VideoEntity[];
+  audio?: AudioEntity[];
+  icon?: ImageEntity[];
 
-export interface VideoSnippet extends BaseSnippet {
-  type: "video";
-  width?: number;
-  height?: number;
-}
-
-export interface ImageSnippet extends BaseSnippet {
-  type: "image";
-  description?: string;
-  width?: number;
-  height?: number;
-  dateCreated?: Date;
-  dateModified?: Date;
-  datePublished?: Date;
-  camera?: SnippetCamera;
-}
-
-export interface PdfSnippet extends BaseSnippet {
-  type: "pdf";
-  headline?: string;
   author?: SnippetPerson;
   producer?: SnippetPerson;
   creator?: SnippetPerson;
+  provider?: SnippetPerson;
+
+  width?: number;
+  height?: number;
+  camera?: SnippetCamera;
+
   dateCreated?: Date;
   dateModified?: Date;
   datePublished?: Date;
 }
-
-export interface LinkSnippet extends BaseSnippet {
-  type: "link";
-}
-
-export type Snippet =
-  | LinkSnippet
-  | PdfSnippet
-  | VideoSnippet
-  | ImageSnippet
-  | HtmlSnippet;
 
 export interface SnippetPerson {
   name?: string;
   url?: string;
+  twitterHandle?: string;
 }
 
 export interface SnippetCamera {
@@ -111,30 +74,12 @@ export interface SnippetCamera {
   megapixels?: number;
 }
 
-export interface SnippetAppLink {
+export interface SnippetApp {
+  device?: "iPhone" | "iPad" | "PC" | "Mobile";
+  os: "iOS" | "Android" | "Windows";
   id: string;
   name: string;
   url: string;
-}
-
-export interface SnippetLocale {
-  primary?: string;
-  alternate?: string[];
-}
-
-export interface SnippetTwitter {
-  siteId?: string;
-  siteHandle?: string;
-  creatorId?: string;
-  creatorHandle?: string;
-}
-
-export interface SnippetApps {
-  iphone?: SnippetAppLink;
-  ipad?: SnippetAppLink;
-  android?: SnippetAppLink;
-  windows?: SnippetAppLink;
-  windowsPhone?: SnippetAppLink;
 }
 
 export interface ArticleEntity {
@@ -149,22 +94,40 @@ export interface ArticleEntity {
 export interface ImageEntity {
   type: "image";
   url?: string;
+  secureUrl?: string;
+  encodingFormat?: string;
+  description?: string;
   width?: number;
   height?: number;
 }
 
 export interface VideoEntity {
   type: "video";
+  url?: string;
+  secureUrl?: string;
+  encodingFormat?: string;
   html?: string;
   width?: number;
   height?: number;
 }
 
-export interface RichEntity {
-  type: "rich";
+export interface AudioEntity {
+  type: "audio";
+  url?: string;
+  secureUrl?: string;
+  encodingFormat?: string;
+}
+
+export interface EmbedEntity {
+  type: "embed";
   html?: string;
   width?: number;
   height?: number;
 }
 
-export type Entity = ArticleEntity | VideoEntity | ImageEntity | RichEntity;
+export type Entity =
+  | ArticleEntity
+  | VideoEntity
+  | AudioEntity
+  | ImageEntity
+  | EmbedEntity;

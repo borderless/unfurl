@@ -1,12 +1,6 @@
 import { exec } from "exiftool2";
-import {
-  Plugin,
-  Snippet,
-  PdfSnippet,
-  ImageSnippet,
-  VideoSnippet
-} from "../types";
-import { tee, contentType } from "../helpers";
+import { Plugin, Snippet } from "../types";
+import { contentType } from "../helpers";
 import { Readable } from "stream";
 import { parse } from "exif-date";
 
@@ -29,13 +23,13 @@ export const plugin: Plugin = async (input, next) => {
   return next(input);
 };
 
-async function pdf(url: string, stream: Readable): Promise<PdfSnippet> {
+async function pdf(url: string, stream: Readable): Promise<Snippet> {
   const exifData = await extractExifData(stream);
-  if (!exifData) return { type: "pdf", url };
+  if (!exifData) return { type: "document", url };
 
   return {
     url,
-    type: "pdf",
+    type: "document",
     encodingFormat: exifData.MIMEType,
     producer: exifData.Producer && { name: exifData.Producer },
     author: exifData.Author && { name: exifData.Author },
@@ -46,7 +40,7 @@ async function pdf(url: string, stream: Readable): Promise<PdfSnippet> {
   };
 }
 
-async function image(url: string, stream: Readable): Promise<ImageSnippet> {
+async function image(url: string, stream: Readable): Promise<Snippet> {
   const exifData = await extractExifData(stream);
   if (!exifData) return { type: "image", url };
 
@@ -73,7 +67,7 @@ async function image(url: string, stream: Readable): Promise<ImageSnippet> {
   };
 }
 
-async function video(url: string, stream: Readable): Promise<VideoSnippet> {
+async function video(url: string, stream: Readable): Promise<Snippet> {
   const exifData = await extractExifData(stream);
   if (!exifData) return { type: "video", url };
 
