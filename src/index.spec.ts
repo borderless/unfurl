@@ -135,6 +135,7 @@ const FIXTURES = [
   "https://segment.com/blog/the-segment-aws-stack/",
   "http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3",
   "https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
+  "https://techcrunch.com/2020/02/23/sensors-are-the-next-big-thing-in-space-not-starships/",
   "https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly",
   "http://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=ideas-blog&utm_term=education",
   "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/",

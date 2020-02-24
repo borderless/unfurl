@@ -4223,6 +4223,61 @@ Object {
 }
 `;
 
+exports[`scrappy https://techcrunch.com/2020/02/23/sensors-are-the-next-big-thing-in-space-not-starships/ 1`] = `
+Object {
+  "apps": Object {
+    "android": undefined,
+    "ipad": undefined,
+    "iphone": undefined,
+    "windows": undefined,
+    "windowsPhone": undefined,
+  },
+  "audio": Array [],
+  "author": Object {
+    "name": "Darrell Etherington",
+    "url": "https://techcrunch.com/author/darrell-etherington/",
+  },
+  "canonicalUrl": "https://techcrunch.com/2020/02/23/sensors-are-the-next-big-thing-in-space-not-starships/",
+  "description": "Understanding the opportunities available in the space industry — especially for early-stage companies and new founders — isn’t easy. The pool of people who have deep aerospace technical expertise isn’t huge, and like any community that requires a high degree of specialist knowledge, it’s a tightly-knit field that relies on social connections. But space is […]",
+  "encodingFormat": "text/html",
+  "entity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": 2020-02-23T18:09:53.000Z,
+    "publisher": "https://www.facebook.com/techcrunch",
+    "section": undefined,
+    "type": "article",
+  },
+  "headline": "Sensors are the next big thing in space, not starships",
+  "image": Array [
+    Object {
+      "description": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://techcrunch.com/wp-content/uploads/2020/02/GettyImages-1128316743.jpg?w=712",
+      "width": undefined,
+    },
+  ],
+  "locale": undefined,
+  "provider": Object {
+    "name": "TechCrunch",
+    "url": "https://techcrunch.com",
+  },
+  "tags": Array [],
+  "twitter": Object {
+    "creatorHandle": undefined,
+    "creatorId": undefined,
+    "siteHandle": "techcrunch",
+    "siteId": undefined,
+  },
+  "type": "html",
+  "url": "https://techcrunch.com/2020/02/23/sensors-are-the-next-big-thing-in-space-not-starships/",
+  "video": Array [],
+}
+`;
+
 exports[`scrappy https://trakt.tv/movies/kung-fury-2015 1`] = `
 Object {
   "apps": Object {
