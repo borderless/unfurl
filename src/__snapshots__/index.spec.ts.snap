@@ -410,6 +410,10 @@ Object {
   "headline": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
   "image": Array [
     Object {
+      "type": "image",
+      "url": "https://mondrian.mashable.com/uploads%252Fstory%252Fthumbnail%252F11969%252Fbattleofthebastards.jpg%252F950x534.jpg?signature=-MKnpkVApSHLwkn6TgWeO9ST7Xc=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com",
+    },
+    Object {
       "description": undefined,
       "encodingFormat": undefined,
       "height": undefined,
@@ -975,10 +979,7 @@ Object {
   "headline": "Emails show Google’s close relationship with the White House",
   "image": Array [
     Object {
-      "description": undefined,
-      "encodingFormat": undefined,
       "height": 900,
-      "secureUrl": undefined,
       "type": "image",
       "url": "https://cdn.vox-cdn.com/thumbor/LGQzJGCBxXdqwrAutflAxMGp3pw=/0x107:2039x1254/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/50332007/Google-app-stock-Dec2015-verge-02.0.0.jpg",
       "width": 1600,
@@ -3659,6 +3660,10 @@ Object {
   "headline": "The Europas Awards 2016 honored the best tech startups in Europe",
   "image": Array [
     Object {
+      "type": "image",
+      "url": "https://techcrunch.com/wp-content/uploads/2016/06/awardsstage.jpg",
+    },
+    Object {
       "description": undefined,
       "encodingFormat": undefined,
       "height": undefined,
@@ -3703,6 +3708,10 @@ Object {
   "encodingFormat": "text/html",
   "headline": "Sensors are the next big thing in space, not starships",
   "image": Array [
+    Object {
+      "type": "image",
+      "url": "https://techcrunch.com/wp-content/uploads/2020/02/GettyImages-1128316743.jpg",
+    },
     Object {
       "description": undefined,
       "encodingFormat": undefined,

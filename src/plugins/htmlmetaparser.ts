@@ -369,6 +369,7 @@ function getHeadline(options: ExtractOptions) {
         x => x["http://ogp.me/ns#title"] || x["http://purl.org/dc/terms/title"]
       )
     ) ||
+    options.metadata?.sailthru?.title ||
     options.metadata?.twitter?.title ||
     options.metadata?.twitter?.["text:title"] ||
     options.metadata?.html?.title
@@ -389,8 +390,9 @@ function getDescription(options: ExtractOptions) {
       )
     ) ||
     decode(options.oembed?.summary) ||
-    options.metadata?.twitter?.["description"] ||
-    options.metadata?.html?.["description"]
+    options.metadata?.sailthru?.description ||
+    options.metadata?.twitter?.description ||
+    options.metadata?.html?.description
   );
 }
 
@@ -407,6 +409,7 @@ function getImage(options: ExtractOptions): ImageEntity[] {
   const twitterImages =
     toArray(options.metadata?.twitter?.image) ||
     toArray(options.metadata?.twitter?.image0);
+  const sailthruImage = options.metadata?.sailthru?.["image.full"];
   const images: ImageEntity[] = [];
 
   function addImage(newImage: ImageEntity, append: boolean) {
@@ -445,6 +448,16 @@ function getImage(options: ExtractOptions): ImageEntity[] {
         append
       );
     }
+  }
+
+  if (sailthruImage) {
+    addImage(
+      {
+        type: "image",
+        url: toUrl(sailthruImage, options.url)
+      },
+      true
+    );
   }
 
   if (ogpImages) {
