@@ -879,9 +879,6 @@ function getMainEntity(options: ExtractOptions): Entity | undefined {
       section: jsonLdValue(
         first(options.graph, x => x["http://ogp.me/ns/article#section"])
       ),
-      publisher: jsonLdValue(
-        first(options.graph, x => x["http://ogp.me/ns/article#publisher"])
-      ),
       datePublished: toDate(
         jsonLdValue(
           first(

@@ -85,7 +85,6 @@ export interface SnippetApp {
 export interface ArticleEntity {
   type: "article";
   section?: string;
-  publisher?: string;
   dateModified?: Date;
   datePublished?: Date;
   dateExpires?: Date;
