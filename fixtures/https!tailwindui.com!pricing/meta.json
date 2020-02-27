@@ -1,0 +1,25 @@
+{
+  "url": "https://tailwindui.com/pricing",
+  "headers": {
+    ":status": "200",
+    "date": "Thu, 27 Feb 2020 07:10:47 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "set-cookie": [
+      "__cfduid=d5a67594c657a6f5d9d90dc130eabf28f1582787447; expires=Sat, 28-Mar-20 07:10:47 GMT; path=/; domain=.tailwindui.com; HttpOnly; SameSite=Lax; Secure",
+      "XSRF-TOKEN=eyJpdiI6ImxzNkxVY1BxQzBlTzQ3ZUZ3QXhGVkE9PSIsInZhbHVlIjoiWVl1K0pwUjBCRlg3QWNYaDR1MUVrRG9YVFNpcnRUNTBqT0R3eFE2ZjFLSEdXSDNhUDd6RVJPT1NKXC9WZTNaeVoiLCJtYWMiOiI3YWMzZTFiOWFlZjQwOWJlZjVmYWUzNmYwNWZlZWVkYzNiYjg1NzJjODkyN2JiYWRiMTVhODcwMWUxZGI4NDQxIn0%3D; expires=Thu, 27-Feb-2020 09:10:47 GMT; Max-Age=7200; path=/",
+      "tailwind_ui_session=eyJpdiI6Ik1cL3N1SU5HN2IwM0xGRmtGU1h1YzNBPT0iLCJ2YWx1ZSI6InVVemFnZkdxRjYrVCtVaFpJU05PNFBJVUs5ZE1LOWx4OTViZ3IyUjF6cVdwSUFpUFwvYkFWYnZDMms3d1lBSzBPIiwibWFjIjoiMTQ5YjFmMTRkNjExYzc2ODRjOTEwZDNkYjkxYmViMGEyZDk3NTFlYzcyZGU2YWY0MmNlYzA3MGY1MTUxYzJkZSJ9; expires=Thu, 27-Feb-2020 09:10:47 GMT; Max-Age=7200; path=/; httponly",
+      "zoNOlkPH37GtlPjBXd8yVp8g64NGfTPnwtyR71RN=eyJpdiI6IlhJQ1ViM3VPbmp1K0c4SFwvd2tJRHN3PT0iLCJ2YWx1ZSI6IjRPbHJwdUVwUG9GSjdlZ005MGo5eXAzU0duMFdwZ2lXYW5va21tdG9BTDIrZThpaGplbDVCSnRQanBYVzN3dmdQRmw0b1l6ckV5YnZ4UWNJWFk5YzZsOVFNazlWMzdmdHNaazNWRmoyOVU0SEZXQjB2U201SG1QVDJMTGtsU0N4RHRIbHI5MWJ3c0pYSlE3R0lmRDJJZ09LUlptcFwvTlJvUEtKSXY0WDZFVGNmYlZpSVBteklIM3kyTUVYUFN6Z3ZlTzBMXC9KTGdwSGlXTHZCZkxBREZ0b0tcL1NMd1pHdGFmK3dFRzNnOXpZeVB2YWRvUDVrQU1NVGphKzYyVUJPQWVWUElGaWx6WHdiZ2R5K2lvRVh6RWMwRmRVdlhHRWdFcm5CcGxkVzhpUVp5XC9tTktUZzdQSnpOQnZsMjNIdnRHNSIsIm1hYyI6IjVjNzg2MDRjMGQxYzIwNDM0OTA1ZThkODM0MzU2YTFmMzU5M2NiZmZiYWFmMjVhM2I5MzQ3Y2U3YWQ1NTAxMmEifQ%3D%3D; expires=Thu, 27-Feb-2020 09:10:47 GMT; Max-Age=7200; path=/; httponly"
+    ],
+    "vary": "Accept-Encoding",
+    "cache-control": "no-cache, private",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "cf-cache-status": "DYNAMIC",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "server": "cloudflare",
+    "cf-ray": "56b85747ec959364-SJC",
+    "content-encoding": "br"
+  },
+  "status": 200
+}

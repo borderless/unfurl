@@ -121,6 +121,10 @@ const FIXTURES = [
   "http://ogp.me/",
   "https://techcrunch.com/",
   "http://cnn.com/",
+  "http://everlane.com/",
+  "http://dealmoon.com/",
+  // Landing page.
+  "https://tailwindui.com/pricing",
   // Blog/article posts.
   "http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
   "http://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter",

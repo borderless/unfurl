@@ -130,6 +130,97 @@ Object {
 }
 `;
 
+exports[`scrappy http://dealmoon.com/ 1`] = `
+Object {
+  "apps": Array [
+    Object {
+      "id": "526273615",
+      "name": "DealMoon",
+      "os": "iOS",
+      "url": "dealmoon://home/main",
+    },
+  ],
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "twitterHandle": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.dealmoon.com/",
+  "description": "北美省钱快报是北美大而全的中文折扣优惠促销信息和海淘网站，24小时滚动更新各类美妆、时尚、家居等商家折扣，ULTA Beauty折扣：Ulta 折扣区美妆护肤超值热卖 收ABH眼影盘 低至5折 + 包邮",
+  "encodingFormat": "text/html",
+  "headline": "北美省钱快报 - 北美网购指南 - 24小时滚动更新北美商家折扣信息",
+  "image": Array [
+    Object {
+      "description": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://www.dealmoon.com/assets/image/sites/US/app_icon_200.png",
+      "width": undefined,
+    },
+  ],
+  "language": undefined,
+  "mainEntity": undefined,
+  "provider": Object {
+    "name": "DealMoon",
+    "twitterHandle": undefined,
+    "url": undefined,
+  },
+  "tags": Array [
+    "北美省钱快报",
+    "dealmoon",
+    "省钱快报",
+    "省钱",
+    "网购",
+    "消费",
+    "折扣",
+  ],
+  "type": "website",
+  "url": "https://www.dealmoon.com/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy http://everlane.com/ 1`] = `
+Object {
+  "apps": Array [],
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "twitterHandle": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.everlane.com/",
+  "description": "Shop Everlane now for modern essentials. We make the most beautiful essentials, at the best factories, without traditional markups. Free shipping on 2+ items.",
+  "encodingFormat": "text/html",
+  "headline": "Everlane",
+  "image": Array [
+    Object {
+      "description": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_auto,f_auto,q_auto,w_1200/v1/i/a17a572e_faf1.jpg",
+      "width": undefined,
+    },
+  ],
+  "language": undefined,
+  "mainEntity": undefined,
+  "provider": Object {
+    "name": "Everlane",
+    "twitterHandle": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "type": "website",
+  "url": "https://www.everlane.com/",
+  "video": Array [],
+}
+`;
+
 exports[`scrappy http://franz.com/agraph/allegrograph/ 1`] = `
 Object {
   "apps": Array [],
@@ -3586,6 +3677,34 @@ Object {
   "tags": Array [],
   "type": "website",
   "url": "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/",
+  "video": Array [],
+}
+`;
+
+exports[`scrappy https://tailwindui.com/pricing 1`] = `
+Object {
+  "apps": Array [],
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "twitterHandle": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": undefined,
+  "description": undefined,
+  "encodingFormat": "text/html",
+  "headline": "Tailwind UI Pricing",
+  "image": Array [],
+  "language": undefined,
+  "mainEntity": undefined,
+  "provider": Object {
+    "name": undefined,
+    "twitterHandle": undefined,
+    "url": undefined,
+  },
+  "tags": Array [],
+  "type": "website",
+  "url": "https://tailwindui.com/pricing",
   "video": Array [],
 }
 `;

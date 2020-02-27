@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="csrf-token" content="fld1zmKtsopZG8AMex60mU76TKIHnesZsZ9nRzqq" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="/css/app.css?id=d9bbd2598695bd400211" />
+    <title>Tailwind UI Pricing</title>
+    <script src="https://gumroad.com/js/gumroad.js" defer></script>
+  </head>
+
+  <body class="font-sans antialiased text-gray-900">
+    <main class="bg-gray-900">
+      <div class="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
+        <div class="text-center">
+          <div class="flex justify-center">
+            <a href="/components">
+              <img class="h-7 sm:h-8 lg:h-10" src="/img/tailwindui-logo-on-dark.svg" alt="Tailwind UI" />
+            </a>
+          </div>
+          <h1 class="mt-9 font-display text-4xl leading-none font-semibold text-white sm:text-5xl lg:text-6xl">
+            Get early access
+          </h1>
+          <p class="mt-2 max-w-xl mx-auto text-xl leading-7 lg:max-w-3xl  lg:text-2xl lg:leading-8 text-gray-300">
+            You'll get access to the first 150+ components today, plus <strong class="text-white font-medium">new components every month</strong class="text-white font-medium"> until we're out of ideas.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-16 bg-white pb-12 lg:mt-20">
+        <div class="relative z-0">
+          <div class="absolute inset-0 h-5/6 bg-gray-900 lg:h-2/3"></div>
+          <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="relative lg:grid lg:grid-cols-10">
+              <div class="max-w-lg mx-auto lg:max-w-none lg:mx-0 lg:col-start-4 lg:col-end-8 lg:row-start-1 lg:row-end-4">
+                <div class="relative z-10 rounded-lg shadow-xl">
+                  <div>
+  <div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-teal-400"></div>
+  <div class="absolute inset-x-0 top-0 transform translate-y-px">
+    <div class="flex justify-center transform -translate-y-1/2">
+      <span class="inline-flex rounded-full bg-teal-400 px-4 py-1 text-sm leading-5 font-semibold tracking-wider uppercase text-white">
+        Get both packages
+      </span>
+    </div>
+  </div>
+  <div class="bg-white rounded-t-lg px-6 pt-12 pb-10">
+    <div>
+      <p class="text-center text-lg leading-7 font-semibold font-display text-teal-500 uppercase tracking-widest">
+        Bundle
+      </p>
+      <h2 class="mt-2 text-center text-3xl leading-9 font-semibold font-display text-gray-900 sm:-mx-6">
+        Application UI + Marketing
+      </h2>
+      <div class="mt-4 flex items-center justify-center font-display">
+        <span class="-ml-8 text-right text-2xl leading-8 font-semibold text-gray-400 tracking-wide line-through sm:text-3xl sm:leading-9">
+          $298
+        </span>
+        <span class="px-3 flex items-start text-6xl leading-none tracking-tight font-medium text-gray-900 sm:text-7xl">
+          <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
+            $
+          </span>
+          <span>
+            249
+          </span>
+        </span>
+        <span class="text-2xl leading-8 font-semibold text-gray-400 tracking-wide sm:text-3xl sm:leading-9">
+          USD
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
+    <ul>
+      <li class="flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          All application UI components
+        </p>
+      </li>
+      <li class="mt-4 flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          All marketing components
+        </p>
+      </li>
+      <li class="mt-4 flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          Lifetime access
+        </p>
+      </li>
+      <li class="mt-4 flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          Use on unlimited projects
+        </p>
+      </li>
+      <li class="mt-4 flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500 whitespace-no-wrap">
+          Free updates
+        </p>
+      </li>
+      <li class="mt-4 flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500 whitespace-no-wrap">
+          Community access
+        </p>
+      </li>
+    </ul>
+    <div class="mt-10">
+      <div class="rounded-lg shadow-md">
+        <a href="https://gum.co/Cfrhr" data-gumroad-single-product="true" class="block w-full text-center rounded-lg bg-gray-800 px-6 py-4 text-xl leading-6 font-semibold font-display text-white hover:bg-gray-700 focus:outline-none focus:shadow-outline transition ease-in-out duration-150">
+          Buy Early Access
+        </a>
+      </div>
+      <p class="mt-6 text-center text-base leading-6 font-medium text-gray-900">
+        Buying for your team?
+        <a href="#team-pricing" class="text-teal-500 font-semibold hover:underline">
+          View team pricing &rarr;
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+                </div>
+              </div>
+              <div class="mt-6 mx-auto max-w-md lg:m-0 lg:max-w-none lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3">
+                <div class="h-full flex flex-col rounded-lg shadow-lg overflow-hidden lg:rounded-none lg:rounded-l-lg">
+                  <div class="flex-1 flex flex-col">
+  <div class="bg-white px-6 pt-12 pb-10">
+    <div>
+      <h2 class="mt-2 text-center text-3xl leading-9 font-semibold font-display text-gray-900">
+        Application UI
+      </h2>
+      <div class="mt-4 flex items-center justify-center font-display">
+        <span class="px-3 flex items-start text-6xl leading-none tracking-tight font-medium text-gray-900">
+          <span class="mt-2 mr-2 text-4xl">
+            $
+          </span>
+          <span>
+            149
+          </span>
+        </span>
+        <span class="text-2xl leading-8 font-semibold text-gray-400 tracking-wide">
+          USD
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
+    <ul>
+      <li class="flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          All application UI components
+        </p>
+      </li>
+      <li class="mt-4 flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          Lifetime access
+        </p>
+      </li>
+      <li class="mt-4 flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          Use on unlimited projects
+        </p>
+      </li>
+      <li class="mt-4 flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          Free updates
+        </p>
+      </li>
+      <li class="mt-4 flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          Community access
+        </p>
+      </li>
+    </ul>
+    <div class="mt-8">
+      <div class="rounded-lg shadow-md">
+        <a href="https://gum.co/KXjZm" data-gumroad-single-product="true" class="block w-full text-center rounded-lg bg-white px-6 py-3 text-base leading-6 font-semibold font-display text-teal-600 hover:text-teal-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150">
+          Buy Early Access
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+              </div>
+              <div class="mt-6 mx-auto max-w-md lg:m-0 lg:max-w-none lg:col-start-8 lg:col-end-11 lg:row-start-2 lg:row-end-3">
+                <div class="h-full flex flex-col rounded-lg shadow-lg overflow-hidden lg:rounded-none lg:rounded-r-lg">
+                  <div class="flex-1 flex flex-col">
+  <div class="bg-white px-6 pt-12 pb-10">
+    <div>
+      <h2 class="mt-2 text-center text-3xl leading-9 font-semibold font-display text-gray-900">
+        Marketing
+      </h2>
+      <div class="mt-4 flex items-center justify-center font-display">
+        <span class="px-3 flex items-start text-6xl leading-none tracking-tight font-medium text-gray-900">
+          <span class="mt-2 mr-2 text-4xl">
+            $
+          </span>
+          <span>
+            149
+          </span>
+        </span>
+        <span class="text-2xl leading-8 font-semibold text-gray-400 tracking-wide">
+          USD
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
+    <ul>
+      <li class="flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          All marketing components
+        </p>
+      </li>
+      <li class="mt-4 flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          Lifetime access
+        </p>
+      </li>
+      <li class="mt-4 flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          Use on unlimited projects
+        </p>
+      </li>
+      <li class="mt-4 flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          Free updates
+        </p>
+      </li>
+      <li class="mt-4 flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+          Community access
+        </p>
+      </li>
+    </ul>
+    <div class="mt-8">
+      <div class="rounded-lg shadow-md">
+        <a href="https://gum.co/jYnNI" data-gumroad-single-product="true" class="block w-full text-center rounded-lg bg-white px-6 py-3 text-base leading-6 font-semibold font-display text-teal-600 hover:text-teal-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150">
+          Buy Early Access
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="pt-0 pb-16 bg-white overflow-hidden lg:pt-12 lg:py-24">
+      <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <svg class="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404">
+          <defs>
+            <pattern id="svg-pattern-squares-1" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+            </pattern>
+          </defs>
+          <rect width="404" height="404" fill="url(#svg-pattern-squares-1)" />
+        </svg>
+
+        <div class="relative">
+          <blockquote class="mt-8">
+            <div class="max-w-3xl mx-auto text-center text-xl leading-8 font-medium text-gray-900">
+              <p>
+                &ldquo;We’ve gone through several iterations of our pricing page recently, and every time we wanted to try a new idea I was able to find the perfect starting point in Tailwind UI. It’s turned a project I might have never made the time to tackle into something I could finish and ship in an hour.&rdquo;
+              </p>
+            </div>
+            <footer class="mt-8">
+              <div class="md:flex md:items-center md:justify-center">
+                <div class="md:flex-shrink-0">
+                  <img class="mx-auto h-10 w-10 rounded-full" src="https://pbs.twimg.com/profile_images/932726689485828097/n86GsuLG_400x400.jpg" alt="" />
+                </div>
+                <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
+                  <div class="text-base leading-6 font-medium text-gray-900">Justin Jackson</div>
+
+                  <svg class="hidden md:block mx-1 h-5 w-5 text-teal-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M11 0h3L9 20H6l5-20z" />
+                  </svg>
+
+                  <div class="text-base leading-6 font-medium text-gray-500">
+                    Founder of
+                    <a href="https://transistor.fm">
+                      Transistor
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gray-50">
+      <div class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+        <h2 class="text-4xl leading-10 font-display font-semibold text-gray-900 md:text-5xl md:leading-none">
+          Frequently asked questions
+        </h2>
+        <div class="mt-6 border-t-2 border-gray-100 pt-10">
+          <dl class="md:grid md:grid-cols-2 md:gap-8">
+            <div>
+              <div>
+                <dt class="text-lg leading-6 font-medium text-gray-900">
+                  Why are you calling it "early access"?
+                </dt>
+                <dd class="mt-2">
+                  <p class="text-base leading-6 text-gray-500">
+                    We're really happy with the components we've put together so far, but we've still got a ton more we're planning to build.
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    Every component you see in the preview is available to use today, but that's only about 25% of what we have planned.
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    Instead of waiting until we've completely exhausted our own ideas before releasing the product, we decided to open it up as soon as we had enough to be useful so you can start getting value from it right away.
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    We'll be adding new components on a regular basis, based on our own ideas and on suggestions from early access customers.
+                  </p>
+                </dd>
+              </div>
+              <div class="mt-12">
+                <dt class="text-lg leading-6 font-medium text-gray-900">
+                  What JS framework does Tailwind UI use?
+                </dt>
+                <dd class="mt-2">
+                  <p class="text-base leading-6 text-gray-500">In order to be as universal as possible, Tailwind UI is an HTML-only component library and <strong class="font-semibold text-gray-900">does not include any JavaScript</strong>.</p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    Most of the components do not rely on JS at all, but for the ones that do (dropdowns, modals, etc.) we provide a very basic example using Alpine.js just to show you what utility classes you need to toggle in a component's various states.
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    To get a better idea of how this looks in practice,
+                    <a href="/documentation" class="text-gray-700 font-medium">check out our documentation</a>.
+                  </p>
+                </dd>
+              </div>
+              <div class="mt-12">
+                <dt class="text-lg leading-6 font-medium text-gray-900">
+                  What version of Tailwind CSS is used?
+                </dt>
+                <dd class="mt-2">
+                  <p class="text-base leading-6 text-gray-500">The components in Tailwind UI are authored using Tailwind CSS v1.2.0. They also depend on some extensions to Tailwind's default config that we've bundled up in @tailwindcss/ui as a simple plugin.</p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    Learn more about this in our
+                    <a href="/documentation" class="text-gray-700 font-medium">getting started documentation</a>.
+                  </p>
+                </dd>
+              </div>
+              <div class="mt-12">
+                <dt class="text-lg leading-6 font-medium text-gray-900">
+                  What browsers does Tailwind UI support?
+                </dt>
+                <dd class="mt-2">
+                  <p class="text-base leading-6 text-gray-500">
+                    The components in Tailwind UI are designed to work in the latest, stable releases of all major browsers, including Chrome, Firefox, Safari, and Edge.
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    We don't support Internet Explorer 11.
+                  </p>
+                </dd>
+              </div>
+              <div class="mt-12">
+                <dt class="text-lg leading-6 font-medium text-gray-900">
+                  What does "free updates" include?
+                </dt>
+                <dd class="mt-2">
+                  <p class="text-base leading-6 text-gray-500">
+                    We're planning to add new Marketing and Application UI components regularly over time and all new components added to those categories will be totally free for existing customers.
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    We may work on new component kits in the future that would be sold separately (email templates and e-commerce are ideas we've tossed around), but any components we design and build that belong in an existing kit will be always be added as a free update.
+                  </p>
+                </dd>
+              </div>
+              <div class="mt-12">
+                <dt class="text-lg leading-6 font-medium text-gray-900">
+                  What does "community access" mean?
+                </dt>
+                <dd class="mt-2">
+                  <p class="text-base leading-6 text-gray-500">
+                    Any purchase of Tailwind UI includes access to our private Discord server where you can suggest new component ideas, ask your peers for help with any problems you run into, and talk with other users about building things with Tailwind UI.
+                  </p>
+                </dd>
+              </div>
+            </div>
+            <div class="mt-12 sm:mt-0">
+              <div id="team-pricing">
+                <dt class="text-lg leading-6 font-medium text-gray-900">
+                  How do I purchase a license for my entire team?
+                </dt>
+                <dd class="mt-2">
+                  <p class="text-base leading-6 text-gray-500">
+                    You can purchase a license that you can share with your entire team for $599 USD here:
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    <a href="https://gum.co/NJFeyW" class="text-teal-500 font-semibold">
+                      Buy a team license for $599 &rarr;
+                    </a>
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    For more information on team licensing specifics,
+                    <a href="/license" class="text-gray-700 font-medium">
+                      read through our license
+                    </a>
+                    .
+                  </p>
+                </dd>
+              </div>
+              <div class="mt-12">
+                <dt class="text-lg leading-6 font-medium text-gray-900">
+                  What does "unlimited projects" mean?
+                </dt>
+                <dd class="mt-2">
+                  <p class="text-base leading-6 text-gray-500">
+                    Unlike most other templates/themes, you don't have to buy a new Tailwind UI license every time you want to use it on a new project.
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    As long what you're building will be owned by the Tailwind UI license holder, you can build as many sites as you want without ever having to buy an additional license.
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    For more information and examples,
+                    <a href="/license" class="text-gray-700 font-medium">read through our license</a>.
+                  </p>
+                </dd>
+              </div>
+              <div>
+                <dt class="mt-12 text-lg leading-6 font-medium text-gray-900">
+                  Can I use Tailwind UI for client projects?
+                </dt>
+                <dd class="mt-2">
+                  <p class="text-base leading-6 text-gray-500">
+                    Yes! You can use Tailwind UI for basically anything — the only thing we disallow is using it to create derivative competing products.
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    For more information and examples,
+                    <a href="/license" class="text-gray-700 font-medium">
+                      read through our license
+                    </a>
+                    .
+                  </p>
+                </dd>
+              </div>
+              <div class="mt-12">
+                <dt class="text-lg leading-6 font-medium text-gray-900">
+                  Can I use Tailwind UI for my own commercial projects?
+                </dt>
+                <dd class="mt-2">
+                  <p class="text-base leading-6 text-gray-500">
+                    Absolutely! Your license gives you permission to build as many of your own projects as you like, whether those are simple public websites or SaaS applications that end users need to pay to access.
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    For more information and examples,
+                    <a href="/license" class="text-gray-700 font-medium">read through our license</a>.
+                  </p>
+                </dd>
+              </div>
+              <div class="mt-12">
+                <dt class="text-lg leading-6 font-medium text-gray-900">
+                  Can I use Tailwind UI in open source projects?
+                </dt>
+                <dd class="mt-2">
+                  <p class="text-base leading-6 text-gray-500">
+                    Yep! As long as what you're building is some sort of actual website and not a derivative component library, theme builder, or other product where the primary purpose is clearly to repackage and redistribute our components, it's totally okay for that project to be open source.
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    For more information and examples of what is and isn't okay,
+                    <a href="/license" class="text-gray-700 font-medium">
+                      read through our license
+                    </a>
+                    .
+                  </p>
+                </dd>
+              </div>
+              <div class="mt-12">
+                <dt class="text-lg leading-6 font-medium text-gray-900">
+                  Can I sell templates/themes I build with Tailwind UI?
+                </dt>
+                <dd class="mt-2">
+                  <p class="text-base leading-6 text-gray-500">
+                    No, you cannot use Tailwind UI to create derivative products like themes, UI kits, page builders, or anything else where you would be repackaging and redistributing our components for someone else to use to build their own sites.
+                  </p>
+                  <p class="mt-4 text-base leading-6 text-gray-500">
+                    For more information and examples of what is and isn't okay,
+                    <a href="/license" class="text-gray-700 font-medium">
+                      read through our license
+                    </a>
+                    .
+                  </p>
+                </dd>
+              </div>
+              <div class="mt-12">
+                <dt class="text-lg leading-6 font-medium text-gray-900">
+                  What is your refund policy?
+                </dt>
+                <dd class="mt-2">
+                  <p class="text-base leading-6 text-gray-500">
+                    If you're unhappy with your purchase for any reason, email us at
+                    <a href="mailto:support@tailwindui.com" class="text-gray-700 font-medium">
+                      support@tailwindui.com
+                    </a>
+                    within 90 days and we'll refund you in full, no questions asked.
+                  </p>
+                </dd>
+              </div>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

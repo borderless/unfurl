@@ -1,0 +1,31 @@
+{
+  "url": "https://www.dealmoon.com/",
+  "headers": {
+    ":status": "200",
+    "server": "openresty",
+    "content-type": "text/html; charset=UTF-8",
+    "vary": "Accept-Encoding",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "pragma": "no-cache",
+    "last-modified": "Thu, 27 Feb 2020 07:11:01 GMT",
+    "dmaapic": "0.00030422210693359",
+    "content-encoding": "gzip",
+    "strict-transport-security": "max-age=31536000",
+    "dmtid": "f39f9cca06569527cb8cb4cacf402a78",
+    "date": "Thu, 27 Feb 2020 07:10:46 GMT",
+    "set-cookie": [
+      "CC=US; path=/; domain=.dealmoon.com; secure",
+      "udid=7828E969E6C2E0427FF0D8D6143A9026; expires=Fri, 12-Jul-2841 07:10:46 GMT; Max-Age=25920000000; path=/; domain=.dealmoon.com; secure",
+      "referrer=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; secure",
+      "rip=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; secure",
+      "mobile=0; expires=Thu, 27-Feb-2020 07:10:45 GMT; Max-Age=-1; path=/; domain=.dealmoon.com; secure",
+      "langPcCode=cn; expires=Sat, 06-Jun-2020 07:10:46 GMT; Max-Age=8640000; path=/; domain=.dealmoon.com; secure",
+      "langWapCode=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=.dealmoon.com; secure",
+      "lang=cn; expires=Sat, 06-Jun-2020 07:10:46 GMT; Max-Age=8640000; path=/; domain=.dealmoon.com; secure",
+      "PHPSESSID=40f50e8f6b40cc9fe317f17f27b01ac9; path=/; secure; HttpOnly",
+      "lastRefreshTime=1582787446; path=/; domain=.dealmoon.com; secure"
+    ]
+  },
+  "status": 200
+}
