@@ -13,6 +13,43 @@ Object {
   "description": "Select a plan that best suits your needs. A Free plan with generous usage limits available without any time limit. Activate your account within seconds.",
   "encodingFormat": "text/html",
   "headline": "Cloudinary - Pricing and Plans",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": 192,
+      "type": "image",
+      "url": "https://cloudinary-res.cloudinary.com/image/asset/favicon-192x192-d6a96e11dd5adfebbb717d154665ee80.png",
+      "width": 192,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 160,
+      "type": "image",
+      "url": "https://cloudinary-res.cloudinary.com/image/asset/favicon-160x160-42709935d7f616bea6be7d1b5a617782.png",
+      "width": 160,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 96,
+      "type": "image",
+      "url": "https://cloudinary-res.cloudinary.com/image/asset/favicon-96x96-844cfef383f46f48884b2daa491ac19b.png",
+      "width": 96,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 16,
+      "type": "image",
+      "url": "https://cloudinary-res.cloudinary.com/image/asset/favicon-16x16-1976acd4f7b6bd9063e50911c3811043.png",
+      "width": 16,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 32,
+      "type": "image",
+      "url": "https://cloudinary-res.cloudinary.com/image/asset/favicon-32x32-2991a47c2caa80211bf2dbf3f29317c8.png",
+      "width": 32,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -66,6 +103,7 @@ Object {
   "description": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com.",
   "encodingFormat": "text/html",
   "headline": "CNN - Breaking News, Latest News and Videos",
+  "icon": Array [],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -100,6 +138,22 @@ Object {
   "description": "Shared with Droplr",
   "encodingFormat": "text/html",
   "headline": "table.jpeg",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": undefined,
+      "type": "image",
+      "url": "https://cdn-assets.droplr.net/dist/images/favicon.png",
+      "width": undefined,
+    },
+    Object {
+      "encodingFormat": "image/svg+xml",
+      "height": undefined,
+      "type": "image",
+      "url": "https://cdn-assets.droplr.net/dist/images/favicon.svg",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -150,6 +204,15 @@ Object {
   "description": "北美省钱快报是北美大而全的中文折扣优惠促销信息和海淘网站，24小时滚动更新各类美妆、时尚、家居等商家折扣，ULTA Beauty折扣：Ulta 折扣区美妆护肤超值热卖 收ABH眼影盘 低至5折 + 包邮",
   "encodingFormat": "text/html",
   "headline": "北美省钱快报 - 北美网购指南 - 24小时滚动更新北美商家折扣信息",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.dealmoon.com/assets/images/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -196,6 +259,15 @@ Object {
   "description": "Shop Everlane now for modern essentials. We make the most beautiful essentials, at the best factories, without traditional markups. Free shipping on 2+ items.",
   "encodingFormat": "text/html",
   "headline": "Everlane",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_auto,f_auto,q_auto,w_auto/v1/static/favicon4.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -234,6 +306,7 @@ Object {
   "description": "Franz is a leading vendor of Graph Search Technology (AllegroGraph and Gruff) and Common Lisp Software Development Tools (Allegro CL and AllegroCache)",
   "encodingFormat": "text/html",
   "headline": "AllegroGraph - Semantic Graph Database",
+  "icon": Array [],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -278,6 +351,15 @@ Object {
   "description": "The recent hack that targeted Democratic officials and led to the resignation of Democratic National Committee chairwoman Debbie Wasserman Schultz was much bigger than initially suspected, according to a new report from the New York Times.",
   "encodingFormat": "text/html",
   "headline": "The DNC Hack Was Much Bigger Than We Thought",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": undefined,
+      "type": "image",
+      "url": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_80,q_80,w_80/fdj3buryz5nuzyf2k620.png",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -330,6 +412,15 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Hacker News",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://news.ycombinator.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -358,6 +449,7 @@ Object {
   "description": "On July 21st 19:00-20:00 at Apple Ginza, Oliver Reichenstein, CEO of iA, will share the lessons they’ve learned while creating three iPad apps and one iPad website.",
   "encodingFormat": "text/html",
   "headline": "Extending HTML5 — Microdata",
+  "icon": Array [],
   "image": Array [],
   "language": undefined,
   "mainEntity": Object {
@@ -417,6 +509,15 @@ Object {
   "description": "Timothy Doner started teaching himself to speak in other languages when he was 13, and was quickly hailed as a prodigy for his linguistic proficiency. But as he soon realized, there’s more to…",
   "encodingFormat": "text/html",
   "headline": "Why I taught myself 20 languages — and what I learned about myself in the process",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": 16,
+      "type": "image",
+      "url": "https://secure.gravatar.com/blavatar/3d3e4c72b49d7eab0db4c9061886d370?s=32",
+      "width": 16,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -468,6 +569,22 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Knex.js - A SQL Query Builder for Javascript",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": 32,
+      "type": "image",
+      "url": "http://knexjs.org/assets/favicons/favicon-32x32.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 16,
+      "type": "image",
+      "url": "http://knexjs.org/assets/favicons/favicon-16x16.png",
+      "width": 16,
+    },
+  ],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -496,6 +613,43 @@ Object {
   "description": "Let us count the ways we hope Ramsey will die.",
   "encodingFormat": "text/html",
   "headline": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": 32,
+      "type": "image",
+      "url": "https://mashable.com/favicon-32x32.png?v=m2Pmw8zNwl",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 192,
+      "type": "image",
+      "url": "https://mashable.com/android-chrome-192x192.png?v=m2Pmw8zNwl",
+      "width": 192,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 96,
+      "type": "image",
+      "url": "https://mashable.com/favicon-96x96.png?v=m2Pmw8zNwl",
+      "width": 96,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 16,
+      "type": "image",
+      "url": "https://mashable.com/favicon-16x16.png?v=m2Pmw8zNwl",
+      "width": 16,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://mashable.com/favicon.ico?v=m2Pmw8zNwl",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "type": "image",
@@ -554,6 +708,7 @@ Object {
   "description": "The Open Graph protocol enables any web page to become a rich object in a social graph.",
   "encodingFormat": "text/html",
   "headline": "Open Graph protocol",
+  "icon": Array [],
   "image": Array [
     Object {
       "description": undefined,
@@ -592,6 +747,15 @@ Object {
   "description": "Choosing between performance and portability has never been easier with Boosted Boards. Explore our selection of electric & motorized skateboards today!",
   "encodingFormat": "text/html",
   "headline": "Electric Skateboards & Motorized Skateboards | Boosted Boards",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://buy.boostedboards.com/static/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -620,6 +784,15 @@ Object {
   "description": "Create, discover, and download new player-created maps, scenarios, interfaces, and more!",
   "encodingFormat": "text/html",
   "headline": "Sid Meier's Civilization® V on Steam",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://store.steampowered.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -658,6 +831,15 @@ Object {
   "description": "We're forced to make a black-and-white, binary decision in the most important moment of our lives. Let's take a deep breath and figure this out together.",
   "encodingFormat": "text/html",
   "headline": "The Marriage Decision: Everything Forever or Nothing Ever Again",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://28oa9i1t08037ue3m1l0i861-wpengine.netdna-ssl.com/wp-content/themes/waitbutwhy/images/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -720,6 +902,7 @@ Object {
   "description": "Find many great new & used options and get the best deals for Best ChoiceProducts Outdoor Wicker Patio Sofa 3 Seater Luxury Comfort Brown at the best online prices at eBay! Free shipping for many products!",
   "encodingFormat": "text/html",
   "headline": "Best ChoiceProducts Outdoor Wicker Patio Sofa 3 Seater Luxury Comfort Brown for sale online | eBay",
+  "icon": Array [],
   "image": Array [
     Object {
       "description": undefined,
@@ -758,6 +941,29 @@ Object {
   "description": "Inception is a movie starring Leonardo DiCaprio, Joseph Gordon-Levitt, and Ellen Page. A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a...",
   "encodingFormat": "text/html",
   "headline": "Inception (2010) - IMDb",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://m.media-amazon.com/images/G/01/imdb/images/safari-favicon-517611381._CB483525257_.svg",
+      "width": NaN,
+    },
+    Object {
+      "encodingFormat": "image/ico",
+      "height": undefined,
+      "type": "image",
+      "url": "https://m.media-amazon.com/images/G/01/imdb/images/favicon-2165806970._CB470047330_.ico",
+      "width": undefined,
+    },
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://m.media-amazon.com/images/G/01/imdb/images/desktop-favicon-2165806970._CB484110913_.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -806,6 +1012,15 @@ Object {
   "description": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will update automatically. So how do they know your new credit card number?...",
   "encodingFormat": "text/html",
   "headline": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.lifehacker.com.au/app/themes/gawker-theme/assets/ico/favicon_lifehacker_80.png",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -850,6 +1065,29 @@ Object {
   "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It's size and versatility make it a perfect every day carry.",
   "encodingFormat": "text/html",
   "headline": "ASAP Pack | Mystery Ranch Backpacks",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": 32,
+      "type": "image",
+      "url": "https://www.mysteryranch.com/mr-sca/img/favicon-32x32.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 16,
+      "type": "image",
+      "url": "https://www.mysteryranch.com/mr-sca/img/favicon-16x16.png",
+      "width": 16,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.mysteryranch.com/mr-sca/img/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -878,6 +1116,15 @@ Object {
   "description": "XYZprinting da Vinci 2.0 Duo FFF (Fused Filament Fabrication) ABS/PLA Dual Nozzle 3D Printer",
   "encodingFormat": "text/html",
   "headline": "XYZprinting da Vinci 2.0 Duo FFF (Fused Filament Fabrication) ABS/PLA Dual Nozzle 3D Printer - Newegg.com",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://c1.neweggimages.com/WebResource/Themes/2005/Nest/Newegg.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -920,6 +1167,36 @@ Object {
   "description": "404 page",
   "encodingFormat": "text/html",
   "headline": "oh dear... something's wrong!",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": 16,
+      "type": "image",
+      "url": "https://secure.gravatar.com/blavatar/99ae28ba58e6719abd9d8575bdc18a54?s=32",
+      "width": 16,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 32,
+      "type": "image",
+      "url": "https://www.news.com.au/wp-content/themes/vip/newscorpau-nca/assets/dist/img/common/favicon/favicon-32x32.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 16,
+      "type": "image",
+      "url": "https://www.news.com.au/wp-content/themes/vip/newscorpau-nca/assets/dist/img/common/favicon/favicon-16x16.png",
+      "width": 16,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.news.com.au/wp-content/themes/vip/newscorpau-nca/assets/dist/img/common/favicon/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -979,6 +1256,15 @@ Object {
   "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
   "encodingFormat": "text/html",
   "headline": "Decoding Donald Trump",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.nytimes.com/vi-assets/static-assets/favicon-4bf96cb6a1093748bf5b3c429accb9b4.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1023,6 +1309,36 @@ Object {
   "description": "Reddit is a network of communities based on people's interests. Find communities you're interested in, and become part of an online community!",
   "encodingFormat": "text/html",
   "headline": "reddit",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": 192,
+      "type": "image",
+      "url": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "width": 192,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 32,
+      "type": "image",
+      "url": "https://www.redditstatic.com/desktop2x/img/favicon/favicon-32x32.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 96,
+      "type": "image",
+      "url": "https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png",
+      "width": 96,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 16,
+      "type": "image",
+      "url": "https://www.redditstatic.com/desktop2x/img/favicon/favicon-16x16.png",
+      "width": 16,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1061,6 +1377,43 @@ Object {
   "description": "For years, Google has been building a lobbying machine that outpaces its Silicon Valley peers, turning the internet giant into a major Washington presence. In 2014, the company surpassed AT&amp;T,...",
   "encodingFormat": "text/html",
   "headline": "Emails show Google’s close relationship with the White House",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://cdn.vox-cdn.com/uploads/chorus_asset/file/7395361/favicon-64x64.0.ico",
+      "width": undefined,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 16,
+      "type": "image",
+      "url": "https://cdn.vox-cdn.com/uploads/chorus_asset/file/7395367/favicon-16x16.0.png",
+      "width": 16,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 32,
+      "type": "image",
+      "url": "https://cdn.vox-cdn.com/uploads/chorus_asset/file/7395363/favicon-32x32.0.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 96,
+      "type": "image",
+      "url": "https://cdn.vox-cdn.com/uploads/chorus_asset/file/7395365/favicon-96x96.0.png",
+      "width": 96,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 192,
+      "type": "image",
+      "url": "https://cdn.vox-cdn.com/uploads/chorus_asset/file/7395351/android-chrome-192x192.0.png",
+      "width": 192,
+    },
+  ],
   "image": Array [
     Object {
       "height": 900,
@@ -1129,6 +1482,15 @@ Object {
   "description": "Bubble Tea in San Francisco, CA",
   "encodingFormat": "text/html",
   "headline": "Boba Guys - Mission - San Francisco, CA",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_styleguide/118ff475a341/assets/img/logos/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1191,6 +1553,15 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Regular Expressions",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://xkcd.com/s/919f27.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1229,6 +1600,7 @@ Object {
   "description": "I'm excited to announce that [ Micropub] is now a W3C Candidate Recommendation!",
   "encodingFormat": "text/html",
   "headline": "Micropub CR",
+  "icon": Array [],
   "image": Array [
     Object {
       "description": undefined,
@@ -1273,6 +1645,36 @@ Object {
   "description": "So many standards to choose from.",
   "encodingFormat": "text/html",
   "headline": "Metadata markup",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": 300,
+      "type": "image",
+      "url": "https://adactio.com/icon.png",
+      "width": 300,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 96,
+      "type": "image",
+      "url": "https://adactio.com/favicon-96x96.png",
+      "width": 96,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 32,
+      "type": "image",
+      "url": "https://adactio.com/favicon-32x32.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 16,
+      "type": "image",
+      "url": "https://adactio.com/favicon-16x16.png",
+      "width": 16,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1317,6 +1719,15 @@ Object {
   "description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
   "encodingFormat": "text/html",
   "headline": "aesthetic-ui",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://atom.io/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1355,6 +1766,15 @@ Object {
   "description": "Exporting an identical image from different design tools results in different file sizes. Why? What can be done to optimise them to reduce downloading time and disk space?",
   "encodingFormat": "text/html",
   "headline": "PNG optimisation",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://bjango.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1393,6 +1813,15 @@ Object {
   "description": "An advanced Mac system monitor for your menubar, with CPU, GPU, memory, network, disk usage, disk activity, temperatures, fans, battery info and more.",
   "encodingFormat": "text/html",
   "headline": "iStat Menus",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://bjango.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1493,6 +1922,15 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Player card",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://abs.twimg.com/favicons/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1537,6 +1975,15 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Understand how structured data works | Search for Developers",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.gstatic.com/devrel-devsite/prod/vcd1bbe5dda31d2b800805cc4c730b0229f847f2d108be33386b6e78644e79178/developers/images/favicon.png",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1575,6 +2022,15 @@ Object {
   "description": "Check out Pico-8 for new “fantasy console” goodness. Works great with Raspberry Pi Zero, 2, 3, etc.",
   "encodingFormat": "text/html",
   "headline": "The Raspberry Pi Has Revolutionized Emulation",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": undefined,
+      "type": "image",
+      "url": "https://discourse-cdn.codinghorror.com/uploads/default/optimized/3X/b/c/bc7909b0ece56689d3551a51911e6ee1810ad310_2_32x32.png",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1613,6 +2069,15 @@ Object {
   "description": "Guide to Ingress Mission Series/Banners in the Greater SF Bay Area contributors: @katranrocks (Kate Magary), @strandit (Bryant Durrell), @hiryu (Brett Allen), @011101000101001 (Florian Sauer), @FlyingRobot (Timothy Appel), @freddd123 (Austin), @jookwarrior (Andy), @VeIocipractor (TZ), @phthoruth ...",
   "encodingFormat": "text/html",
   "headline": "Bay Area Guide to Mission Series/Banners",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1657,6 +2122,15 @@ Object {
   "description": "Digital Nomad Specialist List #,Location,I offer,Day Rate (USD),Languages,I'm looking for (work, ideas, tips etc),E-mail/contact,Website,Twitter,LinkedIn,Language,Deadline Phillip Gourley,Remote (GMT+8),15 years experience at scale with some of the worlds largest brands. Infrastructure & Devops ...",
   "encodingFormat": "text/html",
   "headline": "> 500 Digital Nomad specialists. Question: maybe convert to airtable soon?",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1701,6 +2175,15 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Overfitting.pdf",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://ssl.gstatic.com/docs/doclist/images/icon_14_pdf_favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1745,6 +2228,43 @@ Object {
   "description": "Droplr offers one of the best solution for file sharing, screen recording and send them anywhere",
   "encodingFormat": "text/html",
   "headline": "Droplr - Capture + explain your ideas.",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": 32,
+      "type": "image",
+      "url": "https://droplr.com/assets/favicons/favicon-32x32.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 194,
+      "type": "image",
+      "url": "https://droplr.com/assets/favicons/favicon-194x194.png",
+      "width": 194,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 192,
+      "type": "image",
+      "url": "https://droplr.com/assets/favicons/android-chrome-192x192.png",
+      "width": 192,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 16,
+      "type": "image",
+      "url": "https://droplr.com/assets/favicons/favicon-16x16.png",
+      "width": 16,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://droplr.com/assets/favicons/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1783,6 +2303,15 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Jean-Luc Picard - Wikipedia",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1821,6 +2350,15 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "TypeScript - Wikipedia",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -1877,6 +2415,15 @@ Object {
   "description": "Bubble Tea Shop in San Francisco, CA",
   "encodingFormat": "text/html",
   "headline": "Boba Guys",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://foursquare.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -1982,6 +2529,15 @@ Object {
   "description": "Beach in Sydney, NSW",
   "encodingFormat": "text/html",
   "headline": "Bondi Beach",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://foursquare.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -2092,6 +2648,15 @@ Object {
   "description": "Bakery in Surry Hills, NSW",
   "encodingFormat": "text/html",
   "headline": "Bourke Street Bakery",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://foursquare.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -2199,6 +2764,15 @@ Object {
   "description": "Harbor / Marina in Sydney, NSW",
   "encodingFormat": "text/html",
   "headline": "Darling Harbour",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://foursquare.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -2307,6 +2881,15 @@ Object {
   "description": "Scenic Lookout in Sydney, NSW",
   "encodingFormat": "text/html",
   "headline": "Mrs. Macquarie's Point",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://foursquare.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -2410,6 +2993,15 @@ Object {
   "description": "Botanical Garden in Sydney, NSW",
   "encodingFormat": "text/html",
   "headline": "Royal Botanic Garden",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://foursquare.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -2515,6 +3107,15 @@ Object {
   "description": "Opera House in Sydney, NSW",
   "encodingFormat": "text/html",
   "headline": "Sydney Opera House",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://foursquare.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -2620,6 +3221,15 @@ Object {
   "description": "Whisky Bar in Sydney, NSW",
   "encodingFormat": "text/html",
   "headline": "The Baxter Inn",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://foursquare.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -2696,6 +3306,15 @@ Object {
   "description": "GitHub is where people build software. More than 40 million people use GitHub to discover, fork, and contribute to over 100 million projects.",
   "encodingFormat": "text/html",
   "headline": "Build software better, together",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://github.githubassets.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -2752,6 +3371,15 @@ Object {
   "description": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type 'Object' is n...",
   "encodingFormat": "text/html",
   "headline": "Give a better error message for assigning from Object to anything else · Issue #10462 · microsoft/TypeScript",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://github.githubassets.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -2790,6 +3418,15 @@ Object {
   "description": "blakeembrey has 228 repositories available. Follow their code on GitHub.",
   "encodingFormat": "text/html",
   "headline": "blakeembrey - Overview",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://github.githubassets.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -2828,6 +3465,15 @@ Object {
   "description": "Simple HTTP requests for node and the browser. Contribute to serviejs/popsicle development by creating an account on GitHub.",
   "encodingFormat": "text/html",
   "headline": "serviejs/popsicle",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://github.githubassets.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -2866,6 +3512,22 @@ Object {
   "description": "The open source Git project has just released Git 2.10.0, with features and bugfixes from over 70 contributors. Here’s our look at some of the most interesting new features: Progress reporting for pushes When you",
   "encodingFormat": "text/html",
   "headline": "Git 2.10 has been released",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": 32,
+      "type": "image",
+      "url": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 192,
+      "type": "image",
+      "url": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=192%2C192",
+      "width": 192,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -2910,6 +3572,15 @@ Object {
   "description": "This commit was adapted from 1ec036686e70ad0d837ed2443684d54bca13af01 in DefinitelyTyped. See DefinitelyTyped/DefinitelyTyped#8765 for context. The original body of the commit message follows. Thes...",
   "encodingFormat": "text/html",
   "headline": "[misc] typescript: refactor constructor and ISO format hack by seansfkelley · Pull Request #3323 · moment/moment",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://github.githubassets.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -2969,6 +3640,7 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Design Tip: Never Use Black by Ian Storm Taylor",
+  "icon": Array [],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -3025,6 +3697,7 @@ Notes:
 - Continued use of GPS running in the background can dramatically reduce battery life.",
   "encodingFormat": "text/html",
   "headline": "‎Pokémon GO",
+  "icon": Array [],
   "image": Array [
     Object {
       "description": undefined,
@@ -3080,6 +3753,7 @@ Object {
   "description": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
   "encodingFormat": "text/html",
   "headline": "‎The Avengers on iTunes",
+  "icon": Array [],
   "image": Array [
     Object {
       "description": undefined,
@@ -3128,6 +3802,7 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Learn Standard ML in Y Minutes",
+  "icon": Array [],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -3176,6 +3851,15 @@ Object {
   "description": "Those handy little previews you see when you paste a link into a Slack message are what we refer to as unfurling internally at Slack (and also in Slack’s API documentation). While it may sound like…",
   "encodingFormat": "text/html",
   "headline": "Everything you ever wanted to know about unfurling but were afraid to ask /or/ How to make your…",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://cdn-static-1.medium.com/_/fp/icons/favicon-rebrand-medium.3Y6xpZ-0FSdWDnPM3hSBIA.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -3220,6 +3904,7 @@ Object {
   "description": "Have an SEO question? Search our Q&A forum for your question; if not found, please ask our incredible community of SEOs for some help! You can also earn MozPoints by answering other community members' questions.",
   "encodingFormat": "text/html",
   "headline": "Are rel=author and rel=publisher meta tags currently in use? | SEO Q&A | Moz",
+  "icon": Array [],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -3248,6 +3933,15 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "For a Better Economy, Add Commuter Rail? | Hacker News",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://news.ycombinator.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -3276,6 +3970,15 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages by Bruce A. Tate | The Pragmatic Bookshelf",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://pragprog.com/favicon.png",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -3331,6 +4034,15 @@ Object {
   "description": "Schema.org Type: WebSite - A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
   "encodingFormat": "text/html",
   "headline": "WebSite - schema.org Type",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": undefined,
+      "type": "image",
+      "url": "https://schema.org/docs/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -3359,6 +4071,7 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Schema.org master file: RDFS in RDFa",
+  "icon": Array [],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -3387,6 +4100,15 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "The Segment AWS Stack",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/ico",
+      "height": undefined,
+      "type": "image",
+      "url": "https://segment.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -3425,6 +4147,15 @@ Object {
   "description": "12 track album",
   "encodingFormat": "text/html",
   "headline": "Inzombia, by Slant 6",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://f4.bcbits.com/img/a1638428842_3.jpg",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -3479,6 +4210,7 @@ Object {
   "description": "Node.js the Right Way: Practical, Server-Side JavaScript That Scales [Jim Wilson] on Amazon.com. *FREE* shipping on qualifying offers. Get to the forefront of server-side JavaScript programming by writing compact, robust, fast, networked Node applications that scale. Ready to take JavaScript beyond the browser",
   "encodingFormat": "text/html",
   "headline": "Node.js the Right Way: Practical, Server-Side JavaScript That Scales: Jim Wilson: 8601400967638: Amazon.com: Books",
+  "icon": Array [],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -3553,6 +4285,15 @@ Object {
   "description": "It's the OFFICIAL track that you have all been waiting. This is PANDA!!",
   "encodingFormat": "text/html",
   "headline": "Desiigner- \\"Panda\\" (Prod. By: Menace) by LifeOfDesiigner",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14bdb.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -3613,6 +4354,15 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "SoundCloud - Hear the world’s sounds",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14bdb.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -3650,6 +4400,43 @@ Object {
   "description": "The competition between Uber and Google has broken out into the open: who has the advantage in the evolution of transportation-as-a-service, and who will likely win?",
   "encodingFormat": "text/html",
   "headline": "Google, Uber, and the Evolution of Transportation-as-a-Service",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": 32,
+      "type": "image",
+      "url": "https://stratechery.com/favicon/favicon-32x32.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 16,
+      "type": "image",
+      "url": "https://stratechery.com/favicon/favicon-16x16.png",
+      "width": 16,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://stratechery.com/favicon/favicon.ico",
+      "width": undefined,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 32,
+      "type": "image",
+      "url": "https://stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1-32x32.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 192,
+      "type": "image",
+      "url": "https://stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1-192x192.png",
+      "width": 192,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -3694,6 +4481,7 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Tailwind UI Pricing",
+  "icon": Array [],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -3722,6 +4510,22 @@ Object {
   "description": "TechCrunch - Reporting on the business of technology, startups, venture capital funding, and Silicon Valley",
   "encodingFormat": "text/html",
   "headline": "TechCrunch – Startup and Technology News",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": 32,
+      "type": "image",
+      "url": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 192,
+      "type": "image",
+      "url": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=192",
+      "width": 192,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -3760,6 +4564,22 @@ Object {
   "description": "This week The Europas Startup Conference and Awards — the new type of tech event devised in partnership with TechCrunch and myself — honored The Best Tech Startups in Europe. You can check out all the pictures here and follow the coverage on Twitter. An annual celebration of Europe’s brightest and best tech companies, The Europas Conference […]",
   "encodingFormat": "text/html",
   "headline": "The Europas Awards 2016 honored the best tech startups in Europe",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": 32,
+      "type": "image",
+      "url": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 192,
+      "type": "image",
+      "url": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=192",
+      "width": 192,
+    },
+  ],
   "image": Array [
     Object {
       "type": "image",
@@ -3808,6 +4628,22 @@ Object {
   "description": "Understanding the opportunities available in the space industry — especially for early-stage companies and new founders — isn’t easy. The pool of people who have deep aerospace technical expertise isn’t huge, and like any community that requires a high degree of specialist knowledge, it’s a tightly-knit field that relies on social connections. But space is […]",
   "encodingFormat": "text/html",
   "headline": "Sensors are the next big thing in space, not starships",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": 32,
+      "type": "image",
+      "url": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 192,
+      "type": "image",
+      "url": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=192",
+      "width": 192,
+    },
+  ],
   "image": Array [
     Object {
       "type": "image",
@@ -3856,6 +4692,15 @@ Object {
   "description": "During an unfortunate series of events, a friend of Kung Fury is assassinated by the most dangerous kung fu master criminal of all time, Adolf Hitler, a.k.a Kung Führer. Kung Fury decides to travel back in time to Nazi Germany in order to kill Hitler and end the Nazi empire once and for all.",
   "encodingFormat": "text/html",
   "headline": "Kung Fury (2015)",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://walter.trakt.tv/hotlink-ok/public/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -3894,6 +4739,15 @@ Object {
   "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
   "encodingFormat": "text/html",
   "headline": "Twitter. It's what's happening.",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://abs.twimg.com/favicons/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -3922,6 +4776,15 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Twitter / ?",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://abs.twimg.com/favicons/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -3963,6 +4826,15 @@ Object {
   "description": "“Don't squander this. 💻 https://t.co/eWmq6oxK73”",
   "encodingFormat": "text/html",
   "headline": "Alexis Ohanian Sr. 🚀 on Twitter",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://abs.twimg.com/favicons/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4020,6 +4892,15 @@ Object {
   "description": "The latest Tweets from Blake Embrey (@blakeembrey). I traveled and wrote some code once. San Francisco, CA",
   "encodingFormat": "text/html",
   "headline": "Blake Embrey (@blakeembrey) | Twitter",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://abs.twimg.com/favicons/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [],
   "language": undefined,
   "mainEntity": Object {
@@ -4068,6 +4949,15 @@ Object {
   "description": "“🔥 Clean up @github issues with the HTML5 <details> tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx”",
   "encodingFormat": "text/html",
   "headline": "Eric Clemmons on Twitter",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://abs.twimg.com/favicons/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4135,6 +5025,15 @@ Object {
   "description": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”",
   "encodingFormat": "text/html",
   "headline": "TypeScript on Twitter",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://abs.twimg.com/favicons/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4195,6 +5094,22 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "Vacation Rentals, Homes, Experiences & Places - Airbnb",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": 192,
+      "type": "image",
+      "url": "https://a0.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png",
+      "width": 192,
+    },
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": 76,
+      "type": "image",
+      "url": "https://a0.muscache.com/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f061d2dcabdf6e58.ico",
+      "width": 76,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4233,6 +5148,15 @@ Object {
   "description": "Buy Battlefield 1 Revolution and enjoy the ever growing Battefield 1 experience with new modes, new maps, and new conflicts.",
   "encodingFormat": "text/html",
   "headline": "Buy Battlefield 1 Revolution – Access the Complete Battlefield 1 Experience",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.battlefield.com/assets/dist/images/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4277,6 +5201,43 @@ Object {
   "description": "Machine learning is the science of getting computers to act without being explicitly programmed.",
   "encodingFormat": "text/html",
   "headline": "Machine Learning | Coursera",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": 194,
+      "type": "image",
+      "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-194x194.png",
+      "width": 194,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 192,
+      "type": "image",
+      "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/android-chrome-192x192.png",
+      "width": 192,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 96,
+      "type": "image",
+      "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-96x96.png",
+      "width": 96,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 16,
+      "type": "image",
+      "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-16x16.png",
+      "width": 16,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 32,
+      "type": "image",
+      "url": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-32x32.png",
+      "width": 32,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4335,6 +5296,15 @@ This book is over 300 pages long and contains all of the original 151 Pokémon, 
 ​",
   "encodingFormat": "text/html",
   "headline": "PokéNatomy: The Science of Pokémon (An Unofficial Guide)",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.etsy.com/images/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4373,6 +5343,15 @@ Object {
   "description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
   "encodingFormat": "text/html",
   "headline": "Facebook - Log In or Sign Up",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://static.xx.fbcdn.net/rsrc.php/yz/r/KFyVIAWzntM.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4411,6 +5390,22 @@ Object {
   "description": "Flickr is almost certainly the best online photo management and sharing application in the world. Show off your favorite photos and videos to the world, securely and privately show content to your friends and family, or blog the photos and videos you take with a cameraphone.",
   "encodingFormat": "text/html",
   "headline": "Yellow Motion (Explore #15)",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://combo.staticflickr.com/pw/images/icon_black_white.svg",
+      "width": NaN,
+    },
+    Object {
+      "encodingFormat": "image/ico",
+      "height": undefined,
+      "type": "image",
+      "url": "https://combo.staticflickr.com/pw/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [],
   "language": undefined,
   "mainEntity": Object {
@@ -4458,6 +5453,15 @@ Object {
   "description": "The Macy's 4th of July firework show in NYC",
   "encodingFormat": "text/html",
   "headline": "The Fourth",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/ico",
+      "height": undefined,
+      "type": "image",
+      "url": "https://combo.staticflickr.com/pw/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4515,6 +5519,15 @@ Object {
   "description": "Find local businesses, view maps and get driving directions in Google Maps.",
   "encodingFormat": "text/html",
   "headline": "Google Maps",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.google.com/images/branding/product/ico/maps_32dp.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4570,6 +5583,22 @@ Laundromat turned office, New York City.
 
 Photo cred: @conni.biesalski
 #regram  #nyc #office #laundry #laundromat #newyork #newyorkcity #laptop #digitalnomad #locationindependent #welltraveled #justgoshoot #roamtheplanet #hustle #myoffice #officeoftheday #tompkinssquare",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": 192,
+      "type": "image",
+      "url": "https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png",
+      "width": 192,
+    },
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.instagram.com/static/images/ico/favicon.ico/36b3ee2d91ed.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4614,6 +5643,15 @@ Object {
   "description": "Learn about the difference between stocks and bonds. Topics include the key characteristics that define an asset as a bond vs. a stock.",
   "encodingFormat": "text/html",
   "headline": "Bonds vs. stocks (video) | Stocks and bonds | Khan Academy",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.khanacademy.org/favicon.ico?logo",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4675,6 +5713,22 @@ Object {
   "description": "LVL is a wearable hydration monitor that gives you the complete picture of your health by also tracking activity, sleep, mood and HR.",
   "encodingFormat": "text/html",
   "headline": "LVL – The First Wearable Hydration Monitor",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://a.kickstarter.com/favicon.ico",
+      "width": undefined,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 192,
+      "type": "image",
+      "url": "https://a.kickstarter.com/assets/touch-icon-192x192-710ace6840055401ec231c1d86ce7312c56bb510fad8b775229b0ce73d0054c5.png",
+      "width": 192,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4718,6 +5772,15 @@ Object {
   "description": "Contact us to see how we can help transform your company with the agility to unlock data, unleash innovation and connect with success.",
   "encodingFormat": "text/html",
   "headline": "Contact | MuleSoft",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.mulesoft.com/sites/default/files/M_32x32.png",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4756,6 +5819,50 @@ Object {
   "description": "Convert a string to a valid safe filename",
   "encodingFormat": "text/html",
   "headline": "filenamify",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": 32,
+      "type": "image",
+      "url": "https://static.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 230,
+      "type": "image",
+      "url": "https://static.npmjs.com/1996fcfdf7ca81ea795f67f093d7f449.png",
+      "width": 230,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 96,
+      "type": "image",
+      "url": "https://static.npmjs.com/f1786e9b7cba9753ca7b9c40e8b98f67.png",
+      "width": 96,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 192,
+      "type": "image",
+      "url": "https://static.npmjs.com/5f6e93af5bf0f5dcdd1eecdac99f51ee.png",
+      "width": 192,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 228,
+      "type": "image",
+      "url": "https://static.npmjs.com/c426a1116301d1fd178c51522484127a.png",
+      "width": 228,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 16,
+      "type": "image",
+      "url": "https://static.npmjs.com/da3ab40fb0861d15c83854c29f5f2962.png",
+      "width": 16,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4806,6 +5913,15 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "How to impress a computer programmer on a date - Quora",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://qsf.fs.quoracdn.net/-3-images.favicon.ico-26-ae77b637b1e7ed2c.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -4834,6 +5950,36 @@ Object {
   "description": "17,708 votes and 6,870 comments so far on Reddit",
   "encodingFormat": "text/html",
   "headline": "r/news - 'UK man' tried to kill Trump: court papers",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": 192,
+      "type": "image",
+      "url": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "width": 192,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 32,
+      "type": "image",
+      "url": "https://www.redditstatic.com/desktop2x/img/favicon/favicon-32x32.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 96,
+      "type": "image",
+      "url": "https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png",
+      "width": 96,
+    },
+    Object {
+      "encodingFormat": "image/png",
+      "height": 16,
+      "type": "image",
+      "url": "https://www.redditstatic.com/desktop2x/img/favicon/favicon-16x16.png",
+      "width": 16,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4872,6 +6018,15 @@ Object {
   "description": "Visionary filmmaker Christopher Nolan (Memento, The Dark Knight) writes and directs this psychological sci-fi action film about a thief who possesses the power to enter into the dreams of others. Dom Cobb (Leonardo DiCaprio) doesn't steal things, he steals ideas. By projecting himself deep into the subconscious of his targets, he can glean information that even the best computer hackers can't get to. In the world of corporate espionage, Cobb is the ultimate weapon. But even weapons have their weakness, and when Cobb loses everything, he's forced to embark on one final mission in a desperate quest for redemption. This time, Cobb won't be harvesting an idea, but sowing one. Should he and his team of specialists succeed, they will have discovered a new frontier in the art of psychic espionage. They've planned everything to perfection, and they have all the tools to get the job done. Their mission is complicated, however, by the sudden appearance of a malevolent foe that seems to know exactly what they're up to, and precisely how to stop them. ~ Jason Buchanan, Rovi",
   "encodingFormat": "text/html",
   "headline": "Inception (2010)",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": 76,
+      "type": "image",
+      "url": "https://www.rottentomatoes.com/assets/pizza-pie/images/favicon.ico",
+      "width": 76,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4910,6 +6065,15 @@ Object {
   "description": "Spotify is all the music you’ll ever need.",
   "encodingFormat": "text/html",
   "headline": "Music for everyone.",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.scdn.co/i/_global/favicon.png",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -4986,6 +6150,15 @@ Object {
   "description": "There's never a bad time to start a good habit. Let these talks set the framework for a healthier, happier life.",
   "encodingFormat": "text/html",
   "headline": "8 TED Talks to form better habits",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://pa.tedcdn.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -5057,6 +6230,15 @@ Object {
   "description": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess.",
   "encodingFormat": "text/html",
   "headline": "Tim Harford: How frustration can make us more creative",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://pa.tedcdn.com/favicon.ico",
+      "width": undefined,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -5113,6 +6295,7 @@ Object {
   "description": "JSON is a useful data serialization and messaging format. This specification defines JSON-LD 1.1, a JSON-based format to serialize Linked Data. The syntax is designed to easily integrate into deployed systems that already use JSON, and provides a smooth upgrade path from JSON to JSON-LD. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines.",
   "encodingFormat": "text/html",
   "headline": "JSON-LD 1.1",
+  "icon": Array [],
   "image": Array [],
   "language": undefined,
   "mainEntity": undefined,
@@ -5168,6 +6351,43 @@ Object {
   "description": "Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark Ru...",
   "encodingFormat": "text/html",
   "headline": "Marvel Studios' The Avengers",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
+      "width": undefined,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 32,
+      "type": "image",
+      "url": "https://www.youtube.com/yts/img/favicon_32-vflOogEID.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 48,
+      "type": "image",
+      "url": "https://www.youtube.com/yts/img/favicon_48-vflVjB_Qk.png",
+      "width": 48,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 96,
+      "type": "image",
+      "url": "https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png",
+      "width": 96,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 144,
+      "type": "image",
+      "url": "https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png",
+      "width": 144,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -5247,6 +6467,43 @@ Object {
   "description": undefined,
   "encodingFormat": "text/html",
   "headline": "15. Typings with Blake Embrey",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
+      "width": undefined,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 32,
+      "type": "image",
+      "url": "https://www.youtube.com/yts/img/favicon_32-vflOogEID.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 48,
+      "type": "image",
+      "url": "https://www.youtube.com/yts/img/favicon_48-vflVjB_Qk.png",
+      "width": 48,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 96,
+      "type": "image",
+      "url": "https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png",
+      "width": 96,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 144,
+      "type": "image",
+      "url": "https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png",
+      "width": 144,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,
@@ -5303,6 +6560,22 @@ Object {
   "description": "Yoast SEO is the most complete WordPress SEO plugin. It handles the technical optimization of your site & assists with optimizing your content.",
   "encodingFormat": "text/html",
   "headline": "Yoast SEO: the #1 WordPress SEO plugin",
+  "icon": Array [
+    Object {
+      "encodingFormat": undefined,
+      "height": 32,
+      "type": "image",
+      "url": "https://yoast.com/app/uploads/2015/09/cropped-Yoast_Favicon_512x512-32x32.png",
+      "width": 32,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 192,
+      "type": "image",
+      "url": "https://yoast.com/app/uploads/2015/09/cropped-Yoast_Favicon_512x512-192x192.png",
+      "width": 192,
+    },
+  ],
   "image": Array [
     Object {
       "description": undefined,

@@ -1,4 +1,10 @@
-import { Handler, Result, Alternative, ResultJsonLd } from "htmlmetaparser";
+import {
+  Handler,
+  Result,
+  Alternative,
+  ResultJsonLd,
+  Image
+} from "htmlmetaparser";
 import { WritableStream } from "htmlparser2";
 import { Readable } from "stream";
 import { expand } from "jsonld";
@@ -54,6 +60,7 @@ export const plugin: Plugin = async (input, next) => {
     type: "website",
     url: url,
     encodingFormat: type,
+    icon: getIcon(options),
     image: getImage(options),
     video: getVideo(options),
     audio: getAudio(options),
@@ -394,6 +401,28 @@ function getDescription(options: ExtractOptions) {
     options.metadata?.twitter?.description ||
     options.metadata?.html?.description
   );
+}
+
+/**
+ * Extract an icons from page.
+ */
+function getIcon(options: ExtractOptions): ImageEntity[] {
+  return toArray(options.metadata?.icons).map(x => {
+    const [width, height] =
+      x.sizes
+        ?.split(/\s+/)
+        .map(x => x.split("x", 2).map(Number))
+        .sort(x => x[0])
+        .pop() || [];
+
+    return {
+      type: "image",
+      url: x.href,
+      encodingFormat: x.type,
+      width,
+      height
+    };
+  });
 }
 
 /**
