@@ -6,7 +6,7 @@ import { parse } from "exif-date";
 
 export const plugin: Plugin = async (input, next) => {
   const { url, headers, body } = input.page;
-  const type = contentType(headers).toLowerCase();
+  const type = contentType(headers);
 
   if (type === "application/pdf") {
     return pdf(url, body);

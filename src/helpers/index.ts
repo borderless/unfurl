@@ -27,10 +27,20 @@ export async function readJson(stream: Readable) {
 /**
  * Extract `content-type` from headers.
  */
-export function contentType(headers: Record<string, string | string[]>) {
+export function contentType(
+  headers: Record<string, string | string[] | undefined>
+) {
   const header = headers["content-type"];
   if (Array.isArray(header)) {
-    return header[0].split(";", 1)[0].trim();
+    return header[0]
+      .split(";", 1)[0]
+      .trim()
+      .toLowerCase();
   }
-  return header.split(";")[0].trim();
+  return header
+    ? header
+        .split(";", 1)[0]
+        .trim()
+        .toLowerCase()
+    : "";
 }
