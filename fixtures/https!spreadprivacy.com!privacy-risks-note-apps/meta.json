@@ -1,0 +1,14 @@
+{
+  "url": "https://spreadprivacy.com/privacy-risks-note-apps/",
+  "headers": {
+    ":status": "200",
+    "server": "openresty",
+    "date": "Tue, 17 Mar 2020 23:50:40 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "cache-control": "public, max-age=0",
+    "etag": "W/\"91f8-bXMsszmPDpixrDbYJlQ9RnaA3ys\"",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip"
+  },
+  "status": 200
+}

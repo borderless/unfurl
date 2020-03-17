@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>The Hidden Privacy Risk in Note-Taking Apps</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css?v=2015f5fc6b" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/spreadprivacy.css?v=2015f5fc6b" />
+
+    <meta name="description" content="Saving private information to an unencrypted note-taking app is a largely unknown, everyday privacy risk that almost half of Americans are engaging in." />
+    <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+    <link rel="canonical" href="https://spreadprivacy.com/privacy-risks-note-apps/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    
+    <meta property="og:site_name" content="DuckDuckGo Blog" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="The Hidden Privacy Risk in Note-Taking Apps" />
+    <meta property="og:description" content="Saving private information to an unencrypted note-taking app is a largely unknown, everyday privacy risk that almost half of Americans are engaging in. Here&#x27;s what you can do to protect yourself." />
+    <meta property="og:url" content="https://spreadprivacy.com/privacy-risks-note-apps/" />
+    <meta property="og:image" content="https://spreadprivacy.com/content/images/2020/02/DuckDuckGo-Privacy-Risks.png" />
+    <meta property="article:published_time" content="2020-02-27T10:59:00.000Z" />
+    <meta property="article:modified_time" content="2020-03-02T16:55:12.000Z" />
+    <meta property="article:tag" content="Privacy Research" />
+    <meta property="article:tag" content="Device Privacy Tips" />
+    <meta property="article:tag" content="Privacy" />
+    <meta property="article:tag" content="Privacy Risks" />
+    
+    <meta property="article:author" content="https://www.facebook.com/duckduckgo" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Hidden Privacy Risk in Note-Taking Apps" />
+    <meta name="twitter:description" content="Saving private information to an unencrypted note-taking app is a largely unknown, everyday privacy risk that almost half of Americans are engaging in. Here&#x27;s what you can do to protect yourself." />
+    <meta name="twitter:url" content="https://spreadprivacy.com/privacy-risks-note-apps/" />
+    <meta name="twitter:image" content="https://spreadprivacy.com/content/images/2020/02/DuckDuckGo-Privacy-Risks.png" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Dax the duck" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Privacy Research, Device Privacy Tips, Privacy, Privacy Risks" />
+    <meta name="twitter:site" content="@duckduckgo" />
+    <meta name="twitter:creator" content="@duckduckgo" />
+    <meta property="og:image:width" content="2160" />
+    <meta property="og:image:height" content="1520" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "DuckDuckGo Blog",
+        "logo": "https://spreadprivacy.com/content/images/2017/08/Dax_288x288_wide.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Dax the duck",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://spreadprivacy.com/content/images/2019/01/ddg_icon_white-background-3.png",
+            "width": 512,
+            "height": 512
+        },
+        "url": "https://spreadprivacy.com/author/dax/",
+        "sameAs": [
+            "https://duckduckgo.com",
+            "https://www.facebook.com/duckduckgo",
+            "https://twitter.com/duckduckgo"
+        ]
+    },
+    "headline": "The Hidden Privacy Risk in Note-Taking Apps",
+    "url": "https://spreadprivacy.com/privacy-risks-note-apps/",
+    "datePublished": "2020-02-27T10:59:00.000Z",
+    "dateModified": "2020-03-02T16:55:12.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://spreadprivacy.com/content/images/2020/02/DuckDuckGo-Privacy-Risks.png",
+        "width": 2160,
+        "height": 1520
+    },
+    "keywords": "Privacy Research, Device Privacy Tips, Privacy, Privacy Risks",
+    "description": "Saving private information to an unencrypted note-taking app is a largely unknown, everyday privacy risk that almost half of Americans are engaging in. Here&#x27;s what you can do to protect yourself.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://spreadprivacy.com/"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 3.5" />
+    <link rel="alternate" type="application/rss+xml" title="DuckDuckGo Blog" href="https://spreadprivacy.com/rss/" />
+    <meta property="og:image" content="https://duckduckgo.com/assets/logo_social-media.png">
+<style>a.floating-header-share-fb {display: none;}</style>
+
+</head>
+<body class="post-template tag-research tag-device-privacy-tips tag-privacy tag-privacy-risks">
+
+    <div class="site-wrapper">
+
+        
+
+<ul class="nav-access">
+  <li><a href="#site-main" id="skip-main">Skip to main content</a></li>
+</ul><div class="side-nav">
+    <div class="side-nav-container">
+            <a href="https://duckduckgo.com/" class="nav-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="-.5 -.5 50 50"><circle cx="24.5" cy="24.5" r="19" fill="#DE5833"/><defs><path id="a" d="M40.449 24.499c0 8.795-7.151 15.95-15.95 15.95-8.794 0-15.948-7.153-15.948-15.95 0-8.793 7.154-15.948 15.948-15.948 8.797 0 15.95 7.155 15.95 15.948z"/></defs><clipPath id="b"><use overflow="visible" xlink:href="#a"/></clipPath><g clip-path="url(#b)"><path fill="#FFF" d="M31.439 47.271c-.541-2.496-3.697-8.153-4.893-10.547-1.197-2.396-2.394-5.764-1.849-7.938.098-.397-1.038-3.417-.709-3.624 2.535-1.657 3.205.182 4.221-.561.521-.385 1.235.314 1.418-.32.647-2.282-.91-6.262-2.647-8.001-.568-.566-1.439-.923-2.421-1.112-.379-.516-.988-1.013-1.85-1.469-.964-.511-3.055-1.189-4.138-1.369-.75-.125-.922.086-1.241.14.297.027 1.718.727 1.994.768-.276.186-1.088-.009-1.606.223-.262.118-.456.567-.454.777 1.481-.149 3.792-.003 5.157.603-1.088.124-2.74.261-3.45.634-2.065 1.09-2.977 3.63-2.433 6.676.546 3.044 2.938 14.136 3.7 17.832.761 3.699-1.633 6.094-3.152 6.742l1.631.112-.543 1.196c1.955.215 4.132-.434 4.132-.434-.433 1.193-3.371 1.633-3.371 1.633s1.414.432 3.698-.438c2.282-.87 3.695-1.412 3.695-1.412l1.088 2.825 2.066-2.062.869 2.172c.003.001 1.633-.544 1.088-3.046z"/><path fill="#FFF" d="M31.916 46.794c-.544-2.5-3.697-8.155-4.895-10.549-1.199-2.394-2.396-5.763-1.849-7.937.099-.396.103-2.011.431-2.229 2.533-1.66 2.357-.056 3.373-.8.524-.382.942-.843 1.129-1.479.65-2.283-.912-6.262-2.647-8.003-.565-.567-1.438-.922-2.419-1.108-.38-.52-.99-1.016-1.852-1.474-1.627-.863-3.642-1.209-5.508-.872.298.03.981.646 1.257.686-.417.283-1.524.246-1.517.874 1.483-.146 3.106.087 4.474.693-1.086.123-2.097.393-2.808.769-2.066 1.083-2.609 3.26-2.066 6.307.544 3.045 2.938 14.137 3.696 17.832.762 3.695-1.63 6.088-3.152 6.74l1.631.109-.544 1.197c1.957.217 4.133-.436 4.133-.436-.434 1.195-3.373 1.635-3.373 1.635s1.413.436 3.696-.438c2.287-.873 3.699-1.41 3.699-1.41l1.086 2.824 2.068-2.062.87 2.174c0 .003 1.633-.541 1.087-3.043z"/><circle cx="20.558" cy="21.828" r="1.142" fill="#2C4E8D"/><circle cx="21.063" cy="21.447" r=".296" fill="#FFF"/><circle cx="28.191" cy="21.151" r=".98" fill="#2C4E8D"/><path fill="#FFF" d="M28.375 20.823c0-.139.115-.255.251-.255a.254.254 0 1 1 0 .508.25.25 0 0 1-.251-.253z"/><linearGradient id="c" x1="2138.299" x2="2140.885" y1="-3251.899" y2="-3251.899" gradientTransform="matrix(1 0 0 -1 -2120 -3233)" gradientUnits="userSpaceOnUse"><stop offset=".006" stop-color="#5d7cfe"/><stop offset=".691" stop-color="#192dc5"/></linearGradient><path fill="url(#c)" d="M20.885 18.52s-.862-.39-1.699.135c-.836.526-.805 1.062-.805 1.062s-.445-.99.74-1.472c1.185-.487 1.764.275 1.764.275z"/><linearGradient id="d" x1="2146.427" x2="2148.782" y1="-3251.111" y2="-3251.111" gradientTransform="matrix(1 0 0 -1 -2120 -3233)" gradientUnits="userSpaceOnUse"><stop offset=".006" stop-color="#5d7cfe"/><stop offset=".691" stop-color="#192dc5"/></linearGradient><path fill="url(#d)" d="M28.782 18.439s-.62-.353-1.099-.346c-.986.015-1.257.448-1.257.448s.166-1.04 1.429-.831c.683.116.927.729.927.729z"/></g><path fill="#FDD204" d="M24.055 26.189c.115-.692 1.899-1.997 3.163-2.077 1.269-.08 1.662-.06 2.718-.313 1.057-.252 3.782-.931 4.537-1.281.756-.348 3.947.172 1.7 1.428-.976.547-3.603 1.547-5.481 2.108-1.877.562-3.019-.535-3.637.387-.492.735-.104 1.738 2.139 1.947 3.023.282 5.927-1.361 6.252-.492.318.873-2.603 1.965-4.383 2-1.775.033-5.364-1.176-5.896-1.549-.544-.374-1.263-1.245-1.112-2.158z"/><g><path fill="#65BC46" d="M24.986 35.629s-4.253-2.27-4.323-1.348c-.071.92 0 4.677.496 4.962.497.282 4.041-1.843 4.041-1.843l-.214-1.771zM26.616 35.486s2.907-2.198 3.547-2.059c.64.145.778 4.676.214 4.896-.568.21-3.895-1.152-3.895-1.152l.134-1.685z"/><path fill="#4D913B" d="M23.956 35.869c0 1.486-.213 2.127.426 2.27.642.143 1.841 0 2.269-.285.424-.281.068-2.196-.072-2.555-.143-.352-2.623-.069-2.623.57z"/><path fill="#65BC46" d="M24.381 35.46c0 1.485-.214 2.123.425 2.267.637.144 1.842 0 2.267-.283.425-.282.069-2.196-.072-2.553-.142-.355-2.62-.071-2.62.569z"/></g><g><path fill="none" stroke="#FFF" stroke-miterlimit="10" stroke-width="1.5" d="M24.501 7.87c-9.178 0-16.631 7.452-16.631 16.631 0 9.177 7.453 16.629 16.631 16.629s16.627-7.452 16.627-16.629C41.129 15.323 33.68 7.87 24.501 7.87"/></g></svg>            </a>
+
+        <a href="#" class="side-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="#444" d="M0 4h30v4H0V4zM0 14h30v4H0v-4zM0 24h30v4H0v-4z"/></svg>        </a>
+    </div>
+</div>
+
+<nav class="side-bar hide">
+    <button class="side-bar-close"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+<title>close</title>
+<path d="M17.533 16l11.502-11.502c0.423-0.423 0.423-1.11 0-1.533s-1.11-0.423-1.533 0l-11.502 11.5-11.505-11.504c-0.423-0.423-1.11-0.423-1.533 0s-0.423 1.11 0 1.533l11.502 11.502-11.502 11.502c-0.423 0.423-0.423 1.11 0 1.533s1.11 0.423 1.533 0l11.502-11.502 11.502 11.502c0.423 0.423 1.11 0.423 1.533 0s0.423-1.11 0-1.533l-11.5-11.499z"></path>
+</svg></button>
+    <ul class="side-bar-list">
+        <li class="side-bar-title">Privacy Essentials</li>
+        <li>
+          <a href="https://duckduckgo.com/">Private Search</a>
+        </li>
+        <li>
+          <a href="https://duckduckgo.com/app">App and Extension</a>
+        </li>
+
+        <li class="side-bar-title">Why Privacy</li>
+        <li>
+          <a href="https://spreadprivacy.com/">Privacy Blog</a>
+        </li>
+        <li>
+          <a href="https://duckduckgo.com/newsletter">Privacy Crash Course</a>
+        </li>
+        <li>
+          <a href="https://duckduckgo.com/spread">Help Spread Privacy</a>
+        </li>
+
+        <li class="side-bar-title">Who We Are</li>
+        <li>
+          <a href="https://duckduckgo.com/about">About Us</a>
+        </li>
+        <li>
+          <a href="https://duckduckgo.com/privacy">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="https://duckduckgo.com/hiring">Careers</a>
+        </li>
+        <li>
+          <a href="https://duckduckgo.com/press">Press Kit</a>
+        </li>
+
+        <li class="side-bar-title">Keep In Touch</li>
+        <li>
+            <a href="https://twitter.com/duckduckgo">Twitter</a>
+        </li>
+        <li>
+            <a href="https://reddit.com/r/duckduckgo">Reddit</a>
+        </li>
+        <li>
+            <a href="https://help.duckduckgo.com/">Help</a>
+        </li>
+    </ul>
+</nav>
+<nav class="site-nav">
+    <div class="site-nav-container">
+        <div class="site-nav-left">
+                <ul class="nav" role="menu">
+        <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+        <li class="nav-device-privacy-tips" role="menuitem"><a href="/tag/device-privacy-tips/">Device Privacy Tips</a></li>
+        <li class="nav-privacy-crash-course" role="menuitem"><a href="/tag/privacy-newsletter/">Privacy Crash Course</a></li>
+        <li class="nav-privacy-research" role="menuitem"><a href="/tag/research/">Privacy Research</a></li>
+        <li class="nav-duckduckgo-news" role="menuitem"><a href="/tag/duckduckgo/">DuckDuckGo News</a></li>
+        <li class="nav-opinion" role="menuitem"><a href="/tag/opinion/">Opinion</a></li>
+        <li class="nav-about" role="menuitem"><a href="https://duckduckgo.com/about">About</a></li>
+</ul>
+        </div>
+        <div class="site-nav-right">
+            <div class="social-links">
+                    <a aria-label="Twitter" class="social-link social-link-tw" href="https://twitter.com/duckduckgo" target="_blank" rel="noopener"><svg aria-hidden="true" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a>
+
+                <!-- Links specific to DuckDuckGo -->
+                <a aria-label="Reddit" class="social-link social-link-reddit" href="https://www.reddit.com/r/duckduckgo/" target="_blank" rel="noopener"><svg aria-hidden="true" data-prefix="fab" data-icon="reddit-alien" class="svg-inline--fa fa-reddit-alien fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M440.3 203.5c-15 0-28.2 6.2-37.9 15.9-35.7-24.7-83.8-40.6-137.1-42.3L293 52.3l88.2 19.8c0 21.6 17.6 39.2 39.2 39.2 22 0 39.7-18.1 39.7-39.7s-17.6-39.7-39.7-39.7c-15.4 0-28.7 9.3-35.3 22l-97.4-21.6c-4.9-1.3-9.7 2.2-11 7.1L246.3 177c-52.9 2.2-100.5 18.1-136.3 42.8-9.7-10.1-23.4-16.3-38.4-16.3-55.6 0-73.8 74.6-22.9 100.1-1.8 7.9-2.6 16.3-2.6 24.7 0 83.8 94.4 151.7 210.3 151.7 116.4 0 210.8-67.9 210.8-151.7 0-8.4-.9-17.2-3.1-25.1 49.9-25.6 31.5-99.7-23.8-99.7zM129.4 308.9c0-22 17.6-39.7 39.7-39.7 21.6 0 39.2 17.6 39.2 39.7 0 21.6-17.6 39.2-39.2 39.2-22 .1-39.7-17.6-39.7-39.2zm214.3 93.5c-36.4 36.4-139.1 36.4-175.5 0-4-3.5-4-9.7 0-13.7 3.5-3.5 9.7-3.5 13.2 0 27.8 28.5 120 29 149 0 3.5-3.5 9.7-3.5 13.2 0 4.1 4 4.1 10.2.1 13.7zm-.8-54.2c-21.6 0-39.2-17.6-39.2-39.2 0-22 17.6-39.7 39.2-39.7 22 0 39.7 17.6 39.7 39.7-.1 21.5-17.7 39.2-39.7 39.2z"></path></svg></a>
+                <a aria-label="Newsletter" class="social-link social-link-nl" href="https://duckduckgo.com/newsletter" target="_blank" rel="noopener"><svg aria-hidden="true" data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg></a>
+
+                <!-- RSS -->
+                <a aria-label="RSS" class="social-link rss-button" href="https://spreadprivacy.com/rss/" target="_blank" rel="noopener"><svg aria-hidden="true" data-prefix="fas" data-icon="rss" class="svg-inline--fa fa-rss fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765 0 183.105 0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686 0 38.981 0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"></path></svg></a>
+            </div>
+        </div>
+    </div>
+</nav>
+<nav class="mobile-nav">
+    <ul class="nav" role="menu">
+        <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+        <li class="nav-device-privacy-tips" role="menuitem"><a href="/tag/device-privacy-tips/">Tips</a></li>
+        <li class="nav-privacy-newsletter" role="menuitem"><a href="/tag/privacy-newsletter/">Newsletter</a></li>
+        <li class="nav-privacy-research" role="menuitem"><a href="/tag/research/">Research</a></li>
+        <li class="nav-duckduckgo-news" role="menuitem"><a href="/tag/duckduckgo/">News</a></li>
+    </ul>
+</nav>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post tag-research tag-device-privacy-tips tag-privacy tag-privacy-risks ">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">The Hidden Privacy Risk in Note-Taking Apps</h1>
+                <section class="post-full-meta-filed">
+                    <span>Filed under <a href="/tag/research/">Privacy Research</a> on </span>
+                    <time class="post-full-meta-date" datetime="2020-02-27">27 Feb 2020</time>
+                </section>
+            </header>
+
+            <figure class="post-full-image" style="background-image: url(https://spreadprivacy.com/content/images/2020/02/DuckDuckGo-Privacy-Risks.png)">
+            </figure>
+
+            <section class="post-full-content">
+                <p><em>This is the first in a series of posts about common but largely unknown privacy risks.</em></p><p>People are doing <a href="https://spreadprivacy.com/people-taking-action-on-privacy/">more than ever</a> to protect their privacy, but not every privacy risk is explained in the news. This series highlights some of the lesser-known though commonly encountered privacy risks, and explains what you can do to protect yourself.</p><p>First up:<strong> Saving private information to an unencrypted note-taking app.</strong></p><p>Note-taking apps have become a welcome replacement for post-it notes. People frequently use them for quick to-do and grocery shopping lists, but they’re also often used to store more private information.</p><p>Our survey of 1,029 American adults found almost half (45.3% ±3.1) have saved one or more of the following in a note-taking app: usernames, passwords, social security number, credit card information, and security or PIN codes.</p><p>That’s alarming given that many note-taking apps aren’t encrypted by default! Encryption is a process that scrambles text data, rendering it unreadable by anyone who doesn’t have the key (usually a password or passphrase). This means that apps that don't encrypt your notes by default leave them vulnerable to hacking by people who can access your device or the login credentials for your note-taking app. Hackers could even see the content of your notes by spying on your network, if the note-taking app has a sync function with no encryption.</p><p>Most people (58.2% ±3.1) were not aware that many notes apps don’t encrypt notes by default 😬. </p><figure class="kg-card kg-image-card"><img src="https://spreadprivacy.com/content/images/2020/02/duckduckgo-encryption-awareness.jpg" class="kg-image" alt="Pie chart depicting awareness of the privacy risk of note-taking apps"></figure><!--kg-card-begin: markdown--><table>
+<thead>
+<tr>
+<th>Answer Options</th>
+<th>Percentage of Respondents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes, I was aware</td>
+<td>34.48%</td>
+</tr>
+<tr>
+<td>No, I was not aware</td>
+<td>58.24%</td>
+</tr>
+<tr>
+<td>I'm not sure</td>
+<td>7.28%</td>
+</tr>
+</tbody>
+</table>
+<!--kg-card-end: markdown--><p><strong>The Solutions:</strong></p><p>1) Be wary of storing sensitive information in unencrypted notes. This zero-tolerance approach will help safeguard your information. </p><p>And, if you are using a note-taking app to store username and passwords, please stop 🙅. Switch over to a proper password manager instead, like <a href="https://www.dashlane.com/">Dashlane</a>, <a href="https://1password.com/">1Password</a>, or <a href="https://www.lastpass.com/">LastPass</a>, which prioritize <a href="https://www.lastpass.com/enterprise/security">encrypting sensitive data</a> by default. When you do, also be sure to enable two-factor authentication (<a href="https://spreadprivacy.com/password-safety/">2FA</a>) to defend against data leaks.</p><p>2) If you’re open to changing note-taking app providers, consider more secure options like <a href="https://standardnotes.org/">Standard Notes</a>, or <a href="https://joplinapp.org/">Joplin</a>, both of which offer end-to-end encryption and are available for iOS, Mac, Android, Windows, and Linux. </p><p>3) If you plan to continue using your current note-taking app, take the time to enable optional encryption on any text that contains sensitive information. Below we've outlined encryption options available on the most frequently used note-taking apps:</p><ul><li>On Evernote, users can "<a href="https://help.evernote.com/hc/en-us/articles/209005547-How-to-encrypt-content-inside-Evernote">encrypt the text content in a note</a>", although it <a href="https://evernote.com/security/tips">only offers this</a> if you are using the Evernote desktop client on Windows or Mac and doesn't currently allow encryption of an entire note or notebook. </li><li>On Apple Notes, users can <a href="https://support.apple.com/en-us/HT205794">encrypt entire notes</a> on any iOS or Mac device. </li><li>On Microsoft OneNote, users can encrypt sections of notes on <a href="https://support.office.com/en-us/article/Protect-notes-with-a-password-in-OneNote-for-Windows-10-a2fd9183-c864-4653-9c4e-714a116a4ab7">Windows</a>, <a href="https://support.office.com/en-us/article/protect-notes-with-a-password-in-onenote-for-mac-c394ee9a-9a9a-4723-b7d2-6f7c2f6f1fff">Mac</a>, and <a href="https://support.office.com/en-us/article/Learn-more-about-password-protection-in-OneNote-for-iPad-or-iPhone-41601920-a04d-4904-8af3-0c9710ede117">iOS </a>devices. </li><li>On <a href="https://bear.app/">Bear</a>, iOS and Mac users can encrypt individual notes. However, this feature is only available with Bear Pro.</li></ul><p>4) Lastly, consider encrypting all of your device data with our <a href="https://spreadprivacy.com/how-to-encrypt-devices/">step-by-step guide</a> to encrypting iOS, Mac, Android, and Windows devices. This can protect the contents of your devices should they end up in the wrong hands.</p><hr><p><strong>Methodology</strong></p><p>These results are based on the polling of a random sample of 1,029 (January 2020) American adults (18+) via SurveyMonkey’s “Audience” platform, which ensures the demographic make-up of respondents is representative of the U.S. population. Survey respondents were paid and a confidence level of 95% was used for calculating the values above.</p><p><em>If you’re eager to read part two of this series, </em><a href="https://twitter.com/duckduckgo"><em>follow us on Twitter</em></a><em>, or sign up for our </em><a href="https://duckduckgo.com/newsletter"><em>privacy newsletters</em></a><em> for our latest updates.</em></p><p></p><p></p>
+            </section>
+
+
+            <footer class="post-full-footer">
+
+
+                    
+            </footer>
+
+
+        </article>
+
+    </div>
+</main>
+
+<aside class="read-next outer">
+  <div class="inner">
+        <form class="newsletter js-newsletter" action="https://duck.co/s/a" method="post" name="y">
+  <input type="hidden" name="page" value="1">
+  <input type="hidden" name="flow" value="blog">
+  <img class="newsletter__illustration--mobile" src="/assets/bird-illustration-mobile.svg?v=2015f5fc6b" />
+  <img class="newsletter__illustration--desktop" src="/assets/bird-illustration-desktop.svg?v=2015f5fc6b" />
+  <h1 class="newsletter__title">DuckDuckGo <br> Privacy Newsletters</h1>
+  <h2 class="newsletter__tagline">Stay protected and informed with our privacy newsletters.</h2>
+  <input class="newsletter__email" type="email" name="email" placeholder="Your email address" required>
+  <div class="newsletter__checkbox">
+    <div class="newsletter__checkbox-item">
+      <input class="js-newsletter-checkbox" type="checkbox" id="tips" name="tips" checked="">
+      <label class="" for="tips"><b>Privacy Crash Course</b> — Practical tips for keeping your personal info private. <a href="https://spreadprivacy.com/delete-google-search-history/" target="_blank">See example.</a></label>
+    </div>
+    <div class="">
+      <input class="js-newsletter-checkbox" type="checkbox" id="news" name="news" checked="">
+      <label class="" for="news"><b>Privacy Weekly</b> — Latest news for all things related to privacy. <a href="https://duckduckgo.com/assets/email/DuckDuckGo-Privacy-Weekly_sample.png" target="_blank">See example.</a></label>
+    </div>
+  </div>
+  <input class="newsletter__submit" type="submit" value="Subscribe">
+  <p class="newsletter__privacy">Your email address will not be shared or associated with anonymous searches.</p>
+</form
+        <div class="read-next-feed">
+                <article class="read-next-card"
+
+                >
+                    <header class="read-next-card-header">
+                        <small class="read-next-card-header-sitetitle">&mdash; DuckDuckGo Blog &mdash;</small>
+                        <h3 class="read-next-card-header-title"><a href="/tag/research/">Privacy Research</a></h3>
+                    </header>
+                    <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                    <div class="read-next-card-content">
+                        <ul>
+                            <li><a href="/privacy-risks-usb-charging/">The Risky Business of Charging Your Phone in Public</a></li>
+                            <li><a href="/search-engine-preference-menu/">Search Preference Menu Immediately Increases Google Competitors’ Market Share by 300-800%</a></li>
+                            <li><a href="/people-taking-action-on-privacy/">New DuckDuckGo Research Shows People Taking Action on Privacy</a></li>
+                        </ul>
+                    </div>
+                    <footer class="read-next-card-footer">
+                        <a href="/tag/research/">See all 14 posts →</a>
+                    </footer>
+                </article>
+
+                <article class="post-card post tag-duckduckgo tag-privacy">
+        <a class="post-card-image-link" href="/duckduckgo-tracker-radar/">
+            <div class="post-card-image" style="background-image: url(https://spreadprivacy.com/content/images/2020/01/Tracker-Blocking-Dataset-v2A.jpg)"></div>
+        </a>
+    <div class="post-card-content">
+        <a class="post-card-content-link" href="/duckduckgo-tracker-radar/">
+            <header class="post-card-header">
+                    <span class="post-card-tags">DuckDuckGo News</span>
+                <h2 class="post-card-title">DuckDuckGo Tracker Radar Exposes Hidden Tracking</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>DuckDuckGo Tracker Radar is a best-in-class, automatically-generated data set about trackers that we've made available for research and generating block lists.</p>
+            </section>
+        </a>
+        <footer class="post-card-meta">
+
+            <ul class="author-list">
+                <li class="author-list-item">
+
+                    <div class="author-name-tooltip">
+                        Dax the duck
+                    </div>
+
+                        <a href="/author/dax/" class="static-avatar"><img class="author-profile-image" src="https://spreadprivacy.com/content/images/2019/01/ddg_icon_white-background-3.png" alt="Dax the duck" /></a>
+                </li>
+            </ul>
+
+            <span class="reading-time">8 min read</span>
+
+        </footer>
+    </div>
+</article>
+
+                <article class="post-card post tag-opinion tag-privacy tag-preference">
+        <a class="post-card-image-link" href="/search-preference-menu-design/">
+            <div class="post-card-image" style="background-image: url(https://spreadprivacy.com/content/images/2020/01/hero-image_preference-menu-design.jpg)"></div>
+        </a>
+    <div class="post-card-content">
+        <a class="post-card-content-link" href="/search-preference-menu-design/">
+            <header class="post-card-header">
+                    <span class="post-card-tags">Opinion</span>
+                <h2 class="post-card-title">Search Preference Menus: Improving Choice With Design</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>Google’s search preference menu for the European Union is designed in a way that undercuts the very reason it was created, making it harder than necessary for people to choose a non-Google search engine alternative. We propose user-tested design improvements.</p>
+            </section>
+        </a>
+        <footer class="post-card-meta">
+
+            <ul class="author-list">
+                <li class="author-list-item">
+
+                    <div class="author-name-tooltip">
+                        Dax the duck
+                    </div>
+
+                        <a href="/author/dax/" class="static-avatar"><img class="author-profile-image" src="https://spreadprivacy.com/content/images/2019/01/ddg_icon_white-background-3.png" alt="Dax the duck" /></a>
+                </li>
+            </ul>
+
+            <span class="reading-time">4 min read</span>
+
+        </footer>
+    </div>
+</article>
+
+        </div>
+    </div>
+</aside>
+
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="https://spreadprivacy.com">
+                <img src="/content/images/2017/07/Dax_144x144-1.png" alt="DuckDuckGo Blog icon" />
+            <span>DuckDuckGo Blog</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">The Hidden Privacy Risk in Note-Taking Apps</div>
+    <div class="floating-header-atb is-hidden js-floating-header-atb">
+        <a class="floating-header-atb__button" href="https://duckduckgo.com/app" target="_blank">Add DuckDuckGo</a>
+    </div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=The%20Hidden%20Privacy%20Risk%20in%20Note-Taking%20Apps&amp;url=https://spreadprivacy.com/privacy-risks-note-apps/"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg aria-hidden="true" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://spreadprivacy.com/privacy-risks-note-apps/"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+
+
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="https://spreadprivacy.com">DuckDuckGo Blog</a> &copy; 2020</section>
+                <nav class="site-footer-nav">
+                    <a href="https://spreadprivacy.com">Latest Posts</a>
+                    
+                    <a href="https://twitter.com/duckduckgo" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://www.reddit.com/r/duckduckgo/" target="_blank" rel="noopener">Reddit</a>
+                    <a href="https://duckduckgo.com/newsletter" target="_blank" rel="noopener">Privacy Crash Course</a>
+                    <a href="https://duckduckgo.com/about" target="_blank">About DuckDuckGo</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="/assets/js/lib/jquery-3.2.1.min.js?v=2015f5fc6b"></script>
+    <script type="text/javascript" src="/assets/built/jquery.fitvids-min.js?v=2015f5fc6b"></script>
+
+
+    <script type="text/javascript" src="/assets/built/sidebar-min.js?v=2015f5fc6b"></script>
+
+    
+<script src="/assets/built/pixels-min.js?v=2015f5fc6b"></script>
+<script src="/assets/built/newsletter-min.js?v=2015f5fc6b"></script>
+<script src="/assets/built/atb-min.js?v=2015f5fc6b"></script>
+<script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+
+});
+</script>
+
+
+    
+
+</body>
+</html>

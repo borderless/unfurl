@@ -4387,6 +4387,68 @@ Object {
 }
 `;
 
+exports[`scrappy https://spreadprivacy.com/privacy-risks-note-apps/ 1`] = `
+Object {
+  "apps": Array [],
+  "audio": Array [],
+  "author": Object {
+    "name": "Dax the duck",
+    "twitterHandle": "duckduckgo",
+    "url": undefined,
+  },
+  "canonicalUrl": "https://spreadprivacy.com/privacy-risks-note-apps/",
+  "description": "Saving private information to an unencrypted note-taking app is a largely unknown, everyday privacy risk that almost half of Americans are engaging in. Here's what you can do to protect yourself.",
+  "encodingFormat": "text/html",
+  "headline": "The Hidden Privacy Risk in Note-Taking Apps",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/png",
+      "height": undefined,
+      "type": "image",
+      "url": "https://spreadprivacy.com/favicon.png",
+      "width": undefined,
+    },
+  ],
+  "image": Array [
+    Object {
+      "description": undefined,
+      "encodingFormat": undefined,
+      "height": 1520,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://spreadprivacy.com/content/images/2020/02/DuckDuckGo-Privacy-Risks.png",
+      "width": 2160,
+    },
+    Object {
+      "description": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://duckduckgo.com/assets/logo_social-media.png",
+      "width": undefined,
+    },
+  ],
+  "language": undefined,
+  "mainEntity": Object {
+    "dateExpires": undefined,
+    "dateModified": 2020-03-02T16:55:12.000Z,
+    "datePublished": 2020-02-27T10:59:00.000Z,
+    "section": undefined,
+    "type": "article",
+  },
+  "provider": Object {
+    "name": "DuckDuckGo Blog",
+    "twitterHandle": "duckduckgo",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "type": "website",
+  "url": "https://spreadprivacy.com/privacy-risks-note-apps/",
+  "video": Array [],
+}
+`;
+
 exports[`scrappy https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/ 1`] = `
 Object {
   "apps": Array [],
