@@ -146,6 +146,7 @@ const FIXTURES = [
   "https://github.com/blog/2242-git-2-10-has-been-released",
   "http://waitbutwhy.com/2016/09/marriage-decision.html",
   "https://ianstormtaylor.com/design-tip-never-use-black/",
+  "https://www.sciencedaily.com/releases/2020/03/200311121832.htm",
   // Courses.
   "https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks",
   "https://www.coursera.org/learn/machine-learning",

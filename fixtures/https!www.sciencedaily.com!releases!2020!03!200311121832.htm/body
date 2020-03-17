@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1" />
+<title>Exoplanet where it rains iron discovered -- ScienceDaily</title>
+<meta name="description" content="Researchers have observed an extreme planet where they suspect it rains iron. The ultra-hot giant exoplanet has a day side where temperatures climb above 2400 degrees Celsius, high enough to vaporize metals. Strong winds carry iron vapor to the cooler night side where it condenses into iron droplets." id="metasummary" />
+<meta name="keywords" content="Extrasolar Planets; Astronomy; Stars; Jupiter; Eris (Xena); Kuiper Belt; Pluto; Space Exploration" id="metakeywords" />
+<meta name="last-modified" content="Tue, 17 Mar 2020 20:31:01 GMT" />
+<meta name="expires" content="Wed, 18 Mar 2020 00:31:01 GMT" />
+<meta property="og:title" id="og_title" content="Exoplanet where it rains iron discovered" />
+<meta property="og:type" content="article" />
+<meta property="og:url" id="og_url" content="https://www.sciencedaily.com/releases/2020/03/200311121832.htm" />
+<meta property="og:description" id="og_description" content="Researchers have observed an extreme planet where they suspect it rains iron. The ultra-hot giant exoplanet has a day side where temperatures climb above 2400 degrees Celsius, high enough to vaporize metals. Strong winds carry iron vapor to the cooler night side where it condenses into iron droplets." />
+<meta property="og:site_name" content="ScienceDaily" />
+<link rel="canonical" href="https://www.sciencedaily.com/releases/2020/03/200311121832.htm" />
+<link rel="alternate" type="application/rss+xml" title="ScienceDaily: Latest Science News" href="https://www.sciencedaily.com/rss/" />
+<!-- Bootstrap core CSS --><link href="/css/bootstrap.min.css" rel="stylesheet" />
+<!-- Font Awesome CSS --><link href="/css/font-awesome.min.css" rel="stylesheet" />
+<!-- YAMM!3 CSS --><link href="/css/yamm.css" rel="stylesheet" />
+<!-- Social Share Kit CSS --><link href="/css/social-share-kit.css" rel="stylesheet" type="text/css" />
+<!-- Custom styles for this template --><link href="/css/custom-201909221403.css" rel="stylesheet" />
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --><!--[if lt IE 9]>
+      <script src="/js/html5shiv.min.js"></script>
+      <script src="/js/respond.min.js"></script>
+    <![endif]--><script type="text/javascript">
+	// prevent external framing of pages
+	if (self === top) {
+	   var notFramed = true;
+	} else {
+	   top.location = self.location;
+	}
+	// extract domain of page (to restrict ads to own domain)
+	var domainArray = window.location.hostname.split('.').reverse();
+	var domainRoot = domainArray[1] + '.' + domainArray[0];
+	// for Sortable page segmentation
+	var pageType = 'story';
+</script><!-- CookiePro CCPA Opt-Out Script Start --><script>var otCcpaScript = document.createElement('script'),script1 = document.getElementsByTagName('script')[0];otCcpaScript.src = 'https://cookie-cdn.cookiepro.com/ccpa-optout-solution/v1/ccpa-optout.js';otCcpaScript.async = false;otCcpaScript.type = 'text/javascript';script1.parentNode.insertBefore(otCcpaScript, script1); window.otccpaooSettings = {layout: {dialogueLocation:"right",primaryColor: "#6aaae4",secondaryColor: "#ffffff",button:{primary:"#6aaae4", secondary:"#ffffff", } },dialogue: {email: {display:false,title:"",url:"",},lspa: {accepted:false,},phone: {display:false,title:"",url:"",},dsar: {display:false,title:"",url:"",},intro: { title:"Do Not Sell My Personal Information",description:"Exercise your consumer right to opt out.",}, privacyPolicy: {title:"",url:"", }, optOut: {title:"Personalized Advertisements",description:"Turning this off will opt you out of personalized advertisements on this website.",frameworks:["iab","gam"],}, location:"all",confirmation: {text: "Confirm",}, } };</script><!-- CookiePro CCPA Opt-Out Script End --><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WZW5FC5');</script><!-- End Google Tag Manager --><!-- Load GPT library --><script async="async" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><!-- Load Sortable library --><script async="async" src="https://tags-cdn.deployads.com/a/dfp.sciencedaily.com.js"></script><script>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	// Initialize the deployads array, for asynchronous use
+	var deployads = window.deployads || [];
+	deployads.pageSegment = pageType;
+</script><script type="text/javascript">
+// don't serve ads if framed, and only on own domain
+if (notFramed == true && domainRoot == 'sciencedaily.com') {
+	// Proceed with GPT slot definitions and set targeting
+	googletag.cmd.push(function() {
+		var mapping_top_leaderboard	=	googletag.sizeMapping().
+								        addSize([0, 0], [320, 50]).
+								        addSize([768, 200], [[728, 90], [468, 60]]).
+								        addSize([992, 200], [728, 90]).
+								        build();
+		window.mapping_top_leaderboard	=	googletag.defineSlot('/1002721/ScienceDaily_Top_Leaderboard', [728, 90], 'adslot-top-leaderboard').
+											defineSizeMapping(mapping_top_leaderboard).
+											addService(googletag.pubads());
+		var mapping_top_rectangle	=	googletag.sizeMapping().
+								        addSize([0, 0], []).
+								        addSize([768, 200], [160, 600]).
+								        addSize([992, 200], [[300, 600], [300, 250], [160, 600]]).
+								        build();
+		window.mapping_top_rectangle	=	googletag.defineSlot('/1002721/ScienceDaily_Top_Rectangle', [300, 250], 'adslot-top-rectangle').
+											defineSizeMapping(mapping_top_rectangle).
+											addService(googletag.pubads());
+		var mapping_mobile_top_rectangle	=	googletag.sizeMapping().
+										        addSize([0, 0], [300, 250]).
+										        addSize([375, 200], [[300, 250], [336, 280]]).
+										        addSize([992, 200], []).
+										        build();
+		window.mapping_mobile_top_rectangle	=	googletag.defineSlot('/1002721/ScienceDaily_Mobile_Top_Rectangle', [300, 250], 'adslot-mobile-top-rectangle').
+												defineSizeMapping(mapping_mobile_top_rectangle).
+												addService(googletag.pubads());
+		var mapping_half_page		=	googletag.sizeMapping().
+								        addSize([0, 0], []).
+								        addSize([768, 200], [160, 600]).
+								        addSize([992, 200], [[300, 600], [300, 250], [160, 600]]).
+								        build();
+		window.mapping_half_page		=	googletag.defineSlot('/1002721/ScienceDaily_Half_Page', [300, 600], 'adslot-half-page').
+											defineSizeMapping(mapping_half_page).
+											addService(googletag.pubads());
+		var mapping_left_skyscraper	=	googletag.sizeMapping().
+								        addSize([0, 0], []).
+								        addSize([992, 200], [[160, 600], [120, 600]]).
+								        build();
+		window.mapping_left_skyscraper	=	googletag.defineSlot('/1002721/ScienceDaily_Left_Skyscraper', [160, 600], 'adslot-left-skyscraper').
+											defineSizeMapping(mapping_left_skyscraper).
+											addService(googletag.pubads());
+		var mapping_mobile_middle_rectangle	=	googletag.sizeMapping().
+										        addSize([0, 0], [300, 250]).
+										        addSize([375, 200], [[300, 250], [336, 280]]).
+										        addSize([768, 200], []).
+										        addSize([992, 200], []).
+										        build();
+		window.mapping_mobile_middle_rectangle	=	googletag.defineSlot('/1002721/ScienceDaily_Mobile_Middle_Rectangle', [300, 250], 'adslot-mobile-middle-rectangle').
+												defineSizeMapping(mapping_mobile_middle_rectangle).
+												addService(googletag.pubads());
+		var mapping_mobile_bottom_rectangle	=	googletag.sizeMapping().
+										        addSize([0, 0], [300, 250]).
+										        addSize([375, 200], [[300, 250], [336, 280]]).
+										        addSize([768, 200], []).
+										        addSize([992, 200], []).
+										        build();
+		window.mapping_mobile_bottom_rectangle	=	googletag.defineSlot('/1002721/ScienceDaily_Mobile_Bottom_Rectangle', [300, 250], 'adslot-mobile-bottom-rectangle').
+												defineSizeMapping(mapping_mobile_bottom_rectangle).
+												addService(googletag.pubads());
+		googletag.pubads().enableAsyncRendering();
+		googletag.pubads().enableLazyLoad({fetchMarginPercent: 100, renderMarginPercent: 50, mobileScaling: 2.0});
+		googletag.pubads().set("page_url", "https://www.sciencedaily.com/releases/2020/03/200311121832.htm");
+		googletag.pubads().setTargeting("domain", domainRoot);
+		googletag.pubads().setTargeting("sensitive", "false");
+		googletag.pubads().setTargeting("allow_adx", "true");
+		// use Sortable's enableServices wrapper
+		deployads.push(function () { deployads.gpt.enableServices() });
+	});
+}
+</script>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZW5FC5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header><!-- Container --><div class="container white">
+	    
+		<!-- Row -->
+	    <div class="row header">
+		    
+		    <div class="col-sm-5 col-md-4 no-padding-right">
+			    <div class="logo">
+				    <a href="/" title="ScienceDaily"><img src="/images/sd-logo.png" height="43" width="260" alt="ScienceDaily" title="ScienceDaily" /></a>
+				    <hr class="hr-logo" />
+<div class="clearfix"></div>
+				    <div class="motto">Your source for the latest research news</div>
+			    </div>
+		    </div>
+		    
+		    <div class="col-sm-7 col-md-8 no-padding-left hidden-xs">
+				<div class="sharing">
+					<div id="controls" class="btn-group" role="group" aria-label="...">
+						<a class="btn btn-default topbar hidden-xs">Follow</a>
+						<a href="https://www.facebook.com/sciencedaily" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook fa-fw"></i></a>
+						<a href="https://twitter.com/sciencedaily" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter fa-fw"></i></a>
+						<a href="https://www.linkedin.com/company/sciencedaily" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i class="fa fa-linkedin fa-fw"></i></a>
+						<a class="btn btn-default topbar hidden-xs">Subscribe</a>
+						<a href="/newsfeeds.htm" class="btn btn-default hidden-tiny" data-toggle="tooltip" data-placement="bottom" title="RSS Feeds"><i class="fa fa-rss fa-fw"></i></a>
+						<a href="/newsletters.htm" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Newsletters"><i class="fa fa-envelope-o fa-fw"></i></a>
+					</div>
+				</div>
+
+				<div class="breaking-news hidden-xs">
+					<span class="pull-left"><strong><a href="/breaking/">New</a>:</strong></span>
+					<span class="pull-left">
+						<ul id="justin_headlines" class="list-unstyled newsticker">
+	
+	<li><a href="/releases/2020/03/200316152211.htm">Limited Nuclear War Would Bring Global Famine</a></li>
+	
+
+	
+	<li><a href="/releases/2020/03/200317150116.htm">New Coronavirus Stable for Hours On Surfaces</a></li>
+	
+
+	
+	<li><a href="/releases/2020/03/200316143313.htm">Coronavirus Spreads Quickly, Before Symptoms</a></li>
+	
+
+	
+	<li><a href="/releases/2020/03/200309130034.htm">Water Splitting Advance for Renewable Energy</a></li>
+	
+
+	
+	<li><a href="/releases/2020/03/200312142256.htm">Heat Stress and Global Warming</a></li>
+	
+
+	
+	<li><a href="/releases/2020/03/200305132039.htm">Preventing Spread of SARS Coronavirus-2 in ...</a></li>
+	
+
+	
+	<li><a href="/releases/2020/03/200311161853.htm">New Minor Planets Found Beyond Neptune</a></li>
+	
+
+	
+	<li><a href="/releases/2020/03/200311121832.htm">Exoplanet Where It Rains Iron</a></li>
+	
+
+	
+	<li><a href="/releases/2020/03/200309135410.htm">Days Half-Hour Shorter 70 Million Years Ago</a></li>
+	
+
+	
+	<li><a href="/releases/2020/03/200305203531.htm">Scientists Monitor Brains Replaying Memories</a></li>
+	
+</ul></span>
+				</div>
+
+		    </div>
+
+	    </div>
+	    
+		<div class="unit1">
+
+			<div class="textrule">
+			   <span>advertisement</span>
+			</div>
+
+			<!-- /1002721/ScienceDaily_Top_Leaderboard -->
+			<div id="adslot-top-leaderboard" class="center-block">
+				<script type="text/javascript">
+					googletag.cmd.push(function() { 
+						deployads.push(function() { deployads.gpt.display("adslot-top-leaderboard") }); 
+					});
+				</script>
+</div>
+
+		</div>
+		
+		<div id="message_box" class="hidden-sm hidden-xs">
+			<div id="message">Follow all of ScienceDaily's <strong><a href="/news/">latest research news</a></strong> and <strong><a href="/news/top/science/" class="store">top science headlines</a></strong>!</div>
+		</div>
+		
+    </div>
+<!-- /container -->
+
+</header><div id="contents" class="container white">
+	    
+	<div class="row">
+
+		<!-- Main -->
+		<div class="col-sm-8 main less-padding-right hyphenate">
+			
+			<!-- Top Science News -->
+			<div class="head no-print">
+				<div class="pull-left head-left">Science News</div>
+				<div class="pull-right head-right">from research organizations</div>
+			</div>
+			<div class="clearfix"></div>
+			<hr class="head-rule no-print" />
+<h1 id="headline" class="headline">Exoplanet where it rains iron discovered</h1>
+			
+			
+			<dl class="dl-horizontal dl-custom">
+<dt>Date:</dt>
+				<dd id="date_posted">March 11, 2020</dd>
+				<dt>Source:</dt>
+				<dd id="source">ESO</dd>
+				<dt>Summary:</dt>
+				<dd id="abstract">Researchers have observed an extreme planet where they suspect it rains iron. The ultra-hot giant exoplanet has a day side where temperatures climb above 2400 degrees Celsius, high enough to vaporize metals. Strong winds carry iron vapor to the cooler night side where it condenses into iron droplets.
+</dd>
+				<dt class="no-print">Share:</dt>
+				<dd class="no-print">
+					<div id="share_top">
+						<div data-url="https://www.sciencedaily.com/releases/2020/03/200311121832.htm" class="ssk-sm ssk-group">
+						    <a class="ssk ssk-icon ssk-facebook"></a>
+						    <a class="ssk ssk-icon ssk-twitter"></a>
+						    <a class="ssk ssk-icon ssk-pinterest"></a>
+						    <a class="ssk ssk-icon ssk-linkedin"></a>
+						    <a class="ssk ssk-icon ssk-email"></a>
+						</div>
+					</div>
+				</dd>
+			</dl>
+<div class="row">
+				
+				<div class="col-md-8 col-md-push-4">
+					
+					<div class="fullstory">FULL STORY</div>
+					<hr class="hr-fullstory" />
+<div id="story_photo" class="hyphenate">					        <div class="photo-image"><img class="img-responsive center-block" src="/images/2020/03/200311121832_1_540x360.jpg" width="540" height="358.425" title="Click to enlarge" alt="Very Large Telescope in Chile (stock image). | Credit: &copy; Christian / stock.adobe.com" data-toggle="modal" data-target="#myModal" /></div>
+					        <div class="photo-caption">Very Large Telescope in Chile (stock image).</div>
+					        <div class="photo-credit"><em>Credit: &copy; Christian / <a href="https://stock.adobe.com" rel="nofollow" target="_blank">Adobe Stock</a></em></div>
+					        <div class="clearfix"></div>
+					
+							<!-- Modal -->
+							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							  <div class="modal-dialog modal-lg">
+							    <div class="modal-content modal-content-custom">
+							        <div class="modal-image"><img class="img-responsive center-block" src="/images/2020/03/200311121832_1_900x600.jpg" width="800" height="531" alt="Very Large Telescope in Chile (stock image). | Credit: &copy; Christian / stock.adobe.com" /></div>
+							        <div class="modal-text">
+								        <div class="modal-caption">Very Large Telescope in Chile (stock image).</div>
+								        <div class="modal-credit"><em>Credit: &copy; Christian / <a href="https://stock.adobe.com" rel="nofollow" target="_blank">Adobe Stock</a></em></div>
+									    <div class="modal-close"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
+								        <div class="clearfix"></div>
+							        </div>
+							    </div>
+							  </div>
+							</div>
+</div>
+<!-- /story_photo -->
+			        <div class="clearfix"></div>
+
+					<div id="story_text" class="hyphenate">
+
+						<p id="first" class="lead">Researchers using ESO's Very Large Telescope (VLT) have observed an extreme planet where they suspect it rains iron. The ultra-hot giant exoplanet has a day side where temperatures climb above 2400 degrees Celsius, high enough to vaporise metals. Strong winds carry iron vapour to the cooler night side where it condenses into iron droplets.</p>
+
+						<div class="mobile-top-rectangle hidden-md hidden-lg">
+				
+							<div class="textrule">
+							   <span>advertisement</span>
+							</div>
+
+							<!-- /1002721/ScienceDaily_Mobile_Top_Rectangle -->
+							<div id="adslot-mobile-top-rectangle">
+								<script type="text/javascript">
+									googletag.cmd.push(function() { 
+										deployads.push(function() { deployads.gpt.display("adslot-mobile-top-rectangle") }); 
+									});
+								</script>
+</div>
+
+							<hr class="hrrule" />
+</div>
+				
+						<div id="text">
+<p>"One could say that this planet gets rainy in the evening, except it rains iron," says David Ehrenreich, a professor at the University of Geneva in Switzerland. He led a study, published today in the journal <em>Nature</em>, of this exotic exoplanet. Known as WASP-76b, it is located some 640 light-years away in the constellation of Pisces.</p>
+<p>This strange phenomenon happens because the 'iron rain' planet only ever shows one face, its day side, to its parent star, its cooler night side remaining in perpetual darkness. Like the Moon on its orbit around the Earth, WASP-76b is 'tidally locked': it takes as long to rotate around its axis as it does to go around the star.</p>
+<p>On its day side, it receives thousands of times more radiation from its parent star than the Earth does from the Sun. It's so hot that molecules separate into atoms, and metals like iron evaporate into the atmosphere. The extreme temperature difference between the day and night sides results in vigorous winds that bring the iron vapour from the ultra-hot day side to the cooler night side, where temperatures decrease to around 1500 degrees Celsius.</p>
+<p>Not only does WASP-76b have different day-night temperatures, it also has distinct day-night chemistry, according to the new study. Using the new ESPRESSO instrument on ESO's VLT in the Chilean Atacama Desert, the astronomers identified for the first time chemical variations on an ultra-hot gas giant planet. They detected a strong signature of iron vapour at the evening border that separates the planet's day side from its night side. "Surprisingly, however, we do not see the iron vapour in the morning," says Ehrenreich. The reason, he says, is that "it is raining iron on the night side of this extreme exoplanet."</p>
+<p>"The observations show that iron vapour is abundant in the atmosphere of the hot day side of WASP-76b," adds Mar&iacute;a Rosa Zapatero Osorio, an astrophysicist at the Centre for Astrobiology in Madrid, Spain, and the chair of the ESPRESSO science team. "A fraction of this iron is injected into the night side owing to the planet's rotation and atmospheric winds. There, the iron encounters much cooler environments, condenses and rains down."</p>
+<p>This result was obtained from the very first science observations done with ESPRESSO, in September 2018, by the scientific consortium who built the instrument: a team from Portugal, Italy, Switzerland, Spain and ESO.</p>
+<p>ESPRESSO -- the Echelle SPectrograph for Rocky Exoplanets and Stable Spectroscopic Observations -- was originally designed to hunt for Earth-like planets around Sun-like stars. However, it has proven to be much more versatile. "We soon realised that the remarkable collecting power of the VLT and the extreme stability of ESPRESSO made it a prime machine to study exoplanet atmospheres," says Pedro Figueira, ESPRESSO instrument scientist at ESO in Chile.</p>
+<p>"What we have now is a whole new way to trace the climate of the most extreme exoplanets," concludes Ehrenreich.</p>
+</div>
+
+<div class="impact-unit-wrapper">
+	<div class="pgs-dpg-flex" data-pgs-partner-id="sciencedaily">
+		<div class="pre-content">
+			<div class="textrule">
+				<span>make a difference: sponsored opportunity</span>
+			</div>
+			<div class="impact-unit"></div>
+		</div>
+		<div class="post-content">
+		</div>
+	</div>
+	<script async type="text/JavaScript" src="https://assets.publicgood.com/pgm/v1/dpg.js"></script>
+</div>
+
+						<hr />
+<div id="story_source">								<p><strong>Story Source:</strong></p>
+								<p><a href="https://www.eso.org/public/news/eso2005/" rel="nofollow" target="_blank">Materials</a> provided by <a href="https://www.eso.org" rel="nofollow" target="_blank"><strong>ESO</strong></a>. <em>Note: Content may be edited for style and length.</em></p>
+</div>
+<!-- /story_source -->
+				
+						<hr />
+<div id="related_multimedia">
+							<p><strong>Related Multimedia</strong>:</p>
+							<ul>
+<li><a id="multimedia_url" href="https://www.eso.org/public/news/eso2005/" rel="nofollow" target="_blank"><span id="multimedia_label">Artist's impressions of WASP-76b</span></a></li>
+							</ul>
+<hr />
+</div>
+<!-- /related_multimedia -->
+						<div id="journal_references"><p><strong>Journal Reference</strong>:</p>
+<ol class="journal">
+<li>Ehrenreich, D., Lovis, C., Allart, R. et al. <strong>Nightside condensation of iron in an ultrahot giant exoplanet</strong>. <em>Nature</em>, 2020; DOI: <a href="http://dx.doi.org/10.1038/s41586-020-2107-1" rel="nofollow" target="_blank">10.1038/s41586-020-2107-1</a>
+</li>
+</ol>
+<hr />
+</div>
+<!-- /journal_references -->
+
+						<div id="citations">
+
+							<div role="tabpanel" class="right-tabs clearfix">
+
+								<p class="pull-left"><strong>Cite This Page</strong>:</p>
+
+								<!-- Nav tabs -->
+								<ul class="nav nav-tabs" role="tablist">
+<li role="presentation" class="active"><a href="#citation_mla" aria-controls="citation_mla" role="tab" data-toggle="tab">MLA</a></li>
+									<li role="presentation"><a href="#citation_apa" aria-controls="citation_apa" role="tab" data-toggle="tab">APA</a></li>
+									<li role="presentation"><a href="#citation_chicago" aria-controls="citation_chicago" role="tab" data-toggle="tab">Chicago</a></li>
+								</ul>
+<!-- Tab panes --><div class="tab-content tab-citations">
+								    <div role="tabpanel" class="tab-pane active" id="citation_mla">ESO. "Exoplanet where it rains iron discovered." ScienceDaily. ScienceDaily, 11 March 2020. &lt;www.sciencedaily.com/releases/2020/03/200311121832.htm&gt;.</div>
+								    <div role="tabpanel" class="tab-pane" id="citation_apa">ESO. (2020, March 11). Exoplanet where it rains iron discovered. <em>ScienceDaily</em>. Retrieved March 17, 2020 from www.sciencedaily.com/releases/2020/03/200311121832.htm</div>
+								    <div role="tabpanel" class="tab-pane" id="citation_chicago">ESO. "Exoplanet where it rains iron discovered." ScienceDaily. www.sciencedaily.com/releases/2020/03/200311121832.htm (accessed March 17, 2020).</div>
+								</div>
+
+							</div>
+			
+							<div class="clearfix"></div>
+
+						</div>
+<!-- end citations -->
+
+						<div class="clearfix"></div>
+
+						<br />
+</div>
+<!-- /story_text -->
+
+				</div>
+<!-- /col-md-8 -->
+				
+				<div class="col-md-4 col-md-pull-8 less-padding-left no-print">
+					
+					<div class="row hidden-sm hidden-xs">
+
+						<div class="col-xs-6 col-md-12">
+							
+							<ul class="nav topics">
+<li class="nav-header">
+<a href="#">RELATED TOPICS</a>
+						            <ul id="related_topics" class="nav subnav">
+										<li>
+<a href="/news/space_time/">Space &amp; Time</a>
+											<ul class="nav nav-condensed fa-ul">
+												<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/news/space_time/extrasolar_planets/" rel="tag">Extrasolar Planets</a>
+</li>
+												<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/news/space_time/astronomy/" rel="tag">Astronomy</a>
+</li>
+												<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/news/space_time/stars/" rel="tag">Stars</a>
+</li>
+												<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/news/space_time/jupiter/" rel="tag">Jupiter</a>
+</li>
+												<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/news/space_time/xena/" rel="tag">Eris (Xena)</a>
+</li>
+												<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/news/space_time/kuiper_belt/" rel="tag">Kuiper Belt</a>
+</li>
+												<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/news/space_time/pluto/" rel="tag">Pluto</a>
+</li>
+												<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/news/space_time/space_exploration/" rel="tag">Space Exploration</a>
+</li>
+											</ul>
+										</li>
+</ul>
+</li>
+							</ul>
+</div>
+<!-- /col-xs-6 -->
+
+						<div class="col-xs-6 col-md-12">
+
+							<div class="left-skyscraper center-block hidden-sm hidden-xs">
+
+								<div class="textrule">
+								   <span>advertisement</span>
+								</div>
+
+								<!-- /1002721/ScienceDaily_Left_Skyscraper -->
+								<div id="adslot-left-skyscraper">
+									<script type="text/javascript">
+										googletag.cmd.push(function() { 
+											deployads.push(function() { deployads.gpt.display("adslot-left-skyscraper") }); 
+										});
+									</script>
+</div>
+
+								<hr class="hrrule" />
+</div>
+		
+						</div>
+<!-- /col-xs-6 -->
+
+						<div class="col-xs-6 col-md-12">
+							
+							<ul class="nav topics">
+<li class="nav-header">
+<a href="#">RELATED TERMS</a>
+						            <ul id="related_terms" class="nav nav-condensed fa-ul">
+										<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/terms/mercury_(planet).htm">Mercury (planet)</a>
+</li>
+										<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/terms/nuclear_fusion.htm">Nuclear fusion</a>
+</li>
+										<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/terms/red_giant.htm">Red giant</a>
+</li>
+										<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/terms/introduction_to_general_relativity.htm">Introduction to general relativity</a>
+</li>
+										<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/terms/blue_supergiant.htm">Blue supergiant star</a>
+</li>
+										<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/terms/solar_system.htm">Solar system</a>
+</li>
+										<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/terms/neptune.htm">Neptune</a>
+</li>
+										<li>
+<i class="fa-li fa fa-angle-right"></i><a href="/terms/mars.htm">Mars</a>
+</li>
+</ul>
+</li>
+							</ul>
+</div>
+<!-- /col-xs-6 -->
+
+					</div>
+<!-- /row -->
+
+				</div>
+<!-- /col-md-4 -->
+				
+			</div>
+<!-- /row -->
+			
+			<div class="row">
+				
+				<div class="col-md-6">
+					
+					
+								
+					<div class="fullstory">RELATED STORIES</div>
+					<hr class="hr-fullstory" />
+<div id="related_releases">					<h5 class="related-headline clearfix"><a href="/releases/2019/04/190408161625.htm">Iron Volcanoes May Have Erupted on Metal Asteroids</a></h5>
+					<div class="related-summary">
+<span class="story-date">Apr. 8, 2019 &#151;</span> Metallic asteroids are thought to have started out as blobs of molten iron floating in space. As if that's not strange enough, scientists now think that as the metal cooled and solidified, volcanoes ... <span class="more"><a href="/releases/2019/04/190408161625.htm">read more</a> <i class="fa fa-angle-double-right red"></i></span>
+</div>					<h5 class="related-headline clearfix"><a href="/releases/2018/08/180815130555.htm">Iron and Titanium in the Atmosphere of an Exoplanet</a></h5>
+					<div class="related-summary">
+<span class="story-date">Aug. 15, 2018 &#151;</span> Exoplanets can orbit close to their host star. When the host star is much hotter than our sun, then the exoplanet becomes as hot as a star. The hottest 'ultra-hot' planet was discovered last year. A ... <span class="more"><a href="/releases/2018/08/180815130555.htm">read more</a> <i class="fa fa-angle-double-right red"></i></span>
+</div>					<h5 class="related-headline clearfix"><a href="/releases/2017/12/171204094937.htm">Bronze Age Artifacts Used Meteoric Iron</a></h5>
+					<div class="related-summary">
+<span class="story-date">Dec. 4, 2017 &#151;</span> Though meteorites had already been recognized as one source of iron objects, the scientific community couldn't determine whether they accounted for most or simply a few Bronze Age iron artifacts. ... <span class="more"><a href="/releases/2017/12/171204094937.htm">read more</a> <i class="fa fa-angle-double-right red"></i></span>
+</div>					<h5 class="related-headline clearfix"><a href="/releases/2017/08/170822144225.htm">Brown Dwarf Weather Forecasts Improved</a></h5>
+					<div class="related-summary">
+<span class="story-date">Aug. 22, 2017 &#151;</span> Dim objects called brown dwarfs, less massive than the Sun but more massive than Jupiter, have powerful winds and clouds -- specifically, hot patchy clouds made of iron droplets and silicate dust. ... <span class="more"><a href="/releases/2017/08/170822144225.htm">read more</a> <i class="fa fa-angle-double-right red"></i></span>
+</div>
+</div>
+
+				</div>
+				<!-- /col-md-6 -->
+				
+				<div class="col-md-6 less-padding-left no-print">
+					
+					<div class="row">
+
+						<div class="col-xs-12 col-md-12">
+							
+							<div class="aroundtheweb-title">FROM AROUND THE WEB</div>
+							<hr class="aroundtheweb-rule" />
+<div class="aroundtheweb-disclosure">Below are relevant articles that may interest you. ScienceDaily shares links with scholarly publications in the <a href="https://www.trendmd.com/how-it-works-readers?utm_source=ScienceDaily&amp;utm_medium=referral&amp;utm_campaign=SD_Widget" rel="nofollow" target="_blank">TrendMD network</a> and earns revenue from third-party advertisers, where indicated.</div>
+
+							<div id="trendmd-suggestions"></div>
+							
+						</div>
+<!-- /col-xs-6 -->
+					
+					</div>
+					<!-- /row -->
+					
+				</div>
+				<!-- /col-md-6 -->
+
+			</div>
+			<!-- /row -->
+			
+		</div>
+		<!-- /Main -->
+
+		<!-- Sidebar -->
+		<div class="col-sm-4 less-padding-left sidebar no-print hidden-xs">
+			<div class="pull-right btn-group btn-group-sm tools-top hidden-tiny hidden-xs" role="group" aria-label="...">
+				<a class="btn btn-default print black"><i class="fa fa-print"></i> &nbsp; <span class="hidden-sm">Print</span>
+				</a><a class="btn btn-default email black"><span class="fa fa-envelope"></span> &nbsp; <span class="hidden-sm">Email</span></a>
+				<a class="btn btn-default black" data-toggle="modal" data-target="#shareModal"><i class="fa fa-share"></i> &nbsp; <span class="hidden-sm">Share</span></a>
+			</div>
+			<div class="clearfix"></div>
+			<hr class="hr-tools-top" />
+<div class="unit2 hidden-tiny hidden-xs">
+
+				<div class="textrule">
+				   <span>advertisement</span>
+				</div>
+
+				<!-- /1002721/ScienceDaily_Top_Rectangle -->
+				<div id="adslot-top-rectangle">
+					<script type="text/javascript">
+						googletag.cmd.push(function() { 
+							deployads.push(function() { deployads.gpt.display("adslot-top-rectangle") }); 
+						});
+					</script>
+</div>
+
+				<hr class="hrrule" />
+</div>
+
+			<div class="head">
+				<div id="most_popular_heading" class="pull-left head-left">Most Popular</div>
+				<div class="pull-right head-right">this week</div>
+			</div>
+			<div class="clearfix"></div>
+			<hr class="head-rule" />
+<div id="most_popular_section1_head" class="side-subhead"><a href="/news/space_time/" class="gray">SPACE &amp; TIME</a>
+</div>
+			<div id="most_popular_section1">
+	<h5 class="clearfix"><a href="/releases/2020/03/200309135410.htm"><img src="/images/2020/03/200309135410_1_75x50.jpg" class="side-image" width="75" height="50" alt="" />Ancient Shell Shows Days Were Half-Hour Shorter 70 Million Years Ago</a></h5>
+	<h5 class="clearfix"><a href="/releases/2020/03/200311121832.htm"><img src="/images/2020/03/200311121832_1_75x50.jpg" class="side-image" width="75" height="50" alt="" />Exoplanet Where It Rains Iron Discovered</a></h5>
+	<h5 class="clearfix"><a href="/releases/2020/02/200228142022.htm"><img src="/images/2020/02/200228142022_1_75x50.jpg" class="side-image" width="75" height="50" alt="" />Why Is There Any Matter in the Universe at All? New Study Sheds Light</a></h5>
+</div>
+
+			<div id="most_popular_section2_head" class="side-subhead"><a href="/news/matter_energy/" class="gray">MATTER &amp; ENERGY</a>
+</div>
+			<div id="most_popular_section2">
+	<h5 class="clearfix"><a href="/releases/2015/11/151110102147.htm"><img src="/images/2015/11/151110102147_1_75x50.jpg" class="side-image" width="75" height="50" alt="" />Using Copper to Prevent the Spread of Respiratory Viruses</a></h5>
+	<h5 class="clearfix"><a href="/releases/2019/09/190903134732.htm">Surgical Masks as Good as Respirators for Flu and Respiratory Virus Protection</a></h5>
+	<h5 class="clearfix"><a href="/releases/2020/03/200309130034.htm"><img src="/images/2020/03/200309130034_1_75x50.jpg" class="side-image" width="75" height="50" alt="" />Water Splitting Advance Holds Promise for Affordable Renewable Energy</a></h5>
+</div>
+			
+			<div id="most_popular_section3_head" class="side-subhead"><a href="/news/computers_math/" class="gray">COMPUTERS &amp; MATH</a>
+</div>
+			<div id="most_popular_section3">
+	<h5 class="clearfix"><a href="/releases/2020/03/200302153551.htm"><img src="/images/2020/03/200302153551_1_75x50.jpg" class="side-image" width="75" height="50" alt="3-D illustration of viruses (stock image). | Credit: (c) freshidea / stock.adobe.com" />To Predict an Epidemic, Evolution Can't Be Ignored</a></h5>
+	<h5 class="clearfix"><a href="/releases/2020/02/200220141748.htm"><img src="/images/2020/02/200220141748_1_75x50.jpg" class="side-image" width="75" height="50" alt="Bacterial colony in dish (stock image). | Credit: (c) motorolka / stock.adobe.com" />Artificial Intelligence Yields New Antibiotic</a></h5>
+	<h5 class="clearfix"><a href="/releases/2020/02/200226110843.htm"><img src="/images/2020/02/200226110843_1_75x50.jpg" class="side-image" width="75" height="50" alt="Brain-digital interface concept illustration (stock image). | Credit: (c) knowhowfootage / stock.adobe.com" />New Study Allows Brain and Artificial Neurons to Link Up Over the Web</a></h5>
+</div>
+			
+			<div class="half-page hidden-tiny hidden-xs">
+
+				<div class="textrule">
+				   <span>advertisement</span>
+				</div>
+
+				<!-- /1002721/ScienceDaily_Half_Page -->
+				<div id="adslot-half-page">
+					<script type="text/javascript">
+						googletag.cmd.push(function() { 
+							deployads.push(function() { deployads.gpt.display("adslot-half-page") }); 
+						});
+					</script>
+</div>
+
+				<hr class="hrrule" />
+</div>
+			
+			<div class="head">
+				<div id="strange_offbeat_heading" class="pull-left head-left">Strange &amp; Offbeat</div>
+				<div class="pull-right head-right">&nbsp;</div>
+			</div>
+			<div class="clearfix"></div>
+			<hr class="head-rule" />
+<div id="strange_offbeat_section1_head" class="side-subhead"><a href="/news/strange_offbeat/space_time/" class="gray">SPACE &amp; TIME</a>
+</div>
+			<div id="strange_offbeat_section1">
+	<h5 class="clearfix"><a href="/releases/2020/03/200311161853.htm"><img src="/images/2020/03/200311161853_1_75x50.jpg" class="side-image" width="75" height="50" alt="" />New Minor Planets Found Beyond Neptune</a></h5>
+	<h5 class="clearfix"><a href="/releases/2020/03/200311121832.htm"><img src="/images/2020/03/200311121832_1_75x50.jpg" class="side-image" width="75" height="50" alt="" />Exoplanet Where It Rains Iron Discovered</a></h5>
+	<h5 class="clearfix"><a href="/releases/2020/03/200310124708.htm">Astronomers Use Slime Mold Model to Reveal Dark Threads of the Cosmic Web</a></h5>
+</div>
+
+			<div id="strange_offbeat_section2_head" class="side-subhead"><a href="/news/strange_offbeat/matter_energy/" class="gray">MATTER &amp; ENERGY</a>
+</div>
+			<div id="strange_offbeat_section2">
+	<h5 class="clearfix"><a href="/releases/2020/03/200312163830.htm">Monty Python's Silly Walk: A Gait Analysis and Wake-Up Call to Peer Review Inefficiencies</a></h5>
+	<h5 class="clearfix"><a href="/releases/2020/03/200311161911.htm">Magic Twist Angles of Graphene Sheets Identified</a></h5>
+	<h5 class="clearfix"><a href="/releases/2020/03/200310124715.htm">To Make Ultra-Black Materials That Won't Weigh Things Down, Consider the Butterfly</a></h5>
+</div>
+			
+			<div id="strange_offbeat_section3_head" class="side-subhead"><a href="/news/strange_offbeat/computers_math/" class="gray">COMPUTERS &amp; MATH</a>
+</div>
+			<div id="strange_offbeat_section3">
+	<h5 class="clearfix"><a href="/releases/2020/03/200309152056.htm">Our Brains Are Powerful -- But Secretive -- Forecasters of Video Virality</a></h5>
+	<h5 class="clearfix"><a href="/releases/2020/03/200306183345.htm">Showing Robots How to Do Your Chores</a></h5>
+	<h5 class="clearfix"><a href="/releases/2020/03/200306122612.htm">Seismic Imaging Technology Could Deliver Finely Detailed Images of the Human Brain</a></h5>
+</div>
+			
+		</div>
+		<!-- /Sidebar -->
+
+	</div>
+	<!-- /Row -->
+
+</div> <!-- /Container -->
+
+<div id="navwrapper">
+<div id="topnav">
+    <!-- Static navbar -->
+    <nav class="navbar yamm navbar-default navbar-static navbar-custom"><div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed menu" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span>Menu &nbsp;<i class="fa fa-bars"></i></span>
+          </button>
+          <a class="navbar-brand visible-xs" href="/"><span class="icon-s">S<span class="icon-d">D</span></span></a>
+          <ul class="nav navbar-nav hidden-xs">
+<li class="dropdown">
+              <a href="#" class="navbar-brand dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="icon-s">S<span class="icon-d">D</span></span></a>
+              <ul class="dropdown-menu brand" role="menu">
+<li><a href="/">Home Page</a></li>
+                <li class="divider">
+                </li>
+<li><a href="/news/top/science/">Top Science News</a></li>
+                <li class="divider">
+                </li>
+<li><a href="/news/">Latest News</a></li>
+              </ul>
+</li>
+          </ul>
+</div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+<li class="dropdown visible-xs">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+<li><a href="/">Home Page</a></li>
+                <li class="divider">
+				</li>
+<li><a href="/news/top/science/">Top Science News</a></li>
+                <li class="divider">
+				</li>
+<li><a href="/news/">Latest News</a></li>
+              </ul>
+<!-- /dropdown-menu -->
+</li>
+<!-- /dropdown -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Health <span class="caret"></span></a>
+              <ul class="dropdown-menu dropdown-menu-left" role="menu">
+<li class="menu-item">
+				  	<div class="yamm-content hyphenate">
+					  	<div>View all the latest <strong><a href="/news/top/health/">top news</a></strong> in the health sciences, <span class="hidden-xs hidden-sm"><br /></span>or browse the topics below:</div>
+					  	<div class="row">
+						  	<div class="col-xs-4">
+							  	<div class="menu-section"><a href="/news/health_medicine/">Health &amp; Medicine</a></div>
+				                	<ul class="list-unstyled menu-topics">
+<li><a href="/news/health_medicine/allergy/">Allergy</a></li>
+										<li><a href="/news/health_medicine/alternative_medicine/">Alternative Medicine</a></li>
+									
+										<li><a href="/news/health_medicine/birth_control/">Birth Control</a></li>
+										<li><a href="/news/health_medicine/cancer/">Cancer</a></li>
+										<li><a href="/news/health_medicine/diabetes/">Diabetes</a></li>
+									
+										<li><a href="/news/health_medicine/diseases_and_conditions/">Diseases</a></li>
+										<li><a href="/news/health_medicine/heart_disease/">Heart Disease</a></li>
+									
+										<li><a href="/news/health_medicine/hiv_and_aids/">HIV and AIDS</a></li>
+										<li><a href="/news/health_medicine/obesity/">Obesity</a></li>
+									
+										<li><a href="/news/health_medicine/stem_cells/">Stem Cells</a></li>
+									
+										<li><a href="/news/health_medicine/">... <em>more topics</em></a></li>
+				                	</ul>
+<!-- /menu-topics -->
+</div>
+<!-- /col-xs-4 -->
+						  	<div class="col-xs-4">
+							  	<div class="menu-section"><a href="/news/mind_brain/">Mind &amp; Brain</a></div>
+				                	<ul class="list-unstyled menu-topics">
+<li><a href="/news/mind_brain/add_and_adhd/">ADD and ADHD</a></li>
+									
+										<li><a href="/news/mind_brain/addiction/">Addiction</a></li>
+										<li><a href="/news/mind_brain/alzheimer's/">Alzheimer's</a></li>
+										<li><a href="/news/mind_brain/autism/">Autism</a></li>
+										<li><a href="/news/mind_brain/depression/">Depression</a></li>
+									
+										<li><a href="/news/mind_brain/headaches/">Headaches</a></li>
+										<li><a href="/news/mind_brain/intelligence/">Intelligence</a></li>
+									
+										<li><a href="/news/mind_brain/psychology/">Psychology</a></li>
+										<li><a href="/news/mind_brain/relationships/">Relationships</a></li>
+										<li><a href="/news/mind_brain/schizophrenia/">Schizophrenia</a></li>
+									
+										<li><a href="/news/mind_brain/">... <em>more topics</em></a></li>
+				                	</ul>
+<!-- /menu-topics -->
+</div>
+<!-- /col-xs-4 -->
+						  	<div class="col-xs-4">
+							  	<div class="menu-section"><a href="/news/living_well/">Living Well</a></div>
+				                	<ul class="list-unstyled menu-topics">
+<li><a href="/news/mind_brain/parenting/">Parenting</a></li>
+										<li><a href="/news/health_medicine/pregnancy_and_childbirth/">Pregnancy</a></li>
+										<li><a href="/news/health_medicine/sexual_health/">Sexual Health</a></li>
+										<li><a href="/news/health_medicine/skin_care/">Skin Care</a></li>
+										<li><a href="/news/health_medicine/men's_health/">Men's Health</a></li>
+										<li><a href="/news/health_medicine/women's_health/">Women's Health</a></li>
+										<li><a href="/news/health_medicine/nutrition/">Nutrition</a></li>
+										<li><a href="/news/health_medicine/diet_and_weight_loss/">Diet and Weight Loss</a></li>
+										<li><a href="/news/health_medicine/fitness/">Fitness</a></li>
+										<li><a href="/news/health_medicine/healthy_aging/">Healthy Aging</a></li>
+					
+										<li><a href="/news/living_well/">... <em>more topics</em></a></li>
+				                	</ul>
+<!-- /menu-topics -->
+</div>
+<!-- /col-xs-4 -->
+					  	</div>
+<!-- /row -->
+				  	</div>
+<!-- /yamm-content -->
+			  	</li>
+<!-- /menu-item -->
+              </ul>
+<!-- /dropdown-menu -->
+</li>
+<!-- /dropdown -->
+	              
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tech <span class="caret"></span></a>
+              <ul class="dropdown-menu dropdown-menu-left" role="menu">
+<li class="menu-item">
+				  	<div class="yamm-content hyphenate">
+					  	<div>View all the latest <strong><a href="/news/top/technology/">top news</a></strong> in the physical sciences &amp; technology, <span class="hidden-xs hidden-sm"><br /></span>or browse the topics below:</div>
+					  	<div class="row">
+						  	<div class="col-xs-4">
+							  	<div class="menu-section"><a href="/news/matter_energy/">Matter &amp; Energy</a></div>
+				                	<ul class="list-unstyled menu-topics">
+<li><a href="/news/matter_energy/aviation/">Aviation</a></li>
+										<li><a href="/news/matter_energy/chemistry/">Chemistry</a></li>
+									
+										<li><a href="/news/matter_energy/electronics/">Electronics</a></li>
+										<li><a href="/news/matter_energy/fossil_fuels/">Fossil Fuels</a></li>
+									
+										<li><a href="/news/matter_energy/nanotechnology/">Nanotechnology</a></li>
+										<li><a href="/news/matter_energy/physics/">Physics</a></li>
+										<li><a href="/news/matter_energy/quantum_physics/">Quantum Physics</a></li>
+									
+										<li><a href="/news/matter_energy/solar_energy/">Solar Energy</a></li>
+										<li><a href="/news/matter_energy/technology/">Technology</a></li>
+										<li><a href="/news/matter_energy/wind_energy/">Wind Energy</a></li>
+										<li><a href="/news/matter_energy/">... <em>more topics</em></a></li>
+				                	</ul>
+<!-- /menu-topics -->
+</div>
+<!-- /col-xs-4 -->
+						  	<div class="col-xs-4">
+							  	<div class="menu-section"><a href="/news/space_time/">Space &amp; Time</a></div>
+				                	<ul class="list-unstyled menu-topics">
+<li><a href="/news/space_time/astronomy/">Astronomy</a></li>
+									
+										<li><a href="/news/space_time/black_holes/">Black Holes</a></li>
+										<li><a href="/news/space_time/dark_matter/">Dark Matter</a></li>
+									
+										<li><a href="/news/space_time/extrasolar_planets/">Extrasolar Planets</a></li>
+										<li><a href="/news/space_time/mars/">Mars</a></li>
+										<li><a href="/news/space_time/moon/">Moon</a></li>
+					
+										<li><a href="/news/space_time/solar_system/">Solar System</a></li>
+										<li><a href="/news/space_time/space_telescopes/">Space Telescopes</a></li>
+									
+										<li><a href="/news/space_time/stars/">Stars</a></li>
+										<li><a href="/news/space_time/sun/">Sun</a></li>
+										<li><a href="/news/space_time/">... <em>more topics</em></a></li>
+				                	</ul>
+<!-- /menu-topics -->
+</div>
+<!-- /col-xs-4 -->
+						  	<div class="col-xs-4">
+							  	<div class="menu-section"><a href="/news/computers_math/">Computers &amp; Math</a></div>
+				                	<ul class="list-unstyled menu-topics">
+<li><a href="/news/computers_math/artificial_intelligence/">Artificial Intelligence</a></li>
+										<li><a href="/news/computers_math/communications/">Communications</a></li>
+									
+										<li><a href="/news/computers_math/computer_science/">Computer Science</a></li>
+										<li><a href="/news/computers_math/hacking/">Hacking</a></li>
+										<li><a href="/news/computers_math/mathematics/">Mathematics</a></li>
+										<li><a href="/news/computers_math/quantum_computers/">Quantum Computers</a></li>
+									
+										<li><a href="/news/computers_math/robotics/">Robotics</a></li>
+										<li><a href="/news/computers_math/software/">Software</a></li>
+										<li><a href="/news/computers_math/video_games/">Video Games</a></li>
+										<li><a href="/news/computers_math/virtual_reality/">Virtual Reality</a></li>
+									
+										<li><a href="/news/computers_math/">... <em>more topics</em></a></li>
+				                	</ul>
+<!-- /menu-topics -->
+</div>
+<!-- /col-xs-4 -->
+					  	</div>
+<!-- /row -->
+				  	</div>
+<!-- /yamm-content -->
+			  	</li>
+<!-- /menu-item -->
+              </ul>
+<!-- /dropdown-menu -->
+</li>
+<!-- /dropdown -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Enviro <span class="caret"></span></a>
+              <ul class="dropdown-menu dropdown-menu-left" role="menu">
+<li class="menu-item">
+				  	<div class="yamm-content hyphenate">
+					  	<div>View all the latest <strong><a href="/news/top/environment/">top news</a></strong> in the environmental sciences, <span class="hidden-xs hidden-sm"><br /></span>or browse the topics below:</div>
+					  	<div class="row">
+						  	<div class="col-xs-4">
+							  	<div class="menu-section"><a href="/news/plants_animals/">Plants &amp; Animals</a></div>
+				                	<ul class="list-unstyled menu-topics">
+<li><a href="/news/plants_animals/agriculture_and_food/">Agriculture and Food</a></li>
+									
+										<li><a href="/news/plants_animals/animals/">Animals</a></li>
+										<li><a href="/news/plants_animals/biology/">Biology</a></li>
+										<li><a href="/news/plants_animals/biotechnology/">Biotechnology</a></li>
+									
+										<li><a href="/news/plants_animals/endangered_animals/">Endangered  Animals</a></li>
+									
+										<li><a href="/news/plants_animals/extinction/">Extinction</a></li>
+										<li><a href="/news/plants_animals/genetically_modified/">Genetically Modified</a></li>
+										<li><a href="/news/plants_animals/microbes_and_more/">Microbes and More</a></li>
+									
+										<li><a href="/news/plants_animals/new_species/">New Species</a></li>
+										<li><a href="/news/plants_animals/zoology/">Zoology</a></li>
+									
+										<li><a href="/news/plants_animals/">... <em>more topics</em></a></li>
+				                	</ul>
+<!-- /menu-topics -->
+</div>
+<!-- /col-xs-4 -->
+						  	<div class="col-xs-4">
+							  	<div class="menu-section"><a href="/news/earth_climate/">Earth &amp; Climate</a></div>
+				                	<ul class="list-unstyled menu-topics">
+<li><a href="/news/earth_climate/climate/">Climate</a></li>
+									
+										<li><a href="/news/earth_climate/earthquakes/">Earthquakes</a></li>
+										<li><a href="/news/earth_climate/environmental_science/">Environment</a></li>
+										<li><a href="/news/earth_climate/geography/">Geography</a></li>
+									
+										<li><a href="/news/earth_climate/geology/">Geology</a></li>
+										<li><a href="/news/earth_climate/global_warming/">Global Warming</a></li>
+										<li><a href="/news/earth_climate/hurricanes_and_cyclones/">Hurricanes</a></li>
+									
+										<li><a href="/news/earth_climate/ozone_holes/">Ozone Holes</a></li>
+										<li><a href="/news/earth_climate/pollution/">Pollution</a></li>
+										<li><a href="/news/earth_climate/weather/">Weather</a></li>
+									
+										<li><a href="/news/earth_climate/">... <em>more topics</em></a></li>
+				                	</ul>
+<!-- /menu-topics -->
+</div>
+<!-- /col-xs-4 -->
+						  	<div class="col-xs-4">
+							  	<div class="menu-section"><a href="/news/fossils_ruins/">Fossils &amp; Ruins</a></div>
+				                	<ul class="list-unstyled menu-topics">
+<li><a href="/news/fossils_ruins/ancient_civilizations/">Ancient Civilizations</a></li>	
+										<li><a href="/news/fossils_ruins/anthropology/">Anthropology</a></li>
+									
+										<li><a href="/news/fossils_ruins/archaeology/">Archaeology</a></li>
+										<li><a href="/news/fossils_ruins/dinosaurs/">Dinosaurs</a></li>
+										<li><a href="/news/fossils_ruins/early_humans/">Early Humans</a></li>
+					
+										<li><a href="/news/fossils_ruins/early_mammals/">Early Mammals</a></li>
+										<li><a href="/news/fossils_ruins/evolution/">Evolution</a></li>
+										<li><a href="/news/fossils_ruins/lost_treasures/">Lost Treasures</a></li>
+										<li><a href="/news/fossils_ruins/origin_of_life/">Origin of Life</a></li>
+										<li><a href="/news/fossils_ruins/paleontology/">Paleontology</a></li>
+									
+										<li><a href="/news/fossils_ruins/">... <em>more topics</em></a></li>
+				                	</ul>
+<!-- /menu-topics -->
+</div>
+<!-- /col-xs-4 -->
+					  	</div>
+<!-- /row -->
+				  	</div>
+<!-- /yamm-content -->
+			  	</li>
+<!-- /menu-item -->
+              </ul>
+<!-- /dropdown-menu -->
+</li>
+<!-- /dropdown -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Society <span class="caret"></span></a>
+              <ul class="dropdown-menu dropdown-menu-left" role="menu">
+<li class="menu-item">
+				  	<div class="yamm-content hyphenate">
+					  	<div>View all the latest <strong><a href="/news/top/society/">top news</a></strong> in the social sciences &amp; education, <span class="hidden-xs hidden-sm"><br /></span>or browse the topics below:</div>
+					  	<div class="row">
+						  	<div class="col-xs-4">
+							  	<div class="menu-section"><a href="/news/science_society/">Science &amp; Society</a></div>
+				                	<ul class="list-unstyled menu-topics">
+<li><a href="/news/science_society/arts_and_culture/">Arts &amp; Culture</a></li>
+										<li><a href="/news/science_society/consumerism/">Consumerism</a></li>
+										<li><a href="/news/science_society/economics/">Economics</a></li>
+										<li><a href="/news/science_society/political_science/">Political Science</a></li>
+										<li><a href="/news/science_society/privacy_issues/">Privacy Issues</a></li>
+										<li><a href="/news/science_society/public_health/">Public Health</a></li>
+										<li><a href="/news/science_society/racial_disparity/">Racial Disparity</a></li>
+										<li><a href="/news/science_society/religion/">Religion</a></li>
+										<li><a href="/news/science_society/sports/">Sports</a></li>
+										<li><a href="/news/science_society/world_development/">World Development</a></li>
+									
+										<li><a href="/news/science_society/">... <em>more topics</em></a></li>
+				                	</ul>
+<!-- /menu-topics -->
+</div>
+<!-- /col-xs-4 -->
+						  	<div class="col-xs-4">
+							  	<div class="menu-section"><a href="/news/business_industry/">Business &amp; Industry</a></div>
+				                	<ul class="list-unstyled menu-topics">
+<li><a href="/news/plants_animals/biotechnology_and_bioengineering/">Biotechnology &amp; Bioengineering</a></li>
+										<li><a href="/news/computers_math/computers_and_internet/">Computers &amp; Internet</a></li>
+										<li><a href="/news/matter_energy/energy_and_resources/">Energy &amp; Resources</a></li>
+										<li><a href="/news/matter_energy/engineering/">Engineering</a></li>
+										<li><a href="/news/matter_energy/medical_technology/">Medical Technology</a></li>
+										<li><a href="/news/health_medicine/pharmaceuticals/">Pharmaceuticals</a></li>
+										<li><a href="/news/matter_energy/automotive_and_transportation/">Transportation</a></li>
+										
+										<li><a href="/news/business_industry/">... <em>more topics</em></a></li>
+				                	</ul>
+<!-- /menu-topics -->
+</div>
+<!-- /col-xs-4 -->
+						  	<div class="col-xs-4">
+							  	<div class="menu-section"><a href="/news/education_learning/">Education &amp; Learning</a></div>
+				                	<ul class="list-unstyled menu-topics">
+<li><a href="/news/plants_animals/animal_learning_and_intelligence/">Animal Learning &amp; Intelligence</a></li>
+										<li><a href="/news/mind_brain/creativity/">Creativity</a></li>
+										<li><a href="/news/mind_brain/educational_psychology/">Educational Psychology</a></li>
+										<li><a href="/news/computers_math/educational_technology/">Educational Technology</a></li>
+										<li><a href="/news/mind_brain/infant_and_preschool_learning/">Infant &amp; Preschool Learning</a></li>
+										<li><a href="/news/mind_brain/learning_disorders/">Learning Disorders</a></li>
+										<li><a href="/news/science_society/stem_education/">STEM Education</a></li>
+										
+										<li><a href="/news/education_learning/">... <em>more topics</em></a></li>
+				                	</ul>
+<!-- /menu-topics -->
+</div>
+<!-- /col-xs-4 -->
+					  	</div>
+<!-- /row -->
+				  	</div>
+<!-- /yamm-content -->
+			  	</li>
+<!-- /menu-item -->
+              </ul>
+<!-- /dropdown-menu -->
+</li>
+<!-- /dropdown -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Quirky <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+<li><a href="/news/strange_offbeat/">Top News</a></li>
+                <li class="divider">
+				</li>
+<li><a href="/news/strange_offbeat/human_quirks/">Human Quirks</a></li>
+                <li><a href="/news/strange_offbeat/odd_creatures/">Odd Creatures</a></li>
+                <li><a href="/news/strange_offbeat/bizarre_things/">Bizarre Things</a></li>
+                <li><a href="/news/strange_offbeat/weird_world/">Weird World</a></li>
+              </ul>
+<!-- /dropdown-menu -->
+</li>
+<!-- /dropdown -->
+          </ul>
+<form action="/search/" method="get" class="navbar-form navbar-right" role="search">
+			  <div class="form-group search">
+				  <div class="input-group">
+				  	<input type="text" id="keyword" name="keyword" class="form-control hidden-xs" placeholder="Search" /><span class="input-group-btn"><button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button></span>
+				  	<input type="hidden" id="list_view" value="summaries" /><input type="hidden" id="saved_summaries" /><input type="hidden" id="saved_headlines" /><input type="hidden" id="excluded_filenames" value="" />
+</div>
+			  </div>
+		  </form>
+
+        </div>
+<!--/.nav-collapse -->
+      </div>
+    </nav>
+</div>
+</div>
+<!-- /navwrapper -->
+
+<footer><div class="container light-gray">
+
+		<div class="row footer-links">
+			<div class="col-sm-8 col-md-4">
+				<div class="footer-head">Free Subscriptions</div>
+				<hr class="footer-rule" />
+<p>Get the latest science news with ScienceDaily's free email newsletters, updated daily and weekly. Or view hourly updated newsfeeds in your RSS reader:</p>
+				<ul class="list-unstyled footer-list">
+<li>
+<i class="fa fa-envelope fa-fw"></i> <a href="/newsletters.htm">Email Newsletters</a>
+</li>
+					<li>
+<i class="fa fa-rss fa-fw"></i> <a href="/newsfeeds.htm">RSS Feeds</a>
+</li>
+				</ul>
+</div>
+			<div class="col-sm-8 col-md-4">
+				<div class="footer-head">Follow Us</div>
+				<hr class="footer-rule" />
+<p>Keep up to date with the latest news from ScienceDaily via social networks:</p>
+				<ul class="list-unstyled footer-list">
+<li>
+<i class="fa fa-facebook fa-fw"></i> <a href="https://www.facebook.com/sciencedaily">Facebook</a>
+</li>
+					<li>
+<i class="fa fa-twitter fa-fw"></i> <a href="https://twitter.com/sciencedaily">Twitter</a>
+</li>
+					<li>
+<i class="fa fa-linkedin fa-fw"></i> <a href="https://www.linkedin.com/company/sciencedaily">LinkedIn</a>
+</li>
+				</ul>
+</div>
+			<div class="col-sm-8 col-md-4">
+				<div class="footer-head">Have Feedback?</div>
+				<hr class="footer-rule" />
+<p>Tell us what you think of ScienceDaily -- we welcome both positive and negative comments. Have any problems using the site? Questions?</p>
+				<ul class="list-unstyled footer-list">
+<li>
+<i class="fa fa-comment fa-fw"></i> <a href="https://sciencedaily.wufoo.com/forms/sciencedaily-feedback/">Leave Feedback</a>
+</li>
+					<li>
+<i class="fa fa-phone fa-fw"></i> <a href="/contact.htm">Contact Us</a>
+</li>
+				</ul>
+</div>
+		</div>
+
+	</div>
+	
+	<div class="container dark-gray">
+		<div class="bottom-links">
+<a href="/about.htm">About This Site</a>  &nbsp;|&nbsp;  <a href="/staff.htm">Staff</a>  &nbsp;|&nbsp;  <a href="/reviews.htm">Reviews</a>  &nbsp;|&nbsp;  <a href="/contribute.htm">Contribute</a>  &nbsp;|&nbsp;  <a href="/advertise.htm">Advertise</a>  &nbsp;|&nbsp;  <a href="/privacy.htm">Privacy Policy</a>  &nbsp;|&nbsp; <a href="/editorial.htm">Editorial Policy</a> &nbsp;|&nbsp;  <a href="/terms.htm">Terms of Use</a>
+		</div>
+		<div>
+<a href="/copyright.htm">Copyright 2020 ScienceDaily</a> or by other parties, where indicated. All rights controlled by their respective owners.</div>
+		<div>Content on this website is for information only. It is not intended to provide medical or other professional advice.</div>
+		<div>Views expressed here do not necessarily reflect those of ScienceDaily, its staff, its contributors, or its partners.</div>
+		<div>Financial support for ScienceDaily comes from advertisements and referral programs, where indicated.</div>
+		<div>
+			<!-- CookiePro CCPA Opt-Out Link Start --><a href="javascript:void(0)" data-ot-ccpa-opt-out="link" style="display:none;">Do Not Sell My Personal Information</a><!-- CookiePro CCPA Opt-Out Link End -->
+		</div>
+	</div>
+	
+</footer><!-- Bootstrap core JavaScript
+    ================================================== --><!-- Placed at the end of the document so the pages load faster --><script src="/js/jquery.min.js"></script><script src="/js/bootstrap.min.js"></script><!-- IE10 viewport hack for Surface/desktop Windows 8 bug --><script src="/js/ie10-viewport-bug-workaround.js"></script><script src="/js/jquery.newsTicker.min.js"></script><script src="/js/jQuery.print.js"></script><script src="/js/social-share-kit.min.js"></script><script src="/js/custom-201805181033.js"></script><script type="text/javascript"> 
+(function() {
+    var pxl = document.createElement('img');     
+    pxl.async = true;
+    pxl.src = '/img/200311121832.gif';
+    pxl.width = 1;
+    pxl.height = 1;
+    var s = document.getElementsByTagName('script')[0]; 
+    s.parentNode.insertBefore(pxl, s);
+})();
+</script>
+</body>
+</html>
+<!-- Page successfully written to S3: March 17, 2020 04:31:03 pm -->

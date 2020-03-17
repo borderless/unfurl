@@ -331,8 +331,8 @@ function getAuthor(options: ExtractOptions) {
  * Get tags from metadata.
  */
 function getTags(options: ExtractOptions): string[] {
-  const htmlKeywords = options.metadata?.html?.keywords?.trim();
-  if (htmlKeywords) return htmlKeywords.split(/ *, */);
+  const htmlKeywords = options.metadata?.html?.keywords;
+  if (htmlKeywords) return htmlKeywords.trim().split(/ *, */);
 
   const metaTags = jsonLdArray(
     first(options.graph, x => x["http://ogp.me/ns#video:tag"])

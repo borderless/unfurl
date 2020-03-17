@@ -6052,6 +6052,43 @@ Object {
 }
 `;
 
+exports[`scrappy https://www.sciencedaily.com/releases/2020/03/200311121832.htm 1`] = `
+Object {
+  "apps": Array [],
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "twitterHandle": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.sciencedaily.com/releases/2020/03/200311121832.htm",
+  "description": "Researchers have observed an extreme planet where they suspect it rains iron. The ultra-hot giant exoplanet has a day side where temperatures climb above 2400 degrees Celsius, high enough to vaporize metals. Strong winds carry iron vapor to the cooler night side where it condenses into iron droplets.",
+  "encodingFormat": "text/html",
+  "headline": "Exoplanet where it rains iron discovered",
+  "icon": Array [],
+  "image": Array [],
+  "language": undefined,
+  "mainEntity": Object {
+    "dateExpires": undefined,
+    "dateModified": undefined,
+    "datePublished": undefined,
+    "section": undefined,
+    "type": "article",
+  },
+  "provider": Object {
+    "name": "ScienceDaily",
+    "twitterHandle": undefined,
+    "url": undefined,
+  },
+  "tags": Array [
+    "Extrasolar Planets; Astronomy; Stars; Jupiter; Eris (Xena); Kuiper Belt; Pluto; Space Exploration",
+  ],
+  "type": "website",
+  "url": "https://www.sciencedaily.com/releases/2020/03/200311121832.htm",
+  "video": Array [],
+}
+`;
+
 exports[`scrappy https://www.spotify.com/ 1`] = `
 Object {
   "apps": Array [],
