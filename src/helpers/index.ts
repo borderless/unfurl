@@ -10,7 +10,7 @@ export function tee(stream: Readable) {
 /**
  * Read stream into a buffer.
  */
-export async function readBuffer(stream: Readable) {
+export async function readBuffer(stream: Readable): Promise<Buffer> {
   const buf: Buffer[] = [];
   for await (const chunk of stream) buf.push(chunk);
   return Buffer.concat(buf);
@@ -19,9 +19,11 @@ export async function readBuffer(stream: Readable) {
 /**
  * Parse stream into JSON payload.
  */
-export async function readJson(stream: Readable) {
+export async function readJson(stream: Readable): Promise<object> {
   const buffer = await readBuffer(stream);
-  return JSON.parse(buffer.toString("utf8"));
+  const data: unknown = JSON.parse(buffer.toString("utf8"));
+  if (typeof data === "object" && data !== null) return data;
+  return {};
 }
 
 /**
@@ -29,18 +31,10 @@ export async function readJson(stream: Readable) {
  */
 export function contentType(
   headers: Record<string, string | string[] | undefined>
-) {
+): string {
   const header = headers["content-type"];
   if (Array.isArray(header)) {
-    return header[0]
-      .split(";", 1)[0]
-      .trim()
-      .toLowerCase();
+    return (header[0] ?? "").split(";", 1)[0].trim().toLowerCase();
   }
-  return header
-    ? header
-        .split(";", 1)[0]
-        .trim()
-        .toLowerCase()
-    : "";
+  return (header ?? "").split(";", 1)[0].trim().toLowerCase();
 }

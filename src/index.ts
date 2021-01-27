@@ -6,7 +6,7 @@ import {
   Input,
   Scrape,
   Next,
-  ScrapeUrl
+  ScrapeUrl,
 } from "./types";
 import * as plugins from "./plugins";
 

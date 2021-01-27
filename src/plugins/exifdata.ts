@@ -31,12 +31,12 @@ async function pdf(url: string, stream: Readable): Promise<Snippet> {
     url,
     type: "document",
     encodingFormat: exifData.MIMEType,
-    producer: exifData.Producer && { name: exifData.Producer },
-    author: exifData.Author && { name: exifData.Author },
-    creator: exifData.Creator && { name: exifData.Creator },
+    producer: exifData.Producer ? { name: exifData.Producer } : undefined,
+    author: exifData.Author ? { name: exifData.Author } : undefined,
+    creator: exifData.Creator ? { name: exifData.Creator } : undefined,
     headline: exifData.Title,
     dateCreated: parseExifDate(exifData.CreateDate),
-    dateModified: parseExifDate(exifData.ModifyDate)
+    dateModified: parseExifDate(exifData.ModifyDate),
   };
 }
 
@@ -53,17 +53,17 @@ async function image(url: string, stream: Readable): Promise<Snippet> {
       parseExifDate(exifData.SubSecDateTimeOriginal) ||
       parseExifDate(exifData.DateTimeCreated) ||
       parseExifDate(exifData.DigitalCreationDateTime),
-    width: exifData.ImageWidth,
-    height: exifData.ImageHeight,
+    width: Number(exifData.ImageWidth),
+    height: Number(exifData.ImageHeight),
     camera: {
       make: exifData.Make,
       model: exifData.Model,
       lensMake: exifData.LensMake,
       lensModel: exifData.LensModel,
       software: exifData.Software,
-      megapixels: exifData.Megapixels,
-      orientation: exifData.Orientation
-    }
+      megapixels: Number(exifData.Megapixels),
+      orientation: exifData.Orientation,
+    },
   };
 }
 
@@ -78,9 +78,9 @@ async function video(url: string, stream: Readable): Promise<Snippet> {
  * Extract exif data from a document.
  */
 async function extractExifData(stream: Readable) {
-  return new Promise<Record<string, any> | undefined>(resolve => {
+  return new Promise<Record<string, string> | undefined>((resolve) => {
     const exif = exec("-fast", "-");
-    exif.on("exif", exif => resolve(exif[0]));
+    exif.on("exif", (exif: [any]) => resolve(exif[0]));
     exif.on("error", () => resolve(undefined));
     stream.pipe(exif);
   });

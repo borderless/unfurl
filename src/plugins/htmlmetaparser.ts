@@ -1,15 +1,8 @@
-import {
-  Handler,
-  Result,
-  Alternative,
-  ResultJsonLd,
-  Image
-} from "htmlmetaparser";
-import { WritableStream } from "htmlparser2";
+import { Handler, Result, Alternative, RdfaNode } from "htmlmetaparser";
+import { WritableStream } from "htmlparser2/lib/WritableStream";
 import { Readable } from "stream";
 import { expand } from "jsonld";
 import { Document } from "jsonld/jsonld-spec";
-import { resolve } from "url";
 import { memoizeOne } from "functools";
 import { next, filter, map, list, flatten } from "iterative";
 import { decodeHTML } from "entities";
@@ -22,8 +15,11 @@ import {
   Snippet,
   ImageEntity,
   VideoEntity,
-  AudioEntity
+  AudioEntity,
+  SnippetPerson,
 } from "../types";
+
+declare const URL: typeof import("url").URL;
 
 const OEMBED_CONTENT_TYPE = /^application\/json(?:\+oembed)?$/i;
 const JSON_LD_CONTENT_TYPE = /^application\/(?:ld\+)?json$/i;
@@ -46,7 +42,7 @@ export const plugin: Plugin = async (input, next) => {
     [
       ...toArray(metadata.jsonld),
       ...toArray(metadata.rdfa),
-      ...toArray(metadata.microdata)
+      ...toArray(metadata.microdata),
     ],
     url,
     request
@@ -54,7 +50,7 @@ export const plugin: Plugin = async (input, next) => {
 
   const oembed =
     status === 200 ? await getOembed(request, metadata.alternate) : undefined;
-  const options = { url, metadata, graph, oembed };
+  const options: ExtractOptions = { url, metadata, graph, oembed };
 
   const snippet: Snippet = {
     type: "website",
@@ -72,7 +68,7 @@ export const plugin: Plugin = async (input, next) => {
     author: getAuthor(options),
     tags: getTags(options),
     language: getLanguage(options),
-    apps: getApps(options)
+    apps: getApps(options),
   };
 
   return snippet;
@@ -84,12 +80,14 @@ export const plugin: Plugin = async (input, next) => {
 async function getOembed(
   request: Request,
   alternate: Alternative[]
-): Promise<any> {
-  const oembed = alternate.filter(x => x.type === "application/json+oembed")[0];
+): Promise<{ [key: string]: unknown } | undefined> {
+  const oembed = alternate.filter(
+    (x) => x.type === "application/json+oembed"
+  )[0];
   if (!oembed) return;
 
   const page = await request(oembed.href, {
-    accept: "application/json"
+    accept: "application/json",
   });
 
   if (
@@ -97,7 +95,8 @@ async function getOembed(
     OEMBED_CONTENT_TYPE.test(contentType(page.headers))
   ) {
     try {
-      return await readJson(page.body);
+      const data = await readJson(page.body);
+      if (!Array.isArray(data)) return data as { [key: string]: unknown };
     } catch (err) {
       /* Noop. */
     }
@@ -110,8 +109,17 @@ async function getOembed(
 interface ExtractOptions {
   url: string;
   metadata?: Result;
-  graph?: ResultJsonLd[];
-  oembed?: any;
+  graph?: RdfaNode[];
+  oembed?: { [key: string]: unknown };
+}
+
+interface JsonLdValue {
+  "@value": string;
+}
+
+interface JsonLd {
+  "@graph": JsonLd[];
+  [key: string]: JsonLd[] | JsonLdValue[];
 }
 
 /**
@@ -120,7 +128,7 @@ interface ExtractOptions {
 const createJsonLdLoader = memoizeOne((request: Request) => {
   return async (url: string) => {
     const page = await request(url, {
-      accept: "application/ld+json"
+      accept: "application/ld+json",
     });
 
     if (
@@ -130,7 +138,7 @@ const createJsonLdLoader = memoizeOne((request: Request) => {
       return {
         contextUrl: toValue(page.headers.link),
         documentUrl: page.url,
-        document: await readJson(page.body)
+        document: await readJson(page.body),
       };
     }
 
@@ -151,8 +159,7 @@ async function normalizeJsonLd(
   const documentLoader = createJsonLdLoader(request);
   const result = (await expand(data, { base: url, documentLoader }).catch(
     () => undefined
-  )) as ResultJsonLd[] | undefined;
-
+  )) as JsonLd[] | undefined;
   if (!result) return;
 
   const idPrefix = url.split("#", 1)[0];
@@ -161,13 +168,13 @@ async function normalizeJsonLd(
   return Array.from(
     filter(
       flatten(
-        map(result, (x): ResultJsonLd[] => {
-          return (x["@graph"] as ResultJsonLd[]) || toArray(x);
-        }) as Iterable<ResultJsonLd[]>
+        map(result, (x): JsonLd[] => {
+          return x["@graph"] || toArray(x);
+        }) as Iterable<JsonLd[]>
       ),
-      x => {
-        const id: string = x["@id"] || "";
-        return id === "" || id === idPrefix || id.startsWith(`${idPrefix}#`);
+      (x) => {
+        const id = toString(x["@id"]);
+        return !id || id === idPrefix || id.startsWith(`${idPrefix}#`);
       }
     )
   );
@@ -177,13 +184,13 @@ async function normalizeJsonLd(
  * Parse the HTML into metadata.
  */
 function parse(stream: Readable, url: string) {
-  return new Promise<Result | undefined>(resolve => {
+  return new Promise<Result | undefined>((resolve) => {
     const handler = new Handler(
       (err, result) => {
         return err ? resolve(undefined) : resolve(result);
       },
       {
-        url
+        url,
       }
     );
 
@@ -207,19 +214,33 @@ function toValue<T>(value: T | T[] | undefined): T | undefined {
 }
 
 /**
- * Convert a string to valid number.
+ * Filters values for a string.
  */
-function toNumber(value: string | undefined): number | undefined {
-  if (!value) return;
+function toString(value: unknown): string | undefined {
+  return typeof value === "string" ? value : undefined;
+}
+
+/**
+ * Parse a string to a number.
+ */
+function parseNumber(value: string): number | undefined {
   const num = Number(value);
   return isFinite(num) ? num : undefined;
 }
 
 /**
+ * Convert a string to valid number.
+ */
+function toNumber(value: unknown | undefined): number | undefined {
+  if (typeof value === "number") return value;
+  if (typeof value === "string") return parseNumber(value);
+}
+
+/**
  * Convert a string to a valid date.
  */
-function toDate(value: string | undefined): Date | undefined {
-  if (!value) return;
+function toDate(value: unknown | undefined): Date | undefined {
+  if (typeof value !== "string") return;
 
   // Fix non-timezone specified ISO string to be UTC.
   if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d*)?$/.test(value)) {
@@ -234,36 +255,46 @@ function toDate(value: string | undefined): Date | undefined {
  * Extract a URL from an object.
  */
 function toUrl(value: string | undefined, baseUrl: string): string | undefined {
-  return value ? resolve(baseUrl, value) : undefined;
+  return value ? new URL(value, baseUrl).toString() : undefined;
 }
 
 /**
  * Set defined properties from one object to the other.
  */
-function copyProps(obj: any, data: any) {
-  for (const key of Object.keys(data)) {
-    if (data[key] != null) {
-      obj[key] = data[key];
-    }
+function copyProps<T extends object>(target: T, data: Partial<T>) {
+  for (const key of Object.keys(data) as (keyof T)[]) {
+    const value = data[key];
+    if (value !== undefined) target[key] = value as T[keyof T];
   }
 
-  return obj;
+  return target;
 }
 
 /**
  * Pick JSON-LD `@value` property.
  */
-function jsonLdValue(value: any[] | undefined): string | undefined {
-  if (!value) return;
-  return decode(next(filter(map(value, x => x["@value"])), undefined));
+function jsonLdValueToString(value: RdfaNode[] = []): string | undefined {
+  return decode(
+    next(
+      filter(
+        map(value, (x) => x["@value"]),
+        (x) => typeof x === "string"
+      ),
+      undefined
+    )
+  );
 }
 
 /**
  * Return a list of string values from JSON-LD.
  */
-function jsonLdArray(value: any[] | undefined): string[] | undefined {
-  if (!value) return;
-  return list(filter(map(value, x => x["@value"])));
+function jsonLdArray(value: RdfaNode[] = []): string[] | undefined {
+  return list(
+    filter(
+      map(value, (x) => x["@value"]),
+      (x) => typeof x === "string"
+    )
+  );
 }
 
 /**
@@ -278,10 +309,9 @@ function decode(value?: string) {
  */
 function first<T, R>(
   value: T[] | undefined,
-  mapFn: (value: T) => R
+  mapFn: (value: T) => R | undefined
 ): R | undefined {
-  if (value === undefined) return;
-  return next(filter(map(value, mapFn)), undefined);
+  return next(filter(map(value || [], mapFn)), undefined);
 }
 
 /**
@@ -292,36 +322,38 @@ function getCanonicalUrl(options: ExtractOptions) {
     toUrl(options.metadata?.html?.canonical, options.url) ||
     toUrl(options.metadata?.twitter?.url, options.url) ||
     toUrl(
-      jsonLdValue(first(options.graph, x => x["http://ogp.me/ns#url"])),
+      jsonLdValueToString(
+        first(options.graph, (x) => x["http://ogp.me/ns#url"] as RdfaNode[])
+      ),
       options.url
     ) ||
     toUrl(options.metadata?.applinks?.["web:url"], options.url) ||
-    toUrl(options.oembed?.url, options.url)
+    toUrl(toString(options.oembed?.url), options.url)
   );
 }
 
 /**
  * Get the metadata author.
  */
-function getAuthor(options: ExtractOptions) {
+function getAuthor(options: ExtractOptions): SnippetPerson {
   const name =
     options.metadata?.html?.author ||
-    jsonLdValue(
+    jsonLdValueToString(
       first(
         options.graph,
-        x =>
-          x["http://ogp.me/ns/article#author"] ||
-          x["https://creativecommons.org/ns#attributionName"] ||
+        (x) =>
+          (x["http://ogp.me/ns/article#author"] as RdfaNode[]) ||
+          (x["https://creativecommons.org/ns#attributionName"] as RdfaNode[]) ||
           first(
-            x["http://schema.org/author"],
-            (x: any) => x["http://schema.org/name"]
+            x["http://schema.org/author"] as RdfaNode[],
+            (x) => x["http://schema.org/name"] as RdfaNode[]
           )
       )
     ) ||
-    decode(options.oembed?.author_name) ||
+    decode(toString(options.oembed?.author_name)) ||
     options.metadata?.sailthru?.author;
 
-  const url = options.oembed?.author_url;
+  const url = toString(options.oembed?.author_url);
   const twitterHandle = toTwitterHandle(options.metadata?.twitter?.creator);
 
   return { name, url, twitterHandle };
@@ -335,7 +367,7 @@ function getTags(options: ExtractOptions): string[] {
   if (htmlKeywords) return htmlKeywords.trim().split(/ *, */);
 
   const metaTags = jsonLdArray(
-    first(options.graph, x => x["http://ogp.me/ns#video:tag"])
+    first(options.graph, (x) => x["http://ogp.me/ns#video:tag"] as RdfaNode[])
   );
 
   return metaTags || [];
@@ -344,10 +376,12 @@ function getTags(options: ExtractOptions): string[] {
 /**
  * Get the name of the site.
  */
-function getProvider(options: ExtractOptions) {
+function getProvider(options: ExtractOptions): SnippetPerson {
   const name =
-    jsonLdValue(first(options.graph, x => x["http://ogp.me/ns#site_name"])) ||
-    decode(options.oembed?.provider_name) ||
+    jsonLdValueToString(
+      first(options.graph, (x) => x["http://ogp.me/ns#site_name"] as RdfaNode[])
+    ) ||
+    decode(toString(options.oembed?.provider_name)) ||
     options.metadata?.html?.["application-name"] ||
     options.metadata?.html?.["apple-mobile-web-app-title"] ||
     options.metadata?.twitter?.["app:name:iphone"] ||
@@ -358,7 +392,7 @@ function getProvider(options: ExtractOptions) {
     options.metadata?.applinks?.["iphone:app_name"] ||
     options.metadata?.twitter?.["android:app_name"];
 
-  const url = options.oembed?.provider_url;
+  const url = toString(options.oembed?.provider_url);
   const twitterHandle = toTwitterHandle(options.metadata?.twitter?.site);
 
   return { name, url, twitterHandle };
@@ -369,11 +403,13 @@ function getProvider(options: ExtractOptions) {
  */
 function getHeadline(options: ExtractOptions) {
   return (
-    decode(options.oembed?.title) ||
-    jsonLdValue(
+    decode(toString(options.oembed?.title)) ||
+    jsonLdValueToString(
       first(
         options.graph,
-        x => x["http://ogp.me/ns#title"] || x["http://purl.org/dc/terms/title"]
+        (x) =>
+          (x["http://ogp.me/ns#title"] as RdfaNode[]) ||
+          (x["http://purl.org/dc/terms/title"] as RdfaNode[])
       )
     ) ||
     options.metadata?.sailthru?.title ||
@@ -388,15 +424,15 @@ function getHeadline(options: ExtractOptions) {
  */
 function getDescription(options: ExtractOptions) {
   return (
-    jsonLdValue(
+    jsonLdValueToString(
       first(
         options.graph,
-        x =>
-          x["http://ogp.me/ns#description"] ||
-          x["http://schema.org/description"]
+        (x) =>
+          (x["http://ogp.me/ns#description"] as RdfaNode[]) ||
+          (x["http://schema.org/description"] as RdfaNode[])
       )
     ) ||
-    decode(options.oembed?.summary) ||
+    decode(toString(options.oembed?.summary)) ||
     options.metadata?.sailthru?.description ||
     options.metadata?.twitter?.description ||
     options.metadata?.html?.description
@@ -407,12 +443,12 @@ function getDescription(options: ExtractOptions) {
  * Extract an icons from page.
  */
 function getIcon(options: ExtractOptions): ImageEntity[] {
-  return toArray(options.metadata?.icons).map(x => {
+  return toArray(options.metadata?.icons).map((x) => {
     const [width, height] =
       x.sizes
         ?.split(/\s+/)
-        .map(x => x.split("x", 2).map(Number))
-        .sort(x => x[0])
+        .map((x) => x.split("x", 2).map(Number))
+        .sort((x) => x[0])
         .pop() || [];
 
     return {
@@ -420,7 +456,7 @@ function getIcon(options: ExtractOptions): ImageEntity[] {
       url: x.href,
       encodingFormat: x.type,
       width,
-      height
+      height,
     };
   });
 }
@@ -432,7 +468,9 @@ function getImage(options: ExtractOptions): ImageEntity[] {
   const ogpImages = jsonLdArray(
     first(
       options.graph,
-      x => x["http://ogp.me/ns#image"] || x["http://ogp.me/ns#image:url"]
+      (x) =>
+        (x["http://ogp.me/ns#image"] as RdfaNode[]) ||
+        (x["http://ogp.me/ns#image:url"] as RdfaNode[])
     )
   );
   const twitterImages =
@@ -449,7 +487,7 @@ function getImage(options: ExtractOptions): ImageEntity[] {
       }
     }
 
-    if (append) {
+    if (append && (newImage.url || newImage.secureUrl)) {
       images.push(newImage);
     }
   }
@@ -472,7 +510,7 @@ function getImage(options: ExtractOptions): ImageEntity[] {
           encodingFormat: types[i],
           description: alts[i],
           width: toNumber(widths[i]),
-          height: toNumber(heights[i])
+          height: toNumber(heights[i]),
         },
         append
       );
@@ -483,7 +521,7 @@ function getImage(options: ExtractOptions): ImageEntity[] {
     addImage(
       {
         type: "image",
-        url: toUrl(sailthruImage, options.url)
+        url: toUrl(sailthruImage, options.url),
       },
       true
     );
@@ -491,16 +529,28 @@ function getImage(options: ExtractOptions): ImageEntity[] {
 
   if (ogpImages) {
     const ogpTypes = jsonLdArray(
-      first(options.graph, x => x["http://ogp.me/ns#image:type"])
+      first(
+        options.graph,
+        (x) => x["http://ogp.me/ns#image:type"] as RdfaNode[]
+      )
     );
     const ogpWidths = jsonLdArray(
-      first(options.graph, x => x["http://ogp.me/ns#image:width"])
+      first(
+        options.graph,
+        (x) => x["http://ogp.me/ns#image:width"] as RdfaNode[]
+      )
     );
     const ogpHeights = jsonLdArray(
-      first(options.graph, x => x["http://ogp.me/ns#image:height"])
+      first(
+        options.graph,
+        (x) => x["http://ogp.me/ns#image:height"] as RdfaNode[]
+      )
     );
     const ogpSecureUrls = jsonLdArray(
-      first(options.graph, x => x["http://ogp.me/ns#image:secure_url"])
+      first(
+        options.graph,
+        (x) => x["http://ogp.me/ns#image:secure_url"] as RdfaNode[]
+      )
     );
 
     addImages(
@@ -540,7 +590,9 @@ function getAudio(options: ExtractOptions): AudioEntity[] {
   const ogpAudios = jsonLdArray(
     first(
       options.graph,
-      x => x["http://ogp.me/ns#audio"] || x["http://ogp.me/ns#audio:url"]
+      (x) =>
+        (x["http://ogp.me/ns#audio"] as RdfaNode[]) ||
+        (x["http://ogp.me/ns#audio:url"] as RdfaNode[])
     )
   );
   const audios: AudioEntity[] = [];
@@ -566,17 +618,23 @@ function getAudio(options: ExtractOptions): AudioEntity[] {
         type: "audio",
         url: toUrl(urls[i], options.url),
         secureUrl: toUrl(secureUrls[i], options.url),
-        encodingFormat: types[i]
+        encodingFormat: types[i],
       });
     }
   }
 
   if (ogpAudios) {
     const ogpTypes = jsonLdArray(
-      first(options.graph, x => x["http://ogp.me/ns#audio:type"])
+      first(
+        options.graph,
+        (x) => x["http://ogp.me/ns#audio:type"] as RdfaNode[]
+      )
     );
     const ogpSecureUrls = jsonLdArray(
-      first(options.graph, x => x["http://ogp.me/ns#audio:secure_url"])
+      first(
+        options.graph,
+        (x) => x["http://ogp.me/ns#audio:secure_url"] as RdfaNode[]
+      )
     );
 
     addAudios(ogpAudios, ogpSecureUrls, ogpTypes);
@@ -592,7 +650,9 @@ function getVideo(options: ExtractOptions): VideoEntity[] {
   const ogpVideos = jsonLdArray(
     first(
       options.graph,
-      x => x["http://ogp.me/ns#video"] || x["http://ogp.me/ns#video:url"]
+      (x) =>
+        (x["http://ogp.me/ns#video"] as RdfaNode[]) ||
+        (x["http://ogp.me/ns#video:url"] as RdfaNode[])
     )
   );
   const videos: VideoEntity[] = [];
@@ -622,23 +682,35 @@ function getVideo(options: ExtractOptions): VideoEntity[] {
         secureUrl: toUrl(secureUrls[i], options.url),
         encodingFormat: types[i],
         width: toNumber(widths[i]),
-        height: toNumber(heights[i])
+        height: toNumber(heights[i]),
       });
     }
   }
 
   if (ogpVideos) {
     const ogpTypes = jsonLdArray(
-      first(options.graph, x => x["http://ogp.me/ns#video:type"])
+      first(
+        options.graph,
+        (x) => x["http://ogp.me/ns#video:type"] as RdfaNode[]
+      )
     );
     const ogpWidths = jsonLdArray(
-      first(options.graph, x => x["http://ogp.me/ns#video:width"])
+      first(
+        options.graph,
+        (x) => x["http://ogp.me/ns#video:width"] as RdfaNode[]
+      )
     );
     const ogpHeights = jsonLdArray(
-      first(options.graph, x => x["http://ogp.me/ns#video:height"])
+      first(
+        options.graph,
+        (x) => x["http://ogp.me/ns#video:height"] as RdfaNode[]
+      )
     );
     const ogpSecureUrls = jsonLdArray(
-      first(options.graph, x => x["http://ogp.me/ns#video:secure_url"])
+      first(
+        options.graph,
+        (x) => x["http://ogp.me/ns#video:secure_url"] as RdfaNode[]
+      )
     );
 
     addVideos(ogpVideos, ogpSecureUrls, ogpTypes, ogpWidths, ogpHeights);
@@ -658,7 +730,7 @@ function getVideo(options: ExtractOptions): VideoEntity[] {
         url: toUrl(embedUrl, options.url),
         encodingFormat: "text/html",
         width,
-        height
+        height,
       });
     }
 
@@ -682,7 +754,7 @@ function getApps(options: ExtractOptions): SnippetApp[] {
       getAndroidApp(options),
       getWindowsApp(options),
       getWindowsPhoneApp(options),
-      getWindowsUniversalApp(options)
+      getWindowsUniversalApp(options),
     ])
   );
 }
@@ -701,7 +773,7 @@ function getIpadApp(options: ExtractOptions): SnippetApp | undefined {
       os: "iOS",
       id: twitterIpadId,
       name: twitterIpadName,
-      url: twitterIpadUrl
+      url: twitterIpadUrl,
     };
   }
 
@@ -715,7 +787,7 @@ function getIpadApp(options: ExtractOptions): SnippetApp | undefined {
       os: "iOS",
       id: applinksIpadId,
       name: applinksIpadName,
-      url: applinksIpadUrl
+      url: applinksIpadUrl,
     };
   }
 }
@@ -734,7 +806,7 @@ function getIphoneApp(options: ExtractOptions): SnippetApp | undefined {
       os: "iOS",
       id: twitterIphoneId,
       name: twitterIphoneName,
-      url: twitterIphoneUrl
+      url: twitterIphoneUrl,
     };
   }
 
@@ -748,7 +820,7 @@ function getIphoneApp(options: ExtractOptions): SnippetApp | undefined {
       os: "iOS",
       id: applinksIphoneId,
       name: applinksIphoneName,
-      url: applinksIphoneUrl
+      url: applinksIphoneUrl,
     };
   }
 }
@@ -766,7 +838,7 @@ function getIosApp(options: ExtractOptions): SnippetApp | undefined {
       os: "iOS",
       id: applinksId,
       name: applinksName,
-      url: applinksUrl
+      url: applinksUrl,
     };
   }
 }
@@ -784,7 +856,7 @@ function getAndroidApp(options: ExtractOptions): SnippetApp | undefined {
       os: "Android",
       id: twitterAndroidId,
       name: twitterAndroidName,
-      url: twitterAndroidUrl
+      url: twitterAndroidUrl,
     };
   }
 
@@ -797,7 +869,7 @@ function getAndroidApp(options: ExtractOptions): SnippetApp | undefined {
       os: "Android",
       id: applinksAndroidId,
       name: applinksAndroidName,
-      url: applinksAndroidUrl
+      url: applinksAndroidUrl,
     };
   }
 }
@@ -823,7 +895,7 @@ function getWindowsPhoneApp(options: ExtractOptions): SnippetApp | undefined {
       os: "Windows",
       id: applinksWindowsPhoneId,
       name: applinksWindowsPhoneName,
-      url: applinksWindowsPhoneUrl
+      url: applinksWindowsPhoneUrl,
     };
   }
 }
@@ -842,7 +914,7 @@ function getWindowsApp(options: ExtractOptions): SnippetApp | undefined {
       os: "Windows",
       id: applinksWindowsId,
       name: applinksWindowsName,
-      url: applinksWindowsUrl
+      url: applinksWindowsUrl,
     };
   }
 }
@@ -869,7 +941,7 @@ function getWindowsUniversalApp(
       os: "Windows",
       id: applinksWindowsUniversalId,
       name: applinksWindowsUniversalName,
-      url: applinksWindowsUniversalUrl
+      url: applinksWindowsUniversalUrl,
     };
   }
 }
@@ -879,8 +951,9 @@ function getWindowsUniversalApp(
  */
 function getLanguage(options: ExtractOptions): string | undefined {
   return (
-    jsonLdValue(first(options.graph, x => x["http://ogp.me/ns#locale"])) ||
-    options.metadata?.html?.["language"]
+    jsonLdValueToString(
+      first(options.graph, (x) => x["http://ogp.me/ns#locale"] as RdfaNode[])
+    ) || options.metadata?.html?.["language"]
   );
 }
 
@@ -897,58 +970,64 @@ function toTwitterHandle(value?: string) {
  */
 function getMainEntity(options: ExtractOptions): Entity | undefined {
   const twitterType = options.metadata?.twitter?.card;
-  const ogpType = jsonLdValue(
-    first(options.graph, x => x["http://ogp.me/ns#type"])
+  const ogpType = jsonLdValueToString(
+    first(options.graph, (x) => x["http://ogp.me/ns#type"] as RdfaNode[])
   );
   const oembedType = options.oembed?.type;
 
   if (ogpType === "article") {
     return {
       type: "article",
-      section: jsonLdValue(
-        first(options.graph, x => x["http://ogp.me/ns/article#section"])
+      section: jsonLdValueToString(
+        first(
+          options.graph,
+          (x) => x["http://ogp.me/ns/article#section"] as RdfaNode[]
+        )
       ),
       datePublished: toDate(
-        jsonLdValue(
+        jsonLdValueToString(
           first(
             options.graph,
-            x =>
-              x["http://ogp.me/ns/article#published_time"] ||
-              x["http://schema.org/datePublished"]
+            (x) =>
+              (x["http://ogp.me/ns/article#published_time"] as RdfaNode[]) ||
+              (x["http://schema.org/datePublished"] as RdfaNode[])
           )
         )
       ),
       dateExpires: toDate(
-        jsonLdValue(
+        jsonLdValueToString(
           first(
             options.graph,
-            x => x["http://ogp.me/ns/article#expiration_time"]
+            (x) => x["http://ogp.me/ns/article#expiration_time"] as RdfaNode[]
           )
         )
       ),
       dateModified: toDate(
-        jsonLdValue(
-          first(options.graph, x => x["http://ogp.me/ns/article#modified_time"])
+        jsonLdValueToString(
+          first(
+            options.graph,
+            (x) => x["http://ogp.me/ns/article#modified_time"] as RdfaNode[]
+          )
         )
-      )
+      ),
     };
   }
 
   if (oembedType === "video") {
     return {
       type: "video",
-      html: options.oembed?.html,
+      html: toString(options.oembed?.html),
       width: toNumber(options.oembed?.width),
-      height: toNumber(options.oembed?.height)
+      height: toNumber(options.oembed?.height),
     };
   }
 
   if (oembedType === "rich") {
     return {
       type: "embed",
-      html: options.oembed?.html,
+      html: toString(options.oembed?.html),
       width: toNumber(options.oembed?.width),
-      height: toNumber(options.oembed?.height)
+      height: toNumber(options.oembed?.height),
     };
   }
 
@@ -959,9 +1038,9 @@ function getMainEntity(options: ExtractOptions): Entity | undefined {
   ) {
     return {
       type: "image",
-      url: toUrl(options.oembed?.url, options.url),
+      url: toUrl(toString(options.oembed?.url), options.url),
       width: toNumber(options.oembed?.width),
-      height: toNumber(options.oembed?.height)
+      height: toNumber(options.oembed?.height),
     };
   }
 

@@ -157,12 +157,12 @@ const FIXTURES = [
   "https://www.npmjs.com/package/filenamify",
   "https://atom.io/themes/aesthetic-ui",
   // Schema definitions.
-  "https://schema.org/docs/schema_org_rdfa.html"
+  "https://schema.org/docs/schema_org_rdfa.html",
 ];
 
 const buildFilename = (url: string, options: RequestOptions) => {
-  const params = Object.entries(options)
-    .map(([key, value]) => `${key}:${value}`)
+  const params = [options.accept && `accept:${options.accept}`]
+    .filter((x) => x !== undefined)
     .join(";");
 
   if (params) return `${filenamify(url)}/${filenamify(params)}`;
@@ -170,7 +170,7 @@ const buildFilename = (url: string, options: RequestOptions) => {
   return filenamify(url);
 };
 
-describe("scrappy", function() {
+describe("scrappy", function () {
   const request: Request = async (url, options = {}) => {
     const filename = buildFilename(url, options);
     const path = join(FIXTURE_DIR, filename);
@@ -182,8 +182,8 @@ describe("scrappy", function() {
         headers: {
           Accept: options.accept || "*/*",
           "User-Agent":
-            "Scrappy-Browser 1.0 (+https://github.com/blakeembrey/node-scrappy)"
-        }
+            "Scrappy-Browser 1.0 (+https://github.com/blakeembrey/node-scrappy)",
+        },
       });
 
       console.log(`Writing ${filename} with status ${res.status}...`);
@@ -193,7 +193,7 @@ describe("scrappy", function() {
       const meta = {
         url: res.url,
         headers: res.headers.asObject(),
-        status: res.status
+        status: res.status,
       };
 
       // Write metadata to JSON file.
@@ -205,7 +205,7 @@ describe("scrappy", function() {
 
       return {
         ...meta,
-        body: b
+        body: b,
       };
     };
 
@@ -219,11 +219,13 @@ describe("scrappy", function() {
       return load();
     }
 
-    const meta = JSON.parse(await readFile(join(path, "meta.json"), "utf8"));
+    const meta = JSON.parse(
+      await readFile(join(path, "meta.json"), "utf8")
+    ) as { url: string; status: number; headers: Record<string, string> };
 
     return {
       ...meta,
-      body: fs.createReadStream(join(path, "body"))
+      body: fs.createReadStream(join(path, "body")),
     };
   };
 
@@ -233,10 +235,10 @@ describe("scrappy", function() {
 
   const scrape = urlScraper({
     request,
-    plugins: [plugins.htmlmetaparser, plugins.exifdata]
+    plugins: [plugins.htmlmetaparser, plugins.exifdata],
   });
 
-  FIXTURES.forEach(fixtureUrl => {
+  FIXTURES.forEach((fixtureUrl) => {
     it(fixtureUrl, async () => {
       const snippet = await scrape(fixtureUrl);
 
