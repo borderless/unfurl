@@ -21,21 +21,26 @@ npm install scrappy --save
 
 ```js
 import { scraper, urlScraper } from "scrappy";
+import * as plugins from "scrappy/dist/plugins";
 ```
 
 ### Scraper
 
-Accepts a `request` function and optional `plugins` array. The request is expected to return a "page" object, which is the same shape as the input to `scrape(page)`.
+Accepts a `request` function and a list of `plugins` to use. The request is expected to return a "page" object, which is the same shape as the input to `scrape(page)`.
 
 ```js
-const scrape = scraper({ request });
+const scrape = scraper({
+  request,
+  plugins: [plugins.htmlmetaparser, plugins.exifdata],
+});
+
 const res = await fetch("http://example.com"); // E.g. `popsicle`.
 
 await scrape({
   url: res.url,
   status: res.status,
   headers: res.headers.asObject(),
-  body: res.stream() // Must stream the request instead of buffering to support large responses.
+  body: res.stream(), // Must stream the request instead of buffering to support large responses.
 });
 ```
 
