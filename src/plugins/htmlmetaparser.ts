@@ -2,7 +2,7 @@ import { Handler, Result, Alternative, RdfaNode } from "htmlmetaparser";
 import { WritableStream } from "htmlparser2/lib/WritableStream";
 import { Readable } from "stream";
 import { expand } from "jsonld";
-import { Document } from "jsonld/jsonld-spec";
+import type { Document } from "jsonld/jsonld-spec";
 import { memoizeOne } from "functools";
 import { next, filter, map, list, flatten } from "iterative";
 import { decodeHTML } from "entities";
@@ -21,8 +21,9 @@ import {
 
 declare const URL: typeof import("url").URL;
 
-const OEMBED_CONTENT_TYPE = /^application\/json(?:\+oembed)?$/i;
-const JSON_LD_CONTENT_TYPE = /^application\/(?:ld\+)?json$/i;
+const CONTENT_TYPE_JSON = "application/json";
+const CONTENT_TYPE_OEMBED = "application/json+oembed";
+const CONTENT_TYPE_JSON_LD = "application/ld+json";
 
 /**
  * Extract metadata from HTML documents.
@@ -90,9 +91,11 @@ async function getOembed(
     accept: "application/json",
   });
 
+  const type = contentType(page.headers);
+
   if (
     page.status === 200 &&
-    OEMBED_CONTENT_TYPE.test(contentType(page.headers))
+    (type === CONTENT_TYPE_JSON || type === CONTENT_TYPE_OEMBED)
   ) {
     try {
       const data = await readJson(page.body);
@@ -101,6 +104,8 @@ async function getOembed(
       /* Noop. */
     }
   }
+
+  page.body.destroy();
 }
 
 /**
@@ -131,9 +136,11 @@ const createJsonLdLoader = memoizeOne((request: Request) => {
       accept: "application/ld+json",
     });
 
+    const type = contentType(page.headers);
+
     if (
       page.status === 200 &&
-      JSON_LD_CONTENT_TYPE.test(contentType(page.headers))
+      (type === CONTENT_TYPE_JSON || type === CONTENT_TYPE_JSON_LD)
     ) {
       return {
         contextUrl: toValue(page.headers.link),
@@ -141,6 +148,8 @@ const createJsonLdLoader = memoizeOne((request: Request) => {
         document: await readJson(page.body),
       };
     }
+
+    page.body.destroy();
 
     return { documentUrl: page.url, document: {} };
   };

@@ -27,14 +27,20 @@ export async function readJson(stream: Readable): Promise<object> {
 }
 
 /**
- * Extract `content-type` from headers.
+ * Extract MIME type from `content-type` headers.
+ */
+export function extractMime(contentType: string) {
+  return contentType.split(";", 1)[0].trim().toLowerCase();
+}
+
+/**
+ * Extract `content-type` MIME type from headers.
  */
 export function contentType(
   headers: Record<string, string | string[] | undefined>
 ): string {
   const header = headers["content-type"];
-  if (Array.isArray(header)) {
-    return (header[0] ?? "").split(";", 1)[0].trim().toLowerCase();
-  }
-  return (header ?? "").split(";", 1)[0].trim().toLowerCase();
+  return Array.isArray(header)
+    ? extractMime(header[0] ?? "")
+    : extractMime(header ?? "");
 }

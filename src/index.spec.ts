@@ -1,17 +1,12 @@
 import { fetch } from "popsicle/dist/node";
 import filenamify from "filenamify";
-import * as fs from "fs";
-import { promisify } from "util";
-import { stringify } from "querystring";
+import { createReadStream, createWriteStream } from "fs";
+import { readFile, writeFile, mkdir, stat } from "fs/promises";
 import { join } from "path";
 import { Request, RequestOptions } from "./types";
-import { urlScraper, plugins } from "./index";
+import { urlScraper } from "./index";
 import { tee } from "./helpers";
-
-const readFile = promisify(fs.readFile);
-const writeFile = promisify(fs.writeFile);
-const mkdir = promisify(fs.mkdir);
-const stat = promisify(fs.stat);
+import * as plugins from "./plugins";
 
 const FIXTURE_DIR = join(__dirname, "../fixtures");
 
@@ -201,7 +196,7 @@ describe("scrappy", function () {
 
       // Pipe response stream into file.
       const [a, b] = tee(res.stream());
-      a.pipe(fs.createWriteStream(join(path, "body")));
+      a.pipe(createWriteStream(join(path, "body")));
 
       return {
         ...meta,
@@ -225,7 +220,7 @@ describe("scrappy", function () {
 
     return {
       ...meta,
-      body: fs.createReadStream(join(path, "body")),
+      body: createReadStream(join(path, "body")),
     };
   };
 

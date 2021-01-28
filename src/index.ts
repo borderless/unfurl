@@ -8,20 +8,11 @@ import {
   Next,
   ScrapeUrl,
 } from "./types";
-import * as plugins from "./plugins";
-
-// Export built-in plugin support.
-export { plugins };
 
 export interface Options {
   request: Request;
-  plugins?: Plugin[];
+  plugins: Plugin[];
 }
-
-/**
- * Default plugins.
- */
-export const DEFAULT_PLUGINS = [plugins.htmlmetaparser, plugins.exifdata];
 
 /**
  * Wrap `scraper` by using `options.request` to make initial scrape request.
@@ -38,7 +29,7 @@ export function urlScraper(options: Options): ScrapeUrl {
  * Scraper is composed of middleware returning a snippet.
  */
 export function scraper(options: Options): Scrape {
-  const { request, plugins = DEFAULT_PLUGINS } = options;
+  const { request, plugins } = options;
 
   const middleware = plugins.reduce<Next>(
     (next, plugin) => async (x: Input) => plugin(x, next),
