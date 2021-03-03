@@ -2,7 +2,7 @@ import { Handler, Result, Alternative, RdfaNode } from "htmlmetaparser";
 import { WritableStream } from "htmlparser2/lib/WritableStream";
 import { Readable } from "stream";
 import { expand } from "jsonld";
-import type { Document } from "jsonld/jsonld-spec";
+import type { Document, RemoteDocument } from "jsonld/jsonld-spec";
 import { memoizeOne } from "functools";
 import { next, filter, map, list, flatten } from "iterative";
 import { decodeHTML } from "entities";
@@ -81,7 +81,7 @@ export const plugin: Plugin = async (input, next) => {
 async function getOembed(
   request: Request,
   alternate: Alternative[]
-): Promise<{ [key: string]: unknown } | undefined> {
+): Promise<Record<string, unknown> | undefined> {
   const oembed = alternate.filter(
     (x) => x.type === "application/json+oembed"
   )[0];
@@ -99,7 +99,9 @@ async function getOembed(
   ) {
     try {
       const data = await readJson(page.body);
-      if (!Array.isArray(data)) return data as { [key: string]: unknown };
+      if (data && typeof data === "object" && !Array.isArray(data)) {
+        return data as Record<string, unknown>;
+      }
     } catch (err) {
       /* Noop. */
     }
@@ -131,7 +133,7 @@ interface JsonLd {
  * Create JSON-LD document loader with cache on `request`.
  */
 const createJsonLdLoader = memoizeOne((request: Request) => {
-  return async (url: string) => {
+  return async (url: string): Promise<RemoteDocument> => {
     const page = await request(url, {
       accept: "application/ld+json",
     });
@@ -142,10 +144,15 @@ const createJsonLdLoader = memoizeOne((request: Request) => {
       page.status === 200 &&
       (type === CONTENT_TYPE_JSON || type === CONTENT_TYPE_JSON_LD)
     ) {
+      const data = await readJson(page.body);
+
       return {
         contextUrl: toValue(page.headers.link),
         documentUrl: page.url,
-        document: await readJson(page.body),
+        document:
+          typeof data === "object" && data !== null
+            ? (data as Record<string, unknown>)
+            : {},
       };
     }
 
@@ -270,7 +277,7 @@ function toUrl(value: string | undefined, baseUrl: string): string | undefined {
 /**
  * Set defined properties from one object to the other.
  */
-function copyProps<T extends object>(target: T, data: Partial<T>) {
+function copyProps<T>(target: T, data: Partial<T>): T {
   for (const key of Object.keys(data) as (keyof T)[]) {
     const value = data[key];
     if (value !== undefined) target[key] = value as T[keyof T];

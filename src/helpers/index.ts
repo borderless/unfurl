@@ -3,7 +3,7 @@ import { Readable, PassThrough } from "stream";
 /**
  * Fork readable stream into multiple parts.
  */
-export function tee(stream: Readable) {
+export function tee(stream: Readable): [Readable, Readable] {
   return [stream.pipe(new PassThrough()), stream.pipe(new PassThrough())];
 }
 
@@ -19,17 +19,16 @@ export async function readBuffer(stream: Readable): Promise<Buffer> {
 /**
  * Parse stream into JSON payload.
  */
-export async function readJson(stream: Readable): Promise<object> {
+export async function readJson(stream: Readable): Promise<unknown> {
   const buffer = await readBuffer(stream);
   const data: unknown = JSON.parse(buffer.toString("utf8"));
-  if (typeof data === "object" && data !== null) return data;
-  return {};
+  return data;
 }
 
 /**
  * Extract MIME type from `content-type` headers.
  */
-export function extractMime(contentType: string) {
+export function extractMime(contentType: string): string {
   return contentType.split(";", 1)[0].trim().toLowerCase();
 }
 

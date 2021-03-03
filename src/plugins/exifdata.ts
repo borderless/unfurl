@@ -80,7 +80,7 @@ async function video(url: string, stream: Readable): Promise<Snippet> {
 async function extractExifData(stream: Readable) {
   return new Promise<Record<string, string> | undefined>((resolve) => {
     const exif = exec("-fast", "-");
-    exif.on("exif", (exif: [any]) => resolve(exif[0]));
+    exif.on("exif", (exif: [Record<string, string>]) => resolve(exif[0]));
     exif.on("error", () => resolve(undefined));
     stream.pipe(exif);
   });
