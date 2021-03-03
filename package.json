@@ -61,6 +61,6 @@
     "htmlmetaparser": "^2.1.1",
     "htmlparser2": "^6.0.0",
     "iterative": "^1.9.1",
-    "jsonld": "^3.3.0"
+    "jsonld": "^4.0.1"
   }
 }
