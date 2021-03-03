@@ -2,7 +2,7 @@ import {
   Request,
   Page,
   Plugin,
-  Snippet,
+  Unfurl,
   Input,
   Scrape,
   Next,
@@ -33,7 +33,7 @@ export function scraper(options: Options): Scrape {
 
   const middleware = plugins.reduce<Next>(
     (next, plugin) => async (x: Input) => plugin(x, next),
-    ({ page }: Input): Promise<Snippet> => {
+    ({ page }: Input): Promise<Unfurl> => {
       page.body.resume(); // Discard unused data.
 
       return Promise.resolve({ type: "link", url: page.url });
@@ -41,7 +41,7 @@ export function scraper(options: Options): Scrape {
   );
 
   return async function scrape(page: Page) {
-    const snippet: Snippet = await middleware({ page, scrape, request });
+    const snippet: Unfurl = await middleware({ page, scrape, request });
     page.body.destroy(); // Destroy input stream.
     return snippet;
   };

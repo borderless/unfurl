@@ -11,6 +11,7 @@ Object {
   },
   "canonicalUrl": "https://cloudinary.com/pricing",
   "description": "Select a plan that best suits your needs. A Free plan with generous usage limits available without any time limit. Activate your account within seconds.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Cloudinary - Pricing and Plans",
   "icon": Array [
@@ -164,6 +165,7 @@ Object {
   },
   "canonicalUrl": "https://www.cnn.com/",
   "description": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "CNN - Breaking News, Latest News and Videos",
   "icon": Array [
@@ -207,6 +209,12 @@ Object {
   },
   "canonicalUrl": "https://d.pr/i/q3z9",
   "description": "Shared with Droplr",
+  "embed": Object {
+    "height": 1280,
+    "type": "image",
+    "url": "https://d.pr/i/q3z9.png",
+    "width": 1280,
+  },
   "encodingFormat": "text/html",
   "headline": "table.jpeg",
   "icon": Array [
@@ -237,12 +245,7 @@ Object {
     },
   ],
   "language": undefined,
-  "mainEntity": Object {
-    "height": 1280,
-    "type": "image",
-    "url": "https://d.pr/i/q3z9.png",
-    "width": 1280,
-  },
+  "mainEntity": undefined,
   "provider": Object {
     "name": "Droplr",
     "twitterHandle": "droplr",
@@ -273,6 +276,7 @@ Object {
   },
   "canonicalUrl": "https://www.dealmoon.com/",
   "description": "北美省钱快报是北美大而全的中文折扣优惠促销信息和海淘网站，24小时滚动更新各类美妆、时尚、家居等商家折扣，ULTA Beauty折扣：Ulta 折扣区美妆护肤超值热卖 收ABH眼影盘 低至5折 + 包邮",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "北美省钱快报 - 北美网购指南 - 24小时滚动更新北美商家折扣信息",
   "icon": Array [
@@ -328,6 +332,7 @@ Object {
   },
   "canonicalUrl": "https://www.everlane.com/",
   "description": "Shop Everlane now for modern essentials. We make the most beautiful essentials, at the best factories, without traditional markups. Free shipping on 2+ items.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Everlane",
   "icon": Array [
@@ -410,6 +415,7 @@ Object {
   },
   "canonicalUrl": undefined,
   "description": "Franz is a leading vendor of Graph Search Technology (AllegroGraph and Gruff) and Common Lisp Software Development Tools (Allegro CL and AllegroCache)",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "AllegroGraph - Semantic Graph Database",
   "icon": Array [],
@@ -455,6 +461,7 @@ Object {
   },
   "canonicalUrl": "https://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268",
   "description": "The recent hack that targeted Democratic officials and led to the resignation of Democratic National Committee chairwoman Debbie Wasserman Schultz was much bigger than initially suspected, according to a new report from the New York Times.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "The DNC Hack Was Much Bigger Than We Thought",
   "icon": Array [
@@ -523,6 +530,7 @@ Object {
   },
   "canonicalUrl": undefined,
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Hacker News",
   "icon": Array [
@@ -560,12 +568,7 @@ Object {
   },
   "canonicalUrl": "http://html5doctor.com/microdata/",
   "description": "On July 21st 19:00-20:00 at Apple Ginza, Oliver Reichenstein, CEO of iA, will share the lessons they’ve learned while creating three iPad apps and one iPad website.",
-  "encodingFormat": "text/html",
-  "headline": "Extending HTML5 — Microdata",
-  "icon": Array [],
-  "image": Array [],
-  "language": undefined,
-  "mainEntity": Object {
+  "embed": Object {
     "height": 338,
     "html": "<blockquote class=\\"wp-embedded-content\\"><a href=\\"http://html5doctor.com/microdata/\\">Extending HTML5 — Microdata</a></blockquote>
 <script type='text/javascript'>
@@ -573,9 +576,15 @@ Object {
 		!function(a,b){\\"use strict\\";function c(){if(!e){e=!0;var a,c,d,f,g=-1!==navigator.appVersion.indexOf(\\"MSIE 10\\"),h=!!navigator.userAgent.match(/Trident.*rv:11\\\\./),i=b.querySelectorAll(\\"iframe.wp-embedded-content\\");for(c=0;c<i.length;c++){if(d=i[c],!d.getAttribute(\\"data-secret\\"))f=Math.random().toString(36).substr(2,10),d.src+=\\"#?secret=\\"+f,d.setAttribute(\\"data-secret\\",f);if(g||h)a=d.cloneNode(!0),a.removeAttribute(\\"security\\"),d.parentNode.replaceChild(a,d)}}}var d=!1,e=!1;if(b.querySelector)if(a.addEventListener)d=!0;if(a.wp=a.wp||{},!a.wp.receiveEmbedMessage)if(a.wp.receiveEmbedMessage=function(c){var d=c.data;if(d.secret||d.message||d.value)if(!/[^a-zA-Z0-9]/.test(d.secret)){var e,f,g,h,i,j=b.querySelectorAll('iframe[data-secret=\\"'+d.secret+'\\"]'),k=b.querySelectorAll('blockquote[data-secret=\\"'+d.secret+'\\"]');for(e=0;e<k.length;e++)k[e].style.display=\\"none\\";for(e=0;e<j.length;e++)if(f=j[e],c.source===f.contentWindow){if(f.removeAttribute(\\"style\\"),\\"height\\"===d.message){if(g=parseInt(d.value,10),g>1e3)g=1e3;else if(~~g<200)g=200;f.height=g}if(\\"link\\"===d.message)if(h=b.createElement(\\"a\\"),i=b.createElement(\\"a\\"),h.href=f.getAttribute(\\"src\\"),i.href=d.value,i.host===h.host)if(b.activeElement===f)a.top.location.href=d.value}else;}},d)a.addEventListener(\\"message\\",a.wp.receiveEmbedMessage,!1),b.addEventListener(\\"DOMContentLoaded\\",c,!1),a.addEventListener(\\"load\\",c,!1)}(window,document);
 //--><!]]>
 </script><iframe sandbox=\\"allow-scripts\\" security=\\"restricted\\" src=\\"http://html5doctor.com/microdata/embed/\\" width=\\"600\\" height=\\"338\\" title=\\"&#8220;Extending HTML5 — Microdata&#8221; &#8212; HTML5 Doctor\\" frameborder=\\"0\\" marginwidth=\\"0\\" marginheight=\\"0\\" scrolling=\\"no\\" class=\\"wp-embedded-content\\"></iframe>",
-    "type": "embed",
+    "type": "rich",
     "width": 600,
   },
+  "encodingFormat": "text/html",
+  "headline": "Extending HTML5 — Microdata",
+  "icon": Array [],
+  "image": Array [],
+  "language": undefined,
+  "mainEntity": undefined,
   "provider": Object {
     "name": "HTML5 Doctor",
     "twitterHandle": undefined,
@@ -620,6 +629,7 @@ Object {
   },
   "canonicalUrl": "http://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/",
   "description": "Timothy Doner started teaching himself to speak in other languages when he was 13, and was quickly hailed as a prodigy for his linguistic proficiency. But as he soon realized, there’s more to…",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Why I taught myself 20 languages — and what I learned about myself in the process",
   "icon": Array [
@@ -687,6 +697,7 @@ Object {
   },
   "canonicalUrl": "http://knexjs.org/",
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Knex.js - A SQL Query Builder for Javascript",
   "icon": Array [
@@ -738,6 +749,7 @@ Object {
   },
   "canonicalUrl": "https://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/",
   "description": "Let us count the ways we hope Ramsey will die.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "50 things we want from 'Battle of the Bastards,' the next 'Game of Thrones' episode",
   "icon": Array [
@@ -903,6 +915,7 @@ Object {
   },
   "canonicalUrl": "http://ogp.me/",
   "description": "The Open Graph protocol enables any web page to become a rich object in a social graph.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Open Graph protocol",
   "icon": Array [],
@@ -942,6 +955,7 @@ Object {
   },
   "canonicalUrl": "https://boostedboards.com/vehicles/all-boards",
   "description": "Choosing between performance and portability has never been easier with Boosted Boards. Explore our selection of electric & motorized skateboards today!",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Electric Skateboards & Motorized Skateboards | Boosted Boards",
   "icon": Array [
@@ -979,6 +993,7 @@ Object {
   },
   "canonicalUrl": "https://store.steampowered.com/app/8930/Sid_Meiers_Civilization_V/",
   "description": "Create, discover, and download new player-created maps, scenarios, interfaces, and more!",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Sid Meier's Civilization® V on Steam",
   "icon": Array [
@@ -1026,6 +1041,17 @@ Object {
   },
   "canonicalUrl": "https://waitbutwhy.com/2016/09/marriage-decision.html",
   "description": "We're forced to make a black-and-white, binary decision in the most important moment of our lives. Let's take a deep breath and figure this out together.",
+  "embed": Object {
+    "height": 338,
+    "html": "<blockquote class=\\"wp-embedded-content\\"><a href=\\"https://waitbutwhy.com/2016/09/marriage-decision.html\\">The Marriage Decision: Everything Forever or Nothing Ever Again</a></blockquote>
+<script type='text/javascript'>
+<!--//--><![CDATA[//><!--
+		!function(d,l){\\"use strict\\";var e=!1,o=!1;if(l.querySelector)if(d.addEventListener)e=!0;if(d.wp=d.wp||{},!d.wp.receiveEmbedMessage)if(d.wp.receiveEmbedMessage=function(e){var t=e.data;if(t)if(t.secret||t.message||t.value)if(!/[^a-zA-Z0-9]/.test(t.secret)){var r,a,i,s,n,o=l.querySelectorAll('iframe[data-secret=\\"'+t.secret+'\\"]'),c=l.querySelectorAll('blockquote[data-secret=\\"'+t.secret+'\\"]');for(r=0;r<c.length;r++)c[r].style.display=\\"none\\";for(r=0;r<o.length;r++)if(a=o[r],e.source===a.contentWindow){if(a.removeAttribute(\\"style\\"),\\"height\\"===t.message){if(1e3<(i=parseInt(t.value,10)))i=1e3;else if(~~i<200)i=200;a.height=i}if(\\"link\\"===t.message)if(s=l.createElement(\\"a\\"),n=l.createElement(\\"a\\"),s.href=a.getAttribute(\\"src\\"),n.href=t.value,n.host===s.host)if(l.activeElement===a)d.top.location.href=t.value}}},e)d.addEventListener(\\"message\\",d.wp.receiveEmbedMessage,!1),l.addEventListener(\\"DOMContentLoaded\\",t,!1),d.addEventListener(\\"load\\",t,!1);function t(){if(!o){o=!0;var e,t,r,a,i=-1!==navigator.appVersion.indexOf(\\"MSIE 10\\"),s=!!navigator.userAgent.match(/Trident.*rv:11\\\\./),n=l.querySelectorAll(\\"iframe.wp-embedded-content\\");for(t=0;t<n.length;t++){if(!(r=n[t]).getAttribute(\\"data-secret\\"))a=Math.random().toString(36).substr(2,10),r.src+=\\"#?secret=\\"+a,r.setAttribute(\\"data-secret\\",a);if(i||s)(e=r.cloneNode(!0)).removeAttribute(\\"security\\"),r.parentNode.replaceChild(e,r)}}}}(window,document);
+//--><!]]>
+</script><iframe sandbox=\\"allow-scripts\\" security=\\"restricted\\" src=\\"https://waitbutwhy.com/2016/09/marriage-decision.html/embed\\" width=\\"600\\" height=\\"338\\" title=\\"&#8220;The Marriage Decision: Everything Forever or Nothing Ever Again&#8221; &#8212; Wait But Why\\" frameborder=\\"0\\" marginwidth=\\"0\\" marginheight=\\"0\\" scrolling=\\"no\\" class=\\"wp-embedded-content\\"></iframe>",
+    "type": "rich",
+    "width": 600,
+  },
   "encodingFormat": "text/html",
   "headline": "The Marriage Decision: Everything Forever or Nothing Ever Again",
   "icon": Array [
@@ -1097,6 +1123,7 @@ Object {
   },
   "canonicalUrl": "https://www.ebay.com/p/2164370744",
   "description": "Find many great new & used options and get the best deals for Best ChoiceProducts Outdoor Wicker Patio Sofa 3 Seater Luxury Comfort Brown at the best online prices at eBay! Free shipping for many products!",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Best ChoiceProducts Outdoor Wicker Patio Sofa 3 Seater Luxury Comfort Brown for sale online | eBay",
   "icon": Array [],
@@ -1136,6 +1163,7 @@ Object {
   },
   "canonicalUrl": "https://www.imdb.com/title/tt1375666/",
   "description": "Inception is a movie starring Leonardo DiCaprio, Joseph Gordon-Levitt, and Ellen Page. A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a...",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Inception (2010) - IMDb",
   "icon": Array [
@@ -1235,6 +1263,7 @@ Object {
   },
   "canonicalUrl": "https://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/",
   "description": "When you get a new credit card, you typically have to go through the process of updating your automatic bill pay information. Some services, though, will update automatically. So how do they know your new credit card number?...",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Some Bill Providers Automatically Update Your Credit Card When You Get A New One",
   "icon": Array [
@@ -1295,6 +1324,7 @@ Object {
   },
   "canonicalUrl": "https://www.mysteryranch.com/asap-pack",
   "description": "The ASAP is a lightweight assault pack with our signature 3-ZIP design. It's size and versatility make it a perfect every day carry.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "ASAP Pack | Mystery Ranch Backpacks",
   "icon": Array [
@@ -1353,6 +1383,7 @@ Object {
   },
   "canonicalUrl": "https://www.newegg.com/xyzprinting-da-vinci-2-0-duo/p/N82E16828840014",
   "description": "XYZprinting da Vinci 2.0 Duo FFF (Fused Filament Fabrication) ABS/PLA Dual Nozzle 3D Printer",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "XYZprinting da Vinci 2.0 Duo FFF (Fused Filament Fabrication) ABS/PLA Dual Nozzle 3D Printer - Newegg.com",
   "icon": Array [
@@ -1404,6 +1435,7 @@ Object {
   },
   "canonicalUrl": undefined,
   "description": "404 page",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "oh dear... something's wrong!",
   "icon": Array [
@@ -1507,6 +1539,12 @@ Object {
   },
   "canonicalUrl": "https://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html",
   "description": "What the candidate did — and did not — say after the killings in Orlando reveals a lot about him.",
+  "embed": Object {
+    "height": 550,
+    "html": "<iframe src=\\"https://www.nytimes.com/svc/oembed/html/?url=https%3A%2F%2Fwww.nytimes.com%2F2016%2F06%2F15%2Fopinion%2Fcampaign-stops%2Fdecoding-donald-trump.html\\" scrolling=\\"no\\" frameborder=\\"0\\" allowtransparency=\\"true\\" title=\\"Decoding Donald Trump\\" style=\\"border:none;max-width:500px;min-width:300px;min-height:550px;display:block;width:100%;\\"></iframe>",
+    "type": "rich",
+    "width": 300,
+  },
   "encodingFormat": "text/html",
   "headline": "Decoding Donald Trump",
   "icon": Array [
@@ -1588,6 +1626,7 @@ Object {
   },
   "canonicalUrl": "https://www.reddit.com/",
   "description": "Reddit is a network of communities based on people's interests. Find communities you're interested in, and become part of an online community!",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "reddit",
   "icon": Array [
@@ -1719,6 +1758,7 @@ Object {
   },
   "canonicalUrl": "https://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails",
   "description": "For years, Google has been building a lobbying machine that outpaces its Silicon Valley peers, turning the internet giant into a major Washington presence. In 2014, the company surpassed AT&amp;T,...",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Emails show Google’s close relationship with the White House",
   "icon": Array [
@@ -1831,6 +1871,7 @@ Object {
   },
   "canonicalUrl": "https://www.yelp.com/biz/boba-guys-san-francisco-4",
   "description": "Bubble Tea in San Francisco, CA",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Boba Guys - Mission - San Francisco, CA",
   "icon": Array [
@@ -1902,6 +1943,7 @@ Object {
   },
   "canonicalUrl": "https://xkcd.com/208/",
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Regular Expressions",
   "icon": Array [
@@ -1949,6 +1991,7 @@ Object {
   },
   "canonicalUrl": "https://aaronparecki.com/2016/08/23/2/micropub-cr",
   "description": "I'm excited to announce that [ Micropub] is now a W3C Candidate Recommendation!",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Micropub CR",
   "icon": Array [],
@@ -1994,6 +2037,7 @@ Object {
   },
   "canonicalUrl": "https://adactio.com/journal/9881",
   "description": "So many standards to choose from.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Metadata markup",
   "icon": Array [
@@ -2075,6 +2119,7 @@ Object {
   },
   "canonicalUrl": "https://atom.io/packages/aesthetic-ui",
   "description": "Ａｎ ＡＥＳＴＨＥＴＩＣ ＵＩ tｈｅｍｅ ｆｏｒ Ａｔｏｍ",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "aesthetic-ui",
   "icon": Array [
@@ -2122,6 +2167,7 @@ Object {
   },
   "canonicalUrl": undefined,
   "description": "Exporting an identical image from different design tools results in different file sizes. Why? What can be done to optimise them to reduce downloading time and disk space?",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "PNG optimisation",
   "icon": Array [
@@ -2183,6 +2229,7 @@ Object {
   },
   "canonicalUrl": undefined,
   "description": "An advanced Mac system monitor for your menubar, with CPU, GPU, memory, network, disk usage, disk activity, temperatures, fans, battery info and more.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "iStat Menus",
   "icon": Array [
@@ -2306,6 +2353,7 @@ Object {
   },
   "canonicalUrl": "https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card",
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Player card",
   "icon": Array [
@@ -2359,6 +2407,7 @@ Object {
   },
   "canonicalUrl": "https://developers.google.com/search/docs/guides/intro-structured-data",
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Understand how structured data works | Search for Developers",
   "icon": Array [
@@ -2413,6 +2462,7 @@ Object {
   },
   "canonicalUrl": "https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462?page=2",
   "description": "Check out Pico-8 for new “fantasy console” goodness. Works great with Raspberry Pi Zero, 2, 3, etc.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "The Raspberry Pi Has Revolutionized Emulation",
   "icon": Array [
@@ -2467,6 +2517,7 @@ Object {
   },
   "canonicalUrl": "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing&usp=embed_facebook",
   "description": "Guide to Ingress Mission Series/Banners in the Greater SF Bay Area contributors: @katranrocks (Kate Magary), @strandit (Bryant Durrell), @hiryu (Brett Allen), @011101000101001 (Florian Sauer), @FlyingRobot (Timothy Appel), @freddd123 (Austin), @jookwarrior (Andy), @VeIocipractor (TZ), @phthoruth ...",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Bay Area Guide to Mission Series/Banners",
   "icon": Array [
@@ -2520,6 +2571,7 @@ Object {
   },
   "canonicalUrl": "https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing&usp=embed_facebook",
   "description": "Digital Nomad Specialist List #,Location,I offer,Day Rate (USD),Languages,I'm looking for (work, ideas, tips etc),E-mail/contact,Website,Twitter,LinkedIn,Language,Deadline Phillip Gourley,Remote (GMT+8),15 years experience at scale with some of the worlds largest brands. Infrastructure & Devops ...",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "> 500 Digital Nomad specialists. Question: maybe convert to airtable soon?",
   "icon": Array [
@@ -2573,6 +2625,7 @@ Object {
   },
   "canonicalUrl": "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing&usp=embed_facebook",
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Overfitting.pdf",
   "icon": Array [
@@ -2626,6 +2679,7 @@ Object {
   },
   "canonicalUrl": "https://droplr.com/",
   "description": "Droplr offers one of the best solution for file sharing, screen recording and send them anywhere",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Droplr - Capture + explain your ideas.",
   "icon": Array [
@@ -2708,6 +2762,7 @@ Object {
   },
   "canonicalUrl": "https://en.wikipedia.org/wiki/Jean-Luc_Picard",
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Jean-Luc Picard - Wikipedia",
   "icon": Array [
@@ -2762,6 +2817,7 @@ Object {
   },
   "canonicalUrl": "https://en.wikipedia.org/wiki/TypeScript",
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "TypeScript - Wikipedia",
   "icon": Array [
@@ -2834,6 +2890,7 @@ Object {
   },
   "canonicalUrl": "https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324",
   "description": "Bubble Tea Shop in San Francisco, CA",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Boba Guys",
   "icon": Array [
@@ -2997,6 +3054,7 @@ Object {
   },
   "canonicalUrl": "https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3",
   "description": "Beach in Sydney, NSW",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Bondi Beach",
   "icon": Array [
@@ -3165,6 +3223,7 @@ Object {
   },
   "canonicalUrl": "https://foursquare.com/v/bourke-street-bakery/4b0b4a63f964a520fa2f23e3",
   "description": "Bakery in Surry Hills, NSW",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Bourke Street Bakery",
   "icon": Array [
@@ -3330,6 +3389,7 @@ Object {
   },
   "canonicalUrl": "https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3",
   "description": "Harbor / Marina in Sydney, NSW",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Darling Harbour",
   "icon": Array [
@@ -3496,6 +3556,7 @@ Object {
   },
   "canonicalUrl": "https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3",
   "description": "Scenic Lookout in Sydney, NSW",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Mrs. Macquarie's Point",
   "icon": Array [
@@ -3657,6 +3718,7 @@ Object {
   },
   "canonicalUrl": "https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3",
   "description": "Botanical Garden in Sydney, NSW",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Royal Botanic Garden",
   "icon": Array [
@@ -3820,6 +3882,7 @@ Object {
   },
   "canonicalUrl": "https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3",
   "description": "Opera House in Sydney, NSW",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Sydney Opera House",
   "icon": Array [
@@ -3983,6 +4046,7 @@ Object {
   },
   "canonicalUrl": "https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182",
   "description": "Whisky Bar in Sydney, NSW",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "The Baxter Inn",
   "icon": Array [
@@ -4117,6 +4181,7 @@ Object {
   },
   "canonicalUrl": "https://github.com/",
   "description": "GitHub is where people build software. More than 40 million people use GitHub to discover, fork, and contribute to over 100 million projects.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Build software better, together",
   "icon": Array [
@@ -4182,6 +4247,7 @@ Object {
   },
   "canonicalUrl": "https://github.com/microsoft/TypeScript/issues/10462",
   "description": "Test code declare var x: Object; declare var y: RegExp; y = x; A lot of people misunderstand what Object is. We should consider trying to elaborate the issue in some way. Type 'Object' is n...",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Give a better error message for assigning from Object to anything else · Issue #10462 · microsoft/TypeScript",
   "icon": Array [
@@ -4229,6 +4295,7 @@ Object {
   },
   "canonicalUrl": "https://github.com/blakeembrey",
   "description": "blakeembrey has 228 repositories available. Follow their code on GitHub.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "blakeembrey - Overview",
   "icon": Array [
@@ -4276,6 +4343,7 @@ Object {
   },
   "canonicalUrl": "https://github.com/serviejs/popsicle",
   "description": "Simple HTTP requests for node and the browser. Contribute to serviejs/popsicle development by creating an account on GitHub.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "serviejs/popsicle",
   "icon": Array [
@@ -4323,6 +4391,17 @@ Object {
   },
   "canonicalUrl": "https://github.blog/2016-09-03-git-2-10-has-been-released/",
   "description": "The open source Git project has just released Git 2.10.0, with features and bugfixes from over 70 contributors. Here’s our look at some of the most interesting new features: Progress reporting for pushes When you",
+  "embed": Object {
+    "height": 338,
+    "html": "<blockquote class=\\"wp-embedded-content\\"><a href=\\"https://github.blog/2016-09-03-git-2-10-has-been-released/\\">Git 2.10 has been released</a></blockquote>
+<script type='text/javascript'>
+<!--//--><![CDATA[//><!--
+		!function(d,l){\\"use strict\\";var e=!1,o=!1;if(l.querySelector)if(d.addEventListener)e=!0;if(d.wp=d.wp||{},!d.wp.receiveEmbedMessage)if(d.wp.receiveEmbedMessage=function(e){var t=e.data;if(t)if(t.secret||t.message||t.value)if(!/[^a-zA-Z0-9]/.test(t.secret)){var r,a,i,s,n,o=l.querySelectorAll('iframe[data-secret=\\"'+t.secret+'\\"]'),c=l.querySelectorAll('blockquote[data-secret=\\"'+t.secret+'\\"]');for(r=0;r<c.length;r++)c[r].style.display=\\"none\\";for(r=0;r<o.length;r++)if(a=o[r],e.source===a.contentWindow){if(a.removeAttribute(\\"style\\"),\\"height\\"===t.message){if(1e3<(i=parseInt(t.value,10)))i=1e3;else if(~~i<200)i=200;a.height=i}if(\\"link\\"===t.message)if(s=l.createElement(\\"a\\"),n=l.createElement(\\"a\\"),s.href=a.getAttribute(\\"src\\"),n.href=t.value,n.host===s.host)if(l.activeElement===a)d.top.location.href=t.value}}},e)d.addEventListener(\\"message\\",d.wp.receiveEmbedMessage,!1),l.addEventListener(\\"DOMContentLoaded\\",t,!1),d.addEventListener(\\"load\\",t,!1);function t(){if(!o){o=!0;var e,t,r,a,i=-1!==navigator.appVersion.indexOf(\\"MSIE 10\\"),s=!!navigator.userAgent.match(/Trident.*rv:11\\\\./),n=l.querySelectorAll(\\"iframe.wp-embedded-content\\");for(t=0;t<n.length;t++){if(!(r=n[t]).getAttribute(\\"data-secret\\"))a=Math.random().toString(36).substr(2,10),r.src+=\\"#?secret=\\"+a,r.setAttribute(\\"data-secret\\",a);if(i||s)(e=r.cloneNode(!0)).removeAttribute(\\"security\\"),r.parentNode.replaceChild(e,r)}}}}(window,document);
+//--><!]]>
+</script><iframe sandbox=\\"allow-scripts\\" security=\\"restricted\\" src=\\"https://github.blog/2016-09-03-git-2-10-has-been-released/embed/\\" width=\\"600\\" height=\\"338\\" title=\\"&#8220;Git 2.10 has been released&#8221; &#8212; The GitHub Blog\\" frameborder=\\"0\\" marginwidth=\\"0\\" marginheight=\\"0\\" scrolling=\\"no\\" class=\\"wp-embedded-content\\"></iframe>",
+    "type": "rich",
+    "width": 600,
+  },
   "encodingFormat": "text/html",
   "headline": "Git 2.10 has been released",
   "icon": Array [
@@ -4390,6 +4469,7 @@ Object {
   },
   "canonicalUrl": "https://github.com/moment/moment/pull/3323",
   "description": "This commit was adapted from 1ec036686e70ad0d837ed2443684d54bca13af01 in DefinitelyTyped. See DefinitelyTyped/DefinitelyTyped#8765 for context. The original body of the commit message follows. Thes...",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "[misc] typescript: refactor constructor and ISO format hack by seansfkelley · Pull Request #3323 · moment/moment",
   "icon": Array [
@@ -4458,6 +4538,7 @@ Object {
   },
   "canonicalUrl": undefined,
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Design Tip: Never Use Black by Ian Storm Taylor",
   "icon": Array [],
@@ -4515,6 +4596,7 @@ Notes:
 - Please visit PokemonGO.com for additional compatibility information.
 - Compatibility is not guaranteed for all devices.
 - Continued use of GPS running in the background can dramatically reduce battery life.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "‎Pokémon GO",
   "icon": Array [],
@@ -4571,6 +4653,7 @@ Object {
   },
   "canonicalUrl": "https://itunes.apple.com/us/movie/the-avengers/id533654020",
   "description": "Watch trailers, read customer and critic reviews, and buy The Avengers directed by Joss Whedon for $19.99.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "‎The Avengers on iTunes",
   "icon": Array [],
@@ -4620,6 +4703,7 @@ Object {
   },
   "canonicalUrl": "https://learnxinyminutes.com/docs/standard-ml/",
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Learn Standard ML in Y Minutes",
   "icon": Array [],
@@ -4669,6 +4753,7 @@ Object {
   },
   "canonicalUrl": "https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254",
   "description": "Those handy little previews you see when you paste a link into a Slack message are what we refer to as unfurling internally at Slack (and also in Slack’s API documentation). While it may sound like…",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Everything you ever wanted to know about unfurling but were afraid to ask /or/ How to make your…",
   "icon": Array [
@@ -4750,6 +4835,7 @@ Object {
   },
   "canonicalUrl": "https://moz.com/community/q/are-rel-author-and-rel-publisher-meta-tags-currently-in-use",
   "description": "Have an SEO question? Search our Q&A forum for your question; if not found, please ask our incredible community of SEOs for some help! You can also earn MozPoints by answering other community members' questions.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Are rel=author and rel=publisher meta tags currently in use? | SEO Q&A | Moz",
   "icon": Array [],
@@ -4779,6 +4865,7 @@ Object {
   },
   "canonicalUrl": undefined,
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "For a Better Economy, Add Commuter Rail? | Hacker News",
   "icon": Array [
@@ -4816,6 +4903,7 @@ Object {
   },
   "canonicalUrl": "https://pragprog.com/book/btlang/seven-languages-in-seven-weeks",
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages by Bruce A. Tate | The Pragmatic Bookshelf",
   "icon": Array [
@@ -4908,6 +4996,7 @@ Object {
   },
   "canonicalUrl": "https://schema.org/WebSite",
   "description": "Schema.org Type: WebSite - A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "WebSite - schema.org Type",
   "icon": Array [
@@ -4945,6 +5034,7 @@ Object {
   },
   "canonicalUrl": undefined,
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Schema.org master file: RDFS in RDFa",
   "icon": Array [],
@@ -4974,6 +5064,7 @@ Object {
   },
   "canonicalUrl": "https://segment.com/blog/the-segment-aws-stack/",
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "The Segment AWS Stack",
   "icon": Array [
@@ -5021,6 +5112,7 @@ Object {
   },
   "canonicalUrl": "https://slant6.bandcamp.com/",
   "description": "12 track album",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Inzombia, by Slant 6",
   "icon": Array [
@@ -5084,6 +5176,7 @@ Object {
   },
   "canonicalUrl": "https://www.amazon.com/Node-js-Right-Way-Server-Side-JavaScript/dp/1937785734",
   "description": "Node.js the Right Way: Practical, Server-Side JavaScript That Scales [Jim Wilson] on Amazon.com. *FREE* shipping on qualifying offers. Get to the forefront of server-side JavaScript programming by writing compact, robust, fast, networked Node applications that scale. Ready to take JavaScript beyond the browser",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Node.js the Right Way: Practical, Server-Side JavaScript That Scales: Jim Wilson: 8601400967638: Amazon.com: Books",
   "icon": Array [],
@@ -5159,6 +5252,12 @@ Object {
   },
   "canonicalUrl": "https://soundcloud.com/lifeofdesiigner/desiigner-panda",
   "description": "It's the OFFICIAL track that you have all been waiting. This is PANDA!!",
+  "embed": Object {
+    "height": 400,
+    "html": "<iframe width=\\"100%\\" height=\\"400\\" scrolling=\\"no\\" frameborder=\\"no\\" src=\\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F237603952&show_artwork=true&type=json\\"></iframe>",
+    "type": "rich",
+    "width": undefined,
+  },
   "encodingFormat": "text/html",
   "headline": "Desiigner- \\"Panda\\" (Prod. By: Menace) by LifeOfDesiigner",
   "icon": Array [
@@ -5189,12 +5288,7 @@ Object {
     },
   ],
   "language": undefined,
-  "mainEntity": Object {
-    "height": 400,
-    "html": "<iframe width=\\"100%\\" height=\\"400\\" scrolling=\\"no\\" frameborder=\\"no\\" src=\\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F237603952&show_artwork=true&type=json\\"></iframe>",
-    "type": "embed",
-    "width": undefined,
-  },
+  "mainEntity": undefined,
   "provider": Object {
     "name": "SoundCloud",
     "twitterHandle": "SoundCloud",
@@ -5235,6 +5329,7 @@ Object {
   },
   "canonicalUrl": undefined,
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "SoundCloud - Hear the world’s sounds",
   "icon": Array [
@@ -5288,6 +5383,7 @@ Object {
   },
   "canonicalUrl": "https://spreadprivacy.com/privacy-risks-note-apps/",
   "description": "Saving private information to an unencrypted note-taking app is a largely unknown, everyday privacy risk that almost half of Americans are engaging in. Here's what you can do to protect yourself.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "The Hidden Privacy Risk in Note-Taking Apps",
   "icon": Array [
@@ -5350,6 +5446,7 @@ Object {
   },
   "canonicalUrl": "https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/",
   "description": "The competition between Uber and Google has broken out into the open: who has the advantage in the evolution of transportation-as-a-service, and who will likely win?",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Google, Uber, and the Evolution of Transportation-as-a-Service",
   "icon": Array [
@@ -5445,6 +5542,7 @@ Object {
   },
   "canonicalUrl": undefined,
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Tailwind UI Pricing",
   "icon": Array [],
@@ -5474,6 +5572,7 @@ Object {
   },
   "canonicalUrl": "http://social.techcrunch.com/",
   "description": "TechCrunch - Reporting on the business of technology, startups, venture capital funding, and Silicon Valley",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "TechCrunch – Startup and Technology News",
   "icon": Array [
@@ -5535,6 +5634,17 @@ Object {
   },
   "canonicalUrl": "https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/",
   "description": "This week The Europas Startup Conference and Awards — the new type of tech event devised in partnership with TechCrunch and myself — honored The Best Tech Startups in Europe. You can check out all the pictures here and follow the coverage on Twitter. An annual celebration of Europe’s brightest and best tech companies, The Europas Conference […]",
+  "embed": Object {
+    "height": 338,
+    "html": "<blockquote class=\\"wp-embedded-content\\"><a href=\\"https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/\\">The Europas Awards 2016 honored the best tech startups in Europe</a></blockquote>
+<script type='text/javascript'>
+<!--//--><![CDATA[//><!--
+		!function(d,l){\\"use strict\\";var e=!1,o=!1;if(l.querySelector)if(d.addEventListener)e=!0;if(d.wp=d.wp||{},!d.wp.receiveEmbedMessage)if(d.wp.receiveEmbedMessage=function(e){var t=e.data;if(t)if(t.secret||t.message||t.value)if(!/[^a-zA-Z0-9]/.test(t.secret)){var r,a,i,s,n,o=l.querySelectorAll('iframe[data-secret=\\"'+t.secret+'\\"]'),c=l.querySelectorAll('blockquote[data-secret=\\"'+t.secret+'\\"]');for(r=0;r<c.length;r++)c[r].style.display=\\"none\\";for(r=0;r<o.length;r++)if(a=o[r],e.source===a.contentWindow){if(a.removeAttribute(\\"style\\"),\\"height\\"===t.message){if(1e3<(i=parseInt(t.value,10)))i=1e3;else if(~~i<200)i=200;a.height=i}if(\\"link\\"===t.message)if(s=l.createElement(\\"a\\"),n=l.createElement(\\"a\\"),s.href=a.getAttribute(\\"src\\"),n.href=t.value,n.host===s.host)if(l.activeElement===a)d.top.location.href=t.value}}},e)d.addEventListener(\\"message\\",d.wp.receiveEmbedMessage,!1),l.addEventListener(\\"DOMContentLoaded\\",t,!1),d.addEventListener(\\"load\\",t,!1);function t(){if(!o){o=!0;var e,t,r,a,i=-1!==navigator.appVersion.indexOf(\\"MSIE 10\\"),s=!!navigator.userAgent.match(/Trident.*rv:11\\\\./),n=l.querySelectorAll(\\"iframe.wp-embedded-content\\");for(t=0;t<n.length;t++){if(!(r=n[t]).getAttribute(\\"data-secret\\"))a=Math.random().toString(36).substr(2,10),r.src+=\\"#?secret=\\"+a,r.setAttribute(\\"data-secret\\",a);if(i||s)(e=r.cloneNode(!0)).removeAttribute(\\"security\\"),r.parentNode.replaceChild(e,r)}}}}(window,document);
+//--><!]]>
+</script><iframe sandbox=\\"allow-scripts\\" security=\\"restricted\\" src=\\"https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/embed/\\" width=\\"600\\" height=\\"338\\" title=\\"&#8220;The Europas Awards 2016 honored the best tech startups in Europe&#8221; &#8212; TechCrunch\\" frameborder=\\"0\\" marginwidth=\\"0\\" marginheight=\\"0\\" scrolling=\\"no\\" class=\\"wp-embedded-content\\"></iframe>",
+    "type": "rich",
+    "width": 600,
+  },
   "encodingFormat": "text/html",
   "headline": "The Europas Awards 2016 honored the best tech startups in Europe",
   "icon": Array [
@@ -5606,6 +5716,17 @@ Object {
   },
   "canonicalUrl": "https://techcrunch.com/2020/02/23/sensors-are-the-next-big-thing-in-space-not-starships/",
   "description": "Understanding the opportunities available in the space industry — especially for early-stage companies and new founders — isn’t easy. The pool of people who have deep aerospace technical expertise isn’t huge, and like any community that requires a high degree of specialist knowledge, it’s a tightly-knit field that relies on social connections. But space is […]",
+  "embed": Object {
+    "height": 338,
+    "html": "<blockquote class=\\"wp-embedded-content\\"><a href=\\"https://techcrunch.com/2020/02/23/sensors-are-the-next-big-thing-in-space-not-starships/\\">Sensors are the next big thing in space, not starships</a></blockquote>
+<script type='text/javascript'>
+<!--//--><![CDATA[//><!--
+		!function(d,l){\\"use strict\\";var e=!1,o=!1;if(l.querySelector)if(d.addEventListener)e=!0;if(d.wp=d.wp||{},!d.wp.receiveEmbedMessage)if(d.wp.receiveEmbedMessage=function(e){var t=e.data;if(t)if(t.secret||t.message||t.value)if(!/[^a-zA-Z0-9]/.test(t.secret)){var r,a,i,s,n,o=l.querySelectorAll('iframe[data-secret=\\"'+t.secret+'\\"]'),c=l.querySelectorAll('blockquote[data-secret=\\"'+t.secret+'\\"]');for(r=0;r<c.length;r++)c[r].style.display=\\"none\\";for(r=0;r<o.length;r++)if(a=o[r],e.source===a.contentWindow){if(a.removeAttribute(\\"style\\"),\\"height\\"===t.message){if(1e3<(i=parseInt(t.value,10)))i=1e3;else if(~~i<200)i=200;a.height=i}if(\\"link\\"===t.message)if(s=l.createElement(\\"a\\"),n=l.createElement(\\"a\\"),s.href=a.getAttribute(\\"src\\"),n.href=t.value,n.host===s.host)if(l.activeElement===a)d.top.location.href=t.value}}},e)d.addEventListener(\\"message\\",d.wp.receiveEmbedMessage,!1),l.addEventListener(\\"DOMContentLoaded\\",t,!1),d.addEventListener(\\"load\\",t,!1);function t(){if(!o){o=!0;var e,t,r,a,i=-1!==navigator.appVersion.indexOf(\\"MSIE 10\\"),s=!!navigator.userAgent.match(/Trident.*rv:11\\\\./),n=l.querySelectorAll(\\"iframe.wp-embedded-content\\");for(t=0;t<n.length;t++){if(!(r=n[t]).getAttribute(\\"data-secret\\"))a=Math.random().toString(36).substr(2,10),r.src+=\\"#?secret=\\"+a,r.setAttribute(\\"data-secret\\",a);if(i||s)(e=r.cloneNode(!0)).removeAttribute(\\"security\\"),r.parentNode.replaceChild(e,r)}}}}(window,document);
+//--><!]]>
+</script><iframe sandbox=\\"allow-scripts\\" security=\\"restricted\\" src=\\"https://techcrunch.com/2020/02/23/sensors-are-the-next-big-thing-in-space-not-starships/embed/\\" width=\\"600\\" height=\\"338\\" title=\\"&#8220;Sensors are the next big thing in space, not starships&#8221; &#8212; TechCrunch\\" frameborder=\\"0\\" marginwidth=\\"0\\" marginheight=\\"0\\" scrolling=\\"no\\" class=\\"wp-embedded-content\\"></iframe>",
+    "type": "rich",
+    "width": 600,
+  },
   "encodingFormat": "text/html",
   "headline": "Sensors are the next big thing in space, not starships",
   "icon": Array [
@@ -5677,6 +5798,7 @@ Object {
   },
   "canonicalUrl": "https://trakt.tv/movies/kung-fury-2015",
   "description": "During an unfortunate series of events, a friend of Kung Fury is assassinated by the most dangerous kung fu master criminal of all time, Adolf Hitler, a.k.a Kung Führer. Kung Fury decides to travel back in time to Nazi Germany in order to kill Hitler and end the Nazi empire once and for all.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Kung Fury (2015)",
   "icon": Array [
@@ -5731,6 +5853,7 @@ Object {
   },
   "canonicalUrl": "https://twitter.com/",
   "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Twitter. It's what's happening.",
   "icon": Array [
@@ -5775,6 +5898,7 @@ Object {
   },
   "canonicalUrl": undefined,
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Twitter / ?",
   "icon": Array [
@@ -5825,6 +5949,14 @@ Object {
   },
   "canonicalUrl": "https://twitter.com/alexisohanian/status/764997551384776704",
   "description": "“Don't squander this. 💻 https://t.co/eWmq6oxK73”",
+  "embed": Object {
+    "height": undefined,
+    "html": "<blockquote class=\\"twitter-tweet\\"><p lang=\\"en\\" dir=\\"ltr\\">Don&#39;t squander this. 💻 <a href=\\"https://t.co/eWmq6oxK73\\">https://t.co/eWmq6oxK73</a> <a href=\\"https://t.co/JKKVsNBcS1\\">pic.twitter.com/JKKVsNBcS1</a></p>&mdash; Alexis Ohanian Sr. 🚀 (@alexisohanian) <a href=\\"https://twitter.com/alexisohanian/status/764997551384776704?ref_src=twsrc%5Etfw\\">August 15, 2016</a></blockquote>
+<script async src=\\"https://platform.twitter.com/widgets.js\\" charset=\\"utf-8\\"></script>
+",
+    "type": "rich",
+    "width": 550,
+  },
   "encodingFormat": "text/html",
   "headline": "Alexis Ohanian Sr. 🚀 on Twitter",
   "icon": Array [
@@ -5898,6 +6030,14 @@ Object {
   },
   "canonicalUrl": "https://twitter.com/blakeembrey",
   "description": "The latest Tweets from Blake Embrey (@blakeembrey). I traveled and wrote some code once. San Francisco, CA",
+  "embed": Object {
+    "height": undefined,
+    "html": "<a class=\\"twitter-timeline\\" href=\\"https://twitter.com/blakeembrey?ref_src=twsrc%5Etfw\\">Tweets by blakeembrey</a>
+<script async src=\\"https://platform.twitter.com/widgets.js\\" charset=\\"utf-8\\"></script>
+",
+    "type": "rich",
+    "width": undefined,
+  },
   "encodingFormat": "text/html",
   "headline": "Blake Embrey (@blakeembrey) | Twitter",
   "icon": Array [
@@ -5918,14 +6058,7 @@ Object {
   ],
   "image": Array [],
   "language": undefined,
-  "mainEntity": Object {
-    "height": undefined,
-    "html": "<a class=\\"twitter-timeline\\" href=\\"https://twitter.com/blakeembrey?ref_src=twsrc%5Etfw\\">Tweets by blakeembrey</a>
-<script async src=\\"https://platform.twitter.com/widgets.js\\" charset=\\"utf-8\\"></script>
-",
-    "type": "embed",
-    "width": undefined,
-  },
+  "mainEntity": undefined,
   "provider": Object {
     "name": "Twitter",
     "twitterHandle": undefined,
@@ -5962,6 +6095,14 @@ Object {
   },
   "canonicalUrl": "https://twitter.com/ericclemmons/status/749223563790471169",
   "description": "“🔥 Clean up @github issues with the HTML5 <details> tag – https://t.co/poNw69GO9s https://t.co/QEXZgk4LJx”",
+  "embed": Object {
+    "height": undefined,
+    "html": "<blockquote class=\\"twitter-tweet\\"><p lang=\\"en\\" dir=\\"ltr\\">🔥 Clean up <a href=\\"https://twitter.com/github?ref_src=twsrc%5Etfw\\">@github</a> issues with the HTML5 &lt;details&gt; tag – <a href=\\"https://t.co/poNw69GO9s\\">https://t.co/poNw69GO9s</a> <a href=\\"https://t.co/QEXZgk4LJx\\">pic.twitter.com/QEXZgk4LJx</a></p>&mdash; Eric Clemmons (@ericclemmons) <a href=\\"https://twitter.com/ericclemmons/status/749223563790471169?ref_src=twsrc%5Etfw\\">July 2, 2016</a></blockquote>
+<script async src=\\"https://platform.twitter.com/widgets.js\\" charset=\\"utf-8\\"></script>
+",
+    "type": "rich",
+    "width": 550,
+  },
   "encodingFormat": "text/html",
   "headline": "Eric Clemmons on Twitter",
   "icon": Array [
@@ -5992,14 +6133,7 @@ Object {
     },
   ],
   "language": undefined,
-  "mainEntity": Object {
-    "height": undefined,
-    "html": "<blockquote class=\\"twitter-tweet\\"><p lang=\\"en\\" dir=\\"ltr\\">🔥 Clean up <a href=\\"https://twitter.com/github?ref_src=twsrc%5Etfw\\">@github</a> issues with the HTML5 &lt;details&gt; tag – <a href=\\"https://t.co/poNw69GO9s\\">https://t.co/poNw69GO9s</a> <a href=\\"https://t.co/QEXZgk4LJx\\">pic.twitter.com/QEXZgk4LJx</a></p>&mdash; Eric Clemmons (@ericclemmons) <a href=\\"https://twitter.com/ericclemmons/status/749223563790471169?ref_src=twsrc%5Etfw\\">July 2, 2016</a></blockquote>
-<script async src=\\"https://platform.twitter.com/widgets.js\\" charset=\\"utf-8\\"></script>
-",
-    "type": "embed",
-    "width": 550,
-  },
+  "mainEntity": undefined,
   "provider": Object {
     "name": "Twitter",
     "twitterHandle": undefined,
@@ -6045,6 +6179,14 @@ Object {
   },
   "canonicalUrl": "https://twitter.com/typescript/status/743113612407889920",
   "description": "“.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! https://t.co/fkfz8uL4I4”",
+  "embed": Object {
+    "height": undefined,
+    "html": "<blockquote class=\\"twitter-tweet\\"><p lang=\\"en\\" dir=\\"ltr\\">.d.ts files should be simple to manage - check out our plans to make that happen in TypeScript 2.0! <a href=\\"https://t.co/fkfz8uL4I4\\">https://t.co/fkfz8uL4I4</a></p>&mdash; TypeScript (@typescript) <a href=\\"https://twitter.com/typescript/status/743113612407889920?ref_src=twsrc%5Etfw\\">June 15, 2016</a></blockquote>
+<script async src=\\"https://platform.twitter.com/widgets.js\\" charset=\\"utf-8\\"></script>
+",
+    "type": "rich",
+    "width": 550,
+  },
   "encodingFormat": "text/html",
   "headline": "TypeScript on Twitter",
   "icon": Array [
@@ -6121,6 +6263,7 @@ Object {
   },
   "canonicalUrl": "https://www.airbnb.com/rooms/2250401",
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Vacation Rentals, Homes, Experiences & Places - Airbnb",
   "icon": Array [
@@ -6203,6 +6346,7 @@ Object {
   },
   "canonicalUrl": "https://www.battlefield.com/buy/battlefield-1",
   "description": "Buy Battlefield 1 Revolution and enjoy the ever growing Battefield 1 experience with new modes, new maps, and new conflicts.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Buy Battlefield 1 Revolution – Access the Complete Battlefield 1 Experience",
   "icon": Array [
@@ -6298,6 +6442,7 @@ Object {
   },
   "canonicalUrl": "https://www.coursera.org/learn/machine-learning",
   "description": "Machine learning is the science of getting computers to act without being explicitly programmed.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Machine Learning | Coursera",
   "icon": Array [
@@ -6456,6 +6601,7 @@ This book is over 300 pages long and contains all of the original 151 Pokémon, 
 ​
  PokéNatomy is suitable for all ages, and designed to clarify and explain diverse scientific concepts like DNA, body systems, hereditary traits, and adaptation all through the wonder and weirdness of classic Pokémon characters!
 ​",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "PokéNatomy: The Science of Pokémon (An Unofficial Guide)",
   "icon": Array [
@@ -6503,6 +6649,7 @@ Object {
   },
   "canonicalUrl": "https://www.facebook.com/",
   "description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Facebook - Log In or Sign Up",
   "icon": Array [
@@ -6550,6 +6697,12 @@ Object {
   },
   "canonicalUrl": "https://www.flickr.com/photos/fabianf_/28229743586/",
   "description": "Flickr is almost certainly the best online photo management and sharing application in the world. Show off your favorite photos and videos to the world, securely and privately show content to your friends and family, or blog the photos and videos you take with a cameraphone.",
+  "embed": Object {
+    "height": 1024,
+    "type": "image",
+    "url": "https://live.staticflickr.com/8699/28229743586_838541269b_b.jpg",
+    "width": 683,
+  },
   "encodingFormat": "text/html",
   "headline": "Yellow Motion (Explore #15)",
   "icon": Array [
@@ -6577,12 +6730,7 @@ Object {
   ],
   "image": Array [],
   "language": undefined,
-  "mainEntity": Object {
-    "height": 1024,
-    "type": "image",
-    "url": "https://live.staticflickr.com/8699/28229743586_838541269b_b.jpg",
-    "width": 683,
-  },
+  "mainEntity": undefined,
   "provider": Object {
     "name": "Flickr",
     "twitterHandle": undefined,
@@ -6620,6 +6768,7 @@ Object {
   },
   "canonicalUrl": "https://www.flickr.com/photos/timdrivas/27999498362",
   "description": "The Macy's 4th of July firework show in NYC",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "The Fourth",
   "icon": Array [
@@ -6693,6 +6842,7 @@ Object {
   },
   "canonicalUrl": undefined,
   "description": "Find local businesses, view maps and get driving directions in Google Maps.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Google Maps",
   "icon": Array [
@@ -6753,6 +6903,13 @@ Object {
   },
   "canonicalUrl": "https://www.instagram.com/minaalofficial/p/BG0m4IDGaqk/caption/bask-in-the-glamor-of-nomadlife-laundromat-turned-office-new",
   "description": "107 Likes, 3 Comments - Minaal | Travel Backpacks (@minaalofficial) on Instagram: “Bask in the glamor of #nomadlife. Laundromat turned office, New York City.  Photo cred:…”",
+  "embed": Object {
+    "height": undefined,
+    "html": "<blockquote class=\\"instagram-media\\" data-instgrm-captioned data-instgrm-permalink=\\"https://www.instagram.com/p/BG0m4IDGaqk/?utm_source=ig_embed&amp;utm_campaign=loading\\" data-instgrm-version=\\"12\\" style=\\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\\"><div style=\\"padding:16px;\\"> <a href=\\"https://www.instagram.com/p/BG0m4IDGaqk/?utm_source=ig_embed&amp;utm_campaign=loading\\" style=\\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\\" target=\\"_blank\\"> <div style=\\" display: flex; flex-direction: row; align-items: center;\\"> <div style=\\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\\"></div> <div style=\\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\\"> <div style=\\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\\"></div> <div style=\\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\\"></div></div></div><div style=\\"padding: 19% 0;\\"></div> <div style=\\"display:block; height:50px; margin:0 auto 12px; width:50px;\\"><svg width=\\"50px\\" height=\\"50px\\" viewBox=\\"0 0 60 60\\" version=\\"1.1\\" xmlns=\\"https://www.w3.org/2000/svg\\" xmlns:xlink=\\"https://www.w3.org/1999/xlink\\"><g stroke=\\"none\\" stroke-width=\\"1\\" fill=\\"none\\" fill-rule=\\"evenodd\\"><g transform=\\"translate(-511.000000, -20.000000)\\" fill=\\"#000000\\"><g><path d=\\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\\"></path></g></g></g></svg></div><div style=\\"padding-top: 8px;\\"> <div style=\\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\\"> View this post on Instagram</div></div><div style=\\"padding: 12.5% 0;\\"></div> <div style=\\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\\"><div> <div style=\\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\\"></div> <div style=\\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\\"></div> <div style=\\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\\"></div></div><div style=\\"margin-left: 8px;\\"> <div style=\\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\\"></div> <div style=\\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\\"></div></div><div style=\\"margin-left: auto;\\"> <div style=\\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\\"></div> <div style=\\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\\"></div> <div style=\\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\\"></div></div></div></a> <p style=\\" margin:8px 0 0 0; padding:0 4px;\\"> <a href=\\"https://www.instagram.com/p/BG0m4IDGaqk/?utm_source=ig_embed&amp;utm_campaign=loading\\" style=\\" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;\\" target=\\"_blank\\">Bask in the glamor of #nomadlife. Laundromat turned office, New York City. Photo cred: @conni.biesalski #regram  #nyc #office #laundry #laundromat #newyork #newyorkcity #laptop #digitalnomad #locationindependent #welltraveled #justgoshoot #roamtheplanet #hustle #myoffice #officeoftheday #tompkinssquare</a></p> <p style=\\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\\">A post shared by <a href=\\"https://www.instagram.com/minaalofficial/?utm_source=ig_embed&amp;utm_campaign=loading\\" style=\\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;\\" target=\\"_blank\\"> Minaal | Travel Backpacks</a> (@minaalofficial) on <time style=\\" font-family:Arial,sans-serif; font-size:14px; line-height:17px;\\" datetime=\\"2016-06-19T04:04:50+00:00\\">Jun 18, 2016 at 9:04pm PDT</time></p></div></blockquote>
+<script async src=\\"//www.instagram.com/embed.js\\"></script>",
+    "type": "rich",
+    "width": 658,
+  },
   "encodingFormat": "text/html",
   "headline": "Bask in the glamor of #nomadlife.
 Laundromat turned office, New York City.
@@ -6822,13 +6979,7 @@ Photo cred: @conni.biesalski
     },
   ],
   "language": undefined,
-  "mainEntity": Object {
-    "height": undefined,
-    "html": "<blockquote class=\\"instagram-media\\" data-instgrm-captioned data-instgrm-permalink=\\"https://www.instagram.com/p/BG0m4IDGaqk/?utm_source=ig_embed&amp;utm_campaign=loading\\" data-instgrm-version=\\"12\\" style=\\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\\"><div style=\\"padding:16px;\\"> <a href=\\"https://www.instagram.com/p/BG0m4IDGaqk/?utm_source=ig_embed&amp;utm_campaign=loading\\" style=\\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\\" target=\\"_blank\\"> <div style=\\" display: flex; flex-direction: row; align-items: center;\\"> <div style=\\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\\"></div> <div style=\\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\\"> <div style=\\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\\"></div> <div style=\\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\\"></div></div></div><div style=\\"padding: 19% 0;\\"></div> <div style=\\"display:block; height:50px; margin:0 auto 12px; width:50px;\\"><svg width=\\"50px\\" height=\\"50px\\" viewBox=\\"0 0 60 60\\" version=\\"1.1\\" xmlns=\\"https://www.w3.org/2000/svg\\" xmlns:xlink=\\"https://www.w3.org/1999/xlink\\"><g stroke=\\"none\\" stroke-width=\\"1\\" fill=\\"none\\" fill-rule=\\"evenodd\\"><g transform=\\"translate(-511.000000, -20.000000)\\" fill=\\"#000000\\"><g><path d=\\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\\"></path></g></g></g></svg></div><div style=\\"padding-top: 8px;\\"> <div style=\\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\\"> View this post on Instagram</div></div><div style=\\"padding: 12.5% 0;\\"></div> <div style=\\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\\"><div> <div style=\\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\\"></div> <div style=\\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\\"></div> <div style=\\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\\"></div></div><div style=\\"margin-left: 8px;\\"> <div style=\\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\\"></div> <div style=\\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\\"></div></div><div style=\\"margin-left: auto;\\"> <div style=\\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\\"></div> <div style=\\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\\"></div> <div style=\\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\\"></div></div></div></a> <p style=\\" margin:8px 0 0 0; padding:0 4px;\\"> <a href=\\"https://www.instagram.com/p/BG0m4IDGaqk/?utm_source=ig_embed&amp;utm_campaign=loading\\" style=\\" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;\\" target=\\"_blank\\">Bask in the glamor of #nomadlife. Laundromat turned office, New York City. Photo cred: @conni.biesalski #regram  #nyc #office #laundry #laundromat #newyork #newyorkcity #laptop #digitalnomad #locationindependent #welltraveled #justgoshoot #roamtheplanet #hustle #myoffice #officeoftheday #tompkinssquare</a></p> <p style=\\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\\">A post shared by <a href=\\"https://www.instagram.com/minaalofficial/?utm_source=ig_embed&amp;utm_campaign=loading\\" style=\\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;\\" target=\\"_blank\\"> Minaal | Travel Backpacks</a> (@minaalofficial) on <time style=\\" font-family:Arial,sans-serif; font-size:14px; line-height:17px;\\" datetime=\\"2016-06-19T04:04:50+00:00\\">Jun 18, 2016 at 9:04pm PDT</time></p></div></blockquote>
-<script async src=\\"//www.instagram.com/embed.js\\"></script>",
-    "type": "embed",
-    "width": 658,
-  },
+  "mainEntity": undefined,
   "provider": Object {
     "name": "Instagram",
     "twitterHandle": undefined,
@@ -6852,6 +7003,7 @@ Object {
   },
   "canonicalUrl": "https://www.khanacademy.org/economics-finance-domain/ap-macroeconomics/ap-financial-sector/financial-assets-ap/v/bonds-vs-stocks",
   "description": "Learn about the difference between stocks and bonds. Topics include the key characteristics that define an asset as a bond vs. a stock.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Bonds vs. stocks (video) | Stocks and bonds | Khan Academy",
   "icon": Array [
@@ -6950,6 +7102,12 @@ Object {
   },
   "canonicalUrl": "https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor",
   "description": "LVL is a wearable hydration monitor that gives you the complete picture of your health by also tracking activity, sleep, mood and HR.",
+  "embed": Object {
+    "height": 270,
+    "html": "<iframe src=\\"https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor/widget/video.html\\" height=\\"270.0\\" width=\\"480\\" frameborder=\\"0\\" scrolling=\\"no\\"></iframe>",
+    "type": "rich",
+    "width": 480,
+  },
   "encodingFormat": "text/html",
   "headline": "LVL – The First Wearable Hydration Monitor",
   "icon": Array [
@@ -7036,12 +7194,7 @@ Object {
     },
   ],
   "language": "en_US",
-  "mainEntity": Object {
-    "height": 270,
-    "html": "<iframe src=\\"https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor/widget/video.html\\" height=\\"270.0\\" width=\\"480\\" frameborder=\\"0\\" scrolling=\\"no\\"></iframe>",
-    "type": "embed",
-    "width": 480,
-  },
+  "mainEntity": undefined,
   "provider": Object {
     "name": "Kickstarter",
     "twitterHandle": "kickstarter",
@@ -7065,6 +7218,7 @@ Object {
   },
   "canonicalUrl": "https://www.mulesoft.com/contact",
   "description": "Contact us to see how we can help transform your company with the agility to unlock data, unleash innovation and connect with success.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Contact | MuleSoft",
   "icon": Array [
@@ -7112,6 +7266,7 @@ Object {
   },
   "canonicalUrl": "https://www.npmjs.com/package/filenamify",
   "description": "Convert a string to a valid safe filename",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "filenamify",
   "icon": Array [
@@ -7234,6 +7389,7 @@ Object {
   },
   "canonicalUrl": "https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date",
   "description": undefined,
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "How to impress a computer programmer on a date - Quora",
   "icon": Array [
@@ -7271,6 +7427,7 @@ Object {
   },
   "canonicalUrl": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
   "description": "17,708 votes and 6,870 comments so far on Reddit",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "r/news - 'UK man' tried to kill Trump: court papers",
   "icon": Array [
@@ -7402,6 +7559,7 @@ Object {
   },
   "canonicalUrl": "https://www.rottentomatoes.com/m/inception",
   "description": "Visionary filmmaker Christopher Nolan (Memento, The Dark Knight) writes and directs this psychological sci-fi action film about a thief who possesses the power to enter into the dreams of others. Dom Cobb (Leonardo DiCaprio) doesn't steal things, he steals ideas. By projecting himself deep into the subconscious of his targets, he can glean information that even the best computer hackers can't get to. In the world of corporate espionage, Cobb is the ultimate weapon. But even weapons have their weakness, and when Cobb loses everything, he's forced to embark on one final mission in a desperate quest for redemption. This time, Cobb won't be harvesting an idea, but sowing one. Should he and his team of specialists succeed, they will have discovered a new frontier in the art of psychic espionage. They've planned everything to perfection, and they have all the tools to get the job done. Their mission is complicated, however, by the sudden appearance of a malevolent foe that seems to know exactly what they're up to, and precisely how to stop them. ~ Jason Buchanan, Rovi",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Inception (2010)",
   "icon": Array [
@@ -7477,6 +7635,7 @@ Object {
   },
   "canonicalUrl": "https://www.sciencedaily.com/releases/2020/03/200311121832.htm",
   "description": "Researchers have observed an extreme planet where they suspect it rains iron. The ultra-hot giant exoplanet has a day side where temperatures climb above 2400 degrees Celsius, high enough to vaporize metals. Strong winds carry iron vapor to the cooler night side where it condenses into iron droplets.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Exoplanet where it rains iron discovered",
   "icon": Array [],
@@ -7514,6 +7673,7 @@ Object {
   },
   "canonicalUrl": "https://www.spotify.com/us/",
   "description": "Spotify is all the music you’ll ever need.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "Music for everyone.",
   "icon": Array [
@@ -7627,6 +7787,7 @@ Object {
   },
   "canonicalUrl": "https://www.ted.com/playlists/321/talks_to_form_better_habits?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=social-science",
   "description": "There's never a bad time to start a good habit. Let these talks set the framework for a healthier, happier life.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "8 TED Talks to form better habits",
   "icon": Array [
@@ -7721,6 +7882,12 @@ Object {
   },
   "canonicalUrl": "https://www.ted.com/talks/tim_harford_how_frustration_can_make_us_more_creative",
   "description": "Challenges and problems can derail your creative process ... or they can make you more creative than ever. In the surprising story behind the best-selling solo piano album of all time, Tim Harford may just convince you of the advantages of having to work with a little mess.",
+  "embed": Object {
+    "height": 316,
+    "html": "<iframe src=\\"https://embed.ted.com/talks/tim_harford_how_frustration_can_make_us_more_creative\\" width=\\"560\\" height=\\"316\\" frameborder=\\"0\\" scrolling=\\"no\\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>",
+    "type": "rich",
+    "width": 560,
+  },
   "encodingFormat": "text/html",
   "headline": "Tim Harford: How frustration can make us more creative",
   "icon": Array [
@@ -7758,12 +7925,7 @@ Object {
     },
   ],
   "language": undefined,
-  "mainEntity": Object {
-    "height": 316,
-    "html": "<iframe src=\\"https://embed.ted.com/talks/tim_harford_how_frustration_can_make_us_more_creative\\" width=\\"560\\" height=\\"316\\" frameborder=\\"0\\" scrolling=\\"no\\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>",
-    "type": "video",
-    "width": 560,
-  },
+  "mainEntity": undefined,
   "provider": Object {
     "name": "TED",
     "twitterHandle": "tedtalks",
@@ -7800,6 +7962,7 @@ Object {
   },
   "canonicalUrl": "https://www.w3.org/TR/json-ld11/",
   "description": "JSON is a useful data serialization and messaging format. This specification defines JSON-LD 1.1, a JSON-based format to serialize Linked Data. The syntax is designed to easily integrate into deployed systems that already use JSON, and provides a smooth upgrade path from JSON to JSON-LD. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines.",
+  "embed": undefined,
   "encodingFormat": "text/html",
   "headline": "JSON-LD 1.1",
   "icon": Array [],
@@ -7856,6 +8019,12 @@ Object {
   },
   "canonicalUrl": "https://www.youtube.com/watch?v=W9ZnpIGvZUo",
   "description": "Marvel makes cinematic history as it unites the Super Hero team of a lifetime. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), The Hulk (Mark Ru...",
+  "embed": Object {
+    "height": 270,
+    "html": "<iframe width=\\"480\\" height=\\"270\\" src=\\"https://www.youtube.com/embed/W9ZnpIGvZUo?feature=oembed\\" frameborder=\\"0\\" allow=\\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\\" allowfullscreen></iframe>",
+    "type": "rich",
+    "width": 480,
+  },
   "encodingFormat": "text/html",
   "headline": "Marvel Studios' The Avengers",
   "icon": Array [
@@ -7907,12 +8076,7 @@ Object {
     },
   ],
   "language": undefined,
-  "mainEntity": Object {
-    "height": 270,
-    "html": "<iframe width=\\"480\\" height=\\"270\\" src=\\"https://www.youtube.com/embed/W9ZnpIGvZUo?feature=oembed\\" frameborder=\\"0\\" allow=\\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\\" allowfullscreen></iframe>",
-    "type": "video",
-    "width": 480,
-  },
+  "mainEntity": undefined,
   "provider": Object {
     "name": "YouTube",
     "twitterHandle": "youtube",
@@ -7972,6 +8136,12 @@ Object {
   },
   "canonicalUrl": "https://www.youtube.com/watch?v=ZynZdGqxT7Q",
   "description": undefined,
+  "embed": Object {
+    "height": 270,
+    "html": "<iframe width=\\"480\\" height=\\"270\\" src=\\"https://www.youtube.com/embed/ZynZdGqxT7Q?feature=oembed\\" frameborder=\\"0\\" allow=\\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\\" allowfullscreen></iframe>",
+    "type": "rich",
+    "width": 480,
+  },
   "encodingFormat": "text/html",
   "headline": "15. Typings with Blake Embrey",
   "icon": Array [
@@ -8023,12 +8193,7 @@ Object {
     },
   ],
   "language": undefined,
-  "mainEntity": Object {
-    "height": 270,
-    "html": "<iframe width=\\"480\\" height=\\"270\\" src=\\"https://www.youtube.com/embed/ZynZdGqxT7Q?feature=oembed\\" frameborder=\\"0\\" allow=\\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\\" allowfullscreen></iframe>",
-    "type": "video",
-    "width": 480,
-  },
+  "mainEntity": undefined,
   "provider": Object {
     "name": "YouTube",
     "twitterHandle": "youtube",
@@ -8065,6 +8230,17 @@ Object {
   },
   "canonicalUrl": "https://yoast.com/wordpress/plugins/seo/",
   "description": "Yoast SEO is the most complete WordPress SEO plugin. It handles the technical optimization of your site & assists with optimizing your content.",
+  "embed": Object {
+    "height": 338,
+    "html": "<blockquote class=\\"wp-embedded-content\\"><a href=\\"https://yoast.com/wordpress/plugins/seo/\\">Yoast SEO: the #1 WordPress SEO plugin</a></blockquote>
+<script type='text/javascript'>
+<!--//--><![CDATA[//><!--
+		!function(d,l){\\"use strict\\";var e=!1,o=!1;if(l.querySelector)if(d.addEventListener)e=!0;if(d.wp=d.wp||{},!d.wp.receiveEmbedMessage)if(d.wp.receiveEmbedMessage=function(e){var t=e.data;if(t)if(t.secret||t.message||t.value)if(!/[^a-zA-Z0-9]/.test(t.secret)){var r,a,i,s,n,o=l.querySelectorAll('iframe[data-secret=\\"'+t.secret+'\\"]'),c=l.querySelectorAll('blockquote[data-secret=\\"'+t.secret+'\\"]');for(r=0;r<c.length;r++)c[r].style.display=\\"none\\";for(r=0;r<o.length;r++)if(a=o[r],e.source===a.contentWindow){if(a.removeAttribute(\\"style\\"),\\"height\\"===t.message){if(1e3<(i=parseInt(t.value,10)))i=1e3;else if(~~i<200)i=200;a.height=i}if(\\"link\\"===t.message)if(s=l.createElement(\\"a\\"),n=l.createElement(\\"a\\"),s.href=a.getAttribute(\\"src\\"),n.href=t.value,n.host===s.host)if(l.activeElement===a)d.top.location.href=t.value}}},e)d.addEventListener(\\"message\\",d.wp.receiveEmbedMessage,!1),l.addEventListener(\\"DOMContentLoaded\\",t,!1),d.addEventListener(\\"load\\",t,!1);function t(){if(!o){o=!0;var e,t,r,a,i=-1!==navigator.appVersion.indexOf(\\"MSIE 10\\"),s=!!navigator.userAgent.match(/Trident.*rv:11\\\\./),n=l.querySelectorAll(\\"iframe.wp-embedded-content\\");for(t=0;t<n.length;t++){if(!(r=n[t]).getAttribute(\\"data-secret\\"))a=Math.random().toString(36).substr(2,10),r.src+=\\"#?secret=\\"+a,r.setAttribute(\\"data-secret\\",a);if(i||s)(e=r.cloneNode(!0)).removeAttribute(\\"security\\"),r.parentNode.replaceChild(e,r)}}}}(window,document);
+//--><!]]>
+</script><iframe sandbox=\\"allow-scripts\\" security=\\"restricted\\" src=\\"https://yoast.com/wordpress/plugins/seo/embed/\\" width=\\"600\\" height=\\"338\\" title=\\"&#8220;Yoast SEO: the #1 WordPress SEO plugin&#8221; &#8212; Yoast\\" frameborder=\\"0\\" marginwidth=\\"0\\" marginheight=\\"0\\" scrolling=\\"no\\" class=\\"wp-embedded-content\\"></iframe>",
+    "type": "rich",
+    "width": 600,
+  },
   "encodingFormat": "text/html",
   "headline": "Yoast SEO: the #1 WordPress SEO plugin",
   "icon": Array [
@@ -8123,17 +8299,7 @@ Object {
     },
   ],
   "language": "en_US",
-  "mainEntity": Object {
-    "height": 338,
-    "html": "<blockquote class=\\"wp-embedded-content\\"><a href=\\"https://yoast.com/wordpress/plugins/seo/\\">Yoast SEO: the #1 WordPress SEO plugin</a></blockquote>
-<script type='text/javascript'>
-<!--//--><![CDATA[//><!--
-		!function(d,l){\\"use strict\\";var e=!1,o=!1;if(l.querySelector)if(d.addEventListener)e=!0;if(d.wp=d.wp||{},!d.wp.receiveEmbedMessage)if(d.wp.receiveEmbedMessage=function(e){var t=e.data;if(t)if(t.secret||t.message||t.value)if(!/[^a-zA-Z0-9]/.test(t.secret)){var r,a,i,s,n,o=l.querySelectorAll('iframe[data-secret=\\"'+t.secret+'\\"]'),c=l.querySelectorAll('blockquote[data-secret=\\"'+t.secret+'\\"]');for(r=0;r<c.length;r++)c[r].style.display=\\"none\\";for(r=0;r<o.length;r++)if(a=o[r],e.source===a.contentWindow){if(a.removeAttribute(\\"style\\"),\\"height\\"===t.message){if(1e3<(i=parseInt(t.value,10)))i=1e3;else if(~~i<200)i=200;a.height=i}if(\\"link\\"===t.message)if(s=l.createElement(\\"a\\"),n=l.createElement(\\"a\\"),s.href=a.getAttribute(\\"src\\"),n.href=t.value,n.host===s.host)if(l.activeElement===a)d.top.location.href=t.value}}},e)d.addEventListener(\\"message\\",d.wp.receiveEmbedMessage,!1),l.addEventListener(\\"DOMContentLoaded\\",t,!1),d.addEventListener(\\"load\\",t,!1);function t(){if(!o){o=!0;var e,t,r,a,i=-1!==navigator.appVersion.indexOf(\\"MSIE 10\\"),s=!!navigator.userAgent.match(/Trident.*rv:11\\\\./),n=l.querySelectorAll(\\"iframe.wp-embedded-content\\");for(t=0;t<n.length;t++){if(!(r=n[t]).getAttribute(\\"data-secret\\"))a=Math.random().toString(36).substr(2,10),r.src+=\\"#?secret=\\"+a,r.setAttribute(\\"data-secret\\",a);if(i||s)(e=r.cloneNode(!0)).removeAttribute(\\"security\\"),r.parentNode.replaceChild(e,r)}}}}(window,document);
-//--><!]]>
-</script><iframe sandbox=\\"allow-scripts\\" security=\\"restricted\\" src=\\"https://yoast.com/wordpress/plugins/seo/embed/\\" width=\\"600\\" height=\\"338\\" title=\\"&#8220;Yoast SEO: the #1 WordPress SEO plugin&#8221; &#8212; Yoast\\" frameborder=\\"0\\" marginwidth=\\"0\\" marginheight=\\"0\\" scrolling=\\"no\\" class=\\"wp-embedded-content\\"></iframe>",
-    "type": "embed",
-    "width": 600,
-  },
+  "mainEntity": undefined,
   "provider": Object {
     "name": "Yoast",
     "twitterHandle": "yoast",

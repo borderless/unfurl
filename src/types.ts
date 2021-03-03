@@ -7,8 +7,8 @@ export interface Page {
   body: Readable;
 }
 
-export type Scrape = (page: Page) => Promise<Snippet>;
-export type ScrapeUrl = (url: string) => Promise<Snippet>;
+export type Scrape = (page: Page) => Promise<Unfurl>;
+export type ScrapeUrl = (url: string) => Promise<Unfurl>;
 
 export interface RequestOptions {
   accept?: string;
@@ -22,49 +22,100 @@ export interface Input {
   scrape: Scrape;
 }
 
-export type Next = (input: Input) => Promise<Snippet>;
-export type Plugin = (input: Input, next: Next) => Promise<Snippet>;
+export type Next = (input: Input) => Promise<Unfurl>;
+export type Plugin = (input: Input, next: Next) => Promise<Unfurl>;
 
-export interface Snippet {
-  type: "website" | "image" | "video" | "audio" | "document" | "link";
+export interface Website {
+  type: "website";
   url: string;
-  secureUrl?: string;
   canonicalUrl?: string;
   encodingFormat?: string;
   headline?: string;
   description?: string;
 
-  mainEntity?: Entity;
+  mainEntity?: MainEntity;
   tags?: string[];
-  apps?: SnippetApp[];
+  apps?: App[];
   language?: string;
 
-  image?: ImageEntity[];
-  video?: VideoEntity[];
-  audio?: AudioEntity[];
-  icon?: ImageEntity[];
+  image?: Image[];
+  video?: Video[];
+  audio?: Audio[];
+  icon?: Image[];
+  embed?: Embed;
 
-  author?: SnippetPerson;
-  producer?: SnippetPerson;
-  creator?: SnippetPerson;
-  provider?: SnippetPerson;
+  author?: Person;
+  provider?: Person;
+}
 
-  width?: number;
-  height?: number;
-  camera?: SnippetCamera;
+export interface Document {
+  type: "document";
+  url: string;
+  encodingFormat?: string;
+  headline?: string;
+
+  author?: Person;
+  producer?: Person;
+  creator?: Person;
 
   dateCreated?: Date;
   dateModified?: Date;
-  datePublished?: Date;
 }
 
-export interface SnippetPerson {
+export interface Image {
+  type: "image";
+  url: string;
+  secureUrl?: string;
+  encodingFormat?: string;
+  description?: string;
+
+  width?: number;
+  height?: number;
+  camera?: Camera;
+
+  dateCreated?: Date;
+  dateModified?: Date;
+}
+
+export interface Video {
+  type: "video";
+  url: string;
+  secureUrl?: string;
+  encodingFormat?: string;
+  width?: number;
+  height?: number;
+}
+
+export interface Audio {
+  type: "audio";
+  url: string;
+  secureUrl?: string;
+  encodingFormat?: string;
+}
+
+export interface Link {
+  type: "link";
+  url: string;
+}
+
+export type Unfurl = Website | Document | Image | Video | Audio | Link;
+
+export interface Rich {
+  type: "rich";
+  html: string;
+  width?: number;
+  height?: number;
+}
+
+export type Embed = Image | Video | Rich;
+
+export interface Person {
   name?: string;
   url?: string;
   twitterHandle?: string;
 }
 
-export interface SnippetCamera {
+export interface Camera {
   make?: string;
   model?: string;
   lensMake?: string;
@@ -74,7 +125,7 @@ export interface SnippetCamera {
   megapixels?: number;
 }
 
-export interface SnippetApp {
+export interface App {
   device?: "iPhone" | "iPad" | "PC" | "Mobile";
   os: "iOS" | "Android" | "Windows";
   id: string;
@@ -90,43 +141,4 @@ export interface ArticleEntity {
   dateExpires?: Date;
 }
 
-export interface ImageEntity {
-  type: "image";
-  url?: string;
-  secureUrl?: string;
-  encodingFormat?: string;
-  description?: string;
-  width?: number;
-  height?: number;
-}
-
-export interface VideoEntity {
-  type: "video";
-  url?: string;
-  secureUrl?: string;
-  encodingFormat?: string;
-  html?: string;
-  width?: number;
-  height?: number;
-}
-
-export interface AudioEntity {
-  type: "audio";
-  url?: string;
-  secureUrl?: string;
-  encodingFormat?: string;
-}
-
-export interface EmbedEntity {
-  type: "embed";
-  html?: string;
-  width?: number;
-  height?: number;
-}
-
-export type Entity =
-  | ArticleEntity
-  | VideoEntity
-  | AudioEntity
-  | ImageEntity
-  | EmbedEntity;
+export type MainEntity = ArticleEntity;

@@ -1,5 +1,5 @@
 import { exec } from "exiftool2";
-import { Plugin, Snippet } from "../types";
+import { Plugin, Unfurl } from "../types";
 import { contentType } from "../helpers";
 import { Readable } from "stream";
 import { parse } from "exif-date";
@@ -23,7 +23,7 @@ export const plugin: Plugin = async (input, next) => {
   return next(input);
 };
 
-async function pdf(url: string, stream: Readable): Promise<Snippet> {
+async function pdf(url: string, stream: Readable): Promise<Unfurl> {
   const exifData = await extractExifData(stream);
   if (!exifData) return { type: "document", url };
 
@@ -40,7 +40,7 @@ async function pdf(url: string, stream: Readable): Promise<Snippet> {
   };
 }
 
-async function image(url: string, stream: Readable): Promise<Snippet> {
+async function image(url: string, stream: Readable): Promise<Unfurl> {
   const exifData = await extractExifData(stream);
   if (!exifData) return { type: "image", url };
 
@@ -67,7 +67,7 @@ async function image(url: string, stream: Readable): Promise<Snippet> {
   };
 }
 
-async function video(url: string, stream: Readable): Promise<Snippet> {
+async function video(url: string, stream: Readable): Promise<Unfurl> {
   const exifData = await extractExifData(stream);
   if (!exifData) return { type: "video", url };
 

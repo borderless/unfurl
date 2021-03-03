@@ -10,13 +10,14 @@ import { contentType, readJson } from "../helpers";
 import {
   Plugin,
   Request,
-  SnippetApp,
-  Entity,
-  Snippet,
-  ImageEntity,
-  VideoEntity,
-  AudioEntity,
-  SnippetPerson,
+  App,
+  MainEntity,
+  Unfurl,
+  Image,
+  Video,
+  Audio,
+  Person,
+  Embed,
 } from "../types";
 
 declare const URL: typeof import("url").URL;
@@ -53,7 +54,7 @@ export const plugin: Plugin = async (input, next) => {
     status === 200 ? await getOembed(request, metadata.alternate) : undefined;
   const options: ExtractOptions = { url, metadata, graph, oembed };
 
-  const snippet: Snippet = {
+  const snippet: Unfurl = {
     type: "website",
     url: url,
     encodingFormat: type,
@@ -62,6 +63,7 @@ export const plugin: Plugin = async (input, next) => {
     video: getVideo(options),
     audio: getAudio(options),
     mainEntity: getMainEntity(options),
+    embed: getEmbed(options),
     canonicalUrl: getCanonicalUrl(options),
     headline: getHeadline(options),
     description: getDescription(options),
@@ -351,7 +353,7 @@ function getCanonicalUrl(options: ExtractOptions) {
 /**
  * Get the metadata author.
  */
-function getAuthor(options: ExtractOptions): SnippetPerson {
+function getAuthor(options: ExtractOptions): Person {
   const name =
     options.metadata?.html?.author ||
     jsonLdValueToString(
@@ -392,7 +394,7 @@ function getTags(options: ExtractOptions): string[] {
 /**
  * Get the name of the site.
  */
-function getProvider(options: ExtractOptions): SnippetPerson {
+function getProvider(options: ExtractOptions): Person {
   const name =
     jsonLdValueToString(
       first(options.graph, (x) => x["http://ogp.me/ns#site_name"] as RdfaNode[])
@@ -458,7 +460,7 @@ function getDescription(options: ExtractOptions) {
 /**
  * Extract an icons from page.
  */
-function getIcon(options: ExtractOptions): ImageEntity[] {
+function getIcon(options: ExtractOptions): Image[] {
   return toArray(options.metadata?.icons).map((x) => {
     const [width, height] =
       x.sizes
@@ -480,7 +482,7 @@ function getIcon(options: ExtractOptions): ImageEntity[] {
 /**
  * Get the meta image url.
  */
-function getImage(options: ExtractOptions): ImageEntity[] {
+function getImage(options: ExtractOptions): Image[] {
   const ogpImages = jsonLdArray(
     first(
       options.graph,
@@ -493,9 +495,9 @@ function getImage(options: ExtractOptions): ImageEntity[] {
     toArray(options.metadata?.twitter?.image) ||
     toArray(options.metadata?.twitter?.image0);
   const sailthruImage = options.metadata?.sailthru?.["image.full"];
-  const images: ImageEntity[] = [];
+  const images: Image[] = [];
 
-  function addImage(newImage: ImageEntity, append: boolean) {
+  function addImage(newImage: Image, append: boolean) {
     for (const image of images) {
       if (image.url === newImage.url) {
         copyProps(image, newImage);
@@ -518,11 +520,15 @@ function getImage(options: ExtractOptions): ImageEntity[] {
     append: boolean
   ) {
     for (let i = 0; i < urls.length; i++) {
+      const secureUrl = toUrl(secureUrls[i], options.url);
+      const url = toUrl(urls[i], options.url) ?? secureUrl;
+      if (!url) continue;
+
       addImage(
         {
           type: "image",
-          url: toUrl(urls[i], options.url),
-          secureUrl: toUrl(secureUrls[i], options.url),
+          url: url,
+          secureUrl: secureUrl,
           encodingFormat: types[i],
           description: alts[i],
           width: toNumber(widths[i]),
@@ -534,13 +540,11 @@ function getImage(options: ExtractOptions): ImageEntity[] {
   }
 
   if (sailthruImage) {
-    addImage(
-      {
-        type: "image",
-        url: toUrl(sailthruImage, options.url),
-      },
-      true
-    );
+    const url = toUrl(sailthruImage, options.url);
+
+    if (url) {
+      addImage({ type: "image", url }, true);
+    }
   }
 
   if (ogpImages) {
@@ -602,7 +606,7 @@ function getImage(options: ExtractOptions): ImageEntity[] {
 /**
  * Get the meta audio information.
  */
-function getAudio(options: ExtractOptions): AudioEntity[] {
+function getAudio(options: ExtractOptions): Audio[] {
   const ogpAudios = jsonLdArray(
     first(
       options.graph,
@@ -611,9 +615,9 @@ function getAudio(options: ExtractOptions): AudioEntity[] {
         (x["http://ogp.me/ns#audio:url"] as RdfaNode[])
     )
   );
-  const audios: AudioEntity[] = [];
+  const audios: Audio[] = [];
 
-  function addAudio(newAudio: AudioEntity) {
+  function addAudio(newAudio: Audio) {
     for (const audio of audios) {
       if (audio.url === newAudio.url) {
         copyProps(audio, newAudio);
@@ -630,12 +634,12 @@ function getAudio(options: ExtractOptions): AudioEntity[] {
     types: string[] = []
   ) {
     for (let i = 0; i < urls.length; i++) {
-      addAudio({
-        type: "audio",
-        url: toUrl(urls[i], options.url),
-        secureUrl: toUrl(secureUrls[i], options.url),
-        encodingFormat: types[i],
-      });
+      const secureUrl = toUrl(secureUrls[i], options.url);
+      const url = toUrl(urls[i], options.url) ?? secureUrl;
+      if (!url) continue;
+
+      const encodingFormat = types[i];
+      addAudio({ type: "audio", url, secureUrl, encodingFormat });
     }
   }
 
@@ -662,7 +666,7 @@ function getAudio(options: ExtractOptions): AudioEntity[] {
 /**
  * Get the meta image url.
  */
-function getVideo(options: ExtractOptions): VideoEntity[] {
+function getVideo(options: ExtractOptions): Video[] {
   const ogpVideos = jsonLdArray(
     first(
       options.graph,
@@ -671,9 +675,9 @@ function getVideo(options: ExtractOptions): VideoEntity[] {
         (x["http://ogp.me/ns#video:url"] as RdfaNode[])
     )
   );
-  const videos: VideoEntity[] = [];
+  const videos: Video[] = [];
 
-  function addVideo(newVideo: VideoEntity) {
+  function addVideo(newVideo: Video) {
     for (const video of videos) {
       if (video.url === newVideo.url) {
         copyProps(video, newVideo);
@@ -692,13 +696,21 @@ function getVideo(options: ExtractOptions): VideoEntity[] {
     heights: string[] = []
   ) {
     for (let i = 0; i < urls.length; i++) {
+      const secureUrl = toUrl(secureUrls[i], options.url);
+      const url = toUrl(urls[i], options.url) ?? secureUrl;
+      if (!url) continue;
+
+      const encodingFormat = types[i];
+      const width = toNumber(widths[i]);
+      const height = toNumber(heights[i]);
+
       addVideo({
         type: "video",
-        url: toUrl(urls[i], options.url),
-        secureUrl: toUrl(secureUrls[i], options.url),
-        encodingFormat: types[i],
-        width: toNumber(widths[i]),
-        height: toNumber(heights[i]),
+        url,
+        secureUrl,
+        encodingFormat,
+        width,
+        height,
       });
     }
   }
@@ -733,25 +745,34 @@ function getVideo(options: ExtractOptions): VideoEntity[] {
   }
 
   if (options.metadata?.twitter?.card === "player") {
-    const embedUrl = options.metadata?.twitter?.["player"];
+    const embedUrl = toUrl(options.metadata?.twitter?.["player"], options.url);
     const width = toNumber(options.metadata?.twitter?.["player:width"]);
     const height = toNumber(options.metadata?.twitter?.["player:height"]);
-    const url = options.metadata?.twitter?.["player:stream"];
-    const encodingFormat =
+    const streamUrl = toUrl(
+      options.metadata?.twitter?.["player:stream"],
+      options.url
+    );
+    const streamEncodingFormat =
       options.metadata?.twitter?.["player:stream:content_type"];
 
     if (embedUrl && width && height) {
       addVideo({
         type: "video",
-        url: toUrl(embedUrl, options.url),
+        url: embedUrl,
         encodingFormat: "text/html",
         width,
         height,
       });
     }
 
-    if (url) {
-      addVideo({ type: "video", url, encodingFormat, width, height });
+    if (streamUrl) {
+      addVideo({
+        type: "video",
+        url: streamUrl,
+        encodingFormat: streamEncodingFormat,
+        width,
+        height,
+      });
     }
   }
 
@@ -761,7 +782,7 @@ function getVideo(options: ExtractOptions): VideoEntity[] {
 /**
  * Get apps metadata.
  */
-function getApps(options: ExtractOptions): SnippetApp[] {
+function getApps(options: ExtractOptions): App[] {
   return list(
     filter([
       getIphoneApp(options),
@@ -778,7 +799,7 @@ function getApps(options: ExtractOptions): SnippetApp[] {
 /**
  * Extract iPad app information from metadata.
  */
-function getIpadApp(options: ExtractOptions): SnippetApp | undefined {
+function getIpadApp(options: ExtractOptions): App | undefined {
   const twitterIpadUrl = options.metadata?.twitter?.["app:url:ipad"];
   const twitterIpadId = options.metadata?.twitter?.["app:id:ipad"];
   const twitterIpadName = options.metadata?.twitter?.["app:name:ipad"];
@@ -811,7 +832,7 @@ function getIpadApp(options: ExtractOptions): SnippetApp | undefined {
 /**
  * Extract iPhone app information from metadata.
  */
-function getIphoneApp(options: ExtractOptions): SnippetApp | undefined {
+function getIphoneApp(options: ExtractOptions): App | undefined {
   const twitterIphoneUrl = options.metadata?.twitter?.["app:url:iphone"];
   const twitterIphoneId = options.metadata?.twitter?.["app:id:iphone"];
   const twitterIphoneName = options.metadata?.twitter?.["app:name:iphone"];
@@ -844,7 +865,7 @@ function getIphoneApp(options: ExtractOptions): SnippetApp | undefined {
 /**
  * Extract the iOS app metadata.
  */
-function getIosApp(options: ExtractOptions): SnippetApp | undefined {
+function getIosApp(options: ExtractOptions): App | undefined {
   const applinksUrl = options.metadata?.applinks?.["ios:url"];
   const applinksId = options.metadata?.applinks?.["ios:app_store_id"];
   const applinksName = options.metadata?.applinks?.["ios:app_name"];
@@ -862,7 +883,7 @@ function getIosApp(options: ExtractOptions): SnippetApp | undefined {
 /**
  * Extract Android app metadata.
  */
-function getAndroidApp(options: ExtractOptions): SnippetApp | undefined {
+function getAndroidApp(options: ExtractOptions): App | undefined {
   const twitterAndroidUrl = options.metadata?.twitter?.["app:url:googleplay"];
   const twitterAndroidId = options.metadata?.twitter?.["app:id:googleplay"];
   const twitterAndroidName = options.metadata?.twitter?.["app:name:googleplay"];
@@ -893,7 +914,7 @@ function getAndroidApp(options: ExtractOptions): SnippetApp | undefined {
 /**
  * Extract Windows Phone app metadata.
  */
-function getWindowsPhoneApp(options: ExtractOptions): SnippetApp | undefined {
+function getWindowsPhoneApp(options: ExtractOptions): App | undefined {
   const applinksWindowsPhoneUrl =
     options.metadata?.applinks?.["windows_phone:url"];
   const applinksWindowsPhoneId =
@@ -919,7 +940,7 @@ function getWindowsPhoneApp(options: ExtractOptions): SnippetApp | undefined {
 /**
  * Extract Windows app metadata.
  */
-function getWindowsApp(options: ExtractOptions): SnippetApp | undefined {
+function getWindowsApp(options: ExtractOptions): App | undefined {
   const applinksWindowsUrl = options.metadata?.applinks?.["windows:url"];
   const applinksWindowsId = options.metadata?.applinks?.["windows:app_id"];
   const applinksWindowsName = options.metadata?.applinks?.["windows:app_name"];
@@ -938,9 +959,7 @@ function getWindowsApp(options: ExtractOptions): SnippetApp | undefined {
 /**
  * Extract Windows Universal app metadata.
  */
-function getWindowsUniversalApp(
-  options: ExtractOptions
-): SnippetApp | undefined {
+function getWindowsUniversalApp(options: ExtractOptions): App | undefined {
   const applinksWindowsUniversalUrl =
     options.metadata?.applinks?.["windows_universal:url"];
   const applinksWindowsUniversalId =
@@ -984,12 +1003,10 @@ function toTwitterHandle(value?: string) {
 /**
  * Extract HTML page content types.
  */
-function getMainEntity(options: ExtractOptions): Entity | undefined {
-  const twitterType = options.metadata?.twitter?.card;
+function getMainEntity(options: ExtractOptions): MainEntity | undefined {
   const ogpType = jsonLdValueToString(
     first(options.graph, (x) => x["http://ogp.me/ns#type"] as RdfaNode[])
   );
-  const oembedType = options.oembed?.type;
 
   if (ogpType === "article") {
     return {
@@ -1028,23 +1045,22 @@ function getMainEntity(options: ExtractOptions): Entity | undefined {
       ),
     };
   }
+}
 
-  if (oembedType === "video") {
-    return {
-      type: "video",
-      html: toString(options.oembed?.html),
-      width: toNumber(options.oembed?.width),
-      height: toNumber(options.oembed?.height),
-    };
-  }
+function getEmbed(options: ExtractOptions): Embed | undefined {
+  const twitterType = options.metadata?.twitter?.card;
+  const oembedType = options.oembed?.type;
+  const html = toString(options.oembed?.html);
 
-  if (oembedType === "rich") {
-    return {
-      type: "embed",
-      html: toString(options.oembed?.html),
-      width: toNumber(options.oembed?.width),
-      height: toNumber(options.oembed?.height),
-    };
+  if ((oembedType === "video" || oembedType === "rich") && html) {
+    const html = toString(options.oembed?.html);
+
+    if (html) {
+      const width = toNumber(options.oembed?.width);
+      const height = toNumber(options.oembed?.height);
+
+      return { type: "rich", html, width, height };
+    }
   }
 
   if (
@@ -1052,13 +1068,13 @@ function getMainEntity(options: ExtractOptions): Entity | undefined {
     twitterType === "gallery" ||
     oembedType === "photo"
   ) {
-    return {
-      type: "image",
-      url: toUrl(toString(options.oembed?.url), options.url),
-      width: toNumber(options.oembed?.width),
-      height: toNumber(options.oembed?.height),
-    };
-  }
+    const url = toUrl(toString(options.oembed?.url), options.url);
 
-  return;
+    if (url) {
+      const width = toNumber(options.oembed?.width);
+      const height = toNumber(options.oembed?.height);
+
+      return { type: "image", url, width, height };
+    }
+  }
 }
