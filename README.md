@@ -1,27 +1,25 @@
-# Scrappy
+# Unfurl
 
-[![NPM version](https://img.shields.io/npm/v/scrappy.svg?style=flat)](https://npmjs.org/package/scrappy)
-[![NPM downloads](https://img.shields.io/npm/dm/scrappy.svg?style=flat)](https://npmjs.org/package/scrappy)
-[![Build status](https://img.shields.io/travis/blakeembrey/node-scrappy.svg?style=flat)](https://travis-ci.org/blakeembrey/node-scrappy)
-[![Test coverage](https://img.shields.io/coveralls/blakeembrey/node-scrappy.svg?style=flat)](https://coveralls.io/r/blakeembrey/node-scrappy?branch=master)
+[![NPM version][npm-image]][npm-url]
+[![NPM downloads][downloads-image]][downloads-url]
+[![Build status][travis-image]][travis-url]
+[![Test coverage][coveralls-image]][coveralls-url]
 
 > Extract rich metadata from URLs.
-
-[Try it using Runkit!](https://runkit.com/blakeembrey/scrappy)
 
 ## Installation
 
 ```
-npm install scrappy --save
+npm install @borderless/unfurl --save
 ```
 
 ## Usage
 
-**Scrappy** attempts to parse and extract rich structured metadata from URLs.
+**Unfurl** attempts to parse and extract rich structured metadata from URLs.
 
 ```js
-import { scraper, urlScraper } from "scrappy";
-import * as plugins from "scrappy/dist/plugins";
+import { scraper, urlScraper } from "@borderless/unfurl";
+import * as plugins from "@borderless/unfurl/dist/plugins";
 ```
 
 ### Scraper
@@ -57,3 +55,12 @@ await scrape("http://example.com");
 ## License
 
 Apache 2.0
+
+[npm-image]: https://img.shields.io/npm/v/@borderless/unfurl.svg?style=flat
+[npm-url]: https://npmjs.org/package/@borderless/unfurl
+[downloads-image]: https://img.shields.io/npm/dm/@borderless/unfurl.svg?style=flat
+[downloads-url]: https://npmjs.org/package/@borderless/unfurl
+[travis-image]: https://img.shields.io/travis/borderless/unfurl.svg?style=flat
+[travis-url]: https://travis-ci.org/borderless/unfurl
+[coveralls-image]: https://img.shields.io/coveralls/borderless/unfurl.svg?style=flat
+[coveralls-url]: https://coveralls.io/r/borderless/unfurl?branch=master

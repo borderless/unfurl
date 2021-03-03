@@ -165,7 +165,7 @@ const buildFilename = (url: string, options: RequestOptions) => {
   return filenamify(url);
 };
 
-describe("scrappy", function () {
+describe("unfurl", function () {
   const request: Request = async (url, options = {}) => {
     const filename = buildFilename(url, options);
     const path = join(FIXTURE_DIR, filename);
@@ -176,8 +176,7 @@ describe("scrappy", function () {
       const res = await fetch(url, {
         headers: {
           Accept: options.accept || "*/*",
-          "User-Agent":
-            "Scrappy-Browser 1.0 (+https://github.com/blakeembrey/node-scrappy)",
+          "User-Agent": "UnfurlBot 1.0 (+https://github.com/borderless/unfurl)",
         },
       });
 

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`scrappy http://cloudinary.com/pricing 1`] = `
+exports[`unfurl http://cloudinary.com/pricing 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -153,7 +153,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://cnn.com/ 1`] = `
+exports[`unfurl http://cnn.com/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -196,7 +196,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://d.pr/a/q3z9 1`] = `
+exports[`unfurl http://d.pr/a/q3z9 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -255,7 +255,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://dealmoon.com/ 1`] = `
+exports[`unfurl http://dealmoon.com/ 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -317,7 +317,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://everlane.com/ 1`] = `
+exports[`unfurl http://everlane.com/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -399,7 +399,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://franz.com/agraph/allegrograph/ 1`] = `
+exports[`unfurl http://franz.com/agraph/allegrograph/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -444,7 +444,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268?utm_campaign=socialflow_gizmodo_twitter&utm_source=gizmodo_twitter&utm_medium=socialflow 1`] = `
+exports[`unfurl http://gizmodo.com/the-dnc-hack-was-much-bigger-than-we-thought-1785145268?utm_campaign=socialflow_gizmodo_twitter&utm_source=gizmodo_twitter&utm_medium=socialflow 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -512,7 +512,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://hackerne.ws 1`] = `
+exports[`unfurl http://hackerne.ws 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -549,7 +549,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://html5doctor.com/microdata/ 1`] = `
+exports[`unfurl http://html5doctor.com/microdata/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -588,7 +588,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png 1`] = `
+exports[`unfurl http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png 1`] = `
 Object {
   "camera": Object {
     "lensMake": undefined,
@@ -609,7 +609,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=ideas-blog&utm_term=education 1`] = `
+exports[`unfurl http://ideas.ted.com/why-i-learned-20-languages-and-what-i-learned-about-myself-in-the-process/?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=ideas-blog&utm_term=education 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -676,7 +676,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://knexjs.org/ 1`] = `
+exports[`unfurl http://knexjs.org/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -727,7 +727,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3 1`] = `
+exports[`unfurl http://mashable.com/2016/06/17/battle-of-the-bastards-game-of-thrones-fantasy-ending/#L2pP7_P5k5q3 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -892,7 +892,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://ogp.me/ 1`] = `
+exports[`unfurl http://ogp.me/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -931,7 +931,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://shop.boostedboards.com/products/boosted-dual-plus?variant=1141824744 1`] = `
+exports[`unfurl http://shop.boostedboards.com/products/boosted-dual-plus?variant=1141824744 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -968,7 +968,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://store.steampowered.com/app/8930/ 1`] = `
+exports[`unfurl http://store.steampowered.com/app/8930/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -1015,7 +1015,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://waitbutwhy.com/2016/09/marriage-decision.html 1`] = `
+exports[`unfurl http://waitbutwhy.com/2016/09/marriage-decision.html 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -1068,7 +1068,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf 1`] = `
+exports[`unfurl http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf 1`] = `
 Object {
   "author": undefined,
   "creator": Object {
@@ -1086,7 +1086,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769?&_trksid=p2056016.l4276 1`] = `
+exports[`unfurl http://www.ebay.com/itm/Outdoor-Wicker-Patio-Furniture-Sofa-3-Seater-Luxury-Comfort-Brown-Wicker-Couch-/381228738769?&_trksid=p2056016.l4276 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -1125,7 +1125,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://www.imdb.com/title/tt1375666/ 1`] = `
+exports[`unfurl http://www.imdb.com/title/tt1375666/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -1224,7 +1224,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/ 1`] = `
+exports[`unfurl http://www.lifehacker.com.au/2016/08/some-bill-providers-automatically-update-your-credit-card-when-you-get-a-new-one/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -1284,7 +1284,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://www.mysteryranch.com/asap-pack 1`] = `
+exports[`unfurl http://www.mysteryranch.com/asap-pack 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -1342,7 +1342,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://www.newegg.com/Product/Product.aspx?Item=28-840-014 1`] = `
+exports[`unfurl http://www.newegg.com/Product/Product.aspx?Item=28-840-014 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -1393,7 +1393,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123 1`] = `
+exports[`unfurl http://www.news.com.au/world/breaking-news/uk-man-tried-to-kill-trump-court-papers/news-story/c4116603f54f1b7c88339cd039c7e123 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -1475,7 +1475,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection 1`] = `
+exports[`unfurl http://www.nytimes.com/2016/06/15/opinion/campaign-stops/decoding-donald-trump.html?action=click&module=MostEmailed&region=Lists&pgtype=collection 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -1577,7 +1577,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://www.reddit.com/ 1`] = `
+exports[`unfurl http://www.reddit.com/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -1708,7 +1708,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter 1`] = `
+exports[`unfurl http://www.theverge.com/2016/8/10/12416766/google-white-house-ostp-emails?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -1793,7 +1793,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://www.yelp.com/biz/boba-guys-san-francisco-4 1`] = `
+exports[`unfurl http://www.yelp.com/biz/boba-guys-san-francisco-4 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -1891,7 +1891,7 @@ Object {
 }
 `;
 
-exports[`scrappy http://xkcd.com/208/ 1`] = `
+exports[`unfurl http://xkcd.com/208/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -1938,7 +1938,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly 1`] = `
+exports[`unfurl https://aaronparecki.com/2016/08/23/2/micropub-cr?utm_medium=email&utm_source=html5weekly 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -1983,7 +1983,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://adactio.com/journal/9881 1`] = `
+exports[`unfurl https://adactio.com/journal/9881 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -2064,7 +2064,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://atom.io/themes/aesthetic-ui 1`] = `
+exports[`unfurl https://atom.io/themes/aesthetic-ui 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -2111,7 +2111,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://bjango.com/articles/pngoptimisation/ 1`] = `
+exports[`unfurl https://bjango.com/articles/pngoptimisation/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -2172,7 +2172,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://bjango.com/mac/istatmenus/ 1`] = `
+exports[`unfurl https://bjango.com/mac/istatmenus/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -2233,7 +2233,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg 1`] = `
+exports[`unfurl https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg 1`] = `
 Object {
   "camera": Object {
     "lensMake": undefined,
@@ -2254,7 +2254,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://c2.staticflickr.com/4/3930/15428630771_61e9dcf6f4_o.jpg 1`] = `
+exports[`unfurl https://c2.staticflickr.com/4/3930/15428630771_61e9dcf6f4_o.jpg 1`] = `
 Object {
   "camera": Object {
     "lensMake": "Apple",
@@ -2275,7 +2275,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf 1`] = `
+exports[`unfurl https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf 1`] = `
 Object {
   "author": Object {
     "name": "chenliang",
@@ -2295,7 +2295,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://dev.twitter.com/cards/types/player 1`] = `
+exports[`unfurl https://dev.twitter.com/cards/types/player 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -2348,7 +2348,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://developers.google.com/search/docs/guides/intro-structured-data 1`] = `
+exports[`unfurl https://developers.google.com/search/docs/guides/intro-structured-data 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -2402,7 +2402,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29 1`] = `
+exports[`unfurl https://discourse.codinghorror.com/t/the-raspberry-pi-has-revolutionized-emulation/4462/29 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -2456,7 +2456,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing 1`] = `
+exports[`unfurl https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -2509,7 +2509,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing 1`] = `
+exports[`unfurl https://docs.google.com/spreadsheets/d/1teKblpByMmLaSmRAqDCyLXf0RApcJg3sg4E0MMmfrPg/edit?usp=sharing 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -2562,7 +2562,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing 1`] = `
+exports[`unfurl https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -2615,7 +2615,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://droplr.com/droplr-addition-google-chrome-extension 1`] = `
+exports[`unfurl https://droplr.com/droplr-addition-google-chrome-extension 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -2697,7 +2697,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://en.wikipedia.org/wiki/Jean-Luc_Picard 1`] = `
+exports[`unfurl https://en.wikipedia.org/wiki/Jean-Luc_Picard 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -2751,7 +2751,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://en.wikipedia.org/wiki/TypeScript 1`] = `
+exports[`unfurl https://en.wikipedia.org/wiki/TypeScript 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -2795,7 +2795,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324 1`] = `
+exports[`unfurl https://foursquare.com/v/boba-guys/51abb0a3498eb42c0d5cf324 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -2958,7 +2958,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3 1`] = `
+exports[`unfurl https://foursquare.com/v/bondi-beach/4b058763f964a520848f22e3 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -3126,7 +3126,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://foursquare.com/v/bourke-street-bakery/4b0b4a63f964a520fa2f23e3 1`] = `
+exports[`unfurl https://foursquare.com/v/bourke-street-bakery/4b0b4a63f964a520fa2f23e3 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -3291,7 +3291,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3 1`] = `
+exports[`unfurl https://foursquare.com/v/darling-harbour/4b058762f964a5201d8f22e3 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -3457,7 +3457,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3 1`] = `
+exports[`unfurl https://foursquare.com/v/mrs-macquaries-point/4b3c2445f964a520348225e3 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -3618,7 +3618,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3 1`] = `
+exports[`unfurl https://foursquare.com/v/royal-botanic-garden/4b058761f964a520188f22e3 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -3781,7 +3781,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3 1`] = `
+exports[`unfurl https://foursquare.com/v/sydney-opera-house/4b058762f964a5201b8f22e3 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -3944,7 +3944,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182 1`] = `
+exports[`unfurl https://foursquare.com/v/the-baxter-inn/4ed4896c775b45f6ed7b0182 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -4106,7 +4106,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://github.com/ 1`] = `
+exports[`unfurl https://github.com/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4171,7 +4171,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://github.com/Microsoft/TypeScript/issues/10462 1`] = `
+exports[`unfurl https://github.com/Microsoft/TypeScript/issues/10462 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4218,7 +4218,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://github.com/blakeembrey 1`] = `
+exports[`unfurl https://github.com/blakeembrey 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4265,7 +4265,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://github.com/blakeembrey/popsicle 1`] = `
+exports[`unfurl https://github.com/blakeembrey/popsicle 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4312,7 +4312,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://github.com/blog/2242-git-2-10-has-been-released 1`] = `
+exports[`unfurl https://github.com/blog/2242-git-2-10-has-been-released 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4379,7 +4379,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://github.com/moment/moment/pull/3323 1`] = `
+exports[`unfurl https://github.com/moment/moment/pull/3323 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4426,7 +4426,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://i.imgur.com/mvUPRyV.png 1`] = `
+exports[`unfurl https://i.imgur.com/mvUPRyV.png 1`] = `
 Object {
   "camera": Object {
     "lensMake": undefined,
@@ -4447,7 +4447,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://ianstormtaylor.com/design-tip-never-use-black/ 1`] = `
+exports[`unfurl https://ianstormtaylor.com/design-tip-never-use-black/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4476,7 +4476,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8 1`] = `
+exports[`unfurl https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4560,7 +4560,7 @@ Notes:
 }
 `;
 
-exports[`scrappy https://itunes.apple.com/us/movie/the-avengers/id533654020 1`] = `
+exports[`unfurl https://itunes.apple.com/us/movie/the-avengers/id533654020 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4609,7 +4609,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://learnxinyminutes.com/docs/standard-ml/ 1`] = `
+exports[`unfurl https://learnxinyminutes.com/docs/standard-ml/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4638,7 +4638,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt 1`] = `
+exports[`unfurl https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.a0wjf4ltt 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -4739,7 +4739,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://moz.com/community/q/are-rel-author-and-rel-publisher-meta-tags-currently-in-use 1`] = `
+exports[`unfurl https://moz.com/community/q/are-rel-author-and-rel-publisher-meta-tags-currently-in-use 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4768,7 +4768,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://news.ycombinator.com/item?id=12282756 1`] = `
+exports[`unfurl https://news.ycombinator.com/item?id=12282756 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4805,7 +4805,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://pragprog.com/book/btlang/seven-languages-in-seven-weeks 1`] = `
+exports[`unfurl https://pragprog.com/book/btlang/seven-languages-in-seven-weeks 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4897,7 +4897,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://schema.org/WebSite 1`] = `
+exports[`unfurl https://schema.org/WebSite 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4934,7 +4934,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://schema.org/docs/schema_org_rdfa.html 1`] = `
+exports[`unfurl https://schema.org/docs/schema_org_rdfa.html 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -4963,7 +4963,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://segment.com/blog/the-segment-aws-stack/ 1`] = `
+exports[`unfurl https://segment.com/blog/the-segment-aws-stack/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -5010,7 +5010,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://slant6.bandcamp.com/ 1`] = `
+exports[`unfurl https://slant6.bandcamp.com/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -5073,7 +5073,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://smile.amazon.com/gp/product/1937785734/ref=s9_qpp_gw_d99_g14_i5_r?ie=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-1&pf_rd_r=92JG667YC8526036ANPR&pf_rd_t=36701&pf_rd_p=6aad23bd-3035-4a40-b691-0eefb1a18396&pf_rd_i=desktop 1`] = `
+exports[`unfurl https://smile.amazon.com/gp/product/1937785734/ref=s9_qpp_gw_d99_g14_i5_r?ie=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-1&pf_rd_r=92JG667YC8526036ANPR&pf_rd_t=36701&pf_rd_p=6aad23bd-3035-4a40-b691-0eefb1a18396&pf_rd_i=desktop 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -5121,7 +5121,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://soundcloud.com/lifeofdesiigner/desiigner-panda 1`] = `
+exports[`unfurl https://soundcloud.com/lifeofdesiigner/desiigner-panda 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -5224,7 +5224,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels 1`] = `
+exports[`unfurl https://soundcloud.com/tobiasvanschneider/ntmy-episode-1-pieter-levels 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -5277,7 +5277,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://spreadprivacy.com/privacy-risks-note-apps/ 1`] = `
+exports[`unfurl https://spreadprivacy.com/privacy-risks-note-apps/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -5339,7 +5339,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/ 1`] = `
+exports[`unfurl https://stratechery.com/2016/google-uber-and-the-evolution-of-transportation-as-a-service/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -5434,7 +5434,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://tailwindui.com/pricing 1`] = `
+exports[`unfurl https://tailwindui.com/pricing 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -5463,7 +5463,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://techcrunch.com/ 1`] = `
+exports[`unfurl https://techcrunch.com/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -5524,7 +5524,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/ 1`] = `
+exports[`unfurl https://techcrunch.com/2016/06/17/the-europas-awards-2016-honored-the-best-tech-startups-in-europe/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -5595,7 +5595,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://techcrunch.com/2020/02/23/sensors-are-the-next-big-thing-in-space-not-starships/ 1`] = `
+exports[`unfurl https://techcrunch.com/2020/02/23/sensors-are-the-next-big-thing-in-space-not-starships/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -5666,7 +5666,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://trakt.tv/movies/kung-fury-2015 1`] = `
+exports[`unfurl https://trakt.tv/movies/kung-fury-2015 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -5720,7 +5720,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://twitter.com/ 1`] = `
+exports[`unfurl https://twitter.com/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -5764,7 +5764,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://twitter.com/SeanTAllen/status/764993929469161472 1`] = `
+exports[`unfurl https://twitter.com/SeanTAllen/status/764993929469161472 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -5801,7 +5801,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://twitter.com/alexisohanian/status/764997551384776704 1`] = `
+exports[`unfurl https://twitter.com/alexisohanian/status/764997551384776704 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -5874,7 +5874,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://twitter.com/blakeembrey 1`] = `
+exports[`unfurl https://twitter.com/blakeembrey 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -5938,7 +5938,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://twitter.com/ericclemmons/status/749223563790471169 1`] = `
+exports[`unfurl https://twitter.com/ericclemmons/status/749223563790471169 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -6021,7 +6021,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://twitter.com/typescriptlang/status/743113612407889920 1`] = `
+exports[`unfurl https://twitter.com/typescriptlang/status/743113612407889920 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -6094,7 +6094,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf 1`] = `
+exports[`unfurl https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf 1`] = `
 Object {
   "author": undefined,
   "creator": undefined,
@@ -6110,7 +6110,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6 1`] = `
+exports[`unfurl https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -6192,7 +6192,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.battlefield.com/buy/battlefield-1 1`] = `
+exports[`unfurl https://www.battlefield.com/buy/battlefield-1 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -6287,7 +6287,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.coursera.org/learn/machine-learning 1`] = `
+exports[`unfurl https://www.coursera.org/learn/machine-learning 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -6425,7 +6425,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.etsy.com/listing/549504785/pokenatomy-the-science-of-pokemon-an?ref=hp_prn&frs=1 1`] = `
+exports[`unfurl https://www.etsy.com/listing/549504785/pokenatomy-the-science-of-pokemon-an?ref=hp_prn&frs=1 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -6492,7 +6492,7 @@ This book is over 300 pages long and contains all of the original 151 Pokémon, 
 }
 `;
 
-exports[`scrappy https://www.facebook.com/ 1`] = `
+exports[`unfurl https://www.facebook.com/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -6539,7 +6539,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.flickr.com/photos/fabianf_/28229743586/sizes/o/ 1`] = `
+exports[`unfurl https://www.flickr.com/photos/fabianf_/28229743586/sizes/o/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -6595,7 +6595,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.flickr.com/photos/timdrivas/27999498362/in/explore-2016-07-05/ 1`] = `
+exports[`unfurl https://www.flickr.com/photos/timdrivas/27999498362/in/explore-2016-07-05/ 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -6682,7 +6682,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.google.com/maps/place/Boba+Guys/@37.7600441,-122.4233333,17z/data=!4m5!3m4!1s0x808f7e3cfdb89265:0x8ae0820c41111f70!8m2!3d37.7600017!4d-122.4211124 1`] = `
+exports[`unfurl https://www.google.com/maps/place/Boba+Guys/@37.7600441,-122.4233333,17z/data=!4m5!3m4!1s0x808f7e3cfdb89265:0x8ae0820c41111f70!8m2!3d37.7600017!4d-122.4211124 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -6729,7 +6729,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.instagram.com/p/BG0m4IDGaqk/ 1`] = `
+exports[`unfurl https://www.instagram.com/p/BG0m4IDGaqk/ 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -6841,7 +6841,7 @@ Photo cred: @conni.biesalski
 }
 `;
 
-exports[`scrappy https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks 1`] = `
+exports[`unfurl https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds/stocks-intro-tutorial/v/bonds-vs-stocks 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -6925,7 +6925,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor?ref=category_featured 1`] = `
+exports[`unfurl https://www.kickstarter.com/projects/lactate-threshold/lvl-the-first-wearable-hydration-monitor?ref=category_featured 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -7054,7 +7054,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.mulesoft.com/contact 1`] = `
+exports[`unfurl https://www.mulesoft.com/contact 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -7101,7 +7101,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.npmjs.com/package/filenamify 1`] = `
+exports[`unfurl https://www.npmjs.com/package/filenamify 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -7223,7 +7223,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date 1`] = `
+exports[`unfurl https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -7260,7 +7260,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/ 1`] = `
+exports[`unfurl https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -7391,7 +7391,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.rottentomatoes.com/m/inception/ 1`] = `
+exports[`unfurl https://www.rottentomatoes.com/m/inception/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -7466,7 +7466,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.sciencedaily.com/releases/2020/03/200311121832.htm 1`] = `
+exports[`unfurl https://www.sciencedaily.com/releases/2020/03/200311121832.htm 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -7503,7 +7503,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.spotify.com/ 1`] = `
+exports[`unfurl https://www.spotify.com/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -7589,7 +7589,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.ted.com/playlists/321/talks_to_form_better_habits?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=social-science 1`] = `
+exports[`unfurl https://www.ted.com/playlists/321/talks_to_form_better_habits?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=social-science 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -7683,7 +7683,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity 1`] = `
+exports[`unfurl https://www.ted.com/talks/tim_harford_how_messy_problems_can_inspire_creativity 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -7789,7 +7789,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.w3.org/TR/json-ld/ 1`] = `
+exports[`unfurl https://www.w3.org/TR/json-ld/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],
@@ -7818,7 +7818,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.youtube.com/watch?v=W9ZnpIGvZUo 1`] = `
+exports[`unfurl https://www.youtube.com/watch?v=W9ZnpIGvZUo 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -7934,7 +7934,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://www.youtube.com/watch?v=ZynZdGqxT7Q 1`] = `
+exports[`unfurl https://www.youtube.com/watch?v=ZynZdGqxT7Q 1`] = `
 Object {
   "apps": Array [
     Object {
@@ -8054,7 +8054,7 @@ Object {
 }
 `;
 
-exports[`scrappy https://yoast.com/wordpress/plugins/seo/ 1`] = `
+exports[`unfurl https://yoast.com/wordpress/plugins/seo/ 1`] = `
 Object {
   "apps": Array [],
   "audio": Array [],

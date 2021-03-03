@@ -1,5 +1,5 @@
 {
-  "name": "scrappy",
+  "name": "@borderless/unfurl",
   "version": "0.6.0",
   "description": "Extract rich metadata from URLs",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/blakeembrey/node-scrappy.git"
+    "url": "git://github.com/borderless/unfurl.git"
   },
   "keywords": [
     "metadata",
@@ -38,14 +38,14 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/blakeembrey/node-scrappy/issues"
+    "url": "https://github.com/borderless/unfurl/issues"
   },
-  "homepage": "https://github.com/blakeembrey/node-scrappy",
+  "homepage": "https://github.com/borderless/unfurl",
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "@borderless/ts-scripts": "^0.0.9",
+    "@borderless/ts-scripts": "^0.0.10",
     "@types/jest": "^26.0.20",
     "@types/jsonld": "^1.5.0",
     "@types/node": "^14.14.22",
