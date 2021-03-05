@@ -292,7 +292,8 @@ function copyProps<T>(target: T, data: Partial<T>): T {
  * Pick `@value` from a JSON-LD property.
  */
 function jsonLdValue(jsonLd: JsonLd): string | undefined {
-  return jsonLd["@value"] as string;
+  if (!jsonLd["@value"]) return;
+  return String(jsonLd["@value"]);
 }
 
 /**
@@ -300,6 +301,21 @@ function jsonLdValue(jsonLd: JsonLd): string | undefined {
  */
 function jsonLdKey(key: string, jsonLd: JsonLd): JsonLd[] | undefined {
   return jsonLd[key] as JsonLd[] | undefined;
+}
+
+/**
+ * Picks JSON-LD by `@type`.
+ */
+function jsonLdIsOfType(type: string, jsonLd: JsonLd): boolean {
+  const jsonLdType = jsonLd["@type"] || [];
+  return jsonLdType.includes(type);
+}
+
+/**
+ * Pick JSON-LD `@id` property.
+ */
+function jsonLdIdString(value: JsonLd[] = []): string | undefined {
+  return next(filter(map(value, (x) => x["@id"])), undefined);
 }
 
 /**
@@ -324,14 +340,21 @@ function decode(value?: string) {
 }
 
 /**
+ * Get the first non-nullable value from an iterable.
+ */
+function first<T>(value: Iterable<T>): T | undefined {
+  return next(filter(value), undefined);
+}
+
+/**
  * Get first value in array.
  */
-function first<T, R>(
+function firstOf<T, R>(
   value: T[] | undefined,
   mapFn: (value: T) => R | undefined
 ): R | undefined {
   if (!value) return;
-  return next(filter(map(value, mapFn)), undefined);
+  return first(map(value, mapFn));
 }
 
 /**
@@ -343,7 +366,7 @@ function getCanonicalUrl(options: ExtractOptions) {
     toUrl(options.metadata?.twitter?.url, options.url) ||
     toUrl(
       jsonLdValueString(
-        first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#url"))
+        firstOf(options.graph, partial(jsonLdKey, "http://ogp.me/ns#url"))
       ),
       options.url
     ) ||
@@ -359,12 +382,12 @@ function getAuthor(options: ExtractOptions): Person {
   const name =
     options.metadata?.html?.author ||
     jsonLdValueString(
-      first(
+      firstOf(
         options.graph,
         (x) =>
           jsonLdKey("http://ogp.me/ns/article#author", x) ||
           jsonLdKey("https://creativecommons.org/ns#attributionName", x) ||
-          first(jsonLdKey("http://schema.org/author", x), (x) =>
+          firstOf(jsonLdKey("http://schema.org/author", x), (x) =>
             jsonLdKey("http://schema.org/name", x)
           )
       )
@@ -385,11 +408,21 @@ function getTags(options: ExtractOptions): string[] {
   const htmlKeywords = options.metadata?.html?.keywords;
   if (htmlKeywords) return htmlKeywords.trim().split(/ *, */);
 
-  const videoTags = jsonLdValueArray(
-    first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#video:tag"))
+  const schemaKeywords = jsonLdValueArray(
+    firstOf(options.graph, partial(jsonLdKey, "http://schema.org/keywords"))
   );
+  if (schemaKeywords) {
+    // Some websites return it comma separated in a single string.
+    if (schemaKeywords.length === 1) return schemaKeywords[0].split(/ *, */);
+    return schemaKeywords;
+  }
 
-  return videoTags || [];
+  const videoTags = jsonLdValueArray(
+    firstOf(options.graph, partial(jsonLdKey, "http://ogp.me/ns#video:tag"))
+  );
+  if (videoTags) return videoTags;
+
+  return [];
 }
 
 /**
@@ -398,7 +431,7 @@ function getTags(options: ExtractOptions): string[] {
 function getProvider(options: ExtractOptions): Person {
   const name =
     jsonLdValueString(
-      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#site_name"))
+      firstOf(options.graph, partial(jsonLdKey, "http://ogp.me/ns#site_name"))
     ) ||
     decode(toString(options.oembed?.provider_name)) ||
     options.metadata?.html?.["application-name"] ||
@@ -424,7 +457,7 @@ function getHeadline(options: ExtractOptions) {
   return (
     decode(toString(options.oembed?.title)) ||
     jsonLdValueString(
-      first(
+      firstOf(
         options.graph,
         (x) =>
           jsonLdKey("http://ogp.me/ns#title", x) ||
@@ -444,7 +477,7 @@ function getHeadline(options: ExtractOptions) {
 function getDescription(options: ExtractOptions) {
   return (
     jsonLdValueString(
-      first(
+      firstOf(
         options.graph,
         (x) =>
           jsonLdKey("http://schema.org/description", x) ||
@@ -485,7 +518,7 @@ function getIcon(options: ExtractOptions): Image[] {
  */
 function getImage(options: ExtractOptions): Image[] {
   const ogpImages = jsonLdValueArray(
-    first(
+    firstOf(
       options.graph,
       (x) =>
         jsonLdKey("http://ogp.me/ns#image", x) ||
@@ -550,16 +583,19 @@ function getImage(options: ExtractOptions): Image[] {
 
   if (ogpImages) {
     const ogpTypes = jsonLdValueArray(
-      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#image:type"))
+      firstOf(options.graph, partial(jsonLdKey, "http://ogp.me/ns#image:type"))
     );
     const ogpWidths = jsonLdValueArray(
-      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#image:width"))
+      firstOf(options.graph, partial(jsonLdKey, "http://ogp.me/ns#image:width"))
     );
     const ogpHeights = jsonLdValueArray(
-      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#image:height"))
+      firstOf(
+        options.graph,
+        partial(jsonLdKey, "http://ogp.me/ns#image:height")
+      )
     );
     const ogpSecureUrls = jsonLdValueArray(
-      first(
+      firstOf(
         options.graph,
         partial(jsonLdKey, "http://ogp.me/ns#image:secure_url")
       )
@@ -600,7 +636,7 @@ function getImage(options: ExtractOptions): Image[] {
  */
 function getAudio(options: ExtractOptions): Audio[] {
   const ogpAudios = jsonLdValueArray(
-    first(
+    firstOf(
       options.graph,
       (x) =>
         jsonLdKey("http://ogp.me/ns#audio", x) ||
@@ -637,10 +673,10 @@ function getAudio(options: ExtractOptions): Audio[] {
 
   if (ogpAudios) {
     const ogpTypes = jsonLdValueArray(
-      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#audio:type"))
+      firstOf(options.graph, partial(jsonLdKey, "http://ogp.me/ns#audio:type"))
     );
     const ogpSecureUrls = jsonLdValueArray(
-      first(
+      firstOf(
         options.graph,
         partial(jsonLdKey, "http://ogp.me/ns#audio:secure_url")
       )
@@ -657,7 +693,7 @@ function getAudio(options: ExtractOptions): Audio[] {
  */
 function getVideo(options: ExtractOptions): Video[] {
   const ogpVideos = jsonLdValueArray(
-    first(
+    firstOf(
       options.graph,
       (x) =>
         jsonLdKey("http://ogp.me/ns#video", x) ||
@@ -706,16 +742,19 @@ function getVideo(options: ExtractOptions): Video[] {
 
   if (ogpVideos) {
     const ogpTypes = jsonLdValueArray(
-      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#video:type"))
+      firstOf(options.graph, partial(jsonLdKey, "http://ogp.me/ns#video:type"))
     );
     const ogpWidths = jsonLdValueArray(
-      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#video:width"))
+      firstOf(options.graph, partial(jsonLdKey, "http://ogp.me/ns#video:width"))
     );
     const ogpHeights = jsonLdValueArray(
-      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#video:height"))
+      firstOf(
+        options.graph,
+        partial(jsonLdKey, "http://ogp.me/ns#video:height")
+      )
     );
     const ogpSecureUrls = jsonLdValueArray(
-      first(
+      firstOf(
         options.graph,
         partial(jsonLdKey, "http://ogp.me/ns#video:secure_url")
       )
@@ -967,7 +1006,7 @@ function getWindowsUniversalApp(options: ExtractOptions): App | undefined {
 function getLanguage(options: ExtractOptions): string | undefined {
   return (
     jsonLdValueString(
-      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#locale"))
+      firstOf(options.graph, partial(jsonLdKey, "http://ogp.me/ns#locale"))
     ) || options.metadata?.html?.["language"]
   );
 }
@@ -981,46 +1020,117 @@ function toTwitterHandle(value?: string) {
 }
 
 /**
+ * Convert a valid JSON-LD type to an image entity.
+ */
+function jsonLdToImage(
+  options: ExtractOptions,
+  jsonLd: JsonLd
+): Image | undefined {
+  const url = jsonLdIdString(jsonLdKey("http://schema.org/url", jsonLd));
+
+  // Ted.com put URLs to the main page in their image schema.
+  if (url && !url.startsWith(options.url)) {
+    const height = toNumber(
+      jsonLdValueString(jsonLdKey("http://schema.org/height", jsonLd))
+    );
+    const width = toNumber(
+      jsonLdValueString(jsonLdKey("http://schema.org/width", jsonLd))
+    );
+
+    return { type: "image", url, height, width };
+  }
+}
+
+/**
+ * Convert a JSON-LD object to a `Person` type.
+ */
+function jsonLdToPerson(
+  options: ExtractOptions,
+  jsonLd: JsonLd
+): Person | undefined {
+  const name = jsonLdValueString(jsonLdKey("http://schema.org/name", jsonLd));
+
+  if (name) {
+    const image = first(
+      map(
+        jsonLdKey("http://schema.org/logo", jsonLd) || [],
+        partial(jsonLdToImage, options)
+      )
+    );
+
+    return { name, image };
+  }
+}
+
+/**
  * Extract HTML page content types.
  */
 function getMainEntity(options: ExtractOptions): MainEntity | undefined {
-  const ogpType = jsonLdValueString(
-    first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#type"))
+  const ogp = next(
+    filter(options.graph || [], (x) => !!jsonLdKey("http://ogp.me/ns#type", x)),
+    {}
   );
 
-  if (ogpType === "article") {
+  const articleSchema = next(
+    filter(options.graph || [], (x) =>
+      jsonLdIsOfType("http://schema.org/NewsArticle", x)
+    ),
+    {} as JsonLd
+  );
+
+  const ogpType = jsonLdValueString(jsonLdKey("http://ogp.me/ns#type", ogp));
+
+  if (articleSchema["@type"] || ogpType === "article") {
     return {
       type: "article",
-      section: jsonLdValueString(
-        first(
-          options.graph,
-          partial(jsonLdKey, "http://ogp.me/ns/article#section")
+      image: list(
+        filter(
+          map(
+            jsonLdKey("http://schema.org/image", articleSchema) ?? [],
+            partial(jsonLdToImage, options)
+          )
         )
+      ),
+      author: next(
+        filter(
+          map(
+            jsonLdKey("http://schema.org/author", articleSchema) ?? [],
+            partial(jsonLdToPerson, options)
+          )
+        ),
+        undefined
+      ),
+      publisher: next(
+        filter(
+          map(
+            jsonLdKey("http://schema.org/publisher", articleSchema) ?? [],
+            partial(jsonLdToPerson, options)
+          )
+        ),
+        undefined
+      ),
+      headline: jsonLdValueString(
+        jsonLdKey("http://schema.org/headline", articleSchema)
+      ),
+      section: jsonLdValueString(
+        jsonLdKey("http://schema.org/articleSection", articleSchema) ??
+          jsonLdKey("http://ogp.me/ns/article#section", ogp)
       ),
       datePublished: toDate(
         jsonLdValueString(
-          first(
-            options.graph,
-            (x) =>
-              jsonLdKey("http://ogp.me/ns/article#published_time", x) ||
-              jsonLdKey("http://schema.org/datePublished", x)
-          )
+          jsonLdKey("http://schema.org/datePublished", articleSchema) ??
+            jsonLdKey("http://ogp.me/ns/article#published_time", ogp)
         )
       ),
       dateExpires: toDate(
         jsonLdValueString(
-          first(
-            options.graph,
-            partial(jsonLdKey, "http://ogp.me/ns/article#expiration_time")
-          )
+          jsonLdKey("http://ogp.me/ns/article#expiration_time", ogp)
         )
       ),
       dateModified: toDate(
         jsonLdValueString(
-          first(
-            options.graph,
-            partial(jsonLdKey, "http://ogp.me/ns/article#modified_time")
-          )
+          jsonLdKey("http://schema.org/dateModified", articleSchema) ??
+            jsonLdKey("http://ogp.me/ns/article#modified_time", ogp)
         )
       ),
     };

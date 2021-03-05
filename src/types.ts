@@ -113,6 +113,7 @@ export interface Person {
   name?: string;
   url?: string;
   twitterHandle?: string;
+  image?: Image;
 }
 
 export interface Camera {
@@ -135,7 +136,11 @@ export interface App {
 
 export interface ArticleEntity {
   type: "article";
+  headline?: string;
+  image?: Image[];
   section?: string;
+  publisher?: Person;
+  author?: Person;
   dateModified?: Date;
   datePublished?: Date;
   dateExpires?: Date;
