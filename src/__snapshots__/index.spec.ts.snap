@@ -306,7 +306,7 @@ Object {
   "language": undefined,
   "mainEntity": undefined,
   "provider": Object {
-    "name": "DealMoon",
+    "name": undefined,
     "twitterHandle": undefined,
     "url": undefined,
   },

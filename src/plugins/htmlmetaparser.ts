@@ -434,15 +434,7 @@ function getProvider(options: ExtractOptions): Person {
       firstOf(options.graph, partial(jsonLdKey, "http://ogp.me/ns#site_name"))
     ) ||
     decode(toString(options.oembed?.provider_name)) ||
-    options.metadata?.html?.["application-name"] ||
-    options.metadata?.html?.["apple-mobile-web-app-title"] ||
-    options.metadata?.twitter?.["app:name:iphone"] ||
-    options.metadata?.twitter?.["app:name:ipad"] ||
-    options.metadata?.twitter?.["app:name:googleplay"] ||
-    options.metadata?.applinks?.["ios:app_name"] ||
-    options.metadata?.applinks?.["ipad:app_name"] ||
-    options.metadata?.applinks?.["iphone:app_name"] ||
-    options.metadata?.twitter?.["android:app_name"];
+    options.metadata?.html?.["apple-mobile-web-app-title"];
 
   const url = toString(options.oembed?.provider_url);
   const twitterHandle = toTwitterHandle(options.metadata?.twitter?.site);
