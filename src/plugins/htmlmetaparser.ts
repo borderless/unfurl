@@ -3,7 +3,7 @@ import { WritableStream } from "htmlparser2/lib/WritableStream";
 import { Readable } from "stream";
 import { expand } from "jsonld";
 import type { Document, RemoteDocument } from "jsonld/jsonld-spec";
-import { memoizeOne } from "functools";
+import { memoizeOne, partial } from "functools";
 import { next, filter, map, list, flatten } from "iterative";
 import { decodeHTML } from "entities";
 import { contentType, readJson } from "../helpers";
@@ -118,17 +118,17 @@ async function getOembed(
 interface ExtractOptions {
   url: string;
   metadata?: Result;
-  graph?: RdfaNode[];
+  graph?: JsonLd[];
   oembed?: { [key: string]: unknown };
 }
 
-interface JsonLdValue {
-  "@value": string;
-}
-
 interface JsonLd {
-  "@graph": JsonLd[];
-  [key: string]: JsonLd[] | JsonLdValue[];
+  "@id"?: string;
+  "@language"?: string;
+  "@value"?: string;
+  "@graph"?: JsonLd[];
+  "@type"?: string[];
+  [key: string]: string | string[] | JsonLd[] | undefined;
 }
 
 /**
@@ -171,7 +171,7 @@ async function normalizeJsonLd(
   data: Document | undefined,
   url: string,
   request: Request
-) {
+): Promise<JsonLd[] | undefined> {
   if (!data) return;
 
   const documentLoader = createJsonLdLoader(request);
@@ -186,8 +186,8 @@ async function normalizeJsonLd(
   return Array.from(
     filter(
       flatten(
-        map(result, (x): JsonLd[] => {
-          return x["@graph"] || toArray(x);
+        map(result, (x) => {
+          return x["@graph"] ?? toArray<JsonLd>(x);
         }) as Iterable<JsonLd[]>
       ),
       (x) => {
@@ -249,7 +249,7 @@ function parseNumber(value: string): number | undefined {
 /**
  * Convert a string to valid number.
  */
-function toNumber(value: unknown | undefined): number | undefined {
+function toNumber(value: unknown): number | undefined {
   if (typeof value === "number") return value;
   if (typeof value === "string") return parseNumber(value);
 }
@@ -257,7 +257,7 @@ function toNumber(value: unknown | undefined): number | undefined {
 /**
  * Convert a string to a valid date.
  */
-function toDate(value: unknown | undefined): Date | undefined {
+function toDate(value: unknown): Date | undefined {
   if (typeof value !== "string") return;
 
   // Fix non-timezone specified ISO string to be UTC.
@@ -289,30 +289,31 @@ function copyProps<T>(target: T, data: Partial<T>): T {
 }
 
 /**
+ * Pick `@value` from a JSON-LD property.
+ */
+function jsonLdValue(jsonLd: JsonLd): string | undefined {
+  return jsonLd["@value"] as string;
+}
+
+/**
+ * Pick any key (shouldn't start with `@`) from JSON-LD.
+ */
+function jsonLdKey(key: string, jsonLd: JsonLd): JsonLd[] | undefined {
+  return jsonLd[key] as JsonLd[] | undefined;
+}
+
+/**
  * Pick JSON-LD `@value` property.
  */
-function jsonLdValueToString(value: RdfaNode[] = []): string | undefined {
-  return decode(
-    next(
-      filter(
-        map(value, (x) => x["@value"]),
-        (x) => typeof x === "string"
-      ),
-      undefined
-    )
-  );
+function jsonLdValueString(value: JsonLd[] = []): string | undefined {
+  return decode(next(filter(map(value, jsonLdValue)), undefined));
 }
 
 /**
  * Return a list of string values from JSON-LD.
  */
-function jsonLdArray(value: RdfaNode[] = []): string[] | undefined {
-  return list(
-    filter(
-      map(value, (x) => x["@value"]),
-      (x) => typeof x === "string"
-    )
-  );
+function jsonLdValueArray(value: JsonLd[] = []): string[] | undefined {
+  return list(map(filter(map(value, jsonLdValue)), decode));
 }
 
 /**
@@ -329,7 +330,8 @@ function first<T, R>(
   value: T[] | undefined,
   mapFn: (value: T) => R | undefined
 ): R | undefined {
-  return next(filter(map(value || [], mapFn)), undefined);
+  if (!value) return;
+  return next(filter(map(value, mapFn)), undefined);
 }
 
 /**
@@ -340,8 +342,8 @@ function getCanonicalUrl(options: ExtractOptions) {
     toUrl(options.metadata?.html?.canonical, options.url) ||
     toUrl(options.metadata?.twitter?.url, options.url) ||
     toUrl(
-      jsonLdValueToString(
-        first(options.graph, (x) => x["http://ogp.me/ns#url"] as RdfaNode[])
+      jsonLdValueString(
+        first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#url"))
       ),
       options.url
     ) ||
@@ -356,15 +358,14 @@ function getCanonicalUrl(options: ExtractOptions) {
 function getAuthor(options: ExtractOptions): Person {
   const name =
     options.metadata?.html?.author ||
-    jsonLdValueToString(
+    jsonLdValueString(
       first(
         options.graph,
         (x) =>
-          (x["http://ogp.me/ns/article#author"] as RdfaNode[]) ||
-          (x["https://creativecommons.org/ns#attributionName"] as RdfaNode[]) ||
-          first(
-            x["http://schema.org/author"] as RdfaNode[],
-            (x) => x["http://schema.org/name"] as RdfaNode[]
+          jsonLdKey("http://ogp.me/ns/article#author", x) ||
+          jsonLdKey("https://creativecommons.org/ns#attributionName", x) ||
+          first(jsonLdKey("http://schema.org/author", x), (x) =>
+            jsonLdKey("http://schema.org/name", x)
           )
       )
     ) ||
@@ -384,11 +385,11 @@ function getTags(options: ExtractOptions): string[] {
   const htmlKeywords = options.metadata?.html?.keywords;
   if (htmlKeywords) return htmlKeywords.trim().split(/ *, */);
 
-  const metaTags = jsonLdArray(
-    first(options.graph, (x) => x["http://ogp.me/ns#video:tag"] as RdfaNode[])
+  const videoTags = jsonLdValueArray(
+    first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#video:tag"))
   );
 
-  return metaTags || [];
+  return videoTags || [];
 }
 
 /**
@@ -396,8 +397,8 @@ function getTags(options: ExtractOptions): string[] {
  */
 function getProvider(options: ExtractOptions): Person {
   const name =
-    jsonLdValueToString(
-      first(options.graph, (x) => x["http://ogp.me/ns#site_name"] as RdfaNode[])
+    jsonLdValueString(
+      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#site_name"))
     ) ||
     decode(toString(options.oembed?.provider_name)) ||
     options.metadata?.html?.["application-name"] ||
@@ -422,12 +423,12 @@ function getProvider(options: ExtractOptions): Person {
 function getHeadline(options: ExtractOptions) {
   return (
     decode(toString(options.oembed?.title)) ||
-    jsonLdValueToString(
+    jsonLdValueString(
       first(
         options.graph,
         (x) =>
-          (x["http://ogp.me/ns#title"] as RdfaNode[]) ||
-          (x["http://purl.org/dc/terms/title"] as RdfaNode[])
+          jsonLdKey("http://ogp.me/ns#title", x) ||
+          jsonLdKey("http://purl.org/dc/terms/title", x)
       )
     ) ||
     options.metadata?.sailthru?.title ||
@@ -442,12 +443,12 @@ function getHeadline(options: ExtractOptions) {
  */
 function getDescription(options: ExtractOptions) {
   return (
-    jsonLdValueToString(
+    jsonLdValueString(
       first(
         options.graph,
         (x) =>
-          (x["http://ogp.me/ns#description"] as RdfaNode[]) ||
-          (x["http://schema.org/description"] as RdfaNode[])
+          jsonLdKey("http://schema.org/description", x) ||
+          jsonLdKey("http://ogp.me/ns#description", x)
       )
     ) ||
     decode(toString(options.oembed?.summary)) ||
@@ -483,12 +484,12 @@ function getIcon(options: ExtractOptions): Image[] {
  * Get the meta image url.
  */
 function getImage(options: ExtractOptions): Image[] {
-  const ogpImages = jsonLdArray(
+  const ogpImages = jsonLdValueArray(
     first(
       options.graph,
       (x) =>
-        (x["http://ogp.me/ns#image"] as RdfaNode[]) ||
-        (x["http://ogp.me/ns#image:url"] as RdfaNode[])
+        jsonLdKey("http://ogp.me/ns#image", x) ||
+        jsonLdKey("http://ogp.me/ns#image:url", x)
     )
   );
   const twitterImages =
@@ -548,28 +549,19 @@ function getImage(options: ExtractOptions): Image[] {
   }
 
   if (ogpImages) {
-    const ogpTypes = jsonLdArray(
-      first(
-        options.graph,
-        (x) => x["http://ogp.me/ns#image:type"] as RdfaNode[]
-      )
+    const ogpTypes = jsonLdValueArray(
+      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#image:type"))
     );
-    const ogpWidths = jsonLdArray(
-      first(
-        options.graph,
-        (x) => x["http://ogp.me/ns#image:width"] as RdfaNode[]
-      )
+    const ogpWidths = jsonLdValueArray(
+      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#image:width"))
     );
-    const ogpHeights = jsonLdArray(
-      first(
-        options.graph,
-        (x) => x["http://ogp.me/ns#image:height"] as RdfaNode[]
-      )
+    const ogpHeights = jsonLdValueArray(
+      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#image:height"))
     );
-    const ogpSecureUrls = jsonLdArray(
+    const ogpSecureUrls = jsonLdValueArray(
       first(
         options.graph,
-        (x) => x["http://ogp.me/ns#image:secure_url"] as RdfaNode[]
+        partial(jsonLdKey, "http://ogp.me/ns#image:secure_url")
       )
     );
 
@@ -607,12 +599,12 @@ function getImage(options: ExtractOptions): Image[] {
  * Get the meta audio information.
  */
 function getAudio(options: ExtractOptions): Audio[] {
-  const ogpAudios = jsonLdArray(
+  const ogpAudios = jsonLdValueArray(
     first(
       options.graph,
       (x) =>
-        (x["http://ogp.me/ns#audio"] as RdfaNode[]) ||
-        (x["http://ogp.me/ns#audio:url"] as RdfaNode[])
+        jsonLdKey("http://ogp.me/ns#audio", x) ||
+        jsonLdKey("http://ogp.me/ns#audio:url", x)
     )
   );
   const audios: Audio[] = [];
@@ -644,16 +636,13 @@ function getAudio(options: ExtractOptions): Audio[] {
   }
 
   if (ogpAudios) {
-    const ogpTypes = jsonLdArray(
-      first(
-        options.graph,
-        (x) => x["http://ogp.me/ns#audio:type"] as RdfaNode[]
-      )
+    const ogpTypes = jsonLdValueArray(
+      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#audio:type"))
     );
-    const ogpSecureUrls = jsonLdArray(
+    const ogpSecureUrls = jsonLdValueArray(
       first(
         options.graph,
-        (x) => x["http://ogp.me/ns#audio:secure_url"] as RdfaNode[]
+        partial(jsonLdKey, "http://ogp.me/ns#audio:secure_url")
       )
     );
 
@@ -667,12 +656,12 @@ function getAudio(options: ExtractOptions): Audio[] {
  * Get the meta image url.
  */
 function getVideo(options: ExtractOptions): Video[] {
-  const ogpVideos = jsonLdArray(
+  const ogpVideos = jsonLdValueArray(
     first(
       options.graph,
       (x) =>
-        (x["http://ogp.me/ns#video"] as RdfaNode[]) ||
-        (x["http://ogp.me/ns#video:url"] as RdfaNode[])
+        jsonLdKey("http://ogp.me/ns#video", x) ||
+        jsonLdKey("http://ogp.me/ns#video:url", x)
     )
   );
   const videos: Video[] = [];
@@ -716,28 +705,19 @@ function getVideo(options: ExtractOptions): Video[] {
   }
 
   if (ogpVideos) {
-    const ogpTypes = jsonLdArray(
-      first(
-        options.graph,
-        (x) => x["http://ogp.me/ns#video:type"] as RdfaNode[]
-      )
+    const ogpTypes = jsonLdValueArray(
+      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#video:type"))
     );
-    const ogpWidths = jsonLdArray(
-      first(
-        options.graph,
-        (x) => x["http://ogp.me/ns#video:width"] as RdfaNode[]
-      )
+    const ogpWidths = jsonLdValueArray(
+      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#video:width"))
     );
-    const ogpHeights = jsonLdArray(
-      first(
-        options.graph,
-        (x) => x["http://ogp.me/ns#video:height"] as RdfaNode[]
-      )
+    const ogpHeights = jsonLdValueArray(
+      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#video:height"))
     );
-    const ogpSecureUrls = jsonLdArray(
+    const ogpSecureUrls = jsonLdValueArray(
       first(
         options.graph,
-        (x) => x["http://ogp.me/ns#video:secure_url"] as RdfaNode[]
+        partial(jsonLdKey, "http://ogp.me/ns#video:secure_url")
       )
     );
 
@@ -986,8 +966,8 @@ function getWindowsUniversalApp(options: ExtractOptions): App | undefined {
  */
 function getLanguage(options: ExtractOptions): string | undefined {
   return (
-    jsonLdValueToString(
-      first(options.graph, (x) => x["http://ogp.me/ns#locale"] as RdfaNode[])
+    jsonLdValueString(
+      first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#locale"))
     ) || options.metadata?.html?.["language"]
   );
 }
@@ -1004,42 +984,42 @@ function toTwitterHandle(value?: string) {
  * Extract HTML page content types.
  */
 function getMainEntity(options: ExtractOptions): MainEntity | undefined {
-  const ogpType = jsonLdValueToString(
-    first(options.graph, (x) => x["http://ogp.me/ns#type"] as RdfaNode[])
+  const ogpType = jsonLdValueString(
+    first(options.graph, partial(jsonLdKey, "http://ogp.me/ns#type"))
   );
 
   if (ogpType === "article") {
     return {
       type: "article",
-      section: jsonLdValueToString(
+      section: jsonLdValueString(
         first(
           options.graph,
-          (x) => x["http://ogp.me/ns/article#section"] as RdfaNode[]
+          partial(jsonLdKey, "http://ogp.me/ns/article#section")
         )
       ),
       datePublished: toDate(
-        jsonLdValueToString(
+        jsonLdValueString(
           first(
             options.graph,
             (x) =>
-              (x["http://ogp.me/ns/article#published_time"] as RdfaNode[]) ||
-              (x["http://schema.org/datePublished"] as RdfaNode[])
+              jsonLdKey("http://ogp.me/ns/article#published_time", x) ||
+              jsonLdKey("http://schema.org/datePublished", x)
           )
         )
       ),
       dateExpires: toDate(
-        jsonLdValueToString(
+        jsonLdValueString(
           first(
             options.graph,
-            (x) => x["http://ogp.me/ns/article#expiration_time"] as RdfaNode[]
+            partial(jsonLdKey, "http://ogp.me/ns/article#expiration_time")
           )
         )
       ),
       dateModified: toDate(
-        jsonLdValueToString(
+        jsonLdValueString(
           first(
             options.graph,
-            (x) => x["http://ogp.me/ns/article#modified_time"] as RdfaNode[]
+            partial(jsonLdKey, "http://ogp.me/ns/article#modified_time")
           )
         )
       ),
