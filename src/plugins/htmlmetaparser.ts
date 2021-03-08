@@ -1,7 +1,7 @@
-import { Handler, Result, Alternative, RdfaNode } from "htmlmetaparser";
+import { Handler, Result, Alternative } from "htmlmetaparser";
 import { WritableStream } from "htmlparser2/lib/WritableStream";
-import { Readable } from "stream";
 import { expand } from "jsonld";
+import type { Readable } from "stream";
 import type { Document, RemoteDocument } from "jsonld/jsonld-spec";
 import { memoizeOne, partial } from "functools";
 import { next, filter, map, list, flatten } from "iterative";
