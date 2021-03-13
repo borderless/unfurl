@@ -229,7 +229,7 @@ describe("unfurl", function () {
 
   const scrape = urlScraper({
     request,
-    plugins: [plugins.htmlmetaparser, plugins.exifdata],
+    plugins: [plugins.htmlmetaparser, plugins.exif],
   });
 
   FIXTURES.forEach((fixtureUrl) => {

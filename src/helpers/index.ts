@@ -10,9 +10,17 @@ export function tee(stream: Readable): [Readable, Readable] {
 /**
  * Read stream into a buffer.
  */
-export async function readBuffer(stream: Readable): Promise<Buffer> {
+export async function readBuffer(
+  stream: Readable,
+  maxBytes = Infinity
+): Promise<Buffer> {
+  let size = 0;
   const buf: Buffer[] = [];
-  for await (const chunk of stream) buf.push(chunk);
+  for await (const chunk of stream) {
+    buf.push(chunk);
+    size += chunk.length;
+    if (size >= maxBytes) break;
+  }
   return Buffer.concat(buf);
 }
 

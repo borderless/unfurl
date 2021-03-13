@@ -607,22 +607,8 @@ Object {
 
 exports[`unfurl http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png 1`] = `
 Object {
-  "camera": Object {
-    "lensMake": undefined,
-    "lensModel": undefined,
-    "make": undefined,
-    "megapixels": 0.169,
-    "model": undefined,
-    "orientation": undefined,
-    "software": undefined,
-  },
-  "dateCreated": undefined,
-  "dateModified": undefined,
-  "encodingFormat": "image/png",
-  "height": 341,
   "type": "image",
   "url": "http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png",
-  "width": 495,
 }
 `;
 
@@ -1140,18 +1126,7 @@ Object {
 
 exports[`unfurl http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf 1`] = `
 Object {
-  "author": undefined,
-  "creator": Object {
-    "name": "TeX",
-  },
-  "dateCreated": 2019-10-31T07:05:18.000Z,
-  "dateModified": 2019-10-31T07:05:18.000Z,
-  "encodingFormat": "application/pdf",
-  "headline": undefined,
-  "producer": Object {
-    "name": "MiKTeX pdfTeX-1.40.17",
-  },
-  "type": "document",
+  "type": "link",
   "url": "https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf",
 }
 `;
@@ -2422,18 +2397,17 @@ Object {
     "lensMake": undefined,
     "lensModel": "17-70mm",
     "make": "Canon",
-    "megapixels": 17.4,
     "model": "Canon EOS 700D",
     "orientation": "Horizontal (normal)",
     "software": "Adobe Photoshop Lightroom 6.1 (Windows)",
   },
-  "dateCreated": 2016-07-11T21:33:20.071Z,
-  "dateModified": 2016-07-12T01:35:24.000Z,
+  "dateCreated": 2016-07-12T04:33:20.000Z,
+  "dateModified": 2016-07-12T08:35:24.000Z,
   "encodingFormat": "image/jpeg",
-  "height": 5110,
+  "height": undefined,
   "type": "image",
   "url": "https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg",
-  "width": 3407,
+  "width": undefined,
 }
 `;
 
@@ -2443,7 +2417,6 @@ Object {
     "lensMake": "Apple",
     "lensModel": "iPhone 5 back camera 4.12mm f/2.4",
     "make": undefined,
-    "megapixels": 6,
     "model": undefined,
     "orientation": "Horizontal (normal)",
     "software": "Instagram",
@@ -2451,29 +2424,16 @@ Object {
   "dateCreated": undefined,
   "dateModified": undefined,
   "encodingFormat": "image/jpeg",
-  "height": 2448,
+  "height": undefined,
   "type": "image",
   "url": "https://c2.staticflickr.com/4/3930/15428630771_61e9dcf6f4_o.jpg",
-  "width": 2448,
+  "width": undefined,
 }
 `;
 
 exports[`unfurl https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf 1`] = `
 Object {
-  "author": Object {
-    "name": "chenliang",
-  },
-  "creator": Object {
-    "name": "Microsoft® PowerPoint® 2013",
-  },
-  "dateCreated": 2015-03-19T19:03:50.000Z,
-  "dateModified": 2015-03-19T19:03:50.000Z,
-  "encodingFormat": "application/pdf",
-  "headline": "Attacking WebKit Applications by exploiting memory corruption bugs",
-  "producer": Object {
-    "name": "Mac OS X 10.10.2 Quartz PDFContext",
-  },
-  "type": "document",
+  "type": "link",
   "url": "https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf",
 }
 `;
@@ -4666,22 +4626,8 @@ Object {
 
 exports[`unfurl https://i.imgur.com/mvUPRyV.png 1`] = `
 Object {
-  "camera": Object {
-    "lensMake": undefined,
-    "lensModel": undefined,
-    "make": undefined,
-    "megapixels": 0.374,
-    "model": undefined,
-    "orientation": undefined,
-    "software": undefined,
-  },
-  "dateCreated": undefined,
-  "dateModified": undefined,
-  "encodingFormat": "image/png",
-  "height": 484,
   "type": "image",
   "url": "https://i.imgur.com/mvUPRyV.png",
-  "width": 773,
 }
 `;
 
@@ -6517,16 +6463,7 @@ Object {
 
 exports[`unfurl https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf 1`] = `
 Object {
-  "author": undefined,
-  "creator": undefined,
-  "dateCreated": undefined,
-  "dateModified": undefined,
-  "encodingFormat": "application/pdf",
-  "headline": undefined,
-  "producer": Object {
-    "name": "GNU Ghostscript 6.53",
-  },
-  "type": "document",
+  "type": "link",
   "url": "https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf",
 }
 `;
