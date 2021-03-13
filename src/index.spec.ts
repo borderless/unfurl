@@ -53,11 +53,15 @@ const FIXTURES = [
   "https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf",
   "http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf",
   "https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf",
-  // Images.
+  // JPEG.
   "https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg",
   "https://c2.staticflickr.com/4/3930/15428630771_61e9dcf6f4_o.jpg",
+  // PNG.
   "http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png",
   "https://i.imgur.com/mvUPRyV.png",
+  // WebP.
+  "https://www.gstatic.com/webp/gallery/1.webp",
+  "https://upload.wikimedia.org/wikipedia/commons/a/a1/Johnrogershousemay2020.webp",
   // Image pages.
   "https://www.flickr.com/photos/timdrivas/27999498362/in/explore-2016-07-05/",
   "https://www.flickr.com/photos/fabianf_/28229743586/sizes/o/",

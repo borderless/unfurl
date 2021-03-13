@@ -1,8 +1,8 @@
 import { contentType, readBuffer } from "../helpers";
 import type { Plugin, Unfurl } from "../types";
 import type { Readable } from "stream";
-
-const { parse } = require("exifr/dist/lite.umd.cjs");
+import ExifReader from "exifreader";
+import type { StringArrayTag } from "exifreader";
 
 export const plugin: Plugin = async (input, next) => {
   const { url, headers, body } = input.page;
@@ -15,41 +15,41 @@ export const plugin: Plugin = async (input, next) => {
   return next(input);
 };
 
-const EXIFR_PARSE_OPTIONS = {
-  xmp: false,
-  tiff: true,
-  exif: true,
-  ifd0: false,
-};
-
 async function image(
   url: string,
   stream: Readable,
   encodingFormat: string
 ): Promise<Unfurl> {
-  const data = await readBuffer(stream, 65536);
+  const data = await readBuffer(stream, 131072);
   try {
-    const exifData = await parse(data.buffer, EXIFR_PARSE_OPTIONS);
-    if (!exifData) return { type: "image", url };
+    const exifData = ExifReader.load(data, { expanded: true });
 
     return {
       type: "image",
       url,
-      encodingFormat,
-      dateModified: exifData.ModifyDate,
-      dateCreated: exifData.DateTimeOriginal || exifData.CreateDate,
-      width: exifData.ImageWidth,
-      height: exifData.ImageHeight,
+      encodingFormat: exifData.xmp?.format?.value ?? encodingFormat,
+      dateModified: date(exifData.xmp?.ModifyDate?.value),
+      dateCreated:
+        date(exifData.xmp?.DateCreated?.value) ??
+        date(exifData.xmp?.CreateDate?.value),
+      width: (exifData.file ?? exifData.pngFile)?.["Image Width"]?.value,
+      height: (exifData.file ?? exifData.pngFile)?.["Image Height"]?.value,
       camera: {
-        make: exifData.Make,
-        model: exifData.Model,
-        lensMake: exifData.LensMake,
-        lensModel: exifData.LensModel,
-        software: exifData.Software,
-        orientation: exifData.Orientation,
+        make: exifData.exif?.Make?.description,
+        model: exifData.exif?.Model?.description,
+        lensMake: (exifData.exif as Record<string, StringArrayTag>)?.LensMake
+          ?.description,
+        lensModel: (exifData.exif as Record<string, StringArrayTag>)?.LensModel
+          ?.description,
+        software: exifData.exif?.Software?.description,
+        orientation: exifData.exif?.Orientation?.description,
       },
     };
   } catch {
     return { type: "image", url };
   }
+}
+
+function date(value: string | undefined): Date | undefined {
+  return value ? new Date(value) : undefined;
 }

@@ -607,8 +607,21 @@ Object {
 
 exports[`unfurl http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png 1`] = `
 Object {
+  "camera": Object {
+    "lensMake": undefined,
+    "lensModel": undefined,
+    "make": undefined,
+    "model": undefined,
+    "orientation": undefined,
+    "software": undefined,
+  },
+  "dateCreated": undefined,
+  "dateModified": undefined,
+  "encodingFormat": "image/png",
+  "height": 341,
   "type": "image",
   "url": "http://html5doctor.com/wp-content/uploads/2011/08/rich-snippet-data2.png",
+  "width": 495,
 }
 `;
 
@@ -2398,16 +2411,16 @@ Object {
     "lensModel": "17-70mm",
     "make": "Canon",
     "model": "Canon EOS 700D",
-    "orientation": "Horizontal (normal)",
+    "orientation": "top-left",
     "software": "Adobe Photoshop Lightroom 6.1 (Windows)",
   },
-  "dateCreated": 2016-07-12T04:33:20.000Z,
-  "dateModified": 2016-07-12T08:35:24.000Z,
+  "dateCreated": 2016-07-12T04:33:20.071Z,
+  "dateModified": 2016-07-11T23:35:24.000Z,
   "encodingFormat": "image/jpeg",
-  "height": undefined,
+  "height": 5110,
   "type": "image",
   "url": "https://c1.staticflickr.com/9/8699/28229743586_cd32cea242_o.jpg",
-  "width": undefined,
+  "width": 3407,
 }
 `;
 
@@ -2418,16 +2431,16 @@ Object {
     "lensModel": "iPhone 5 back camera 4.12mm f/2.4",
     "make": undefined,
     "model": undefined,
-    "orientation": "Horizontal (normal)",
+    "orientation": "top-left",
     "software": "Instagram",
   },
   "dateCreated": undefined,
   "dateModified": undefined,
   "encodingFormat": "image/jpeg",
-  "height": undefined,
+  "height": 2448,
   "type": "image",
   "url": "https://c2.staticflickr.com/4/3930/15428630771_61e9dcf6f4_o.jpg",
-  "width": undefined,
+  "width": 2448,
 }
 `;
 
@@ -4626,8 +4639,21 @@ Object {
 
 exports[`unfurl https://i.imgur.com/mvUPRyV.png 1`] = `
 Object {
+  "camera": Object {
+    "lensMake": undefined,
+    "lensModel": undefined,
+    "make": undefined,
+    "model": undefined,
+    "orientation": undefined,
+    "software": undefined,
+  },
+  "dateCreated": undefined,
+  "dateModified": undefined,
+  "encodingFormat": "image/png",
+  "height": 484,
   "type": "image",
   "url": "https://i.imgur.com/mvUPRyV.png",
+  "width": 773,
 }
 `;
 
@@ -6461,6 +6487,13 @@ Object {
 }
 `;
 
+exports[`unfurl https://upload.wikimedia.org/wikipedia/commons/a/a1/Johnrogershousemay2020.webp 1`] = `
+Object {
+  "type": "image",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Johnrogershousemay2020.webp",
+}
+`;
+
 exports[`unfurl https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf 1`] = `
 Object {
   "type": "link",
@@ -7100,6 +7133,13 @@ Object {
   "type": "website",
   "url": "https://www.google.com/maps/place/Boba+Guys/@37.7600441,-122.4233333,17z/data=!4m5!3m4!1s0x808f7e3cfdb89265:0x8ae0820c41111f70!8m2!3d37.7600017!4d-122.4211124",
   "video": Array [],
+}
+`;
+
+exports[`unfurl https://www.gstatic.com/webp/gallery/1.webp 1`] = `
+Object {
+  "type": "image",
+  "url": "https://www.gstatic.com/webp/gallery/1.webp",
 }
 `;
 
