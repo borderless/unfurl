@@ -2,8 +2,8 @@
 
 [![NPM version][npm-image]][npm-url]
 [![NPM downloads][downloads-image]][downloads-url]
-[![Build status][travis-image]][travis-url]
-[![Test coverage][coveralls-image]][coveralls-url]
+[![Build status][build-image]][build-url]
+[![Build coverage][coverage-image]][coverage-url]
 
 > Extract rich metadata from URLs.
 
@@ -56,11 +56,11 @@ await scrape("http://example.com");
 
 Apache 2.0
 
-[npm-image]: https://img.shields.io/npm/v/@borderless/unfurl.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/@borderless/unfurl
 [npm-url]: https://npmjs.org/package/@borderless/unfurl
-[downloads-image]: https://img.shields.io/npm/dm/@borderless/unfurl.svg?style=flat
+[downloads-image]: https://img.shields.io/npm/dm/@borderless/unfurl
 [downloads-url]: https://npmjs.org/package/@borderless/unfurl
-[travis-image]: https://img.shields.io/travis/borderless/unfurl.svg?style=flat
-[travis-url]: https://travis-ci.org/borderless/unfurl
-[coveralls-image]: https://img.shields.io/coveralls/borderless/unfurl.svg?style=flat
-[coveralls-url]: https://coveralls.io/r/borderless/unfurl?branch=master
+[build-image]: https://img.shields.io/github/workflow/status/borderless/unfurl/CI/main
+[build-url]: https://github.com/borderless/unfurl/actions/workflows/ci.yml?query=branch%3Amain
+[coverage-image]: https://img.shields.io/codecov/c/gh/borderless/unfurl
+[coverage-url]: https://codecov.io/gh/borderless/unfurl
