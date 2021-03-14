@@ -1,7 +1,7 @@
 import { fetch } from "popsicle/dist/node";
 import filenamify from "filenamify";
 import { createReadStream, createWriteStream } from "fs";
-import { readFile, writeFile, mkdir, stat } from "fs/promises";
+import { promises as fs } from "fs";
 import { join } from "path";
 import { Request, RequestOptions } from "./types";
 import { urlScraper } from "./index";
@@ -186,7 +186,7 @@ describe("unfurl", function () {
 
       console.log(`Writing ${filename} with status ${res.status}...`);
 
-      await mkdir(path, { recursive: true });
+      await fs.mkdir(path, { recursive: true });
 
       const meta = {
         url: res.url,
@@ -195,7 +195,7 @@ describe("unfurl", function () {
       };
 
       // Write metadata to JSON file.
-      await writeFile(join(path, "meta.json"), JSON.stringify(meta));
+      await fs.writeFile(join(path, "meta.json"), JSON.stringify(meta));
 
       // Pipe response stream into file.
       const [a, b] = tee(res.stream());
@@ -208,17 +208,15 @@ describe("unfurl", function () {
     };
 
     try {
-      const stats = await stat(path);
+      const stats = await fs.stat(path);
 
-      if (!stats.isDirectory()) {
-        return load();
-      }
+      if (!stats.isDirectory()) return load();
     } catch {
       return load();
     }
 
     const meta = JSON.parse(
-      await readFile(join(path, "meta.json"), "utf8")
+      await fs.readFile(join(path, "meta.json"), "utf8")
     ) as { url: string; status: number; headers: Record<string, string> };
 
     return {
