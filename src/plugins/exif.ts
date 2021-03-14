@@ -51,5 +51,7 @@ async function image(
 }
 
 function date(value: string | undefined): Date | undefined {
-  return value ? new Date(value) : undefined;
+  if (!value) return;
+  if (/(?:Z|[+-]\d\d\:\d\d)$/.test(value)) return new Date(value);
+  return new Date(`${value}Z`);
 }
