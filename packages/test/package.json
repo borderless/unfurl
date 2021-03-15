@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "format": "ts-scripts format",
+    "lint": "ts-scripts lint",
+    "prepare": "ts-scripts build",
+    "specs": "ts-scripts specs",
+    "test": "ts-scripts test"
+  },
+  "files": [
+    "dist/"
+  ],
+  "dependencies": {
+    "filenamify": "^4.2.0",
+    "popsicle": "^12.1.0"
+  },
+  "devDependencies": {
+    "@borderless/unfurl": "*"
+  }
+}

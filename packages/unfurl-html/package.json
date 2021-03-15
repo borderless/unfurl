@@ -1,0 +1,55 @@
+{
+  "name": "@borderless/unfurl-html",
+  "version": "0.6.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "HTML parser plugin for unfurl",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/borderless/unfurl.git"
+  },
+  "author": {
+    "name": "Blake Embrey",
+    "email": "hello@blakeembrey.com",
+    "url": "http://blakeembrey.me"
+  },
+  "homepage": "https://github.com/borderless/unfurl",
+  "bugs": {
+    "url": "https://github.com/borderless/unfurl/issues"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "format": "ts-scripts format",
+    "lint": "ts-scripts lint",
+    "prepare": "ts-scripts build",
+    "specs": "ts-scripts specs",
+    "test": "ts-scripts test"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "html",
+    "json-ld",
+    "microdata",
+    "rich",
+    "snippet"
+  ],
+  "peerDependencies": {
+    "@borderless/unfurl": "*"
+  },
+  "dependencies": {
+    "@types/jsonld": "^1.5.5",
+    "entities": "^2.0.0",
+    "functools": "^3.4.0",
+    "htmlmetaparser": "^2.1.1",
+    "htmlparser2": "^6.0.0",
+    "iterative": "^1.9.1",
+    "jsonld": "^4.0.1"
+  },
+  "devDependencies": {
+    "test": "*"
+  }
+}

@@ -147,3 +147,78 @@ export interface ArticleEntity {
 }
 
 export type MainEntity = ArticleEntity;
+
+export interface Options {
+  request: Request;
+  plugins: Plugin[];
+}
+
+/**
+ * Wrap `scraper` by using `options.request` to make initial scrape request.
+ */
+export function urlScraper(options: Options): ScrapeUrl {
+  const scrape = scraper(options);
+
+  return async function scrapeUrl(url: string) {
+    const page = await options.request(url);
+    return scrape(page);
+  };
+}
+
+/**
+ * Scraper is composed of middleware returning a snippet.
+ */
+export function scraper(options: Options): Scrape {
+  const { request, plugins } = options;
+
+  const middleware = plugins.reduce<Next>(
+    (next, plugin) => async (x: Input) => plugin(x, next),
+    ({ page }: Input): Promise<Unfurl> => {
+      page.body.resume(); // Discard unused data.
+
+      return Promise.resolve({ type: "link", url: page.url });
+    }
+  );
+
+  return async function scrape(page: Page) {
+    const snippet: Unfurl = await middleware({ page, scrape, request });
+    page.body.destroy(); // Destroy input stream.
+    return snippet;
+  };
+}
+
+/**
+ * Extract MIME type from `content-type` headers.
+ */
+export function extractMime(contentType: string): string {
+  return contentType.split(";", 1)[0].trim().toLowerCase();
+}
+
+/**
+ * Extract `content-type` MIME type from headers.
+ */
+export function contentType(
+  headers: Record<string, string | string[] | undefined>
+): string {
+  const header = headers["content-type"];
+  return Array.isArray(header)
+    ? extractMime(header[0] ?? "")
+    : extractMime(header ?? "");
+}
+
+/**
+ * Read stream into a buffer.
+ */
+export async function readBuffer(
+  stream: Readable,
+  maxBytes = Infinity
+): Promise<Buffer> {
+  let size = 0;
+  const buf: Buffer[] = [];
+  for await (const chunk of stream) {
+    buf.push(chunk);
+    size += chunk.length;
+    if (size >= maxBytes) break;
+  }
+  return Buffer.concat(buf);
+}

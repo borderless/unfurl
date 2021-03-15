@@ -1,10 +1,9 @@
 import { exec } from "exiftool2";
-import { Plugin, Unfurl } from "../types";
-import { contentType } from "../helpers";
+import { contentType, Plugin, Unfurl } from "@borderless/unfurl";
 import { Readable } from "stream";
 import { parse } from "exif-date";
 
-export const plugin: Plugin = async (input, next) => {
+const plugin: Plugin = async (input, next) => {
   const { url, headers, body } = input.page;
   const type = contentType(headers);
 
@@ -92,3 +91,5 @@ async function extractExifData(stream: Readable) {
 function parseExifDate(value: string | undefined): Date | undefined {
   return value ? parse(value) : undefined;
 }
+
+export default plugin;

@@ -1,13 +1,14 @@
-import { Handler, Result, Alternative } from "htmlmetaparser";
+import { Handler, Result, Alternative, RdfaNode } from "htmlmetaparser";
 import { WritableStream } from "htmlparser2/lib/WritableStream";
 import { expand } from "jsonld";
 import type { Readable } from "stream";
-import type { Document, RemoteDocument } from "jsonld/jsonld-spec";
+import type { JsonLdArray, RemoteDocument } from "jsonld/jsonld-spec";
 import { memoizeOne, partial } from "functools";
 import { next, filter, map, list, flatten } from "iterative";
 import { decodeHTML } from "entities";
-import { contentType, readJson } from "../helpers";
 import {
+  contentType,
+  readBuffer,
   Plugin,
   Request,
   App,
@@ -18,7 +19,7 @@ import {
   Audio,
   Person,
   Embed,
-} from "../types";
+} from "@borderless/unfurl";
 
 declare const URL: typeof import("url").URL;
 
@@ -27,9 +28,17 @@ const CONTENT_TYPE_OEMBED = "application/json+oembed";
 const CONTENT_TYPE_JSON_LD = "application/ld+json";
 
 /**
+ * Parse readable stream into JSON.
+ */
+async function readJson(body: Readable): Promise<unknown> {
+  const data = await readBuffer(body);
+  return JSON.parse(data.toString("utf8"));
+}
+
+/**
  * Extract metadata from HTML documents.
  */
-export const plugin: Plugin = async (input, next) => {
+const plugin: Plugin = async (input, next) => {
   const { request } = input;
   const { url, status, headers, body } = input.page;
   const type = contentType(headers);
@@ -152,9 +161,7 @@ const createJsonLdLoader = memoizeOne((request: Request) => {
         contextUrl: toValue(page.headers.link),
         documentUrl: page.url,
         document:
-          typeof data === "object" && data !== null
-            ? (data as Record<string, unknown>)
-            : {},
+          typeof data === "object" && data !== null ? (data as JsonLd) : {},
       };
     }
 
@@ -168,16 +175,17 @@ const createJsonLdLoader = memoizeOne((request: Request) => {
  * Expand JSON-LD documents.
  */
 async function normalizeJsonLd(
-  data: Document | undefined,
+  data: RdfaNode[],
   url: string,
   request: Request
 ): Promise<JsonLd[] | undefined> {
   if (!data) return;
 
   const documentLoader = createJsonLdLoader(request);
-  const result = (await expand(data, { base: url, documentLoader }).catch(
-    () => undefined
-  )) as JsonLd[] | undefined;
+  const result = (await expand(data as JsonLdArray, {
+    base: url,
+    documentLoader,
+  }).catch(() => undefined)) as JsonLd[] | undefined;
   if (!result) return;
 
   const idPrefix = url.split("#", 1)[0];
@@ -1160,3 +1168,5 @@ function getEmbed(options: ExtractOptions): Embed | undefined {
     }
   }
 }
+
+export default plugin;

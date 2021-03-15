@@ -1,0 +1,68 @@
+{
+  "name": "@borderless/unfurl-exif",
+  "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "EXIF parser plugin for unfurl",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/borderless/unfurl.git"
+  },
+  "author": {
+    "name": "Blake Embrey",
+    "email": "hello@blakeembrey.com",
+    "url": "http://blakeembrey.me"
+  },
+  "homepage": "https://github.com/borderless/unfurl",
+  "bugs": {
+    "url": "https://github.com/borderless/unfurl/issues"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "format": "ts-scripts format",
+    "lint": "ts-scripts lint",
+    "prepare": "ts-scripts build",
+    "specs": "ts-scripts specs",
+    "test": "ts-scripts test"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "unfurl",
+    "exif",
+    "exifreader",
+    "js"
+  ],
+  "peerDependencies": {
+    "@borderless/unfurl": "*"
+  },
+  "dependencies": {
+    "exifreader": "^3.14.1"
+  },
+  "devDependencies": {
+    "test": "*"
+  },
+  "exifreader": {
+    "include": {
+      "exif": [
+        "Make",
+        "Model",
+        "LensMake",
+        "LensModel",
+        "Software",
+        "Orientation"
+      ],
+      "file": true,
+      "heic": true,
+      "jpeg": true,
+      "png_file": true,
+      "png": true,
+      "tiff": true,
+      "webp": true,
+      "xmp": true
+    }
+  }
+}

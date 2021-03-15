@@ -3,14 +3,12 @@ import filenamify from "filenamify";
 import { createReadStream, createWriteStream } from "fs";
 import { promises as fs } from "fs";
 import { join } from "path";
-import { Request, RequestOptions } from "./types";
-import { urlScraper } from "./index";
-import { tee } from "./helpers";
-import * as plugins from "./plugins";
+import { Readable, PassThrough } from "stream";
+import type { Request, RequestOptions } from "@borderless/unfurl";
 
-const FIXTURE_DIR = join(__dirname, "../fixtures");
+export const FIXTURE_DIR = join(__dirname, "../fixtures");
 
-const FIXTURES = [
+export const FIXTURE_URLS = [
   // Source code repository.
   "https://github.com/blakeembrey/popsicle",
   "https://github.com/moment/moment/pull/3323",
@@ -159,7 +157,17 @@ const FIXTURES = [
   "https://schema.org/docs/schema_org_rdfa.html",
 ];
 
-const buildFilename = (url: string, options: RequestOptions) => {
+/**
+ * Fork readable stream into two streams.
+ */
+export function tee(stream: Readable): [Readable, Readable] {
+  return [stream.pipe(new PassThrough()), stream.pipe(new PassThrough())];
+}
+
+/**
+ * Build file name for request caching.
+ */
+const buildFilename = (url: string, options: RequestOptions): string => {
   const params = [options.accept && `accept:${options.accept}`]
     .filter((x) => x !== undefined)
     .join(";");
@@ -169,76 +177,57 @@ const buildFilename = (url: string, options: RequestOptions) => {
   return filenamify(url);
 };
 
-describe("unfurl", function () {
-  const request: Request = async (url, options = {}) => {
-    const filename = buildFilename(url, options);
-    const path = join(FIXTURE_DIR, filename);
+export const request: Request = async (url, options = {}) => {
+  const filename = buildFilename(url, options);
+  const path = join(FIXTURE_DIR, filename);
 
-    const load = async () => {
-      console.log(`Fetching ${JSON.stringify(url)}...`);
+  const load = async () => {
+    console.log(`Fetching ${JSON.stringify(url)}...`);
 
-      const res = await fetch(url, {
-        headers: {
-          Accept: options.accept || "*/*",
-          "User-Agent": "UnfurlBot 1.0 (+https://github.com/borderless/unfurl)",
-        },
-      });
+    const res = await fetch(url, {
+      headers: {
+        Accept: options.accept || "*/*",
+        "User-Agent": "UnfurlBot 1.0 (+https://github.com/borderless/unfurl)",
+      },
+    });
 
-      console.log(`Writing ${filename} with status ${res.status}...`);
+    console.log(`Writing ${filename} with status ${res.status}...`);
 
-      await fs.mkdir(path, { recursive: true });
+    await fs.mkdir(path, { recursive: true });
 
-      const meta = {
-        url: res.url,
-        headers: res.headers.asObject(),
-        status: res.status,
-      };
-
-      // Write metadata to JSON file.
-      await fs.writeFile(join(path, "meta.json"), JSON.stringify(meta));
-
-      // Pipe response stream into file.
-      const [a, b] = tee(res.stream());
-      a.pipe(createWriteStream(join(path, "body")));
-
-      return {
-        ...meta,
-        body: b,
-      };
+    const meta = {
+      url: res.url,
+      headers: res.headers.asObject(),
+      status: res.status,
     };
 
-    try {
-      const stats = await fs.stat(path);
+    // Write metadata to JSON file.
+    await fs.writeFile(join(path, "meta.json"), JSON.stringify(meta));
 
-      if (!stats.isDirectory()) return load();
-    } catch {
-      return load();
-    }
-
-    const meta = JSON.parse(
-      await fs.readFile(join(path, "meta.json"), "utf8")
-    ) as { url: string; status: number; headers: Record<string, string> };
+    // Pipe response stream into file.
+    const [a, b] = tee(res.stream());
+    a.pipe(createWriteStream(join(path, "body")));
 
     return {
       ...meta,
-      body: createReadStream(join(path, "body")),
+      body: b,
     };
   };
 
-  beforeAll(() => {
-    jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
-  });
+  try {
+    const stats = await fs.stat(path);
 
-  const scrape = urlScraper({
-    request,
-    plugins: [plugins.htmlmetaparser, plugins.exif],
-  });
+    if (!stats.isDirectory()) return load();
+  } catch {
+    return load();
+  }
 
-  FIXTURES.forEach((fixtureUrl) => {
-    it(fixtureUrl, async () => {
-      const snippet = await scrape(fixtureUrl);
+  const meta = JSON.parse(
+    await fs.readFile(join(path, "meta.json"), "utf8")
+  ) as { url: string; status: number; headers: Record<string, string> };
 
-      expect(snippet).toMatchSnapshot();
-    });
-  });
-});
+  return {
+    ...meta,
+    body: createReadStream(join(path, "body")),
+  };
+};

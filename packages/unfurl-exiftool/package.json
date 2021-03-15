@@ -1,0 +1,50 @@
+{
+  "name": "@borderless/unfurl-exiftool",
+  "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Exiftool plugin for unfurl",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/borderless/unfurl.git"
+  },
+  "author": {
+    "name": "Blake Embrey",
+    "email": "hello@blakeembrey.com",
+    "url": "http://blakeembrey.me"
+  },
+  "homepage": "https://github.com/borderless/unfurl",
+  "bugs": {
+    "url": "https://github.com/borderless/unfurl/issues"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "format": "ts-scripts format",
+    "lint": "ts-scripts lint",
+    "prepare": "ts-scripts build",
+    "specs": "ts-scripts specs",
+    "test": "ts-scripts test"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "unfurl",
+    "exif",
+    "exiftool",
+    "image",
+    "metadata"
+  ],
+  "peerDependencies": {
+    "@borderless/unfurl": "*"
+  },
+  "dependencies": {
+    "exif-date": "^2.0.1",
+    "exiftool2": "^1.0.1"
+  },
+  "devDependencies": {
+    "test": "*"
+  }
+}

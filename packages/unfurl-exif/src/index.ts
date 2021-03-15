@@ -1,10 +1,8 @@
-import { contentType, readBuffer } from "../helpers";
-import type { Plugin, Unfurl } from "../types";
+import { contentType, Plugin, Unfurl, readBuffer } from "@borderless/unfurl";
 import type { Readable } from "stream";
 import ExifReader from "exifreader";
-import type { StringArrayTag } from "exifreader";
 
-export const plugin: Plugin = async (input, next) => {
+const plugin: Plugin = async (input, next) => {
   const { url, headers, body } = input.page;
   const encodingFormat = contentType(headers);
 
@@ -37,10 +35,8 @@ async function image(
       camera: {
         make: exifData.exif?.Make?.description,
         model: exifData.exif?.Model?.description,
-        lensMake: (exifData.exif as Record<string, StringArrayTag>)?.LensMake
-          ?.description,
-        lensModel: (exifData.exif as Record<string, StringArrayTag>)?.LensModel
-          ?.description,
+        lensMake: exifData.exif?.LensMake?.description,
+        lensModel: exifData.exif?.LensModel?.description,
         software: exifData.exif?.Software?.description,
         orientation: exifData.exif?.Orientation?.description,
       },
@@ -55,3 +51,5 @@ function date(value: string | undefined): Date | undefined {
   if (/(?:Z|[+-]\d\d\:\d\d)$/.test(value)) return new Date(value);
   return new Date(`${value}Z`);
 }
+
+export default plugin;
