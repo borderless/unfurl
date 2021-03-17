@@ -92,7 +92,7 @@ export const FIXTURE_URLS = [
   "http://store.steampowered.com/app/8930/",
   "https://itunes.apple.com/us/movie/the-avengers/id533654020",
   "http://www.mysteryranch.com/asap-pack",
-  // "http://www.bestbuy.com/site/apple-iphone-6s-64gb-space-gray-verizon-wireless/4447801.p?id=bb4447801&skuId=4447801",
+  // "https://www.bestbuy.com/site/apple-airpods-pro-white/5706659.p",
   "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8",
   "https://smile.amazon.com/gp/product/1937785734/ref=s9_qpp_gw_d99_g14_i5_r?ie=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-1&pf_rd_r=92JG667YC8526036ANPR&pf_rd_t=36701&pf_rd_p=6aad23bd-3035-4a40-b691-0eefb1a18396&pf_rd_i=desktop", // Good cross-domain redirect test.
   "https://www.airbnb.com/rooms/2250401?checkin=06%2F24%2F2016&checkout=06%2F30%2F2016&guests=1&s=eI3nl9s6",
@@ -102,6 +102,10 @@ export const FIXTURE_URLS = [
   "https://pragprog.com/book/btlang/seven-languages-in-seven-weeks",
   "https://www.battlefield.com/buy/battlefield-1",
   "https://yoast.com/wordpress/plugins/seo/",
+  // Property pages.
+  "https://www.redfin.com/CA/Oakland/2325-Valley-St-94612/unit-201/home/173701090",
+  // "https://www.zillow.com/homes/2325-Valley-St-.num.-201-Oakland,-CA,-94612_rb/2077166664_zpid/",
+  "https://www.opendoor.com/homes/21-via-hacienda-rancho-santa-margarita-ca-92688",
   // Documents.
   "https://drive.google.com/file/d/0B59Tysg-nEQZOGhsU0U5QXo0Sjg/view?usp=sharing",
   "https://docs.google.com/document/d/1GnsFxQZWERvB5A2cYnmpmNzgH_zAtUsUMQ-th1em2jQ/edit?usp=sharing",

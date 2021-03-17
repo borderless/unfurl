@@ -787,6 +787,13 @@ Object {
 }
 `;
 
+exports[`unfurl-exif should read https://www.opendoor.com/homes/21-via-hacienda-rancho-santa-margarita-ca-92688 1`] = `
+Object {
+  "type": "link",
+  "url": "https://www.opendoor.com/homes/21-via-hacienda-rancho-santa-margarita-ca-92688",
+}
+`;
+
 exports[`unfurl-exif should read https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date 1`] = `
 Object {
   "type": "link",
@@ -798,6 +805,13 @@ exports[`unfurl-exif should read https://www.reddit.com/r/news/comments/4p1enj/u
 Object {
   "type": "link",
   "url": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+}
+`;
+
+exports[`unfurl-exif should read https://www.redfin.com/CA/Oakland/2325-Valley-St-94612/unit-201/home/173701090 1`] = `
+Object {
+  "type": "link",
+  "url": "https://www.redfin.com/CA/Oakland/2325-Valley-St-94612/unit-201/home/173701090",
 }
 `;
 

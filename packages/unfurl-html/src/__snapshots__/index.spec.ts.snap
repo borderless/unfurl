@@ -7590,6 +7590,63 @@ Object {
 }
 `;
 
+exports[`unfurl-exif should read https://www.opendoor.com/homes/21-via-hacienda-rancho-santa-margarita-ca-92688 1`] = `
+Object {
+  "apps": Array [],
+  "audio": Array [],
+  "author": Object {
+    "name": undefined,
+    "twitterHandle": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": undefined,
+  "description": "Whether you’re selling or buying a home, Opendoor dramatically simplifies the process to empower you with the freedom to move.",
+  "embed": undefined,
+  "encodingFormat": "text/html",
+  "headline": "The simple way to sell or buy a home.",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://imgdrop.imgix.net/cf88fd37a91e43b0b7aafe6b076d2810.png",
+      "width": undefined,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 144,
+      "type": "image",
+      "url": "https://www.opendoor.com/apple-touch-icon-144.png",
+      "width": 144,
+    },
+  ],
+  "image": Array [
+    Object {
+      "description": undefined,
+      "encodingFormat": undefined,
+      "height": undefined,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://imgdrop.imgix.net/ced39e6b5c014c348ac1658809318882.jpg",
+      "width": undefined,
+    },
+  ],
+  "language": undefined,
+  "mainEntity": undefined,
+  "provider": Object {
+    "name": undefined,
+    "twitterHandle": undefined,
+    "url": undefined,
+  },
+  "tags": Array [
+    "{{ngMeta.keywords}}",
+  ],
+  "type": "website",
+  "url": "https://www.opendoor.com/homes/21-via-hacienda-rancho-santa-margarita-ca-92688",
+  "video": Array [],
+}
+`;
+
 exports[`unfurl-exif should read https://www.quora.com/How-do-I-impress-a-computer-programmer-on-a-date 1`] = `
 Object {
   "apps": Array [],
@@ -7756,6 +7813,109 @@ Object {
   "tags": Array [],
   "type": "website",
   "url": "https://www.reddit.com/r/news/comments/4p1enj/uk_man_tried_to_kill_trump_court_papers/",
+  "video": Array [],
+}
+`;
+
+exports[`unfurl-exif should read https://www.redfin.com/CA/Oakland/2325-Valley-St-94612/unit-201/home/173701090 1`] = `
+Object {
+  "apps": Array [
+    Object {
+      "device": "iPhone",
+      "id": "327962480",
+      "name": "Redfin Real Estate",
+      "os": "iOS",
+      "url": "redfin://home/173701090",
+    },
+    Object {
+      "device": "iPad",
+      "id": "327962480",
+      "name": "Redfin Real Estate",
+      "os": "iOS",
+      "url": "redfin://home/173701090",
+    },
+    Object {
+      "id": "327962480",
+      "name": "Redfin Real Estate",
+      "os": "iOS",
+      "url": "redfin://home/173701090",
+    },
+    Object {
+      "id": "com.redfin.android",
+      "name": "Redfin Real Estate",
+      "os": "Android",
+      "url": "https://www.redfin.com/CA/Oakland/2325-Valley-St-94612/unit-201/home/173701090",
+    },
+  ],
+  "audio": Array [],
+  "author": Object {
+    "name": "Redfin",
+    "twitterHandle": undefined,
+    "url": undefined,
+  },
+  "canonicalUrl": "https://www.redfin.com/CA/Oakland/2325-Valley-St-94612/unit-201/home/173701090",
+  "description": "(bridgeMLS, Bay East AOR, or Contra Costa AOR) For Sale: 2 beds, 2 baths ∙ 1145 sq. ft. ∙ 2325 Valley #201, Oakland, CA 94612 ∙ $999,000 ∙ MLS# 40929196 ∙ Introducing The Linden, six brand new well-appointed condominiums situated in the heart o...",
+  "embed": undefined,
+  "encodingFormat": "text/html",
+  "headline": "2325 Valley #201, Oakland, CA 94612 - 2 beds/2 baths",
+  "icon": Array [
+    Object {
+      "encodingFormat": "image/x-icon",
+      "height": undefined,
+      "type": "image",
+      "url": "https://www.redfin.com/favicon.ico?v=3",
+      "width": undefined,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": undefined,
+      "type": "image",
+      "url": "https://ssl.cdn-redfin.com/v358.0.0/images/logos/Touch-icon-60.png",
+      "width": undefined,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 76,
+      "type": "image",
+      "url": "https://ssl.cdn-redfin.com/v358.0.0/images/logos/Touch-icon-76.png",
+      "width": 76,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 120,
+      "type": "image",
+      "url": "https://ssl.cdn-redfin.com/v358.0.0/images/logos/Touch-icon-120.png",
+      "width": 120,
+    },
+    Object {
+      "encodingFormat": undefined,
+      "height": 152,
+      "type": "image",
+      "url": "https://ssl.cdn-redfin.com/v358.0.0/images/logos/Touch-icon-152.png",
+      "width": 152,
+    },
+  ],
+  "image": Array [
+    Object {
+      "description": "2325 Valley #201, Oakland, CA 94612 - 2 beds/2 baths",
+      "encodingFormat": undefined,
+      "height": 683,
+      "secureUrl": undefined,
+      "type": "image",
+      "url": "https://ssl.cdn-redfin.com/photo/10/mbpaddedwide/196/genMid.40929196_0.jpg",
+      "width": 1024,
+    },
+  ],
+  "language": undefined,
+  "mainEntity": undefined,
+  "provider": Object {
+    "name": "Redfin",
+    "twitterHandle": "redfin",
+    "url": undefined,
+  },
+  "tags": Array [],
+  "type": "website",
+  "url": "https://www.redfin.com/CA/Oakland/2325-Valley-St-94612/unit-201/home/173701090",
   "video": Array [],
 }
 `;
