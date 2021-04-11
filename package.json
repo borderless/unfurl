@@ -1,20 +1,19 @@
 {
+  "name": "unfurl",
   "private": true,
   "scripts": {
-    "specs": "lerna run specs",
-    "test": "lerna run test",
-    "format": "lerna run format",
-    "prepare": "ts-scripts install && lerna run prepare"
+    "format": "npm run format --workspaces",
+    "prepare": "ts-scripts install && npm run prepare --workspaces",
+    "specs": "npm run specs --workspaces",
+    "test": "npm run test --workspaces"
   },
   "devDependencies": {
     "@borderless/ts-scripts": "^0.2.0",
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.22",
-    "lerna": "^4.0.0",
     "typescript": "^4.1.3"
   },
   "workspaces": [
     "./packages/*"
-  ],
-  "name": "unfurl"
+  ]
 }
